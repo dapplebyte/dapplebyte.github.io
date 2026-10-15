@@ -29,7 +29,7 @@ const products = defineCollection({
     screenshotCount: z.number().default(0),
     /** Store screenshots are landscape (cropped into a wide frame) or portrait (shown side by side). */
     screenshotOrientation: z.enum(['landscape', 'portrait']).default('landscape'),
-    /** Landscape products: which screenshot the hero frame shows (1-based). The frame crops to the phone of the store template (x 154–1125, y 246–693 of 1280 × 720, see `.crop` in Base.astro), so pick a shot laid out that way. */
+    /** Landscape products: which screenshot the hero frame shows (1-based), used as the alt text index and, when products.local.json names no raw `hero` capture, as the store screenshot the frame crops to the phone of (x 154–1125, y 246–693 of 1280 × 720, see `.crop` in Base.astro). */
     heroShot: z.number().default(2),
     featuredFaq: z.array(z.string()).default([]),
     trademark: z.string().optional(),

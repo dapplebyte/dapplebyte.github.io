@@ -409,7 +409,7 @@ const accentStyle = product || accent ? productStyle({ accent: accent ?? product
     border-color: var(--product);
   }
 
-  /* Landscape store screenshots: a window onto the phone of the store template. The phone sits at
+  /* Landscape store screenshots without a raw capture: a window onto the phone of the store template. The phone sits at
      x 154–1125, y 246–693 of the 1280 × 720 image with 27 px rounded corners and no bezel: the HUD runs
      right up to the frame edge, so the window must not be inset or content is lost. It covers the frame
      with 1 px to spare for the anti-aliased edge, and its own rounded corners (as a % of each axis so they
@@ -430,6 +430,19 @@ const accentStyle = product || accent ? productStyle({ accent: accent ?? product
     height: auto;
     margin-inline-start: -15.98%;
     margin-top: -25.46%;
+  }
+  /* The raw full-screen capture (src/assets/hero), shown whole at its own shape: nothing to crop, nothing
+     to hide. Its corners are rounded here, like a phone's, over the capture's own dark pixels. */
+  .shot {
+    overflow: hidden;
+    background: var(--bg-deep);
+    border: 1px solid var(--line-2);
+    border-radius: 14px;
+  }
+  .shot img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   .shots {

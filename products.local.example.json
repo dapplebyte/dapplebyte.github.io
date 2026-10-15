@@ -1,4 +1,10 @@
 {
-  "relaypad": "/path/to/the/relaypad/android/project",
-  "gamepad-pro": { "root": "/path/to/the/gamepad-pro/android/project", "screenshots": "store/export/site" }
+  "relaypad": {
+    "root": "/path/to/the/relaypad/android/project",
+    "hero": "store/shots/02-stream.png"
+  },
+  "gamepad-pro": {
+    "root": "/path/to/the/gamepad-pro/android/project",
+    "screenshots": "store/export/site"
+  }
 }

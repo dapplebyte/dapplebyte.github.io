@@ -5,7 +5,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const steps = ['extract-store-copy.mjs', 'extract-faq.mjs', 'extract-changelog.mjs', 'extract-privacy.mjs', 'extract-screenshots.mjs'];
+const steps = ['extract-store-copy.mjs', 'extract-faq.mjs', 'extract-changelog.mjs', 'extract-privacy.mjs', 'extract-screenshots.mjs', 'extract-hero.mjs'];
 const only = process.argv.slice(2);
 
 let failed = false;

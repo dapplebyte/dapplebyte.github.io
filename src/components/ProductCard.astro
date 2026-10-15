@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets';
 import { useT } from '../i18n/t';
 import type { Product, ProductCopy } from '../lib/content';
-import { screenshot, screenshots } from '../lib/screenshots';
+import { heroShot, screenshot, screenshots } from '../lib/screenshots';
 import { productStyle } from '../lib/brand';
 
 /**
@@ -22,19 +22,26 @@ const Heading = `h${level}` as 'h2' | 'h3';
 const iconSrc = `/${product.slug}/icon.png`;
 const portrait = product.screenshotOrientation === 'portrait';
 // Portrait products: the first portrait screenshot, shown as a phone rising from the bottom of the frame.
-// Landscape products: the hero shot, cropped to the phone screen like the product page's hero.
+// Landscape products: the raw capture shown whole, like the product page's hero; without one, the hero
+// store screenshot cropped to its phone.
 const phone = portrait
   ? screenshots(product.slug, locale, product.screenshotCount)
       .map((img, i) => ({ img, index: i + 1 }))
       .find((x) => x.img.height > x.img.width)
   : undefined;
-const wide = portrait ? undefined : { img: screenshot(product.slug, locale, product.heroShot), index: product.heroShot };
+const raw = portrait ? undefined : heroShot(product.slug);
+const wide = portrait || raw ? undefined : { img: screenshot(product.slug, locale, product.heroShot), index: product.heroShot };
 const alt = (index: number) => t('product.screenshotAlt', { name: product.name, index });
 ---
 
 <article class="card" style={productStyle(product)}>
   <a class:list={['card-media', portrait ? 'portrait' : 'landscape']} href={linkTo} tabindex="-1" aria-hidden="true">
     {phone && <Image src={phone.img} alt={alt(phone.index)} widths={[240, 480]} sizes="(max-width: 860px) 50vw, 180px" loading="lazy" />}
+    {raw && (
+      <div class="shot">
+        <Image src={raw} alt={alt(product.heroShot)} widths={[480, 960]} sizes="(max-width: 860px) 90vw, 320px" loading="lazy" />
+      </div>
+    )}
     {wide?.img && (
       <div class="crop">
         <Image src={wide.img} alt={alt(wide.index)} widths={[480, 960]} sizes="(max-width: 860px) 90vw, 320px" loading="lazy" />
@@ -93,7 +100,8 @@ const alt = (index: number) => t('product.screenshotAlt', { name: product.name, 
     background: var(--bg);
     box-shadow: 0 -8px 40px color-mix(in srgb, var(--product-solid) 18%, transparent);
   }
-  .card-media.landscape .crop {
+  .card-media.landscape .crop,
+  .card-media.landscape .shot {
     position: absolute;
     inset-inline: 4.5%;
     top: 50%;

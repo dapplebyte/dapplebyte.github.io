@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets';
 import { useT } from '../i18n/t';
 import type { Product, ProductCopy } from '../lib/content';
-import { screenshot, screenshots } from '../lib/screenshots';
+import { heroShot, screenshot, screenshots } from '../lib/screenshots';
 import { productStyle } from '../lib/brand';
 
 interface Props {
@@ -34,7 +34,9 @@ const phoneShots = portrait
       .filter((x) => x.img.height > x.img.width)
       .slice(0, featured ? 3 : 2)
   : [];
-const img = portrait ? undefined : screenshot(product.slug, locale, shot);
+// Landscape products: the raw capture, shown whole. Without one, the store screenshot cropped to its phone.
+const raw = portrait ? undefined : heroShot(product.slug);
+const img = portrait || raw ? undefined : screenshot(product.slug, locale, shot);
 // On the home page the tile carries its own product's colours and display face.
 const style = linkTo ? productStyle(product) : undefined;
 ---
@@ -72,6 +74,10 @@ const style = linkTo ? productStyle(product) : undefined;
           <Image src={x.img} alt={t('product.screenshotAlt', { name: product.name, index: x.index })} widths={[240, 480]} sizes="(max-width: 860px) 33vw, 240px" loading={eager ? 'eager' : 'lazy'} />
         ))}
       </div>
+    ) : raw ? (
+      <div class="shot">
+        <Image src={raw} alt={t('product.screenshotAlt', { name: product.name, index: shot })} widths={[640, 960, 1280]} sizes="(max-width: 860px) 100vw, 640px" loading={eager ? 'eager' : 'lazy'} />
+      </div>
     ) : (
       <div class="crop">
         {img && <Image src={img} alt={t('product.screenshotAlt', { name: product.name, index: shot })} widths={[640, 960, 1280]} sizes="(max-width: 860px) 100vw, 640px" loading={eager ? 'eager' : 'lazy'} />}
@@ -102,7 +108,8 @@ const style = linkTo ? productStyle(product) : undefined;
     justify-content: center;
     background: var(--bg-deep);
   }
-  .hero-media .crop {
+  .hero-media .crop,
+  .hero-media .shot {
     margin: clamp(16px, 2.4vw, 28px);
   }
   /* Portrait screenshots side by side, each at its own 9:16 shape. When the frame would get taller than

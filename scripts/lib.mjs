@@ -7,9 +7,11 @@ export const LOCALES = JSON.parse(readFileSync(join(ROOT, 'src/i18n/locales.json
 
 /**
  * products.local.json, normalised. Each value may be a string (the project root) or an object
- * `{ "root": "...", "screenshots": "store/export/site" }` where `screenshots` is relative to the root
- * and replaces `fastlane/metadata/android` as the place to look for `<fastlane-locale>/images/phoneScreenshots`.
- * Returns `{ slug: { root, screenshots? } }`.
+ * `{ "root": "...", "screenshots": "store/export/site", "hero": "store/shots/02-stream.png" }` where
+ * `screenshots` is relative to the root and replaces `fastlane/metadata/android` as the place to look for
+ * `<fastlane-locale>/images/phoneScreenshots`, and `hero` is the raw full-screen capture (no store
+ * template around it) that the home page card and the product page hero show whole, without cropping.
+ * Returns `{ slug: { root, screenshots?, hero? } }`.
  */
 export function localProductEntries() {
   const file = join(ROOT, 'products.local.json');
@@ -21,7 +23,7 @@ export function localProductEntries() {
   const out = {};
   for (const [slug, value] of Object.entries(raw)) {
     if (typeof value === 'string') out[slug] = { root: value };
-    else if (value && typeof value.root === 'string') out[slug] = { root: value.root, screenshots: value.screenshots };
+    else if (value && typeof value.root === 'string') out[slug] = { root: value.root, screenshots: value.screenshots, hero: value.hero };
     else console.warn(`[products.local] ${slug}: expected a path or { "root": "..." }, skipped`);
   }
   return out;
