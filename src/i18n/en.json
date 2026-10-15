@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Independent Android apps",
-    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls; Relaypad, a Remote Play controller and console streaming app for PS5 and PS4; and WhenDo, an AI automation and auto clicker app.",
+    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls; Relaypad, a Remote Play controller and console streaming app for PS5 and PS4; WhenDo, an AI automation and auto clicker app; and JoyLink, which turns a phone into a Bluetooth gamepad, touchpad and TV remote.",
     "appsHeading": "Apps",
     "principlesHeading": "How we work",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "Builds a whole automation from a plain-language description",
       "auto-clicker": "Auto clicker with click interval and repeat count",
       "gesture-recorder": "Records and replays taps and swipes",
-      "no-ads": "No ads"
+      "no-ads": "No ads",
+      "no-receiver": "Nothing to install on the computer or TV",
+      "bt-gamepad": "Shows up as a standard Bluetooth gamepad",
+      "touchpad-keyboard": "Touchpad, mouse and keyboard",
+      "tv-remote": "TV remote for Android TV, Google TV and Fire TV",
+      "racing-wheel": "Tilt-to-steer racing wheel",
+      "custom-layouts": "Move, resize and save control layouts"
     },
     "values": {
       "yes": "Yes",
@@ -262,7 +268,8 @@
     "home": "Home"
   },
   "trademarks": {
-    "sony": "PlayStation, PS5 and PS4 are trademarks of Sony Interactive Entertainment Inc. {name} is not affiliated with or endorsed by Sony."
+    "sony": "PlayStation, PS5 and PS4 are trademarks of Sony Interactive Entertainment Inc. {name} is not affiliated with or endorsed by Sony.",
+    "hosts": "Windows and Xbox are trademarks of Microsoft; Mac, iPhone and iPad of Apple; PlayStation of Sony Interactive Entertainment; Nintendo Switch of Nintendo; Android, Android TV and Google TV of Google; Fire TV of Amazon; Steam of Valve; Raspberry Pi of Raspberry Pi Ltd. {name} is not affiliated with or endorsed by any of them."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "How WhenDo compares with other automation apps on Android, feature by feature, facts only.",
         "vsDescription": "{name} and {other} compared on Android, feature by feature: AI task building, auto clicker, triggers, root, ads and pricing.",
         "vsIntro": "Both automate an Android phone. Here is where they differ, feature by feature."
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "Shows up as a standard Bluetooth gamepad on Windows, Mac, Linux, Android TV or another phone, with nothing to install on the other side",
+        "Touchpad, keyboard and TV remote for TV boxes and media PCs, and a tilt-to-steer racing wheel for emulators and PC sims",
+        "Free with no ads and no account. Pro is a one-time purchase, and every Pro feature can be tried once first"
+      ],
+      "faqDescription": "Answers about JoyLink: what it connects to, pairing, Windows and Steam, the touchpad and TV remote, the racing wheel, layouts and macros, Pro, and phones whose firmware blocks it.",
+      "faqNotFoundBody": "Write to us with your phone model, what you are connecting to and what happened. A person reads every message.",
+      "support": {
+        "beforeItems": [
+          "Open the FAQ. Most pairing, Windows, Steam and TV remote questions are answered there, with the same wording as in the app.",
+          "On first launch JoyLink checks whether your phone can act as a Bluetooth gamepad. If it says the phone maker has switched that off, no app can turn it back on; the FAQ explains what still works.",
+          "Note what you are connecting to (Windows, Mac, Linux, Android TV, another phone) and whether it sees the phone in its Bluetooth list. That is what we need to reproduce it."
+        ],
+        "template": {
+          "phone": "Phone model:",
+          "android": "Android version:",
+          "host": "Connecting to (Windows / Mac / Linux / Android TV / other):",
+          "seen": "The other device sees the phone in its Bluetooth list: yes / no",
+          "what": "What happened, step by step:",
+          "pro": "Pro purchase: yes / no"
+        },
+        "refundBody": "JoyLink is free to install. If you bought Pro and it doesn't work with your setup, email us within 7 days of the purchase and we'll refund it. Tell us what you tried; it helps us fix it for the next person."
+      },
+      "press": {
+        "description": "Facts, assets and a boilerplate for writing about JoyLink, the app that turns an Android phone into a Bluetooth gamepad, touchpad and TV remote.",
+        "boilerplate": "JoyLink turns an Android phone into a standard Bluetooth gamepad, touchpad and TV remote for Windows, Mac, Linux, Android TV and other Android devices, with nothing to install on the other side: no receiver app, no dongle, no root. It adds a tilt-to-steer racing wheel, custom layouts, turbo and macros. It is made by DappleByte, an independent studio.",
+        "priceValue": "Free to install, no ads. Connecting, pairing and the standard gamepad are free; the touchpad, TV remote, racing wheel, custom layouts, turbo, macros and two extra themes are unlocked with a one-time Pro purchase. There is no subscription. The current price is shown on Google Play.",
+        "assetScreenshots": "Screenshots, 1920 × 1080 PNG, English"
+      },
+      "videosDescription": "Short videos showing JoyLink on a real phone: pairing with a PC or TV, the gamepad in a game, the touchpad and TV remote, and the racing wheel.",
+      "privacyDescription": "What JoyLink for Android does with your data: no account, no server of ours, inputs that travel only over Bluetooth to the device you paired with, what the Nearby devices permission is for, and what the analytics collect.",
+      "compare": {
+        "description": "How JoyLink compares with other apps that turn a phone into a controller for a computer or TV, feature by feature, facts only.",
+        "vsDescription": "{name} and {other} compared on Android, feature by feature: receiver app, Bluetooth gamepad, touchpad and TV remote, racing wheel, root, ads and pricing.",
+        "vsIntro": "Both turn an Android phone into a controller for a computer or TV. Here is where they differ, feature by feature."
       }
     }
   }

@@ -1,0 +1,297 @@
+{
+  "slug": "joylink",
+  "locale": "pt-br",
+  "title": "Perguntas frequentes",
+  "intro": "As dúvidas que mais chegam e o que fazer em cada caso. Toque em uma pergunta para abrir.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Conexão e pareamento",
+      "entries": [
+        {
+          "id": "supported_hosts",
+          "q": "A que o JoyLink consegue se conectar?",
+          "a": [
+            "Windows 10 e 11, macOS, Linux e Raspberry Pi, Android TV, Google TV, Fire TV e aparelhos de streaming, smart TVs que aceitem controle ou teclado Bluetooth, e outros celulares ou tablets Android. Não precisa instalar nada no outro aparelho. No iPhone e no iPad só funcionam o touchpad e o teclado — jogos de iOS não aceitam a entrada de controle do JoyLink."
+          ]
+        },
+        {
+          "id": "consoles",
+          "q": "Por que não conecta em PlayStation, Xbox ou Switch?",
+          "a": [
+            "Cada console bloqueia de um jeito. Os controles de Xbox usam um rádio proprietário de 2,4 GHz, não Bluetooth. Os PlayStation verificam um chip de autenticação dentro do controle. O Switch só aceita o protocolo da própria Nintendo. Nenhum app dá jeito nisso, e o JoyLink nem tenta."
+          ]
+        },
+        {
+          "id": "not_found_in_scan",
+          "q": "O outro aparelho não acha meu celular na lista de Bluetooth.",
+          "a": [
+            "No guia de pareamento, toque primeiro em “Deixar visível” — o outro aparelho só enxerga este celular enquanto a contagem regressiva estiver rolando. Ele aparece com o nome Bluetooth do próprio celular (por exemplo, “Pixel 8”), não como “JoyLink”. Deixe o JoyLink aberto na tela durante o pareamento. Se os dois já estiveram pareados antes, remova o pareamento antigo dos dois lados e comece de novo."
+          ]
+        },
+        {
+          "id": "stuck_connecting",
+          "q": "Pareou, mas fica em “Conectando…” ou nunca conecta.",
+          "a": [
+            "Confira se o outro aparelho está com o Bluetooth ligado, por perto e sem outro controle ocupando a vez. Tente iniciar a conexão pelo lado dele, tocando ali no nome do celular. Se não der, desligue e ligue o Bluetooth nos dois. Se o aparelho até vê o dispositivo mas nada acontece ao apertar os botões, veja “O aparelho não reconhece o JoyLink”."
+          ]
+        },
+        {
+          "id": "nearby_permission",
+          "q": "Por que o JoyLink precisa da permissão “Dispositivos por perto”?",
+          "a": [
+            "Do Android 12 em diante, conectar por Bluetooth entra nessa permissão. O JoyLink usa ela só para listar os dispositivos pareados e registrar o celular como controle Bluetooth. O que você aperta e digita vai por Bluetooth até o outro aparelho e não sobe para lugar nenhum."
+          ]
+        },
+        {
+          "id": "auto_reconnect",
+          "q": "Ele reconecta sozinho depois de uma queda?",
+          "a": [
+            "Sim. Tenta até três vezes, com pausas cada vez maiores, e avisa na tela inicial se não conseguir. Dá para desligar em Configurações → Conexão → Reconectar automaticamente."
+          ]
+        },
+        {
+          "id": "background_hold",
+          "q": "O JoyLink continua ocupando o Bluetooth depois que eu saio do app?",
+          "a": [
+            "Só por alguns minutos. Enquanto o JoyLink está registrado, este celular é um controle Bluetooth, e em alguns aparelhos isso impede que outros dispositivos — um fone, um relógio — se reconectem sozinhos. Por isso o registro é liberado alguns minutos depois de você sair, e volta em um ou dois segundos quando você retorna. O tempo você escolhe em Configurações → Conexão → Manter o link em segundo plano; use “Na hora” se os seus outros dispositivos precisam do Bluetooth de volta imediatamente."
+          ]
+        },
+        {
+          "id": "two_devices",
+          "q": "Dá para conectar em dois aparelhos ao mesmo tempo?",
+          "a": [
+            "Um celular se conecta a um aparelho por vez. Ao contrário funciona: dois celulares com o JoyLink podem se conectar ao mesmo computador e aparecem como dois controles separados — multiplayer local sem configurar mais nada."
+          ]
+        },
+        {
+          "id": "bt_headphones",
+          "q": "Fone Bluetooth atrapalha?",
+          "a": [
+            "Pode atrapalhar, nos dois sentidos. Em alguns celulares, tocar áudio ao mesmo tempo adiciona atraso ou engasgos na entrada do controle. Se ficar picotado, desconecte o fone ou use um com fio. O contrário também acontece: enquanto o JoyLink está registrado como controle, o fone pode não conseguir se reconectar sozinho. Ao sair do JoyLink, o Bluetooth fica livre de novo depois da espera definida em Configurações → Conexão → Manter o link em segundo plano."
+          ]
+        },
+        {
+          "id": "missing_device",
+          "q": "Um dispositivo pareado sumiu da tela inicial.",
+          "a": [
+            "Provavelmente ele foi ocultado. Isso só tira ele da lista do JoyLink; o pareamento continua nas configurações do sistema. Abra “Todos os dispositivos” na tela inicial para trazer de volta."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Controle e computadores",
+      "entries": [
+        {
+          "id": "windows_no_input",
+          "q": "O Windows vê o controle, mas o jogo ignora ou os botões estão trocados.",
+          "a": [
+            "O JoyLink é um controle genérico padrão (DirectInput), não um controle de Xbox (XInput). Jogos que só aceitam XInput precisam do Steam no meio: abra Steam → Configurações → Controle e ative o Steam Input para controles genéricos; se o jogo estiver fora do Steam, use “Adicionar um jogo não Steam” e abra por ali. Aí o Steam apresenta o controle de um jeito que o jogo entende e ainda deixa remapear qualquer botão."
+          ]
+        },
+        {
+          "id": "host_not_recognised",
+          "q": "O aparelho não reconhece o JoyLink, ou trata ele como teclado e mouse.",
+          "a": [
+            "Ligue Configurações → Conexão → Modo simples (só controle). O JoyLink passa a se anunciar puramente como controle. O link cai por um ou dois segundos e volta sozinho. Em troca: touchpad, teclado e teclas de mídia param enquanto ele estiver ligado."
+          ]
+        },
+        {
+          "id": "analog_triggers",
+          "q": "LT e RT não têm curso analógico.",
+          "a": [
+            "Por enquanto, LT e RT são botões de apertar e soltar — a opção mais compatível entre aparelhos. Para acelerador e freio progressivos, use o modo volante, em que os pedais vão como eixos analógicos."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "Como aperto L3 / R3?",
+          "a": [
+            "Ligue Configurações → Controle → Botões L3 / R3 e o layout ganha dois botões a mais. Eles funcionam como qualquer outro botão: segurou, fica apertado, então dá para correr segurando L3 enquanto empurra o analógico. Vêm desligados porque a maioria dos jogos de celular nunca usa. Os analógicos só servem para se mover — tocar em um analógico não envia nada."
+          ]
+        },
+        {
+          "id": "latency",
+          "q": "O atraso é perceptível? Como reduzir?",
+          "a": [
+            "Fica na mesma faixa de um controle Bluetooth comum, algo que quase nenhum jogo acusa. Para manter estável: fique perto do outro aparelho, desconecte dispositivos Bluetooth que não estiver usando, desligue a economia de bateria do celular e ligue Manter a tela ligada, para o sistema não limitar o app."
+          ]
+        },
+        {
+          "id": "exit_gamepad",
+          "q": "Como saio da tela do controle?",
+          "a": [
+            "Toque e segure “Segure para sair” no canto superior direito. A tela inteira é área de controle, então o toque longo evita que um encostão te jogue para fora do jogo."
+          ]
+        },
+        {
+          "id": "screen_off",
+          "q": "A tela apaga no meio do jogo.",
+          "a": [
+            "Ligue Configurações → Resposta → Manter a tela ligada. A tela fica acesa enquanto o controle estiver aberto. O volante mantém a tela ligada mesmo com essa chave desligada."
+          ]
+        },
+        {
+          "id": "hud_battery",
+          "q": "O que é o BAT no canto da tela do controle?",
+          "a": [
+            "É a bateria deste celular, não a do outro aparelho. Na tela do volante, esse mesmo canto mostra o mapeamento de eixos em uso."
+          ]
+        },
+        {
+          "id": "report_data",
+          "q": "O que faz “Mostrar dados do relatório”?",
+          "a": [
+            "É uma ajuda para diagnóstico. Ligado, a tela do controle mostra os dados crus que estão sendo enviados. Abra um site testador de controle no outro aparelho e dá para conferir, botão por botão, se cada um chega no número certo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touchpad-remote",
+      "title": "Touchpad e controle de TV",
+      "entries": [
+        {
+          "id": "wrong_characters",
+          "q": "Os caracteres que chegam não são os que eu digitei.",
+          "a": [
+            "O JoyLink envia códigos de tecla do teclado americano. Se o outro aparelho usa outro layout de teclado, alguns símbolos saem diferentes — mudar o layout dele para US resolve. Para chinês, japonês e afins, troque o método de entrada no aparelho e digite aqui a pronúncia."
+          ]
+        },
+        {
+          "id": "remote_limits",
+          "q": "O controle não liga a TV, não troca de entrada e não faz busca por voz.",
+          "a": [
+            "O Bluetooth cai assim que a TV desliga, então a tecla liga/desliga consegue desligar, mas nunca ligar. Trocar de entrada, buscar por voz e abrir um app específico dependem do protocolo da própria fabricante da TV, que o Bluetooth não carrega. TVs com controle só por infravermelho ficam totalmente fora."
+          ]
+        },
+        {
+          "id": "remote_no_response",
+          "q": "O touchpad ou as teclas do controle de TV não fazem nada, mas o controle funciona.",
+          "a": [
+            "O modo simples deve estar ligado — ele deixa só o controle. Desligue em Configurações → Conexão."
+          ]
+        },
+        {
+          "id": "ios_devices",
+          "q": "Dá para controlar um iPad ou iPhone?",
+          "a": [
+            "Com o touchpad e o teclado, dá. O iPad aceita mouse e teclado Bluetooth direto; no iPhone, ligue antes Ajustes → Acessibilidade → Toque → AssistiveTouch. O modo controle não funciona em jogos de iOS — é um limite da Apple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-modes",
+      "title": "Volante, layouts e macros",
+      "entries": [
+        {
+          "id": "wheel_no_steering",
+          "q": "O jogo não pega a direção nem os pedais.",
+          "a": [
+            "Cada jogo lê os pedais de um jeito. Toque no mapeamento na parte de baixo da tela do volante e escolha outro: Gatilhos serve para a maioria dos jogos com suporte a controle, Retrô para emuladores, e os pedais analógicos para simuladores que deixam mapear eixos (faça o bind uma vez dentro do jogo). A mesma opção está em Configurações → Volante → Mapeamento de eixos."
+          ]
+        },
+        {
+          "id": "wheel_drift",
+          "q": "O carro fica puxando para um lado.",
+          "a": [
+            "Sua pegada mudou e o centro foi junto. Toque em “Recentralizar” na tela para transformar a posição atual no novo ponto reto. Se a direção ficar sensível demais ou dura demais, ajuste o “Ângulo de esterço total” nas configurações."
+          ]
+        },
+        {
+          "id": "layout_editor",
+          "q": "Como personalizo o layout? Isso afeta os outros modos?",
+          "a": [
+            "Abra o card “Layout próprio” na tela inicial, ou segure o lápis no canto superior direito da tela do controle. Muda só a tela do controle, e dá para guardar até 8 perfis para jogos diferentes. (Pro)"
+          ]
+        },
+        {
+          "id": "ps_style",
+          "q": "Dá para usar os botões do PlayStation (△ ○ ✕ □) no lugar do ABXY?",
+          "a": [
+            "Sim, faz parte do Pro. Vá em Configurações → Controle → Estilo dos botões e escolha PlayStation: os botões frontais viram △ ○ ✕ □, os de cima viram L1 / L2 / R1 / R2, e os dois analógicos ficam embaixo, como num DualShock. Seu aparelho continua vendo um controle padrão, então os jogos seguem funcionando: △ = Y, ○ = B, ✕ = A, □ = X."
+          ]
+        },
+        {
+          "id": "macro_sticks",
+          "q": "As macros gravam os analógicos?",
+          "a": [
+            "Não. Macros reproduzem apenas botões — analógicos e direcional continuam sempre ao vivo. Nada é enviado ao outro aparelho enquanto você grava. (Pro)"
+          ]
+        },
+        {
+          "id": "turbo_rate",
+          "q": "Como mudo a velocidade do turbo?",
+          "a": [
+            "No editor de layout, toque em um botão, ligue o Turbo e ajuste a frequência. Todos os botões turbo do mesmo perfil dividem a mesma frequência. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro e compras",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "O Pro é assinatura? O que vem nele?",
+          "a": [
+            "Não — é uma compra única, para sempre. Ele libera o touchpad e o teclado, o controle de TV, o volante, os layouts próprios com vários perfis, o turbo e as macros, e os temas Aurora e Industrial. A versão gratuita mantém a conexão e o controle padrão funcionando por inteiro, sem anúncios."
+          ]
+        },
+        {
+          "id": "pro_try_once",
+          "q": "Dá para testar um recurso Pro antes de comprar?",
+          "a": [
+            "Dá. Quando um recurso Pro abrir a tela de upgrade, toque em “Testar grátis uma vez” lá embaixo. O recurso fica liberado até você fechar o app, e cada recurso pode ser testado uma vez."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Troquei de celular e o Pro sumiu.",
+          "a": [
+            "Entre no Google Play com a mesma Conta do Google usada na compra, depois abra Configurações → Pro e toque em “Restaurar compra”."
+          ]
+        },
+        {
+          "id": "purchase_failed",
+          "q": "A compra falha, ou fica em “Conectando ao Google Play”.",
+          "a": [
+            "Confirme que a Play Store abre normalmente e que o país da sua conta aceita pagamentos, e tente de novo daqui a pouco. Reembolsos saem pelo histórico de pedidos do Google Play."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "title": "Compatibilidade e suporte",
+      "entries": [
+        {
+          "id": "phone_unsupported",
+          "q": "Por que aparece que este celular não pode virar um controle?",
+          "a": [
+            "Funcionar como controle Bluetooth faz parte do Android desde a versão 9, mas cada fabricante decide se ativa, e alguns firmwares deixam desligado — nenhum app consegue devolver isso. É mais comum em modelos antigos da OnePlus e da LG, em alguns firmwares regionais e em ROMs personalizadas. O app gratuito Bluetooth HID Profile Tester testa exatamente a mesma coisa, se quiser uma segunda opinião. Depois de uma atualização do sistema, volte para a tela inicial e verifique de novo."
+          ]
+        },
+        {
+          "id": "register_blocked",
+          "q": "Aparece “Não foi possível registrar como controle”.",
+          "a": [
+            "O Android permite que apenas um app por vez seja um dispositivo de entrada Bluetooth, então provavelmente outro app de controle, teclado ou mouse está ocupando essa vaga. Feche-o e verifique de novo."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Como relato um problema ou mando uma sugestão?",
+          "a": [
+            "Configurações → Sobre → Enviar feedback. O modelo do celular e a versão do app vão anexados ao e-mail automaticamente, então dá para cruzar com o que a gente vê aqui."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

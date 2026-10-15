@@ -9,6 +9,7 @@ const SOURCE = {
   relaypad: { file: 'docs/privacy-policy.html', format: 'wrap' },
   'gamepad-pro': { file: 'docs/privacy/gamePadProV1007.html', format: 'main' },
   whendo: { file: 'app/src/main/assets/privacy-policy.html', format: 'body' },
+  joylink: { file: 'app/src/main/assets/privacy-policy.html', format: 'body' },
 };
 
 /**
@@ -40,20 +41,23 @@ function parseMain(html, contactEmail) {
 }
 
 /**
- * WhenDo's policy (the offline page the app shows): the body is everything inside <body>; the date is a
- * plain `<p>Last updated: …</p>` after the <h1>. Its <h2>s get ids from their text, its bare tables get the
- * scroll wrapper, its `highlight` boxes become the site's callouts, and every email address becomes the
+ * WhenDo's and JoyLink's policies (the offline page the app shows): the body is everything inside <body>;
+ * the date is a `<p>Last updated: …</p>` after the <h1> (JoyLink gives that <p> a class). Its <h2>s get ids
+ * from their text, its tables get the scroll wrapper (JoyLink's own `table-wrap` is replaced, bare tables
+ * are wrapped), its `highlight` boxes become the site's callouts, and every email address becomes the
  * product's `contactEmail` (the file names the developer's own mailbox).
  */
 function parseBody(html, contactEmail) {
-  const updated = html.match(/<p>\s*Last updated:\s*([^<]+)<\/p>/)?.[1]?.trim();
+  const updated = html.match(/<p(?: class="[^"]*")?>\s*Last updated:\s*([^<]+)<\/p>/)?.[1]?.trim();
   const date = updated ? new Date(`${updated} UTC`) : null;
   const effectiveDate = date && !Number.isNaN(date.getTime()) ? date.toISOString().slice(0, 10) : '';
   let body = html.match(/<body[^>]*>([\s\S]*?)<\/body>/)?.[1] ?? '';
   const used = new Set();
   body = body
     .replace(/<h1[^>]*>[\s\S]*?<\/h1>/, '')
-    .replace(/<p>\s*Last updated:[\s\S]*?<\/p>/, '')
+    .replace(/<p(?: class="[^"]*")?>\s*Last updated:[\s\S]*?<\/p>/, '')
+    .replace(/<div class="table-wrap">\s*<table>/g, '<table>')
+    .replace(/<\/table>\s*<\/div>/g, '</table>')
     .replace(/<h2>([\s\S]*?)<\/h2>/g, (_, inner) => {
       let id = slugify(inner.replace(/<[^>]+>/g, '')) || 'section';
       while (used.has(id)) id += '-2';

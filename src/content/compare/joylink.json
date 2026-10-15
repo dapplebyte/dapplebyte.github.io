@@ -1,0 +1,26 @@
+{
+  "slug": "joylink",
+  "draft": true,
+  "verifiedOn": null,
+  "competitors": [
+    { "id": "monect", "name": "Monect PC Remote", "url": "https://play.google.com/store/apps/details?id=com.monect.portable" },
+    { "id": "vb-bluetooth-keyboard", "name": "VB Bluetooth Keyboard", "url": "https://play.google.com/store/apps/details?id=com.jb.bluetoothbuttons" }
+  ],
+  "rows": [
+    { "id": "platform", "values": { "joylink": "Android 9+", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "no-receiver", "values": { "joylink": "yes", "monect": "no", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "bt-gamepad", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "touchpad-keyboard", "values": { "joylink": "yes", "monect": "yes", "vb-bluetooth-keyboard": "yes" } },
+    { "id": "tv-remote", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "racing-wheel", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "custom-layouts", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "turbo", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "macros", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "no-root", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "no-account", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "free-install", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "no-ads", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "no-subscription", "values": { "joylink": "yes", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } },
+    { "id": "pricing-model", "values": { "joylink": "free-with-pro", "monect": "unknown", "vb-bluetooth-keyboard": "unknown" } }
+  ]
+}

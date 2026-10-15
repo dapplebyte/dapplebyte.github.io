@@ -1,6 +1,6 @@
 // App FAQ → src/content/faq/<slug>/<locale>.json
 //
-// `kotlin` products (Relaypad): FaqContent.kt holds the grouping, order and ids; strings_faq.xml holds
+// `kotlin` products (Relaypad, JoyLink): FaqContent.kt holds the grouping, order and ids; strings_faq.xml holds
 // the text. The website always publishes the paid edition with nothing on sale:
 // `answer(proOffered, free, paid)` picks `paid`, and the purchase section is `faq_section_purchase_paid`.
 //
@@ -52,6 +52,27 @@ const CONFIG = {
       faq_section_copilot: 'copilot',
       faq_section_purchase_paid: 'purchase',
       faq_section_other: 'other',
+    },
+  },
+  joylink: {
+    kotlin: 'app/src/main/java/com/dylan/joylink/ui/faq/FaqContent.kt',
+    stringsFile: 'strings_faq.xml',
+    /** Section title keys in the order FaqContent.Sections lists them. */
+    order: [
+      'faq_section_connection',
+      'faq_section_gamepad',
+      'faq_section_touchpad_remote',
+      'faq_section_pro_modes',
+      'faq_section_purchase',
+      'faq_section_compat',
+    ],
+    slugs: {
+      faq_section_connection: 'connection',
+      faq_section_gamepad: 'gamepad',
+      faq_section_touchpad_remote: 'touchpad-remote',
+      faq_section_pro_modes: 'pro-modes',
+      faq_section_purchase: 'purchase',
+      faq_section_compat: 'compatibility',
     },
   },
   'gamepad-pro': {

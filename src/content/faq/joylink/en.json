@@ -1,0 +1,297 @@
+{
+  "slug": "joylink",
+  "locale": "en",
+  "title": "FAQ",
+  "intro": "The questions we get asked most, and what to do about them. Tap a question to expand it.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Connecting & pairing",
+      "entries": [
+        {
+          "id": "supported_hosts",
+          "q": "What can JoyLink connect to?",
+          "a": [
+            "Windows 10 and 11, macOS, Linux and Raspberry Pi, Android TV, Google TV, Fire TV and streaming boxes, smart TVs that accept a Bluetooth gamepad or keyboard, and other Android phones or tablets. Nothing needs to be installed on the host. On iPhone and iPad only the touchpad and keyboard work — iOS games do not accept gamepad input from JoyLink."
+          ]
+        },
+        {
+          "id": "consoles",
+          "q": "Why can't it connect to a PlayStation, Xbox or Switch?",
+          "a": [
+            "Each console blocks it in its own way. Xbox controllers use a proprietary 2.4 GHz radio rather than Bluetooth. PlayStation consoles verify an authentication chip inside the controller. Switch only accepts Nintendo's own protocol. No app can work around these, and JoyLink does not try to."
+          ]
+        },
+        {
+          "id": "not_found_in_scan",
+          "q": "The other device can't find my phone in its Bluetooth list.",
+          "a": [
+            "In the pairing guide, tap “Make discoverable” first — the host can only see this phone while the countdown is running. It shows up under the phone's own Bluetooth name (for example “Pixel 8”), not as “JoyLink”. Keep JoyLink in the foreground while pairing. If these two devices were paired before, remove the old pairing on both sides and start again."
+          ]
+        },
+        {
+          "id": "stuck_connecting",
+          "q": "Pairing worked, but it stays on “Connecting…” or never connects.",
+          "a": [
+            "Check that the host has Bluetooth on, is in range, and isn't busy with another controller. Try starting the connection from the host side by tapping the phone's name there. If that fails, turn Bluetooth off and on again on both devices. If the host does see the device but nothing happens when you press buttons, see “The host doesn't recognise JoyLink”."
+          ]
+        },
+        {
+          "id": "nearby_permission",
+          "q": "Why does JoyLink need the Nearby devices permission?",
+          "a": [
+            "Since Android 12, connecting over Bluetooth falls under this permission. JoyLink uses it only to list your paired devices and to register the phone as a Bluetooth gamepad. Your button presses and typing travel over Bluetooth to the host and are never uploaded anywhere."
+          ]
+        },
+        {
+          "id": "auto_reconnect",
+          "q": "Does it reconnect after a dropout?",
+          "a": [
+            "Yes. It retries up to three times with growing pauses, and tells you on the home screen if that fails. You can switch this off under Settings → Connection → Auto reconnect."
+          ]
+        },
+        {
+          "id": "background_hold",
+          "q": "Does JoyLink keep Bluetooth busy after I leave the app?",
+          "a": [
+            "Only for a few minutes. While JoyLink is registered, the phone is a Bluetooth gamepad, and on some phones that stops other devices — headphones, a watch — from reconnecting on their own. So the registration is released a few minutes after you leave, and comes back in a second or two when you return. Choose how long under Settings → Connection → Keep link in background; pick “Right away” if your other devices need Bluetooth back immediately."
+          ]
+        },
+        {
+          "id": "two_devices",
+          "q": "Can I connect to two devices at once?",
+          "a": [
+            "One phone connects to one host at a time. The other way round works, though: two phones running JoyLink can connect to the same computer and show up as two separate gamepads — no extra setup for local multiplayer."
+          ]
+        },
+        {
+          "id": "bt_headphones",
+          "q": "Do Bluetooth headphones interfere?",
+          "a": [
+            "They can, in both directions. Streaming audio at the same time adds lag or jitter to the gamepad input on some phones — if it feels choppy, disconnect the headphones or use wired ones. The other way round happens too: while JoyLink is registered as a gamepad, headphones may refuse to reconnect on their own. Leaving JoyLink frees Bluetooth again after the wait set under Settings → Connection → Keep link in background."
+          ]
+        },
+        {
+          "id": "missing_device",
+          "q": "A paired device disappeared from the home screen.",
+          "a": [
+            "It was probably ignored. That only hides it from JoyLink's list; it stays paired in your system settings. Open All devices on the home screen to restore it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Gamepad & computers",
+      "entries": [
+        {
+          "id": "windows_no_input",
+          "q": "Windows sees the gamepad, but the game ignores it or the buttons are mixed up.",
+          "a": [
+            "JoyLink is a standard generic (DirectInput) gamepad, not an Xbox (XInput) controller. Games that only support XInput need Steam in between: open Steam → Settings → Controller and enable Steam Input for generic controllers; for a game outside Steam, use “Add a Non-Steam Game” and launch it from there. Steam then presents it as a controller the game understands, and lets you remap any button."
+          ]
+        },
+        {
+          "id": "host_not_recognised",
+          "q": "The host doesn't recognise JoyLink, or treats it as a keyboard and mouse.",
+          "a": [
+            "Turn on Settings → Connection → Simple mode (gamepad only). JoyLink then announces itself purely as a gamepad. The link drops for a second or two and comes back on its own. The trade-off: touchpad, keyboard and media keys stop working while it is on."
+          ]
+        },
+        {
+          "id": "analog_triggers",
+          "q": "LT and RT have no analogue travel.",
+          "a": [
+            "Right now LT and RT are plain press/release buttons — the most compatible option across hosts. For progressive throttle and brake, use the racing wheel mode, where the pedals are sent as analogue axes."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "How do I press L3 / R3?",
+          "a": [
+            "Turn on Settings → Gamepad → L3 / R3 buttons. Two extra buttons appear on the layout, and they work like every other button: hold one down and it stays down, so sprinting with L3 while pushing the stick works. They are off by default because most mobile games never use them. The sticks themselves only steer — tapping a stick sends nothing."
+          ]
+        },
+        {
+          "id": "latency",
+          "q": "Is the lag noticeable? How do I reduce it?",
+          "a": [
+            "It is in the same range as a regular Bluetooth controller, which most games never show. To keep it steady: stay close to the host, disconnect Bluetooth devices you are not using, turn off battery saver on the phone, and enable Keep screen on so the system doesn't throttle the app."
+          ]
+        },
+        {
+          "id": "exit_gamepad",
+          "q": "How do I leave the gamepad screen?",
+          "a": [
+            "Press and hold “Hold to exit” in the top-right corner. The whole screen is a control surface, so a long press keeps a stray tap from throwing you out of a game."
+          ]
+        },
+        {
+          "id": "screen_off",
+          "q": "The screen turns off in the middle of a game.",
+          "a": [
+            "Turn on Settings → Feedback → Keep screen on. The screen then stays awake while the gamepad is open. The racing wheel keeps the screen on regardless of this switch."
+          ]
+        },
+        {
+          "id": "hud_battery",
+          "q": "What is BAT in the corner of the gamepad screen?",
+          "a": [
+            "This phone's battery level, not the host's. On the racing wheel screen the same spot shows the axis mapping currently in use."
+          ]
+        },
+        {
+          "id": "report_data",
+          "q": "What does “Show report data” do?",
+          "a": [
+            "It is a troubleshooting aid. When on, the gamepad screen shows the raw data being sent. Open a gamepad tester web page on the host and you can check, button by button, that everything lands on the right number."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touchpad-remote",
+      "title": "Touchpad & TV remote",
+      "entries": [
+        {
+          "id": "wrong_characters",
+          "q": "The characters that arrive are not the ones I typed.",
+          "a": [
+            "JoyLink sends US keyboard key codes. If the host uses a different keyboard layout, some symbols come out differently — switching the host's layout to US fixes it. For Chinese, Japanese and similar languages, switch the input method on the host, then type the pronunciation here."
+          ]
+        },
+        {
+          "id": "remote_limits",
+          "q": "The remote can't turn the TV on, switch inputs or use voice search.",
+          "a": [
+            "Bluetooth disconnects the moment the TV powers down, so the power key can switch it off but never on. Input switching, voice search and launching a specific app all need the TV maker's own protocol, which Bluetooth cannot carry. TVs with an infrared-only remote are out of reach altogether."
+          ]
+        },
+        {
+          "id": "remote_no_response",
+          "q": "The touchpad or remote keys do nothing, but the gamepad works.",
+          "a": [
+            "Simple mode is most likely on — it keeps only the gamepad. Turn it off under Settings → Connection."
+          ]
+        },
+        {
+          "id": "ios_devices",
+          "q": "Can I control an iPad or iPhone?",
+          "a": [
+            "With the touchpad and keyboard, yes. An iPad accepts a Bluetooth mouse and keyboard directly; on an iPhone, first turn on Settings → Accessibility → Touch → AssistiveTouch. Gamepad mode is not available in iOS games — that is a limit set by Apple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-modes",
+      "title": "Racing wheel, layouts & macros",
+      "entries": [
+        {
+          "id": "wheel_no_steering",
+          "q": "The game doesn't pick up the steering or the pedals.",
+          "a": [
+            "Games read pedals in different ways. Tap the mapping chip at the bottom of the wheel screen and pick another one: Triggers suits most controller-ready games, Retro suits emulators, and the analog presets suit sims that let you assign axes (bind them once inside the game). The same choice is under Settings → Racing wheel → Axis mapping."
+          ]
+        },
+        {
+          "id": "wheel_drift",
+          "q": "The car keeps pulling to one side.",
+          "a": [
+            "Your grip has shifted and the centre drifted with it. Tap Recentre on screen to make your current position the new straight-ahead. If steering feels too sharp or too dull, adjust Full lock angle in Settings."
+          ]
+        },
+        {
+          "id": "layout_editor",
+          "q": "How do I customise the layout? Does it affect other modes?",
+          "a": [
+            "Open the Custom layout card on the home screen, or hold the pencil in the top-right corner of the gamepad screen. It only changes the gamepad screen, and you can keep up to 8 profiles for different games. (Pro)"
+          ]
+        },
+        {
+          "id": "ps_style",
+          "q": "Can I use PlayStation buttons (△ ○ ✕ □) instead of ABXY?",
+          "a": [
+            "Yes, it's part of Pro. Go to Settings → Gamepad → Button style and pick PlayStation: the face buttons become △ ○ ✕ □, the shoulders L1 / L2 / R1 / R2, and both sticks sit at the bottom like a DualShock. Your device still sees a standard gamepad, so games keep working: △ = Y, ○ = B, ✕ = A, □ = X."
+          ]
+        },
+        {
+          "id": "macro_sticks",
+          "q": "Do macros record the sticks?",
+          "a": [
+            "No. Macros replay buttons only; the sticks and D-pad always stay live. Nothing is sent to the host while you are recording. (Pro)"
+          ]
+        },
+        {
+          "id": "turbo_rate",
+          "q": "How do I change the turbo speed?",
+          "a": [
+            "In the layout editor, tap a button and switch on Turbo, then adjust the rate. All turbo buttons in the same profile share one rate. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro & purchases",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Is Pro a subscription? What's in it?",
+          "a": [
+            "No — it is a one-time purchase that lasts forever. It unlocks the touchpad and keyboard, the TV remote, the racing wheel, custom layouts with multiple profiles, turbo and macros, and the Aurora and Industrial themes. The free version keeps connecting and the standard gamepad fully working, with no ads."
+          ]
+        },
+        {
+          "id": "pro_try_once",
+          "q": "Can I try a Pro feature before buying?",
+          "a": [
+            "Yes. When a Pro feature opens the upgrade screen, tap “Try it free once” at the bottom. The feature stays unlocked until you close the app, and each feature can be tried once."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "I switched phones and Pro is gone.",
+          "a": [
+            "Sign in to Google Play with the same Google account you bought it with, then open Settings → Pro and tap Restore purchase."
+          ]
+        },
+        {
+          "id": "purchase_failed",
+          "q": "The purchase fails, or it keeps saying “Connecting to Google Play”.",
+          "a": [
+            "Make sure the Play Store opens normally and that your account's country supports payments, then try again a little later. Refunds go through your order history in Google Play."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "title": "Compatibility & support",
+      "entries": [
+        {
+          "id": "phone_unsupported",
+          "q": "Why does it say this phone can't be a gamepad?",
+          "a": [
+            "Acting as a Bluetooth gamepad has been part of Android since version 9, but each manufacturer decides whether to switch it on, and some firmware leaves it off — no app can add it back. It is most common on older OnePlus and LG models, some regional firmware and custom ROMs. The free Bluetooth HID Profile Tester app checks exactly the same thing if you want a second opinion. After a system update, go back to the home screen and check again."
+          ]
+        },
+        {
+          "id": "register_blocked",
+          "q": "It says “Can't register as a gamepad”.",
+          "a": [
+            "Android lets only one app at a time act as a Bluetooth input device, so another gamepad, keyboard or mouse app is most likely holding that slot. Close it and check again."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "How do I report a problem or suggest something?",
+          "a": [
+            "Settings → About → Send feedback. Your phone model and app version are attached to the email automatically, so we can match it to what we see on our side."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

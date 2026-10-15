@@ -1,0 +1,297 @@
+{
+  "slug": "joylink",
+  "locale": "pl",
+  "title": "Najczęstsze pytania",
+  "intro": "Pytania, które dostajemy najczęściej, i co z nimi zrobić. Dotknij pytania, aby je rozwinąć.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Łączenie i parowanie",
+      "entries": [
+        {
+          "id": "supported_hosts",
+          "q": "Z czym połączy się JoyLink?",
+          "a": [
+            "Windows 10 i 11, macOS, Linux i Raspberry Pi, Android TV, Google TV, Fire TV oraz przystawki multimedialne, telewizory Smart TV obsługujące pada lub klawiaturę Bluetooth, a także inne telefony i tablety z Androidem. Po drugiej stronie nie trzeba nic instalować. Na iPhonie i iPadzie działają tylko gładzik i klawiatura — gry na iOS nie przyjmują sygnału pada z JoyLink."
+          ]
+        },
+        {
+          "id": "consoles",
+          "q": "Dlaczego nie połączy się z PlayStation, Xboxem ani Switchem?",
+          "a": [
+            "Każda konsola blokuje to na swój sposób. Pady Xbox używają własnej łączności 2,4 GHz zamiast Bluetooth. Konsole PlayStation sprawdzają układ uwierzytelniający wbudowany w pada. Switch przyjmuje wyłącznie własny protokół Nintendo. Żadna aplikacja tego nie obejdzie, a JoyLink nawet nie próbuje."
+          ]
+        },
+        {
+          "id": "not_found_in_scan",
+          "q": "Drugie urządzenie nie widzi mojego telefonu na liście Bluetooth.",
+          "a": [
+            "W poradniku parowania dotknij najpierw „Ustaw jako widoczny” — drugie urządzenie widzi ten telefon tylko podczas odliczania. Pojawi się pod własną nazwą Bluetooth telefonu (na przykład „Pixel 8”), a nie jako „JoyLink”. Podczas parowania trzymaj JoyLink na pierwszym planie. Jeśli te dwa urządzenia były już kiedyś sparowane, usuń stare parowanie po obu stronach i zacznij od nowa."
+          ]
+        },
+        {
+          "id": "stuck_connecting",
+          "q": "Parowanie się udało, ale wszystko stoi na „Łączenie…” albo połączenia nie ma.",
+          "a": [
+            "Sprawdź, czy w drugim urządzeniu Bluetooth jest włączony, czy jest w zasięgu i czy nie jest zajęte innym padem. Spróbuj zainicjować połączenie z jego strony, dotykając tam nazwy telefonu. Jeśli to nie pomoże, wyłącz i włącz Bluetooth po obu stronach. A jeśli urządzenie widać, ale naciskanie przycisków nic nie daje, zajrzyj do „Drugie urządzenie nie rozpoznaje JoyLink”."
+          ]
+        },
+        {
+          "id": "nearby_permission",
+          "q": "Dlaczego JoyLink potrzebuje uprawnienia „Urządzenia w pobliżu”?",
+          "a": [
+            "Od Androida 12 łączenie przez Bluetooth podlega temu uprawnieniu. JoyLink używa go tylko po to, by pokazać sparowane urządzenia i zarejestrować telefon jako pada Bluetooth. Naciśnięcia przycisków i wpisywany tekst lecą przez Bluetooth do drugiego urządzenia i nigdzie nie są wysyłane dalej."
+          ]
+        },
+        {
+          "id": "auto_reconnect",
+          "q": "Czy połączy się ponownie po zerwaniu?",
+          "a": [
+            "Tak. Próbuje do trzech razy z coraz dłuższymi przerwami, a gdy się nie uda, informuje o tym na ekranie głównym. Możesz to wyłączyć w Ustawienia → Połączenie → Automatyczne łączenie."
+          ]
+        },
+        {
+          "id": "background_hold",
+          "q": "Czy JoyLink zajmuje Bluetooth po wyjściu z aplikacji?",
+          "a": [
+            "Tylko przez kilka minut. Dopóki rejestracja trwa, telefon jest padem Bluetooth, a w części modeli sprawia to, że inne urządzenia — słuchawki, zegarek — nie potrafią połączyć się same. Dlatego kilka minut po wyjściu z aplikacji rejestracja zostaje zwolniona, a po powrocie wraca w sekundę czy dwie. Czas wybierzesz w Ustawienia → Połączenie → Połączenie w tle; jeśli inne urządzenia pilnie potrzebują Bluetooth, wybierz „Od razu”."
+          ]
+        },
+        {
+          "id": "two_devices",
+          "q": "Czy mogę połączyć się z dwoma urządzeniami naraz?",
+          "a": [
+            "Jeden telefon łączy się z jednym urządzeniem naraz. Odwrotnie już się da: dwa telefony z JoyLink mogą połączyć się z tym samym komputerem i będą widoczne jako dwa osobne pady — gra lokalna bez żadnej dodatkowej konfiguracji."
+          ]
+        },
+        {
+          "id": "bt_headphones",
+          "q": "Czy słuchawki Bluetooth przeszkadzają?",
+          "a": [
+            "Mogą, w obie strony. W niektórych telefonach jednoczesne przesyłanie dźwięku dokłada opóźnienie albo szarpanie w sygnale pada. Jeśli sterowanie zaczyna się zacinać, rozłącz słuchawki albo weź przewodowe. Zdarza się też odwrotnie: dopóki JoyLink jest zarejestrowany jako pad, słuchawki mogą nie połączyć się same. Po wyjściu z JoyLink Bluetooth zwalnia się po czasie ustawionym w Ustawienia → Połączenie → Połączenie w tle."
+          ]
+        },
+        {
+          "id": "missing_device",
+          "q": "Sparowane urządzenie zniknęło z ekranu głównego.",
+          "a": [
+            "Pewnie zostało ukryte. To usuwa je tylko z listy w JoyLink — w ustawieniach systemu nadal jest sparowane. Otwórz „Wszystkie urządzenia” na ekranie głównym, aby je przywrócić."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Pad i komputery",
+      "entries": [
+        {
+          "id": "windows_no_input",
+          "q": "Windows widzi pada, ale gra go ignoruje albo przyciski są pomieszane.",
+          "a": [
+            "JoyLink zgłasza się jako zwykły pad ogólny (DirectInput), a nie jako kontroler Xbox (XInput). Gry obsługujące wyłącznie XInput potrzebują pośrednika w postaci Steam: otwórz Steam → Ustawienia → Kontroler i włącz Steam Input dla kontrolerów ogólnych. Grę spoza Steam dodaj przez „Dodaj grę spoza Steam” i uruchamiaj ją stamtąd. Steam poda ją wtedy grze jako kontroler, który ta rozumie, i pozwoli dowolnie zmienić przypisania przycisków."
+          ]
+        },
+        {
+          "id": "host_not_recognised",
+          "q": "Drugie urządzenie nie rozpoznaje JoyLink albo traktuje go jak klawiaturę i mysz.",
+          "a": [
+            "Włącz Ustawienia → Połączenie → Tryb prosty (tylko pad). JoyLink zgłosi się wtedy wyłącznie jako pad. Połączenie na sekundę czy dwie zniknie i wróci samo. Kosztem jest to, że gładzik, klawiatura i klawisze multimedialne przestają działać, dopóki tryb jest włączony."
+          ]
+        },
+        {
+          "id": "analog_triggers",
+          "q": "LT i RT nie mają płynnego skoku.",
+          "a": [
+            "Na razie LT i RT działają jak zwykłe przyciski wciśnij/puść — tak jest najbezpieczniej pod kątem zgodności. Płynny gaz i hamulec znajdziesz w trybie kierownicy, gdzie pedały wysyłane są jako osie analogowe."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "Jak wcisnąć L3 / R3?",
+          "a": [
+            "Włącz Ustawienia → Pad → Przyciski L3 / R3. W układzie pojawią się dwa dodatkowe przyciski, które działają jak każdy inny: przytrzymany zostaje wciśnięty, więc sprint z L3 przy jednoczesnym wychylaniu drążka działa bez problemu. Domyślnie są wyłączone, bo większość gier mobilnych z nich nie korzysta. Same drążki służą tylko do sterowania — dotknięcie drążka nie wysyła nic."
+          ]
+        },
+        {
+          "id": "latency",
+          "q": "Czy opóźnienie jest wyczuwalne? Jak je zmniejszyć?",
+          "a": [
+            "Jest podobne jak przy zwykłym padzie Bluetooth i w większości gier w ogóle nie daje o sobie znać. Żeby było stabilne: nie oddalaj się od drugiego urządzenia, rozłącz nieużywane sprzęty Bluetooth, wyłącz w telefonie oszczędzanie baterii i włącz „Nie wygaszaj ekranu”, żeby system nie ograniczał aplikacji."
+          ]
+        },
+        {
+          "id": "exit_gamepad",
+          "q": "Jak wyjść z ekranu pada?",
+          "a": [
+            "Przytrzymaj „Przytrzymaj, aby wyjść” w prawym górnym rogu. Cały ekran jest polem sterowania, więc długie przytrzymanie chroni przed wyjściem z gry przez przypadkowe dotknięcie."
+          ]
+        },
+        {
+          "id": "screen_off",
+          "q": "Ekran gaśnie w trakcie gry.",
+          "a": [
+            "Włącz Ustawienia → Reakcje → Nie wygaszaj ekranu. Ekran nie będzie wtedy gasł, dopóki pad jest otwarty. Kierownica trzyma ekran włączony niezależnie od tego przełącznika."
+          ]
+        },
+        {
+          "id": "hud_battery",
+          "q": "Co oznacza BAT w rogu ekranu pada?",
+          "a": [
+            "Poziom baterii tego telefonu, a nie drugiego urządzenia. Na ekranie kierownicy w tym samym miejscu widać aktualne przypisanie osi."
+          ]
+        },
+        {
+          "id": "report_data",
+          "q": "Do czego służy „Pokaż dane raportu”?",
+          "a": [
+            "To narzędzie do diagnostyki. Po włączeniu ekran pada pokazuje surowe dane, które są wysyłane. Otwórz na drugim urządzeniu stronę z testerem padów, a sprawdzisz przycisk po przycisku, czy każdy trafia pod właściwy numer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touchpad-remote",
+      "title": "Gładzik i pilot do TV",
+      "entries": [
+        {
+          "id": "wrong_characters",
+          "q": "Docierają inne znaki niż te, które wpisuję.",
+          "a": [
+            "JoyLink wysyła kody klawiszy układu amerykańskiego. Jeśli drugie urządzenie ma inny układ klawiatury, część znaków wyjdzie inaczej — wystarczy przełączyć tam układ na amerykański. Przy chińskim, japońskim i podobnych językach zmień metodę wprowadzania na drugim urządzeniu i wpisz tutaj wymowę."
+          ]
+        },
+        {
+          "id": "remote_limits",
+          "q": "Pilot nie włącza telewizora, nie zmienia źródła i nie obsługuje wyszukiwania głosowego.",
+          "a": [
+            "Bluetooth znika w chwili wyłączenia telewizora, więc przycisk zasilania potrafi go wyłączyć, ale nigdy włączyć. Zmiana źródła, wyszukiwanie głosowe i uruchamianie konkretnej aplikacji wymagają firmowego protokołu producenta telewizora, którego Bluetooth nie przenosi. Telewizory sterowane wyłącznie podczerwienią są całkowicie poza zasięgiem."
+          ]
+        },
+        {
+          "id": "remote_no_response",
+          "q": "Gładzik albo przyciski pilota nic nie robią, ale pad działa.",
+          "a": [
+            "Najpewniej włączony jest tryb prosty — zostawia on tylko pada. Wyłącz go w Ustawienia → Połączenie."
+          ]
+        },
+        {
+          "id": "ios_devices",
+          "q": "Czy mogę sterować iPadem albo iPhonem?",
+          "a": [
+            "Gładzikiem i klawiaturą tak. iPad przyjmuje mysz i klawiaturę Bluetooth od razu, a w iPhonie włącz najpierw Ustawienia → Dostępność → Dotyk → AssistiveTouch. Tryb pada w grach na iOS nie zadziała — to ograniczenie ustawione przez Apple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-modes",
+      "title": "Kierownica, układy i makra",
+      "entries": [
+        {
+          "id": "wheel_no_steering",
+          "q": "Gra nie wykrywa skrętu ani pedałów.",
+          "a": [
+            "Gry odczytują pedały na różne sposoby. Dotknij przypisania na dole ekranu kierownicy i wybierz inne: Spusty pasują do większości gier obsługujących pada, Retro do emulatorów, a pedały analogowe do symulatorów, w których możesz przypisać osie (wystarczy zrobić to raz w grze). Ten sam wybór znajdziesz w Ustawienia → Kierownica → Przypisanie osi."
+          ]
+        },
+        {
+          "id": "wheel_drift",
+          "q": "Samochód ciągle ściąga w jedną stronę.",
+          "a": [
+            "Zmienił się chwyt, a razem z nim uciekł środek. Dotknij „Wyśrodkuj” na ekranie, żeby obecne ułożenie stało się nową jazdą na wprost. Jeśli skręt jest zbyt ostry albo zbyt leniwy, zmień „Kąt pełnego skrętu” w ustawieniach."
+          ]
+        },
+        {
+          "id": "layout_editor",
+          "q": "Jak dostosować układ? Czy wpłynie to na inne tryby?",
+          "a": [
+            "Otwórz kafelek „Własny układ” na ekranie głównym albo przytrzymaj ołówek w prawym górnym rogu ekranu pada. Zmienia się tylko ekran pada, a układów pod różne gry możesz mieć do 8. (Pro)"
+          ]
+        },
+        {
+          "id": "ps_style",
+          "q": "Czy zamiast ABXY mogę używać przycisków PlayStation (△ ○ ✕ □)?",
+          "a": [
+            "Tak, to część Pro. Wejdź w Ustawienia → Pad → Styl przycisków i wybierz PlayStation: przyciski akcji zmienią się w △ ○ ✕ □, przyciski barkowe w L1 / L2 / R1 / R2, a oba drążki trafią na dół, jak w DualShocku. Drugie urządzenie nadal widzi standardowego pada, więc gry działają bez zmian: △ = Y, ○ = B, ✕ = A, □ = X."
+          ]
+        },
+        {
+          "id": "macro_sticks",
+          "q": "Czy makra nagrywają drążki?",
+          "a": [
+            "Nie. Makra odtwarzają tylko przyciski — drążki i krzyżak zawsze działają na żywo. Podczas nagrywania nic nie jest wysyłane do drugiego urządzenia. (Pro)"
+          ]
+        },
+        {
+          "id": "turbo_rate",
+          "q": "Jak zmienić szybkość turbo?",
+          "a": [
+            "W edytorze układu dotknij przycisku, włącz Turbo i ustaw częstotliwość. Wszystkie przyciski turbo w tym samym profilu mają wspólną częstotliwość. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro i zakupy",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Czy Pro to abonament? Co obejmuje?",
+          "a": [
+            "Nie — to jednorazowy zakup na zawsze. Odblokowuje gładzik i klawiaturę, pilot do TV, kierownicę, własne układy z wieloma profilami, turbo i makra oraz motywy Aurora i Industrial. W wersji darmowej łączenie i standardowy pad działają bez ograniczeń i bez reklam."
+          ]
+        },
+        {
+          "id": "pro_try_once",
+          "q": "Czy mogę wypróbować funkcję Pro przed zakupem?",
+          "a": [
+            "Tak. Gdy funkcja Pro otworzy ekran ulepszenia, dotknij na dole „Wypróbuj raz za darmo”. Funkcja zostaje odblokowana do zamknięcia aplikacji, a każdą można wypróbować raz."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Po zmianie telefonu Pro zniknęło.",
+          "a": [
+            "Zaloguj się w Google Play na to samo konto Google co przy zakupie, a potem otwórz Ustawienia → Pro i dotknij „Przywróć zakup”."
+          ]
+        },
+        {
+          "id": "purchase_failed",
+          "q": "Zakup się nie udaje albo stale widnieje „Łączenie z Google Play”.",
+          "a": [
+            "Sprawdź, czy Sklep Play otwiera się normalnie i czy kraj twojego konta obsługuje płatności, a potem spróbuj ponownie za chwilę. Zwroty załatwia się w historii zamówień w Google Play."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "title": "Zgodność i wsparcie",
+      "entries": [
+        {
+          "id": "phone_unsupported",
+          "q": "Dlaczego pojawia się informacja, że ten telefon nie może być padem?",
+          "a": [
+            "Działanie jako pad Bluetooth jest częścią Androida od wersji 9, ale to producent decyduje, czy je włączyć, i część oprogramowania ma tę funkcję wyłączoną — żadna aplikacja tego nie doda. Najczęściej dotyczy to starszych modeli OnePlus i LG, niektórych wersji regionalnych oraz niestandardowych ROM-ów. Darmowa aplikacja Bluetooth HID Profile Tester sprawdza dokładnie to samo, jeśli chcesz drugiej opinii. Po aktualizacji systemu wróć na ekran główny i sprawdź jeszcze raz."
+          ]
+        },
+        {
+          "id": "register_blocked",
+          "q": "Pojawia się „Nie udało się zarejestrować jako pad”.",
+          "a": [
+            "Android pozwala tylko jednej aplikacji naraz być urządzeniem wejściowym Bluetooth, więc najpewniej inna aplikacja pada, klawiatury lub myszy zajmuje to miejsce. Zamknij ją i sprawdź ponownie."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Jak zgłosić problem albo podsunąć pomysł?",
+          "a": [
+            "Ustawienia → Informacje → Wyślij opinię. Model telefonu i wersja aplikacji dołączą się do wiadomości automatycznie, więc od razu zestawimy je z tym, co widzimy po naszej stronie."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

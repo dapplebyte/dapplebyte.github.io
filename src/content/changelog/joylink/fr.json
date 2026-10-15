@@ -1,0 +1,16 @@
+{
+  "slug": "joylink",
+  "locale": "fr",
+  "entries": [
+    {
+      "code": 120,
+      "name": "1.2.0",
+      "date": "2026-09-15",
+      "items": [
+        "Barre d'état et barre de navigation plus nettes sur les téléphones avec navigation à 3 boutons",
+        "Amélioration des performances et de la stabilité"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

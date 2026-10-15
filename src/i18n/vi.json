@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Ứng dụng Android độc lập",
-    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; và WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker.",
+    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker; và JoyLink, ứng dụng biến điện thoại thành tay cầm Bluetooth, bàn di chuột và điều khiển TV.",
     "appsHeading": "Ứng dụng",
     "principlesHeading": "Cách chúng tôi làm việc",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "Dựng cả quy trình tự động chỉ từ một câu mô tả bằng lời thường",
       "auto-clicker": "Auto clicker chỉnh được nhịp nhấp và số lần lặp",
       "gesture-recorder": "Ghi và phát lại thao tác chạm, vuốt",
-      "no-ads": "Không quảng cáo"
+      "no-ads": "Không quảng cáo",
+      "no-receiver": "Không cần cài gì trên máy tính hay TV",
+      "bt-gamepad": "Hiện ra như tay cầm Bluetooth chuẩn",
+      "touchpad-keyboard": "Bàn di chuột, chuột và bàn phím",
+      "tv-remote": "Điều khiển TV cho Android TV, Google TV và Fire TV",
+      "racing-wheel": "Vô lăng nghiêng máy để lái",
+      "custom-layouts": "Di chuyển, đổi kích thước và lưu bố cục nút"
     },
     "values": {
       "yes": "Có",
@@ -262,7 +268,8 @@
     "home": "Trang chủ"
   },
   "trademarks": {
-    "sony": "PlayStation, PS5 và PS4 là nhãn hiệu của Sony Interactive Entertainment Inc. {name} không liên kết với Sony và không được Sony chứng thực."
+    "sony": "PlayStation, PS5 và PS4 là nhãn hiệu của Sony Interactive Entertainment Inc. {name} không liên kết với Sony và không được Sony chứng thực.",
+    "hosts": "Windows và Xbox là nhãn hiệu của Microsoft; Mac, iPhone và iPad của Apple; PlayStation của Sony Interactive Entertainment; Nintendo Switch của Nintendo; Android, Android TV và Google TV của Google; Fire TV của Amazon; Steam của Valve; Raspberry Pi của Raspberry Pi Ltd. {name} không liên kết với và không được bất kỳ công ty nào trong số này chứng thực."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "So sánh WhenDo với các ứng dụng tự động hóa khác trên Android theo từng tính năng, chỉ nêu sự thật.",
         "vsDescription": "So sánh {name} và {other} trên Android theo từng tính năng: tạo tác vụ bằng AI, auto clicker, kích hoạt, root, quảng cáo và giá.",
         "vsIntro": "Cả hai đều tự động hóa điện thoại Android. Đây là những điểm khác nhau, từng tính năng một."
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "Hiện ra như tay cầm Bluetooth chuẩn trên Windows, Mac, Linux, Android TV hay một điện thoại khác, bên kia không cần cài gì",
+        "Bàn di chuột, bàn phím và điều khiển TV cho đầu phát và máy tính nối TV, cùng vô lăng nghiêng máy để lái cho giả lập và game mô phỏng trên PC",
+        "Miễn phí, không quảng cáo, không cần tài khoản. Pro mua một lần, và mọi tính năng Pro đều dùng thử được một lần trước khi mua"
+      ],
+      "faqDescription": "Giải đáp về JoyLink: kết nối được với những gì, ghép đôi, Windows và Steam, bàn di chuột và điều khiển TV, vô lăng, bố cục và macro, Pro, và điện thoại bị firmware chặn tính năng này.",
+      "faqNotFoundBody": "Hãy viết cho chúng tôi kèm kiểu máy điện thoại, thiết bị bạn đang kết nối và chuyện gì đã xảy ra. Mọi thư đều có người thật đọc.",
+      "support": {
+        "beforeItems": [
+          "Mở FAQ trước. Phần lớn câu hỏi về ghép đôi, Windows, Steam và điều khiển TV đều đã có lời giải ở đó, dùng đúng từ ngữ như trong ứng dụng.",
+          "Ở lần mở đầu tiên, JoyLink kiểm tra xem điện thoại của bạn có làm tay cầm Bluetooth được không. Nếu ứng dụng báo hãng điện thoại đã tắt tính năng đó, không ứng dụng nào bật lại được; FAQ có giải thích những gì vẫn dùng được.",
+          "Ghi lại bạn đang kết nối với gì (Windows, Mac, Linux, Android TV, điện thoại khác) và máy đó có thấy điện thoại trong danh sách Bluetooth hay không. Đó chính là những gì chúng tôi cần để tái hiện lỗi."
+        ],
+        "template": {
+          "phone": "Kiểu máy điện thoại:",
+          "android": "Phiên bản Android:",
+          "host": "Kết nối với (Windows / Mac / Linux / Android TV / khác):",
+          "seen": "Máy bên kia thấy điện thoại trong danh sách Bluetooth: có / không",
+          "what": "Chuyện gì đã xảy ra, từng bước:",
+          "pro": "Đã mua Pro: có / không"
+        },
+        "refundBody": "JoyLink cài đặt miễn phí. Nếu bạn đã mua Pro mà nó không chạy được với thiết bị của bạn, hãy email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền. Hãy cho biết bạn đã thử những gì; điều đó giúp chúng tôi sửa lỗi cho người dùng sau."
+      },
+      "press": {
+        "description": "Thông tin, tư liệu và đoạn giới thiệu chuẩn để viết về JoyLink, ứng dụng biến điện thoại Android thành tay cầm Bluetooth, bàn di chuột và điều khiển TV.",
+        "boilerplate": "JoyLink biến điện thoại Android thành tay cầm Bluetooth, bàn di chuột và điều khiển TV chuẩn cho Windows, Mac, Linux, Android TV và các thiết bị Android khác, bên kia không cần cài gì: không ứng dụng nhận, không dongle, không root. Ứng dụng còn có vô lăng nghiêng máy để lái, bố cục riêng, bắn liên thanh và macro. JoyLink do DappleByte, một studio độc lập, phát triển.",
+        "priceValue": "Cài đặt miễn phí, không quảng cáo. Kết nối, ghép đôi và tay cầm chuẩn đều miễn phí; bàn di chuột, điều khiển TV, vô lăng, bố cục riêng, bắn liên thanh, macro và hai chủ đề bổ sung được mở khóa bằng một lần mua Pro. Không có thuê bao. Giá hiện tại hiển thị trên Google Play.",
+        "assetScreenshots": "Ảnh chụp màn hình, PNG, tiếng Anh (ngang 1920 × 1080)"
+      },
+      "videosDescription": "Video ngắn quay JoyLink trên điện thoại thật: ghép đôi với PC hoặc TV, dùng tay cầm trong game, bàn di chuột và điều khiển TV, và vô lăng.",
+      "privacyDescription": "JoyLink cho Android làm gì với dữ liệu của bạn: không cần tài khoản, không có máy chủ nào của chúng tôi, thao tác chỉ đi qua Bluetooth tới thiết bị bạn đã ghép đôi, quyền Thiết bị ở gần dùng để làm gì và phần phân tích thu thập những gì.",
+      "compare": {
+        "description": "So sánh JoyLink với các ứng dụng khác biến điện thoại thành tay cầm cho máy tính hay TV theo từng tính năng, chỉ nêu sự thật.",
+        "vsDescription": "So sánh {name} và {other} trên Android theo từng tính năng: ứng dụng nhận, tay cầm Bluetooth, bàn di chuột và điều khiển TV, vô lăng, root, quảng cáo và giá.",
+        "vsIntro": "Cả hai đều biến điện thoại Android thành tay cầm cho máy tính hay TV. Đây là những điểm khác nhau, từng tính năng một."
       }
     }
   }

@@ -1,0 +1,16 @@
+{
+  "slug": "joylink",
+  "locale": "it",
+  "entries": [
+    {
+      "code": 120,
+      "name": "1.2.0",
+      "date": "2026-09-15",
+      "items": [
+        "Barra di stato e barra di navigazione più pulite sugli smartphone con navigazione a 3 pulsanti",
+        "Miglioramenti a prestazioni e stabilità"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

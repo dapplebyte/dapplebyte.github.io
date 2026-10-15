@@ -1,0 +1,16 @@
+{
+  "slug": "joylink",
+  "locale": "pl",
+  "entries": [
+    {
+      "code": 120,
+      "name": "1.2.0",
+      "date": "2026-09-15",
+      "items": [
+        "Czytelniejszy pasek stanu i pasek nawigacji na telefonach z nawigacją przyciskami",
+        "Poprawki wydajności i stabilności"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

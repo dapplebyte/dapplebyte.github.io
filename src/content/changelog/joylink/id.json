@@ -1,0 +1,16 @@
+{
+  "slug": "joylink",
+  "locale": "id",
+  "entries": [
+    {
+      "code": 120,
+      "name": "1.2.0",
+      "date": "2026-09-15",
+      "items": [
+        "Status bar dan bilah navigasi tampil lebih rapi di ponsel dengan navigasi 3 tombol",
+        "Peningkatan performa dan stabilitas"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

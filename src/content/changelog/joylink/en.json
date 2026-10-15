@@ -1,0 +1,16 @@
+{
+  "slug": "joylink",
+  "locale": "en",
+  "entries": [
+    {
+      "code": 120,
+      "name": "1.2.0",
+      "date": "2026-09-15",
+      "items": [
+        "Cleaner status bar and navigation bar on phones using 3-button navigation",
+        "Performance and stability improvements"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

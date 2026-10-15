@@ -1,0 +1,127 @@
+{
+  "slug": "joylink",
+  "locale": "nl",
+  "title": "JoyLink: Telefoon als gamepad",
+  "shortDescription": "Bluetooth-gamepad, touchpad en tv-afstandsbediening voor PC, Mac en Android TV",
+  "tagline": "Je telefoon wordt een echte Bluetooth-gamepad — geen host-app, geen dongle, geen root",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Je telefoon wordt een echte Bluetooth-gamepad — geen host-app, geen dongle, geen root",
+      "paragraphs": [
+        "JoyLink meldt je Android-telefoon aan als standaard Bluetooth-gamepad, touchpad en tv-afstandsbediening. Koppel één keer met een Windows PC, Mac, Linux, Android TV of andere telefoon; daarna werkt hij als elke draadloze gamepad, zonder iets aan de andere kant."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Zo gebruiken mensen JoyLink het vaakst",
+      "paragraphs": [],
+      "bullets": [
+        "Emulators en Steam-games op een laptop zonder controller",
+        "Door Android TV, Google TV of Fire TV navigeren en typen op je telefoon",
+        "Gamen vanaf de bank: de pc bedienen op afstand",
+        "Retrogamen op Raspberry Pi of RetroPie zonder pad te kopen",
+        "Twee telefoons, twee spelers op één computer"
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Bluetooth-gamepad voor PC, Mac en Linux",
+      "paragraphs": [],
+      "bullets": [
+        "Indeling in Xbox-stijl: twee analoge sticks, D-pad, A B X Y, LB/RB, LT/RT, Start en Select",
+        "Standaard (DirectInput) controller voor Steam, emulators en games met generieke pads; Steam Input dekt XInput-titels",
+        "Trillen, liggend volledig scherm, lang indrukken om te stoppen — nooit per ongeluk eruit",
+        "Ingebouwde knoppentester toont wat elke knop naar de host stuurt"
+      ]
+    },
+    {
+      "id": "touchpad",
+      "title": "Touchpad, muis en toetsenbord",
+      "paragraphs": [],
+      "bullets": [
+        "Tikken, scrollen met twee vingers, rechterklik en verslepen",
+        "Typen op je telefoon — ideaal voor streamingboxen en mediapc's",
+        "Ook draadloze muis en toetsenbord voor iPad en iPhone"
+      ]
+    },
+    {
+      "id": "tv-remote",
+      "title": "Tv-afstandsbediening voor Android TV, Google TV en Fire TV",
+      "paragraphs": [],
+      "bullets": [
+        "Navigeren met de D-pad, Terug, Home, Menu en uitschakelen",
+        "Volume, dempen, afspelen/pauzeren, overslaan en kanaal +/–",
+        "Cijfertoetsen en een tekstpaneel voor zoekvelden"
+      ]
+    },
+    {
+      "id": "layouts-macros",
+      "title": "Eigen indelingen, Turbo en macro's",
+      "paragraphs": [],
+      "bullets": [
+        "Verplaats, vergroot en vervaag elke knop; tot 8 indelingen per game",
+        "Turbo (snelvuur) op elke knop; combo één keer opnemen, afspelen met één macrotoets"
+      ]
+    },
+    {
+      "id": "racing-wheel",
+      "title": "Stuur voor PC, tv en emulators: sturen door te kantelen",
+      "paragraphs": [],
+      "bullets": [
+        "Houd de telefoon liggend en kantel om te sturen — voor hosts zonder kantelscherm",
+        "Pedalen meteen op LT/RT; presets analoog, linkerstick en retro voor sims en emulators"
+      ]
+    },
+    {
+      "id": "themes",
+      "title": "Drie complete thema's",
+      "paragraphs": [
+        "HUD (esports, limoengroen), Aurora (glas en cyaan gloed), Industrial (keycaps, signaaloranje) — drie complete looks."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "long-sessions",
+      "title": "Gemaakt voor lange sessies",
+      "paragraphs": [],
+      "bullets": [
+        "Vertraging als bij een gewone Bluetooth-controller",
+        "Automatisch opnieuw verbinden als de host wegvalt, scherm aan houden tijdens spelen",
+        "19 talen en veelgestelde vragen in-app"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Altijd gratis, Pro is een eenmalige aankoop",
+      "paragraphs": [
+        "Verbinden, koppelen en de standaard gamepad zijn gratis: geen tijdslimiet, geen reclame. Pro voegt touchpad, tv-afstandsbediening, stuur, eigen indelingen, Turbo, macro's en twee thema's toe voor één bedrag — geen abonnement. Elke Pro-functie mag je één keer proberen."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy voorop",
+      "paragraphs": [
+        "JoyLink vraagt alleen ‘Apparaten in de buurt’ (Bluetooth) plus een statusmelding. Geen account, geen inloggen; wat je indrukt gaat via Bluetooth naar de host, nergens anders."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-install",
+      "title": "Voor je installeert",
+      "paragraphs": [
+        "Werkt er iets niet? Via een Play-review kunnen we niets navragen of oplossen. Mail feedback@dapplebyte.com — Instellingen → Over → Feedback sturen voegt telefoonmodel en appversie toe — en we reageren."
+      ],
+      "bullets": [
+        "PlayStation, Xbox en Nintendo Switch accepteren alleen eigen controllers; JoyLink kan geen consoles bedienen",
+        "iOS-games lezen geen generieke Bluetooth-gamepads; op iPhone en iPad is JoyLink alleen muis en toetsenbord",
+        "Werken als Bluetooth-gamepad zit in Android zelf, maar sommige fabrikanten zetten het uit in de firmware en geen app krijgt het terug; JoyLink controleert dat bij de start",
+        "Elke host wijst knoppen anders toe; knoppentester en FAQ dekken de gangbare gevallen",
+        "Het stuur is voor PC, streamingboxen en emulators: de meeste mobiele racegames nemen geen controller, en je speeltelefoon kantelt zelf al"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

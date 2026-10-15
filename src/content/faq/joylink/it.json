@@ -1,0 +1,297 @@
+{
+  "slug": "joylink",
+  "locale": "it",
+  "title": "Domande frequenti",
+  "intro": "Le domande che riceviamo più spesso e come risolverle. Tocca una domanda per aprirla.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Connessione e abbinamento",
+      "entries": [
+        {
+          "id": "supported_hosts",
+          "q": "A cosa si può collegare JoyLink?",
+          "a": [
+            "Windows 10 e 11, macOS, Linux e Raspberry Pi, Android TV, Google TV, Fire TV e box multimediali, smart TV che accettano un gamepad o una tastiera Bluetooth, e altri telefoni o tablet Android. Sull'altro dispositivo non serve installare nulla. Su iPhone e iPad funzionano solo touchpad e tastiera: i giochi iOS non accettano l'input gamepad di JoyLink."
+          ]
+        },
+        {
+          "id": "consoles",
+          "q": "Perché non si collega a PlayStation, Xbox o Switch?",
+          "a": [
+            "Ogni console lo impedisce a modo suo. I controller Xbox usano una radio proprietaria a 2,4 GHz, non il Bluetooth. Le PlayStation verificano un chip di autenticazione dentro il controller. Switch accetta solo il protocollo Nintendo. Nessuna app può aggirare queste barriere, e JoyLink non ci prova."
+          ]
+        },
+        {
+          "id": "not_found_in_scan",
+          "q": "L'altro dispositivo non trova il telefono nel suo elenco Bluetooth.",
+          "a": [
+            "Nella guida all'abbinamento tocca prima «Rendi rilevabile»: l'altro dispositivo vede questo telefono solo mentre scorre il conto alla rovescia. Compare con il nome Bluetooth del telefono stesso (per esempio «Pixel 8»), non come «JoyLink». Tieni JoyLink in primo piano durante l'abbinamento. Se i due dispositivi erano già stati abbinati, elimina il vecchio abbinamento da entrambe le parti e ricomincia."
+          ]
+        },
+        {
+          "id": "stuck_connecting",
+          "q": "L'abbinamento è riuscito, ma resta su «Connessione…» o non si collega mai.",
+          "a": [
+            "Controlla che l'altro dispositivo abbia il Bluetooth attivo, sia vicino e non sia già occupato da un altro controller. Prova ad avviare la connessione dall'altra parte, toccando lì il nome del telefono. Se non basta, spegni e riaccendi il Bluetooth su entrambi. Se il dispositivo lo vede ma non succede nulla quando premi i tasti, leggi «Il dispositivo non riconosce JoyLink»."
+          ]
+        },
+        {
+          "id": "nearby_permission",
+          "q": "Perché JoyLink chiede l'autorizzazione «Dispositivi nelle vicinanze»?",
+          "a": [
+            "Da Android 12 la connessione via Bluetooth rientra in questa autorizzazione. JoyLink la usa solo per elencare i dispositivi associati e registrare il telefono come gamepad Bluetooth. Quello che premi e digiti viaggia via Bluetooth fino all'altro dispositivo e non viene caricato da nessuna parte."
+          ]
+        },
+        {
+          "id": "auto_reconnect",
+          "q": "Si riconnette dopo una caduta?",
+          "a": [
+            "Sì. Riprova fino a tre volte con pause via via più lunghe e, se non ci riesce, te lo segnala nella schermata iniziale. Puoi disattivarlo in Impostazioni → Connessione → Riconnessione automatica."
+          ]
+        },
+        {
+          "id": "background_hold",
+          "q": "JoyLink tiene occupato il Bluetooth dopo che esco dall'app?",
+          "a": [
+            "Solo per qualche minuto. Finché JoyLink è registrato, questo telefono è un gamepad Bluetooth e su alcuni modelli questo impedisce ad altri dispositivi, come le cuffie o un orologio, di riconnettersi da soli. Per questo la registrazione viene rilasciata qualche minuto dopo che esci e torna in un secondo o due quando rientri. La durata la scegli in Impostazioni → Connessione → Mantieni il collegamento in background; metti «Subito» se ti servono gli altri dispositivi sul Bluetooth senza attese."
+          ]
+        },
+        {
+          "id": "two_devices",
+          "q": "Posso collegarmi a due dispositivi insieme?",
+          "a": [
+            "Un telefono si collega a un dispositivo per volta. Al contrario invece funziona: due telefoni con JoyLink possono collegarsi allo stesso computer e appaiono come due gamepad distinti, senza altro da impostare per il multiplayer locale."
+          ]
+        },
+        {
+          "id": "bt_headphones",
+          "q": "Le cuffie Bluetooth danno fastidio?",
+          "a": [
+            "Può capitare, in entrambe le direzioni. Su alcuni telefoni l'audio in riproduzione allo stesso tempo aggiunge ritardo o scatti all'input del gamepad. Se lo senti a singhiozzo, scollega le cuffie o usane un paio con il filo. Vale anche il contrario: finché JoyLink è registrato come gamepad, le cuffie potrebbero non riconnettersi da sole. Uscendo da JoyLink il Bluetooth si libera di nuovo, passata l'attesa impostata in Impostazioni → Connessione → Mantieni il collegamento in background."
+          ]
+        },
+        {
+          "id": "missing_device",
+          "q": "Un dispositivo associato è sparito dalla schermata iniziale.",
+          "a": [
+            "Con ogni probabilità l'hai nascosto. Questo lo toglie solo dall'elenco di JoyLink: resta associato nelle impostazioni di sistema. Apri «Tutti i dispositivi» nella schermata iniziale per ripristinarlo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Gamepad e computer",
+      "entries": [
+        {
+          "id": "windows_no_input",
+          "q": "Windows vede il gamepad, ma il gioco lo ignora o i tasti sono invertiti.",
+          "a": [
+            "JoyLink è un gamepad generico standard (DirectInput), non un controller Xbox (XInput). I giochi che supportano solo XInput hanno bisogno di Steam in mezzo: apri Steam → Impostazioni → Controller e attiva Steam Input per i controller generici; per un gioco fuori da Steam usa «Aggiungi un gioco non Steam» e avvialo da lì. Steam lo presenta così come un controller che il gioco capisce e ti lascia rimappare qualsiasi tasto."
+          ]
+        },
+        {
+          "id": "host_not_recognised",
+          "q": "Il dispositivo non riconosce JoyLink, o lo tratta come tastiera e mouse.",
+          "a": [
+            "Attiva Impostazioni → Connessione → Modalità semplice (solo gamepad). JoyLink si annuncia allora puramente come gamepad. Il collegamento cade per un secondo o due e torna da solo. In cambio, finché è attiva, touchpad, tastiera e tasti multimediali non funzionano."
+          ]
+        },
+        {
+          "id": "analog_triggers",
+          "q": "LT e RT non hanno corsa analogica.",
+          "a": [
+            "Per ora LT e RT sono semplici tasti premi/rilascia: è l'opzione più compatibile con qualsiasi dispositivo. Per acceleratore e freno progressivi usa la modalità volante, dove i pedali viaggiano come assi analogici."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "Come premo L3 / R3?",
+          "a": [
+            "Attiva Impostazioni → Gamepad → Tasti L3 / R3 e sul layout compaiono due tasti in più. Funzionano come tutti gli altri: se ne tieni premuto uno resta premuto, quindi puoi scattare con L3 mentre spingi la levetta. Sono disattivati di default perché la maggior parte dei giochi mobile non li usa mai. Le levette servono solo a muoverti: toccarle non invia nulla."
+          ]
+        },
+        {
+          "id": "latency",
+          "q": "Il ritardo si sente? Come lo riduco?",
+          "a": [
+            "Siamo nell'ordine di un normale controller Bluetooth, che quasi nessun gioco fa notare. Per tenerlo stabile: resta vicino al dispositivo, scollega i dispositivi Bluetooth che non usi, disattiva il risparmio energetico sul telefono e attiva «Tieni lo schermo acceso», così il sistema non limita l'app."
+          ]
+        },
+        {
+          "id": "exit_gamepad",
+          "q": "Come esco dalla schermata del gamepad?",
+          "a": [
+            "Premi a lungo «Tieni premuto per uscire» in alto a destra. Tutto lo schermo è una superficie di comando, quindi la pressione lunga evita che un tocco involontario ti butti fuori dal gioco."
+          ]
+        },
+        {
+          "id": "screen_off",
+          "q": "Lo schermo si spegne in mezzo alla partita.",
+          "a": [
+            "Attiva Impostazioni → Feedback → Tieni lo schermo acceso. Lo schermo resta sveglio finché il gamepad è aperto. Il volante tiene lo schermo acceso a prescindere da questa opzione."
+          ]
+        },
+        {
+          "id": "hud_battery",
+          "q": "Cos'è il BAT nell'angolo della schermata del gamepad?",
+          "a": [
+            "È la batteria di questo telefono, non quella dell'altro dispositivo. Nella schermata del volante lo stesso punto mostra l'assegnazione assi in uso."
+          ]
+        },
+        {
+          "id": "report_data",
+          "q": "A cosa serve «Mostra i dati del report»?",
+          "a": [
+            "È un aiuto per la diagnosi. Quando è attivo, la schermata del gamepad mostra i dati grezzi in uscita. Apri una pagina di test per gamepad sull'altro dispositivo e puoi verificare, tasto per tasto, che ognuno arrivi con il numero giusto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touchpad-remote",
+      "title": "Touchpad e telecomando TV",
+      "entries": [
+        {
+          "id": "wrong_characters",
+          "q": "I caratteri che arrivano non sono quelli che ho digitato.",
+          "a": [
+            "JoyLink invia i codici tasto della tastiera statunitense. Se l'altro dispositivo usa un layout diverso, alcuni simboli escono cambiati: basta impostare il layout US. Per cinese, giapponese e lingue simili, cambia il metodo di input sul dispositivo e digita qui la pronuncia."
+          ]
+        },
+        {
+          "id": "remote_limits",
+          "q": "Il telecomando non accende la TV, non cambia ingresso e non fa la ricerca vocale.",
+          "a": [
+            "Il Bluetooth cade nel momento in cui la TV si spegne, quindi il tasto di accensione può spegnerla ma non riaccenderla. Cambio ingresso, ricerca vocale e apertura di un'app specifica richiedono il protocollo del produttore della TV, che il Bluetooth non trasporta. Le TV con telecomando solo a infrarossi restano del tutto fuori portata."
+          ]
+        },
+        {
+          "id": "remote_no_response",
+          "q": "Il touchpad o i tasti del telecomando non fanno nulla, ma il gamepad funziona.",
+          "a": [
+            "Molto probabilmente è attiva la modalità semplice: lascia solo il gamepad. Disattivala in Impostazioni → Connessione."
+          ]
+        },
+        {
+          "id": "ios_devices",
+          "q": "Posso controllare un iPad o un iPhone?",
+          "a": [
+            "Con touchpad e tastiera sì. L'iPad accetta direttamente mouse e tastiera Bluetooth; sull'iPhone attiva prima Impostazioni → Accessibilità → Tocco → AssistiveTouch. La modalità gamepad non è disponibile nei giochi iOS: è un limite posto da Apple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-modes",
+      "title": "Volante, layout e macro",
+      "entries": [
+        {
+          "id": "wheel_no_steering",
+          "q": "Il gioco non rileva lo sterzo o i pedali.",
+          "a": [
+            "Ogni gioco legge i pedali a modo suo. Tocca l'assegnazione in fondo alla schermata del volante e provane un'altra: Grilletti va bene per la maggior parte dei giochi compatibili con i gamepad, Retrò per gli emulatori e i pedali analogici per i simulatori che permettono di assegnare gli assi (basta configurarli una volta dentro al gioco). La stessa scelta è in Impostazioni → Volante → Assegnazione assi."
+          ]
+        },
+        {
+          "id": "wheel_drift",
+          "q": "L'auto tira sempre da una parte.",
+          "a": [
+            "Hai cambiato presa e il centro si è spostato con te. Tocca «Ricentra» sullo schermo per rendere la posizione attuale il nuovo dritto. Se lo sterzo sembra troppo nervoso o troppo lento, regola «Angolo di sterzata massima» nelle impostazioni."
+          ]
+        },
+        {
+          "id": "layout_editor",
+          "q": "Come personalizzo il layout? Vale anche per le altre modalità?",
+          "a": [
+            "Apri la scheda «Layout su misura» nella schermata iniziale, oppure tieni premuta la matita in alto a destra nella schermata del gamepad. Cambia solo la schermata del gamepad e puoi conservare fino a 8 profili per giochi diversi. (Pro)"
+          ]
+        },
+        {
+          "id": "ps_style",
+          "q": "Posso usare i tasti PlayStation (△ ○ ✕ □) al posto di ABXY?",
+          "a": [
+            "Sì, fa parte di Pro. Vai in Impostazioni → Gamepad → Stile dei tasti e scegli PlayStation: i tasti frontali diventano △ ○ ✕ □, i dorsali L1 / L2 / R1 / R2 ed entrambe le levette si spostano in basso, come su un DualShock. Il dispositivo continua a vedere un gamepad standard, quindi i giochi funzionano lo stesso: △ = Y, ○ = B, ✕ = A, □ = X."
+          ]
+        },
+        {
+          "id": "macro_sticks",
+          "q": "Le macro registrano le levette?",
+          "a": [
+            "No. Le macro riproducono solo i tasti: levette e croce direzionale restano sempre in diretta. Mentre registri non viene inviato nulla all'altro dispositivo. (Pro)"
+          ]
+        },
+        {
+          "id": "turbo_rate",
+          "q": "Come cambio la velocità del turbo?",
+          "a": [
+            "Nell'editor del layout tocca un tasto, attiva Turbo e regola la frequenza. Tutti i tasti turbo dello stesso profilo condividono la stessa frequenza. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro e acquisti",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Pro è un abbonamento? Cosa comprende?",
+          "a": [
+            "No: è un acquisto unico che vale per sempre. Sblocca touchpad e tastiera, il telecomando TV, il volante, i layout su misura con più profili, turbo e macro, e i temi Aurora e Industrial. La versione gratuita mantiene la connessione e il gamepad standard pienamente funzionanti, senza pubblicità."
+          ]
+        },
+        {
+          "id": "pro_try_once",
+          "q": "Posso provare una funzione Pro prima di comprarla?",
+          "a": [
+            "Sì. Quando una funzione Pro apre la schermata di upgrade, tocca «Provalo gratis una volta» in basso. La funzione resta sbloccata finché non chiudi l'app, e ogni funzione si può provare una volta."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Ho cambiato telefono e Pro è sparito.",
+          "a": [
+            "Accedi a Google Play con lo stesso account Google usato per l'acquisto, poi apri Impostazioni → Pro e tocca «Ripristina acquisto»."
+          ]
+        },
+        {
+          "id": "purchase_failed",
+          "q": "L'acquisto non va a buon fine, oppure resta su «Connessione a Google Play in corso».",
+          "a": [
+            "Verifica che il Play Store si apra normalmente e che il paese del tuo account supporti i pagamenti, poi riprova tra un po'. I rimborsi si richiedono dalla cronologia ordini di Google Play."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "title": "Compatibilità e supporto",
+      "entries": [
+        {
+          "id": "phone_unsupported",
+          "q": "Perché dice che questo telefono non può fare da gamepad?",
+          "a": [
+            "Funzionare da gamepad Bluetooth fa parte di Android dalla versione 9, ma ogni produttore decide se attivarlo e alcuni firmware lo lasciano spento: nessuna app può rimetterlo. Capita soprattutto sui vecchi modelli OnePlus e LG, su alcuni firmware regionali e sulle ROM personalizzate. L'app gratuita Bluetooth HID Profile Tester verifica esattamente la stessa cosa, se vuoi una seconda opinione. Dopo un aggiornamento di sistema, torna alla schermata iniziale e prova a verificare di nuovo."
+          ]
+        },
+        {
+          "id": "register_blocked",
+          "q": "Compare «Registrazione come gamepad non riuscita».",
+          "a": [
+            "Android consente a una sola app alla volta di essere un dispositivo di input Bluetooth: molto probabilmente un'altra app di gamepad, tastiera o mouse sta occupando quel posto. Chiudila e riprova la verifica."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Come segnalo un problema o propongo un'idea?",
+          "a": [
+            "Impostazioni → Info → Invia un feedback. Modello del telefono e versione dell'app vengono allegati all'e-mail in automatico, così possiamo confrontarli con quello che vediamo da qui."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

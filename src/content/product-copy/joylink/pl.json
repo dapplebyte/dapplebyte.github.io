@@ -1,0 +1,127 @@
+{
+  "slug": "joylink",
+  "locale": "pl",
+  "title": "JoyLink: Telefon jako gamepad",
+  "shortDescription": "Gamepad Bluetooth, pad, touchpad i pilot do TV dla PC, Mac i Android TV",
+  "tagline": "Zamień telefon w prawdziwego pada Bluetooth — bez aplikacji po drugiej stronie, dongla i roota",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Zamień telefon w prawdziwego pada Bluetooth — bez aplikacji po drugiej stronie, dongla i roota",
+      "paragraphs": [
+        "JoyLink pokazuje telefon z Androidem jako standardowy gamepad Bluetooth, gładzik i pilot do TV. Sparuj go raz z Windows PC, Makiem, Linuksem, Android TV lub innym telefonem — dalej działa jak zwykły pad, a po drugiej stronie nic nie instalujesz."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Do czego najczęściej służy JoyLink",
+      "paragraphs": [],
+      "bullets": [
+        "Emulatory i gry ze Steam na laptopie bez pada",
+        "Nawigacja po Android TV, Google TV i Fire TV, pisanie klawiaturą telefonu",
+        "Granie z kanapy: komputer słucha z daleka",
+        "Retro na Raspberry Pi i RetroPie bez kupna pada",
+        "Dwa telefony, dwóch graczy przy jednym komputerze"
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Gamepad Bluetooth dla PC, Mac i Linux",
+      "paragraphs": [],
+      "bullets": [
+        "Układ w stylu Xboxa: dwa drążki analogowe, D-pad, A B X Y, LB/RB, LT/RT, Start i Select",
+        "Standardowy kontroler (DirectInput) dla Steam, emulatorów i gier ze zwykłymi padami; gry pod XInput ogarnia Steam Input",
+        "Wibracje, pełny ekran w poziomie, wyjście po przytrzymaniu — nic nie wyrzuci cię z gry",
+        "Wbudowany tester przycisków pokazuje, co trafia do drugiego urządzenia"
+      ]
+    },
+    {
+      "id": "touchpad",
+      "title": "Gładzik, mysz i klawiatura",
+      "paragraphs": [],
+      "bullets": [
+        "Dotknięcie, przewijanie dwoma palcami, prawy przycisk, przenoszenie",
+        "Pisz klawiaturą telefonu — idealne do przystawek TV i pecetów w salonie",
+        "Bezprzewodowa mysz i klawiatura też dla iPada i iPhone'a"
+      ]
+    },
+    {
+      "id": "tv-remote",
+      "title": "Pilot do TV: Android TV, Google TV i Fire TV",
+      "paragraphs": [],
+      "bullets": [
+        "Nawigacja krzyżakiem, Wstecz, Ekran główny, Menu, wyłączanie",
+        "Głośność, wyciszenie, odtwarzanie/pauza, przewijanie, zmiana kanałów",
+        "Klawiatura numeryczna i panel tekstowy do wyszukiwania"
+      ]
+    },
+    {
+      "id": "layouts-macros",
+      "title": "Własne układy, Turbo i makra",
+      "paragraphs": [],
+      "bullets": [
+        "Przesuwaj, skaluj i przyciemniaj przyciski; do 8 układów pod różne gry",
+        "Turbo (szybki ogień) na dowolnym przycisku; nagraj kombinację raz, odtwarzaj klawiszem makra"
+      ]
+    },
+    {
+      "id": "racing-wheel",
+      "title": "Kierownica do PC, TV i emulatorów: skręcanie przechyłem",
+      "paragraphs": [],
+      "bullets": [
+        "Trzymaj telefon poziomo i przechylaj, żeby skręcać — dla urządzeń bez własnego przechyłu",
+        "Pedały od razu na LT/RT; ustawienia analog, lewy drążek i retro pod symulatory i emulatory"
+      ]
+    },
+    {
+      "id": "themes",
+      "title": "Trzy kompletne motywy",
+      "paragraphs": [
+        "HUD (e-sportowa limonka), Aurora (szkło i cyjan), Industrial (keycapy i pomarańcz) — trzy pełne wyglądy."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "long-sessions",
+      "title": "Z myślą o długich sesjach",
+      "paragraphs": [],
+      "bullets": [
+        "Opóźnienie na poziomie zwykłego pada Bluetooth",
+        "Automatyczne łączenie po zerwaniu i „Nie wygaszaj ekranu” w czasie gry",
+        "19 języków i wbudowane najczęstsze pytania"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Zawsze za darmo, Pro to jednorazowy zakup",
+      "paragraphs": [
+        "Łączenie, parowanie i standardowy pad są darmowe: bez limitu czasu i reklam. Pro dodaje gładzik, pilot do TV, kierownicę, własne układy, Turbo z makrami i dwa motywy za jedną opłatę, nie abonament. Każdą funkcję Pro wypróbujesz raz przed zakupem."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Prywatność przede wszystkim",
+      "paragraphs": [
+        "JoyLink prosi tylko o „Urządzenia w pobliżu” (Bluetooth) i powiadomienie o stanie. Bez konta i logowania; to, co naciskasz, idzie przez Bluetooth do drugiego urządzenia i nigdzie więcej."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-install",
+      "title": "Zanim zainstalujesz",
+      "paragraphs": [
+        "Coś nie działa? Opinia w Play nie pozwala nam dopytać ani wysłać poprawki. Napisz na feedback@dapplebyte.com — Ustawienia → Informacje → Wyślij opinię dołącza model telefonu i wersję aplikacji — a my odpowiemy."
+      ],
+      "bullets": [
+        "PlayStation, Xbox i Nintendo Switch przyjmują tylko własne kontrolery; JoyLink nie połączy się z konsolami",
+        "Gry na iOS nie czytają zwykłych padów Bluetooth; na iPhonie i iPadzie JoyLink to tylko mysz i klawiatura",
+        "Rola pada Bluetooth jest w samym Androidzie, ale część producentów wyłącza ją w oprogramowaniu i żadna aplikacja tego nie cofnie; JoyLink sprawdza to na starcie",
+        "Każde urządzenie mapuje przyciski po swojemu; tester przycisków i FAQ obejmują typowe przypadki",
+        "Kierownica jest do PC, przystawek TV i emulatorów: większość mobilnych wyścigów nie przyjmuje padów, a telefon, na którym grasz, sam ma przechył"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

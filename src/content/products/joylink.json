@@ -1,0 +1,27 @@
+{
+  "slug": "joylink",
+  "name": "JoyLink",
+  "order": 4,
+  "status": "live",
+  "platform": "Android",
+  "applicationId": "com.dylan.dalle3.plus",
+  "playUrl": "https://play.google.com/store/apps/details?id=com.dylan.dalle3.plus",
+  "category": "UtilitiesApplication",
+  "minOs": "Android 9",
+  "versions": [
+    { "code": 120, "name": "1.2.0", "date": "2026-09-15" }
+  ],
+  "contactEmail": "feedback@dapplebyte.com",
+  "accent": { "solid": "#D9FF3D", "bright": "#E6FF66", "ink": "#0A0F00" },
+  "displayFont": "Orbitron",
+  "screenshotCount": 6,
+  "screenshotOrientation": "landscape",
+  "featuredFaq": ["supported_hosts", "consoles", "windows_no_input", "phone_unsupported", "pro_subscription", "latency"],
+  "trademark": "hosts",
+  "languages": 19,
+  "overview": {
+    "useCases": "use-cases",
+    "cells": ["pricing", "privacy", "before-you-install"],
+    "privacyLinkIn": "privacy"
+  }
+}

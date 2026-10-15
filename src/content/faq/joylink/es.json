@@ -1,0 +1,297 @@
+{
+  "slug": "joylink",
+  "locale": "es",
+  "title": "Preguntas frecuentes",
+  "intro": "Las dudas más habituales y cómo resolverlas. Toca una pregunta para desplegarla.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Conexión y emparejamiento",
+      "entries": [
+        {
+          "id": "supported_hosts",
+          "q": "¿A qué se puede conectar JoyLink?",
+          "a": [
+            "A Windows 10 y 11, macOS, Linux y Raspberry Pi, Android TV, Google TV, Fire TV y reproductores multimedia, televisores inteligentes que acepten un mando o un teclado Bluetooth, y a otros móviles o tablets Android. En el otro equipo no hay que instalar nada. En iPhone y iPad solo funcionan el panel táctil y el teclado: los juegos de iOS no aceptan la entrada de mando de JoyLink."
+          ]
+        },
+        {
+          "id": "consoles",
+          "q": "¿Por qué no se conecta a una PlayStation, una Xbox o una Switch?",
+          "a": [
+            "Cada consola lo bloquea a su manera. Los mandos de Xbox usan una radio propia de 2,4 GHz en lugar de Bluetooth. Las PlayStation verifican un chip de autenticación dentro del mando. La Switch solo acepta el protocolo de Nintendo. Ninguna app puede saltarse esto, y JoyLink ni lo intenta."
+          ]
+        },
+        {
+          "id": "not_found_in_scan",
+          "q": "El otro dispositivo no encuentra mi teléfono en su lista de Bluetooth.",
+          "a": [
+            "En la guía de emparejamiento, toca antes «Hacer visible»: el otro equipo solo ve este teléfono mientras corre la cuenta atrás. Aparece con el nombre Bluetooth del propio teléfono (por ejemplo «Pixel 8»), no como «JoyLink». Mantén JoyLink en primer plano mientras emparejas. Si los dos dispositivos ya estuvieron emparejados, elimina el emparejamiento antiguo en ambos lados y empieza de nuevo."
+          ]
+        },
+        {
+          "id": "stuck_connecting",
+          "q": "Se ha emparejado, pero se queda en «Conectando…» o no llega a conectar.",
+          "a": [
+            "Comprueba que el otro equipo tenga el Bluetooth activado, esté cerca y no esté ocupado con otro mando. Prueba a iniciar la conexión desde ese lado, tocando ahí el nombre del teléfono. Si no va, apaga y enciende el Bluetooth en los dos dispositivos. Si el equipo sí ve el dispositivo pero no pasa nada al pulsar botones, mira «El equipo no reconoce JoyLink»."
+          ]
+        },
+        {
+          "id": "nearby_permission",
+          "q": "¿Por qué necesita JoyLink el permiso «Dispositivos cercanos»?",
+          "a": [
+            "Desde Android 12, conectarse por Bluetooth entra dentro de ese permiso. JoyLink lo usa solo para mostrar tus dispositivos emparejados y registrar el teléfono como mando Bluetooth. Lo que pulsas y escribes viaja por Bluetooth hasta el otro equipo y no se sube a ningún sitio."
+          ]
+        },
+        {
+          "id": "auto_reconnect",
+          "q": "¿Se reconecta solo si se corta?",
+          "a": [
+            "Sí. Lo reintenta hasta tres veces con pausas cada vez más largas y te avisa en la pantalla de inicio si no lo consigue. Puedes desactivarlo en Ajustes → Conexión → Reconexión automática."
+          ]
+        },
+        {
+          "id": "background_hold",
+          "q": "¿JoyLink sigue ocupando el Bluetooth cuando salgo de la app?",
+          "a": [
+            "Solo unos minutos. Mientras JoyLink está registrado, este teléfono es un mando Bluetooth, y en algunos modelos eso impide que otros dispositivos, como unos auriculares o un reloj, se reconecten solos. Por eso el registro se libera unos minutos después de que salgas y vuelve en un segundo o dos cuando regresas. El tiempo lo eliges en Ajustes → Conexión → Mantener el enlace en segundo plano; pon «Al instante» si necesitas el Bluetooth libre de inmediato para tus otros dispositivos."
+          ]
+        },
+        {
+          "id": "two_devices",
+          "q": "¿Puedo conectarme a dos dispositivos a la vez?",
+          "a": [
+            "Un teléfono se conecta a un equipo cada vez. Al revés sí funciona: dos teléfonos con JoyLink pueden conectarse al mismo ordenador y aparecen como dos mandos distintos, sin nada más que configurar para jugar en local."
+          ]
+        },
+        {
+          "id": "bt_headphones",
+          "q": "¿Interfieren los auriculares Bluetooth?",
+          "a": [
+            "Pueden hacerlo, en los dos sentidos. En algunos teléfonos, reproducir audio a la vez añade retardo o tirones a la entrada del mando. Si lo notas entrecortado, desconecta los auriculares o usa unos con cable. Al revés también pasa: mientras JoyLink está registrado como mando, puede que los auriculares no se reconecten solos. Al salir de JoyLink, el Bluetooth queda libre otra vez pasada la espera que hayas fijado en Ajustes → Conexión → Mantener el enlace en segundo plano."
+          ]
+        },
+        {
+          "id": "missing_device",
+          "q": "Ha desaparecido un dispositivo emparejado de la pantalla de inicio.",
+          "a": [
+            "Seguramente lo ocultaste. Eso solo lo quita de la lista de JoyLink; sigue emparejado en los ajustes del sistema. Abre «Todos los dispositivos» en la pantalla de inicio para recuperarlo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Mando y ordenadores",
+      "entries": [
+        {
+          "id": "windows_no_input",
+          "q": "Windows ve el mando, pero el juego lo ignora o los botones están cambiados.",
+          "a": [
+            "JoyLink es un mando genérico estándar (DirectInput), no un mando de Xbox (XInput). Los juegos que solo admiten XInput necesitan a Steam de intermediario: abre Steam → Configuración → Mando y activa Steam Input para mandos genéricos; si el juego no está en Steam, añádelo con «Añadir un juego que no es de Steam» y lánzalo desde ahí. Steam lo presenta entonces como un mando que el juego entiende y te deja reasignar cualquier botón."
+          ]
+        },
+        {
+          "id": "host_not_recognised",
+          "q": "El equipo no reconoce JoyLink, o lo trata como teclado y ratón.",
+          "a": [
+            "Activa Ajustes → Conexión → Modo simple (solo mando). JoyLink se anuncia entonces únicamente como mando. El enlace se cae un par de segundos y vuelve solo. A cambio, mientras esté activo, el panel táctil, el teclado y las teclas multimedia dejan de funcionar."
+          ]
+        },
+        {
+          "id": "analog_triggers",
+          "q": "LT y RT no tienen recorrido analógico.",
+          "a": [
+            "Ahora mismo LT y RT son botones de pulsar y soltar, la opción más compatible con cualquier equipo. Para acelerador y freno progresivos, usa el modo volante: ahí los pedales se envían como ejes analógicos."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "¿Cómo pulso L3 / R3?",
+          "a": [
+            "Activa Ajustes → Mando → Botones L3 / R3 y en el diseño aparecerán dos botones más. Funcionan como cualquier otro botón: si mantienes uno pulsado, se queda pulsado, así que esprintar con L3 mientras empujas el stick no da ningún problema. Vienen desactivados porque la mayoría de los juegos de móvil nunca los usan. Los sticks solo sirven para moverte: tocar un stick no envía nada."
+          ]
+        },
+        {
+          "id": "latency",
+          "q": "¿Se nota el retardo? ¿Cómo lo reduzco?",
+          "a": [
+            "Está en la misma franja que un mando Bluetooth normal, algo que casi ningún juego acusa. Para que se mantenga estable: quédate cerca del equipo, desconecta los dispositivos Bluetooth que no uses, desactiva el ahorro de batería del teléfono y activa Mantener pantalla encendida para que el sistema no limite la app."
+          ]
+        },
+        {
+          "id": "exit_gamepad",
+          "q": "¿Cómo salgo de la pantalla del mando?",
+          "a": [
+            "Mantén pulsado «Mantén para salir» en la esquina superior derecha. Toda la pantalla es superficie de control, así que la pulsación larga evita que un toque suelto te saque de la partida."
+          ]
+        },
+        {
+          "id": "screen_off",
+          "q": "La pantalla se apaga en mitad de la partida.",
+          "a": [
+            "Activa Ajustes → Respuesta → Mantener pantalla encendida. La pantalla se queda despierta mientras el mando esté abierto. El volante mantiene la pantalla encendida al margen de ese interruptor."
+          ]
+        },
+        {
+          "id": "hud_battery",
+          "q": "¿Qué es BAT en la esquina de la pantalla del mando?",
+          "a": [
+            "El nivel de batería de este teléfono, no el del otro equipo. En la pantalla del volante, ese mismo sitio muestra la asignación de ejes en uso."
+          ]
+        },
+        {
+          "id": "report_data",
+          "q": "¿Qué hace «Mostrar datos del informe»?",
+          "a": [
+            "Es una ayuda para diagnosticar. Al activarlo, la pantalla del mando muestra los datos en crudo que se envían. Abre una web de prueba de mandos en el otro equipo y podrás comprobar, botón a botón, que cada uno llega con el número correcto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touchpad-remote",
+      "title": "Panel táctil y mando de TV",
+      "entries": [
+        {
+          "id": "wrong_characters",
+          "q": "Los caracteres que llegan no son los que escribo.",
+          "a": [
+            "JoyLink envía códigos de tecla del teclado estadounidense. Si el otro equipo usa otra distribución, algunos símbolos salen cambiados; ponerlo en distribución de EE. UU. lo arregla. Para chino, japonés y similares, cambia el método de entrada en el equipo y escribe aquí la pronunciación."
+          ]
+        },
+        {
+          "id": "remote_limits",
+          "q": "El mando no enciende la tele, ni cambia de entrada, ni hace búsqueda por voz.",
+          "a": [
+            "El Bluetooth se corta en cuanto la tele se apaga, así que la tecla de encendido puede apagarla, pero nunca encenderla. Cambiar de entrada, buscar por voz o abrir una app concreta requiere el protocolo propio del fabricante, que el Bluetooth no transporta. Los televisores con mando solo por infrarrojos quedan directamente fuera."
+          ]
+        },
+        {
+          "id": "remote_no_response",
+          "q": "El panel táctil o las teclas del mando de TV no hacen nada, pero el mando sí funciona.",
+          "a": [
+            "Lo más probable es que tengas activado el modo simple: deja solo el mando. Desactívalo en Ajustes → Conexión."
+          ]
+        },
+        {
+          "id": "ios_devices",
+          "q": "¿Puedo controlar un iPad o un iPhone?",
+          "a": [
+            "Con el panel táctil y el teclado, sí. El iPad acepta ratón y teclado Bluetooth directamente; en el iPhone, activa antes Ajustes → Accesibilidad → Tocar → AssistiveTouch. El modo mando no está disponible en los juegos de iOS: es un límite que pone Apple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-modes",
+      "title": "Volante, diseños y macros",
+      "entries": [
+        {
+          "id": "wheel_no_steering",
+          "q": "El juego no detecta la dirección ni los pedales.",
+          "a": [
+            "Cada juego lee los pedales a su manera. Toca la asignación que aparece abajo en la pantalla del volante y prueba otra: Gatillos va bien en la mayoría de juegos compatibles con mando, Retro en los emuladores, y los pedales analógicos en simuladores que dejan asignar ejes (basta con configurarlos una vez dentro del juego). La misma opción está en Ajustes → Volante → Asignación de ejes."
+          ]
+        },
+        {
+          "id": "wheel_drift",
+          "q": "El coche se va siempre hacia un lado.",
+          "a": [
+            "Has cambiado de postura y el centro se ha ido contigo. Toca «Recentrar» en pantalla para que tu posición actual pase a ser el punto recto. Si la dirección va demasiado brusca o demasiado sosa, ajusta «Ángulo de giro total» en los ajustes."
+          ]
+        },
+        {
+          "id": "layout_editor",
+          "q": "¿Cómo personalizo el diseño? ¿Afecta a los demás modos?",
+          "a": [
+            "Abre la tarjeta «Diseño propio» en la pantalla de inicio, o mantén pulsado el lápiz en la esquina superior derecha de la pantalla del mando. Solo cambia la pantalla del mando, y puedes guardar hasta 8 perfiles para distintos juegos. (Pro)"
+          ]
+        },
+        {
+          "id": "ps_style",
+          "q": "¿Puedo usar los botones de PlayStation (△ ○ ✕ □) en lugar de ABXY?",
+          "a": [
+            "Sí, forma parte de Pro. Ve a Ajustes → Mando → Estilo de botones y elige PlayStation: los botones frontales pasan a ser △ ○ ✕ □, los superiores a L1 / L2 / R1 / R2, y los dos sticks se colocan abajo, como en un DualShock. Tu dispositivo sigue viendo un mando estándar, así que los juegos siguen funcionando: △ = Y, ○ = B, ✕ = A, □ = X."
+          ]
+        },
+        {
+          "id": "macro_sticks",
+          "q": "¿Las macros graban los sticks?",
+          "a": [
+            "No. Las macros solo reproducen botones: los sticks y la cruceta siempre van en directo. Mientras grabas no se envía nada al otro equipo. (Pro)"
+          ]
+        },
+        {
+          "id": "turbo_rate",
+          "q": "¿Cómo cambio la velocidad del turbo?",
+          "a": [
+            "En el editor de diseño, toca un botón, activa Turbo y ajusta la frecuencia. Todos los botones turbo del mismo perfil comparten una frecuencia. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro y compras",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "¿Pro es una suscripción? ¿Qué incluye?",
+          "a": [
+            "No: es un pago único para siempre. Desbloquea el panel táctil y el teclado, el mando de TV, el volante, los diseños propios con varios perfiles, el turbo y las macros, y los temas Aurora e Industrial. La versión gratuita mantiene la conexión y el mando estándar funcionando del todo, y sin anuncios."
+          ]
+        },
+        {
+          "id": "pro_try_once",
+          "q": "¿Puedo probar una función Pro antes de comprarla?",
+          "a": [
+            "Sí. Cuando una función Pro abra la pantalla de mejora, toca «Pruébalo gratis una vez» abajo. La función queda desbloqueada hasta que cierres la app, y cada función se puede probar una vez."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "He cambiado de teléfono y Pro ha desaparecido.",
+          "a": [
+            "Inicia sesión en Google Play con la misma cuenta de Google con la que lo compraste, luego abre Ajustes → Pro y toca «Restaurar compra»."
+          ]
+        },
+        {
+          "id": "purchase_failed",
+          "q": "La compra falla, o se queda en «Conectando con Google Play».",
+          "a": [
+            "Asegúrate de que la Play Store se abre con normalidad y de que el país de tu cuenta admite pagos; después inténtalo de nuevo un poco más tarde. Las devoluciones se piden desde el historial de pedidos de Google Play."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "title": "Compatibilidad y soporte",
+      "entries": [
+        {
+          "id": "phone_unsupported",
+          "q": "¿Por qué dice que este teléfono no puede ser un mando?",
+          "a": [
+            "Funcionar como mando Bluetooth forma parte de Android desde la versión 9, pero cada fabricante decide si lo activa y algunos firmwares lo dejan apagado: ninguna app puede añadirlo. Pasa sobre todo en modelos antiguos de OnePlus y LG, en algunos firmwares regionales y en ROM personalizadas. La app gratuita Bluetooth HID Profile Tester comprueba exactamente lo mismo, por si quieres una segunda opinión. Después de una actualización del sistema, vuelve a la pantalla de inicio y compruébalo otra vez."
+          ]
+        },
+        {
+          "id": "register_blocked",
+          "q": "Dice «No se pudo registrar como mando».",
+          "a": [
+            "Android solo permite que una app sea dispositivo de entrada Bluetooth a la vez, así que lo más probable es que otra app de mando, teclado o ratón esté ocupando ese sitio. Ciérrala y vuelve a comprobarlo."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "¿Cómo informo de un problema o propongo algo?",
+          "a": [
+            "Ajustes → Acerca de → Enviar comentarios. Tu modelo de teléfono y la versión de la app se adjuntan solos al correo, así podemos cruzarlo con lo que vemos por aquí."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "joylink",
+  "locale": "en",
+  "title": "JoyLink: Phone as Gamepad",
+  "shortDescription": "Bluetooth game controller, touchpad & TV remote for PC, Mac & Android TV",
+  "tagline": "Turn your phone into a real Bluetooth gamepad — no receiver app, no dongle, no root",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Turn your phone into a real Bluetooth gamepad — no receiver app, no dongle, no root",
+      "paragraphs": [
+        "JoyLink makes your Android phone show up as a standard Bluetooth game controller, touchpad and TV remote. Pair it once with a Windows PC, Mac, Linux machine, Android TV or another Android phone and it works like any wireless gamepad — nothing to install on the other side."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Popular ways people use JoyLink",
+      "paragraphs": [],
+      "bullets": [
+        "Play emulators and Steam games on a laptop that has no controller",
+        "Navigate Android TV, Google TV or Fire TV and type with your phone keyboard",
+        "Couch gaming: control the PC from the sofa",
+        "Retro gaming on a Raspberry Pi or RetroPie without buying a pad",
+        "Two phones, two players on one computer"
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Bluetooth Gamepad for PC, Mac & Linux",
+      "paragraphs": [],
+      "bullets": [
+        "Xbox-style layout: dual analog sticks, D-pad, A B X Y, LB/RB, LT/RT, Start and Select",
+        "Standard (DirectInput) controller for Steam, emulators and any game that supports generic pads; Steam Input covers XInput-only titles",
+        "Haptic feedback, full-screen landscape, hold-to-exit so nothing kicks you out mid-game",
+        "Built-in button tester shows what each control sends to the host"
+      ]
+    },
+    {
+      "id": "touchpad",
+      "title": "Touchpad, Mouse & Keyboard",
+      "paragraphs": [],
+      "bullets": [
+        "Tap, two-finger scroll, right click and drag gestures",
+        "Type with your phone keyboard — ideal for TV boxes and media PCs",
+        "Works as a wireless mouse and keyboard for iPad and iPhone too"
+      ]
+    },
+    {
+      "id": "tv-remote",
+      "title": "TV Remote for Android TV, Google TV & Fire TV",
+      "paragraphs": [],
+      "bullets": [
+        "D-pad navigation, Back, Home, Menu and power off",
+        "Volume, mute, play/pause, skip and channel up/down",
+        "Number pad and a text panel for search boxes"
+      ]
+    },
+    {
+      "id": "layouts-macros",
+      "title": "Custom Layouts, Turbo & Macros",
+      "paragraphs": [],
+      "bullets": [
+        "Move, resize and fade every control; up to 8 layouts for different games",
+        "Turbo (rapid fire) on any button; record a combo once, replay it from one macro key"
+      ]
+    },
+    {
+      "id": "racing-wheel",
+      "title": "Racing Wheel for PC, TV & Emulators: Tilt to Steer",
+      "paragraphs": [],
+      "bullets": [
+        "Hold the phone sideways and tilt to steer — for hosts whose screen can't tilt",
+        "Pedals on LT/RT out of the box; analog, left-stick and retro presets for sims and emulators"
+      ]
+    },
+    {
+      "id": "themes",
+      "title": "Three complete themes",
+      "paragraphs": [
+        "HUD (electric lime esports), Aurora (glass and cyan glow) and Industrial (keycaps and safety orange) — full looks, not just an accent colour."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "long-sessions",
+      "title": "Built for long sessions",
+      "paragraphs": [],
+      "bullets": [
+        "Lag in the same range as a regular Bluetooth controller",
+        "Auto reconnect when the host drops the link, keep screen on while you play",
+        "19 languages and a built-in FAQ"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Free forever, Pro is a one-time purchase",
+      "paragraphs": [
+        "Connecting, pairing and the standard gamepad are free — no time limit, no ads. Pro adds touchpad, TV remote, racing wheel, custom layouts, turbo & macros and two extra themes for a single one-time price, not a subscription. Try each Pro feature once before you buy."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy first",
+      "paragraphs": [
+        "JoyLink only asks for the Nearby devices (Bluetooth) permission plus a status notification. No account, no sign-in; your inputs go over Bluetooth to the host and nowhere else."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-install",
+      "title": "Before you install",
+      "paragraphs": [
+        "Something not working? A Play review gives us no way to ask for details or send a fix. Email feedback@dapplebyte.com instead (Settings → About → Send feedback attaches your phone model and app version) and we'll get back to you."
+      ],
+      "bullets": [
+        "PlayStation, Xbox and Nintendo Switch only accept their own controllers, so JoyLink can't connect to consoles",
+        "iOS games don't read generic Bluetooth gamepads, so on iPhone and iPad JoyLink is a mouse and keyboard only",
+        "Android can act as a Bluetooth gamepad, but some phone makers switch it off in firmware and no app can turn it back on; JoyLink checks on first launch",
+        "Every host maps buttons its own way; the button tester and FAQ cover the common cases",
+        "The racing wheel is for PC, TV boxes and emulators: most mobile racing games don't take controllers, and the phone you play on already has tilt steering of its own"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

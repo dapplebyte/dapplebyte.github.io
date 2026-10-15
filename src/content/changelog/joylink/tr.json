@@ -1,0 +1,16 @@
+{
+  "slug": "joylink",
+  "locale": "tr",
+  "entries": [
+    {
+      "code": 120,
+      "name": "1.2.0",
+      "date": "2026-09-15",
+      "items": [
+        "3 düğmeli gezinme kullanan telefonlarda durum çubuğu ve gezinme çubuğu daha düzgün görünüyor",
+        "Performans ve kararlılık iyileştirmeleri"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

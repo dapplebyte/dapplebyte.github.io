@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Bağımsız Android uygulamaları",
-    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, bir de AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo var.",
+    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo, bir de telefonu Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çeviren JoyLink var.",
     "appsHeading": "Uygulamalar",
     "principlesHeading": "Nasıl çalışıyoruz",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "Günlük dille anlatılan isteği eksiksiz bir otomasyona çevirir",
       "auto-clicker": "Tıklama aralığı ve tekrar sayısı ayarlanabilen otomatik tıklayıcı",
       "gesture-recorder": "Dokunma ve kaydırmaları kaydedip yeniden oynatır",
-      "no-ads": "Reklam yok"
+      "no-ads": "Reklam yok",
+      "no-receiver": "Bilgisayara veya TV'ye hiçbir şey kurulmaz",
+      "bt-gamepad": "Standart bir Bluetooth oyun kolu olarak görünür",
+      "touchpad-keyboard": "Dokunmatik yüzey, fare ve klavye",
+      "tv-remote": "Android TV, Google TV ve Fire TV için TV kumandası",
+      "racing-wheel": "Eğerek yönlendirilen direksiyon",
+      "custom-layouts": "Kontrol yerleşimlerini taşıma, boyutlandırma ve kaydetme"
     },
     "values": {
       "yes": "Evet",
@@ -262,7 +268,8 @@
     "home": "Ana sayfa"
   },
   "trademarks": {
-    "sony": "PlayStation, PS5 ve PS4, Sony Interactive Entertainment Inc. şirketinin ticari markalarıdır. {name}, Sony ile bağlantılı değildir ve Sony tarafından onaylanmamıştır."
+    "sony": "PlayStation, PS5 ve PS4, Sony Interactive Entertainment Inc. şirketinin ticari markalarıdır. {name}, Sony ile bağlantılı değildir ve Sony tarafından onaylanmamıştır.",
+    "hosts": "Windows ve Xbox, Microsoft'un; Mac, iPhone ve iPad, Apple'ın; PlayStation, Sony Interactive Entertainment'ın; Nintendo Switch, Nintendo'nun; Android, Android TV ve Google TV, Google'ın; Fire TV, Amazon'un; Steam, Valve'ın; Raspberry Pi, Raspberry Pi Ltd.'nin ticari markalarıdır. {name}, bu şirketlerin hiçbiriyle bağlantılı değildir ve hiçbiri tarafından onaylanmamıştır."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "WhenDo'nun Android'deki diğer otomasyon uygulamalarıyla özellik özellik karşılaştırması, yalnızca gerçekler.",
         "vsDescription": "Android'de {name} ve {other} özellik özellik karşılaştırması: AI ile görev oluşturma, otomatik tıklayıcı, tetikleyiciler, root, reklamlar ve fiyat.",
         "vsIntro": "İkisi de Android telefonu otomatikleştirir. Farkları özellik özellik burada."
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "Windows, Mac, Linux, Android TV veya başka bir telefonda standart bir Bluetooth oyun kolu olarak görünür; karşı tarafa hiçbir şey kurulmaz",
+        "Medya kutuları ve salon PC'leri için dokunmatik yüzey, klavye ve TV kumandası; emülatörler ve PC simülasyonları için eğerek yönlendirilen direksiyon",
+        "Ücretsiz, reklamsız, hesap gerekmez. Pro tek seferlik bir satın alma ve her Pro özelliğini önce bir kez deneyebilirsiniz"
+      ],
+      "faqDescription": "JoyLink hakkında yanıtlar: nelere bağlanır, eşleştirme, Windows ve Steam, dokunmatik yüzey ve TV kumandası, direksiyon, yerleşimler ve makrolar, Pro ve yazılımı buna izin vermeyen telefonlar.",
+      "faqNotFoundBody": "Telefon modelinizi, neye bağlandığınızı ve ne olduğunu yazarak bize ulaşın. Her mesajı bir insan okuyor.",
+      "support": {
+        "beforeItems": [
+          "Önce SSS'ye bakın. Eşleştirme, Windows, Steam ve TV kumandasıyla ilgili soruların çoğunun yanıtı orada, uygulamadaki ifadelerle.",
+          "JoyLink ilk açılışta telefonunuzun Bluetooth oyun kolu olarak çalışıp çalışamayacağını kontrol eder. Telefon üreticisinin bunu kapattığını söylüyorsa hiçbir uygulama geri açamaz; yine de neyin çalıştığını SSS'de bulabilirsiniz.",
+          "Neye bağlandığınızı (Windows, Mac, Linux, Android TV, başka bir telefon) ve o cihazın telefonu Bluetooth listesinde görüp görmediğini not edin. Sorunu yeniden oluşturmak için tam olarak buna ihtiyacımız var."
+        ],
+        "template": {
+          "phone": "Telefon modeli:",
+          "android": "Android sürümü:",
+          "host": "Bağlanılan cihaz (Windows / Mac / Linux / Android TV / diğer):",
+          "seen": "Karşı cihaz telefonu Bluetooth listesinde görüyor mu: evet / hayır",
+          "what": "Ne oldu, adım adım:",
+          "pro": "Pro satın alındı mı: evet / hayır"
+        },
+        "refundBody": "JoyLink'i yüklemek ücretsiz. Pro satın aldıysanız ve sizin kurulumunuzla çalışmıyorsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi anlatın; sorunu bir sonraki kişi için düzeltmemize yardımcı olur."
+      },
+      "press": {
+        "description": "Android telefonu Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çeviren uygulama JoyLink hakkında yazmak isteyenler için bilgiler, görseller ve hazır tanıtım metni.",
+        "boilerplate": "JoyLink, Android telefonu Windows, Mac, Linux, Android TV ve diğer Android cihazlar için standart bir Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çevirir; karşı tarafa hiçbir şey kurulmaz: alıcı uygulama yok, dongle yok, root yok. Eğerek yönlendirilen direksiyon, özel yerleşimler, turbo ve makrolar da var. JoyLink, bağımsız stüdyo DappleByte tarafından geliştiriliyor.",
+        "priceValue": "Yüklemesi ücretsiz, reklam yok. Bağlantı, eşleştirme ve standart oyun kolu ücretsiz; dokunmatik yüzey, TV kumandası, direksiyon, özel yerleşimler, turbo, makrolar ve iki ek tema tek seferlik Pro satın alımıyla açılır. Abonelik yok. Güncel fiyat Google Play'de gösterilir.",
+        "assetScreenshots": "Ekran görüntüleri, PNG, İngilizce (1920 × 1080)"
+      },
+      "videosDescription": "JoyLink'i gerçek bir telefonda gösteren kısa videolar: PC veya TV ile eşleştirme, oyun kolunun bir oyunda kullanımı, dokunmatik yüzey ve TV kumandası, bir de direksiyon.",
+      "privacyDescription": "Android için JoyLink verilerinizle ne yapıyor: hesap gerekmez, bize ait bir sunucu yok, girdiler yalnızca Bluetooth ile eşleştirdiğiniz cihaza gider, “Yakındaki cihazlar” izni ne için kullanılır ve analiz neleri toplar.",
+      "compare": {
+        "description": "JoyLink'in, telefonu bilgisayar veya TV için kumandaya çeviren diğer uygulamalarla özellik özellik karşılaştırması, yalnızca gerçekler.",
+        "vsDescription": "Android'de {name} ve {other} özellik özellik karşılaştırması: alıcı uygulama, Bluetooth oyun kolu, dokunmatik yüzey ve TV kumandası, direksiyon, root, reklamlar ve fiyat.",
+        "vsIntro": "İkisi de Android telefonu bilgisayar veya TV için bir kumandaya çevirir. Farkları özellik özellik burada."
       }
     }
   }

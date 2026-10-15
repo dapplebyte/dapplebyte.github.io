@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · 独立工作室的 Android 应用",
-    "description": "DappleByte 是一家做 Android app 的独立工作室，作品有 Gamepad Pro：把手柄变成触屏操作的按键映射工具；Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app；还有 WhenDo：一款 AI 自动化与连点器 app。",
+    "description": "DappleByte 是一家做 Android app 的独立工作室，作品有 Gamepad Pro：把手柄变成触屏操作的按键映射工具；Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app；WhenDo：一款 AI 自动化与连点器 app；还有 JoyLink：把手机变成蓝牙手柄、触控板和电视遥控器。",
     "appsHeading": "应用",
     "principlesHeading": "我们的做法",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "一句话描述，AI 搭好整套自动化",
       "auto-clicker": "可设置点击间隔和重复次数的连点器",
       "gesture-recorder": "录制并回放点击与滑动",
-      "no-ads": "无广告"
+      "no-ads": "无广告",
+      "no-receiver": "电脑或电视上不用装任何东西",
+      "bt-gamepad": "以标准蓝牙手柄的身份被识别",
+      "touchpad-keyboard": "触控板、鼠标与键盘",
+      "tv-remote": "Android TV、Google TV、Fire TV 的电视遥控器",
+      "racing-wheel": "倾斜手机就能转向的方向盘",
+      "custom-layouts": "控件可挪位置、改大小，布局可保存"
     },
     "values": {
       "yes": "是",
@@ -262,7 +268,8 @@
     "home": "首页"
   },
   "trademarks": {
-    "sony": "PlayStation、PS5 和 PS4 是 Sony Interactive Entertainment Inc. 的商标。{name} 与 Sony 没有关联，也未获得 Sony 的背书。"
+    "sony": "PlayStation、PS5 和 PS4 是 Sony Interactive Entertainment Inc. 的商标。{name} 与 Sony 没有关联，也未获得 Sony 的背书。",
+    "hosts": "Windows 和 Xbox 是 Microsoft 的商标；Mac、iPhone 和 iPad 是 Apple 的商标；PlayStation 是 Sony Interactive Entertainment 的商标；Nintendo Switch 是 Nintendo 的商标；Android、Android TV 和 Google TV 是 Google 的商标；Fire TV 是 Amazon 的商标；Steam 是 Valve 的商标；Raspberry Pi 是 Raspberry Pi Ltd 的商标。{name} 与上述公司均没有关联，也未获得它们的背书。"
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "WhenDo 与 Android 上其他自动化应用的逐项功能对比，只摆事实。",
         "vsDescription": "{name} 与 {other} 在 Android 上的逐项对比：AI 创建任务、连点器、触发条件、root、广告与价格。",
         "vsIntro": "两者都能让 Android 手机自动化。下面逐项列出区别。"
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "在 Windows、Mac、Linux、Android TV 或另一台手机上被识别为标准蓝牙手柄，对方那头什么都不用装",
+        "给电视盒子和客厅电脑用的触控板、键盘与电视遥控器，还有给模拟器和 PC 拟真游戏用、一倾斜就能转向的方向盘",
+        "免费、无广告、不用注册账号。Pro 一次购买，每项 Pro 功能都能先免费体验一次"
+      ],
+      "faqDescription": "JoyLink 的问题解答：能连哪些设备、配对、Windows 与 Steam、触控板与电视遥控器、方向盘、布局与宏、Pro，以及固件里关掉了这项能力的手机。",
+      "faqNotFoundBody": "给我们发邮件，写上手机型号、你要连的设备和实际发生的情况。每封邮件都有真人看。",
+      "support": {
+        "beforeItems": [
+          "先看常见问题。配对、Windows、Steam 和电视遥控器相关的问题大多在那里有答案，措辞和 app 里一样。",
+          "JoyLink 首次启动会检查你的手机能不能当蓝牙手柄。如果提示手机厂商关掉了这项能力，任何 App 都开不回来；常见问题里说明了哪些功能仍然能用。",
+          "记下你要连的是什么设备（Windows、Mac、Linux、Android TV、另一台手机），以及它的蓝牙列表里能不能看到这台手机。我们需要这些信息来复现问题。"
+        ],
+        "template": {
+          "phone": "手机型号：",
+          "android": "Android 版本：",
+          "host": "要连的设备（Windows / Mac / Linux / Android TV / 其他）：",
+          "seen": "对方的蓝牙列表里能看到这台手机：是 / 否",
+          "what": "发生了什么（按步骤写）：",
+          "pro": "是否购买 Pro：是 / 否"
+        },
+        "refundBody": "JoyLink 可以免费安装。如果你买了 Pro，但在你的设备环境下用不了，购买后 7 天内发邮件给我们，我们会退款。顺便说说你试过哪些办法，能帮我们为下一位用户修好它。"
+      },
+      "press": {
+        "description": "报道 JoyLink 所需的资料、素材和标准介绍。JoyLink 能把 Android 手机变成蓝牙手柄、触控板和电视遥控器。",
+        "boilerplate": "JoyLink 能把 Android 手机变成标准的蓝牙手柄、触控板和电视遥控器，连接 Windows、Mac、Linux、Android TV 和其他 Android 设备，对方那头什么都不用装：不需要接收端软件、不需要 dongle、不需要 root。它还提供倾斜转向的方向盘、自定义布局、连发和宏。它由独立工作室 DappleByte 开发。",
+        "priceValue": "免费安装，无广告。连接、配对和标准手柄免费；触控板、电视遥控器、方向盘、自定义布局、连发、宏和另外两套主题，一次性购买 Pro 即可解锁。没有订阅。当前价格以 Google Play 显示为准。",
+        "assetScreenshots": "截图，PNG，英文（横屏 1920 × 1080）"
+      },
+      "videosDescription": "在真机上演示 JoyLink 的短视频：和电脑或电视配对、在游戏里当手柄、触控板与电视遥控器，以及方向盘。",
+      "privacyDescription": "Android 版 JoyLink 如何处理你的数据：无需账号、没有我们自己的服务器、输入只通过蓝牙发送到你配对的设备、“附近的设备”权限用来做什么，以及统计分析收集哪些信息。",
+      "compare": {
+        "description": "JoyLink 与其他把手机变成电脑或电视控制器的应用的逐项功能对比，只摆事实。",
+        "vsDescription": "{name} 与 {other} 在 Android 上的逐项对比：接收端软件、蓝牙手柄、触控板与电视遥控器、方向盘、root、广告与价格。",
+        "vsIntro": "两者都能把 Android 手机变成电脑或电视的控制器。下面逐项列出区别。"
       }
     }
   }

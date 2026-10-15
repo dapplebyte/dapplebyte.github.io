@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Unabhängige Android-Apps",
-    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht; Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4; und WhenDo, eine App für KI-Automatisierung mit Auto-Klicker.",
+    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht; Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4; WhenDo, eine App für KI-Automatisierung mit Auto-Klicker; und JoyLink, das ein Smartphone zu Bluetooth-Gamepad, Touchpad und TV-Fernbedienung macht.",
     "appsHeading": "Apps",
     "principlesHeading": "So arbeiten wir",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "Baut eine komplette Automatisierung aus einer Beschreibung in Alltagssprache",
       "auto-clicker": "Auto-Klicker mit Klickintervall und Anzahl der Wiederholungen",
       "gesture-recorder": "Zeichnet Tipp- und Wischgesten auf und spielt sie ab",
-      "no-ads": "Keine Werbung"
+      "no-ads": "Keine Werbung",
+      "no-receiver": "Nichts auf Computer oder Fernseher zu installieren",
+      "bt-gamepad": "Wird als normales Bluetooth-Gamepad erkannt",
+      "touchpad-keyboard": "Touchpad, Maus und Tastatur",
+      "tv-remote": "TV-Fernbedienung für Android TV, Google TV und Fire TV",
+      "racing-wheel": "Lenkrad: Lenken durch Neigen",
+      "custom-layouts": "Bedienelemente verschieben, skalieren und als Layout speichern"
     },
     "values": {
       "yes": "Ja",
@@ -262,7 +268,8 @@
     "home": "Startseite"
   },
   "trademarks": {
-    "sony": "PlayStation, PS5 und PS4 sind Marken von Sony Interactive Entertainment Inc. {name} steht in keiner Verbindung zu Sony und wird von Sony weder unterstützt noch gebilligt."
+    "sony": "PlayStation, PS5 und PS4 sind Marken von Sony Interactive Entertainment Inc. {name} steht in keiner Verbindung zu Sony und wird von Sony weder unterstützt noch gebilligt.",
+    "hosts": "Windows und Xbox sind Marken von Microsoft; Mac, iPhone und iPad von Apple; PlayStation von Sony Interactive Entertainment; Nintendo Switch von Nintendo; Android, Android TV und Google TV von Google; Fire TV von Amazon; Steam von Valve; Raspberry Pi von Raspberry Pi Ltd. {name} steht mit keinem dieser Unternehmen in Verbindung und wird von keinem von ihnen unterstützt oder gebilligt."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "WhenDo im Vergleich mit anderen Automatisierungs-Apps für Android: Funktion für Funktion, nur Fakten.",
         "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Aufgaben per KI erstellen, Auto-Klicker, Auslöser, Root, Werbung und Preis.",
         "vsIntro": "Beide automatisieren ein Android-Smartphone. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "Wird unter Windows, Mac, Linux, Android TV oder auf einem anderen Telefon als normales Bluetooth-Gamepad erkannt, auf der Gegenseite muss nichts installiert werden",
+        "Touchpad, Tastatur und TV-Fernbedienung für TV-Boxen und Wohnzimmer-PCs, dazu ein Lenkrad, das durch Neigen lenkt, für Emulatoren und PC-Sims",
+        "Kostenlos, ohne Werbung und ohne Konto. Pro ist ein Einmalkauf, und jede Pro-Funktion lässt sich vorher einmal testen"
+      ],
+      "faqDescription": "Antworten zu JoyLink: womit es sich verbindet, Koppeln, Windows und Steam, Touchpad und TV-Fernbedienung, das Lenkrad, Layouts und Makros, Pro und Telefone, deren Firmware die Funktion sperrt.",
+      "faqNotFoundBody": "Schreiben Sie uns, welches Telefon Sie nutzen, womit Sie es verbinden und was passiert ist. Jede Nachricht liest ein Mensch.",
+      "support": {
+        "beforeItems": [
+          "Öffnen Sie die FAQ. Die meisten Fragen zu Koppeln, Windows, Steam und TV-Fernbedienung sind dort beantwortet, im selben Wortlaut wie in der App.",
+          "Beim ersten Start prüft JoyLink, ob Ihr Telefon als Bluetooth-Gamepad arbeiten kann. Heißt es dort, der Hersteller habe das abgeschaltet, kann keine App es wieder einschalten; in der FAQ steht, was trotzdem funktioniert.",
+          "Notieren Sie, womit Sie sich verbinden (Windows, Mac, Linux, Android TV, ein anderes Telefon) und ob das Gerät Ihr Telefon in seiner Bluetooth-Liste sieht. Genau das brauchen wir, um das Problem nachzustellen."
+        ],
+        "template": {
+          "phone": "Telefonmodell:",
+          "android": "Android-Version:",
+          "host": "Verbunden mit (Windows / Mac / Linux / Android TV / anderes):",
+          "seen": "Das andere Gerät sieht das Telefon in seiner Bluetooth-Liste: ja / nein",
+          "what": "Was ist passiert, Schritt für Schritt:",
+          "pro": "Pro gekauft: ja / nein"
+        },
+        "refundBody": "JoyLink ist kostenlos installierbar. Wenn Sie Pro gekauft haben und es mit Ihrem Setup nicht funktioniert, schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf, und wir erstatten den Betrag. Erzählen Sie uns, was Sie versucht haben; das hilft uns, das Problem für die Nächsten zu beheben."
+      },
+      "press": {
+        "description": "Fakten, Material und ein Standardtext für Berichte über JoyLink, die App, die ein Android-Smartphone zu Bluetooth-Gamepad, Touchpad und TV-Fernbedienung macht.",
+        "boilerplate": "JoyLink macht ein Android-Smartphone zu einem normalen Bluetooth-Gamepad, Touchpad und einer TV-Fernbedienung für Windows, Mac, Linux, Android TV und andere Android-Geräte, ohne dass auf der Gegenseite etwas installiert werden muss: keine Empfänger-App, kein Dongle, kein Root. Dazu kommen ein Lenkrad, das durch Neigen lenkt, eigene Layouts, Turbo und Makros. Die App stammt von DappleByte, einem unabhängigen Studio.",
+        "priceValue": "Kostenlos installierbar, ohne Werbung. Verbinden, Koppeln und das Standard-Gamepad sind kostenlos; Touchpad, TV-Fernbedienung, Lenkrad, eigene Layouts, Turbo, Makros und zwei weitere Designs werden mit einem einmaligen Pro-Kauf freigeschaltet. Ein Abo gibt es nicht. Den aktuellen Preis finden Sie bei Google Play.",
+        "assetScreenshots": "Screenshots, PNG, 1920 × 1080, Englisch"
+      },
+      "videosDescription": "Kurze Videos, die JoyLink auf einem echten Telefon zeigen: Koppeln mit PC oder Fernseher, das Gamepad im Spiel, Touchpad und TV-Fernbedienung sowie das Lenkrad.",
+      "privacyDescription": "Was JoyLink für Android mit Ihren Daten macht: kein Konto, kein eigener Server, Eingaben, die nur per Bluetooth an das gekoppelte Gerät gehen, wofür die Berechtigung „Geräte in der Nähe“ gebraucht wird und was die Analyse erfasst.",
+      "compare": {
+        "description": "JoyLink im Vergleich mit anderen Apps, die ein Smartphone zum Controller für Computer oder Fernseher machen: Funktion für Funktion, nur Fakten.",
+        "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Empfänger-App, Bluetooth-Gamepad, Touchpad und TV-Fernbedienung, Lenkrad, Root, Werbung und Preis.",
+        "vsIntro": "Beide machen ein Android-Smartphone zum Controller für Computer oder Fernseher. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
       }
     }
   }

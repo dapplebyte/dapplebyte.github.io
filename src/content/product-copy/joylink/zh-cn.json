@@ -1,0 +1,127 @@
+{
+  "slug": "joylink",
+  "locale": "zh-cn",
+  "title": "JoyLink：手机变身蓝牙手柄",
+  "shortDescription": "蓝牙手柄、游戏摇杆、触控板与电视遥控器，直连 PC、Mac、Android TV，对方免装软件",
+  "tagline": "把手机变成真正的蓝牙手柄——免接收端、免 dongle、免 root",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "把手机变成真正的蓝牙手柄——免接收端、免 dongle、免 root",
+      "paragraphs": [
+        "JoyLink 让你的 Android 手机以标准蓝牙游戏手柄、触控板和电视遥控器的身份被对方认出来。和 Windows PC、Mac、Linux、Android TV 或另一台 Android 手机配对一次，之后就跟普通无线手柄一样直接用，对方那头什么都不用装。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "大家最常这样用 JoyLink",
+      "paragraphs": [],
+      "bullets": [
+        "笔记本没有手柄，照样玩模拟器和 Steam 游戏",
+        "在 Android TV、Google TV、Fire TV 上导航界面，用手机键盘打字，不用再对着屏幕键盘一个字一个字点",
+        "沙发游戏：窝在沙发上遥控电脑",
+        "树莓派（Raspberry Pi）、RetroPie 复古游戏不必另外买手柄",
+        "两台手机就是两个手柄，同一台电脑直接双人同乐"
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "PC、Mac、Linux 的蓝牙手柄",
+      "paragraphs": [],
+      "bullets": [
+        "Xbox 风格布局：双摇杆、十字键、A B X Y、LB/RB、LT/RT、Start 与 Select",
+        "以标准（DirectInput）控制器被识别，Steam、模拟器和所有支持通用手柄的游戏都能用；只认 XInput 的游戏交给 Steam Input",
+        "按键震动、横屏全屏、长按退出，玩到一半不会被误触打断",
+        "内置按键测试：对方收到的是什么信号，一眼看清楚"
+      ]
+    },
+    {
+      "id": "touchpad",
+      "title": "触控板、鼠标与键盘",
+      "paragraphs": [],
+      "bullets": [
+        "轻点＝左键，双指轻点＝右键，双指拖动＝滚动，连点两下按住拖＝拖拽",
+        "用手机键盘直接在对方设备上打字，电视盒子和客厅电脑特别好用",
+        "也能当 iPad、iPhone 的无线鼠标与键盘"
+      ]
+    },
+    {
+      "id": "tv-remote",
+      "title": "Android TV、Google TV、Fire TV 的电视遥控器",
+      "paragraphs": [],
+      "bullets": [
+        "方向键导航，加上返回、主页、菜单与关机",
+        "音量、静音、播放/暂停、上下一首、频道上下",
+        "数字键盘直接跳频道，另有文字面板对付搜索框"
+      ]
+    },
+    {
+      "id": "layouts-macros",
+      "title": "自定义布局、连发与宏",
+      "paragraphs": [],
+      "bullets": [
+        "每个控件都能挪位置、改大小、调透明度，最多保存 8 套布局对应不同游戏",
+        "任意按键都能开连发（Turbo）；连招录一次，之后一个宏键就能重放"
+      ]
+    },
+    {
+      "id": "racing-wheel",
+      "title": "方向盘：PC、电视与模拟器的体感转向",
+      "paragraphs": [],
+      "bullets": [
+        "横握手机，一倾斜就是转向——给屏幕本身不能倾斜的那一端",
+        "踏板默认走扳机（LT / RT），支持手柄的赛车游戏免设置直接能用；另有模拟踏板、左摇杆和复古（方向键 + A / B）预设给拟真游戏与模拟器，还有换挡拨片、可调满舵角度和一键重设中心"
+      ]
+    },
+    {
+      "id": "themes",
+      "title": "三套完整主题",
+      "paragraphs": [
+        "HUD（电竞风、电光绿）、Aurora（极光玻璃、青色光晕）和 Industrial（工业键帽、国际橙）——换的是整套视觉，不只是一个强调色。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "long-sessions",
+      "title": "为长时间游玩而设计",
+      "paragraphs": [],
+      "bullets": [
+        "延迟和一般蓝牙手柄同一个等级",
+        "对方断线自动重连，手柄页面开着时屏幕常亮",
+        "支持 19 种语言，内置常见问题"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "永久免费，Pro 一次购买",
+      "paragraphs": [
+        "连接、配对和标准手柄永久免费，没有时间限制，也没有广告。Pro 解锁触控板、电视遥控器、方向盘、自定义布局、连发与宏，再加另外两套主题——一次购买，不是订阅。每项 Pro 功能买之前都能免费体验一次。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "隐私优先",
+      "paragraphs": [
+        "JoyLink 只申请配对与连接必需的“附近的设备”（蓝牙）权限，外加一条显示连接状态的通知。不用注册、不用登录，你按下的每一个输入只走手机与对方之间的蓝牙，不经过任何服务器。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-install",
+      "title": "安装前请先知道",
+      "paragraphs": [
+        "遇到问题？Google Play 的评论没办法让我们追问细节，也没办法把修复送到你手上。请直接写信到 feedback@dapplebyte.com——设置 → 关于 → 意见反馈 会自动附上机型和 App 版本，我们会回复你。"
+      ],
+      "bullets": [
+        "PlayStation、Xbox 和 Nintendo Switch 只认自家手柄，JoyLink 连不上这些游戏主机",
+        "iOS 上的游戏不读通用蓝牙手柄，所以在 iPhone 和 iPad 上 JoyLink 只能当鼠标和键盘",
+        "“手机当蓝牙手柄”是 Android 自带的能力，但有些厂商会在固件里关掉，任何 App 都开不回来；JoyLink 首次启动就会帮你检查",
+        "每台设备对按键的映射方式都不太一样，内置的按键测试和常见问题涵盖了大多数情况",
+        "方向盘是给 PC、电视盒子和模拟器用的：大多数手机赛车游戏不支持手柄，而且你玩游戏的那台手机本身就有体感转向"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

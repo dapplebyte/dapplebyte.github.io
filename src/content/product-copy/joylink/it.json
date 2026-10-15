@@ -1,0 +1,127 @@
+{
+  "slug": "joylink",
+  "locale": "it",
+  "title": "JoyLink: Telefono come gamepad",
+  "shortDescription": "Gamepad Bluetooth, touchpad, mouse e telecomando TV per PC, Mac e Android TV",
+  "tagline": "Il telefono diventa un vero gamepad Bluetooth: senza app ricevente, senza dongle, senza root",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Il telefono diventa un vero gamepad Bluetooth: senza app ricevente, senza dongle, senza root",
+      "paragraphs": [
+        "JoyLink fa riconoscere il tuo telefono Android come gamepad Bluetooth standard, touchpad e telecomando TV. Associalo una volta a un PC Windows, un Mac, un Linux, un Android TV o a un altro telefono Android: dall’altra parte non si installa niente."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Gli usi più comuni",
+      "paragraphs": [],
+      "bullets": [
+        "Emulatori e giochi Steam sul portatile senza controller",
+        "Android TV, Google TV o Fire TV: naviga e scrivi con la tastiera del telefono",
+        "Giocare dal divano, con il PC alla scrivania",
+        "Retrogaming su Raspberry Pi o RetroPie senza comprare un pad",
+        "Due telefoni, due giocatori sullo stesso computer"
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Gamepad Bluetooth per PC, Mac e Linux",
+      "paragraphs": [],
+      "bullets": [
+        "Layout in stile Xbox: due levette analogiche, D-pad, A B X Y, LB/RB, LT/RT, Start e Select",
+        "Controller standard (DirectInput) per Steam, emulatori e pad generici; Steam Input copre i titoli solo XInput",
+        "Vibrazione, schermo intero orizzontale, uscita con pressione lunga",
+        "Test dei tasti integrato: vedi cosa invia ogni comando"
+      ]
+    },
+    {
+      "id": "touchpad",
+      "title": "Touchpad, mouse e tastiera",
+      "paragraphs": [],
+      "bullets": [
+        "Tocca, scorri con due dita, clic destro e trascina",
+        "Scrivi con la tastiera del telefono: ideale per box TV e PC da salotto",
+        "Fa anche da mouse e tastiera senza fili per iPad e iPhone"
+      ]
+    },
+    {
+      "id": "tv-remote",
+      "title": "Telecomando TV per Android TV, Google TV e Fire TV",
+      "paragraphs": [],
+      "bullets": [
+        "Navigazione con D-pad, Indietro, Home, Menu e accensione",
+        "Volume, muto, riproduzione/pausa, brano successivo, canale +/−",
+        "Tastierino numerico e pannello di testo per le ricerche"
+      ]
+    },
+    {
+      "id": "layouts-macros",
+      "title": "Layout su misura, Turbo e macro",
+      "paragraphs": [],
+      "bullets": [
+        "Sposta, ridimensiona e sfuma ogni comando; fino a 8 layout",
+        "Turbo (fuoco rapido) su qualsiasi tasto; registra una combo una volta e rilanciala con un tasto macro"
+      ]
+    },
+    {
+      "id": "racing-wheel",
+      "title": "Volante per PC, TV ed emulatori: sterzi inclinando",
+      "paragraphs": [],
+      "bullets": [
+        "Tieni il telefono in orizzontale e inclina per sterzare, per gli schermi che non si inclinano",
+        "Pedali su LT/RT di serie; preset analogico, levetta sinistra e retro per sim ed emulatori"
+      ]
+    },
+    {
+      "id": "themes",
+      "title": "Tre temi completi",
+      "paragraphs": [
+        "HUD (verde lime esport), Aurora (vetro e bagliore ciano) e Industrial (copritasti e arancione internazionale): estetiche intere, non un accento."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "long-sessions",
+      "title": "Pensato per le sessioni lunghe",
+      "paragraphs": [],
+      "bullets": [
+        "Latenza dello stesso ordine di un normale controller Bluetooth",
+        "Riconnessione automatica e schermo acceso mentre giochi",
+        "19 lingue e domande frequenti integrate"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Gratis per sempre, Pro con un acquisto unico",
+      "paragraphs": [
+        "Connessione, associazione e gamepad standard restano gratis, senza limiti di tempo né pubblicità. Pro aggiunge touchpad, telecomando TV, volante, layout su misura, Turbo, macro e due temi in più: acquisto unico, non abbonamento. Ogni funzione Pro si prova gratis una volta."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Prima la privacy",
+      "paragraphs": [
+        "JoyLink chiede solo l’autorizzazione «Dispositivi nelle vicinanze» (Bluetooth) e mostra una notifica di stato. Nessun account, nessun accesso: quello che premi va in Bluetooth al dispositivo che comandi."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-install",
+      "title": "Prima di installare",
+      "paragraphs": [
+        "Qualcosa non va? Una recensione su Play non ci lascia chiederti dettagli. Scrivi a feedback@dapplebyte.com: Impostazioni → Info → Invia un feedback allega modello e versione dell’app."
+      ],
+      "bullets": [
+        "PlayStation, Xbox e Nintendo Switch accettano solo i propri controller: niente console",
+        "I giochi iOS non leggono i gamepad Bluetooth generici; su iPhone e iPad JoyLink resta mouse e tastiera",
+        "Android sa presentarsi come gamepad Bluetooth, ma alcuni produttori lo disattivano nel firmware e nessuna app può riattivarlo; JoyLink lo verifica al primo avvio",
+        "Ogni dispositivo mappa i tasti a modo suo; il test dei tasti e le domande frequenti aiutano",
+        "Il volante è per PC, box TV ed emulatori: i giochi mobile quasi mai accettano controller e il telefono con cui giochi si inclina già da sé"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

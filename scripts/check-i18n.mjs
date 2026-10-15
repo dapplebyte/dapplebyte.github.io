@@ -16,7 +16,7 @@ const placeholders = (s) => (typeof s === 'string' ? (s.match(/\{[a-zA-Z0-9_]+\}
 const en = flatten(JSON.parse(readFileSync(join(ROOT, 'src/i18n/en.json'), 'utf8')));
 const enKeys = Object.keys(en);
 /** Keys whose English value is only a brand name, an address or placeholders, so staying identical is correct. */
-const SAME_OK = new Set(['site.name', 'site.email', 'footer.copyright', 'product.title', 'features.title', 'products.relaypad.kicker', 'compare.vsTitle']);
+const SAME_OK = new Set(['site.name', 'site.email', 'footer.copyright', 'product.title', 'features.title', 'products.relaypad.kicker', 'products.joylink.kicker', 'compare.vsTitle']);
 let failed = false;
 for (const locale of LOCALES) {
   if (locale.slug === 'en') continue;

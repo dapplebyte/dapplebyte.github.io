@@ -1,0 +1,16 @@
+{
+  "slug": "joylink",
+  "locale": "nl",
+  "entries": [
+    {
+      "code": 120,
+      "name": "1.2.0",
+      "date": "2026-09-15",
+      "items": [
+        "Overzichtelijkere statusbalk en navigatiebalk op telefoons met navigatie via 3 knoppen",
+        "Verbeteringen in prestaties en stabiliteit"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

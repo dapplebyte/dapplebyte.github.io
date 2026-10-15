@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Aplikasi Android independen",
-    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: Gamepad Pro, aplikasi pemetaan tombol yang mengubah gamepad jadi kontrol sentuh; Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4; serta WhenDo, aplikasi otomatisasi AI dan klik otomatis.",
+    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: Gamepad Pro, aplikasi pemetaan tombol yang mengubah gamepad jadi kontrol sentuh; Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4; WhenDo, aplikasi otomatisasi AI dan klik otomatis; serta JoyLink, yang mengubah ponsel jadi gamepad Bluetooth, touchpad, dan remote TV.",
     "appsHeading": "Aplikasi",
     "principlesHeading": "Cara kami bekerja",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "Membuat otomatisasi utuh dari deskripsi dengan bahasa sehari-hari",
       "auto-clicker": "Klik otomatis dengan interval klik dan jumlah pengulangan",
       "gesture-recorder": "Merekam dan memutar ulang ketukan dan gesekan",
-      "no-ads": "Tanpa iklan"
+      "no-ads": "Tanpa iklan",
+      "no-receiver": "Tidak perlu memasang apa pun di komputer atau TV",
+      "bt-gamepad": "Terbaca sebagai gamepad Bluetooth standar",
+      "touchpad-keyboard": "Touchpad, mouse, dan keyboard",
+      "tv-remote": "Remote TV untuk Android TV, Google TV, dan Fire TV",
+      "racing-wheel": "Setir: miringkan ponsel untuk membelok",
+      "custom-layouts": "Geser, ubah ukuran, dan simpan tata letak kontrol"
     },
     "values": {
       "yes": "Ya",
@@ -262,7 +268,8 @@
     "home": "Beranda"
   },
   "trademarks": {
-    "sony": "PlayStation, PS5, dan PS4 adalah merek dagang Sony Interactive Entertainment Inc. {name} tidak berafiliasi dengan Sony dan tidak didukung oleh Sony."
+    "sony": "PlayStation, PS5, dan PS4 adalah merek dagang Sony Interactive Entertainment Inc. {name} tidak berafiliasi dengan Sony dan tidak didukung oleh Sony.",
+    "hosts": "Windows dan Xbox adalah merek dagang Microsoft; Mac, iPhone, dan iPad milik Apple; PlayStation milik Sony Interactive Entertainment; Nintendo Switch milik Nintendo; Android, Android TV, dan Google TV milik Google; Fire TV milik Amazon; Steam milik Valve; Raspberry Pi milik Raspberry Pi Ltd. {name} tidak berafiliasi dengan dan tidak didukung oleh satu pun dari mereka."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "Perbandingan WhenDo dengan aplikasi otomatisasi lain di Android, fitur demi fitur, hanya fakta.",
         "vsDescription": "Perbandingan {name} dan {other} di Android, fitur demi fitur: membuat tugas dengan AI, klik otomatis, pemicu, root, iklan, dan harga.",
         "vsIntro": "Keduanya mengotomatiskan ponsel Android. Ini perbedaannya, fitur demi fitur."
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "Terbaca sebagai gamepad Bluetooth standar di Windows, Mac, Linux, Android TV, atau ponsel lain, tanpa memasang apa pun di perangkat tujuan",
+        "Touchpad, keyboard, dan remote TV untuk TV box dan PC media, plus setir yang dikendalikan dengan memiringkan ponsel untuk emulator dan game simulasi di PC",
+        "Gratis, tanpa iklan, tanpa akun. Pro sekali bayar, dan setiap fitur Pro bisa dicoba sekali dulu"
+      ],
+      "faqDescription": "Jawaban seputar JoyLink: bisa terhubung ke apa saja, penyandingan, Windows dan Steam, touchpad dan remote TV, setir, tata letak dan makro, Pro, serta ponsel yang firmware-nya memblokir fitur ini.",
+      "faqNotFoundBody": "Tulis ke kami dengan menyebutkan model ponsel, perangkat yang ingin Anda sambungkan, dan apa yang terjadi. Setiap pesan dibaca oleh manusia.",
+      "support": {
+        "beforeItems": [
+          "Buka FAQ. Sebagian besar pertanyaan soal penyandingan, Windows, Steam, dan remote TV sudah terjawab di sana, dengan kata-kata yang sama seperti di aplikasi.",
+          "Saat pertama dibuka, JoyLink memeriksa apakah ponsel Anda bisa berfungsi sebagai gamepad Bluetooth. Jika muncul pesan bahwa produsen ponsel telah mematikan fitur itu, tidak ada aplikasi yang bisa menyalakannya lagi; FAQ menjelaskan apa saja yang tetap bisa dipakai.",
+          "Catat perangkat yang ingin Anda sambungkan (Windows, Mac, Linux, Android TV, ponsel lain) dan apakah ponsel muncul di daftar Bluetooth perangkat itu. Itulah yang kami butuhkan untuk mereproduksi masalahnya."
+        ],
+        "template": {
+          "phone": "Model ponsel:",
+          "android": "Versi Android:",
+          "host": "Perangkat tujuan (Windows / Mac / Linux / Android TV / lainnya):",
+          "seen": "Ponsel muncul di daftar Bluetooth perangkat tujuan: ya / tidak",
+          "what": "Apa yang terjadi, langkah demi langkah:",
+          "pro": "Sudah beli Pro: ya / tidak"
+        },
+        "refundBody": "JoyLink gratis dipasang. Jika Anda membeli Pro dan ternyata tidak berfungsi dengan perangkat Anda, kirim email ke kami dalam 7 hari sejak pembelian dan kami akan mengembalikan dananya. Ceritakan apa saja yang sudah Anda coba; itu membantu kami memperbaikinya untuk pengguna berikutnya."
+      },
+      "press": {
+        "description": "Fakta, aset, dan teks deskripsi standar untuk menulis tentang JoyLink, aplikasi yang mengubah ponsel Android jadi gamepad Bluetooth, touchpad, dan remote TV.",
+        "boilerplate": "JoyLink mengubah ponsel Android jadi gamepad Bluetooth, touchpad, dan remote TV standar untuk Windows, Mac, Linux, Android TV, dan perangkat Android lain, tanpa memasang apa pun di perangkat tujuan: tanpa aplikasi penerima, tanpa dongle, tanpa root. Ada juga setir yang dikendalikan dengan memiringkan ponsel, tata letak sendiri, turbo, dan makro. Aplikasi ini dibuat oleh DappleByte, sebuah studio independen.",
+        "priceValue": "Gratis dipasang, tanpa iklan. Menyambung, menyandingkan, dan gamepad standar gratis; touchpad, remote TV, setir, tata letak sendiri, turbo, makro, dan dua tema tambahan dibuka dengan pembelian Pro sekali bayar. Tidak ada langganan. Harga terkini ditampilkan di Google Play.",
+        "assetScreenshots": "Tangkapan layar, PNG 1920 × 1080, bahasa Inggris"
+      },
+      "videosDescription": "Video singkat yang menunjukkan JoyLink di ponsel sungguhan: menyandingkan dengan PC atau TV, gamepad di dalam game, touchpad dan remote TV, serta setir.",
+      "privacyDescription": "Apa yang dilakukan JoyLink untuk Android dengan data Anda: tanpa akun, tanpa server milik kami, input yang hanya dikirim lewat Bluetooth ke perangkat yang Anda sandingkan, untuk apa izin Perangkat di sekitar dipakai, dan apa yang dikumpulkan analitik.",
+      "compare": {
+        "description": "Perbandingan JoyLink dengan aplikasi lain yang mengubah ponsel jadi kontroler untuk komputer atau TV, fitur demi fitur, hanya fakta.",
+        "vsDescription": "Perbandingan {name} dan {other} di Android, fitur demi fitur: aplikasi penerima, gamepad Bluetooth, touchpad dan remote TV, setir, root, iklan, dan harga.",
+        "vsIntro": "Keduanya mengubah ponsel Android jadi kontroler untuk komputer atau TV. Ini perbedaannya, fitur demi fitur."
       }
     }
   }

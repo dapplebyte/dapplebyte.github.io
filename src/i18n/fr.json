@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Applications Android indépendantes",
-    "description": "DappleByte est un studio indépendant qui crée des applications Android : Gamepad Pro, un mappeur de touches qui transforme une manette en commandes tactiles ; Relaypad, une application de manette Remote Play et de streaming de console pour PS5 et PS4 ; et WhenDo, une application d'automatisation par IA avec cliqueur automatique.",
+    "description": "DappleByte est un studio indépendant qui crée des applications Android : Gamepad Pro, un mappeur de touches qui transforme une manette en commandes tactiles ; Relaypad, une application de manette Remote Play et de streaming de console pour PS5 et PS4 ; WhenDo, une application d'automatisation par IA avec cliqueur automatique ; et JoyLink, qui transforme un téléphone en manette Bluetooth, pavé tactile et télécommande TV.",
     "appsHeading": "Applications",
     "principlesHeading": "Notre façon de travailler",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "Crée une automatisation complète à partir d'une simple description",
       "auto-clicker": "Cliqueur automatique avec intervalle de clic et nombre de répétitions",
       "gesture-recorder": "Enregistre et rejoue les appuis et les balayages",
-      "no-ads": "Sans publicité"
+      "no-ads": "Sans publicité",
+      "no-receiver": "Rien à installer sur l'ordinateur ou la TV",
+      "bt-gamepad": "Reconnu comme manette Bluetooth standard",
+      "touchpad-keyboard": "Pavé tactile, souris et clavier",
+      "tv-remote": "Télécommande TV pour Android TV, Google TV et Fire TV",
+      "racing-wheel": "Volant qui se dirige en inclinant le téléphone",
+      "custom-layouts": "Déplacer, redimensionner et enregistrer les dispositions des commandes"
     },
     "values": {
       "yes": "Oui",
@@ -262,7 +268,8 @@
     "home": "Accueil"
   },
   "trademarks": {
-    "sony": "PlayStation, PS5 et PS4 sont des marques commerciales de Sony Interactive Entertainment Inc. {name} n'est ni affilié à Sony ni approuvé par Sony."
+    "sony": "PlayStation, PS5 et PS4 sont des marques commerciales de Sony Interactive Entertainment Inc. {name} n'est ni affilié à Sony ni approuvé par Sony.",
+    "hosts": "Windows et Xbox sont des marques commerciales de Microsoft ; Mac, iPhone et iPad, d'Apple ; PlayStation, de Sony Interactive Entertainment ; Nintendo Switch, de Nintendo ; Android, Android TV et Google TV, de Google ; Fire TV, d'Amazon ; Steam, de Valve ; Raspberry Pi, de Raspberry Pi Ltd. {name} n'est affilié à aucune de ces sociétés ni approuvé par elles."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "WhenDo comparé aux autres applications d'automatisation sur Android, fonctionnalité par fonctionnalité, uniquement des faits.",
         "vsDescription": "{name} et {other} comparés sur Android, fonctionnalité par fonctionnalité : création de tâches par IA, cliqueur automatique, déclencheurs, root, publicité et prix.",
         "vsIntro": "Les deux automatisent un téléphone Android. Voici en quoi ils diffèrent, fonctionnalité par fonctionnalité."
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "Reconnu comme manette Bluetooth standard sous Windows, Mac, Linux, Android TV ou par un autre téléphone, sans rien installer en face",
+        "Pavé tactile, clavier et télécommande TV pour box TV et PC de salon, et un volant qui se dirige en inclinant le téléphone pour les émulateurs et les simus PC",
+        "Gratuit, sans publicité ni compte. Pro est un achat unique, et chaque fonction Pro s'essaie d'abord une fois"
+      ],
+      "faqDescription": "Réponses sur JoyLink : à quoi il se connecte, appairage, Windows et Steam, pavé tactile et télécommande TV, volant, dispositions et macros, Pro, et téléphones dont le firmware bloque la fonction.",
+      "faqNotFoundBody": "Écrivez-nous en indiquant votre modèle de téléphone, l'appareil auquel vous vous connectez et ce qui s'est passé. Une vraie personne lit chaque message.",
+      "support": {
+        "beforeItems": [
+          "Ouvrez la FAQ. La plupart des questions sur l'appairage, Windows, Steam et la télécommande TV y trouvent leur réponse, avec les mêmes termes que dans l'application.",
+          "Au premier lancement, JoyLink vérifie si votre téléphone peut servir de manette Bluetooth. S'il indique que le fabricant a désactivé cette fonction, aucune application ne peut la réactiver ; la FAQ explique ce qui fonctionne quand même.",
+          "Notez l'appareil auquel vous vous connectez (Windows, Mac, Linux, Android TV, un autre téléphone) et s'il voit le téléphone dans sa liste Bluetooth. C'est ce qu'il nous faut pour reproduire le problème."
+        ],
+        "template": {
+          "phone": "Modèle du téléphone :",
+          "android": "Version d'Android :",
+          "host": "Appareil connecté (Windows / Mac / Linux / Android TV / autre) :",
+          "seen": "L'autre appareil voit le téléphone dans sa liste Bluetooth : oui / non",
+          "what": "Ce qui s'est passé, étape par étape :",
+          "pro": "Achat Pro : oui / non"
+        },
+        "refundBody": "JoyLink s'installe gratuitement. Si vous avez acheté Pro et qu'il ne fonctionne pas avec votre configuration, écrivez-nous dans les 7 jours suivant l'achat et nous vous rembourserons. Dites-nous ce que vous avez essayé : cela nous aide à corriger le problème pour les prochains utilisateurs."
+      },
+      "press": {
+        "description": "Faits, visuels et texte de présentation pour parler de JoyLink, l'application qui transforme un téléphone Android en manette Bluetooth, pavé tactile et télécommande TV.",
+        "boilerplate": "JoyLink transforme un téléphone Android en manette Bluetooth standard, pavé tactile et télécommande TV pour Windows, Mac, Linux, Android TV et d'autres appareils Android, sans rien installer en face : ni application réceptrice, ni dongle, ni root. Il y ajoute un volant qui se dirige en inclinant le téléphone, des dispositions personnalisées, le turbo et les macros. L'application est développée par DappleByte, un studio indépendant.",
+        "priceValue": "Installation gratuite, sans publicité. La connexion, l'appairage et la manette standard sont gratuits ; le pavé tactile, la télécommande TV, le volant, les dispositions personnalisées, le turbo, les macros et deux thèmes supplémentaires se débloquent par un achat Pro unique. Il n'y a pas d'abonnement. Le prix actuel est indiqué sur Google Play.",
+        "assetScreenshots": "Captures d'écran, PNG 1920 × 1080, en anglais"
+      },
+      "videosDescription": "De courtes vidéos de JoyLink sur un vrai téléphone : l'appairage avec un PC ou une TV, la manette en jeu, le pavé tactile et la télécommande TV, et le volant.",
+      "privacyDescription": "Ce que JoyLink pour Android fait de vos données : pas de compte, aucun serveur à nous, des commandes qui passent uniquement en Bluetooth vers l'appareil associé, à quoi sert l'autorisation « Appareils à proximité » et ce que collectent les statistiques d'utilisation.",
+      "compare": {
+        "description": "JoyLink comparé aux autres applications qui transforment un téléphone en manette pour un ordinateur ou une TV, fonctionnalité par fonctionnalité, uniquement des faits.",
+        "vsDescription": "{name} et {other} comparés sur Android, fonctionnalité par fonctionnalité : application réceptrice, manette Bluetooth, pavé tactile et télécommande TV, volant, root, publicité et prix.",
+        "vsIntro": "Les deux transforment un téléphone Android en manette pour un ordinateur ou une TV. Voici en quoi ils diffèrent, fonctionnalité par fonctionnalité."
       }
     }
   }

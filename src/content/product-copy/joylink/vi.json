@@ -1,0 +1,127 @@
+{
+  "slug": "joylink",
+  "locale": "vi",
+  "title": "JoyLink: Tay cầm từ điện thoại",
+  "shortDescription": "Tay cầm Bluetooth, bàn di chuột, điều khiển TV cho PC, Mac, Android TV",
+  "tagline": "Biến điện thoại thành tay cầm Bluetooth thật sự — không app bên kia, không dongle, không root",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Biến điện thoại thành tay cầm Bluetooth thật sự — không app bên kia, không dongle, không root",
+      "paragraphs": [
+        "JoyLink làm điện thoại Android hiện ra như tay cầm chơi game, bàn di chuột và điều khiển TV Bluetooth chuẩn. Ghép đôi một lần với PC Windows, Mac, Linux, Android TV hay điện thoại Android khác rồi dùng như tay cầm không dây — bên kia khỏi cài gì."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Mọi người hay dùng JoyLink thế nào",
+      "paragraphs": [],
+      "bullets": [
+        "Chơi game giả lập và game Steam trên laptop không tay cầm",
+        "Điều hướng Android TV, Google TV hay Fire TV, gõ chữ bằng bàn phím điện thoại",
+        "Ngồi trên sofa điều khiển máy tính ở xa",
+        "Chơi game retro trên Raspberry Pi hay RetroPie, khỏi mua tay cầm",
+        "Hai điện thoại, hai người chơi, một máy tính"
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Tay cầm Bluetooth cho PC, Mac và Linux",
+      "paragraphs": [],
+      "bullets": [
+        "Bố cục kiểu Xbox: hai cần analog, D-pad, A B X Y, LB/RB, LT/RT, Start và Select",
+        "Được nhận là tay cầm chuẩn (DirectInput): chạy ngay với Steam, giả lập và game hỗ trợ tay cầm phổ thông; XInput có Steam Input lo",
+        "Có rung phản hồi, toàn màn hình ngang, giữ để thoát nên không văng giữa trận",
+        "Công cụ kiểm tra phím cho thấy mỗi nút gửi gì sang máy kia"
+      ]
+    },
+    {
+      "id": "touchpad",
+      "title": "Bàn di chuột, chuột và bàn phím",
+      "paragraphs": [],
+      "bullets": [
+        "Chạm = chuột trái, hai ngón = chuột phải, kéo hai ngón = cuộn, chạm hai lần giữ kéo = kéo thả",
+        "Gõ bằng bàn phím điện thoại, hợp với đầu phát và máy tính nối TV",
+        "Cũng làm chuột và bàn phím không dây cho iPad và iPhone"
+      ]
+    },
+    {
+      "id": "tv-remote",
+      "title": "Điều khiển TV cho Android TV, Google TV và Fire TV",
+      "paragraphs": [],
+      "bullets": [
+        "Điều hướng D-pad, kèm Back, Home, Menu và tắt nguồn",
+        "Âm lượng, tắt tiếng, phát/tạm dừng, chuyển bài, chuyển kênh",
+        "Bàn phím số bấm kênh và bảng nhập chữ cho ô tìm kiếm"
+      ]
+    },
+    {
+      "id": "layouts-macros",
+      "title": "Bố cục riêng, bắn liên thanh và macro",
+      "paragraphs": [],
+      "bullets": [
+        "Di chuyển, đổi kích thước, làm mờ từng nút; lưu tới 8 bố cục cho từng game",
+        "Bật bắn liên thanh (Turbo) ở nút bất kỳ; ghi combo một lần, phát lại bằng một phím macro"
+      ]
+    },
+    {
+      "id": "racing-wheel",
+      "title": "Vô lăng cho PC, TV và giả lập: nghiêng máy để lái",
+      "paragraphs": [],
+      "bullets": [
+        "Cầm ngang điện thoại rồi nghiêng để đánh lái — cho máy bên kia không nghiêng được",
+        "Bàn đạp mặc định ở Trigger (LT / RT) nên game đua nhận tay cầm chạy ngay; có preset Bàn đạp analog, Cần trái và Retro cho game mô phỏng, giả lập"
+      ]
+    },
+    {
+      "id": "themes",
+      "title": "Ba chủ đề hoàn chỉnh",
+      "paragraphs": [
+        "HUD (thể thao điện tử, xanh chanh), Aurora (kính cực quang, ánh lam), Industrial (phím cơ, cam an toàn) — đổi cả diện mạo, không chỉ màu nhấn."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "long-sessions",
+      "title": "Dành cho những buổi chơi dài",
+      "paragraphs": [],
+      "bullets": [
+        "Độ trễ ngang một tay cầm Bluetooth thông thường",
+        "Tự kết nối lại khi máy kia rớt, giữ màn hình sáng suốt lúc chơi",
+        "19 ngôn ngữ và mục hỏi đáp ngay trong ứng dụng"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Miễn phí mãi mãi, Pro mua một lần",
+      "paragraphs": [
+        "Kết nối, ghép đôi và tay cầm chuẩn miễn phí mãi mãi, không giới hạn giờ, không quảng cáo. Pro mở thêm bàn di chuột, điều khiển TV, vô lăng, bố cục riêng, bắn liên thanh, macro và hai chủ đề: trả một lần, không thuê bao. Mỗi tính năng Pro dùng thử miễn phí một lần trước khi mua."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Riêng tư trước tiên",
+      "paragraphs": [
+        "JoyLink chỉ xin quyền “Thiết bị ở gần” (Bluetooth) và một thông báo trạng thái. Không tài khoản, không đăng nhập; thao tác của bạn qua Bluetooth tới máy kia, không đi đâu khác."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-install",
+      "title": "Trước khi cài",
+      "paragraphs": [
+        "Có gì chưa chạy? Đánh giá trên Play không cho chúng tôi cách hỏi chi tiết hay gửi bản sửa. Gửi email tới feedback@dapplebyte.com — Cài đặt → Giới thiệu → Gửi phản hồi tự đính kèm mẫu máy và phiên bản app."
+      ],
+      "bullets": [
+        "PlayStation, Xbox và Nintendo Switch chỉ nhận tay cầm chính hãng nên JoyLink không nối được",
+        "Game iOS không đọc tay cầm Bluetooth phổ thông; iPhone và iPad chỉ dùng được chuột và bàn phím",
+        "Android vốn làm được tay cầm Bluetooth, nhưng vài hãng tắt trong firmware và không app nào bật lại; JoyLink kiểm tra lần mở đầu",
+        "Mỗi máy ánh xạ phím một kiểu; công cụ kiểm tra phím và mục hỏi đáp bao quát ca hay gặp",
+        "Vô lăng dành cho PC, đầu phát và giả lập: phần lớn game đua mobile không nhận tay cầm, và máy bạn đang chơi vốn đã nghiêng lái được"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

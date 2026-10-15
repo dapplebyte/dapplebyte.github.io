@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Apps independientes para Android",
-    "description": "DappleByte es un estudio independiente que hace apps para Android: Gamepad Pro, un mapeador de botones que convierte un control en controles táctiles; Relaypad, una app de control por Remote Play y transmisión de la consola para PS5 y PS4; y WhenDo, una app de automatización con IA y clic automático.",
+    "description": "DappleByte es un estudio independiente que hace apps para Android: Gamepad Pro, un mapeador de botones que convierte un control en controles táctiles; Relaypad, una app de control por Remote Play y transmisión de la consola para PS5 y PS4; WhenDo, una app de automatización con IA y clic automático; y JoyLink, que convierte un teléfono en un mando Bluetooth, panel táctil y mando de TV.",
     "appsHeading": "Apps",
     "principlesHeading": "Cómo trabajamos",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "Crea una automatización completa a partir de una descripción con tus palabras",
       "auto-clicker": "Clic automático con intervalo de clic y número de repeticiones",
       "gesture-recorder": "Graba y reproduce toques y deslizamientos",
-      "no-ads": "Sin anuncios"
+      "no-ads": "Sin anuncios",
+      "no-receiver": "No hay que instalar nada en el PC ni en la TV",
+      "bt-gamepad": "Se identifica como mando Bluetooth estándar",
+      "touchpad-keyboard": "Panel táctil, ratón y teclado",
+      "tv-remote": "Mando de TV para Android TV, Google TV y Fire TV",
+      "racing-wheel": "Volante que gira inclinando el teléfono",
+      "custom-layouts": "Mueve, redimensiona y guarda diseños de controles"
     },
     "values": {
       "yes": "Sí",
@@ -262,7 +268,8 @@
     "home": "Inicio"
   },
   "trademarks": {
-    "sony": "PlayStation, PS5 y PS4 son marcas comerciales de Sony Interactive Entertainment Inc. {name} no está afiliada a Sony ni cuenta con su respaldo."
+    "sony": "PlayStation, PS5 y PS4 son marcas comerciales de Sony Interactive Entertainment Inc. {name} no está afiliada a Sony ni cuenta con su respaldo.",
+    "hosts": "Windows y Xbox son marcas comerciales de Microsoft; Mac, iPhone y iPad, de Apple; PlayStation, de Sony Interactive Entertainment; Nintendo Switch, de Nintendo; Android, Android TV y Google TV, de Google; Fire TV, de Amazon; Steam, de Valve; Raspberry Pi, de Raspberry Pi Ltd. {name} no está afiliada a ninguna de ellas ni cuenta con su respaldo."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "Cómo se compara WhenDo con otras apps de automatización en Android, función por función, solo datos.",
         "vsDescription": "{name} y {other} comparadas en Android, función por función: creación de tareas con IA, clic automático, disparadores, root, anuncios y precio.",
         "vsIntro": "Las dos automatizan un teléfono Android. Aquí ves en qué se diferencian, función por función."
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "Se identifica como mando Bluetooth estándar en Windows, Mac, Linux, Android TV u otro teléfono, sin instalar nada en el otro lado",
+        "Panel táctil, teclado y mando de TV para TV box y PC de salón, y un volante que gira inclinando el teléfono para emuladores y simuladores de PC",
+        "Gratis, sin anuncios y sin cuenta. Pro es un pago único y cada función Pro se puede probar gratis una vez antes de comprarla"
+      ],
+      "faqDescription": "Respuestas sobre JoyLink: a qué se conecta, el emparejamiento, Windows y Steam, el panel táctil y el mando de TV, el volante, los diseños y las macros, Pro y los teléfonos cuyo firmware lo bloquea.",
+      "faqNotFoundBody": "Escríbenos con el modelo de tu teléfono, a qué lo conectas y lo que pasó. Una persona lee cada mensaje.",
+      "support": {
+        "beforeItems": [
+          "Abre las preguntas frecuentes. Ahí se responden la mayoría de las dudas sobre emparejamiento, Windows, Steam y el mando de TV, con las mismas palabras que en la app.",
+          "Al primer inicio, JoyLink comprueba si tu teléfono puede funcionar como mando Bluetooth. Si te dice que el fabricante lo desactivó, ninguna app puede volver a activarlo; en las preguntas frecuentes se explica qué sigue funcionando.",
+          "Anota a qué lo conectas (Windows, Mac, Linux, Android TV, otro teléfono) y si ese equipo ve el teléfono en su lista de Bluetooth. Eso es lo que necesitamos para reproducir el problema."
+        ],
+        "template": {
+          "phone": "Modelo del teléfono:",
+          "android": "Versión de Android:",
+          "host": "Equipo al que lo conectas (Windows / Mac / Linux / Android TV / otro):",
+          "seen": "El otro equipo ve el teléfono en su lista de Bluetooth: sí / no",
+          "what": "Qué pasó, paso a paso:",
+          "pro": "Compra de Pro: sí / no"
+        },
+        "refundBody": "JoyLink se instala gratis. Si compraste Pro y no funciona con tu configuración, escríbenos en los 7 días siguientes a la compra y te devolvemos el dinero. Cuéntanos qué probaste; nos ayuda a arreglarlo para la próxima persona."
+      },
+      "press": {
+        "description": "Datos, recursos y un texto de presentación para escribir sobre JoyLink, la app que convierte un teléfono Android en un mando Bluetooth, panel táctil y mando de TV.",
+        "boilerplate": "JoyLink convierte un teléfono Android en un mando Bluetooth estándar, panel táctil y mando de TV para Windows, Mac, Linux, Android TV y otros dispositivos Android, sin instalar nada en el otro lado: sin app receptora, sin dongle y sin root. Además incluye un volante que gira inclinando el teléfono, diseños propios, Turbo y macros. Lo hace DappleByte, un estudio independiente.",
+        "priceValue": "Se instala gratis, sin anuncios. Conectar, emparejar y el mando estándar son gratis; el panel táctil, el mando de TV, el volante, los diseños propios, el Turbo, las macros y dos temas más se desbloquean con una compra única de Pro. No hay suscripción. El precio actual aparece en Google Play.",
+        "assetScreenshots": "Capturas de pantalla, PNG de 1920 × 1080, en inglés"
+      },
+      "videosDescription": "Videos cortos de JoyLink en un teléfono real: cómo emparejarlo con un PC o una TV, el mando en un juego, el panel táctil y el mando de TV, y el volante.",
+      "privacyDescription": "Qué hace JoyLink para Android con tus datos: sin cuenta, sin servidores propios, lo que pulsas viaja solo por Bluetooth al dispositivo emparejado, para qué se usa el permiso «Dispositivos cercanos» y qué recopilan las analíticas.",
+      "compare": {
+        "description": "Cómo se compara JoyLink con otras apps que convierten el teléfono en un mando para PC o TV, función por función, solo datos.",
+        "vsDescription": "{name} y {other} comparadas en Android, función por función: app receptora, mando Bluetooth, panel táctil y mando de TV, volante, root, anuncios y precio.",
+        "vsIntro": "Las dos convierten un teléfono Android en un mando para PC o TV. Aquí ves en qué se diferencian, función por función."
       }
     }
   }

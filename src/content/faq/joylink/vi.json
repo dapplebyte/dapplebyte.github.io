@@ -1,0 +1,297 @@
+{
+  "slug": "joylink",
+  "locale": "vi",
+  "title": "Câu hỏi thường gặp",
+  "intro": "Những câu hỏi chúng tôi nhận được nhiều nhất, kèm cách xử lý. Chạm vào một câu để mở ra.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Kết nối và ghép đôi",
+      "entries": [
+        {
+          "id": "supported_hosts",
+          "q": "JoyLink kết nối được với những gì?",
+          "a": [
+            "Windows 10 và 11, macOS, Linux và Raspberry Pi, Android TV, Google TV, Fire TV cùng các loại đầu phát, TV thông minh có nhận tay cầm hoặc bàn phím Bluetooth, và điện thoại hay máy tính bảng Android khác. Máy bên kia không cần cài thêm gì. Trên iPhone và iPad chỉ dùng được bàn di chuột và bàn phím — game iOS không nhận tín hiệu tay cầm từ JoyLink."
+          ]
+        },
+        {
+          "id": "consoles",
+          "q": "Vì sao không kết nối được với PlayStation, Xbox hay Switch?",
+          "a": [
+            "Mỗi máy chơi game chặn theo một kiểu. Tay cầm Xbox chạy trên sóng 2,4 GHz riêng chứ không phải Bluetooth. Máy PlayStation kiểm tra con chip xác thực nằm bên trong tay cầm. Switch chỉ chấp nhận giao thức riêng của Nintendo. Không ứng dụng nào lách được những thứ đó, và JoyLink cũng không thử."
+          ]
+        },
+        {
+          "id": "not_found_in_scan",
+          "q": "Máy bên kia không thấy điện thoại của tôi trong danh sách Bluetooth.",
+          "a": [
+            "Trong hướng dẫn ghép đôi, hãy chạm “Cho phép phát hiện” trước — máy bên kia chỉ nhìn thấy điện thoại này khi đồng hồ đếm ngược còn chạy. Điện thoại hiện lên bằng chính tên Bluetooth của nó (ví dụ “Pixel 8”) chứ không phải “JoyLink”. Giữ JoyLink ở màn hình trước trong lúc ghép đôi. Nếu hai máy từng ghép đôi trước đây, hãy huỷ ghép đôi cũ ở cả hai bên rồi ghép lại."
+          ]
+        },
+        {
+          "id": "stuck_connecting",
+          "q": "Ghép đôi xong rồi nhưng cứ đứng ở “Đang kết nối…” hoặc không nối được.",
+          "a": [
+            "Kiểm tra máy bên kia đã bật Bluetooth, còn trong tầm và không đang bận với một tay cầm khác. Thử kết nối từ phía máy đó bằng cách chạm vào tên điện thoại trong danh sách. Nếu vẫn không được, tắt rồi bật lại Bluetooth ở cả hai máy. Nếu máy kia thấy thiết bị mà bấm nút vẫn không có phản ứng, xem mục “Máy bên kia không nhận ra JoyLink”."
+          ]
+        },
+        {
+          "id": "nearby_permission",
+          "q": "Vì sao JoyLink cần quyền Thiết bị ở gần?",
+          "a": [
+            "Từ Android 12, việc kết nối qua Bluetooth nằm trong quyền này. JoyLink chỉ dùng nó để liệt kê thiết bị đã ghép đôi và để đăng ký điện thoại làm tay cầm Bluetooth. Thao tác bấm nút và gõ phím của bạn đi thẳng qua Bluetooth tới máy bên kia, không được tải lên bất cứ đâu."
+          ]
+        },
+        {
+          "id": "auto_reconnect",
+          "q": "Rớt kết nối rồi có tự nối lại không?",
+          "a": [
+            "Có. Ứng dụng thử lại tối đa ba lần với khoảng chờ tăng dần, và báo trên màn hình chính nếu vẫn không xong. Bạn có thể tắt ở Cài đặt → Kết nối → Tự kết nối lại."
+          ]
+        },
+        {
+          "id": "background_hold",
+          "q": "Rời khỏi ứng dụng rồi JoyLink có còn chiếm Bluetooth không?",
+          "a": [
+            "Chỉ vài phút thôi. Khi đăng ký còn hiệu lực, điện thoại này chính là một tay cầm Bluetooth, và trên vài dòng máy điều đó khiến các thiết bị khác — tai nghe, đồng hồ — không tự kết nối lại được. Vì vậy vài phút sau khi bạn rời ứng dụng, đăng ký sẽ được nhả ra, và khi bạn quay lại thì chỉ mất một hai giây để đăng ký lại. Bạn chọn khoảng thời gian đó ở Cài đặt → Kết nối → Giữ kết nối ở nền; nếu các thiết bị khác cần dùng Bluetooth ngay thì chọn “Nhả ngay”."
+          ]
+        },
+        {
+          "id": "two_devices",
+          "q": "Kết nối cùng lúc với hai thiết bị được không?",
+          "a": [
+            "Một điện thoại chỉ nối được với một máy tại một thời điểm. Chiều ngược lại thì được: hai điện thoại cùng chạy JoyLink có thể nối vào một máy tính và hiện ra như hai tay cầm riêng — chơi hai người tại chỗ mà không phải cài đặt gì thêm."
+          ]
+        },
+        {
+          "id": "bt_headphones",
+          "q": "Tai nghe Bluetooth có gây nhiễu không?",
+          "a": [
+            "Có thể, và theo cả hai chiều. Trên vài dòng máy, vừa phát nhạc vừa chơi sẽ làm tín hiệu tay cầm trễ hoặc giật. Nếu thấy khựng, hãy ngắt tai nghe hoặc chuyển sang tai nghe có dây. Chiều ngược lại cũng xảy ra: trong lúc JoyLink còn đăng ký làm tay cầm, tai nghe có thể không tự kết nối lại được. Rời khỏi JoyLink thì Bluetooth được nhả ra sau khoảng chờ đặt ở Cài đặt → Kết nối → Giữ kết nối ở nền."
+          ]
+        },
+        {
+          "id": "missing_device",
+          "q": "Một thiết bị đã ghép đôi biến mất khỏi màn hình chính.",
+          "a": [
+            "Nhiều khả năng nó đã bị ẩn. Việc đó chỉ bỏ thiết bị khỏi danh sách của JoyLink; ghép đôi trong cài đặt hệ thống vẫn còn nguyên. Mở Tất cả thiết bị ở màn hình chính để khôi phục."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Tay cầm và máy tính",
+      "entries": [
+        {
+          "id": "windows_no_input",
+          "q": "Windows thấy tay cầm nhưng game không nhận, hoặc các nút bị lệch.",
+          "a": [
+            "JoyLink là tay cầm phổ thông chuẩn (DirectInput), không phải tay cầm Xbox (XInput). Game chỉ hỗ trợ XInput cần Steam đứng giữa: mở Steam → Settings → Controller rồi bật Steam Input cho tay cầm phổ thông; với game ngoài Steam, dùng “Add a Non-Steam Game” và chạy game từ Steam. Khi đó Steam trình bày nó thành loại tay cầm mà game hiểu được, đồng thời cho gán lại từng nút."
+          ]
+        },
+        {
+          "id": "host_not_recognised",
+          "q": "Máy bên kia không nhận ra JoyLink, hoặc coi nó là bàn phím và chuột.",
+          "a": [
+            "Hãy bật Cài đặt → Kết nối → Chế độ rút gọn (chỉ tay cầm). JoyLink khi đó chỉ công bố mình như một tay cầm. Kết nối ngắt một hai giây rồi tự trở lại. Đánh đổi: bàn di chuột, bàn phím và phím media ngừng hoạt động khi chế độ này đang bật."
+          ]
+        },
+        {
+          "id": "analog_triggers",
+          "q": "LT và RT không có hành trình analog.",
+          "a": [
+            "Hiện tại LT và RT chỉ là nút nhấn/nhả — cách tương thích rộng nhất với các máy. Nếu cần ga và phanh chuyển mượt theo lực, hãy dùng chế độ vô lăng, ở đó bàn đạp được gửi đi dưới dạng trục analog."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "Nhấn L3 / R3 bằng cách nào?",
+          "a": [
+            "Hãy bật Cài đặt → Tay cầm → Nút L3 / R3. Bố cục sẽ có thêm hai nút, và chúng hoạt động như mọi nút khác: giữ nút nào thì nút đó giữ nguyên trạng thái nhấn, nên vừa giữ L3 để chạy nước rút vừa đẩy cần là chuyện bình thường. Mặc định chúng không hiện, vì phần lớn game di động không dùng tới. Bản thân cần chỉ để điều hướng — chạm nhẹ vào cần không gửi đi gì cả."
+          ]
+        },
+        {
+          "id": "latency",
+          "q": "Độ trễ có rõ không? Làm sao giảm bớt?",
+          "a": [
+            "Ngang với một tay cầm Bluetooth thông thường, mức mà hầu hết game không lộ ra. Để giữ ổn định: ngồi gần máy bên kia, ngắt các thiết bị Bluetooth không dùng tới, tắt chế độ tiết kiệm pin trên điện thoại, và bật Giữ màn hình sáng để hệ thống không hạ hiệu năng ứng dụng."
+          ]
+        },
+        {
+          "id": "exit_gamepad",
+          "q": "Thoát khỏi màn hình tay cầm bằng cách nào?",
+          "a": [
+            "Nhấn giữ “Giữ để thoát” ở góc trên bên phải. Cả màn hình là vùng điều khiển, nên phải giữ lâu mới thoát — một cú chạm nhầm sẽ không kéo bạn ra khỏi game."
+          ]
+        },
+        {
+          "id": "screen_off",
+          "q": "Màn hình tắt giữa lúc đang chơi.",
+          "a": [
+            "Hãy bật Cài đặt → Phản hồi → Giữ màn hình sáng. Màn hình sẽ luôn sáng khi tay cầm đang mở. Riêng vô lăng thì luôn giữ màn hình sáng bất kể công tắc này."
+          ]
+        },
+        {
+          "id": "hud_battery",
+          "q": "BAT ở góc màn hình tay cầm là gì?",
+          "a": [
+            "Là mức pin của chính điện thoại này, không phải của máy bên kia. Trên màn hình vô lăng, đúng chỗ đó hiển thị bộ gán trục đang dùng."
+          ]
+        },
+        {
+          "id": "report_data",
+          "q": "“Hiện dữ liệu report” dùng để làm gì?",
+          "a": [
+            "Đây là công cụ chẩn đoán. Khi bật, màn hình tay cầm hiển thị dữ liệu thô đang được gửi đi. Mở một trang web kiểm tra tay cầm trên máy bên kia là bạn đối chiếu được từng nút, xem có rơi đúng số hay không."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touchpad-remote",
+      "title": "Bàn di chuột và điều khiển TV",
+      "entries": [
+        {
+          "id": "wrong_characters",
+          "q": "Ký tự gửi tới không đúng với ký tự tôi gõ.",
+          "a": [
+            "JoyLink gửi mã phím của bàn phím US. Nếu máy bên kia dùng bố cục bàn phím khác, một số ký hiệu sẽ ra khác — đổi bố cục ở máy đó sang US là xong. Với tiếng Trung, tiếng Nhật và các ngôn ngữ tương tự, hãy đổi kiểu gõ ngay trên máy đó rồi nhập phiên âm ở đây."
+          ]
+        },
+        {
+          "id": "remote_limits",
+          "q": "Điều khiển không bật được TV, không đổi được nguồn tín hiệu và không tìm kiếm bằng giọng nói.",
+          "a": [
+            "TV vừa tắt là Bluetooth đứt ngay, nên phím nguồn tắt được TV nhưng không bật lại được. Đổi nguồn tín hiệu, tìm kiếm bằng giọng nói hay mở thẳng một ứng dụng đều cần giao thức riêng của hãng TV, thứ mà Bluetooth không truyền được. Còn TV chỉ dùng điều khiển hồng ngoại thì hoàn toàn nằm ngoài tầm với."
+          ]
+        },
+        {
+          "id": "remote_no_response",
+          "q": "Bàn di chuột hoặc phím điều khiển TV không ăn, nhưng tay cầm vẫn chạy.",
+          "a": [
+            "Nhiều khả năng Chế độ rút gọn đang bật — nó chỉ giữ lại tay cầm. Hãy tắt ở Cài đặt → Kết nối."
+          ]
+        },
+        {
+          "id": "ios_devices",
+          "q": "Điều khiển iPad hay iPhone được không?",
+          "a": [
+            "Bằng bàn di chuột và bàn phím thì được. iPad nhận thẳng chuột và bàn phím Bluetooth; với iPhone, trước hết hãy bật Cài đặt → Trợ năng → Cảm ứng → AssistiveTouch. Chế độ tay cầm không dùng được trong game iOS — đó là giới hạn do Apple đặt ra."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-modes",
+      "title": "Vô lăng, bố cục và macro",
+      "entries": [
+        {
+          "id": "wheel_no_steering",
+          "q": "Game không nhận vô lăng hoặc bàn đạp.",
+          "a": [
+            "Mỗi game đọc bàn đạp một kiểu. Chạm vào thẻ gán trục ở dưới cùng màn hình vô lăng rồi chọn kiểu khác: Trigger hợp với hầu hết game có hỗ trợ tay cầm, Retro hợp với giả lập, còn các bộ bàn đạp analog hợp với game mô phỏng cho phép tự gán trục (vào game gán một lần). Bạn cũng đổi được ở Cài đặt → Vô lăng → Gán trục."
+          ]
+        },
+        {
+          "id": "wheel_drift",
+          "q": "Xe cứ lệch về một bên.",
+          "a": [
+            "Tay bạn đã đổi thế cầm nên tâm lệch theo. Chạm Đặt lại tâm trên màn hình để lấy tư thế hiện tại làm hướng thẳng mới. Nếu lái quá nhạy hoặc quá ì, hãy chỉnh Góc đánh lái tối đa trong Cài đặt."
+          ]
+        },
+        {
+          "id": "layout_editor",
+          "q": "Tùy chỉnh bố cục thế nào? Có ảnh hưởng tới các chế độ khác không?",
+          "a": [
+            "Mở thẻ Bố cục riêng ở màn hình chính, hoặc giữ biểu tượng bút chì ở góc trên bên phải màn hình tay cầm. Nó chỉ đổi màn hình tay cầm, và bạn giữ được tới 8 hồ sơ cho các game khác nhau. (Pro)"
+          ]
+        },
+        {
+          "id": "ps_style",
+          "q": "Tôi dùng nút PlayStation (△ ○ ✕ □) thay cho ABXY được không?",
+          "a": [
+            "Được, đây là tính năng Pro. Vào Cài đặt → Tay cầm → Kiểu nút bấm rồi chọn PlayStation: các nút mặt trước thành △ ○ ✕ □, các nút vai thành L1 / L2 / R1 / R2, và cả hai cần nằm ở phía dưới như DualShock. Máy bên kia vẫn nhận diện đây là tay cầm tiêu chuẩn nên game vẫn chạy bình thường: △ = Y, ○ = B, ✕ = A, □ = X."
+          ]
+        },
+        {
+          "id": "macro_sticks",
+          "q": "Macro có ghi cả cần analog không?",
+          "a": [
+            "Không. Macro chỉ phát lại nút bấm; cần analog và phím điều hướng luôn theo thao tác thật. Trong lúc ghi, không có tín hiệu nào được gửi tới máy bên kia. (Pro)"
+          ]
+        },
+        {
+          "id": "turbo_rate",
+          "q": "Đổi tốc độ bắn liên thanh ở đâu?",
+          "a": [
+            "Trong trình sửa bố cục, chạm một nút rồi bật Bắn liên thanh, sau đó chỉnh tần suất. Mọi nút liên thanh trong cùng một hồ sơ dùng chung một tần suất. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro và mua hàng",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Pro có phải thuê bao không? Gồm những gì?",
+          "a": [
+            "Không — đây là khoản mua một lần, dùng trọn đời. Nó mở khóa bàn di chuột và bàn phím, điều khiển TV, vô lăng, bố cục riêng với nhiều hồ sơ, bắn liên thanh và macro, cùng chủ đề Aurora và Industrial. Bản miễn phí vẫn kết nối bình thường và vẫn có tay cầm tiêu chuẩn đầy đủ, không có quảng cáo."
+          ]
+        },
+        {
+          "id": "pro_try_once",
+          "q": "Tôi có thể dùng thử tính năng Pro trước khi mua không?",
+          "a": [
+            "Có. Khi một tính năng Pro mở màn hình nâng cấp, hãy chạm “Dùng thử miễn phí một lần” ở dưới cùng. Tính năng đó mở đến khi bạn đóng ứng dụng, và mỗi tính năng chỉ thử được một lần."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Tôi đổi điện thoại và Pro biến mất.",
+          "a": [
+            "Hãy đăng nhập Google Play bằng đúng tài khoản Google đã mua, rồi mở Cài đặt → Pro và chạm Khôi phục giao dịch mua."
+          ]
+        },
+        {
+          "id": "purchase_failed",
+          "q": "Mua không thành công, hoặc cứ báo “Đang kết nối Google Play”.",
+          "a": [
+            "Hãy kiểm tra Cửa hàng Play mở lên bình thường và quốc gia của tài khoản có hỗ trợ thanh toán, rồi thử lại sau một lúc. Việc hoàn tiền thực hiện trong lịch sử đơn hàng trên Google Play."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "title": "Tương thích và hỗ trợ",
+      "entries": [
+        {
+          "id": "phone_unsupported",
+          "q": "Vì sao ứng dụng báo điện thoại này không làm tay cầm được?",
+          "a": [
+            "Việc đóng vai trò tay cầm Bluetooth đã có trong Android từ Android 9, nhưng bật hay không là do từng hãng quyết định, và một số bản phần mềm để tắt — không ứng dụng nào bù lại được. Hay gặp nhất ở các máy OnePlus và LG đời cũ, một số firmware theo khu vực và ROM tự cài. Nếu muốn kiểm chứng thêm, ứng dụng miễn phí Bluetooth HID Profile Tester kiểm tra đúng cùng một thứ. Sau khi cập nhật hệ thống, hãy quay lại màn hình chính và kiểm tra lại."
+          ]
+        },
+        {
+          "id": "register_blocked",
+          "q": "Ứng dụng báo “Không đăng ký được làm tay cầm”.",
+          "a": [
+            "Android chỉ cho phép một ứng dụng làm thiết bị nhập Bluetooth tại một thời điểm, nên nhiều khả năng một ứng dụng tay cầm, bàn phím hoặc chuột khác đang giữ chỗ. Hãy tắt ứng dụng đó rồi kiểm tra lại."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Báo lỗi hoặc góp ý bằng cách nào?",
+          "a": [
+            "Cài đặt → Giới thiệu → Gửi phản hồi. Mẫu máy và phiên bản ứng dụng được tự động đính kèm vào email, để chúng tôi khớp được với những gì thấy ở phía mình."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

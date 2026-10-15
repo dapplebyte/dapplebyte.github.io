@@ -1,0 +1,297 @@
+{
+  "slug": "joylink",
+  "locale": "id",
+  "title": "Tanya jawab",
+  "intro": "Pertanyaan yang paling sering kami terima, beserta cara mengatasinya. Ketuk sebuah pertanyaan untuk membukanya.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Koneksi & penyandingan",
+      "entries": [
+        {
+          "id": "supported_hosts",
+          "q": "JoyLink bisa terhubung ke apa saja?",
+          "a": [
+            "Windows 10 dan 11, macOS, Linux dan Raspberry Pi, Android TV, Google TV, Fire TV serta set-top box lain, smart TV yang menerima gamepad atau keyboard Bluetooth, dan ponsel atau tablet Android lain. Perangkat tujuan tidak perlu memasang apa pun. Di iPhone dan iPad hanya touchpad dan keyboard yang jalan — game iOS tidak menerima masukan gamepad dari JoyLink."
+          ]
+        },
+        {
+          "id": "consoles",
+          "q": "Kenapa tidak bisa terhubung ke PlayStation, Xbox, atau Switch?",
+          "a": [
+            "Tiap konsol menutup jalannya dengan caranya sendiri. Gamepad Xbox memakai radio 2,4 GHz eksklusif, bukan Bluetooth. Konsol PlayStation memverifikasi chip autentikasi di dalam gamepad-nya. Switch hanya menerima protokol buatan Nintendo. Tidak ada aplikasi yang bisa menyiasati ini, dan JoyLink pun tidak mencobanya."
+          ]
+        },
+        {
+          "id": "not_found_in_scan",
+          "q": "Perangkat satunya tidak menemukan ponselku di daftar Bluetooth.",
+          "a": [
+            "Di panduan pemasangan, ketuk “Buat dapat dideteksi” dulu — perangkat tujuan hanya bisa melihat ponsel ini selama hitung mundurnya berjalan. Ponsel muncul dengan nama Bluetooth-nya sendiri (misalnya “Pixel 8”), bukan sebagai “JoyLink”. Biarkan JoyLink tetap di layar depan selama penyandingan. Kalau kedua perangkat pernah disandingkan, hapus dulu pemasangan lama di kedua sisi, lalu ulangi."
+          ]
+        },
+        {
+          "id": "stuck_connecting",
+          "q": "Penyandingan berhasil, tetapi berhenti di “Menghubungkan…” atau tidak pernah tersambung.",
+          "a": [
+            "Pastikan Bluetooth di perangkat tujuan menyala, jaraknya dekat, dan tidak sedang dipakai gamepad lain. Coba mulai sambungan dari sisi perangkat itu dengan mengetuk nama ponselmu di sana. Kalau masih gagal, matikan lalu nyalakan lagi Bluetooth di kedua perangkat. Kalau perangkat itu menemukannya tetapi tombol tidak berefek, lihat “Perangkat tujuan tidak mengenali JoyLink”."
+          ]
+        },
+        {
+          "id": "nearby_permission",
+          "q": "Kenapa JoyLink perlu izin Perangkat di sekitar?",
+          "a": [
+            "Sejak Android 12, menyambung lewat Bluetooth masuk ke izin ini. JoyLink memakainya hanya untuk menampilkan perangkat tersanding dan mendaftarkan ponsel sebagai gamepad Bluetooth. Tekanan tombol dan ketikanmu berjalan lewat Bluetooth ke perangkat tujuan, tidak pernah diunggah ke mana pun."
+          ]
+        },
+        {
+          "id": "auto_reconnect",
+          "q": "Apakah sambungan pulih sendiri setelah putus?",
+          "a": [
+            "Ya. Aplikasi mencoba sampai tiga kali dengan jeda yang makin panjang, dan memberi tahu di layar utama kalau tetap gagal. Kamu bisa mematikannya di Setelan → Koneksi → Sambung ulang otomatis."
+          ]
+        },
+        {
+          "id": "background_hold",
+          "q": "Apakah JoyLink masih memakai Bluetooth setelah aku keluar dari aplikasi?",
+          "a": [
+            "Hanya beberapa menit. Selama pendaftarannya masih aktif, ponsel ini adalah gamepad Bluetooth, dan di sebagian ponsel itu membuat perangkat lain — headphone, jam tangan — tidak bisa menyambung ulang sendiri. Jadi beberapa menit setelah kamu keluar, pendaftarannya dilepas, dan saat kamu kembali hanya perlu satu dua detik untuk mendaftar lagi. Pilih durasinya di Setelan → Koneksi → Jaga sambungan di latar belakang; pilih “Langsung lepas” kalau perangkat lainmu butuh Bluetooth saat itu juga."
+          ]
+        },
+        {
+          "id": "two_devices",
+          "q": "Bisa terhubung ke dua perangkat sekaligus?",
+          "a": [
+            "Satu ponsel tersambung ke satu perangkat dalam satu waktu. Sebaliknya justru bisa: dua ponsel yang menjalankan JoyLink boleh tersambung ke komputer yang sama dan muncul sebagai dua gamepad terpisah — main berdua tanpa setelan tambahan."
+          ]
+        },
+        {
+          "id": "bt_headphones",
+          "q": "Apakah headphone Bluetooth mengganggu?",
+          "a": [
+            "Bisa, dan dari dua arah. Di sebagian ponsel, memutar audio bersamaan menambah lag atau membuat masukan gamepad tersendat. Kalau terasa patah-patah, putuskan headphone-nya atau pakai yang berkabel. Arah sebaliknya juga terjadi: selama JoyLink terdaftar sebagai gamepad, headphone bisa saja menolak menyambung ulang sendiri. Keluar dari JoyLink akan melepas Bluetooth lagi setelah jeda yang diatur di Setelan → Koneksi → Jaga sambungan di latar belakang."
+          ]
+        },
+        {
+          "id": "missing_device",
+          "q": "Perangkat tersanding hilang dari layar utama.",
+          "a": [
+            "Kemungkinan besar perangkat itu disembunyikan. Itu hanya mengeluarkannya dari daftar JoyLink; pemasangannya di setelan sistem tetap ada. Buka Semua perangkat di layar utama untuk memulihkannya."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Gamepad & komputer",
+      "entries": [
+        {
+          "id": "windows_no_input",
+          "q": "Windows melihat gamepad-nya, tetapi game mengabaikannya atau tombolnya tertukar.",
+          "a": [
+            "JoyLink adalah gamepad generik standar (DirectInput), bukan kontroler Xbox (XInput). Game yang hanya mendukung XInput butuh Steam sebagai perantara: buka Steam → Settings → Controller lalu aktifkan Steam Input untuk kontroler generik; untuk game di luar Steam, pakai “Add a Non-Steam Game” dan jalankan dari sana. Steam kemudian menyajikannya sebagai kontroler yang dipahami game, sekaligus memungkinkan semua tombol dipetakan ulang."
+          ]
+        },
+        {
+          "id": "host_not_recognised",
+          "q": "Perangkat tujuan tidak mengenali JoyLink, atau menganggapnya keyboard dan mouse.",
+          "a": [
+            "Aktifkan Setelan → Koneksi → Mode ringkas (hanya gamepad). JoyLink lalu mengumumkan dirinya murni sebagai gamepad. Sambungan putus sedetik dua detik lalu pulih sendiri. Konsekuensinya: touchpad, keyboard, dan tombol media berhenti bekerja selama mode itu aktif."
+          ]
+        },
+        {
+          "id": "analog_triggers",
+          "q": "LT dan RT tidak punya tekanan bertingkat.",
+          "a": [
+            "Untuk sekarang LT dan RT hanya tombol tekan/lepas — pilihan yang paling luas kompatibilitasnya di berbagai perangkat. Kalau butuh gas dan rem yang bertingkat, pakai mode setir; di sana pedal dikirim sebagai sumbu analog."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "Bagaimana cara menekan L3 / R3?",
+          "a": [
+            "Aktifkan Setelan → Gamepad → Tombol L3 / R3. Dua tombol tambahan akan muncul di tata letak, dan cara kerjanya sama seperti tombol lain: tahan satu tombol dan tombol itu tetap tertekan, jadi kamu bisa lari cepat dengan L3 sambil tetap mendorong stik. Secara bawaan keduanya tidak ditampilkan karena kebanyakan game seluler tidak pernah memakainya. Stiknya sendiri hanya untuk mengarahkan — mengetuk stik tidak mengirim apa pun."
+          ]
+        },
+        {
+          "id": "latency",
+          "q": "Apakah lag-nya terasa? Bagaimana menguranginya?",
+          "a": [
+            "Setara dengan kontroler Bluetooth biasa, dan hampir semua game tidak memperlihatkannya. Supaya stabil: tetap dekat dengan perangkat tujuan, putuskan perangkat Bluetooth yang tidak dipakai, matikan penghemat baterai di ponsel, dan aktifkan Biarkan layar menyala agar sistem tidak menahan performa aplikasi."
+          ]
+        },
+        {
+          "id": "exit_gamepad",
+          "q": "Bagaimana cara keluar dari layar gamepad?",
+          "a": [
+            "Tekan dan tahan “Tahan untuk keluar” di sudut kanan atas. Seluruh layar adalah bidang kontrol, jadi tekan-tahan mencegah sentuhan tak sengaja melemparmu keluar dari game."
+          ]
+        },
+        {
+          "id": "screen_off",
+          "q": "Layar mati di tengah permainan.",
+          "a": [
+            "Aktifkan Setelan → Umpan balik → Biarkan layar menyala. Layar akan tetap menyala selama gamepad terbuka. Setir selalu menjaga layar menyala, terlepas dari sakelar ini."
+          ]
+        },
+        {
+          "id": "hud_battery",
+          "q": "BAT di sudut layar gamepad itu apa?",
+          "a": [
+            "Level baterai ponsel ini, bukan perangkat tujuan. Di layar setir, tempat yang sama menampilkan pemetaan sumbu yang sedang dipakai."
+          ]
+        },
+        {
+          "id": "report_data",
+          "q": "“Tampilkan data report” gunanya apa?",
+          "a": [
+            "Itu alat bantu pemecahan masalah. Saat aktif, layar gamepad menampilkan data mentah yang sedang dikirim. Buka halaman web gamepad tester di perangkat tujuan, lalu cek tombol per tombol apakah semuanya jatuh di nomor yang benar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touchpad-remote",
+      "title": "Touchpad & remote TV",
+      "entries": [
+        {
+          "id": "wrong_characters",
+          "q": "Karakter yang sampai berbeda dari yang kuketik.",
+          "a": [
+            "JoyLink mengirim kode tombol keyboard US. Kalau perangkat tujuan memakai tata letak keyboard lain, sebagian simbol akan keluar berbeda — ubah tata letak di perangkat itu ke US untuk memperbaikinya. Untuk bahasa Mandarin, Jepang, dan sejenisnya, ganti metode masukan di perangkat tujuan, lalu ketik pelafalannya di sini."
+          ]
+        },
+        {
+          "id": "remote_limits",
+          "q": "Remote tidak bisa menyalakan TV, mengganti sumber input, atau memakai pencarian suara.",
+          "a": [
+            "Bluetooth langsung terputus begitu TV mati, jadi tombol daya bisa mematikan TV tetapi tidak pernah menyalakannya. Ganti sumber input, pencarian suara, dan membuka aplikasi tertentu sama-sama butuh protokol milik produsen TV, yang tidak bisa dibawa Bluetooth. TV yang remotenya hanya inframerah sama sekali tidak terjangkau."
+          ]
+        },
+        {
+          "id": "remote_no_response",
+          "q": "Tombol touchpad atau remote tidak berefek, tetapi gamepad jalan.",
+          "a": [
+            "Kemungkinan besar Mode ringkas sedang aktif — mode itu hanya menyisakan gamepad. Matikan di Setelan → Koneksi."
+          ]
+        },
+        {
+          "id": "ios_devices",
+          "q": "Bisakah mengendalikan iPad atau iPhone?",
+          "a": [
+            "Dengan touchpad dan keyboard, bisa. iPad langsung menerima mouse dan keyboard Bluetooth; di iPhone, aktifkan dulu Setelan → Aksesibilitas → Sentuh → AssistiveTouch. Mode gamepad tidak tersedia di game iOS — itu batasan dari Apple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-modes",
+      "title": "Setir, tata letak & makro",
+      "entries": [
+        {
+          "id": "wheel_no_steering",
+          "q": "Game tidak membaca setir atau pedalnya.",
+          "a": [
+            "Tiap game membaca pedal dengan cara berbeda. Ketuk label pemetaan di bagian bawah layar setir lalu pilih yang lain: Trigger cocok untuk kebanyakan game yang mendukung gamepad, Retro cocok untuk emulator, dan preset pedal analog cocok untuk game simulasi yang bisa mengatur sumbu sendiri (petakan sekali di dalam game). Pilihan yang sama ada di Setelan → Setir → Pemetaan sumbu."
+          ]
+        },
+        {
+          "id": "wheel_drift",
+          "q": "Mobilnya terus menarik ke satu sisi.",
+          "a": [
+            "Pegangan tanganmu bergeser, dan titik tengahnya ikut bergeser. Ketuk Setel ulang titik tengah di layar supaya posisi sekarang jadi arah lurus yang baru. Kalau setirnya terasa terlalu tajam atau terlalu tumpul, atur Sudut belok penuh di Setelan."
+          ]
+        },
+        {
+          "id": "layout_editor",
+          "q": "Bagaimana cara mengubah tata letak? Apakah memengaruhi mode lain?",
+          "a": [
+            "Buka kartu Tata letak sendiri di layar utama, atau tahan ikon pensil di sudut kanan atas layar gamepad. Yang berubah hanya layar gamepad, dan kamu bisa menyimpan sampai 8 profil untuk game yang berbeda. (Pro)"
+          ]
+        },
+        {
+          "id": "ps_style",
+          "q": "Bisakah aku memakai tombol PlayStation (△ ○ ✕ □) sebagai ganti ABXY?",
+          "a": [
+            "Bisa, ini bagian dari Pro. Buka Setelan → Gamepad → Gaya tombol lalu pilih PlayStation: tombol depan berubah jadi △ ○ ✕ □, tombol bahu jadi L1 / L2 / R1 / R2, dan kedua stik turun ke bawah seperti DualShock. Perangkat tujuan tetap melihatnya sebagai gamepad standar, jadi game tetap berjalan: △ = Y, ○ = B, ✕ = A, □ = X."
+          ]
+        },
+        {
+          "id": "macro_sticks",
+          "q": "Apakah makro merekam stik?",
+          "a": [
+            "Tidak. Makro hanya memainkan ulang tombol; stik dan D-pad selalu mengikuti gerakan aslimu. Saat merekam, tidak ada apa pun yang dikirim ke perangkat tujuan. (Pro)"
+          ]
+        },
+        {
+          "id": "turbo_rate",
+          "q": "Bagaimana cara mengubah kecepatan turbo?",
+          "a": [
+            "Di editor tata letak, ketuk sebuah tombol lalu aktifkan Turbo, kemudian atur kecepatannya. Semua tombol turbo dalam satu profil memakai kecepatan yang sama. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro & pembelian",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Apakah Pro berlangganan? Isinya apa saja?",
+          "a": [
+            "Bukan — Pro adalah pembelian sekali bayar yang berlaku selamanya. Pro membuka touchpad dan keyboard, remote TV, setir, tata letak sendiri dengan banyak profil, turbo dan makro, serta tema Aurora dan Industrial. Versi gratis tetap bisa menyambung dengan gamepad standar yang berfungsi penuh, tanpa iklan."
+          ]
+        },
+        {
+          "id": "pro_try_once",
+          "q": "Bisakah aku mencoba fitur Pro sebelum membeli?",
+          "a": [
+            "Bisa. Saat fitur Pro membuka layar upgrade, ketuk “Coba gratis sekali” di bagian bawah. Fitur itu tetap terbuka sampai aplikasi ditutup, dan tiap fitur bisa dicoba sekali."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Aku ganti ponsel dan Pro-nya hilang.",
+          "a": [
+            "Masuk ke Google Play dengan akun Google yang sama seperti saat membeli, lalu buka Setelan → Pro dan ketuk Pulihkan pembelian."
+          ]
+        },
+        {
+          "id": "purchase_failed",
+          "q": "Pembelian gagal, atau terus menampilkan “Menghubungkan ke Google Play”.",
+          "a": [
+            "Pastikan Play Store terbuka normal dan negara akunmu mendukung pembayaran, lalu coba lagi beberapa saat kemudian. Pengembalian dana diurus lewat riwayat pesanan di Google Play."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "title": "Kompatibilitas & dukungan",
+      "entries": [
+        {
+          "id": "phone_unsupported",
+          "q": "Kenapa muncul pesan ponsel ini tidak bisa jadi gamepad?",
+          "a": [
+            "Berperan sebagai gamepad Bluetooth sudah ada di Android sejak Android 9, tetapi tiap produsen yang menentukan apakah fitur itu dinyalakan, dan sebagian firmware membiarkannya mati — tidak ada aplikasi yang bisa menambahkannya kembali. Paling sering terjadi di model OnePlus dan LG lama, sebagian firmware regional, dan ROM kustom. Kalau ingin pembanding, aplikasi gratis Bluetooth HID Profile Tester memeriksa hal yang sama persis. Setelah pembaruan sistem, kembali ke layar utama dan periksa lagi."
+          ]
+        },
+        {
+          "id": "register_blocked",
+          "q": "Muncul pesan “Gagal terdaftar sebagai gamepad”.",
+          "a": [
+            "Android hanya mengizinkan satu aplikasi menjadi perangkat masukan Bluetooth dalam satu waktu, jadi kemungkinan besar aplikasi gamepad, keyboard, atau mouse lain sedang memakai slot itu. Tutup aplikasi tersebut lalu periksa lagi."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Bagaimana cara melaporkan masalah atau memberi saran?",
+          "a": [
+            "Setelan → Tentang → Kirim masukan. Model ponsel dan versi aplikasi otomatis terlampir di email, jadi kami bisa mencocokkannya dengan yang kami lihat di sisi kami."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

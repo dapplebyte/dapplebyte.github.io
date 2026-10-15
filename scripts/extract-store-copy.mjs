@@ -8,12 +8,16 @@
 //   not the first paragraph), `stripParagraphEmoji`, and `quotedBulletsAsParagraphs` (section ids whose
 //   bullets that start with a quotation mark are example prompts, kept as paragraphs so they stay next
 //   to their "Try requests such as:" line instead of being mixed into the feature bullets).
+//   JoyLink adds `dropParagraphsStartingWith` (paragraphs that open with one of these emoji are left out:
+//   its 🎯 closing line repeats the hero tagline and has no heading of its own).
+// Every email address in the copy is replaced with the product's `contactEmail` (products/<slug>.json):
+// a listing may still name the developer's own mailbox, and the site shows the studio address.
 // - `emoji` (Gamepad Pro): no <b> tags. The first three paragraphs are the intro (the first one starts
 //   with 👍); after that every block starts with an `<emoji> Title` line, followed by paragraphs,
 //   `•` bullets or a `1.` numbered list (kept as bullets).
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { LOCALES, localProducts, fastlaneLocale, writeJson, now } from './lib.mjs';
+import { ROOT, LOCALES, localProducts, fastlaneLocale, writeJson, now } from './lib.mjs';
 
 /** Position → section id. Must match the number of headings in full_description.txt. */
 const CONFIG = {
@@ -40,6 +44,26 @@ const CONFIG = {
     stripParagraphEmoji: true,
     quotedBulletsAsParagraphs: ['ai'],
     ids: ['intro', 'ai', 'clicker', 'triggers', 'actions', 'workflows', 'ideas', 'privacy', 'audience', 'outro'],
+  },
+  joylink: {
+    format: 'bold',
+    taglineFromTitle: true,
+    stripParagraphEmoji: true,
+    dropParagraphsStartingWith: ['🎯'],
+    ids: [
+      'intro',
+      'use-cases',
+      'gamepad',
+      'touchpad',
+      'tv-remote',
+      'layouts-macros',
+      'racing-wheel',
+      'themes',
+      'long-sessions',
+      'pricing',
+      'privacy',
+      'before-you-install',
+    ],
   },
   'gamepad-pro': {
     format: 'emoji',
@@ -126,6 +150,7 @@ function parseBold(text, ids, cfg = {}) {
       if (cfg.quotedBulletsAsParagraphs?.includes(current.id) && STARTS_WITH_QUOTE.test(item)) current.paragraphs.push(item);
       else current.bullets.push(item);
     } else if (/^Source code/i.test(line) || /codeberg\.org/.test(line)) continue; // the hero already links the source
+    else if (cfg.dropParagraphsStartingWith?.some((e) => line.startsWith(e))) continue;
     else current.paragraphs.push(paragraph(line.replace(/<\/?[^>]+>/g, '')));
   }
   return { requires, sections };
@@ -158,6 +183,8 @@ function parseEmoji(text, ids, cfg, title, lang) {
   return { requires: undefined, sections };
 }
 
+const EMAIL = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g;
+
 const products = localProducts();
 for (const [slug, root] of Object.entries(products)) {
   const cfg = CONFIG[slug];
@@ -166,6 +193,9 @@ for (const [slug, root] of Object.entries(products)) {
     continue;
   }
   const { ids } = cfg;
+  const productFile = join(ROOT, 'src/content/products', `${slug}.json`);
+  const contactEmail = existsSync(productFile) ? JSON.parse(readFileSync(productFile, 'utf8')).contactEmail : undefined;
+  const studioEmail = (s) => (contactEmail ? s.replace(EMAIL, contactEmail) : s);
   const base = join(root, 'fastlane/metadata/android');
   let written = 0;
   for (const locale of LOCALES) {
@@ -182,6 +212,10 @@ for (const [slug, root] of Object.entries(products)) {
       console.error(`[store-copy] ${slug}/${locale.slug}: expected ${ids.length} sections, found ${sections.length}`);
       process.exitCode = 1;
       continue;
+    }
+    for (const s of sections) {
+      s.paragraphs = s.paragraphs.map(studioEmail);
+      s.bullets = s.bullets.map(studioEmail);
     }
     const intro = sections[0];
     const tagline = (cfg.taglineFromTitle ? intro.title : intro.paragraphs[0]) ?? shortDescription;

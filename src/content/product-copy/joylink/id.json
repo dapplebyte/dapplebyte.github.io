@@ -1,0 +1,127 @@
+{
+  "slug": "joylink",
+  "locale": "id",
+  "title": "JoyLink: HP Jadi Gamepad",
+  "shortDescription": "Gamepad Bluetooth, touchpad & remote TV di PC, Mac, Android TV. Tanpa app lain",
+  "tagline": "Ubah HP jadi gamepad Bluetooth asli — tanpa aplikasi penerima, tanpa dongle, tanpa root",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Ubah HP jadi gamepad Bluetooth asli — tanpa aplikasi penerima, tanpa dongle, tanpa root",
+      "paragraphs": [
+        "JoyLink membuat HP Android kamu terbaca sebagai gamepad Bluetooth, touchpad, dan remote TV standar. Sandingkan sekali dengan PC Windows, Mac, Linux, Android TV, atau HP Android lain, lalu pakai seperti gamepad nirkabel — tanpa pasang apa pun di sana."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Cara orang memakai JoyLink",
+      "paragraphs": [],
+      "bullets": [
+        "Main emulator dan game Steam di laptop tanpa gamepad",
+        "Jelajahi Android TV, Google TV, Fire TV dan ketik lewat keyboard HP",
+        "Main dari sofa: kendalikan PC dari jauh",
+        "Game retro di Raspberry Pi atau RetroPie tanpa beli stik",
+        "Dua HP, dua pemain, satu komputer"
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Gamepad Bluetooth untuk PC, Mac, dan Linux",
+      "paragraphs": [],
+      "bullets": [
+        "Tata letak gaya Xbox: dua analog, D-pad, A B X Y, LB/RB, LT/RT, Start, Select",
+        "Terbaca sebagai kontroler standar (DirectInput): jalan di Steam, emulator, dan game bergamepad generik; XInput dibantu Steam Input",
+        "Getaran, layar penuh lanskap, tahan untuk keluar biar tak terlempar saat main",
+        "Penguji tombol bawaan menunjukkan sinyal tiap kontrol"
+      ]
+    },
+    {
+      "id": "touchpad",
+      "title": "Touchpad, mouse, dan keyboard",
+      "paragraphs": [],
+      "bullets": [
+        "Ketuk = klik kiri, dua jari = klik kanan, geser dua jari = gulir, dua kali tahan = seret",
+        "Mengetik lewat keyboard HP, pas untuk set-top box dan PC ruang tamu",
+        "Jadi mouse dan keyboard nirkabel untuk iPad dan iPhone"
+      ]
+    },
+    {
+      "id": "tv-remote",
+      "title": "Remote TV untuk Android TV, Google TV, dan Fire TV",
+      "paragraphs": [],
+      "bullets": [
+        "Navigasi D-pad plus Back, Home, Menu, dan daya",
+        "Volume, bisu, putar/jeda, lompat lagu, pindah saluran",
+        "Tombol angka untuk saluran dan panel teks untuk pencarian"
+      ]
+    },
+    {
+      "id": "layouts-macros",
+      "title": "Tata letak sendiri, turbo, dan makro",
+      "paragraphs": [],
+      "bullets": [
+        "Geser, ubah ukuran, samarkan tiap kontrol; simpan hingga 8 tata letak per game",
+        "Turbo di tombol mana pun; rekam kombo sekali, ulangi lewat satu tombol makro"
+      ]
+    },
+    {
+      "id": "racing-wheel",
+      "title": "Setir untuk PC, TV, dan emulator: miringkan untuk membelok",
+      "paragraphs": [],
+      "bullets": [
+        "Pegang HP melintang lalu miringkan untuk membelok — buat layar yang tak bisa dimiringkan",
+        "Pedal di Trigger (LT / RT) sejak awal, jadi game balap bergamepad langsung jalan; ada preset Pedal analog, Stik kiri, dan Retro untuk sim dan emulator"
+      ]
+    },
+    {
+      "id": "themes",
+      "title": "Tiga tema lengkap",
+      "paragraphs": [
+        "HUD (esports hijau limau), Aurora (kaca aurora, pendar sian), Industrial (keycap, oranye) — tampilan utuh, bukan sekadar warna aksen."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "long-sessions",
+      "title": "Dibuat untuk sesi panjang",
+      "paragraphs": [],
+      "bullets": [
+        "Jeda setara gamepad Bluetooth biasa",
+        "Sambung ulang otomatis saat sambungan putus, layar tetap nyala saat main",
+        "19 bahasa dan FAQ bawaan"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Gratis selamanya, Pro sekali beli",
+      "paragraphs": [
+        "Menyambung, menyandingkan, dan gamepad standar gratis selamanya, tanpa batas waktu dan iklan. Pro menambah touchpad, remote TV, setir, tata letak sendiri, turbo & makro, dan dua tema: sekali bayar, bukan langganan. Tiap fitur Pro bisa dicoba gratis sekali sebelum beli."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privasi lebih dulu",
+      "paragraphs": [
+        "JoyLink hanya meminta izin “Perangkat di sekitar” (Bluetooth) plus notifikasi status. Tanpa akun, tanpa login; masukanmu lewat Bluetooth ke perangkat tujuan saja."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-install",
+      "title": "Sebelum memasang",
+      "paragraphs": [
+        "Ada yang tidak jalan? Lewat ulasan Play kami tak bisa bertanya detail atau kirim perbaikan. Email ke feedback@dapplebyte.com (Setelan → Tentang → Kirim masukan melampirkan model HP dan versi aplikasi)."
+      ],
+      "bullets": [
+        "PlayStation, Xbox, dan Nintendo Switch hanya menerima kontroler bawaan, jadi JoyLink tak bisa masuk konsol",
+        "Game iOS tak membaca gamepad Bluetooth generik; di iPhone dan iPad JoyLink jadi mouse dan keyboard saja",
+        "Android bisa jadi gamepad Bluetooth, tapi sebagian produsen mematikannya di firmware dan tak ada aplikasi yang bisa menyalakan lagi; JoyLink cek saat pertama dibuka",
+        "Tiap perangkat memetakan tombol dengan caranya sendiri; penguji tombol dan FAQ menutup kasus umum",
+        "Setir untuk PC, set-top box, emulator: kebanyakan game balap mobile tak menerima kontroler, dan HP yang kamu mainkan sudah punya kemudi miring"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,0 +1,297 @@
+{
+  "slug": "joylink",
+  "locale": "nl",
+  "title": "Veelgestelde vragen",
+  "intro": "De vragen die we het vaakst krijgen, met de oplossing erbij. Tik op een vraag om hem uit te klappen.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Verbinden en koppelen",
+      "entries": [
+        {
+          "id": "supported_hosts",
+          "q": "Waarmee kan JoyLink verbinden?",
+          "a": [
+            "Windows 10 en 11, macOS, Linux en Raspberry Pi, Android TV, Google TV, Fire TV en streamingboxen, smart-tv's die een Bluetooth-gamepad of -toetsenbord accepteren, en andere Android-telefoons of -tablets. Op de host hoef je niets te installeren. Op iPhone en iPad werken alleen het touchpad en het toetsenbord — iOS-games accepteren geen gamepadinvoer van JoyLink."
+          ]
+        },
+        {
+          "id": "consoles",
+          "q": "Waarom lukt verbinden met een PlayStation, Xbox of Switch niet?",
+          "a": [
+            "Elke console blokkeert het op zijn eigen manier. Xbox-controllers gebruiken een eigen 2,4 GHz-radio in plaats van Bluetooth. PlayStation-consoles controleren een authenticatiechip in de controller. De Switch accepteert alleen het eigen protocol van Nintendo. Geen enkele app komt daaromheen, en JoyLink probeert het ook niet."
+          ]
+        },
+        {
+          "id": "not_found_in_scan",
+          "q": "Het andere apparaat vindt mijn telefoon niet in de Bluetooth-lijst.",
+          "a": [
+            "Tik in de koppelhulp eerst op ‘Zichtbaar maken’ — de host ziet deze telefoon alleen zolang de aftelling loopt. Hij verschijnt onder de eigen Bluetooth-naam van de telefoon (bijvoorbeeld ‘Pixel 8’), niet als ‘JoyLink’. Houd JoyLink op de voorgrond tijdens het koppelen. Waren deze twee apparaten eerder gekoppeld? Verwijder dan aan beide kanten de oude koppeling en begin opnieuw."
+          ]
+        },
+        {
+          "id": "stuck_connecting",
+          "q": "Koppelen lukte, maar hij blijft op ‘Verbinden…’ staan of verbindt nooit.",
+          "a": [
+            "Controleer of Bluetooth op de host aanstaat, of hij binnen bereik is en niet al bezet is door een andere controller. Start de verbinding eens vanaf de host door daar op de naam van de telefoon te tikken. Lukt dat niet, zet Bluetooth dan aan beide kanten uit en weer aan. Ziet de host het apparaat wel, maar gebeurt er niets als je op knoppen drukt, kijk dan bij ‘De host herkent JoyLink niet’."
+          ]
+        },
+        {
+          "id": "nearby_permission",
+          "q": "Waarom heeft JoyLink de toestemming ‘Apparaten in de buurt’ nodig?",
+          "a": [
+            "Sinds Android 12 valt verbinden via Bluetooth onder deze toestemming. JoyLink gebruikt hem alleen om je gekoppelde apparaten te tonen en de telefoon als Bluetooth-gamepad aan te melden. Je knopdrukken en toetsaanslagen gaan via Bluetooth naar de host en worden nergens geüpload."
+          ]
+        },
+        {
+          "id": "auto_reconnect",
+          "q": "Verbindt hij na een onderbreking vanzelf opnieuw?",
+          "a": [
+            "Ja. Hij probeert het tot drie keer met steeds langere pauzes en meldt het op het startscherm als het niet lukt. Je kunt dit uitzetten bij Instellingen → Verbinding → Automatisch opnieuw verbinden."
+          ]
+        },
+        {
+          "id": "background_hold",
+          "q": "Houdt JoyLink Bluetooth bezet nadat ik de app verlaat?",
+          "a": [
+            "Alleen een paar minuten. Zolang JoyLink aangemeld is, is de telefoon een Bluetooth-gamepad, en op sommige telefoons kunnen andere apparaten — een koptelefoon, een horloge — daardoor niet vanzelf opnieuw verbinden. Daarom wordt de aanmelding een paar minuten nadat je weggaat vrijgegeven, en komt hij bij terugkeer in een seconde of twee weer terug. Hoe lang dat duurt kies je bij Instellingen → Verbinding → Verbinding op de achtergrond houden; kies ‘Direct’ als je andere apparaten Bluetooth meteen terug moeten hebben."
+          ]
+        },
+        {
+          "id": "two_devices",
+          "q": "Kan ik met twee apparaten tegelijk verbinden?",
+          "a": [
+            "Eén telefoon verbindt met één host tegelijk. Andersom kan wel: twee telefoons met JoyLink kunnen met dezelfde computer verbinden en verschijnen daar als twee losse gamepads — lokaal samen spelen zonder extra instellingen."
+          ]
+        },
+        {
+          "id": "bt_headphones",
+          "q": "Storen Bluetooth-koptelefoons?",
+          "a": [
+            "Dat kan, in beide richtingen. Op sommige telefoons zorgt tegelijk audio streamen voor extra vertraging of haperingen in de gamepadinvoer. Voelt het schokkerig? Verbreek de koptelefoon of gebruik een bedrade. Andersom gebeurt het ook: zolang JoyLink als gamepad aangemeld is, weigert een koptelefoon soms vanzelf opnieuw te verbinden. Verlaat je JoyLink, dan komt Bluetooth weer vrij na de wachttijd die je instelt bij Instellingen → Verbinding → Verbinding op de achtergrond houden."
+          ]
+        },
+        {
+          "id": "missing_device",
+          "q": "Een gekoppeld apparaat is van het startscherm verdwenen.",
+          "a": [
+            "Waarschijnlijk heb je het verborgen. Dat haalt het alleen uit de lijst van JoyLink; in je systeeminstellingen blijft het gekoppeld. Open ‘Alle apparaten’ op het startscherm om het terug te halen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Gamepad en computers",
+      "entries": [
+        {
+          "id": "windows_no_input",
+          "q": "Windows ziet de gamepad, maar de game negeert hem of de knoppen kloppen niet.",
+          "a": [
+            "JoyLink meldt zich aan als standaard generieke (DirectInput) gamepad, niet als Xbox-controller (XInput). Games die alleen XInput ondersteunen hebben Steam ertussen nodig: open Steam → Instellingen → Controller en zet Steam Input voor generieke controllers aan; voor een game buiten Steam gebruik je ‘Een niet-Steam-spel toevoegen’ en start je hem van daaruit. Steam presenteert hem dan als een controller die de game wél begrijpt, en je kunt elke knop opnieuw toewijzen."
+          ]
+        },
+        {
+          "id": "host_not_recognised",
+          "q": "De host herkent JoyLink niet, of ziet hem als toetsenbord en muis.",
+          "a": [
+            "Zet Instellingen → Verbinding → Eenvoudige modus (alleen gamepad) aan. JoyLink meldt zich dan puur als gamepad aan. De verbinding valt een seconde of twee weg en komt vanzelf terug. Nadeel: touchpad, toetsenbord en mediatoetsen doen het niet zolang hij aanstaat."
+          ]
+        },
+        {
+          "id": "analog_triggers",
+          "q": "LT en RT hebben geen analoge slag.",
+          "a": [
+            "LT en RT zijn nu gewone druk/los-knoppen — dat werkt op de meeste hosts het best. Wil je geleidelijk gas en rem, gebruik dan het stuur: daar gaan de pedalen als analoge assen weg."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "Hoe druk ik L3 / R3 in?",
+          "a": [
+            "Zet Instellingen → Gamepad → L3- / R3-knoppen aan. Er komen twee extra knoppen in de indeling en ze werken net als elke andere knop: je houdt er een ingedrukt en hij blijft ingedrukt, dus sprinten met L3 terwijl je de stick wegduwt gaat prima. Ze staan standaard uit, omdat de meeste mobiele games ze nooit gebruiken. De sticks zelf sturen alleen — een tik op een stick stuurt niets."
+          ]
+        },
+        {
+          "id": "latency",
+          "q": "Is de vertraging merkbaar? Hoe krijg ik hem omlaag?",
+          "a": [
+            "Hij ligt in dezelfde orde als bij een gewone Bluetooth-controller; de meeste games merken er niets van. Voor een stabiel signaal: blijf dicht bij de host, verbreek Bluetooth-apparaten die je niet gebruikt, zet de batterijbesparing op je telefoon uit en zet ‘Scherm aan houden’ aan zodat het systeem de app niet afknijpt."
+          ]
+        },
+        {
+          "id": "exit_gamepad",
+          "q": "Hoe verlaat ik het gamepadscherm?",
+          "a": [
+            "Houd rechtsboven ‘Houd vast om te sluiten’ ingedrukt. Het hele scherm is bedieningsvlak, dus door lang indrukken gooit een verdwaalde tik je niet zomaar uit je game."
+          ]
+        },
+        {
+          "id": "screen_off",
+          "q": "Het scherm gaat midden in een game uit.",
+          "a": [
+            "Zet Instellingen → Feedback → Scherm aan houden aan. Het scherm blijft dan wakker zolang de gamepad open is. Bij het stuur blijft het scherm sowieso aan, los van deze schakelaar."
+          ]
+        },
+        {
+          "id": "hud_battery",
+          "q": "Wat is BAT in de hoek van het gamepadscherm?",
+          "a": [
+            "Het batterijniveau van deze telefoon, niet dat van de host. Op het stuurscherm staat op diezelfde plek de astoewijzing die nu actief is."
+          ]
+        },
+        {
+          "id": "report_data",
+          "q": "Wat doet ‘Rapportgegevens tonen’?",
+          "a": [
+            "Dat is een hulpmiddel om problemen op te sporen. Staat het aan, dan toont het gamepadscherm de ruwe gegevens die worden verstuurd. Open op de host een gamepadtester in de browser en je kunt knop voor knop controleren of alles op het juiste nummer aankomt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touchpad-remote",
+      "title": "Touchpad en tv-afstandsbediening",
+      "entries": [
+        {
+          "id": "wrong_characters",
+          "q": "Er komen andere tekens aan dan ik typ.",
+          "a": [
+            "JoyLink stuurt toetscodes van een US-toetsenbord. Gebruikt de host een andere toetsenbordindeling, dan komen sommige tekens anders aan — zet de indeling op de host op US en het klopt weer. Voor Chinees, Japans en vergelijkbare talen wissel je de invoermethode op de host en typ je hier de uitspraak."
+          ]
+        },
+        {
+          "id": "remote_limits",
+          "q": "De afstandsbediening kan de tv niet aanzetten, geen bron kiezen en niet met spraak zoeken.",
+          "a": [
+            "Bluetooth valt weg zodra de tv uitgaat, dus de aan/uit-toets kan hem wel uitzetten maar nooit aanzetten. Bronkeuze, spraakzoeken en het starten van een specifieke app hebben allemaal het eigen protocol van de tv-fabrikant nodig, en dat gaat niet over Bluetooth. Tv's met alleen een infraroodafstandsbediening vallen helemaal af."
+          ]
+        },
+        {
+          "id": "remote_no_response",
+          "q": "Het touchpad of de toetsen van de afstandsbediening doen niets, maar de gamepad werkt wel.",
+          "a": [
+            "Waarschijnlijk staat de eenvoudige modus aan — die houdt alleen de gamepad over. Zet hem uit bij Instellingen → Verbinding."
+          ]
+        },
+        {
+          "id": "ios_devices",
+          "q": "Kan ik een iPad of iPhone bedienen?",
+          "a": [
+            "Met het touchpad en het toetsenbord wel. Een iPad accepteert een Bluetooth-muis en -toetsenbord meteen; op een iPhone zet je eerst Instellingen → Toegankelijkheid → Aanraken → AssistiveTouch aan. De gamepadmodus werkt niet in iOS-games — dat is een beperking van Apple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-modes",
+      "title": "Stuur, indelingen en macro's",
+      "entries": [
+        {
+          "id": "wheel_no_steering",
+          "q": "De game pikt de sturing of de pedalen niet op.",
+          "a": [
+            "Games lezen de pedalen op verschillende manieren uit. Tik onderaan het stuurscherm op de weergegeven toewijzing en kies een andere: Triggers past bij de meeste games met controllerondersteuning, Retro bij emulators en de analoge pedalen bij sims waarin je de assen zelf toewijst (wijs ze één keer toe in de game). Dezelfde keuze vind je bij Instellingen → Stuur → Astoewijzing."
+          ]
+        },
+        {
+          "id": "wheel_drift",
+          "q": "De auto trekt steeds naar één kant.",
+          "a": [
+            "Je greep is verschoven en het midden schoof mee. Tik op ‘Opnieuw centreren’ op het scherm om je huidige houding als nieuwe rechtuitstand te nemen. Stuurt het te scherp of te traag, pas dan ‘Volledige stuuruitslag’ aan bij Instellingen."
+          ]
+        },
+        {
+          "id": "layout_editor",
+          "q": "Hoe pas ik de indeling aan? Heeft dat gevolgen voor andere modi?",
+          "a": [
+            "Open de kaart ‘Eigen indeling’ op het startscherm, of houd het potlood rechtsboven in het gamepadscherm ingedrukt. Het verandert alleen het gamepadscherm, en je kunt tot 8 profielen bewaren voor verschillende games. (Pro)"
+          ]
+        },
+        {
+          "id": "ps_style",
+          "q": "Kan ik PlayStation-knoppen (△ ○ ✕ □) gebruiken in plaats van ABXY?",
+          "a": [
+            "Ja, dat hoort bij Pro. Ga naar Instellingen → Gamepad → Knopstijl en kies PlayStation: de actieknoppen worden △ ○ ✕ □, de schouderknoppen L1 / L2 / R1 / R2, en beide sticks zitten onderaan zoals bij een DualShock. De host ziet nog steeds een standaard gamepad, dus games blijven gewoon werken: △ = Y, ○ = B, ✕ = A, □ = X."
+          ]
+        },
+        {
+          "id": "macro_sticks",
+          "q": "Nemen macro's de sticks op?",
+          "a": [
+            "Nee. Macro's spelen alleen knoppen af; de sticks en de D-pad blijven altijd live. Tijdens het opnemen wordt er niets naar de host gestuurd. (Pro)"
+          ]
+        },
+        {
+          "id": "turbo_rate",
+          "q": "Hoe verander ik de turbosnelheid?",
+          "a": [
+            "Tik in de indelingseditor op een knop, zet Turbo aan en pas de snelheid aan. Alle turboknoppen in hetzelfde profiel delen één snelheid. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro en aankopen",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Is Pro een abonnement? Wat zit erin?",
+          "a": [
+            "Nee — het is een eenmalige aankoop die voor altijd geldt. Je ontgrendelt touchpad en toetsenbord, de tv-afstandsbediening, het stuur, eigen indelingen met meerdere profielen, turbo en macro's, en de thema's Aurora en Industrial. In de gratis versie blijven verbinden en de standaardgamepad volledig werken, zonder advertenties."
+          ]
+        },
+        {
+          "id": "pro_try_once",
+          "q": "Kan ik een Pro-functie uitproberen voordat ik koop?",
+          "a": [
+            "Ja. Als een Pro-functie het upgradescherm opent, tik je onderaan op ‘Eén keer gratis proberen’. De functie blijft open tot je de app sluit, en elke functie kun je één keer proberen."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Ik ben van telefoon gewisseld en Pro is weg.",
+          "a": [
+            "Log in bij Google Play met hetzelfde Google-account waarmee je hebt gekocht, open dan Instellingen → Pro en tik op ‘Aankoop herstellen’."
+          ]
+        },
+        {
+          "id": "purchase_failed",
+          "q": "De aankoop mislukt, of hij blijft op ‘Verbinden met Google Play’ staan.",
+          "a": [
+            "Controleer of de Play Store gewoon opent en of betalingen in het land van je account worden ondersteund, en probeer het even later opnieuw. Terugbetalingen regel je via je bestelgeschiedenis in Google Play."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "title": "Compatibiliteit en support",
+      "entries": [
+        {
+          "id": "phone_unsupported",
+          "q": "Waarom staat er dat deze telefoon geen gamepad kan zijn?",
+          "a": [
+            "Werken als Bluetooth-gamepad zit sinds Android 9 in het systeem, maar elke fabrikant bepaalt zelf of het aan staat en sommige firmware laat het uit — geen enkele app kan dat alsnog toevoegen. Het komt het vaakst voor bij oudere OnePlus- en LG-modellen, bij sommige regionale firmware en bij custom ROM's. De gratis app Bluetooth HID Profile Tester controleert precies hetzelfde, als je een second opinion wilt. Ga na een systeemupdate terug naar het startscherm en controleer het opnieuw."
+          ]
+        },
+        {
+          "id": "register_blocked",
+          "q": "Er staat ‘Aanmelden als gamepad mislukt’.",
+          "a": [
+            "Android laat maar één app tegelijk een Bluetooth-invoerapparaat zijn, dus waarschijnlijk bezet een andere gamepad-, toetsenbord- of muis-app die plek. Sluit die app en controleer opnieuw."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Hoe meld ik een probleem of doe ik een suggestie?",
+          "a": [
+            "Instellingen → Over → Feedback sturen. Je telefoonmodel en de app-versie gaan automatisch mee in de e-mail, zodat we het kunnen koppelen aan wat wij aan onze kant zien."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

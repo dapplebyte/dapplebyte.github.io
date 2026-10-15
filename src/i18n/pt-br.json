@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Apps independentes para Android",
-    "description": "A DappleByte é um estúdio independente que faz apps para Android: o Gamepad Pro, um mapeador de botões que transforma um controle em comandos de toque; o Relaypad, um controle de Remote Play e app de transmissão do console para PS5 e PS4; e o WhenDo, um app de automação com AI e clique automático (auto clicker).",
+    "description": "A DappleByte é um estúdio independente que faz apps para Android: o Gamepad Pro, um mapeador de botões que transforma um controle em comandos de toque; o Relaypad, um controle de Remote Play e app de transmissão do console para PS5 e PS4; o WhenDo, um app de automação com AI e clique automático (auto clicker); e o JoyLink, que transforma o celular em controle Bluetooth, touchpad e controle de TV.",
     "appsHeading": "Apps",
     "principlesHeading": "Como trabalhamos",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "Cria uma automação inteira a partir de uma descrição em palavras simples",
       "auto-clicker": "Clique automático com intervalo e número de repetições",
       "gesture-recorder": "Grava e repete toques e deslizes",
-      "no-ads": "Sem anúncios"
+      "no-ads": "Sem anúncios",
+      "no-receiver": "Nada para instalar no computador ou na TV",
+      "bt-gamepad": "Reconhecido como controle Bluetooth padrão",
+      "touchpad-keyboard": "Touchpad, mouse e teclado",
+      "tv-remote": "Controle de TV para Android TV, Google TV e Fire TV",
+      "racing-wheel": "Volante que vira inclinando o celular",
+      "custom-layouts": "Mova, redimensione e salve layouts de controles"
     },
     "values": {
       "yes": "Sim",
@@ -262,7 +268,8 @@
     "home": "Início"
   },
   "trademarks": {
-    "sony": "PlayStation, PS5 e PS4 são marcas registradas da Sony Interactive Entertainment Inc. O {name} não tem afiliação com a Sony nem é endossado por ela."
+    "sony": "PlayStation, PS5 e PS4 são marcas registradas da Sony Interactive Entertainment Inc. O {name} não tem afiliação com a Sony nem é endossado por ela.",
+    "hosts": "Windows e Xbox são marcas registradas da Microsoft; Mac, iPhone e iPad, da Apple; PlayStation, da Sony Interactive Entertainment; Nintendo Switch, da Nintendo; Android, Android TV e Google TV, do Google; Fire TV, da Amazon; Steam, da Valve; Raspberry Pi, da Raspberry Pi Ltd. O {name} não tem afiliação com nenhuma delas nem é endossado por elas."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "Como o WhenDo se compara a outros apps de automação no Android, recurso por recurso, só fatos.",
         "vsDescription": "{name} e {other} comparados no Android, recurso por recurso: criação de tarefas com AI, clique automático, gatilhos, root, anúncios e preço.",
         "vsIntro": "Os dois automatizam um celular Android. Veja onde eles diferem, recurso por recurso."
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "Reconhecido como controle Bluetooth padrão no Windows, Mac, Linux, Android TV ou em outro celular, sem instalar nada do outro lado",
+        "Touchpad, teclado e controle de TV para TV box e PC de sala, e um volante que vira inclinando o celular para emuladores e simuladores no PC",
+        "Grátis, sem anúncios e sem conta. O Pro é uma compra única, e cada recurso Pro pode ser testado grátis uma vez antes de comprar"
+      ],
+      "faqDescription": "Respostas sobre o JoyLink: ao que ele se conecta, pareamento, Windows e Steam, touchpad e controle de TV, volante, layouts e macros, Pro e celulares cujo firmware bloqueia o recurso.",
+      "faqNotFoundBody": "Escreva para a gente com o modelo do celular, ao que você está conectando e o que aconteceu. Toda mensagem é lida por uma pessoa.",
+      "support": {
+        "beforeItems": [
+          "Abra o FAQ. A maioria das dúvidas sobre pareamento, Windows, Steam e controle de TV tem resposta lá, com as mesmas palavras do app.",
+          "Na primeira abertura, o JoyLink confere se o seu celular pode funcionar como controle Bluetooth. Se ele avisar que a fabricante desligou isso, nenhum app consegue religar; o FAQ explica o que continua funcionando.",
+          "Anote ao que você está conectando (Windows, Mac, Linux, Android TV, outro celular) e se esse aparelho vê o celular na lista de Bluetooth dele. É disso que a gente precisa para reproduzir o problema."
+        ],
+        "template": {
+          "phone": "Modelo do celular:",
+          "android": "Versão do Android:",
+          "host": "Conectando a (Windows / Mac / Linux / Android TV / outro):",
+          "seen": "O outro aparelho vê o celular na lista de Bluetooth: sim / não",
+          "what": "O que aconteceu, passo a passo:",
+          "pro": "Comprou o Pro: sim / não"
+        },
+        "refundBody": "O JoyLink é grátis para instalar. Se você comprou o Pro e ele não funcionar com a sua configuração, mande um e-mail em até 7 dias após a compra e devolvemos o valor. Conte o que você tentou; isso ajuda a gente a resolver para a próxima pessoa."
+      },
+      "press": {
+        "description": "Fatos, materiais e um texto padrão para escrever sobre o JoyLink, o app que transforma um celular Android em controle Bluetooth, touchpad e controle de TV.",
+        "boilerplate": "O JoyLink transforma um celular Android em controle Bluetooth padrão, touchpad e controle de TV para Windows, Mac, Linux, Android TV e outros aparelhos Android, sem instalar nada do outro lado: sem app receptor, sem dongle e sem root. Ele também traz um volante que vira inclinando o celular, layouts próprios, turbo e macros. É feito pela DappleByte, um estúdio independente.",
+        "priceValue": "Grátis para instalar, sem anúncios. Conectar, parear e o controle padrão são grátis; touchpad, controle de TV, volante, layouts próprios, turbo, macros e dois temas extras são liberados com uma compra única do Pro. Não tem assinatura. O preço atual aparece no Google Play.",
+        "assetScreenshots": "Capturas de tela, PNG 1920 × 1080, em inglês"
+      },
+      "videosDescription": "Vídeos curtos mostrando o JoyLink num celular de verdade: como parear com um PC ou uma TV, o controle num jogo, o touchpad e o controle de TV, e o volante.",
+      "privacyDescription": "O que o JoyLink para Android faz com seus dados: sem conta, sem servidor nosso, comandos que vão só por Bluetooth até o aparelho pareado, para que serve a permissão “Dispositivos por perto” e o que as estatísticas coletam.",
+      "compare": {
+        "description": "Como o JoyLink se compara a outros apps que transformam o celular em controle para computador ou TV, recurso por recurso, só fatos.",
+        "vsDescription": "{name} e {other} comparados no Android, recurso por recurso: app receptor, controle Bluetooth, touchpad e controle de TV, volante, root, anúncios e preço.",
+        "vsIntro": "Os dois transformam um celular Android em controle para computador ou TV. Veja onde eles diferem, recurso por recurso."
       }
     }
   }

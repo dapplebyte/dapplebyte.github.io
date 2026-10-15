@@ -1,0 +1,297 @@
+{
+  "slug": "joylink",
+  "locale": "tr",
+  "title": "SSS",
+  "intro": "En çok sorulan sorular ve her biri için ne yapmanız gerektiği. Açmak için bir soruya dokunun.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Bağlantı ve eşleştirme",
+      "entries": [
+        {
+          "id": "supported_hosts",
+          "q": "JoyLink nelere bağlanabilir?",
+          "a": [
+            "Windows 10 ve 11, macOS, Linux ve Raspberry Pi, Android TV, Google TV, Fire TV ve medya kutuları, Bluetooth oyun kolu ya da klavye kabul eden akıllı TV'ler, ayrıca diğer Android telefon ve tabletler. Karşı tarafa hiçbir şey kurmanız gerekmez. iPhone ve iPad'de yalnızca dokunmatik yüzey ve klavye çalışır — iOS oyunları JoyLink'ten gelen oyun kolu girişini kabul etmez."
+          ]
+        },
+        {
+          "id": "consoles",
+          "q": "Neden PlayStation, Xbox veya Switch'e bağlanmıyor?",
+          "a": [
+            "Her konsol kendi yöntemiyle engelliyor. Xbox kumandaları Bluetooth yerine kendine özel 2,4 GHz telsiz kullanır. PlayStation konsolları kumandanın içindeki doğrulama çipini kontrol eder. Switch yalnızca Nintendo'nun kendi protokolünü kabul eder. Bunları hiçbir uygulama aşamaz, JoyLink de denemez."
+          ]
+        },
+        {
+          "id": "not_found_in_scan",
+          "q": "Karşıdaki cihaz telefonumu Bluetooth listesinde bulamıyor.",
+          "a": [
+            "Eşleştirme rehberinde önce “Görünür yap”a dokunun — karşı taraf bu telefonu yalnızca geri sayım sürerken görebilir. Telefon “JoyLink” olarak değil, kendi Bluetooth adıyla (örneğin “Pixel 8”) görünür. Eşleştirme boyunca JoyLink'i ön planda tutun. Bu iki cihaz daha önce eşleştiyse eski eşleşmeyi iki tarafta da silip baştan başlayın."
+          ]
+        },
+        {
+          "id": "stuck_connecting",
+          "q": "Eşleştirme oldu ama “Bağlanıyor…” yazısında kalıyor ya da hiç bağlanmıyor.",
+          "a": [
+            "Karşı cihazın Bluetooth'unun açık, menzilde ve başka bir kumandayla meşgul olmadığından emin olun. Bağlantıyı karşı taraftan başlatmayı deneyin: oradaki listede telefonun adına dokunun. Olmazsa iki cihazda da Bluetooth'u kapatıp açın. Cihaz telefonu görüyor ama tuşlara basınca hiçbir şey olmuyorsa “Karşı cihaz JoyLink'i tanımıyor” bölümüne bakın."
+          ]
+        },
+        {
+          "id": "nearby_permission",
+          "q": "JoyLink neden “Yakındaki cihazlar” iznini istiyor?",
+          "a": [
+            "Android 12'den beri Bluetooth ile bağlanmak bu iznin kapsamında. JoyLink bunu yalnızca eşleştirilmiş cihazlarınızı listelemek ve telefonu Bluetooth oyun kumandası olarak kaydetmek için kullanır. Bastığınız tuşlar ve yazdıklarınız Bluetooth üzerinden karşı cihaza gider, hiçbir yere yüklenmez."
+          ]
+        },
+        {
+          "id": "auto_reconnect",
+          "q": "Bağlantı koptuğunda kendi kendine geri gelir mi?",
+          "a": [
+            "Evet. Araları giderek uzayan en fazla üç deneme yapar, başaramazsa ana ekranda size bildirir. Ayarlar → Bağlantı → Otomatik yeniden bağlan bölümünden kapatabilirsiniz."
+          ]
+        },
+        {
+          "id": "background_hold",
+          "q": "Uygulamadan çıktıktan sonra JoyLink Bluetooth'u meşgul tutar mı?",
+          "a": [
+            "Yalnızca birkaç dakika. Kayıt açıkken bu telefon bir Bluetooth oyun kumandasıdır ve bazı telefonlarda bu, kulaklık ya da saat gibi diğer cihazlarınızın kendiliğinden geri bağlanmasını engeller. Bu yüzden uygulamadan çıkışınızdan birkaç dakika sonra kayıt bırakılır, geri döndüğünüzde bir iki saniyede yeniden alınır. Süreyi Ayarlar → Bağlantı → Bağlantıyı arka planda tut bölümünden seçebilirsiniz; diğer cihazlarınızın Bluetooth'a hemen ihtiyacı varsa “Hemen” seçeneğini kullanın."
+          ]
+        },
+        {
+          "id": "two_devices",
+          "q": "Aynı anda iki cihaza bağlanabilir miyim?",
+          "a": [
+            "Bir telefon aynı anda tek bir cihaza bağlanır. Tersi ise mümkün: JoyLink çalıştıran iki telefon aynı bilgisayara bağlanıp iki ayrı oyun kolu olarak görünebilir — yerel çok oyunculu için ek ayar gerekmez."
+          ]
+        },
+        {
+          "id": "bt_headphones",
+          "q": "Bluetooth kulaklık araya girer mi?",
+          "a": [
+            "Girebilir, hem de iki yönde. Bazı telefonlarda aynı anda ses aktarmak oyun kolu girişine gecikme veya takılma ekler. Kontrol takılıyorsa kulaklığı ayırın ya da kabloluya geçin. Tersi de olur: JoyLink oyun kumandası olarak kayıtlıyken kulaklıklar kendiliğinden geri bağlanmayabilir. JoyLink'ten çıkınca, Ayarlar → Bağlantı → Bağlantıyı arka planda tut altında ayarlanan süre dolduğunda Bluetooth yeniden serbest kalır."
+          ]
+        },
+        {
+          "id": "missing_device",
+          "q": "Eşleştirilmiş bir cihaz ana ekrandan kayboldu.",
+          "a": [
+            "Büyük olasılıkla gizlenmiştir. Bu, cihazı yalnızca JoyLink'in listesinden çıkarır; sistem ayarlarındaki eşleşme durur. Geri almak için ana ekranda “Tüm cihazlar”ı açın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Oyun kolu ve bilgisayarlar",
+      "entries": [
+        {
+          "id": "windows_no_input",
+          "q": "Windows oyun kolunu görüyor ama oyun onu yok sayıyor ya da tuşlar karışık.",
+          "a": [
+            "JoyLink standart genel bir (DirectInput) oyun kumandasıdır, Xbox (XInput) kumandası değil. Yalnızca XInput destekleyen oyunlarda araya Steam girmeli: Steam → Ayarlar → Kumanda bölümünü açıp genel kumandalar için Steam Input'u etkinleştirin; Steam dışı bir oyun için “Steam Dışı Oyun Ekle” ile ekleyip oradan başlatın. Steam bunu oyunun anladığı bir kumanda gibi gösterir ve her tuşu yeniden atamanıza izin verir."
+          ]
+        },
+        {
+          "id": "host_not_recognised",
+          "q": "Karşı cihaz JoyLink'i tanımıyor ya da klavye ve fare sanıyor.",
+          "a": [
+            "Ayarlar → Bağlantı → Basit mod (yalnızca oyun kumandası) seçeneğini açın. JoyLink o zaman kendini yalnızca oyun kumandası olarak tanıtır. Bağlantı bir iki saniye kopar ve kendiliğinden geri gelir. Karşılığında, açık olduğu sürece dokunmatik yüzey, klavye ve medya tuşları çalışmaz."
+          ]
+        },
+        {
+          "id": "analog_triggers",
+          "q": "LT ve RT kademeli basmıyor.",
+          "a": [
+            "Şu an LT ve RT düz bas/bırak tuşları — cihazlar arasında en uyumlu seçenek bu. Kademeli gaz ve fren için direksiyon modunu kullanın; orada pedallar analog eksen olarak gönderilir."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "L3 / R3'e nasıl basarım?",
+          "a": [
+            "Ayarlar → Oyun kolu → L3 / R3 tuşları seçeneğini açın. Düzende iki tuş daha belirir ve diğer tüm tuşlar gibi çalışırlar: basılı tuttuğunuz sürece basılı kalırlar, yani L3 ile koşarken aynı anda çubuğu itip yön vermek sorun olmaz. Çoğu mobil oyun bunları hiç kullanmadığı için varsayılan olarak kapalıdırlar. Çubukların kendisi yalnızca yön verir; çubuğa dokunmak hiçbir şey göndermez."
+          ]
+        },
+        {
+          "id": "latency",
+          "q": "Gecikme fark ediliyor mu? Nasıl azaltırım?",
+          "a": [
+            "Sıradan bir Bluetooth kumandayla aynı aralıkta; çoğu oyunda hiç belli olmaz. İstikrarlı kalması için: karşı cihaza yakın durun, kullanmadığınız Bluetooth cihazlarını ayırın, telefonda pil tasarrufunu kapatın ve sistemin uygulamayı kısmaması için “Ekran açık kalsın” seçeneğini açın."
+          ]
+        },
+        {
+          "id": "exit_gamepad",
+          "q": "Oyun kolu ekranından nasıl çıkarım?",
+          "a": [
+            "Sağ üstteki “Çıkmak için basılı tut” düğmesine basılı tutun. Ekranın tamamı bir kontrol yüzeyi olduğu için uzun basma, yanlışlıkla dokunup oyundan düşmenizi önler."
+          ]
+        },
+        {
+          "id": "screen_off",
+          "q": "Oyunun ortasında ekran kapanıyor.",
+          "a": [
+            "Ayarlar → Geri bildirim → Ekran açık kalsın seçeneğini açın. Oyun kolu açıkken ekran uyanık kalır. Direksiyon ise bu anahtardan bağımsız olarak ekranı zaten açık tutar."
+          ]
+        },
+        {
+          "id": "hud_battery",
+          "q": "Oyun kolu ekranının köşesindeki BAT ne?",
+          "a": [
+            "Karşı cihazın değil, bu telefonun pil seviyesi. Direksiyon ekranında aynı yerde o an kullanılan eksen eşlemesi gösterilir."
+          ]
+        },
+        {
+          "id": "report_data",
+          "q": "“Rapor verisini göster” ne işe yarar?",
+          "a": [
+            "Sorun gidermeye yardımcı olur. Açıkken oyun kolu ekranı gönderilen ham veriyi gösterir. Karşı cihazda bir oyun kolu test sayfası açıp her tuşun doğru numaraya düştüğünü tek tek doğrulayabilirsiniz."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touchpad-remote",
+      "title": "Dokunmatik yüzey ve TV kumandası",
+      "entries": [
+        {
+          "id": "wrong_characters",
+          "q": "Karşıya yazdığımdan farklı karakterler gidiyor.",
+          "a": [
+            "JoyLink, ABD klavyesinin tuş kodlarını gönderir. Karşı cihazda başka bir klavye düzeni varsa bazı simgeler farklı çıkar; o cihazın düzenini ABD yaparsanız sorun kalkar. Çince, Japonca ve benzeri diller için karşı cihazda giriş yöntemini değiştirip buraya okunuşu yazın."
+          ]
+        },
+        {
+          "id": "remote_limits",
+          "q": "Kumanda TV'yi açamıyor, kaynak değiştiremiyor, sesli arama yapamıyor.",
+          "a": [
+            "TV kapanır kapanmaz Bluetooth da kopar; bu yüzden güç tuşu TV'yi kapatabilir ama açamaz. Kaynak değiştirme, sesli arama ve belirli bir uygulamayı başlatma üreticinin kendi protokolünü gerektirir, Bluetooth bunları taşımaz. Yalnızca kızılötesi kumandası olan TV'ler tamamen kapsam dışı."
+          ]
+        },
+        {
+          "id": "remote_no_response",
+          "q": "Dokunmatik yüzey ve kumanda tuşları çalışmıyor ama oyun kolu çalışıyor.",
+          "a": [
+            "Büyük olasılıkla basit mod açık — yalnızca oyun kumandasını bırakır. Ayarlar → Bağlantı bölümünden kapatın."
+          ]
+        },
+        {
+          "id": "ios_devices",
+          "q": "iPad veya iPhone'u kontrol edebilir miyim?",
+          "a": [
+            "Dokunmatik yüzey ve klavyeyle evet. iPad, Bluetooth fare ve klavyeyi doğrudan kabul eder; iPhone'da önce Ayarlar → Erişilebilirlik → Dokunma → AssistiveTouch seçeneğini açın. iOS oyunlarında oyun kolu modu yok — bunu Apple sınırlıyor."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-modes",
+      "title": "Direksiyon, yerleşimler ve makrolar",
+      "entries": [
+        {
+          "id": "wheel_no_steering",
+          "q": "Oyun direksiyonu ya da pedalları algılamıyor.",
+          "a": [
+            "Oyunlar pedalları farklı biçimlerde okur. Direksiyon ekranının altındaki eksen eşlemesine dokunup başka birini seçin: “Tetikler” oyun kolu destekleyen çoğu oyuna, “Retro” emülatörlere, analog ön ayarlar da eksen atamasına izin veren simülasyonlara uyar (oyun içinde bir kez atamanız yeterli). Aynı seçim Ayarlar → Direksiyon → Eksen eşlemesi altında da var."
+          ]
+        },
+        {
+          "id": "wheel_drift",
+          "q": "Araba sürekli bir tarafa çekiyor.",
+          "a": [
+            "Tutuşunuz kaymış, merkez de onunla birlikte kaymıştır. Ekranda “Merkezi sıfırla”ya dokunarak şu anki duruşunuzu yeni düz konum yapın. Direksiyon fazla keskin ya da fazla ağır geliyorsa ayarlardan “Tam kilit açısı” değerini değiştirin."
+          ]
+        },
+        {
+          "id": "layout_editor",
+          "q": "Yerleşimi nasıl özelleştiririm? Diğer modları etkiler mi?",
+          "a": [
+            "Ana ekrandaki “Özel yerleşim” kartını açın ya da oyun kolu ekranının sağ üstündeki kalemi basılı tutun. Yalnızca oyun kolu ekranını değiştirir; farklı oyunlar için 8 profile kadar saklayabilirsiniz. (Pro)"
+          ]
+        },
+        {
+          "id": "ps_style",
+          "q": "ABXY yerine PlayStation tuşlarını (△ ○ ✕ □) kullanabilir miyim?",
+          "a": [
+            "Evet, Pro'nun bir parçası. Ayarlar → Oyun kolu → Tuş stili bölümünü açıp PlayStation'ı seçin: ana tuşlar △ ○ ✕ □, omuz tuşları L1 / L2 / R1 / R2 olur ve iki çubuk da DualShock gibi aşağı iner. Karşı cihaz yine standart bir oyun kolu görür, oyunlar çalışmaya devam eder: △ = Y, ○ = B, ✕ = A, □ = X."
+          ]
+        },
+        {
+          "id": "macro_sticks",
+          "q": "Makrolar çubukları da kaydeder mi?",
+          "a": [
+            "Hayır. Makrolar yalnızca tuşları oynatır; çubuklar ve yön tuşu her zaman canlı kalır. Kayıt sırasında karşı cihaza hiçbir şey gönderilmez. (Pro)"
+          ]
+        },
+        {
+          "id": "turbo_rate",
+          "q": "Turbo hızını nasıl değiştiririm?",
+          "a": [
+            "Yerleşim düzenleyicide bir tuşa dokunup Turbo'yu açın, sonra hızı ayarlayın. Aynı profildeki tüm turbo tuşları tek bir hızı paylaşır. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro ve satın alma",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Pro abonelik mi? İçinde ne var?",
+          "a": [
+            "Hayır — tek seferlik, ömür boyu geçerli bir satın alma. Dokunmatik yüzey ve klavyeyi, TV kumandasını, direksiyonu, çoklu profilli özel yerleşimleri, turbo ve makroları, ayrıca Aurora ve Industrial temalarını açar. Ücretsiz sürümde bağlantı ve standart oyun kolu eksiksiz çalışmaya devam eder; reklam da yok."
+          ]
+        },
+        {
+          "id": "pro_try_once",
+          "q": "Satın almadan önce bir Pro özelliğini deneyebilir miyim?",
+          "a": [
+            "Evet. Bir Pro özelliği yükseltme ekranını açtığında en altta “Bir kez ücretsiz dene” düğmesine dokun. Özellik, uygulamayı kapatana kadar açık kalır ve her özellik bir kez denenebilir."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Telefon değiştirdim, Pro gitti.",
+          "a": [
+            "Satın alırken kullandığınız Google hesabıyla Google Play'e giriş yapın, sonra Ayarlar → Pro bölümünü açıp “Satın alımı geri yükle”ye dokunun."
+          ]
+        },
+        {
+          "id": "purchase_failed",
+          "q": "Satın alma başarısız oluyor ya da sürekli “Google Play'e bağlanılıyor” yazıyor.",
+          "a": [
+            "Play Store'un normal açıldığından ve hesabınızın ülkesinin ödemeleri desteklediğinden emin olup biraz sonra tekrar deneyin. İadeler Google Play'deki sipariş geçmişinizden yapılır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "title": "Uyumluluk ve destek",
+      "entries": [
+        {
+          "id": "phone_unsupported",
+          "q": "Neden bu telefonun kumanda olamayacağı yazıyor?",
+          "a": [
+            "Bluetooth oyun kumandası olarak çalışmak Android 9'dan beri sistemin bir parçası, ama açık gelip gelmeyeceğine her üretici kendi karar veriyor ve bazı yazılımlar kapalı bırakıyor — hiçbir uygulama bunu geri ekleyemez. En çok eski OnePlus ve LG modellerinde, bazı bölgesel yazılımlarda ve özel ROM'larda görülür. İkinci bir görüş isterseniz ücretsiz Bluetooth HID Profile Tester uygulaması tam olarak aynı şeyi sınar. Sistem güncellemesinden sonra ana ekrana dönüp yeniden kontrol edin."
+          ]
+        },
+        {
+          "id": "register_blocked",
+          "q": "“Oyun kumandası olarak kaydedilemedi” diyor.",
+          "a": [
+            "Android aynı anda yalnızca tek bir uygulamanın Bluetooth giriş aygıtı olmasına izin verir; yeri büyük olasılıkla başka bir kumanda, klavye veya fare uygulaması tutuyor. Onu kapatıp yeniden kontrol edin."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Sorunu nasıl bildiririm, öneriyi nasıl iletirim?",
+          "a": [
+            "Ayarlar → Hakkında → Geri bildirim gönder. Telefon modeliniz ve uygulama sürümü e-postaya otomatik eklenir; böylece bizdeki kayıtlarla eşleştirebiliriz."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -161,6 +161,7 @@ const jsonLd = graph(
       <a class="link-plain" href={localePath(locale, `/${slug}/support/`)}>{t('labels.support')}</a>
     </div>
     {fine && <p class="fine" style="margin-top:28px">{fine.paragraphs.join(' ')}</p>}
+    {!fine && product.trademark && <p class="fine" style="margin-top:28px">{t(`trademarks.${product.trademark}`, { name: product.name })}</p>}
     <p class="fine" style="margin-top:8px">{t('labels.lastUpdated', { date: formatDate(locale, copy.extractedAt, loc.lang) })}</p>
   </section>
 </Base>

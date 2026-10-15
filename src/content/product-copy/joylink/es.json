@@ -1,0 +1,127 @@
+{
+  "slug": "joylink",
+  "locale": "es",
+  "title": "JoyLink: Móvil como mando",
+  "shortDescription": "Mando Bluetooth, panel táctil y mando a distancia para PC, Mac y Android TV",
+  "tagline": "Convierte tu móvil en un mando Bluetooth de verdad: sin app receptora, sin dongle y sin root",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Convierte tu móvil en un mando Bluetooth de verdad: sin app receptora, sin dongle y sin root",
+      "paragraphs": [
+        "JoyLink hace que tu móvil Android se identifique como mando de juego Bluetooth estándar, panel táctil y mando de TV. Vincúlalo una vez con un PC Windows, un Mac, un Linux, una Android TV u otro móvil Android: en el otro lado no se instala nada."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Los usos más habituales",
+      "paragraphs": [],
+      "bullets": [
+        "Emuladores y juegos de Steam en un portátil sin mando",
+        "Moverte por Android TV, Google TV o Fire TV y escribir con el teclado del móvil",
+        "Jugar desde el sofá, con el ordenador donde está",
+        "Retro en Raspberry Pi o RetroPie sin comprar un pad",
+        "Dos móviles, dos jugadores en el mismo ordenador"
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Mando Bluetooth para PC, Mac y Linux",
+      "paragraphs": [],
+      "bullets": [
+        "Distribución estilo Xbox: dos sticks analógicos, D-pad, A B X Y, LB/RB, LT/RT, Start y Select",
+        "Mando estándar (DirectInput) para Steam, emuladores y pads genéricos; Steam Input cubre los títulos solo XInput",
+        "Vibración, pantalla completa horizontal y salida con pulsación larga",
+        "Prueba de botones integrada: ves qué envía cada control"
+      ]
+    },
+    {
+      "id": "touchpad",
+      "title": "Panel táctil, ratón y teclado",
+      "paragraphs": [],
+      "bullets": [
+        "Toca, desplaza con dos dedos, clic derecho y arrastra",
+        "Escribe con el teclado del móvil: ideal para reproductores y PC de salón",
+        "También hace de ratón y teclado inalámbricos para iPad y iPhone"
+      ]
+    },
+    {
+      "id": "tv-remote",
+      "title": "Mando de TV para Android TV, Google TV y Fire TV",
+      "paragraphs": [],
+      "bullets": [
+        "Navegación con D-pad, Atrás, Inicio, Menú y apagado",
+        "Volumen, silencio, reproducción/pausa, pista siguiente y canal +/−",
+        "Teclado numérico y panel de texto para los buscadores"
+      ]
+    },
+    {
+      "id": "layouts-macros",
+      "title": "Diseños propios, Turbo y macros",
+      "paragraphs": [],
+      "bullets": [
+        "Mueve, redimensiona y atenúa cada control; hasta 8 diseños",
+        "Turbo (disparo rápido) en cualquier botón; graba un combo una vez y repítelo con una tecla de macro"
+      ]
+    },
+    {
+      "id": "racing-wheel",
+      "title": "Volante para PC, TV y emuladores: gira inclinando",
+      "paragraphs": [],
+      "bullets": [
+        "Sujeta el móvil en horizontal e inclínalo para girar, para equipos cuya pantalla no se inclina",
+        "Pedales en LT/RT de fábrica; ajustes analógico, stick izquierdo y retro para sims y emuladores"
+      ]
+    },
+    {
+      "id": "themes",
+      "title": "Tres temas completos",
+      "paragraphs": [
+        "HUD (verde lima esports), Aurora (cristal con brillo cian) e Industrial (teclas y naranja internacional): estéticas enteras, no un acento."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "long-sessions",
+      "title": "Pensado para partidas largas",
+      "paragraphs": [],
+      "bullets": [
+        "Latencia del mismo nivel que un mando Bluetooth normal",
+        "Reconexión automática y pantalla encendida mientras juegas",
+        "19 idiomas y preguntas frecuentes integradas"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Gratis para siempre, Pro con un solo pago",
+      "paragraphs": [
+        "Conectar, vincular y el mando estándar son gratis, sin límite de tiempo ni anuncios. Pro añade panel táctil, mando de TV, volante, diseños propios, Turbo, macros y dos temas más, con un pago único, no una suscripción. Cada función Pro se prueba gratis una vez antes de comprar."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacidad primero",
+      "paragraphs": [
+        "JoyLink solo pide el permiso «Dispositivos cercanos» (Bluetooth) y muestra una notificación de estado. Sin cuenta y sin iniciar sesión: lo que pulsas viaja por Bluetooth al aparato que controlas, a ningún sitio más."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-install",
+      "title": "Antes de instalar",
+      "paragraphs": [
+        "¿Algo no funciona? Una reseña en Play no nos deja pedirte detalles. Escríbenos a feedback@dapplebyte.com: Ajustes → Acerca de → Enviar comentarios adjunta tu modelo y la versión de la app."
+      ],
+      "bullets": [
+        "PlayStation, Xbox y Nintendo Switch solo aceptan sus mandos: JoyLink no conecta con consolas",
+        "Los juegos de iOS no leen mandos Bluetooth genéricos; en iPhone y iPad JoyLink es solo ratón y teclado",
+        "Android puede actuar como mando Bluetooth, pero algunos fabricantes lo desactivan en el firmware y ninguna app lo recupera; JoyLink lo comprueba al primer inicio",
+        "Cada equipo asigna los botones a su manera; la prueba de botones y las preguntas frecuentes ayudan",
+        "El volante es para PC, TV box y emuladores: los juegos de móvil casi nunca aceptan mandos y el móvil con el que juegas ya se inclina solo"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "joylink",
+  "items": [
+    { "id": "gamepad", "sectionId": "gamepad", "screenshots": [1], "faq": ["supported_hosts", "windows_no_input", "host_not_recognised", "analog_triggers", "stick_click", "latency", "exit_gamepad", "two_devices"] },
+    { "id": "touchpad", "sectionId": "touchpad", "screenshots": [3], "faq": ["wrong_characters", "ios_devices"] },
+    { "id": "tv-remote", "sectionId": "tv-remote", "screenshots": [4], "faq": ["remote_limits", "remote_no_response"] },
+    { "id": "layouts-macros", "sectionId": "layouts-macros", "screenshots": [6], "faq": ["layout_editor", "ps_style", "macro_sticks", "turbo_rate"] },
+    { "id": "racing-wheel", "sectionId": "racing-wheel", "screenshots": [5], "faq": ["wheel_no_steering", "wheel_drift", "analog_triggers"] },
+    { "id": "themes", "sectionId": "themes", "screenshots": [2], "faq": ["hud_battery"] },
+    { "id": "connection", "sectionId": "long-sessions", "screenshots": [2], "faq": ["not_found_in_scan", "stuck_connecting", "auto_reconnect", "background_hold", "bt_headphones", "screen_off", "missing_device"] }
+  ]
+}

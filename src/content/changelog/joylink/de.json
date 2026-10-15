@@ -1,0 +1,16 @@
+{
+  "slug": "joylink",
+  "locale": "de",
+  "entries": [
+    {
+      "code": 120,
+      "name": "1.2.0",
+      "date": "2026-09-15",
+      "items": [
+        "Übersichtlichere Status- und Navigationsleiste auf Smartphones mit 3-Tasten-Navigation",
+        "Verbesserungen bei Leistung und Stabilität"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "joylink",
+  "locale": "vi",
+  "entries": [
+    {
+      "code": 120,
+      "name": "1.2.0",
+      "date": "2026-09-15",
+      "items": [
+        "Thanh trạng thái và thanh điều hướng hiển thị gọn gàng hơn trên điện thoại dùng điều hướng 3 nút",
+        "Cải thiện hiệu năng và độ ổn định"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

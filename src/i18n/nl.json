@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Onafhankelijke Android-apps",
-    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; en WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker).",
+    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker); en JoyLink, dat een telefoon verandert in een Bluetooth-gamepad, touchpad en tv-afstandsbediening.",
     "appsHeading": "Apps",
     "principlesHeading": "Hoe we werken",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "Bouwt een complete automatisering uit een beschrijving in gewone woorden",
       "auto-clicker": "Klikgenerator met klikinterval en aantal herhalingen",
       "gesture-recorder": "Neemt tikken en swipes op en speelt ze af",
-      "no-ads": "Geen advertenties"
+      "no-ads": "Geen advertenties",
+      "no-receiver": "Niets te installeren op de computer of tv",
+      "bt-gamepad": "Wordt herkend als standaard Bluetooth-gamepad",
+      "touchpad-keyboard": "Touchpad, muis en toetsenbord",
+      "tv-remote": "Tv-afstandsbediening voor Android TV, Google TV en Fire TV",
+      "racing-wheel": "Stuur: sturen door te kantelen",
+      "custom-layouts": "Knoppen verplaatsen en vergroten, indelingen bewaren"
     },
     "values": {
       "yes": "Ja",
@@ -262,7 +268,8 @@
     "home": "Home"
   },
   "trademarks": {
-    "sony": "PlayStation, PS5 en PS4 zijn handelsmerken van Sony Interactive Entertainment Inc. {name} is niet verbonden aan Sony en wordt niet door Sony onderschreven."
+    "sony": "PlayStation, PS5 en PS4 zijn handelsmerken van Sony Interactive Entertainment Inc. {name} is niet verbonden aan Sony en wordt niet door Sony onderschreven.",
+    "hosts": "Windows en Xbox zijn handelsmerken van Microsoft; Mac, iPhone en iPad van Apple; PlayStation van Sony Interactive Entertainment; Nintendo Switch van Nintendo; Android, Android TV en Google TV van Google; Fire TV van Amazon; Steam van Valve; Raspberry Pi van Raspberry Pi Ltd. {name} is met geen van hen verbonden en wordt door geen van hen onderschreven."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "Hoe WhenDo zich verhoudt tot andere automatiseringsapps op Android, functie voor functie, alleen feiten.",
         "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: taken bouwen met AI, klikgenerator, triggers, root, advertenties en prijs.",
         "vsIntro": "Beide automatiseren een Android-telefoon. Hier zie je waarin ze verschillen, functie voor functie."
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "Wordt herkend als standaard Bluetooth-gamepad op Windows, Mac, Linux, Android TV of een andere telefoon, zonder iets te installeren aan de andere kant",
+        "Touchpad, toetsenbord en tv-afstandsbediening voor streamingboxen en mediapc's, plus een stuur dat je bedient door te kantelen, voor emulators en pc-sims",
+        "Gratis, zonder advertenties en zonder account. Pro is een eenmalige aankoop, en elke Pro-functie kun je eerst één keer proberen"
+      ],
+      "faqDescription": "Antwoorden over JoyLink: waarmee hij verbindt, koppelen, Windows en Steam, het touchpad en de tv-afstandsbediening, het stuur, indelingen en macro's, Pro en telefoons waarvan de firmware het blokkeert.",
+      "faqNotFoundBody": "Schrijf ons met je telefoonmodel, waarmee je verbindt en wat er gebeurde. Elk bericht wordt door een mens gelezen.",
+      "support": {
+        "beforeItems": [
+          "Open de FAQ. De meeste vragen over koppelen, Windows, Steam en de tv-afstandsbediening worden daar beantwoord, in dezelfde woorden als in de app.",
+          "Bij de eerste start controleert JoyLink of je telefoon als Bluetooth-gamepad kan werken. Staat er dat de fabrikant dat heeft uitgezet, dan kan geen enkele app het weer aanzetten; in de FAQ lees je wat wel werkt.",
+          "Noteer waarmee je verbindt (Windows, Mac, Linux, Android TV, een andere telefoon) en of dat apparaat de telefoon in zijn Bluetooth-lijst ziet. Dat hebben we nodig om het probleem na te bootsen."
+        ],
+        "template": {
+          "phone": "Telefoonmodel:",
+          "android": "Android-versie:",
+          "host": "Verbonden met (Windows / Mac / Linux / Android TV / anders):",
+          "seen": "Het andere apparaat ziet de telefoon in zijn Bluetooth-lijst: ja / nee",
+          "what": "Wat er gebeurde, stap voor stap:",
+          "pro": "Pro gekocht: ja / nee"
+        },
+        "refundBody": "JoyLink installeer je gratis. Heb je Pro gekocht en werkt het niet met jouw opstelling, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen."
+      },
+      "press": {
+        "description": "Feiten, beeldmateriaal en een standaardtekst om over JoyLink te schrijven, de app die een Android-telefoon verandert in een Bluetooth-gamepad, touchpad en tv-afstandsbediening.",
+        "boilerplate": "JoyLink verandert een Android-telefoon in een standaard Bluetooth-gamepad, touchpad en tv-afstandsbediening voor Windows, Mac, Linux, Android TV en andere Android-apparaten, zonder iets te installeren aan de andere kant: geen host-app, geen dongle, geen root. Daarbij komen een stuur dat je bedient door te kantelen, eigen indelingen, turbo en macro's. JoyLink is gemaakt door DappleByte, een onafhankelijke studio.",
+        "priceValue": "Gratis te installeren, zonder advertenties. Verbinden, koppelen en de standaardgamepad zijn gratis; het touchpad, de tv-afstandsbediening, het stuur, eigen indelingen, turbo, macro's en twee extra thema's ontgrendel je met een eenmalige Pro-aankoop. Er is geen abonnement. De actuele prijs staat op Google Play.",
+        "assetScreenshots": "Screenshots, PNG van 1920 × 1080, Engelstalig"
+      },
+      "videosDescription": "Korte video's van JoyLink op een echte telefoon: koppelen met een pc of tv, de gamepad in een game, het touchpad en de tv-afstandsbediening, en het stuur.",
+      "privacyDescription": "Wat JoyLink voor Android met je gegevens doet: geen account, geen eigen server, invoer die alleen via Bluetooth naar het gekoppelde apparaat gaat, waarvoor de toestemming ‘Apparaten in de buurt’ dient en wat de statistieken verzamelen.",
+      "compare": {
+        "description": "Hoe JoyLink zich verhoudt tot andere apps die een telefoon veranderen in een controller voor een computer of tv, functie voor functie, alleen feiten.",
+        "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: host-app, Bluetooth-gamepad, touchpad en tv-afstandsbediening, stuur, root, advertenties en prijs.",
+        "vsIntro": "Beide veranderen een Android-telefoon in een controller voor een computer of tv. Hier zie je waarin ze verschillen, functie voor functie."
       }
     }
   }

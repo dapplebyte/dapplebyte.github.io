@@ -1,0 +1,297 @@
+{
+  "slug": "joylink",
+  "locale": "fr",
+  "title": "FAQ",
+  "intro": "Les questions qui reviennent le plus, et quoi faire dans chaque cas. Touchez une question pour la déplier.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Connexion et appairage",
+      "entries": [
+        {
+          "id": "supported_hosts",
+          "q": "À quoi JoyLink peut-il se connecter ?",
+          "a": [
+            "Windows 10 et 11, macOS, Linux et Raspberry Pi, Android TV, Google TV, Fire TV et les box multimédia, les TV connectées qui acceptent une manette ou un clavier Bluetooth, ainsi que d'autres téléphones et tablettes Android. Rien à installer en face. Sur iPhone et iPad, seuls le pavé tactile et le clavier fonctionnent : les jeux iOS n'acceptent pas les entrées manette venant de JoyLink."
+          ]
+        },
+        {
+          "id": "consoles",
+          "q": "Pourquoi la connexion à une PlayStation, une Xbox ou une Switch ne marche-t-elle pas ?",
+          "a": [
+            "Chaque console bloque à sa façon. Les manettes Xbox passent par une radio 2,4 GHz propriétaire, pas par le Bluetooth. Les consoles PlayStation vérifient une puce d'authentification placée dans la manette. La Switch n'accepte que le protocole maison de Nintendo. Aucune application ne peut contourner tout cela, et JoyLink n'essaie pas."
+          ]
+        },
+        {
+          "id": "not_found_in_scan",
+          "q": "L'autre appareil ne trouve pas mon téléphone dans sa liste Bluetooth.",
+          "a": [
+            "Dans le guide d'appairage, touchez d'abord « Rendre visible » : l'appareil en face ne voit ce téléphone que pendant le décompte. Il apparaît sous le nom Bluetooth du téléphone (par exemple « Pixel 8 »), pas sous « JoyLink ». Gardez JoyLink au premier plan pendant l'appairage. Si les deux appareils ont déjà été appairés, supprimez l'ancien appairage des deux côtés et recommencez."
+          ]
+        },
+        {
+          "id": "stuck_connecting",
+          "q": "L'appairage a réussi, mais ça reste sur « Connexion… » ou ça ne se connecte jamais.",
+          "a": [
+            "Vérifiez que le Bluetooth est activé en face, que l'appareil est à portée et qu'il n'est pas déjà occupé par une autre manette. Essayez de lancer la connexion depuis l'autre appareil, en touchant le nom du téléphone. Sinon, coupez puis réactivez le Bluetooth des deux côtés. Si l'appareil voit bien le téléphone mais que rien ne se passe quand vous appuyez, voyez « L'appareil connecté ne reconnaît pas JoyLink »."
+          ]
+        },
+        {
+          "id": "nearby_permission",
+          "q": "Pourquoi JoyLink demande-t-il l'autorisation « Appareils à proximité » ?",
+          "a": [
+            "Depuis Android 12, toute connexion Bluetooth relève de cette autorisation. JoyLink s'en sert uniquement pour lister vos appareils associés et pour enregistrer le téléphone comme manette Bluetooth. Vos appuis et votre saisie partent en Bluetooth vers l'appareil connecté, et ne sont envoyés nulle part ailleurs."
+          ]
+        },
+        {
+          "id": "auto_reconnect",
+          "q": "Est-ce que ça se reconnecte après une coupure ?",
+          "a": [
+            "Oui. Trois tentatives au maximum, avec des pauses de plus en plus longues, puis un message sur l'écran d'accueil si ça échoue. Vous pouvez désactiver ce comportement dans Réglages → Connexion → Reconnexion automatique."
+          ]
+        },
+        {
+          "id": "background_hold",
+          "q": "JoyLink continue-t-il d'occuper le Bluetooth après que je quitte l'application ?",
+          "a": [
+            "Quelques minutes seulement. Tant que JoyLink est enregistré, le téléphone est une manette Bluetooth, et sur certains téléphones cela empêche vos autres appareils — écouteurs, montre — de se reconnecter tout seuls. L'enregistrement est donc libéré quelques minutes après que vous avez quitté l'application, et revient en une seconde ou deux à votre retour. Choisissez le délai dans Réglages → Connexion → Garder la connexion en arrière-plan ; prenez « Immédiat » si vos autres appareils ont besoin du Bluetooth tout de suite."
+          ]
+        },
+        {
+          "id": "two_devices",
+          "q": "Puis-je me connecter à deux appareils en même temps ?",
+          "a": [
+            "Un téléphone ne se connecte qu'à un appareil à la fois. L'inverse fonctionne : deux téléphones sous JoyLink peuvent rejoindre le même ordinateur et y apparaître comme deux manettes distinctes — du multijoueur local sans rien configurer."
+          ]
+        },
+        {
+          "id": "bt_headphones",
+          "q": "Les écouteurs Bluetooth gênent-ils ?",
+          "a": [
+            "Cela arrive, dans les deux sens. Sur certains téléphones, écouter de l'audio en même temps ajoute de la latence ou des à-coups sur la manette. Si ça saccade, déconnectez les écouteurs ou passez au filaire. L'inverse se produit aussi : tant que JoyLink est enregistré comme manette, les écouteurs peuvent refuser de se reconnecter tout seuls. Quitter JoyLink libère à nouveau le Bluetooth, une fois écoulé le délai défini dans Réglages → Connexion → Garder la connexion en arrière-plan."
+          ]
+        },
+        {
+          "id": "missing_device",
+          "q": "Un appareil appairé a disparu de l'écran d'accueil.",
+          "a": [
+            "Il a sans doute été masqué. Cela le retire seulement de la liste de JoyLink ; il reste appairé dans les réglages du système. Ouvrez « Tous les appareils » sur l'écran d'accueil pour le récupérer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Manette et ordinateurs",
+      "entries": [
+        {
+          "id": "windows_no_input",
+          "q": "Windows voit la manette, mais le jeu l'ignore ou les boutons sont inversés.",
+          "a": [
+            "JoyLink est une manette générique standard (DirectInput), pas une manette Xbox (XInput). Les jeux qui ne gèrent que XInput ont besoin de Steam comme intermédiaire : ouvrez Steam → Paramètres → Manette et activez Steam Input pour les manettes génériques ; pour un jeu hors Steam, passez par « Ajouter un jeu non-Steam » et lancez-le depuis Steam. Steam le présente alors sous une forme que le jeu comprend, et permet de réattribuer chaque bouton."
+          ]
+        },
+        {
+          "id": "host_not_recognised",
+          "q": "L'appareil connecté ne reconnaît pas JoyLink, ou le prend pour un clavier et une souris.",
+          "a": [
+            "Activez Réglages → Connexion → Mode simple (manette seule). JoyLink s'annonce alors uniquement comme manette. Le lien se coupe une seconde ou deux, puis revient tout seul. En contrepartie, le pavé tactile, le clavier et les touches média ne fonctionnent plus tant que c'est activé."
+          ]
+        },
+        {
+          "id": "analog_triggers",
+          "q": "LT et RT n'ont pas de course analogique.",
+          "a": [
+            "Pour l'instant, LT et RT sont de simples boutons appuyé/relâché — l'option la plus compatible d'un appareil à l'autre. Pour une accélération et un freinage progressifs, utilisez le mode volant, où les pédales partent en axes analogiques."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "Comment appuyer sur L3 / R3 ?",
+          "a": [
+            "Activez Réglages → Manette → Boutons L3 / R3. Deux boutons de plus apparaissent sur la disposition, et ils se comportent comme tous les autres : maintenez-en un et il reste enfoncé, ce qui permet de sprinter avec L3 tout en poussant le stick. Ils sont masqués par défaut, car la plupart des jeux mobiles ne s'en servent jamais. Les sticks, eux, ne font que diriger — toucher un stick n'envoie rien."
+          ]
+        },
+        {
+          "id": "latency",
+          "q": "La latence se sent-elle ? Comment la réduire ?",
+          "a": [
+            "Elle est du même ordre qu'avec une manette Bluetooth classique, ce que la plupart des jeux ne laissent jamais voir. Pour qu'elle reste stable : restez près de l'appareil connecté, déconnectez les appareils Bluetooth inutilisés, coupez l'économiseur de batterie du téléphone, et activez « Garder l'écran allumé » pour que le système ne bride pas l'application."
+          ]
+        },
+        {
+          "id": "exit_gamepad",
+          "q": "Comment quitter l'écran de la manette ?",
+          "a": [
+            "Appuyez longuement sur « Maintenir pour quitter », en haut à droite. Tout l'écran est une surface de commande : l'appui long évite qu'un contact involontaire vous sorte du jeu."
+          ]
+        },
+        {
+          "id": "screen_off",
+          "q": "L'écran s'éteint en pleine partie.",
+          "a": [
+            "Activez Réglages → Retour → Garder l'écran allumé. L'écran reste alors allumé tant que la manette est ouverte. Le volant garde l'écran allumé quoi qu'il arrive."
+          ]
+        },
+        {
+          "id": "hud_battery",
+          "q": "C'est quoi le BAT dans le coin de l'écran de la manette ?",
+          "a": [
+            "Le niveau de batterie de ce téléphone, pas celui de l'appareil connecté. Sur l'écran du volant, le même emplacement affiche l'affectation des axes en cours."
+          ]
+        },
+        {
+          "id": "report_data",
+          "q": "À quoi sert « Afficher les données du rapport » ?",
+          "a": [
+            "C'est une aide au diagnostic. Une fois activé, l'écran de la manette affiche les données brutes envoyées. Ouvrez une page de test de manette sur l'appareil connecté : vous pouvez alors vérifier, bouton par bouton, que tout arrive au bon numéro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touchpad-remote",
+      "title": "Pavé tactile et télécommande TV",
+      "entries": [
+        {
+          "id": "wrong_characters",
+          "q": "Les caractères qui arrivent ne sont pas ceux que j'ai tapés.",
+          "a": [
+            "JoyLink envoie des codes de touche de clavier US. Si l'appareil connecté utilise une autre disposition de clavier, certains symboles ressortent différemment — passer sa disposition en US règle le problème. Pour le chinois, le japonais et les langues similaires, changez la méthode de saisie sur l'appareil, puis tapez ici la prononciation."
+          ]
+        },
+        {
+          "id": "remote_limits",
+          "q": "La télécommande ne peut pas allumer la TV, changer de source ni faire de recherche vocale.",
+          "a": [
+            "Le Bluetooth se coupe dès que la TV s'éteint : la touche marche/arrêt peut donc l'éteindre, jamais l'allumer. Le changement de source, la recherche vocale et le lancement d'une application précise passent par le protocole maison du fabricant, que le Bluetooth ne transporte pas. Les TV dotées d'une télécommande uniquement infrarouge sont hors de portée."
+          ]
+        },
+        {
+          "id": "remote_no_response",
+          "q": "Le pavé tactile et les touches de la télécommande ne font rien, alors que la manette fonctionne.",
+          "a": [
+            "Le mode simple est probablement activé : il ne garde que la manette. Désactivez-le dans Réglages → Connexion."
+          ]
+        },
+        {
+          "id": "ios_devices",
+          "q": "Puis-je contrôler un iPad ou un iPhone ?",
+          "a": [
+            "Avec le pavé tactile et le clavier, oui. Un iPad accepte directement une souris et un clavier Bluetooth ; sur iPhone, activez d'abord Réglages → Accessibilité → Toucher → AssistiveTouch. Le mode manette n'est pas disponible dans les jeux iOS — c'est une limite posée par Apple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-modes",
+      "title": "Volant, dispositions et macros",
+      "entries": [
+        {
+          "id": "wheel_no_steering",
+          "q": "Le jeu ne détecte ni la direction ni les pédales.",
+          "a": [
+            "Les jeux ne lisent pas les pédales de la même façon. Touchez l'affectation des axes affichée en bas de l'écran du volant et choisissez-en une autre : « Gâchettes » convient à la plupart des jeux compatibles manette, « Rétro » aux émulateurs, et les préréglages analogiques aux jeux de simulation qui permettent d'affecter les axes (à configurer une fois dans le jeu). Le même choix se trouve dans Réglages → Volant → Affectation des axes."
+          ]
+        },
+        {
+          "id": "wheel_drift",
+          "q": "La voiture tire toujours d'un côté.",
+          "a": [
+            "Votre prise en main a bougé, et le centre avec elle. Touchez « Recentrer » à l'écran pour faire de votre position actuelle la nouvelle ligne droite. Si la direction paraît trop vive ou trop molle, ajustez « Angle de braquage » dans les réglages."
+          ]
+        },
+        {
+          "id": "layout_editor",
+          "q": "Comment personnaliser la disposition ? Est-ce que ça touche les autres modes ?",
+          "a": [
+            "Ouvrez la carte « Disposition perso » sur l'écran d'accueil, ou maintenez le crayon en haut à droite de l'écran de la manette. Cela ne change que l'écran de la manette, et vous pouvez garder jusqu'à 8 profils pour vos différents jeux. (Pro)"
+          ]
+        },
+        {
+          "id": "ps_style",
+          "q": "Puis-je utiliser les boutons PlayStation (△ ○ ✕ □) à la place d'ABXY ?",
+          "a": [
+            "Oui, c'est inclus dans Pro. Ouvrez Réglages → Manette → Style des boutons et choisissez PlayStation : les boutons d'action deviennent △ ○ ✕ □, les boutons de tranche L1 / L2 / R1 / R2, et les deux sticks passent en bas, comme sur une DualShock. L'appareil connecté voit toujours une manette standard, donc les jeux continuent de fonctionner : △ = Y, ○ = B, ✕ = A, □ = X."
+          ]
+        },
+        {
+          "id": "macro_sticks",
+          "q": "Les macros enregistrent-elles les sticks ?",
+          "a": [
+            "Non. Les macros ne rejouent que des boutons ; les sticks et la croix directionnelle restent toujours en direct. Rien n'est envoyé à l'appareil connecté pendant l'enregistrement. (Pro)"
+          ]
+        },
+        {
+          "id": "turbo_rate",
+          "q": "Comment changer la cadence du turbo ?",
+          "a": [
+            "Dans l'éditeur de disposition, touchez un bouton, activez Turbo, puis réglez la cadence. Toutes les touches turbo d'un même profil partagent la même cadence. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro et achats",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Pro est-il un abonnement ? Qu'est-ce qu'il contient ?",
+          "a": [
+            "Non — c'est un achat unique, valable pour toujours. Il débloque le pavé tactile et le clavier, la télécommande TV, le volant, les dispositions perso avec plusieurs profils, le turbo et les macros, et les thèmes Aurora et Industrial. La version gratuite garde la connexion et la manette standard entièrement fonctionnelles, sans publicité."
+          ]
+        },
+        {
+          "id": "pro_try_once",
+          "q": "Puis-je essayer une fonction Pro avant de l'acheter ?",
+          "a": [
+            "Oui. Quand une fonction Pro ouvre l'écran de mise à niveau, touchez « Essayer gratuitement une fois » en bas. La fonction reste débloquée jusqu'à la fermeture de l'app, et chaque fonction ne s'essaie qu'une fois."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "J'ai changé de téléphone et Pro a disparu.",
+          "a": [
+            "Connectez-vous à Google Play avec le compte Google utilisé pour l'achat, puis ouvrez Réglages → Pro et touchez « Restaurer l'achat »."
+          ]
+        },
+        {
+          "id": "purchase_failed",
+          "q": "L'achat échoue, ou il reste sur « Connexion à Google Play ».",
+          "a": [
+            "Vérifiez que le Play Store s'ouvre normalement et que le pays de votre compte accepte les paiements, puis réessayez un peu plus tard. Les remboursements passent par votre historique de commandes dans Google Play."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility",
+      "title": "Compatibilité et assistance",
+      "entries": [
+        {
+          "id": "phone_unsupported",
+          "q": "Pourquoi l'application dit-elle que ce téléphone ne peut pas devenir une manette ?",
+          "a": [
+            "Servir de manette Bluetooth fait partie d'Android depuis Android 9, mais chaque fabricant décide de l'activer ou non, et certains firmwares le laissent désactivé — aucune application ne peut y remédier. C'est surtout le cas sur les anciens modèles OnePlus et LG, sur certains firmwares régionaux et sur les ROM personnalisées. L'application gratuite Bluetooth HID Profile Tester teste exactement la même chose, si vous voulez un second avis. Après une mise à jour du système, revenez à l'écran d'accueil et relancez la vérification."
+          ]
+        },
+        {
+          "id": "register_blocked",
+          "q": "Le message « Impossible de s'enregistrer comme manette » apparaît.",
+          "a": [
+            "Android n'autorise qu'une seule application à la fois à être un périphérique d'entrée Bluetooth : une autre application de manette, de clavier ou de souris occupe probablement la place. Fermez-la puis relancez la vérification."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Comment signaler un problème ou proposer une idée ?",
+          "a": [
+            "Réglages → À propos → Envoyer un commentaire. Votre modèle de téléphone et la version de l'application sont joints automatiquement à l'e-mail, ce qui nous permet de recouper avec ce que nous voyons de notre côté."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

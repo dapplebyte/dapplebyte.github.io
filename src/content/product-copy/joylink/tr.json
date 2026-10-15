@@ -1,0 +1,127 @@
+{
+  "slug": "joylink",
+  "locale": "tr",
+  "title": "JoyLink: Telefonu Gamepad Yap",
+  "shortDescription": "Bluetooth oyun kolu, gamepad, touchpad ve TV kumandası: PC, Mac, Android TV",
+  "tagline": "Telefonun gerçek bir Bluetooth oyun kolu olsun — alıcı uygulama, dongle ve root yok",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Telefonun gerçek bir Bluetooth oyun kolu olsun — alıcı uygulama, dongle ve root yok",
+      "paragraphs": [
+        "JoyLink, Android telefonunu standart bir Bluetooth oyun kolu, dokunmatik yüzey ve TV kumandası olarak tanıtır. Windows PC, Mac, Linux, Android TV ya da başka bir telefonla bir kez eşleştir; sonrası kablosuz bir gamepad gibi çalışır, karşıya hiçbir şey kurulmaz."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "JoyLink en çok ne için kullanılıyor",
+      "paragraphs": [],
+      "bullets": [
+        "Kolu olmayan dizüstünde emülatör ve Steam oyunu oyna",
+        "Android TV, Google TV veya Fire TV'de gezin, telefon klavyesiyle yaz",
+        "Koltuktan oyun: bilgisayarı uzaktan yönet",
+        "Raspberry Pi veya RetroPie'de kol satın almadan retro oyun",
+        "İki telefon, tek bilgisayarda iki oyuncu"
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "PC, Mac ve Linux için Bluetooth oyun kolu",
+      "paragraphs": [],
+      "bullets": [
+        "Xbox tarzı yerleşim: çift analog çubuk, D-pad, A B X Y, LB/RB, LT/RT, Start ve Select",
+        "Steam, emülatörler ve genel kol destekleyen oyunlar için standart (DirectInput) kumanda; XInput isteyenleri Steam Input halleder",
+        "Titreşim, tam ekran yatay mod, uzun basmadan çıkış yok — oyun ortasında kopmazsın",
+        "Yerleşik tuş testi, her tuşun karşı cihaza ne gönderdiğini gösterir"
+      ]
+    },
+    {
+      "id": "touchpad",
+      "title": "Dokunmatik yüzey, fare ve klavye",
+      "paragraphs": [],
+      "bullets": [
+        "Dokunma, iki parmakla kaydırma, sağ tık ve sürükleme",
+        "Telefon klavyenle yaz — medya kutuları ve salon PC'leri için birebir",
+        "iPad ve iPhone'da da kablosuz fare ve klavye olur"
+      ]
+    },
+    {
+      "id": "tv-remote",
+      "title": "Android TV, Google TV ve Fire TV için TV kumandası",
+      "paragraphs": [],
+      "bullets": [
+        "Yön tuşlarıyla gezinme, Geri, Ana ekran, Menü ve kapatma",
+        "Ses, sessize alma, oynat/duraklat, atlama ve kanal yukarı/aşağı",
+        "Sayı tuşları ve arama kutuları için metin paneli"
+      ]
+    },
+    {
+      "id": "layouts-macros",
+      "title": "Özel yerleşimler, Turbo ve makrolar",
+      "paragraphs": [],
+      "bullets": [
+        "Her kontrolü taşı, boyutlandır, saydamlaştır; farklı oyunlar için 8 yerleşime kadar",
+        "Her tuşta Turbo (seri atış); komboyu bir kez kaydet, tek makro tuşuyla tekrar oynat"
+      ]
+    },
+    {
+      "id": "racing-wheel",
+      "title": "PC, TV ve emülatörler için direksiyon: eğerek dönüş",
+      "paragraphs": [],
+      "bullets": [
+        "Telefonu yatay tut, dönmek için eğ — ekranı eğilemeyen cihazlar için",
+        "Pedallar doğrudan LT/RT'de; simülasyon ve emülatörler için analog, sol çubuk ve retro ayarları"
+      ]
+    },
+    {
+      "id": "themes",
+      "title": "Üç eksiksiz tema",
+      "paragraphs": [
+        "HUD (e-spor, misket yeşili), Aurora (cam ve camgöbeği parıltı), Industrial (tuş kapakları ve uyarı turuncusu) — üç eksiksiz görünüm."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "long-sessions",
+      "title": "Uzun oturumlar için",
+      "paragraphs": [],
+      "bullets": [
+        "Gecikme, sıradan bir Bluetooth kumandayla aynı seviyede",
+        "Bağlantı düşerse otomatik yeniden bağlan, oynarken ekran açık kalsın",
+        "19 dil ve uygulama içi sık sorulan sorular"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Hep ücretsiz, Pro tek seferlik",
+      "paragraphs": [
+        "Bağlantı, eşleştirme ve standart oyun kolu ücretsiz: süre sınırı yok, reklam yok. Pro; dokunmatik yüzeyi, TV kumandasını, direksiyonu, özel yerleşimleri, Turbo ile makroları ve iki temayı tek ödemeyle açar — abonelik değil. Her Pro özelliğini önce bir kez deneyebilirsin."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Önce gizlilik",
+      "paragraphs": [
+        "JoyLink yalnızca “Yakındaki cihazlar” (Bluetooth) iznini ve bir durum bildirimi ister. Hesap yok, giriş yok; bastığın her tuş Bluetooth ile karşı cihaza gider, başka yere değil."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-install",
+      "title": "Kurmadan önce",
+      "paragraphs": [
+        "Bir şey çalışmıyor mu? Play yorumu bize detay sorma ya da düzeltme gönderme imkânı vermiyor. Bunun yerine feedback@dapplebyte.com adresine yaz — Ayarlar → Hakkında → Geri bildirim gönder telefon modelini ve sürümü ekler — sana döneriz."
+      ],
+      "bullets": [
+        "PlayStation, Xbox ve Nintendo Switch yalnızca kendi kumandalarını kabul eder; JoyLink konsollara bağlanamaz",
+        "iOS oyunları genel Bluetooth kumandaları okumaz; iPhone ve iPad'de JoyLink yalnızca fare ve klavyedir",
+        "Bluetooth oyun kolu olmak Android'in kendi yeteneği, ama bazı üreticiler yazılımda kapatır; hiçbir uygulama geri açamaz, JoyLink ilk açılışta kontrol eder",
+        "Her cihaz tuşları kendince eşler; tuş testi ve SSS yaygın durumları kapsar",
+        "Direksiyon PC, medya kutuları ve emülatörler içindir: mobil yarış oyunlarının çoğu kumanda kabul etmez, oynadığın telefonda zaten eğme vardır"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

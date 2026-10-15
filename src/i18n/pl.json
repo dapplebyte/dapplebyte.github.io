@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Niezależne aplikacje na Androida",
-    "description": "DappleByte to niezależne studio, które tworzy aplikacje na Androida: Gamepad Pro, maper przycisków, który zamienia pada w sterowanie dotykowe; Relaypad, kontroler Remote Play i aplikację do strumieniowania obrazu z PS5 i PS4; oraz WhenDo, aplikację do automatyzacji z AI i klikaczem (auto clicker).",
+    "description": "DappleByte to niezależne studio, które tworzy aplikacje na Androida: Gamepad Pro, maper przycisków, który zamienia pada w sterowanie dotykowe; Relaypad, kontroler Remote Play i aplikację do strumieniowania obrazu z PS5 i PS4; WhenDo, aplikację do automatyzacji z AI i klikaczem (auto clicker); oraz JoyLink, który zamienia telefon w pada Bluetooth, gładzik i pilot do TV.",
     "appsHeading": "Aplikacje",
     "principlesHeading": "Jak pracujemy",
     "principles": [
@@ -206,7 +206,13 @@
       "ai-builder": "Tworzy całą automatyzację na podstawie opisu zwykłymi słowami",
       "auto-clicker": "Klikacz z ustawianym odstępem i liczbą powtórzeń",
       "gesture-recorder": "Nagrywa i odtwarza dotknięcia i przesunięcia",
-      "no-ads": "Bez reklam"
+      "no-ads": "Bez reklam",
+      "no-receiver": "Nic do instalowania na komputerze ani telewizorze",
+      "bt-gamepad": "Widoczny jako standardowy pad Bluetooth",
+      "touchpad-keyboard": "Gładzik, mysz i klawiatura",
+      "tv-remote": "Pilot do TV: Android TV, Google TV i Fire TV",
+      "racing-wheel": "Kierownica ze skręcaniem przechyłem",
+      "custom-layouts": "Przesuwanie, skalowanie i zapisywanie układów sterowania"
     },
     "values": {
       "yes": "Tak",
@@ -262,7 +268,8 @@
     "home": "Strona główna"
   },
   "trademarks": {
-    "sony": "PlayStation, PS5 i PS4 są znakami towarowymi Sony Interactive Entertainment Inc. Aplikacja {name} nie jest powiązana z Sony ani przez Sony popierana."
+    "sony": "PlayStation, PS5 i PS4 są znakami towarowymi Sony Interactive Entertainment Inc. Aplikacja {name} nie jest powiązana z Sony ani przez Sony popierana.",
+    "hosts": "Windows i Xbox są znakami towarowymi Microsoft; Mac, iPhone i iPad — Apple; PlayStation — Sony Interactive Entertainment; Nintendo Switch — Nintendo; Android, Android TV i Google TV — Google; Fire TV — Amazon; Steam — Valve; Raspberry Pi — Raspberry Pi Ltd. Aplikacja {name} nie jest powiązana z żadną z tych firm ani przez nie popierana."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -498,6 +505,45 @@
         "description": "Jak WhenDo wypada na tle innych aplikacji do automatyzacji na Androida, funkcja po funkcji, same fakty.",
         "vsDescription": "{name} i {other} na Androidzie, porównanie funkcja po funkcji: tworzenie zadań z AI, klikacz, wyzwalacze, root, reklamy i ceny.",
         "vsIntro": "Obie automatyzują telefon z Androidem. Oto czym się różnią, funkcja po funkcji."
+      }
+    },
+    "joylink": {
+      "kicker": "PC · Mac · Android TV",
+      "heroPoints": [
+        "Działa jako standardowy pad Bluetooth z Windows, Makiem, Linuksem, Android TV lub innym telefonem; po drugiej stronie nic nie instalujesz",
+        "Gładzik, klawiatura i pilot do przystawek TV i pecetów w salonie, a do tego kierownica ze skręcaniem przechyłem do emulatorów i symulatorów na PC",
+        "Za darmo, bez reklam i bez konta. Pro to jednorazowy zakup, a każdą funkcję Pro możesz najpierw raz wypróbować"
+      ],
+      "faqDescription": "Odpowiedzi o JoyLink: z czym się łączy, parowanie, Windows i Steam, gładzik i pilot do TV, kierownica, układy i makra, Pro oraz telefony, których oprogramowanie to blokuje.",
+      "faqNotFoundBody": "Napisz do nas: podaj model telefonu, z czym się łączysz, i opisz, co się stało. Każdą wiadomość czyta człowiek.",
+      "support": {
+        "beforeItems": [
+          "Otwórz FAQ. Większość pytań o parowanie, Windows, Steam i pilot do TV ma tam odpowiedź, w tych samych słowach co w aplikacji.",
+          "Przy pierwszym uruchomieniu JoyLink sprawdza, czy telefon może działać jako pad Bluetooth. Jeśli pokaże, że producent telefonu to wyłączył, żadna aplikacja tego nie przywróci; w FAQ opisujemy, co nadal działa.",
+          "Zanotuj, z czym się łączysz (Windows, Mac, Linux, Android TV, inny telefon) i czy to urządzenie widzi telefon na liście Bluetooth. Właśnie tego potrzebujemy, żeby odtworzyć problem."
+        ],
+        "template": {
+          "phone": "Model telefonu:",
+          "android": "Wersja Androida:",
+          "host": "Urządzenie docelowe (Windows / Mac / Linux / Android TV / inne):",
+          "seen": "Drugie urządzenie widzi telefon na liście Bluetooth: tak / nie",
+          "what": "Co się stało, krok po kroku:",
+          "pro": "Zakup Pro: tak / nie"
+        },
+        "refundBody": "JoyLink instalujesz za darmo. Jeśli po zakupie Pro aplikacja nie działa z Twoim sprzętem, napisz do nas w ciągu 7 dni od zakupu, a zwrócimy pieniądze. Opisz, co już próbowano; to pomoże nam naprawić problem dla kolejnych osób."
+      },
+      "press": {
+        "description": "Fakty, materiały i gotowy opis do tekstów o JoyLink, aplikacji, która zamienia telefon z Androidem w pada Bluetooth, gładzik i pilot do TV.",
+        "boilerplate": "JoyLink zamienia telefon z Androidem w standardowego pada Bluetooth, gładzik i pilot do TV dla Windows, Maca, Linuksa, Android TV i innych urządzeń z Androidem, bez instalowania czegokolwiek po drugiej stronie: bez aplikacji odbiorczej, dongla i roota. Do tego kierownica ze skręcaniem przechyłem, własne układy, turbo i makra. Aplikację tworzy niezależne studio DappleByte.",
+        "priceValue": "Instalacja za darmo, bez reklam. Łączenie, parowanie i standardowy pad są darmowe; gładzik, pilot do TV, kierownicę, własne układy, turbo, makra i dwa dodatkowe motywy odblokowuje jednorazowy zakup Pro. Nie ma subskrypcji. Aktualna cena jest podana w Google Play.",
+        "assetScreenshots": "Zrzuty ekranu, PNG, po angielsku (1920 × 1080)"
+      },
+      "videosDescription": "Krótkie filmy pokazujące JoyLink na prawdziwym telefonie: parowanie z PC lub telewizorem, pad w grze, gładzik i pilot do TV oraz kierownica.",
+      "privacyDescription": "Co JoyLink na Androida robi z Twoimi danymi: bez konta i bez naszych serwerów, naciśnięcia idą tylko przez Bluetooth do sparowanego urządzenia, do czego służy uprawnienie „Urządzenia w pobliżu” i co zbierają statystyki.",
+      "compare": {
+        "description": "Jak JoyLink wypada na tle innych aplikacji, które zamieniają telefon w kontroler do komputera lub telewizora, funkcja po funkcji, same fakty.",
+        "vsDescription": "{name} i {other} na Androidzie, porównanie funkcja po funkcji: aplikacja odbiorcza, pad Bluetooth, gładzik i pilot do TV, kierownica, root, reklamy i ceny.",
+        "vsIntro": "Obie zamieniają telefon z Androidem w kontroler do komputera lub telewizora. Oto czym się różnią, funkcja po funkcji."
       }
     }
   }
