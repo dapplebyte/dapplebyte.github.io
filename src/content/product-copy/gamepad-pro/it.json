@@ -49,17 +49,17 @@
     },
     {
       "id": "phases",
-      "title": "Fasi — più layout per un solo gioco",
+      "title": "Schemi — più layout per un solo gioco",
       "paragraphs": [
-        "Crea più Fasi per le diverse parti dello stesso gioco: Movimento, Guida, Paracadutismo, Combattimento o Menu."
+        "Crea più Schemi per le diverse parti dello stesso gioco: Movimento, Guida, Paracadutismo, Combattimento o Menu."
       ],
       "bullets": []
     },
     {
       "id": "phase-switch",
-      "title": "Cambia fase mentre giochi",
+      "title": "Cambia schema mentre giochi",
       "paragraphs": [
-        "Scegli un’altra Fase dal controllo flottante senza uscire dal gioco, oppure assegna un pulsante per scorrere i layout all’istante."
+        "Scegli un altro Schema dal controllo flottante senza uscire dal gioco, oppure assegna un pulsante per scorrere i layout all’istante."
       ],
       "bullets": []
     },

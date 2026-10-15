@@ -49,17 +49,17 @@
     },
     {
       "id": "phases",
-      "title": "PHASEN – MEHRERE LAYOUTS FÜR EIN SPIEL",
+      "title": "LAYOUTS – MEHRERE BELEGUNGEN FÜR EIN SPIEL",
       "paragraphs": [
-        "Lege für die Abschnitte desselben Spiels mehrere Phasen an, etwa Bewegung, Fahren, Fallschirm, Kampf oder Menüs."
+        "Lege für die Abschnitte desselben Spiels mehrere Layouts an, etwa Bewegung, Fahren, Fallschirm, Kampf oder Menüs."
       ],
       "bullets": []
     },
     {
       "id": "phase-switch",
-      "title": "PHASEN IM SPIEL WECHSELN",
+      "title": "LAYOUTS IM SPIEL WECHSELN",
       "paragraphs": [
-        "Wähle über das schwebende Steuerelement eine andere Phase, ohne das Spiel zu verlassen, oder schalte per Taste sofort durch deine Layouts."
+        "Wähle über das schwebende Steuerelement ein anderes Layout, ohne das Spiel zu verlassen, oder schalte per Taste sofort durch deine Layouts."
       ],
       "bullets": []
     },

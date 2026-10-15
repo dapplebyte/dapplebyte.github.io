@@ -49,17 +49,17 @@
     },
     {
       "id": "phases",
-      "title": "Fases: varias configuraciones en un juego",
+      "title": "Esquemas: varias configuraciones en un juego",
       "paragraphs": [
-        "Crea varias Fases para distintas partes del mismo juego, como Movimiento, Conducción, Paracaidismo, Combate o Menús."
+        "Crea varios Esquemas para distintas partes del mismo juego, como Movimiento, Conducción, Paracaidismo, Combate o Menús."
       ],
       "bullets": []
     },
     {
       "id": "phase-switch",
-      "title": "Cambia de fase mientras juegas",
+      "title": "Cambia de esquema mientras juegas",
       "paragraphs": [
-        "Elige otra Fase desde el control flotante sin salir del juego, o asigna un botón para alternar configuraciones al instante."
+        "Elige otro Esquema desde el control flotante sin salir del juego, o asigna un botón para alternar configuraciones al instante."
       ],
       "bullets": []
     },

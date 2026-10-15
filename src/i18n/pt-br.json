@@ -305,7 +305,7 @@
       "kicker": "Mapeador de controle · Sem root",
       "heroPoints": [
         "Botões, analógicos e gatilhos L2/R2 viram toques, pressionamentos e deslizes",
-        "Um layout para cada jogo, e Fases para cada parte dele",
+        "Um layout para cada jogo, e Esquemas para cada parte dele",
         "Macros, turbo e combos de botões. Sem root, sem clonagem"
       ],
       "faqDescription": "Respostas sobre o Gamepad Pro: configuração e permissões, como criar um mapeamento, analógicos e gatilhos, controles, Pro e backups.",
@@ -328,7 +328,7 @@
       },
       "press": {
         "description": "Fatos, materiais e um texto padrão para quem for escrever sobre o Gamepad Pro, o mapeador de botões de controle para Android.",
-        "boilerplate": "O Gamepad Pro transforma o controle que você já tem em comandos de toque para jogos de Android sem suporte a controle: botões, analógicos e gatilhos viram toques, pressionamentos e deslizes, com um layout por jogo, Fases, macros, turbo e combos de botões. Não precisa de root. É feito pela DappleByte, um estúdio independente.",
+        "boilerplate": "O Gamepad Pro transforma o controle que você já tem em comandos de toque para jogos de Android sem suporte a controle: botões, analógicos e gatilhos viram toques, pressionamentos e deslizes, com um layout por jogo, Esquemas, macros, turbo e combos de botões. Não precisa de root. É feito pela DappleByte, um estúdio independente.",
         "priceValue": "Grátis para instalar, com anúncios. Uma compra única do Pro remove os anúncios e libera todos os recursos Pro; não tem assinatura. O preço atual aparece no Google Play.",
         "assetScreenshots": "Capturas de tela do celular, PNG, em inglês (retrato 1080 × 1920; a captura do editor é em paisagem)"
       },

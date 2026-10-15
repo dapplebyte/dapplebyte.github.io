@@ -305,7 +305,7 @@
       "kicker": "Controller-Mapper · Ohne root",
       "heroPoints": [
         "Tasten, Sticks und L2/R2-Trigger werden zu Tippen, Halten und Wischen",
-        "Ein Layout für jedes Spiel und Phasen für die einzelnen Abschnitte",
+        "Eine eigene Belegung für jedes Spiel und Layouts für die einzelnen Abschnitte",
         "Makros, Turbo und Tastenkombinationen. Ohne root, ohne Klonen"
       ],
       "faqDescription": "Antworten zu Gamepad Pro: Einrichtung und Berechtigungen, Tastenbelegung erstellen, Sticks und Trigger, Controller, Pro und Backups.",
@@ -328,7 +328,7 @@
       },
       "press": {
         "description": "Fakten, Material und ein Standardtext für Berichte über Gamepad Pro, die Android-App zur Tastenbelegung für Controller.",
-        "boilerplate": "Gamepad Pro macht den Controller, den Sie schon haben, zur Touch-Steuerung für Android-Spiele ohne Gamepad-Unterstützung: Tasten, Sticks und Trigger werden zu Tippen, Halten und Wischen, mit einem Layout pro Spiel, Phasen, Makros, Turbo und Tastenkombinationen. Root-Rechte sind nicht nötig. Die App stammt von DappleByte, einem unabhängigen Studio.",
+        "boilerplate": "Gamepad Pro macht den Controller, den Sie schon haben, zur Touch-Steuerung für Android-Spiele ohne Gamepad-Unterstützung: Tasten, Sticks und Trigger werden zu Tippen, Halten und Wischen, mit einer eigenen Belegung pro Spiel, mehreren Layouts, Makros, Turbo und Tastenkombinationen. Root-Rechte sind nicht nötig. Die App stammt von DappleByte, einem unabhängigen Studio.",
         "priceValue": "Kostenlos installierbar, mit Werbung. Ein einmaliger Pro-Kauf entfernt die Werbung und schaltet alle Pro-Funktionen frei; ein Abo gibt es nicht. Den aktuellen Preis finden Sie bei Google Play.",
         "assetScreenshots": "Telefon-Screenshots, PNG, Englisch (Hochformat 1080 × 1920; der Editor-Screenshot ist im Querformat)"
       },

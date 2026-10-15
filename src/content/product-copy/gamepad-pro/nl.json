@@ -49,17 +49,17 @@
     },
     {
       "id": "phases",
-      "title": "Fasen — meerdere indelingen voor één game",
+      "title": "Indelingen — meerdere configuraties voor één game",
       "paragraphs": [
-        "Maak meerdere Fasen voor verschillende delen van dezelfde game, zoals Bewegen, Rijden, Parachutespringen, Gevechten of Menu’s."
+        "Maak meerdere Indelingen voor verschillende delen van dezelfde game, zoals Bewegen, Rijden, Parachutespringen, Gevechten of Menu’s."
       ],
       "bullets": []
     },
     {
       "id": "phase-switch",
-      "title": "Wissel van fase tijdens het spelen",
+      "title": "Wissel van indeling tijdens het spelen",
       "paragraphs": [
-        "Kies een andere Fase via het zwevende bedieningselement zonder de game te verlaten, of wijs een knop toe om direct door je indelingen te bladeren."
+        "Kies een andere Indeling via het zwevende bedieningselement zonder de game te verlaten, of wijs een knop toe om direct door je indelingen te bladeren."
       ],
       "bullets": []
     },

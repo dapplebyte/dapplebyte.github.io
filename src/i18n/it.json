@@ -305,7 +305,7 @@
       "kicker": "Mappatore per controller · Senza root",
       "heroPoints": [
         "Pulsanti, stick e grilletti L2/R2 diventano tocchi, pressioni prolungate e scorrimenti",
-        "Un layout per ogni gioco, e Fasi per le sue diverse parti",
+        "Un layout per ogni gioco, e Schemi per le sue diverse parti",
         "Macro, turbo e combinazioni di pulsanti. Senza root, senza cloni"
       ],
       "faqDescription": "Risposte su Gamepad Pro: configurazione e autorizzazioni, come creare una mappatura, stick e grilletti, controller, Pro e backup.",
@@ -328,7 +328,7 @@
       },
       "press": {
         "description": "Dati, materiali e un testo di presentazione per scrivere di Gamepad Pro, il mappatore di tasti per controller su Android.",
-        "boilerplate": "Gamepad Pro trasforma il controller che hai già in comandi touch per i giochi Android che non supportano i gamepad: pulsanti, stick e grilletti diventano tocchi, pressioni prolungate e scorrimenti, con un layout per gioco, Fasi, macro, turbo e combinazioni di pulsanti. Non serve il root. È realizzato da DappleByte, uno studio indipendente.",
+        "boilerplate": "Gamepad Pro trasforma il controller che hai già in comandi touch per i giochi Android che non supportano i gamepad: pulsanti, stick e grilletti diventano tocchi, pressioni prolungate e scorrimenti, con un layout per gioco, Schemi, macro, turbo e combinazioni di pulsanti. Non serve il root. È realizzato da DappleByte, uno studio indipendente.",
         "priceValue": "Gratis da installare, con pubblicità. Un acquisto Pro una tantum rimuove la pubblicità e sblocca tutte le funzioni Pro; non c'è nessun abbonamento. Il prezzo attuale è indicato su Google Play.",
         "assetScreenshots": "Screenshot del telefono, PNG, in inglese (verticale 1080 × 1920; lo screenshot dell'editor è orizzontale)"
       },

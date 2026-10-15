@@ -305,7 +305,7 @@
       "kicker": "Kumanda tuş eşleme · Root gerekmez",
       "heroPoints": [
         "Tuşlar, çubuklar ve L2/R2 tetikleri dokunma, basılı tutma ve kaydırmaya dönüşür",
-        "Her oyuna bir düzen, oyunun farklı bölümleri için Aşamalar",
+        "Her oyuna ayrı bir eşleme, oyunun farklı bölümleri için Düzenler",
         "Makrolar, turbo ve tuş kombinasyonları. Root yok, klonlama yok"
       ],
       "faqDescription": "Gamepad Pro hakkında yanıtlar: kurulum ve izinler, tuş eşleme oluşturma, çubuklar ve tetikler, kumandalar, Pro ve yedekler.",
@@ -328,7 +328,7 @@
       },
       "press": {
         "description": "Android için kumanda tuş eşleme uygulaması Gamepad Pro hakkında yazmak için bilgiler, görseller ve hazır tanıtım metni.",
-        "boilerplate": "Gamepad Pro, elinizdeki kumandayı kumanda desteği olmayan Android oyunları için dokunmatik kontrole çevirir: tuşlar, çubuklar ve tetikler dokunma, basılı tutma ve kaydırmaya dönüşür; her oyuna ayrı düzen, Aşamalar, makrolar, turbo ve tuş kombinasyonları da var. Root gerekmez. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilir.",
+        "boilerplate": "Gamepad Pro, elinizdeki kumandayı kumanda desteği olmayan Android oyunları için dokunmatik kontrole çevirir: tuşlar, çubuklar ve tetikler dokunma, basılı tutma ve kaydırmaya dönüşür; her oyuna ayrı eşleme, Düzenler, makrolar, turbo ve tuş kombinasyonları da var. Root gerekmez. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilir.",
         "priceValue": "Ücretsiz kurulur, reklam içerir. Tek seferlik Pro satın alımı reklamları kaldırır ve tüm Pro özelliklerinin kilidini açar; abonelik yoktur. Güncel fiyat Google Play'de gösterilir.",
         "assetScreenshots": "Telefon ekran görüntüleri, PNG, İngilizce (dikey 1080 × 1920; düzenleyici ekran görüntüsü yatay)"
       },

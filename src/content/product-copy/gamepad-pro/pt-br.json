@@ -49,17 +49,17 @@
     },
     {
       "id": "phases",
-      "title": "Fases — vários layouts para um jogo",
+      "title": "Esquemas — vários layouts para um jogo",
       "paragraphs": [
-        "Crie várias Fases para partes diferentes do mesmo jogo, como Movimento, Direção, Paraquedas, Combate ou Menus."
+        "Crie vários Esquemas para partes diferentes do mesmo jogo, como Movimento, Direção, Paraquedas, Combate ou Menus."
       ],
       "bullets": []
     },
     {
       "id": "phase-switch",
-      "title": "Troque de fase durante o jogo",
+      "title": "Troque de esquema durante o jogo",
       "paragraphs": [
-        "Escolha outra Fase pelo controle flutuante sem sair do jogo ou atribua um botão para alternar entre os layouts na hora."
+        "Escolha outro Esquema pelo controle flutuante sem sair do jogo ou atribua um botão para alternar entre os layouts na hora."
       ],
       "bullets": []
     },

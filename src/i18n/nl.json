@@ -305,7 +305,7 @@
       "kicker": "Controller-mapper · Zonder root",
       "heroPoints": [
         "Knoppen, sticks en L2/R2-triggers worden tikken, vasthouden en vegen",
-        "Een indeling voor elke game, en Fasen voor de verschillende delen ervan",
+        "Een eigen mapping voor elke game, en Indelingen voor de verschillende delen ervan",
         "Macro's, turbo en knopcombinaties. Zonder root, zonder klonen"
       ],
       "faqDescription": "Antwoorden over Gamepad Pro: installatie en machtigingen, een mapping maken, sticks en triggers, controllers, Pro en back-ups.",
@@ -328,7 +328,7 @@
       },
       "press": {
         "description": "Feiten, beeldmateriaal en een standaardtekst om over Gamepad Pro te schrijven, de toetsen-mapper voor controllers op Android.",
-        "boilerplate": "Gamepad Pro maakt van de controller die je al hebt touchbediening voor Android-games zonder gamepad-ondersteuning: knoppen, sticks en triggers worden tikken, vasthouden en vegen, met een indeling per game, Fasen, macro's, turbo en knopcombinaties. Root is niet nodig. De app is gemaakt door DappleByte, een onafhankelijke studio.",
+        "boilerplate": "Gamepad Pro maakt van de controller die je al hebt touchbediening voor Android-games zonder gamepad-ondersteuning: knoppen, sticks en triggers worden tikken, vasthouden en vegen, met een mapping per game, meerdere Indelingen, macro's, turbo en knopcombinaties. Root is niet nodig. De app is gemaakt door DappleByte, een onafhankelijke studio.",
         "priceValue": "Gratis te installeren, met advertenties. Een eenmalige Pro-aankoop haalt de advertenties weg en ontgrendelt alle Pro-functies; er is geen abonnement. De actuele prijs staat op Google Play.",
         "assetScreenshots": "Telefoonscreenshots, PNG, Engels (staand 1080 × 1920; de screenshot van de editor is liggend)"
       },

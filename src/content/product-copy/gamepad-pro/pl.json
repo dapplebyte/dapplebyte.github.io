@@ -49,17 +49,17 @@
     },
     {
       "id": "phases",
-      "title": "Fazy — wiele układów w jednej grze",
+      "title": "Układy — wiele konfiguracji w jednej grze",
       "paragraphs": [
-        "Twórz kilka Faz na różne fragmenty tej samej gry: Poruszanie, Jazdę, Spadochron, Walkę czy Menu."
+        "Twórz kilka Układów na różne fragmenty tej samej gry: Poruszanie, Jazdę, Spadochron, Walkę czy Menu."
       ],
       "bullets": []
     },
     {
       "id": "phase-switch",
-      "title": "Zmiana faz w trakcie gry",
+      "title": "Zmiana układów w trakcie gry",
       "paragraphs": [
-        "Wybierz inną Fazę z pływającego panelu bez wychodzenia z gry albo przypisz przycisk do błyskawicznego przełączania układów."
+        "Wybierz inny Układ z pływającego panelu bez wychodzenia z gry albo przypisz przycisk do błyskawicznego przełączania układów."
       ],
       "bullets": []
     },

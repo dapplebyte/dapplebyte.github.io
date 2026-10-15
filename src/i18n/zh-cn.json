@@ -305,7 +305,7 @@
       "kicker": "手柄按键映射 · 免 root",
       "heroPoints": [
         "按键、摇杆和 L2/R2 扳机变成点击、长按和滑动",
-        "每款游戏一套布局，不同环节还能用“阶段”切换",
+        "每款游戏一套布局，不同环节还能用“方案”切换",
         "宏、连发、组合键。免 root，免分身"
       ],
       "faqDescription": "关于 Gamepad Pro 的解答：设置与权限、创建按键映射、摇杆与扳机、手柄、Pro 与备份。",
@@ -328,7 +328,7 @@
       },
       "press": {
         "description": "报道 Android 手柄按键映射工具 Gamepad Pro 所需的资料、素材和标准介绍。",
-        "boilerplate": "Gamepad Pro 能把你手上现有的手柄，变成 Android 上不支持手柄的游戏的触屏操作：按键、摇杆和扳机变成点击、长按和滑动，每款游戏一套布局，还有阶段、宏、连发和组合键。不需要 root。它由独立工作室 DappleByte 开发。",
+        "boilerplate": "Gamepad Pro 能把你手上现有的手柄，变成 Android 上不支持手柄的游戏的触屏操作：按键、摇杆和扳机变成点击、长按和滑动，每款游戏一套布局，还有多套方案、宏、连发和组合键。不需要 root。它由独立工作室 DappleByte 开发。",
         "priceValue": "免费安装，含广告。一次性购买 Pro 即可去除广告并解锁全部 Pro 功能，没有订阅。当前价格以 Google Play 显示为准。",
         "assetScreenshots": "手机截图，PNG，英文（竖屏 1080 × 1920；编辑器截图为横屏）"
       },

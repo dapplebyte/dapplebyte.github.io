@@ -49,17 +49,17 @@
     },
     {
       "id": "phases",
-      "title": "Aşamalar — tek oyuna birden fazla düzen",
+      "title": "Düzenler — tek oyuna birden fazla yapılandırma",
       "paragraphs": [
-        "Aynı oyunun farklı bölümleri için birden fazla Aşama oluşturun: Hareket, Sürüş, Paraşüt, Çatışma veya Menüler."
+        "Aynı oyunun farklı bölümleri için birden fazla Düzen oluşturun: Hareket, Sürüş, Paraşüt, Çatışma veya Menüler."
       ],
       "bullets": []
     },
     {
       "id": "phase-switch",
-      "title": "Oynarken aşama değiştirin",
+      "title": "Oynarken düzen değiştirin",
       "paragraphs": [
-        "Oyundan çıkmadan kayan kontrolden başka bir Aşama seçin veya düzenler arasında anında geçiş için bir tuş atayın."
+        "Oyundan çıkmadan kayan kontrolden başka bir Düzen seçin veya düzenler arasında anında geçiş için bir tuş atayın."
       ],
       "bullets": []
     },

@@ -305,7 +305,7 @@
       "kicker": "Maper kontrolera · Bez roota",
       "heroPoints": [
         "Przyciski, drążki i spusty L2/R2 zamieniają się w dotknięcia, przytrzymania i przeciągnięcia",
-        "Układ do każdej gry i Fazy na różne jej fragmenty",
+        "Mapowanie do każdej gry i Układy na różne jej fragmenty",
         "Makra, turbo i kombinacje przycisków. Bez roota i bez klonowania"
       ],
       "faqDescription": "Odpowiedzi na pytania o Gamepad Pro: konfiguracja i uprawnienia, tworzenie mapowania, drążki i spusty, kontrolery, Pro i kopie zapasowe.",
@@ -328,7 +328,7 @@
       },
       "press": {
         "description": "Fakty, materiały i gotowy opis do tekstów o Gamepad Pro, maperze przycisków kontrolera na Androida.",
-        "boilerplate": "Gamepad Pro zamienia kontroler, który już masz, w sterowanie dotykowe w grach na Androida bez obsługi padów: przyciski, drążki i spusty stają się dotknięciami, przytrzymaniami i przeciągnięciami. Do tego osobny układ dla każdej gry, Fazy, makra, turbo i kombinacje przycisków. Root nie jest potrzebny. Aplikację tworzy niezależne studio DappleByte.",
+        "boilerplate": "Gamepad Pro zamienia kontroler, który już masz, w sterowanie dotykowe w grach na Androida bez obsługi padów: przyciski, drążki i spusty stają się dotknięciami, przytrzymaniami i przeciągnięciami. Do tego osobne mapowanie dla każdej gry, Układy, makra, turbo i kombinacje przycisków. Root nie jest potrzebny. Aplikację tworzy niezależne studio DappleByte.",
         "priceValue": "Instalacja za darmo, z reklamami. Jednorazowy zakup Pro usuwa reklamy i odblokowuje wszystkie funkcje Pro; nie ma subskrypcji. Aktualna cena jest podana w Google Play.",
         "assetScreenshots": "Zrzuty ekranu z telefonu, PNG, po angielsku (pionowe 1080 × 1920; zrzut edytora jest poziomy)"
       },
