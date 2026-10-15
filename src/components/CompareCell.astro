@@ -1,0 +1,53 @@
+---
+// One cell of a comparison table: a coloured mark for yes / no / partly plus the translated word,
+// so the meaning survives without colour (and in text-only readers and crawlers).
+interface Props {
+  value: string;
+  label: string;
+}
+const { value, label } = Astro.props;
+const kind = ['yes', 'no', 'partial', 'unknown'].includes(value) ? value : 'text';
+---
+
+<span class:list={['cc', `cc-${kind}`]}>
+  {kind === 'yes' && (
+    <svg class="cc-mark" width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18" /><path d="M5.5 10.5l3 3 6-6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+  )}
+  {kind === 'no' && (
+    <svg class="cc-mark" width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><path d="M6 6l8 8M14 6l-8 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" /></svg>
+  )}
+  {kind === 'partial' && (
+    <svg class="cc-mark" width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="2" /><path d="M10 2a8 8 0 0 1 0 16z" fill="currentColor" /></svg>
+  )}
+  <span>{label}</span>
+</span>
+
+<style>
+  .cc {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .cc-mark {
+    flex: 0 0 auto;
+  }
+  .cc-yes {
+    color: #3ddc84;
+  }
+  .cc-yes > span {
+    color: var(--fg);
+    font-weight: 500;
+  }
+  .cc-no {
+    color: var(--muted);
+  }
+  .cc-partial {
+    color: #f5a524;
+  }
+  .cc-partial > span {
+    color: var(--fg-2);
+  }
+  .cc-unknown {
+    color: var(--muted);
+  }
+</style>

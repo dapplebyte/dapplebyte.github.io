@@ -2,6 +2,7 @@
 import { getEntry } from 'astro:content';
 import Base from '../../../../layouts/Base.astro';
 import ProductNav from '../../../../components/ProductNav.astro';
+import CompareCell from '../../../../components/CompareCell.astro';
 import { getLocale, localePath } from '../../../../i18n/locales';
 import { useT, formatDate } from '../../../../i18n/t';
 import { getProduct, COMPARE_VALUES } from '../../../../lib/content';
@@ -65,8 +66,8 @@ const jsonLd = graph(
           {compare.rows.map((r) => (
             <tr>
               <th scope="row">{t(`compare.rows.${r.id}`)}</th>
-              <td>{cell(r.values[slug] ?? 'unknown')}</td>
-              <td class={`v-${r.values[other.id] ?? 'unknown'}`}>{cell(r.values[other.id] ?? 'unknown')}</td>
+              <td><CompareCell value={r.values[slug] ?? 'unknown'} label={cell(r.values[slug] ?? 'unknown')} /></td>
+              <td class={`v-${r.values[other.id] ?? 'unknown'}`}><CompareCell value={r.values[other.id] ?? 'unknown'} label={cell(r.values[other.id] ?? 'unknown')} /></td>
             </tr>
           ))}
         </tbody>

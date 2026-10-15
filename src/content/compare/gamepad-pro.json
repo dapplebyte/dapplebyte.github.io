@@ -35,7 +35,7 @@
       "id": "stick-trigger-mapping",
       "values": {
         "gamepad-pro": "yes",
-        "mantis": "unknown",
+        "mantis": "yes",
         "panda": "yes"
       }
     },
@@ -43,15 +43,15 @@
       "id": "phases",
       "values": {
         "gamepad-pro": "yes",
-        "mantis": "partial",
-        "panda": "unknown"
+        "mantis": "yes",
+        "panda": "yes"
       }
     },
     {
       "id": "macros",
       "values": {
         "gamepad-pro": "yes",
-        "mantis": "unknown",
+        "mantis": "no",
         "panda": "yes"
       }
     },
@@ -59,16 +59,16 @@
       "id": "turbo",
       "values": {
         "gamepad-pro": "yes",
-        "mantis": "unknown",
-        "panda": "unknown"
+        "mantis": "no",
+        "panda": "yes"
       }
     },
     {
       "id": "combos",
       "values": {
         "gamepad-pro": "yes",
-        "mantis": "unknown",
-        "panda": "unknown"
+        "mantis": "yes",
+        "panda": "yes"
       }
     },
     {
