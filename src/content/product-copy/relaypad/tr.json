@@ -1,0 +1,127 @@
+{
+  "slug": "relaypad",
+  "locale": "tr",
+  "title": "Relaypad: Remote Play Kumanda",
+  "shortDescription": "Reklam ve abonelik yok. PS5 & PS4 oyun kolu, konsol akışı ve HDMI TV çıkışı.",
+  "requires": "Ayarlarında Remote Play açık bir PS5 veya PS4 konsolu gerekir.",
+  "tagline": "Relaypad, Android telefonunuzu konsolunuz için kablosuz kumandaya çevirir ya da konsol görüntüsünü evde veya dışarıda telefona, tablete veya TV'ye aktarır.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "PS5 ve PS4 için Remote Play Kumandası ve Konsol Akışı",
+      "paragraphs": [
+        "Relaypad, Android telefonunuzu konsolunuz için kablosuz kumandaya çevirir ya da konsol görüntüsünü evde veya dışarıda telefona, tablete veya TV'ye aktarır."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "İnsanlar Relaypad'i Ne İçin Kullanıyor",
+      "paragraphs": [],
+      "bullets": [
+        "Kumandanın pili bittiğinde oynamaya devam etmek",
+        "Konsol menülerinde ve video uygulamalarında büyük kumanda tuşlarıyla gezinmek",
+        "Konsol TV'nin yanında kalırken yatakta ya da başka odada oynamak",
+        "Otel TV'sine HDMI ile görüntü verip telefonu oyun kolu yapmak"
+      ]
+    },
+    {
+      "id": "virtual-gamepad",
+      "title": "Sanal Oyun Kolu, Yerleşim Düzenleyici ve Tuş Eşlemesi",
+      "paragraphs": [],
+      "bullets": [
+        "Beş yerleşim: Standart, Kompakt, Uzaktan kumanda, Dövüş ve Yarış",
+        "Tuşları taşıyın, boyutlandırın, gizleyin; kendi yerleşimlerinizi akışta da kullanın",
+        "Dokunmatik yüzey, titreşim, mikrofon ve jiroskopla hareket algılama",
+        "Bluetooth veya USB kumandayı otomatik tuş eşlemesiyle konsola aktarın",
+        "Akışta USB kumandalar: uyarlanabilir tetikler, ışık çubuğu ve dokunsal titreşim"
+      ]
+    },
+    {
+      "id": "console-streaming",
+      "title": "HEVC ve HDR ile 1080p60'a Kadar Konsol Akışı",
+      "paragraphs": [],
+      "bullets": [
+        "1080p'ye kadar 30 veya 60 fps, elle bit hızı, destekleyen telefonlarda HEVC ve HDR",
+        "FSR keskinleştirme; fps, paket kaybı ve toplam gecikmeyi gösteren performans bindirmesi",
+        "HDMI ile TV çıkışı, pencere içinde pencere, tablet ve katlanabilirlerde bölünmüş düzen",
+        "Minimal mod; Ekrana sığdır, Uzatarak doldur veya Yakınlaştırarak doldur; ev Wi-Fi ağında otomatik yeniden bağlanma",
+        "Veri tasarrufu, mobil veride görüntüyü 720p/30fps'ye düşürür"
+      ]
+    },
+    {
+      "id": "remote-play-away",
+      "title": "Mobil Veriyle Evden Uzakta Remote Play",
+      "paragraphs": [],
+      "bullets": [
+        "Bir kez giriş yapın, sonra 5G, 4G veya başka Wi-Fi ile bağlanın; çoğu zaman modem ayarı gerekmez",
+        "UPnP ile otomatik port yönlendirme; Tailscale gibi ev VPN'leri de çalışır",
+        "Operatörünüzün paylaşımlı adresi (CGNAT) bağlantıyı engellediğinde size söyler"
+      ]
+    },
+    {
+      "id": "connection-doctor",
+      "title": "Bağlantı Doktoru: Neden Bağlanmadığını Öğrenin",
+      "paragraphs": [],
+      "bullets": [
+        "13 kontrol: ağ, konsolun bekleme modu, Remote Play ayarı, gecikme ve sapma (jitter)",
+        "Wi-Fi bandı, VPN, Bluetooth paraziti, UPnP, NAT türü ve genel IPv4",
+        "Raporu kopyalayın ya da tek dokunuşla bize e-postayla gönderin"
+      ]
+    },
+    {
+      "id": "guided-setup",
+      "title": "Dört Adımda Rehberli Kurulum",
+      "paragraphs": [],
+      "bullets": [
+        "Uygulamada veya tarayıcıda giriş yapın (geçiş anahtarı desteklenir) ya da Account ID'nizi yazın",
+        "PS5: bekleme modundayken bile PIN olmadan kaydedin; ya da 8 haneli kodla eşleştirin",
+        "Birden fazla konsol ve hesap kaydedin; dilediğiniz an adını değiştirin veya yeniden eşleştirin"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Reklam Yok, Abonelik Yok",
+      "paragraphs": [
+        "Relaypad'de reklam ve abonelik yok. Yeni telefona aynı Google hesabıyla ek ücret ödemeden yeniden yükleyin. Sizde çalışmazsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretinizi iade edelim."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Gizlilik",
+      "paragraphs": [
+        "Relaypad hesabı yok, sizinle konsolunuz arasında Relaypad sunucusu yok. Eşleştirme anahtarları ve giriş belirteçleri Android Keystore ile şifrelenip cihazınızda kalır. Anonim istatistikler kapatılabilir."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-buy",
+      "title": "Satın Almadan Önce",
+      "paragraphs": [],
+      "bullets": [
+        "Kendi konsolunuz olmalı; oyun veya bulut oyun hizmeti dahil değildir",
+        "Android 8.0 veya üzeri; 4 GB RAM ve 5 GHz Wi-Fi önerilir",
+        "Telefon kumandanın yerine geçer; konsoldaki kumandayla aynı anda kullanılamaz",
+        "Konsol sistem güncellemesinden sonra yeniden bağlanmak için Relaypad güncellemesi gerekebilir"
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Bir Sorun mu Var? Bize Yazın",
+      "paragraphs": [
+        "Değerlendirme yazmadan önce feedback@dapplebyte.com adresine yazın ya da telefon modeliniz otomatik eklensin diye Ayarlar → Hakkında → Geri bildirim gönder'i kullanın. Her mesajı okuyoruz."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "trademark",
+      "title": "Ticari Marka Bildirimi",
+      "paragraphs": [
+        "PlayStation®, PS4® ve PS5®, Sony Interactive Entertainment Inc. şirketinin ticari markalarıdır. Relaypad bağımsız bir Remote Play istemcisidir; Sony ile bağlantılı değildir, Sony tarafından yetkilendirilmemiş ve onaylanmamıştır. Yalnızca sahibi olduğunuz donanım ve içeriklerle çalışır; kopya korumasını aşmaz ve korsanlığa imkân vermez."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

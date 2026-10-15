@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "fr",
+  "title": "FAQ",
+  "intro": "Les questions qui reviennent le plus, et quoi faire dans chaque cas. Touchez une question pour la développer.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Modes de jeu",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "Quelle est la différence entre « Streaming », « À distance » et « Manette » sur la carte de la console ?",
+          "a": [
+            "« Streaming » affiche la console sur ce téléphone via votre réseau domestique, et la console est d'abord réveillée si elle est en mode repos. « À distance » fait la même chose depuis n'importe où, via le compte auquel vous êtes connecté. « Manette » transforme le téléphone en manette sans image, pour quand vous regardez le jeu sur le téléviseur. La carte mémorise le dernier choix pour chaque console."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "Pourquoi n'y a-t-il pas d'image en mode manette ?",
+          "a": [
+            "Le mode manette envoie seulement vos commandes à la console : vous regardez donc le jeu sur le téléviseur. Le téléphone et la console doivent être sur le même réseau, et si la console est en mode repos, le mode manette la réveille et réessaie pendant environ 30 secondes. Pour voir le jeu sur le téléphone, ouvrez le menu et touchez « Passer au streaming »."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "Le téléphone peut-il servir de deuxième manette, à côté de celle connectée à la console ?",
+          "a": [
+            "Non. Le téléphone se connecte comme manette Remote Play du compte avec lequel il a été configuré : il prend donc la place de votre manette au lieu de s'y ajouter. Une manette connectée directement à la console ne peut pas jouer en même temps : la console lui fait utiliser un autre utilisateur, par exemple un invité, et les deux se reprennent alors sans cesse le contrôle. Utilisez le téléphone quand vous n'avez pas de manette sous la main, pas comme joueur supplémentaire."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "J'ai touché « Lancer le streaming » et la carte est passée sur « À distance ».",
+          "a": [
+            "L'application cherche la console sur votre réseau actuel pendant quelques secondes. Si elle ne la trouve pas, la carte passe sur « À distance » sans se connecter, pour vous laisser décider de passer ou non par votre compte. À la maison, cela vient en général d'un VPN, d'un réseau invité ou d'une console complètement éteinte. Le diagnostic de connexion indique laquelle de ces causes est en jeu."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "J'ai choisi « À distance » à la maison, mais le streaming passe en local.",
+          "a": [
+            "Quand la console est sur le même réseau, « À distance » passe en streaming local, parce que c'est plus rapide. Désactivez « Streaming local à la maison » dans les Paramètres si vous voulez que « À distance » passe toujours par votre compte, par exemple pour l'essayer avant de sortir de chez vous."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Connexion",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "La recherche ne trouve aucune console.",
+          "a": [
+            "Une console apparaît de deux façons : trouvée sur le même réseau Wi-Fi que le téléphone, ou listée depuis votre compte une fois connecté. La recherche sur le réseau ne traverse pas un réseau invité, une deuxième box ou un VPN : vérifiez donc ces points d'abord, et laissez la console allumée ou en mode repos. Si elle n'apparaît toujours pas, touchez « Saisir une adresse IP » à l'étape « Choisissez votre console » et entrez l'adresse de la console. Une adresse saisie à la main doit être appairée avec un code."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "L'application indique « Pas sur ce réseau », alors que le téléphone est sur le même Wi-Fi.",
+          "a": [
+            "Plusieurs causes sont possibles sur ce qui ressemble à un seul réseau. Un réseau invité est isolé du réseau principal, même sur la même box. Une box qui donne des noms différents à ses bandes 2,4 GHz et 5 GHz peut placer les deux appareils sur des sous-réseaux distincts, et certaines box empêchent les appareils sans fil de se voir entre eux. Un VPN ou une application de DNS privé peut aussi prendre la main sur la route. Lancez le diagnostic de connexion et lisez la ligne « Même réseau que la console », qui affiche les deux adresses."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "La console est en mode repos et refuse de se connecter, ou le réveil ne fait rien.",
+          "a": [
+            "« Lancer le streaming » réveille tout seul une console en mode repos et attend jusqu'à environ 25 secondes, et le mode manette réessaie pendant environ 30 secondes. Vous pouvez aussi la réveiller à la main dans Paramètres → Consoles, avec « Réveiller la console » dans le menu du mode manette, ou avec le widget de l'écran d'accueil. Cela ne fonctionne que sur le même réseau, et seulement si la console l'autorise : dans ses paramètres d'économie d'énergie, activez « Rester connecté à Internet » et « Activer la mise en marche de la console depuis le réseau »."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "L'application indique « Console occupée ».",
+          "a": [
+            "La console n'accepte qu'une session à distance à la fois, et un autre téléphone, une tablette ou un ordinateur l'utilise encore. Le mode manette ouvert sur un autre téléphone compte aussi. Terminez la session sur cet appareil, ou depuis la console elle-même, puis réessayez."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "Après un changement de mode ou de qualité, la connexion reste en cours un bon moment.",
+          "a": [
+            "La console met quelques secondes à libérer la session précédente. Pendant ce temps, l'application réessaie discrètement toutes les 2 secondes, pendant 20 secondes au maximum, et se connecte dès que la console est prête. Ce n'est que si la console est toujours prise après ce délai que « Console occupée » s'affiche."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "L'application indique « La connexion à distance est désactivée sur la console ».",
+          "a": [
+            "La console est allumée, mais elle refuse les connexions à distance. Sur la console, ouvrez Paramètres → Système → Connexion à distance, activez « Activer la connexion à distance », puis reconnectez-vous. La ligne « Remote Play sur la console » du diagnostic de connexion affiche le dernier état connu."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "L'application se reconnecte-t-elle toute seule quand le flux tombe ?",
+          "a": [
+            "Oui, pour un streaming local. Elle réessaie jusqu'à trois fois en espaçant les tentatives, abandonne au bout d'environ 30 secondes, puis propose le diagnostic de connexion. Une connexion « À distance » ne réessaie pas : reconnectez-vous depuis la carte de la console. Il n'y a pas non plus de nouvelle tentative quand la console est occupée ou éteinte, que la connexion à distance y est désactivée ou qu'une mise à jour de l'application est nécessaire, car réessayer ne changerait rien."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "Que vérifie le diagnostic de connexion ?",
+          "a": [
+            "Dix-huit points, sur ce téléphone, sur le chemin vers la console, sur le chemin vers internet et sur le réseau domestique de la console : capacité de l'appareil, réseau du téléphone, même réseau que la console, état de la console, Remote Play sur la console, temps aller-retour et gigue, estimation du débit du lien, VPN et applications de filtrage, interférences Bluetooth, UPnP de la box, traduction d'adresses réseau, adresse IPv4 publique, connexion au PlayStation Network, compte, écran externe, adresse publique de la console, UPnP de la box de la console et type de NAT de la console. Les points en rouge et en jaune sont accompagnés d'un « Comment corriger », et le rapport peut être copié, partagé ou nous être envoyé par e-mail."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "Ça marche à la maison mais pas quand je suis dehors.",
+          "a": [
+            "Hors de chez vous, choisissez « À distance » sur la carte de la console et touchez « Jouer à distance ». Cela passe par votre compte : le compte doit donc avoir été ajouté en vous connectant, et la console doit avoir été associée une fois. Une connexion prend généralement 20 à 40 secondes, et l'application tente d'elle-même l'UPnP sur la box de la maison. En cas d'échec, le message indique pourquoi ; les questions suivantes couvrent les causes courantes, et un VPN domestique est un autre moyen de contourner le problème."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "« À distance » indique qu'il faut d'abord associer la console.",
+          "a": [
+            "« À distance » doit savoir quelle console de votre compte est celle appairée sur ce téléphone. Touchez la carte, ou ouvrez Paramètres → Connexion à distance, et choisissez-la une fois dans « Consoles de votre compte ». La console doit déjà être appairée sur ce téléphone, et le compte doit avoir été ajouté en vous connectant, pas avec un Online ID."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "La connexion à distance échoue. Quelles sont les causes habituelles ?",
+          "a": [
+            "Le message à l'écran indique la cause. La console n'a pas répondu : laissez-la allumée ou en mode repos, avec « Rester connecté à Internet » et « Activer la mise en marche de la console depuis le réseau » activés dans ses paramètres d'économie d'énergie. Le réseau n'autorise pas de connexion directe : essayez un autre réseau, activez « Prédiction de ports pour la connexion à distance » dans les Paramètres, ou utilisez un VPN domestique. Votre opérateur partage une même adresse publique entre de nombreux clients : la redirection de ports n'y changera rien, alors changez de réseau ou utilisez un VPN. La connexion au compte a expiré : reconnectez-vous à ce compte."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "Le PSN ne se connecte pas, ou la connexion coupe dès que mon proxy est activé ?",
+          "a": [
+            "Là où le PSN est difficile à joindre, une connexion à distance a besoin de deux chemins différents : le streaming du jeu doit passer en direct, tandis que la connexion au compte et au PSN peut passer par un proxy. Une application proxy en mode VPN aspire aussi le streaming du jeu dans son tunnel, et la session est coupée. Passez votre application proxy en proxy par application et ajoutez Relaypad à sa liste d'exclusion. Ouvrez ensuite Paramètres → Proxy de connexion PSN et choisissez Auto, ou choisissez Manuel et saisissez le port local de votre application proxy (type HTTP, hôte 127.0.0.1 ; Clash utilise en général 7890, v2rayNG 10809). La ligne « Connexion au PlayStation Network » du diagnostic de connexion vous indique si cela fonctionne."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "Dois-je configurer une redirection de ports ?",
+          "a": [
+            "En général, non. « À distance » tente l'UPnP tout seul, et la redirection n'aide que si c'est la box de la maison qui bloque la connexion, pas quand un opérateur partage une adresse entre de nombreux clients. Si vous en avez vraiment besoin, Paramètres → Redirection de ports de la box peut configurer les ports automatiquement ou les lister pour une configuration à la main. Les ports redirigés exposent la console à internet : un VPN domestique est donc le choix le plus sûr."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "Et si le réseau de la console est en CGNAT ou en double NAT ?",
+          "a": [
+            "Ouvrez le diagnostic de connexion et regardez la section « Réseau domestique de la console ». Elle est mesurée quand votre téléphone est sur le Wi-Fi de la console, ou quand vous vous connectez à distance. Un double NAT, ce sont deux routeurs à la suite, en général la box de votre opérateur suivie de votre propre routeur : passez la box en mode bridge, ou activez la DMZ sur la box en la faisant pointer vers votre routeur. Le CGNAT signifie que votre opérateur partage une même adresse publique entre de nombreux foyers, et la redirection de ports n'y peut rien : demandez une adresse IP publique à votre opérateur. Dans les deux cas, un VPN domestique comme Tailscale fonctionne aussi, car il ne dépend pas d'une connexion directe depuis l'extérieur."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "Puis-je jouer hors de mon réseau domestique via un VPN ?",
+          "a": [
+            "Oui, avec un VPN domestique. Laissez sur le réseau de la console un appareil toujours allumé, et rejoignez ce réseau depuis votre téléphone : Tailscale sur un NAS, un Raspberry Pi ou un PC s'en charge en une commande (tailscale up --advertise-routes=votre.sous-reseau.maison, puis validez la route dans l'interface d'administration), et une box avec un serveur WireGuard ou OpenVPN intégré fait la même chose. Une fois le VPN connecté, touchez « Lancer le streaming » sur la carte de la console comme d'habitude : la recherche sur le réseau ne traverse pas un VPN, donc l'application essaie aussi l'adresse que la console avait à la maison. La console doit d'abord avoir été appairée à la maison, et le débit montant de votre connexion devient la limite."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "Puis-je garder plusieurs consoles, ou plusieurs comptes ?",
+          "a": [
+            "Les deux, et sans rien payer. Chaque console que vous appairez reste dans la liste, et chacune peut être reliée à un compte différent dans Paramètres, Consoles. Les comptes eux-mêmes se gèrent dans Paramètres, Comptes."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "J'ai changé de téléphone et mes consoles ont disparu ou ne se connectent plus.",
+          "a": [
+            "Les consoles, les comptes et les clés d'appairage ne sont pas inclus dans les sauvegardes cloud : sur un nouveau téléphone, il faut donc tout reconfigurer, en ajoutant votre compte et en appairant chaque console une fois. Si un transfert de téléphone à téléphone a ramené la liste des consoles, les clés restent quand même sur l'ancien, car elles y sont verrouillées : ouvrez Paramètres → Consoles, choisissez la console et touchez « Appairer à nouveau ». Un compte ajouté en vous connectant peut aussi vous demander de vous reconnecter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Configuration et connexion",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "Pourquoi faut-il un Account ID ?",
+          "a": [
+            "La console ne s'appaire qu'avec un appareil qui indique à quel compte il appartient : l'Account ID fait donc partie de l'appairage lui-même. C'est un identifiant de 12 caractères lié à votre compte, pas un mot de passe. La configuration le demande en premier, et vous pouvez ajouter d'autres comptes plus tard dans Paramètres → Comptes. Un compte ajouté en vous connectant peut aussi lister les consoles de votre compte, les configurer sans code et utiliser « À distance »."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "Quelles sont les façons d'ajouter un compte ?",
+          "a": [
+            "« Obtenir votre Account ID » propose deux groupes. La connexion, recommandée, comprend « Se connecter dans l'application », qui utilise votre mot de passe sur la page officielle, et « Se connecter avec le navigateur », compatible avec les clés d'accès et les gestionnaires de mots de passe. « Configuration locale uniquement » ne demande aucune connexion : « Utiliser votre Online ID » couvre les consoles de 4e génération antérieures à la 8.0, et « Saisir un Account ID », dans « Avancé », reprend l'ID d'un autre téléphone où cette application est déjà connectée. Sans connexion, vous pouvez quand même appairer et jouer à la maison, mais pas configurer sans code ni utiliser « À distance »."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "Mon compte utilise une clé d'accès. Comment me connecter ?",
+          "a": [
+            "Choisissez « Se connecter avec le navigateur ». Les clés d'accès ne fonctionnent pas sur la page de connexion intégrée à l'application, mais elles fonctionnent normalement dans votre navigateur, et l'adresse est reprise automatiquement à votre retour dans l'application."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "Que faire après m'être connecté avec le navigateur ?",
+          "a": [
+            "Une fois la connexion terminée, le navigateur arrive sur une page blanche, c'est normal. Copiez toute l'adresse depuis la barre d'adresse et revenez dans l'application, où elle est reprise automatiquement. Si rien ne se passe, collez-la dans le champ ci-dessous et vérifiez que la copie inclut bien tout ce qui suit code=."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "La page de connexion dans l'application reste vide ou ne se charge pas.",
+          "a": [
+            "Certains réseaux et téléphones bloquent cette page à l'intérieur des applications. L'application détecte quand elle reste vide ou échoue, indique pourquoi et propose « Réessayer » et « Utiliser plutôt le navigateur ». Se connecter avec le navigateur donne le même résultat : passez-y si réessayer ne suffit pas. La validation en deux étapes se fait directement sur la page de connexion."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "L'application indique que le code de connexion a expiré.",
+          "a": [
+            "Le code contenu dans l'adresse ne reste valable que peu de temps. Touchez « Rouvrir la page de connexion », connectez-vous et revenez tout de suite dans l'application. Avec le navigateur, touchez à nouveau « Ouvrir la page de connexion » et copiez la nouvelle adresse."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "Puis-je tout configurer sans me connecter ?",
+          "a": [
+            "Oui, avec « Configuration locale uniquement ». « Utiliser votre Online ID » fonctionne pour les consoles de 4e génération antérieures à la 8.0 ; pour les consoles plus récentes, choisissez « Saisir un Account ID » dans « Avancé » et copiez l'ID depuis Paramètres → Comptes sur un autre téléphone où cette application est connectée. Dans les deux cas, vous pouvez appairer et jouer sur votre réseau domestique, mais la configuration sans code, les consoles de votre compte et « À distance » demandent un compte connecté. Un Online ID est recherché via un service public."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "Mon compte affiche « Connexion expirée ».",
+          "a": [
+            "Dans Paramètres → Comptes, touchez « Se reconnecter » à côté du compte ; la connexion s'ouvre de la même façon que la dernière fois. La connexion ne sert qu'à « À distance », à la configuration sans code et à la liste des consoles de votre compte : les consoles déjà appairées continuent donc de fonctionner à la maison dans tous les cas."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "Faut-il choisir « Appairage avec un code » ou « Configuration sans code » ?",
+          "a": [
+            "« Appairage avec un code » prend quelques secondes, mais il faut être devant la console et le téléphone doit être sur le même réseau. « Configuration sans code » fonctionne depuis n'importe où, même avec la console en mode repos, et prend environ 30 secondes. Il faut une console de 5e génération connectée au même compte, un compte ajouté en vous connectant, la connexion à distance activée sur la console et le dernier logiciel système. Dans les deux cas, la console fonctionne ensuite de la même façon."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "L'appairage a échoué, ou le code d'appairage a expiré.",
+          "a": [
+            "Un code d'appairage est valable 300 secondes et ne sert qu'une seule fois. Demandez-en un nouveau sur la console dans Paramètres → Système → Remote Play → Associer un appareil, ou dans Paramètres → Paramètres de connexion Remote Play → Ajouter un appareil sur une console de 4e génération, puis saisissez-le tout de suite. « Code d'accès de la console (facultatif) » est un autre numéro, le code à quatre chiffres défini sur la console : laissez-le vide tant que la console n'en demande pas. Sur une console de 5e génération, vous pouvez aussi toucher « Choisir une autre méthode » et essayer « Configuration sans code »."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "« Configuration sans code » a échoué.",
+          "a": [
+            "Le message indique la cause : la console n'est pas sur votre compte ou n'en est pas la console principale, la connexion à distance est désactivée sur la console, la console n'a pas répondu, deux consoles portent le même nom, le réseau n'a pas permis de connexion directe, ou la connexion au compte a expiré. Corrigez ce point et réessayez sans code, ou touchez « Choisir une autre méthode » et appairez avec un code devant la console, ce qui demande que le téléphone soit sur le même réseau."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "Que se passe-t-il si je supprime un compte ?",
+          "a": [
+            "Seul ce téléphone l'oublie, avec sa connexion. Les consoles qui y étaient reliées continuent de fonctionner à la maison, mais n'ont plus de compte tant que vous n'en choisissez pas un dans Paramètres → Consoles → la console → Compte de la console. Rien ne change sur la console ni sur le compte lui-même."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "Voyez-vous mon mot de passe ?",
+          "a": [
+            "Non. Vous tapez votre mot de passe sur la page de connexion officielle, et cette application n'a aucun serveur à elle : rien de ce que vous y tapez ne passe par nous. L'application conserve sur ce téléphone l'Account ID, l'Online ID et les jetons de connexion, et les jetons comme les clés d'appairage sont chiffrés avec le keystore Android. La recherche d'un Online ID passe par un service public."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Streaming et image",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "Où sont les commandes pendant le streaming ?",
+          "a": [
+            "La barre du haut disparaît au bout de quelques secondes. Touchez un endroit vide de l'image pour la faire revenir : l'icône des curseurs ouvre le panneau rapide, et « Maintenir pour quitter » arrête le streaming. Un appui long sur un endroit vide ouvre aussi le panneau rapide."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "À quoi se limite la version gratuite ?",
+          "a": [
+            "Au streaming sur votre réseau domestique, jusqu'à 720p et 30 fps en H.264, sans limite de durée et sans publicité. Le plafond est appliqué à chaque début de session. Le mode manette est gratuit en entier, sans aucun plafond. Le streaming sur Android TV demande Pro."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "Comment activer le 1080p et le 60 fps ?",
+          "a": [
+            "Choisissez-les dans Paramètres → Qualité vidéo. Vous pouvez aussi les choisir dans « Qualité vidéo » du panneau rapide pendant le streaming, puis toucher « Se reconnecter pour appliquer ». Votre téléphone doit pouvoir suivre : si l'image saccade en 1080p, cela vaut la peine de lancer le diagnostic de connexion."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "Puis-je changer la résolution ou la fréquence d'images pendant le streaming ?",
+          "a": [
+            "Oui. Ouvrez le panneau rapide, faites votre choix dans « Qualité vidéo » et touchez « Se reconnecter pour appliquer » ; l'image se fige quelques secondes. Une connexion « À distance » ne peut pas changer en cours de session : votre choix s'applique à la prochaine connexion. Le codec, le débit et le décodeur se trouvent dans Paramètres → Qualité vidéo."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "Quelle est la différence entre « Adapter à l'écran », « Étirer pour remplir » et « Zoomer pour remplir » ?",
+          "a": [
+            "« Adapter à l'écran » conserve les proportions et laisse des bandes noires. « Étirer pour remplir » remplit l'écran en déformant légèrement l'image. « Zoomer pour remplir » remplit l'écran en coupant les bords : c'est le choix habituel sur un téléphone allongé. Cela se change dans Paramètres → Mise à l'échelle, ou dans « Mise à l'échelle » du panneau rapide."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "Sur une tablette ou un pliable, la manette à l'écran couvre l'image.",
+          "a": [
+            "Ouvrez le panneau rapide et réglez « Disposition » sur « Partagé » : l'image et la manette à l'écran sont placées à part, sans que l'une couvre l'autre. « Auto » le fait déjà quand l'écran est à la verticale ou qu'un pliable est à moitié ouvert. Ces options n'apparaissent que sur les tablettes et les pliables, et elles sont gratuites."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "L'image paraît plus sombre qu'elle ne devrait.",
+          "a": [
+            "C'est « Assombrissement » dans le panneau rapide. Il assombrit l'image pour faire ressortir les boutons à l'écran ; mettez-le au minimum pour le désactiver. Ne le confondez pas avec « Opacité de la superposition », qui atténue les boutons eux-mêmes."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "L'image saccade ou perd des images.",
+          "a": [
+            "C'est presque toujours le lien sans fil, pas le téléphone. Rejoignez le réseau 5 GHz de la même box, rapprochez-vous d'elle, et branchez la console en filaire si vous le pouvez. Lancez le diagnostic de connexion et regardez le temps aller-retour et l'estimation du débit du lien : au-dessus de 30 ms ou en dessous de 15 Mbps, l'image ne tiendra pas. Pendant le streaming, baisser la résolution ou la fréquence d'images dans le panneau rapide aide tout de suite."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "L'image se dégrade ou se fige, mais le son continue.",
+          "a": [
+            "Ouvrez le panneau rapide et touchez « Rétablir l'image » dans « Actions » : cela demande une nouvelle image à la console. Si cela se reproduit, baissez la résolution et lancez le diagnostic de connexion."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "Que signifient les chiffres de la superposition des performances ?",
+          "a": [
+            "La latence additionne le temps aller-retour et le temps que ce téléphone met à décoder et afficher une image : c'est donc une estimation qui ne tient compte ni de la console ni de votre écran. Elle s'affiche en vert sous 60 ms et en rouge au-delà de 100 ms. Si le débit est bien inférieur à celui que vous avez réglé, c'est le réseau qui le freine ; si le débit est correct mais que le décodage est long, c'est le téléphone. Choisissez « Compact » ou « Détaillé » dans le panneau rapide."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "HEVC ou HDR ne peut pas être sélectionné, ou le streaming utilise H.264 à la place.",
+          "a": [
+            "HEVC demande un décodeur compatible sur ce téléphone, et HDR un écran qui le prend en charge ; la page de qualité indique pourquoi une option est indisponible. Si le téléphone ne sait pas décoder le format au lancement du streaming, celui-ci passe tout seul en H.264 ou en SDR et vous le signale."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "Le streaming peut-il continuer quand je passe à une autre application ?",
+          "a": [
+            "Oui. Quittez l'application pendant le streaming et l'image se réduit dans une petite fenêtre qui continue de jouer. Touchez-la pour revenir en plein écran sans vous reconnecter, ou fermez-la pour arrêter le streaming. Elle ne se lance pas quand l'image est sur un téléviseur, et vous pouvez la désactiver dans Paramètres → Image dans l'image."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "Quelle quantité de données le streaming consomme-t-il ?",
+          "a": [
+            "Cela dépend de la résolution : jusqu'à environ 1 Go par heure en 360p, 2,7 Go en 540p, 4,5 Go en 720p et 6,8 Go en 1080p, et davantage avec un débit manuel. La consommation réelle est souvent plus faible. En données mobiles, l'application utilise par défaut 720p à 30 fps, aussi bien pour le streaming vers la maison via un VPN que pour « À distance ». Pour garder votre propre qualité, désactivez Paramètres → Données mobiles."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "Puis-je afficher l'image sur un téléviseur ?",
+          "a": [
+            "Oui. Pendant le streaming, reliez votre téléphone au téléviseur avec un câble USB-C vers HDMI, ou lancez la diffusion de l'écran depuis les paramètres du système. Le téléviseur n'affiche alors que le jeu et votre téléphone devient la manette. Rien ne s'installe sur le téléviseur et vous n'y ouvrez aucune session : celui d'un hôtel ou d'un ami convient donc très bien."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "L'image sur le téléviseur semble en retard",
+          "a": [
+            "Passez d'abord le téléviseur en mode Jeu. Dans leurs modes d'image habituels, la plupart des téléviseurs ajoutent 60 à 120 ms de délai ; le mode Jeu ramène cela à 10 à 30 ms, et aucun autre réglage n'a autant d'effet. Ensuite, le câble l'emporte sur la diffusion sans fil : celle-ci doit réencoder l'image une seconde fois, ce qui ajoute encore 100 ms ou plus. Vient enfin le streaming lui-même, plus rapide sur un bon réseau et bien plus rapide à la maison que par Internet."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "J'ai branché le câble et rien ne se passe",
+          "a": [
+            "Tous les téléphones ne savent pas envoyer de vidéo par leur port USB-C. Les modèles haut de gamme le font en général, ceux de milieu de gamme souvent pas, et rien ne permet de le savoir avant d'essayer. Lancez le diagnostic de connexion avec le câble branché : la ligne Écran externe vous dit si le système voit le téléviseur. Si ce n'est pas le cas, le téléphone ou l'adaptateur en est la cause, et la diffusion sans fil depuis les paramètres du système est la solution de contournement."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "Puis-je recharger le téléphone avec le câble HDMI branché ?",
+          "a": [
+            "Seulement avec un adaptateur doté de sa propre entrée d'alimentation. Le port USB-C est occupé par le signal vidéo, et le streaming avec le décodage vide vite la batterie : pour les longues sessions, un hub USB-C alimenté, avec sortie HDMI et recharge simultanée, vaut vraiment le coup."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "Le téléviseur de ma chambre d'hôtel ne fonctionne pas",
+          "a": [
+            "Certains téléviseurs d'hôtel ont leurs ports HDMI désactivés ou cachés derrière la dalle, et l'application n'y peut rien. Si le téléviseur a un port accessible, le câble se comporte comme sur n'importe quel autre téléviseur. Sinon, le streaming se joue comme d'habitude sur votre téléphone."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "La protection contre la copie va-t-elle noircir l'image ?",
+          "a": [
+            "Non. Ce que l'application décode est un flux vidéo ordinaire, pas un contenu protégé : le téléviseur l'affiche donc normalement par HDMI. Vous n'aurez pas l'écran noir que certaines applications vidéo donnent sur un écran externe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Manettes",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "Puis-je déplacer les boutons à l'écran ?",
+          "a": [
+            "Oui, et c'est gratuit. Ouvrez Paramètres → Dispositions de la manette pour voir toutes les dispositions et renommer ou supprimer les vôtres, puis touchez-en une pour déplacer, redimensionner, atténuer ou masquer chaque commande. « Préréglages » propose Standard, Compact, Remote, Fighting et Racing comme point de départ, et « Exporter en JSON » et « Importer du JSON » font passer une disposition sur un autre téléphone via le presse-papiers. Sur téléphone, vous modifiez les dispositions en paysage ; les tablettes ont en plus un onglet « Portrait » pour les dispositions utilisées en affichage « Partagé »."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "Puis-je utiliser ma propre disposition pendant le streaming ?",
+          "a": [
+            "Oui. Dans le panneau rapide, sous « Disposition », touchez « Personnalisé » et choisissez l'une de vos dispositions en paysage. « Compact » et « Standard » sont les choix intégrés, conçus pour couvrir le moins d'image possible. Si la disposition choisie est supprimée, le streaming revient à « Compact ». Modifier une disposition intégrée enregistre votre version comme copie, et l'originale reste disponible."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "La manette à l'écran est absente ou trop pâle pendant le streaming.",
+          "a": [
+            "Vérifiez « Manette » dans le panneau rapide : « Auto » masque la manette à l'écran tant qu'une manette physique est connectée, « Masquée » la masque toujours et « Toujours » la garde à l'écran. « Mode minimal » la masque aussi. Le streaming démarre avec la disposition « Compact », aux touches plus petites et plus pâles : si elles sont difficiles à voir, passez « Disposition » sur « Standard » ou augmentez « Opacité de la superposition »."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "Comment passer du stick à la croix directionnelle dans la disposition « Compact » ?",
+          "a": [
+            "Touchez le petit onglet sur le bord inférieur de la commande ronde. Il bascule entre stick et croix directionnelle, et les côtés gauche et droit basculent séparément."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "Comment fonctionne le pavé tactile à l'écran ?",
+          "a": [
+            "Faites glisser un ou deux doigts dessus pour envoyer des touchers, et touchez-le brièvement pour un clic du pavé tactile. Maintenir le clic enfoncé n'est pas pris en charge."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "Puis-je utiliser une vraie manette ?",
+          "a": [
+            "Oui. Toute manette qu'Android reconnaît en Bluetooth ou en USB est transmise, avec une affectation par défaut choisie selon son fabricant. En mode manette, la manette à l'écran reste utilisable en même temps. Pendant le streaming, l'application demande une fois s'il faut aussi afficher la manette à l'écran, et « Manette » dans le panneau rapide permet de changer cela ensuite. Plusieurs manettes et la manette à l'écran comptent toutes comme une seule manette sur la console."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "Les boutons de ma manette ne sont pas aux bons endroits.",
+          "a": [
+            "Manette connectée, ouvrez Paramètres → Affectation des boutons et choisissez-la. Touchez une action puis appuyez sur la touche voulue ; les sticks peuvent être inversés, et « Test en direct » montre ce que chaque touche envoie. Touchez « Enregistrer » pour garder les modifications. L'affectation est enregistrée par modèle de manette : deux manettes du même modèle la partagent donc, et « Réinitialiser » remet celle par défaut."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "Ma manette n'a pas de bouton PS ni de pavé tactile, ou ils ne font rien.",
+          "a": [
+            "La plupart des manettes ont des combinaisons : Select et Start ensemble font office de bouton PS, et Select et L3 de clic du pavé tactile. Une manette qui a déjà un bouton PS n'a que la combinaison du pavé tactile. Les combinaisons ne peuvent pas être modifiées, mais dans Paramètres → Affectation des boutons, vous pouvez attribuer PS, Pavé tactile ou MIC à n'importe quelle touche seule. La disposition à l'écran « Standard » possède aussi toutes les touches."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "Une manette conçue pour la console fonctionne-t-elle entièrement sur le téléphone ?",
+          "a": [
+            "En Bluetooth, ses boutons et ses sticks sont transmis, mais pas les glissements sur le pavé tactile, le capteur de mouvement ni le microphone. Quand elle est branchée en USB pendant le streaming, touchez « Autoriser » dans le panneau rapide pour profiter des gâchettes adaptatives, de la barre lumineuse et du retour haptique de la manette, gratuitement pour tout le monde. Si « Accès USB bloqué » s'affiche, un autre pilote du téléphone accapare la manette : connectez-la plutôt en Bluetooth."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "Comment fonctionnent les vibrations et le retour haptique des boutons ?",
+          "a": [
+            "Les vibrations du jeu vont à la manette physique si elle a des moteurs, et au téléphone sinon. La brève vibration quand vous appuyez sur les touches à l'écran, c'est « Retour haptique des boutons », dans « Entrées » du menu du mode manette : chaque appui passe au niveau suivant, de désactivé jusqu'à 3, et le niveau choisi est mémorisé."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "Où sont le microphone et la détection de mouvement ?",
+          "a": [
+            "En mode manette, les deux sont dans « Entrées » du menu. La détection de mouvement transmet le gyroscope et l'accéléromètre du téléphone, et elle est désactivée à chaque nouvelle connexion. Le microphone demande d'abord l'autorisation ; ensuite, le toucher le fait passer de « Actif » à « Coupé » et inversement. Pendant le streaming, il n'y a pas de détection de mouvement, et le microphone est la touche MIC de la manette à l'écran. Les deux sont gratuits."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "Comment mettre la console en mode repos ou revenir à son écran d'accueil ?",
+          "a": [
+            "En mode manette, « Actions » dans le menu propose « Réveiller la console », « Mettre la console en mode repos », « Accueil de la console » et « Verrouiller l'écran », qui ignore les touchers jusqu'au déverrouillage. Le bouton PS de la manette à l'écran fonctionne aussi."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "Puis-je m'en servir pour piloter les applications vidéo de la console ?",
+          "a": [
+            "Oui. En mode manette, activez « Disposition télécommande » dans « Disposition » du menu pour avoir de grandes touches pensées pour les applications multimédias. Désactivez-la pour choisir une autre disposition."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "Copilote IA",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "Le Copilote IA est-il payant ?",
+          "a": [
+            "Pas de notre côté. Il fonctionne avec votre propre clé API : nous n'y touchons jamais et n'ajoutons rien par-dessus, et le fournisseur vous facture directement ce que vous utilisez. La section « Guides de jeu » dans Paramètres → Copilote IA indique un coût approximatif par guide pour le fournisseur choisi, et « Utilisation » tient une estimation pour ce mois-ci, y compris le nombre de recherches web effectuées."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "Où part mon écran ?",
+          "a": [
+            "Seulement quand vous le demandez : le sujet de votre guide, le nom du jeu et, si vous la joignez, une image réduite du streaming partent directement chez le fournisseur que vous avez configuré, qui effectue les recherches web. Aucun serveur à nous ne se trouve entre les deux, et nous ne gardons aucun journal ; les guides sont enregistrés uniquement sur ce téléphone. Votre clé est stockée chiffrée sur ce téléphone, et sans clé rien n'est envoyé nulle part."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "D'où viennent les guides de jeu ?",
+          "a": [
+            "Quand vous recherchez un guide, c'est le modèle que vous avez configuré qui cherche lui-même sur le web : Anthropic, Google, OpenAI et DeepSeek effectuent tous les recherches de leur côté. Il lit les résultats et rédige un guide étape par étape dans votre langue, avec les sources listées en dessous. Les guides sont enregistrés uniquement sur ce téléphone : les rouvrir ne coûte rien."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "Pourquoi mon guide indique-t-il « Sans recherche web » ?",
+          "a": [
+            "Seuls Anthropic, Google, DeepSeek et l'endpoint officiel d'OpenAI peuvent chercher sur le web. Un endpoint compatible OpenAI auto-hébergé ou tiers, comme OpenRouter ou Ollama, répond à partir des seules connaissances du modèle, qui peuvent être dépassées pour les jeux récents. Pour des guides avec recherche, choisissez la carte Anthropic, Google ou DeepSeek, ou saisissez l'endpoint officiel d'OpenAI sur la carte « Compatible OpenAI »."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "Combien coûte un guide ?",
+          "a": [
+            "Anthropic et OpenAI facturent environ un cent américain par recherche web en plus des tokens, soit environ 8 à 15 cents par guide. Google inclut des milliers de recherches gratuites par mois. DeepSeek ne facture que les tokens, bien moins d'un cent. « Profondeur de recherche » dans les Paramètres plafonne le nombre de recherches, et « Utilisation » affiche l'estimation du mois."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "Comment obtenir une clé API ?",
+          "a": [
+            "Anthropic : créez-en une dans « API keys » de l'Anthropic Console. Google : touchez « Get API key » dans Google AI Studio. DeepSeek : créez-en une dans « API keys » sur la plateforme DeepSeek. Compatible OpenAI : utilisez la clé du tableau de bord de votre fournisseur, comme OpenAI ou OpenRouter ; pour Ollama sur votre propre ordinateur, saisissez son adresse comme « URL de base », tapez n'importe quoi comme clé et choisissez un modèle capable de lire les images. Les cartes Anthropic, Google et DeepSeek dans Paramètres → Copilote IA ont un lien « Obtenir une clé »."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "Pourquoi le guide se trompe-t-il ?",
+          "a": [
+            "Les sources peuvent être dépassées ou concerner une autre version ou plateforme ; le guide précise la version quand les sources l'indiquent. Posez une question de suivi en précisant le chapitre, le nom du boss ou votre build, et le guide sera réécrit pour vous. Si le nom du jeu manque ou est erroné, corrigez-le dans le panneau avant de lancer la recherche, ou essayez un autre modèle dans les Paramètres."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "Comment modifier les commandes vocales ?",
+          "a": [
+            "Il y a 8 commandes intégrées, comme « Ouvrir la carte », « Pause » et « Capture d'écran ». Ouvrez Paramètres → Copilote IA → Commandes vocales et touchez-en une pour changer le bouton qu'elle presse ou ajouter vos propres formulations ; tout ce qui n'est pas une commande part au panneau des guides, comme sujet ou comme question de suivi. Sur les téléphones sans service de reconnaissance vocale, ou sans l'autorisation du microphone, écrivez plutôt dans le panneau."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "Le Copilote IA n'arrive pas à joindre le fournisseur ?",
+          "a": [
+            "Les requêtes IA ne passent pas par le « Proxy de connexion PSN » de l'application : elles sortent par la connexion de votre téléphone. Si Anthropic, Google ou DeepSeek est injoignable là où vous êtes, passez à un autre fournisseur ou à « Compatible OpenAI » et saisissez un endpoint que vous pouvez joindre, ou Ollama sur votre propre ordinateur. « Tester la connexion », sur la même page, vous dit si ça fonctionne."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "Comment désactiver le Copilote IA ?",
+          "a": [
+            "Désactivez « Utiliser le Copilote IA » dans Paramètres → Copilote IA. Un appui long sur l'image ouvre alors de nouveau le panneau rapide, et les touches IA disparaissent de la barre du haut. Pour supprimer aussi votre clé, touchez « Effacer » à côté ; la copie chiffrée est supprimée immédiatement."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "Puis-je l'utiliser si je vois mal l'écran ?",
+          "a": [
+            "Oui. « Décrire l'écran » dans le panneau rapide, ou dire « lis-moi ça » au bouton vocal, donne d'abord l'essentiel puis lit le texte affiché à l'écran. Les guides du panneau fonctionnent avec TalkBack, et chaque étape peut être cochée. Avec TalkBack activé, les descriptions d'écran de la barre de sous-titres sont lues par TalkBack ; sinon, activez « Lire les réponses à voix haute » dans les Paramètres."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Achat et remboursements",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "Est-ce un abonnement ?",
+          "a": [
+            "Non. Vous achetez l'application une fois sur Google Play et c'est tout : pas d'abonnement, pas d'achats intégrés, pas de publicité, et aucune fonctionnalité qui réclame un second paiement plus tard. L'achat est lié à votre compte Google, pas au téléphone."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "Je l'ai installée pendant une promotion gratuite. Des fonctionnalités seront-elles verrouillées plus tard ?",
+          "a": [
+            "Non. Une installation pendant une promotion compte comme un achat de l'application à ce prix : elle est donc à vous pour de bon, avec toutes les fonctionnalités. Cela reste vrai après la fin de la promotion, et le même compte Google peut la réinstaller sur un nouveau téléphone sans rien payer."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "Comment l'installer sur un nouveau téléphone ?",
+          "a": [
+            "Ouvrez la page Google Play avec le même compte Google que celui de l'achat : « Installer » s'affiche à la place du prix. Les consoles ne sont pas reprises, il faut donc appairer chaque console à nouveau sur le nouveau téléphone ; les clés d'appairage restent sur le téléphone où elles ont été créées."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "Qu'est-ce qui est inclus ?",
+          "a": [
+            "Tout, dès le premier lancement : le streaming en 1080p et 60 fps, le débit manuel, HEVC et HDR, la netteté FSR et la superposition des performances, le jeu depuis l'extérieur de votre réseau domestique, le streaming sur Android TV, l'image dans l'image, et le jeu sur un téléviseur avec votre téléphone comme manette. Le mode manette, le diagnostic de connexion, le widget « Raccourci console » et autant de consoles et de comptes que vous voulez sont là aussi."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "Comment me faire rembourser ?",
+          "a": [
+            "Dans les 48 heures suivant l'achat, demandez vous-même un remboursement depuis l'historique de vos commandes dans Google Play : c'est la voie la plus rapide. Passé ce délai, écrivez-nous dans les 7 jours suivant l'achat et nous vous remboursons, sans poser de question. Indiquez le numéro de commande du reçu Google Play pour que nous retrouvions l'achat."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "J'ai payé le prix normal juste avant le début d'une promotion.",
+          "a": [
+            "Écrivez-nous. Dans les 48 heures suivant l'achat, la voie la plus rapide est de vous rembourser vous-même depuis l'historique de vos commandes dans Google Play, puis de racheter au prix de la promotion. Passé ce délai, écrivez-nous avec le numéro de commande du reçu Google Play et nous vous remboursons la différence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Divers",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "Puis-je réveiller la console depuis l'écran d'accueil ?",
+          "a": [
+            "Oui. Ajoutez le widget « Raccourci console » depuis la liste des widgets de votre lanceur et choisissez une console. « Réveiller » envoie le signal de réveil sans ouvrir l'application. « Connecter » ouvre le mode manette si le widget a trouvé la console sur votre réseau la dernière fois, et ouvre simplement l'application sinon. Les deux ne fonctionnent que sur le même réseau, et le widget est gratuit."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "Existe-t-il une version Android TV ?",
+          "a": [
+            "Oui, la même application s'installe sur Android TV et Google TV. Ouvrez le magasin sur le téléviseur avec le même compte Google que celui de l'achat et elle s'installe sans frais supplémentaires. Pour jouer, le téléviseur a besoin d'une manette Bluetooth ou USB ; la télécommande sert seulement à naviguer dans les menus. Pendant une session, appuyez sur OK ou Menu sur la télécommande, ou maintenez ensemble L1, R1, L3 et R3 sur la manette, pour ouvrir le panneau rapide."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "Comment appairer une console sur le téléviseur ?",
+          "a": [
+            "Choisissez « Ajouter une console » sur l'écran d'accueil du téléviseur et sélectionnez le modèle de votre console. À l'étape du compte, ouvrez cette application sur votre téléphone, allez dans Paramètres → Comptes, copiez l'Account ID affiché et saisissez-le sur le téléviseur ; il fait 12 caractères et se termine généralement par =. Choisissez ensuite la console et entrez le code d'appairage de la console avec le pavé numérique affiché sur l'écran du téléviseur. Le téléviseur ne s'appaire qu'avec un code."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "L'application dit que le système de la console a été mis à jour et qu'il faut attendre.",
+          "a": [
+            "Une mise à jour du système de la console a changé la version du protocole Remote Play qu'elle parle, et rien du côté du téléphone ne peut contourner cela. La solution est une mise à jour de l'application, que nous traitons en urgence. Si cela dure depuis plus de quelques jours, écrivez-nous en précisant la version du logiciel système de la console."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Puis-je changer la langue de l'application ?",
+          "a": [
+            "L'application suit la langue de votre téléphone et prend en charge 19 langues. Depuis Android 13, vous pouvez choisir une langue pour cette application seule dans les paramètres du système, sous Applications → Relaypad → Langue. Sur les versions plus anciennes, changez la langue du téléphone."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "Quelles données cette application collecte-t-elle ?",
+          "a": [
+            "Des événements d'utilisation anonymes, pour voir quels écrans posent problème, et des réglages distants, qui activent ou désactivent des fonctions. Les événements ne contiennent jamais votre Account ID, votre adresse IP ni le nom de votre console, et il n'y a aucun serveur à nous entre vous et votre console. « Statistiques d'utilisation » peut être désactivé dans Paramètres → Confidentialité ; les réglages distants restent quand même récupérés."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Comment signaler un problème ou proposer une idée ?",
+          "a": [
+            "Utilisez « Envoyer un commentaire » dans Paramètres → À propos, le bouton en bas de cette page, ou « Nous écrire » dans le diagnostic de connexion. Le message est prérempli avec le modèle de votre téléphone, les versions du système et de l'application, la langue et le dernier résumé du diagnostic de connexion, ce dont nous avons besoin pour rapprocher votre signalement de ce que nous observons. Écrivez simplement ce que vous avez fait et ce qui s'est passé."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

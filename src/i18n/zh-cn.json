@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "DappleByte",
+    "tagline": "做小而有用的 app，用心做好。",
+    "definition": "DappleByte 是一家做 Android app 的独立工作室。",
+    "kicker": "独立工作室 · Android",
+    "email": "hello@dapplebyte.com"
+  },
+  "nav": {
+    "apps": "应用",
+    "about": "关于",
+    "language": "语言",
+    "skip": "跳到正文",
+    "home": "首页"
+  },
+  "footer": {
+    "studio": "工作室",
+    "contact": "联系",
+    "languages": "语言",
+    "privacy": "网站隐私",
+    "copyright": "© {year} DappleByte",
+    "builtWith": "静态网站，不用 Cookie，没有追踪器。"
+  },
+  "cta": {
+    "getOnPlay": "在 Google Play 获取 {name}",
+    "readSource": "查看源代码",
+    "about": "关于 {name}",
+    "learnMore": "了解更多"
+  },
+  "labels": {
+    "apps": "应用",
+    "nextApp": "下一款应用",
+    "nextAppBody": "正在开发，上线后会出现在这里。",
+    "lastUpdated": "最后更新于 {date}",
+    "android": "Android",
+    "by": "DappleByte 出品",
+    "overview": "概览",
+    "features": "功能",
+    "faq": "常见问题",
+    "videos": "视频",
+    "compare": "对比",
+    "support": "支持",
+    "privacy": "隐私",
+    "changelog": "更新日志",
+    "press": "媒体资料包",
+    "sourceCode": "源代码",
+    "googlePlay": "Google Play"
+  },
+  "facts": {
+    "minOs": "{version} 及以上",
+    "consoles": "PS5 · PS4",
+    "languages": "{count} 种语言",
+    "source": "{license} 开源",
+    "version": "版本 {version}"
+  },
+  "home": {
+    "title": "DappleByte · 独立工作室的 Android 应用",
+    "description": "DappleByte 是一家做 Android app 的独立工作室，作品包括 Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app。",
+    "appsHeading": "应用",
+    "principlesHeading": "我们的做法",
+    "principles": [
+      { "title": "没有广告，没有订阅", "body": "要么一次付费，要么免费。不靠占用你的注意力赚钱。" },
+      { "title": "中间没有服务器", "body": "我们的 app 直接和你自己的设备通信，我们看不到你的数据。" },
+      { "title": "源代码公开", "body": "每个版本都以 AGPL-3.0 推送到公开仓库。" },
+      { "title": "每封邮件都回", "body": "写信到 {email}，会有真人看。" }
+    ],
+    "contactHeading": "联系",
+    "contactBody": "工作室事务、媒体与合作：{email}。每个 app 的支持邮箱写在各自的支持页上。"
+  },
+  "about": {
+    "title": "关于 DappleByte",
+    "description": "DappleByte 是一家做 Android app 的独立工作室：没有广告，没有订阅，你和你的设备之间没有服务器，源代码以 AGPL-3.0 公开。",
+    "whatHeading": "DappleByte 是什么",
+    "whatBody": "DappleByte 是一家做 Android app 的独立工作室。一个开发者，几款 app，每一款都只想把一件事做好，其余时候不打扰你。",
+    "howHeading": "我们的做法",
+    "openSourceHeading": "开源",
+    "openSourceBody": "每款 app 的每个版本都以 AGPL-3.0 公开源代码，仓库链接在各 app 的页面上。你可以看清 app 到底做了什么，自己动手编译，或者核对隐私政策和代码是否一致。",
+    "contactHeading": "联系",
+    "contactBody": "工作室事务、媒体与合作：{email}。某个 app 的使用问题，请发到该 app 支持页上的邮箱，这样才能带着完整的背景信息送到对的收件箱。",
+    "trademarksHeading": "商标",
+    "trademarksBody": "本站提到其他公司的产品名称，只是为了说明我们的 app 能配合哪些产品使用。这些名称归各自的所有者所有，不代表任何关联或认可。",
+    "siteHeading": "关于本站",
+    "siteBody": "本站是用 Astro 生成的静态 HTML，托管在 GitHub Pages 上，不设置 Cookie，也不加载任何第三方脚本。网站本身的源代码公开在 github.com/dapplebyte/dapplebyte.github.io。"
+  },
+  "product": {
+    "title": "{name} · DappleByte",
+    "screenshotsHeading": "截图",
+    "screenshotAlt": "{name} 截图 {index}",
+    "featuresHeading": "能做什么",
+    "faqHeading": "常见问题",
+    "faqAll": "全部问题",
+    "getHeading": "获取 {name}",
+    "getBody": "Android 版已在 Google Play 上架，源代码以 {license} 公开。",
+    "requiresLabel": "系统要求",
+    "videoHeading": "看看实际效果",
+    "allVideos": "全部视频",
+    "moreHeading": "{name} 的更多内容"
+  },
+  "features": {
+    "title": "{feature} · {name}",
+    "indexHeading": "功能",
+    "relatedFaq": "相关问题",
+    "backToProduct": "返回 {name}",
+    "allFeatures": "{name} 全部功能",
+    "inShort": "要点"
+  },
+  "faq": {
+    "title": "{name} 常见问题",
+    "sectionTitle": "{section} · {name} 常见问题",
+    "description": "关于 {name} 的解答：玩法、连接、登录、串流画质、手柄、购买与退款。",
+    "sectionDescription": "{name} 常见问题 · {section}：{count} 个问题及完整解答。",
+    "intro": "同样的解答在 app 的“设置 → 常见问题”里也能看到。每个分区一页，每个问题都有单独的链接。",
+    "questionsCount": "{count} 个问题",
+    "notFoundHeading": "没找到答案？",
+    "notFoundBody": "写信给我们，附上手机型号、主机型号和具体情况。每条消息都有真人看。",
+    "notFoundCta": "前往支持页",
+    "prev": "上一页",
+    "next": "下一页",
+    "allSections": "全部分区",
+    "linkToQuestion": "本题链接"
+  },
+  "support": {
+    "title": "{name} 支持",
+    "description": "{name} 使用帮助：先检查什么、怎么写信、要附上哪些信息、怎么退款。",
+    "beforeHeading": "写信之前",
+    "beforeItems": [
+      "先看常见问题。连接、登录和画面相关的问题大多在那里有答案，措辞和 app 里一样。",
+      "如果 app 连不上，到设置里运行连接诊断。它会检查网络、主机和远程游玩，还能一键把报告发邮件给我们。",
+      "确认主机已开机或处于待机状态，并且已在主机设置里打开远程游玩。"
+    ],
+    "writeHeading": "写信给我们",
+    "writeBody": "点按钮会打开邮件 app，并填好主题。如果什么都没打开，就把地址和下面的清单复制到任意邮件里。",
+    "writeButton": "发邮件到 {email}",
+    "copyAddress": "复制地址",
+    "copied": "已复制",
+    "subject": "[{name}] ",
+    "templateHeading": "请附上这些信息",
+    "template": {
+      "phone": "手机型号：",
+      "android": "Android 版本：",
+      "console": "主机：PS5 / PS4",
+      "where": "在家还是在外：",
+      "what": "发生了什么（按步骤写）：",
+      "doctor": "如果运行过连接诊断，请把报告贴在这里。"
+    },
+    "refundHeading": "退款",
+    "refundBody": "如果 {name} 在你的设备环境下用不了，购买后 7 天内发邮件给我们，我们会退款。顺便说说你试过哪些办法，能帮我们为下一位用户修好它。",
+    "replyHeading": "多久能收到回复",
+    "replyBody": "通常在两个工作日内。每条消息都有真人看，每条都会回复。",
+    "faqLink": "先看常见问题"
+  },
+  "privacy": {
+    "title": "{name} 隐私政策",
+    "description": "Android 版 {name} 如何处理你的数据：无需账号、没有我们的服务器、哪些数据留在设备上、app 会连到哪里。",
+    "effective": "生效日期：{date}",
+    "appliesTo": "适用于在 Google Play 发布的 Android 版 {name}（{appId}）。",
+    "governing": "本政策以英文发布。如有译文，仅供参考，以英文版本为准。",
+    "contact": "问题与请求：{email}",
+    "contents": "目录",
+    "backToTop": "回到顶部"
+  },
+  "sitePrivacy": {
+    "title": "网站隐私",
+    "description": "dapplebyte.com 不设置 Cookie，不做统计分析，也不加载第三方脚本。",
+    "items": [
+      "本网站是静态 HTML，不设置 Cookie，也不加载第三方脚本、字体或统计工具。",
+      "我们在这里不做任何统计分析。我们能看到的数字只来自 Google Search Console 和 Bing Webmaster Tools，它们只提供汇总后的搜索展示次数。",
+      "如果你给我们发邮件，我们只在帮你解决问题所需的时间内保留，之后删除，也不会把你加进任何名单。",
+      "本站托管在 GitHub Pages 上，它会像任何网页服务器一样记录访问请求，详情请看 GitHub 的隐私声明。",
+      "每款 app 都有自己的隐私政策，可从各自的页面进入。那些政策说明 app 的行为，本页只涉及网站。"
+    ],
+    "appsHeading": "各 app 的隐私政策"
+  },
+  "videos": {
+    "title": "{name} 视频",
+    "description": "在真机上演示 {name} 的短视频：设置、串流、手柄布局，以及解决连接问题。",
+    "emptyHeading": "视频正在制作中",
+    "emptyBody": "我们正在为每个功能录制讲解视频。在那之前，功能页和常见问题讲的是同样的内容。",
+    "kinds": { "promo": "介绍", "tutorial": "教程", "troubleshooting": "问题排查" },
+    "watchOn": "在 YouTube 上观看",
+    "play": "播放视频"
+  },
+  "compare": {
+    "title": "{name} 对比",
+    "description": "在 Android 上逐项对比 {name} 与 PS Remote Play、PXPlay、Chiaki 的功能，只讲事实。",
+    "intro": "只列事实，均已对照各 app 的商店页或官网核实。描述以下方日期为准，新版本可能有变化。这里不给任何 app 打分，也不声称哪一款整体更好。",
+    "verified": "核实于 {date}",
+    "notVerified": "其他列尚未核实，所以本页暂不让搜索引擎收录。",
+    "featureColumn": "功能",
+    "rows": {
+      "platform": "平台",
+      "away-from-home": "在外远程游玩",
+      "hevc-hdr": "HEVC 与 HDR 串流",
+      "virtual-pad-editor": "屏幕手柄与布局编辑器",
+      "physical-pad": "蓝牙或 USB 手柄转发",
+      "tv-output": "HDMI 输出到电视",
+      "connection-doctor": "内置连接诊断",
+      "open-source": "开源",
+      "pricing-model": "收费方式"
+    },
+    "values": {
+      "yes": "是",
+      "no": "否",
+      "partial": "部分",
+      "unknown": "未核实",
+      "one-time": "一次性买断",
+      "free": "免费",
+      "subscription": "订阅"
+    },
+    "vsTitle": "{name} 与 {other} 对比",
+    "vsDescription": "在 Android 上逐项对比 {name} 与 {other}：在外远程游玩、HEVC 与 HDR、手柄、电视输出、开源与收费方式。",
+    "vsIntro": "两者都能把 Android 设备连到 PS5 或 PS4。下面逐项列出它们的不同之处。",
+    "fullComparison": "查看完整对比"
+  },
+  "changelog": {
+    "title": "{name} 更新日志",
+    "description": "Android 版 {name} 历次版本的更新内容，最新的在前。",
+    "version": "版本 {version}",
+    "build": "构建 {code}",
+    "feed": "Atom 订阅源"
+  },
+  "press": {
+    "title": "{name} 媒体资料包",
+    "description": "报道 Android 远程游玩手柄与主机串流 app {name} 所需的资料、素材和标准介绍。",
+    "intro": "本页所有内容都可以直接用于文章、视频和 app 介绍，无需事先询问。如需其他资料，请写信给我们。",
+    "factsHeading": "基本信息",
+    "facts": {
+      "name": "名称",
+      "developer": "开发者",
+      "platform": "平台",
+      "firstReleased": "首次发布",
+      "currentVersion": "当前版本",
+      "price": "价格",
+      "priceValue": "付费 app，一次性买断，没有订阅，没有广告。当前价格以 Google Play 显示为准。",
+      "languages": "语言",
+      "license": "许可证",
+      "website": "官网",
+      "store": "商店页面",
+      "source": "源代码",
+      "contact": "联系方式"
+    },
+    "oneLineHeading": "一句话介绍",
+    "boilerplateHeading": "标准介绍",
+    "boilerplate": "{name} 能把 Android 手机变成 PS5 或 PS4 的无线手柄，也能把主机画面串流到手机、平板或电视上，在家用或在外用移动数据都可以。它由独立工作室 DappleByte 开发，以 AGPL-3.0 开源发布。",
+    "assetsHeading": "素材",
+    "assetIcon": "app 图标，512 px PNG",
+    "assetFeature": "置顶大图，1024 × 500 PNG",
+    "assetScreenshots": "截图，1920 × 1080 PNG，英文",
+    "assetStudioMark": "DappleByte 标志，SVG",
+    "screenshotN": "截图 {index}",
+    "contactHeading": "媒体联系",
+    "contactBody": "{email}。每条消息我们都会回复，通常在两个工作日内。"
+  },
+  "notFound": {
+    "title": "页面不存在",
+    "body": "这个地址不存在。可以看看这些：",
+    "home": "首页"
+  },
+  "trademarks": {
+    "sony": "PlayStation、PS5 和 PS4 是 Sony Interactive Entertainment Inc. 的商标。{name} 与 Sony 没有关联，也未获得 Sony 的背书。"
+  }
+}

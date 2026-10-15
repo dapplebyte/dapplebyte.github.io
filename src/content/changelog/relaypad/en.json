@@ -1,0 +1,32 @@
+{
+  "slug": "relaypad",
+  "locale": "en",
+  "entries": [
+    {
+      "code": 101,
+      "name": "1.0.1",
+      "date": "2026-10-07",
+      "items": [
+        "Remote Play away from home connects more reliably, even with a VPN or proxy app on",
+        "New: Settings → PSN connection proxy, for places where PlayStation Network is hard to reach",
+        "Connection doctor now runs 18 checks, including the console's home network",
+        "Fixed remote sessions stalling as the stream starts, and false \"can't connect\" errors",
+        "Removed in-app text input, which couldn't send text. Use the console's on-screen keyboard"
+      ]
+    },
+    {
+      "code": 100,
+      "name": "1.0.0",
+      "date": "2026-09-20",
+      "items": [
+        "Relaypad 1.0 is here — our first release.",
+        "Turn your phone into a wireless controller for PS5 and PS4",
+        "Stream your console at up to 1080p60, with HEVC, HDR and TV output",
+        "Five pad layouts, plus an editor to drag, resize or hide any button",
+        "Remote Play away from home over 5G or another Wi-Fi",
+        "Connection Doctor runs 13 checks and shows what is blocking the connection"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

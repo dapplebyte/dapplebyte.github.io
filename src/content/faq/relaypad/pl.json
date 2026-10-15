@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "pl",
+  "title": "FAQ",
+  "intro": "Pytania, które dostajemy najczęściej, i co z nimi zrobić. Dotknij pytania, aby je rozwinąć.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Sposoby gry",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "Czym różnią się „Lokalnie”, „Zdalnie” i „Pad” na karcie konsoli?",
+          "a": [
+            "„Lokalnie” przenosi obraz z konsoli na ten telefon przez sieć domową, a konsolę w trybie spoczynku najpierw wybudza. „Zdalnie” robi to samo z dowolnego miejsca przez zalogowane konto. „Pad” zmienia telefon w kontroler bez obrazu, na wypadek gdy grę oglądasz na telewizorze. Karta zapamiętuje ostatni wybór osobno dla każdej konsoli."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "Dlaczego w trybie pada nie ma obrazu?",
+          "a": [
+            "Tryb pada wysyła do konsoli tylko Twoje sterowanie, a grę oglądasz na telewizorze. Telefon i konsola muszą być w tej samej sieci, a jeśli konsola jest w trybie spoczynku, tryb pada ją wybudza i ponawia próby przez około 30 sekund. Aby zobaczyć grę na telefonie, otwórz menu i dotknij „Przełącz na strumieniowanie”."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "Czy telefon może być drugim kontrolerem obok tego, który jest podłączony do konsoli?",
+          "a": [
+            "Nie. Telefon łączy się jako kontroler Remote Play konta, na którym go skonfigurowano, więc zajmuje miejsce Twojego kontrolera, zamiast dołączyć obok niego. Kontroler podłączony bezpośrednio do konsoli nie może grać w tym samym czasie: konsola przypisuje mu innego użytkownika, na przykład gościa, a potem oba urządzenia odbierają sobie nawzajem sterowanie. Używaj telefonu, gdy nie masz kontrolera pod ręką, a nie jako dodatkowego gracza."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "Po dotknięciu „Rozpocznij strumieniowanie” karta przełącza się na „Zdalnie”.",
+          "a": [
+            "Aplikacja przez kilka sekund szuka konsoli w bieżącej sieci. Jeśli jej nie znajdzie, karta przełącza się na „Zdalnie”, ale się nie łączy, więc to Ty decydujesz, czy łączyć się przez konto. W domu oznacza to zwykle VPN, sieć dla gości albo całkowicie wyłączoną konsolę. Diagnostyka połączenia pokaże, która to przyczyna."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "W domu wybieram „Zdalnie”, a strumień idzie lokalnie.",
+          "a": [
+            "Gdy konsola jest w tej samej sieci, „Zdalnie” strumieniuje zamiast tego lokalnie, bo tak jest szybciej. Jeśli chcesz, żeby „Zdalnie” zawsze łączyło się przez konto, na przykład żeby wypróbować to przed wyjściem z domu, wyłącz w Ustawieniach opcję „W domu strumieniuj lokalnie”."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Łączenie",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "Skanowanie nie znajduje żadnej konsoli.",
+          "a": [
+            "Konsola pojawia się na dwa sposoby: gdy zostanie znaleziona w tej samej sieci Wi-Fi co telefon albo gdy po zalogowaniu wyświetli się na liście z Twojego konta. Wyszukiwanie w sieci nie przechodzi przez sieć dla gości, drugi router ani VPN, więc najpierw to sprawdź i zostaw konsolę włączoną lub w trybie spoczynku. Jeśli nadal jej nie widać, w kroku „Wybierz konsolę” dotknij „Wpisz adres IP” i podaj adres konsoli. Konsolę z wpisanym adresem trzeba sparować kodem."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "Aplikacja pokazuje „Poza tą siecią”, a telefon jest w tej samej sieci Wi-Fi.",
+          "a": [
+            "W sieci, która wygląda na jedną, może to mieć kilka przyczyn. Sieć dla gości jest odgrodzona od głównej, nawet na tym samym routerze. Router, który nadaje pasmom 2,4 GHz i 5 GHz różne nazwy, może umieścić oba urządzenia w osobnych podsieciach, a niektóre routery nie pozwalają urządzeniom bezprzewodowym widzieć się nawzajem. Trasę może też przejąć VPN albo aplikacja prywatnego DNS. Uruchom diagnostykę połączenia i sprawdź pozycję „Ta sama sieć co konsola”, która pokazuje oba adresy."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "Konsola jest w trybie spoczynku i nie chce się połączyć albo wybudzanie nic nie daje.",
+          "a": [
+            "„Rozpocznij strumieniowanie” samo wybudza konsolę z trybu spoczynku i czeka do około 25 sekund, a tryb pada ponawia próby przez około 30 sekund. Konsolę możesz też wybudzić ręcznie w „Ustawienia → Konsole”, opcją „Wybudź konsolę” w menu trybu pada albo widżetem na ekranie głównym. Działa to tylko w tej samej sieci i tylko wtedy, gdy konsola na to pozwala: w jej ustawieniach oszczędzania energii włącz „Pozostań połączony z internetem” i „Włącz uruchamianie konsoli z sieci”."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "Pojawia się komunikat „Konsola jest zajęta”.",
+          "a": [
+            "Konsola prowadzi tylko jedną sesję zdalną naraz, a wciąż korzysta z niej inny telefon, tablet albo komputer. Tryb pada na innym telefonie też się liczy. Zakończ sesję na tamtym urządzeniu albo na samej konsoli i spróbuj ponownie."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "Po zmianie trybu albo jakości łączenie trwa dłuższą chwilę.",
+          "a": [
+            "Konsola potrzebuje kilku sekund, żeby zwolnić poprzednią sesję. W tym czasie aplikacja po cichu ponawia próbę co 2 sekundy przez maksymalnie 20 sekund i łączy się, gdy tylko konsola będzie gotowa. Komunikat „Konsola jest zajęta” pojawia się dopiero wtedy, gdy konsola jest zajęta także po tym czasie."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "Pojawia się komunikat „Remote Play jest wyłączone w konsoli”.",
+          "a": [
+            "Konsola jest włączona, ale odrzuca połączenia zdalne. Na konsoli otwórz „Ustawienia → System → Remote Play”, włącz „Włącz Remote Play” i połącz się ponownie. Ostatni znany stan pokazuje pozycja „Remote Play w konsoli” w diagnostyce połączenia."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "Czy po zerwaniu strumienia połączenie wraca samo?",
+          "a": [
+            "Przy strumieniu lokalnym tak. Aplikacja ponawia próbę do trzech razy, z coraz dłuższą przerwą, poddaje się po około 30 sekundach i proponuje diagnostykę połączenia. Połączenie zdalne nie ponawia prób, więc połącz się ponownie z karty konsoli. Aplikacja nie ponawia też prób, gdy konsola jest zajęta, wyłączona, ma wyłączone Remote Play albo wymaga aktualizacji aplikacji, bo kolejna próba nic by nie dała."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "Co sprawdza diagnostyka połączenia?",
+          "a": [
+            "Osiemnaście rzeczy na tym telefonie, na drodze do konsoli, na drodze do internetu i w sieci domowej konsoli: możliwości urządzenia, sieć telefonu, ta sama sieć co konsola, stan konsoli, Remote Play w konsoli, czas odpowiedzi i wahania, szacowana prędkość łącza, aplikacje VPN i filtrujące, zakłócenia Bluetooth, UPnP routera, tłumaczenie adresów sieciowych, publiczny adres IPv4, połączenie z PlayStation Network, konto, ekran zewnętrzny oraz publiczny adres konsoli, UPnP routera konsoli i typ NAT konsoli. Czerwone i żółte pozycje mają podpowiedź, jak to naprawić, a raport można skopiować, udostępnić albo wysłać do nas mailem."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "W domu działa, ale poza domem już nie.",
+          "a": [
+            "Poza domem wybierz „Zdalnie” na karcie konsoli i dotknij „Graj zdalnie”. Połączenie idzie przez Twoje konto, więc konto trzeba dodać przez zalogowanie, a konsolę raz dopasować. Połączenie trwa zwykle od 20 do 40 sekund, a aplikacja sama próbuje UPnP na domowym routerze. Jeśli się nie uda, komunikat podaje przyczynę; najczęstsze opisują kolejne pytania, a jednym z obejść jest VPN do domu."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "„Zdalnie” wymaga najpierw dopasowania konsoli.",
+          "a": [
+            "Połączenie zdalne musi wiedzieć, która konsola z Twojego konta to ta sparowana na tym telefonie. Dotknij karty albo otwórz „Ustawienia → Połączenie zdalne” i raz wybierz ją w sekcji „Konsole na Twoim koncie”. Konsola musi być już sparowana na tym telefonie, a konto musi być dodane przez zalogowanie, a nie przez Online ID."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "Połączenie zdalne się nie udaje. Jakie są najczęstsze przyczyny?",
+          "a": [
+            "Przyczynę podaje komunikat na ekranie. Konsola nie odpowiedziała: zostaw ją włączoną lub w trybie spoczynku, z włączonymi opcjami „Pozostań połączony z internetem” i „Włącz uruchamianie konsoli z sieci” w ustawieniach oszczędzania energii. Sieć nie pozwala na bezpośrednie połączenie: spróbuj innej sieci, włącz w Ustawieniach „Zgadywanie portów dla połączenia zdalnego” albo użyj VPN do domu. Operator dzieli jeden publiczny adres między wielu użytkowników: przekierowanie portów nie pomoże, więc zmień sieć albo użyj VPN. Logowanie wygasło: zaloguj się ponownie na to konto."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "PSN się nie łączy albo połączenie zrywa się, gdy tylko włączę proxy?",
+          "a": [
+            "Tam, gdzie trudno połączyć się z PSN, połączenie zdalne potrzebuje dwóch różnych dróg: strumień gry musi łączyć się bezpośrednio, a logowanie i połączenie z PSN mogą iść przez proxy. Aplikacja proxy w trybie VPN wciąga do swojego tunelu także strumień gry i sesja zostaje przerwana. Przełącz aplikację proxy na proxy dla wybranych aplikacji i dodaj Relaypad do jej listy wykluczeń. Potem otwórz „Ustawienia → Proxy połączenia z PSN” i wybierz „Automatycznie” albo wybierz „Ręcznie” i wpisz lokalny port aplikacji proxy (typ HTTP, host 127.0.0.1; Clash zwykle używa 7890, v2rayNG 10809). Pozycja „Połączenie z PlayStation Network” w diagnostyce połączenia pokaże, czy to działa."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "Czy muszę ustawiać przekierowanie portów?",
+          "a": [
+            "Zwykle nie. Połączenie zdalne samo próbuje UPnP, a przekierowanie pomaga tylko wtedy, gdy połączenie blokuje domowy router, a nie gdy operator dzieli jeden adres między wielu użytkowników. Jeśli jednak go potrzebujesz, „Ustawienia → Przekierowanie portów routera” może przekierować porty automatycznie albo wypisać je do ręcznej konfiguracji. Przekierowane porty wystawiają konsolę do internetu, więc bezpieczniejszym wyborem jest VPN do domu."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "Co zrobić, gdy sieć konsoli ma CGNAT albo podwójny NAT?",
+          "a": [
+            "Otwórz diagnostykę połączenia i zajrzyj do sekcji „Sieć domowa konsoli”. Pomiar odbywa się, gdy telefon jest w sieci Wi-Fi konsoli albo gdy łączysz się zdalnie. Podwójny NAT to dwa routery jeden za drugim, zwykle modem operatora plus twój własny router: przełącz modem w tryb mostu albo włącz w modemie strefę DMZ wskazującą na twój router. CGNAT oznacza, że operator dzieli jeden publiczny adres między wiele domów, więc przekierowanie portów nie pomoże: poproś operatora o publiczny adres IP. W obu przypadkach zadziała też VPN do domu, na przykład Tailscale, bo nie wymaga bezpośredniego połączenia z zewnątrz."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "Czy mogę grać spoza sieci domowej przez VPN?",
+          "a": [
+            "Tak, przez VPN do domu. Postaw stale włączone urządzenie w sieci konsoli i połącz telefon z tą siecią: Tailscale na NAS-ie, Raspberry Pi albo komputerze załatwia to jedną komendą (tailscale up --advertise-routes=twoja.siec.domowa, a potem zatwierdź trasę w panelu administracyjnym), a router z wbudowanym serwerem WireGuard albo OpenVPN działa tak samo. Gdy VPN jest połączony, jak zwykle dotknij „Rozpocznij strumieniowanie” na karcie konsoli: wyszukiwanie w sieci nie przechodzi przez VPN, więc aplikacja próbuje też adresu, który konsola miała w domu. Konsola musi być wcześniej sparowana w domu, a ograniczeniem stanie się prędkość wysyłania domowego łącza."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "Czy mogę mieć więcej niż jedną konsolę albo więcej niż jedno konto?",
+          "a": [
+            "Jedno i drugie, i nic to nie kosztuje. Każda sparowana konsola zostaje na liście, a każdą można powiązać z innym kontem w Ustawienia, Konsole. Samymi kontami zarządza się w Ustawienia, Konta."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "Po przejściu na nowy telefon konsole zniknęły albo się nie łączą.",
+          "a": [
+            "Konsole, konta i klucze parowania nie trafiają do kopii zapasowej w chmurze, więc na nowym telefonie konfigurujesz wszystko od nowa: dodaj konto i raz sparuj każdą konsolę. Jeśli przeniesienie danych z telefonu na telefon zabrało listę konsol, klucze i tak zostają na starym telefonie, bo są z nim związane: otwórz „Ustawienia → Konsole”, wybierz konsolę i dotknij „Sparuj ponownie”. Konto dodane przez zalogowanie może też poprosić o ponowne zalogowanie."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Konfiguracja i logowanie",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "Po co aplikacji Account ID?",
+          "a": [
+            "Konsola paruje się tylko z urządzeniem, które podaje, do jakiego konta należy, więc Account ID jest częścią samego parowania. To 12-znakowy identyfikator powiązany z Twoim kontem, a nie hasło. Konfiguracja prosi o niego na początku, a kolejne konta dodasz później w „Ustawienia → Konta”. Konto dodane przez zalogowanie pozwala też wyświetlić konsole na Twoim koncie, skonfigurować je bez kodu i korzystać z połączenia zdalnego."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "Jakie są sposoby dodania konta?",
+          "a": [
+            "Krok „Pobierz Account ID” ma dwie grupy. Zalecane logowanie obejmuje „Zaloguj się w aplikacji”, gdzie hasło wpisujesz na oficjalnej stronie, oraz „Zaloguj się w przeglądarce”, które działa z kluczami dostępu i menedżerami haseł. „Tylko konfiguracja lokalna” nie wymaga logowania: „Użyj Online ID” obsługuje konsole 4. generacji poniżej 8.0, a „Wpisz Account ID” w sekcji „Zaawansowane” przyjmuje identyfikator z innego telefonu, na którym ta aplikacja jest już zalogowana. Bez logowania nadal sparujesz konsolę i zagrasz w domu, ale nie skonfigurujesz jej bez kodu ani nie użyjesz połączenia zdalnego."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "Moje konto używa klucza dostępu. Jak się zalogować?",
+          "a": [
+            "Wybierz „Zaloguj się w przeglądarce”. Klucze dostępu nie działają na stronie logowania w aplikacji, ale w przeglądarce działają normalnie, a adres zostanie pobrany automatycznie po powrocie do aplikacji."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "Co zrobić po zalogowaniu w przeglądarce?",
+          "a": [
+            "Po zakończeniu logowania przeglądarka trafia na pustą stronę. Tak ma być. Skopiuj cały adres z paska adresu i wróć do aplikacji, gdzie zostanie pobrany automatycznie. Jeśli nic się nie dzieje, wklej go w pole poniżej i upewnij się, że skopiowany adres zawiera wszystko po code=."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "Strona logowania w aplikacji jest pusta albo się nie wczytuje.",
+          "a": [
+            "Niektóre sieci i telefony blokują tę stronę wewnątrz aplikacji. Aplikacja wykrywa, gdy strona pozostaje pusta albo nie działa, podaje przyczynę i proponuje „Spróbuj ponownie” oraz „Użyj zamiast tego przeglądarki”. Logowanie w przeglądarce daje ten sam wynik, więc przejdź na nie, jeśli ponowna próba nie pomaga. Weryfikacja dwuetapowa odbywa się na samej stronie logowania."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "Pojawia się komunikat, że kod logowania wygasł.",
+          "a": [
+            "Kod w adresie jest ważny tylko przez krótki czas. Otwórz ponownie stronę logowania, zaloguj się i od razu wróć do aplikacji. W przeglądarce dotknij „Otwórz stronę logowania ponownie” i skopiuj nowy adres."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "Czy mogę skonfigurować aplikację bez logowania?",
+          "a": [
+            "Tak, przez „Tylko konfiguracja lokalna”. „Użyj Online ID” działa z konsolami 4. generacji poniżej 8.0; przy nowszych konsolach wybierz „Wpisz Account ID” w sekcji „Zaawansowane” i skopiuj identyfikator z „Ustawienia → Konta” na innym telefonie, na którym ta aplikacja jest zalogowana. Tak czy inaczej sparujesz konsolę i zagrasz w sieci domowej, ale konfiguracja bez kodu, konsole na Twoim koncie i połączenie zdalne wymagają zalogowanego konta. Online ID jest sprawdzane przez publiczną usługę."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "Przy moim koncie widnieje „Logowanie wygasło”.",
+          "a": [
+            "Dotknij „Zaloguj się ponownie” obok niego w „Ustawienia → Konta”; logowanie otworzy się w ten sam sposób co poprzednio. Logowanie służy tylko do połączenia zdalnego, konfiguracji bez kodu i wyświetlania konsol na Twoim koncie, więc już sparowane konsole i tak dalej działają w domu."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "Wybrać „Parowanie kodem” czy „Konfiguracja bez kodu”?",
+          "a": [
+            "„Parowanie kodem” trwa kilka sekund, ale musisz być przy konsoli, a telefon musi być w tej samej sieci. „Konfiguracja bez kodu” działa z dowolnego miejsca, nawet gdy konsola jest w trybie spoczynku, i trwa około 30 sekund. Wymaga konsoli 5. generacji zalogowanej na to samo konto, konta dodanego przez zalogowanie, włączonego Remote Play i najnowszego oprogramowania systemowego. Tak czy inaczej konsola działa potem tak samo."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "Parowanie się nie udało albo kod parowania wygasł.",
+          "a": [
+            "Kod parowania jest ważny 300 sekund i można go użyć tylko raz. Nowy pobierz na konsoli w „Ustawienia → System → Remote Play → Powiąż urządzenie” albo, na konsoli 4. generacji, w „Ustawienia → Ustawienia połączenia Remote Play → Dodaj urządzenie”, i wpisz go od razu. „Kod dostępu konsoli (opcjonalnie)” to inny numer, czterocyfrowy kod ustawiony na samej konsoli, i zostaje pusty, dopóki konsola o niego nie poprosi. Na konsoli 5. generacji możesz też dotknąć „Wybierz inny sposób” i spróbować „Konfiguracja bez kodu”."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "„Konfiguracja bez kodu” kończy się niepowodzeniem.",
+          "a": [
+            "Komunikat podaje przyczynę: konsoli nie ma na Twoim koncie albo nie jest główną konsolą konta, Remote Play jest wyłączone, konsola nie odpowiedziała, dwie konsole mają tę samą nazwę, sieć nie pozwala na bezpośrednie połączenie albo logowanie wygasło. Usuń przyczynę i spróbuj ponownie bez kodu albo dotknij „Wybierz inny sposób” i sparuj konsolę kodem przy samej konsoli; wtedy telefon musi być w tej samej sieci."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "Co się stanie, gdy usunę konto?",
+          "a": [
+            "Zapomina je tylko ten telefon, razem z zalogowaniem. Powiązane z nim konsole nadal działają w domu, ale nie mają konta, dopóki nie wybierzesz go w „Ustawienia → Konsole”, wybierając konsolę i „Konto konsoli”. Ani na konsoli, ani na samym koncie nic się nie zmienia."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "Czy widzicie moje hasło?",
+          "a": [
+            "Nie. Hasło wpisujesz na oficjalnej stronie logowania, a ta aplikacja nie ma własnego serwera, więc nic, co tam wpiszesz, nie przechodzi przez nas. Aplikacja przechowuje na tym telefonie Account ID, Online ID i tokeny logowania, a tokeny i klucze parowania są zaszyfrowane magazynem kluczy Androida. Wyszukiwanie Online ID przechodzi przez publiczną usługę."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Strumieniowanie i obraz",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "Gdzie są elementy sterowania podczas strumieniowania?",
+          "a": [
+            "Górny pasek znika po kilku sekundach. Dotknij pustego miejsca na obrazie, aby go przywrócić: ikona suwaków otwiera panel podręczny, a „Przytrzymaj, aby wyjść” kończy strumień. Panel podręczny otworzysz też, przytrzymując puste miejsce na obrazie."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "Co obejmuje wersja darmowa?",
+          "a": [
+            "Strumieniowanie w sieci domowej w jakości do 720p i 30 fps z H.264, bez limitu czasu i bez reklam. Limit jest nakładany przy każdym rozpoczęciu sesji. Tryb pada jest w całości darmowy, bez żadnych ograniczeń. Strumieniowanie na Android TV wymaga Pro."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "Jak włączyć 1080p i 60 fps?",
+          "a": [
+            "Wybierz je w „Ustawienia → Jakość obrazu”. Możesz je też wybrać w sekcji „Jakość obrazu” w panelu podręcznym podczas strumieniowania, a potem dotknąć „Połącz ponownie, aby zastosować”. Telefon musi za tym nadążyć, więc jeśli obraz zacina się przy 1080p, warto uruchomić diagnostykę połączenia."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "Czy mogę zmienić rozdzielczość albo liczbę klatek podczas strumieniowania?",
+          "a": [
+            "Tak. Otwórz panel podręczny, wybierz ustawienie w sekcji „Jakość obrazu” i dotknij „Połącz ponownie, aby zastosować”; obraz zatrzyma się na kilka sekund. Połączenia zdalnego nie da się przełączyć w trakcie strumienia, więc wybór zadziała przy następnym połączeniu. Kodek, bitrate i dekoder są w „Ustawienia → Jakość obrazu”."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "Czym różnią się „Dopasuj do ekranu”, „Rozciągnij na cały ekran” i „Powiększ na cały ekran”?",
+          "a": [
+            "„Dopasuj do ekranu” zachowuje proporcje i zostawia czarne pasy. „Rozciągnij na cały ekran” wypełnia ekran i lekko zniekształca obraz. „Powiększ na cały ekran” wypełnia ekran, ucinając krawędzie, i to zwykły wybór na wysokim ekranie telefonu. Zmienisz to w „Ustawienia → Skalowanie” albo w sekcji „Skalowanie” w panelu podręcznym."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "Na tablecie lub składanym telefonie pad ekranowy zasłania obraz.",
+          "a": [
+            "Otwórz panel podręczny i ustaw „Układ” na „Podział”: obraz i pad ekranowy zostaną rozmieszczone osobno, więc jedno nie zasłania drugiego. „Auto” robi to już samo, gdy ekran jest w pionie albo składany telefon jest do połowy otwarty. Te opcje pojawiają się tylko na tabletach i składanych telefonach i są darmowe."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "Obraz jest ciemniejszy, niż powinien.",
+          "a": [
+            "To „Przyciemnienie ekranu” w panelu podręcznym. Przyciemnia obraz, żeby przyciski na ekranie były lepiej widoczne; ustaw suwak na minimum, aby je wyłączyć. To coś innego niż „Krycie nakładki”, które przygasza same przyciski."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "Obraz się zacina albo gubi klatki.",
+          "a": [
+            "Prawie zawsze winne jest łącze bezprzewodowe, a nie telefon. Połącz się z siecią 5 GHz tego samego routera, podejdź bliżej niego, a konsolę podłącz kablem, jeśli to możliwe. Uruchom diagnostykę połączenia i sprawdź czas odpowiedzi oraz szacowaną prędkość łącza: powyżej 30 ms albo poniżej 15 Mbps obraz się nie utrzyma. Podczas strumieniowania od razu pomaga obniżenie rozdzielczości albo liczby klatek w panelu podręcznym."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "Obraz się rozsypuje albo zamarza, a dźwięk gra dalej.",
+          "a": [
+            "Otwórz panel podręczny i w sekcji „Akcje” dotknij „Napraw obraz”: aplikacja poprosi konsolę o nowy obraz. Jeśli to się powtarza, obniż rozdzielczość i uruchom diagnostykę połączenia."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "Co oznaczają liczby na nakładce wydajności?",
+          "a": [
+            "Opóźnienie to suma czasu odpowiedzi i czasu, jaki ten telefon poświęca na zdekodowanie i wyświetlenie klatki, więc jest to szacunek, który pomija konsolę i Twój ekran. Poniżej 60 ms jest zielone, a powyżej 100 ms czerwone. Jeśli bitrate jest dużo niższy od ustawionego, hamuje go sieć; jeśli bitrate jest w porządku, ale dekodowanie trwa długo, wąskim gardłem jest telefon. Styl „Kompaktowy” albo „Szczegółowy” wybierzesz w panelu podręcznym."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "Nie da się wybrać HEVC ani HDR albo strumień używa zamiast nich H.264.",
+          "a": [
+            "HEVC wymaga dekodera tego formatu w telefonie, a HDR ekranu, który go obsługuje; strona jakości podaje, dlaczego dana opcja jest niedostępna. Jeśli przy starcie strumienia telefon nie potrafi zdekodować formatu, strumień sam przełączy się na H.264 albo SDR i Cię o tym poinformuje."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "Czy strumień może działać dalej, gdy przełączę się do innej aplikacji?",
+          "a": [
+            "Tak. Gdy wyjdziesz z aplikacji podczas strumieniowania, obraz zmniejszy się do małego okienka, które nadal działa. Dotknij go, aby wrócić do pełnego ekranu bez ponownego łączenia, albo zamknij je, aby zakończyć strumień. Okienko nie włącza się, gdy obraz jest na telewizorze, a wyłączysz je w „Ustawienia → Obraz w obrazie”."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "Ile danych zużywa strumieniowanie?",
+          "a": [
+            "To zależy od rozdzielczości: do około 1 GB na godzinę przy 360p, 2,7 GB przy 540p, 4,5 GB przy 720p i 6,8 GB przy 1080p, a przy ręcznym bitrate więcej. W praktyce zużycie jest często niższe. Na danych komórkowych aplikacja domyślnie używa 720p i 30 fps, zarówno przy strumieniowaniu przez VPN do domu, jak i w trybie „Zdalnie”. Aby zachować własną jakość, wyłącz „Ustawienia → Dane komórkowe”."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "Czy mogę wyświetlić obraz na telewizorze?",
+          "a": [
+            "Tak. Podczas strumieniowania podłącz telefon do telewizora kablem USB-C na HDMI albo uruchom przesyłanie obrazu z ustawień systemu. Telewizor pokazuje wtedy samą grę, a telefon staje się kontrolerem. Na telewizorze nic się nie instaluje i nigdzie się tam nie logujesz, więc telewizor w hotelu albo u znajomych nadaje się bez problemu."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "Obraz na telewizorze wydaje się opóźniony",
+          "a": [
+            "Najpierw przełącz telewizor w tryb gry. W zwykłych trybach obrazu większość telewizorów dokłada od 60 do 120 ms opóźnienia; w trybie gry zostaje 10 do 30 ms i nic innego, co możesz zmienić, nawet się do tego nie zbliża. Dalej jest kabel, który wygrywa z przesyłaniem bezprzewodowym, bo bezprzewodowe musi zakodować obraz drugi raz i dokłada kolejne 100 ms lub więcej. Na końcu jest samo strumieniowanie, szybsze w dobrej sieci i znacznie szybsze w domu niż przez internet."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "Kabel jest wpięty, a nic się nie dzieje",
+          "a": [
+            "Nie każdy telefon potrafi wysyłać obraz przez gniazdo USB-C. Modele z najwyższej półki zwykle tak, telefony ze średniej półki często nie, a wcześniej nie da się tego sprawdzić. Uruchom diagnostykę połączenia z wpiętym kablem: pozycja „Ekran zewnętrzny” mówi, czy system w ogóle widzi telewizor. Jeśli nie, powodem jest telefon albo przejściówka, a obejściem jest bezprzewodowe przesyłanie obrazu z ustawień systemu."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "Czy mogę ładować telefon, gdy kabel HDMI jest podłączony?",
+          "a": [
+            "Tylko z przejściówką, która ma własne wejście zasilania. Gniazdo USB-C zajmuje sygnał wideo, a strumieniowanie razem z dekodowaniem szybko zjada baterię, więc na dłuższe sesje warto mieć hub USB-C z HDMI i ładowaniem przelotowym."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "Telewizor w moim pokoju hotelowym nie działa",
+          "a": [
+            "W części hotelowych telewizorów gniazda HDMI są wyłączone albo schowane za obudową i aplikacja nic na to nie poradzi. Jeśli telewizor ma gniazdo, do którego da się dostać, kabel działa jak przy każdym innym telewizorze. Jeśli nie, strumieniowanie normalnie leci dalej na telefonie."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "Czy zabezpieczenie przed kopiowaniem wygasi obraz?",
+          "a": [
+            "Nie. Aplikacja dekoduje zwykły strumień wideo, a nie chronione treści, więc telewizor pokazuje go przez HDMI normalnie. Nie pojawi się czarny ekran, jaki niektóre aplikacje wideo dają na ekranie zewnętrznym."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Kontrolery",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "Czy mogę przesuwać przyciski na ekranie?",
+          "a": [
+            "Tak, i jest to darmowe. Otwórz „Ustawienia → Układy pada”, aby zobaczyć wszystkie układy oraz zmienić nazwę własnych albo je usunąć; dotknij układu, aby przeciągać, skalować, przygaszać albo ukrywać dowolny element sterowania. „Gotowe układy” oferują na start Standard, Compact, Remote, Fighting i Racing, a „Eksportuj JSON” i „Importuj JSON” przenoszą układ na inny telefon przez schowek. Na telefonach edytujesz układy poziome; tablety mają dodatkowo kartę „Pionowo” z układami używanymi w widoku podzielonym."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "Czy mogę używać własnego układu podczas strumieniowania?",
+          "a": [
+            "Tak. W panelu podręcznym, w sekcji „Układ”, dotknij „Własny” i wybierz jeden ze swoich układów poziomych. „Kompaktowy” i „Standardowy” to wbudowane opcje, zaprojektowane tak, żeby jak najmniej zasłaniać obraz. Jeśli wybrany układ zostanie usunięty, strumieniowanie wraca do układu „Kompaktowy”. Edycja wbudowanego układu zapisuje Twoją wersję jako kopię, więc oryginał pozostaje dostępny."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "Podczas strumieniowania pada ekranowego nie widać albo jest ledwo widoczny.",
+          "a": [
+            "Sprawdź „Pad” w panelu podręcznym: „Auto” ukrywa pad, gdy podłączony jest fizyczny kontroler, „Ukryty” ukrywa go zawsze, a „Zawsze” trzyma go na ekranie. „Tryb minimalny” też go ukrywa. Strumień zaczyna się z układem „Kompaktowy”, który ma mniejsze i bledsze przyciski, więc jeśli trudno je dostrzec, przełącz „Układ” na „Standardowy” albo zwiększ „Krycie nakładki”."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "Jak przełączać między drążkiem a krzyżakiem w układzie „Kompaktowy”?",
+          "a": [
+            "Dotknij małej zakładki przy dolnej krawędzi okrągłego elementu sterowania. Przełącza ona między drążkiem a krzyżakiem, a lewa i prawa strona przełączają się osobno."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "Jak działa touchpad na ekranie?",
+          "a": [
+            "Przesuwaj po nim jednym lub dwoma palcami, aby wysyłać dotknięcia, a szybko go stuknij, aby kliknąć touchpad. Przytrzymywanie kliknięcia nie jest obsługiwane."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "Czy można używać fizycznego kontrolera?",
+          "a": [
+            "Tak. Każdy kontroler, który Android rozpozna przez Bluetooth lub USB, jest przekazywany dalej, z domyślnym mapowaniem dobranym według producenta. W trybie pada pad ekranowy pozostaje dostępny obok niego. Podczas strumieniowania aplikacja raz zapyta, czy pokazywać też pad ekranowy, a później zmienisz to w sekcji „Pad” w panelu podręcznym. Kilka kontrolerów i pad ekranowy liczą się na konsoli jako jeden kontroler."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "Przyciski mojego kontrolera są w złych miejscach.",
+          "a": [
+            "Podłącz kontroler, otwórz „Ustawienia → Mapowanie przycisków” i wybierz go. Dotknij akcji i naciśnij wybrany klawisz; drążki można odwrócić, a „Test na żywo” pokazuje, co wysyła każdy klawisz. Dotknij „Zapisz”, aby zachować zmiany. Mapowanie jest zapisywane dla modelu kontrolera, więc dwa kontrolery tego samego modelu je współdzielą, a „Resetuj” przywraca ustawienia domyślne."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "Mój kontroler nie ma przycisku PS ani touchpada albo nic one nie robią.",
+          "a": [
+            "Większość kontrolerów dostaje kombinacje: Select i Start razem działają jak przycisk PS, a Select i L3 jak kliknięcie touchpada. Kontroler, który ma już przycisk PS, dostaje tylko kombinację touchpada. Kombinacji nie da się zmienić, ale w „Ustawienia → Mapowanie przycisków” możesz zamiast tego przypisać PS, Touchpad albo MIC do dowolnego pojedynczego klawisza. Pełny zestaw klawiszy ma też standardowy układ ekranowy."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "Czy kontroler stworzony do konsoli działa na telefonie w pełni?",
+          "a": [
+            "Przez Bluetooth przekazywane są jego przyciski i drążki, ale nie gesty na touchpadzie, czujnik ruchu ani mikrofon. Gdy podłączysz go przez USB podczas strumieniowania, dotknij „Zezwól” w panelu podręcznym, aby dostać adaptacyjne spusty, pasek świetlny i wibracje kontrolera, za darmo dla wszystkich. Jeśli pojawi się „Dostęp przez USB zablokowany”, kontroler zajmuje inny sterownik na telefonie, więc połącz go zamiast tego przez Bluetooth."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "Jak działają wibracje i „Wibracje przycisków”?",
+          "a": [
+            "Wibracje z gry trafiają do fizycznego kontrolera, jeśli ma silniczki, a w przeciwnym razie do telefonu. Krótkie drgnięcie przy naciskaniu klawiszy na ekranie to „Wibracje przycisków” w sekcji „Wejście” menu trybu pada: każde dotknięcie przełącza na kolejny poziom, od wyłączonych do 3, a wybrany poziom zostaje zapamiętany."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "Gdzie są mikrofon i czujniki ruchu?",
+          "a": [
+            "W trybie pada oba są w sekcji „Wejście” w menu. Czujniki ruchu przesyłają żyroskop i akcelerometr telefonu i przy każdym połączeniu startują wyłączone. Mikrofon najpierw prosi o uprawnienie; potem dotknięcie przełącza go między „Aktywny” a „Wyciszony”. Podczas strumieniowania czujników ruchu nie ma, a mikrofon to klawisz MIC na padzie ekranowym. Oba są darmowe."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "Jak uśpić konsolę albo przejść do jej ekranu głównego?",
+          "a": [
+            "W trybie pada sekcja „Akcje” w menu ma „Wybudź konsolę”, „Uśpij konsolę”, „Ekran główny konsoli” i „Zablokuj ekran”, który ignoruje dotyk, dopóki go nie odblokujesz. Działa też przycisk PS na padzie ekranowym."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "Czy mogę sterować aplikacjami wideo na konsoli?",
+          "a": [
+            "Tak. W trybie pada włącz „Układ pilota” w sekcji „Układ” w menu, aby dostać duże klawisze do aplikacji multimedialnych. Wyłącz go ponownie, aby wybrać inny układ."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "Drugi pilot AI",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "Czy drugi pilot AI coś kosztuje?",
+          "a": [
+            "Nie u nas. Działa na twoim własnym kluczu API: nie mamy do niego dostępu i nic nie doliczamy, a dostawca rozlicza cię bezpośrednio za to, czego używasz. Sekcja „Poradniki do gier” w „Ustawienia → Drugi pilot AI” pokazuje przybliżony koszt jednego poradnika u wybranego dostawcy, a sekcja „Użycie” szacuje wydatki w tym miesiącu, łącznie z liczbą wyszukiwań w sieci."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "Dokąd trafia obraz z mojego ekranu?",
+          "a": [
+            "Tylko wtedy, gdy o to poprosisz: temat poradnika, nazwa gry i, jeśli ją dołączysz, pomniejszona klatka strumienia trafiają prosto do dostawcy, którego ustawisz, a on wykonuje wyszukiwania w sieci. Po drodze nie ma naszego serwera i nie prowadzimy żadnych logów; poradniki są zapisywane tylko na tym telefonie. Twój klucz jest przechowywany w postaci zaszyfrowanej na tym telefonie, a bez klucza nic nigdzie nie jest wysyłane."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "Skąd się biorą poradniki do gier?",
+          "a": [
+            "Gdy szukasz poradnika, ustawiony przez ciebie model sam przeszukuje sieć: Anthropic, Google, OpenAI i DeepSeek wykonują wyszukiwania po swojej stronie. Model czyta wyniki i pisze poradnik krok po kroku w twoim języku, ze źródłami podanymi pod spodem. Poradniki są zapisywane tylko na tym telefonie, więc ponowne otwarcie nic nie kosztuje."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "Dlaczego mój poradnik ma dopisek „Bez wyszukiwania w sieci”?",
+          "a": [
+            "Tylko Anthropic, Google, DeepSeek i oficjalny endpoint OpenAI potrafią szukać w sieci. Własny lub zewnętrzny endpoint zgodny z OpenAI, np. OpenRouter albo Ollama, odpowiada na podstawie wiedzy samego modelu, która w przypadku nowszych gier może być nieaktualna. Jeśli chcesz poradników z wyszukiwaniem, wybierz kartę Anthropic, Google lub DeepSeek albo wpisz oficjalny endpoint OpenAI na karcie „Zgodne z OpenAI”."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "Ile kosztuje jeden poradnik?",
+          "a": [
+            "Anthropic i OpenAI doliczają do tokenów około jednego centa amerykańskiego za każde wyszukiwanie w sieci, więc poradnik kosztuje mniej więcej od 8 do 15 centów. Google daje w pakiecie tysiące darmowych wyszukiwań miesięcznie. DeepSeek liczy tylko za tokeny, sporo poniżej centa. „Głębokość wyszukiwania” w ustawieniach ogranicza liczbę wyszukiwań, a „Użycie” pokazuje szacunek na ten miesiąc."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "Jak zdobyć klucz API?",
+          "a": [
+            "Anthropic: utwórz go w sekcji API keys w Anthropic Console. Google: dotknij Get API key w Google AI Studio. DeepSeek: utwórz go w sekcji API keys na platformie DeepSeek. „Zgodne z OpenAI”: użyj klucza z panelu swojego dostawcy, np. OpenAI lub OpenRouter; dla Ollamy na własnym komputerze wpisz jej adres jako „Bazowy URL”, jako klucz wpisz cokolwiek i wybierz model, który rozumie obrazy. Karty Anthropic, Google i DeepSeek w „Ustawienia → Drugi pilot AI” mają link „Uzyskaj klucz”."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "Dlaczego poradnik zawiera błędy?",
+          "a": [
+            "Źródła mogą być nieaktualne albo dotyczyć innej wersji lub platformy; jeśli źródła podają wersję, poradnik też ją podaje. Dopytaj, podając rozdział, nazwę bossa albo swój build, a poradnik zostanie napisany od nowa. Jeśli brakuje nazwy gry albo jest błędna, popraw ją w panelu przed wyszukiwaniem albo wypróbuj inny model w ustawieniach."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "Jak zmienić polecenia głosowe?",
+          "a": [
+            "Jest 8 wbudowanych poleceń, np. „Otwórz mapę”, „Pauza” i „Zrzut ekranu”. Otwórz „Ustawienia → Drugi pilot AI → Polecenia głosowe” i dotknij polecenia, aby zmienić naciskany przycisk albo dodać własne zwroty; wszystko, co nie jest poleceniem, trafia do panelu poradnika jako temat albo pytanie uzupełniające. Na telefonach bez usługi rozpoznawania mowy albo bez uprawnienia do mikrofonu wpisuj tekst w panelu."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "Drugi pilot AI nie może połączyć się z dostawcą?",
+          "a": [
+            "Zapytania AI nie idą przez „Proxy połączenia z PSN” w aplikacji, tylko przez własne połączenie telefonu. Jeśli tam, gdzie jesteś, nie da się połączyć z Anthropic, Google ani DeepSeek, przełącz na innego dostawcę albo na „Zgodne z OpenAI” i wpisz endpoint, z którym możesz się połączyć, albo Ollamę na własnym komputerze. „Testuj połączenie” na tej samej stronie pokaże, czy to działa."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "Jak wyłączyć drugiego pilota AI?",
+          "a": [
+            "Wyłącz „Używaj drugiego pilota AI” w „Ustawienia → Drugi pilot AI”. Przytrzymanie obrazu strumienia znów otworzy wtedy panel podręczny, a przyciski AI znikną z górnego paska. Aby usunąć też klucz, dotknij „Wyczyść” obok niego; zaszyfrowana kopia zostanie od razu usunięta."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "Czy mogę z tego korzystać, jeśli słabo widzę ekran?",
+          "a": [
+            "Tak. „Opisz ekran” w panelu podręcznym albo powiedzenie „Przeczytaj mi to” do przycisku głosowego najpierw podaje to, co najważniejsze, a potem czyta tekst z ekranu. Poradniki w panelu działają z TalkBack, a każdy krok można odhaczyć. Gdy TalkBack jest włączony, opisy ekranu na pasku napisów czyta TalkBack; bez niego włącz „Czytaj odpowiedzi na głos” w ustawieniach."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Zakup i zwroty",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "Czy to subskrypcja?",
+          "a": [
+            "Nie. Kupujesz aplikację raz w Google Play i to wszystko: bez subskrypcji, bez zakupów w aplikacji, bez reklam i bez funkcji, która później poprosi o drugą płatność. Zakup jest przypisany do konta Google, nie do telefonu."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "Mam aplikację z darmowej promocji. Czy funkcje zostaną później zablokowane?",
+          "a": [
+            "Nie. Instalacja w czasie promocji liczy się jako zakup aplikacji w tej cenie, więc zostaje Twoja na stałe, ze wszystkimi funkcjami. Nie zmienia się to po zakończeniu promocji, a na tym samym koncie Google możesz ją bezpłatnie zainstalować ponownie na nowym telefonie."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "Jak zainstalować ją na nowym telefonie?",
+          "a": [
+            "Otwórz stronę aplikacji w Google Play na tym samym koncie Google, z którego pochodzi zakup — zamiast ceny zobaczysz „Zainstaluj”. Konsole nie przenoszą się, więc sparuj każdą z nich na nowym telefonie od nowa; klucze parowania zostają na telefonie, na którym powstały."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "Co obejmuje zakup?",
+          "a": [
+            "Wszystko, od pierwszego uruchomienia: strumieniowanie 1080p i 60 fps, ręczny bitrate, HEVC i HDR, wyostrzanie FSR i nakładka wydajności, gra spoza sieci domowej, strumieniowanie na Android TV, obraz w obrazie oraz gra na telewizorze z telefonem jako kontrolerem. Tryb pada, diagnostyka połączenia, widżet „Skrót do konsoli” i dowolna liczba konsol oraz kont też są na miejscu."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "Jak uzyskać zwrot pieniędzy?",
+          "a": [
+            "W ciągu 48 godzin od zakupu poproś o zwrot samodzielnie w historii zamówień w Google Play; to najszybsza droga. Później napisz do nas w ciągu 7 dni od zakupu, a zwrócimy pieniądze bez pytania o powód. Dołącz numer zamówienia z potwierdzenia Google Play, żebyśmy mogli znaleźć zakup."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "Cena spadła zaraz po moim zakupie.",
+          "a": [
+            "Napisz do nas. W ciągu 48 godzin od zakupu najszybciej będzie poprosić o zwrot samodzielnie w historii zamówień w Google Play i kupić ponownie w cenie promocyjnej. Później napisz do nas z numerem zamówienia z potwierdzenia Google Play, a zwrócimy różnicę."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Więcej",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "Czy mogę wybudzić konsolę z ekranu głównego?",
+          "a": [
+            "Tak. Dodaj widżet „Skrót do konsoli” z listy widżetów launchera i wybierz konsolę. „Wybudź” wysyła sygnał wybudzający bez otwierania aplikacji. „Połącz” otwiera tryb pada, jeśli widżet ostatnio znalazł konsolę w Twojej sieci, a w przeciwnym razie otwiera aplikację. Oba działają tylko w tej samej sieci, a widżet jest darmowy."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "Czy jest wersja na Android TV?",
+          "a": [
+            "Tak, tę samą aplikację można zainstalować na Android TV i Google TV. Otwórz Google Play na telewizorze na tym samym koncie Google, z którego pochodzi zakup, a zainstaluje się bez dodatkowych opłat. Do gry telewizor potrzebuje kontrolera Bluetooth lub USB; pilot służy tylko do poruszania się po menu. Podczas strumieniowania naciśnij OK albo Menu na pilocie lub przytrzymaj jednocześnie L1, R1, L3 i R3 na kontrolerze, aby otworzyć panel podręczny."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "Jak sparować konsolę na telewizorze?",
+          "a": [
+            "Wybierz „Dodaj konsolę” na ekranie głównym telewizora i wskaż model konsoli. W kroku konta otwórz tę aplikację na telefonie, przejdź do „Ustawienia → Konta”, skopiuj widoczne tam Account ID i wpisz je na telewizorze; ma 12 znaków i zwykle kończy się na =. Następnie wybierz konsolę i wpisz kod parowania z konsoli za pomocą klawiatury na ekranie telewizora. Na telewizorze konsolę można sparować tylko kodem."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "Pojawia się komunikat, że system konsoli został zaktualizowany i trzeba czekać.",
+          "a": [
+            "Aktualizacja systemu konsoli zmieniła wersję protokołu Remote Play, którym konsola się posługuje, i po stronie telefonu nie da się tego obejść. Rozwiązaniem jest aktualizacja aplikacji, którą traktujemy jako pilną. Jeśli minęło już kilka dni, napisz do nas i podaj wersję oprogramowania systemowego konsoli."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Czy mogę zmienić język aplikacji?",
+          "a": [
+            "Aplikacja używa języka telefonu i obsługuje 19 języków. Na Androidzie 13 i nowszym możesz wybrać język tylko dla tej aplikacji w ustawieniach systemu, w „Aplikacje → Relaypad → Język”. W starszych wersjach zmień język telefonu."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "Jakie dane zbiera ta aplikacja?",
+          "a": [
+            "Anonimowe zdarzenia użycia, dzięki którym widzimy, które ekrany się psują, oraz ustawienia zdalne, które włączają lub wyłączają funkcje. Zdarzenia nigdy nie niosą Twojego Account ID, adresu IP ani nazwy konsoli, a między Tobą a konsolą nie ma żadnego naszego serwera. „Statystyki użycia” wyłączysz w „Ustawienia → Prywatność”; ustawienia zdalne są pobierane nadal."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Jak zgłosić problem albo coś zaproponować?",
+          "a": [
+            "Użyj „Wyślij opinię” w „Ustawienia → O aplikacji”, przycisku na dole tej strony albo „Napisz do nas” w diagnostyce połączenia. Wiadomość ma z góry wypełniony model telefonu, wersje systemu i aplikacji, język i najnowsze podsumowanie diagnostyki połączenia, czyli to, czego potrzebujemy, żeby zestawić zgłoszenie z tym, co widzimy. Opisz tylko swoje kroki i to, co się stało."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

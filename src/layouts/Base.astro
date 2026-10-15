@@ -1,60 +1,99 @@
 ---
+import '@fontsource/ibm-plex-sans/400.css';
+import '@fontsource/ibm-plex-sans/500.css';
+import '@fontsource/ibm-plex-sans/600.css';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
+import '@fontsource/chakra-petch/700.css';
+
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getLocale, localePath, LOCALE_SLUGS, DEFAULT_LOCALE } from '../i18n/locales';
+import { SITE } from '../lib/jsonld';
+
 interface Props {
+  locale: string;
+  /** Locale-independent path, e.g. `/relaypad/faq/`. */
+  path: string;
   title: string;
   description: string;
+  /** Locales in which this page exists. Defaults to all. */
+  alternates?: string[];
   jsonLd?: object;
+  noindex?: boolean;
+  ogImage?: string;
+  /** Product accent colours for pages under a product. */
+  accent?: { bright: string; ink: string; solid: string };
+  productSlug?: string;
 }
 
-const { title, description, jsonLd } = Astro.props;
-const canonical = new URL(Astro.url.pathname, Astro.site);
+const { locale, path, title, description, alternates = LOCALE_SLUGS, jsonLd, noindex = false, ogImage = '/og/dapplebyte.png', accent, productSlug } = Astro.props;
+const loc = getLocale(locale);
+const canonical = new URL(localePath(locale, path), SITE).href;
+const altLinks = alternates.map((slug) => ({ slug, lang: getLocale(slug).lang, href: new URL(localePath(slug, path), SITE).href }));
+const xDefault = new URL(localePath(DEFAULT_LOCALE, path), SITE).href;
+const accentStyle = accent ? `--product:${accent.bright};--product-ink:${accent.ink};--product-solid:${accent.solid}` : undefined;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={loc.lang} dir={loc.dir}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {altLinks.map((a) => <link rel="alternate" hreflang={a.lang} href={a.href} />)}
+    <link rel="alternate" hreflang="x-default" href={xDefault} />
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0C0E11" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="DappleByte" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(ogImage, SITE).href} />
+    <meta property="og:locale" content={loc.lang.replace('-', '_')} />
+    {altLinks.filter((a) => a.slug !== locale).map((a) => <meta property="og:locale:alternate" content={a.lang.replace('-', '_')} />)}
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="generator" content={Astro.generator} />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
-  <body>
-    <slot />
+  <body style={accentStyle}>
+    <a class="skip" href="#main">Skip to content</a>
+    <Header locale={locale} path={path} alternates={alternates} productSlug={productSlug} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer locale={locale} />
   </body>
 </html>
 
 <style is:global>
   :root {
-    --bg: #f7f5ef;
-    --surface: #ffffff;
-    --text: #1d2420;
-    --muted: #5b6660;
-    --line: #e2ded3;
-    --brand: #2f5d50;
+    --bg: #0c0e11;
+    --bg-deep: #07090d;
+    --surface: #111419;
+    --surface-2: #161b22;
+    --line: #232830;
+    --line-2: #2e3640;
+    --fg: #e7eaee;
+    --fg-2: #b6bec7;
+    --muted: #9aa3ad;
     --accent: #f2c14e;
-    color-scheme: light;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #121614;
-      --surface: #1b211e;
-      --text: #e9ece8;
-      --muted: #9aa59f;
-      --line: #2b332f;
-      --brand: #7fb8a6;
-      --accent: #f2c14e;
-      color-scheme: dark;
-    }
+    --accent-hover: #ffd56e;
+    --product: #f2c14e;
+    --product-ink: #0c0e11;
+    --product-solid: #f2c14e;
+    --font-sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Helvetica Neue', sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --font-display: 'Chakra Petch', var(--font-sans);
+    --wrap: 1120px;
+    --gutter: clamp(16px, 4vw, 40px);
+    color-scheme: dark;
   }
 
   *,
@@ -63,17 +102,381 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     margin: 0;
     background: var(--bg);
-    color: var(--text);
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: var(--fg);
+    font-family: var(--font-sans);
     font-size: 17px;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  :lang(ja), :lang(ko), :lang(zh-CN), :lang(zh-TW), :lang(th), :lang(hi) {
+    line-height: 1.75;
   }
 
   a {
-    color: var(--brand);
+    color: var(--accent);
+    text-underline-offset: 3px;
+  }
+  a:hover {
+    color: var(--accent-hover);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2, h3, h4 {
+    margin: 0;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .skip {
+    position: absolute;
+    inset-inline-start: 16px;
+    top: -60px;
+    padding: 10px 14px;
+    background: var(--accent);
+    color: var(--bg);
+    font-weight: 600;
+    text-decoration: none;
+    z-index: 100;
+  }
+  .skip:focus {
+    top: 12px;
+  }
+
+  .wrap {
+    width: 100%;
+    max-width: var(--wrap);
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+
+  .grid-bg {
+    background-image: linear-gradient(#ffffff0a 1px, transparent 1px), linear-gradient(90deg, #ffffff0a 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  .mono {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .mono-accent {
+    color: var(--accent);
+  }
+
+  .display {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .section {
+    padding-block: clamp(40px, 6vw, 72px);
+  }
+  .section + .section {
+    border-top: 1px solid var(--line);
+  }
+
+  .section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .h-page {
+    font-size: clamp(32px, 5vw, 56px);
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+  }
+  .h-section {
+    font-size: clamp(24px, 3vw, 34px);
+  }
+  .h-sub {
+    font-size: 20px;
+  }
+  .lede {
+    font-size: clamp(18px, 2vw, 21px);
+    color: var(--fg-2);
+    max-width: 60ch;
+  }
+
+  .button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 18px;
+    background: var(--product);
+    color: var(--product-ink);
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border: 0;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  .button:hover {
+    color: var(--product-ink);
+    filter: brightness(1.08);
+  }
+  .button-studio {
+    background: var(--accent);
+    color: var(--bg);
+  }
+  .button-studio:hover {
+    color: var(--bg);
+  }
+  .link-plain {
+    color: var(--fg);
+    text-decoration: none;
+    border-bottom: 1px solid var(--line-2);
+    padding-block: 4px;
+  }
+  .link-plain:hover {
+    color: var(--fg);
+    border-color: var(--fg);
+  }
+  .actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .chips {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .chip {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--fg-2);
+    border: 1px solid var(--line-2);
+    padding: 6px 10px;
+  }
+
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+  }
+  .cells {
+    display: grid;
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .cells > * {
+    background: var(--bg);
+    padding: 22px;
+  }
+  .cells-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .cells-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .cells-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .cells-2 > :last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+
+  .prose {
+    max-width: 72ch;
+  }
+  .prose p,
+  .prose ul,
+  .prose ol {
+    margin: 0 0 1em;
+  }
+  .prose ul,
+  .prose ol {
+    padding-inline-start: 1.3em;
+  }
+  .prose li + li {
+    margin-top: 0.35em;
+  }
+  .prose h2 {
+    font-size: 24px;
+    margin: 2em 0 0.6em;
+  }
+  .prose h3 {
+    font-size: 19px;
+    margin: 1.6em 0 0.5em;
+  }
+  .prose strong {
+    color: var(--fg);
+  }
+  .prose code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    background: var(--surface-2);
+    padding: 1px 5px;
+  }
+  .prose table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+    margin: 0 0 1.2em;
+  }
+  .prose th,
+  .prose td {
+    text-align: start;
+    vertical-align: top;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+  }
+  .prose th {
+    background: var(--surface);
+    font-weight: 600;
+  }
+  .prose .callout,
+  .prose .note {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    padding: 18px 20px;
+    margin: 0 0 1.5em;
+  }
+  .prose .lead {
+    font-size: 1.1em;
+    color: var(--fg);
+  }
+  .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .subnav {
+    display: flex;
+    gap: 2px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .subnav::-webkit-scrollbar {
+    display: none;
+  }
+  .subnav a {
+    text-decoration: none;
+    color: var(--muted);
+    padding: 12px 14px;
+    border-bottom: 2px solid transparent;
+  }
+  .subnav a:hover {
+    color: var(--fg);
+  }
+  .subnav a[aria-current='page'] {
+    color: var(--fg);
+    border-color: var(--product);
+  }
+
+  .crop {
+    aspect-ratio: 2.183;
+    overflow: hidden;
+    background: var(--bg-deep);
+  }
+  .crop img {
+    display: block;
+    width: 131.7%;
+    max-width: none;
+    height: auto;
+    margin-inline-start: -15.9%;
+    margin-top: -25.5%;
+  }
+  [dir='rtl'] .crop img {
+    margin-inline-start: 0;
+    margin-inline-end: -15.9%;
+  }
+
+  .shots {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .shots > * {
+    background: var(--bg-deep);
+    margin: 0;
+  }
+  .shots img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .shots-strip {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+    scrollbar-width: thin;
+  }
+  .shots-strip > * {
+    flex: 0 0 auto;
+    height: clamp(220px, 30vw, 340px);
+    scroll-snap-align: start;
+    margin: 0;
+    border: 1px solid var(--line);
+    background: var(--bg-deep);
+  }
+  .shots-strip img {
+    display: block;
+    height: 100%;
+    width: auto;
+    max-width: none;
+  }
+
+  .fine {
+    font-size: 13px;
+    color: var(--muted);
+    max-width: 72ch;
+  }
+
+  @media (max-width: 860px) {
+    .cells-4 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .cells-3 {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 560px) {
+    .cells-4,
+    .cells-2 {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .shots {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
   }
 </style>

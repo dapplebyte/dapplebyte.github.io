@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # local-only notes for Claude (never commit)
 CLAUDE.local.md
+
+# local product paths for the extract scripts (never commit)
+products.local.json

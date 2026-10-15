@@ -1,0 +1,44 @@
+---
+import { localePath } from '../i18n/locales';
+import { useT } from '../i18n/t';
+import type { Product } from '../lib/content';
+
+interface Props {
+  locale: string;
+  product: Product;
+  current: 'overview' | 'features' | 'faq' | 'videos' | 'compare' | 'support' | 'privacy' | 'changelog' | 'press';
+  showVideos?: boolean;
+  showCompare?: boolean;
+}
+const { locale, product, current, showVideos = false, showCompare = false } = Astro.props;
+const { t } = useT(locale);
+const base = `/${product.slug}`;
+const items: { key: Props['current']; path: string }[] = [
+  { key: 'overview', path: `${base}/` },
+  { key: 'features', path: `${base}/features/` },
+  { key: 'faq', path: `${base}/faq/` },
+  ...(showVideos ? [{ key: 'videos' as const, path: `${base}/videos/` }] : []),
+  ...(showCompare ? [{ key: 'compare' as const, path: `${base}/compare/` }] : []),
+  { key: 'support', path: `${base}/support/` },
+  { key: 'privacy', path: `${base}/privacy/` },
+  { key: 'changelog', path: `${base}/changelog/` },
+];
+---
+
+<div class="product-nav">
+  <div class="wrap">
+    <nav class="subnav" aria-label={product.name}>
+      {items.map((i) => (
+        <a href={localePath(locale, i.path)} aria-current={i.key === current ? 'page' : undefined}>
+          {t(`labels.${i.key}`)}
+        </a>
+      ))}
+    </nav>
+  </div>
+</div>
+
+<style>
+  .product-nav {
+    border-bottom: 1px solid var(--line);
+  }
+</style>

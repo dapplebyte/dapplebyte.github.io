@@ -1,0 +1,68 @@
+---
+import { getLocale, localePath, LOCALES } from '../i18n/locales';
+import { useT } from '../i18n/t';
+import LangSwitcher from './LangSwitcher.astro';
+
+interface Props {
+  locale: string;
+  path: string;
+  alternates: string[];
+  productSlug?: string;
+}
+const { locale, path, alternates } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+---
+
+<header class="site-header">
+  <div class="wrap site-header-row">
+    <a class="brand" href={localePath(locale, '/')} aria-label={t('site.name')}>
+      <svg width="26" height="26" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="6" fill="#F2C14E"/><circle cx="10" cy="11" r="3.2" fill="#0C0E11"/><circle cx="18.5" cy="9.5" r="2.2" fill="#0C0E11"/><circle cx="17" cy="18" r="3.6" fill="#0C0E11"/><circle cx="9" cy="19.5" r="1.8" fill="#0C0E11"/></svg>
+      <span>{t('site.name')}</span>
+    </a>
+    <nav class="site-nav mono" aria-label="Site">
+      <a href={localePath(locale, '/') + '#apps'}>{t('nav.apps')}</a>
+      <a href={localePath(locale, '/about/')}>{t('nav.about')}</a>
+      <LangSwitcher locale={locale} path={path} alternates={alternates} current={loc} locales={LOCALES} label={t('nav.language')} />
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    border-bottom: 1px solid var(--line);
+  }
+  .site-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding-block: 18px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--fg);
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .site-nav {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+  .site-nav > a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .site-nav > a:hover {
+    color: var(--fg);
+  }
+  @media (max-width: 560px) {
+    .site-nav {
+      gap: 14px;
+    }
+  }
+</style>

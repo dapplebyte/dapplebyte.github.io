@@ -1,0 +1,104 @@
+---
+import { getEntry } from 'astro:content';
+import Base from '../../../../layouts/Base.astro';
+import ProductNav from '../../../../components/ProductNav.astro';
+import { getLocale, localePath } from '../../../../i18n/locales';
+import { useT, formatDate } from '../../../../i18n/t';
+import { getProduct } from '../../../../lib/content';
+import { productLangPaths } from '../../../../lib/routes';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../../lib/jsonld';
+
+export async function getStaticPaths() {
+  const out = [];
+  for (const p of await productLangPaths()) {
+    const compare = (await getEntry('compare', p.props.slug))?.data;
+    for (const c of compare?.competitors ?? []) {
+      out.push({ params: { ...p.params, competitor: c.id }, props: { ...p.props, competitorId: c.id } });
+    }
+  }
+  return out;
+}
+
+const { locale, slug, alternates, competitorId } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const compare = (await getEntry('compare', slug))!.data;
+const other = compare.competitors.find((c) => c.id === competitorId)!;
+const path = `/${slug}/vs/${competitorId}/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = t('compare.vsTitle', { name: product.name, other: other.name });
+const description = t('compare.vsDescription', { name: product.name, other: other.name });
+const cell = (v: string) => (v in { yes: 1, no: 1, partial: 1, unknown: 1, 'one-time': 1, free: 1, subscription: 1 } ? t(`compare.values.${v}`) : v);
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('labels.compare'), url: new URL(localePath(locale, `/${slug}/compare/`), SITE).href },
+    { name: title, url },
+  ]),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} noindex={compare.draft} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="compare" showCompare={!compare.draft} />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">{product.name} · {t('labels.compare')}</div>
+    <h1 class="h-page">{title}</h1>
+    <p class="lede" style="margin-top:16px">{t('compare.vsIntro')}</p>
+    <p class="fine" style="margin-top:12px">{compare.verifiedOn ? t('compare.verified', { date: formatDate(locale, compare.verifiedOn, loc.lang) }) : t('compare.notVerified')}</p>
+  </section>
+  <section class="wrap section">
+    <div class="table-scroll">
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th scope="col">{t('compare.featureColumn')}</th>
+            <th scope="col">{product.playUrl ? <a href={product.playUrl}>{product.name}</a> : product.name}</th>
+            <th scope="col">{other.url ? <a href={other.url}>{other.name}</a> : other.name}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {compare.rows.map((r) => (
+            <tr>
+              <th scope="row">{t(`compare.rows.${r.id}`)}</th>
+              <td>{cell(r.values[slug] ?? 'unknown')}</td>
+              <td class={`v-${r.values[other.id] ?? 'unknown'}`}>{cell(r.values[other.id] ?? 'unknown')}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:20px"><a href={localePath(locale, `/${slug}/compare/`)}>{t('compare.fullComparison')} →</a></p>
+  </section>
+</Base>
+
+<style>
+  .cmp {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 520px;
+    font-size: 15px;
+  }
+  .cmp th,
+  .cmp td {
+    text-align: start;
+    vertical-align: top;
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+  }
+  .cmp thead th {
+    background: var(--surface);
+    font-weight: 600;
+  }
+  .cmp tbody th {
+    font-weight: 500;
+    color: var(--fg-2);
+  }
+  .v-unknown {
+    color: var(--muted);
+  }
+</style>

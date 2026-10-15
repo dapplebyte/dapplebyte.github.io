@@ -1,0 +1,32 @@
+{
+  "slug": "relaypad",
+  "locale": "tr",
+  "entries": [
+    {
+      "code": 101,
+      "name": "1.0.1",
+      "date": "2026-10-07",
+      "items": [
+        "Evden uzakta Remote Play, VPN veya proxy uygulaması açıkken bile daha sağlam bağlanıyor",
+        "Yeni: Ayarlar → PSN bağlantı proxy'si, PlayStation Network'e erişimin zor olduğu yerler için",
+        "Bağlantı doktoru artık konsolun ağı dahil 18 kontrol yapıyor",
+        "Düzeltildi: Uzak oturumların başlarken takılması ve yanlış \"bağlanılamıyor\" mesajları",
+        "Metin gönderemeyen uygulama içi yazı girişi kaldırıldı. Konsolun ekran klavyesini kullanın"
+      ]
+    },
+    {
+      "code": 100,
+      "name": "1.0.0",
+      "date": "2026-09-20",
+      "items": [
+        "Relaypad 1.0 geldi — ilk sürümümüz.",
+        "Telefonunuzu PS5 ve PS4 için kablosuz kumandaya çevirin",
+        "Konsolunuzu 1080p60'a kadar HEVC, HDR ve TV çıkışıyla akışa verin",
+        "Beş yerleşim ve düzenleyici: tuşları taşıyın, boyutlandırın veya gizleyin",
+        "5G veya başka bir Wi-Fi üzerinden evden uzakta Remote Play",
+        "Bağlantı Doktoru 13 kontrol yapar ve bağlantıyı neyin engellediğini gösterir"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

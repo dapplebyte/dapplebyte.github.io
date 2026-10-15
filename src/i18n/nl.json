@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "DappleByte",
+    "tagline": "Kleine, handige apps, met zorg gemaakt.",
+    "definition": "DappleByte is een onafhankelijke studio die Android-apps maakt.",
+    "kicker": "Onafhankelijke studio · Android",
+    "email": "hello@dapplebyte.com"
+  },
+  "nav": {
+    "apps": "Apps",
+    "about": "Over ons",
+    "language": "Taal",
+    "skip": "Naar de inhoud",
+    "home": "Home"
+  },
+  "footer": {
+    "studio": "Studio",
+    "contact": "Contact",
+    "languages": "Talen",
+    "privacy": "Privacy van de website",
+    "copyright": "© {year} DappleByte",
+    "builtWith": "Statische site, geen cookies, geen trackers."
+  },
+  "cta": {
+    "getOnPlay": "Download {name} via Google Play",
+    "readSource": "Bekijk de broncode",
+    "about": "Over {name}",
+    "learnMore": "Meer informatie"
+  },
+  "labels": {
+    "apps": "Apps",
+    "nextApp": "Volgende app",
+    "nextAppBody": "In de maak. Hij verschijnt hier zodra hij uit is.",
+    "lastUpdated": "Laatst bijgewerkt op {date}",
+    "android": "Android",
+    "by": "door DappleByte",
+    "overview": "Overzicht",
+    "features": "Functies",
+    "faq": "FAQ",
+    "videos": "Video's",
+    "compare": "Vergelijking",
+    "support": "Support",
+    "privacy": "Privacy",
+    "changelog": "Versiegeschiedenis",
+    "press": "Persmap",
+    "sourceCode": "Broncode",
+    "googlePlay": "Google Play"
+  },
+  "facts": {
+    "minOs": "{version} of hoger",
+    "consoles": "PS5 · PS4",
+    "languages": "{count} talen",
+    "source": "Broncode onder {license}",
+    "version": "Versie {version}"
+  },
+  "home": {
+    "title": "DappleByte · Onafhankelijke Android-apps",
+    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt, waaronder Relaypad: een controller- en streaming-app voor PS5 en PS4 via Remote Play.",
+    "appsHeading": "Apps",
+    "principlesHeading": "Hoe we werken",
+    "principles": [
+      { "title": "Geen advertenties, geen abonnementen", "body": "Eén prijs, of helemaal geen. Niets dat op je aandacht aast." },
+      { "title": "Geen server ertussen", "body": "Onze apps praten rechtstreeks met je eigen hardware. Wij zien je gegevens nooit." },
+      { "title": "Broncode openbaar", "body": "Elke release komt in een openbare repository onder AGPL-3.0." },
+      { "title": "We beantwoorden elke e-mail", "body": "Schrijf naar {email}. Een mens leest je bericht." }
+    ],
+    "contactHeading": "Contact",
+    "contactBody": "Studio, pers en samenwerkingen: {email}. Elke app heeft een eigen supportadres, dat op de supportpagina van die app staat."
+  },
+  "about": {
+    "title": "Over DappleByte",
+    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: geen advertenties, geen abonnementen, geen server tussen jou en je hardware, broncode openbaar onder AGPL-3.0.",
+    "whatHeading": "Wat DappleByte is",
+    "whatBody": "DappleByte is een onafhankelijke studio die Android-apps maakt. Eén ontwikkelaar, een handvol apps, elk bedoeld om één taak goed te doen en verder niet in de weg te zitten.",
+    "howHeading": "Hoe we werken",
+    "openSourceHeading": "Open source",
+    "openSourceBody": "Elke release van elke app wordt als broncode gepubliceerd onder de AGPL-3.0. De link naar de repository staat op de pagina van elke app. Je kunt precies nalezen wat de app doet, hem zelf bouwen of controleren of het privacybeleid klopt met de code.",
+    "contactHeading": "Contact",
+    "contactBody": "Studio, pers en samenwerkingen: {email}. Support voor een specifieke app loopt via het adres op de supportpagina van die app, zodat je bericht met de juiste context in de juiste inbox belandt.",
+    "trademarksHeading": "Handelsmerken",
+    "trademarksBody": "Productnamen van andere bedrijven staan op deze site alleen om te beschrijven waarmee onze apps werken. Ze zijn eigendom van hun respectieve eigenaren; er wordt geen band of goedkeuring mee gesuggereerd.",
+    "siteHeading": "Deze website",
+    "siteBody": "Statische HTML, gebouwd met Astro en gehost op GitHub Pages. De site plaatst geen cookies en laadt geen scripts van derden. De broncode van de site is openbaar op github.com/dapplebyte/dapplebyte.github.io."
+  },
+  "product": {
+    "title": "{name} · DappleByte",
+    "screenshotsHeading": "Screenshots",
+    "screenshotAlt": "Screenshot {index} van {name}",
+    "featuresHeading": "Wat de app doet",
+    "faqHeading": "Veelgestelde vragen",
+    "faqAll": "Alle vragen",
+    "getHeading": "Download {name}",
+    "getBody": "Beschikbaar op Google Play voor Android. De broncode is gepubliceerd onder {license}.",
+    "requiresLabel": "Vereist",
+    "videoHeading": "Zie het in actie",
+    "allVideos": "Alle video's",
+    "moreHeading": "Meer over {name}"
+  },
+  "features": {
+    "title": "{feature} · {name}",
+    "indexHeading": "Functies",
+    "relatedFaq": "Gerelateerde vragen",
+    "backToProduct": "Terug naar {name}",
+    "allFeatures": "Alle functies van {name}",
+    "inShort": "In het kort"
+  },
+  "faq": {
+    "title": "FAQ over {name}",
+    "sectionTitle": "{section} · FAQ over {name}",
+    "description": "Antwoorden over {name}: manieren om te spelen, verbinden, aanmelden, streamkwaliteit, controllers, aankoop en terugbetalingen.",
+    "sectionDescription": "FAQ over {name}, {section}: {count} vragen met volledige antwoorden.",
+    "intro": "Dezelfde antwoorden staan in de app onder Instellingen → FAQ. Elke sectie is één pagina en elke vraag heeft een eigen link.",
+    "questionsCount": "{count} vragen",
+    "notFoundHeading": "Antwoord niet gevonden?",
+    "notFoundBody": "Schrijf ons met je telefoonmodel, je console en wat er gebeurde. Elk bericht wordt door een mens gelezen.",
+    "notFoundCta": "Naar support",
+    "prev": "Vorige",
+    "next": "Volgende",
+    "allSections": "Alle secties",
+    "linkToQuestion": "Link naar deze vraag"
+  },
+  "support": {
+    "title": "Support voor {name}",
+    "description": "Hulp bij {name}: wat je eerst controleert, hoe je ons bereikt, wat je meestuurt en hoe terugbetalingen werken.",
+    "beforeHeading": "Voordat je schrijft",
+    "beforeItems": [
+      "Open de FAQ. De meeste vragen over verbinden, aanmelden en beeld worden daar beantwoord, in dezelfde bewoording als in de app.",
+      "Maakt de app geen verbinding, start dan de verbindingsdokter via Instellingen. Die controleert je netwerk, de console en Remote Play, en kan het rapport met één tik naar ons mailen.",
+      "Zorg dat de console aanstaat of in de slaapstand staat, en dat Remote Play in de instellingen van de console is ingeschakeld."
+    ],
+    "writeHeading": "Schrijf ons",
+    "writeBody": "De knop opent je mail-app met het onderwerp al ingevuld. Opent er niets, kopieer dan het adres en de checklist hieronder naar een gewone e-mail.",
+    "writeButton": "Mail naar {email}",
+    "copyAddress": "Adres kopiëren",
+    "copied": "Gekopieerd",
+    "subject": "[{name}] ",
+    "templateHeading": "Wat je meestuurt",
+    "template": {
+      "phone": "Telefoonmodel:",
+      "android": "Android-versie:",
+      "console": "Console: PS5 / PS4",
+      "where": "Thuis of onderweg:",
+      "what": "Wat er gebeurde, stap voor stap:",
+      "doctor": "Heb je de verbindingsdokter gebruikt, plak het rapport dan hier."
+    },
+    "refundHeading": "Terugbetalingen",
+    "refundBody": "Werkt {name} niet met jouw opstelling, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen.",
+    "replyHeading": "Wanneer je antwoord krijgt",
+    "replyBody": "Meestal binnen twee werkdagen. Elk bericht wordt door een mens gelezen en krijgt een antwoord.",
+    "faqLink": "Lees eerst de FAQ"
+  },
+  "privacy": {
+    "title": "Privacybeleid van {name}",
+    "description": "Wat {name} voor Android met je gegevens doet: geen account, geen eigen server, wat op het apparaat blijft en waarmee de app verbinding maakt.",
+    "effective": "Van kracht vanaf {date}",
+    "appliesTo": "Geldt voor {name} voor Android ({appId}), verspreid via Google Play.",
+    "governing": "Dit beleid wordt in het Engels gepubliceerd. Vertalingen, indien beschikbaar, zijn alleen bedoeld als hulpmiddel; de Engelse tekst is bindend.",
+    "contact": "Vragen en verzoeken: {email}",
+    "contents": "Inhoud",
+    "backToTop": "Terug naar boven"
+  },
+  "sitePrivacy": {
+    "title": "Privacy van de website",
+    "description": "dapplebyte.com plaatst geen cookies, gebruikt geen analytics en laadt geen scripts van derden.",
+    "items": [
+      "Deze website is statische HTML. Hij plaatst geen cookies en laadt geen scripts, lettertypen of analytics van derden.",
+      "We gebruiken hier geen analytics. Onze enige cijfers komen van Google Search Console en Bing Webmaster Tools, die zoekvertoningen alleen geaggregeerd rapporteren.",
+      "Als je ons mailt, bewaren we het bericht zolang dat nodig is om je te helpen en verwijderen het daarna. We zetten je op geen enkele lijst.",
+      "De site wordt gehost op GitHub Pages, dat verzoeken logt zoals elke webserver dat doet. Zie de privacyverklaring van GitHub voor details.",
+      "Elke app heeft een eigen privacybeleid, gelinkt vanaf de pagina van die app. Dat beleid gaat over wat de apps doen; deze pagina gaat alleen over de website."
+    ],
+    "appsHeading": "Privacybeleid van de apps"
+  },
+  "videos": {
+    "title": "Video's van {name}",
+    "description": "Korte video's van {name} op een echte telefoon: instellen, streamen, controllerindelingen en verbindingsproblemen oplossen.",
+    "emptyHeading": "Video's komen eraan",
+    "emptyBody": "We nemen voor elke functie een uitleg op. Tot die tijd behandelen de functiepagina's en de FAQ hetzelfde.",
+    "kinds": { "promo": "Overzicht", "tutorial": "Uitleg", "troubleshooting": "Problemen oplossen" },
+    "watchOn": "Bekijk op YouTube",
+    "play": "Video afspelen"
+  },
+  "compare": {
+    "title": "{name} vergeleken",
+    "description": "Hoe {name} zich verhoudt tot PS Remote Play, PXPlay en Chiaki op Android: functie voor functie, alleen feiten.",
+    "intro": "Alleen feiten, gecontroleerd aan de hand van de winkelpagina of website van elke app. Elke app is beschreven zoals op de datum hieronder; nieuwere versies kunnen afwijken. We geven hier geen enkele app een beoordeling en beweren niet dat er één over de hele linie beter is.",
+    "verified": "Gecontroleerd op {date}",
+    "notVerified": "De andere kolommen zijn nog niet gecontroleerd, dus deze pagina wordt niet in zoekmachines opgenomen.",
+    "featureColumn": "Functie",
+    "rows": {
+      "platform": "Platform",
+      "away-from-home": "Remote Play onderweg",
+      "hevc-hdr": "Streamen in HEVC en HDR",
+      "virtual-pad-editor": "Virtuele gamepad met indelingseditor",
+      "physical-pad": "Bluetooth- of USB-gamepad doorsturen",
+      "tv-output": "Tv-uitvoer via HDMI",
+      "connection-doctor": "Ingebouwde verbindingsdiagnose",
+      "open-source": "Open source",
+      "pricing-model": "Prijsmodel"
+    },
+    "values": {
+      "yes": "Ja",
+      "no": "Nee",
+      "partial": "Deels",
+      "unknown": "Niet gecontroleerd",
+      "one-time": "Eenmalige aankoop",
+      "free": "Gratis",
+      "subscription": "Abonnement"
+    },
+    "vsTitle": "{name} vs. {other}",
+    "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: Remote Play onderweg, HEVC en HDR, controllers, tv-uitvoer, open source en prijs.",
+    "vsIntro": "Allebei verbinden ze een Android-apparaat met een PS5 of PS4. Dit zijn de verschillen, functie voor functie.",
+    "fullComparison": "Bekijk de volledige vergelijking"
+  },
+  "changelog": {
+    "title": "Versiegeschiedenis van {name}",
+    "description": "Elke release van {name} voor Android met wat er veranderd is, nieuwste eerst.",
+    "version": "Versie {version}",
+    "build": "build {code}",
+    "feed": "Atom-feed"
+  },
+  "press": {
+    "title": "Persmap van {name}",
+    "description": "Feiten, beeldmateriaal en een standaardtekst om over {name} te schrijven, de Android-app die via Remote Play als controller werkt en het beeld van je console streamt.",
+    "intro": "Alles op deze pagina mag je zonder te vragen gebruiken in artikelen, video's en app-overzichten. Heb je iets anders nodig, schrijf ons dan.",
+    "factsHeading": "Feitenoverzicht",
+    "facts": {
+      "name": "Naam",
+      "developer": "Ontwikkelaar",
+      "platform": "Platform",
+      "firstReleased": "Eerste release",
+      "currentVersion": "Huidige versie",
+      "price": "Prijs",
+      "priceValue": "Betaalde app, eenmalige aankoop, geen abonnement, geen advertenties. De actuele prijs staat op Google Play.",
+      "languages": "Talen",
+      "license": "Licentie",
+      "website": "Website",
+      "store": "Winkelpagina",
+      "source": "Broncode",
+      "contact": "Contact"
+    },
+    "oneLineHeading": "In één zin",
+    "boilerplateHeading": "Standaardtekst",
+    "boilerplate": "{name} maakt van een Android-telefoon een draadloze controller voor een PS5 of PS4, of streamt het beeld van de console naar de telefoon, een tablet of een tv, thuis of onderweg via mobiele data. De app is gemaakt door DappleByte, een onafhankelijke studio, en is als open source gepubliceerd onder de AGPL-3.0.",
+    "assetsHeading": "Beeldmateriaal",
+    "assetIcon": "App-icoon, PNG van 512 px",
+    "assetFeature": "Feature graphic, PNG van 1024 × 500",
+    "assetScreenshots": "Screenshots, PNG van 1920 × 1080, Engelstalig",
+    "assetStudioMark": "DappleByte-beeldmerk, SVG",
+    "screenshotN": "Screenshot {index}",
+    "contactHeading": "Perscontact",
+    "contactBody": "{email}. We beantwoorden elk bericht, meestal binnen twee werkdagen."
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "body": "Dat adres bestaat niet. Deze wel:",
+    "home": "Home"
+  },
+  "trademarks": {
+    "sony": "PlayStation, PS5 en PS4 zijn handelsmerken van Sony Interactive Entertainment Inc. {name} is niet verbonden aan Sony en wordt niet door Sony onderschreven."
+  }
+}

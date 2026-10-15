@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "de",
+  "title": "FAQ",
+  "intro": "Die Fragen, die uns am häufigsten erreichen, und was dagegen hilft. Tippen Sie auf eine Frage, um sie aufzuklappen.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Spielweisen",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "Was ist der Unterschied zwischen „Stream“, „Remote“ und „Gamepad“ auf der Konsolenkarte?",
+          "a": [
+            "„Stream“ spielt die Konsole über Ihr Heimnetzwerk auf diesem Telefon, und eine Konsole im Ruhemodus wird vorher aufgeweckt. „Remote“ macht dasselbe von überall über Ihr angemeldetes Konto. „Gamepad“ macht das Telefon zu einem Controller ohne Bild, für den Fall, dass Sie das Spiel auf dem Fernseher verfolgen. Die Karte merkt sich für jede Konsole die zuletzt gewählte Option."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "Warum gibt es im Gamepad-Modus kein Bild?",
+          "a": [
+            "Der Gamepad-Modus schickt nur Ihre Eingaben an die Konsole, das Spiel sehen Sie also auf dem Fernseher. Telefon und Konsole müssen dafür im selben Netzwerk sein. Ist die Konsole im Ruhemodus, wird sie aufgeweckt, und die App versucht es etwa 30 Sekunden lang weiter. Um das Spiel auf dem Telefon zu sehen, öffnen Sie das Menü und tippen auf „Zum Streaming wechseln“."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "Kann das Telefon ein zweiter Controller neben dem sein, der mit der Konsole verbunden ist?",
+          "a": [
+            "Nein. Das Telefon verbindet sich als Remote-Play-Controller des Kontos, mit dem es eingerichtet wurde. Es ersetzt also Ihren Controller, statt als weiterer dazuzukommen. Ein direkt mit der Konsole verbundener Controller kann nicht gleichzeitig spielen: Die Konsole weist ihm einen anderen Benutzer zu, etwa einen Gast, und die beiden nehmen sich dann ständig gegenseitig die Steuerung ab. Nutzen Sie das Telefon, wenn gerade kein Controller zur Hand ist, nicht als zusätzlichen Spieler."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "Ich habe auf „Streaming starten“ getippt, und die Karte ist zu „Remote“ gewechselt.",
+          "a": [
+            "Die App sucht einige Sekunden lang in Ihrem aktuellen Netzwerk nach der Konsole. Findet sie sie nicht, wechselt die Karte zu „Remote“, ohne eine Verbindung aufzubauen, damit Sie selbst entscheiden, ob Sie über Ihr Konto gehen. Zu Hause steckt dahinter meist ein VPN, ein Gastnetzwerk oder eine komplett ausgeschaltete Konsole. Die Verbindungsdiagnose zeigt, was davon zutrifft."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "Ich habe zu Hause „Remote“ gewählt, aber es wird lokal gestreamt.",
+          "a": [
+            "Ist die Konsole im selben Netzwerk, streamt „Remote“ stattdessen lokal, weil das schneller ist. Schalten Sie in den Einstellungen „Zu Hause lokal streamen“ aus, wenn „Remote“ immer über Ihr Konto gehen soll, zum Beispiel um es auszuprobieren, bevor Sie das Haus verlassen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Verbindung",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "Die Suche findet keine Konsole.",
+          "a": [
+            "Eine Konsole erscheint auf zwei Wegen: im selben Wi-Fi-Netzwerk wie das Telefon gefunden oder, sobald Sie angemeldet sind, aus Ihrem Konto aufgelistet. Die Suche im Netzwerk kommt nicht durch ein Gastnetzwerk, einen zweiten Router oder ein VPN, prüfen Sie also zuerst diese Punkte und lassen Sie die Konsole eingeschaltet oder im Ruhemodus. Erscheint sie dann immer noch nicht, tippen Sie im Schritt „Konsole auswählen“ auf „IP-Adresse eingeben“ und tragen Sie die Adresse der Konsole ein. Eine eingegebene Adresse muss mit einem Code gekoppelt werden."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "Es heißt „Nicht in diesem Netzwerk“, obwohl das Telefon im selben Wi-Fi ist.",
+          "a": [
+            "Mehrere Dinge führen dazu, obwohl alles nach einem einzigen Netzwerk aussieht. Ein Gastnetzwerk ist vom Hauptnetzwerk abgeschottet, auch am selben Router. Ein Router, der seinem 2,4-GHz- und seinem 5-GHz-Band verschiedene Namen gibt, kann beide Geräte in getrennte Subnetze legen, und manche Router verhindern, dass sich drahtlose Geräte gegenseitig sehen. Auch ein VPN oder eine App für privates DNS kann die Route übernehmen. Starten Sie die Verbindungsdiagnose und lesen Sie die Zeile „Gleiches Netzwerk wie die Konsole“, dort stehen beide Adressen."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "Die Konsole ist im Ruhemodus und verbindet sich nicht, oder das Aufwecken bewirkt nichts.",
+          "a": [
+            "„Streaming starten“ weckt eine Konsole im Ruhemodus von selbst und wartet bis zu etwa 25 Sekunden, der Gamepad-Modus versucht es etwa 30 Sekunden lang weiter. Von Hand wecken Sie die Konsole unter Einstellungen, Konsolen, mit „Konsole aufwecken“ im Menü des Gamepad-Modus oder mit dem Widget auf dem Startbildschirm. Das alles funktioniert nur im selben Netzwerk und nur, wenn die Konsole es erlaubt: Schalten Sie in ihren Energiespar-Einstellungen „Mit dem Internet verbunden bleiben“ und „Einschalten der Konsole über Netzwerk aktivieren“ ein."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "Es heißt „Konsole ist belegt“.",
+          "a": [
+            "Die Konsole erlaubt immer nur eine Remote-Sitzung, und ein anderes Telefon, Tablet oder ein Computer nutzt sie noch. Auch der Gamepad-Modus auf einem anderen Telefon zählt dazu. Beenden Sie die Sitzung auf diesem Gerät oder direkt an der Konsole und versuchen Sie es dann erneut."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "Nach einem Wechsel des Modus oder der Qualität dauert das Verbinden eine ganze Weile.",
+          "a": [
+            "Die Konsole braucht ein paar Sekunden, um die vorherige Sitzung freizugeben. Währenddessen versucht die App es im Hintergrund alle 2 Sekunden erneut, bis zu 20 Sekunden lang, und verbindet sich, sobald die Konsole bereit ist. Erst wenn die Konsole danach immer noch belegt ist, erscheint „Konsole ist belegt“."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "Es heißt „Remote Play ist auf der Konsole aus“.",
+          "a": [
+            "Die Konsole ist an, lehnt aber Remote-Verbindungen ab. Öffnen Sie auf der Konsole Einstellungen, System, Remote Play, schalten Sie „Remote Play aktivieren“ ein und verbinden Sie sich erneut. Die Zeile „Remote Play auf der Konsole“ in der Verbindungsdiagnose zeigt den zuletzt bekannten Zustand."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "Verbindet sich der Stream nach einem Abbruch von selbst neu?",
+          "a": [
+            "Ein lokaler Stream schon. Er versucht es bis zu dreimal mit wachsendem Abstand, gibt nach etwa 30 Sekunden auf und bietet dann die Verbindungsdiagnose an. Eine Remote-Verbindung versucht es nicht erneut, verbinden Sie sich dann also über die Konsolenkarte neu. Ebenfalls kein neuer Versuch folgt, wenn die Konsole belegt oder ausgeschaltet ist, Remote Play dort aus ist oder ein App-Update nötig ist, denn ein erneuter Versuch würde nichts ändern."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "Was prüft die Verbindungsdiagnose?",
+          "a": [
+            "Achtzehn Punkte auf diesem Telefon, auf dem Weg zur Konsole, auf dem Weg hinaus ins Internet und im Heimnetz der Konsole: Geräteleistung, Telefon-Netzwerk, gleiches Netzwerk wie die Konsole, Konsolenstatus, Remote Play auf der Konsole, Latenz und Jitter, geschätzte Übertragungsrate, VPN- und Filter-Apps, Bluetooth-Störungen, UPnP am Router, Netzwerkadressübersetzung, öffentliche IPv4-Adresse, Verbindung zu PlayStation Network, Konto, externer Bildschirm sowie öffentliche Adresse der Konsole, UPnP am Router der Konsole und NAT-Typ der Konsole. Zu roten und gelben Punkten gehört eine Lösung, und der Bericht lässt sich kopieren, teilen oder per E-Mail an uns schicken."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "Zu Hause funktioniert es, unterwegs nicht.",
+          "a": [
+            "Unterwegs wählen Sie auf der Konsolenkarte „Remote“ und tippen auf „Remote spielen“. Die Verbindung läuft über Ihr Konto. Das Konto muss deshalb per Anmeldung hinzugefügt und die Konsole einmal zugeordnet sein. Eine Verbindung dauert meist 20 bis 40 Sekunden, und UPnP am Router zu Hause wird von selbst versucht. Schlägt sie fehl, nennt die Meldung den Grund; die nächsten Fragen behandeln die häufigsten Ursachen, und ein VPN nach Hause ist ein weiterer Weg daran vorbei."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "„Remote“ verlangt zuerst, die Konsole zuzuordnen.",
+          "a": [
+            "„Remote“ muss wissen, welche Konsole in Ihrem Konto die ist, die auf diesem Telefon gekoppelt ist. Tippen Sie auf die Karte oder öffnen Sie Einstellungen, Remote-Verbindung, und wählen Sie sie einmal unter „Konsolen auf Ihrem Konto“ aus. Die Konsole muss bereits auf diesem Telefon gekoppelt sein, und das Konto muss per Anmeldung hinzugefügt worden sein, nicht mit einer Online ID."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "Die Remote-Verbindung schlägt fehl. Was sind die üblichen Ursachen?",
+          "a": [
+            "Die Meldung auf dem Bildschirm nennt die Ursache. Die Konsole hat nicht geantwortet: Lassen Sie sie eingeschaltet oder im Ruhemodus, mit „Mit dem Internet verbunden bleiben“ und „Einschalten der Konsole über Netzwerk aktivieren“ in ihren Energiespar-Einstellungen. Das Netzwerk erlaubt keine direkte Verbindung: Probieren Sie ein anderes Netzwerk, schalten Sie in den Einstellungen „Portsuche für die Remote-Verbindung“ ein oder nutzen Sie ein VPN nach Hause. Ihr Anbieter teilt eine öffentliche Adresse zwischen vielen Nutzern: Portweiterleitung hilft dann nicht, wechseln Sie also das Netzwerk oder nutzen Sie ein VPN. Die Anmeldung ist abgelaufen: Melden Sie sich bei diesem Konto erneut an."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "PSN verbindet sich nicht, oder die Verbindung bricht ab, sobald mein Proxy an ist?",
+          "a": [
+            "Wo PSN schwer erreichbar ist, braucht eine Remote-Verbindung zwei verschiedene Wege: Der Spiele-Stream muss sich direkt verbinden, Anmeldung und PSN-Verbindung dürfen über einen Proxy laufen. Eine Proxy-App im VPN-Modus zieht auch den Spiele-Stream in ihren Tunnel, und die Sitzung bricht ab. Stellen Sie Ihre Proxy-App auf Per-App-Proxy um und fügen Sie Relaypad zu ihrer Ausnahmeliste hinzu. Öffnen Sie dann Einstellungen, PSN-Verbindungsproxy und wählen Sie „Automatisch“, oder wählen Sie „Manuell“ und tragen Sie den lokalen Port Ihrer Proxy-App ein (Typ HTTP, Host 127.0.0.1; Clash nutzt meist 7890, v2rayNG 10809). Der Punkt „Verbindung zu PlayStation Network“ in der Verbindungsdiagnose zeigt, ob es funktioniert."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "Muss ich eine Portweiterleitung einrichten?",
+          "a": [
+            "Meist nicht. „Remote“ versucht UPnP von selbst, und eine Weiterleitung hilft nur, wenn Ihr Router zu Hause die Verbindung blockiert, nicht wenn ein Anbieter eine Adresse zwischen vielen Nutzern teilt. Falls Sie sie doch brauchen, kann Einstellungen, Router-Portweiterleitung die Ports automatisch weiterleiten oder sie zum Einrichten von Hand auflisten. Weitergeleitete Ports machen die Konsole aus dem Internet erreichbar, ein VPN nach Hause ist daher die sicherere Wahl."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "Was tun, wenn das Netzwerk der Konsole CGNAT oder doppeltes NAT hat?",
+          "a": [
+            "Öffnen Sie die Verbindungsdiagnose und sehen Sie sich den Bereich „Heimnetz der Konsole“ an. Er wird gemessen, wenn Ihr Telefon im Wi-Fi der Konsole ist oder wenn Sie eine Remote-Verbindung aufbauen. Doppeltes NAT heißt zwei Router hintereinander, meist das Modem Ihres Anbieters plus Ihr eigener Router: Schalten Sie das Modem in den Bridge-Modus oder aktivieren Sie im Modem die DMZ mit Ihrem Router als Ziel. CGNAT heißt, Ihr Anbieter teilt eine öffentliche Adresse zwischen vielen Haushalten, Portweiterleitung kann dann nicht helfen: Fragen Sie Ihren Anbieter nach einer öffentlichen IP-Adresse. In beiden Fällen funktioniert auch ein VPN nach Hause wie Tailscale, weil es keine Direktverbindung von außen braucht."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "Kann ich über ein VPN von außerhalb meines Heimnetzwerks spielen?",
+          "a": [
+            "Ja, mit einem VPN nach Hause. Stellen Sie ein immer eingeschaltetes Gerät ins Netzwerk der Konsole und verbinden Sie sich vom Telefon aus mit diesem Netzwerk: Tailscale auf einem NAS, einem Raspberry Pi oder einem PC erledigt das mit einem einzigen Befehl (tailscale up --advertise-routes=Ihr.Heim.Subnetz, danach die Route in der Verwaltungsoberfläche freigeben), und ein Router mit eingebautem WireGuard- oder OpenVPN-Server funktioniert genauso. Ist das VPN verbunden, tippen Sie wie gewohnt auf der Konsolenkarte auf „Streaming starten“: Die Suche im Netzwerk kommt nicht durch ein VPN, deshalb versucht die App zusätzlich die Adresse, die die Konsole zu Hause hatte. Die Konsole muss vorher zu Hause gekoppelt worden sein, und die Upload-Geschwindigkeit Ihres Anschlusses zu Hause wird zur Obergrenze."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "Kann ich mehrere Konsolen oder mehrere Konten behalten?",
+          "a": [
+            "Beides, und beides kostet nichts. Jede gekoppelte Konsole bleibt in der Liste, und jede lässt sich unter Einstellungen, Konsolen mit einem anderen Konto verknüpfen. Die Konten selbst verwalten Sie unter Einstellungen, Konten."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "Ich habe ein neues Telefon, und meine Konsolen sind weg oder verbinden sich nicht.",
+          "a": [
+            "Konsolen, Konten und Kopplungsschlüssel sind nicht in Cloud-Backups enthalten, auf einem neuen Telefon richten Sie also neu ein: Konto hinzufügen und jede Konsole einmal koppeln. Hat eine Übertragung von Telefon zu Telefon die Konsolenliste mitgebracht, bleiben die Schlüssel trotzdem zurück, weil sie an das alte Telefon gebunden sind: Öffnen Sie Einstellungen, Konsolen, wählen Sie die Konsole und tippen Sie auf „Erneut koppeln“. Bei einem per Anmeldung hinzugefügten Konto werden Sie eventuell auch aufgefordert, sich erneut anzumelden."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Einrichtung und Anmeldung",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "Warum wird eine Account ID gebraucht?",
+          "a": [
+            "Die Konsole koppelt sich nur mit einem Gerät, das angibt, zu welchem Konto es gehört. Die Account ID ist deshalb Teil der Kopplung selbst. Sie ist eine 12 Zeichen lange Kennung, die zu Ihrem Konto gehört, kein Passwort. Die Einrichtung fragt zuerst danach, und weitere Konten fügen Sie später unter Einstellungen, Konten hinzu. Ein per Anmeldung hinzugefügtes Konto kann außerdem die Konsolen auf Ihrem Konto auflisten, sie ohne Code einrichten und „Remote“ nutzen."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "Welche Wege gibt es, ein Konto hinzuzufügen?",
+          "a": [
+            "„Account ID abrufen“ bietet zwei Gruppen. Die Anmeldung, der empfohlene Weg, umfasst „In der App anmelden“, bei dem Sie Ihr Passwort auf der offiziellen Seite eingeben, und „Im Browser anmelden“, das mit Passkeys und Passwortmanagern funktioniert. „Nur lokale Einrichtung“ kommt ohne Anmeldung aus: „Online ID verwenden“ deckt Konsolen der 4. Generation unter 8.0 ab, und „Account ID eingeben“ unter „Erweitert“ übernimmt die ID von einem anderen Telefon, auf dem diese App bereits angemeldet ist. Ohne Anmeldung können Sie zu Hause weiterhin koppeln und spielen, aber weder ohne Code einrichten noch „Remote“ nutzen."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "Mein Konto nutzt einen Passkey. Wie melde ich mich an?",
+          "a": [
+            "Wählen Sie „Im Browser anmelden“. Passkeys funktionieren auf der Anmeldeseite in der App nicht, im Browser aber ganz normal, und die Adresse wird automatisch übernommen, wenn Sie zur App zurückkehren."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "Was mache ich nach der Anmeldung im Browser?",
+          "a": [
+            "Nach der Anmeldung landet der Browser auf einer leeren Seite. Das ist so gewollt. Kopieren Sie die komplette Adresse aus der Adresszeile und kehren Sie zur App zurück, dort wird sie automatisch übernommen. Passiert nichts, fügen Sie sie in das Feld darunter ein und achten Sie darauf, dass alles nach code= mitkopiert ist."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "Die Anmeldeseite in der App bleibt leer oder lädt nicht.",
+          "a": [
+            "Manche Netzwerke und Telefone blockieren diese Seite innerhalb von Apps. Die App merkt, wenn sie leer bleibt oder fehlschlägt, nennt den Grund und bietet „Erneut versuchen“ und „Stattdessen den Browser verwenden“ an. Die Anmeldung im Browser führt zum selben Ergebnis, wechseln Sie also dorthin, wenn ein erneuter Versuch nicht hilft. Die Bestätigung in zwei Schritten erledigen Sie direkt auf der Anmeldeseite."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "Es heißt, der Anmeldecode sei abgelaufen.",
+          "a": [
+            "Der Code in der Adresse gilt nur kurz. Öffnen Sie die Anmeldeseite erneut, melden Sie sich an und kehren Sie sofort zur App zurück. Im Browser tippen Sie auf „Anmeldeseite erneut öffnen“ und kopieren die neue Adresse."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "Kann ich die App ohne Anmeldung einrichten?",
+          "a": [
+            "Ja, mit „Nur lokale Einrichtung“. „Online ID verwenden“ funktioniert bei Konsolen der 4. Generation unter 8.0; bei neueren Konsolen wählen Sie „Account ID eingeben“ unter „Erweitert“ und kopieren die ID unter Einstellungen, Konten auf einem anderen Telefon, auf dem diese App angemeldet ist. In beiden Fällen können Sie im Heimnetzwerk koppeln und spielen, aber die Einrichtung ohne Code, die Konsolen auf Ihrem Konto und „Remote“ brauchen ein angemeldetes Konto. Eine Online ID wird über einen öffentlichen Dienst nachgeschlagen."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "Bei meinem Konto steht „Anmeldung abgelaufen“.",
+          "a": [
+            "Tippen Sie unter Einstellungen, Konten daneben auf „Erneut anmelden“; die Anmeldung öffnet sich auf demselben Weg wie beim letzten Mal. Die Anmeldung wird nur für „Remote“, die Einrichtung ohne Code und die Liste der Konsolen auf Ihrem Konto gebraucht, bereits gekoppelte Konsolen funktionieren zu Hause also in jedem Fall weiter."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "Soll ich „Mit Code koppeln“ oder „Einrichtung ohne Code“ wählen?",
+          "a": [
+            "„Mit Code koppeln“ dauert ein paar Sekunden, aber Sie müssen an der Konsole sein, und das Telefon muss im selben Netzwerk sein. „Einrichtung ohne Code“ funktioniert von überall, auch mit der Konsole im Ruhemodus, und dauert etwa 30 Sekunden. Dafür braucht es eine Konsole der 5. Generation, die mit demselben Konto angemeldet ist, ein per Anmeldung hinzugefügtes Konto, eingeschaltetes Remote Play und die neueste Systemsoftware. Danach funktioniert die Konsole in beiden Fällen gleich."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "Die Kopplung ist fehlgeschlagen, oder der Kopplungscode ist abgelaufen.",
+          "a": [
+            "Ein Kopplungscode gilt 300 Sekunden und lässt sich nur einmal verwenden. Holen Sie einen neuen auf der Konsole unter Einstellungen, System, Remote Play, Gerät verknüpfen, bei einer Konsole der 4. Generation unter Einstellungen, Remote Play-Verbindungseinstellungen, Gerät hinzufügen, und geben Sie ihn sofort ein. „Konsolen-Passcode (optional)“ ist eine andere Zahl, nämlich der vierstellige Passcode, der auf der Konsole eingestellt ist, und bleibt leer, solange die Konsole nicht danach fragt. Bei einer Konsole der 5. Generation können Sie auch auf „Andere Methode wählen“ tippen und „Einrichtung ohne Code“ versuchen."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "„Einrichtung ohne Code“ ist fehlgeschlagen.",
+          "a": [
+            "Die Meldung nennt die Ursache: Die Konsole gehört nicht zu Ihrem Konto oder ist dort nicht die primäre Konsole, Remote Play ist aus, die Konsole hat nicht geantwortet, zwei Konsolen tragen denselben Namen, das Netzwerk lässt keine direkte Verbindung zu, oder die Anmeldung ist abgelaufen. Beheben Sie das und versuchen Sie es erneut ohne Code, oder tippen Sie auf „Andere Methode wählen“ und koppeln Sie an der Konsole mit einem Code, wofür das Telefon im selben Netzwerk sein muss."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "Was passiert, wenn ich ein Konto entferne?",
+          "a": [
+            "Nur dieses Telefon vergisst es, samt seiner Anmeldung. Damit verknüpfte Konsolen funktionieren zu Hause weiter, haben aber kein Konto, bis Sie unter Einstellungen, Konsolen, die Konsole, „Konto der Konsole“ eines auswählen. An der Konsole und am Konto selbst ändert sich nichts."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "Sehen Sie mein Passwort?",
+          "a": [
+            "Nein. Sie geben Ihr Passwort auf der offiziellen Anmeldeseite ein, und diese App hat keinen eigenen Server, es geht also nichts von dem, was Sie dort eingeben, durch unsere Hände. Die App speichert die Account ID, die Online ID und die Anmelde-Tokens auf diesem Telefon, und die Tokens sowie die Kopplungsschlüssel werden mit dem Android-Keystore verschlüsselt. Das Nachschlagen einer Online ID läuft über einen öffentlichen Dienst."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Streaming und Bild",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "Wo sind die Bedienelemente während eines Streams?",
+          "a": [
+            "Die obere Leiste blendet sich nach ein paar Sekunden aus. Tippen Sie auf eine freie Stelle im Bild, um sie zurückzuholen: Das Schieberegler-Symbol öffnet das Schnellmenü, und „Zum Beenden halten“ beendet den Stream. Langes Drücken auf eine freie Stelle öffnet ebenfalls das Schnellmenü."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "Worauf ist die kostenlose Nutzung beschränkt?",
+          "a": [
+            "Auf Streaming im Heimnetzwerk mit bis zu 720p und 30 fps über H.264, ohne Zeitlimit und ohne Werbung. Die Grenze wird bei jedem Sitzungsstart gesetzt. Der Gamepad-Modus ist vollständig kostenlos und ohne Grenze. Streaming auf Android TV setzt Pro voraus."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "Wie schalte ich 1080p und 60 fps ein?",
+          "a": [
+            "Wählen Sie es unter Einstellungen, Videoqualität. Während eines Streams können Sie es auch unter „Videoqualität“ im Schnellmenü wählen und dann auf „Neu verbinden und übernehmen“ tippen. Ihr Telefon muss dabei mitkommen; stockt das Bild bei 1080p, lohnt sich ein Durchlauf der Verbindungsdiagnose."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "Kann ich Auflösung oder Bildrate während eines Streams ändern?",
+          "a": [
+            "Ja. Öffnen Sie das Schnellmenü, wählen Sie unter „Videoqualität“ aus und tippen Sie auf „Neu verbinden und übernehmen“; das Bild stockt dann ein paar Sekunden. Eine Remote-Verbindung kann nicht mitten im Stream wechseln, Ihre Auswahl gilt dann ab der nächsten Verbindung. Codec, Bitrate und Decoder finden Sie unter Einstellungen, Videoqualität."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "Was ist der Unterschied zwischen „Ganz anzeigen“, „Gestreckt füllen“ und „Vergrößert füllen“?",
+          "a": [
+            "„Ganz anzeigen“ behält die Proportionen und lässt schwarze Balken stehen. „Gestreckt füllen“ füllt den Bildschirm und verzerrt das Bild leicht. „Vergrößert füllen“ füllt den Bildschirm, indem die Ränder abgeschnitten werden, und ist auf einem hohen Telefon die übliche Wahl. Ändern lässt sich das unter Einstellungen, Skalierung oder unter „Skalierung“ im Schnellmenü."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "Auf einem Tablet oder Foldable verdeckt das Bildschirm-Gamepad das Bild.",
+          "a": [
+            "Öffnen Sie das Schnellmenü und stellen Sie „Layout“ auf „Geteilt“: Bild und Bildschirm-Gamepad werden getrennt angeordnet, sodass keins das andere verdeckt. „Auto“ macht das bereits, wenn der Bildschirm hochkant steht oder ein Foldable halb aufgeklappt ist. Diese Optionen erscheinen nur auf Tablets und Foldables und sind kostenlos."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "Das Bild wirkt dunkler, als es sein sollte.",
+          "a": [
+            "Das ist „Bildabdunkelung“ im Schnellmenü. Sie dunkelt das Bild ab, damit sich die Bildschirmtasten besser abheben; ziehen Sie den Regler ganz nach unten, um sie auszuschalten. Sie ist unabhängig von „Deckkraft des Overlays“, womit die Tasten selbst blasser werden."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "Das Bild ruckelt oder verliert Bilder.",
+          "a": [
+            "Fast immer liegt es an der Funkstrecke, nicht am Telefon. Wechseln Sie ins 5-GHz-Netz desselben Routers, gehen Sie näher heran und schließen Sie die Konsole nach Möglichkeit per Kabel an. Starten Sie die Verbindungsdiagnose und sehen Sie sich Latenz und geschätzte Übertragungsrate an: über 30 ms oder unter 15 Mbps hält das Bild nicht. Während eines Streams hilft es sofort, im Schnellmenü Auflösung oder Bildrate zu senken."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "Das Bild zerfällt oder friert ein, aber der Ton läuft weiter.",
+          "a": [
+            "Öffnen Sie das Schnellmenü und tippen Sie unter „Aktionen“ auf „Bild reparieren“: Damit wird bei der Konsole ein frisches Bild angefordert. Passiert es immer wieder, senken Sie die Auflösung und starten Sie die Verbindungsdiagnose."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "Was bedeuten die Zahlen im Performance-Overlay?",
+          "a": [
+            "Die Latenz addiert die Paketlaufzeit hin und zurück und die Zeit, die dieses Telefon zum Decodieren und Zeichnen eines Bildes braucht. Sie ist also eine Schätzung, die Konsole und Bildschirm außen vor lässt. Unter 60 ms wird sie grün angezeigt, über 100 ms rot. Liegt die Bitrate weit unter Ihrer Einstellung, bremst das Netzwerk; ist die Bitrate in Ordnung, das Decodieren dauert aber lange, bremst das Telefon. Im Schnellmenü wählen Sie „Kompakt“ oder „Detailliert“."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "HEVC oder HDR lässt sich nicht auswählen, oder der Stream nutzt stattdessen H.264.",
+          "a": [
+            "HEVC braucht einen passenden Decoder auf diesem Telefon und HDR einen Bildschirm, der es unterstützt; die Seite „Videoqualität“ nennt den Grund, wenn eine Option nicht verfügbar ist. Kann das Telefon das Format beim Start eines Streams nicht decodieren, wechselt der Stream von selbst zu H.264 oder SDR und sagt Ihnen Bescheid."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "Kann der Stream weiterlaufen, wenn ich zu einer anderen App wechsle?",
+          "a": [
+            "Ja. Verlassen Sie die App während eines Streams, schrumpft das Bild zu einem kleinen Fenster, das weiterläuft. Tippen Sie darauf, um ohne neue Verbindung zum Vollbild zurückzukehren, oder schließen Sie es, um den Stream zu beenden. Solange das Bild auf einem Fernseher läuft, startet es nicht, und ausschalten lässt es sich unter Einstellungen, Bild-in-Bild."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "Wie viele Daten verbraucht das Streaming?",
+          "a": [
+            "Das hängt von der Auflösung ab: bis zu etwa 1 GB pro Stunde bei 360p, 2,7 GB bei 540p, 4,5 GB bei 720p und 6,8 GB bei 1080p, mit manueller Bitrate auch mehr. Der tatsächliche Verbrauch liegt oft darunter. Über mobile Daten nutzt die App standardmäßig 720p mit 30 fps, beim Streaming über ein VPN nach Hause genauso wie bei „Remote“. Wenn Sie Ihre eigene Qualität behalten möchten, schalten Sie Einstellungen, Mobile Daten aus."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "Kann ich das Bild auf einen Fernseher bringen?",
+          "a": [
+            "Ja. Verbinden Sie Ihr Telefon während des Streamens per USB-C-auf-HDMI-Kabel mit dem Fernseher, oder starten Sie die Bildschirmübertragung aus den Systemeinstellungen. Der Fernseher zeigt dann nur das Spiel, und Ihr Telefon wird zum Controller. Auf dem Fernseher wird nichts installiert und Sie melden sich dort nie an, ein Hotelfernseher oder der Fernseher von Freunden ist also kein Problem."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "Das Bild auf dem Fernseher wirkt verzögert",
+          "a": [
+            "Schalten Sie zuerst am Fernseher den Spielmodus ein. In den normalen Bildmodi kommen bei den meisten Fernsehern 60 bis 120 ms Verzögerung dazu; im Spielmodus sind es nur noch 10 bis 30 ms, und nichts anderes bringt annähernd so viel. Danach gilt: Kabel schlägt Übertragung, denn eine drahtlose Übertragung muss das Bild ein zweites Mal codieren und kostet noch einmal 100 ms oder mehr. Zuletzt kommt der Stream selbst, der in einem guten Netzwerk schneller läuft und zu Hause deutlich schneller als über das Internet."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "Das Kabel steckt und es passiert nichts",
+          "a": [
+            "Nicht jedes Telefon kann Video über den USB-C-Anschluss ausgeben. Spitzenmodelle meistens schon, Mittelklasse-Telefone oft nicht, und vorher lässt sich das nicht feststellen. Führen Sie die Verbindungsdiagnose mit eingestecktem Kabel aus: Die Zeile „Externer Bildschirm“ sagt Ihnen, ob das System den Fernseher überhaupt sieht. Wenn nicht, liegt es am Telefon oder am Adapter, und eine drahtlose Übertragung aus den Systemeinstellungen ist der Weg darum herum."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "Kann ich laden, während das HDMI-Kabel steckt?",
+          "a": [
+            "Nur mit einem Adapter, der einen eigenen Stromeingang hat. Der USB-C-Anschluss ist vom Videosignal belegt, und Streaming samt Decodieren zieht den Akku schnell leer. Für lange Sitzungen lohnt sich deshalb ein USB-C-Hub mit HDMI und Stromdurchleitung."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "Der Fernseher in meinem Hotelzimmer funktioniert nicht",
+          "a": [
+            "Bei manchen Hotelfernsehern sind die HDMI-Anschlüsse deaktiviert oder hinter der Rückwand versteckt, und die App kann daran nichts ändern. Wenn der Fernseher einen erreichbaren Anschluss hat, verhält sich das Kabel wie an jedem anderen Fernseher. Andernfalls läuft der Stream wie gewohnt auf Ihrem Telefon weiter."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "Macht der Kopierschutz das Bild schwarz?",
+          "a": [
+            "Nein. Die App decodiert einen ganz normalen Videostream und keine geschützten Inhalte, deshalb zeigt der Fernseher ihn über HDMI ganz normal an. Das schwarze Bild, das manche Video-Apps auf einem externen Bildschirm liefern, gibt es hier nicht."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Controller",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "Kann ich die Tasten auf dem Bildschirm verschieben?",
+          "a": [
+            "Ja, und das kostenlos. Unter Einstellungen, Pad-Layouts sehen Sie alle Layouts und können Ihre eigenen umbenennen oder löschen; tippen Sie auf ein Layout, um jedes Bedienelement zu ziehen, in der Größe zu ändern, abzublenden oder auszublenden. „Vorlagen“ bietet Standard, Compact, Remote, Fighting und Racing als Ausgangspunkt, und mit „JSON exportieren“ und „JSON importieren“ bringen Sie ein Layout über die Zwischenablage auf ein anderes Telefon. Auf Telefonen bearbeiten Sie Layouts im Querformat; Tablets haben zusätzlich einen Tab „Hochformat“ für die Layouts der geteilten Ansicht."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "Kann ich beim Streamen mein eigenes Layout verwenden?",
+          "a": [
+            "Ja. Tippen Sie im Schnellmenü unter „Layout“ auf „Eigenes“ und wählen Sie eines Ihrer Layouts im Querformat. „Kompakt“ und „Standard“ sind die eingebauten Layouts, die so wenig wie möglich vom Bild verdecken. Wird das gewählte Layout gelöscht, kehrt das Streaming zu „Kompakt“ zurück. Wenn Sie ein eingebautes Layout bearbeiten, wird Ihre Version als Kopie gespeichert, das Original bleibt also erhalten."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "Das Bildschirm-Gamepad fehlt beim Streamen oder ist kaum zu sehen.",
+          "a": [
+            "Prüfen Sie „Gamepad“ im Schnellmenü: „Auto“ blendet es aus, solange ein physischer Controller verbunden ist, „Verborgen“ blendet es immer aus, und „Immer“ lässt es auf dem Bildschirm. Auch der „Minimalmodus“ blendet es aus. Streams starten mit dem Layout „Kompakt“, das kleinere, blassere Tasten hat. Stellen Sie „Layout“ also auf „Standard“ oder erhöhen Sie „Deckkraft des Overlays“, wenn die Tasten schwer zu erkennen sind."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "Wie wechsle ich im Layout „Kompakt“ zwischen Stick und Steuerkreuz?",
+          "a": [
+            "Tippen Sie auf die kleine Lasche am unteren Rand des runden Bedienelements. Damit wechseln Sie zwischen Stick und Steuerkreuz, und die linke und rechte Seite wechseln unabhängig voneinander."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "Wie funktioniert das Touchpad auf dem Bildschirm?",
+          "a": [
+            "Wischen Sie mit einem oder zwei Fingern darüber, um Berührungen zu senden, und tippen Sie kurz darauf für einen Touchpad-Klick. Einen Klick gedrückt zu halten wird nicht unterstützt."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "Kann ich einen echten Controller verwenden?",
+          "a": [
+            "Ja. Jeder Controller, den Android über Bluetooth oder USB erkennt, wird weitergereicht, und passend zum Hersteller wird eine Standardbelegung gesetzt. Im Gamepad-Modus bleibt das Bildschirm-Gamepad daneben nutzbar. Beim Streamen fragt die App einmal, ob das Bildschirm-Gamepad zusätzlich angezeigt werden soll, und „Gamepad“ im Schnellmenü ändert das später. Mehrere Controller und das Bildschirm-Gamepad zählen an der Konsole zusammen als ein einziger Controller."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "Die Tasten meines Controllers liegen falsch.",
+          "a": [
+            "Öffnen Sie bei verbundenem Controller Einstellungen, Tastenbelegung und wählen Sie ihn aus. Tippen Sie auf eine Aktion und drücken Sie die gewünschte Taste; Sticks lassen sich umkehren, und „Live-Test“ zeigt, was jede Taste sendet. Tippen Sie auf „Speichern“, um die Änderungen zu behalten. Die Belegung wird pro Controller-Modell gespeichert, zwei Controller desselben Modells teilen sie sich also, und „Zurücksetzen“ stellt die Standardbelegung wieder her."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "Mein Controller hat keine PS-Taste und kein Touchpad, oder beide tun nichts.",
+          "a": [
+            "Die meisten Controller bekommen Kombinationen: Select und Start zusammen wirken als PS-Taste, Select und L3 als Touchpad-Klick. Ein Controller, der schon eine PS-Taste hat, bekommt nur die Touchpad-Kombination. Die Kombinationen lassen sich nicht ändern, aber unter Einstellungen, Tastenbelegung können Sie PS, Touchpad oder MIC stattdessen auf eine beliebige einzelne Taste legen. Das Bildschirm-Layout Standard hat ebenfalls alle Tasten."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "Funktioniert ein Controller, der für die Konsole gemacht ist, am Telefon vollständig?",
+          "a": [
+            "Über Bluetooth werden Tasten und Sticks weitergereicht, Wischgesten auf dem Touchpad, Bewegungssensor und Mikrofon aber nicht. Ist er beim Streamen per USB verbunden, tippen Sie im Schnellmenü auf „Erlauben“, um adaptive Trigger, Lichtleiste und Controller-Haptik zu nutzen, kostenlos für alle. Heißt es „USB-Zugriff blockiert“, belegt ein anderer Treiber auf dem Telefon den Controller; verbinden Sie ihn dann stattdessen über Bluetooth."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "Wie funktionieren Vibration und Tasten-Haptik?",
+          "a": [
+            "Vibration aus dem Spiel geht an den physischen Controller, wenn er Motoren hat, sonst an das Telefon. Das kurze Summen beim Drücken von Bildschirmtasten ist „Tasten-Haptik“ unter „Eingabe“ im Menü des Gamepad-Modus: Jedes Tippen schaltet eine Stufe weiter, von aus bis 3, und die gewählte Stufe wird gespeichert."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "Wo finde ich Mikrofon und Bewegungssensor?",
+          "a": [
+            "Im Gamepad-Modus stehen beide im Menü unter „Eingabe“. Der Bewegungssensor sendet Gyroskop und Beschleunigungssensor des Telefons und ist bei jeder Verbindung zunächst aus. Das Mikrofon fragt zuerst nach der Berechtigung; danach wechselt ein Tippen zwischen „Aktiv“ und „Stumm“. Beim Streamen gibt es keinen Bewegungssensor, und das Mikrofon ist die Taste MIC auf dem Bildschirm-Gamepad. Beides ist kostenlos."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "Wie versetze ich die Konsole in den Ruhemodus oder gehe zu ihrer Startseite?",
+          "a": [
+            "Im Gamepad-Modus finden Sie unter „Aktionen“ im Menü „Konsole aufwecken“, „Konsole in den Ruhemodus“, „Konsolen-Startseite“ und „Bildschirm sperren“, das Berührungen ignoriert, bis Sie entsperren. Die PS-Taste auf dem Bildschirm-Gamepad funktioniert ebenfalls."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "Kann ich damit Video-Apps auf der Konsole steuern?",
+          "a": [
+            "Ja. Schalten Sie im Gamepad-Modus unter „Layout“ im Menü „Fernbedienungs-Layout“ ein, dann erhalten Sie große Tasten für Medien-Apps. Schalten Sie es wieder aus, um ein anderes Layout zu wählen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "KI-Copilot",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "Kostet der KI-Copilot etwas?",
+          "a": [
+            "Nicht bei uns. Er läuft mit Ihrem eigenen API-Schlüssel: Wir bekommen ihn nie in die Hand und schlagen nichts auf, und der Anbieter rechnet Ihre Nutzung direkt mit Ihnen ab. Der Bereich „Spielguides“ unter Einstellungen, KI-Copilot zeigt die ungefähren Kosten pro Guide beim gewählten Anbieter, und „Nutzung“ schätzt, was in diesem Monat zusammenkommt, einschließlich der Zahl der Websuchen."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "Wohin wird mein Bildschirm gesendet?",
+          "a": [
+            "Nur wenn Sie es anfordern: Ihr Guide-Thema, der Spielname und, falls Sie es anhängen, ein verkleinertes Bild des Streams gehen direkt an den Anbieter, den Sie eingerichtet haben; dieser führt auch die Websuchen aus. Dazwischen gibt es keinen Server von uns, und wir führen keine Protokolle; Guides werden nur auf diesem Telefon gespeichert. Ihr Schlüssel ist verschlüsselt auf diesem Telefon gespeichert, und ohne Schlüssel wird nirgendwohin etwas gesendet."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "Woher kommen die Spielguides?",
+          "a": [
+            "Wenn Sie nach einem Guide suchen, durchsucht das eingerichtete Modell selbst das Web: Anthropic, Google, OpenAI und DeepSeek führen die Suchen alle auf ihrer Seite aus. Das Modell liest die Ergebnisse und schreibt einen Schritt-für-Schritt-Guide in Ihrer Sprache, mit den Quellen darunter. Guides werden nur auf diesem Telefon gespeichert, erneutes Öffnen kostet also nichts."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "Warum steht bei meinem Guide „Keine Websuche“?",
+          "a": [
+            "Nur Anthropic, Google, DeepSeek und der offizielle Endpunkt von OpenAI können im Web suchen. Ein selbst gehosteter oder fremder OpenAI-kompatibler Endpunkt wie OpenRouter oder Ollama antwortet aus dem eigenen Wissen des Modells, das bei neueren Spielen veraltet sein kann. Für Guides mit Websuche wählen Sie die Karte von Anthropic, Google oder DeepSeek, oder Sie tragen auf der Karte „OpenAI-kompatibel“ den offiziellen Endpunkt von OpenAI ein."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "Was kostet ein Guide?",
+          "a": [
+            "Anthropic und OpenAI berechnen zusätzlich zu den Tokens etwa einen US-Cent pro Websuche, ein Guide kostet also rund 8 bis 15 Cent. Bei Google sind Tausende kostenlose Suchen pro Monat enthalten. DeepSeek berechnet nur Tokens, deutlich unter einem Cent. „Suchtiefe“ in den Einstellungen begrenzt die Zahl der Suchen, und „Nutzung“ zeigt die Schätzung für diesen Monat."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "Wie bekomme ich einen API-Schlüssel?",
+          "a": [
+            "Anthropic: Erstellen Sie einen unter API keys in der Anthropic Console. Google: Tippen Sie in Google AI Studio auf Get API key. DeepSeek: Erstellen Sie einen unter API keys auf der DeepSeek-Plattform. „OpenAI-kompatibel“: Nutzen Sie den Schlüssel aus dem Dashboard Ihres Anbieters, etwa OpenAI oder OpenRouter; für Ollama auf Ihrem eigenen Computer tragen Sie dessen Adresse als „Basis-URL“ ein, geben als Schlüssel irgendetwas ein und wählen ein Modell, das Bilder lesen kann. Die Karten von Anthropic, Google und DeepSeek unter Einstellungen, KI-Copilot haben einen Link „Schlüssel anfordern“."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "Warum ist der Guide falsch?",
+          "a": [
+            "Quellen können veraltet sein oder sich auf eine andere Version oder Plattform beziehen; nennen die Quellen eine Version, nennt der Guide sie auch. Stellen Sie eine Nachfrage mit dem Kapitel, dem Namen des Bosses oder Ihrem Build, dann wird der Guide für Sie neu geschrieben. Fehlt der Spielname oder ist er falsch, korrigieren Sie ihn vor der Suche im Panel, oder probieren Sie in den Einstellungen ein anderes Modell."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "Wie ändere ich die Sprachbefehle?",
+          "a": [
+            "Es gibt 8 eingebaute Befehle, etwa „Karte öffnen“, „Pause“ und „Screenshot“. Öffnen Sie Einstellungen, KI-Copilot, Sprachbefehle und tippen Sie auf einen Befehl, um die Taste zu ändern, die er drückt, oder eigene Formulierungen hinzuzufügen; alles, was kein Befehl ist, geht an das Spielguide-Panel, als Thema oder als Nachfrage. Auf Telefonen ohne Spracherkennungsdienst oder ohne Mikrofon-Berechtigung tippen Sie stattdessen im Panel."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "Der KI-Copilot erreicht den Anbieter nicht?",
+          "a": [
+            "KI-Anfragen laufen nicht über den PSN-Verbindungsproxy der App, sondern über die eigene Verbindung Ihres Telefons. Sind Anthropic, Google oder DeepSeek bei Ihnen nicht erreichbar, wechseln Sie zu einem anderen Anbieter oder zu „OpenAI-kompatibel“ und tragen einen Endpunkt ein, den Sie erreichen, oder Ollama auf Ihrem eigenen Computer. „Verbindung testen“ auf derselben Seite zeigt, ob es funktioniert."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "Wie schalte ich den KI-Copilot aus?",
+          "a": [
+            "Schalten Sie unter Einstellungen, KI-Copilot „KI-Copilot verwenden“ aus. Langes Drücken auf das Streambild öffnet dann wieder das Schnellmenü, und die KI-Tasten verschwinden aus der oberen Leiste. Um auch Ihren Schlüssel zu entfernen, tippen Sie daneben auf „Löschen“; die verschlüsselte Kopie wird sofort gelöscht."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "Kann ich ihn nutzen, wenn ich den Bildschirm schlecht sehe?",
+          "a": [
+            "Ja. „Bildschirm beschreiben“ im Schnellmenü oder „Lies es mir vor“ in die Sprachtaste gesagt nennt zuerst das Wichtigste und liest dann den Text auf dem Bildschirm vor. Guides im Panel funktionieren mit TalkBack, und jeder Schritt lässt sich abhaken. Ist TalkBack an, liest TalkBack Bildschirmbeschreibungen in der Untertitelleiste vor; ohne TalkBack schalten Sie in den Einstellungen „Antworten vorlesen“ ein."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Kauf und Rückerstattungen",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "Ist das ein Abo?",
+          "a": [
+            "Nein. Sie kaufen die App einmal bei Google Play, und das ist alles: kein Abo, keine In-App-Käufe, keine Werbung und keine Funktion, die später eine zweite Zahlung verlangt. Der Kauf hängt an Ihrem Google-Konto, nicht am Telefon."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "Ich habe die App während einer Gratis-Aktion installiert. Werden später Funktionen gesperrt?",
+          "a": [
+            "Nein. Eine Installation während einer Aktion gilt als Kauf der App zu diesem Preis, sie gehört Ihnen also dauerhaft mit allen Funktionen. Das bleibt auch nach dem Ende der Aktion so, und dasselbe Google-Konto kann sie auf einem neuen Telefon kostenlos erneut installieren."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "Wie installiere ich die App auf einem neuen Telefon?",
+          "a": [
+            "Öffnen Sie Google Play mit demselben Google-Konto, mit dem Sie gekauft haben, dann steht dort „Installieren“ statt eines Preises. Konsolen werden nicht übernommen, koppeln Sie also jede Konsole auf dem neuen Telefon erneut; die Kopplungsschlüssel bleiben auf dem Telefon, auf dem sie entstanden sind."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "Was ist alles enthalten?",
+          "a": [
+            "Alles, ab dem ersten Start: Streaming mit 1080p und 60 fps, manuelle Bitrate, HEVC und HDR, FSR-Schärfung und Performance-Overlay, Spielen außerhalb des Heimnetzwerks, Streaming auf Android TV, Bild-in-Bild und das Spiel auf dem Fernseher mit dem Telefon als Controller. Gamepad-Modus, Verbindungsdiagnose, das Widget „Konsolen-Verknüpfung“ sowie beliebig viele Konsolen und Konten sind ebenfalls dabei."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "Wie bekomme ich eine Rückerstattung?",
+          "a": [
+            "Innerhalb von 48 Stunden nach dem Kauf beantragen Sie die Rückerstattung selbst über Ihren Bestellverlauf in Google Play, das geht am schnellsten. Danach schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf eine E-Mail, und wir erstatten ohne Nachfragen. Nennen Sie die Bestellnummer aus der Google-Play-Quittung, damit wir den Kauf finden."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "Ich habe kurz vor einer Rabattaktion den vollen Preis bezahlt.",
+          "a": [
+            "Schreiben Sie uns. Innerhalb von 48 Stunden nach dem Kauf geht es am schnellsten, wenn Sie den Kauf selbst über Ihren Bestellverlauf in Google Play erstatten lassen und zum Aktionspreis erneut kaufen. Danach schreiben Sie uns eine E-Mail mit der Bestellnummer aus der Google-Play-Quittung, und wir erstatten die Differenz."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Mehr",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "Kann ich die Konsole vom Startbildschirm aus aufwecken?",
+          "a": [
+            "Ja. Fügen Sie das Widget „Konsolen-Verknüpfung“ aus der Widget-Liste Ihres Launchers hinzu und wählen Sie eine Konsole. „Aufwecken“ sendet das Aufwecksignal, ohne die App zu öffnen. „Verbinden“ öffnet den Gamepad-Modus, wenn das Widget die Konsole zuletzt in Ihrem Netzwerk gefunden hat, und sonst die App. Beides funktioniert nur im selben Netzwerk, und das Widget ist kostenlos."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "Gibt es eine Android-TV-Version?",
+          "a": [
+            "Ja, dieselbe App lässt sich auf Android TV und Google TV installieren. Öffnen Sie Google Play auf dem Fernseher mit demselben Google-Konto, mit dem Sie gekauft haben, dann wird die App ohne Aufpreis installiert. Zum Spielen braucht der Fernseher einen Bluetooth- oder USB-Controller; mit der Fernbedienung bewegen Sie sich nur durch die Menüs. Um während eines Streams das Schnellmenü zu öffnen, drücken Sie OK oder Menü auf der Fernbedienung oder halten Sie L1, R1, L3 und R3 am Controller gleichzeitig gedrückt."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "Wie kopple ich eine Konsole auf dem Fernseher?",
+          "a": [
+            "Wählen Sie auf dem Startbildschirm des Fernsehers „Konsole hinzufügen“ und dann Ihr Konsolenmodell. Öffnen Sie im Kontoschritt diese App auf Ihrem Telefon, gehen Sie zu Einstellungen, Konten, kopieren Sie die dort angezeigte Account ID und geben Sie sie auf dem Fernseher ein; sie hat 12 Zeichen und endet meist mit =. Wählen Sie dann die Konsole und geben Sie den Kopplungscode von der Konsole über das Tastenfeld auf dem Fernsehbildschirm ein. Auf dem Fernseher ist nur die Kopplung mit Code möglich."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "Es heißt, die Systemsoftware der Konsole sei aktualisiert worden und ich müsse warten.",
+          "a": [
+            "Ein Systemupdate der Konsole hat die Version des Remote-Play-Protokolls geändert, und daran lässt sich auf der Telefonseite nichts drehen. Die Lösung ist ein App-Update, das wir als dringend behandeln. Wenn es schon einige Tage her ist, schreiben Sie uns und nennen Sie die Version der Systemsoftware der Konsole."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Kann ich die Sprache der App ändern?",
+          "a": [
+            "Die App folgt der Sprache Ihres Telefons und unterstützt 19 Sprachen. Ab Android 13 können Sie in den Systemeinstellungen unter Apps, Relaypad, Sprache eine Sprache nur für diese App wählen. Bei älteren Versionen ändern Sie die Telefonsprache."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "Welche Daten sammelt diese App?",
+          "a": [
+            "Anonyme Nutzungsereignisse, damit wir sehen, welche Bildschirme klemmen, und Fernkonfiguration, mit der sich Funktionen ein- oder ausschalten lassen. Die Ereignisse enthalten nie Ihre Account ID, Ihre IP-Adresse oder den Namen Ihrer Konsole, und es gibt keinen Server von uns zwischen Ihnen und Ihrer Konsole. „Nutzungsstatistik“ lässt sich unter Einstellungen, Datenschutz abschalten; die Fernkonfiguration wird weiterhin abgerufen."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Wie melde ich ein Problem oder schlage etwas vor?",
+          "a": [
+            "Über „Feedback senden“ unter Einstellungen, Über, über die Schaltfläche am Ende dieser Seite oder über „E-Mail schreiben“ in der Verbindungsdiagnose. Die E-Mail ist mit Ihrem Telefonmodell, der System- und App-Version, der Sprache und der letzten Zusammenfassung der Verbindungsdiagnose vorausgefüllt; genau das brauchen wir, um Ihre Meldung mit unseren Daten abzugleichen. Schreiben Sie einfach dazu, was Sie getan haben und was passiert ist."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

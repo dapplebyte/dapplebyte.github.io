@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "DappleByte",
+    "tagline": "Özenle yapılmış, küçük ve kullanışlı uygulamalar.",
+    "definition": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo.",
+    "kicker": "Bağımsız stüdyo · Android",
+    "email": "hello@dapplebyte.com"
+  },
+  "nav": {
+    "apps": "Uygulamalar",
+    "about": "Hakkında",
+    "language": "Dil",
+    "skip": "İçeriğe geç",
+    "home": "Ana sayfa"
+  },
+  "footer": {
+    "studio": "Stüdyo",
+    "contact": "İletişim",
+    "languages": "Diller",
+    "privacy": "Site gizliliği",
+    "copyright": "© {year} DappleByte",
+    "builtWith": "Statik site; çerez yok, izleyici yok."
+  },
+  "cta": {
+    "getOnPlay": "{name} uygulamasını Google Play'den indirin",
+    "readSource": "Kaynak kodu inceleyin",
+    "about": "{name} hakkında",
+    "learnMore": "Daha fazla bilgi"
+  },
+  "labels": {
+    "apps": "Uygulamalar",
+    "nextApp": "Sıradaki uygulama",
+    "nextAppBody": "Üzerinde çalışıyoruz. Yayımlandığında burada görünecek.",
+    "lastUpdated": "Son güncelleme: {date}",
+    "android": "Android",
+    "by": "Geliştirici: DappleByte",
+    "overview": "Genel bakış",
+    "features": "Özellikler",
+    "faq": "SSS",
+    "videos": "Videolar",
+    "compare": "Karşılaştırma",
+    "support": "Destek",
+    "privacy": "Gizlilik",
+    "changelog": "Sürüm notları",
+    "press": "Basın kiti",
+    "sourceCode": "Kaynak kodu",
+    "googlePlay": "Google Play"
+  },
+  "facts": {
+    "minOs": "{version} veya üzeri",
+    "consoles": "PS5 · PS4",
+    "languages": "{count} dil",
+    "source": "{license} kaynak kodu",
+    "version": "Sürüm {version}"
+  },
+  "home": {
+    "title": "DappleByte · Bağımsız Android uygulamaları",
+    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında PS5 ve PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad de var.",
+    "appsHeading": "Uygulamalar",
+    "principlesHeading": "Nasıl çalışıyoruz",
+    "principles": [
+      { "title": "Reklam yok, abonelik yok.", "body": "Tek fiyat ya da hiç. Dikkatinizi paraya çeviren hiçbir şey yok." },
+      { "title": "Arada sunucu yok.", "body": "Uygulamalarımız doğrudan sizin cihazlarınızla konuşur. Verilerinizi hiçbir zaman görmeyiz." },
+      { "title": "Kaynak kodu açık.", "body": "Her sürüm, AGPL-3.0 lisansıyla herkese açık bir depoya gönderilir." },
+      { "title": "Her e-postayı yanıtlarız.", "body": "{email} adresine yazın. Mesajınızı gerçek bir insan okur." }
+    ],
+    "contactHeading": "İletişim",
+    "contactBody": "Stüdyo, basın ve iş birlikleri için: {email}. Her uygulamanın kendi destek adresi vardır ve o uygulamanın destek sayfasında yer alır."
+  },
+  "about": {
+    "title": "DappleByte hakkında",
+    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo: reklam yok, abonelik yok, sizinle cihazınız arasında sunucu yok, kaynak kodu AGPL-3.0 ile yayımlanır.",
+    "whatHeading": "DappleByte nedir",
+    "whatBody": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Tek bir geliştirici ve az sayıda uygulama; her biri belirli bir işi iyi yapmak ve sonra aradan çekilmek için tasarlandı.",
+    "howHeading": "Nasıl çalışıyoruz",
+    "openSourceHeading": "Açık kaynak",
+    "openSourceBody": "Her uygulamanın her sürümü, AGPL-3.0 lisansıyla kaynak kodu olarak yayımlanır. Depo bağlantısı her uygulamanın sayfasında bulunur. Uygulamanın tam olarak ne yaptığını okuyabilir, kendiniz derleyebilir ya da gizlilik politikasının kodla örtüştüğünü kontrol edebilirsiniz.",
+    "contactHeading": "İletişim",
+    "contactBody": "Stüdyo, basın ve iş birlikleri için: {email}. Belirli bir uygulamayla ilgili destek için o uygulamanın destek sayfasındaki adrese yazın; böylece mesajınız doğru kutuya, doğru bağlamla ulaşır.",
+    "trademarksHeading": "Ticari markalar",
+    "trademarksBody": "Diğer şirketlerin ürün adları bu sitede yalnızca uygulamalarımızın neyle çalıştığını anlatmak için geçer. Bu adlar sahiplerine aittir; herhangi bir bağlantı ya da onay ima edilmez.",
+    "siteHeading": "Bu web sitesi",
+    "siteBody": "Astro ile oluşturulmuş ve GitHub Pages'te barındırılan statik HTML. Çerez kullanmaz ve üçüncü taraf betik yüklemez. Sitenin kaynak kodu github.com/dapplebyte/dapplebyte.github.io adresinde herkese açık."
+  },
+  "product": {
+    "title": "{name} · DappleByte",
+    "screenshotsHeading": "Ekran görüntüleri",
+    "screenshotAlt": "{name} ekran görüntüsü {index}",
+    "featuresHeading": "Neler yapar",
+    "faqHeading": "Sık sorulan sorular",
+    "faqAll": "Tüm sorular",
+    "getHeading": "{name} uygulamasını edinin",
+    "getBody": "Android için Google Play'de. Kaynak kodu {license} lisansıyla yayımlanır.",
+    "requiresLabel": "Gereksinimler",
+    "videoHeading": "Nasıl çalıştığını görün",
+    "allVideos": "Tüm videolar",
+    "moreHeading": "{name} hakkında daha fazlası"
+  },
+  "features": {
+    "title": "{feature} · {name}",
+    "indexHeading": "Özellikler",
+    "relatedFaq": "İlgili sorular",
+    "backToProduct": "{name} sayfasına dön",
+    "allFeatures": "Tüm {name} özellikleri",
+    "inShort": "Kısaca"
+  },
+  "faq": {
+    "title": "{name} SSS",
+    "sectionTitle": "{section} · {name} SSS",
+    "description": "{name} hakkında yanıtlar: oynama biçimleri, bağlantı, giriş, akış kalitesi, kumandalar, satın alma ve iadeler.",
+    "sectionDescription": "{name} SSS, {section}: eksiksiz yanıtlarıyla {count} soru.",
+    "intro": "Aynı yanıtlar uygulamada Ayarlar → SSS altında da var. Her bölüm ayrı bir sayfadır ve her sorunun kendi bağlantısı vardır.",
+    "questionsCount": "{count} soru",
+    "notFoundHeading": "Yanıtınızı bulamadınız mı?",
+    "notFoundBody": "Telefon modelinizi, konsolunuzu ve ne olduğunu yazarak bize ulaşın. Her mesajı gerçek bir insan okur.",
+    "notFoundCta": "Desteğe git",
+    "prev": "Önceki",
+    "next": "Sonraki",
+    "allSections": "Tüm bölümler",
+    "linkToQuestion": "Bu sorunun bağlantısı"
+  },
+  "support": {
+    "title": "{name} destek",
+    "description": "{name} için yardım: önce neleri kontrol etmeli, bize nasıl yazmalı, nelere yer vermeli ve iadeler nasıl işler.",
+    "beforeHeading": "Yazmadan önce",
+    "beforeItems": [
+      "SSS'ye göz atın. Bağlantı, giriş ve görüntüyle ilgili soruların çoğu, uygulamadakiyle aynı ifadelerle orada yanıtlanmıştır.",
+      "Uygulama bağlanamıyorsa Ayarlar'dan Bağlantı doktorunu çalıştırın. Ağınızı, konsolu ve Remote Play'i kontrol eder; raporu tek dokunuşla bize e-postayla da gönderebilir.",
+      "Konsolun açık ya da dinlenme modunda olduğundan ve ayarlarında Remote Play'in etkin olduğundan emin olun."
+    ],
+    "writeHeading": "Bize yazın",
+    "writeBody": "Düğme, konusu doldurulmuş olarak e-posta uygulamanızı açar. Hiçbir şey açılmazsa adresi ve aşağıdaki listeyi herhangi bir e-postaya kopyalayın.",
+    "writeButton": "{email} adresine yazın",
+    "copyAddress": "Adresi kopyala",
+    "copied": "Kopyalandı",
+    "subject": "[{name}] ",
+    "templateHeading": "Nelere yer vermelisiniz",
+    "template": {
+      "phone": "Telefon modeli:",
+      "android": "Android sürümü:",
+      "console": "Konsol: PS5 / PS4",
+      "where": "Evde mi, dışarıda mı:",
+      "what": "Ne oldu, adım adım:",
+      "doctor": "Bağlantı doktorunu çalıştırdıysanız raporu buraya yapıştırın."
+    },
+    "refundHeading": "İadeler",
+    "refundBody": "{name} sizin kurulumunuzla çalışmazsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi anlatın; sorunu bir sonraki kişi için düzeltmemize yardımcı olur.",
+    "replyHeading": "Ne zaman yanıt alırsınız",
+    "replyBody": "Genellikle iki iş günü içinde. Her mesajı gerçek bir insan okur ve her mesaj yanıtlanır.",
+    "faqLink": "Önce SSS'yi okuyun"
+  },
+  "privacy": {
+    "title": "{name} gizlilik politikası",
+    "description": "Android için {name} verilerinizle ne yapar: hesap yok, bize ait sunucu yok, cihazda neler kalır ve uygulama nerelere bağlanır.",
+    "effective": "Yürürlük tarihi: {date}",
+    "appliesTo": "Google Play'de dağıtılan Android için {name} ({appId}) uygulaması için geçerlidir.",
+    "governing": "Bu politika İngilizce olarak yayımlanmıştır. Varsa çeviriler yalnızca kolaylık amaçlıdır; esas alınan metin İngilizce metindir.",
+    "contact": "Sorular ve talepler: {email}",
+    "contents": "İçindekiler",
+    "backToTop": "Başa dön"
+  },
+  "sitePrivacy": {
+    "title": "Site gizliliği",
+    "description": "dapplebyte.com çerez kullanmaz, analiz aracı çalıştırmaz ve üçüncü taraf betik yüklemez.",
+    "items": [
+      "Bu web sitesi statik HTML'dir. Çerez kullanmaz; üçüncü taraf betik, yazı tipi veya analiz aracı yüklemez.",
+      "Burada analiz aracı kullanmıyoruz. Elimizdeki tek rakamlar, arama gösterimlerini toplu olarak raporlayan Google Search Console ve Bing Webmaster Tools'tan gelir.",
+      "Bize e-posta gönderirseniz mesajınızı size yardım etmek için gerektiği kadar saklar, sonra sileriz. Sizi hiçbir listeye eklemeyiz.",
+      "Site, her web sunucusu gibi istekleri kaydeden GitHub Pages'te barındırılır. Ayrıntılar için GitHub'ın gizlilik bildirimine bakın.",
+      "Her uygulamanın, kendi sayfasından bağlantı verilen ayrı bir gizlilik politikası vardır. Bu politikalar uygulamaların ne yaptığını kapsar; bu sayfa yalnızca web sitesiyle ilgilidir."
+    ],
+    "appsHeading": "Uygulama gizlilik politikaları"
+  },
+  "videos": {
+    "title": "{name} videoları",
+    "description": "{name} uygulamasını gerçek bir telefonda gösteren kısa videolar: kurulum, akış, kumanda yerleşimleri ve bağlantı sorunlarını giderme.",
+    "emptyHeading": "Videolar yolda",
+    "emptyBody": "Her özellik için bir anlatım videosu kaydediyoruz. O zamana kadar özellik sayfaları ve SSS aynı konuları anlatıyor.",
+    "kinds": { "promo": "Tanıtım", "tutorial": "Nasıl yapılır", "troubleshooting": "Sorun giderme" },
+    "watchOn": "YouTube'da izle",
+    "play": "Videoyu oynat"
+  },
+  "compare": {
+    "title": "{name} karşılaştırması",
+    "description": "{name}, Android'de PS Remote Play, PXPlay ve Chiaki ile özellik özellik karşılaştırılıyor; yalnızca gerçekler.",
+    "intro": "Yalnızca gerçekler; her biri uygulamanın mağaza sayfasından veya web sitesinden kontrol edildi. Her uygulama aşağıdaki tarihteki haliyle anlatılıyor; yeni sürümler farklı olabilir. Burada hiçbir uygulamaya puan verilmiyor ve hiçbirinin genel olarak daha iyi olduğunu iddia etmiyoruz.",
+    "verified": "Kontrol tarihi: {date}",
+    "notVerified": "Diğer sütunlar henüz doğrulanmadı; bu yüzden bu sayfa arama motorlarında listelenmiyor.",
+    "featureColumn": "Özellik",
+    "rows": {
+      "platform": "Platform",
+      "away-from-home": "Ev dışında Remote Play",
+      "hevc-hdr": "HEVC ve HDR akışı",
+      "virtual-pad-editor": "Yerleşim düzenleyicili ekran kumandası",
+      "physical-pad": "Bluetooth veya USB kumanda aktarımı",
+      "tv-output": "HDMI ile TV çıkışı",
+      "connection-doctor": "Yerleşik bağlantı tanılama",
+      "open-source": "Açık kaynak",
+      "pricing-model": "Fiyatlandırma"
+    },
+    "values": {
+      "yes": "Evet",
+      "no": "Hayır",
+      "partial": "Kısmen",
+      "unknown": "Kontrol edilmedi",
+      "one-time": "Tek seferlik satın alma",
+      "free": "Ücretsiz",
+      "subscription": "Abonelik"
+    },
+    "vsTitle": "{name} ile {other} karşılaştırması",
+    "vsDescription": "Android'de {name} ile {other}, özellik özellik karşılaştırma: ev dışında Remote Play, HEVC ve HDR, kumandalar, TV çıkışı, açık kaynak ve fiyat.",
+    "vsIntro": "İkisi de bir Android cihazı PS5 veya PS4'e bağlar. Aralarındaki farklar, özellik özellik şöyle.",
+    "fullComparison": "Karşılaştırmanın tamamını görün"
+  },
+  "changelog": {
+    "title": "{name} sürüm notları",
+    "description": "Android için tüm {name} sürümleri ve değişiklikleri, en yenisi en üstte.",
+    "version": "Sürüm {version}",
+    "build": "derleme {code}",
+    "feed": "Atom akışı"
+  },
+  "press": {
+    "title": "{name} basın kiti",
+    "description": "Android için Remote Play kumandası ve konsol akışı uygulaması {name} hakkında yazmak için bilgiler, görseller ve hazır tanıtım metni.",
+    "intro": "Bu sayfadaki her şey; makalelerde, videolarda ve uygulama listelerinde izin almadan kullanılabilir. Başka bir şeye ihtiyacınız olursa bize yazın.",
+    "factsHeading": "Bilgi notu",
+    "facts": {
+      "name": "Ad",
+      "developer": "Geliştirici",
+      "platform": "Platform",
+      "firstReleased": "İlk yayın",
+      "currentVersion": "Güncel sürüm",
+      "price": "Fiyat",
+      "priceValue": "Ücretli uygulama; tek seferlik satın alma, abonelik yok, reklam yok. Güncel fiyat Google Play'de gösterilir.",
+      "languages": "Diller",
+      "license": "Lisans",
+      "website": "Web sitesi",
+      "store": "Mağaza sayfası",
+      "source": "Kaynak kodu",
+      "contact": "İletişim"
+    },
+    "oneLineHeading": "Tek cümleyle",
+    "boilerplateHeading": "Hazır tanıtım metni",
+    "boilerplate": "{name}, bir Android telefonu PS5 veya PS4 için kablosuz kumandaya dönüştürür ya da konsolun görüntüsünü telefona, tablete veya TV'ye aktarır; evde de, dışarıda mobil veriyle de çalışır. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilmiştir ve AGPL-3.0 lisansıyla açık kaynak olarak yayımlanmıştır.",
+    "assetsHeading": "Görseller",
+    "assetIcon": "Uygulama simgesi, 512 px PNG",
+    "assetFeature": "Öne çıkan görsel, 1024 × 500 PNG",
+    "assetScreenshots": "Ekran görüntüleri, 1920 × 1080 PNG, İngilizce",
+    "assetStudioMark": "DappleByte logosu, SVG",
+    "screenshotN": "Ekran görüntüsü {index}",
+    "contactHeading": "Basın iletişimi",
+    "contactBody": "{email}. Her mesajı yanıtlarız, genellikle iki iş günü içinde."
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "body": "Bu adres mevcut değil. Bunlar ise mevcut:",
+    "home": "Ana sayfa"
+  },
+  "trademarks": {
+    "sony": "PlayStation, PS5 ve PS4, Sony Interactive Entertainment Inc. şirketinin ticari markalarıdır. {name}, Sony ile bağlantılı değildir ve Sony tarafından onaylanmamıştır."
+  }
+}

@@ -1,0 +1,75 @@
+---
+import { localePath, type Locale } from '../i18n/locales';
+
+interface Props {
+  locale: string;
+  path: string;
+  alternates: string[];
+  current: Locale;
+  locales: readonly Locale[];
+  label: string;
+}
+const { locale, path, alternates, current, locales, label } = Astro.props;
+const options = locales.filter((l) => alternates.includes(l.slug));
+---
+
+<details class="lang">
+  <summary aria-label={label}>{current.lang.toUpperCase()} ▾</summary>
+  <ul>
+    {options.map((l) => (
+      <li>
+        <a href={localePath(l.slug, path)} lang={l.lang} hreflang={l.lang} aria-current={l.slug === locale ? 'page' : undefined}>
+          {l.name}
+        </a>
+      </li>
+    ))}
+  </ul>
+</details>
+
+<style>
+  .lang {
+    position: relative;
+  }
+  summary {
+    list-style: none;
+    cursor: pointer;
+    color: var(--fg);
+    border: 1px solid var(--line-2);
+    padding: 6px 10px;
+    user-select: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  ul {
+    position: absolute;
+    inset-inline-end: 0;
+    top: calc(100% + 8px);
+    margin: 0;
+    padding: 6px 0;
+    list-style: none;
+    background: var(--surface);
+    border: 1px solid var(--line-2);
+    min-width: 200px;
+    max-height: 70vh;
+    overflow-y: auto;
+    z-index: 50;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  li a {
+    display: block;
+    padding: 8px 14px;
+    color: var(--fg-2);
+    text-decoration: none;
+  }
+  li a:hover {
+    background: var(--surface-2);
+    color: var(--fg);
+  }
+  li a[aria-current='page'] {
+    color: var(--accent);
+  }
+</style>

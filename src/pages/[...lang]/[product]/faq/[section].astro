@@ -1,0 +1,90 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import ProductNav from '../../../../components/ProductNav.astro';
+import FaqList from '../../../../components/FaqList.astro';
+import { getLocale, localePath, DEFAULT_LOCALE } from '../../../../i18n/locales';
+import { useT, formatDate } from '../../../../i18n/t';
+import { getProduct, getFaq, localesFor, liveProducts } from '../../../../lib/content';
+import { graph, organization, website, webPage, breadcrumbs, faqPage, SITE } from '../../../../lib/jsonld';
+
+export async function getStaticPaths() {
+  const out = [];
+  for (const p of await liveProducts()) {
+    const alternates = await localesFor('faq', p.slug);
+    const en = await getFaq(p.slug, DEFAULT_LOCALE);
+    for (const locale of alternates) {
+      for (const s of en?.sections ?? []) {
+        out.push({ params: { lang: locale === DEFAULT_LOCALE ? undefined : locale, product: p.slug, section: s.id }, props: { locale, slug: p.slug, alternates, sectionId: s.id } });
+      }
+    }
+  }
+  return out;
+}
+
+const { locale, slug, alternates, sectionId } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const faq = (await getFaq(slug, locale))!;
+const index = faq.sections.findIndex((s) => s.id === sectionId);
+const section = faq.sections[index];
+const prev = faq.sections[index - 1];
+const next = faq.sections[index + 1];
+const path = `/${slug}/faq/${sectionId}/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = t('faq.sectionTitle', { section: section.title, name: product.name });
+const description = t('faq.sectionDescription', { name: product.name, section: section.title, count: section.entries.length });
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang, faq.extractedAt),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('labels.faq'), url: new URL(localePath(locale, `/${slug}/faq/`), SITE).href },
+    { name: section.title, url },
+  ]),
+  faqPage(url, section.entries, loc.lang),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="faq" />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">
+      <a href={localePath(locale, `/${slug}/faq/`)} style="color:inherit;text-decoration:none">{product.name} · {t('labels.faq')}</a> · {String(index + 1).padStart(2, '0')} / {String(faq.sections.length).padStart(2, '0')}
+    </div>
+    <h1 class="h-page">{section.title}</h1>
+    <p class="lede" style="margin-top:12px">{t('faq.questionsCount', { count: section.entries.length })}</p>
+  </section>
+  <section class="wrap" style="padding-bottom:40px">
+    <FaqList entries={section.entries} level={2} linkLabel={t('faq.linkToQuestion')} />
+  </section>
+  <section class="wrap section">
+    <nav class="pager" aria-label={t('labels.faq')}>
+      {prev ? <a href={localePath(locale, `/${slug}/faq/${prev.id}/`)}>← {prev.title}</a> : <span />}
+      <a href={localePath(locale, `/${slug}/faq/`)} class="mono">{t('faq.allSections')}</a>
+      {next ? <a href={localePath(locale, `/${slug}/faq/${next.id}/`)}>{next.title} →</a> : <span />}
+    </nav>
+  </section>
+  <section class="wrap section">
+    <h2 class="h-sub" style="margin-bottom:8px">{t('faq.notFoundHeading')}</h2>
+    <p class="lede" style="margin-bottom:18px">{t('faq.notFoundBody')}</p>
+    <a class="button" href={localePath(locale, `/${slug}/support/`)}>{t('faq.notFoundCta')}</a>
+    <p class="fine" style="margin-top:24px">{t('labels.lastUpdated', { date: formatDate(locale, faq.extractedAt, loc.lang) })}</p>
+  </section>
+</Base>
+
+<style>
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-weight: 500;
+  }
+  .pager a {
+    text-decoration: none;
+  }
+</style>

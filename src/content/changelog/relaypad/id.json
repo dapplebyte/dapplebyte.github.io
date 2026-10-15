@@ -1,0 +1,32 @@
+{
+  "slug": "relaypad",
+  "locale": "id",
+  "entries": [
+    {
+      "code": 101,
+      "name": "1.0.1",
+      "date": "2026-10-07",
+      "items": [
+        "Remote Play di luar rumah kini lebih andal, bahkan saat aplikasi VPN atau proxy menyala",
+        "Baru: Setelan → Proxy koneksi PSN, untuk tempat yang sulit menjangkau PlayStation Network",
+        "Dokter Koneksi kini punya 18 pemeriksaan, termasuk jaringan konsol",
+        "Memperbaiki sesi jarak jauh yang macet saat mulai dan pesan \"tidak bisa terhubung\" yang keliru",
+        "Input teks di aplikasi dihapus karena tidak bisa mengirim teks. Gunakan keyboard layar konsol"
+      ]
+    },
+    {
+      "code": 100,
+      "name": "1.0.0",
+      "date": "2026-09-20",
+      "items": [
+        "Relaypad 1.0 sudah hadir — rilis pertama kami.",
+        "Ubah ponsel jadi kontroler nirkabel untuk PS5 dan PS4",
+        "Streaming konsol hingga 1080p60, dengan HEVC, HDR, dan output TV",
+        "Lima tata letak stik dan editor: geser, ubah ukuran, atau sembunyikan tombol",
+        "Remote Play di luar rumah lewat 5G atau Wi-Fi lain",
+        "Dokter Koneksi menjalankan 13 pemeriksaan dan menunjukkan penyebab koneksi terhambat"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

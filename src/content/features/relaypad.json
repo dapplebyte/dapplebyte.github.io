@@ -1,0 +1,71 @@
+{
+  "slug": "relaypad",
+  "items": [
+    {
+      "id": "virtual-gamepad",
+      "sectionId": "virtual-gamepad",
+      "screenshots": [
+        1,
+        3
+      ],
+      "faq": [
+        "pad_mode_what",
+        "extra_controller",
+        "virtual_pad_layout",
+        "stick_dpad_toggle",
+        "touchpad_onscreen",
+        "vibration"
+      ]
+    },
+    {
+      "id": "console-streaming",
+      "sectionId": "console-streaming",
+      "screenshots": [
+        2
+      ],
+      "faq": [
+        "home_card_modes",
+        "stutter",
+        "hevc_hdr_unavailable",
+        "pip",
+        "split_layout",
+        "screen_dim"
+      ]
+    },
+    {
+      "id": "remote-play-away",
+      "sectionId": "remote-play-away",
+      "screenshots": [
+        2
+      ],
+      "faq": [
+        "away_from_home",
+        "remote_needs_match",
+        "remote_play_off",
+        "stream_switched_to_remote",
+        "remote_goes_local"
+      ]
+    },
+    {
+      "id": "connection-doctor",
+      "sectionId": "connection-doctor",
+      "screenshots": [],
+      "faq": [
+        "same_network_but_not",
+        "wake_from_rest",
+        "version_mismatch"
+      ]
+    },
+    {
+      "id": "guided-setup",
+      "sectionId": "guided-setup",
+      "screenshots": [],
+      "faq": [
+        "sign_in_code_expired",
+        "tv_pairing",
+        "remove_account",
+        "restore_lost_keys"
+      ]
+    }
+  ]
+}

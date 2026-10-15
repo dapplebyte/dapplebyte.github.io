@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "es",
+  "title": "Preguntas frecuentes",
+  "intro": "Las preguntas que más nos hacen y qué hacer en cada caso. Toca una pregunta para desplegarla.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Formas de jugar",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "¿Qué diferencia hay entre «Transmisión», «Remoto» y «Mando» en la tarjeta de la consola?",
+          "a": [
+            "«Transmisión» muestra la consola en este teléfono a través de tu red doméstica y, si la consola está en modo de reposo, primero la enciende. «Remoto» hace lo mismo desde cualquier sitio a través de la cuenta con la que has iniciado sesión. «Mando» convierte el teléfono en un mando sin imagen, para cuando ves el juego en el televisor. La tarjeta recuerda la última opción elegida para cada consola."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "¿Por qué no hay imagen en el modo mando?",
+          "a": [
+            "El modo mando solo envía lo que pulsas a la consola, así que el juego lo ves en el televisor. Necesita que el teléfono y la consola estén en la misma red y, si la consola está en modo de reposo, la enciende y sigue reintentando durante unos 30 segundos. Para ver el juego en el teléfono, abre el menú y toca «Cambiar a transmisión»."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "¿Puede el teléfono ser un segundo mando junto al que está conectado a la consola?",
+          "a": [
+            "No. El teléfono se conecta como el mando de Remote Play de la cuenta con la que se configuró, así que ocupa el lugar de tu mando en vez de sumarse a él. Un mando conectado directamente a la consola no puede jugar a la vez: la consola le hace usar otro usuario, como un invitado, y los dos acaban quitándose el control el uno al otro. Usa el teléfono cuando no tengas un mando a mano, no como jugador extra."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "Toqué «Iniciar transmisión» y la tarjeta cambió a «Remoto».",
+          "a": [
+            "La app busca la consola en tu red actual durante unos segundos. Si no la encuentra, la tarjeta cambia a «Remoto» sin conectar, para que decidas tú si quieres pasar por tu cuenta. En casa, esto suele deberse a una VPN, a una red de invitados o a una consola apagada del todo. El diagnóstico de conexión te dice cuál de ellas es."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "Elegí «Remoto» en casa, pero transmite en local.",
+          "a": [
+            "Cuando la consola está en la misma red, «Remoto» transmite en local, porque es más rápido. Desactiva «Transmitir en local en casa» en Ajustes si quieres que «Remoto» pase siempre por tu cuenta, por ejemplo para probarlo antes de salir de casa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Conexión",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "La búsqueda no encuentra ninguna consola.",
+          "a": [
+            "Una consola aparece de dos formas: la encuentra la búsqueda en la misma red Wi-Fi que el teléfono, o sale de tu cuenta una vez que has iniciado sesión. La búsqueda por la red no atraviesa una red de invitados, un segundo router ni una VPN, así que revisa eso primero y deja la consola encendida o en modo de reposo. Si sigue sin aparecer, toca «Escribir una dirección IP» en el paso «Elige tu consola» y escribe la dirección de la consola. Una dirección escrita a mano tiene que emparejarse con un código."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "Dice «No está en esta red», pero el teléfono está en la misma Wi-Fi.",
+          "a": [
+            "Hay varias causas cuando parece que todo está en una sola red. Una red de invitados queda aislada de la principal aunque el router sea el mismo. Un router que pone nombres distintos a sus bandas de 2,4 GHz y 5 GHz puede dejar los dos dispositivos en subredes separadas, y algunos routers impiden que los dispositivos inalámbricos se vean entre sí. Una VPN o una app de DNS privado también pueden apoderarse de la ruta. Ejecuta el diagnóstico de conexión y mira la línea «Misma red que la consola», que muestra las dos direcciones."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "La consola está en modo de reposo y no conecta, o al encenderla no pasa nada.",
+          "a": [
+            "«Iniciar transmisión» enciende por sí solo una consola en modo de reposo y espera hasta unos 25 segundos, y el modo mando sigue reintentando durante unos 30 segundos. También puedes encenderla a mano en Ajustes → Consolas, con «Encender la consola» en el menú del modo mando o con el widget de la pantalla de inicio. Todo esto solo funciona en la misma red y solo si la consola lo permite: en sus ajustes de energía, activa «Mantener la conexión a Internet» y «Permitir encender la consola desde la red»."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "Dice «La consola está ocupada».",
+          "a": [
+            "La consola admite una sola sesión remota a la vez, y otro teléfono, tableta u ordenador todavía la está usando. El modo mando en otro teléfono también cuenta. Cierra la sesión en ese dispositivo, o desde la propia consola, y vuelve a intentarlo."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "Después de cambiar de modo o de calidad, se queda un rato conectando.",
+          "a": [
+            "La consola tarda unos segundos en soltar la sesión anterior. Mientras tanto, la app reintenta en segundo plano cada 2 segundos durante un máximo de 20 segundos y se conecta en cuanto la consola está lista. Solo si después de eso la consola sigue ocupada aparece «La consola está ocupada»."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "Dice «Remote Play está desactivado en la consola».",
+          "a": [
+            "La consola está encendida, pero rechaza las conexiones remotas. En la consola, ve a Ajustes → Sistema → Remote Play, activa «Activar Remote Play» y vuelve a conectar. La línea «Remote Play en la consola» del diagnóstico de conexión muestra el último estado conocido."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "¿Se reconecta solo cuando se corta la transmisión?",
+          "a": [
+            "Una transmisión local, sí. Lo intenta hasta tres veces, con una pausa cada vez mayor, se rinde al cabo de unos 30 segundos y te ofrece el diagnóstico de conexión. Una conexión en «Remoto» no reintenta, así que vuelve a conectar desde la tarjeta de la consola. Tampoco reintenta cuando la consola está ocupada o apagada, tiene Remote Play desactivado o hace falta actualizar la app, porque volver a intentarlo no serviría de nada."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "¿Qué comprueba el diagnóstico de conexión?",
+          "a": [
+            "Dieciocho cosas en este teléfono, de camino a la consola, de salida a internet y en la red doméstica de la consola: capacidad del dispositivo, red del teléfono, misma red que la consola, estado de la consola, Remote Play en la consola, latencia y fluctuación, velocidad estimada del enlace, VPN y apps de filtrado, interferencias de Bluetooth, UPnP del router, traducción de direcciones de red, dirección IPv4 pública, conexión a PlayStation Network, cuenta, pantalla externa, dirección pública de la consola, UPnP del router de la consola y tipo de NAT de la consola. Los puntos en rojo y en amarillo vienen con su solución, y el informe se puede copiar, compartir o enviarnos por correo."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "Funciona en casa, pero no cuando estoy fuera.",
+          "a": [
+            "Fuera de casa, elige «Remoto» en la tarjeta de la consola y toca «Jugar en remoto». Se conecta a través de tu cuenta, así que la cuenta tiene que haberse añadido iniciando sesión y hay que asociar la consola una vez. La conexión suele tardar entre 20 y 40 segundos, y prueba por su cuenta el UPnP del router de casa. Si falla, el mensaje dice por qué; las siguientes preguntas repasan las causas habituales, y una VPN doméstica es otra forma de sortearlo."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "«Remoto» dice que primero hay que asociar una consola.",
+          "a": [
+            "«Remoto» necesita saber qué consola de tu cuenta es la que está emparejada en este teléfono. Toca la tarjeta, o abre Ajustes → Conexión remota, y elígela una vez en «Consolas de tu cuenta». La consola tiene que estar ya emparejada en este teléfono, y la cuenta tiene que haberse añadido iniciando sesión, no con un Online ID."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "La conexión en «Remoto» falla. ¿Cuáles son las causas habituales?",
+          "a": [
+            "El mensaje en pantalla indica la causa. La consola no ha respondido: déjala encendida o en modo de reposo, con «Mantener la conexión a Internet» y «Permitir encender la consola desde la red» activados en sus ajustes de energía. La red no permite una conexión directa: prueba con otra red, activa «Búsqueda de puertos para la conexión remota» en Ajustes o usa una VPN doméstica. Tu operador comparte una misma dirección pública entre muchos usuarios: redirigir puertos no servirá, así que cambia de red o usa una VPN. La sesión ha caducado: vuelve a iniciar sesión en esa cuenta."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "¿PSN no conecta o la conexión se corta en cuanto activo el proxy?",
+          "a": [
+            "Donde cuesta conectar con PSN, una conexión remota necesita dos rutas distintas: la transmisión del juego tiene que conectarse directamente, mientras que el inicio de sesión y la conexión con PSN pueden pasar por un proxy. Una app de proxy en modo VPN mete también la transmisión del juego en su túnel, y la sesión se corta. Cambia tu app de proxy a proxy por aplicación y añade Relaypad a su lista de exclusión. Luego abre Ajustes → Proxy de conexión a PSN y elige «Automático», o elige «Manual» e introduce el puerto local de tu app de proxy (tipo HTTP, host 127.0.0.1; Clash suele usar el 7890 y v2rayNG el 10809). La fila «Conexión a PlayStation Network» del diagnóstico de conexión te dice si funciona."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "¿Tengo que configurar la redirección de puertos?",
+          "a": [
+            "Normalmente no. «Remoto» prueba el UPnP por su cuenta, y la redirección solo ayuda cuando lo que bloquea la conexión es el router de casa, no cuando el operador comparte una misma dirección entre muchos usuarios. Si de verdad la necesitas, Ajustes → Redirección de puertos del router puede abrir los puertos automáticamente o mostrártelos para configurarlos a mano. Los puertos redirigidos dejan la consola expuesta a internet, así que una VPN doméstica es la opción más segura."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "¿Y si la red de la consola tiene CGNAT o doble NAT?",
+          "a": [
+            "Abre el diagnóstico de conexión y mira la sección «Red doméstica de la consola». Se mide cuando tu teléfono está en el Wi-Fi de la consola o cuando te conectas en remoto. Doble NAT significa dos routers seguidos, normalmente el módem de tu operador más tu propio router: pon el módem en modo puente, o activa la DMZ en el módem y apúntala a tu router. CGNAT significa que tu operador comparte una misma dirección pública entre muchas casas, así que redirigir puertos no sirve: pide a tu operador una dirección IP pública. En ambos casos también funciona una VPN doméstica como Tailscale, porque no depende de una conexión directa desde fuera."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "¿Puedo jugar desde fuera de mi red doméstica a través de una VPN?",
+          "a": [
+            "Sí, con una VPN doméstica. Deja un dispositivo siempre encendido en la red de la consola y únete a esa red desde el teléfono: Tailscale en un NAS, una Raspberry Pi o un PC lo hace con un solo comando (tailscale up --advertise-routes=tu.red.domestica, y luego apruebas la ruta en el panel de administración), y un router con servidor WireGuard u OpenVPN integrado funciona igual. Con la VPN conectada, toca «Iniciar transmisión» en la tarjeta de la consola como siempre: la búsqueda en la red no atraviesa una VPN, así que la app también prueba la dirección que tenía la consola en casa. La consola tiene que haberse emparejado antes en casa, y la velocidad de subida de tu casa pasa a ser el límite."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "¿Puedo tener más de una consola o más de una cuenta?",
+          "a": [
+            "Las dos cosas, y ninguna cuesta nada. Cada consola que emparejas se queda en la lista, y cada una puede estar vinculada a una cuenta distinta en Ajustes → Consolas. Las cuentas se gestionan en Ajustes → Cuentas."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "Me he cambiado de teléfono y mis consolas han desaparecido o no conectan.",
+          "a": [
+            "Las consolas, las cuentas y las claves de emparejamiento no se incluyen en las copias de seguridad en la nube, así que en un teléfono nuevo toca configurarlo todo otra vez: añade tu cuenta y empareja cada consola una vez. Si una transferencia de teléfono a teléfono trajo la lista de consolas, las claves se quedan igualmente atrás, porque están ligadas al teléfono antiguo: abre Ajustes → Consolas, elige la consola y toca «Volver a emparejar». Una cuenta añadida iniciando sesión también puede pedirte que vuelvas a iniciar sesión."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Configuración e inicio de sesión",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "¿Por qué hace falta un Account ID?",
+          "a": [
+            "La consola solo se empareja con un dispositivo que le diga a qué cuenta pertenece, así que el Account ID forma parte del propio emparejamiento. Es un identificador de 12 caracteres ligado a tu cuenta, no una contraseña. La configuración te lo pide primero, y puedes añadir más cuentas después en Ajustes → Cuentas. Una cuenta añadida iniciando sesión también puede mostrar las consolas de tu cuenta, configurarlas sin código y usar «Remoto»."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "¿Qué formas hay de añadir una cuenta?",
+          "a": [
+            "«Consigue tu Account ID» ofrece dos grupos. El de iniciar sesión, que es el recomendado, tiene «Inicia sesión dentro de la app», que usa tu contraseña en la página oficial, e «Inicia sesión con tu navegador», que funciona con claves de acceso y gestores de contraseñas. «Solo configuración local» no necesita iniciar sesión: «Usa tu Online ID» sirve para consolas de 4.ª generación con una versión anterior a la 8.0, y «Escribe un Account ID», dentro de «Avanzado», toma el identificador de otro teléfono donde esta app ya tiene la sesión iniciada. Sin iniciar sesión puedes emparejar y jugar en casa, pero no configurar sin código ni usar «Remoto»."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "Mi cuenta usa una clave de acceso. ¿Cómo inicio sesión?",
+          "a": [
+            "Elige «Inicia sesión con tu navegador». Las claves de acceso no funcionan en la página de inicio de sesión dentro de la app, pero en tu navegador funcionan con normalidad, y la dirección se detecta sola cuando vuelves a la app."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "¿Qué hago después de iniciar sesión con el navegador?",
+          "a": [
+            "Al terminar el inicio de sesión, el navegador se queda en una página en blanco. Es normal. Copia la dirección entera de la barra de direcciones y vuelve a la app, que la detecta sola. Si no pasa nada, pégala en el campo de abajo y asegúrate de haber copiado todo lo que va después de code=."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "La página de inicio de sesión dentro de la app se queda en blanco o no carga.",
+          "a": [
+            "Algunas redes y algunos teléfonos bloquean esa página dentro de las apps. La app detecta cuando se queda vacía o falla, te dice por qué y te ofrece «Inténtalo de nuevo» y «Usar el navegador». Iniciar sesión con el navegador da el mismo resultado, así que cámbiate a él si volver a intentarlo no sirve. La verificación en dos pasos se hace en la propia página de inicio de sesión."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "Dice que el código de inicio de sesión ha caducado.",
+          "a": [
+            "El código de la dirección solo vale durante poco tiempo. Vuelve a abrir la página de inicio de sesión, inicia sesión y vuelve enseguida a la app. Con el navegador, toca «Abrir de nuevo la página de inicio de sesión» y copia la dirección nueva."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "¿Puedo configurarlo sin iniciar sesión?",
+          "a": [
+            "Sí, con «Solo configuración local». «Usa tu Online ID» sirve para consolas de 4.ª generación con una versión anterior a la 8.0; para consolas más nuevas, elige «Escribe un Account ID» dentro de «Avanzado» y copia el identificador desde Ajustes → Cuentas en otro teléfono donde esta app tenga la sesión iniciada. De las dos maneras puedes emparejar y jugar en tu red doméstica, pero configurar sin código, ver las consolas de tu cuenta y usar «Remoto» necesitan una cuenta con la sesión iniciada. Un Online ID se consulta a través de un servicio público."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "Mi cuenta dice «Sesión caducada».",
+          "a": [
+            "Toca «Iniciar sesión de nuevo» junto a ella en Ajustes → Cuentas; se abre de la misma forma en que iniciaste sesión la otra vez. La sesión solo se usa para «Remoto», para configurar sin código y para ver las consolas de tu cuenta, así que las consolas que ya emparejaste siguen funcionando en casa en cualquier caso."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "¿Elijo «Emparejar con un código» o «Configurar sin código»?",
+          "a": [
+            "«Emparejar con un código» tarda unos segundos, pero tienes que estar junto a la consola y el teléfono tiene que estar en la misma red. «Configurar sin código» funciona desde cualquier sitio, incluso con la consola en modo de reposo, y tarda unos 30 segundos. Necesita una consola de 5.ª generación con la sesión iniciada en la misma cuenta, una cuenta añadida iniciando sesión, Remote Play activado y el software del sistema más reciente. Elijas el que elijas, después la consola funciona igual."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "El emparejamiento falló o el código de emparejamiento caducó.",
+          "a": [
+            "Un código de emparejamiento vale 300 segundos y solo se puede usar una vez. Consigue uno nuevo en la consola, en Ajustes → Sistema → Remote Play → Vincular dispositivo, o en Ajustes → Ajustes de conexión de Remote Play → Añadir dispositivo si es una consola de 4.ª generación, y escríbelo enseguida. «Código de la consola (opcional)» es otro número distinto, el código de cuatro dígitos configurado en la propia consola, y se deja vacío salvo que la consola lo pida. En una consola de 5.ª generación también puedes tocar «Elegir otra forma» y probar «Configurar sin código»."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "«Configurar sin código» ha fallado.",
+          "a": [
+            "El mensaje indica la causa: la consola no está en tu cuenta o no es su consola principal, Remote Play está desactivado, la consola no ha respondido, hay dos consolas con el mismo nombre, la red no permite una conexión directa o la sesión ha caducado. Soluciónalo y vuelve a probar sin código, o toca «Elegir otra forma» y empareja con un código junto a la consola, lo que requiere que el teléfono esté en la misma red."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "¿Qué pasa si quito una cuenta?",
+          "a": [
+            "Solo la olvida este teléfono, junto con su sesión. Las consolas vinculadas a ella siguen funcionando en casa, pero se quedan sin cuenta hasta que elijas una en Ajustes → Consolas → la consola → Cuenta de la consola. En la consola y en la propia cuenta no cambia nada."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "¿Veis mi contraseña?",
+          "a": [
+            "No. La contraseña la escribes en la página oficial de inicio de sesión, y esta app no tiene servidor propio, así que nada de lo que escribes ahí pasa por nosotros. La app guarda en este teléfono el Account ID, el Online ID y los tokens de sesión, y los tokens y las claves de emparejamiento se cifran con el almacén de claves de Android. La consulta de un Online ID pasa por un servicio público."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Transmisión e imagen",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "¿Dónde están los controles durante la transmisión?",
+          "a": [
+            "La barra superior desaparece a los pocos segundos. Toca una zona vacía de la imagen para que vuelva: el icono de los controles deslizantes abre el panel rápido, y «Mantén pulsado para salir» termina la transmisión. Una pulsación larga en una zona vacía también abre el panel rápido."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "¿Qué límites tiene la versión gratuita?",
+          "a": [
+            "Transmitir en tu red doméstica hasta 720p y 30 fps con H.264, sin límite de tiempo y sin anuncios. El tope se aplica cada vez que empieza una sesión. El modo mando es gratis por completo y no tiene ningún tope. Transmitir en Android TV necesita Pro."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "¿Cómo activo 1080p y 60 fps?",
+          "a": [
+            "Elígelos en Ajustes → Calidad de imagen. También puedes elegirlos en «Calidad de imagen» del panel rápido durante una transmisión y tocar «Reconectar para aplicar». Tu teléfono tiene que dar la talla, así que si la imagen va a tirones a 1080p merece la pena pasar el diagnóstico de conexión."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "¿Puedo cambiar la resolución o la frecuencia de fotogramas durante la transmisión?",
+          "a": [
+            "Sí. Abre el panel rápido, elige en «Calidad de imagen» y toca «Reconectar para aplicar»; la imagen se detiene unos segundos. Una conexión en «Remoto» no puede cambiar a mitad de la transmisión, así que tu elección se aplica la próxima vez que conectes. El códec, la tasa de bits y el decodificador están en Ajustes → Calidad de imagen."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "¿Qué diferencia hay entre «Ajustar a la pantalla», «Estirar para llenar» y «Ampliar para llenar»?",
+          "a": [
+            "«Ajustar a la pantalla» mantiene las proporciones y deja bandas negras. «Estirar para llenar» llena la pantalla y deforma un poco la imagen. «Ampliar para llenar» llena la pantalla cortando los bordes, y es lo que suele elegirse en un teléfono alargado. Se cambia en Ajustes → Escalado, o en «Escalado» del panel rápido."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "En una tableta o un plegable, el mando en pantalla tapa la imagen.",
+          "a": [
+            "Abre el panel rápido y pon «Diseño» en «Dividido»: la imagen y el mando en pantalla se colocan por separado, sin taparse. «Auto» ya lo hace cuando la pantalla está en vertical o un plegable está medio abierto. Estas opciones solo aparecen en tabletas y plegables, y son gratis."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "La imagen se ve más oscura de lo normal.",
+          "a": [
+            "Es «Oscurecer pantalla», en el panel rápido. Oscurece la imagen para que los botones en pantalla destaquen; bájalo del todo para desactivarlo. Es independiente de «Opacidad de la superposición», que atenúa los propios botones."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "La imagen se entrecorta o pierde fotogramas.",
+          "a": [
+            "Casi siempre es el enlace inalámbrico, no el teléfono. Conéctate a la red de 5 GHz del mismo router, acércate a él y, si puedes, conecta la consola por cable. Ejecuta el diagnóstico de conexión y mira la latencia y la velocidad estimada del enlace: por encima de 30 ms o por debajo de 15 Mbps la imagen no se sostiene. Durante una transmisión, bajar la resolución o la frecuencia de fotogramas en el panel rápido ayuda al instante."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "La imagen se rompe o se congela, pero el sonido sigue.",
+          "a": [
+            "Abre el panel rápido y toca «Recuperar imagen» en «Acciones»: le pide a la consola una imagen nueva. Si sigue pasando, baja la resolución y ejecuta el diagnóstico de conexión."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "¿Qué significan los números de la superposición de rendimiento?",
+          "a": [
+            "La latencia suma el tiempo de ida y vuelta y el tiempo que tarda este teléfono en decodificar y dibujar un fotograma, así que es una estimación que deja fuera la consola y tu pantalla. Se muestra en verde por debajo de 60 ms y en rojo por encima de 100 ms. Si la tasa de bits queda muy por debajo de la que configuraste, la red la está frenando; si la tasa de bits va bien pero decodificar tarda mucho, el límite es el teléfono. Elige «Compacto» o «Detallado» en el panel rápido."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "No puedo elegir HEVC o HDR, o la transmisión usa H.264 en su lugar.",
+          "a": [
+            "HEVC necesita un decodificador compatible en este teléfono, y HDR, una pantalla que lo admita; la página de calidad explica por qué una opción no está disponible. Si al empezar una transmisión el teléfono no puede decodificar el formato, la transmisión cambia sola a H.264 o SDR y te avisa."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "¿Puede seguir la transmisión cuando cambio a otra app?",
+          "a": [
+            "Sí. Si sales de la app durante una transmisión, la imagen se reduce a una ventana pequeña que sigue reproduciéndose. Tócala para volver a pantalla completa sin reconectar, o ciérrala para terminar la transmisión. No se activa mientras la imagen está en un televisor, y puedes desactivarlo en Ajustes → Imagen en imagen."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "¿Cuántos datos consume la transmisión?",
+          "a": [
+            "Depende de la resolución: hasta aproximadamente 1 GB por hora a 360p, 2,7 GB a 540p, 4,5 GB a 720p y 6,8 GB a 1080p, y más con tasa de bits manual. El consumo real suele ser menor. Con datos móviles, la app usa 720p a 30 fps por defecto, tanto si transmites a través de una VPN doméstica como en «Remoto». Para mantener tu propia calidad, desactiva Ajustes → Datos móviles."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "¿Puedo ver la imagen en un televisor?",
+          "a": [
+            "Sí. Mientras transmites, conecta el teléfono al televisor con un cable USB-C a HDMI, o empieza a proyectar la pantalla desde los ajustes del sistema. El televisor muestra entonces solo el juego y el teléfono se convierte en el mando. En el televisor no se instala nada ni hay que iniciar sesión, así que el de un hotel o el de un amigo valen igual."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "La imagen del televisor se ve con retardo",
+          "a": [
+            "Lo primero es poner el televisor en modo juego. En sus modos de imagen normales, la mayoría de televisores añaden entre 60 y 120 ms de retardo; el modo juego lo baja a entre 10 y 30 ms, y ningún otro ajuste se le acerca. Después, el cable gana a la proyección inalámbrica: al proyectar hay que codificar la imagen una segunda vez, lo que suma otros 100 ms o más. Por último está la transmisión en sí, que va más rápida en una buena red y mucho más rápida en casa que a través de internet."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "He conectado el cable y no pasa nada",
+          "a": [
+            "No todos los teléfonos pueden sacar vídeo por su puerto USB-C. Los de gama alta suelen poder, los de gama media a menudo no, y no hay forma de saberlo sin probar. Ejecuta el diagnóstico de conexión con el cable enchufado: la fila «Pantalla externa» te dice si el sistema llega a ver el televisor. Si no lo ve, el motivo es el teléfono o el adaptador, y la salida es proyectar la pantalla de forma inalámbrica desde los ajustes del sistema."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "¿Puedo cargar el teléfono con el cable HDMI conectado?",
+          "a": [
+            "Solo con un adaptador que tenga su propia entrada de corriente. El puerto USB-C lo ocupa la señal de vídeo, y transmitir y decodificar gasta batería rápido, así que para sesiones largas vale la pena un hub USB-C con HDMI y carga de paso."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "El televisor de mi habitación de hotel no funciona",
+          "a": [
+            "Algunos televisores de hotel tienen los puertos HDMI desactivados o escondidos detrás del panel, y la app no puede hacer nada al respecto. Si el televisor tiene un puerto al que llegues, el cable se comporta como en cualquier otro televisor. Si no, la transmisión sigue funcionando en el teléfono como siempre."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "¿La protección anticopia dejará la imagen en negro?",
+          "a": [
+            "No. Lo que decodifica la app es una transmisión de vídeo normal, no contenido protegido, así que el televisor la muestra sin problemas por HDMI. No te saldrá la pantalla en negro que dan algunas apps de vídeo en una pantalla externa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Mandos",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "¿Puedo mover los botones de la pantalla?",
+          "a": [
+            "Sí, y es gratis. Abre Ajustes → Diseños del mando para ver todos los diseños y cambiar de nombre o eliminar los tuyos, y toca uno para arrastrar, redimensionar, atenuar u ocultar cualquier control. «Diseños predefinidos» ofrece Standard, Compact, Remote, Fighting y Racing como punto de partida, y «Exportar JSON» e «Importar JSON» pasan un diseño a otro teléfono a través del portapapeles. En el teléfono se editan diseños en horizontal; las tabletas tienen además una pestaña «Vertical» para los diseños que se usan con la pantalla dividida."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "¿Puedo usar mi propio diseño al transmitir?",
+          "a": [
+            "Sí. En el panel rápido, en «Diseño», toca «Personalizado» y elige uno de tus diseños en horizontal. «Compacto» y «Estándar» son las opciones incluidas, pensadas para tapar la menor parte posible de la imagen. Si se elimina el diseño que elegiste, la transmisión vuelve a «Compacto». Al editar un diseño incluido, tu versión se guarda como copia, así que el original sigue disponible."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "El mando en pantalla no aparece o se ve muy tenue al transmitir.",
+          "a": [
+            "Revisa «Mando» en el panel rápido: «Auto» lo oculta mientras hay un mando físico conectado, «Oculto» lo oculta siempre y «Siempre» lo deja en pantalla. «Modo mínimo» también lo oculta. Las transmisiones empiezan con el diseño «Compacto», que usa teclas más pequeñas y tenues, así que cambia «Diseño» a «Estándar» o sube «Opacidad de la superposición» si cuesta verlas."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "¿Cómo cambio entre palanca y cruceta en el diseño «Compacto»?",
+          "a": [
+            "Toca la pestaña pequeña del borde inferior del control redondo. Cambia entre palanca y cruceta, y el lado izquierdo y el derecho se cambian por separado."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "¿Cómo funciona el panel táctil en pantalla?",
+          "a": [
+            "Desliza uno o dos dedos sobre él para enviar toques, y dale un toque rápido para hacer clic en el panel táctil. No se puede dejar pulsado el clic."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "¿Puedo usar un mando de verdad?",
+          "a": [
+            "Sí. Se reenvía cualquier mando que Android reconozca por Bluetooth o USB, con una asignación por defecto elegida según su fabricante. En el modo mando, el mando en pantalla se puede seguir usando a la vez. Al transmitir, la app pregunta una vez si quieres mostrar también el mando en pantalla, y «Mando» en el panel rápido lo cambia después. Varios mandos y el mando en pantalla cuentan todos como un solo mando en la consola."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "Los botones de mi mando están en el sitio equivocado.",
+          "a": [
+            "Abre Ajustes → Asignación de botones con el mando conectado y elígelo. Toca una acción y pulsa la tecla que quieras; las palancas se pueden invertir, y «Prueba en vivo» muestra lo que envía cada tecla. Toca «Guardar» para conservar los cambios. La asignación se guarda por modelo de mando, así que dos mandos del mismo modelo la comparten, y «Restablecer» devuelve la de fábrica."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "Mi mando no tiene botón PS ni panel táctil, o no hacen nada.",
+          "a": [
+            "La mayoría de los mandos tienen combinaciones: Select y Start a la vez hacen de botón PS, y Select y L3 hacen de clic del panel táctil. Un mando que ya tiene botón PS solo recibe la combinación del panel táctil. Las combinaciones no se pueden cambiar, pero en Ajustes → Asignación de botones puedes asignar PS, panel táctil o MIC a cualquier tecla suelta. El diseño estándar del mando en pantalla también tiene todas las teclas."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "¿Un mando hecho para la consola funciona al completo en el teléfono?",
+          "a": [
+            "Por Bluetooth se reenvían sus botones y palancas, pero no los deslizamientos del panel táctil, el sensor de movimiento ni el micrófono. Si está conectado por USB durante una transmisión, toca «Permitir» en el panel rápido para tener gatillos adaptativos, barra de luz y vibración del mando, gratis para todos. Si dice «Acceso USB bloqueado», otro driver del teléfono tiene el mando ocupado, así que conéctalo por Bluetooth."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "¿Cómo funcionan la vibración del juego y la de los botones?",
+          "a": [
+            "La vibración del juego va al mando físico si tiene motores, y si no, al teléfono. El zumbido corto al pulsar las teclas en pantalla es «Vibración de los botones», en «Entrada» del menú del modo mando: cada toque pasa al siguiente nivel, de desactivada hasta 3, y el nivel que elijas se recuerda."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "¿Dónde están el micrófono y el sensor de movimiento?",
+          "a": [
+            "En el modo mando, los dos están en «Entrada» del menú. El sensor de movimiento envía el giroscopio y el acelerómetro del teléfono, y empieza desactivado cada vez que te conectas. El micrófono pide permiso primero; después, al tocarlo cambia entre «Activo» y «Silenciado». Al transmitir no hay sensor de movimiento, y el micrófono es la tecla MIC del mando en pantalla. Los dos son gratis."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "¿Cómo pongo la consola en reposo o voy a su pantalla de inicio?",
+          "a": [
+            "En el modo mando, «Acciones» del menú tiene «Encender la consola», «Poner la consola en reposo», «Inicio de la consola» y «Bloquear la pantalla», que ignora los toques hasta que la desbloqueas. El botón PS del mando en pantalla también sirve."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "¿Puedo usarlo para controlar apps de vídeo en la consola?",
+          "a": [
+            "Sí. En el modo mando, activa «Diseño de control remoto» en «Diseño» del menú para tener teclas grandes pensadas para apps multimedia. Desactívalo para elegir otro diseño."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "Copiloto de IA",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "¿Cuesta algo Copiloto de IA?",
+          "a": [
+            "Por nuestra parte, no. Funciona con tu propia clave de API: nosotros nunca la tocamos ni añadimos nada encima, y el proveedor te cobra directamente lo que uses. La sección «Guías de juegos» de Ajustes → Copiloto de IA muestra un coste aproximado por guía con el proveedor que hayas elegido, y «Uso» lleva una estimación de este mes, incluido cuántas búsquedas web se han hecho."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "¿Adónde va mi pantalla?",
+          "a": [
+            "Solo cuando preguntas: el tema de la guía, el nombre del juego y, si la adjuntas, una imagen reducida de la transmisión van directamente al proveedor que configuraste, que es quien hace las búsquedas web. No hay ningún servidor nuestro de por medio y no guardamos registros; las guías se guardan solo en este teléfono. Tu clave se guarda cifrada en este teléfono, y sin clave no se envía nada a ningún sitio."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "¿De dónde salen las guías de juegos?",
+          "a": [
+            "Cuando buscas una guía, el modelo que configuraste busca en la web por su cuenta: Anthropic, Google, OpenAI y DeepSeek hacen las búsquedas en sus propios servidores. Lee los resultados y escribe una guía paso a paso en tu idioma, con las fuentes debajo. Las guías se guardan solo en este teléfono, así que volver a abrir una no cuesta nada."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "¿Por qué mi guía dice «Sin búsqueda web»?",
+          "a": [
+            "Solo Anthropic, Google, DeepSeek y el endpoint oficial de OpenAI pueden buscar en la web. Un endpoint compatible con OpenAI propio o de terceros, como OpenRouter u Ollama, responde con los conocimientos propios del modelo, que pueden estar desactualizados en juegos recientes. Para tener guías con búsqueda web, elige la tarjeta de Anthropic, Google o DeepSeek, o introduce el endpoint oficial de OpenAI en la tarjeta «Compatible con OpenAI»."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "¿Cuánto cuesta una guía?",
+          "a": [
+            "Anthropic y OpenAI cobran alrededor de un centavo de dólar por búsqueda web, además de los tokens, así que una guía sale por unos 8 a 15 centavos. Google incluye miles de búsquedas gratis al mes. DeepSeek solo cobra los tokens: mucho menos de un centavo. «Profundidad de búsqueda» en Ajustes limita el número de búsquedas, y «Uso» muestra la estimación de este mes."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "¿Cómo consigo una clave de API?",
+          "a": [
+            "Anthropic: créala en «API keys» de la Anthropic Console. Google: toca «Get API key» en Google AI Studio. DeepSeek: créala en «API keys» de la plataforma DeepSeek. Compatible con OpenAI: usa la clave del panel de tu proveedor, como OpenAI u OpenRouter; para Ollama en tu propio ordenador, escribe su dirección como «URL base», pon cualquier cosa como clave y elige un modelo que pueda leer imágenes. Las tarjetas de Anthropic, Google y DeepSeek en Ajustes → Copiloto de IA tienen un enlace «Conseguir una clave»."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "¿Por qué la guía está mal?",
+          "a": [
+            "Las fuentes pueden estar desactualizadas o hablar de otra versión o plataforma; cuando las fuentes indican la versión, la guía también la indica. Haz una pregunta de seguimiento con el capítulo, el nombre del jefe o tu build, y la guía se reescribe para ti. Si falta el nombre del juego o es incorrecto, corrígelo en el panel antes de buscar, o prueba otro modelo en Ajustes."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "¿Cómo cambio los comandos de voz?",
+          "a": [
+            "Hay 8 comandos integrados, como «Abrir el mapa», «Pausa» y «Captura de pantalla». Abre Ajustes → Copiloto de IA → Comandos de voz y toca uno para cambiar el botón que pulsa o añadir tus propias frases; todo lo que no sea un comando va al panel de guías, como tema o como pregunta de seguimiento. En teléfonos sin servicio de reconocimiento de voz, o sin el permiso de micrófono, escribe en el panel."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "¿Copiloto de IA no conecta con el proveedor?",
+          "a": [
+            "Las solicitudes de IA no pasan por el «Proxy de conexión a PSN» de la app; salen por la conexión de tu propio teléfono. Si desde donde estás no se puede acceder a Anthropic, Google o DeepSeek, cambia a otro proveedor o a «Compatible con OpenAI» e introduce un endpoint al que sí llegues, u Ollama en tu propio ordenador. «Probar la conexión», en la misma página, te dice si funciona."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "¿Cómo desactivo Copiloto de IA?",
+          "a": [
+            "Desactiva «Usar Copiloto de IA» en Ajustes → Copiloto de IA. A partir de ahí, una pulsación larga en la transmisión vuelve a abrir el panel rápido, y las teclas de IA desaparecen de la barra superior. Para quitar también tu clave, toca «Borrar» junto a ella; la copia cifrada se elimina al momento."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "¿Puedo usarlo si no veo bien la pantalla?",
+          "a": [
+            "Sí. «Describir la pantalla» en el panel rápido, o decir «léemelo» al botón de voz, dice primero lo más importante y después lee el texto que hay en pantalla. Las guías del panel funcionan con TalkBack y cada paso se puede marcar como hecho. Con TalkBack activado, TalkBack lee las descripciones de la pantalla en la barra de subtítulos; sin él, activa «Leer las respuestas en voz alta» en Ajustes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Compra y reembolsos",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "¿Esto es una suscripción?",
+          "a": [
+            "No. Compras la app una vez en Google Play y ya está: sin suscripciones, sin compras dentro de la app, sin anuncios y sin ninguna función que luego te pida un segundo pago. La compra va ligada a tu cuenta de Google, no al teléfono."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "La instalé durante una promoción gratuita. ¿Se bloquearán funciones más adelante?",
+          "a": [
+            "No. Instalarla durante una promoción cuenta como comprar la app a ese precio, así que es tuya para siempre y con todas las funciones. Sigue igual cuando la promoción termina, y la misma cuenta de Google puede volver a instalarla en un teléfono nuevo sin pagar nada."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "¿Cómo la instalo en un teléfono nuevo?",
+          "a": [
+            "Abre la ficha de la tienda con la misma cuenta de Google con la que compraste y verás «Instalar» en lugar de un precio. Las consolas no se trasladan, así que vuelve a emparejar cada consola en el teléfono nuevo; las claves de emparejamiento se quedan en el teléfono en el que se crearon."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "¿Qué incluye?",
+          "a": [
+            "Todo, desde el primer arranque: transmisión a 1080p y 60 fps, tasa de bits manual, HEVC y HDR, nitidez FSR y superposición de rendimiento, jugar desde fuera de tu red doméstica, transmitir en Android TV, imagen en imagen y el juego en el televisor con el teléfono de mando. También están el modo mando, el diagnóstico de conexión, el widget «Acceso a la consola» y todas las consolas y cuentas que quieras."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "¿Cómo pido un reembolso?",
+          "a": [
+            "Dentro de las 48 horas siguientes a la compra, pide tú mismo el reembolso desde tu historial de pedidos de Google Play, que es lo más rápido. Pasado ese plazo, escríbenos dentro de los 7 días siguientes a la compra y te devolvemos el dinero sin hacer preguntas. Añade el número de pedido del recibo de Google Play para que podamos localizar la compra."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "Pagué el precio completo justo antes de que empezara una oferta.",
+          "a": [
+            "Escríbenos. Dentro de las 48 horas siguientes a la compra, lo más rápido es pedir tú mismo el reembolso desde tu historial de pedidos de Google Play y volver a comprarla al precio de oferta. Pasado ese plazo, escríbenos con el número de pedido del recibo de Google Play y te devolvemos la diferencia."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Más",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "¿Puedo encender la consola desde la pantalla de inicio?",
+          "a": [
+            "Sí. Añade el widget «Acceso a la consola» desde la lista de widgets de tu pantalla de inicio y elige una consola. «Encender» envía la señal de encendido sin abrir la app. «Conectar» abre el modo mando si el widget encontró la consola en tu red la última vez, y si no, abre la app. Los dos solo funcionan en la misma red, y el widget es gratis."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "¿Hay versión para Android TV?",
+          "a": [
+            "Sí, la misma app se instala en Android TV y Google TV. Abre la tienda en el televisor con la misma cuenta de Google con la que compraste y se instala sin coste adicional. Para jugar, el televisor necesita un mando Bluetooth o USB; el mando a distancia solo sirve para moverse por los menús. Durante una transmisión, pulsa OK o Menú en el mando a distancia, o mantén L1, R1, L3 y R3 a la vez en el mando, para abrir el panel rápido."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "¿Cómo emparejo una consola en el televisor?",
+          "a": [
+            "Elige «Añadir consola» en la pantalla de inicio del televisor y selecciona el modelo de tu consola. En el paso de la cuenta, abre esta app en tu teléfono, ve a Ajustes → Cuentas, copia el Account ID que aparece ahí y escríbelo en el televisor; tiene 12 caracteres y suele terminar en =. Después elige la consola e introduce el código de emparejamiento de la consola con el teclado numérico de la pantalla del televisor. En el televisor solo se puede emparejar con código."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "Dice que el sistema de la consola se ha actualizado y que tengo que esperar.",
+          "a": [
+            "Una actualización del sistema de la consola ha cambiado la versión del protocolo de Remote Play que utiliza, y no hay nada que el teléfono pueda hacer para sortearlo. La solución es una actualización de la app, que tratamos como urgente. Si han pasado más de unos días, escríbenos e indícanos la versión del software del sistema de la consola."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "¿Puedo cambiar el idioma de la app?",
+          "a": [
+            "La app sigue el idioma de tu teléfono y está disponible en 19 idiomas. En Android 13 y versiones posteriores puedes elegir un idioma solo para esta app en los ajustes del sistema, en Aplicaciones → Relaypad → Idioma. En versiones anteriores, cambia el idioma del teléfono."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "¿Qué datos recoge esta app?",
+          "a": [
+            "Eventos de uso anónimos, para ver qué pantallas se rompen, y ajustes remotos, que activan o desactivan funciones. Los eventos nunca llevan tu Account ID, tu dirección IP ni el nombre de tu consola, y no hay ningún servidor nuestro entre tú y tu consola. «Estadísticas de uso» se puede desactivar en Ajustes → Privacidad; los ajustes remotos se siguen descargando."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "¿Cómo informo de un problema o propongo algo?",
+          "a": [
+            "Usa «Enviar comentarios» en Ajustes → Acerca de, el botón del final de esta página o «Escríbenos» en el diagnóstico de conexión. El correo se rellena con el modelo de tu teléfono, las versiones del sistema y de la app, el idioma y el último resumen del diagnóstico de conexión, que es lo que necesitamos para cotejar tu informe con lo que vemos. Solo cuéntanos qué hiciste y qué pasó."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

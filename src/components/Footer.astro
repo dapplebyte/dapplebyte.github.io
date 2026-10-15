@@ -1,0 +1,88 @@
+---
+import { localePath, LOCALES } from '../i18n/locales';
+import { useT } from '../i18n/t';
+import { liveProducts } from '../lib/content';
+
+interface Props {
+  locale: string;
+}
+const { locale } = Astro.props;
+const { t } = useT(locale);
+const products = await liveProducts();
+const year = new Date().getUTCFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-cols">
+      <div class="footer-col">
+        <span class="footer-h">{t('site.name')}</span>
+        <a href={localePath(locale, '/about/')}>{t('nav.about')}</a>
+        <a href={`mailto:${t('site.email')}`}>{t('site.email')}</a>
+        <a href="https://github.com/dapplebyte">github.com/dapplebyte</a>
+        <a href="/privacy/">{t('footer.privacy')}</a>
+      </div>
+      {products.map((p) => (
+        <div class="footer-col">
+          <span class="footer-h">{p.name}</span>
+          <a href={localePath(locale, `/${p.slug}/`)}>{t('labels.overview')}</a>
+          <a href={localePath(locale, `/${p.slug}/faq/`)}>{t('labels.faq')}</a>
+          <a href={localePath(locale, `/${p.slug}/support/`)}>{t('labels.support')}</a>
+          <a href={localePath(locale, `/${p.slug}/privacy/`)}>{t('labels.privacy')}</a>
+          <a href={localePath(locale, `/${p.slug}/changelog/`)}>{t('labels.changelog')}</a>
+          <a href={localePath(locale, `/${p.slug}/press/`)}>{t('labels.press')}</a>
+        </div>
+      ))}
+      <div class="footer-col footer-langs">
+        <span class="footer-h">{t('footer.languages')}</span>
+        <p>
+          {LOCALES.map((l, i) => (
+            <>
+              <a href={localePath(l.slug, '/')} lang={l.lang} hreflang={l.lang}>{l.name}</a>{i < LOCALES.length - 1 && ' · '}
+            </>
+          ))}
+        </p>
+      </div>
+    </div>
+    <slot name="legal" />
+    <p class="fine">{t('footer.builtWith')} {t('footer.copyright', { year })}</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--line);
+    padding-block: 36px 40px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .footer-cols {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px 40px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .footer-col a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .footer-col a:hover {
+    color: var(--fg);
+  }
+  .footer-h {
+    color: var(--fg);
+    font-weight: 600;
+  }
+  .footer-langs {
+    max-width: 360px;
+  }
+  .footer-langs p {
+    line-height: 1.9;
+  }
+</style>

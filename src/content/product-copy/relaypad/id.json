@@ -1,0 +1,127 @@
+{
+  "slug": "relaypad",
+  "locale": "id",
+  "title": "Relaypad: Remote Play, Gamepad",
+  "shortDescription": "Tanpa iklan, tanpa langganan. Kontroler PS5 & PS4, streaming konsol, HDMI ke TV.",
+  "requires": "Perlu konsol PS5 atau PS4 yang Remote Play-nya sudah diaktifkan di setelan.",
+  "tagline": "Relaypad mengubah ponsel Android menjadi kontroler nirkabel konsol, atau menampilkan gambar konsol di ponsel, tablet, atau TV, di rumah maupun di luar.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Kontroler Remote Play dan Streaming Konsol untuk PS5 dan PS4",
+      "paragraphs": [
+        "Relaypad mengubah ponsel Android menjadi kontroler nirkabel konsol, atau menampilkan gambar konsol di ponsel, tablet, atau TV, di rumah maupun di luar."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Untuk Apa Orang Memakai Relaypad",
+      "paragraphs": [],
+      "bullets": [
+        "Main lagi saat baterai stik tiba-tiba habis",
+        "Menjelajahi menu konsol dan aplikasi video dengan tombol remote besar",
+        "Main sambil rebahan di kasur atau dari kamar lain, konsol tetap di dekat TV",
+        "Menampilkan gambar di TV hotel lewat HDMI, dengan ponsel sebagai stik"
+      ]
+    },
+    {
+      "id": "virtual-gamepad",
+      "title": "Gamepad Virtual, Editor Tata Letak dan Pemetaan Tombol",
+      "paragraphs": [],
+      "bullets": [
+        "Lima tata letak: Standar, Ringkas, Remote, Fighting, dan Balap",
+        "Geser, ubah ukuran, atau sembunyikan tombol apa pun, dan pakai tata letak sendiri saat streaming",
+        "Touchpad, getaran, mikrofon, dan sensor gerak giroskop",
+        "Teruskan gamepad Bluetooth atau USB ke konsol dengan pemetaan tombol otomatis",
+        "Stik USB saat streaming: trigger adaptif, light bar, dan haptik"
+      ]
+    },
+    {
+      "id": "console-streaming",
+      "title": "Streaming Konsol hingga 1080p60 dengan HEVC dan HDR",
+      "paragraphs": [],
+      "bullets": [
+        "30 atau 60 fps hingga 1080p, bitrate manual, HEVC dan HDR di ponsel yang mendukung",
+        "Penajaman FSR dan overlay performa berisi fps, packet loss, dan latensi total",
+        "Output TV lewat HDMI, picture-in-picture, tata letak terbagi di tablet dan ponsel lipat",
+        "Mode minimal, skala Pas di layar, Regangkan penuh, atau Perbesar penuh, sambung ulang otomatis di Wi-Fi rumah",
+        "Mode hemat data turun ke 720p/30fps saat memakai data seluler"
+      ]
+    },
+    {
+      "id": "remote-play-away",
+      "title": "Remote Play dari Luar Rumah Pakai Data Seluler",
+      "paragraphs": [],
+      "bullets": [
+        "Masuk sekali, lalu sambung lewat 5G, 4G, atau Wi-Fi lain, biasanya tanpa setel router",
+        "Pemetaan port UPnP otomatis, VPN rumah seperti Tailscale juga bisa",
+        "Memberi tahu saat alamat bersama dari operator (CGNAT) memblokir koneksi"
+      ]
+    },
+    {
+      "id": "connection-doctor",
+      "title": "Dokter Koneksi: Cari Tahu Kenapa Tidak Bisa Tersambung",
+      "paragraphs": [],
+      "bullets": [
+        "13 pemeriksaan: jaringan, mode istirahat konsol, sakelar Remote Play, latensi, dan jitter",
+        "Pita Wi-Fi, VPN, gangguan Bluetooth, UPnP, jenis NAT, dan IPv4 publik",
+        "Salin laporan atau email ke kami dengan sekali ketuk"
+      ]
+    },
+    {
+      "id": "guided-setup",
+      "title": "Penyiapan Terpandu dalam Empat Langkah",
+      "paragraphs": [],
+      "bullets": [
+        "Masuk di aplikasi atau browser (passkey didukung), atau ketik Account ID",
+        "PS5: daftarkan tanpa PIN, bahkan saat mode istirahat; atau sandingkan dengan kode 8 digit",
+        "Simpan beberapa konsol dan akun, ganti nama atau sandingkan ulang kapan saja"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Tanpa Iklan, Tanpa Langganan",
+      "paragraphs": [
+        "Relaypad tidak menampilkan iklan dan tidak ada langganan. Pasang ulang di ponsel baru dengan akun Google yang sama tanpa biaya tambahan. Jika tidak berjalan di perangkat atau jaringan Anda, email kami dalam 7 hari setelah pembelian untuk pengembalian dana."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privasi",
+      "paragraphs": [
+        "Tanpa akun Relaypad dan tanpa server Relaypad di antara Anda dan konsol. Kunci penyandingan dan token masuk tetap di perangkat Anda, dienkripsi dengan Android Keystore. Statistik anonim bisa dimatikan."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-buy",
+      "title": "Sebelum Membeli",
+      "paragraphs": [],
+      "bullets": [
+        "Anda perlu konsol sendiri; tidak termasuk game dan bukan cloud gaming",
+        "Android 8.0 atau lebih baru; disarankan RAM 4 GB dan Wi-Fi 5 GHz",
+        "Ponsel menggantikan kontroler, tidak bisa dipakai bersamaan dengan kontroler di konsol",
+        "Setelah update sistem konsol, Relaypad mungkin perlu diperbarui agar bisa tersambung lagi"
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Ada Masalah? Kirim Email ke Kami",
+      "paragraphs": [
+        "Sebelum memberi ulasan, email ke feedback@dapplebyte.com, atau buka Setelan → Tentang → Kirim masukan agar model ponsel otomatis disertakan. Kami membaca setiap pesan."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "trademark",
+      "title": "Pemberitahuan Merek Dagang",
+      "paragraphs": [
+        "PlayStation®, PS4®, dan PS5® adalah merek dagang Sony Interactive Entertainment Inc. Relaypad adalah klien Remote Play independen, tidak berafiliasi dengan Sony serta tidak diizinkan atau didukung oleh Sony. Aplikasi ini hanya bekerja dengan perangkat keras dan konten milik Anda sendiri, tidak mengakali proteksi salinan, dan tidak memfasilitasi pembajakan."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

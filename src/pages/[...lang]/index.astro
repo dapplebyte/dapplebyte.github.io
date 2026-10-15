@@ -1,0 +1,144 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProductHero from '../../components/ProductHero.astro';
+import { getLocale, localePath } from '../../i18n/locales';
+import { useT } from '../../i18n/t';
+import { allProducts, getCopy, localesFor } from '../../lib/content';
+import { langPaths } from '../../lib/routes';
+import { graph, organization, website, webPage, softwareApplication, SITE } from '../../lib/jsonld';
+import { screenshots } from '../../lib/screenshots';
+
+export const getStaticPaths = () => langPaths();
+
+const { locale } = Astro.props;
+const { t, list } = useT(locale);
+const loc = getLocale(locale);
+const products = await allProducts();
+const live = products.filter((p) => p.status === 'live');
+const placeholders = products.filter((p) => p.status === 'placeholder');
+const copies = await Promise.all(live.map((p) => getCopy(p.slug, locale)));
+const principles = list<{ title: string; body: string }>('home.principles');
+const email = t('site.email');
+
+const apps = await Promise.all(
+  live.map(async (p, i) => {
+    const langs = (await localesFor('productCopy', p.slug)).map((s) => getLocale(s).lang);
+    const shots = screenshots(p.slug, 'en', p.screenshotCount).map((img) => new URL(img.src, SITE).href);
+    return softwareApplication(p, copies[i], langs, shots);
+  }),
+);
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(new URL(localePath(locale, '/'), SITE).href, t('home.title'), t('home.description'), loc.lang),
+  ...apps,
+);
+---
+
+<Base locale={locale} path="/" title={t('home.title')} description={t('home.description')} jsonLd={jsonLd}>
+  <section class="grid-bg hero">
+    <div class="wrap">
+      <div class="mono mono-accent kicker">{t('site.kicker')}</div>
+      <h1 class="hero-h">{t('site.tagline')}</h1>
+      <p class="lede">{t('site.definition')}</p>
+    </div>
+  </section>
+
+  <section id="apps" class="wrap section">
+    <div class="section-head mono">
+      <span>{t('home.appsHeading')}</span>
+      <span>{String(live.length).padStart(2, '0')} / {String(products.length).padStart(2, '0')}</span>
+    </div>
+    <div class="apps">
+      {live.map((p, i) => (
+        <ProductHero locale={locale} product={p} copy={copies[i]} level={2} linkTo={localePath(locale, `/${p.slug}/`)} />
+      ))}
+      {placeholders.length > 0 && (
+        <div class="cells placeholders" style={`grid-template-columns: repeat(${Math.min(placeholders.length, 3)}, minmax(0, 1fr))`}>
+          {placeholders.map((p) => (
+            <div class="placeholder">
+              <div class="mono">{String(p.order).padStart(2, '0')}</div>
+              <strong>{t('labels.nextApp')}</strong>
+              <span>{t('labels.nextAppBody')}</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="section-head mono"><span>{t('home.principlesHeading')}</span></div>
+    <div class="cells cells-4">
+      {principles.map((p, i) => (
+        <div>
+          <div class="mono mono-accent num">{String(i + 1).padStart(2, '0')}</div>
+          <strong class="principle-title">{p.title}</strong>
+          <span class="principle-body">{p.body.replace('{email}', email)}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="section-head mono"><span>{t('home.contactHeading')}</span></div>
+    <p class="lede">
+      {t('home.contactBody', { email: '' }).split('. ')[0].replace(': ', ': ')}<a href={`mailto:${email}`}>{email}</a>. {t('home.contactBody', { email }).split('. ').slice(1).join('. ')}
+    </p>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    border-bottom: 1px solid var(--line);
+  }
+  .hero .wrap {
+    padding-block: clamp(56px, 9vw, 96px) clamp(48px, 7vw, 72px);
+  }
+  .kicker {
+    margin-bottom: 18px;
+  }
+  .hero-h {
+    font-size: clamp(36px, 5.6vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    max-width: 15ch;
+    margin-bottom: 16px;
+  }
+  .apps {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .placeholder {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: var(--muted);
+    min-height: 140px;
+  }
+  .placeholder strong {
+    color: var(--fg-2);
+    font-size: 17px;
+  }
+  .placeholder span {
+    font-size: 15px;
+  }
+  .num {
+    margin-bottom: 10px;
+  }
+  .principle-title {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 6px;
+  }
+  .principle-body {
+    color: var(--muted);
+    font-size: 15px;
+  }
+  @media (max-width: 860px) {
+    .placeholders {
+      grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    }
+  }
+</style>

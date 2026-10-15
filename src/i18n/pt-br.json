@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "DappleByte",
+    "tagline": "Apps pequenos e úteis, feitos com carinho.",
+    "definition": "A DappleByte é um estúdio independente que faz apps para Android.",
+    "kicker": "Estúdio independente · Android",
+    "email": "hello@dapplebyte.com"
+  },
+  "nav": {
+    "apps": "Apps",
+    "about": "Sobre",
+    "language": "Idioma",
+    "skip": "Pular para o conteúdo",
+    "home": "Início"
+  },
+  "footer": {
+    "studio": "Estúdio",
+    "contact": "Contato",
+    "languages": "Idiomas",
+    "privacy": "Privacidade do site",
+    "copyright": "© {year} DappleByte",
+    "builtWith": "Site estático, sem cookies, sem rastreadores."
+  },
+  "cta": {
+    "getOnPlay": "Baixe o {name} no Google Play",
+    "readSource": "Ver o código-fonte",
+    "about": "Sobre o {name}",
+    "learnMore": "Saiba mais"
+  },
+  "labels": {
+    "apps": "Apps",
+    "nextApp": "Próximo app",
+    "nextAppBody": "Em desenvolvimento. Vai aparecer aqui quando for lançado.",
+    "lastUpdated": "Atualizado em {date}",
+    "android": "Android",
+    "by": "da DappleByte",
+    "overview": "Visão geral",
+    "features": "Recursos",
+    "faq": "Perguntas frequentes",
+    "videos": "Vídeos",
+    "compare": "Comparação",
+    "support": "Suporte",
+    "privacy": "Privacidade",
+    "changelog": "Notas da versão",
+    "press": "Kit de imprensa",
+    "sourceCode": "Código-fonte",
+    "googlePlay": "Google Play"
+  },
+  "facts": {
+    "minOs": "{version} ou mais recente",
+    "consoles": "PS5 · PS4",
+    "languages": "{count} idiomas",
+    "source": "Código {license}",
+    "version": "Versão {version}"
+  },
+  "home": {
+    "title": "DappleByte · Apps independentes para Android",
+    "description": "A DappleByte é um estúdio independente que faz apps para Android, como o Relaypad, um controle de Remote Play e app de transmissão do console para PS5 e PS4.",
+    "appsHeading": "Apps",
+    "principlesHeading": "Como trabalhamos",
+    "principles": [
+      { "title": "Sem anúncios, sem assinaturas.", "body": "Um preço só, ou nenhum. Nada alugando a sua atenção." },
+      { "title": "Nenhum servidor no meio.", "body": "Nossos apps conversam com o seu próprio hardware. Nunca vemos os seus dados." },
+      { "title": "Código publicado.", "body": "Cada versão vai para um repositório público sob AGPL-3.0." },
+      { "title": "Respondemos todo e-mail.", "body": "Escreva para {email}. Quem lê é uma pessoa." }
+    ],
+    "contactHeading": "Contato",
+    "contactBody": "Estúdio, imprensa e parcerias: {email}. Cada app tem o próprio endereço de suporte na página de suporte dele."
+  },
+  "about": {
+    "title": "Sobre a DappleByte",
+    "description": "A DappleByte é um estúdio independente que faz apps para Android: sem anúncios, sem assinaturas, sem servidor entre você e o seu hardware, com o código publicado sob AGPL-3.0.",
+    "whatHeading": "O que é a DappleByte",
+    "whatBody": "A DappleByte é um estúdio independente que faz apps para Android. Um desenvolvedor, poucos apps, cada um feito para fazer bem uma tarefa específica e depois não atrapalhar.",
+    "howHeading": "Como trabalhamos",
+    "openSourceHeading": "Código aberto",
+    "openSourceBody": "Cada versão de cada app é publicada como código-fonte sob a AGPL-3.0. O link do repositório está na página de cada app. Você pode ler exatamente o que o app faz, compilá-lo por conta própria ou conferir se a política de privacidade bate com o código.",
+    "contactHeading": "Contato",
+    "contactBody": "Estúdio, imprensa e parcerias: {email}. O suporte de um app específico vai para o endereço na página de suporte desse app, para chegar à caixa de entrada certa já com o contexto certo.",
+    "trademarksHeading": "Marcas registradas",
+    "trademarksBody": "Nomes de produtos de outras empresas aparecem neste site só para descrever com o que nossos apps funcionam. Eles pertencem aos seus donos, e isso não implica nenhuma afiliação ou endosso.",
+    "siteHeading": "Este site",
+    "siteBody": "HTML estático feito com Astro e hospedado no GitHub Pages. Não usa cookies nem carrega scripts de terceiros. O código do próprio site é público em github.com/dapplebyte/dapplebyte.github.io."
+  },
+  "product": {
+    "title": "{name} · DappleByte",
+    "screenshotsHeading": "Capturas de tela",
+    "screenshotAlt": "Captura de tela {index} do {name}",
+    "featuresHeading": "O que ele faz",
+    "faqHeading": "Dúvidas comuns",
+    "faqAll": "Todas as perguntas",
+    "getHeading": "Baixe o {name}",
+    "getBody": "Disponível no Google Play para Android. O código-fonte é publicado sob {license}.",
+    "requiresLabel": "Requer",
+    "videoHeading": "Veja funcionando",
+    "allVideos": "Todos os vídeos",
+    "moreHeading": "Mais sobre o {name}"
+  },
+  "features": {
+    "title": "{feature} · {name}",
+    "indexHeading": "Recursos",
+    "relatedFaq": "Perguntas relacionadas",
+    "backToProduct": "Voltar para o {name}",
+    "allFeatures": "Todos os recursos do {name}",
+    "inShort": "Em resumo"
+  },
+  "faq": {
+    "title": "Perguntas frequentes do {name}",
+    "sectionTitle": "{section} · Perguntas frequentes do {name}",
+    "description": "Respostas sobre o {name}: formas de jogar, conexão, login, qualidade da transmissão, controles, compra e reembolsos.",
+    "sectionDescription": "Perguntas frequentes do {name}, {section}: {count} perguntas com respostas completas.",
+    "intro": "As mesmas respostas estão no app, em Configurações → Perguntas frequentes. Cada seção é uma página, e cada pergunta tem o próprio link.",
+    "questionsCount": "{count} perguntas",
+    "notFoundHeading": "Não achou sua resposta?",
+    "notFoundBody": "Escreva para a gente com o modelo do seu celular, o seu console e o que aconteceu. Uma pessoa lê cada mensagem.",
+    "notFoundCta": "Ir para o suporte",
+    "prev": "Anterior",
+    "next": "Próxima",
+    "allSections": "Todas as seções",
+    "linkToQuestion": "Link para esta pergunta"
+  },
+  "support": {
+    "title": "Suporte do {name}",
+    "description": "Ajuda com o {name}: o que verificar primeiro, como falar com a gente, o que incluir e como funcionam os reembolsos.",
+    "beforeHeading": "Antes de escrever",
+    "beforeItems": [
+      "Abra as perguntas frequentes. A maioria das dúvidas sobre conexão, login e imagem está respondida lá, com as mesmas palavras do app.",
+      "Se o app não conectar, rode o Diagnóstico de conexão em Configurações. Ele verifica a sua rede, o console e o Remote Play, e pode enviar o relatório por e-mail para a gente com um toque.",
+      "Confira se o console está ligado ou em modo de repouso, com o Remote Play ativado nas configurações dele."
+    ],
+    "writeHeading": "Fale com a gente",
+    "writeBody": "O botão abre o seu app de e-mail com o assunto já preenchido. Se nada abrir, copie o endereço e a lista abaixo em qualquer e-mail.",
+    "writeButton": "Enviar e-mail para {email}",
+    "copyAddress": "Copiar endereço",
+    "copied": "Copiado",
+    "subject": "[{name}] ",
+    "templateHeading": "O que incluir",
+    "template": {
+      "phone": "Modelo do celular:",
+      "android": "Versão do Android:",
+      "console": "Console (PS5 ou PS4):",
+      "where": "Em casa ou fora de casa:",
+      "what": "O que aconteceu, passo a passo:",
+      "doctor": "Se você rodou o Diagnóstico de conexão, cole o relatório aqui."
+    },
+    "refundHeading": "Reembolsos",
+    "refundBody": "Se o {name} não funcionar com a sua configuração, mande um e-mail em até 7 dias após a compra e devolvemos o valor. Conte o que você tentou; isso ajuda a gente a resolver para a próxima pessoa.",
+    "replyHeading": "Quando você recebe resposta",
+    "replyBody": "Normalmente em até dois dias úteis. Toda mensagem é lida por uma pessoa, e toda mensagem recebe resposta.",
+    "faqLink": "Leia as perguntas frequentes antes"
+  },
+  "privacy": {
+    "title": "Política de privacidade do {name}",
+    "description": "O que o {name} para Android faz com os seus dados: sem conta, sem servidor nosso, o que fica no dispositivo e onde o app se conecta.",
+    "effective": "Em vigor desde {date}",
+    "appliesTo": "Vale para o {name} para Android ({appId}), distribuído no Google Play.",
+    "governing": "Esta política é publicada em inglês. As traduções, quando houver, servem só como referência; prevalece o texto em inglês.",
+    "contact": "Dúvidas e solicitações: {email}",
+    "contents": "Conteúdo",
+    "backToTop": "Voltar ao topo"
+  },
+  "sitePrivacy": {
+    "title": "Privacidade do site",
+    "description": "O dapplebyte.com não usa cookies, não roda análises e não carrega scripts de terceiros.",
+    "items": [
+      "Este site é HTML estático. Ele não usa cookies e não carrega scripts, fontes nem ferramentas de análise de terceiros.",
+      "Não rodamos nenhuma análise aqui. Os únicos números que temos vêm do Google Search Console e do Bing Webmaster Tools, que mostram as impressões de busca de forma agregada.",
+      "Se você mandar um e-mail, guardamos a mensagem pelo tempo necessário para ajudar e depois a apagamos. Não colocamos você em nenhuma lista.",
+      "O site é hospedado no GitHub Pages, que registra as requisições como qualquer servidor web. Veja a declaração de privacidade do GitHub para mais detalhes.",
+      "Cada app tem a própria política de privacidade, com link na página dele. Essas políticas cobrem o que os apps fazem; esta página cobre só o site."
+    ],
+    "appsHeading": "Políticas de privacidade dos apps"
+  },
+  "videos": {
+    "title": "Vídeos do {name}",
+    "description": "Vídeos curtos do {name} em um celular de verdade: configuração, transmissão, layouts do controle e como resolver problemas de conexão.",
+    "emptyHeading": "Os vídeos estão a caminho",
+    "emptyBody": "Estamos gravando um passo a passo para cada recurso. Enquanto isso, as páginas de recursos e as perguntas frequentes cobrem o mesmo conteúdo.",
+    "kinds": { "promo": "Apresentação", "tutorial": "Tutorial", "troubleshooting": "Solução de problemas" },
+    "watchOn": "Assistir no YouTube",
+    "play": "Reproduzir vídeo"
+  },
+  "compare": {
+    "title": "Comparação do {name}",
+    "description": "Como o {name} se compara ao PS Remote Play, PXPlay e Chiaki no Android, recurso por recurso, só com fatos.",
+    "intro": "Só fatos, conferidos na página da loja ou no site de cada app. Cada app é descrito como estava na data abaixo; versões mais novas podem ser diferentes. Nenhum app recebe nota aqui, e não dizemos que algum seja melhor no geral.",
+    "verified": "Conferido em {date}",
+    "notVerified": "As outras colunas ainda não foram conferidas, então esta página não aparece nos buscadores.",
+    "featureColumn": "Recurso",
+    "rows": {
+      "platform": "Plataforma",
+      "away-from-home": "Remote Play fora de casa",
+      "hevc-hdr": "Transmissão em HEVC e HDR",
+      "virtual-pad-editor": "Controle virtual com editor de layout",
+      "physical-pad": "Controle Bluetooth ou USB",
+      "tv-output": "Saída para TV via HDMI",
+      "connection-doctor": "Diagnóstico de conexão integrado",
+      "open-source": "Código aberto",
+      "pricing-model": "Modelo de preço"
+    },
+    "values": {
+      "yes": "Sim",
+      "no": "Não",
+      "partial": "Em parte",
+      "unknown": "Não conferido",
+      "one-time": "Compra única",
+      "free": "Grátis",
+      "subscription": "Assinatura"
+    },
+    "vsTitle": "{name} vs {other}",
+    "vsDescription": "{name} e {other} comparados no Android, recurso por recurso: Remote Play fora de casa, HEVC e HDR, controles, saída para TV, código aberto e preço.",
+    "vsIntro": "Os dois conectam um dispositivo Android a um PS5 ou PS4. Veja onde eles se diferenciam, recurso por recurso.",
+    "fullComparison": "Ver a comparação completa"
+  },
+  "changelog": {
+    "title": "Notas da versão do {name}",
+    "description": "Todas as versões do {name} para Android, com o que mudou, das mais recentes para as mais antigas.",
+    "version": "Versão {version}",
+    "build": "build {code}",
+    "feed": "Feed Atom"
+  },
+  "press": {
+    "title": "Kit de imprensa do {name}",
+    "description": "Fatos, materiais e um texto padrão para quem for escrever sobre o {name}, o app de controle de Remote Play e transmissão do console para Android.",
+    "intro": "Tudo nesta página pode ser usado em matérias, vídeos e listas de apps sem pedir autorização. Se precisar de outra coisa, fale com a gente.",
+    "factsHeading": "Ficha técnica",
+    "facts": {
+      "name": "Nome",
+      "developer": "Desenvolvedor",
+      "platform": "Plataforma",
+      "firstReleased": "Lançamento",
+      "currentVersion": "Versão atual",
+      "price": "Preço",
+      "priceValue": "App pago, compra única, sem assinatura e sem anúncios. O preço atual aparece no Google Play.",
+      "languages": "Idiomas",
+      "license": "Licença",
+      "website": "Site",
+      "store": "Página na loja",
+      "source": "Código-fonte",
+      "contact": "Contato"
+    },
+    "oneLineHeading": "Em uma frase",
+    "boilerplateHeading": "Texto padrão",
+    "boilerplate": "O {name} transforma um celular Android em um controle sem fio para PS5 ou PS4, ou transmite a imagem do console para o celular, um tablet ou uma TV, em casa ou fora dela pelos dados móveis. É feito pela DappleByte, um estúdio independente, e publicado como código aberto sob a AGPL-3.0.",
+    "assetsHeading": "Materiais",
+    "assetIcon": "Ícone do app, PNG de 512 px",
+    "assetFeature": "Gráfico de destaque, PNG de 1024 × 500",
+    "assetScreenshots": "Capturas de tela, PNG de 1920 × 1080, em inglês",
+    "assetStudioMark": "Marca da DappleByte, SVG",
+    "screenshotN": "Captura {index}",
+    "contactHeading": "Contato para imprensa",
+    "contactBody": "{email}. Respondemos a todas as mensagens, normalmente em até dois dias úteis."
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "body": "Esse endereço não existe. Estes existem:",
+    "home": "Início"
+  },
+  "trademarks": {
+    "sony": "PlayStation, PS5 e PS4 são marcas registradas da Sony Interactive Entertainment Inc. O {name} não tem afiliação com a Sony nem é endossado por ela."
+  }
+}

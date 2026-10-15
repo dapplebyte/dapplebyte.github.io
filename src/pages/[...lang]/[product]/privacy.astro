@@ -1,0 +1,98 @@
+---
+import { getEntry } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import ProductNav from '../../../components/ProductNav.astro';
+import { getLocale, localePath, DEFAULT_LOCALE } from '../../../i18n/locales';
+import { useT, formatDate } from '../../../i18n/t';
+import { getProduct } from '../../../lib/content';
+import { productLangPaths } from '../../../lib/routes';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../lib/jsonld';
+
+export const getStaticPaths = productLangPaths;
+
+const { locale, slug, alternates } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const own = await getEntry('privacy', `${slug}/${locale}`);
+const policy = (own ?? (await getEntry('privacy', `${slug}/${DEFAULT_LOCALE}`)))!.data;
+const translated = policy.locale === locale;
+const path = `/${slug}/privacy/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = t('privacy.title', { name: product.name });
+const description = t('privacy.description', { name: product.name });
+const toc = [...policy.html.matchAll(/<h2 id="([^"]+)"[^>]*>([\s\S]*?)<\/h2>/g)].map((m) => ({ id: m[1], title: m[2].replace(/<[^>]+>/g, '').trim() }));
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang, policy.effectiveDate),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('labels.privacy'), url },
+  ]),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="privacy" />
+  <section class="wrap section" id="top">
+    <div class="mono mono-accent" style="margin-bottom:14px">{product.name} · {t('privacy.effective', { date: formatDate(locale, policy.effectiveDate, loc.lang) })}</div>
+    <h1 class="h-page">{title}</h1>
+    <p class="lede" style="margin-top:16px">{t('privacy.appliesTo', { name: product.name, appId: product.applicationId ?? '' })}</p>
+    {!translated && <p class="fine notice">{t('privacy.governing')}</p>}
+    <p style="margin-top:12px">{t('privacy.contact', { email: '' }).replace(': ', ': ')}<a href={`mailto:${product.contactEmail}`}>{product.contactEmail}</a></p>
+  </section>
+  <section class="wrap section policy">
+    <nav class="toc" aria-label={t('privacy.contents')}>
+      <div class="mono" style="margin-bottom:10px">{t('privacy.contents')}</div>
+      <ol>
+        {toc.map((h) => <li><a href={`#${h.id}`}>{h.title}</a></li>)}
+      </ol>
+    </nav>
+    <div class="prose" lang={getLocale(policy.locale).lang} dir={getLocale(policy.locale).dir} set:html={policy.html} />
+  </section>
+  <section class="wrap" style="padding-bottom:48px">
+    <a href="#top" class="mono" style="text-decoration:none">↑ {t('privacy.backToTop')}</a>
+  </section>
+</Base>
+
+<style>
+  .notice {
+    margin-top: 16px;
+    border-inline-start: 2px solid var(--accent);
+    padding-inline-start: 12px;
+  }
+  .policy {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+  }
+  .toc ol {
+    margin: 0;
+    padding-inline-start: 1.4em;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .toc a {
+    color: var(--fg-2);
+    text-decoration: none;
+  }
+  .toc a:hover {
+    color: var(--accent);
+  }
+  .policy :global(h2) {
+    scroll-margin-top: 24px;
+  }
+  .policy :global(h2:first-child) {
+    margin-top: 0;
+  }
+  @media (max-width: 860px) {
+    .policy {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

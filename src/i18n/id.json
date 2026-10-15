@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "DappleByte",
+    "tagline": "Aplikasi kecil yang berguna, dibuat dengan teliti.",
+    "definition": "DappleByte adalah studio independen yang membuat aplikasi Android.",
+    "kicker": "Studio independen · Android",
+    "email": "hello@dapplebyte.com"
+  },
+  "nav": {
+    "apps": "Aplikasi",
+    "about": "Tentang",
+    "language": "Bahasa",
+    "skip": "Langsung ke konten",
+    "home": "Beranda"
+  },
+  "footer": {
+    "studio": "Studio",
+    "contact": "Kontak",
+    "languages": "Bahasa",
+    "privacy": "Privasi situs",
+    "copyright": "© {year} DappleByte",
+    "builtWith": "Situs statis, tanpa cookie, tanpa pelacak."
+  },
+  "cta": {
+    "getOnPlay": "Dapatkan {name} di Google Play",
+    "readSource": "Lihat kode sumber",
+    "about": "Tentang {name}",
+    "learnMore": "Selengkapnya"
+  },
+  "labels": {
+    "apps": "Aplikasi",
+    "nextApp": "Aplikasi berikutnya",
+    "nextAppBody": "Sedang dikerjakan. Akan muncul di sini setelah dirilis.",
+    "lastUpdated": "Terakhir diperbarui {date}",
+    "android": "Android",
+    "by": "oleh DappleByte",
+    "overview": "Ringkasan",
+    "features": "Fitur",
+    "faq": "FAQ",
+    "videos": "Video",
+    "compare": "Perbandingan",
+    "support": "Dukungan",
+    "privacy": "Privasi",
+    "changelog": "Catatan rilis",
+    "press": "Kit pers",
+    "sourceCode": "Kode sumber",
+    "googlePlay": "Google Play"
+  },
+  "facts": {
+    "minOs": "{version} atau lebih baru",
+    "consoles": "PS5 · PS4",
+    "languages": "{count} bahasa",
+    "source": "Kode sumber {license}",
+    "version": "Versi {version}"
+  },
+  "home": {
+    "title": "DappleByte · Aplikasi Android independen",
+    "description": "DappleByte adalah studio independen yang membuat aplikasi Android, termasuk Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4.",
+    "appsHeading": "Aplikasi",
+    "principlesHeading": "Cara kami bekerja",
+    "principles": [
+      { "title": "Tanpa iklan, tanpa langganan.", "body": "Satu harga, atau gratis. Tidak ada yang menyewa perhatian Anda." },
+      { "title": "Tanpa server perantara.", "body": "Aplikasi kami terhubung langsung ke perangkat Anda sendiri. Kami tidak pernah melihat data Anda." },
+      { "title": "Kode sumber dipublikasikan.", "body": "Setiap rilis diunggah ke repositori publik dengan lisensi AGPL-3.0." },
+      { "title": "Setiap email kami balas.", "body": "Tulis ke {email}. Yang membaca adalah manusia." }
+    ],
+    "contactHeading": "Kontak",
+    "contactBody": "Studio, media, dan kerja sama: {email}. Setiap aplikasi punya alamat dukungan sendiri di halaman dukungannya."
+  },
+  "about": {
+    "title": "Tentang DappleByte",
+    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: tanpa iklan, tanpa langganan, tanpa server di antara Anda dan perangkat Anda, kode sumber dipublikasikan dengan lisensi AGPL-3.0.",
+    "whatHeading": "Apa itu DappleByte",
+    "whatBody": "DappleByte adalah studio independen yang membuat aplikasi Android. Satu pengembang, sedikit aplikasi, masing-masing dibuat untuk mengerjakan satu tugas dengan baik lalu tidak merepotkan Anda.",
+    "howHeading": "Cara kami bekerja",
+    "openSourceHeading": "Sumber terbuka",
+    "openSourceBody": "Setiap rilis dari setiap aplikasi dipublikasikan sebagai kode sumber dengan lisensi AGPL-3.0. Tautan repositorinya ada di halaman masing-masing aplikasi. Anda bisa melihat persis apa yang dilakukan aplikasi, mem-build-nya sendiri, atau memeriksa apakah kebijakan privasinya sesuai dengan kodenya.",
+    "contactHeading": "Kontak",
+    "contactBody": "Studio, media, dan kerja sama: {email}. Dukungan untuk aplikasi tertentu dikirim ke alamat di halaman dukungan aplikasi tersebut, supaya sampai ke kotak masuk yang tepat dengan konteks yang tepat.",
+    "trademarksHeading": "Merek dagang",
+    "trademarksBody": "Nama produk perusahaan lain muncul di situs ini hanya untuk menjelaskan apa saja yang bisa digunakan bersama aplikasi kami. Nama-nama itu milik pemiliknya masing-masing, dan tidak menyiratkan afiliasi atau dukungan apa pun.",
+    "siteHeading": "Situs ini",
+    "siteBody": "HTML statis yang dibuat dengan Astro dan di-hosting di GitHub Pages. Situs ini tidak memasang cookie dan tidak memuat skrip pihak ketiga. Kode sumber situs ini sendiri terbuka di github.com/dapplebyte/dapplebyte.github.io."
+  },
+  "product": {
+    "title": "{name} · DappleByte",
+    "screenshotsHeading": "Tangkapan layar",
+    "screenshotAlt": "Tangkapan layar {name} {index}",
+    "featuresHeading": "Yang bisa dilakukan",
+    "faqHeading": "Pertanyaan umum",
+    "faqAll": "Semua pertanyaan",
+    "getHeading": "Dapatkan {name}",
+    "getBody": "Tersedia di Google Play untuk Android. Kode sumbernya dipublikasikan dengan lisensi {license}.",
+    "requiresLabel": "Persyaratan",
+    "videoHeading": "Lihat cara kerjanya",
+    "allVideos": "Semua video",
+    "moreHeading": "Selengkapnya tentang {name}"
+  },
+  "features": {
+    "title": "{feature} · {name}",
+    "indexHeading": "Fitur",
+    "relatedFaq": "Pertanyaan terkait",
+    "backToProduct": "Kembali ke {name}",
+    "allFeatures": "Semua fitur {name}",
+    "inShort": "Singkatnya"
+  },
+  "faq": {
+    "title": "FAQ {name}",
+    "sectionTitle": "{section} · FAQ {name}",
+    "description": "Jawaban seputar {name}: cara bermain, menyambungkan, masuk akun, kualitas streaming, kontroler, pembelian, dan pengembalian dana.",
+    "sectionDescription": "FAQ {name}, {section}: {count} pertanyaan dengan jawaban lengkap.",
+    "intro": "Jawaban yang sama ada di aplikasi, di Setelan → FAQ. Setiap bagian ada di satu halaman, dan setiap pertanyaan punya tautannya sendiri.",
+    "questionsCount": "{count} pertanyaan",
+    "notFoundHeading": "Jawabannya tidak ketemu?",
+    "notFoundBody": "Tulis ke kami dengan menyebutkan model ponsel, konsol Anda, dan apa yang terjadi. Setiap pesan dibaca oleh manusia.",
+    "notFoundCta": "Ke halaman dukungan",
+    "prev": "Sebelumnya",
+    "next": "Berikutnya",
+    "allSections": "Semua bagian",
+    "linkToQuestion": "Tautan ke pertanyaan ini"
+  },
+  "support": {
+    "title": "Dukungan {name}",
+    "description": "Bantuan untuk {name}: apa yang perlu dicek dulu, cara menulis ke kami, apa yang perlu disertakan, dan cara kerja pengembalian dana.",
+    "beforeHeading": "Sebelum menulis",
+    "beforeItems": [
+      "Buka FAQ. Sebagian besar pertanyaan soal koneksi, masuk akun, dan gambar sudah terjawab di sana, dengan kata-kata yang sama seperti di aplikasi.",
+      "Jika aplikasi tidak bisa tersambung, jalankan Dokter Koneksi dari Setelan. Alat ini memeriksa jaringan, konsol, dan Remote Play, dan bisa mengirim laporannya ke kami lewat email dengan sekali ketuk.",
+      "Pastikan konsol menyala atau dalam mode istirahat, dan Remote Play sudah diaktifkan di setelannya."
+    ],
+    "writeHeading": "Tulis ke kami",
+    "writeBody": "Tombol ini membuka aplikasi email Anda dengan subjek yang sudah terisi. Jika tidak ada yang terbuka, salin alamat dan daftar di bawah ini ke email apa saja.",
+    "writeButton": "Email ke {email}",
+    "copyAddress": "Salin alamat",
+    "copied": "Tersalin",
+    "subject": "[{name}] ",
+    "templateHeading": "Yang perlu disertakan",
+    "template": {
+      "phone": "Model ponsel:",
+      "android": "Versi Android:",
+      "console": "Konsol: PS5 / PS4",
+      "where": "Di rumah atau di luar rumah:",
+      "what": "Apa yang terjadi, langkah demi langkah:",
+      "doctor": "Jika sudah menjalankan Dokter Koneksi, tempel laporannya di sini."
+    },
+    "refundHeading": "Pengembalian dana",
+    "refundBody": "Jika {name} tidak berfungsi dengan perangkat Anda, kirim email ke kami dalam 7 hari sejak pembelian dan kami akan mengembalikan dananya. Ceritakan apa saja yang sudah Anda coba; itu membantu kami memperbaikinya untuk pengguna berikutnya.",
+    "replyHeading": "Kapan Anda mendapat balasan",
+    "replyBody": "Biasanya dalam dua hari kerja. Setiap pesan dibaca oleh manusia, dan setiap pesan dibalas.",
+    "faqLink": "Baca FAQ dulu"
+  },
+  "privacy": {
+    "title": "Kebijakan privasi {name}",
+    "description": "Apa yang dilakukan {name} untuk Android dengan data Anda: tanpa akun, tanpa server milik kami, apa yang tetap di perangkat, dan ke mana aplikasi tersambung.",
+    "effective": "Berlaku sejak {date}",
+    "appliesTo": "Berlaku untuk {name} untuk Android ({appId}), yang didistribusikan di Google Play.",
+    "governing": "Kebijakan ini diterbitkan dalam bahasa Inggris. Terjemahan, jika ada, hanya untuk kemudahan; teks bahasa Inggris yang berlaku.",
+    "contact": "Pertanyaan dan permintaan: {email}",
+    "contents": "Daftar isi",
+    "backToTop": "Kembali ke atas"
+  },
+  "sitePrivacy": {
+    "title": "Privasi situs",
+    "description": "dapplebyte.com tidak memasang cookie, tidak menjalankan analitik, dan tidak memuat skrip pihak ketiga.",
+    "items": [
+      "Situs ini berupa HTML statis. Situs ini tidak memasang cookie dan tidak memuat skrip, font, atau analitik pihak ketiga.",
+      "Kami tidak menjalankan analitik di sini. Satu-satunya angka yang kami punya berasal dari Google Search Console dan Bing Webmaster Tools, yang melaporkan tayangan penelusuran secara agregat.",
+      "Jika Anda mengirim email ke kami, pesannya kami simpan selama diperlukan untuk membantu Anda, lalu kami hapus. Kami tidak memasukkan Anda ke daftar apa pun.",
+      "Situs ini di-hosting di GitHub Pages, yang mencatat permintaan seperti server web pada umumnya. Lihat pernyataan privasi GitHub untuk detailnya.",
+      "Setiap aplikasi punya kebijakan privasinya sendiri, yang ditautkan dari halamannya. Kebijakan itu mencakup apa yang dilakukan aplikasi; halaman ini hanya mencakup situs."
+    ],
+    "appsHeading": "Kebijakan privasi aplikasi"
+  },
+  "videos": {
+    "title": "Video {name}",
+    "description": "Video singkat yang menunjukkan {name} di ponsel sungguhan: penyiapan, streaming, tata letak gamepad, dan mengatasi masalah koneksi.",
+    "emptyHeading": "Video segera hadir",
+    "emptyBody": "Kami sedang merekam panduan untuk setiap fitur. Sementara itu, halaman fitur dan FAQ membahas hal yang sama.",
+    "kinds": { "promo": "Ringkasan", "tutorial": "Panduan", "troubleshooting": "Mengatasi masalah" },
+    "watchOn": "Tonton di YouTube",
+    "play": "Putar video"
+  },
+  "compare": {
+    "title": "Perbandingan {name}",
+    "description": "Perbandingan {name} dengan PS Remote Play, PXPlay, dan Chiaki di Android, fitur demi fitur, hanya fakta.",
+    "intro": "Hanya fakta, dicek dengan halaman toko atau situs web masing-masing aplikasi. Setiap aplikasi dijelaskan sesuai kondisi pada tanggal di bawah; versi yang lebih baru bisa berbeda. Tidak ada aplikasi yang dinilai di sini, dan kami tidak mengklaim ada yang lebih baik secara keseluruhan.",
+    "verified": "Dicek pada {date}",
+    "notVerified": "Kolom lainnya belum diverifikasi, jadi halaman ini tidak dicantumkan di mesin pencari.",
+    "featureColumn": "Fitur",
+    "rows": {
+      "platform": "Platform",
+      "away-from-home": "Remote Play di luar rumah",
+      "hevc-hdr": "Streaming HEVC dan HDR",
+      "virtual-pad-editor": "Gamepad virtual dengan editor tata letak",
+      "physical-pad": "Teruskan gamepad Bluetooth atau USB",
+      "tv-output": "Output ke TV lewat HDMI",
+      "connection-doctor": "Diagnostik koneksi bawaan",
+      "open-source": "Sumber terbuka",
+      "pricing-model": "Model harga"
+    },
+    "values": {
+      "yes": "Ya",
+      "no": "Tidak",
+      "partial": "Sebagian",
+      "unknown": "Belum dicek",
+      "one-time": "Sekali beli",
+      "free": "Gratis",
+      "subscription": "Langganan"
+    },
+    "vsTitle": "{name} vs {other}",
+    "vsDescription": "Perbandingan {name} dan {other} di Android, fitur demi fitur: Remote Play di luar rumah, HEVC dan HDR, kontroler, output ke TV, sumber terbuka, dan harga.",
+    "vsIntro": "Keduanya menghubungkan perangkat Android ke PS5 atau PS4. Berikut perbedaannya, fitur demi fitur.",
+    "fullComparison": "Lihat perbandingan lengkap"
+  },
+  "changelog": {
+    "title": "Catatan rilis {name}",
+    "description": "Setiap rilis {name} untuk Android beserta perubahannya, yang terbaru di atas.",
+    "version": "Versi {version}",
+    "build": "build {code}",
+    "feed": "Feed Atom"
+  },
+  "press": {
+    "title": "Kit pers {name}",
+    "description": "Fakta, aset, dan teks deskripsi standar untuk menulis tentang {name}, aplikasi kontroler Remote Play dan streaming konsol untuk Android.",
+    "intro": "Semua yang ada di halaman ini boleh dipakai di artikel, video, dan daftar aplikasi tanpa perlu izin. Jika butuh yang lain, tulis ke kami.",
+    "factsHeading": "Lembar fakta",
+    "facts": {
+      "name": "Nama",
+      "developer": "Pengembang",
+      "platform": "Platform",
+      "firstReleased": "Rilis pertama",
+      "currentVersion": "Versi saat ini",
+      "price": "Harga",
+      "priceValue": "Aplikasi berbayar, sekali beli, tanpa langganan, tanpa iklan. Harga saat ini ditampilkan di Google Play.",
+      "languages": "Bahasa",
+      "license": "Lisensi",
+      "website": "Situs web",
+      "store": "Halaman toko",
+      "source": "Kode sumber",
+      "contact": "Kontak"
+    },
+    "oneLineHeading": "Satu kalimat",
+    "boilerplateHeading": "Deskripsi standar",
+    "boilerplate": "{name} mengubah ponsel Android menjadi kontroler nirkabel untuk PS5 atau PS4, atau melakukan streaming gambar konsol ke ponsel, tablet, atau TV, di rumah maupun di luar rumah lewat data seluler. Aplikasi ini dibuat oleh DappleByte, sebuah studio independen, dan dipublikasikan sebagai sumber terbuka dengan lisensi AGPL-3.0.",
+    "assetsHeading": "Aset",
+    "assetIcon": "Ikon aplikasi, PNG 512 px",
+    "assetFeature": "Gambar fitur, PNG 1024 × 500",
+    "assetScreenshots": "Tangkapan layar, PNG 1920 × 1080, bahasa Inggris",
+    "assetStudioMark": "Logo DappleByte, SVG",
+    "screenshotN": "Tangkapan layar {index}",
+    "contactHeading": "Kontak media",
+    "contactBody": "{email}. Kami membalas setiap pesan, biasanya dalam dua hari kerja."
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "body": "Alamat itu tidak ada. Coba halaman-halaman ini:",
+    "home": "Beranda"
+  },
+  "trademarks": {
+    "sony": "PlayStation, PS5, dan PS4 adalah merek dagang Sony Interactive Entertainment Inc. {name} tidak berafiliasi dengan Sony dan tidak didukung oleh Sony."
+  }
+}

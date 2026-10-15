@@ -1,0 +1,73 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import ProductNav from '../../../../components/ProductNav.astro';
+import { getLocale, localePath } from '../../../../i18n/locales';
+import { useT } from '../../../../i18n/t';
+import { getProduct, getCopy, copySection } from '../../../../lib/content';
+import { productLangPaths } from '../../../../lib/routes';
+import { graph, organization, website, webPage, breadcrumbs, softwareApplication, SITE } from '../../../../lib/jsonld';
+import { getEntry } from 'astro:content';
+
+export const getStaticPaths = productLangPaths;
+
+const { locale, slug, alternates } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const copy = await getCopy(slug, locale);
+const features = (await getEntry('features', slug))?.data.items ?? [];
+const items = features.map((f) => ({ f, s: copySection(copy, f.sectionId)! })).filter((x) => x.s);
+const path = `/${slug}/features/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = `${t('features.indexHeading')} · ${product.name}`;
+const description = items.map((x) => x.s.title).join(' · ');
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang, copy.extractedAt),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('features.indexHeading'), url },
+  ]),
+  softwareApplication(product, copy, [], [], false),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="features" />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">{product.name}</div>
+    <h1 class="h-page">{t('features.indexHeading')}</h1>
+    <p class="lede" style="margin-top:16px">{copy.tagline}</p>
+  </section>
+  <section class="wrap section">
+    <div class="cells cells-2">
+      {items.map(({ f, s }) => (
+        <div>
+          <h2 class="h-sub" style="margin-bottom:10px"><a class="feature-link" href={localePath(locale, `/${slug}/features/${f.id}/`)}>{s.title}</a></h2>
+          <ul class="bullets">{s.bullets.map((b) => <li>{b}</li>)}</ul>
+          <p style="margin-top:12px"><a href={localePath(locale, `/${slug}/features/${f.id}/`)}>{t('cta.learnMore')} →</a></p>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .bullets {
+    margin: 0;
+    padding-inline-start: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: var(--fg-2);
+  }
+  .feature-link {
+    color: var(--fg);
+    text-decoration: none;
+  }
+  .feature-link:hover {
+    color: var(--accent);
+  }
+</style>

@@ -1,0 +1,25 @@
+{
+  "slug": "relaypad",
+  "name": "Relaypad",
+  "order": 1,
+  "status": "live",
+  "platform": "Android",
+  "applicationId": "com.relaypad.remoteplay.app",
+  "playUrl": "https://play.google.com/store/apps/details?id=com.relaypad.remoteplay.app",
+  "sourceUrl": "https://codeberg.org/geektech54/gamec",
+  "sourceLicense": "AGPL-3.0",
+  "category": "GameApplication",
+  "minOs": "Android 8.0",
+  "firstReleased": "2026-09-20",
+  "versions": [
+    { "code": 100, "name": "1.0.0", "date": "2026-09-20" },
+    { "code": 101, "name": "1.0.1", "date": "2026-10-07" }
+  ],
+  "contactEmail": "feedback@dapplebyte.com",
+  "accent": { "solid": "#FF7718", "bright": "#FF9426", "ink": "#120C05" },
+  "displayFont": "Chakra Petch",
+  "screenshotCount": 8,
+  "featuredFaq": ["home_card_modes", "extra_controller", "away_from_home", "same_network_but_not", "hevc_hdr_unavailable", "paid_not_subscription"],
+  "trademark": "sony",
+  "languages": 19
+}

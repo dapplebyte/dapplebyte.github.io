@@ -1,0 +1,32 @@
+{
+  "slug": "relaypad",
+  "locale": "vi",
+  "entries": [
+    {
+      "code": 101,
+      "name": "1.0.1",
+      "date": "2026-10-07",
+      "items": [
+        "Remote Play khi ra ngoài kết nối ổn định hơn, kể cả khi bật ứng dụng VPN hoặc proxy",
+        "Mới: Cài đặt → Proxy kết nối PSN, dành cho nơi khó truy cập PlayStation Network",
+        "Chẩn đoán kết nối nay có 18 mục, gồm cả mạng của máy chơi game",
+        "Sửa lỗi phiên từ xa bị treo khi bắt đầu và báo nhầm \"không thể kết nối\"",
+        "Đã bỏ ô nhập văn bản trong ứng dụng vì không gửi được chữ. Hãy dùng bàn phím ảo của máy chơi game"
+      ]
+    },
+    {
+      "code": 100,
+      "name": "1.0.0",
+      "date": "2026-09-20",
+      "items": [
+        "Relaypad 1.0 đã ra mắt — bản phát hành đầu tiên.",
+        "Biến điện thoại thành tay cầm không dây cho PS5 và PS4",
+        "Stream máy chơi game tới 1080p60, với HEVC, HDR và xuất hình ra TV",
+        "Năm bố cục tay cầm và trình chỉnh bố cục: kéo, đổi kích thước hoặc ẩn nút",
+        "Remote Play ở xa nhà qua 5G hoặc Wi-Fi khác",
+        "Chẩn đoán kết nối chạy 13 mục kiểm tra và chỉ ra thứ đang chặn kết nối"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

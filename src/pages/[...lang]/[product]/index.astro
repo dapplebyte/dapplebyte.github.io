@@ -1,0 +1,206 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../../../layouts/Base.astro';
+import ProductNav from '../../../components/ProductNav.astro';
+import ProductHero from '../../../components/ProductHero.astro';
+import { getLocale, localePath } from '../../../i18n/locales';
+import { useT, formatDate } from '../../../i18n/t';
+import { getProduct, getCopy, getFaq, faqEntryById, copySection, localesFor } from '../../../lib/content';
+import { productLangPaths } from '../../../lib/routes';
+import { graph, organization, website, webPage, breadcrumbs, softwareApplication, SITE } from '../../../lib/jsonld';
+import { screenshots } from '../../../lib/screenshots';
+import { getEntry } from 'astro:content';
+
+export const getStaticPaths = productLangPaths;
+
+const { locale, slug, alternates } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const copy = await getCopy(slug, locale);
+const faq = await getFaq(slug, locale);
+const features = (await getEntry('features', slug))?.data.items ?? [];
+const videos = (await getEntry('videos', slug))?.data.items ?? [];
+const compare = (await getEntry('compare', slug))?.data;
+const path = `/${slug}/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const shots = screenshots(slug, locale, product.screenshotCount);
+const langs = (await localesFor('productCopy', slug)).map((s) => getLocale(s).lang);
+const latest = product.versions.at(-1);
+
+const featureSections = features.map((f) => ({ f, s: copySection(copy, f.sectionId) })).filter((x) => x.s);
+const useCases = copySection(copy, 'use-cases');
+const pricing = copySection(copy, 'pricing');
+const privacy = copySection(copy, 'privacy');
+const before = copySection(copy, 'before-you-buy');
+const trademark = copySection(copy, 'trademark');
+const featured = faq ? product.featuredFaq.map((id) => faqEntryById(faq, id)).filter(Boolean) : [];
+
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, t('product.title', { name: product.name }), copy.tagline, loc.lang, copy.extractedAt),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url },
+  ]),
+  softwareApplication(product, copy, langs, screenshots(slug, 'en', product.screenshotCount).map((i) => new URL(i.src, SITE).href)),
+);
+---
+
+<Base locale={locale} path={path} title={t('product.title', { name: product.name })} description={copy.shortDescription} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="overview" showVideos={videos.length > 0} showCompare={!!compare && !compare.draft} />
+
+  <section class="grid-bg">
+    <div class="wrap section">
+      <ProductHero locale={locale} product={product} copy={copy} level={1} />
+      <div class="chips" style="margin-top:18px">
+        {product.minOs && <span class="chip">{t('facts.minOs', { version: product.minOs })}</span>}
+        <span class="chip">{t('facts.consoles')}</span>
+        {product.languages && <span class="chip">{t('facts.languages', { count: product.languages })}</span>}
+        {product.sourceLicense && <span class="chip">{t('facts.source', { license: product.sourceLicense })}</span>}
+        {latest && <span class="chip">{t('facts.version', { version: latest.name })}</span>}
+      </div>
+      {copy.requires && <p class="fine" style="margin-top:14px"><strong>{t('product.requiresLabel')}:</strong> {copy.requires}</p>}
+    </div>
+  </section>
+
+  {shots.length > 0 && (
+    <section class="wrap section">
+      <div class="section-head mono"><span>{t('product.screenshotsHeading')}</span><span>{shots.length}</span></div>
+      <div class="shots-strip">
+        {shots.map((img, i) => (
+          <figure>
+            <Image src={img} alt={t('product.screenshotAlt', { name: product.name, index: i + 1 })} widths={[560, 1120]} sizes="(max-width: 860px) 78vw, 560px" loading={i < 2 ? 'eager' : 'lazy'} />
+          </figure>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {useCases && (
+    <section class="wrap section">
+      <h2 class="h-section">{useCases.title}</h2>
+      <ul class="bullets two-col">{useCases.bullets.map((b) => <li>{b}</li>)}</ul>
+    </section>
+  )}
+
+  <section class="wrap section">
+    <div class="section-head mono"><span>{t('product.featuresHeading')}</span><a href={localePath(locale, `/${slug}/features/`)}>{t('labels.features')} →</a></div>
+    <div class="cells cells-2">
+      {featureSections.map(({ f, s }) => (
+        <div>
+          <h3 class="h-sub" style="margin-bottom:10px"><a class="feature-link" href={localePath(locale, `/${slug}/features/${f.id}/`)}>{s!.title}</a></h3>
+          {s!.paragraphs.map((p) => <p class="muted">{p}</p>)}
+          <ul class="bullets">{s!.bullets.map((b) => <li>{b}</li>)}</ul>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  {featured.length > 0 && faq && (
+    <section class="wrap section">
+      <div class="section-head mono"><span>{t('product.faqHeading')}</span><a href={localePath(locale, `/${slug}/faq/`)}>{t('product.faqAll')} →</a></div>
+      <div class="featured-faq">
+        {featured.map((x) => (
+          <div class="featured-q">
+            <h3 class="h-sub"><a href={localePath(locale, `/${slug}/faq/${x!.section.id}/`) + '#' + x!.entry.id}>{x!.entry.q}</a></h3>
+            <p class="muted">{x!.entry.a[0]}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="wrap section">
+    <div class="cells cells-3">
+      {pricing && (
+        <div>
+          <h3 class="h-sub" style="margin-bottom:10px">{pricing.title}</h3>
+          {pricing.paragraphs.map((p) => <p class="muted">{p}</p>)}
+        </div>
+      )}
+      {privacy && (
+        <div>
+          <h3 class="h-sub" style="margin-bottom:10px">{privacy.title}</h3>
+          {privacy.paragraphs.map((p) => <p class="muted">{p}</p>)}
+          <p style="margin-top:10px"><a href={localePath(locale, `/${slug}/privacy/`)}>{t('privacy.title', { name: product.name })} →</a></p>
+        </div>
+      )}
+      {before && (
+        <div>
+          <h3 class="h-sub" style="margin-bottom:10px">{before.title}</h3>
+          <ul class="bullets muted">{before.bullets.map((b) => <li>{b}</li>)}</ul>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <h2 class="h-section" style="margin-bottom:12px">{t('product.getHeading', { name: product.name })}</h2>
+    <p class="lede" style="margin-bottom:20px">{t('product.getBody', { license: product.sourceLicense ?? '' })}</p>
+    <div class="actions">
+      {product.playUrl && <a class="button" href={product.playUrl}>{t('cta.getOnPlay', { name: product.name })}</a>}
+      {product.sourceUrl && <a class="link-plain" href={product.sourceUrl}>{t('cta.readSource')}</a>}
+      <a class="link-plain" href={localePath(locale, `/${slug}/support/`)}>{t('labels.support')}</a>
+    </div>
+    {trademark && <p class="fine" style="margin-top:28px">{trademark.paragraphs.join(' ')}</p>}
+    <p class="fine" style="margin-top:8px">{t('labels.lastUpdated', { date: formatDate(locale, copy.extractedAt, loc.lang) })}</p>
+  </section>
+</Base>
+
+<style>
+  .bullets {
+    margin: 0;
+    padding-inline-start: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: var(--fg-2);
+  }
+  .two-col {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 32px;
+    max-width: 960px;
+  }
+  .muted {
+    color: var(--fg-2);
+  }
+  .feature-link {
+    color: var(--fg);
+    text-decoration: none;
+  }
+  .feature-link:hover {
+    color: var(--accent);
+  }
+  .featured-faq {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 40px;
+  }
+  .featured-q h3 {
+    margin-bottom: 6px;
+  }
+  .featured-q h3 a {
+    color: var(--fg);
+    text-decoration: none;
+  }
+  .featured-q h3 a:hover {
+    color: var(--accent);
+  }
+  .featured-q p {
+    font-size: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  @media (max-width: 860px) {
+    .two-col,
+    .featured-faq {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+</style>

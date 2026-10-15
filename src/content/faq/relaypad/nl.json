@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "nl",
+  "title": "FAQ",
+  "intro": "De vragen die we het vaakst krijgen, en wat je eraan kunt doen. Tik op een vraag om die uit te vouwen.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Manieren om te spelen",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "Wat is het verschil tussen Streamen, Extern en Controller op de consolekaart?",
+          "a": [
+            "Streamen speelt de console op deze telefoon via je thuisnetwerk, en staat de console in de slaapstand, dan wordt hij eerst gewekt. Extern doet hetzelfde vanaf elke plek via je aangemelde account. Controller maakt van de telefoon een controller zonder beeld, voor als je het spel op de tv volgt. De kaart onthoudt per console je laatste keuze."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "Waarom is er geen beeld in de controllermodus?",
+          "a": [
+            "De controllermodus stuurt alleen je invoer naar de console, dus je kijkt naar het spel op de tv. Telefoon en console moeten daarvoor op hetzelfde netwerk zitten, en staat de console in de slaapstand, dan wordt hij gewekt en blijft de app het ongeveer 30 seconden opnieuw proberen. Wil je het spel op de telefoon zien, open dan het menu en tik op Overschakelen naar streamen."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "Kan de telefoon een tweede controller zijn naast de controller die met de console is verbonden?",
+          "a": [
+            "Nee. De telefoon verbindt als de Remote Play-controller van het account waarmee hij is ingesteld, dus hij vervangt je controller en komt er niet naast. Een controller die rechtstreeks met de console is verbonden, kan niet tegelijk spelen: de console laat hem een andere gebruiker gebruiken, zoals een gast, en daarna nemen de twee steeds de besturing van elkaar over. Gebruik de telefoon als er geen controller bij de hand is, niet als extra speler."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "Ik tikte op Begin met streamen en de kaart schakelde over naar Extern.",
+          "a": [
+            "De app zoekt een paar seconden naar de console op je huidige netwerk. Wordt hij niet gevonden, dan schakelt de kaart over naar Extern zonder verbinding te maken, zodat jij beslist of je via je account gaat. Thuis betekent dit meestal een VPN, een gastnetwerk of een console die helemaal uitstaat. De verbindingsdokter laat zien welke van de drie het is."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "Ik koos thuis Extern, maar er wordt lokaal gestreamd.",
+          "a": [
+            "Zit de console op hetzelfde netwerk, dan streamt Extern in plaats daarvan lokaal, omdat dat sneller is. Zet Thuis lokaal streamen uit in Instellingen als Extern altijd via je account moet gaan, bijvoorbeeld om het uit te proberen voordat je de deur uitgaat."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Verbinden",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "De scan vindt geen console.",
+          "a": [
+            "Een console verschijnt op twee manieren: gevonden op hetzelfde Wi-Fi-netwerk als de telefoon, of uit je account gehaald zodra je bent aangemeld. Het zoeken op het netwerk komt niet door een gastnetwerk, een tweede router of een VPN heen, dus controleer die eerst en houd de console aan of in de slaapstand. Verschijnt hij dan nog steeds niet, tik dan bij de stap Kies je console op Een IP-adres invoeren en vul het adres van de console in. Een ingevoerd adres moet met een code worden gekoppeld."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "Er staat Niet op dit netwerk, maar de telefoon zit op hetzelfde Wi-Fi.",
+          "a": [
+            "Een paar dingen veroorzaken dit binnen wat één netwerk lijkt. Een gastnetwerk staat los van het hoofdnetwerk, ook op dezelfde router. Een router die zijn 2,4 GHz- en 5 GHz-band een andere naam geeft, kan de twee apparaten in verschillende subnetten zetten, en sommige routers zorgen ervoor dat draadloze apparaten elkaar niet zien. Ook een VPN of een app voor privé-DNS kan de route overnemen. Start de verbindingsdokter en lees de regel Zelfde netwerk als de console, die beide adressen toont."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "De console staat in de slaapstand en maakt geen verbinding, of wekken doet niets.",
+          "a": [
+            "Begin met streamen wekt een console in de slaapstand vanzelf en wacht tot ongeveer 25 seconden, en de controllermodus blijft het ongeveer 30 seconden opnieuw proberen. Je kunt hem ook met de hand wekken onder Instellingen, Consoles, met Console wekken in het menu van de controllermodus, of met de widget op je startscherm. Dit werkt alleen op hetzelfde netwerk, en alleen als de console het toestaat: zet bij de energie-instellingen van de console Verbonden blijven met internet en Inschakelen van console via netwerk aan."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "Er staat Console is bezet.",
+          "a": [
+            "De console draait één sessie op afstand tegelijk, en een andere telefoon, tablet of computer gebruikt hem nog. Ook de controllermodus op een andere telefoon telt mee. Beëindig de sessie op dat apparaat of op de console zelf, en probeer het dan opnieuw."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "Na het wisselen van modus of kwaliteit blijft hij een tijdje hangen op verbinden.",
+          "a": [
+            "De console heeft een paar seconden nodig om de vorige sessie los te laten. Ondertussen probeert de app het op de achtergrond elke 2 seconden opnieuw, tot 20 seconden lang, en verbindt zodra de console klaar is. Pas als de console daarna nog steeds bezet is, verschijnt Console is bezet."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "Er staat Remote Play staat uit op de console.",
+          "a": [
+            "De console staat aan, maar weigert verbindingen op afstand. Ga op de console naar Instellingen, Systeem, Remote Play, zet Remote Play inschakelen aan en maak opnieuw verbinding. De regel Remote Play op de console in de verbindingsdokter toont de laatst bekende status."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "Maakt de app zelf opnieuw verbinding als de stream wegvalt?",
+          "a": [
+            "Een lokale stream wel. Die probeert het tot drie keer met een steeds langere pauze, geeft na ongeveer 30 seconden op en biedt dan de verbindingsdokter aan. Een verbinding via Extern probeert het niet opnieuw, dus maak dan opnieuw verbinding via de consolekaart. Er wordt ook niet opnieuw geprobeerd als de console bezet is, uitstaat, Remote Play heeft uitgeschakeld of een app-update nodig heeft, want opnieuw proberen zou dan niet helpen."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "Wat controleert de verbindingsdokter?",
+          "a": [
+            "Achttien dingen op deze telefoon, op de weg naar de console, op de weg naar buiten het internet op en op het thuisnetwerk van de console: capaciteit van het apparaat, netwerk van de telefoon, zelfde netwerk als de console, status van de console, Remote Play op de console, roundtriptijd en jitter, geschatte verbindingssnelheid, VPN- en filter-apps, storing door bluetooth, UPnP van de router, netwerkadresvertaling, openbaar IPv4-adres, verbinding met PlayStation Network, account, extern scherm, en openbaar adres van de console, UPnP van de router van de console en NAT-type van de console. Bij rode en gele punten staat een oplossing, en het rapport kun je kopiëren, delen of naar ons mailen."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "Thuis werkt het, maar onderweg niet.",
+          "a": [
+            "Buitenshuis kies je Extern op de consolekaart en tik je op Op afstand spelen. Dat verbindt via je account, dus het account moet zijn toegevoegd door aan te melden en de console moet één keer aan je account zijn toegewezen. Een verbinding duurt meestal 20 tot 40 seconden, en de app probeert zelf UPnP op je router thuis. Mislukt het, dan zegt de melding waarom; de volgende vragen behandelen de gebruikelijke oorzaken, en een VPN naar huis is een andere manier om er omheen te komen."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "Extern zegt dat er eerst een console moet worden toegewezen.",
+          "a": [
+            "Extern moet weten welke console op je account de console is die op deze telefoon is gekoppeld. Tik op de kaart, of open Instellingen, Verbinding van buitenaf, en kies hem één keer onder Consoles op je account. De console moet al op deze telefoon gekoppeld zijn, en het account moet zijn toegevoegd door aan te melden, niet met een Online ID."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "Verbinden via Extern mislukt. Wat zijn de gebruikelijke oorzaken?",
+          "a": [
+            "De melding op het scherm noemt de oorzaak. De console gaf geen antwoord: houd hem aan of in de slaapstand, met Verbonden blijven met internet en Inschakelen van console via netwerk aan bij de energie-instellingen. Het netwerk staat geen directe verbinding toe: probeer een ander netwerk, zet Zoeken naar poorten voor verbinding van buitenaf aan in Instellingen, of gebruik een VPN naar huis. Je provider deelt één openbaar adres tussen veel gebruikers: poorten doorsturen helpt dan niet, dus wissel van netwerk of gebruik een VPN. De aanmelding is verlopen: meld je opnieuw aan bij dat account."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "PSN maakt geen verbinding, of de verbinding valt weg zodra mijn proxy aanstaat?",
+          "a": [
+            "Waar PSN moeilijk bereikbaar is, heeft een verbinding van buitenaf twee verschillende routes nodig: de gamestream moet rechtstreeks verbinden, terwijl aanmelden en de PSN-verbinding via een proxy mogen lopen. Een proxy-app in VPN-modus trekt ook de gamestream zijn tunnel in, en dan wordt de sessie verbroken. Zet je proxy-app op proxy per app en voeg Relaypad toe aan de uitzonderingslijst. Open daarna Instellingen, PSN-verbindingsproxy en kies Automatisch, of kies Handmatig en vul de lokale poort van je proxy-app in (type HTTP, host 127.0.0.1; Clash gebruikt meestal 7890, v2rayNG 10809). De regel Verbinding met PlayStation Network in de verbindingsdokter laat zien of het werkt."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "Moet ik poorten doorsturen op mijn router?",
+          "a": [
+            "Meestal niet. Extern probeert zelf UPnP, en doorsturen helpt alleen als je router thuis de verbinding blokkeert, niet als een provider één adres tussen veel gebruikers deelt. Heb je het toch nodig, dan kan Instellingen, Routerpoorten doorsturen de poorten automatisch doorsturen of ze opsommen zodat je ze met de hand instelt. Doorgestuurde poorten stellen de console open voor internet, dus een VPN naar huis is de veiligere keuze."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "Wat als het netwerk van de console CGNAT of dubbele NAT heeft?",
+          "a": [
+            "Open de verbindingsdokter en kijk bij Thuisnetwerk van de console. Dat wordt gemeten als je telefoon op het Wi-Fi-netwerk van de console zit, of als je verbinding van buitenaf maakt. Dubbele NAT betekent twee routers achter elkaar, meestal het modem van je provider plus je eigen router: zet het modem in bridgemodus, of zet DMZ aan in het modem en laat die naar je router wijzen. CGNAT betekent dat je provider één openbaar adres deelt tussen veel huishoudens, dus poorten doorsturen helpt niet: vraag je provider om een openbaar IP-adres. In beide gevallen werkt ook een VPN naar huis zoals Tailscale, omdat die niet afhankelijk is van een directe verbinding van buitenaf."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "Kan ik via een VPN van buiten mijn thuisnetwerk spelen?",
+          "a": [
+            "Ja, met een VPN naar huis. Zet een apparaat dat altijd aanstaat op het netwerk van de console en verbind vanaf je telefoon met dat netwerk: Tailscale op een NAS, een Raspberry Pi of een pc doet dat met één opdracht (tailscale up --advertise-routes=je.thuis.subnet, en keur daarna de route goed in de beheeromgeving), en een router met een ingebouwde WireGuard- of OpenVPN-server werkt net zo. Is de VPN verbonden, tik dan zoals gewoonlijk op Begin met streamen op de consolekaart: het zoeken op het netwerk gaat niet door een VPN heen, dus de app probeert ook het adres dat de console thuis had. De console moet eerst thuis gekoppeld zijn, en de uploadsnelheid van je thuisverbinding wordt de limiet."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "Kan ik meer dan één console of meer dan één account bewaren?",
+          "a": [
+            "Allebei, en het kost niets. Elke console die je koppelt blijft in de lijst staan, en elke console kan aan een ander account worden gekoppeld onder Instellingen, Consoles. De accounts zelf beheer je onder Instellingen, Accounts."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "Ik ben overgestapt op een nieuwe telefoon en mijn consoles zijn weg of maken geen verbinding.",
+          "a": [
+            "Consoles, accounts en koppelsleutels zitten niet in cloudback-ups, dus op een nieuwe telefoon stel je alles opnieuw in: voeg je account toe en koppel elke console één keer. Heeft een overdracht van telefoon naar telefoon de lijst met consoles meegenomen, dan blijven de sleutels toch achter, omdat ze aan de oude telefoon vastzitten: open Instellingen, Consoles, kies de console en tik op Opnieuw koppelen. Bij een account dat door aanmelden is toegevoegd, kan ook gevraagd worden om opnieuw aan te melden."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Instellen en aanmelden",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "Waarom is er een Account ID nodig?",
+          "a": [
+            "De console koppelt alleen met een apparaat dat zegt bij welk account het hoort, dus het Account ID is onderdeel van het koppelen zelf. Het is een ID van 12 tekens dat aan je account vastzit, geen wachtwoord. Bij het instellen wordt er eerst om gevraagd, en later kun je meer accounts toevoegen onder Instellingen, Accounts. Een account dat door aanmelden is toegevoegd, kan ook de consoles op je account tonen, ze zonder code instellen en Extern gebruiken."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "Op welke manieren kan ik een account toevoegen?",
+          "a": [
+            "Je Account ID ophalen biedt twee groepen. Aanmelden, de aanbevolen groep, heeft Aanmelden in de app, waarbij je je wachtwoord invult op de officiële pagina, en Aanmelden via je browser, dat werkt met passkeys en wachtwoordmanagers. Alleen lokaal instellen heeft geen aanmelding nodig: Je Online ID gebruiken dekt consoles van de 4e generatie onder 8.0, en Account ID invoeren onder Geavanceerd neemt het ID over van een andere telefoon waarop deze app al is aangemeld. Zonder aanmelden kun je thuis nog steeds koppelen en spelen, maar niet instellen zonder code of Extern gebruiken."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "Mijn account gebruikt een passkey. Hoe meld ik me aan?",
+          "a": [
+            "Kies Aanmelden via je browser. Passkeys werken niet op de aanmeldpagina in de app, maar wel gewoon in je browser, en het adres wordt automatisch opgepikt als je terugkomt in de app."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "Wat doe ik na het aanmelden in de browser?",
+          "a": [
+            "Als het aanmelden klaar is, komt de browser op een lege pagina uit. Dat hoort zo. Kopieer het hele adres uit de adresbalk en ga terug naar de app, waar het automatisch wordt opgepikt. Gebeurt er niets, plak het dan in het veld hieronder en zorg dat alles na code= is meegekopieerd."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "De aanmeldpagina in de app blijft leeg of laadt niet.",
+          "a": [
+            "Sommige netwerken en telefoons blokkeren die pagina binnen apps. De app merkt het als de pagina leeg blijft of mislukt, zegt waarom en biedt Opnieuw proberen en In plaats daarvan de browser gebruiken aan. Aanmelden via de browser geeft hetzelfde resultaat, dus stap daarop over als opnieuw proberen niet helpt. Verificatie in twee stappen doe je gewoon op de aanmeldpagina zelf."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "Er staat dat de aanmeldcode is verlopen.",
+          "a": [
+            "De code in het adres is maar kort geldig. Open de aanmeldpagina opnieuw, meld je aan en ga meteen terug naar de app. Via de browser tik je op Aanmeldpagina opnieuw openen en kopieer je het nieuwe adres."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "Kan ik de app instellen zonder aan te melden?",
+          "a": [
+            "Ja, met Alleen lokaal instellen. Je Online ID gebruiken werkt voor consoles van de 4e generatie onder 8.0; kies voor nieuwere consoles Account ID invoeren onder Geavanceerd en kopieer het ID uit Instellingen, Accounts op een andere telefoon waarop deze app is aangemeld. Hoe dan ook kun je op je thuisnetwerk koppelen en spelen, maar instellen zonder code, de consoles op je account en Extern hebben een aangemeld account nodig. Een Online ID wordt opgezocht via een openbare dienst."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "Bij mijn account staat Aanmelding verlopen.",
+          "a": [
+            "Tik ernaast op Opnieuw aanmelden onder Instellingen, Accounts; het opent op dezelfde manier als waarop je je eerder hebt aangemeld. De aanmelding wordt alleen gebruikt voor Extern, instellen zonder code en het tonen van de consoles op je account, dus consoles die je al hebt gekoppeld blijven thuis hoe dan ook werken."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "Moet ik Koppelen met een code of Instellen zonder code kiezen?",
+          "a": [
+            "Koppelen met een code duurt een paar seconden, maar je moet bij de console zijn en de telefoon moet op hetzelfde netwerk zitten. Instellen zonder code werkt vanaf elke plek, ook met de console in de slaapstand, en duurt ongeveer 30 seconden. Daarvoor heb je nodig: een console van de 5e generatie die met hetzelfde account is aangemeld, een account dat door aanmelden is toegevoegd, Remote Play ingeschakeld en de nieuwste systeemsoftware. Daarna werkt de console in beide gevallen hetzelfde."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "Het koppelen is mislukt, of de koppelcode is verlopen.",
+          "a": [
+            "Een koppelcode is 300 seconden geldig en kan maar één keer worden gebruikt. Haal een nieuwe op de console op onder Instellingen, Systeem, Remote Play, Apparaat koppelen, of onder Instellingen, Verbindingsinstellingen voor Remote Play, Apparaat toevoegen op een console van de 4e generatie, en voer die meteen in. Toegangscode van de console (optioneel) is een ander nummer: de viercijferige toegangscode die op de console is ingesteld. Dat veld blijft leeg tenzij de console erom vraagt. Op een console van de 5e generatie kun je ook op Andere manier kiezen tikken en Instellen zonder code proberen."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "Instellen zonder code is mislukt.",
+          "a": [
+            "De melding noemt de oorzaak: de console staat niet op je account of is niet de primaire console, Remote Play staat uit, de console gaf geen antwoord, twee consoles hebben dezelfde naam, het netwerk staat geen directe verbinding toe, of de aanmelding is verlopen. Los dat op en probeer het opnieuw zonder code, of tik op Andere manier kiezen en koppel met een code bij de console; daarvoor moet de telefoon op hetzelfde netwerk zitten."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "Wat gebeurt er als ik een account verwijder?",
+          "a": [
+            "Alleen deze telefoon vergeet het, samen met de aanmelding. Consoles die eraan gekoppeld zijn, blijven thuis werken, maar hebben geen account tot je er een kiest onder Instellingen, Consoles, de console, Account van de console. Op de console en aan het account zelf verandert niets."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "Zien jullie mijn wachtwoord?",
+          "a": [
+            "Nee. Je typt je wachtwoord op de officiële aanmeldpagina, en deze app heeft geen eigen server, dus niets van wat je daar typt komt bij ons langs. De app bewaart het Account ID, het Online ID en de aanmeldtokens op deze telefoon, en de tokens en koppelsleutels worden versleuteld met de Android-keystore. Een Online ID opzoeken gaat via een openbare dienst."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Streamen en beeld",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "Waar zitten de bedieningselementen tijdens een stream?",
+          "a": [
+            "De bovenste balk verdwijnt na een paar seconden. Tik op een lege plek in het beeld om hem terug te halen: het pictogram met schuifregelaars opent het snelmenu, en Houd ingedrukt om af te sluiten beëindigt de stream. Lang drukken op een lege plek opent ook het snelmenu."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "Waartoe is de gratis versie beperkt?",
+          "a": [
+            "Streamen op je thuisnetwerk tot 720p en 30 fps met H.264, zonder tijdslimiet en zonder advertenties. De grens wordt toegepast elke keer dat een sessie start. De controllermodus is volledig gratis, zonder grens. Streamen op Android TV vereist Pro."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "Hoe zet ik 1080p en 60 fps aan?",
+          "a": [
+            "Kies ze onder Instellingen, Beeldkwaliteit. Je kunt ze tijdens een stream ook kiezen onder Beeldkwaliteit in het snelmenu en daarna op Opnieuw verbinden om toe te passen tikken. Je telefoon moet het wel kunnen bijhouden, dus hapert het beeld op 1080p, laat dan de verbindingsdokter lopen."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "Kan ik de resolutie of framerate tijdens een stream wijzigen?",
+          "a": [
+            "Ja. Open het snelmenu, maak je keuze onder Beeldkwaliteit en tik op Opnieuw verbinden om toe te passen; het beeld pauzeert dan een paar seconden. Een verbinding via Extern kan niet halverwege de stream wisselen, dus je keuze geldt de volgende keer dat je verbindt. Codec, bitrate en decoder staan onder Instellingen, Beeldkwaliteit."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "Wat is het verschil tussen Volledig beeld, Uitgerekt vullen en Ingezoomd vullen?",
+          "a": [
+            "Volledig beeld houdt de verhoudingen aan en laat zwarte balken staan. Uitgerekt vullen vult het scherm en vervormt het beeld een beetje. Ingezoomd vullen vult het scherm door de randen eraf te snijden, en is op een lange telefoon de gebruikelijke keuze. Je wijzigt dit onder Instellingen, Schaling, of onder Schaling in het snelmenu."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "Op een tablet of vouwtelefoon bedekt de schermcontroller het beeld.",
+          "a": [
+            "Open het snelmenu en zet Indeling op Gesplitst: het beeld en de schermcontroller worden uit elkaar gezet, zodat ze elkaar niet bedekken. Auto doet dit al als het scherm rechtop staat of een vouwtelefoon half open is. Deze opties verschijnen alleen op tablets en vouwtelefoons, en ze zijn gratis."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "Het beeld ziet er donkerder uit dan het zou moeten.",
+          "a": [
+            "Dat is Schermverduistering in het snelmenu. Die maakt het beeld donkerder zodat de knoppen op het scherm beter opvallen; schuif hem helemaal naar beneden om hem uit te zetten. Het staat los van Doorzichtigheid van de overlay, die de knoppen zelf vervaagt."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "Het beeld hapert of verliest frames.",
+          "a": [
+            "Bijna altijd ligt het aan de draadloze verbinding en niet aan de telefoon. Ga naar het 5 GHz-netwerk van dezelfde router, ga er dichterbij zitten en sluit de console met een kabel aan als dat kan. Start de verbindingsdokter en kijk naar de roundtriptijd en de geschatte verbindingssnelheid: boven 30 ms of onder 15 Mbps houdt het beeld het niet. Tijdens een stream helpt het meteen om de resolutie of framerate te verlagen in het snelmenu."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "Het beeld valt uit elkaar of bevriest, maar het geluid speelt door.",
+          "a": [
+            "Open het snelmenu en tik op Beeld herstellen onder Acties: daarmee vraag je de console om een nieuw beeld. Blijft het gebeuren, verlaag dan de resolutie en start de verbindingsdokter."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "Wat betekenen de getallen op de prestatie-overlay?",
+          "a": [
+            "Vertraging telt de roundtriptijd op bij de tijd die deze telefoon nodig heeft om een frame te decoderen en te tekenen, dus het is een schatting zonder de console en je scherm. Onder 60 ms is de waarde groen, boven 100 ms rood. Ligt de bitrate ver onder wat je hebt ingesteld, dan houdt het netwerk hem tegen; is de bitrate in orde maar duurt het decoderen lang, dan ligt het aan de telefoon. Kies Compact of Uitgebreid in het snelmenu."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "HEVC of HDR is niet te kiezen, of de stream gebruikt in plaats daarvan H.264.",
+          "a": [
+            "HEVC heeft een geschikte decoder op deze telefoon nodig, en HDR een scherm dat het ondersteunt; op de pagina Beeldkwaliteit staat waarom een optie niet beschikbaar is. Kan de telefoon het formaat bij het starten van een stream niet decoderen, dan schakelt de stream zelf over naar H.264 of SDR en laat je dat weten."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "Kan de stream doorspelen als ik naar een andere app ga?",
+          "a": [
+            "Ja. Verlaat je de app tijdens een stream, dan krimpt het beeld tot een klein venster dat blijft doorspelen. Tik erop om zonder opnieuw te verbinden terug te gaan naar volledig scherm, of sluit het om de stream te beëindigen. Het start niet terwijl het beeld op een tv staat, en je kunt het uitzetten onder Instellingen, Scherm-in-scherm."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "Hoeveel data gebruikt streamen?",
+          "a": [
+            "Dat hangt af van de resolutie: tot ongeveer 1 GB per uur bij 360p, 2,7 GB bij 540p, 4,5 GB bij 720p en 6,8 GB bij 1080p, en meer met een handmatige bitrate. Het werkelijke verbruik ligt vaak lager. Op mobiele data gebruikt de app standaard 720p met 30 fps, zowel bij streamen via een VPN naar huis als bij Extern. Wil je je eigen kwaliteit houden, zet dan Instellingen, Mobiele data uit."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "Kan ik het beeld op een tv zetten?",
+          "a": [
+            "Ja. Verbind je telefoon tijdens het streamen met een USB-C-naar-HDMI-kabel met de tv, of start het casten van je scherm vanuit de systeeminstellingen. De tv laat dan alleen het spel zien en je telefoon wordt de controller. Op de tv wordt niets geïnstalleerd en je meldt je er nooit aan, dus een hoteltv of de tv van een vriend is prima."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "Het beeld op de tv loopt achter",
+          "a": [
+            "Zet de tv eerst in de gamemodus. In hun normale beeldmodi voegen de meeste tv's 60 tot 120 ms vertraging toe; in de gamemodus is dat nog 10 tot 30 ms, en niets anders wat je kunt aanpassen komt daarbij in de buurt. Daarna geldt: een kabel wint van casten, want draadloos casten moet het beeld een tweede keer coderen en kost nog eens 100 ms of meer. Als laatste komt de stream zelf, die sneller is op een goed netwerk en thuis veel sneller dan via internet."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "Ik heb de kabel erin gestoken en er gebeurt niets",
+          "a": [
+            "Niet elke telefoon kan video uit zijn USB-C-poort versturen. Topmodellen meestal wel, middenklassetelefoons vaak niet, en vooraf kun je het niet controleren. Voer de verbindingsdokter uit met de kabel erin: de regel Extern scherm vertelt je of het systeem de tv überhaupt ziet. Zo niet, dan ligt het aan de telefoon of de adapter, en is draadloos casten vanuit je systeeminstellingen de weg eromheen."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "Kan ik opladen terwijl de HDMI-kabel erin zit?",
+          "a": [
+            "Alleen met een adapter die een eigen stroomingang heeft. De USB-C-poort is bezet door het videosignaal, en streamen plus decoderen trekt de accu snel leeg. Voor lange sessies is een USB-C-hub met HDMI en doorvoerlading daarom de moeite waard."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "De tv op mijn hotelkamer doet het niet",
+          "a": [
+            "Bij sommige hoteltv's zijn de HDMI-poorten uitgeschakeld of weggewerkt achter het scherm, en daar kan de app niets aan doen. Heeft de tv een poort die je kunt bereiken, dan werkt de kabel net als bij elke andere tv. Zo niet, dan speelt de stream gewoon verder op je telefoon."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "Maakt kopieerbeveiliging het beeld zwart?",
+          "a": [
+            "Nee. Wat de app decodeert is een gewone videostream, geen beveiligde inhoud, dus de tv laat het via HDMI gewoon zien. Je krijgt niet het zwarte scherm dat sommige video-apps op een extern scherm geven."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Controllers",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "Kan ik de knoppen op het scherm verplaatsen?",
+          "a": [
+            "Ja, en het is gratis. Open Instellingen, Controllerindelingen om alle indelingen te zien en je eigen indelingen te hernoemen of te verwijderen, en tik op een indeling om elke knop te slepen, groter of kleiner te maken, doorzichtiger te maken of te verbergen. Voorinstellingen biedt Standard, Compact, Remote, Fighting en Racing om mee te beginnen, en met JSON exporteren en JSON importeren zet je een indeling via het klembord over naar een andere telefoon. Op telefoons bewerk je liggende indelingen; tablets krijgen er een tabblad Staand bij voor de indelingen in gesplitste weergave."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "Kan ik tijdens het streamen mijn eigen indeling gebruiken?",
+          "a": [
+            "Ja. Tik in het snelmenu onder Indeling op Aangepast en kies een van je liggende indelingen. Compact en Standaard zijn de ingebouwde keuzes, gemaakt om zo weinig mogelijk van het beeld te bedekken. Wordt de gekozen indeling verwijderd, dan gaat streamen terug naar Compact. Bewerk je een ingebouwde indeling, dan wordt jouw versie als kopie opgeslagen, zodat het origineel beschikbaar blijft."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "De schermcontroller is weg of nauwelijks zichtbaar tijdens het streamen.",
+          "a": [
+            "Kijk bij Controller in het snelmenu: Auto verbergt de schermcontroller zolang er een fysieke controller is verbonden, Verborgen verbergt hem altijd, en Altijd houdt hem in beeld. Minimale modus verbergt hem ook. Streams beginnen met de indeling Compact, met kleinere, lichtere knoppen, dus zet Indeling op Standaard of pas Doorzichtigheid van de overlay aan als de knoppen moeilijk te zien zijn."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "Hoe wissel ik bij de indeling Compact tussen een stick en een D-pad?",
+          "a": [
+            "Tik op het kleine lipje aan de onderrand van het ronde bedieningselement. Dat wisselt tussen stick en D-pad, en de linker- en rechterkant wisselen los van elkaar."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "Hoe werkt de touchpad op het scherm?",
+          "a": [
+            "Veeg er met een of twee vingers over om aanrakingen te sturen, en tik er snel op voor een klik op de touchpad. Een klik ingedrukt houden wordt niet ondersteund."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "Kan ik er een echte controller mee gebruiken?",
+          "a": [
+            "Ja. Elke controller die Android via bluetooth of USB herkent, wordt doorgestuurd, met een standaardtoewijzing op basis van de fabrikant. In de controllermodus blijft de schermcontroller ernaast bruikbaar. Tijdens het streamen vraagt de app één keer of de schermcontroller ook getoond moet worden, en met Controller in het snelmenu verander je dat later. Meerdere controllers en de schermcontroller tellen op de console samen als één controller."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "De knoppen van mijn controller zitten op de verkeerde plek.",
+          "a": [
+            "Open Instellingen, Knoppentoewijzing terwijl de controller verbonden is, en kies hem. Tik op een actie en druk op de knop die je wilt; sticks kun je omkeren, en Live test laat zien wat elke knop verstuurt. Tik op Opslaan om de wijzigingen te bewaren. De toewijzing wordt per controllermodel opgeslagen, dus twee controllers van hetzelfde model delen hem, en Herstellen zet de standaard terug."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "Mijn controller heeft geen PS-knop of touchpad, of ze doen niets.",
+          "a": [
+            "De meeste controllers krijgen combinaties: Select en Start samen werken als de PS-knop, en Select en L3 als een klik op de touchpad. Een controller die al een PS-knop heeft, krijgt alleen de touchpadcombinatie. De combinaties zijn niet aan te passen, maar onder Instellingen, Knoppentoewijzing kun je PS, Touchpad of MIC in plaats daarvan aan een losse knop naar keuze toewijzen. De schermindeling Standard heeft ook alle knoppen."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "Werkt een controller die voor de console is gemaakt volledig op de telefoon?",
+          "a": [
+            "Via bluetooth worden de knoppen en sticks doorgestuurd, maar veegbewegingen op de touchpad, de bewegingssensor en de microfoon niet. Is hij tijdens het streamen via USB aangesloten, tik dan op Toestaan in het snelmenu voor adaptieve triggers, de lichtbalk en trillingen van de controller, gratis voor iedereen. Staat er USB-toegang geblokkeerd, dan houdt een ander stuurprogramma op de telefoon de controller vast; verbind hem dan via bluetooth."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "Hoe werken de trillingen van het spel en Trillingen bij knoppen?",
+          "a": [
+            "Trillingen uit het spel gaan naar de fysieke controller als die motoren heeft, en anders naar de telefoon. Het korte trillen als je op knoppen op het scherm drukt, is Trillingen bij knoppen onder Invoer in het menu van de controllermodus: elke tik gaat naar het volgende niveau, van uit tot 3, en het gekozen niveau wordt onthouden."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "Waar vind ik de microfoon en de bewegingssensor?",
+          "a": [
+            "In de controllermodus staan ze allebei onder Invoer in het menu. De bewegingssensor stuurt de gyroscoop en versnellingsmeter van de telefoon door en staat bij elke verbinding eerst uit. De microfoon vraagt eerst om toestemming; daarna wissel je met een tik tussen Live en Gedempt. Tijdens het streamen is er geen bewegingssensor, en de microfoon is de MIC-knop op de schermcontroller. Beide zijn gratis."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "Hoe zet ik de console in de slaapstand of ga ik naar het beginscherm van de console?",
+          "a": [
+            "In de controllermodus vind je onder Acties in het menu Console wekken, Console in slaapstand zetten, Beginscherm van de console en Scherm vergrendelen, dat aanrakingen negeert tot je ontgrendelt. De PS-knop op de schermcontroller werkt ook."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "Kan ik er video-apps op de console mee bedienen?",
+          "a": [
+            "Ja. Zet in de controllermodus Afstandsbediening aan onder Indeling in het menu voor grote knoppen die gemaakt zijn voor media-apps. Zet het weer uit om een andere indeling te kiezen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "AI-copiloot",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "Kost de AI-copiloot iets?",
+          "a": [
+            "Niet bij ons. Hij werkt met je eigen API-sleutel: wij komen er niet aan en rekenen niets extra, en de aanbieder brengt je gebruik rechtstreeks bij je in rekening. Het onderdeel Gameguides onder Instellingen, AI-copiloot toont de geschatte kosten per guide voor de aanbieder die je hebt gekozen, en Gebruik houdt een schatting voor deze maand bij, inclusief het aantal webzoekopdrachten."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "Waar gaat mijn scherm naartoe?",
+          "a": [
+            "Alleen als je erom vraagt: je guide-onderwerp, de naam van de game en, als je die bijvoegt, een verkleind beeld van de stream gaan rechtstreeks naar de aanbieder die je hebt ingesteld, en die voert ook de webzoekopdrachten uit. Er zit geen server van ons tussen, en we houden geen logboeken bij; guides worden alleen op deze telefoon opgeslagen. Je sleutel staat versleuteld op deze telefoon, en zonder sleutel wordt er nergens iets naartoe gestuurd."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "Waar komen de gameguides vandaan?",
+          "a": [
+            "Als je een guide zoekt, zoekt het model dat je hebt ingesteld zelf op het web: Anthropic, Google, OpenAI en DeepSeek voeren de zoekopdrachten allemaal aan hun kant uit. Het model leest de resultaten en schrijft een stapsgewijze guide in jouw taal, met de bronnen eronder. Guides worden alleen op deze telefoon opgeslagen, dus een guide opnieuw openen kost niets."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "Waarom staat er Niet op het web gezocht bij mijn guide?",
+          "a": [
+            "Alleen Anthropic, Google, DeepSeek en het eigen endpoint van OpenAI kunnen op het web zoeken. Een zelf gehost OpenAI-compatibel endpoint of een van derden, zoals OpenRouter of Ollama, antwoordt vanuit de eigen kennis van het model, en die kan voor nieuwere games verouderd zijn. Wil je guides met webzoekopdrachten, kies dan de kaart van Anthropic, Google of DeepSeek, of vul op de kaart OpenAI-compatibel het eigen endpoint van OpenAI in."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "Wat kost één guide?",
+          "a": [
+            "Anthropic en OpenAI rekenen naast tokens ongeveer één dollarcent per webzoekopdracht, dus een guide kost zo'n 8 tot 15 dollarcent. Bij Google zijn duizenden gratis zoekopdrachten per maand inbegrepen. DeepSeek rekent alleen tokens, ruim onder een cent. Zoekdiepte in Instellingen begrenst het aantal zoekopdrachten, en Gebruik toont de schatting voor deze maand."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "Hoe kom ik aan een API-sleutel?",
+          "a": [
+            "Anthropic: maak er een aan onder API keys in de Anthropic Console. Google: tik op Get API key in Google AI Studio. DeepSeek: maak er een aan onder API keys op het DeepSeek-platform. OpenAI-compatibel: gebruik de sleutel uit het dashboard van je aanbieder, zoals OpenAI of OpenRouter; voor Ollama op je eigen computer vul je het adres in als Basis-URL, typ je iets willekeurigs als sleutel en kies je een model dat afbeeldingen kan lezen. De kaarten van Anthropic, Google en DeepSeek onder Instellingen, AI-copiloot hebben een link Sleutel aanvragen."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "Waarom klopt de guide niet?",
+          "a": [
+            "Bronnen kunnen verouderd zijn of over een andere versie of een ander platform gaan; als de bronnen de versie noemen, noemt de guide die ook. Stel een vervolgvraag met het hoofdstuk, de naam van de eindbaas of je build, en de guide wordt voor je herschreven. Ontbreekt de naam van de game of klopt die niet, pas hem dan vóór het zoeken aan in het paneel, of probeer een ander model in Instellingen."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "Hoe pas ik de spraakopdrachten aan?",
+          "a": [
+            "Er zijn 8 ingebouwde opdrachten, zoals Kaart openen, Pauze en Schermafbeelding. Open Instellingen, AI-copiloot, Spraakopdrachten en tik op een opdracht om de knop te wijzigen die hij indrukt, of om eigen zinnen toe te voegen; alles wat geen opdracht is, gaat naar het gameguidepaneel, als onderwerp of als vervolgvraag. Op telefoons zonder spraakherkenningsdienst, of zonder toestemming voor de microfoon, typ je in plaats daarvan in het paneel."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "De AI-copiloot kan de aanbieder niet bereiken?",
+          "a": [
+            "AI-verzoeken gaan niet via de PSN-verbindingsproxy van de app, maar via de eigen verbinding van je telefoon. Kun je Anthropic, Google of DeepSeek niet bereiken waar je bent, kies dan een andere aanbieder of OpenAI-compatibel en vul een endpoint in dat je wel kunt bereiken, of Ollama op je eigen computer. Met Verbinding testen op dezelfde pagina zie je of het werkt."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "Hoe zet ik de AI-copiloot uit?",
+          "a": [
+            "Zet AI-copiloot gebruiken uit onder Instellingen, AI-copiloot. Lang drukken op de stream opent dan weer het snelmenu, en de AI-knoppen verdwijnen uit de bovenste balk. Wil je ook je sleutel verwijderen, tik dan op Wissen ernaast; de versleutelde kopie wordt meteen verwijderd."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "Kan ik het gebruiken als ik het scherm slecht zie?",
+          "a": [
+            "Ja. Scherm beschrijven in het snelmenu, of Lees het voor zeggen tegen de spraakknop, noemt eerst het belangrijkste en leest daarna de tekst op het scherm voor. Guides in het paneel werken met TalkBack, en elke stap kun je afvinken. Staat TalkBack aan, dan leest TalkBack schermbeschrijvingen in de ondertitelbalk voor; zonder TalkBack zet je Antwoorden voorlezen aan in Instellingen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Aankoop en terugbetalingen",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "Is dit een abonnement?",
+          "a": [
+            "Nee. Je koopt de app één keer in Google Play en dat is het: geen abonnement, geen in-app-aankopen, geen advertenties en geen functie die later om een tweede betaling vraagt. De aankoop hangt aan je Google-account, niet aan de telefoon."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "Ik heb de app tijdens een gratis actie geïnstalleerd. Worden functies later op slot gezet?",
+          "a": [
+            "Nee. Installeren tijdens een actie geldt als het kopen van de app voor die prijs, dus hij is voorgoed van jou, met alle functies. Dat blijft zo nadat de actie is afgelopen, en met hetzelfde Google-account installeer je hem gratis opnieuw op een nieuwe telefoon."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "Hoe installeer ik de app op een nieuwe telefoon?",
+          "a": [
+            "Open de pagina in Google Play met hetzelfde Google-account waarmee je hebt gekocht; er staat dan Installeren in plaats van een prijs. Consoles gaan niet mee, dus koppel elke console opnieuw op de nieuwe telefoon; de koppelsleutels blijven op de telefoon waarop ze zijn gemaakt."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "Wat is er allemaal inbegrepen?",
+          "a": [
+            "Alles, vanaf de eerste start: streamen op 1080p en 60 fps, handmatige bitrate, HEVC en HDR, FSR-verscherping en de prestatie-overlay, spelen van buiten je thuisnetwerk, streamen op Android TV, scherm-in-scherm, en het spel op de tv met je telefoon als controller. Ook de controllermodus, de verbindingsdokter, de widget Console-snelkoppeling en zoveel consoles en accounts als je wilt zitten erbij."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "Hoe krijg ik mijn geld terug?",
+          "a": [
+            "Binnen 48 uur na de aankoop vraag je de terugbetaling zelf aan in je bestelgeschiedenis in Google Play; dat gaat het snelst. Daarna mail je ons binnen 7 dagen na de aankoop en betalen we terug, zonder vragen. Vermeld het bestelnummer van de bon van Google Play, dan kunnen we de aankoop vinden."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "Ik heb vlak voor een aanbieding de volle prijs betaald.",
+          "a": [
+            "Schrijf ons. Binnen 48 uur na de aankoop gaat het het snelst als je de aankoop zelf terugvraagt in je bestelgeschiedenis in Google Play en opnieuw koopt tegen de actieprijs. Daarna mail je ons met het bestelnummer van de bon van Google Play, en betalen we het verschil terug."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Meer",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "Kan ik de console wekken vanaf het startscherm?",
+          "a": [
+            "Ja. Voeg de widget Console-snelkoppeling toe via de widgetlijst van je launcher en kies een console. Wekken stuurt het weksignaal zonder de app te openen. Verbinden opent de controllermodus als de widget de console de laatste keer op je netwerk vond, en anders de app. Beide werken alleen op hetzelfde netwerk, en de widget is gratis."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "Is er een versie voor Android TV?",
+          "a": [
+            "Ja, dezelfde app is te installeren op Android TV en Google TV. Open Google Play op de tv met hetzelfde Google-account waarmee je hebt gekocht; de app wordt dan zonder extra kosten geïnstalleerd. Om te spelen heeft de tv een controller via bluetooth of USB nodig; met de afstandsbediening navigeer je alleen door de menu's. Druk tijdens een stream op OK of Menu op de afstandsbediening, of houd L1, R1, L3 en R3 tegelijk ingedrukt op de controller, om het snelmenu te openen."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "Hoe koppel ik een console op de tv?",
+          "a": [
+            "Kies Console toevoegen op het startscherm van de tv en kies je consolemodel. Open bij de accountstap deze app op je telefoon, ga naar Instellingen, Accounts, kopieer het Account ID dat daar staat en typ het op de tv in; het bestaat uit 12 tekens en eindigt meestal op =. Kies daarna de console en voer de koppelcode van de console in met het toetsenblok op het tv-scherm. Op de tv kun je alleen met een code koppelen."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "Er staat dat het systeem van de console is bijgewerkt en dat ik moet wachten.",
+          "a": [
+            "Een systeemupdate van de console heeft de versie van het Remote Play-protocol veranderd, en daar valt vanaf de telefoon niets aan te doen. De oplossing is een update van de app, en die behandelen we als spoed. Duurt het langer dan een paar dagen, schrijf ons dan en vermeld de versie van de systeemsoftware van de console."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Kan ik de taal van de app wijzigen?",
+          "a": [
+            "De app volgt de taal van je telefoon en ondersteunt 19 talen. Vanaf Android 13 kun je in de systeeminstellingen onder Apps, Relaypad, Taal een taal kiezen voor alleen deze app. Op oudere versies wijzig je de taal van de telefoon."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "Welke gegevens verzamelt deze app?",
+          "a": [
+            "Anonieme gebruiksgebeurtenissen, zodat we kunnen zien welke schermen stukgaan, en instellingen op afstand, waarmee functies aan of uit worden gezet. Gebeurtenissen bevatten nooit je Account ID, je IP-adres of de naam van je console, en er zit geen server van ons tussen jou en je console. Gebruiksstatistieken kun je uitzetten onder Instellingen, Privacy; instellingen op afstand worden nog steeds opgehaald."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Hoe meld ik een probleem of doe ik een suggestie?",
+          "a": [
+            "Gebruik Feedback sturen onder Instellingen, Over, de knop onderaan deze pagina, of Mail ons in de verbindingsdokter. De mail wordt vooraf ingevuld met je telefoonmodel, de systeem- en app-versie, de taal en de laatste samenvatting van de verbindingsdokter; dat is wat we nodig hebben om je melding te koppelen aan wat wij zien. Schrijf er gewoon bij wat je deed en wat er gebeurde."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

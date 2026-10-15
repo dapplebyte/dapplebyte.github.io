@@ -1,0 +1,164 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ProductNav from '../../../components/ProductNav.astro';
+import { getLocale, localePath } from '../../../i18n/locales';
+import { useT } from '../../../i18n/t';
+import { getProduct, getCopy } from '../../../lib/content';
+import { productLangPaths } from '../../../lib/routes';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../lib/jsonld';
+
+export const getStaticPaths = productLangPaths;
+
+const { locale, slug, alternates } = Astro.props;
+const { t, list } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const copy = await getCopy(slug, locale);
+const email = product.contactEmail ?? t('site.email');
+const path = `/${slug}/support/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = t('support.title', { name: product.name });
+const description = t('support.description', { name: product.name });
+const before = list<string>('support.beforeItems');
+const templateLines = ['phone', 'android', 'console', 'where', 'what', 'doctor'].map((k) => t(`support.template.${k}`));
+const subject = t('support.subject', { name: product.name }).trim();
+const mailto = `mailto:${email}?subject=${encodeURIComponent(subject + ' ')}&body=${encodeURIComponent(templateLines.join('\n') + '\n')}`;
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('labels.support'), url },
+  ]),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="support" />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">{product.name}</div>
+    <h1 class="h-page">{title}</h1>
+    <p class="lede" style="margin-top:16px">{copy.tagline}</p>
+  </section>
+
+  <section class="wrap section">
+    <h2 class="h-section" style="margin-bottom:16px">{t('support.beforeHeading')}</h2>
+    <ol class="steps">
+      {before.map((b) => <li>{b}</li>)}
+    </ol>
+    <p style="margin-top:16px"><a href={localePath(locale, `/${slug}/faq/`)}>{t('support.faqLink')} →</a></p>
+  </section>
+
+  <section class="wrap section">
+    <div class="write">
+      <div>
+        <h2 class="h-section" style="margin-bottom:12px">{t('support.writeHeading')}</h2>
+        <p class="lede" style="margin-bottom:20px">{t('support.writeBody')}</p>
+        <div class="actions">
+          <a class="button" href={mailto}>{t('support.writeButton', { email })}</a>
+          <span class="addr">
+            <code id="support-email">{email}</code>
+            <button type="button" class="copy" data-copy={email} data-done={t('support.copied')} hidden>{t('support.copyAddress')}</button>
+          </span>
+        </div>
+      </div>
+      <div class="panel template">
+        <div class="mono" style="margin-bottom:12px">{t('support.templateHeading')}</div>
+        <pre>{templateLines.join('\n')}</pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="cells cells-2">
+      <div>
+        <h2 class="h-sub" style="margin-bottom:8px">{t('support.refundHeading')}</h2>
+        <p class="muted">{t('support.refundBody', { name: product.name })}</p>
+      </div>
+      <div>
+        <h2 class="h-sub" style="margin-bottom:8px">{t('support.replyHeading')}</h2>
+        <p class="muted">{t('support.replyBody')}</p>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  // Progressive enhancement: the copy button only appears when the clipboard API exists.
+  for (const btn of document.querySelectorAll<HTMLButtonElement>('button.copy')) {
+    if (!navigator.clipboard) continue;
+    btn.hidden = false;
+    btn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(btn.dataset.copy ?? '');
+        const label = btn.textContent;
+        btn.textContent = btn.dataset.done ?? label;
+        setTimeout(() => (btn.textContent = label), 1600);
+      } catch {}
+    });
+  }
+</script>
+
+<style>
+  .steps {
+    margin: 0;
+    padding-inline-start: 1.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--fg-2);
+    max-width: 64ch;
+  }
+  .write {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    align-items: start;
+  }
+  .addr {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .addr code {
+    font-family: var(--font-mono);
+    font-size: 15px;
+    color: var(--fg);
+  }
+  .copy {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--fg-2);
+    border: 1px solid var(--line-2);
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  .copy:hover {
+    color: var(--fg);
+    border-color: var(--fg);
+  }
+  .template {
+    padding: 20px;
+  }
+  .template pre {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 14px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    color: var(--fg-2);
+  }
+  .muted {
+    color: var(--fg-2);
+  }
+  @media (max-width: 860px) {
+    .write {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+</style>

@@ -1,0 +1,32 @@
+{
+  "slug": "relaypad",
+  "locale": "it",
+  "entries": [
+    {
+      "code": 101,
+      "name": "1.0.1",
+      "date": "2026-10-07",
+      "items": [
+        "Remote Play fuori casa si connette meglio, anche con un'app VPN o proxy attiva",
+        "Novità: Impostazioni → Proxy di connessione PSN, dove il PlayStation Network è poco raggiungibile",
+        "La Diagnostica connessione fa 18 controlli, compresa la rete della console",
+        "Corretto: sessioni remote bloccate all'avvio e falsi \"impossibile connettersi\"",
+        "Rimosso l'inserimento di testo nell'app, che non inviava nulla. Usa la tastiera a schermo della console"
+      ]
+    },
+    {
+      "code": 100,
+      "name": "1.0.0",
+      "date": "2026-09-20",
+      "items": [
+        "Relaypad 1.0 è arrivato: la nostra prima versione.",
+        "Trasforma il telefono in un controller wireless per PS5 e PS4",
+        "Streaming della console fino a 1080p60, con HEVC, HDR e uscita TV",
+        "Cinque layout e un editor per spostare, ridimensionare o nascondere ogni tasto",
+        "Remote Play fuori casa in 5G o da un altro Wi-Fi",
+        "La diagnostica connessione fa 13 controlli e mostra cosa blocca la connessione"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

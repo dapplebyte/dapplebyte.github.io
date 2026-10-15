@@ -1,0 +1,127 @@
+{
+  "slug": "relaypad",
+  "locale": "it",
+  "title": "Relaypad: Remote Play Joypad",
+  "shortDescription": "Niente pubblicità né abbonamento. Controller PS5 & PS4, streaming console e TV",
+  "requires": "Richiede una PS5 o PS4 con Remote Play attivo nelle impostazioni.",
+  "tagline": "Relaypad trasforma il tuo telefono Android in un controller wireless per la console, oppure ne porta l’immagine su telefono, tablet o TV, a casa o fuori.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Controller Remote Play e streaming della console per PS5 e PS4",
+      "paragraphs": [
+        "Relaypad trasforma il tuo telefono Android in un controller wireless per la console, oppure ne porta l’immagine su telefono, tablet o TV, a casa o fuori."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "A cosa serve Relaypad",
+      "paragraphs": [],
+      "bullets": [
+        "Giocare quando il controller resta senza batteria",
+        "Usare menu e app video della console con grandi tasti da telecomando",
+        "Giocare a letto o in un’altra stanza mentre la console resta vicino alla TV",
+        "Portare l’immagine sulla TV dell’albergo via HDMI, con il telefono come pad"
+      ]
+    },
+    {
+      "id": "virtual-gamepad",
+      "title": "Pad virtuale, editor del layout e mappatura tasti",
+      "paragraphs": [],
+      "bullets": [
+        "Cinque layout: Standard, Compact, Remote, Fighting e Racing",
+        "Sposta, ridimensiona o nascondi qualsiasi tasto e usa i tuoi layout anche in streaming",
+        "Touchpad, vibrazione, microfono e rilevamento del movimento",
+        "Inoltra un controller Bluetooth o USB, tasti mappati in automatico",
+        "Controller USB in streaming: grilletti adattivi, barra luminosa e feedback aptico"
+      ]
+    },
+    {
+      "id": "console-streaming",
+      "title": "Streaming della console fino a 1080p60 con HEVC e HDR",
+      "paragraphs": [],
+      "bullets": [
+        "30 o 60 fps fino a 1080p, bitrate manuale, HEVC e HDR sui telefoni supportati",
+        "Nitidezza FSR e overlay prestazioni con fps, perdita di pacchetti e latenza totale",
+        "Uscita TV via HDMI, picture-in-picture, layout diviso su tablet e pieghevoli",
+        "Modalità minima, Adatta allo schermo, Estendi o Ingrandisci per riempire, riconnessione automatica sul Wi-Fi di casa",
+        "Risparmio dati: 720p/30fps con i dati mobili"
+      ]
+    },
+    {
+      "id": "remote-play-away",
+      "title": "Remote Play fuori casa con i dati mobili",
+      "paragraphs": [],
+      "bullets": [
+        "Accedi una volta, poi collegati in 5G, 4G o da un altro Wi-Fi, di solito senza configurare il router",
+        "Inoltro automatico delle porte via UPnP, e funzionano anche le VPN di casa come Tailscale",
+        "Ti avvisa quando l’indirizzo condiviso dell’operatore (CGNAT) blocca la connessione"
+      ]
+    },
+    {
+      "id": "connection-doctor",
+      "title": "Diagnostica connessione: scopri perché non si connette",
+      "paragraphs": [],
+      "bullets": [
+        "13 controlli: rete, console in riposo, opzione Remote Play, latenza e jitter",
+        "Banda Wi-Fi, VPN, interferenze Bluetooth, UPnP, tipo di NAT e IPv4 pubblico",
+        "Copia il report o mandacelo via email con un tocco"
+      ]
+    },
+    {
+      "id": "guided-setup",
+      "title": "Configurazione guidata in quattro passaggi",
+      "paragraphs": [],
+      "bullets": [
+        "Accedi nell’app o nel browser (le passkey funzionano) oppure inserisci l’Account ID",
+        "PS5: registrazione senza PIN, anche in modalità riposo; oppure abbinamento col codice a 8 cifre",
+        "Salva più console e account, rinominali o riabbinali quando vuoi"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Niente pubblicità, niente abbonamento",
+      "paragraphs": [
+        "Relaypad non mostra pubblicità e non ha abbonamenti. Reinstalli senza costi su un nuovo telefono con lo stesso account Google. Se non funziona con la tua configurazione, scrivici entro 7 giorni dall’acquisto per il rimborso."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy",
+      "paragraphs": [
+        "Nessun account e nessun server Relaypad tra te e la console. Chiavi di abbinamento e token di accesso restano sul tuo dispositivo, cifrati con l’Android Keystore. Le statistiche anonime si possono disattivare."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-buy",
+      "title": "Prima di acquistare",
+      "paragraphs": [],
+      "bullets": [
+        "Ti serve una console tua; giochi e cloud gaming non sono inclusi",
+        "Android 8.0 o successivo; consigliati 4 GB di RAM e Wi-Fi a 5 GHz",
+        "Il telefono prende il posto di un controller, non gioca insieme a esso",
+        "Dopo un aggiornamento di sistema della console, Relaypad potrebbe doversi aggiornare per riconnettersi"
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Qualcosa non funziona? Scrivici",
+      "paragraphs": [
+        "Prima di lasciare una recensione, scrivi a feedback@dapplebyte.com oppure usa Impostazioni → Informazioni → Invia un feedback per allegare in automatico il modello del telefono. Leggiamo ogni messaggio."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "trademark",
+      "title": "Marchi",
+      "paragraphs": [
+        "PlayStation®, PS4® e PS5® sono marchi di Sony Interactive Entertainment Inc. Relaypad è un client Remote Play indipendente, non affiliato a Sony né autorizzato o approvato da Sony. Funziona solo con hardware e contenuti di tua proprietà, non elude le protezioni anticopia e non favorisce la pirateria."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

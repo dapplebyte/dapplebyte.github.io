@@ -1,0 +1,127 @@
+{
+  "slug": "relaypad",
+  "locale": "zh-tw",
+  "title": "Relaypad: Remote Play 主機手把串流",
+  "shortDescription": "無廣告、無訂閱。PS5、PS4 手機控制器，1080p60 畫面、體感、按鍵映射、HDMI 投影到電視、連線醫生診斷，出門在外也能遠端連回家玩。",
+  "requires": "需要一台已在設定裡開啟遠端遊玩的 PS5 或 PS4 主機。",
+  "tagline": "Relaypad 讓 Android 手機變成主機的無線控制器，也能把主機畫面串到手機、平板或電視上，在家在外都能玩。",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "PS5、PS4 遠端遊玩控制器與主機串流",
+      "paragraphs": [
+        "Relaypad 讓 Android 手機變成主機的無線控制器，也能把主機畫面串到手機、平板或電視上，在家在外都能玩。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "大家都怎麼用 Relaypad",
+      "paragraphs": [],
+      "bullets": [
+        "手把突然沒電，直接拿手機接著玩",
+        "用大按鍵的遙控佈局操作主機選單與影音 app",
+        "躺在床上或在別的房間玩，主機留在電視旁不用搬",
+        "旅館電視用 HDMI 接上畫面，手機當手把"
+      ]
+    },
+    {
+      "id": "virtual-gamepad",
+      "title": "虛擬手把、佈局編輯器與按鍵映射",
+      "paragraphs": [],
+      "bullets": [
+        "五套內建佈局：標準、精簡、遙控、格鬥、賽車",
+        "任何按鍵都能拖曳、縮放、隱藏，自訂佈局串流時也能用",
+        "觸控板、震動、麥克風與陀螺儀體感",
+        "藍牙或 USB 實體手把直接轉發給主機，自動套用按鍵映射",
+        "串流時接 USB 手把：自適應扳機、燈條與觸覺回饋"
+      ]
+    },
+    {
+      "id": "console-streaming",
+      "title": "主機串流最高 1080p60，支援 HEVC 與 HDR",
+      "paragraphs": [],
+      "bullets": [
+        "最高 1080p、30 或 60 fps，位元率可手動調，手機支援就能用 HEVC 與 HDR",
+        "FSR 畫質銳化，效能疊層顯示 fps、丟包與總延遲",
+        "HDMI 投影到電視、子母畫面，平板與摺疊機分割佈局",
+        "精簡模式，完整顯示、拉伸填滿、放大填滿三種比例，家中 Wi-Fi 斷線自動重連",
+        "用行動數據時自動改為 720p／30fps 省流量"
+      ]
+    },
+    {
+      "id": "remote-play-away",
+      "title": "不在家也能用行動數據遠端遊玩",
+      "paragraphs": [],
+      "bullets": [
+        "登入一次，之後用 5G、4G 或其他 Wi-Fi 都能連，多數情況不必設定路由器",
+        "自動 UPnP 埠映射，Tailscale 這類家用 VPN 也能連",
+        "電信商共用公網位址（CGNAT）擋住連線時，會直接告訴你"
+      ]
+    },
+    {
+      "id": "connection-doctor",
+      "title": "連線醫生：告訴你為什麼連不上",
+      "paragraphs": [],
+      "bullets": [
+        "13 項檢查：網路、主機待機、遠端遊玩開關、延遲與抖動",
+        "Wi-Fi 頻段、VPN、藍牙干擾、UPnP、NAT 類型與公網 IPv4",
+        "報告一鍵複製，或直接寄給我們"
+      ]
+    },
+    {
+      "id": "guided-setup",
+      "title": "四步完成設定",
+      "paragraphs": [],
+      "bullets": [
+        "在 app 內或瀏覽器登入（支援通行金鑰），也能手動輸入帳號 ID",
+        "PS5 免 PIN 註冊，主機待機中也行；也能用 8 位數配對碼",
+        "可存多台主機與多個帳號，隨時改名或重新配對"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "無廣告、無訂閱",
+      "paragraphs": [
+        "Relaypad 不放廣告，也沒有訂閱。換手機用同一個 Google 帳號重新安裝不必再付錢。如果在你的環境下用不了，購買 7 天內寄信給我們即可退款。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "隱私",
+      "paragraphs": [
+        "沒有 Relaypad 帳號，你和主機之間也沒有 Relaypad 的伺服器。配對金鑰與登入憑證以 Android Keystore 加密，只存在你的裝置上。匿名使用統計可以關閉。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-buy",
+      "title": "購買前請先確認",
+      "paragraphs": [],
+      "bullets": [
+        "你需要自己的主機，本 app 不含遊戲，也不是雲端遊戲",
+        "Android 8.0 以上，建議 4 GB 以上記憶體與 5 GHz Wi-Fi",
+        "手機是用來取代手把，不能和主機上的手把同時操作",
+        "主機系統更新後，可能要等 Relaypad 更新才能再連線"
+      ]
+    },
+    {
+      "id": "support",
+      "title": "遇到問題？寫信給我們",
+      "paragraphs": [
+        "留評價之前，歡迎先寄信到 feedback@dapplebyte.com，或從「設定 → 關於 → 意見反饋」寄出，手機型號會自動附上。每封信我們都會看。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "trademark",
+      "title": "商標聲明",
+      "paragraphs": [
+        "PlayStation®、PS4®、PS5® 是 Sony Interactive Entertainment Inc. 的商標。Relaypad 是獨立開發的 Remote Play 客戶端，與 Sony 沒有關聯，未獲其授權或認可。本 app 僅能搭配你自己的主機與你擁有的內容使用，不會破解防拷保護，也不會助長盜版。"
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

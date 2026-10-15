@@ -1,0 +1,32 @@
+{
+  "slug": "relaypad",
+  "locale": "nl",
+  "entries": [
+    {
+      "code": 101,
+      "name": "1.0.1",
+      "date": "2026-10-07",
+      "items": [
+        "Remote Play buitenshuis verbindt betrouwbaarder, ook met een VPN- of proxy-app aan",
+        "Nieuw: Instellingen → PSN-verbindingsproxy, waar PlayStation Network lastig bereikbaar is",
+        "De Verbindingsdokter doet nu 18 controles, ook van het netwerk van de console",
+        "Opgelost: externe sessies die bij de start bleven hangen en onterechte \"kan niet verbinden\"",
+        "Tekstinvoer in de app verwijderd, die verstuurde niets. Gebruik het schermtoetsenbord van de console"
+      ]
+    },
+    {
+      "code": 100,
+      "name": "1.0.0",
+      "date": "2026-09-20",
+      "items": [
+        "Relaypad 1.0 is er: onze eerste versie.",
+        "Maak van je telefoon een draadloze controller voor PS5 en PS4",
+        "Console streamen tot 1080p60, met HEVC, HDR en tv-uitvoer",
+        "Vijf indelingen en een editor om elke knop te verslepen, vergroten of verbergen",
+        "Remote Play buitenshuis via 5G of ander Wi-Fi",
+        "De verbindingsdokter doet 13 controles en laat zien wat de verbinding blokkeert"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

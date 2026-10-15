@@ -1,0 +1,21 @@
+[
+  { "slug": "en",    "lang": "en",    "dir": "ltr", "name": "English",          "android": "values",         "fastlane": "en-US" },
+  { "slug": "ar",    "lang": "ar",    "dir": "rtl", "name": "العربية",          "android": "values-ar",      "fastlane": "ar" },
+  { "slug": "de",    "lang": "de",    "dir": "ltr", "name": "Deutsch",          "android": "values-de",      "fastlane": "de-DE" },
+  { "slug": "es",    "lang": "es",    "dir": "ltr", "name": "Español",          "android": "values-es",      "fastlane": "es-ES" },
+  { "slug": "fr",    "lang": "fr",    "dir": "ltr", "name": "Français",         "android": "values-fr",      "fastlane": "fr-FR" },
+  { "slug": "hi",    "lang": "hi",    "dir": "ltr", "name": "हिन्दी",            "android": "values-hi",      "fastlane": "hi-IN" },
+  { "slug": "id",    "lang": "id",    "dir": "ltr", "name": "Bahasa Indonesia", "android": "values-in",      "fastlane": "id" },
+  { "slug": "it",    "lang": "it",    "dir": "ltr", "name": "Italiano",         "android": "values-it",      "fastlane": "it-IT" },
+  { "slug": "ja",    "lang": "ja",    "dir": "ltr", "name": "日本語",            "android": "values-ja",      "fastlane": "ja-JP" },
+  { "slug": "ko",    "lang": "ko",    "dir": "ltr", "name": "한국어",            "android": "values-ko",      "fastlane": "ko-KR" },
+  { "slug": "nl",    "lang": "nl",    "dir": "ltr", "name": "Nederlands",       "android": "values-nl",      "fastlane": "nl-NL" },
+  { "slug": "pl",    "lang": "pl",    "dir": "ltr", "name": "Polski",           "android": "values-pl",      "fastlane": "pl-PL" },
+  { "slug": "pt-br", "lang": "pt-BR", "dir": "ltr", "name": "Português (Brasil)", "android": "values-pt-rBR", "fastlane": "pt-BR" },
+  { "slug": "ru",    "lang": "ru",    "dir": "ltr", "name": "Русский",          "android": "values-ru",      "fastlane": "ru-RU" },
+  { "slug": "th",    "lang": "th",    "dir": "ltr", "name": "ไทย",              "android": "values-th",      "fastlane": "th" },
+  { "slug": "tr",    "lang": "tr",    "dir": "ltr", "name": "Türkçe",           "android": "values-tr",      "fastlane": "tr-TR" },
+  { "slug": "vi",    "lang": "vi",    "dir": "ltr", "name": "Tiếng Việt",       "android": "values-vi",      "fastlane": "vi" },
+  { "slug": "zh-cn", "lang": "zh-CN", "dir": "ltr", "name": "简体中文",          "android": "values-zh-rCN",  "fastlane": "zh-CN" },
+  { "slug": "zh-tw", "lang": "zh-TW", "dir": "ltr", "name": "繁體中文",          "android": "values-zh-rTW",  "fastlane": "zh-TW" }
+]

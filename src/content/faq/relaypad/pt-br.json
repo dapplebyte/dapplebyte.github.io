@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "pt-br",
+  "title": "Perguntas frequentes",
+  "intro": "As perguntas que mais recebemos e o que fazer em cada caso. Toque em uma pergunta para expandir.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Formas de jogar",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "Qual é a diferença entre “Transmissão”, “Remoto” e “Controle” no cartão do console?",
+          "a": [
+            "“Transmissão” mostra o console neste celular pela sua rede doméstica e, se o console estiver em modo de repouso, ele ativa o console primeiro. “Remoto” faz o mesmo de qualquer lugar, pela conta em que você fez login. “Controle” transforma o celular em um controle sem imagem, para quando você acompanha o jogo na TV. O cartão lembra a última escolha de cada console."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "Por que não tem imagem no modo controle?",
+          "a": [
+            "O modo controle só envia os seus comandos para o console, então você acompanha o jogo na TV. Ele precisa do celular e do console na mesma rede e, se o console estiver em modo de repouso, ativa o console e continua tentando por uns 30 segundos. Para ver o jogo no celular, abra o menu e toque em “Mudar para transmissão”."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "O celular pode ser um segundo controle junto com o que está conectado ao console?",
+          "a": [
+            "Não. O celular se conecta como o controle do Remote Play da conta com que foi configurado, então ele toma o lugar do seu controle em vez de entrar junto com ele. Um controle conectado direto ao console não consegue jogar ao mesmo tempo: o console faz esse controle usar outro usuário, como um convidado, e os dois ficam tomando o controle um do outro. Use o celular quando não tiver um controle à mão, não como jogador extra."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "Toquei em “Iniciar transmissão” e o cartão mudou para “Remoto”.",
+          "a": [
+            "O app procura o console na sua rede atual por alguns segundos. Quando não encontra, o cartão muda para “Remoto” sem conectar, para você decidir se quer passar pela sua conta. Em casa, isso geralmente significa uma VPN, uma rede de convidados ou um console totalmente desligado. O diagnóstico de conexão mostra qual é o caso."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "Escolhi “Remoto” em casa, mas ele transmite pela rede local.",
+          "a": [
+            "Quando o console está na mesma rede, “Remoto” transmite pela rede local, porque é mais rápido. Desative “Transmitir localmente em casa” em Configurações se quiser que “Remoto” sempre passe pela sua conta, por exemplo para testar antes de sair de casa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Conexão",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "A busca não encontra nenhum console.",
+          "a": [
+            "Um console aparece de dois jeitos: encontrado na mesma rede Wi-Fi do celular, ou listado pela sua conta depois que você faz login. A busca na rede não passa por uma rede de convidados, um segundo roteador ou uma VPN, então confira isso primeiro e deixe o console ligado ou em modo de repouso. Se ele ainda não aparecer, toque em “Digitar um endereço IP” na etapa “Escolha o seu console” e informe o endereço do console. Um endereço digitado precisa ser pareado com um código."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "Aparece “Não está nesta rede”, mas o celular está no mesmo Wi-Fi.",
+          "a": [
+            "Algumas coisas causam isso no que parece ser uma rede só. Uma rede de convidados fica isolada da principal mesmo usando o mesmo roteador. Um roteador que dá nomes diferentes às bandas de 2,4 GHz e 5 GHz pode deixar os dois aparelhos em sub-redes separadas, e alguns roteadores impedem que aparelhos sem fio se enxerguem. Uma VPN ou um app de DNS privado também pode assumir a rota. Rode o diagnóstico de conexão e leia a linha “Mesma rede do console”, que mostra os dois endereços."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "O console está em modo de repouso e não conecta, ou ativar não faz nada.",
+          "a": [
+            "“Iniciar transmissão” ativa sozinho um console em modo de repouso e espera até uns 25 segundos, e o modo controle continua tentando por uns 30 segundos. Você também pode ativar na mão em Configurações, Consoles, com “Ativar o console” no menu do modo controle ou com o widget da tela inicial. Isso só funciona na mesma rede, e só se o console permitir: nas configurações de energia dele, ative “Manter conexão com a internet” e “Permitir ligar o console pela rede”."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "Aparece “O console está ocupado”.",
+          "a": [
+            "O console roda uma sessão remota por vez, e outro celular, tablet ou computador ainda está usando. O modo controle em outro celular também conta. Encerre a sessão naquele aparelho, ou pelo próprio console, e tente de novo."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "Depois de trocar de modo ou mudar a qualidade, fica um tempo conectando.",
+          "a": [
+            "O console leva alguns segundos para liberar a sessão anterior. Enquanto isso, o app tenta de novo em segundo plano a cada 2 segundos, por até 20 segundos, e conecta assim que o console estiver pronto. Só se o console continuar ocupado depois disso é que aparece “O console está ocupado”."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "Aparece “O Remote Play está desligado no console”.",
+          "a": [
+            "O console está ligado, mas recusa conexões remotas. No console, abra Configurações, Sistema, Remote Play, ative “Ativar Remote Play” e conecte de novo. A linha “Remote Play no console” do diagnóstico de conexão mostra o último estado conhecido."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "A conexão volta sozinha quando a transmissão cai?",
+          "a": [
+            "Uma transmissão local volta. Ela tenta de novo até três vezes, com um intervalo maior a cada tentativa, desiste depois de uns 30 segundos e oferece o diagnóstico de conexão. Uma conexão em “Remoto” não tenta de novo, então conecte outra vez pelo cartão do console. Ela também não tenta de novo quando o console está ocupado ou desligado, está com o Remote Play desativado ou quando é preciso atualizar o app, porque tentar de novo não resolveria."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "O que o diagnóstico de conexão verifica?",
+          "a": [
+            "Dezoito coisas neste celular, no caminho até o console, na saída para a internet e na rede doméstica do console: capacidade do aparelho, rede do celular, mesma rede do console, status do console, Remote Play no console, tempo de resposta e jitter, estimativa de velocidade do link, apps de VPN e de filtragem, interferência de Bluetooth, UPnP do roteador, tradução de endereços de rede, endereço IPv4 público, conexão com a PlayStation Network, conta, tela externa, endereço público do console, UPnP do roteador do console e tipo de NAT do console. Os itens em vermelho e amarelo vêm com uma correção, e o relatório pode ser copiado, compartilhado ou enviado para nós por e-mail."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "Funciona em casa, mas não funciona quando estou na rua.",
+          "a": [
+            "Fora de casa, escolha “Remoto” no cartão do console e toque em “Jogar remotamente”. Ele conecta pela sua conta, então a conta precisa ter sido adicionada com login e o console precisa ser associado uma vez. A conexão costuma levar de 20 a 40 segundos, e ela tenta sozinha o UPnP do roteador de casa. Se falhar, a mensagem diz o motivo; as próximas perguntas tratam das causas comuns, e uma VPN doméstica é outro jeito de contornar isso."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "“Remoto” diz que primeiro é preciso associar um console.",
+          "a": [
+            "“Remoto” precisa saber qual console da sua conta é o que está pareado neste celular. Toque no cartão, ou abra Configurações, Conexão remota, e escolha o console uma vez em “Consoles da sua conta”. O console já precisa estar pareado neste celular, e a conta precisa ter sido adicionada com login, não com um Online ID."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "A conexão em “Remoto” falha. Quais são as causas comuns?",
+          "a": [
+            "A mensagem na tela diz a causa. O console não respondeu: deixe-o ligado ou em modo de repouso, com “Manter conexão com a internet” e “Permitir ligar o console pela rede” ativados nas configurações de energia. A rede não permite uma conexão direta: tente outra rede, ative “Busca de portas para a conexão remota” em Configurações ou use uma VPN doméstica. A sua operadora divide um endereço público entre vários usuários: encaminhar portas não vai adiantar, então troque de rede ou use uma VPN. O login expirou: entre de novo nessa conta."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "A PSN não conecta, ou a conexão cai assim que ligo o proxy?",
+          "a": [
+            "Onde é difícil acessar a PSN, uma conexão remota precisa de dois caminhos diferentes: a transmissão do jogo tem que conectar diretamente, enquanto o login e a conexão com a PSN podem passar por um proxy. Um app de proxy no modo VPN puxa também a transmissão do jogo para dentro do túnel, e a sessão cai. Mude o seu app de proxy para proxy por app e adicione o Relaypad à lista de exceções dele. Depois abra Configurações, Proxy de conexão PSN e escolha “Automático”, ou escolha “Manual” e informe a porta local do seu app de proxy (tipo HTTP, host 127.0.0.1; o Clash costuma usar 7890, e o v2rayNG, 10809). A linha “Conexão com a PlayStation Network” no diagnóstico de conexão mostra se está funcionando."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "Preciso configurar o encaminhamento de portas?",
+          "a": [
+            "Normalmente não. “Remoto” tenta o UPnP sozinho, e o encaminhamento só ajuda quando é o roteador de casa que bloqueia a conexão, não quando a operadora divide um endereço entre vários usuários. Se você precisar mesmo, Configurações, Encaminhamento de portas do roteador pode mapear as portas automaticamente ou listá-las para você configurar à mão. Portas encaminhadas deixam o console exposto à internet, então uma VPN doméstica é a opção mais segura."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "E se a rede do console estiver atrás de CGNAT ou NAT duplo?",
+          "a": [
+            "Abra o diagnóstico de conexão e veja a seção “Rede doméstica do console”. Ela é medida quando o seu celular está no Wi-Fi do console ou quando você conecta remotamente. NAT duplo significa dois roteadores em sequência, geralmente o modem da operadora mais o seu próprio roteador: coloque o modem em modo bridge ou ative a DMZ no modem apontando para o seu roteador. CGNAT significa que a sua operadora divide um endereço público entre várias casas, então encaminhar portas não adianta: peça um endereço IP público à operadora. Nos dois casos, uma VPN doméstica como o Tailscale também funciona, porque não depende de uma conexão direta de fora."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "Dá para jogar de fora da minha rede doméstica por VPN?",
+          "a": [
+            "Dá, com uma VPN doméstica. Deixe um aparelho sempre ligado na rede do console e entre nessa rede pelo celular: Tailscale em um NAS, um Raspberry Pi ou um PC resolve com um comando só (tailscale up --advertise-routes=sua.rede.domestica, e depois é só aprovar a rota no painel de administração), e um roteador com servidor WireGuard ou OpenVPN embutido funciona do mesmo jeito. Com a VPN conectada, toque em “Iniciar transmissão” no cartão do console, como sempre: a busca na rede não atravessa uma VPN, então o app também tenta o endereço que o console tinha em casa. O console precisa ter sido pareado em casa antes, e a velocidade de upload da sua casa passa a ser o limite."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "Posso ter mais de um console, ou mais de uma conta?",
+          "a": [
+            "Os dois, e nada disso custa nada. Todo console que você pareia fica na lista, e cada um pode ser vinculado a uma conta diferente em Configurações, Consoles. As contas em si ficam em Configurações, Contas."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "Troquei de celular e os meus consoles sumiram ou não conectam.",
+          "a": [
+            "Consoles, contas e chaves de pareamento não entram nos backups na nuvem, então no celular novo é preciso configurar de novo: adicione a sua conta e pareie cada console uma vez. Se uma transferência de celular para celular trouxe a lista de consoles, as chaves ficam para trás mesmo assim, porque estão presas ao celular antigo: abra Configurações, Consoles, escolha o console e toque em “Parear de novo”. Uma conta adicionada com login também pode pedir para você entrar de novo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Configuração e login",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "Por que ele precisa de um Account ID?",
+          "a": [
+            "O console só pareia com um aparelho que diz a que conta pertence, então o Account ID faz parte do próprio pareamento. É um ID de 12 caracteres ligado à sua conta, não é senha. A configuração pede o ID primeiro, e você pode adicionar mais contas depois em Configurações, Contas. Uma conta adicionada com login também consegue listar os consoles da sua conta, configurá-los sem código e usar “Remoto”."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "Quais são as formas de adicionar uma conta?",
+          "a": [
+            "“Obtenha o seu Account ID” oferece dois grupos. O de login, que é o recomendado, tem “Entrar dentro do app”, que usa a sua senha na página oficial, e “Entrar pelo navegador”, que funciona com chaves de acesso e gerenciadores de senhas. “Só configuração local” não precisa de login: “Usar o seu Online ID” atende consoles de 4ª geração abaixo da 8.0, e “Digitar um Account ID”, em “Avançado”, usa o ID de outro celular onde este app já está logado. Sem login, você ainda consegue parear e jogar em casa, mas não consegue configurar sem código nem usar “Remoto”."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "Minha conta usa chave de acesso. Como faço login?",
+          "a": [
+            "Escolha “Entrar pelo navegador”. Chaves de acesso não funcionam na página de login dentro do app, mas funcionam normalmente no navegador, e o endereço é detectado automaticamente quando você volta para o app."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "O que eu faço depois de entrar pelo navegador?",
+          "a": [
+            "Quando o login termina, o navegador para em uma página em branco. Isso é normal. Copie o endereço inteiro da barra de endereços e volte para o app, que detecta o endereço automaticamente. Se nada acontecer, cole no campo abaixo e confira se a cópia inclui tudo depois de code=."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "A página de login dentro do app fica em branco ou não carrega.",
+          "a": [
+            "Algumas redes e alguns celulares bloqueiam essa página dentro de apps. O app percebe quando ela fica vazia ou falha, diz o motivo e oferece “Tentar de novo” e “Usar o navegador”. Entrar pelo navegador dá o mesmo resultado, então troque para ele se tentar de novo não resolver. A verificação em duas etapas acontece na própria página de login."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "Aparece que o código de login expirou.",
+          "a": [
+            "O código no endereço só vale por pouco tempo. Abra a página de login de novo, faça login e volte direto para o app. Pelo navegador, toque em “Abrir a página de login novamente” e copie o endereço novo."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "Dá para configurar sem fazer login?",
+          "a": [
+            "Dá, com “Só configuração local”. “Usar o seu Online ID” funciona para consoles de 4ª geração abaixo da 8.0; para consoles mais novos, escolha “Digitar um Account ID” em “Avançado” e copie o ID em Configurações, Contas de outro celular onde este app esteja logado. Nos dois casos você consegue parear e jogar na rede de casa, mas configurar sem código, ver os consoles da sua conta e usar “Remoto” exigem uma conta com login. O Online ID é consultado por meio de um serviço público."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "Minha conta mostra “Login expirado”.",
+          "a": [
+            "Toque em “Entrar novamente” ao lado dela em Configurações, Contas; o login abre do mesmo jeito que da vez anterior. O login só é usado para “Remoto”, para configurar sem código e para listar os consoles da sua conta, então os consoles que você já pareou continuam funcionando em casa de qualquer forma."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "Escolho “Parear com um código” ou “Configurar sem código”?",
+          "a": [
+            "“Parear com um código” leva alguns segundos, mas você precisa estar perto do console e o celular precisa estar na mesma rede. “Configurar sem código” funciona de qualquer lugar, mesmo com o console em modo de repouso, e leva cerca de 30 segundos. Ele exige um console de 5ª geração logado na mesma conta, uma conta adicionada com login, o Remote Play ativado e o software de sistema mais recente. De um jeito ou de outro, o console funciona igual depois."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "O pareamento falhou, ou o código de pareamento expirou.",
+          "a": [
+            "Um código de pareamento vale 300 segundos e só pode ser usado uma vez. Pegue um código novo no console em Configurações, Sistema, Remote Play, Vincular dispositivo, ou em Configurações, Configurações de conexão do Remote Play, Adicionar dispositivo em um console de 4ª geração, e digite na hora. “Senha do console (opcional)” é outro número, a senha de quatro dígitos definida no próprio console, e fica vazio a não ser que o console peça uma. Em um console de 5ª geração, você também pode tocar em “Escolher outra forma” e tentar “Configurar sem código”."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "“Configurar sem código” falhou.",
+          "a": [
+            "A mensagem diz a causa: o console não está na sua conta ou não é o console principal dela, o Remote Play está desativado, o console não respondeu, dois consoles têm o mesmo nome, a rede não permitiu uma conexão direta ou o login expirou. Resolva isso e tente sem código de novo, ou toque em “Escolher outra forma” e pareie com um código perto do console, o que exige o celular na mesma rede."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "O que acontece se eu remover uma conta?",
+          "a": [
+            "Só este celular esquece a conta, junto com o login dela. Os consoles ligados a ela continuam funcionando em casa, mas ficam sem conta até você escolher uma em Configurações, Consoles, o console, Conta do console. Nada muda no console nem na conta em si."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "Vocês veem a minha senha?",
+          "a": [
+            "Não. Você digita a senha na página de login oficial, e este app não tem servidor próprio, então nada do que você digita ali passa por nós. O app guarda neste celular o Account ID, o Online ID e os tokens de login, e os tokens e as chaves de pareamento ficam criptografados com o Android Keystore. A consulta de um Online ID passa por um serviço público."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Transmissão e imagem",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "Onde ficam as opções durante a transmissão?",
+          "a": [
+            "A barra superior some depois de alguns segundos. Toque em um ponto vazio da imagem para ela voltar: o ícone de controles deslizantes abre o painel rápido, e “Segure para sair” encerra a transmissão. Um toque longo em um ponto vazio também abre o painel rápido."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "Até onde vai a versão gratuita?",
+          "a": [
+            "Transmissão na sua rede doméstica em até 720p e 30 fps com H.264, sem limite de tempo e sem anúncios. O limite é aplicado toda vez que uma sessão começa. O modo controle é gratuito por inteiro e não tem limite nenhum. Transmitir no Android TV exige o Pro."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "Como eu ligo 1080p e 60 fps?",
+          "a": [
+            "Escolha em Configurações, Qualidade de vídeo. Também dá para escolher em “Qualidade de vídeo” no painel rápido durante uma transmissão e tocar em “Reconectar para aplicar”. O seu celular precisa dar conta, então vale rodar o diagnóstico de conexão se a imagem travar em 1080p."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "Dá para mudar a resolução ou a taxa de quadros durante a transmissão?",
+          "a": [
+            "Dá. Abra o painel rápido, escolha em “Qualidade de vídeo” e toque em “Reconectar para aplicar”; a imagem pausa por alguns segundos. Uma conexão em “Remoto” não consegue mudar no meio da transmissão, então a sua escolha vale na próxima vez que você conectar. Codec, bitrate e decodificador ficam em Configurações, Qualidade de vídeo."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "Qual é a diferença entre “Ajustar à tela”, “Esticar para preencher” e “Ampliar para preencher”?",
+          "a": [
+            "“Ajustar à tela” mantém as proporções e deixa barras pretas. “Esticar para preencher” preenche a tela e distorce um pouco a imagem. “Ampliar para preencher” preenche a tela cortando as bordas, que é a escolha mais comum em um celular alto. Mude em Configurações, Escala da imagem, ou em “Escala da imagem” no painel rápido."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "Em um tablet ou dobrável, o controle na tela cobre a imagem.",
+          "a": [
+            "Abra o painel rápido e mude “Layout” para “Dividido”: a imagem e o controle na tela ficam separados, sem um cobrir o outro. “Auto” já faz isso quando a tela está na vertical ou um dobrável está meio aberto. Essas opções só aparecem em tablets e dobráveis, e são gratuitas."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "A imagem parece mais escura do que deveria.",
+          "a": [
+            "É o “Escurecer tela” do painel rápido. Ele escurece a imagem para os botões na tela se destacarem; baixe até o mínimo para desligar. É separado da “Opacidade da sobreposição”, que deixa os próprios botões mais transparentes."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "A imagem trava ou perde quadros.",
+          "a": [
+            "Quase sempre é a conexão sem fio, não o celular. Entre na rede de 5 GHz do mesmo roteador, chegue mais perto dele e, se der, ligue o console por cabo. Rode o diagnóstico de conexão e olhe o tempo de resposta e a estimativa de velocidade do link: acima de 30 ms ou abaixo de 15 Mbps a imagem não se sustenta. Durante uma transmissão, baixar a resolução ou a taxa de quadros no painel rápido ajuda na hora."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "A imagem falha ou congela, mas o som continua.",
+          "a": [
+            "Abra o painel rápido e toque em “Corrigir imagem” em “Ações”: isso pede uma imagem nova ao console. Se continuar acontecendo, baixe a resolução e rode o diagnóstico de conexão."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "O que significam os números da sobreposição de desempenho?",
+          "a": [
+            "A latência soma o tempo de resposta e o tempo que este celular leva para decodificar e desenhar um quadro, então é uma estimativa que deixa de fora o console e a sua tela. Ela fica verde abaixo de 60 ms e vermelha acima de 100 ms. Se o bitrate está bem abaixo do que você configurou, é a rede que está segurando; se o bitrate está bom mas a decodificação demora, o gargalo é o celular. Escolha “Compacto” ou “Detalhado” no painel rápido."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "Não consigo escolher HEVC ou HDR, ou a transmissão usa H.264 no lugar.",
+          "a": [
+            "O HEVC precisa de um decodificador compatível neste celular, e o HDR precisa de uma tela compatível; a página de qualidade diz por que uma opção está indisponível. Se o celular não conseguir decodificar o formato quando a transmissão começa, ela muda sozinha para H.264 ou SDR e avisa você."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "A transmissão pode continuar quando eu mudo para outro app?",
+          "a": [
+            "Pode. Saia do app durante uma transmissão e a imagem encolhe para uma janela pequena que continua rodando. Toque nela para voltar à tela cheia sem reconectar, ou feche a janela para encerrar a transmissão. Ela não abre enquanto a imagem está em uma TV, e dá para desativar em Configurações, Picture-in-picture."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "Quantos dados a transmissão consome?",
+          "a": [
+            "Depende da resolução: até mais ou menos 1 GB por hora em 360p, 2,7 GB em 540p, 4,5 GB em 720p e 6,8 GB em 1080p, e mais com bitrate manual. O uso real costuma ser menor. Nos dados móveis, o app usa 720p a 30 fps por padrão, tanto para transmitir por uma VPN doméstica quanto em “Remoto”. Para manter a sua própria qualidade, desative Configurações, Dados móveis."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "Dá para mandar a imagem para uma TV?",
+          "a": [
+            "Dá. Durante a transmissão, conecte o celular à TV com um cabo USB-C para HDMI ou inicie o espelhamento de tela pelas configurações do sistema. A TV passa a mostrar só o jogo e o celular vira o controle. Nada é instalado na TV e você nunca faz login nela, então a TV de um hotel ou da casa de um amigo serve."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "A imagem na TV parece atrasada",
+          "a": [
+            "Primeiro mude a TV para o modo jogo. Nos modos de imagem normais, a maioria das TVs acrescenta de 60 a 120 ms de atraso; o modo jogo derruba isso para 10 a 30 ms, e nenhum outro ajuste chega perto. Depois vem o cabo, que ganha do espelhamento: sem fio a imagem precisa ser codificada mais uma vez, o que soma outros 100 ms ou mais. Por último vem a própria transmissão, mais rápida em uma rede boa e muito mais rápida em casa do que pela internet."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "Conectei o cabo e não acontece nada",
+          "a": [
+            "Nem todo celular consegue enviar vídeo pela porta USB-C. Os top de linha geralmente conseguem, os intermediários muitas vezes não, e não dá para saber sem testar. Rode o diagnóstico de conexão com o cabo conectado: a linha “Tela externa” diz se o sistema está enxergando a TV. Se não estiver, o motivo é o celular ou o adaptador, e a saída é o espelhamento sem fio pelas configurações do sistema."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "Dá para carregar o celular com o cabo HDMI conectado?",
+          "a": [
+            "Só com um adaptador que tenha entrada de energia própria. A porta USB-C fica ocupada pelo sinal de vídeo, e transmitir e decodificar gasta bateria rápido, então para sessões longas vale ter um hub USB-C com HDMI e carregamento de passagem."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "A TV do quarto de hotel não funciona",
+          "a": [
+            "Algumas TVs de hotel têm as portas HDMI desativadas ou escondidas atrás do painel, e o app não tem como resolver isso. Se a TV tiver uma porta que você alcance, o cabo funciona como em qualquer outra TV. Se não tiver, a transmissão continua rodando no celular normalmente."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "A proteção contra cópia deixa a imagem preta?",
+          "a": [
+            "Não. O que o app decodifica é um vídeo comum, não conteúdo protegido, então a TV mostra normalmente pelo HDMI. Você não vai ver a tela preta que alguns apps de vídeo dão em uma tela externa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Controles",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "Dá para mover os botões da tela?",
+          "a": [
+            "Dá, e é de graça. Abra Configurações, Layouts do controle para ver todos os layouts e renomear ou excluir os seus, e toque em um deles para arrastar, redimensionar, deixar mais transparente ou esconder qualquer botão. “Predefinições” oferece Standard, Compact, Remote, Fighting e Racing como ponto de partida, e “Exportar JSON” e “Importar JSON” levam um layout para outro celular pela área de transferência. No celular você edita layouts em paisagem; nos tablets também aparece uma aba “Retrato” para os layouts usados na tela dividida."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "Dá para usar o meu próprio layout na transmissão?",
+          "a": [
+            "Dá. No painel rápido, em “Layout”, toque em “Personalizado” e escolha um dos seus layouts em paisagem. “Compacto” e “Padrão” são as opções integradas, feitas para cobrir o mínimo possível da imagem. Se o layout escolhido for excluído, a transmissão volta para “Compacto”. Editar um layout integrado salva a sua versão como cópia, então o original continua disponível."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "O controle na tela sumiu ou está apagado durante a transmissão.",
+          "a": [
+            "Confira “Controle” no painel rápido: “Auto” esconde o controle na tela enquanto um controle físico está conectado, “Oculto” esconde sempre e “Sempre” mantém na tela. O “Modo mínimo” também esconde. As transmissões começam com o layout “Compacto”, que tem teclas menores e mais apagadas, então mude “Layout” para “Padrão” ou aumente a “Opacidade da sobreposição” se estiver difícil de ver."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "Como alterno entre analógico e direcional no layout “Compacto”?",
+          "a": [
+            "Toque na pequena aba na borda de baixo do controle redondo. Ela alterna entre analógico e direcional, e os lados esquerdo e direito mudam separadamente."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "Como funciona o touchpad na tela?",
+          "a": [
+            "Deslize um ou dois dedos sobre ele para enviar toques, e dê um toque rápido para um clique no touchpad. Não dá para segurar o clique."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "Dá para usar um controle de verdade?",
+          "a": [
+            "Dá. Qualquer controle que o Android reconheça por Bluetooth ou USB é repassado, com um mapeamento padrão escolhido conforme o fabricante. No modo controle, o controle na tela continua utilizável junto com ele. Durante a transmissão, o app pergunta uma vez se você quer mostrar o controle na tela também, e “Controle” no painel rápido muda isso depois. Vários controles e o controle na tela contam todos como um controle só no console."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "Os botões do meu controle estão nos lugares errados.",
+          "a": [
+            "Abra Configurações, Mapeamento de botões com o controle conectado e escolha o controle. Toque em uma ação e pressione a tecla que você quer; os analógicos podem ser invertidos, e “Teste ao vivo” mostra o que cada tecla envia. Toque em “Salvar” para manter as mudanças. O mapeamento é guardado por modelo de controle, então dois controles do mesmo modelo compartilham o mesmo mapeamento, e “Redefinir” volta ao padrão."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "Meu controle não tem botão PS nem touchpad, ou eles não fazem nada.",
+          "a": [
+            "A maioria dos controles ganha combinações: Select e Start juntos funcionam como o botão PS, e Select e L3 como um clique no touchpad. Um controle que já tem botão PS só ganha a combinação do touchpad. As combinações não podem ser mudadas, mas em Configurações, Mapeamento de botões você pode atribuir PS, touchpad ou MIC a qualquer tecla sozinha. O layout padrão do controle na tela também tem todas as teclas."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "Um controle feito para o console funciona por completo no celular?",
+          "a": [
+            "Por Bluetooth, os botões e analógicos são repassados, mas os deslizes no touchpad, o sensor de movimento e o microfone não. Com o controle ligado por USB durante a transmissão, toque em “Permitir” no painel rápido para ter gatilhos adaptáveis, barra de luz e vibração do controle, grátis para todos. Se aparecer “Acesso USB bloqueado”, outro driver do celular está segurando o controle, então conecte por Bluetooth."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "Como funcionam a vibração do jogo e a vibração dos botões?",
+          "a": [
+            "A vibração do jogo vai para o controle físico quando ele tem motores, e para o celular quando não tem. A vibração curta ao apertar as teclas na tela é a “Vibração dos botões”, em “Entrada” no menu do modo controle: cada toque passa para o próximo nível, de desligada até 3, e o nível escolhido fica salvo."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "Onde estão o microfone e o sensor de movimento?",
+          "a": [
+            "No modo controle, os dois ficam em “Entrada” no menu. O sensor de movimento envia o giroscópio e o acelerômetro do celular e começa desligado toda vez que você conecta. O microfone pede permissão primeiro; depois disso, tocar nele alterna entre “Ativo” e “Mudo”. Durante a transmissão não tem sensor de movimento, e o microfone é a tecla MIC do controle na tela. Os dois são gratuitos."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "Como coloco o console em repouso ou vou para a tela inicial dele?",
+          "a": [
+            "No modo controle, “Ações” no menu tem “Ativar o console”, “Colocar o console em repouso”, “Tela inicial do console” e “Bloquear a tela”, que ignora toques até você desbloquear. O botão PS do controle na tela também funciona."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "Dá para usar o app para controlar apps de vídeo no console?",
+          "a": [
+            "Dá. No modo controle, ative “Layout de controle remoto” em “Layout” no menu para ter teclas grandes feitas para apps de mídia. Desative de novo para escolher outro layout."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "Copiloto de IA",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "O Copiloto de IA custa alguma coisa?",
+          "a": [
+            "Da nossa parte, não. Ele funciona com a sua própria chave de API: nós nunca mexemos nela nem cobramos nada a mais, e o provedor cobra você diretamente pelo que usar. A seção “Guias de jogos” em Configurações, Copiloto de IA mostra um custo aproximado por guia com o provedor escolhido, e “Uso” guarda uma estimativa deste mês, incluindo quantas pesquisas na web foram feitas."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "Para onde vai a minha tela?",
+          "a": [
+            "Só quando você pede: o tema do guia, o nome do jogo e, se você anexar, um quadro reduzido da transmissão vão direto para o provedor que você configurou, que é quem faz as pesquisas na web. Não existe nenhum servidor nosso no meio, e não guardamos registros; os guias ficam salvos só neste celular. A sua chave fica guardada com criptografia neste celular, e sem chave nada é enviado para lugar nenhum."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "De onde vêm os guias de jogos?",
+          "a": [
+            "Quando você pesquisa um guia, o modelo que você configurou pesquisa na web por conta própria: Anthropic, Google, OpenAI e DeepSeek fazem as pesquisas do lado deles. O modelo lê os resultados e escreve um guia passo a passo no seu idioma, com as fontes listadas embaixo. Os guias ficam salvos só neste celular, então abrir um de novo não custa nada."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "Por que o meu guia diz “Sem pesquisa na web”?",
+          "a": [
+            "Só a Anthropic, o Google, a DeepSeek e o endpoint oficial da OpenAI conseguem pesquisar na web. Um endpoint compatível com OpenAI próprio ou de terceiros, como OpenRouter ou Ollama, responde com o conhecimento do próprio modelo, que pode estar desatualizado para jogos mais novos. Para ter guias com pesquisa na web, escolha o cartão da Anthropic, do Google ou da DeepSeek, ou informe o endpoint oficial da OpenAI no cartão “Compatível com OpenAI”."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "Quanto custa um guia?",
+          "a": [
+            "A Anthropic e a OpenAI cobram cerca de um centavo de dólar por pesquisa na web, além dos tokens, então um guia sai por uns 8 a 15 centavos. O Google inclui milhares de pesquisas grátis por mês. A DeepSeek cobra só pelos tokens, bem menos de um centavo. “Profundidade da pesquisa” em Configurações limita o número de pesquisas, e “Uso” mostra a estimativa deste mês."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "Como consigo uma chave de API?",
+          "a": [
+            "Anthropic: crie uma em “API keys” no Anthropic Console. Google: toque em “Get API key” no Google AI Studio. DeepSeek: crie uma em “API keys” na plataforma da DeepSeek. Compatível com OpenAI: use a chave do painel do seu provedor, como OpenAI ou OpenRouter; para o Ollama no seu próprio computador, informe o endereço dele como “URL base”, digite qualquer coisa como chave e escolha um modelo que consiga ler imagens. Os cartões da Anthropic, do Google e da DeepSeek em Configurações, Copiloto de IA têm um link “Obter uma chave”."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "Por que o guia está errado?",
+          "a": [
+            "As fontes podem estar desatualizadas ou falar de outra versão ou plataforma; quando as fontes citam a versão, o guia também cita. Faça outra pergunta com o capítulo, o nome do chefe ou a sua build, e o guia é reescrito para você. Se o nome do jogo estiver faltando ou errado, corrija no painel antes de pesquisar, ou teste outro modelo em Configurações."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "Como mudo os comandos de voz?",
+          "a": [
+            "São 8 comandos integrados, como “Abrir mapa”, “Pausar” e “Captura de tela”. Abra Configurações, Copiloto de IA, Comandos de voz e toque em um para trocar o botão que ele aperta ou adicionar as suas próprias frases; tudo o que não for um comando vai para o painel de guias, como tema ou como pergunta complementar. Em celulares sem serviço de reconhecimento de voz, ou sem a permissão do microfone, digite no painel."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "O Copiloto de IA não consegue acessar o provedor?",
+          "a": [
+            "As solicitações de IA não passam pelo “Proxy de conexão PSN” do app; elas saem pela conexão do próprio celular. Se a Anthropic, o Google ou a DeepSeek não estiverem acessíveis onde você está, mude para outro provedor ou para “Compatível com OpenAI” e informe um endpoint que você consiga acessar, ou o Ollama no seu próprio computador. “Testar conexão”, na mesma página, mostra se está funcionando."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "Como desativo o Copiloto de IA?",
+          "a": [
+            "Desative “Usar o Copiloto de IA” em Configurações, Copiloto de IA. Depois disso, um toque longo na transmissão volta a abrir o painel rápido, e as teclas de IA somem da barra superior. Para remover a sua chave também, toque em “Apagar” ao lado dela; a cópia criptografada é excluída na hora."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "Dá para usar se eu não enxergo bem a tela?",
+          "a": [
+            "Dá. “Descrever a tela” no painel rápido, ou dizer “ler a tela” no botão de voz, diz primeiro o que é mais importante e depois lê o texto da tela. Os guias do painel funcionam com o TalkBack, e cada passo pode ser marcado como concluído. Com o TalkBack ligado, as descrições de tela na barra de legendas são lidas pelo TalkBack; sem ele, ative “Ler as respostas em voz alta” em Configurações."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Compra e reembolsos",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "Isso é uma assinatura?",
+          "a": [
+            "Não. Você compra o app uma vez na Google Play e pronto: sem assinatura, sem compras dentro do app, sem anúncios e sem nenhum recurso que peça um segundo pagamento depois. A compra fica vinculada à sua conta do Google, não ao celular."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "Instalei durante uma promoção gratuita. Algum recurso vai ser bloqueado depois?",
+          "a": [
+            "Não. Instalar durante uma promoção conta como comprar o app naquele preço, então ele é seu para sempre e com todos os recursos. Continua assim depois que a promoção acaba, e a mesma conta do Google pode instalar de novo em um celular novo sem pagar nada."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "Como eu instalo em um celular novo?",
+          "a": [
+            "Abra a página da loja com a mesma conta do Google que você usou na compra e ela mostra “Instalar” em vez de um preço. Os consoles não são transferidos, então pareie cada console de novo no celular novo; as chaves de pareamento ficam no celular onde foram criadas."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "O que está incluído?",
+          "a": [
+            "Tudo, desde a primeira abertura: transmissão em 1080p e 60 fps, bitrate manual, HEVC e HDR, nitidez FSR e sobreposição de desempenho, jogar de fora da sua rede doméstica, transmitir no Android TV, picture-in-picture e o jogo na TV com o celular de controle. Também estão aí o modo controle, o diagnóstico de conexão, o widget “Atalho do console” e quantos consoles e contas você quiser."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "Como eu peço reembolso?",
+          "a": [
+            "Em até 48 horas depois da compra, peça o reembolso você mesmo pelo histórico de pedidos da Google Play, que é o caminho mais rápido. Depois disso, mande um e-mail para nós em até 7 dias a partir da compra e devolvemos o valor, sem perguntas. Inclua o número do pedido que está no recibo da Google Play para acharmos a compra."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "Paguei o preço cheio pouco antes de começar uma promoção.",
+          "a": [
+            "Escreva para nós. Em até 48 horas depois da compra, o caminho mais rápido é pedir o reembolso você mesmo pelo histórico de pedidos da Google Play e comprar de novo no preço promocional. Depois disso, mande um e-mail para nós com o número do pedido que está no recibo da Google Play e devolvemos a diferença."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Outros",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "Dá para ativar o console pela tela inicial?",
+          "a": [
+            "Dá. Adicione o widget “Atalho do console” pela lista de widgets da tela inicial e escolha um console. “Ativar” envia o sinal de ativação sem abrir o app. “Conectar” abre o modo controle quando o widget encontrou o console na sua rede da última vez, e abre o app nos outros casos. Os dois só funcionam na mesma rede, e o widget é gratuito."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "Existe versão para Android TV?",
+          "a": [
+            "Existe. O mesmo app instala no Android TV e no Google TV. Abra a loja na TV com a mesma conta do Google que você usou na compra e ele instala sem custo extra. Para jogar, a TV precisa de um controle Bluetooth ou USB; o controle remoto só navega pelos menus. Durante uma transmissão, pressione OK ou Menu no controle remoto, ou segure L1, R1, L3 e R3 juntos no controle, para abrir o painel rápido."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "Como parear um console na TV?",
+          "a": [
+            "Escolha “Adicionar console” na tela inicial da TV e selecione o modelo do seu console. Na etapa da conta, abra este app no celular, vá em Configurações, Contas, copie o Account ID mostrado ali e digite na TV; ele tem 12 caracteres e geralmente termina com =. Depois escolha o console e digite o código de pareamento mostrado no console com o teclado na tela da TV. Na TV, o pareamento é só com código."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "Diz que o sistema do console foi atualizado e que eu tenho que esperar.",
+          "a": [
+            "Uma atualização do sistema do console mudou a versão do protocolo do Remote Play que ele fala, e nada do lado do celular contorna isso. A solução é uma atualização do app, que tratamos como urgente. Se já passaram mais de alguns dias, escreva para nós e informe a versão do software de sistema do console."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Dá para mudar o idioma do app?",
+          "a": [
+            "O app segue o idioma do celular e está disponível em 19 idiomas. No Android 13 ou mais recente, dá para escolher um idioma só para este app nas configurações do sistema, em Apps, Relaypad, Idioma. Nas versões mais antigas, mude o idioma do celular."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "Que dados este app coleta?",
+          "a": [
+            "Eventos de uso anônimos, para vermos quais telas quebram, e configurações remotas, que ligam ou desligam recursos. Os eventos nunca levam o seu Account ID, o seu endereço IP nem o nome do seu console, e não existe servidor nosso entre você e o seu console. As “Estatísticas de uso” podem ser desligadas em Configurações, Privacidade; as configurações remotas continuam sendo baixadas."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Como eu relato um problema ou dou uma sugestão?",
+          "a": [
+            "Use “Enviar feedback” em Configurações, Sobre, o botão no fim desta página ou “Enviar e-mail” no diagnóstico de conexão. O e-mail já vem preenchido com o modelo do seu celular, as versões do sistema e do app, o idioma e o resumo do último diagnóstico de conexão, que é o que precisamos para casar o seu relato com o que vemos aqui. É só escrever o que você fez e o que aconteceu."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

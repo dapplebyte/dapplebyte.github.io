@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "vi",
+  "title": "Câu hỏi thường gặp",
+  "intro": "Những câu hỏi chúng tôi nhận được nhiều nhất, và cách xử lý. Chạm vào một câu hỏi để mở rộng.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Cách chơi",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "“Stream”, “Từ xa” và “Tay cầm” trên thẻ máy chơi game khác nhau thế nào?",
+          "a": [
+            "“Stream” phát máy chơi game lên điện thoại này qua mạng nhà bạn, và sẽ đánh thức máy trước nếu máy đang ở chế độ nghỉ. “Từ xa” làm điều tương tự từ bất cứ đâu thông qua tài khoản bạn đã đăng nhập. “Tay cầm” biến điện thoại thành tay cầm không có hình, dành cho lúc bạn xem game trên TV. Thẻ ghi nhớ lựa chọn gần nhất cho từng máy chơi game."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "Vì sao chế độ Tay cầm không có hình?",
+          "a": [
+            "Chế độ Tay cầm chỉ gửi thao tác của bạn tới máy chơi game, còn hình game thì bạn xem trên TV. Chế độ này cần điện thoại và máy chơi game ở cùng một mạng; nếu máy đang ở chế độ nghỉ, ứng dụng sẽ đánh thức máy và tiếp tục thử lại trong khoảng 30 giây. Muốn xem game trên điện thoại, hãy mở menu và chạm “Chuyển sang stream”."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "Điện thoại có làm tay cầm thứ hai, chơi cùng tay cầm đang nối với máy chơi game được không?",
+          "a": [
+            "Không. Điện thoại kết nối với vai trò tay cầm Remote Play của tài khoản đã dùng khi thiết lập, nên nó thay chỗ tay cầm của bạn chứ không chơi song song. Tay cầm nối trực tiếp với máy chơi game không thể chơi cùng lúc: máy sẽ bắt tay cầm đó dùng một người dùng khác, chẳng hạn tài khoản khách, rồi hai bên cứ giành quyền điều khiển của nhau. Hãy dùng điện thoại khi không có sẵn tay cầm, chứ không phải để thêm người chơi."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "Tôi chạm “Bắt đầu stream” thì thẻ lại chuyển sang “Từ xa”.",
+          "a": [
+            "Ứng dụng tìm máy chơi game trên mạng hiện tại trong vài giây. Nếu không thấy, thẻ chuyển sang “Từ xa” nhưng không tự kết nối, để bạn quyết định có đi qua tài khoản hay không. Nếu bạn đang ở nhà, nguyên nhân thường là VPN, mạng khách, hoặc máy chơi game đã tắt hẳn. Chẩn đoán kết nối sẽ cho biết là trường hợp nào."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "Ở nhà tôi chọn “Từ xa”, nhưng ứng dụng lại stream qua mạng nội bộ.",
+          "a": [
+            "Khi máy chơi game ở cùng mạng, “Từ xa” sẽ stream qua mạng nội bộ vì cách này nhanh hơn. Nếu muốn “Từ xa” luôn đi qua tài khoản, chẳng hạn để thử trước khi ra khỏi nhà, hãy tắt “Ở nhà thì stream qua mạng nội bộ” trong Cài đặt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Kết nối",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "Quét mãi không thấy máy chơi game nào.",
+          "a": [
+            "Máy chơi game xuất hiện theo hai cách: được tìm thấy trong cùng mạng Wi-Fi với điện thoại, hoặc được liệt kê từ tài khoản của bạn sau khi đăng nhập. Việc tìm trong mạng không đi qua được mạng khách, router thứ hai hay VPN, nên hãy kiểm tra những thứ đó trước và giữ máy chơi game bật hoặc ở chế độ nghỉ. Nếu vẫn không thấy, hãy chạm “Nhập địa chỉ IP” ở bước “Chọn máy chơi game của bạn” rồi điền địa chỉ của máy. Địa chỉ nhập tay chỉ ghép nối được bằng mã."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "Ứng dụng báo “Không ở trên mạng này”, nhưng điện thoại vẫn đang dùng đúng Wi-Fi đó.",
+          "a": [
+            "Có vài nguyên nhân khiến một mạng trông như một mà thật ra không phải. Mạng khách bị tách khỏi mạng chính dù dùng chung router. Router đặt tên khác nhau cho băng tần 2.4 GHz và 5 GHz có thể đẩy hai thiết bị sang hai mạng con riêng, và một số router không cho các thiết bị không dây nhìn thấy nhau. Ứng dụng VPN hoặc DNS riêng tư cũng có thể chiếm lấy đường đi. Hãy chạy chẩn đoán kết nối và đọc dòng “Cùng mạng với máy chơi game”, nơi in ra cả hai địa chỉ."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "Máy chơi game đang ở chế độ nghỉ nên không kết nối được, hoặc đánh thức mà không có gì xảy ra.",
+          "a": [
+            "“Bắt đầu stream” tự đánh thức máy chơi game đang ở chế độ nghỉ và chờ tối đa khoảng 25 giây, còn chế độ Tay cầm tiếp tục thử lại trong khoảng 30 giây. Bạn cũng có thể đánh thức bằng tay tại Cài đặt → Máy chơi game, bằng “Đánh thức máy chơi game” trong menu của chế độ Tay cầm, hoặc bằng tiện ích trên màn hình chính. Các cách này chỉ dùng được trong cùng mạng, và chỉ khi máy chơi game cho phép: trong phần cài đặt nguồn của máy, hãy bật “Duy trì kết nối với Internet” và “Cho phép bật máy chơi game từ mạng”."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "Ứng dụng báo “Máy chơi game đang bận”.",
+          "a": [
+            "Máy chơi game chỉ chạy một phiên từ xa tại một thời điểm, và một điện thoại, máy tính bảng hay máy tính khác vẫn đang dùng phiên đó. Chế độ Tay cầm trên một điện thoại khác cũng tính. Hãy kết thúc phiên trên thiết bị kia, hoặc ngay trên máy chơi game, rồi thử lại."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "Sau khi đổi chế độ hoặc đổi chất lượng, ứng dụng đứng ở bước kết nối khá lâu.",
+          "a": [
+            "Máy chơi game cần vài giây để nhả phiên trước đó. Trong lúc đó ứng dụng lặng lẽ thử lại mỗi 2 giây, tối đa 20 giây, và kết nối ngay khi máy sẵn sàng. Chỉ khi sau đó máy vẫn bị chiếm, ứng dụng mới báo “Máy chơi game đang bận”."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "Ứng dụng báo “Remote Play đang tắt trên máy chơi game”.",
+          "a": [
+            "Máy chơi game đang bật nhưng từ chối kết nối từ xa. Trên máy, vào Cài đặt → Hệ thống → Remote Play, bật “Bật Remote Play” rồi kết nối lại. Dòng “Remote Play trên máy chơi game” trong chẩn đoán kết nối cho biết trạng thái gần nhất đã ghi nhận."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "Khi stream bị rớt, ứng dụng có tự kết nối lại không?",
+          "a": [
+            "Stream qua mạng nội bộ thì có. Ứng dụng thử lại tối đa ba lần với khoảng cách tăng dần, bỏ cuộc sau khoảng 30 giây rồi mở lối vào chẩn đoán kết nối. Kết nối “Từ xa” thì không thử lại, nên hãy kết nối lại từ thẻ máy chơi game. Ứng dụng cũng không thử lại khi máy chơi game đang bận, đã tắt, đang tắt Remote Play hoặc cần cập nhật ứng dụng, vì thử lại cũng không giúp được gì."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "Chẩn đoán kết nối kiểm tra những gì?",
+          "a": [
+            "Mười tám mục trên chính điện thoại này, trên đường tới máy chơi game, cả đoạn ra Internet và trên mạng nhà của máy chơi game: khả năng của thiết bị, mạng của điện thoại, cùng mạng với máy chơi game, trạng thái máy chơi game, Remote Play trên máy chơi game, thời gian phản hồi và độ dao động, ước tính tốc độ đường truyền, VPN và ứng dụng lọc lưu lượng, nhiễu Bluetooth, UPnP của router, chuyển đổi địa chỉ mạng, địa chỉ IPv4 công khai, kết nối PlayStation Network, tài khoản, màn hình ngoài, cùng với địa chỉ công khai của máy chơi game, UPnP của router phía máy chơi game và loại NAT của máy chơi game. Các mục màu đỏ và vàng đều kèm “Cách khắc phục”, và bạn có thể sao chép, chia sẻ hoặc gửi báo cáo qua email cho chúng tôi."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "Ở nhà thì chạy tốt, ra ngoài thì không.",
+          "a": [
+            "Khi ở ngoài nhà, hãy chọn “Từ xa” trên thẻ máy chơi game rồi chạm “Chơi từ xa”. Tính năng này kết nối qua tài khoản của bạn, nên tài khoản phải được thêm bằng cách đăng nhập và máy chơi game phải được khớp một lần. Mỗi lần kết nối thường mất 20 đến 40 giây, và ứng dụng tự thử UPnP trên router ở nhà. Nếu thất bại, thông báo sẽ cho biết lý do; các câu hỏi tiếp theo nói về những nguyên nhân thường gặp, còn VPN về mạng nhà là một cách khác để vượt qua."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "“Từ xa” báo cần khớp máy chơi game trước.",
+          "a": [
+            "“Từ xa” cần biết máy nào trên tài khoản của bạn chính là máy đã ghép nối trên điện thoại này. Hãy chạm vào thẻ, hoặc mở Cài đặt → Kết nối từ xa, rồi chọn một lần trong “Máy chơi game trên tài khoản của bạn”. Máy chơi game phải được ghép nối trên điện thoại này từ trước, và tài khoản phải được thêm bằng cách đăng nhập chứ không phải bằng Online ID."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "Kết nối từ xa thất bại. Nguyên nhân thường gặp là gì?",
+          "a": [
+            "Thông báo trên màn hình sẽ nêu nguyên nhân. Máy chơi game không phản hồi: giữ máy bật hoặc ở chế độ nghỉ, và bật “Duy trì kết nối với Internet” cùng “Cho phép bật máy chơi game từ mạng” trong phần cài đặt nguồn của máy. Mạng không cho phép kết nối trực tiếp: thử mạng khác, bật “Đoán cổng cho kết nối từ xa” trong Cài đặt, hoặc dùng VPN về mạng nhà. Nhà mạng dùng chung một địa chỉ công khai cho nhiều người dùng: chuyển tiếp cổng không giúp được, hãy đổi mạng hoặc dùng VPN. Phiên đăng nhập đã hết hạn: hãy đăng nhập lại tài khoản đó."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "Không kết nối được PSN, hoặc vừa bật proxy là mất kết nối?",
+          "a": [
+            "Ở nơi khó kết nối tới PSN, kết nối từ xa cần hai đường đi khác nhau: luồng game phải kết nối trực tiếp, còn đăng nhập và kết nối PSN thì có thể đi qua proxy. Ứng dụng proxy ở chế độ VPN sẽ kéo cả luồng game vào đường hầm của nó, và phiên chơi bị cắt. Hãy chuyển ứng dụng proxy sang chế độ proxy theo ứng dụng và thêm Relaypad vào danh sách bỏ qua của nó. Sau đó mở Cài đặt → Proxy kết nối PSN và chọn “Tự động”, hoặc chọn “Thủ công” rồi nhập cổng cục bộ của ứng dụng proxy (loại HTTP, máy chủ 127.0.0.1; Clash thường dùng 7890, v2rayNG dùng 10809). Dòng “Kết nối PlayStation Network” trong chẩn đoán kết nối sẽ cho biết cách này có hiệu quả hay không."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "Tôi có cần thiết lập chuyển tiếp cổng không?",
+          "a": [
+            "Thường là không. “Từ xa” tự thử UPnP, và chuyển tiếp cổng chỉ giúp khi chính router ở nhà chặn kết nối, không giúp được khi nhà mạng dùng chung một địa chỉ cho nhiều người dùng. Nếu thật sự cần, Cài đặt → Chuyển tiếp cổng trên router có thể tự ánh xạ cổng hoặc liệt kê các cổng để bạn đặt bằng tay. Cổng đã chuyển tiếp sẽ mở máy chơi game ra Internet, nên VPN về mạng nhà là lựa chọn an toàn hơn."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "Nếu mạng của máy chơi game bị CGNAT hoặc NAT kép thì sao?",
+          "a": [
+            "Hãy mở chẩn đoán kết nối và xem mục “Mạng nhà của máy chơi game”. Mục này được đo khi điện thoại đang dùng Wi-Fi của máy chơi game, hoặc khi bạn kết nối từ xa. NAT kép nghĩa là có hai router nối tiếp nhau, thường là modem của nhà mạng cộng với router của riêng bạn: hãy chuyển modem sang chế độ bridge, hoặc bật DMZ trên modem và trỏ nó tới router của bạn. CGNAT nghĩa là nhà mạng dùng chung một địa chỉ công khai cho nhiều hộ gia đình, nên chuyển tiếp cổng không giúp được: hãy xin nhà mạng cấp địa chỉ IP công khai. Trong cả hai trường hợp, VPN về mạng nhà như Tailscale cũng dùng được, vì nó không cần kết nối trực tiếp từ bên ngoài."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "Tôi có chơi được từ bên ngoài mạng nhà qua VPN không?",
+          "a": [
+            "Được, bằng VPN về mạng nhà. Hãy đặt một thiết bị luôn bật trong mạng của máy chơi game rồi cho điện thoại tham gia mạng đó: Tailscale trên NAS, Raspberry Pi hoặc máy tính làm được việc này chỉ với một lệnh (tailscale up --advertise-routes=mạng.nhà.bạn, sau đó duyệt tuyến đường trong trang quản trị), và một router có sẵn máy chủ WireGuard hoặc OpenVPN cũng làm được tương tự. Khi VPN đã kết nối, cứ chạm “Bắt đầu stream” trên thẻ máy chơi game như bình thường: việc tìm máy trong mạng không đi qua VPN, nên ứng dụng sẽ thử luôn địa chỉ mà máy chơi game có ở nhà. Máy chơi game phải được ghép nối ở nhà trước, và tốc độ tải lên của mạng nhà sẽ là giới hạn."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "Tôi lưu được nhiều máy chơi game hoặc nhiều tài khoản không?",
+          "a": [
+            "Được cả hai, và đều miễn phí. Mọi máy chơi game bạn ghép nối đều ở lại danh sách, và mỗi máy có thể gắn với một tài khoản khác nhau tại Cài đặt → Máy chơi game. Bản thân các tài khoản được quản lý tại Cài đặt → Tài khoản."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "Tôi chuyển sang điện thoại mới và các máy chơi game biến mất hoặc không kết nối được.",
+          "a": [
+            "Máy chơi game, tài khoản và khóa ghép nối không nằm trong bản sao lưu đám mây, nên trên điện thoại mới bạn cần thiết lập lại: thêm tài khoản và ghép nối từng máy chơi game một lần. Nếu việc chuyển dữ liệu trực tiếp giữa hai điện thoại đã mang theo danh sách máy chơi game, khóa vẫn ở lại máy cũ vì chúng gắn chặt với điện thoại cũ: hãy mở Cài đặt → Máy chơi game, chọn máy rồi chạm “Ghép nối lại”. Tài khoản được thêm bằng cách đăng nhập cũng có thể yêu cầu bạn đăng nhập lại."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Thiết lập và đăng nhập",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "Vì sao ứng dụng cần Account ID?",
+          "a": [
+            "Máy chơi game chỉ ghép nối với thiết bị cho biết nó thuộc tài khoản nào, nên Account ID là một phần của chính việc ghép nối. Đó là một ID gồm 12 ký tự gắn với tài khoản của bạn, không phải mật khẩu. Quá trình thiết lập hỏi nó đầu tiên, và sau này bạn có thể thêm tài khoản khác tại Cài đặt → Tài khoản. Tài khoản được thêm bằng cách đăng nhập còn liệt kê được các máy chơi game trên tài khoản, thiết lập không cần mã ghép nối và dùng “Từ xa”."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "Có những cách nào để thêm tài khoản?",
+          "a": [
+            "“Lấy Account ID của bạn” có hai nhóm. Nhóm đăng nhập, được khuyên dùng, gồm “Đăng nhập ngay trong ứng dụng”, dùng mật khẩu trên trang chính thức, và “Đăng nhập bằng trình duyệt”, dùng được passkey và trình quản lý mật khẩu. “Chỉ thiết lập nội bộ” không cần đăng nhập: “Dùng Online ID của bạn” dành cho máy thế hệ 4 chạy phiên bản dưới 8.0, còn “Nhập Account ID” trong “Nâng cao” lấy ID từ một điện thoại khác đã đăng nhập ứng dụng này. Không đăng nhập thì bạn vẫn ghép nối và chơi ở nhà được, nhưng không thể thiết lập không cần mã ghép nối hay dùng “Từ xa”."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "Tài khoản của tôi dùng passkey. Tôi đăng nhập thế nào?",
+          "a": [
+            "Hãy chọn “Đăng nhập bằng trình duyệt”. Passkey không dùng được trên trang đăng nhập trong ứng dụng, nhưng hoạt động bình thường trong trình duyệt, và địa chỉ sẽ được lấy tự động khi bạn quay lại ứng dụng."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "Đăng nhập bằng trình duyệt xong thì làm gì tiếp?",
+          "a": [
+            "Khi đăng nhập xong, trình duyệt dừng ở một trang trống. Điều đó là bình thường. Hãy sao chép toàn bộ địa chỉ trên thanh địa chỉ rồi quay lại ứng dụng, địa chỉ sẽ được lấy tự động. Nếu không có gì xảy ra, hãy dán địa chỉ vào ô bên dưới và kiểm tra chắc rằng bạn đã sao chép cả phần sau code=."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "Trang đăng nhập trong ứng dụng cứ trống trơn hoặc không tải được.",
+          "a": [
+            "Một số mạng và điện thoại chặn trang đó bên trong ứng dụng. Ứng dụng nhận ra khi trang cứ trống hoặc tải lỗi, cho biết lý do và đưa ra “Thử lại” cùng “Chuyển sang dùng trình duyệt”. Đăng nhập bằng trình duyệt cho kết quả y hệt, nên nếu thử lại không được thì hãy chuyển sang đó. Xác minh hai bước được xử lý ngay trên trang đăng nhập."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "Ứng dụng báo mã đăng nhập đã hết hạn.",
+          "a": [
+            "Mã trong địa chỉ chỉ có hiệu lực trong thời gian ngắn. Hãy chạm “Mở lại trang đăng nhập”, đăng nhập, rồi quay lại ứng dụng ngay. Nếu dùng trình duyệt, hãy chạm “Mở trang đăng nhập” lần nữa và sao chép địa chỉ mới."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "Tôi có thiết lập được mà không cần đăng nhập không?",
+          "a": [
+            "Được, với “Chỉ thiết lập nội bộ”. “Dùng Online ID của bạn” dùng được cho máy thế hệ 4 chạy phiên bản dưới 8.0; với máy mới hơn, hãy chọn “Nhập Account ID” trong “Nâng cao” và chép ID từ Cài đặt → Tài khoản trên một điện thoại khác đã đăng nhập ứng dụng này. Cách nào thì bạn cũng ghép nối và chơi được trong mạng nhà, nhưng thiết lập không cần mã ghép nối, danh sách máy chơi game trên tài khoản và “Từ xa” đều cần một tài khoản đã đăng nhập. Online ID được tra cứu qua một dịch vụ công khai."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "Tài khoản của tôi báo “Phiên đăng nhập đã hết hạn”.",
+          "a": [
+            "Hãy chạm “Đăng nhập lại” bên cạnh tài khoản đó tại Cài đặt → Tài khoản; nó mở theo đúng cách bạn đã đăng nhập lần trước. Việc đăng nhập chỉ dùng cho “Từ xa”, thiết lập không cần mã ghép nối và liệt kê máy chơi game trên tài khoản, nên các máy đã ghép nối vẫn chơi ở nhà bình thường."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "Tôi nên chọn “Ghép nối bằng mã” hay “Thiết lập không cần mã ghép nối”?",
+          "a": [
+            "“Ghép nối bằng mã” chỉ mất vài giây, nhưng bạn phải ở cạnh máy chơi game và điện thoại phải cùng mạng với máy. “Thiết lập không cần mã ghép nối” làm được từ bất cứ đâu, kể cả khi máy đang ở chế độ nghỉ, và mất khoảng 30 giây. Cách này cần máy thế hệ 5 đăng nhập cùng tài khoản, tài khoản được thêm bằng cách đăng nhập, Remote Play đang bật và phần mềm hệ thống mới nhất. Dù chọn cách nào, sau đó máy chơi game đều hoạt động như nhau."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "Ghép nối thất bại, hoặc mã ghép nối đã hết hạn.",
+          "a": [
+            "Mã ghép nối chỉ có hiệu lực 300 giây và chỉ dùng được một lần. Hãy lấy mã mới trên máy chơi game tại Cài đặt → Hệ thống → Remote Play → Liên kết thiết bị, hoặc Cài đặt → Cài đặt kết nối Remote Play → Thêm thiết bị trên máy thế hệ 4, rồi nhập ngay. “Mật mã máy chơi game (tùy chọn)” là một số khác, tức mật mã 4 chữ số đặt trên máy chơi game, và cứ để trống trừ khi máy hỏi đến. Với máy thế hệ 5, bạn cũng có thể chạm “Chọn cách khác” và thử “Thiết lập không cần mã ghép nối”."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "“Thiết lập không cần mã ghép nối” thất bại.",
+          "a": [
+            "Thông báo sẽ nêu nguyên nhân: máy chơi game không có trên tài khoản của bạn hoặc không phải máy chính, Remote Play đang tắt, máy không phản hồi, có hai máy trùng tên, mạng không cho phép kết nối trực tiếp, hoặc phiên đăng nhập đã hết hạn. Hãy khắc phục rồi thử lại cách không cần mã, hoặc chạm “Chọn cách khác” và ghép nối bằng mã ngay tại máy chơi game, cách này cần điện thoại ở cùng mạng."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "Nếu tôi xóa một tài khoản thì sao?",
+          "a": [
+            "Chỉ điện thoại này quên tài khoản đó, cùng với phiên đăng nhập của nó. Các máy chơi game gắn với tài khoản vẫn chơi ở nhà được, nhưng sẽ không có tài khoản cho tới khi bạn chọn một tài khoản tại Cài đặt → Máy chơi game → máy đó → Tài khoản của máy chơi game. Không có gì thay đổi trên máy chơi game hay trên chính tài khoản."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "Ứng dụng có thấy mật khẩu của tôi không?",
+          "a": [
+            "Không. Bạn nhập mật khẩu trên trang đăng nhập chính thức, còn ứng dụng này không có máy chủ riêng, nên không có gì bạn gõ ở đó đi qua chúng tôi. Ứng dụng lưu Account ID, Online ID và token đăng nhập trên điện thoại này, trong đó token và khóa ghép nối được mã hóa bằng Android keystore. Việc tra cứu Online ID đi qua một dịch vụ công khai."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Stream và hình ảnh",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "Các nút điều khiển nằm ở đâu khi đang stream?",
+          "a": [
+            "Thanh trên cùng sẽ mờ dần sau vài giây. Chạm vào chỗ trống trên hình để hiện lại: biểu tượng thanh trượt mở bảng điều khiển nhanh, còn “Giữ để thoát” kết thúc stream. Nhấn giữ vào chỗ trống cũng mở bảng điều khiển nhanh."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "Bản miễn phí bị giới hạn tới đâu?",
+          "a": [
+            "Stream trong mạng nhà ở mức tối đa 720p và 30 fps với H.264, không giới hạn thời gian và không quảng cáo. Giới hạn được áp mỗi khi một phiên bắt đầu. Chế độ Tay cầm miễn phí trọn vẹn và không bị giới hạn. Stream trên Android TV cần Pro."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "Bật 1080p và 60 fps bằng cách nào?",
+          "a": [
+            "Hãy chọn tại Cài đặt → Chất lượng hình ảnh. Bạn cũng có thể chọn trong mục “Chất lượng hình ảnh” của bảng điều khiển nhanh khi đang stream, rồi chạm “Kết nối lại để áp dụng”. Điện thoại của bạn cũng phải theo được, nên nếu hình bị giật ở 1080p thì đáng để chạy Chẩn đoán kết nối một lần."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "Tôi có đổi độ phân giải hoặc tốc độ khung hình khi đang stream được không?",
+          "a": [
+            "Được. Mở bảng điều khiển nhanh, chọn trong mục “Chất lượng hình ảnh” rồi chạm “Kết nối lại để áp dụng”; hình sẽ dừng vài giây. Kết nối “Từ xa” không đổi được giữa chừng, nên lựa chọn của bạn sẽ áp dụng từ lần kết nối sau. Codec, bitrate và bộ giải mã nằm tại Cài đặt → Chất lượng hình ảnh."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "“Vừa màn hình”, “Kéo giãn cho đầy” và “Phóng to cho đầy” khác nhau thế nào?",
+          "a": [
+            "“Vừa màn hình” giữ nguyên tỷ lệ và để lại viền đen. “Kéo giãn cho đầy” lấp đầy màn hình và làm hình méo đi một chút. “Phóng to cho đầy” lấp đầy màn hình bằng cách cắt bớt các cạnh, thường là lựa chọn hợp lý trên điện thoại màn hình dài. Đổi tại Cài đặt → Tỷ lệ hiển thị, hoặc trong mục “Tỷ lệ hiển thị” của bảng điều khiển nhanh."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "Trên máy tính bảng hoặc điện thoại gập, tay cầm ảo che mất hình.",
+          "a": [
+            "Mở bảng điều khiển nhanh rồi đặt “Bố cục” thành “Chia đôi”: hình và tay cầm ảo được đặt tách nhau nên không cái nào che cái nào. “Tự động” đã làm vậy sẵn khi màn hình dựng dọc hoặc điện thoại gập đang mở một nửa. Các lựa chọn này chỉ xuất hiện trên máy tính bảng và điện thoại gập, và đều miễn phí."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "Hình trông tối hơn bình thường.",
+          "a": [
+            "Đó là “Làm tối màn hình” trong bảng điều khiển nhanh. Tùy chọn này làm tối hình để các nút trên màn hình nổi bật hơn; kéo xuống mức thấp nhất để tắt. Nó khác với “Độ mờ lớp phủ”, vốn làm mờ chính các nút."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "Hình bị giật hoặc rớt khung.",
+          "a": [
+            "Gần như luôn là do đường truyền không dây chứ không phải điện thoại. Hãy vào mạng 5 GHz của cùng router, lại gần router hơn, và nối dây cho máy chơi game nếu có thể. Hãy chạy chẩn đoán kết nối rồi xem thời gian phản hồi và ước tính tốc độ đường truyền: trên 30 ms hoặc dưới 15 Mbps thì hình sẽ không trụ nổi. Khi đang stream, hạ độ phân giải hoặc tốc độ khung hình trong bảng điều khiển nhanh sẽ đỡ ngay."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "Hình bị vỡ hoặc đứng, nhưng âm thanh vẫn chạy.",
+          "a": [
+            "Mở bảng điều khiển nhanh và chạm “Sửa hình” trong mục “Thao tác”: ứng dụng sẽ yêu cầu máy chơi game gửi hình mới. Nếu tình trạng cứ lặp lại, hãy hạ độ phân giải và chạy chẩn đoán kết nối."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "Các con số trên lớp phủ hiệu năng có nghĩa là gì?",
+          "a": [
+            "Độ trễ là tổng của thời gian phản hồi và thời gian điện thoại này giải mã và vẽ một khung hình, nên đây là con số ước tính, chưa tính máy chơi game và màn hình của bạn. Con số hiện màu xanh khi dưới 60 ms và màu đỏ khi trên 100 ms. Nếu bitrate thấp hơn nhiều so với mức bạn đặt, mạng đang kìm nó lại; nếu bitrate ổn mà giải mã lâu, điện thoại là nguyên nhân. Chọn “Gọn” hoặc “Chi tiết” trong bảng điều khiển nhanh."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "Không chọn được HEVC hoặc HDR, hoặc stream lại dùng H.264.",
+          "a": [
+            "HEVC cần điện thoại có bộ giải mã tương ứng, và HDR cần màn hình hỗ trợ; trang chất lượng hình ảnh sẽ ghi lý do một tùy chọn không dùng được. Nếu điện thoại không giải mã được định dạng đó khi stream bắt đầu, stream sẽ tự chuyển sang H.264 hoặc SDR và báo cho bạn."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "Stream có tiếp tục chạy khi tôi chuyển sang ứng dụng khác không?",
+          "a": [
+            "Có. Khi rời ứng dụng trong lúc đang stream, hình sẽ thu nhỏ thành một cửa sổ nhỏ và vẫn tiếp tục chạy. Chạm vào cửa sổ để quay lại toàn màn hình mà không phải kết nối lại, hoặc đóng nó để kết thúc stream. Cửa sổ nổi không bật khi hình đang hiển thị trên TV, và bạn có thể tắt tính năng này tại Cài đặt → Cửa sổ nổi."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "Stream tốn bao nhiêu dữ liệu?",
+          "a": [
+            "Tùy độ phân giải: mỗi giờ tối đa khoảng 1 GB ở 360p, 2.7 GB ở 540p, 4.5 GB ở 720p và 6.8 GB ở 1080p, và nhiều hơn nếu đặt bitrate thủ công. Mức dùng thực tế thường thấp hơn. Khi dùng dữ liệu di động, ứng dụng mặc định dùng 720p ở 30 fps, cho cả stream về nhà qua VPN lẫn “Từ xa”. Muốn giữ chất lượng của riêng bạn, hãy tắt Cài đặt → Dữ liệu di động."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "Có thể đưa hình lên TV không?",
+          "a": [
+            "Được. Khi đang stream, hãy nối điện thoại với TV bằng cáp USB-C sang HDMI, hoặc bật truyền màn hình từ cài đặt hệ thống. Khi đó TV chỉ hiển thị game, còn điện thoại trở thành tay cầm. Không phải cài gì lên TV và cũng không phải đăng nhập ở đó, nên TV khách sạn hay TV nhà bạn bè đều dùng thoải mái."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "Hình trên TV có cảm giác bị trễ",
+          "a": [
+            "Trước hết hãy chuyển TV sang chế độ chơi game. Ở các chế độ hình ảnh thông thường, phần lớn TV làm tăng thêm 60 đến 120 ms độ trễ; chế độ chơi game kéo xuống còn 10 đến 30 ms, và không có thay đổi nào khác sánh được. Tiếp theo, cáp hơn hẳn truyền màn hình không dây: truyền không dây phải mã hóa lại hình thêm một lần nữa, cộng thêm hơn 100 ms. Cuối cùng mới tới bản thân luồng stream, mạng tốt thì nhanh hơn, và ở nhà nhanh hơn nhiều so với kết nối qua Internet."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "Cắm cáp rồi mà không có gì xảy ra",
+          "a": [
+            "Không phải điện thoại nào cũng xuất được hình qua cổng USB-C. Máy đầu bảng thường làm được, máy tầm trung thì hay không, và cắm thử mới biết. Hãy cắm cáp rồi chạy Chẩn đoán kết nối: mục “Màn hình ngoài” sẽ cho biết hệ thống có nhận ra TV hay không. Nếu không nhận, nguyên nhân nằm ở điện thoại hoặc bộ chuyển đổi, và cách vòng qua là dùng truyền màn hình không dây từ cài đặt hệ thống."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "Cắm cáp HDMI rồi thì có sạc được không?",
+          "a": [
+            "Chỉ được nếu dùng bộ chuyển đổi có cổng cấp nguồn riêng. Cổng USB-C đã bị tín hiệu hình chiếm, mà stream cộng với giải mã lại rất hao pin, nên nếu chơi lâu thì nên sắm một hub USB-C có HDMI và cổng sạc xuyên qua."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "TV trong phòng khách sạn không dùng được",
+          "a": [
+            "Một số TV khách sạn bị vô hiệu hóa cổng HDMI hoặc giấu cổng sau lưng màn hình, và ứng dụng không làm gì được với chuyện đó. Nếu TV có cổng mà bạn với tới được thì cáp hoạt động y như với TV bình thường. Nếu không, luồng stream vẫn chơi được trên điện thoại như thường lệ."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "Bảo vệ bản quyền có làm hình bị đen không?",
+          "a": [
+            "Không. Thứ ứng dụng giải mã là một luồng video thông thường, không phải nội dung được bảo vệ, nên TV hiển thị bình thường qua HDMI. Bạn sẽ không gặp cảnh màn hình đen như ở một số ứng dụng xem phim khi cắm màn hình ngoài."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Tay cầm",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "Tôi di chuyển được các nút trên màn hình không?",
+          "a": [
+            "Được, và miễn phí. Mở Cài đặt → Bố cục tay cầm để xem mọi bố cục, đổi tên hoặc xóa bố cục của riêng bạn, và chạm vào một bố cục để kéo, đổi kích thước, làm mờ hoặc ẩn bất kỳ nút nào. “Bố cục dựng sẵn” có Standard, Compact, Remote, Fighting và Racing để bắt đầu, còn “Xuất JSON” và “Nhập JSON” chuyển một bố cục sang điện thoại khác qua khay nhớ tạm. Trên điện thoại, bạn chỉnh bố cục ngang; máy tính bảng có thêm thẻ “Dọc” cho các bố cục dùng khi chia đôi màn hình."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "Có dùng được bố cục của riêng tôi khi stream không?",
+          "a": [
+            "Được. Trong bảng điều khiển nhanh, ở mục “Bố cục”, chạm “Tùy chỉnh” rồi chọn một trong các bố cục ngang của bạn. “Gọn” và “Tiêu chuẩn” là hai lựa chọn dựng sẵn, được thiết kế để che hình ít nhất có thể. Nếu bố cục bạn đã chọn bị xóa, stream sẽ quay về “Gọn”. Khi chỉnh một bố cục dựng sẵn, phiên bản của bạn được lưu thành bản sao, nên bản gốc vẫn còn."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "Tay cầm ảo biến mất hoặc mờ nhạt khi đang stream.",
+          "a": [
+            "Hãy xem mục “Tay cầm” trong bảng điều khiển nhanh: “Tự động” ẩn tay cầm ảo khi có tay cầm thật được kết nối, “Ẩn” luôn ẩn, còn “Luôn hiện” giữ nó trên màn hình. “Chế độ tối giản” cũng ẩn nó. Stream bắt đầu với bố cục “Gọn”, có các phím nhỏ và mờ hơn, nên nếu khó nhìn, hãy chuyển “Bố cục” sang “Tiêu chuẩn” hoặc tăng “Độ mờ lớp phủ”."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "Làm sao chuyển giữa cần analog và D-pad trên bố cục Gọn?",
+          "a": [
+            "Chạm vào thẻ nhỏ ở mép dưới của nút tròn. Nút sẽ chuyển giữa cần analog và D-pad, và bên trái, bên phải chuyển riêng với nhau."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "Touchpad trên màn hình dùng thế nào?",
+          "a": [
+            "Trượt một hoặc hai ngón tay trên đó để gửi thao tác chạm, và chạm nhanh để nhấn touchpad. Chưa hỗ trợ nhấn giữ."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "Tôi dùng tay cầm thật với ứng dụng được không?",
+          "a": [
+            "Được. Mọi tay cầm mà Android nhận qua Bluetooth hoặc USB đều được chuyển tiếp, với sơ đồ phím mặc định chọn theo hãng sản xuất. Ở chế độ Tay cầm, tay cầm ảo vẫn dùng được song song. Khi đang stream, ứng dụng hỏi một lần có hiện thêm tay cầm ảo không, và sau này bạn đổi lại trong mục “Tay cầm” của bảng điều khiển nhanh. Nhiều tay cầm cộng với tay cầm ảo đều được máy chơi game tính là một tay cầm."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "Các nút trên tay cầm của tôi nằm sai chỗ.",
+          "a": [
+            "Kết nối tay cầm, mở Cài đặt → Gán phím rồi chọn tay cầm đó. Chạm vào một thao tác và bấm phím bạn muốn; cần analog có thể đảo chiều, và “Thử trực tiếp” cho thấy mỗi phím gửi đi gì. Chạm “Lưu” để giữ thay đổi. Sơ đồ phím được lưu theo mẫu tay cầm, nên hai tay cầm cùng mẫu dùng chung, và “Đặt lại” sẽ trả về mặc định."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "Tay cầm của tôi không có nút PS hay touchpad, hoặc bấm vào thì không có tác dụng.",
+          "a": [
+            "Hầu hết tay cầm có tổ hợp phím: Select và Start cùng lúc đóng vai trò nút PS, Select và L3 đóng vai trò nhấn touchpad. Tay cầm vốn đã có nút PS thì chỉ có tổ hợp touchpad. Không đổi được các tổ hợp này, nhưng tại Cài đặt → Gán phím bạn có thể gán PS, Touchpad hoặc MIC cho bất kỳ phím đơn nào. Bố cục “Tiêu chuẩn” trên màn hình cũng có đủ mọi phím."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "Tay cầm dành cho máy chơi game có dùng đầy đủ tính năng trên điện thoại không?",
+          "a": [
+            "Qua Bluetooth, các nút và cần analog được chuyển tiếp, nhưng thao tác vuốt touchpad, cảm biến chuyển động và micrô thì không. Khi nối qua USB lúc đang stream, hãy chạm “Cho phép” trong bảng điều khiển nhanh để dùng cò thích ứng, thanh đèn và rung phản hồi của tay cầm, miễn phí cho mọi người. Nếu hiện “Truy cập USB bị chặn”, một trình điều khiển khác trên điện thoại đang giữ tay cầm, nên hãy kết nối bằng Bluetooth."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "Rung và “Rung phản hồi khi bấm” hoạt động thế nào?",
+          "a": [
+            "Rung từ game được gửi tới tay cầm thật nếu nó có mô-tơ, nếu không thì tới điện thoại. Cú rung ngắn khi bạn bấm phím trên màn hình là “Rung phản hồi khi bấm” trong mục “Nhập liệu” của menu chế độ Tay cầm: mỗi lần chạm chuyển sang mức tiếp theo, từ tắt lên 3, và mức bạn chọn sẽ được ghi nhớ."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "Micrô và cảm biến chuyển động nằm ở đâu?",
+          "a": [
+            "Ở chế độ Tay cầm, cả hai đều nằm trong mục “Nhập liệu” của menu. Cảm biến chuyển động gửi dữ liệu con quay hồi chuyển và gia tốc kế của điện thoại, và luôn tắt khi bắt đầu mỗi lần kết nối. Micrô sẽ hỏi quyền trước; sau đó, chạm vào để chuyển giữa “Đang bật” và “Đã tắt tiếng”. Khi đang stream thì không có cảm biến chuyển động, còn micrô là phím MIC trên tay cầm ảo. Cả hai đều miễn phí."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "Làm sao cho máy chơi game nghỉ hoặc về màn hình chính của máy?",
+          "a": [
+            "Ở chế độ Tay cầm, mục “Thao tác” trong menu có “Đánh thức máy chơi game”, “Cho máy chơi game nghỉ”, “Màn hình chính của máy” và “Khóa màn hình”, tùy chọn bỏ qua mọi thao tác chạm cho tới khi bạn mở khóa. Nút PS trên tay cầm ảo cũng dùng được."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "Tôi có dùng nó để điều khiển ứng dụng xem video trên máy chơi game được không?",
+          "a": [
+            "Được. Ở chế độ Tay cầm, hãy bật “Bố cục kiểu remote” trong mục “Bố cục” của menu để có các phím lớn dành cho ứng dụng đa phương tiện. Tắt nó đi để chọn bố cục khác."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "Trợ lý AI",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "Trợ lý AI có tốn phí không?",
+          "a": [
+            "Chúng tôi không thu phí. Tính năng này chạy bằng API key của riêng bạn: chúng tôi không bao giờ đụng tới key và không cộng thêm khoản nào, nhà cung cấp sẽ tính phí trực tiếp với bạn theo mức bạn dùng. Mục “Hướng dẫn game” trong Cài đặt → Trợ lý AI ghi chi phí ước tính cho mỗi bản hướng dẫn với nhà cung cấp bạn đã chọn, và mục “Mức sử dụng” lưu lại ước tính của tháng này, kể cả số lượt tìm kiếm web đã dùng."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "Màn hình của tôi được gửi đi đâu?",
+          "a": [
+            "Chỉ khi bạn hỏi: chủ đề hướng dẫn, tên game và, nếu bạn đính kèm, một khung hình đã thu nhỏ của luồng stream sẽ được gửi thẳng tới nhà cung cấp bạn đã thiết lập, và chính nhà cung cấp đó thực hiện việc tìm kiếm web. Không có máy chủ nào của chúng tôi ở giữa, và chúng tôi không lưu nhật ký; các bản hướng dẫn chỉ được lưu trên điện thoại này. Key của bạn được lưu dạng mã hóa trên điện thoại này, và khi chưa có key thì không có gì được gửi đi cả."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "Hướng dẫn game lấy từ đâu?",
+          "a": [
+            "Khi bạn tìm hướng dẫn, mô hình bạn đã thiết lập sẽ tự tìm trên web: Anthropic, Google, OpenAI và DeepSeek đều chạy việc tìm kiếm ở phía họ. Mô hình đọc kết quả rồi viết hướng dẫn từng bước bằng ngôn ngữ của bạn, kèm danh sách nguồn bên dưới. Các bản hướng dẫn chỉ được lưu trên điện thoại này, nên mở lại không tốn phí."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "Sao hướng dẫn của tôi ghi “Không tìm trên web”?",
+          "a": [
+            "Chỉ Anthropic, Google, DeepSeek và endpoint chính thức của OpenAI mới tìm được trên web. Endpoint tương thích OpenAI tự host hoặc của bên thứ ba, như OpenRouter hay Ollama, sẽ trả lời bằng kiến thức sẵn có của mô hình, có thể đã lỗi thời với các game mới. Muốn có hướng dẫn được tìm trên web, hãy chọn thẻ Anthropic, Google hoặc DeepSeek, hoặc nhập endpoint chính thức của OpenAI vào thẻ “Tương thích OpenAI”."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "Mỗi bản hướng dẫn tốn bao nhiêu?",
+          "a": [
+            "Anthropic và OpenAI tính khoảng một cent Mỹ cho mỗi lượt tìm kiếm web, chưa kể phí token, nên mỗi bản hướng dẫn khoảng 8 đến 15 cent. Google cho miễn phí hàng nghìn lượt tìm kiếm mỗi tháng. DeepSeek chỉ tính phí token, chưa tới một cent. “Độ sâu tìm kiếm” trong Cài đặt giới hạn số lượt tìm kiếm, và “Mức sử dụng” hiển thị ước tính của tháng này."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "Làm sao để lấy API key?",
+          "a": [
+            "Anthropic: tạo key trong mục API keys của Anthropic Console. Google: chạm “Get API key” trong Google AI Studio. DeepSeek: tạo key trong mục API keys trên nền tảng DeepSeek. “Tương thích OpenAI”: dùng key lấy từ trang quản lý của nhà cung cấp, chẳng hạn OpenAI hoặc OpenRouter; với Ollama chạy trên máy tính của bạn, hãy nhập địa chỉ của nó vào “Base URL”, ô key nhập gì cũng được, và chọn mô hình đọc được hình ảnh. Thẻ Anthropic, Google và DeepSeek trong Cài đặt → Trợ lý AI đều có liên kết “Lấy key”."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "Sao hướng dẫn lại sai?",
+          "a": [
+            "Nguồn có thể đã cũ, hoặc nói về phiên bản hay nền tảng khác; khi nguồn có ghi phiên bản, hướng dẫn sẽ nêu rõ phiên bản đó. Hãy hỏi thêm kèm tên chương, tên boss hoặc build của bạn, hướng dẫn sẽ được viết lại cho bạn. Nếu tên game bị thiếu hoặc sai, hãy sửa trong bảng trước khi tìm, hoặc thử mô hình khác trong Cài đặt."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "Làm sao để đổi lệnh giọng nói?",
+          "a": [
+            "Có sẵn 8 lệnh, như “Mở bản đồ”, “Tạm dừng” và “Chụp màn hình”. Mở Cài đặt → Trợ lý AI → Lệnh giọng nói rồi chạm vào một lệnh để đổi nút mà lệnh đó bấm, hoặc thêm câu nói của riêng bạn; câu nào không phải lệnh sẽ được đưa vào bảng hướng dẫn game, làm chủ đề hoặc câu hỏi thêm. Trên điện thoại không có dịch vụ nhận dạng giọng nói, hoặc chưa cấp quyền micrô, hãy gõ chữ trong bảng."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "Trợ lý AI không kết nối được tới nhà cung cấp?",
+          "a": [
+            "Yêu cầu AI không đi qua “Proxy kết nối PSN” của ứng dụng; chúng đi ra bằng chính kết nối mạng của điện thoại. Nếu nơi bạn ở không kết nối được tới Anthropic, Google hoặc DeepSeek, hãy chuyển sang nhà cung cấp khác hoặc “Tương thích OpenAI” và nhập một endpoint bạn kết nối được, hoặc Ollama trên máy tính của bạn. “Kiểm tra kết nối” ngay trên trang đó sẽ cho bạn biết đã dùng được chưa."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "Làm sao để tắt Trợ lý AI?",
+          "a": [
+            "Tắt “Dùng Trợ lý AI” trong Cài đặt → Trợ lý AI. Khi đó, nhấn giữ hình stream sẽ lại mở bảng điều khiển nhanh, và các phím AI cũng biến mất khỏi thanh trên cùng. Muốn xóa luôn key, hãy chạm “Xóa” bên cạnh key; bản sao đã mã hóa sẽ bị xóa ngay lập tức."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "Nếu nhìn màn hình không rõ thì tôi có dùng được không?",
+          "a": [
+            "Được. “Mô tả màn hình” trong bảng điều khiển nhanh, hoặc nói “Đọc cho tôi nghe” vào nút giọng nói, sẽ nói điều quan trọng nhất trước rồi đọc to chữ trên màn hình. Hướng dẫn trong bảng dùng được với TalkBack, và có thể đánh dấu từng bước đã xong. Khi bật TalkBack, phần mô tả màn hình trên thanh phụ đề sẽ được TalkBack đọc; nếu không dùng TalkBack, hãy bật “Đọc to câu trả lời” trong Cài đặt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Giao dịch mua và hoàn tiền",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "Đây có phải là gói đăng ký không?",
+          "a": [
+            "Không. Bạn mua ứng dụng một lần trên Google Play và chỉ vậy thôi: không có gói đăng ký, không mua trong ứng dụng, không quảng cáo, và không có tính năng nào đòi trả tiền lần thứ hai về sau. Giao dịch mua gắn với tài khoản Google của bạn, không gắn với điện thoại."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "Tôi đã cài trong một đợt phát miễn phí. Sau này các tính năng có bị khóa lại không?",
+          "a": [
+            "Không. Cài trong đợt khuyến mãi được tính là bạn đã mua ứng dụng ở mức giá đó, nên ứng dụng thuộc về bạn vĩnh viễn cùng mọi tính năng. Sau khi đợt khuyến mãi kết thúc thì vẫn vậy, và cùng tài khoản Google đó cài lại được trên điện thoại mới mà không phải trả tiền."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "Tôi cài ứng dụng lên điện thoại mới bằng cách nào?",
+          "a": [
+            "Hãy mở trang ứng dụng trên cửa hàng bằng cùng tài khoản Google bạn đã mua, nút sẽ hiện “Cài đặt” thay vì giá tiền. Máy chơi game không chuyển theo, nên hãy ghép nối lại từng máy trên điện thoại mới; khóa ghép nối ở lại trên chính điện thoại đã tạo ra chúng."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "Bản này gồm những gì?",
+          "a": [
+            "Tất cả, ngay từ lần mở đầu tiên: stream ở 1080p và 60 fps, bitrate thủ công, HEVC và HDR, làm nét FSR và lớp phủ hiệu năng, chơi từ bên ngoài mạng nhà bạn, stream trên Android TV, cửa sổ nổi, và game lên TV với điện thoại làm tay cầm. Chế độ tay cầm, chẩn đoán kết nối, widget lối tắt máy chơi game và số lượng máy chơi game cùng tài khoản không hạn chế cũng đều có sẵn."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "Tôi xin hoàn tiền bằng cách nào?",
+          "a": [
+            "Trong vòng 48 giờ sau khi mua, bạn tự yêu cầu hoàn tiền được từ lịch sử đơn hàng trong Google Play, và đó là cách nhanh nhất. Sau thời gian đó, hãy gửi email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền, không hỏi lý do. Hãy kèm theo mã đơn hàng trên biên nhận của Google Play để chúng tôi tìm được giao dịch."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "Tôi mua đúng giá ngay trước khi một đợt giảm giá bắt đầu.",
+          "a": [
+            "Hãy viết cho chúng tôi. Trong vòng 48 giờ sau khi mua, cách nhanh nhất là bạn tự hoàn tiền giao dịch từ lịch sử đơn hàng trong Google Play rồi mua lại theo giá giảm. Sau thời gian đó, hãy gửi email cho chúng tôi kèm mã đơn hàng trên biên nhận của Google Play và chúng tôi sẽ hoàn lại phần chênh lệch."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Khác",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "Tôi đánh thức máy chơi game từ màn hình chính được không?",
+          "a": [
+            "Được. Hãy thêm tiện ích “Lối tắt máy chơi game” từ danh sách tiện ích của trình khởi chạy rồi chọn một máy chơi game. “Đánh thức” gửi lệnh đánh thức mà không cần mở ứng dụng. “Kết nối” mở chế độ Tay cầm nếu lần gần nhất tiện ích tìm thấy máy trên mạng của bạn, còn không thì chỉ mở ứng dụng. Cả hai chỉ dùng được trong cùng mạng, và tiện ích này miễn phí."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "Có phiên bản Android TV không?",
+          "a": [
+            "Có, cùng ứng dụng này cài được trên Android TV và Google TV. Hãy mở cửa hàng trên TV bằng cùng tài khoản Google bạn đã mua và ứng dụng sẽ cài mà không phải trả thêm. Để chơi, TV cần một tay cầm Bluetooth hoặc USB; điều khiển từ xa chỉ dùng để di chuyển trong menu. Khi đang stream, nhấn OK hoặc Menu trên điều khiển, hoặc giữ cùng lúc L1, R1, L3 và R3 trên tay cầm, để mở bảng điều khiển nhanh."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "Ghép nối máy chơi game trên TV bằng cách nào?",
+          "a": [
+            "Chọn “Thêm máy chơi game” trên màn hình chính của TV rồi chọn dòng máy của bạn. Ở bước tài khoản, hãy mở ứng dụng này trên điện thoại, vào Cài đặt → Tài khoản, chép lại Account ID hiển thị ở đó rồi nhập lên TV; Account ID gồm 12 ký tự và thường kết thúc bằng =. Sau đó chọn máy chơi game và nhập mã ghép nối từ máy chơi game bằng bàn phím số trên màn hình TV. TV chỉ ghép nối được bằng mã."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "Ứng dụng báo hệ thống của máy chơi game đã được cập nhật và tôi phải chờ.",
+          "a": [
+            "Một bản cập nhật hệ thống của máy chơi game đã đổi phiên bản giao thức Remote Play mà máy dùng, và phía điện thoại không có cách nào lách qua được. Cách khắc phục là một bản cập nhật ứng dụng, và chúng tôi coi việc đó là khẩn cấp. Nếu chuyện này kéo dài hơn vài ngày, hãy viết cho chúng tôi và cho biết phiên bản phần mềm hệ thống của máy chơi game."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Tôi có đổi được ngôn ngữ của ứng dụng không?",
+          "a": [
+            "Ứng dụng dùng theo ngôn ngữ của điện thoại và hỗ trợ 19 ngôn ngữ. Từ Android 13 trở lên, bạn có thể chọn ngôn ngữ riêng cho ứng dụng này trong cài đặt hệ thống, tại Ứng dụng → Relaypad → Ngôn ngữ. Trên các phiên bản cũ hơn, hãy đổi ngôn ngữ của điện thoại."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "Ứng dụng này thu thập dữ liệu gì?",
+          "a": [
+            "Các sự kiện sử dụng ẩn danh, để chúng tôi biết màn hình nào đang lỗi, và cài đặt từ xa, dùng để bật hoặc tắt tính năng. Sự kiện không bao giờ mang theo Account ID, địa chỉ IP hay tên máy chơi game của bạn, và giữa bạn với máy chơi game không có máy chủ nào của chúng tôi. Bạn tắt được “Thống kê sử dụng” tại Cài đặt → Quyền riêng tư; cài đặt từ xa thì vẫn được tải về."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Tôi báo lỗi hoặc góp ý bằng cách nào?",
+          "a": [
+            "Hãy dùng “Gửi phản hồi” tại Cài đặt → Giới thiệu, nút ở cuối trang này, hoặc “Gửi email cho chúng tôi” trong chẩn đoán kết nối. Email được điền sẵn kiểu máy điện thoại, phiên bản hệ thống và ứng dụng, ngôn ngữ và bản tóm tắt chẩn đoán kết nối gần nhất, đó là những gì chúng tôi cần để đối chiếu báo cáo của bạn với những gì chúng tôi thấy. Bạn chỉ cần viết mình đã làm gì và chuyện gì đã xảy ra."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

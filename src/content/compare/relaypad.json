@@ -1,0 +1,21 @@
+{
+  "slug": "relaypad",
+  "draft": true,
+  "verifiedOn": null,
+  "competitors": [
+    { "id": "ps-remote-play", "name": "PS Remote Play (official)", "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/index.html" },
+    { "id": "pxplay", "name": "PXPlay", "url": "https://play.google.com/store/apps/details?id=com.grill.pxplay" },
+    { "id": "chiaki", "name": "Chiaki", "url": "https://git.sr.ht/~thestr4ng3r/chiaki" }
+  ],
+  "rows": [
+    { "id": "platform", "values": { "relaypad": "Android 8.0+", "ps-remote-play": "unknown", "pxplay": "unknown", "chiaki": "unknown" } },
+    { "id": "away-from-home", "values": { "relaypad": "yes", "ps-remote-play": "unknown", "pxplay": "unknown", "chiaki": "unknown" } },
+    { "id": "hevc-hdr", "values": { "relaypad": "yes", "ps-remote-play": "unknown", "pxplay": "unknown", "chiaki": "unknown" } },
+    { "id": "virtual-pad-editor", "values": { "relaypad": "yes", "ps-remote-play": "unknown", "pxplay": "unknown", "chiaki": "unknown" } },
+    { "id": "physical-pad", "values": { "relaypad": "yes", "ps-remote-play": "unknown", "pxplay": "unknown", "chiaki": "unknown" } },
+    { "id": "tv-output", "values": { "relaypad": "yes", "ps-remote-play": "unknown", "pxplay": "unknown", "chiaki": "unknown" } },
+    { "id": "connection-doctor", "values": { "relaypad": "yes", "ps-remote-play": "unknown", "pxplay": "unknown", "chiaki": "unknown" } },
+    { "id": "open-source", "values": { "relaypad": "yes", "ps-remote-play": "no", "pxplay": "unknown", "chiaki": "yes" } },
+    { "id": "pricing-model", "values": { "relaypad": "one-time", "ps-remote-play": "unknown", "pxplay": "unknown", "chiaki": "unknown" } }
+  ]
+}

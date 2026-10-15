@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "it",
+  "title": "FAQ",
+  "intro": "Le domande che ci fanno più spesso e cosa fare in ciascun caso. Tocca una domanda per aprirla.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Modi di giocare",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "Che differenza c'è tra «Streaming», «Remoto» e «Pad» nella scheda della console?",
+          "a": [
+            "«Streaming» porta la console su questo telefono attraverso la rete di casa e, se la console è in modalità riposo, prima la riattiva. «Remoto» fa la stessa cosa da qualsiasi luogo tramite l'account con cui hai effettuato l'accesso. «Pad» trasforma il telefono in un controller senza immagine, per quando guardi il gioco sulla TV. La scheda ricorda l'ultima scelta per ogni console."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "Perché in modalità pad non c'è l'immagine?",
+          "a": [
+            "La modalità pad invia alla console solo i tuoi comandi, quindi il gioco lo guardi sulla TV. Il telefono e la console devono essere sulla stessa rete e, se la console è in modalità riposo, la riattiva e continua a riprovare per circa 30 secondi. Per vedere il gioco sul telefono, apri il menu e tocca «Passa allo streaming»."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "Il telefono può fare da secondo controller accanto a quello collegato alla console?",
+          "a": [
+            "No. Il telefono si collega come controller Remote Play dell'account con cui è stato configurato, quindi prende il posto del tuo controller invece di aggiungersi. Un controller collegato direttamente alla console non può giocare nello stesso momento: la console gli fa usare un altro utente, per esempio un ospite, e i due continuano a togliersi il controllo a vicenda. Usa il telefono quando non hai un controller sotto mano, non come giocatore in più."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "Ho toccato «Avvia streaming» e la scheda è passata a «Remoto».",
+          "a": [
+            "L'app cerca la console sulla rete attuale per qualche secondo. Se non la trova, la scheda passa a «Remoto» senza connettersi, così decidi tu se passare dal tuo account. A casa di solito la causa è una VPN, una rete ospiti o una console spenta del tutto. La Diagnostica connessione mostra quale delle tre."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "A casa ho scelto «Remoto», ma lo streaming avviene in locale.",
+          "a": [
+            "Quando la console è sulla stessa rete, «Remoto» passa allo streaming locale, perché è più veloce. Se vuoi che «Remoto» passi sempre dal tuo account, per esempio per provarlo prima di uscire di casa, disattiva «Streaming locale quando sei a casa» nelle Impostazioni."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Connessione",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "La scansione non trova nessuna console.",
+          "a": [
+            "Una console compare in due modi: trovata sulla stessa rete Wi-Fi del telefono, oppure elencata dal tuo account dopo l'accesso. La ricerca in rete non passa attraverso una rete ospiti, un secondo router o una VPN, quindi controlla prima questi punti e tieni la console accesa o in modalità riposo. Se ancora non compare, tocca «Inserisci un indirizzo IP» nel passaggio «Scegli la tua console» e digita l'indirizzo della console. Un indirizzo inserito a mano va abbinato con un codice."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "Dice «Non è su questa rete», ma il telefono è sullo stesso Wi-Fi.",
+          "a": [
+            "Su quella che sembra un'unica rete le cause possibili sono diverse. Una rete ospiti è separata da quella principale anche se il router è lo stesso. Un router che dà nomi diversi alle bande da 2,4 GHz e 5 GHz può mettere i due dispositivi su sottoreti separate, e alcuni router impediscono ai dispositivi wireless di vedersi tra loro. Anche una VPN o un'app di DNS privato può prendere il controllo del percorso. Esegui la Diagnostica connessione e leggi la voce «Stessa rete della console», che mostra entrambi gli indirizzi."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "La console è in modalità riposo e non si connette, oppure riattivarla non fa niente.",
+          "a": [
+            "«Avvia streaming» riattiva da solo una console in modalità riposo e aspetta fino a circa 25 secondi, mentre la modalità pad continua a riprovare per circa 30 secondi. Puoi anche riattivarla a mano da Impostazioni → Console, con «Riattiva la console» nel menu della modalità pad oppure con il widget nella schermata Home. Funzionano solo sulla stessa rete e solo se la console lo consente: nelle sue impostazioni di risparmio energetico attiva «Resta connesso a Internet» e «Consenti l'accensione della console dalla rete»."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "Dice «Console occupata».",
+          "a": [
+            "La console gestisce una sola sessione remota alla volta e un altro telefono, tablet o computer la sta ancora usando. Conta anche la modalità pad aperta su un altro telefono. Chiudi la sessione su quel dispositivo, oppure dalla console stessa, poi riprova."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "Dopo aver cambiato modalità o qualità, resta in connessione per un po'.",
+          "a": [
+            "La console impiega qualche secondo a liberare la sessione precedente. Nel frattempo l'app riprova in silenzio ogni 2 secondi, per un massimo di 20 secondi, e si connette appena la console è pronta. Solo se dopo quel tempo la console è ancora occupata compare «Console occupata»."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "Dice «Remote Play è disattivato sulla console».",
+          "a": [
+            "La console è accesa, ma rifiuta le connessioni remote. Sulla console apri Impostazioni → Sistema → Remote Play, attiva «Attiva Remote Play» e connettiti di nuovo. La voce «Remote Play sulla console» della Diagnostica connessione mostra l'ultimo stato noto."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "Si riconnette da solo quando lo streaming cade?",
+          "a": [
+            "Sì, se lo streaming è in locale. Riprova fino a tre volte, con pause sempre più lunghe, si arrende dopo circa 30 secondi e poi propone la Diagnostica connessione. Una connessione «Remoto» non riprova, quindi connettiti di nuovo dalla scheda della console. Non riprova nemmeno quando la console è occupata, è spenta, ha Remote Play disattivato o serve un aggiornamento dell'app, perché riprovare non servirebbe."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "Che cosa controlla la Diagnostica connessione?",
+          "a": [
+            "Diciotto cose su questo telefono, sul percorso verso la console, su quello in uscita verso internet e sulla rete di casa della console: capacità del dispositivo, rete del telefono, stessa rete della console, stato della console, Remote Play sulla console, tempo di andata e ritorno e jitter, stima della velocità del collegamento, VPN e app di filtraggio, interferenze Bluetooth, UPnP del router, traduzione degli indirizzi di rete, indirizzo IPv4 pubblico, connessione a PlayStation Network, account, schermo esterno, indirizzo pubblico della console, UPnP del router della console e tipo di NAT della console. Le voci in rosso e in giallo hanno il loro «Come risolvere», e il rapporto si può copiare, condividere o inviarci per email."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "Funziona a casa ma non quando sono fuori.",
+          "a": [
+            "Fuori casa, scegli «Remoto» nella scheda della console e tocca «Gioca da remoto». Si collega tramite il tuo account, quindi l'account va aggiunto con l'accesso e la console va associata una volta. Una connessione richiede di solito da 20 a 40 secondi e prova da sola l'UPnP sul router di casa. Se non riesce, il messaggio spiega il motivo; le domande seguenti coprono le cause più comuni, e una VPN di casa è un altro modo per aggirare il problema."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "«Remoto» dice che prima bisogna associare la console.",
+          "a": [
+            "«Remoto» deve sapere quale console del tuo account è quella abbinata su questo telefono. Tocca la scheda, oppure apri Impostazioni → Connessione remota, e sceglila una volta in «Console del tuo account». La console deve essere già abbinata su questo telefono e l'account deve essere stato aggiunto con l'accesso, non con un Online ID."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "La connessione remota non riesce. Quali sono le cause più comuni?",
+          "a": [
+            "Il messaggio sullo schermo indica la causa. La console non ha risposto: tienila accesa o in modalità riposo, con «Resta connesso a Internet» e «Consenti l'accensione della console dalla rete» attivi nelle impostazioni di risparmio energetico. La rete non consente una connessione diretta: prova un'altra rete, attiva «Ricerca delle porte per la connessione remota» nelle Impostazioni oppure usa una VPN di casa. Il tuo operatore condivide un unico indirizzo pubblico tra molti utenti: l'inoltro delle porte non serve, quindi cambia rete o usa una VPN. L'accesso è scaduto: accedi di nuovo a quell'account."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "PSN non si connette, o la connessione cade appena attivo il proxy?",
+          "a": [
+            "Dove PSN è difficile da raggiungere, una connessione remota ha bisogno di due percorsi diversi: lo streaming del gioco deve connettersi direttamente, mentre l'accesso e la connessione a PSN possono passare da un proxy. Un'app di proxy in modalità VPN trascina nel suo tunnel anche lo streaming del gioco, e la sessione si interrompe. Passa l'app di proxy alla modalità proxy per app e aggiungi Relaypad al suo elenco di esclusione. Poi apri Impostazioni → Proxy di connessione PSN e scegli «Automatico», oppure scegli «Manuale» e inserisci la porta locale della tua app di proxy (tipo HTTP, host 127.0.0.1; Clash di solito usa la 7890, v2rayNG la 10809). La voce «Connessione a PlayStation Network» della Diagnostica connessione ti dice se funziona."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "Devo configurare l'inoltro delle porte?",
+          "a": [
+            "Di solito no. «Remoto» prova l'UPnP da solo, e l'inoltro serve solo quando a bloccare la connessione è il router di casa, non quando un operatore condivide un indirizzo tra molti utenti. Se ti serve davvero, Impostazioni → Inoltro delle porte del router può configurare le porte in automatico oppure elencarle per impostarle a mano. Le porte inoltrate espongono la console a internet, quindi una VPN di casa è la scelta più sicura."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "E se la rete della console è dietro CGNAT o doppio NAT?",
+          "a": [
+            "Apri la Diagnostica connessione e guarda la sezione «Rete di casa della console». Viene misurata quando il telefono è sul Wi-Fi della console oppure quando ti connetti da remoto. Doppio NAT significa due router in fila, di solito il modem del tuo operatore più il tuo router: metti il modem in modalità bridge, oppure attiva la DMZ sul modem e indirizzala verso il tuo router. CGNAT significa che il tuo operatore condivide un unico indirizzo pubblico tra molte case, quindi l'inoltro delle porte non serve: chiedi all'operatore un indirizzo IP pubblico. In entrambi i casi funziona anche una VPN di casa come Tailscale, perché non dipende da una connessione diretta dall'esterno."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "Posso giocare fuori dalla rete di casa tramite una VPN?",
+          "a": [
+            "Sì, con una VPN di casa. Metti un dispositivo sempre acceso sulla rete della console e collegati a quella rete dal telefono: Tailscale su un NAS, un Raspberry Pi o un PC basta con un solo comando (tailscale up --advertise-routes=tua.rete.di.casa, poi approvi la rotta nel pannello di amministrazione), e un router con un server WireGuard o OpenVPN integrato funziona allo stesso modo. Con la VPN connessa, tocca «Avvia streaming» sulla scheda della console come al solito: la ricerca in rete non attraversa una VPN, quindi l'app prova anche l'indirizzo che la console aveva a casa. La console deve essere stata abbinata prima a casa, e la velocità di upload di casa diventa il limite."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "Posso tenere più di una console, o più di un account?",
+          "a": [
+            "Entrambe le cose, e non costano nulla. Ogni console che abbini resta nell'elenco e ognuna può essere collegata a un account diverso in Impostazioni → Console. Gli account si gestiscono in Impostazioni → Account."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "Sono passato a un telefono nuovo e le mie console sono sparite o non si connettono.",
+          "a": [
+            "Console, account e chiavi di abbinamento non sono inclusi nei backup sul cloud, quindi sul telefono nuovo devi rifare la configurazione: aggiungi il tuo account e abbina ogni console una volta. Se un trasferimento da telefono a telefono ha portato con sé l'elenco delle console, le chiavi restano comunque indietro, perché sono legate al vecchio telefono: apri Impostazioni → Console, scegli la console e tocca «Abbina di nuovo». Un account aggiunto con l'accesso potrebbe chiederti anche di accedere di nuovo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Configurazione e accesso",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "Perché serve un Account ID?",
+          "a": [
+            "La console si abbina solo con un dispositivo che dice a quale account appartiene, quindi l'Account ID fa parte dell'abbinamento stesso. È un ID di 12 caratteri legato al tuo account, non una password. La configurazione lo chiede per primo, e più avanti puoi aggiungere altri account in Impostazioni → Account. Un account aggiunto con l'accesso può anche elencare le console del tuo account, configurarle senza codice e usare «Remoto»."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "In quali modi posso aggiungere un account?",
+          "a": [
+            "«Ottieni il tuo Account ID» offre due gruppi. L'accesso, quello consigliato, comprende «Accedi dentro l'app», che usa la tua password sulla pagina ufficiale, e «Accedi con il browser», che funziona con passkey e gestori di password. «Solo configurazione locale» non richiede l'accesso: «Usa il tuo Online ID» copre le console di 4ª generazione con versione inferiore alla 8.0, e «Inserisci un Account ID» in «Avanzate» prende l'ID da un altro telefono su cui questa app ha già effettuato l'accesso. Senza accesso puoi comunque abbinare e giocare a casa, ma non configurare senza codice né usare «Remoto»."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "Il mio account usa una passkey. Come accedo?",
+          "a": [
+            "Scegli «Accedi con il browser». Le passkey non funzionano sulla pagina di accesso dentro l'app, ma nel browser funzionano normalmente, e l'indirizzo viene rilevato da solo quando torni nell'app."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "Che cosa devo fare dopo l'accesso con il browser?",
+          "a": [
+            "Al termine dell'accesso il browser si ferma su una pagina bianca: è normale. Copia tutto l'indirizzo dalla barra degli indirizzi e torna nell'app, dove viene rilevato da solo. Se non succede niente, incollalo nel campo qui sotto e controlla di aver copiato anche tutto quello che segue code=."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "La pagina di accesso dentro l'app resta vuota o non si carica.",
+          "a": [
+            "Alcune reti e alcuni telefoni bloccano quella pagina dentro le app. L'app si accorge quando resta vuota o non si carica, spiega il motivo e propone «Riprova» e «Usa il browser». L'accesso con il browser dà lo stesso risultato, quindi passa a quello se riprovare non basta. La verifica in due passaggi si fa direttamente sulla pagina di accesso."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "Dice che il codice di accesso è scaduto.",
+          "a": [
+            "Il codice contenuto nell'indirizzo dura poco. Tocca «Riapri la pagina di accesso», accedi e torna subito nell'app. Con il browser, tocca di nuovo «Apri la pagina di accesso» e copia il nuovo indirizzo."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "Posso configurare tutto senza accedere?",
+          "a": [
+            "Sì, con «Solo configurazione locale». «Usa il tuo Online ID» funziona con le console di 4ª generazione con versione inferiore alla 8.0; per le console più recenti scegli «Inserisci un Account ID» in «Avanzate» e copia l'ID da Impostazioni → Account su un altro telefono dove questa app ha effettuato l'accesso. In entrambi i casi puoi abbinare e giocare sulla rete di casa, ma la configurazione senza codice, le console del tuo account e «Remoto» richiedono un account con l'accesso effettuato. Un Online ID viene cercato tramite un servizio pubblico."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "Il mio account indica «Accesso scaduto».",
+          "a": [
+            "In Impostazioni → Account tocca «Accedi di nuovo» accanto all'account: si apre nello stesso modo in cui avevi effettuato l'accesso. L'accesso serve solo per «Remoto», la configurazione senza codice e l'elenco delle console del tuo account, quindi le console già abbinate continuano comunque a funzionare a casa."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "Meglio «Abbinamento con un codice» o «Configurazione senza codice»?",
+          "a": [
+            "«Abbinamento con un codice» richiede pochi secondi, ma devi essere davanti alla console e il telefono deve essere sulla stessa rete. «Configurazione senza codice» funziona da qualsiasi luogo, anche con la console in modalità riposo, e richiede circa 30 secondi. Servono una console di 5ª generazione collegata allo stesso account, un account aggiunto con l'accesso, Remote Play attivato e il software di sistema più recente. In entrambi i casi, dopo la console funziona allo stesso modo."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "L'abbinamento non è riuscito, oppure il codice di abbinamento è scaduto.",
+          "a": [
+            "Un codice di abbinamento vale 300 secondi e si può usare una volta sola. Prendine uno nuovo sulla console in Impostazioni → Sistema → Remote Play → Collega dispositivo, oppure in Impostazioni → Impostazioni connessione Remote Play → Aggiungi dispositivo su una console di 4ª generazione, e inseriscilo subito. «Codice della console (facoltativo)» è un altro numero, il codice di quattro cifre impostato sulla console, e resta vuoto a meno che la console non lo chieda. Su una console di 5ª generazione puoi anche toccare «Scegli un altro metodo» e provare «Configurazione senza codice»."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "«Configurazione senza codice» non è riuscita.",
+          "a": [
+            "Il messaggio indica la causa: la console non è nel tuo account o non è la sua console principale, Remote Play è disattivato, la console non ha risposto, due console hanno lo stesso nome, la rete non ha consentito una connessione diretta oppure l'accesso è scaduto. Risolvi e riprova senza codice, oppure tocca «Scegli un altro metodo» e abbina con un codice davanti alla console, cosa che richiede il telefono sulla stessa rete."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "Che cosa succede se rimuovo un account?",
+          "a": [
+            "Lo dimentica solo questo telefono, insieme al suo accesso. Le console collegate continuano a funzionare a casa, ma restano senza account finché non ne scegli uno in Impostazioni → Console → la console → Account della console. Sulla console e sull'account stesso non cambia niente."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "Vedete la mia password?",
+          "a": [
+            "No. La password la digiti sulla pagina di accesso ufficiale e questa app non ha un server proprio, quindi niente di ciò che digiti lì passa da noi. L'app conserva su questo telefono l'Account ID, l'Online ID e i token di accesso, e token e chiavi di abbinamento sono cifrati con il keystore Android. La ricerca di un Online ID passa da un servizio pubblico."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Streaming e immagine",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "Dove sono i comandi durante lo streaming?",
+          "a": [
+            "La barra in alto sparisce dopo qualche secondo. Tocca un punto vuoto dell'immagine per farla tornare: l'icona dei cursori apre il pannello rapido e «Tieni premuto per uscire» chiude lo streaming. Anche una pressione prolungata su un punto vuoto apre il pannello rapido."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "Quali sono i limiti della versione gratuita?",
+          "a": [
+            "Streaming sulla rete di casa fino a 720p e 30 fps in H.264, senza limiti di tempo e senza pubblicità. Il limite viene applicato ogni volta che inizia una sessione. La modalità pad è gratuita per intero e senza limiti. Lo streaming su Android TV richiede Pro."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "Come attivo 1080p e 60 fps?",
+          "a": [
+            "Sceglili in Impostazioni → Qualità video. Puoi sceglierli anche in «Qualità video» nel pannello rapido durante lo streaming e toccare «Riconnetti per applicare». Il telefono deve riuscire a starci dietro, quindi se l'immagine scatta a 1080p vale la pena eseguire la Diagnostica connessione."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "Posso cambiare risoluzione o frequenza fotogrammi durante lo streaming?",
+          "a": [
+            "Sì. Apri il pannello rapido, scegli in «Qualità video» e tocca «Riconnetti per applicare»; l'immagine si ferma per qualche secondo. Una connessione «Remoto» non può cambiare a streaming in corso, quindi la scelta vale dalla connessione successiva. Codec, bitrate e decoder sono in Impostazioni → Qualità video."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "Che differenza c'è tra «Adatta allo schermo», «Estendi per riempire» e «Ingrandisci per riempire»?",
+          "a": [
+            "«Adatta allo schermo» mantiene le proporzioni e lascia le bande nere. «Estendi per riempire» riempie lo schermo deformando leggermente l'immagine. «Ingrandisci per riempire» riempie lo schermo tagliando i bordi, ed è la scelta abituale su un telefono allungato. Si cambia in Impostazioni → Ridimensionamento, oppure in «Ridimensionamento» nel pannello rapido."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "Su un tablet o un pieghevole il pad su schermo copre l'immagine.",
+          "a": [
+            "Apri il pannello rapido e imposta «Layout» su «Diviso»: l'immagine e il pad su schermo vengono separati, così nessuno dei due copre l'altro. «Auto» lo fa già quando lo schermo è in verticale o un pieghevole è semiaperto. Queste opzioni compaiono solo su tablet e pieghevoli, e sono gratuite."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "L'immagine sembra più scura del dovuto.",
+          "a": [
+            "È «Oscuramento schermo» nel pannello rapido. Scurisce l'immagine per far risaltare i pulsanti su schermo; portalo al minimo per disattivarlo. È un'opzione diversa da «Opacità dell'overlay», che rende più tenui i pulsanti stessi."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "L'immagine scatta o perde fotogrammi.",
+          "a": [
+            "Quasi sempre è il collegamento wireless, non il telefono. Collegati alla rete a 5 GHz dello stesso router, avvicinati e, se puoi, collega la console via cavo. Esegui la Diagnostica connessione e guarda il tempo di andata e ritorno e la stima della velocità del collegamento: sopra i 30 ms o sotto i 15 Mbps l'immagine non regge. Durante lo streaming, abbassare la risoluzione o la frequenza fotogrammi dal pannello rapido aiuta subito."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "L'immagine si rompe o si blocca, ma l'audio continua.",
+          "a": [
+            "Apri il pannello rapido e tocca «Ripristina l'immagine» in «Azioni»: chiede alla console un'immagine nuova. Se continua a succedere, abbassa la risoluzione ed esegui la Diagnostica connessione."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "Che cosa indicano i numeri dell'overlay prestazioni?",
+          "a": [
+            "La latenza somma il tempo di andata e ritorno e il tempo che questo telefono impiega a decodificare e disegnare un fotogramma, quindi è una stima che non include la console né il tuo schermo. È verde sotto i 60 ms e rossa sopra i 100 ms. Se il bitrate è molto più basso di quello impostato, a frenarlo è la rete; se il bitrate va bene ma la decodifica è lenta, è il telefono. Scegli «Compatto» o «Dettagliato» nel pannello rapido."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "Non riesco a selezionare HEVC o HDR, oppure lo streaming usa H.264.",
+          "a": [
+            "HEVC richiede un decoder adatto su questo telefono e HDR uno schermo che lo supporti; la pagina della qualità spiega perché un'opzione non è disponibile. Se all'avvio dello streaming il telefono non riesce a decodificare il formato, lo streaming passa da solo a H.264 o SDR e te lo segnala."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "Lo streaming può continuare quando passo a un'altra app?",
+          "a": [
+            "Sì. Se esci dall'app durante lo streaming, l'immagine si riduce in una piccola finestra che continua la riproduzione. Toccala per tornare a schermo intero senza riconnetterti, oppure chiudila per terminare lo streaming. Non si attiva mentre l'immagine è su una TV, e puoi disattivarlo in Impostazioni → Picture-in-picture."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "Quanti dati consuma lo streaming?",
+          "a": [
+            "Dipende dalla risoluzione: fino a circa 1 GB all'ora a 360p, 2,7 GB a 540p, 4,5 GB a 720p e 6,8 GB a 1080p, e di più con un bitrate manuale. Il consumo reale è spesso inferiore. Sui dati mobili l'app usa 720p a 30 fps per impostazione predefinita, sia per lo streaming attraverso una VPN di casa sia con «Remoto». Per mantenere la tua qualità, disattiva Impostazioni → Dati mobili."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "Posso portare l'immagine su una TV?",
+          "a": [
+            "Sì. Durante lo streaming collega il telefono alla TV con un cavo da USB-C a HDMI, oppure avvia la trasmissione dello schermo dalle impostazioni di sistema. La TV mostra allora solo il gioco e il telefono diventa il controller. Sulla TV non si installa niente e non devi mai accedere, quindi la TV di un hotel o di un amico va benissimo."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "L'immagine sulla TV sembra in ritardo",
+          "a": [
+            "Per prima cosa passa la TV alla modalità gioco. Nelle modalità immagine normali la maggior parte delle TV aggiunge dai 60 ai 120 ms di ritardo; la modalità gioco scende a 10-30 ms e nessun'altra regolazione ci si avvicina. Poi viene il cavo, che batte la trasmissione wireless: senza fili l'immagine va codificata una seconda volta, e questo aggiunge altri 100 ms o più. Per ultimo c'è lo streaming in sé, più veloce su una rete buona e molto più veloce in casa che via internet."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "Ho collegato il cavo e non succede niente",
+          "a": [
+            "Non tutti i telefoni riescono a far uscire il video dalla porta USB-C. I top di gamma di solito sì, quelli di fascia media spesso no, e non c'è modo di saperlo prima di provare. Esegui la Diagnostica connessione con il cavo collegato: la voce Schermo esterno dice se il sistema vede la TV. Se non la vede, la causa è il telefono o l'adattatore, e la via d'uscita è la trasmissione wireless dalle impostazioni di sistema."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "Posso ricaricare mentre il cavo HDMI è collegato?",
+          "a": [
+            "Solo con un adattatore che abbia un suo ingresso di alimentazione. La porta USB-C è occupata dal segnale video, e tra streaming e decodifica la batteria si consuma in fretta: per le sessioni lunghe conviene un hub USB-C con HDMI e ricarica passante."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "La TV della camera d'albergo non funziona",
+          "a": [
+            "Alcune TV degli hotel hanno le porte HDMI disattivate o nascoste dietro il pannello, e l'app non può farci niente. Se la TV ha una porta raggiungibile, il cavo si comporta come su qualsiasi altra TV. Altrimenti lo streaming continua a funzionare sul telefono come sempre."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "La protezione anticopia farà diventare nera l'immagine?",
+          "a": [
+            "No. Quello che l'app decodifica è un normale flusso video, non contenuto protetto, quindi la TV lo mostra regolarmente via HDMI. Non comparirà la schermata nera che alcune app video danno su uno schermo esterno."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Controller",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "Posso spostare i pulsanti su schermo?",
+          "a": [
+            "Sì, ed è gratis. Apri Impostazioni → Layout del pad per vedere tutti i layout e rinominare o eliminare i tuoi, poi toccane uno per trascinare, ridimensionare, sfumare o nascondere qualsiasi comando. «Preset» offre Standard, Compact, Remote, Fighting e Racing da cui partire, ed «Esporta JSON» e «Importa JSON» spostano un layout su un altro telefono tramite gli appunti. Sul telefono modifichi i layout orizzontali; sui tablet c'è anche la scheda «Verticale» per i layout usati a schermo diviso."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "Posso usare un mio layout durante lo streaming?",
+          "a": [
+            "Sì. Nel pannello rapido, in «Layout», tocca «Personalizzato» e scegli uno dei tuoi layout orizzontali. «Compatto» e «Standard» sono le opzioni integrate, pensate per coprire il meno possibile l'immagine. Se il layout scelto viene eliminato, lo streaming torna a «Compatto». Se modifichi un layout integrato, la tua versione viene salvata come copia, così l'originale resta disponibile."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "Durante lo streaming il pad su schermo non c'è o si vede poco.",
+          "a": [
+            "Controlla «Gamepad» nel pannello rapido: «Auto» nasconde il pad mentre è collegato un controller fisico, «Nascosto» lo nasconde sempre e «Sempre» lo tiene sullo schermo. Anche «Modalità minima» lo nasconde. Lo streaming parte con il layout «Compatto», che ha tasti più piccoli e tenui, quindi se si vedono poco imposta «Layout» su «Standard» o alza «Opacità dell'overlay»."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "Come passo dalla levetta alla croce direzionale nel layout «Compatto»?",
+          "a": [
+            "Tocca la piccola linguetta sul bordo inferiore del comando rotondo. Passa dalla levetta alla croce direzionale e viceversa, e il lato sinistro e quello destro si cambiano separatamente."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "Come funziona il touchpad su schermo?",
+          "a": [
+            "Fai scorrere uno o due dita sopra per inviare i tocchi, e toccalo rapidamente per un clic del touchpad. Tenere premuto il clic non è supportato."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "Posso usare un controller vero?",
+          "a": [
+            "Sì. Qualsiasi controller che Android riconosce via Bluetooth o USB viene inoltrato, con una mappatura predefinita scelta in base al produttore. In modalità pad il pad su schermo resta utilizzabile insieme al controller. Durante lo streaming l'app chiede una volta se mostrare anche il pad su schermo, e in seguito puoi cambiarlo con «Gamepad» nel pannello rapido. Più controller e il pad su schermo contano tutti come un unico controller sulla console."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "I pulsanti del mio controller sono nei posti sbagliati.",
+          "a": [
+            "Con il controller collegato apri Impostazioni → Mappatura tasti e sceglilo. Tocca un'azione e premi il tasto che vuoi; le levette si possono invertire e «Prova dal vivo» mostra che cosa invia ogni tasto. Tocca «Salva» per conservare le modifiche. La mappatura viene salvata per modello di controller, quindi due controller dello stesso modello la condividono, e «Ripristina» rimette quella predefinita."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "Il mio controller non ha il tasto PS o il touchpad, oppure non fanno niente.",
+          "a": [
+            "La maggior parte dei controller ha delle combinazioni: Select e Start insieme fanno da tasto PS, Select e L3 da clic del touchpad. Un controller che ha già il tasto PS riceve solo la combinazione del touchpad. Le combinazioni non si possono cambiare, ma in Impostazioni → Mappatura tasti puoi assegnare PS, Touchpad o MIC a un singolo tasto qualsiasi. Anche il layout su schermo «Standard» ha tutti i tasti."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "Un controller fatto per la console funziona al completo sul telefono?",
+          "a": [
+            "Via Bluetooth vengono inoltrati tasti e levette, ma non gli scorrimenti sul touchpad, il sensore di movimento e il microfono. Se è collegato via USB durante lo streaming, tocca «Consenti» nel pannello rapido per avere grilletti adattivi, barra luminosa e vibrazione del controller, gratis per tutti. Se compare «Accesso USB bloccato», un altro driver sul telefono sta usando il controller, quindi collegalo via Bluetooth."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "Come funzionano la vibrazione e la vibrazione dei tasti?",
+          "a": [
+            "La vibrazione del gioco va al controller fisico se ha i motori, altrimenti al telefono. La breve vibrazione quando premi i tasti su schermo è «Vibrazione dei tasti», in «Input» nel menu della modalità pad: ogni tocco passa al livello successivo, da spento fino a 3, e il livello scelto viene ricordato."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "Dove sono il microfono e il rilevamento del movimento?",
+          "a": [
+            "In modalità pad sono entrambi in «Input» nel menu. Il rilevamento del movimento invia giroscopio e accelerometro del telefono e parte disattivato a ogni connessione. Il microfono chiede prima il permesso; dopo, toccandolo passi da «Attivo» a «Disattivato» e viceversa. Durante lo streaming il rilevamento del movimento non c'è, e il microfono è il tasto MIC del pad su schermo. Sono gratuiti tutti e due."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "Come metto la console a riposo o torno alla sua schermata Home?",
+          "a": [
+            "In modalità pad, «Azioni» nel menu contiene «Riattiva la console», «Metti la console a riposo», «Home della console» e «Blocca lo schermo», che ignora i tocchi finché non lo sblocchi. Funziona anche il tasto PS del pad su schermo."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "Posso usarlo per controllare le app video sulla console?",
+          "a": [
+            "Sì. In modalità pad attiva «Layout telecomando» in «Layout» nel menu per avere tasti grandi pensati per le app multimediali. Disattivalo di nuovo per scegliere un altro layout."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "Copilota IA",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "Copilota IA costa qualcosa?",
+          "a": [
+            "Non da parte nostra. Funziona con la tua chiave API: non la gestiamo mai e non aggiungiamo nulla, e il provider ti addebita direttamente ciò che usi. La sezione «Guide ai giochi» in Impostazioni → Copilota IA mostra un costo indicativo per guida con il provider scelto, e «Utilizzo» tiene una stima per questo mese, compreso il numero di ricerche web fatte."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "Dove finisce il mio schermo?",
+          "a": [
+            "Solo quando chiedi: l'argomento della guida, il nome del gioco e, se lo alleghi, un fotogramma ridotto dello streaming vanno direttamente al provider che hai configurato, che esegue le ricerche web. In mezzo non c'è nessun nostro server e non conserviamo registri; le guide sono salvate solo su questo telefono. La chiave è salvata crittografata su questo telefono, e senza chiave non viene inviato niente da nessuna parte."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "Da dove vengono le guide ai giochi?",
+          "a": [
+            "Quando cerchi una guida, è il modello che hai configurato a cercare sul web: Anthropic, Google, OpenAI e DeepSeek eseguono le ricerche sui propri server. Il modello legge i risultati e scrive una guida passo passo nella tua lingua, con le fonti elencate sotto. Le guide sono salvate solo su questo telefono, quindi riaprirne una non costa nulla."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "Perché la mia guida dice «Nessuna ricerca web»?",
+          "a": [
+            "Solo Anthropic, Google, DeepSeek e l'endpoint ufficiale di OpenAI possono cercare sul web. Un endpoint compatibile con OpenAI self-hosted o di terze parti, come OpenRouter o Ollama, risponde con le conoscenze del modello, che per i giochi più recenti potrebbero non essere aggiornate. Per avere guide con ricerca web, scegli la scheda Anthropic, Google o DeepSeek, oppure inserisci l'endpoint ufficiale di OpenAI nella scheda «Compatibile con OpenAI»."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "Quanto costa una guida?",
+          "a": [
+            "Anthropic e OpenAI addebitano circa un centesimo di dollaro per ricerca web oltre ai token, quindi una guida costa più o meno dagli 8 ai 15 centesimi. Google include migliaia di ricerche gratuite al mese. DeepSeek addebita solo i token, ben meno di un centesimo. «Profondità di ricerca» in Impostazioni limita il numero di ricerche, e «Utilizzo» mostra la stima di questo mese."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "Come ottengo una chiave API?",
+          "a": [
+            "Anthropic: creala in «API keys» nella Anthropic Console. Google: tocca «Get API key» in Google AI Studio. DeepSeek: creala in «API keys» nella piattaforma DeepSeek. Compatibile con OpenAI: usa la chiave della dashboard del tuo provider, come OpenAI o OpenRouter; per Ollama sul tuo computer, inserisci il suo indirizzo come «URL di base», scrivi qualsiasi cosa come chiave e scegli un modello che sappia leggere le immagini. Le schede Anthropic, Google e DeepSeek in Impostazioni → Copilota IA hanno il link «Ottieni una chiave»."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "Perché la guida è sbagliata?",
+          "a": [
+            "Le fonti possono essere datate o riferirsi a un'altra versione o piattaforma; quando le fonti indicano la versione, la guida la riporta. Fai una domanda di approfondimento con il capitolo, il nome del boss o la tua build, e la guida viene riscritta per te. Se il nome del gioco manca o è sbagliato, correggilo nel pannello prima di cercare, oppure prova un altro modello in Impostazioni."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "Come cambio i comandi vocali?",
+          "a": [
+            "Ci sono 8 comandi integrati, come «Apri la mappa», «Pausa» e «Screenshot». Apri Impostazioni → Copilota IA → Comandi vocali e toccane uno per cambiare il tasto che preme o aggiungere frasi tue; tutto ciò che non è un comando va al pannello guide, come argomento o come domanda di approfondimento. Sui telefoni senza un servizio di riconoscimento vocale, o senza il permesso del microfono, scrivi nel pannello."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "Copilota IA non riesce a raggiungere il provider?",
+          "a": [
+            "Le richieste IA non passano dal «Proxy di connessione PSN» dell'app; escono dalla connessione del telefono stesso. Se dove ti trovi Anthropic, Google o DeepSeek non sono raggiungibili, passa a un altro provider o a «Compatibile con OpenAI» e inserisci un endpoint che riesci a raggiungere, oppure Ollama sul tuo computer. «Prova la connessione», nella stessa pagina, ti dice se funziona."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "Come disattivo Copilota IA?",
+          "a": [
+            "Disattiva «Usa Copilota IA» in Impostazioni → Copilota IA. A quel punto una pressione prolungata sullo streaming apre di nuovo il pannello rapido e i tasti IA spariscono dalla barra in alto. Per eliminare anche la chiave, tocca «Cancella» accanto; la copia crittografata viene eliminata subito."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "Posso usarlo se non vedo bene lo schermo?",
+          "a": [
+            "Sì. «Descrivi lo schermo» nel pannello rapido, oppure dire «leggimelo» al tasto voce, dice prima la cosa più importante e poi legge il testo sullo schermo. Le guide nel pannello funzionano con TalkBack e ogni passaggio si può spuntare. Con TalkBack attivo, le descrizioni dello schermo nella barra dei sottotitoli vengono lette da TalkBack; senza, attiva «Leggi le risposte ad alta voce» in Impostazioni."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Acquisto e rimborsi",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "È un abbonamento?",
+          "a": [
+            "No. Acquisti l'app una volta su Google Play e basta: nessun abbonamento, nessun acquisto in-app, nessuna pubblicità e nessuna funzione che chieda un secondo pagamento più tardi. L'acquisto è legato al tuo account Google, non al telefono."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "L'ho installata durante una promozione gratuita. Alcune funzioni verranno bloccate più avanti?",
+          "a": [
+            "No. Installarla durante una promozione equivale ad acquistare l'app a quel prezzo, quindi è tua per sempre e con tutte le funzioni. Resta così anche dopo la fine della promozione, e lo stesso account Google può installarla di nuovo su un telefono nuovo senza pagare niente."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "Come la installo su un telefono nuovo?",
+          "a": [
+            "Apri la pagina dello store con lo stesso account Google usato per l'acquisto e comparirà «Installa» invece del prezzo. Le console non vengono trasferite, quindi abbina di nuovo ogni console sul telefono nuovo; le chiavi di abbinamento restano sul telefono su cui sono state create."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "Che cosa è incluso?",
+          "a": [
+            "Tutto, dal primo avvio: streaming a 1080p e 60 fps, bitrate manuale, HEVC e HDR, nitidezza FSR e overlay prestazioni, giocare fuori dalla rete di casa, streaming su Android TV, picture-in-picture e il gioco sulla TV con il telefono come controller. Ci sono anche la modalità pad, la Diagnostica connessione, il widget «Scorciatoia console» e tutte le console e gli account che vuoi."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "Come chiedo un rimborso?",
+          "a": [
+            "Entro 48 ore dall'acquisto chiedi tu il rimborso dalla cronologia ordini di Google Play: è la via più veloce. Dopo, scrivici entro 7 giorni dall'acquisto e ti rimborsiamo senza chiederti il motivo. Indica il numero d'ordine della ricevuta di Google Play, così troviamo l'acquisto."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "Ho pagato il prezzo pieno poco prima dell'inizio di un'offerta.",
+          "a": [
+            "Scrivici. Entro 48 ore dall'acquisto la via più veloce è chiedere tu il rimborso dalla cronologia ordini di Google Play e riacquistare al prezzo in offerta. Dopo, scrivici indicando il numero d'ordine della ricevuta di Google Play e ti rimborsiamo la differenza."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Altro",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "Posso riattivare la console dalla schermata principale?",
+          "a": [
+            "Sì. Aggiungi il widget «Scorciatoia console» dall'elenco dei widget della schermata Home e scegli una console. «Riattiva» invia la riattivazione senza aprire l'app. «Connetti» apre la modalità pad se l'ultima volta il widget ha trovato la console sulla tua rete, altrimenti apre l'app. Funzionano entrambi solo sulla stessa rete, e il widget è gratuito."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "Esiste una versione per Android TV?",
+          "a": [
+            "Sì, la stessa app si installa su Android TV e Google TV. Apri lo store sulla TV con lo stesso account Google usato per l'acquisto e si installa senza costi aggiuntivi. Per giocare la TV ha bisogno di un controller Bluetooth o USB; il telecomando serve solo a muoversi nei menu. Durante lo streaming, premi OK o Menu sul telecomando, oppure tieni premuti insieme L1, R1, L3 e R3 sul controller, per aprire il pannello rapido."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "Come abbino una console sulla TV?",
+          "a": [
+            "Scegli «Aggiungi console» nella schermata principale della TV e seleziona il modello della tua console. Al passaggio dell'account, apri questa app sul telefono, vai in Impostazioni → Account, copia l'Account ID mostrato lì e inseriscilo sulla TV: è di 12 caratteri e di solito finisce con =. Poi scegli la console e inserisci il codice di abbinamento mostrato sulla console con il tastierino sullo schermo della TV. Sulla TV l'abbinamento si fa solo con un codice."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "Dice che il sistema della console è stato aggiornato e che devo aspettare.",
+          "a": [
+            "Un aggiornamento di sistema della console ha cambiato la versione del protocollo Remote Play che usa, e dal lato telefono non c'è modo di aggirarlo. La soluzione è un aggiornamento dell'app, che per noi è urgente. Se sono passati più di pochi giorni, scrivici indicando la versione del software di sistema della console."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Posso cambiare la lingua dell'app?",
+          "a": [
+            "L'app segue la lingua del telefono e supporta 19 lingue. Da Android 13 in poi puoi scegliere una lingua solo per questa app nelle impostazioni di sistema, in App → Relaypad → Lingua. Nelle versioni precedenti, cambia la lingua del telefono."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "Quali dati raccoglie questa app?",
+          "a": [
+            "Eventi di utilizzo anonimi, così vediamo quali schermate si rompono, e impostazioni remote, che attivano o disattivano le funzioni. Gli eventi non contengono mai il tuo Account ID, il tuo indirizzo IP o il nome della tua console, e tra te e la console non c'è nessun nostro server. «Statistiche di utilizzo» si può disattivare in Impostazioni → Privacy; le impostazioni remote vengono comunque scaricate."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Come segnalo un problema o propongo un'idea?",
+          "a": [
+            "Usa «Invia un feedback» in Impostazioni → Informazioni, il pulsante in fondo a questa pagina oppure «Scrivici» nella Diagnostica connessione. La mail arriva precompilata con il modello del telefono, la versione di sistema e quella dell'app, la lingua e l'ultimo riepilogo della Diagnostica connessione, cioè quello che ci serve per collegare la tua segnalazione a quello che vediamo. Scrivi solo che cosa hai fatto e che cosa è successo."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

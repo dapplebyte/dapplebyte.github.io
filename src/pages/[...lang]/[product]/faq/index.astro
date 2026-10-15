@@ -1,0 +1,111 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import ProductNav from '../../../../components/ProductNav.astro';
+import { getLocale, localePath } from '../../../../i18n/locales';
+import { useT, formatDate } from '../../../../i18n/t';
+import { getProduct, getFaq, localesFor, liveProducts } from '../../../../lib/content';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../../lib/jsonld';
+import { DEFAULT_LOCALE } from '../../../../i18n/locales';
+
+export async function getStaticPaths() {
+  const out = [];
+  for (const p of await liveProducts()) {
+    const alternates = await localesFor('faq', p.slug);
+    for (const locale of alternates) {
+      out.push({ params: { lang: locale === DEFAULT_LOCALE ? undefined : locale, product: p.slug }, props: { locale, slug: p.slug, alternates } });
+    }
+  }
+  return out;
+}
+
+const { locale, slug, alternates } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const faq = (await getFaq(slug, locale))!;
+const path = `/${slug}/faq/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const total = faq.sections.reduce((n, s) => n + s.entries.length, 0);
+const title = t('faq.title', { name: product.name });
+const description = t('faq.description', { name: product.name });
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang, faq.extractedAt),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('labels.faq'), url },
+  ]),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="faq" />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">{product.name} · {t('faq.questionsCount', { count: total })}</div>
+    <h1 class="h-page">{title}</h1>
+    <p class="lede" style="margin-top:16px">{faq.intro ?? t('faq.intro')}</p>
+  </section>
+  <section class="wrap section">
+    <div class="faq-sections">
+      {faq.sections.map((s, i) => (
+        <div class="faq-section">
+          <div class="mono mono-accent">{String(i + 1).padStart(2, '0')} · {t('faq.questionsCount', { count: s.entries.length })}</div>
+          <h2 class="h-sub"><a href={localePath(locale, `/${slug}/faq/${s.id}/`)}>{s.title}</a></h2>
+          <ul>
+            {s.entries.map((e) => (
+              <li><a href={localePath(locale, `/${slug}/faq/${s.id}/`) + '#' + e.id}>{e.q}</a></li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </section>
+  <section class="wrap section">
+    <h2 class="h-sub" style="margin-bottom:8px">{t('faq.notFoundHeading')}</h2>
+    <p class="lede" style="margin-bottom:18px">{t('faq.notFoundBody')}</p>
+    <a class="button" href={localePath(locale, `/${slug}/support/`)}>{t('faq.notFoundCta')}</a>
+    <p class="fine" style="margin-top:24px">{t('labels.lastUpdated', { date: formatDate(locale, faq.extractedAt, loc.lang) })}</p>
+  </section>
+</Base>
+
+<style>
+  .faq-sections {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 36px 48px;
+  }
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .faq-section h2 a {
+    color: var(--fg);
+    text-decoration: none;
+  }
+  .faq-section h2 a:hover {
+    color: var(--accent);
+  }
+  .faq-section ul {
+    margin: 0;
+    padding-inline-start: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 15px;
+  }
+  .faq-section ul a {
+    color: var(--fg-2);
+    text-decoration: none;
+  }
+  .faq-section ul a:hover {
+    color: var(--accent);
+  }
+  @media (max-width: 860px) {
+    .faq-sections {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+</style>

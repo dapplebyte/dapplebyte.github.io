@@ -1,0 +1,104 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getLocale, localePath } from '../../i18n/locales';
+import { useT } from '../../i18n/t';
+import { liveProducts } from '../../lib/content';
+import { langPaths } from '../../lib/routes';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../lib/jsonld';
+
+export const getStaticPaths = () => langPaths();
+
+const { locale } = Astro.props;
+const { t, list } = useT(locale);
+const loc = getLocale(locale);
+const products = await liveProducts();
+const principles = list<{ title: string; body: string }>('home.principles');
+const email = t('site.email');
+const url = new URL(localePath(locale, '/about/'), SITE).href;
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, t('about.title'), t('about.description'), loc.lang),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: t('nav.about'), url },
+  ]),
+);
+---
+
+<Base locale={locale} path="/about/" title={`${t('about.title')} · ${t('site.name')}`} description={t('about.description')} jsonLd={jsonLd}>
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">{t('nav.about')}</div>
+    <h1 class="h-page">{t('about.title')}</h1>
+    <p class="lede" style="margin-top:16px">{t('site.definition')}</p>
+  </section>
+
+  <section class="wrap section about-grid">
+    <div class="about-block">
+      <h2 class="h-sub">{t('about.whatHeading')}</h2>
+      <p>{t('about.whatBody')}</p>
+    </div>
+    <div class="about-block">
+      <h2 class="h-sub">{t('about.howHeading')}</h2>
+      <ul class="about-principles">
+        {principles.map((p) => (
+          <li><strong>{p.title}</strong> {p.body.replace('{email}', email)}</li>
+        ))}
+      </ul>
+    </div>
+    <div class="about-block">
+      <h2 class="h-sub">{t('about.openSourceHeading')}</h2>
+      <p>{t('about.openSourceBody')}</p>
+      <ul class="about-links">
+        {products.map((p) => p.sourceUrl && <li><a href={p.sourceUrl}>{p.name}: {p.sourceUrl.replace('https://', '')}</a></li>)}
+      </ul>
+    </div>
+    <div class="about-block">
+      <h2 class="h-sub">{t('about.contactHeading')}</h2>
+      <p>{t('about.contactBody', { email: '' }).split(': ')[0]}: <a href={`mailto:${email}`}>{email}</a>. {t('about.contactBody', { email }).split('. ').slice(1).join('. ')}</p>
+    </div>
+    <div class="about-block">
+      <h2 class="h-sub">{t('about.trademarksHeading')}</h2>
+      <p>{t('about.trademarksBody')}</p>
+      {products.map((p) => p.trademark && <p class="fine" style="margin-top:10px">{t(`trademarks.${p.trademark}`, { name: p.name })}</p>)}
+    </div>
+    <div class="about-block">
+      <h2 class="h-sub">{t('about.siteHeading')}</h2>
+      <p>{t('about.siteBody')}</p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px 56px;
+  }
+  .about-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: var(--fg-2);
+    max-width: 60ch;
+  }
+  .about-block h2 {
+    color: var(--fg);
+  }
+  .about-principles,
+  .about-links {
+    margin: 0;
+    padding-inline-start: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .about-principles strong {
+    color: var(--fg);
+  }
+  @media (max-width: 860px) {
+    .about-grid {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+</style>

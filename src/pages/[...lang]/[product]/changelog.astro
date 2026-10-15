@@ -1,0 +1,98 @@
+---
+import { getEntry } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import ProductNav from '../../../components/ProductNav.astro';
+import { getLocale, localePath, DEFAULT_LOCALE } from '../../../i18n/locales';
+import { useT, formatDate } from '../../../i18n/t';
+import { getProduct, localesFor, liveProducts } from '../../../lib/content';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../lib/jsonld';
+
+export async function getStaticPaths() {
+  const out = [];
+  for (const p of await liveProducts()) {
+    const alternates = await localesFor('changelog', p.slug);
+    for (const locale of alternates) {
+      out.push({ params: { lang: locale === DEFAULT_LOCALE ? undefined : locale, product: p.slug }, props: { locale, slug: p.slug, alternates } });
+    }
+  }
+  return out;
+}
+
+const { locale, slug, alternates } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const log = (await getEntry('changelog', `${slug}/${locale}`))!.data;
+const path = `/${slug}/changelog/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = t('changelog.title', { name: product.name });
+const description = t('changelog.description', { name: product.name });
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang, log.entries[0]?.date),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('labels.changelog'), url },
+  ]),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="changelog" />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">{product.name}</div>
+    <h1 class="h-page">{title}</h1>
+    <p class="lede" style="margin-top:16px">{description} <a href={`/${slug}/changelog.xml`} class="mono" style="text-decoration:none">{t('changelog.feed')}</a></p>
+  </section>
+  <section class="wrap section">
+    <div class="releases">
+      {log.entries.map((e) => (
+        <article class="release" id={`v${e.name.replace(/\./g, '-')}`}>
+          <div class="release-meta">
+            <h2 class="h-sub">{t('changelog.version', { version: e.name })}</h2>
+            <div class="mono">{e.date ? formatDate(locale, e.date, loc.lang) : ''} · {t('changelog.build', { code: e.code })}</div>
+          </div>
+          <ul>{e.items.map((i) => <li>{i}</li>)}</ul>
+        </article>
+      ))}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .releases {
+    display: flex;
+    flex-direction: column;
+  }
+  .release {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 16px 40px;
+    padding-block: 28px;
+    border-top: 1px solid var(--line);
+  }
+  .release:last-child {
+    border-bottom: 1px solid var(--line);
+  }
+  .release-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .release ul {
+    margin: 0;
+    padding-inline-start: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--fg-2);
+    max-width: 64ch;
+  }
+  @media (max-width: 860px) {
+    .release {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

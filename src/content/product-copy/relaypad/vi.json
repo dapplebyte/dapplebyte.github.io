@@ -1,0 +1,127 @@
+{
+  "slug": "relaypad",
+  "locale": "vi",
+  "title": "Relaypad: Remote Play, Tay cầm",
+  "shortDescription": "Không quảng cáo, không thuê bao. Điều khiển PS5 & PS4, stream console, TV HDMI.",
+  "requires": "Cần máy PS5 hoặc PS4 đã bật Remote Play trong phần cài đặt của máy.",
+  "tagline": "Relaypad biến điện thoại Android thành tay cầm không dây cho máy chơi game, hoặc stream hình ảnh từ máy lên điện thoại, máy tính bảng hay TV, dù ở nhà hay ở ngoài.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Tay cầm Remote Play và stream máy chơi game cho PS5, PS4",
+      "paragraphs": [
+        "Relaypad biến điện thoại Android thành tay cầm không dây cho máy chơi game, hoặc stream hình ảnh từ máy lên điện thoại, máy tính bảng hay TV, dù ở nhà hay ở ngoài."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Mọi người dùng Relaypad để làm gì",
+      "paragraphs": [],
+      "bullets": [
+        "Chơi tiếp khi tay cầm vừa hết pin",
+        "Duyệt menu máy chơi game và ứng dụng xem video bằng phím remote cỡ lớn",
+        "Nằm trên giường hoặc chơi ở phòng khác, máy vẫn để cạnh TV",
+        "Đưa hình lên TV khách sạn qua HDMI, điện thoại làm tay cầm"
+      ]
+    },
+    {
+      "id": "virtual-gamepad",
+      "title": "Tay cầm ảo, chỉnh bố cục và gán phím",
+      "paragraphs": [],
+      "bullets": [
+        "Năm bố cục: Tiêu chuẩn, Gọn, Remote, Đối kháng và Đua xe",
+        "Kéo, đổi kích thước hoặc ẩn bất kỳ nút nào; dùng bố cục của riêng bạn cả khi stream",
+        "Touchpad, rung, micrô và cảm biến chuyển động con quay hồi chuyển",
+        "Chuyển tiếp tay cầm Bluetooth hoặc USB tới máy, tự động gán phím",
+        "Tay cầm USB khi stream: cò thích ứng, light bar và phản hồi xúc giác"
+      ]
+    },
+    {
+      "id": "console-streaming",
+      "title": "Stream máy chơi game tới 1080p60, hỗ trợ HEVC và HDR",
+      "paragraphs": [],
+      "bullets": [
+        "30 hoặc 60 fps, tối đa 1080p, bitrate chỉnh tay, HEVC và HDR trên điện thoại hỗ trợ",
+        "Làm nét FSR và lớp phủ hiệu năng hiện fps, tỷ lệ mất gói và tổng độ trễ",
+        "Xuất hình ra TV qua HDMI, cửa sổ nổi, bố cục chia đôi trên máy tính bảng và điện thoại gập",
+        "Chế độ tối giản; tỷ lệ Vừa màn hình, Kéo giãn cho đầy hoặc Phóng to cho đầy; tự kết nối lại trên Wi-Fi nhà",
+        "Chế độ tiết kiệm dữ liệu giảm xuống 720p/30fps khi dùng dữ liệu di động"
+      ]
+    },
+    {
+      "id": "remote-play-away",
+      "title": "Chơi Remote Play xa nhà bằng dữ liệu di động",
+      "paragraphs": [],
+      "bullets": [
+        "Đăng nhập một lần, sau đó kết nối qua 5G, 4G hoặc Wi-Fi khác, thường không cần cài đặt router",
+        "Tự mở cổng bằng UPnP, VPN tại nhà như Tailscale cũng dùng được",
+        "Báo cho bạn biết khi địa chỉ dùng chung của nhà mạng (CGNAT) chặn kết nối"
+      ]
+    },
+    {
+      "id": "connection-doctor",
+      "title": "Chẩn đoán kết nối: biết ngay vì sao không kết nối được",
+      "paragraphs": [],
+      "bullets": [
+        "13 mục kiểm tra: mạng, chế độ nghỉ của máy, công tắc Remote Play, độ trễ và độ dao động",
+        "Băng tần Wi-Fi, VPN, nhiễu Bluetooth, UPnP, loại NAT và IPv4 công cộng",
+        "Sao chép báo cáo hoặc gửi email cho chúng tôi chỉ với một chạm"
+      ]
+    },
+    {
+      "id": "guided-setup",
+      "title": "Thiết lập có hướng dẫn trong bốn bước",
+      "paragraphs": [],
+      "bullets": [
+        "Đăng nhập trong ứng dụng hoặc trên trình duyệt (dùng được passkey), hoặc nhập Account ID",
+        "PS5: đăng ký không cần PIN, kể cả khi máy đang ở chế độ nghỉ; hoặc ghép nối bằng mã 8 chữ số",
+        "Lưu nhiều máy chơi game và tài khoản, đổi tên hoặc ghép nối lại bất cứ lúc nào"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Không quảng cáo, không thuê bao",
+      "paragraphs": [
+        "Relaypad không hiển thị quảng cáo và không có thuê bao. Cài lại trên điện thoại mới bằng cùng tài khoản Google mà không tốn thêm tiền. Nếu ứng dụng không chạy được với thiết bị hoặc mạng của bạn, hãy gửi email cho chúng tôi trong vòng 7 ngày kể từ khi mua để được hoàn tiền."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Quyền riêng tư",
+      "paragraphs": [
+        "Không có tài khoản Relaypad, cũng không có máy chủ Relaypad nào nằm giữa bạn và máy chơi game. Khóa ghép nối và token đăng nhập chỉ lưu trên thiết bị của bạn, được mã hóa bằng Android Keystore. Có thể tắt thống kê ẩn danh."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-buy",
+      "title": "Cần biết trước khi mua",
+      "paragraphs": [],
+      "bullets": [
+        "Bạn cần có máy chơi game riêng; ứng dụng không kèm game và không phải chơi game đám mây",
+        "Android 8.0 trở lên; khuyên dùng RAM 4 GB và Wi-Fi 5 GHz",
+        "Điện thoại thay thế tay cầm, không chơi cùng lúc với tay cầm đang kết nối với máy",
+        "Sau khi máy chơi game cập nhật phần mềm hệ thống, có thể cần cập nhật Relaypad mới kết nối lại được"
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Gặp lỗi? Gửi email cho chúng tôi",
+      "paragraphs": [
+        "Trước khi viết đánh giá, hãy gửi thư tới feedback@dapplebyte.com, hoặc vào Cài đặt → Giới thiệu → Gửi phản hồi để tự động kèm mẫu điện thoại. Chúng tôi đọc mọi thư."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "trademark",
+      "title": "Thông báo về nhãn hiệu",
+      "paragraphs": [
+        "PlayStation®, PS4® và PS5® là nhãn hiệu của Sony Interactive Entertainment Inc. Relaypad là ứng dụng Remote Play độc lập, không liên kết với Sony, không được Sony cấp phép hay chứng thực. Ứng dụng chỉ hoạt động với phần cứng và nội dung bạn sở hữu, không phá vỡ biện pháp chống sao chép và không tiếp tay cho vi phạm bản quyền."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

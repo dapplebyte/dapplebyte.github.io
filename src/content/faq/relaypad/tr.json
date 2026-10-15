@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "tr",
+  "title": "SSS",
+  "intro": "En çok sorulan sorular ve bunlar için yapabilecekleriniz. Açmak için bir sorunun üzerine dokunun.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Oynama biçimleri",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "Konsol kartındaki “Akış”, “Uzaktan” ve “Kumanda” arasındaki fark nedir?",
+          "a": [
+            "“Akış”, konsolu ev ağınız üzerinden bu telefonda oynatır ve konsol dinlenme modundaysa önce onu uyandırır. “Uzaktan” aynı şeyi giriş yaptığınız hesap üzerinden her yerden yapar. “Kumanda” ise telefonu görüntüsüz bir kumandaya çevirir; oyunu TV'den izlediğiniz durumlar içindir. Kart, her konsol için son seçiminizi hatırlar."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "Kumanda modunda neden görüntü yok?",
+          "a": [
+            "Kumanda modu yalnızca girdilerinizi konsola gönderir; oyunu TV'den izlersiniz. Telefonla konsolun aynı ağda olması gerekir. Konsol dinlenme modundaysa onu uyandırır ve yaklaşık 30 saniye boyunca bağlanmayı denemeye devam eder. Oyunu telefonda görmek için menüyü açıp “Akışa geç” seçeneğine dokunun."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "Telefon, konsola bağlı kumandanın yanında ikinci bir kumanda olabilir mi?",
+          "a": [
+            "Hayır. Telefon, kurulumda kullanılan hesabın Remote Play kumandası olarak bağlanır; yani kumandanızın yanına eklenmez, onun yerini alır. Konsola doğrudan bağlı bir kumanda aynı anda oynayamaz: konsol onu misafir gibi farklı bir kullanıcıya geçirir ve ikisi kontrolü sürekli birbirinden alır. Telefonu ek bir oyuncu olarak değil, elinizin altında kumanda olmadığında kullanın."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "“Akışı başlat” düğmesine dokundum, kart “Uzaktan” seçeneğine geçti.",
+          "a": [
+            "Uygulama konsolu birkaç saniye boyunca bulunduğunuz ağda arar. Bulamazsa kart bağlanmadan “Uzaktan” seçeneğine geçer; hesabınız üzerinden bağlanıp bağlanmayacağına siz karar verirsiniz. Evdeyken bunun nedeni genellikle bir VPN, misafir ağı ya da tamamen kapatılmış bir konsoldur. Hangisi olduğunu bağlantı doktoru gösterir."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "Evde “Uzaktan” seçeneğini seçtim ama yerel akış yapıyor.",
+          "a": [
+            "Konsol aynı ağdaysa “Uzaktan” daha hızlı olduğu için bunun yerine yerel akış yapar. “Uzaktan” her zaman hesabınız üzerinden bağlansın istiyorsanız, örneğin evden çıkmadan önce denemek için, Ayarlar'daki “Evdeyken yerel akışa geç” seçeneğini kapatın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Bağlantı",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "Tarama hiçbir konsol bulamıyor.",
+          "a": [
+            "Bir konsol iki şekilde görünür: telefonla aynı Wi-Fi ağında bulunur ya da giriş yaptıktan sonra hesabınızdan listelenir. Ağ araması misafir ağından, ikinci bir modemden veya VPN'den geçemez; önce bunları kontrol edin ve konsolu açık ya da dinlenme modunda tutun. Yine görünmezse “Konsolunuzu seçin” adımında “IP adresi yaz” seçeneğine dokunup konsolun adresini girin. Elle yazılan bir adres kodla eşleştirilmelidir."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "“Bu ağda değil” yazıyor ama telefon aynı Wi-Fi ağında.",
+          "a": [
+            "Tek bir ağ gibi görünen yerde bunun birkaç nedeni olabilir. Misafir ağı, modem aynı olsa bile ana ağdan yalıtılmıştır. 2.4 GHz ve 5 GHz bantlarına farklı adlar veren bir modem iki cihazı ayrı alt ağlara düşürebilir; bazı modemler de kablosuz cihazların birbirini görmesini engeller. Bir VPN ya da özel DNS uygulaması da yolu devralabilir. Bağlantı doktorunu çalıştırın ve iki adresi de gösteren “Konsolla aynı ağ” satırını okuyun."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "Konsol dinlenme modunda ve bağlanmıyor ya da uyandırmak işe yaramıyor.",
+          "a": [
+            "“Akışı başlat”, dinlenme modundaki konsolu kendisi uyandırır ve yaklaşık 25 saniyeye kadar bekler; Kumanda modu ise yaklaşık 30 saniye boyunca denemeye devam eder. Konsolu “Ayarlar → Konsollar” altından, Kumanda modu menüsündeki “Konsolu uyandır” ile ya da ana ekran widget'ıyla elle de uyandırabilirsiniz. Bunlar yalnızca aynı ağda ve konsol izin veriyorsa çalışır: konsolun güç tasarrufu ayarlarında “İnternete bağlı kal” ile “Konsolun ağ üzerinden açılmasını etkinleştir” seçeneklerini açın."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "“Konsol meşgul” yazıyor.",
+          "a": [
+            "Konsol aynı anda tek bir uzak oturum çalıştırır ve başka bir telefon, tablet ya da bilgisayar onu hâlâ kullanıyordur. Başka bir telefondaki Kumanda modu da buna dahildir. Oturumu o cihazdan veya konsolun kendisinden sonlandırın, sonra tekrar deneyin."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "Mod ya da kalite değiştirdikten sonra bir süre bağlanma aşamasında kalıyor.",
+          "a": [
+            "Konsolun önceki oturumu bırakması birkaç saniye sürer. Bu sırada uygulama arka planda 20 saniyeye kadar her 2 saniyede bir yeniden dener ve konsol hazır olur olmaz bağlanır. Konsol bundan sonra hâlâ doluysa ancak o zaman “Konsol meşgul” yazar."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "“Konsolda uzaktan bağlantı kapalı” yazıyor.",
+          "a": [
+            "Konsol açık ama uzaktan bağlantıları reddediyor. Konsolda “Ayarlar → Sistem → Remote Play” bölümünü açın, “Remote Play'i Etkinleştir” seçeneğini açın ve yeniden bağlanın. Bağlantı doktorundaki “Konsolda Remote Play” satırı bilinen son durumu gösterir."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "Akış koptuğunda kendiliğinden yeniden bağlanır mı?",
+          "a": [
+            "Yerel akışta evet. Denemeler arasındaki süreyi artırarak en fazla üç kez dener, yaklaşık 30 saniye sonra vazgeçer ve bağlantı doktorunu önerir. “Uzaktan” bağlantı yeniden denemez; konsol kartından tekrar bağlanın. Konsol meşgulken, kapalıyken, Remote Play kapalıyken ya da uygulama güncellemesi gerektiğinde de yeniden denemez, çünkü tekrar denemek işe yaramaz."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "Bağlantı doktoru neleri kontrol eder?",
+          "a": [
+            "Bu telefonda, konsola giden yolda, internete çıkış yolunda ve konsolun ev ağında on sekiz şey: cihaz kapasitesi, telefon ağı, konsolla aynı ağ, konsol durumu, konsolda Remote Play, gidiş-dönüş süresi ve sapma, bağlantı hızı tahmini, VPN ve filtreleme uygulamaları, Bluetooth paraziti, modem UPnP, ağ adresi dönüşümü, genel IPv4 adresi, PlayStation Network bağlantısı, hesap, harici ekran, konsolun genel adresi, konsol modemi UPnP ve konsolun NAT türü. Kırmızı ve sarı maddelerin yanında bir çözüm vardır; rapor kopyalanabilir, paylaşılabilir ya da bize e-postayla gönderilebilir."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "Evde çalışıyor ama dışarıdayken çalışmıyor.",
+          "a": [
+            "Evden uzaktayken konsol kartında “Uzaktan” seçeneğini seçin ve “Uzaktan oyna” düğmesine dokunun. Hesabınız üzerinden bağlanır; bu yüzden hesabın giriş yapılarak eklenmiş ve konsolun hesaptaki karşılığıyla bir kez eşlenmiş olması gerekir. Bağlantı genellikle 20 ila 40 saniye sürer ve ev modeminizde UPnP'yi kendiliğinden dener. Başarısız olursa mesaj nedenini söyler; yaygın nedenler sonraki sorularda anlatılıyor, başka bir çözüm ise ev VPN'idir."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "“Uzaktan” önce konsolun eşlenmesi gerektiğini söylüyor.",
+          "a": [
+            "“Uzaktan”, hesabınızdaki konsollardan hangisinin bu telefonda eşleştirilmiş konsol olduğunu bilmelidir. Karta dokunun ya da “Ayarlar → Uzaktan bağlantı” bölümünü açın ve “Hesabınızdaki konsollar” altından bir kez seçin. Konsol bu telefonda zaten eşleştirilmiş olmalı ve hesap Online ID ile değil, giriş yapılarak eklenmiş olmalıdır."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "Uzaktan bağlantı başarısız oluyor. Yaygın nedenler neler?",
+          "a": [
+            "Ekrandaki mesaj nedeni söyler. Konsol yanıt vermedi: konsolu açık ya da dinlenme modunda tutun ve güç tasarrufu ayarlarında “İnternete bağlı kal” ile “Konsolun ağ üzerinden açılmasını etkinleştir” açık olsun. Ağ doğrudan bağlantıya izin vermiyor: başka bir ağ deneyin, Ayarlar'da “Uzaktan bağlantı için port tahmini” seçeneğini açın ya da bir ev VPN'i kullanın. Operatörünüz tek bir genel adresi birçok kullanıcıya paylaştırıyor: port yönlendirme işe yaramaz, ağ değiştirin ya da VPN kullanın. Girişin süresi doldu: o hesaba yeniden giriş yapın."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "PSN bağlanmıyor ya da proxy'yi açar açmaz bağlantı kopuyor mu?",
+          "a": [
+            "PSN'ye ulaşmanın zor olduğu yerlerde uzaktan bağlantı iki ayrı yol ister: oyun akışı doğrudan bağlanmalı, giriş ve PSN bağlantısı ise proxy üzerinden gidebilir. VPN modundaki bir proxy uygulaması oyun akışını da kendi tüneline çeker ve oturum kesilir. Proxy uygulamanızı uygulama bazlı proxy moduna alın ve Relaypad'i hariç tutma listesine ekleyin. Ardından “Ayarlar → PSN bağlantı proxy'si” bölümünü açıp “Otomatik” seçeneğini seçin ya da “Elle” seçeneğini seçip proxy uygulamanızın yerel portunu girin (tür HTTP, sunucu 127.0.0.1; Clash genellikle 7890, v2rayNG 10809 kullanır). Çalışıp çalışmadığını bağlantı doktorundaki “PlayStation Network bağlantısı” satırı gösterir."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "Port yönlendirme ayarlamam gerekiyor mu?",
+          "a": [
+            "Genellikle hayır. “Uzaktan” UPnP'yi kendisi dener; port yönlendirme yalnızca bağlantıyı ev modeminiz engellediğinde işe yarar, operatör tek bir adresi birçok kullanıcıya paylaştırdığında yaramaz. Gerekirse “Ayarlar → Modem port yönlendirme” portları otomatik olarak açabilir ya da elle ayarlamanız için listeleyebilir. Yönlendirilen portlar konsolu internete açar; bu yüzden ev VPN'i daha güvenli bir seçimdir."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "Konsolun ağı CGNAT ya da çift NAT arkasındaysa ne yapmalıyım?",
+          "a": [
+            "Bağlantı doktorunu açın ve “Konsolun ev ağı” bölümüne bakın. Bu bölüm, telefonunuz konsolun Wi-Fi ağındayken ya da uzaktan bağlandığınızda ölçülür. Çift NAT, arka arkaya iki yönlendirici demektir; genellikle sağlayıcınızın modemi ile kendi yönlendiricinizdir: modemi köprü moduna alın ya da modemde DMZ'yi açıp yönlendiricinizin adresini girin. CGNAT, sağlayıcınızın tek bir genel adresi birçok eve paylaştırdığı anlamına gelir ve port yönlendirme işe yaramaz: sağlayıcınızdan genel bir IP adresi isteyin. İki durumda da Tailscale gibi bir ev VPN'i işe yarar, çünkü dışarıdan doğrudan bağlantıya dayanmaz."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "VPN üzerinden ev ağımın dışından oynayabilir miyim?",
+          "a": [
+            "Evet, bir ev VPN'iyle. Konsolun ağına sürekli açık bir cihaz koyun ve telefonunuzdan o ağa katılın: NAS, Raspberry Pi ya da bir bilgisayarda Tailscale bunu tek komutla yapar (tailscale up --advertise-routes=ev.alt.aginiz, ardından yönetim panelinden rotayı onaylayın); yerleşik WireGuard veya OpenVPN sunucusu olan bir modem de aynı işi görür. VPN bağlıyken konsol kartında her zamanki gibi “Akışı başlat” düğmesine dokunun: ağ araması VPN üzerinden geçmediği için uygulama konsolun evdeki adresini de dener. Konsolun önce evde eşleştirilmiş olması gerekir ve sınır evinizin yükleme hızı olur."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "Birden fazla konsol ya da birden fazla hesap tutabilir miyim?",
+          "a": [
+            "İkisi de olur ve ikisi de ücretsizdir. Eşleştirdiğiniz her konsol listede kalır ve her biri “Ayarlar → Konsollar” altında farklı bir hesaba bağlanabilir. Hesapların kendisi “Ayarlar → Hesaplar” altında yönetilir."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "Yeni bir telefona geçtim ve konsollarım kayboldu ya da bağlanmıyor.",
+          "a": [
+            "Konsollar, hesaplar ve eşleştirme anahtarları bulut yedeklerine dahil edilmez; bu yüzden yeni telefonda kurulumu yeniden yaparsınız: hesabınızı ekleyin ve her konsolu bir kez eşleştirin. Telefondan telefona aktarım konsol listesini getirdiyse anahtarlar yine de geride kalır, çünkü eski telefona kilitlidirler: “Ayarlar → Konsollar” bölümünü açın, konsolu seçin ve “Yeniden eşleştir” düğmesine dokunun. Giriş yapılarak eklenen bir hesap da yeniden giriş yapmanızı isteyebilir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Kurulum ve giriş",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "Neden Account ID gerekiyor?",
+          "a": [
+            "Konsol yalnızca hangi hesaba ait olduğunu söyleyen bir cihazla eşleşir; bu yüzden Account ID eşleştirmenin bir parçasıdır. Hesabınıza bağlı 12 karakterlik bir kimliktir, parola değildir. Kurulum önce bunu ister; sonradan “Ayarlar → Hesaplar” altından başka hesaplar da ekleyebilirsiniz. Giriş yapılarak eklenen bir hesap ayrıca hesabınızdaki konsolları listeleyebilir, onları kodsuz kurabilir ve “Uzaktan” seçeneğini kullanabilir."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "Hesap eklemenin yolları neler?",
+          "a": [
+            "“Account ID'nizi alın” iki grup sunar. Önerilen giriş grubunda, parolanızı resmi sayfada kullanan “Uygulama içinde giriş yapın” ile geçiş anahtarları ve parola yöneticileriyle çalışan “Tarayıcınızla giriş yapın” bulunur. “Yalnızca yerel kurulum” giriş gerektirmez: “Online ID'nizi kullanın” 8.0 altındaki 4. nesil konsolları kapsar, “Gelişmiş” altındaki “Account ID girin” ise kimliği bu uygulamada zaten giriş yapılmış başka bir telefondan alır. Giriş yapmadan da evde eşleştirip oynayabilirsiniz, ancak kodsuz kurulum yapamaz ve “Uzaktan” seçeneğini kullanamazsınız."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "Hesabım geçiş anahtarı kullanıyor. Nasıl giriş yaparım?",
+          "a": [
+            "“Tarayıcınızla giriş yapın” seçeneğini seçin. Geçiş anahtarları uygulama içindeki giriş sayfasında çalışmaz ama tarayıcınızda normal şekilde çalışır; uygulamaya döndüğünüzde adres otomatik olarak alınır."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "Tarayıcıyla giriş yaptıktan sonra ne yapmalıyım?",
+          "a": [
+            "Giriş tamamlandığında tarayıcı boş bir sayfada kalır. Bu beklenen bir durumdur. Adres çubuğundaki adresin tamamını kopyalayıp uygulamaya dönün; adres orada otomatik olarak alınır. Hiçbir şey olmazsa adresi aşağıdaki alana yapıştırın ve kopyaladığınız metnin code= sonrasındaki her şeyi içerdiğinden emin olun."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "Uygulama içindeki giriş sayfası boş kalıyor ya da yüklenmiyor.",
+          "a": [
+            "Bazı ağlar ve telefonlar bu sayfayı uygulamaların içinde engeller. Uygulama sayfanın boş kaldığını ya da açılamadığını fark eder, nedenini söyler ve “Tekrar deneyin” ile “Bunun yerine tarayıcıyı kullan” seçeneklerini sunar. Tarayıcıyla giriş yapmak aynı sonucu verir; tekrar denemek işe yaramazsa ona geçin. İki adımlı doğrulama giriş sayfasının kendisinde yapılır."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "Giriş kodunun süresinin dolduğu yazıyor.",
+          "a": [
+            "Adresteki kod yalnızca kısa bir süre geçerlidir. Giriş sayfasını yeniden açın, giriş yapın ve hemen uygulamaya dönün. Tarayıcıyla giriş yapıyorsanız “Giriş sayfasını yeniden aç” düğmesine dokunun ve yeni adresi kopyalayın."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "Giriş yapmadan kurabilir miyim?",
+          "a": [
+            "Evet, “Yalnızca yerel kurulum” ile. “Online ID'nizi kullanın” 8.0 altındaki 4. nesil konsollarda çalışır; daha yeni konsollar için “Gelişmiş” altındaki “Account ID girin” seçeneğini seçin ve kimliği, bu uygulamada giriş yapılmış başka bir telefondaki “Ayarlar → Hesaplar” bölümünden kopyalayın. İki durumda da ev ağınızda eşleştirip oynayabilirsiniz; ancak kodsuz kurulum, hesabınızdaki konsollar ve “Uzaktan” için giriş yapılmış bir hesap gerekir. Online ID herkese açık bir hizmet üzerinden sorgulanır."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "Hesabımda “Girişin süresi doldu” yazıyor.",
+          "a": [
+            "“Ayarlar → Hesaplar” altında hesabın yanındaki “Yeniden giriş yap” düğmesine dokunun; daha önce nasıl giriş yaptıysanız aynı yolla açılır. Giriş yalnızca “Uzaktan”, kodsuz kurulum ve hesabınızdaki konsolları listelemek için kullanılır; bu yüzden daha önce eşleştirdiğiniz konsollar evde her durumda çalışmaya devam eder."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "“Kodla eşleştirme” mi yoksa “Kodsuz kurulum” mu seçmeliyim?",
+          "a": [
+            "“Kodla eşleştirme” birkaç saniye sürer, ama konsolun başında olmanız ve telefonun aynı ağda olması gerekir. “Kodsuz kurulum” konsol dinlenme modundayken bile her yerden çalışır ve yaklaşık 30 saniye sürer. Bunun için aynı hesapla giriş yapılmış 5. nesil bir konsol, giriş yapılarak eklenmiş bir hesap, açık Remote Play ve en son sistem yazılımı gerekir. Hangisini seçerseniz seçin, konsol sonrasında aynı şekilde çalışır."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "Eşleştirme başarısız oldu veya eşleştirme kodunun süresi doldu.",
+          "a": [
+            "Bir eşleştirme kodu 300 saniye geçerlidir ve yalnızca bir kez kullanılabilir. Konsolda “Ayarlar → Sistem → Remote Play → Cihaz Bağla” ya da 4. nesil bir konsolda “Ayarlar → Remote Play Bağlantı Ayarları → Cihaz Ekle” bölümünden yenisini alın ve hemen girin. “Konsol şifresi (isteğe bağlı)” başka bir sayıdır: konsolda belirlenen dört haneli şifredir ve konsol istemedikçe boş kalır. 5. nesil bir konsolda “Başka bir yöntem seç” düğmesine dokunup “Kodsuz kurulum” seçeneğini de deneyebilirsiniz."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "Kodsuz kurulum başarısız oldu.",
+          "a": [
+            "Mesaj nedeni söyler: konsol hesabınızda değil ya da hesabın birincil konsolu değil, Remote Play kapalı, konsol yanıt vermedi, iki konsol aynı adı taşıyor, ağ doğrudan bağlantıya izin vermedi ya da girişin süresi doldu. Bunu düzeltip kodsuz kurulumu yeniden deneyin ya da “Başka bir yöntem seç” düğmesine dokunup konsolun başında kodla eşleştirin; bunun için telefonun aynı ağda olması gerekir."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "Bir hesabı kaldırırsam ne olur?",
+          "a": [
+            "Hesabı, girişiyle birlikte yalnızca bu telefon unutur. Hesaba bağlı konsollar evde çalışmaya devam eder, ancak “Ayarlar → Konsollar → konsol → Konsol hesabı” altından bir hesap seçene kadar hesapsız kalır. Konsolda ya da hesabın kendisinde hiçbir şey değişmez."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "Parolamı görüyor musunuz?",
+          "a": [
+            "Hayır. Parolanızı resmi giriş sayfasına yazarsınız ve bu uygulamanın kendine ait bir sunucusu yoktur; yani orada yazdığınız hiçbir şey bizden geçmez. Uygulama Account ID'yi, Online ID'yi ve giriş belirteçlerini bu telefonda tutar; belirteçler ve eşleştirme anahtarları Android anahtar deposuyla şifrelenir. Online ID sorgusu herkese açık bir hizmet üzerinden yapılır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Akış ve görüntü",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "Akış sırasında kontroller nerede?",
+          "a": [
+            "Üst çubuk birkaç saniye sonra kaybolur. Geri getirmek için görüntüde boş bir yere dokunun: kaydırıcı simgesi hızlı paneli açar, “Çıkmak için basılı tutun” da akışı sonlandırır. Boş bir yere uzun basmak da hızlı paneli açar."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "Ücretsiz sürümün sınırı nedir?",
+          "a": [
+            "Ev ağınızda H.264 ile en fazla 720p ve 30 fps akış; süre sınırı ve reklam yok. Sınır her oturum başladığında uygulanır. Kumanda modu tümüyle ücretsizdir ve hiçbir sınırı yoktur. Android TV'de akış için Pro gerekir."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "1080p ve 60 fps nasıl açılır?",
+          "a": [
+            "“Ayarlar → Görüntü kalitesi” altından seçin. Akış sırasında hızlı paneldeki “Görüntü kalitesi” altından da seçebilir, ardından “Uygulamak için yeniden bağlan” düğmesine dokunabilirsiniz. Telefonunuzun da yetişmesi gerekir; 1080p'de görüntü takılıyorsa bağlantı doktorunu bir kez çalıştırmaya değer."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "Akış sırasında çözünürlüğü ya da kare hızını değiştirebilir miyim?",
+          "a": [
+            "Evet. Hızlı paneli açın, “Görüntü kalitesi” altından seçiminizi yapın ve “Uygulamak için yeniden bağlan” düğmesine dokunun; görüntü birkaç saniye duraklar. “Uzaktan” bağlantı akış sırasında geçiş yapamaz, seçiminiz bir sonraki bağlantıda uygulanır. Kodek, bit hızı ve kod çözücü “Ayarlar → Görüntü kalitesi” altındadır."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "“Ekrana sığdır”, “Uzatarak doldur” ve “Yakınlaştırarak doldur” arasındaki fark nedir?",
+          "a": [
+            "“Ekrana sığdır” oranları korur ve siyah kenarlar bırakır. “Uzatarak doldur” ekranı doldurur ve görüntüyü hafifçe bozar. “Yakınlaştırarak doldur” kenarları keserek ekranı doldurur; uzun ekranlı telefonlarda genelde tercih edilen budur. “Ayarlar → Ölçekleme” altından ya da hızlı paneldeki “Ölçekleme” bölümünden değiştirin."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "Tablette veya katlanabilir telefonda ekran kumandası görüntüyü kapatıyor.",
+          "a": [
+            "Hızlı paneli açın ve “Düzen” seçeneğini “Bölünmüş” yapın: görüntü ile ekran kumandası birbirini kapatmayacak şekilde ayrı yerleştirilir. Ekran dik tutulduğunda ya da katlanabilir telefon yarı açıkken “Otomatik” bunu zaten yapar. Bu seçenekler yalnızca tablet ve katlanabilir telefonlarda görünür ve ücretsizdir."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "Görüntü olması gerekenden karanlık görünüyor.",
+          "a": [
+            "Bu, hızlı paneldeki “Ekran karartma” ayarıdır. Ekrandaki tuşlar öne çıksın diye görüntüyü karartır; kapatmak için en düşük seviyeye çekin. Tuşların kendisini soluklaştıran “Bindirme saydamlığı” ayarından ayrıdır."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "Görüntü takılıyor veya kare düşüyor.",
+          "a": [
+            "Neredeyse her zaman telefondan değil kablosuz bağlantıdan kaynaklanır. Aynı modemin 5 GHz ağına katılın, modeme yaklaşın ve mümkünse konsolu kabloyla bağlayın. Bağlantı doktorunu çalıştırıp gidiş-dönüş süresine ve bağlantı hızı tahminine bakın: 30 ms üstünde veya 15 Mbps altında görüntü tutmaz. Akış sırasında hızlı panelden çözünürlüğü ya da kare hızını düşürmek hemen işe yarar."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "Görüntü bozuluyor ya da donuyor ama ses çalmaya devam ediyor.",
+          "a": [
+            "Hızlı paneli açın ve “Eylemler” altındaki “Görüntüyü düzelt” düğmesine dokunun: konsoldan yeni bir görüntü ister. Sorun sürerse çözünürlüğü düşürün ve bağlantı doktorunu çalıştırın."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "Performans bindirmesindeki sayılar ne anlama geliyor?",
+          "a": [
+            "Gecikme, gidiş-dönüş süresi ile bu telefonun bir kareyi çözüp çizmek için harcadığı süreyi toplar; yani konsolu ve ekranınızı hesaba katmayan bir tahmindir. 60 ms altında yeşil, 100 ms üstünde kırmızı görünür. Bit hızı ayarladığınızın çok altındaysa ağ onu kısıtlıyordur; bit hızı iyi ama kod çözme uzun sürüyorsa sebep telefondur. Hızlı panelden “Kompakt” ya da “Ayrıntılı” seçin."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "HEVC veya HDR seçilemiyor ya da akış bunun yerine H.264 kullanıyor.",
+          "a": [
+            "HEVC bu telefonda onu çözebilen bir kod çözücü, HDR ise bunu destekleyen bir ekran gerektirir; bir seçeneğin neden kullanılamadığını kalite sayfası söyler. Akış başlarken telefon biçimi çözemezse akış kendiliğinden H.264 ya da SDR'ye geçer ve size bildirir."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "Başka bir uygulamaya geçtiğimde akış oynamaya devam edebilir mi?",
+          "a": [
+            "Evet. Akış sırasında uygulamadan çıkın; görüntü küçük bir pencereye dönüşür ve oynamaya devam eder. Yeniden bağlanmadan tam ekrana dönmek için pencereye dokunun ya da akışı sonlandırmak için kapatın. Görüntü bir TV'deyken başlamaz; “Ayarlar → Pencere içinde pencere” altından kapatabilirsiniz."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "Akış ne kadar veri harcar?",
+          "a": [
+            "Çözünürlüğe bağlıdır: saatte en fazla yaklaşık 360p'de 1 GB, 540p'de 2,7 GB, 720p'de 4,5 GB ve 1080p'de 6,8 GB; bit hızını elle ayarlarsanız daha fazla. Gerçek kullanım çoğu zaman daha düşüktür. Mobil veride uygulama varsayılan olarak 720p ve 30 fps kullanır; bu, VPN üzerinden evdeki konsola akış için de “Uzaktan” için de geçerlidir. Kendi kalite ayarınızı korumak için “Ayarlar → Mobil veri” seçeneğini kapatın."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "Görüntüyü bir TV'ye verebilir miyim?",
+          "a": [
+            "Evet. Akış sırasında telefonunuzu USB-C'den HDMI'ya kabloyla TV'ye bağlayın ya da sistem ayarlarından ekran yayınlamayı başlatın. TV o zaman yalnızca oyunu gösterir, telefonunuz da kumandaya dönüşür. TV'ye hiçbir şey kurulmaz ve orada hesap açmanız gerekmez, bu yüzden otel ya da arkadaş TV'si de sorun olmaz."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "TV'deki görüntü gecikmeli geliyor",
+          "a": [
+            "Önce TV'yi oyun moduna alın. Normal görüntü modlarında çoğu TV 60 ila 120 ms gecikme ekler; oyun modu bunu 10 ila 30 ms'ye indirir ve değiştirebileceğiniz başka hiçbir şey buna yaklaşmaz. Sonra kablo ekran yayınlamayı geçer: kablosuz yayınlama görüntüyü ikinci kez kodlamak zorundadır, bu da 100 ms veya daha fazlasını ekler. En sonda akışın kendisi gelir; iyi bir ağda daha hızlıdır, evde ise internet üzerinden bağlanmaya göre çok daha hızlıdır."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "Kabloyu taktım ama hiçbir şey olmuyor",
+          "a": [
+            "Her telefon USB-C bağlantı noktasından video gönderemez. Amiral gemileri genelde gönderebilir, orta seviye telefonlar çoğu zaman gönderemez ve denemeden önce anlamanın bir yolu yoktur. Kablo takılıyken bağlantı doktorunu çalıştırın: “Harici ekran” satırı, sistemin TV'yi görüp görmediğini söyler. Görmüyorsa sebep telefon ya da adaptördür; sistem ayarlarından kablosuz ekran yayınlama bunun etrafından dolaşmanın yoludur."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "HDMI kablosu takılıyken şarj edebilir miyim?",
+          "a": [
+            "Yalnızca kendi güç girişi olan bir adaptörle. USB-C bağlantı noktasını video sinyali kullanır ve akış ile kod çözme bataryayı hızla tüketir; uzun oturumlar için HDMI çıkışı ve geçişli şarjı olan güç beslemeli bir USB-C hub almaya değer."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "Otel odamdaki TV çalışmıyor",
+          "a": [
+            "Bazı otel TV'lerinin HDMI bağlantı noktaları kapatılmıştır ya da panelin arkasına gizlenmiştir; uygulamanın bu konuda yapabileceği bir şey yoktur. TV'de ulaşabileceğiniz bir bağlantı noktası varsa kablo diğer TV'lerdeki gibi çalışır. Yoksa akış her zamanki gibi telefonunuzda oynanmaya devam eder."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "Kopya koruması görüntüyü karartır mı?",
+          "a": [
+            "Hayır. Uygulamanın kod çözdüğü şey korumalı içerik değil, sıradan bir video akışıdır; bu yüzden TV onu HDMI üzerinden normal şekilde gösterir. Bazı video uygulamalarının harici ekranda verdiği siyah ekranla karşılaşmazsınız."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Kumandalar",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "Ekrandaki düğmeleri taşıyabilir miyim?",
+          "a": [
+            "Evet ve ücretsizdir. “Ayarlar → Kumanda yerleşimleri” bölümünü açın: tüm yerleşimleri görebilir, kendi yerleşimlerinizi yeniden adlandırabilir ya da silebilirsiniz; herhangi bir kontrolü sürüklemek, boyutlandırmak, soluklaştırmak ya da gizlemek için bir yerleşime dokunun. “Hazır yerleşimler” başlangıç için Standard, Compact, Remote, Fighting ve Racing sunar; “JSON olarak dışa aktar” ve “JSON içe aktar” bir yerleşimi pano üzerinden başka bir telefona taşır. Telefonlarda yatay yerleşimleri düzenlersiniz; tabletlerde ayrıca “Bölünmüş” görünümde kullanılan yerleşimler için bir “Dikey” sekmesi bulunur."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "Akış sırasında kendi yerleşimimi kullanabilir miyim?",
+          "a": [
+            "Evet. Hızlı panelde “Düzen” altında “Özel” seçeneğine dokunun ve yatay yerleşimlerinizden birini seçin. “Kompakt” ve “Standart”, görüntünün olabildiğince azını kapatacak şekilde tasarlanmış yerleşik seçeneklerdir. Seçtiğiniz yerleşim silinirse akış “Kompakt” düzene döner. Yerleşik bir yerleşimi düzenlemek sizin sürümünüzü kopya olarak kaydeder, böylece orijinali kullanılabilir kalır."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "Akış sırasında ekran kumandası görünmüyor ya da çok soluk.",
+          "a": [
+            "Hızlı paneldeki “Oyun kumandası” ayarına bakın: “Otomatik” fiziksel bir kumanda bağlıyken ekran kumandasını gizler, “Gizli” her zaman gizler, “Her zaman” ise ekranda tutar. “Minimal mod” da onu gizler. Akışlar daha küçük ve soluk tuşlar kullanan “Kompakt” düzenle başlar; tuşlar zor görünüyorsa “Düzen” seçeneğini “Standart” yapın ya da “Bindirme saydamlığı” değerini artırın."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "“Kompakt” düzende çubuk ile yön tuşları arasında nasıl geçiş yaparım?",
+          "a": [
+            "Yuvarlak kontrolün alt kenarındaki küçük sekmeye dokunun. Çubuk ile yön tuşları arasında geçiş yapar; sol ve sağ taraf ayrı ayrı değişir."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "Ekrandaki dokunmatik yüzey nasıl çalışır?",
+          "a": [
+            "Dokunma göndermek için üzerinde bir ya da iki parmağınızı kaydırın; dokunmatik yüzey tıklaması için hızlıca dokunun. Tıklamayı basılı tutmak desteklenmez."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "Gerçek bir kumanda kullanabilir miyim?",
+          "a": [
+            "Evet. Android'in Bluetooth veya USB üzerinden tanıdığı her kumanda iletilir ve üreticisine göre varsayılan bir eşleme seçilir. Kumanda modunda ekran kumandası onunla birlikte kullanılabilir kalır. Akış sırasında uygulama ekran kumandasının da gösterilip gösterilmeyeceğini bir kez sorar; bunu sonradan hızlı paneldeki “Oyun kumandası” ile değiştirebilirsiniz. Birden fazla kumanda ve ekran kumandası konsolda tek bir kumanda sayılır."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "Kumandamdaki tuşlar yanlış yerlerde.",
+          "a": [
+            "Kumanda bağlıyken “Ayarlar → Tuş eşlemesi” bölümünü açın ve kumandayı seçin. Bir eyleme dokunup istediğiniz tuşa basın; çubuklar ters çevrilebilir ve “Canlı test” her tuşun ne gönderdiğini gösterir. Değişiklikleri korumak için “Kaydet” düğmesine dokunun. Eşleme kumanda modeline göre saklanır, yani aynı modeldeki iki kumanda aynı eşlemeyi paylaşır; “Sıfırla” varsayılanı geri getirir."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "Kumandamda PS düğmesi ya da dokunmatik yüzey yok veya hiçbir şey yapmıyorlar.",
+          "a": [
+            "Çoğu kumanda kombinasyonlarla çalışır: Select ile Start birlikte PS düğmesi, Select ile L3 ise dokunmatik yüzey tıklaması görevi görür. Zaten PS düğmesi olan bir kumandada yalnızca dokunmatik yüzey kombinasyonu vardır. Kombinasyonlar değiştirilemez, ama “Ayarlar → Tuş eşlemesi” altından PS, dokunmatik yüzey ya da MIC işlevini tek bir tuşa atayabilirsiniz. Ekran kumandasının standart yerleşiminde de her tuş vardır."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "Konsol için üretilmiş bir kumanda telefonda tam olarak çalışır mı?",
+          "a": [
+            "Bluetooth üzerinden tuşları ve çubukları iletilir, ama dokunmatik yüzey kaydırmaları, hareket sensörü ve mikrofonu iletilmez. Akış sırasında USB ile bağlıysa uyarlanabilir tetikleri, ışık çubuğunu ve kumanda titreşimini almak için hızlı paneldeki “İzin ver” düğmesine dokunun; bu herkes için ücretsizdir. “USB erişimi engellendi” yazıyorsa telefondaki başka bir sürücü kumandayı tutuyordur; bunun yerine Bluetooth ile bağlayın."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "Titreşim ve tuş titreşimi nasıl çalışır?",
+          "a": [
+            "Oyundan gelen titreşim, motoru varsa fiziksel kumandaya, yoksa telefona gider. Ekrandaki tuşlara bastığınızda hissedilen kısa titreşim, Kumanda modu menüsündeki “Giriş” altında bulunan “Tuş titreşimi” ayarıdır: her dokunuş bir sonraki seviyeye geçer, kapalıdan 3'e kadar; seçtiğiniz seviye hatırlanır."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "Mikrofon ve hareket algılama nerede?",
+          "a": [
+            "Kumanda modunda ikisi de menüdeki “Giriş” altındadır. Hareket algılama telefonun jiroskop ve ivmeölçer verisini gönderir ve her bağlandığınızda kapalı başlar. Mikrofon önce izin ister; sonrasında dokunmak “Açık” ile “Sessiz” arasında geçiş yapar. Akış sırasında hareket algılama yoktur ve mikrofon, ekran kumandasındaki MIC tuşudur. İkisi de ücretsizdir."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "Konsolu nasıl dinlenmeye alırım ya da ana ekranına giderim?",
+          "a": [
+            "Kumanda modunda menüdeki “Eylemler” bölümünde “Konsolu uyandır”, “Konsolu dinlenmeye al”, “Konsol ana ekranı” ve kilidi açılana kadar dokunmaları yok sayan “Ekranı kilitle” bulunur. Ekran kumandasındaki PS düğmesi de işe yarar."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "Konsoldaki video uygulamalarını bununla kontrol edebilir miyim?",
+          "a": [
+            "Evet. Kumanda modunda, medya uygulamaları için tasarlanmış büyük tuşlar için menüdeki “Yerleşim” altında “Uzaktan kumanda yerleşimi” seçeneğini açın. Başka bir yerleşim seçmek için onu yeniden kapatın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "AI yardımcı pilot",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "AI yardımcı pilot ücretli mi?",
+          "a": [
+            "Bizden değil. Kendi API anahtarınızla çalışır: anahtarınıza hiç dokunmayız, üstüne bir şey eklemeyiz; kullandığınız kadarını sağlayıcı size doğrudan faturalandırır. “Ayarlar → AI yardımcı pilot” içindeki “Oyun rehberleri” bölümü, seçtiğiniz sağlayıcı için rehber başına yaklaşık maliyeti gösterir; “Kullanım” da kaç web araması yapıldığı dahil bu ay için bir tahmin tutar."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "Ekranım nereye gidiyor?",
+          "a": [
+            "Yalnızca siz istediğinizde: rehber konunuz, oyun adı ve eklerseniz akışın küçültülmüş bir karesi doğrudan ayarladığınız sağlayıcıya gider; web aramalarını da o yapar. Arada bize ait bir sunucu yoktur ve kayıt tutmayız; rehberler yalnızca bu telefonda saklanır. Anahtarınız bu telefonda şifreli olarak saklanır; anahtar yoksa hiçbir yere bir şey gönderilmez."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "Oyun rehberleri nereden geliyor?",
+          "a": [
+            "Bir rehber aradığınızda web aramasını ayarladığınız model kendisi yapar: Anthropic, Google, OpenAI ve DeepSeek aramaları kendi taraflarında yürütür. Model sonuçları okur, sizin dilinizde adım adım bir rehber yazar ve kaynakları altında listeler. Rehberler yalnızca bu telefonda saklanır, bu yüzden birini yeniden açmak ücretsizdir."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "Rehberimde neden “Web araması yok” yazıyor?",
+          "a": [
+            "Web'de yalnızca Anthropic, Google, DeepSeek ve OpenAI'ın kendi uç noktası arama yapabilir. OpenRouter ya da Ollama gibi kendi barındırdığınız veya üçüncü taraf bir OpenAI uyumlu uç nokta, yalnızca modelin kendi bilgisiyle yanıt verir; bu bilgi yeni oyunlar için güncel olmayabilir. Arama yapılmış rehberler için Anthropic, Google ya da DeepSeek kartını seçin veya “OpenAI uyumlu” kartına OpenAI'ın kendi uç noktasını girin."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "Bir rehber ne kadar tutar?",
+          "a": [
+            "Anthropic ve OpenAI, token ücretine ek olarak web araması başına yaklaşık bir ABD senti alır; bu yüzden bir rehber kabaca 8 ila 15 sent tutar. Google ayda binlerce ücretsiz arama sunar. DeepSeek yalnızca token ücreti alır, bu da bir sentin çok altındadır. Ayarlar'daki “Arama derinliği” arama sayısını sınırlar, “Kullanım” da bu ayın tahminini gösterir."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "API anahtarını nasıl alırım?",
+          "a": [
+            "Anthropic: Anthropic Console'da “API keys” bölümünden bir tane oluşturun. Google: Google AI Studio'da “Get API key” düğmesine dokunun. DeepSeek: DeepSeek Platform’daki “API keys” bölümünden bir tane oluşturun. OpenAI uyumlu: OpenAI ya da OpenRouter gibi sağlayıcınızın panelindeki anahtarı kullanın; kendi bilgisayarınızdaki Ollama için adresini “Temel URL” olarak girin, anahtar alanına herhangi bir şey yazın ve görüntü okuyabilen bir model seçin. “Ayarlar → AI yardımcı pilot” içindeki Anthropic, Google ve DeepSeek kartlarında “Anahtar al” bağlantısı vardır."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "Rehber neden yanlış?",
+          "a": [
+            "Kaynaklar eski olabilir ya da başka bir sürüm veya platformla ilgili olabilir; kaynaklarda sürüm belirtiliyorsa rehber de hangi sürüm olduğunu yazar. Bölümü, boss adını ya da build'inizi belirterek devam sorusu sorun; rehber size göre yeniden yazılır. Oyun adı eksik ya da yanlışsa aramadan önce panelde düzeltin veya Ayarlar'dan başka bir model deneyin."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "Sesli komutları nasıl değiştiririm?",
+          "a": [
+            "“Haritayı aç”, “Duraklat” ve “Ekran görüntüsü” gibi 8 yerleşik komut vardır. “Ayarlar → AI yardımcı pilot → Sesli komutlar” bölümünü açıp bir komuta dokunun; bastığı tuşu değiştirebilir ya da kendi ifadelerinizi ekleyebilirsiniz. Komut olmayan her şey rehber paneline konu ya da devam sorusu olarak gider. Konuşma tanıma hizmeti olmayan ya da mikrofon izni verilmemiş telefonlarda bunun yerine panele yazın."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "AI yardımcı pilot sağlayıcıya ulaşamıyor mu?",
+          "a": [
+            "AI istekleri uygulamanın “PSN bağlantı proxy'si” üzerinden geçmez; telefonunuzun kendi bağlantısıyla çıkar. Bulunduğunuz yerde Anthropic, Google ya da DeepSeek'e ulaşılamıyorsa başka bir sağlayıcıya ya da “OpenAI uyumlu” seçeneğine geçip ulaşabildiğiniz bir uç noktayı ya da kendi bilgisayarınızdaki Ollama'yı girin. Aynı sayfadaki “Bağlantıyı test et” çalışıp çalışmadığını gösterir."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "AI yardımcı pilotu nasıl kapatırım?",
+          "a": [
+            "“Ayarlar → AI yardımcı pilot” içinde “AI yardımcı pilotu kullan” seçeneğini kapatın. Bundan sonra akışa uzun basmak yeniden hızlı paneli açar ve AI tuşları üst çubuktan kalkar. Anahtarınızı da silmek için yanındaki “Temizle” düğmesine dokunun; şifreli kopya hemen silinir."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "Ekranı iyi göremiyorsam kullanabilir miyim?",
+          "a": [
+            "Evet. Hızlı paneldeki “Ekranı anlat” ya da ses düğmesine “bana oku” demek, önce en önemli şeyi söyler, sonra ekrandaki metni okur. Paneldeki rehberler TalkBack ile çalışır ve her adım işaretlenebilir. TalkBack açıkken altyazı çubuğundaki ekran açıklamalarını TalkBack okur; açık değilse Ayarlar'da “Yanıtları sesli oku” seçeneğini açın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Satın alma ve iadeler",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "Bu bir abonelik mi?",
+          "a": [
+            "Hayır. Uygulamayı Google Play'de bir kez satın alırsınız, hepsi bu: abonelik yok, uygulama içi satın alma yok, reklam yok ve sonradan ikinci bir ödeme isteyen hiçbir özellik yok. Satın alma telefona değil, Google hesabınıza bağlıdır."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "Ücretsiz kampanya sırasında kurdum. Özellikler sonradan kilitlenir mi?",
+          "a": [
+            "Hayır. Kampanya sırasında kurmak, uygulamayı o fiyattan satın almakla aynı şeydir; yani tüm özellikleriyle kalıcı olarak sizin olur. Kampanya bittikten sonra da böyle kalır ve aynı Google hesabı uygulamayı yeni bir telefona ücretsiz olarak yeniden kurabilir."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "Yeni bir telefona nasıl kurarım?",
+          "a": [
+            "Satın alırken kullandığınız Google hesabıyla Google Play sayfasını açın; fiyat yerine “Yükle” görünür. Konsollar taşınmaz, bu yüzden her konsolu yeni telefonda yeniden eşleştirin; eşleştirme anahtarları oluşturuldukları telefonda kalır."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "Neler dahil?",
+          "a": [
+            "İlk açılıştan itibaren her şey: 1080p ve 60 fps akış, elle bit hızı, HEVC ve HDR, FSR keskinleştirme ve performans bindirmesi, ev ağınızın dışından oynama, Android TV'de akış, pencere içinde pencere ve telefonunuz kumanda olurken oyunun TV'de görünmesi. Kumanda modu, bağlantı doktoru, “Konsol kısayolu” widget'ı ve istediğiniz kadar konsol ile hesap da bunlara dahil."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "Nasıl iade alırım?",
+          "a": [
+            "Satın aldıktan sonraki 48 saat içinde iadeyi Google Play sipariş geçmişinizden kendiniz isteyin; en hızlı yol budur. Bundan sonra satın alma tarihinden itibaren 7 gün içinde bize e-posta gönderin, neden diye sormadan iade edelim. Satın almayı bulabilmemiz için Google Play makbuzundaki sipariş numarasını ekleyin."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "İndirim başlamadan hemen önce tam fiyat ödedim.",
+          "a": [
+            "Bize yazın. Satın aldıktan sonraki 48 saat içinde en hızlı yol, Google Play sipariş geçmişinizden iadeyi kendiniz almak ve indirimli fiyattan yeniden satın almaktır. Bundan sonra Google Play makbuzundaki sipariş numarasıyla bize e-posta gönderin, farkı iade edelim."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Diğer",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "Konsolu ana ekrandan uyandırabilir miyim?",
+          "a": [
+            "Evet. Başlatıcınızın widget listesinden “Konsol kısayolu” widget'ını ekleyin ve bir konsol seçin. “Uyandır”, uygulamayı açmadan uyandırma sinyalini gönderir. “Bağlan”, widget konsolu son baktığında ağınızda bulduysa Kumanda modunu, bulmadıysa uygulamayı açar. İkisi de yalnızca aynı ağda çalışır ve widget ücretsizdir."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "Android TV sürümü var mı?",
+          "a": [
+            "Evet, aynı uygulama Android TV ve Google TV'ye de kurulur. TV'de mağazayı satın alırken kullandığınız Google hesabıyla açın; ek ücret ödemeden kurulur. TV'de oynamak için Bluetooth veya USB bir kumanda gerekir; uzaktan kumanda yalnızca menülerde gezinmeye yarar. Akış sırasında hızlı paneli açmak için uzaktan kumandada OK ya da Menü tuşuna basın veya kumandada L1, R1, L3 ve R3'ü birlikte basılı tutun."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "TV'de bir konsolu nasıl eşleştiririm?",
+          "a": [
+            "TV ana ekranında “Konsol ekle” seçeneğini seçin ve konsol modelinizi belirleyin. Hesap adımında telefonunuzda bu uygulamayı açın, “Ayarlar → Hesaplar” bölümüne gidin, orada gösterilen Account ID'yi kopyalayıp TV'ye yazın; 12 karakterdir ve genellikle = ile biter. Ardından konsolu seçin ve konsoldaki eşleştirme kodunu TV ekranındaki tuş takımıyla girin. TV yalnızca kodla eşleştirme yapar."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "Konsol sisteminin güncellendiği ve beklemem gerektiği yazıyor.",
+          "a": [
+            "Bir konsol sistem güncellemesi, konsolun konuştuğu Remote Play protokolünün sürümünü değiştirdi ve telefon tarafında bunu aşacak bir yol yok. Çözüm, acil olarak ele aldığımız bir uygulama güncellemesidir. Aradan birkaç günden fazla geçtiyse bize yazın ve konsolun sistem yazılımı sürümünü de ekleyin."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Uygulamanın dilini değiştirebilir miyim?",
+          "a": [
+            "Uygulama telefonunuzun dilini izler ve 19 dili destekler. Android 13 ve sonraki sürümlerde, sistem ayarlarındaki “Uygulamalar → Relaypad → Dil” bölümünden yalnızca bu uygulama için dil seçebilirsiniz. Daha eski sürümlerde telefonun dilini değiştirin."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "Bu uygulama hangi verileri topluyor?",
+          "a": [
+            "Hangi ekranların bozulduğunu görebilmemiz için anonim kullanım olayları ve özellikleri açıp kapatan uzaktan ayarlar. Olaylar hiçbir zaman Account ID'nizi, IP adresinizi veya konsol adınızı taşımaz ve sizinle konsolunuz arasında bize ait bir sunucu yoktur. “Kullanım istatistikleri”, “Ayarlar → Gizlilik” altından kapatılabilir; uzaktan ayarlar yine de alınır."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Bir sorunu nasıl bildiririm veya nasıl öneride bulunurum?",
+          "a": [
+            "“Ayarlar → Hakkında” altındaki “Geri bildirim gönder” seçeneğini, bu sayfanın altındaki düğmeyi ya da bağlantı doktorundaki “Bize e-posta gönderin” düğmesini kullanın. E-posta; telefon modeliniz, sistem ve uygulama sürümleri, dil ve en son bağlantı doktoru özetiyle önceden doldurulur; bildiriminizi gördüklerimizle eşleştirmek için ihtiyacımız olan budur. Ne yaptığınızı ve ne olduğunu yazmanız yeterli."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

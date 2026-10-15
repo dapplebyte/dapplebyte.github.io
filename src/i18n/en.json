@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "DappleByte",
+    "tagline": "Small, useful apps, made with care.",
+    "definition": "DappleByte is an independent studio building Android apps.",
+    "kicker": "Independent studio · Android",
+    "email": "hello@dapplebyte.com"
+  },
+  "nav": {
+    "apps": "Apps",
+    "about": "About",
+    "language": "Language",
+    "skip": "Skip to content",
+    "home": "Home"
+  },
+  "footer": {
+    "studio": "Studio",
+    "contact": "Contact",
+    "languages": "Languages",
+    "privacy": "Website privacy",
+    "copyright": "© {year} DappleByte",
+    "builtWith": "Static site, no cookies, no trackers."
+  },
+  "cta": {
+    "getOnPlay": "Get {name} on Google Play",
+    "readSource": "Read the source",
+    "about": "About {name}",
+    "learnMore": "Learn more"
+  },
+  "labels": {
+    "apps": "Apps",
+    "nextApp": "Next app",
+    "nextAppBody": "In progress. It will appear here when it ships.",
+    "lastUpdated": "Last updated {date}",
+    "android": "Android",
+    "by": "by DappleByte",
+    "overview": "Overview",
+    "features": "Features",
+    "faq": "FAQ",
+    "videos": "Videos",
+    "compare": "Compare",
+    "support": "Support",
+    "privacy": "Privacy",
+    "changelog": "Release notes",
+    "press": "Press kit",
+    "sourceCode": "Source code",
+    "googlePlay": "Google Play"
+  },
+  "facts": {
+    "minOs": "{version} or later",
+    "consoles": "PS5 · PS4",
+    "languages": "{count} languages",
+    "source": "{license} source",
+    "version": "Version {version}"
+  },
+  "home": {
+    "title": "DappleByte · Independent Android apps",
+    "description": "DappleByte is an independent studio building Android apps, including Relaypad, a Remote Play controller and console streaming app for PS5 and PS4.",
+    "appsHeading": "Apps",
+    "principlesHeading": "How we work",
+    "principles": [
+      { "title": "No ads, no subscriptions.", "body": "One price, or none. Nothing renting your attention." },
+      { "title": "No server in between.", "body": "Our apps talk to your own hardware. We never see your data." },
+      { "title": "Source published.", "body": "Every release is pushed to a public repository under AGPL-3.0." },
+      { "title": "We answer every email.", "body": "Write to {email}. A person reads it." }
+    ],
+    "contactHeading": "Contact",
+    "contactBody": "Studio, press and partnerships: {email}. Each app has its own support address on its support page."
+  },
+  "about": {
+    "title": "About DappleByte",
+    "description": "DappleByte is an independent studio building Android apps: no ads, no subscriptions, no server between you and your hardware, source published under AGPL-3.0.",
+    "whatHeading": "What DappleByte is",
+    "whatBody": "DappleByte is an independent studio building Android apps. One developer, a small number of apps, each one meant to do a specific job well and then stay out of the way.",
+    "howHeading": "How we work",
+    "openSourceHeading": "Open source",
+    "openSourceBody": "Every release of every app is published as source code under the AGPL-3.0. The repository link is on each app's page. You can read exactly what the app does, build it yourself, or check that the privacy policy matches the code.",
+    "contactHeading": "Contact",
+    "contactBody": "Studio, press and partnerships: {email}. Support for a specific app goes to the address on that app's support page, so it reaches the right inbox with the right context.",
+    "trademarksHeading": "Trademarks",
+    "trademarksBody": "Product names of other companies appear on this site only to describe what our apps work with. They belong to their owners, and no affiliation or endorsement is implied.",
+    "siteHeading": "This website",
+    "siteBody": "Static HTML built with Astro and hosted on GitHub Pages. It sets no cookies and loads no third-party scripts. The site's own source is public at github.com/dapplebyte/dapplebyte.github.io."
+  },
+  "product": {
+    "title": "{name} · DappleByte",
+    "screenshotsHeading": "Screenshots",
+    "screenshotAlt": "{name} screenshot {index}",
+    "featuresHeading": "What it does",
+    "faqHeading": "Common questions",
+    "faqAll": "All questions",
+    "getHeading": "Get {name}",
+    "getBody": "Available on Google Play for Android. The source code is published under {license}.",
+    "requiresLabel": "Requires",
+    "videoHeading": "See it in action",
+    "allVideos": "All videos",
+    "moreHeading": "More about {name}"
+  },
+  "features": {
+    "title": "{feature} · {name}",
+    "indexHeading": "Features",
+    "relatedFaq": "Related questions",
+    "backToProduct": "Back to {name}",
+    "allFeatures": "All {name} features",
+    "inShort": "In short"
+  },
+  "faq": {
+    "title": "{name} FAQ",
+    "sectionTitle": "{section} · {name} FAQ",
+    "description": "Answers about {name}: ways to play, connecting, sign-in, streaming quality, controllers, purchase and refunds.",
+    "sectionDescription": "{name} FAQ, {section}: {count} questions with full answers.",
+    "intro": "The same answers are in the app under Settings → FAQ. Each section is one page; every question has its own link.",
+    "questionsCount": "{count} questions",
+    "notFoundHeading": "Didn't find your answer?",
+    "notFoundBody": "Write to us with your phone model, your console and what happened. A person reads every message.",
+    "notFoundCta": "Go to support",
+    "prev": "Previous",
+    "next": "Next",
+    "allSections": "All sections",
+    "linkToQuestion": "Link to this question"
+  },
+  "support": {
+    "title": "{name} support",
+    "description": "Get help with {name}: what to check first, how to write to us, what to include, and how refunds work.",
+    "beforeHeading": "Before you write",
+    "beforeItems": [
+      "Open the FAQ. Most connection, sign-in and picture questions are answered there, with the same wording as in the app.",
+      "If the app can't connect, run Connection Doctor from Settings. It checks your network, the console and Remote Play, and it can email the report to us with one tap.",
+      "Make sure the console is on or in rest mode with Remote Play turned on in its settings."
+    ],
+    "writeHeading": "Write to us",
+    "writeBody": "The button opens your mail app with the subject filled in. If nothing opens, copy the address and the checklist below into any email.",
+    "writeButton": "Email {email}",
+    "copyAddress": "Copy address",
+    "copied": "Copied",
+    "subject": "[{name}] ",
+    "templateHeading": "What to include",
+    "template": {
+      "phone": "Phone model:",
+      "android": "Android version:",
+      "console": "Console: PS5 / PS4",
+      "where": "At home or away from home:",
+      "what": "What happened, step by step:",
+      "doctor": "If you ran Connection Doctor, paste the report here."
+    },
+    "refundHeading": "Refunds",
+    "refundBody": "If {name} doesn't work with your setup, email us within 7 days of purchase and we'll refund it. Tell us what you tried; it helps us fix it for the next person.",
+    "replyHeading": "When you'll hear back",
+    "replyBody": "Usually within two working days. Every message is read by a person, and every message gets an answer.",
+    "faqLink": "Read the FAQ first"
+  },
+  "privacy": {
+    "title": "{name} privacy policy",
+    "description": "What {name} for Android does with your data: no account, no server of ours, what stays on the device, and where the app connects.",
+    "effective": "Effective {date}",
+    "appliesTo": "Applies to {name} for Android ({appId}), distributed on Google Play.",
+    "governing": "This policy is published in English. Translations, when available, are for convenience only; the English text governs.",
+    "contact": "Questions and requests: {email}",
+    "contents": "Contents",
+    "backToTop": "Back to top"
+  },
+  "sitePrivacy": {
+    "title": "Website privacy",
+    "description": "dapplebyte.com sets no cookies, runs no analytics and loads no third-party scripts.",
+    "items": [
+      "This website is static HTML. It sets no cookies and loads no third-party scripts, fonts or analytics.",
+      "We do not run analytics here. Our only numbers come from Google Search Console and Bing Webmaster Tools, which report search impressions in aggregate.",
+      "If you email us, we keep the message as long as needed to help you, then delete it. We do not add you to any list.",
+      "The site is hosted on GitHub Pages, which logs requests the way any web server does. See GitHub's privacy statement for details.",
+      "Each app has its own privacy policy, linked from its page. Those policies cover what the apps do; this page only covers the website."
+    ],
+    "appsHeading": "App privacy policies"
+  },
+  "videos": {
+    "title": "{name} videos",
+    "description": "Short videos showing {name} on a real phone: setup, streaming, controller layouts and fixing connection problems.",
+    "emptyHeading": "Videos are on the way",
+    "emptyBody": "We're recording a walkthrough for each feature. Until then, the feature pages and the FAQ cover the same ground.",
+    "kinds": { "promo": "Overview", "tutorial": "How-to", "troubleshooting": "Fixing problems" },
+    "watchOn": "Watch on YouTube",
+    "play": "Play video"
+  },
+  "compare": {
+    "title": "{name} compared",
+    "description": "How {name} compares with PS Remote Play, PXPlay and Chiaki on Android, feature by feature, facts only.",
+    "intro": "Facts only, checked against each app's store listing or website. Each app is described as of the date below; newer versions may differ. No app is rated here, and we don't claim any is better overall.",
+    "verified": "Checked on {date}",
+    "notVerified": "The other columns have not been verified yet, so this page is not listed in search engines.",
+    "featureColumn": "Feature",
+    "rows": {
+      "platform": "Platform",
+      "away-from-home": "Remote Play away from home",
+      "hevc-hdr": "HEVC and HDR streaming",
+      "virtual-pad-editor": "Virtual gamepad with layout editor",
+      "physical-pad": "Bluetooth or USB gamepad forwarding",
+      "tv-output": "TV output over HDMI",
+      "connection-doctor": "Built-in connection diagnostics",
+      "open-source": "Open source",
+      "pricing-model": "Pricing model"
+    },
+    "values": {
+      "yes": "Yes",
+      "no": "No",
+      "partial": "Partly",
+      "unknown": "Not checked",
+      "one-time": "One-time purchase",
+      "free": "Free",
+      "subscription": "Subscription"
+    },
+    "vsTitle": "{name} vs {other}",
+    "vsDescription": "{name} and {other} compared on Android, feature by feature: remote play away from home, HEVC and HDR, controllers, TV output, open source and pricing.",
+    "vsIntro": "Both connect an Android device to a PS5 or PS4. Here is where they differ, feature by feature.",
+    "fullComparison": "See the full comparison"
+  },
+  "changelog": {
+    "title": "{name} release notes",
+    "description": "Every {name} release for Android with what changed, newest first.",
+    "version": "Version {version}",
+    "build": "build {code}",
+    "feed": "Atom feed"
+  },
+  "press": {
+    "title": "{name} press kit",
+    "description": "Facts, assets and a boilerplate for writing about {name}, the Remote Play controller and console streaming app for Android.",
+    "intro": "Everything on this page may be used in articles, videos and app listings without asking. If you need something else, write to us.",
+    "factsHeading": "Fact sheet",
+    "facts": {
+      "name": "Name",
+      "developer": "Developer",
+      "platform": "Platform",
+      "firstReleased": "First released",
+      "currentVersion": "Current version",
+      "price": "Price",
+      "priceValue": "Paid app, one-time purchase, no subscription, no ads. The current price is shown on Google Play.",
+      "languages": "Languages",
+      "license": "License",
+      "website": "Website",
+      "store": "Store listing",
+      "source": "Source code",
+      "contact": "Contact"
+    },
+    "oneLineHeading": "One line",
+    "boilerplateHeading": "Boilerplate",
+    "boilerplate": "{name} turns an Android phone into a wireless controller for a PS5 or PS4, or streams the console's picture to the phone, a tablet or a TV, at home or away over mobile data. It is made by DappleByte, an independent studio, and published as open source under the AGPL-3.0.",
+    "assetsHeading": "Assets",
+    "assetIcon": "App icon, 512 px PNG",
+    "assetFeature": "Feature graphic, 1024 × 500 PNG",
+    "assetScreenshots": "Screenshots, 1920 × 1080 PNG, English",
+    "assetStudioMark": "DappleByte mark, SVG",
+    "screenshotN": "Screenshot {index}",
+    "contactHeading": "Press contact",
+    "contactBody": "{email}. We reply to every message, usually within two working days."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "That address doesn't exist. These do:",
+    "home": "Home"
+  },
+  "trademarks": {
+    "sony": "PlayStation, PS5 and PS4 are trademarks of Sony Interactive Entertainment Inc. {name} is not affiliated with or endorsed by Sony."
+  }
+}

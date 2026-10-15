@@ -1,0 +1,142 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ProductNav from '../../../components/ProductNav.astro';
+import { getLocale, localePath } from '../../../i18n/locales';
+import { useT, formatDate } from '../../../i18n/t';
+import { getProduct, getCopy } from '../../../lib/content';
+import { productLangPaths } from '../../../lib/routes';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../lib/jsonld';
+
+export const getStaticPaths = productLangPaths;
+
+const { locale, slug, alternates } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const copy = await getCopy(slug, locale);
+const latest = product.versions.at(-1);
+const path = `/${slug}/press/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = t('press.title', { name: product.name });
+const description = t('press.description', { name: product.name });
+const email = t('site.email');
+const facts: [string, string | undefined, string?][] = [
+  [t('press.facts.name'), product.name],
+  [t('press.facts.developer'), 'DappleByte'],
+  [t('press.facts.platform'), product.minOs ? `${product.platform}, ${t('facts.minOs', { version: product.minOs })}` : product.platform],
+  [t('press.facts.firstReleased'), product.firstReleased ? formatDate(locale, product.firstReleased, loc.lang) : undefined],
+  [t('press.facts.currentVersion'), latest ? `${latest.name}${latest.date ? ` (${formatDate(locale, latest.date, loc.lang)})` : ''}` : undefined],
+  [t('press.facts.price'), t('press.facts.priceValue')],
+  [t('press.facts.languages'), product.languages ? String(product.languages) : undefined],
+  [t('press.facts.license'), product.sourceLicense],
+  [t('press.facts.website'), `dapplebyte.com/${slug}/`, new URL(`/${slug}/`, SITE).href],
+  [t('press.facts.store'), product.playUrl?.replace('https://', ''), product.playUrl],
+  [t('press.facts.source'), product.sourceUrl?.replace('https://', ''), product.sourceUrl],
+  [t('press.facts.contact'), email, `mailto:${email}`],
+];
+const shots = Array.from({ length: product.screenshotCount }, (_, i) => i + 1);
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('labels.press'), url },
+  ]),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="press" />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">{product.name}</div>
+    <h1 class="h-page">{title}</h1>
+    <p class="lede" style="margin-top:16px">{t('press.intro')}</p>
+  </section>
+
+  <section class="wrap section press-grid">
+    <div>
+      <h2 class="h-sub" style="margin-bottom:12px">{t('press.oneLineHeading')}</h2>
+      <p class="quote">{copy.tagline}</p>
+      <h2 class="h-sub" style="margin:28px 0 12px">{t('press.boilerplateHeading')}</h2>
+      <p class="quote">{t('press.boilerplate', { name: product.name })}</p>
+      <h2 class="h-sub" style="margin:28px 0 12px">{t('press.contactHeading')}</h2>
+      <p>{t('press.contactBody', { email: '' }).replace('. ', '')}<a href={`mailto:${email}`}>{email}</a>. {t('press.contactBody', { email }).split('. ').slice(1).join('. ')}</p>
+    </div>
+    <div>
+      <h2 class="h-sub" style="margin-bottom:12px">{t('press.factsHeading')}</h2>
+      <dl class="facts">
+        {facts.map(([k, v, href]) => v && (
+          <div><dt>{k}</dt><dd>{href ? <a href={href}>{v}</a> : v}</dd></div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <h2 class="h-sub" style="margin-bottom:12px">{t('press.assetsHeading')}</h2>
+    <ul class="assets">
+      <li><a href={`/${slug}/press/icon.png`} download>{t('press.assetIcon')}</a></li>
+      <li><a href={`/${slug}/press/feature-graphic.png`} download>{t('press.assetFeature')}</a></li>
+      <li>
+        {t('press.assetScreenshots')}:
+        {shots.map((i) => <a href={`/${slug}/press/screenshot-${String(i).padStart(2, '0')}.png`} download>{t('press.screenshotN', { index: i })}</a>)}
+      </li>
+      <li><a href="/favicon.svg" download>{t('press.assetStudioMark')}</a></li>
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .press-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px 56px;
+  }
+  .quote {
+    border-inline-start: 2px solid var(--product);
+    padding-inline-start: 14px;
+    color: var(--fg-2);
+    max-width: 60ch;
+  }
+  .facts {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--line);
+  }
+  .facts > div {
+    display: grid;
+    grid-template-columns: 160px minmax(0, 1fr);
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 15px;
+  }
+  .facts dt {
+    color: var(--muted);
+  }
+  .facts dd {
+    margin: 0;
+    color: var(--fg);
+    overflow-wrap: anywhere;
+  }
+  .assets {
+    margin: 0;
+    padding-inline-start: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--fg-2);
+  }
+  .assets li a + a::before {
+    content: ' · ';
+    color: var(--muted);
+  }
+  @media (max-width: 860px) {
+    .press-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "en",
+  "title": "FAQ",
+  "intro": "The questions we get asked most, and what to do about them. Tap a question to expand it.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Ways to play",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "What is the difference between Stream, Remote and Pad on the console card?",
+          "a": [
+            "Stream plays the console on this phone over your home network, and it wakes the console first if it is in rest mode. Remote does the same from anywhere through your signed-in account. Pad turns the phone into a controller with no picture, for when you watch the game on the TV. The card remembers the last choice for each console."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "Why is there no picture in Pad mode?",
+          "a": [
+            "Pad mode only sends your input to the console, so you watch the game on the TV. It needs the phone and the console on the same network, and if the console is in rest mode it wakes it and keeps retrying for about 30 seconds. To see the game on the phone, open the menu and tap Switch to streaming."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "Can the phone be a second controller next to the one connected to the console?",
+          "a": [
+            "No. The phone connects as the Remote Play controller of the account it was set up with, so it takes the place of your controller instead of joining alongside it. A controller connected directly to the console cannot play at the same time: the console makes it use a different user, such as a guest, and the two then keep taking control from each other. Use the phone when there is no controller at hand, not as an extra player."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "I tapped Start streaming and the card switched to Remote.",
+          "a": [
+            "The app looks for the console on your current network for a few seconds. When it is not found, the card switches to Remote without connecting, so you decide whether to go through your account. At home this usually means a VPN, a guest network, or a console that is switched off completely. The connection doctor shows which one."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "I picked Remote at home, but it streams locally.",
+          "a": [
+            "When the console is on the same network, Remote streams locally instead, because that is faster. Turn off Stream locally at home in Settings if you want Remote to always go through your account, for example to try it before you leave the house."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Connecting",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "The scan finds no console.",
+          "a": [
+            "A console shows up in two ways: found on the same Wi-Fi network as the phone, or listed from your account once you are signed in. The network search does not get through a guest network, a second router or a VPN, so check those first and keep the console on or in rest mode. If it still does not show up, tap Type an IP address on the Pick your console step and enter the console's address. A typed address has to be paired with a code."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "It says Not on this network, but the phone is on the same Wi-Fi.",
+          "a": [
+            "A few things cause this on what looks like one network. A guest network is walled off from the main one even on the same router. A router that gives its 2.4 GHz and 5 GHz bands different names can put the two devices on separate subnets, and some routers keep wireless devices from seeing each other. A VPN or private DNS app can also take over the route. Run the connection doctor and read the Same network as the console line, which prints both addresses."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "The console is in rest mode and will not connect, or waking it does nothing.",
+          "a": [
+            "Start streaming wakes a console in rest mode by itself and waits up to about 25 seconds, and Pad mode keeps retrying for about 30 seconds. You can also wake it by hand under Settings, Consoles, with Wake console in the Pad mode menu, or with the home screen widget. These only work on the same network, and only if the console allows it: in its power settings, turn on Stay connected to the internet and Enable turning on the console from the network."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "It says Console is busy.",
+          "a": [
+            "The console runs one remote session at a time, and another phone, tablet or computer is still using it. Pad mode on another phone counts too. End the session on that device, or from the console itself, then try again."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "After switching modes or changing the quality, it stays on connecting for a while.",
+          "a": [
+            "The console takes a few seconds to let go of the previous session. Meanwhile the app quietly retries every 2 seconds for up to 20 seconds and connects as soon as the console is ready. Only if the console is still taken after that does it say Console is busy."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "It says Remote play is off on the console.",
+          "a": [
+            "The console is on, but it refuses remote connections. On the console, open Settings, System, Remote Play, turn on Enable Remote Play, and connect again. The Remote Play on the console line in the connection doctor shows the last known state."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "Does it reconnect on its own when the stream drops?",
+          "a": [
+            "A local stream does. It retries up to three times with a growing gap and gives up after about 30 seconds, then offers the connection doctor. A Remote connection does not retry, so connect again from the console card. It also does not retry when the console is busy, switched off, has Remote Play turned off or needs an app update, because trying again would not help."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "What does the connection doctor check?",
+          "a": [
+            "Eighteen things on this phone, on the way to the console, on the way out to the internet and on the console's home network: device capability, phone network, same network as the console, console status, Remote Play on the console, round trip time and jitter, link speed estimate, VPN and filtering apps, Bluetooth interference, router UPnP, network address translation, public IPv4 address, PlayStation Network connection, account, external screen, and the console's public address, router UPnP and NAT type. Red and yellow items come with a fix, and the report can be copied, shared or emailed to us."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "It works at home but not when I am out.",
+          "a": [
+            "Away from home, pick Remote on the console card and tap Play remotely. It connects through your account, so the account has to be added by signing in and the console has to be matched once. A connection usually takes 20 to 40 seconds, and it tries UPnP on your home router by itself. If it fails, the message says why; the next questions cover the common causes, and a home VPN is another way around it."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "Remote says it needs a console match first.",
+          "a": [
+            "Remote has to know which console on your account is the one paired on this phone. Tap the card, or open Settings, Remote connection, and pick it once under Consoles on your account. The console must already be paired on this phone, and the account must have been added by signing in, not with an Online ID."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "Remote connection fails. What are the usual causes?",
+          "a": [
+            "The message on screen names the cause. The console did not answer: keep it on or in rest mode, with Stay connected to the internet and Enable turning on the console from the network on in its power settings. The network does not allow a direct connection: try another network, turn on Port guessing for remote connection in Settings, or use a home VPN. Your carrier shares one public address between many users: port forwarding will not help, so switch networks or use a VPN. The sign-in expired: sign in to that account again."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "PSN won't connect, or the connection drops as soon as my proxy is on?",
+          "a": [
+            "Where PSN is hard to reach, a remote connection needs two different routes: the game stream has to connect directly, while sign-in and the PSN connection can go through a proxy. A proxy app in VPN mode pulls the game stream into its tunnel as well, and the session gets cut. Switch your proxy app to per-app proxy and add Relaypad to its bypass list. Then open Settings, PSN connection proxy and pick Auto, or pick Manual and enter your proxy app's local port (type HTTP, host 127.0.0.1; Clash usually uses 7890, v2rayNG 10809). The PlayStation Network connection row in the connection doctor tells you whether it works."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "Do I need to set up port forwarding?",
+          "a": [
+            "Usually not. Remote tries UPnP on its own, and forwarding only helps when your home router is what blocks the connection, not when a carrier shares one address between many users. If you do need it, Settings, Router port forwarding can map the ports automatically or list them for setting up by hand. Forwarded ports open the console to the internet, so a home VPN is the safer choice."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "What if the console's network is CGNAT or double NAT?",
+          "a": [
+            "Open the connection doctor and look at the Console's home network section. It gets measured when your phone is on the console's Wi-Fi, or when you connect remotely. Double NAT means two routers in a row, usually your provider's modem plus your own router: set the modem to bridge mode, or turn on DMZ in the modem and point it at your router. CGNAT means your provider shares one public address between many homes, so port forwarding can't help: ask your provider for a public IP address. In both cases a home VPN such as Tailscale works too, since it doesn't rely on a direct connection from outside."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "Can I play from outside my home network through a VPN?",
+          "a": [
+            "Yes, with a home VPN. Put an always-on device on the console's network and join that network from your phone: Tailscale on a NAS, a Raspberry Pi or a PC does it with one command (tailscale up --advertise-routes=your.home.subnet, then approve the route in the admin console), and a router with a built-in WireGuard or OpenVPN server works the same way. With the VPN connected, tap Start streaming on the console card as usual: the network search does not cross a VPN, so the app also tries the address the console had at home. The console must have been paired at home first, and your home upload speed becomes the limit."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "Can I keep more than one console, or more than one account?",
+          "a": [
+            "Both, and neither costs anything. Every console you pair stays on the list, and each one can be linked to a different account under Settings, Consoles. Accounts themselves are managed under Settings, Accounts."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "I moved to a new phone and my consoles are gone or will not connect.",
+          "a": [
+            "Consoles, accounts and pairing keys are not included in cloud backups, so on a new phone you set up again: add your account and pair each console once. If a phone-to-phone transfer brought the console list along, the keys still stay behind, because they are locked to the old phone: open Settings, Consoles, pick the console and tap Pair again. An account added by signing in may ask you to sign in again as well."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Setup and sign-in",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "Why does it need an Account ID?",
+          "a": [
+            "The console only pairs with a device that says which account it belongs to, so the Account ID is part of pairing itself. It is a 12-character ID tied to your account, not a password. Setup asks for it first, and you can add more accounts later under Settings, Accounts. An account added by signing in can also list the consoles on your account, set them up without a code and use Remote."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "What are the ways to add an account?",
+          "a": [
+            "Get your Account ID offers two groups. Signing in, the recommended one, has Sign in inside the app, which uses your password on the official page, and Sign in with your browser, which works with passkeys and password managers. Local setup only needs no sign-in: Use your Online ID covers 4th gen consoles below 8.0, and Enter an Account ID under Advanced takes the ID from another phone where this app is already signed in. Without signing in you can still pair and play at home, but not set up without a code or use Remote."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "My account uses a passkey. How do I sign in?",
+          "a": [
+            "Pick Sign in with your browser. Passkeys do not work on the sign-in page inside the app, but they work normally in your browser, and the address is picked up automatically when you come back to the app."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "What do I do after signing in with the browser?",
+          "a": [
+            "When the sign-in finishes, the browser lands on a blank page. That is expected. Copy the whole address from the address bar and come back to the app, where it is picked up automatically. If nothing happens, paste it into the field below and make sure the copy includes everything after code=."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "The sign-in page inside the app stays blank or will not load.",
+          "a": [
+            "Some networks and phones block that page inside apps. The app notices when it stays empty or fails, says why, and offers Try again and Use the browser instead. Signing in with the browser gives the same result, so switch to it if trying again does not help. Two-step verification is handled on the sign-in page itself."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "It says the sign-in code has expired.",
+          "a": [
+            "The code in the address only lasts a short time. Open the sign-in page again, sign in, and come straight back to the app. With the browser, tap Open sign-in page again and copy the new address."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "Can I set it up without signing in?",
+          "a": [
+            "Yes, with Local setup only. Use your Online ID works for 4th gen consoles below 8.0; for newer consoles, pick Enter an Account ID under Advanced and copy the ID from Settings, Accounts on another phone where this app is signed in. Either way you can pair and play on your home network, but setup without a code, the consoles on your account and Remote all need a signed-in account. An Online ID is looked up through a public service."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "My account says Sign-in expired.",
+          "a": [
+            "Tap Sign in again next to it under Settings, Accounts; it opens the same way you signed in before. The sign-in is only used for Remote, setup without a code and listing the consoles on your account, so consoles you already paired keep working at home either way."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "Should I pick Pair with a code or Set up without a code?",
+          "a": [
+            "Pair with a code takes a few seconds, but you have to be at the console and the phone has to be on the same network. Set up without a code works from anywhere, even with the console in rest mode, and takes about 30 seconds. It needs a 5th gen console signed in to the same account, an account added by signing in, Remote Play turned on and the latest system software. Either way, the console works the same afterward."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "Pairing failed, or the pairing code expired.",
+          "a": [
+            "A pairing code works for 300 seconds and only once. Get a fresh one on the console under Settings, System, Remote Play, Link Device, or Settings, Remote Play Connection Settings, Add Device on a 4th gen console, and enter it right away. Console passcode (optional) is a different number, the four-digit passcode set on the console, and stays empty unless the console asks for one. On a 5th gen console you can also tap Choose another way and try Set up without a code."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "Set up without a code failed.",
+          "a": [
+            "The message names the cause: the console is not on your account or not its primary console, Remote Play is off, the console did not answer, two consoles share the name, the network would not allow a direct connection, or the sign-in expired. Fix that and try without a code again, or tap Choose another way and pair with a code at the console, which needs the phone on the same network."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "What happens if I remove an account?",
+          "a": [
+            "Only this phone forgets it, along with its sign-in. Consoles linked to it keep working at home, but have no account until you pick one under Settings, Consoles, the console, Console account. Nothing changes on the console or on the account itself."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "Do you see my password?",
+          "a": [
+            "No. You type your password on the official sign-in page, and this app has no server of its own, so nothing you type there passes through us. The app keeps the Account ID, the Online ID and the sign-in tokens on this phone, and the tokens and pairing keys are encrypted with the Android keystore. Looking up an Online ID goes through a public service."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Streaming and picture",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "Where are the controls during a stream?",
+          "a": [
+            "The top bar fades out after a few seconds. Tap an empty spot on the picture to bring it back: the sliders icon opens the quick panel, and Hold to exit ends the stream. A long press on an empty spot also opens the quick panel."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "What is the free tier limited to?",
+          "a": [
+            "Streaming on your home network at up to 720p and 30 fps with H.264, with no time limit and no ads. The cap is applied every time a session starts. Pad mode is free in full with no cap. Streaming on Android TV needs Pro."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "How do I turn on 1080p and 60 fps?",
+          "a": [
+            "Pick them under Settings, Video quality. You can also pick them under Video quality in the quick panel during a stream, then tap Reconnect to apply. Your phone has to be able to keep up, so the connection doctor is worth a run if the picture stutters at 1080p."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "Can I change the resolution or frame rate during a stream?",
+          "a": [
+            "Yes. Open the quick panel, choose under Video quality and tap Reconnect to apply; the picture pauses for a few seconds. A Remote connection cannot switch mid-stream, so your choice applies the next time you connect. Codec, bitrate and decoder are under Settings, Video quality."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "What is the difference between Fit the screen, Stretch to fill and Zoom to fill?",
+          "a": [
+            "Fit the screen keeps the proportions and leaves black bars. Stretch to fill fills the screen and slightly distorts the picture. Zoom to fill fills the screen by cutting off the edges, which is the usual choice on a tall phone. Change it under Settings, Scaling, or under Scaling in the quick panel."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "On a tablet or foldable, the on-screen pad covers the picture.",
+          "a": [
+            "Open the quick panel and set Layout to Split: the picture and the on-screen gamepad are placed apart so neither covers the other. Auto already does this when the screen is upright or a foldable is half open. These options appear only on tablets and foldables, and they are free."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "The picture looks darker than it should.",
+          "a": [
+            "That is Screen dim in the quick panel. It darkens the picture so the on-screen buttons stand out; slide it all the way down to turn it off. It is separate from Overlay opacity, which fades the buttons themselves."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "The picture stutters or drops frames.",
+          "a": [
+            "Almost always the wireless link rather than the phone. Join the 5 GHz network of the same router, move closer to it, and wire the console if you can. Run the connection doctor and look at the round trip time and the link speed estimate: above 30 ms or below 15 Mbps the picture will not hold. During a stream, lowering the resolution or frame rate in the quick panel helps right away."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "The picture breaks up or freezes, but the sound keeps playing.",
+          "a": [
+            "Open the quick panel and tap Fix picture under Actions: it asks the console for a fresh picture. If it keeps happening, lower the resolution and run the connection doctor."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "What do the numbers on the performance overlay mean?",
+          "a": [
+            "Latency adds up the round trip time and the time this phone spends decoding and drawing a frame, so it is an estimate that leaves out the console and your screen. It shows green under 60 ms and red over 100 ms. If the bitrate is far below what you set, the network is holding it back; if the bitrate is fine but decoding takes long, the phone is. Pick Compact or Detailed in the quick panel."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "HEVC or HDR cannot be selected, or the stream uses H.264 instead.",
+          "a": [
+            "HEVC needs a decoder for it on this phone, and HDR needs a screen that supports it; the quality page says why an option is unavailable. If the phone cannot decode the format when a stream starts, the stream switches to H.264 or SDR by itself and tells you."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "Can the stream keep playing when I switch to another app?",
+          "a": [
+            "Yes. Leave the app during a stream and the picture shrinks into a small window that keeps playing. Tap it to go back to full screen without reconnecting, or close it to end the stream. It does not start while the picture is on a TV, and you can turn it off under Settings, Picture-in-picture."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "How much data does streaming use?",
+          "a": [
+            "It depends on the resolution: up to about 1 GB per hour at 360p, 2.7 GB at 540p, 4.5 GB at 720p and 6.8 GB at 1080p, and more with a manual bitrate. Actual use is often lower. On mobile data the app uses 720p at 30 fps by default, for streaming at home over a VPN and for Remote alike. To keep your own quality, turn off Settings, Mobile data."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "Can I put the picture on a TV?",
+          "a": [
+            "Yes. While you are streaming, connect your phone to the TV with a USB-C to HDMI cable, or start screen casting from your system settings. The TV then shows only the game and your phone becomes the controller. Nothing is installed on the TV and you never sign in there, so a hotel or a friend's TV is fine."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "The picture on the TV feels delayed",
+          "a": [
+            "Switch the TV to its game mode first. In their normal picture modes most TVs add 60 to 120 ms of delay; game mode brings that down to 10 to 30 ms, and nothing else you can change comes close. After that, a cable beats casting: wireless casting has to encode the picture a second time, which adds another 100 ms or more. Last comes the stream itself, which is faster on a good network and much faster at home than over the internet."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "I plugged in the cable and nothing happens",
+          "a": [
+            "Not every phone can send video out of its USB-C port. Flagships usually can, mid-range phones often cannot, and there is no way to check before you try. Run the connection doctor with the cable plugged in: the external screen line tells you whether the system sees the TV at all. If it does not, the phone or the adapter is the reason, and wireless casting from your system settings is the way around it."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "Can I charge while the HDMI cable is connected?",
+          "a": [
+            "Only with an adapter that has its own power input. The USB-C port is taken by the video signal, and streaming plus decoding drains the battery quickly, so a powered USB-C hub with HDMI and pass-through charging is worth having for long sessions."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "The TV in my hotel room does not work",
+          "a": [
+            "Some hotel TVs have their HDMI ports disabled or hidden behind the panel, and the app cannot do anything about that. If the TV has a port you can reach, the cable behaves like any other TV. Otherwise the stream still plays on your phone as usual."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "Will copy protection black out the picture?",
+          "a": [
+            "No. What the app decodes is an ordinary video stream, not protected content, so the TV shows it normally over HDMI. You will not get the black screen that some video apps give you on an external display."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Controllers",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "Can I move the on-screen buttons?",
+          "a": [
+            "Yes, and it is free. Open Settings, Pad layouts to see every layout, rename or delete your own, and tap one to drag, resize, fade or hide any control. Presets offers Standard, Compact, Remote, Fighting and Racing to start from, and Export JSON and Import JSON move a layout to another phone through the clipboard. On phones you edit landscape layouts; tablets also get a Portrait tab for the layouts used in split view."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "Can I use my own layout while streaming?",
+          "a": [
+            "Yes. In the quick panel, under Layout, tap Custom and pick one of your landscape layouts. Compact and Standard are the built-in choices, made to cover as little of the picture as possible. If the layout you picked is deleted, streaming goes back to Compact. Editing a built-in layout saves your version as a copy, so the original stays available."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "The on-screen pad is missing or faint while streaming.",
+          "a": [
+            "Check Gamepad in the quick panel: Auto hides the pad while a physical controller is connected, Hidden always hides it, and Always keeps it on screen. Minimal mode hides it too. Streams start with the Compact layout, which uses smaller, fainter keys, so switch Layout to Standard or raise Overlay opacity if they are hard to see."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "How do I switch between a stick and a D-pad on the Compact layout?",
+          "a": [
+            "Tap the small tab at the bottom edge of the round control. It switches between stick and D-pad, and the left and right sides switch separately."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "How does the on-screen touchpad work?",
+          "a": [
+            "Slide one or two fingers on it to send touches, and tap it quickly for a touchpad click. Holding a click down is not supported."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "Can I use a real controller with it?",
+          "a": [
+            "Yes. Any controller Android recognises over Bluetooth or USB is forwarded, with a default mapping chosen from its maker. In Pad mode the on-screen pad stays usable next to it. While streaming, the app asks once whether to show the on-screen pad as well, and Gamepad in the quick panel changes that later. Several controllers and the on-screen pad all count as one controller on the console."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "The buttons on my controller are in the wrong places.",
+          "a": [
+            "Open Settings, Button mapping with the controller connected and pick it. Tap an action and press the key you want; sticks can be inverted, and Live test shows what each key sends. Tap Save to keep the changes. The mapping is stored per controller model, so two controllers of the same model share it, and Reset brings back the default."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "My controller has no PS button or touchpad, or they do nothing.",
+          "a": [
+            "Most controllers get combos: Select and Start together act as the PS button, and Select and L3 as a touchpad click. A controller that already has a PS button only gets the touchpad combo. The combos cannot be changed, but under Settings, Button mapping you can bind PS, Touchpad or MIC to any single key instead. The Standard on-screen layout has every key as well."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "Does a controller made for the console work fully on the phone?",
+          "a": [
+            "Over Bluetooth, its buttons and sticks are forwarded, but its touchpad swipes, motion sensor and microphone are not. Connected over USB while streaming, tap Allow in the quick panel to get adaptive triggers, the light bar and controller haptics, free for everyone. If it says USB access blocked, another driver on the phone holds the controller, so connect it over Bluetooth instead."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "How do vibration and button haptics work?",
+          "a": [
+            "Vibration from the game goes to the physical controller when it has motors, and to the phone otherwise. The short buzz when you press on-screen keys is Button haptics under Input in the Pad mode menu: each tap moves to the next level, from off up to 3, and the level you pick is remembered."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "Where are the microphone and motion sensing?",
+          "a": [
+            "In Pad mode, both are under Input in the menu. Motion sensing sends the phone's gyroscope and accelerometer, and it starts off each time you connect. The microphone asks for permission first; after that, tapping it switches between Live and Muted. While streaming there is no motion sensing, and the microphone is the MIC key on the on-screen pad. Both are free."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "How do I put the console to rest or go to its home screen?",
+          "a": [
+            "In Pad mode, Actions in the menu has Wake console, Put console to rest, Console home, and Lock screen, which ignores touches until you unlock it. The PS button on the on-screen pad works too."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "Can I use it to control video apps on the console?",
+          "a": [
+            "Yes. In Pad mode, turn on Remote layout under Layout in the menu for big keys made for media apps. Turn it off again to pick another layout."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "AI copilot",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "Does AI copilot cost anything?",
+          "a": [
+            "Not from us. It runs on your own API key: we never handle it and add nothing on top, and the provider bills you directly for what you use. The Game guides section in Settings, AI copilot shows a rough cost per guide for the provider you picked, and Usage keeps an estimate for this month, including how many web searches were made."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "Where does my screen go?",
+          "a": [
+            "Only when you ask: your guide topic, the game name and, if you attach it, a downsized frame of the stream go straight to the provider you set up, which runs the web searches. There is no server of ours in between, and we keep no logs; guides are saved on this phone only. Your key is stored encrypted on this phone, and without a key nothing is sent anywhere."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "Where do the game guides come from?",
+          "a": [
+            "When you search for a guide, the model you set up searches the web itself: Anthropic, Google, OpenAI and DeepSeek all run the searches on their side. It reads the results and writes a step-by-step guide in your language, with the sources listed underneath. Guides are saved on this phone only, so reopening one costs nothing."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "Why does my guide say No web search?",
+          "a": [
+            "Only Anthropic, Google, DeepSeek and OpenAI's own endpoint can search the web. A self-hosted or third-party OpenAI-compatible endpoint, such as OpenRouter or Ollama, answers from the model's own knowledge, which may be out of date for newer games. For searched guides, pick the Anthropic, Google or DeepSeek card, or enter OpenAI's own endpoint on the OpenAI compatible card."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "How much does one guide cost?",
+          "a": [
+            "Anthropic and OpenAI charge about one US cent per web search on top of tokens, so a guide is roughly 8 to 15 cents. Google includes thousands of free searches a month. DeepSeek charges only for tokens, well under a cent. Search depth in Settings caps the number of searches, and Usage shows this month's estimate."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "How do I get an API key?",
+          "a": [
+            "Anthropic: create one under API keys in the Anthropic Console. Google: tap Get API key in Google AI Studio. DeepSeek: create one under API keys on the DeepSeek Platform. OpenAI compatible: use the key from your provider's dashboard, such as OpenAI or OpenRouter; for Ollama on your own computer, enter its address as the Base URL, type anything as the key and pick a model that can read images. The Anthropic, Google and DeepSeek cards in Settings, AI copilot have a Get a key link."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "Why is the guide wrong?",
+          "a": [
+            "Sources can be outdated or about another version or platform; the guide names the version when the sources do. Ask a follow-up with the chapter, the boss name or your build, and the guide is rewritten for you. If the game name is missing or wrong, fix it in the panel before searching, or try another model in Settings."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "How do I change the voice commands?",
+          "a": [
+            "There are 8 built-in commands, such as Open map, Pause and Screenshot. Open Settings, AI copilot, Voice commands and tap one to change the button it presses or add your own phrases; anything that isn't a command goes to the game guide panel, as a topic or as a follow-up. On phones without a speech recognition service, or without the microphone permission, type in the panel instead."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "AI copilot can't reach the provider?",
+          "a": [
+            "AI requests don't go through the app's PSN connection proxy; they go out over your phone's own connection. If Anthropic, Google or DeepSeek can't be reached where you are, switch to another provider card, or to OpenAI compatible and enter an endpoint you can reach, or Ollama on your own computer. Test connection on the same page tells you whether it works."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "How do I turn AI copilot off?",
+          "a": [
+            "Turn off Use AI copilot in Settings, AI copilot. A long press on the stream then opens the quick panel again, and the AI keys are gone from the top bar. To remove your key too, tap Clear next to it; the encrypted copy is deleted right away."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "Can I use it if I can't see the screen well?",
+          "a": [
+            "Yes. Describe the screen in the quick panel, or saying Read it to me into the voice button, says the most important thing first and then reads out the text on screen. Guides in the panel work with TalkBack, and each step can be ticked off. With TalkBack on, screen descriptions in the caption bar are read out by TalkBack; without it, turn on Read answers aloud in Settings."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Purchase and refunds",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "Is this a subscription?",
+          "a": [
+            "No. You buy the app once on Google Play and that is all: no subscription, no in-app purchases, no ads, and no feature that asks for a second payment later. The purchase is tied to your Google account, not to the phone."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "I installed it during a free promotion. Will features get locked later?",
+          "a": [
+            "No. Installing during a promotion counts as buying the app at that price, so it is yours for good with every feature. It stays that way after the promotion ends, and the same Google account can install it again on a new phone at no charge."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "How do I install it on a new phone?",
+          "a": [
+            "Open the store page with the same Google account you bought with and it shows Install instead of a price. Consoles are not carried over, so pair each console again on the new phone; the pairing keys stay on the phone they were made on."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "What's included?",
+          "a": [
+            "Everything, from the first launch: streaming at 1080p and 60 fps, manual bitrate, HEVC and HDR, FSR sharpening and the performance overlay, playing from outside your home network, streaming on Android TV, picture-in-picture, and the game on a TV with your phone as the controller. Pad mode, the connection doctor, the console shortcut widget and as many consoles and accounts as you like are all there too."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "How do I get a refund?",
+          "a": [
+            "Within 48 hours of buying, request a refund yourself from your order history in Google Play, which is the fastest route. After that, email us within 7 days of the purchase and we refund it, no questions asked. Include the order number from the Google Play receipt so we can find the purchase."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "I paid full price right before a sale started.",
+          "a": [
+            "Write to us. Within 48 hours of buying, the fastest route is to refund the purchase yourself from your order history in Google Play and buy again at the sale price. After that, email us with the order number from the Google Play receipt and we refund the difference."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "More",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "Can I wake the console from the home screen?",
+          "a": [
+            "Yes. Add the Console shortcut widget from your launcher's widget list and pick a console. Wake sends the wake-up without opening the app. Connect opens Pad mode when the widget last found the console on your network, and opens the app otherwise. Both work only on the same network, and the widget is free."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "Is there an Android TV version?",
+          "a": [
+            "Yes, the same app installs on Android TV and Google TV. Open the store on the TV with the same Google account you bought with and it installs at no extra charge. The TV needs a Bluetooth or USB controller to play; the remote only moves around the menus. During a stream, press OK or Menu on the remote, or hold L1, R1, L3 and R3 together on the controller, to open the quick panel."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "How do I pair a console on the TV?",
+          "a": [
+            "Choose Add a console on the TV home screen and pick your console model. At the account step, open this app on your phone, go to Settings, Accounts, copy the Account ID shown there and type it on the TV; it is 12 characters and usually ends with =. Then pick the console and enter the pairing code from the console with the keypad on the TV screen. The TV only pairs with a code."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "It says the console system has been updated and I have to wait.",
+          "a": [
+            "A console system update changed the version of the Remote Play protocol it speaks, and nothing on the phone side can work around that. The fix is an app update, which we treat as urgent. If it has been more than a few days, write to us and include the system software version of the console."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Can I change the app language?",
+          "a": [
+            "The app follows the language of your phone and supports 19 languages. On Android 13 and later you can pick a language for this app alone in the system settings, under Apps, Relaypad, Language. On older versions, change the phone language."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "What data does this app collect?",
+          "a": [
+            "Anonymous usage events, so we can see which screens break, and remote settings, which switch features on or off. Events never carry your Account ID, your IP address or your console name, and there is no server of ours between you and your console. Usage statistics can be turned off under Settings, Privacy; remote settings are still fetched."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "How do I report a problem or suggest something?",
+          "a": [
+            "Use Send feedback under Settings, About, the button at the bottom of this page, or Email us in the connection doctor. The email is prefilled with your phone model, the system and app versions, the language and the latest connection doctor summary, which is what we need to match your report against what we see. Just write what you did and what happened."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

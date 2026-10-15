@@ -1,0 +1,127 @@
+{
+  "slug": "relaypad",
+  "locale": "pt-br",
+  "title": "Relaypad: Remote Play Controle",
+  "shortDescription": "Sem anúncios nem assinatura. PS5 e PS4: manete no celular, streaming, HDMI na TV",
+  "requires": "Requer um PS5 ou PS4 com o Remote Play ativado nas configurações.",
+  "tagline": "O Relaypad transforma o seu celular Android em um controle sem fio para o console, ou transmite a imagem dele para o celular, tablet ou TV, em casa ou na rua.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Controle Remote Play e streaming do console para PS5 e PS4",
+      "paragraphs": [
+        "O Relaypad transforma o seu celular Android em um controle sem fio para o console, ou transmite a imagem dele para o celular, tablet ou TV, em casa ou na rua."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Para que as pessoas usam o Relaypad",
+      "paragraphs": [],
+      "bullets": [
+        "Continuar jogando quando a bateria do controle acaba",
+        "Navegar pelos menus e apps de vídeo do console com as teclas grandes do controle remoto",
+        "Jogar na cama ou em outro cômodo com o console lá perto da TV",
+        "Colocar a imagem na TV do hotel via HDMI, com o celular como controle"
+      ]
+    },
+    {
+      "id": "virtual-gamepad",
+      "title": "Controle virtual, editor de layout e mapeamento de botões",
+      "paragraphs": [],
+      "bullets": [
+        "Cinco layouts: padrão, compacto, controle remoto, luta e corrida",
+        "Arraste, redimensione ou esconda botões e use seus layouts no streaming",
+        "Touchpad, vibração, microfone e sensor de movimento",
+        "Repasse um controle Bluetooth ou USB com mapeamento de botões automático",
+        "Controles USB no streaming: gatilhos adaptáveis, barra de luz e resposta háptica"
+      ]
+    },
+    {
+      "id": "console-streaming",
+      "title": "Streaming do console em até 1080p60 com HEVC e HDR",
+      "paragraphs": [],
+      "bullets": [
+        "30 ou 60 fps em até 1080p, bitrate manual, HEVC e HDR em celulares compatíveis",
+        "Nitidez FSR e sobreposição com fps, perda de pacotes e latência total",
+        "Saída para a TV via HDMI, picture-in-picture e tela dividida em tablets e dobráveis",
+        "Modo mínimo, escala Ajustar, Esticar ou Ampliar, e reconexão automática no Wi-Fi de casa",
+        "A economia de dados baixa para 720p/30fps nos dados móveis"
+      ]
+    },
+    {
+      "id": "remote-play-away",
+      "title": "Remote Play fora de casa pelos dados móveis",
+      "paragraphs": [],
+      "bullets": [
+        "Faça login uma vez e conecte por 5G, 4G ou outro Wi-Fi, geralmente sem mexer no roteador",
+        "Abertura automática de portas por UPnP, e VPNs caseiras como Tailscale também funcionam",
+        "Avisa quando o endereço compartilhado da operadora (CGNAT) bloqueia a conexão"
+      ]
+    },
+    {
+      "id": "connection-doctor",
+      "title": "Diagnóstico de conexão: descubra por que não conecta",
+      "paragraphs": [],
+      "bullets": [
+        "13 verificações: rede, console em repouso, opção do Remote Play, latência e jitter",
+        "Faixa do Wi-Fi, VPN, interferência de Bluetooth, UPnP, tipo de NAT e IPv4 público",
+        "Copie o relatório ou mande para a gente por e-mail com um toque"
+      ]
+    },
+    {
+      "id": "guided-setup",
+      "title": "Configuração guiada em quatro passos",
+      "paragraphs": [],
+      "bullets": [
+        "Faça login no app ou no navegador (com chaves de acesso) ou digite o ID da sua conta",
+        "PS5: registre sem PIN, mesmo em repouso; ou pareie com o código de 8 dígitos",
+        "Salve vários consoles e contas; renomeie ou pareie de novo quando quiser"
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Sem anúncios, sem assinatura",
+      "paragraphs": [
+        "O Relaypad não exibe anúncios e não tem assinatura. Trocou de celular? Instale de novo com a mesma conta Google sem pagar outra vez. Se não funcionar no seu caso, mande um e-mail em até 7 dias após a compra e devolvemos o valor."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacidade",
+      "paragraphs": [
+        "Não existe conta nem servidor do Relaypad entre você e o console. As chaves de pareamento e os tokens de login ficam no seu aparelho, criptografados com o Android Keystore. Dá para desativar as estatísticas anônimas."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "before-you-buy",
+      "title": "Antes de comprar",
+      "paragraphs": [],
+      "bullets": [
+        "Você precisa ter seu próprio console; não inclui jogos nem é jogo na nuvem",
+        "Android 8.0 ou superior; recomendamos 4 GB de RAM e Wi-Fi de 5 GHz",
+        "O celular substitui o controle: não dá para usar junto com um controle ligado ao console",
+        "Após uma atualização de sistema do console, o Relaypad pode precisar ser atualizado para conectar"
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Algo não funciona? Mande um e-mail",
+      "paragraphs": [
+        "Antes de avaliar, escreva para feedback@dapplebyte.com ou use Configurações → Sobre → Enviar feedback para incluir o modelo do celular automaticamente. Lemos todas as mensagens."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "trademark",
+      "title": "Aviso de marcas registradas",
+      "paragraphs": [
+        "PlayStation®, PS4® e PS5® são marcas registradas da Sony Interactive Entertainment Inc. Relaypad é um cliente independente de Remote Play, sem afiliação com a Sony e sem autorização ou endosso dela. Funciona apenas com hardware e conteúdo de sua propriedade e não contorna a proteção contra cópia nem viabiliza a pirataria."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

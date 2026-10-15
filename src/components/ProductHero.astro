@@ -1,0 +1,128 @@
+---
+import { Image } from 'astro:assets';
+import { localePath } from '../i18n/locales';
+import { useT } from '../i18n/t';
+import type { Product, ProductCopy } from '../lib/content';
+import { screenshot } from '../lib/screenshots';
+
+interface Props {
+  locale: string;
+  product: Product;
+  copy: ProductCopy;
+  /** Name is rendered as <h1> on the product page and <h2>/<h3> elsewhere. */
+  level?: 1 | 2 | 3;
+  /** Link the name and add "About" instead of showing it as the current page. */
+  linkTo?: string;
+  kicker?: string;
+  shot?: number;
+}
+const { locale, product, copy, level = 1, linkTo, kicker, shot = 2 } = Astro.props;
+const { t } = useT(locale);
+const Heading = `h${level}` as 'h1' | 'h2' | 'h3';
+const img = screenshot(product.slug, locale, shot);
+const iconSrc = `/${product.slug}/icon.png`;
+const useCases = copy.sections.find((s) => s.id === 'use-cases');
+---
+
+<article class="hero-tile">
+  <div class="hero-copy">
+    <div class="hero-id">
+      <img src={iconSrc} alt="" width="52" height="52" class="hero-icon" />
+      <div>
+        <Heading class="display hero-name">
+          {linkTo ? <a href={linkTo}>{product.name}</a> : product.name}
+        </Heading>
+        <div class="mono">{kicker ?? `${product.platform} · ${t('facts.consoles')}`}</div>
+      </div>
+    </div>
+    <p class="hero-tagline">{copy.tagline}</p>
+    {useCases && (
+      <ul class="hero-points">
+        {useCases.bullets.slice(0, 3).map((b) => <li>{b}</li>)}
+      </ul>
+    )}
+    <div class="actions">
+      {product.playUrl && <a class="button" href={product.playUrl}>{t('cta.getOnPlay', { name: product.name })}</a>}
+      {linkTo ? (
+        <a class="link-plain" href={linkTo}>{t('cta.about', { name: product.name })} →</a>
+      ) : (
+        product.sourceUrl && <a class="link-plain" href={product.sourceUrl}>{t('cta.readSource')}</a>
+      )}
+    </div>
+  </div>
+  <div class="hero-media">
+    <div class="crop">
+      {img && <Image src={img} alt={t('product.screenshotAlt', { name: product.name, index: shot })} widths={[640, 960, 1280]} sizes="(max-width: 860px) 100vw, 640px" loading={level === 1 ? 'eager' : 'lazy'} />}
+    </div>
+  </div>
+</article>
+
+<style>
+  .hero-tile {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    border: 1px solid var(--line);
+    background: var(--surface);
+  }
+  .hero-copy {
+    grid-column: span 5;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: clamp(22px, 3vw, 36px);
+    border-inline-end: 1px solid var(--line);
+  }
+  .hero-media {
+    grid-column: span 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--bg-deep);
+  }
+  .hero-media .crop {
+    width: 100%;
+  }
+  .hero-id {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .hero-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    display: block;
+  }
+  .hero-name {
+    font-size: 28px;
+    line-height: 1.1;
+  }
+  .hero-name a {
+    color: var(--fg);
+    text-decoration: none;
+  }
+  .hero-tagline {
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 500;
+  }
+  .hero-points {
+    margin: 0;
+    padding-inline-start: 1.1em;
+    color: var(--fg-2);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  @media (max-width: 860px) {
+    .hero-copy,
+    .hero-media {
+      grid-column: span 12;
+    }
+    .hero-copy {
+      border-inline-end: 0;
+      border-bottom: 1px solid var(--line);
+    }
+  }
+</style>

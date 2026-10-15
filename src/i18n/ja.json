@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "DappleByte",
+    "tagline": "小さくて役に立つアプリを、ていねいに。",
+    "definition": "DappleByte は、Android アプリをつくっている独立系スタジオです。",
+    "kicker": "独立系スタジオ · Android",
+    "email": "hello@dapplebyte.com"
+  },
+  "nav": {
+    "apps": "アプリ",
+    "about": "スタジオについて",
+    "language": "言語",
+    "skip": "本文へスキップ",
+    "home": "ホーム"
+  },
+  "footer": {
+    "studio": "スタジオ",
+    "contact": "お問い合わせ",
+    "languages": "言語",
+    "privacy": "サイトのプライバシー",
+    "copyright": "© {year} DappleByte",
+    "builtWith": "静的サイトです。Cookie もトラッカーも使っていません。"
+  },
+  "cta": {
+    "getOnPlay": "Google Play で {name} を入手",
+    "readSource": "ソースコードを見る",
+    "about": "{name} について",
+    "learnMore": "詳しく見る"
+  },
+  "labels": {
+    "apps": "アプリ",
+    "nextApp": "次のアプリ",
+    "nextAppBody": "開発中です。リリースしたらここに載せます。",
+    "lastUpdated": "最終更新：{date}",
+    "android": "Android",
+    "by": "開発：DappleByte",
+    "overview": "概要",
+    "features": "機能",
+    "faq": "よくある質問",
+    "videos": "動画",
+    "compare": "比較",
+    "support": "サポート",
+    "privacy": "プライバシー",
+    "changelog": "更新履歴",
+    "press": "プレスキット",
+    "sourceCode": "ソースコード",
+    "googlePlay": "Google Play"
+  },
+  "facts": {
+    "minOs": "{version} 以降",
+    "consoles": "PS5 · PS4",
+    "languages": "{count} 言語",
+    "source": "{license} でソース公開",
+    "version": "バージョン {version}"
+  },
+  "home": {
+    "title": "DappleByte · 独立系スタジオの Android アプリ",
+    "description": "DappleByte は Android アプリをつくっている独立系スタジオです。PS5・PS4 向けのリモートプレイ用コントローラー兼ゲーム機ストリーミングアプリ Relaypad などを開発しています。",
+    "appsHeading": "アプリ",
+    "principlesHeading": "大切にしていること",
+    "principles": [
+      { "title": "広告なし、サブスクなし", "body": "価格は一度きり、もしくは無料。あなたの注意を切り売りすることはしません。" },
+      { "title": "間にサーバーを挟まない", "body": "アプリはお手元の機器と直接やり取りします。あなたのデータを私たちが見ることはありません。" },
+      { "title": "ソースコードを公開", "body": "すべてのリリースを AGPL-3.0 で公開リポジトリに載せています。" },
+      { "title": "メールには必ず返信します", "body": "{email} までどうぞ。自動返信ではなく、人が読んでいます。" }
+    ],
+    "contactHeading": "お問い合わせ",
+    "contactBody": "スタジオ全般、取材、提携のご相談は {email} まで。アプリごとのサポート窓口は、各アプリのサポートページに載せています。"
+  },
+  "about": {
+    "title": "DappleByte について",
+    "description": "DappleByte は Android アプリをつくっている独立系スタジオです。広告なし、サブスクなし、あなたと機器の間にサーバーを挟まず、ソースコードは AGPL-3.0 で公開しています。",
+    "whatHeading": "DappleByte とは",
+    "whatBody": "DappleByte は Android アプリをつくっている独立系スタジオです。開発者は一人、アプリは少しだけ。どのアプリも決まった役目をしっかり果たし、それ以外では邪魔をしないことを目指しています。",
+    "howHeading": "大切にしていること",
+    "openSourceHeading": "オープンソース",
+    "openSourceBody": "すべてのアプリのすべてのリリースを、AGPL-3.0 のもとでソースコードとして公開しています。リポジトリへのリンクは各アプリのページにあります。アプリが実際に何をしているかを読むことも、自分でビルドすることも、プライバシーポリシーがコードと一致しているか確かめることもできます。",
+    "contactHeading": "お問い合わせ",
+    "contactBody": "スタジオ全般、取材、提携のご相談は {email} まで。特定のアプリのサポートは、そのアプリのサポートページにある窓口へお送りください。そのほうが、必要な状況と一緒に適切な窓口に届きます。",
+    "trademarksHeading": "商標",
+    "trademarksBody": "このサイトに他社の製品名が出てくるのは、私たちのアプリが何と一緒に使えるかを説明するためだけです。各名称はそれぞれの権利者に帰属し、提携や推奨の関係を示すものではありません。",
+    "siteHeading": "このウェブサイトについて",
+    "siteBody": "Astro で生成した静的 HTML を GitHub Pages でホストしています。Cookie は使わず、サードパーティのスクリプトも読み込みません。サイト自体のソースコードも github.com/dapplebyte/dapplebyte.github.io で公開しています。"
+  },
+  "product": {
+    "title": "{name} · DappleByte",
+    "screenshotsHeading": "スクリーンショット",
+    "screenshotAlt": "{name} のスクリーンショット {index}",
+    "featuresHeading": "できること",
+    "faqHeading": "よくある質問",
+    "faqAll": "すべての質問",
+    "getHeading": "{name} を入手",
+    "getBody": "Android 向けに Google Play で配信中です。ソースコードは {license} で公開しています。",
+    "requiresLabel": "動作環境",
+    "videoHeading": "実際の動きを見る",
+    "allVideos": "すべての動画",
+    "moreHeading": "{name} をもっと知る"
+  },
+  "features": {
+    "title": "{feature} · {name}",
+    "indexHeading": "機能",
+    "relatedFaq": "関連する質問",
+    "backToProduct": "{name} に戻る",
+    "allFeatures": "{name} のすべての機能",
+    "inShort": "ポイント"
+  },
+  "faq": {
+    "title": "{name} よくある質問",
+    "sectionTitle": "{section} · {name} よくある質問",
+    "description": "{name} についての回答：遊び方、接続、ログイン、ストリーミング画質、コントローラー、購入と返金。",
+    "sectionDescription": "{name} よくある質問「{section}」：{count} 件の質問と詳しい回答。",
+    "intro": "同じ回答は、アプリの「設定 → よくある質問」でも読めます。セクションごとに 1 ページで、質問ごとに個別のリンクがあります。",
+    "questionsCount": "{count} 件の質問",
+    "notFoundHeading": "答えが見つかりませんでしたか？",
+    "notFoundBody": "スマートフォンの機種、ゲーム機、何が起きたかを書いてお送りください。すべてのメッセージを人が読んでいます。",
+    "notFoundCta": "サポートへ",
+    "prev": "前へ",
+    "next": "次へ",
+    "allSections": "すべてのセクション",
+    "linkToQuestion": "この質問へのリンク"
+  },
+  "support": {
+    "title": "{name} サポート",
+    "description": "{name} のサポート：まず確認すること、問い合わせ方法、書いてほしい内容、返金について。",
+    "beforeHeading": "お問い合わせの前に",
+    "beforeItems": [
+      "まずよくある質問を開いてください。接続、ログイン、映像についての質問はほとんど、アプリ内と同じ文面でそこに回答があります。",
+      "アプリが接続できない場合は、設定から「接続診断」を実行してください。ネットワーク、ゲーム機、リモートプレイを確認し、ワンタップでレポートを私たちにメールで送れます。",
+      "ゲーム機の電源が入っているかスタンバイモードになっていて、ゲーム機の設定でリモートプレイが有効になっていることを確認してください。"
+    ],
+    "writeHeading": "メールで問い合わせる",
+    "writeBody": "ボタンを押すと、件名が入った状態でメールアプリが開きます。何も開かない場合は、アドレスと下のチェックリストをコピーして、お使いのメールに貼り付けてください。",
+    "writeButton": "{email} にメール",
+    "copyAddress": "アドレスをコピー",
+    "copied": "コピーしました",
+    "subject": "[{name}] ",
+    "templateHeading": "書いてほしいこと",
+    "template": {
+      "phone": "スマートフォンの機種：",
+      "android": "Android のバージョン：",
+      "console": "ゲーム機：PS5 / PS4",
+      "where": "自宅か外出先か：",
+      "what": "何が起きたか（手順を順番に）：",
+      "doctor": "接続診断を実行した場合は、レポートをここに貼り付けてください。"
+    },
+    "refundHeading": "返金",
+    "refundBody": "お使いの環境で {name} が動かない場合は、購入から 7 日以内にメールをいただければ返金します。試したことも教えてください。次の方のための修正に役立ちます。",
+    "replyHeading": "返信までの目安",
+    "replyBody": "通常は 2 営業日以内です。すべてのメッセージを人が読み、すべてに返信します。",
+    "faqLink": "まずよくある質問を読む"
+  },
+  "privacy": {
+    "title": "{name} プライバシーポリシー",
+    "description": "Android 版 {name} がデータをどう扱うか：アカウント不要、私たちのサーバーなし、端末に残るもの、アプリの接続先。",
+    "effective": "施行日：{date}",
+    "appliesTo": "Google Play で配信している Android 版 {name}（{appId}）に適用されます。",
+    "governing": "このポリシーは英語で公開しています。翻訳がある場合も参考用であり、英語の原文が優先されます。",
+    "contact": "ご質問・ご要望：{email}",
+    "contents": "目次",
+    "backToTop": "ページの先頭へ"
+  },
+  "sitePrivacy": {
+    "title": "サイトのプライバシー",
+    "description": "dapplebyte.com は Cookie を使わず、アクセス解析もせず、サードパーティのスクリプトも読み込みません。",
+    "items": [
+      "このウェブサイトは静的 HTML です。Cookie は使わず、サードパーティのスクリプト、フォント、アクセス解析も読み込みません。",
+      "このサイトではアクセス解析をしていません。私たちが見ている数字は Google Search Console と Bing Webmaster Tools のものだけで、どちらも検索での表示回数を集計値で示すものです。",
+      "メールをいただいた場合は、対応に必要な期間だけ保管し、その後削除します。メーリングリストなどに登録することはありません。",
+      "このサイトは GitHub Pages でホストしており、一般的なウェブサーバーと同じようにリクエストが記録されます。詳しくは GitHub のプライバシーに関する声明をご覧ください。",
+      "各アプリには個別のプライバシーポリシーがあり、それぞれのページからリンクしています。アプリの動作はそちらで扱い、このページはウェブサイトだけを対象とします。"
+    ],
+    "appsHeading": "アプリのプライバシーポリシー"
+  },
+  "videos": {
+    "title": "{name} の動画",
+    "description": "実際のスマートフォンで {name} を使う短い動画：セットアップ、ストリーミング、コントローラーのレイアウト、接続トラブルの解決。",
+    "emptyHeading": "動画は準備中です",
+    "emptyBody": "機能ごとの解説動画を撮影しています。それまでは、機能ページとよくある質問で同じ内容を確認できます。",
+    "kinds": { "promo": "紹介", "tutorial": "使い方", "troubleshooting": "トラブル解決" },
+    "watchOn": "YouTube で見る",
+    "play": "動画を再生"
+  },
+  "compare": {
+    "title": "{name} の比較",
+    "description": "Android での {name} と PS Remote Play、PXPlay、Chiaki を機能ごとに比べました。事実だけを載せています。",
+    "intro": "各アプリのストアページまたはウェブサイトで確認した事実だけを載せています。内容は下記の日付時点のもので、新しいバージョンでは異なる場合があります。ここではどのアプリも採点せず、どれが総合的に優れているとも主張しません。",
+    "verified": "確認日：{date}",
+    "notVerified": "ほかの列はまだ確認できていないため、このページは検索エンジンに載せていません。",
+    "featureColumn": "機能",
+    "rows": {
+      "platform": "プラットフォーム",
+      "away-from-home": "外出先からのリモートプレイ",
+      "hevc-hdr": "HEVC・HDR ストリーミング",
+      "virtual-pad-editor": "画面上のパッドとレイアウトエディター",
+      "physical-pad": "Bluetooth・USB コントローラーの転送",
+      "tv-output": "HDMI でテレビ出力",
+      "connection-doctor": "接続診断を内蔵",
+      "open-source": "オープンソース",
+      "pricing-model": "料金体系"
+    },
+    "values": {
+      "yes": "あり",
+      "no": "なし",
+      "partial": "一部",
+      "unknown": "未確認",
+      "one-time": "買い切り",
+      "free": "無料",
+      "subscription": "サブスクリプション"
+    },
+    "vsTitle": "{name} と {other} の比較",
+    "vsDescription": "Android での {name} と {other} を機能ごとに比較：外出先からのリモートプレイ、HEVC と HDR、コントローラー、テレビ出力、オープンソース、料金。",
+    "vsIntro": "どちらも Android 端末を PS5 や PS4 につなぐアプリです。違いを機能ごとにまとめました。",
+    "fullComparison": "比較表をすべて見る"
+  },
+  "changelog": {
+    "title": "{name} 更新履歴",
+    "description": "Android 版 {name} のすべてのリリースと変更点を、新しい順に掲載しています。",
+    "version": "バージョン {version}",
+    "build": "ビルド {code}",
+    "feed": "Atom フィード"
+  },
+  "press": {
+    "title": "{name} プレスキット",
+    "description": "Android 向けのリモートプレイ用コントローラー兼ゲーム機ストリーミングアプリ {name} を紹介するための基本情報、素材、紹介文。",
+    "intro": "このページの内容は、記事、動画、アプリ紹介に許可なくお使いいただけます。ほかに必要なものがあれば、ご連絡ください。",
+    "factsHeading": "基本情報",
+    "facts": {
+      "name": "名称",
+      "developer": "開発元",
+      "platform": "プラットフォーム",
+      "firstReleased": "初回リリース",
+      "currentVersion": "最新バージョン",
+      "price": "価格",
+      "priceValue": "有料アプリ。買い切りで、サブスクも広告もありません。現在の価格は Google Play でご確認ください。",
+      "languages": "対応言語",
+      "license": "ライセンス",
+      "website": "ウェブサイト",
+      "store": "ストアページ",
+      "source": "ソースコード",
+      "contact": "連絡先"
+    },
+    "oneLineHeading": "ひとこと紹介",
+    "boilerplateHeading": "紹介文",
+    "boilerplate": "{name} は、Android スマートフォンを PS5 や PS4 のワイヤレスコントローラーとして使ったり、ゲーム機の映像をスマートフォン、タブレット、テレビにストリーミングしたりできるアプリです。自宅でも、外出先からモバイルデータ経由でも使えます。独立系スタジオの DappleByte が開発し、AGPL-3.0 のもとオープンソースとして公開しています。",
+    "assetsHeading": "素材",
+    "assetIcon": "アプリアイコン、512 px PNG",
+    "assetFeature": "フィーチャーグラフィック、1024 × 500 PNG",
+    "assetScreenshots": "スクリーンショット、1920 × 1080 PNG、英語",
+    "assetStudioMark": "DappleByte マーク、SVG",
+    "screenshotN": "スクリーンショット {index}",
+    "contactHeading": "取材のお問い合わせ",
+    "contactBody": "{email}。すべてのメッセージに、通常 2 営業日以内に返信します。"
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "body": "このアドレスのページはありません。こちらからどうぞ：",
+    "home": "ホーム"
+  },
+  "trademarks": {
+    "sony": "PlayStation、PS5、PS4 は Sony Interactive Entertainment Inc. の商標です。{name} は Sony と提携しておらず、Sony の承認を受けたものでもありません。"
+  }
+}

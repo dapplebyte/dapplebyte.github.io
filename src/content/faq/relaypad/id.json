@@ -1,0 +1,694 @@
+{
+  "slug": "relaypad",
+  "locale": "id",
+  "title": "FAQ",
+  "intro": "Pertanyaan yang paling sering kami terima, beserta cara mengatasinya. Ketuk sebuah pertanyaan untuk membukanya.",
+  "sections": [
+    {
+      "id": "modes",
+      "title": "Cara bermain",
+      "entries": [
+        {
+          "id": "home_card_modes",
+          "q": "Apa bedanya Streaming, Jarak jauh dan Gamepad di kartu konsol?",
+          "a": [
+            "Streaming memutar konsol di ponsel ini lewat jaringan rumah Anda, dan konsol dibangunkan dulu jika sedang dalam mode istirahat. Jarak jauh melakukan hal yang sama dari mana saja lewat akun Anda yang sudah masuk. Gamepad menjadikan ponsel kontroler tanpa gambar, untuk saat Anda menonton game di TV. Kartu mengingat pilihan terakhir untuk setiap konsol."
+          ]
+        },
+        {
+          "id": "pad_mode_what",
+          "q": "Kenapa tidak ada gambar di Mode Gamepad?",
+          "a": [
+            "Mode Gamepad hanya mengirim input Anda ke konsol, jadi game-nya Anda tonton di TV. Ponsel dan konsol harus berada di jaringan yang sama, dan jika konsol dalam mode istirahat, aplikasi membangunkannya lalu terus mencoba selama sekitar 30 detik. Untuk melihat game di ponsel, buka menu lalu ketuk Beralih ke streaming."
+          ]
+        },
+        {
+          "id": "extra_controller",
+          "q": "Bisakah ponsel jadi kontroler kedua di samping kontroler yang tersambung ke konsol?",
+          "a": [
+            "Tidak. Ponsel tersambung sebagai kontroler Remote Play milik akun yang dipakai saat penyiapan, jadi ponsel menggantikan kontroler Anda, bukan ikut bergabung di sampingnya. Kontroler yang tersambung langsung ke konsol tidak bisa dipakai bermain bersamaan: konsol memindahkannya ke pengguna lain, misalnya tamu, lalu keduanya terus saling merebut kendali. Pakai ponsel saat tidak ada kontroler di dekat Anda, bukan sebagai pemain tambahan."
+          ]
+        },
+        {
+          "id": "stream_switched_to_remote",
+          "q": "Saya mengetuk Mulai streaming, tapi kartunya pindah ke Jarak jauh.",
+          "a": [
+            "Aplikasi mencari konsol di jaringan Anda saat ini selama beberapa detik. Jika tidak ditemukan, kartu pindah ke Jarak jauh tanpa menyambung, supaya Anda sendiri yang memutuskan apakah mau lewat akun. Di rumah, biasanya ini berarti ada VPN, jaringan tamu, atau konsol yang benar-benar mati. Dokter Koneksi menunjukkan penyebabnya."
+          ]
+        },
+        {
+          "id": "remote_goes_local",
+          "q": "Saya memilih Jarak jauh di rumah, tapi yang berjalan streaming lokal.",
+          "a": [
+            "Jika konsol ada di jaringan yang sama, Jarak jauh beralih ke streaming lokal karena lebih cepat. Matikan Streaming lokal saat di rumah di Setelan jika Anda ingin Jarak jauh selalu lewat akun, misalnya untuk mencobanya sebelum keluar rumah."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "Koneksi",
+      "entries": [
+        {
+          "id": "no_console_found",
+          "q": "Pemindaian tidak menemukan konsol.",
+          "a": [
+            "Konsol bisa muncul dengan dua cara: ditemukan di jaringan Wi-Fi yang sama dengan ponsel, atau tercantum dari akun Anda setelah masuk. Pencarian jaringan tidak bisa menembus jaringan tamu, router kedua atau VPN, jadi periksa itu dulu dan biarkan konsol menyala atau dalam mode istirahat. Jika tetap tidak muncul, ketuk Ketik alamat IP pada langkah Pilih konsol Anda lalu masukkan alamat konsol. Alamat yang diketik harus disandingkan dengan kode."
+          ]
+        },
+        {
+          "id": "same_network_but_not",
+          "q": "Muncul Tidak di jaringan ini, padahal ponsel memakai Wi-Fi yang sama.",
+          "a": [
+            "Ada beberapa penyebab pada jaringan yang tampak sama. Jaringan tamu terpisah dari jaringan utama meskipun routernya sama. Router yang memberi nama berbeda untuk pita 2.4 GHz dan 5 GHz bisa menempatkan kedua perangkat di subnet yang berbeda, dan sebagian router mencegah perangkat nirkabel saling melihat. Aplikasi VPN atau DNS pribadi juga bisa mengambil alih rutenya. Jalankan Dokter Koneksi lalu baca baris Jaringan sama dengan konsol, yang menampilkan kedua alamat."
+          ]
+        },
+        {
+          "id": "wake_from_rest",
+          "q": "Konsol dalam mode istirahat dan tidak mau tersambung, atau membangunkannya tidak berpengaruh.",
+          "a": [
+            "Mulai streaming membangunkan konsol dari mode istirahat secara otomatis dan menunggu hingga sekitar 25 detik, sedangkan Mode Gamepad terus mencoba selama sekitar 30 detik. Anda juga bisa membangunkannya secara manual lewat Setelan, Konsol, dengan Bangunkan konsol di menu Mode Gamepad, atau dengan widget layar utama. Semua cara ini hanya berfungsi di jaringan yang sama, dan hanya jika konsol mengizinkannya: di setelan daya konsol, nyalakan Tetap Terhubung ke Internet dan Aktifkan Menyalakan Konsol dari Jaringan."
+          ]
+        },
+        {
+          "id": "console_in_use",
+          "q": "Muncul pesan Konsol sedang sibuk.",
+          "a": [
+            "Konsol hanya menjalankan satu sesi jarak jauh dalam satu waktu, dan ponsel, tablet atau komputer lain masih memakainya. Mode Gamepad di ponsel lain juga terhitung. Akhiri sesi di perangkat tersebut, atau langsung dari konsol, lalu coba lagi."
+          ]
+        },
+        {
+          "id": "busy_wait_on_switch",
+          "q": "Setelah ganti mode atau mengubah kualitas, aplikasi lama tertahan di tahap menyambung.",
+          "a": [
+            "Konsol butuh beberapa detik untuk melepas sesi sebelumnya. Sementara itu aplikasi diam-diam mencoba lagi setiap 2 detik hingga 20 detik, dan langsung menyambung begitu konsol siap. Baru jika setelah itu konsol masih dipakai, muncul pesan Konsol sedang sibuk."
+          ]
+        },
+        {
+          "id": "remote_play_off",
+          "q": "Muncul pesan Remote Play mati di konsol.",
+          "a": [
+            "Konsol menyala, tapi menolak koneksi jarak jauh. Di konsol, buka Setelan, Sistem, Remote Play, nyalakan Aktifkan Remote Play, lalu sambungkan lagi. Baris Remote Play di konsol pada Dokter Koneksi menampilkan status terakhir yang diketahui."
+          ]
+        },
+        {
+          "id": "reconnect_three",
+          "q": "Apakah aplikasi menyambung ulang sendiri jika streaming terputus?",
+          "a": [
+            "Untuk streaming lokal, ya. Aplikasi mencoba lagi sampai tiga kali dengan jeda yang makin panjang dan berhenti setelah sekitar 30 detik, lalu menawarkan Dokter Koneksi. Koneksi Jarak jauh tidak mencoba ulang, jadi sambungkan lagi dari kartu konsol. Aplikasi juga tidak mencoba ulang saat konsol sibuk, mati, Remote Play-nya dimatikan, atau aplikasi perlu diperbarui, karena mencoba lagi tidak akan membantu."
+          ]
+        },
+        {
+          "id": "doctor_what",
+          "q": "Apa saja yang diperiksa Dokter Koneksi?",
+          "a": [
+            "Delapan belas hal di ponsel ini, di sepanjang jalur menuju konsol, di jalur keluar ke internet, dan di jaringan rumah konsol: kemampuan perangkat, jaringan ponsel, jaringan sama dengan konsol, status konsol, Remote Play di konsol, waktu bolak-balik dan jitter, perkiraan kecepatan koneksi, aplikasi VPN dan penyaring, gangguan Bluetooth, UPnP router, penerjemahan alamat jaringan, alamat IPv4 publik, koneksi PlayStation Network, akun, layar eksternal, serta alamat publik konsol, UPnP router konsol, dan jenis NAT konsol. Item merah dan kuning disertai cara memperbaikinya, dan laporannya bisa disalin, dibagikan, atau dikirim lewat email ke kami."
+          ]
+        },
+        {
+          "id": "away_from_home",
+          "q": "Berfungsi di rumah tetapi tidak saat saya sedang di luar.",
+          "a": [
+            "Saat di luar rumah, pilih Jarak jauh di kartu konsol lalu ketuk Main jarak jauh. Fitur ini menyambung lewat akun Anda, jadi akun harus ditambahkan dengan masuk dan konsolnya harus dicocokkan sekali. Koneksi biasanya butuh 20 sampai 40 detik, dan aplikasi otomatis mencoba UPnP di router rumah Anda. Jika gagal, pesannya menyebutkan alasannya; pertanyaan berikutnya membahas penyebab yang umum, dan VPN ke rumah adalah cara lain untuk mengatasinya."
+          ]
+        },
+        {
+          "id": "remote_needs_match",
+          "q": "Jarak jauh meminta konsol dicocokkan dulu.",
+          "a": [
+            "Jarak jauh perlu tahu konsol mana di akun Anda yang sudah disandingkan di ponsel ini. Ketuk kartunya, atau buka Setelan, Koneksi jarak jauh, lalu pilih sekali di bawah Konsol di akun Anda. Konsol harus sudah disandingkan di ponsel ini, dan akunnya harus ditambahkan dengan masuk, bukan dengan Online ID."
+          ]
+        },
+        {
+          "id": "remote_failed",
+          "q": "Koneksi jarak jauh gagal. Apa penyebab yang biasa?",
+          "a": [
+            "Pesan di layar menyebutkan penyebabnya. Konsol tidak menjawab: biarkan konsol menyala atau dalam mode istirahat, dengan Tetap Terhubung ke Internet dan Aktifkan Menyalakan Konsol dari Jaringan aktif di setelan dayanya. Jaringan tidak mengizinkan koneksi langsung: coba jaringan lain, nyalakan Tebakan port untuk koneksi jarak jauh di Setelan, atau pakai VPN ke rumah. Operator Anda memakai satu alamat publik bersama untuk banyak pengguna: penerusan port tidak akan membantu, jadi ganti jaringan atau pakai VPN. Sesi masuk kedaluwarsa: masuk lagi ke akun tersebut."
+          ]
+        },
+        {
+          "id": "psn_proxy_drops",
+          "q": "PSN tidak mau tersambung, atau koneksi langsung putus begitu proxy dinyalakan?",
+          "a": [
+            "Di tempat yang sulit menjangkau PSN, koneksi jarak jauh butuh dua jalur berbeda: stream game harus tersambung langsung, sedangkan proses masuk dan koneksi PSN boleh lewat proxy. Aplikasi proxy dalam mode VPN ikut menarik stream game ke dalam terowongannya, sehingga sesi terputus. Ubah aplikasi proxy Anda ke mode proxy per aplikasi dan tambahkan Relaypad ke daftar pengecualiannya. Lalu buka Setelan, Proxy koneksi PSN dan pilih Otomatis, atau pilih Manual lalu masukkan port lokal aplikasi proxy Anda (jenis HTTP, host 127.0.0.1; Clash biasanya memakai 7890, v2rayNG 10809). Baris Koneksi PlayStation Network di Dokter Koneksi memberi tahu apakah cara ini berhasil."
+          ]
+        },
+        {
+          "id": "port_forward_when",
+          "q": "Apakah saya perlu mengatur penerusan port?",
+          "a": [
+            "Biasanya tidak. Jarak jauh mencoba UPnP sendiri, dan penerusan port hanya membantu jika router rumah Anda yang memblokir koneksi, bukan jika operator memakai satu alamat bersama untuk banyak pengguna. Jika memang perlu, Setelan, Penerusan port router bisa memetakan port secara otomatis atau menampilkan daftarnya untuk diatur manual. Port yang diteruskan membuka konsol ke internet, jadi VPN ke rumah adalah pilihan yang lebih aman."
+          ]
+        },
+        {
+          "id": "console_cgnat",
+          "q": "Bagaimana jika jaringan konsol memakai CGNAT atau NAT ganda?",
+          "a": [
+            "Buka Dokter Koneksi dan lihat bagian Jaringan rumah konsol. Bagian ini diukur saat ponsel Anda tersambung ke Wi-Fi konsol, atau saat Anda menyambung jarak jauh. NAT ganda berarti ada dua router berurutan, biasanya modem dari penyedia ditambah router Anda sendiri: pasang modem ke mode bridge, atau nyalakan DMZ di modem dan arahkan ke router Anda. CGNAT berarti penyedia Anda berbagi satu alamat publik untuk banyak rumah, jadi penerusan port tidak bisa membantu: minta alamat IP publik ke penyedia Anda. Dalam kedua kasus, VPN ke rumah seperti Tailscale juga bisa dipakai, karena tidak bergantung pada koneksi langsung dari luar."
+          ]
+        },
+        {
+          "id": "away_vpn",
+          "q": "Bisakah saya main dari luar jaringan rumah lewat VPN?",
+          "a": [
+            "Bisa, dengan VPN ke rumah. Taruh perangkat yang selalu menyala di jaringan konsol, lalu hubungkan ponsel Anda ke jaringan itu: Tailscale di NAS, Raspberry Pi atau PC cukup dengan satu perintah (tailscale up --advertise-routes=subnet.rumah.anda, lalu setujui rutenya di panel admin), dan router dengan server WireGuard atau OpenVPN bawaan bekerja dengan cara yang sama. Setelah VPN tersambung, ketuk Mulai streaming di kartu konsol seperti biasa: pencarian jaringan tidak melintasi VPN, jadi aplikasi juga mencoba alamat konsol saat di rumah. Konsol harus sudah disandingkan di rumah terlebih dulu, dan kecepatan unggah rumah Anda menjadi batasnya."
+          ]
+        },
+        {
+          "id": "multiple_hosts",
+          "q": "Bisakah saya menyimpan lebih dari satu konsol, atau lebih dari satu akun?",
+          "a": [
+            "Keduanya bisa, dan tidak dipungut biaya. Setiap konsol yang Anda sandingkan tetap ada di daftar, dan masing-masing bisa ditautkan ke akun yang berbeda lewat Setelan, Konsol. Akunnya sendiri dikelola di Setelan, Akun."
+          ]
+        },
+        {
+          "id": "restore_lost_keys",
+          "q": "Saya pindah ke ponsel baru dan konsol saya hilang atau tidak mau tersambung.",
+          "a": [
+            "Konsol, akun dan kunci penyandingan tidak ikut dicadangkan ke cloud, jadi di ponsel baru Anda perlu menyiapkan ulang: tambahkan akun Anda dan sandingkan setiap konsol sekali. Jika transfer antarponsel ikut membawa daftar konsol, kuncinya tetap tertinggal karena terkunci ke ponsel lama: buka Setelan, Konsol, pilih konsolnya lalu ketuk Sandingkan lagi. Akun yang ditambahkan dengan masuk mungkin juga meminta Anda masuk lagi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Penyiapan dan masuk akun",
+      "entries": [
+        {
+          "id": "account_id_why",
+          "q": "Kenapa aplikasi membutuhkan Account ID?",
+          "a": [
+            "Konsol hanya mau disandingkan dengan perangkat yang menyebutkan akun pemiliknya, jadi Account ID adalah bagian dari proses penyandingan itu sendiri. Ini adalah ID 12 karakter yang terikat ke akun Anda, bukan kata sandi. Penyiapan memintanya pertama kali, dan Anda bisa menambahkan akun lain nanti lewat Setelan, Akun. Akun yang ditambahkan dengan masuk juga bisa menampilkan konsol di akun Anda, menyiapkannya tanpa kode, dan memakai Jarak jauh."
+          ]
+        },
+        {
+          "id": "login_paths",
+          "q": "Apa saja cara menambahkan akun?",
+          "a": [
+            "Dapatkan Account ID Anda menawarkan dua kelompok. Kelompok masuk akun, yang direkomendasikan, berisi Masuk di dalam aplikasi, yang memakai kata sandi Anda di halaman resmi, dan Masuk lewat browser, yang mendukung passkey dan pengelola kata sandi. Hanya penyiapan lokal tidak perlu masuk: Pakai Online ID Anda untuk konsol generasi ke-4 di bawah 8.0, dan Masukkan Account ID di bawah Lanjutan mengambil ID dari ponsel lain yang sudah masuk di aplikasi ini. Tanpa masuk, Anda tetap bisa menyandingkan dan main di rumah, tetapi tidak bisa menyiapkan tanpa kode atau memakai Jarak jauh."
+          ]
+        },
+        {
+          "id": "passkey_login",
+          "q": "Akun saya memakai passkey. Bagaimana cara masuk?",
+          "a": [
+            "Pilih Masuk lewat browser. Passkey tidak berfungsi di halaman masuk di dalam aplikasi, tetapi berfungsi normal di browser Anda, dan alamatnya otomatis terambil saat Anda kembali ke aplikasi."
+          ]
+        },
+        {
+          "id": "browser_paste",
+          "q": "Apa yang harus saya lakukan setelah masuk lewat browser?",
+          "a": [
+            "Setelah proses masuk selesai, browser berhenti di halaman kosong. Itu memang wajar. Salin seluruh alamat dari bilah alamat lalu kembali ke aplikasi, dan alamat itu akan terambil otomatis. Jika tidak terjadi apa-apa, tempelkan ke kolom di bawah dan pastikan salinannya memuat semua bagian setelah code=."
+          ]
+        },
+        {
+          "id": "embedded_login_blank",
+          "q": "Halaman masuk di dalam aplikasi tetap kosong atau tidak mau dimuat.",
+          "a": [
+            "Sebagian jaringan dan ponsel memblokir halaman itu di dalam aplikasi. Aplikasi mendeteksi saat halaman tetap kosong atau gagal, menjelaskan alasannya, dan menawarkan Coba lagi serta Pakai browser saja. Masuk lewat browser memberi hasil yang sama, jadi beralihlah ke sana jika mencoba lagi tidak membantu. Verifikasi dua langkah ditangani langsung di halaman masuk."
+          ]
+        },
+        {
+          "id": "sign_in_code_expired",
+          "q": "Muncul pesan bahwa kode masuk sudah kedaluwarsa.",
+          "a": [
+            "Kode di alamat itu hanya berlaku sebentar. Buka lagi halaman masuk, masuk, lalu segera kembali ke aplikasi. Jika memakai browser, ketuk Buka lagi halaman masuk dan salin alamat yang baru."
+          ]
+        },
+        {
+          "id": "local_setup_limits",
+          "q": "Bisakah saya menyiapkannya tanpa masuk akun?",
+          "a": [
+            "Bisa, dengan Hanya penyiapan lokal. Pakai Online ID Anda berfungsi untuk konsol generasi ke-4 di bawah 8.0; untuk konsol yang lebih baru, pilih Masukkan Account ID di bawah Lanjutan lalu salin ID dari Setelan, Akun di ponsel lain yang sudah masuk di aplikasi ini. Dengan cara mana pun, Anda bisa menyandingkan dan main di jaringan rumah, tetapi penyiapan tanpa kode, konsol di akun Anda, dan Jarak jauh semuanya butuh akun yang sudah masuk. Online ID dicari lewat layanan publik."
+          ]
+        },
+        {
+          "id": "account_relogin",
+          "q": "Akun saya menampilkan Sesi masuk kedaluwarsa.",
+          "a": [
+            "Ketuk Masuk lagi di sebelahnya pada Setelan, Akun; proses masuk terbuka dengan cara yang sama seperti sebelumnya. Sesi masuk hanya dipakai untuk Jarak jauh, penyiapan tanpa kode, dan menampilkan konsol di akun Anda, jadi konsol yang sudah disandingkan tetap berfungsi di rumah."
+          ]
+        },
+        {
+          "id": "pin_vs_no_pin",
+          "q": "Sebaiknya pilih Sandingkan dengan kode atau Siapkan tanpa kode penyandingan?",
+          "a": [
+            "Sandingkan dengan kode hanya butuh beberapa detik, tetapi Anda harus berada di dekat konsol dan ponsel harus di jaringan yang sama. Siapkan tanpa kode penyandingan bisa dilakukan dari mana saja, bahkan saat konsol dalam mode istirahat, dan butuh sekitar 30 detik. Cara ini membutuhkan konsol generasi ke-5 yang masuk ke akun yang sama, akun yang ditambahkan dengan masuk, Remote Play yang menyala, dan perangkat lunak sistem terbaru. Cara mana pun yang dipilih, konsol berfungsi sama setelahnya."
+          ]
+        },
+        {
+          "id": "pair_failed",
+          "q": "Penyandingan gagal, atau kode penyandingan kedaluwarsa.",
+          "a": [
+            "Kode penyandingan berlaku 300 detik dan hanya bisa dipakai sekali. Ambil kode baru di konsol lewat Setelan, Sistem, Remote Play, Tautkan Perangkat, atau Setelan, Setelan Koneksi Remote Play, Tambah Perangkat pada konsol generasi ke-4, lalu langsung masukkan. Kode sandi konsol (opsional) adalah angka yang berbeda, yaitu kode sandi empat digit yang disetel di konsol, dan biarkan kosong kecuali konsol memintanya. Pada konsol generasi ke-5, Anda juga bisa mengetuk Pilih cara lain dan mencoba Siapkan tanpa kode penyandingan."
+          ]
+        },
+        {
+          "id": "no_pin_failed",
+          "q": "Siapkan tanpa kode penyandingan gagal.",
+          "a": [
+            "Pesannya menyebutkan penyebabnya: konsol tidak ada di akun Anda atau bukan konsol utamanya, Remote Play mati, konsol tidak menjawab, dua konsol memakai nama yang sama, jaringan tidak mengizinkan koneksi langsung, atau sesi masuk kedaluwarsa. Perbaiki penyebabnya lalu coba lagi tanpa kode, atau ketuk Pilih cara lain dan sandingkan dengan kode di dekat konsol, yang membutuhkan ponsel di jaringan yang sama."
+          ]
+        },
+        {
+          "id": "remove_account",
+          "q": "Apa yang terjadi jika saya menghapus akun?",
+          "a": [
+            "Hanya ponsel ini yang melupakannya, beserta sesi masuknya. Konsol yang tertaut ke akun itu tetap berfungsi di rumah, tetapi tidak punya akun sampai Anda memilihnya lewat Setelan, Konsol, konsol tersebut, Akun konsol. Tidak ada yang berubah di konsol maupun di akunnya sendiri."
+          ]
+        },
+        {
+          "id": "login_privacy",
+          "q": "Apakah pengembang bisa melihat kata sandi saya?",
+          "a": [
+            "Tidak. Anda mengetik kata sandi di halaman masuk resmi, dan aplikasi ini tidak punya server sendiri, jadi apa pun yang Anda ketik di sana tidak melewati kami. Aplikasi menyimpan Account ID, Online ID dan token masuk di ponsel ini, dan token serta kunci penyandingan dienkripsi dengan Android keystore. Pencarian Online ID dilakukan lewat layanan publik."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Streaming dan gambar",
+      "entries": [
+        {
+          "id": "hud_panel_where",
+          "q": "Di mana kontrol saat streaming?",
+          "a": [
+            "Bilah atas memudar setelah beberapa detik. Ketuk bagian kosong pada gambar untuk memunculkannya lagi: ikon slider membuka panel cepat, dan Tahan untuk keluar mengakhiri streaming. Tekan lama pada bagian kosong juga membuka panel cepat."
+          ]
+        },
+        {
+          "id": "free_720p",
+          "q": "Apa saja batasan versi gratis?",
+          "a": [
+            "Streaming di jaringan rumah Anda hingga 720p dan 30 fps dengan H.264, tanpa batas waktu dan tanpa iklan. Batas ini diterapkan setiap kali sesi dimulai. Mode Gamepad gratis sepenuhnya tanpa batasan. Streaming di Android TV membutuhkan Pro."
+          ]
+        },
+        {
+          "id": "pro_quality",
+          "q": "Bagaimana cara mengaktifkan 1080p dan 60 fps?",
+          "a": [
+            "Pilih lewat Setelan, Kualitas video. Anda juga bisa memilihnya di bagian Kualitas video pada panel cepat saat streaming, lalu ketuk Sambung ulang untuk menerapkan. Ponsel Anda juga harus sanggup mengikutinya, jadi Dokter Koneksi layak dijalankan sekali kalau gambar tersendat di 1080p."
+          ]
+        },
+        {
+          "id": "change_quality_mid_stream",
+          "q": "Bisakah saya mengubah resolusi atau kecepatan frame saat streaming?",
+          "a": [
+            "Bisa. Buka panel cepat, pilih di bagian Kualitas video lalu ketuk Sambung ulang untuk menerapkan; gambar berhenti beberapa detik. Koneksi Jarak jauh tidak bisa berganti di tengah streaming, jadi pilihan Anda berlaku saat menyambung berikutnya. Codec, bitrate dan decoder ada di Setelan, Kualitas video."
+          ]
+        },
+        {
+          "id": "aspect_modes",
+          "q": "Apa bedanya Pas di layar, Regangkan penuh dan Perbesar penuh?",
+          "a": [
+            "Pas di layar mempertahankan proporsi dan menyisakan bilah hitam. Regangkan penuh memenuhi layar dan sedikit menarik gambar. Perbesar penuh memenuhi layar dengan memotong bagian tepinya, dan biasanya jadi pilihan di ponsel yang tinggi. Ubah lewat Setelan, Penskalaan, atau di bagian Penskalaan pada panel cepat."
+          ]
+        },
+        {
+          "id": "split_layout",
+          "q": "Di tablet atau ponsel lipat, gamepad layar menutupi gambar.",
+          "a": [
+            "Buka panel cepat lalu setel Tata letak ke Terbagi: gambar dan gamepad layar ditempatkan terpisah sehingga tidak saling menutupi. Otomatis sudah melakukannya saat layar tegak atau ponsel lipat setengah terbuka. Opsi ini hanya muncul di tablet dan ponsel lipat, dan gratis."
+          ]
+        },
+        {
+          "id": "screen_dim",
+          "q": "Gambar terlihat lebih gelap dari seharusnya.",
+          "a": [
+            "Itu karena Peredup layar di panel cepat. Setelan ini menggelapkan gambar supaya tombol di layar lebih menonjol; turunkan sampai paling rendah untuk mematikannya. Setelan ini berbeda dari Opasitas overlay, yang menyamarkan tombolnya sendiri."
+          ]
+        },
+        {
+          "id": "stutter",
+          "q": "Gambar tersendat atau kehilangan frame.",
+          "a": [
+            "Hampir selalu karena sambungan nirkabel, bukan ponselnya. Gabung ke jaringan 5 GHz dari router yang sama, dekatkan ponsel ke router, dan sambungkan konsol dengan kabel jika memungkinkan. Jalankan Dokter Koneksi lalu lihat waktu bolak-balik dan perkiraan kecepatan koneksi: di atas 30 ms atau di bawah 15 Mbps gambar tidak akan stabil. Saat streaming, menurunkan resolusi atau kecepatan frame di panel cepat langsung membantu."
+          ]
+        },
+        {
+          "id": "picture_glitch_fix",
+          "q": "Gambar rusak atau membeku, tapi suaranya tetap berjalan.",
+          "a": [
+            "Buka panel cepat lalu ketuk Perbaiki gambar di bagian Aksi: aplikasi meminta gambar baru dari konsol. Jika terus terjadi, turunkan resolusi dan jalankan Dokter Koneksi."
+          ]
+        },
+        {
+          "id": "perf_overlay_numbers",
+          "q": "Apa arti angka di Overlay performa?",
+          "a": [
+            "Latensi menjumlahkan waktu bolak-balik dan waktu yang dipakai ponsel ini untuk mendekode dan menggambar satu frame, jadi angkanya adalah perkiraan yang tidak menghitung konsol dan layar Anda. Warnanya hijau di bawah 60 ms dan merah di atas 100 ms. Jika bitrate jauh di bawah yang Anda setel, jaringan yang menahannya; jika bitrate baik tetapi dekode lama, ponselnya yang lambat. Pilih Ringkas atau Detail di panel cepat."
+          ]
+        },
+        {
+          "id": "hevc_hdr_unavailable",
+          "q": "HEVC atau HDR tidak bisa dipilih, atau streaming malah memakai H.264.",
+          "a": [
+            "HEVC membutuhkan decoder yang mendukungnya di ponsel ini, dan HDR membutuhkan layar yang mendukungnya; halaman kualitas menjelaskan kenapa sebuah opsi tidak tersedia. Jika ponsel tidak bisa mendekode formatnya saat streaming dimulai, streaming otomatis beralih ke H.264 atau SDR dan memberi tahu Anda."
+          ]
+        },
+        {
+          "id": "pip",
+          "q": "Bisakah streaming tetap berjalan saat saya pindah ke aplikasi lain?",
+          "a": [
+            "Bisa. Tinggalkan aplikasi saat streaming dan gambar mengecil menjadi jendela kecil yang tetap berjalan. Ketuk jendela itu untuk kembali ke layar penuh tanpa menyambung ulang, atau tutup untuk mengakhiri streaming. Fitur ini tidak aktif saat gambar sedang tampil di TV, dan bisa dimatikan lewat Setelan, Picture-in-picture."
+          ]
+        },
+        {
+          "id": "mobile_data",
+          "q": "Berapa banyak kuota yang dipakai streaming?",
+          "a": [
+            "Tergantung resolusinya: hingga sekitar 1 GB per jam di 360p, 2,7 GB di 540p, 4,5 GB di 720p dan 6,8 GB di 1080p, dan lebih banyak dengan bitrate manual. Pemakaian sebenarnya sering lebih rendah. Di data seluler, aplikasi memakai 720p dengan 30 fps secara bawaan, baik untuk streaming ke rumah lewat VPN maupun untuk Jarak jauh. Untuk mempertahankan kualitas pilihan Anda sendiri, matikan Setelan, Data seluler."
+          ]
+        },
+        {
+          "id": "external_display",
+          "q": "Bisakah gambarnya ditampilkan di TV?",
+          "a": [
+            "Bisa. Saat streaming, sambungkan ponsel ke TV dengan kabel USB-C ke HDMI, atau mulai transmisi layar dari setelan sistem. TV lalu hanya menampilkan game-nya dan ponsel Anda menjadi kontroler. Tidak ada yang perlu dipasang di TV dan Anda tidak perlu masuk akun di sana, jadi TV hotel atau TV teman pun aman dipakai."
+          ]
+        },
+        {
+          "id": "external_lag",
+          "q": "Gambar di TV terasa tertunda",
+          "a": [
+            "Pertama, pindahkan TV ke mode game. Di mode gambar biasa, kebanyakan TV menambah 60 sampai 120 ms penundaan; mode game menurunkannya jadi 10 sampai 30 ms, dan tidak ada pengaturan lain yang sebanding. Setelah itu, kabel mengalahkan transmisi layar: transmisi nirkabel harus mengodekan gambarnya sekali lagi, yang menambah 100 ms atau lebih. Terakhir baru streaming-nya sendiri, yang lebih cepat di jaringan bagus dan jauh lebih cepat di rumah daripada lewat internet."
+          ]
+        },
+        {
+          "id": "external_not_working",
+          "q": "Kabel sudah dicolok tetapi tidak terjadi apa-apa",
+          "a": [
+            "Tidak semua ponsel bisa mengeluarkan video dari port USB-C-nya. Ponsel flagship biasanya bisa, ponsel kelas menengah sering tidak, dan tidak ada cara memastikannya sebelum dicoba. Jalankan Dokter Koneksi dengan kabel tercolok: baris “Layar eksternal” memberi tahu apakah sistem melihat TV-nya sama sekali. Kalau tidak, penyebabnya ada di ponsel atau adaptornya, dan transmisi layar nirkabel dari setelan sistem adalah jalan memutarnya."
+          ]
+        },
+        {
+          "id": "external_power",
+          "q": "Bisakah mengisi daya sambil kabel HDMI tersambung?",
+          "a": [
+            "Hanya dengan adaptor yang punya colokan daya sendiri. Port USB-C sudah dipakai sinyal video, sementara streaming plus dekode menguras baterai dengan cepat, jadi hub USB-C bertenaga dengan HDMI dan pengisian daya pass-through layak dimiliki untuk sesi panjang."
+          ]
+        },
+        {
+          "id": "external_hotel_tv",
+          "q": "TV di kamar hotel saya tidak berfungsi",
+          "a": [
+            "Sebagian TV hotel port HDMI-nya dinonaktifkan atau tersembunyi di balik panel, dan aplikasi tidak bisa berbuat apa-apa soal itu. Kalau TV-nya punya port yang bisa Anda jangkau, kabelnya bekerja seperti di TV mana pun. Kalau tidak, streaming-nya tetap berjalan di ponsel seperti biasa."
+          ]
+        },
+        {
+          "id": "external_hdcp",
+          "q": "Apakah proteksi salinan membuat gambarnya jadi hitam?",
+          "a": [
+            "Tidak. Yang didekode aplikasi adalah aliran video biasa, bukan konten terproteksi, jadi TV menampilkannya secara normal lewat HDMI. Anda tidak akan mendapat layar hitam seperti pada sebagian aplikasi video saat memakai layar eksternal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamepad",
+      "title": "Kontroler",
+      "entries": [
+        {
+          "id": "virtual_pad_layout",
+          "q": "Bisakah saya memindahkan tombol di layar?",
+          "a": [
+            "Bisa, dan gratis. Buka Setelan, Tata letak gamepad untuk melihat semua tata letak, mengganti nama atau menghapus tata letak milik Anda, dan ketuk salah satunya untuk menggeser, mengubah ukuran, menyamarkan atau menyembunyikan kontrol mana pun. Preset menyediakan Standard, Compact, Remote, Fighting dan Racing sebagai titik awal, dan Ekspor JSON serta Impor JSON memindahkan tata letak ke ponsel lain lewat papan klip. Di ponsel, Anda mengubah tata letak lanskap; tablet juga punya tab Potret untuk tata letak yang dipakai dalam tampilan terbagi."
+          ]
+        },
+        {
+          "id": "custom_layout_in_stream",
+          "q": "Bisakah saya memakai tata letak sendiri saat streaming?",
+          "a": [
+            "Bisa. Di panel cepat, pada bagian Tata letak, ketuk Kustom lalu pilih salah satu tata letak lanskap Anda. Ringkas dan Standar adalah pilihan bawaan, yang dibuat agar menutupi gambar sesedikit mungkin. Jika tata letak yang Anda pilih dihapus, streaming kembali ke Ringkas. Mengubah tata letak bawaan menyimpan versi Anda sebagai salinan, jadi versi aslinya tetap tersedia."
+          ]
+        },
+        {
+          "id": "pad_in_stream",
+          "q": "Gamepad layar hilang atau samar saat streaming.",
+          "a": [
+            "Periksa Gamepad di panel cepat: Otomatis menyembunyikan gamepad layar selama kontroler fisik tersambung, Tersembunyi selalu menyembunyikannya, dan Selalu membuatnya tetap tampil. Mode minimal juga menyembunyikannya. Streaming dimulai dengan tata letak Ringkas yang tombolnya lebih kecil dan samar, jadi ubah Tata letak ke Standar atau naikkan Opasitas overlay jika tombolnya sulit dilihat."
+          ]
+        },
+        {
+          "id": "stick_dpad_toggle",
+          "q": "Bagaimana cara beralih antara stik dan D-pad di tata letak Ringkas?",
+          "a": [
+            "Ketuk tab kecil di tepi bawah kontrol bundar. Tab itu beralih antara stik dan D-pad, dan sisi kiri serta kanan beralih secara terpisah."
+          ]
+        },
+        {
+          "id": "touchpad_onscreen",
+          "q": "Bagaimana cara kerja touchpad di layar?",
+          "a": [
+            "Geser satu atau dua jari di atasnya untuk mengirim sentuhan, dan ketuk cepat untuk klik touchpad. Menahan klik tidak didukung."
+          ]
+        },
+        {
+          "id": "physical_gamepad",
+          "q": "Bisakah saya memakai kontroler fisik?",
+          "a": [
+            "Bisa. Kontroler apa pun yang dikenali Android lewat Bluetooth atau USB akan diteruskan, dengan pemetaan bawaan yang dipilih berdasarkan pembuatnya. Di Mode Gamepad, gamepad layar tetap bisa dipakai berdampingan. Saat streaming, aplikasi bertanya sekali apakah gamepad layar juga ditampilkan, dan Gamepad di panel cepat bisa mengubahnya nanti. Beberapa kontroler dan gamepad layar semuanya dihitung sebagai satu kontroler di konsol."
+          ]
+        },
+        {
+          "id": "remap_buttons",
+          "q": "Tombol pada kontroler saya berada di posisi yang salah.",
+          "a": [
+            "Buka Setelan, Pemetaan tombol dengan kontroler tersambung lalu pilih kontrolernya. Ketuk sebuah aksi dan tekan tombol yang Anda inginkan; arah stik bisa dibalik, dan Uji langsung menampilkan apa yang dikirim setiap tombol. Ketuk Simpan untuk menyimpan perubahan. Pemetaan disimpan per model kontroler, jadi dua kontroler dengan model yang sama memakai pemetaan yang sama, dan Reset mengembalikan pemetaan bawaan."
+          ]
+        },
+        {
+          "id": "missing_ps_button",
+          "q": "Kontroler saya tidak punya tombol PS atau touchpad, atau keduanya tidak berfungsi.",
+          "a": [
+            "Sebagian besar kontroler mendapat kombinasi: Select dan Start bersamaan berfungsi sebagai tombol PS, dan Select dan L3 sebagai klik touchpad. Kontroler yang sudah punya tombol PS hanya mendapat kombinasi touchpad. Kombinasi ini tidak bisa diubah, tetapi di Setelan, Pemetaan tombol Anda bisa memasang PS, touchpad atau MIC ke satu tombol mana pun. Tata letak standar gamepad layar juga punya semua tombol."
+          ]
+        },
+        {
+          "id": "console_controller_phone",
+          "q": "Apakah kontroler buatan untuk konsol berfungsi penuh di ponsel?",
+          "a": [
+            "Lewat Bluetooth, tombol dan stiknya diteruskan, tetapi usapan touchpad, sensor gerak dan mikrofonnya tidak. Jika tersambung lewat USB saat streaming, ketuk Izinkan di panel cepat untuk mendapatkan trigger adaptif, light bar dan getaran kontroler, gratis untuk semua orang. Jika muncul Akses USB diblokir, driver lain di ponsel sedang memegang kontroler itu, jadi sambungkan lewat Bluetooth saja."
+          ]
+        },
+        {
+          "id": "vibration",
+          "q": "Bagaimana cara kerja getaran dan Getaran tombol?",
+          "a": [
+            "Getaran dari game dikirim ke kontroler fisik jika punya motor, dan ke ponsel jika tidak. Getaran singkat saat Anda menekan tombol di layar adalah Getaran tombol di bagian Input pada menu Mode Gamepad: setiap ketukan naik ke level berikutnya, dari mati sampai 3, dan level yang Anda pilih akan diingat."
+          ]
+        },
+        {
+          "id": "mic_gyro",
+          "q": "Di mana mikrofon dan sensor gerak?",
+          "a": [
+            "Di Mode Gamepad, keduanya ada di bagian Input pada menu. Sensor gerak mengirim giroskop dan akselerometer ponsel, dan selalu mati di awal setiap kali Anda menyambung. Mikrofon meminta izin terlebih dulu; setelah itu, mengetuknya beralih antara Aktif dan Dibisukan. Saat streaming tidak ada sensor gerak, dan mikrofonnya adalah tombol MIC di gamepad layar. Keduanya gratis."
+          ]
+        },
+        {
+          "id": "quick_actions",
+          "q": "Bagaimana cara mengistirahatkan konsol atau membuka beranda konsol?",
+          "a": [
+            "Di Mode Gamepad, bagian Aksi pada menu berisi Bangunkan konsol, Istirahatkan konsol, Beranda konsol, dan Kunci layar, yang mengabaikan sentuhan sampai Anda membukanya. Tombol PS di gamepad layar juga bisa dipakai."
+          ]
+        },
+        {
+          "id": "remote_layout",
+          "q": "Bisakah saya memakainya untuk mengontrol aplikasi video di konsol?",
+          "a": [
+            "Bisa. Di Mode Gamepad, nyalakan Tata letak remote di bagian Tata letak pada menu untuk tombol besar yang dibuat untuk aplikasi media. Matikan lagi untuk memilih tata letak lain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "title": "Asisten AI",
+      "entries": [
+        {
+          "id": "copilot_cost",
+          "q": "Apakah Asisten AI berbayar?",
+          "a": [
+            "Tidak dari kami. Fitur ini berjalan dengan API key milik Anda sendiri: kami tidak pernah menyentuhnya dan tidak menambahkan biaya apa pun, dan penyedia menagih Anda langsung sesuai pemakaian. Bagian Panduan game di Setelan, Asisten AI menampilkan perkiraan biaya per panduan untuk penyedia yang Anda pilih, dan Penggunaan mencatat perkiraan untuk bulan ini, termasuk berapa kali pencarian web dilakukan."
+          ]
+        },
+        {
+          "id": "copilot_privacy",
+          "q": "Layar saya dikirim ke mana?",
+          "a": [
+            "Hanya saat Anda bertanya: topik panduan, nama game, dan jika Anda melampirkannya, satu frame stream yang diperkecil dikirim langsung ke penyedia yang Anda siapkan, yang menjalankan pencarian web. Tidak ada server kami di antaranya, dan kami tidak menyimpan log; panduan hanya disimpan di ponsel ini. Key Anda disimpan terenkripsi di ponsel ini, dan tanpa key tidak ada apa pun yang dikirim."
+          ]
+        },
+        {
+          "id": "copilot_guide",
+          "q": "Dari mana panduan game berasal?",
+          "a": [
+            "Saat Anda mencari panduan, model yang Anda siapkan mencari di web sendiri: Anthropic, Google, OpenAI, dan DeepSeek semuanya menjalankan pencarian di sisi mereka. Model membaca hasilnya lalu menulis panduan langkah demi langkah dalam bahasa Anda, dengan daftar sumber di bawahnya. Panduan hanya disimpan di ponsel ini, jadi membukanya lagi tidak dikenai biaya."
+          ]
+        },
+        {
+          "id": "copilot_guide_nosearch",
+          "q": "Kenapa panduan saya bertuliskan Tanpa pencarian web?",
+          "a": [
+            "Hanya Anthropic, Google, DeepSeek, dan endpoint resmi OpenAI yang bisa mencari di web. Endpoint kompatibel OpenAI yang di-host sendiri atau milik pihak ketiga, seperti OpenRouter atau Ollama, menjawab dari pengetahuan model sendiri, yang mungkin sudah usang untuk game baru. Untuk panduan hasil pencarian web, pilih kartu Anthropic, Google, atau DeepSeek, atau masukkan endpoint resmi OpenAI di kartu Kompatibel OpenAI."
+          ]
+        },
+        {
+          "id": "copilot_guide_cost",
+          "q": "Berapa biaya satu panduan?",
+          "a": [
+            "Anthropic dan OpenAI mengenakan sekitar satu sen dolar AS per pencarian web di luar biaya token, jadi satu panduan kira-kira 8 sampai 15 sen. Google memberi ribuan pencarian gratis per bulan. DeepSeek hanya menagih token, jauh di bawah satu sen. Kedalaman pencarian di Setelan membatasi jumlah pencarian, dan Penggunaan menampilkan perkiraan bulan ini."
+          ]
+        },
+        {
+          "id": "copilot_get_key",
+          "q": "Bagaimana cara mendapatkan API key?",
+          "a": [
+            "Anthropic: buat di bagian API keys di Anthropic Console. Google: ketuk Get API key di Google AI Studio. DeepSeek: buat di bagian API keys di platform DeepSeek. Kompatibel OpenAI: pakai key dari dasbor penyedia Anda, seperti OpenAI atau OpenRouter; untuk Ollama di komputer Anda sendiri, masukkan alamatnya sebagai Base URL, isi key dengan apa saja, dan pilih model yang bisa membaca gambar. Kartu Anthropic, Google, dan DeepSeek di Setelan, Asisten AI punya tautan Dapatkan key."
+          ]
+        },
+        {
+          "id": "copilot_wrong",
+          "q": "Kenapa panduannya salah?",
+          "a": [
+            "Sumbernya bisa sudah usang atau membahas versi maupun platform lain; panduan menyebutkan versinya jika sumbernya mencantumkan. Ajukan pertanyaan lanjutan dengan menyebut bab, nama bos, atau build Anda, dan panduan akan ditulis ulang untuk Anda. Jika nama game kosong atau salah, perbaiki di panel sebelum mencari, atau coba model lain di Setelan."
+          ]
+        },
+        {
+          "id": "copilot_voice",
+          "q": "Bagaimana cara mengubah perintah suara?",
+          "a": [
+            "Ada 8 perintah bawaan, seperti Buka peta, Jeda dan Tangkapan layar. Buka Setelan, Asisten AI, Perintah suara lalu ketuk salah satu untuk mengganti tombol yang ditekannya atau menambahkan frasa Anda sendiri; ucapan yang bukan perintah masuk ke panel panduan game, sebagai topik atau pertanyaan lanjutan. Di ponsel tanpa layanan pengenalan suara, atau tanpa izin mikrofon, ketik saja di panel."
+          ]
+        },
+        {
+          "id": "copilot_region",
+          "q": "Asisten AI tidak bisa menjangkau penyedia?",
+          "a": [
+            "Permintaan AI tidak lewat Proxy koneksi PSN milik aplikasi; permintaan itu keluar lewat koneksi ponsel Anda sendiri. Jika Anthropic, Google, atau DeepSeek tidak bisa dijangkau dari tempat Anda, beralihlah ke penyedia lain atau ke Kompatibel OpenAI dan masukkan endpoint yang bisa Anda jangkau, atau Ollama di komputer Anda sendiri. Uji koneksi di halaman yang sama memberi tahu apakah sudah berfungsi."
+          ]
+        },
+        {
+          "id": "copilot_off",
+          "q": "Bagaimana cara mematikan Asisten AI?",
+          "a": [
+            "Matikan Gunakan Asisten AI di Setelan, Asisten AI. Setelah itu, tekan lama pada stream kembali membuka panel cepat, dan tombol AI hilang dari bilah atas. Untuk ikut menghapus key Anda, ketuk Hapus di sebelahnya; salinan terenkripsinya langsung dihapus."
+          ]
+        },
+        {
+          "id": "copilot_accessibility",
+          "q": "Bisakah saya memakainya jika tidak bisa melihat layar dengan jelas?",
+          "a": [
+            "Bisa. Jelaskan layar di panel cepat, atau mengucapkan Bacakan layar ke tombol suara, menyebutkan hal terpenting lebih dulu lalu membacakan teks di layar. Panduan di panel bisa dipakai dengan TalkBack, dan setiap langkah bisa dicentang. Saat TalkBack aktif, deskripsi layar di bilah teks dibacakan oleh TalkBack; tanpa TalkBack, nyalakan Bacakan jawaban di Setelan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pembelian dan pengembalian dana",
+      "entries": [
+        {
+          "id": "paid_not_subscription",
+          "q": "Apakah ini langganan?",
+          "a": [
+            "Bukan. Anda membeli aplikasinya sekali di Google Play dan hanya itu: tanpa langganan, tanpa pembelian dalam aplikasi, tanpa iklan, dan tidak ada fitur yang meminta pembayaran kedua di kemudian hari. Pembeliannya terikat ke akun Google Anda, bukan ke ponselnya."
+          ]
+        },
+        {
+          "id": "paid_promo_forever",
+          "q": "Saya memasangnya saat promo gratis. Apakah fiturnya akan dikunci nanti?",
+          "a": [
+            "Tidak. Memasang aplikasi saat promo dihitung sebagai membelinya dengan harga tersebut, jadi aplikasinya milik Anda selamanya beserta semua fiturnya. Setelah promonya berakhir pun tetap begitu, dan akun Google yang sama bisa memasangnya lagi di ponsel baru tanpa biaya."
+          ]
+        },
+        {
+          "id": "paid_reinstall",
+          "q": "Bagaimana cara memasangnya di ponsel baru?",
+          "a": [
+            "Buka halaman aplikasi di toko dengan akun Google yang sama dengan akun pembelian Anda, dan tombolnya akan menampilkan Instal, bukan harga. Konsol tidak ikut berpindah, jadi sandingkan lagi setiap konsol di ponsel baru; kunci penyandingan tetap tinggal di ponsel tempat kunci itu dibuat."
+          ]
+        },
+        {
+          "id": "paid_included",
+          "q": "Apa saja yang termasuk?",
+          "a": [
+            "Semuanya, sejak pertama kali dibuka: streaming di 1080p dan 60 fps, bitrate manual, HEVC dan HDR, penajaman FSR dan overlay performa, main dari luar jaringan rumah, streaming di Android TV, picture-in-picture, serta game di TV dengan ponsel sebagai kontroler. Mode kontroler, Dokter Koneksi, widget pintasan konsol, dan konsol serta akun sebanyak yang Anda mau juga sudah ada semua."
+          ]
+        },
+        {
+          "id": "refund",
+          "q": "Bagaimana cara mendapatkan pengembalian dana?",
+          "a": [
+            "Dalam 48 jam setelah membeli, ajukan sendiri pengembalian dana dari riwayat pesanan di Google Play, dan itu jalur tercepat. Setelah itu, kirim email ke kami dalam 7 hari sejak tanggal pembelian dan kami kembalikan dananya tanpa banyak tanya. Sertakan nomor pesanan dari struk Google Play supaya kami bisa menemukan pembelian Anda."
+          ]
+        },
+        {
+          "id": "paid_bought_before_sale",
+          "q": "Saya membayar harga penuh tepat sebelum diskon dimulai.",
+          "a": [
+            "Hubungi kami. Dalam 48 jam setelah membeli, jalur tercepat adalah mengajukan sendiri pengembalian dana dari riwayat pesanan di Google Play lalu membeli lagi dengan harga diskon. Setelah itu, kirim email ke kami dengan nomor pesanan dari struk Google Play dan kami kembalikan selisihnya."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Lainnya",
+      "entries": [
+        {
+          "id": "widget",
+          "q": "Bisakah saya membangunkan konsol dari layar utama ponsel?",
+          "a": [
+            "Bisa. Tambahkan widget Pintasan konsol dari daftar widget launcher Anda lalu pilih konsol. Bangunkan mengirim sinyal bangun tanpa membuka aplikasi. Sambungkan membuka Mode Gamepad jika terakhir kali widget menemukan konsol di jaringan Anda, dan membuka aplikasi jika tidak. Keduanya hanya berfungsi di jaringan yang sama, dan widget ini gratis."
+          ]
+        },
+        {
+          "id": "android_tv",
+          "q": "Apakah ada versi Android TV?",
+          "a": [
+            "Ada, aplikasi yang sama bisa dipasang di Android TV dan Google TV. Buka toko di TV dengan akun Google yang sama dengan akun pembelian Anda, dan aplikasinya terpasang tanpa biaya tambahan. TV membutuhkan kontroler Bluetooth atau USB untuk bermain; remote hanya untuk berpindah di menu. Saat streaming, tekan OK atau Menu di remote, atau tahan L1, R1, L3 dan R3 bersamaan di kontroler, untuk membuka panel cepat."
+          ]
+        },
+        {
+          "id": "tv_pairing",
+          "q": "Bagaimana cara menyandingkan konsol di TV?",
+          "a": [
+            "Pilih Tambah konsol di layar beranda TV lalu pilih model konsol Anda. Pada langkah akun, buka aplikasi ini di ponsel, masuk ke Setelan, Akun, salin Account ID yang tampil di sana lalu ketik di TV; panjangnya 12 karakter dan biasanya diakhiri =. Setelah itu pilih konsolnya dan masukkan kode penyandingan dari konsol dengan keypad di layar TV. TV hanya bisa menyandingkan dengan kode."
+          ]
+        },
+        {
+          "id": "version_mismatch",
+          "q": "Muncul pesan bahwa sistem konsol sudah diperbarui dan saya harus menunggu.",
+          "a": [
+            "Pembaruan sistem konsol mengubah versi protokol Remote Play yang dipakainya, dan tidak ada yang bisa dilakukan dari sisi ponsel. Perbaikannya adalah pembaruan aplikasi, yang kami tangani sebagai hal mendesak. Jika sudah lewat beberapa hari, tulis kepada kami dan sertakan versi perangkat lunak sistem konsol Anda."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Bisakah saya mengganti bahasa aplikasi?",
+          "a": [
+            "Aplikasi mengikuti bahasa ponsel Anda dan mendukung 19 bahasa. Di Android 13 dan yang lebih baru, Anda bisa memilih bahasa khusus untuk aplikasi ini di setelan sistem, pada Aplikasi, Relaypad, Bahasa. Di versi yang lebih lama, ubah bahasa ponsel."
+          ]
+        },
+        {
+          "id": "privacy_data",
+          "q": "Data apa yang dikumpulkan aplikasi ini?",
+          "a": [
+            "Peristiwa penggunaan anonim, supaya kami bisa melihat layar mana yang bermasalah, dan setelan jarak jauh, yang menyalakan atau mematikan fitur. Peristiwa tidak pernah membawa Account ID, alamat IP atau nama konsol Anda, dan tidak ada server milik kami di antara Anda dan konsol Anda. Statistik penggunaan bisa dimatikan lewat Setelan, Privasi; setelan jarak jauh tetap diambil."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Bagaimana cara melaporkan masalah atau mengusulkan sesuatu?",
+          "a": [
+            "Pakai Kirim masukan di Setelan, Tentang, tombol di bagian bawah halaman ini, atau Kirim email ke kami di Dokter Koneksi. Email sudah terisi model ponsel, versi sistem dan aplikasi, bahasa serta ringkasan Dokter Koneksi terbaru, yaitu hal-hal yang kami perlukan untuk mencocokkan laporan Anda dengan apa yang kami lihat. Cukup tuliskan apa yang Anda lakukan dan apa yang terjadi."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

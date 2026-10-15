@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import { useT } from '../i18n/t';
+import { liveProducts } from '../lib/content';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../lib/jsonld';
+
+// Website privacy note. English only; every locale's footer links here.
+const locale = 'en';
+const { t, list } = useT(locale);
+const products = await liveProducts();
+const url = `${SITE}/privacy/`;
+const items = list<string>('sitePrivacy.items');
+const jsonLd = graph(
+  organization(),
+  website('en'),
+  webPage(url, t('sitePrivacy.title'), t('sitePrivacy.description'), 'en'),
+  breadcrumbs([
+    { name: t('nav.home'), url: `${SITE}/` },
+    { name: t('sitePrivacy.title'), url },
+  ]),
+);
+---
+
+<Base locale={locale} path="/privacy/" title={`${t('sitePrivacy.title')} · ${t('site.name')}`} description={t('sitePrivacy.description')} alternates={['en']} jsonLd={jsonLd}>
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">dapplebyte.com</div>
+    <h1 class="h-page">{t('sitePrivacy.title')}</h1>
+    <p class="lede" style="margin-top:16px">{t('sitePrivacy.description')}</p>
+  </section>
+  <section class="wrap section prose">
+    <ul>
+      {items.map((i) => <li>{i}</li>)}
+    </ul>
+    <h2>{t('sitePrivacy.appsHeading')}</h2>
+    <ul>
+      {products.map((p) => <li><a href={`/${p.slug}/privacy/`}>{t('privacy.title', { name: p.name })}</a></li>)}
+    </ul>
+  </section>
+</Base>

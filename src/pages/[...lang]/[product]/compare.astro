@@ -1,0 +1,124 @@
+---
+import { getEntry } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import ProductNav from '../../../components/ProductNav.astro';
+import { getLocale, localePath } from '../../../i18n/locales';
+import { useT, formatDate } from '../../../i18n/t';
+import { getProduct } from '../../../lib/content';
+import { productLangPaths } from '../../../lib/routes';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../lib/jsonld';
+
+export async function getStaticPaths() {
+  const out = [];
+  for (const p of await productLangPaths()) {
+    if (await getEntry('compare', p.props.slug)) out.push(p);
+  }
+  return out;
+}
+
+const { locale, slug, alternates } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const compare = (await getEntry('compare', slug))!.data;
+const path = `/${slug}/compare/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = t('compare.title', { name: product.name });
+const description = t('compare.description', { name: product.name });
+const columns = [{ id: slug, name: product.name, url: product.playUrl }, ...compare.competitors];
+const cell = (v: string) => (v in { yes: 1, no: 1, partial: 1, unknown: 1, 'one-time': 1, free: 1, subscription: 1 } ? t(`compare.values.${v}`) : v);
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('labels.compare'), url },
+  ]),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} noindex={compare.draft} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="compare" showCompare={!compare.draft} />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">{product.name}</div>
+    <h1 class="h-page">{title}</h1>
+    <p class="lede" style="margin-top:16px">{t('compare.intro')}</p>
+    <p class="fine" style="margin-top:12px">{compare.verifiedOn ? t('compare.verified', { date: formatDate(locale, compare.verifiedOn, loc.lang) }) : t('compare.notVerified')}</p>
+  </section>
+  <section class="wrap section">
+    <div class="table-scroll">
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th scope="col">{t('compare.featureColumn')}</th>
+            {columns.map((c) => <th scope="col">{c.url ? <a href={c.url}>{c.name}</a> : c.name}</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {compare.rows.map((r) => (
+            <tr>
+              <th scope="row">{t(`compare.rows.${r.id}`)}</th>
+              {columns.map((c) => {
+                const v = r.values[c.id] ?? 'unknown';
+                return <td class={`v-${v}`}>{cell(v)}</td>;
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <ul class="sources">
+      {compare.competitors.map((c) => c.url && <li><a href={c.url}>{c.name}</a></li>)}
+    </ul>
+  </section>
+  <section class="wrap section">
+    <div class="actions">
+      {compare.competitors.map((c) => <a class="link-plain" href={localePath(locale, `/${slug}/vs/${c.id}/`)}>{t('compare.vsTitle', { name: product.name, other: c.name })}</a>)}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .cmp {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 720px;
+    font-size: 15px;
+  }
+  .cmp th,
+  .cmp td {
+    text-align: start;
+    vertical-align: top;
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+  }
+  .cmp thead th {
+    background: var(--surface);
+    font-weight: 600;
+  }
+  .cmp tbody th {
+    font-weight: 500;
+    color: var(--fg-2);
+    position: sticky;
+    inset-inline-start: 0;
+    background: var(--bg);
+  }
+  .cmp tbody td:nth-child(2) {
+    color: var(--fg);
+    font-weight: 500;
+  }
+  .v-unknown {
+    color: var(--muted);
+  }
+  .sources {
+    margin: 16px 0 0;
+    padding-inline-start: 1.1em;
+    font-size: 14px;
+    color: var(--muted);
+    display: flex;
+    gap: 6px 24px;
+    flex-wrap: wrap;
+  }
+</style>

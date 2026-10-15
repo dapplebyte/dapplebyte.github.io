@@ -1,0 +1,124 @@
+---
+import { Image } from 'astro:assets';
+import { getEntry } from 'astro:content';
+import Base from '../../../../layouts/Base.astro';
+import ProductNav from '../../../../components/ProductNav.astro';
+import { getLocale, localePath } from '../../../../i18n/locales';
+import { useT } from '../../../../i18n/t';
+import { getProduct, getCopy, getFaq, faqEntryById, copySection } from '../../../../lib/content';
+import { productLangPaths } from '../../../../lib/routes';
+import { graph, organization, website, webPage, breadcrumbs, softwareApplication, SITE } from '../../../../lib/jsonld';
+import { screenshot } from '../../../../lib/screenshots';
+
+export async function getStaticPaths() {
+  const out = [];
+  for (const base of await productLangPaths()) {
+    const features = (await getEntry('features', base.props.slug))?.data.items ?? [];
+    for (const f of features) {
+      out.push({ params: { ...base.params, feature: f.id }, props: { ...base.props, feature: f } });
+    }
+  }
+  return out;
+}
+
+const { locale, slug, alternates, feature } = Astro.props;
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const copy = await getCopy(slug, locale);
+const faq = await getFaq(slug, locale);
+const section = copySection(copy, feature.sectionId);
+if (!section) throw new Error(`feature ${feature.id}: copy section ${feature.sectionId} missing for ${locale}`);
+const related = faq ? feature.faq.map((id) => faqEntryById(faq, id)).filter(Boolean) : [];
+const shots = feature.screenshots.map((i) => ({ i, img: screenshot(slug, locale, i) })).filter((x) => x.img);
+const path = `/${slug}/features/${feature.id}/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = t('features.title', { feature: section.title, name: product.name });
+const description = section.bullets.slice(0, 2).join('. ') || section.paragraphs[0] || copy.tagline;
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang, copy.extractedAt),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('features.indexHeading'), url: new URL(localePath(locale, `/${slug}/features/`), SITE).href },
+    { name: section.title, url },
+  ]),
+  softwareApplication(product, copy, [], [], false),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="features" />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px"><a href={localePath(locale, `/${slug}/features/`)} style="color:inherit;text-decoration:none">{product.name} · {t('features.indexHeading')}</a></div>
+    <h1 class="h-page">{section.title}</h1>
+    {section.paragraphs.map((p) => <p class="lede" style="margin-top:16px">{p}</p>)}
+    {section.bullets.length > 0 && (
+      <ul class="bullets">{section.bullets.map((b) => <li>{b}</li>)}</ul>
+    )}
+  </section>
+
+  {shots.length > 0 && (
+    <section class="wrap section">
+      <div class={shots.length > 1 ? 'shots' : 'single'}>
+        {shots.map((x) => (
+          <figure>
+            <Image src={x.img!} alt={t('product.screenshotAlt', { name: product.name, index: x.i })} widths={[640, 1280]} sizes="(max-width: 860px) 100vw, 1120px" />
+          </figure>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {related.length > 0 && (
+    <section class="wrap section">
+      <div class="section-head mono"><span>{t('features.relatedFaq')}</span><a href={localePath(locale, `/${slug}/faq/`)}>{t('product.faqAll')} →</a></div>
+      <ul class="related">
+        {related.map((x) => (
+          <li><a href={localePath(locale, `/${slug}/faq/${x!.section.id}/`) + '#' + x!.entry.id}>{x!.entry.q}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="wrap section">
+    <div class="actions">
+      {product.playUrl && <a class="button" href={product.playUrl}>{t('cta.getOnPlay', { name: product.name })}</a>}
+      <a class="link-plain" href={localePath(locale, `/${slug}/`)}>{t('features.backToProduct', { name: product.name })}</a>
+      <a class="link-plain" href={localePath(locale, `/${slug}/features/`)}>{t('features.allFeatures', { name: product.name })}</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .bullets {
+    margin: 20px 0 0;
+    padding-inline-start: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--fg-2);
+    font-size: 18px;
+    max-width: 64ch;
+  }
+  .single figure {
+    margin: 0;
+    border: 1px solid var(--line);
+    background: var(--bg-deep);
+  }
+  .single img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .related {
+    margin: 0;
+    padding-inline-start: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+  }
+</style>

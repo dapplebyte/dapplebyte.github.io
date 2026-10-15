@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import { LOCALES, localePath } from '../i18n/locales';
+import { useT } from '../i18n/t';
+import { liveProducts } from '../lib/content';
+
+const locale = 'en';
+const { t } = useT(locale);
+const products = await liveProducts();
+---
+
+<Base locale={locale} path="/404/" title={`${t('notFound.title')} · ${t('site.name')}`} description={t('notFound.title')} alternates={['en']} noindex>
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">404</div>
+    <h1 class="h-page">{t('notFound.title')}</h1>
+    <p class="lede" style="margin-top:16px">{t('notFound.body')}</p>
+    <ul class="links">
+      <li><a href="/">{t('notFound.home')}</a></li>
+      {products.map((p) => (
+        <li><a href={`/${p.slug}/`}>{p.name}</a> · <a href={`/${p.slug}/faq/`}>{t('labels.faq')}</a> · <a href={`/${p.slug}/support/`}>{t('labels.support')}</a></li>
+      ))}
+    </ul>
+    <p class="fine" style="margin-top:32px">
+      {LOCALES.map((l, i) => <><a href={localePath(l.slug, '/')} lang={l.lang}>{l.name}</a>{i < LOCALES.length - 1 && ' · '}</>)}
+    </p>
+  </section>
+</Base>
+
+<style>
+  .links {
+    margin: 24px 0 0;
+    padding-inline-start: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 18px;
+  }
+</style>

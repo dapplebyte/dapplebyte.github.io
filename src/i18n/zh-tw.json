@@ -1,0 +1,278 @@
+{
+  "site": {
+    "name": "DappleByte",
+    "tagline": "小而實用的 app，用心做。",
+    "definition": "DappleByte 是一個獨立開發 Android app 的小工作室。",
+    "kicker": "獨立工作室 · Android",
+    "email": "hello@dapplebyte.com"
+  },
+  "nav": {
+    "apps": "產品",
+    "about": "關於",
+    "language": "語言",
+    "skip": "跳到主要內容",
+    "home": "首頁"
+  },
+  "footer": {
+    "studio": "工作室",
+    "contact": "聯絡",
+    "languages": "語言",
+    "privacy": "網站隱私",
+    "copyright": "© {year} DappleByte",
+    "builtWith": "靜態網站，沒有 cookie，沒有追蹤器。"
+  },
+  "cta": {
+    "getOnPlay": "到 Google Play 取得 {name}",
+    "readSource": "閱讀原始碼",
+    "about": "認識 {name}",
+    "learnMore": "了解更多"
+  },
+  "labels": {
+    "apps": "產品",
+    "nextApp": "下一個 app",
+    "nextAppBody": "開發中，上架後會出現在這裡。",
+    "lastUpdated": "最後更新 {date}",
+    "android": "Android",
+    "by": "DappleByte 出品",
+    "overview": "總覽",
+    "features": "功能",
+    "faq": "常見問題",
+    "videos": "影片",
+    "compare": "比較",
+    "support": "支援",
+    "privacy": "隱私",
+    "changelog": "版本紀錄",
+    "press": "媒體資料",
+    "sourceCode": "原始碼",
+    "googlePlay": "Google Play"
+  },
+  "facts": {
+    "minOs": "{version} 以上",
+    "consoles": "PS5 · PS4",
+    "languages": "{count} 種語言",
+    "source": "{license} 原始碼",
+    "version": "版本 {version}"
+  },
+  "home": {
+    "title": "DappleByte · 獨立開發的 Android app",
+    "description": "DappleByte 是一個獨立開發 Android app 的小工作室，產品包括 Relaypad：PS5 與 PS4 的 Remote Play 控制器與主機串流 app。",
+    "appsHeading": "產品",
+    "principlesHeading": "我們怎麼做事",
+    "principles": [
+      {
+        "title": "沒有廣告，沒有訂閱。",
+        "body": "一次付費，或者免費。不拿你的注意力換錢。"
+      },
+      {
+        "title": "中間沒有我們的伺服器。",
+        "body": "app 直接連你自己的裝置，我們看不到你的資料。"
+      },
+      {
+        "title": "原始碼公開。",
+        "body": "每個版本都以 AGPL-3.0 推到公開倉庫。"
+      },
+      {
+        "title": "每封信都會回。",
+        "body": "寫信到 {email}，讀信的是人。"
+      }
+    ],
+    "contactHeading": "聯絡",
+    "contactBody": "工作室、媒體與合作：{email}。各產品的支援信箱在它自己的支援頁。"
+  },
+  "about": {
+    "title": "關於 DappleByte",
+    "description": "DappleByte 是一個獨立開發 Android app 的小工作室：沒有廣告、沒有訂閱、你和裝置之間沒有我們的伺服器，原始碼以 AGPL-3.0 公開。",
+    "whatHeading": "DappleByte 是什麼",
+    "whatBody": "DappleByte 是一個獨立開發 Android app 的小工作室。一位開發者、少數幾個 app，每個都只做好一件事，然後不打擾你。",
+    "howHeading": "我們怎麼做事",
+    "openSourceHeading": "開源",
+    "openSourceBody": "每個 app 的每個版本都以 AGPL-3.0 公開原始碼，倉庫連結在各產品頁。你可以看到 app 到底做了什麼、自己編譯，或者對照隱私政策和程式碼是否一致。",
+    "contactHeading": "聯絡",
+    "contactBody": "工作室、媒體與合作：{email}。某個 app 的使用問題請寄到該產品支援頁上的信箱，這樣會直接進到對的收件匣、附上對的脈絡。",
+    "trademarksHeading": "商標",
+    "trademarksBody": "本站提到其他公司的產品名稱，只是為了說明我們的 app 能搭配什麼使用。這些名稱屬於各自的所有者，不代表任何關聯或背書。",
+    "siteHeading": "這個網站",
+    "siteBody": "靜態 HTML，用 Astro 建構、放在 GitHub Pages。不設 cookie，不載入第三方指令碼。網站本身的原始碼也公開在 github.com/dapplebyte/dapplebyte.github.io。"
+  },
+  "product": {
+    "title": "{name} · DappleByte",
+    "screenshotsHeading": "截圖",
+    "screenshotAlt": "{name} 截圖 {index}",
+    "featuresHeading": "能做什麼",
+    "faqHeading": "常見問題",
+    "faqAll": "全部問題",
+    "getHeading": "取得 {name}",
+    "getBody": "在 Google Play 上架，Android 專用。原始碼以 {license} 公開。",
+    "requiresLabel": "需要",
+    "videoHeading": "看它實際運作",
+    "allVideos": "全部影片",
+    "moreHeading": "更多關於 {name}"
+  },
+  "features": {
+    "title": "{feature} · {name}",
+    "indexHeading": "功能",
+    "relatedFaq": "相關問題",
+    "backToProduct": "回到 {name}",
+    "allFeatures": "{name} 全部功能",
+    "inShort": "一句話"
+  },
+  "faq": {
+    "title": "{name} 常見問題",
+    "sectionTitle": "{section} · {name} 常見問題",
+    "description": "{name} 的問題解答：三種玩法、連線、登入、串流畫質、手把、購買與退款。",
+    "sectionDescription": "{name} 常見問題「{section}」：{count} 題，附完整解答。",
+    "intro": "這些答案和 app 內「設定 → 常見問題」一樣。每個分區一頁，每一題都有自己的連結。",
+    "questionsCount": "{count} 題",
+    "notFoundHeading": "沒找到答案？",
+    "notFoundBody": "寫信給我們，附上手機型號、主機型號和發生了什麼事。每封信都有人讀。",
+    "notFoundCta": "前往支援",
+    "prev": "上一區",
+    "next": "下一區",
+    "allSections": "全部分區",
+    "linkToQuestion": "這一題的連結"
+  },
+  "support": {
+    "title": "{name} 支援",
+    "description": "取得 {name} 的協助：先檢查什麼、怎麼寫信給我們、信裡要附什麼、退款怎麼辦。",
+    "beforeHeading": "寫信之前",
+    "beforeItems": [
+      "先看常見問題。連線、登入和畫面的問題大多在那裡有答案，措辭和 app 內一致。",
+      "如果連不上，從「設定」執行連線醫生。它會檢查網路、主機和 Remote Play，報告可以一鍵寄給我們。",
+      "確認主機已開機或在待命模式，而且主機設定裡的 Remote Play 已經開啟。"
+    ],
+    "writeHeading": "寫信給我們",
+    "writeBody": "按鈕會開啟你的郵件 app 並填好主旨。要是沒有反應，把信箱和下面的清單複製到任何一封信裡就行。",
+    "writeButton": "寄信到 {email}",
+    "copyAddress": "複製信箱",
+    "copied": "已複製",
+    "subject": "[{name}] ",
+    "templateHeading": "信裡要附什麼",
+    "template": {
+      "phone": "手機型號：",
+      "android": "Android 版本：",
+      "console": "主機：PS5 / PS4",
+      "where": "在家還是外出：",
+      "what": "發生了什麼事，一步一步寫：",
+      "doctor": "如果跑過連線醫生，把報告貼在這裡。"
+    },
+    "refundHeading": "退款",
+    "refundBody": "如果 {name} 在你的環境下用不起來，購買起 7 天內寫信給我們就退款。告訴我們你試過什麼，這能幫我們替下一個人修好。",
+    "replyHeading": "多久會回覆",
+    "replyBody": "通常兩個工作天內。每封信都由人閱讀，也每封都會回。",
+    "faqLink": "先看常見問題"
+  },
+  "privacy": {
+    "title": "{name} 隱私政策",
+    "description": "{name} Android 版怎麼處理你的資料：沒有帳號、沒有我們的伺服器，哪些留在裝置上，app 會連到哪裡。",
+    "effective": "{date} 生效",
+    "appliesTo": "適用於 Google Play 上架的 {name} Android 版（{appId}）。",
+    "governing": "本政策以英文發布。翻譯版本僅供參考，以英文版為準。",
+    "contact": "問題與請求：{email}",
+    "contents": "目錄",
+    "backToTop": "回到頂端"
+  },
+  "sitePrivacy": {
+    "title": "網站隱私",
+    "description": "dapplebyte.com 不設 cookie、不做分析、不載入第三方指令碼。",
+    "items": [
+      "這個網站是靜態 HTML。不設 cookie，不載入第三方指令碼、字型或分析工具。",
+      "我們沒有在這裡做流量分析。唯一的數字來自 Google Search Console 和 Bing Webmaster Tools，它們只提供彙總的搜尋曝光。",
+      "如果你寫信給我們，信件只保留到問題處理完為止，之後刪除。不會把你加進任何名單。",
+      "網站放在 GitHub Pages，它和任何網頁伺服器一樣會記錄請求，細節見 GitHub 的隱私聲明。",
+      "每個 app 有自己的隱私政策，連結在產品頁。那些政策管 app 做什麼；這一頁只管網站。"
+    ],
+    "appsHeading": "各 app 的隱私政策"
+  },
+  "videos": {
+    "title": "{name} 影片",
+    "description": "在真實手機上示範 {name} 的短片：設定、串流、手把佈局、解決連線問題。",
+    "emptyHeading": "影片製作中",
+    "emptyBody": "我們正在替每個功能錄製操作示範。在那之前，功能頁和常見問題涵蓋了一樣的內容。",
+    "kinds": {
+      "promo": "總覽",
+      "tutorial": "操作教學",
+      "troubleshooting": "解決問題"
+    },
+    "watchOn": "在 YouTube 觀看",
+    "play": "播放影片"
+  },
+  "compare": {
+    "title": "{name} 與其他 app 的比較",
+    "description": "{name} 與 PS Remote Play、PXPlay、Chiaki 在 Android 上逐項比較，只列事實。",
+    "intro": "只列事實，對照各 app 的商店頁或官網核對。各 app 的描述以下方日期為準，之後的新版本可能不同。這裡不替任何 app 打分，也不主張哪一個整體更好。",
+    "verified": "核對日期 {date}",
+    "notVerified": "其他欄位尚未核對，所以這一頁暫不提供給搜尋引擎收錄。",
+    "featureColumn": "功能",
+    "rows": {
+      "platform": "平台",
+      "away-from-home": "外出 Remote Play",
+      "hevc-hdr": "HEVC 與 HDR 串流",
+      "virtual-pad-editor": "虛擬手把與佈局編輯",
+      "physical-pad": "藍牙或 USB 手把轉發",
+      "tv-output": "HDMI 電視輸出",
+      "connection-doctor": "內建連線診斷",
+      "open-source": "開源",
+      "pricing-model": "收費方式"
+    },
+    "values": {
+      "yes": "有",
+      "no": "沒有",
+      "partial": "部分",
+      "unknown": "未核對",
+      "one-time": "一次買斷",
+      "free": "免費",
+      "subscription": "訂閱"
+    },
+    "vsTitle": "{name} vs {other}",
+    "vsDescription": "{name} 與 {other} 在 Android 上逐項比較：外出 Remote Play、HEVC 與 HDR、手把、電視輸出、開源與收費方式。",
+    "vsIntro": "兩者都能讓 Android 裝置連到 PS5 或 PS4。差別逐項列在下面。",
+    "fullComparison": "看完整比較"
+  },
+  "changelog": {
+    "title": "{name} 版本紀錄",
+    "description": "{name} Android 版每一個版本改了什麼，最新的在前。",
+    "version": "版本 {version}",
+    "build": "build {code}",
+    "feed": "Atom 訂閱"
+  },
+  "press": {
+    "title": "{name} 媒體資料",
+    "description": "撰寫 {name} 報導所需的事實、素材與介紹文字：Android 上的 Remote Play 控制器與主機串流 app。",
+    "intro": "這一頁的所有內容都可以直接用在文章、影片和 app 介紹裡，不必事先詢問。需要其他東西請寫信給我們。",
+    "factsHeading": "基本資料",
+    "facts": {
+      "name": "名稱",
+      "developer": "開發者",
+      "platform": "平台",
+      "firstReleased": "首次發布",
+      "currentVersion": "目前版本",
+      "price": "價格",
+      "priceValue": "付費 app，一次買斷，沒有訂閱，沒有廣告。目前價格以 Google Play 顯示為準。",
+      "languages": "語言",
+      "license": "授權",
+      "website": "網站",
+      "store": "商店頁",
+      "source": "原始碼",
+      "contact": "聯絡"
+    },
+    "oneLineHeading": "一句話",
+    "boilerplateHeading": "介紹文字",
+    "boilerplate": "{name} 讓 Android 手機變成 PS5 或 PS4 的無線控制器，也能把主機畫面串到手機、平板或電視上，在家或外出用行動網路都行。由獨立工作室 DappleByte 開發，原始碼以 AGPL-3.0 公開。",
+    "assetsHeading": "素材",
+    "assetIcon": "App 圖示，512 px PNG",
+    "assetFeature": "置頂大圖，1024 × 500 PNG",
+    "assetScreenshots": "截圖，1920 × 1080 PNG，英文",
+    "assetStudioMark": "DappleByte 標誌，SVG",
+    "screenshotN": "截圖 {index}",
+    "contactHeading": "媒體聯絡",
+    "contactBody": "{email}。每封信都會回，通常兩個工作天內。"
+  },
+  "notFound": {
+    "title": "找不到這一頁",
+    "body": "這個網址不存在。這些可以：",
+    "home": "首頁"
+  },
+  "trademarks": {
+    "sony": "PlayStation、PS5 與 PS4 是 Sony Interactive Entertainment Inc. 的商標。{name} 與 Sony 無關聯，也未獲其背書。"
+  }
+}
