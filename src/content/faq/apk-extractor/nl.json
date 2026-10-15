@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "nl",
+  "title": "Help en veelgestelde vragen",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Basis en uitpakken",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Wat kan deze app?",
+          "a": [
+            "De app pakt de op je telefoon geïnstalleerde apps uit naar APK-, XAPK- of APKS-bestanden, zodat je ze kunt bewaren, delen of later opnieuw installeren. Daarnaast beheert de app de installatiepakketten die al op je toestel staan."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Waar komen uitgepakte bestanden terecht en kan ik dat wijzigen?",
+          "a": [
+            "Bestanden gaan naar de exportmap die in de instellingen staat. Open Instellingen → Exportpad om zelf een map te kiezen, ook een map op een SD-kaart."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "Wat is het verschil tussen APK, XAPK en APKS?",
+          "a": [
+            "Een APK is één installatiebestand. XAPK en APKS zijn archieven die daarnaast de split-pakketten van een app bevatten (taal, schermdichtheid, CPU-architectuur) en de OBB-gegevens. Gebruik APK voor gewone apps en XAPK/APKS voor apps die als App Bundle zijn gepubliceerd."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Waarom wordt een app als XAPK geëxporteerd in plaats van als APK?",
+          "a": [
+            "Die app is als App Bundle gepubliceerd, dus het systeem heeft hem als meerdere split-pakketten geïnstalleerd. Eén APK zou onvolledig zijn, daarom worden alle splits samen in één XAPK-bestand verpakt."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Kan ik de naam van het geëxporteerde bestand aanpassen?",
+          "a": [
+            "Ja. Met Instellingen → Exportregels combineer je appnaam, pakketnaam, versienaam en versiecode. Instellingen → Gecomprimeerde extensienaam en Scheidingsteken pakketnaam bepalen de rest van de naam."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Waarom ontbreken sommige apps in de lijst?",
+          "a": [
+            "Systeemapps zijn standaard verborgen. Open Instellingen → Pakketbereik en schakel systeemapps in om ze te tonen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Installeren",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "Hoe installeer ik een XAPK- of APKS-bestand?",
+          "a": [
+            "Open het tabblad APK's, tik op het bestand en kies Installeren. De app gebruikt de session installer van het systeem en kiest automatisch de splits die bij je toestel passen."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "Er wordt gevraagd om onbekende apps te mogen installeren. Wat nu?",
+          "a": [
+            "Android vereist een uitdrukkelijke toestemming voordat een app pakketten mag installeren. Tik in de melding op Instellingen, zet “Toestaan van deze bron” aan, ga terug en probeer het opnieuw."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Kan ik meerdere pakketten tegelijk installeren?",
+          "a": [
+            "Ja. Selecteer meerdere bestanden op het tabblad APK's en zet ze in de installatiewachtrij; ze worden dan één voor één geïnstalleerd. Batch-installatie is een Pro-functie."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Waarom is een installatie mislukt?",
+          "a": [
+            "Meestal komt het door een handtekening die afwijkt van de geïnstalleerde app, een versie die ouder is dan de geïnstalleerde, ontbrekende splits voor jouw CPU-architectuur of te weinig vrije opslag. De oude app eerst verwijderen lost de meeste gevallen op."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Delen en overdragen",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "Hoe stuur ik een app naar een vriend?",
+          "a": [
+            "Selecteer de app en kies Delen. Instellingen → Deelmodus bepaalt of het originele bestand direct wordt gedeeld of eerst wordt uitgepakt."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Hoe werkt Weboverdracht?",
+          "a": [
+            "Open Weboverdracht in het zijmenu, houd beide apparaten op hetzelfde Wi-Fi-netwerk en voer daarna het adres van het scherm in de browser van je computer in, of scan de QR-code. De poort wijzig je bij Instellingen → Poortnummer. Weboverdracht is een Pro-functie."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Hoe ontvang ik APK-bestanden van een andere telefoon?",
+          "a": [
+            "Open APK's ontvangen in het zijmenu en laat de andere telefoon via het lokale netwerk naar dit toestel sturen. Met Instellingen → Apparaatnaam wijzig je hoe je telefoon wordt weergegeven, en zonder Wi-Fi kun je een hotspot gebruiken."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "De overdracht maakt geen verbinding. Wat moet ik controleren?",
+          "a": [
+            "Zorg dat beide apparaten op hetzelfde Wi-Fi-netwerk zitten en dat AP-isolatie of een VPN ze niet blokkeert. Is de poort al bezet, wijzig hem dan in de instellingen, of zet de hotspot op één toestel aan en verbind het andere ermee."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Back-up en versiegeschiedenis",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "Wat is automatische back-up en hoeveel ruimte kost het?",
+          "a": [
+            "Automatische back-up bewaart bij elke update een kopie van de APK van een app, zodat je later naar een oudere versie terug kunt. Elke bewaarde versie kost ongeveer evenveel ruimte als de app zelf, dus verwijder in Versiegeschiedenis de records die je niet meer nodig hebt."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Hoe kies ik van welke apps een back-up wordt gemaakt?",
+          "a": [
+            "Open Versiegeschiedenis → menu → Apps kiezen om te back-uppen en vink de apps aan die je wilt volgen. De gratis versie kan een beperkt aantal apps automatisch back-uppen; met Pro vervalt die limiet."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Hoe ga ik terug naar een oudere versie?",
+          "a": [
+            "Open Versiegeschiedenis, kies de app, selecteer de gewenste versie en tik op Installeren. Android staat downgraden over een bestaande app niet toe, dus verwijder eerst de huidige versie — de gegevens ervan gaan verloren."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Wat laat Versies vergelijken zien?",
+          "a": [
+            "Het vergelijkt een installatiepakket met de versie op je telefoon: versienaam en versiecode, bestandsgrootte, target SDK, of de handtekening overeenkomt, toegevoegde en verwijderde machtigingen en wijzigingen in componenten. Zo controleer je het snelst of een gedownload bestand echt is."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Details en analyse",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "Wat staat er op de detail- en analysepagina's?",
+          "a": [
+            "Daar vind je de pakketnaam, versies, installatie- en updatedatums, handtekening, machtigingen, componenten, ondersteunde CPU-architecturen en een uitsplitsing van de grootte, plus statistieken over al je geïnstalleerde apps."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Waarom wijkt de grootte af van die in de systeeminstellingen?",
+          "a": [
+            "Deze app toont de grootte van het installatiepakket. De systeeminstellingen tellen daar de gebruikersgegevens en de cache bij op, dus dat getal is meestal hoger."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro en advertenties",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "Wat krijg ik met Pro?",
+          "a": [
+            "Pro verwijdert alle advertenties, heft de limiet op voor het aantal apps dat automatisch wordt geback-upt en ontgrendelt Weboverdracht en de wachtrij voor batch-installatie. Het is een eenmalige aankoop, geen abonnement."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Ik heb een nieuwe telefoon. Hoe krijg ik Pro terug?",
+          "a": [
+            "Open Upgraden naar Pro en tik op Aankoop herstellen. Meld je aan met hetzelfde Google-account waarmee je hebt betaald; je betaalt niet opnieuw."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Ik heb betaald, maar ik zie nog steeds advertenties.",
+          "a": [
+            "Controleer of het toestel online is, tik op Aankoop herstellen en start de app daarna opnieuw. Google Play heeft soms een paar minuten nodig om een betaling te bevestigen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Privacy en overig",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "Uploadt de app mijn apps of mijn gegevens?",
+          "a": [
+            "Nee. Uitpakken, back-uppen en overdragen gebeuren allemaal op je toestel of binnen je eigen lokale netwerk. Zie het privacybeleid voor de details."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "Hoe wijzig ik de taal of gebruik ik de donkere modus?",
+          "a": [
+            "Instellingen → Language biedt meer dan twintig talen, en Instellingen → Nachtmodus schakelt tussen licht, donker en Systeem volgen."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "Hoe meld ik een probleem of stel ik een functie voor?",
+          "a": [
+            "Gebruik de knop onderaan deze pagina om ons te mailen. Vermeld je app-versie, telefoonmodel en Android-versie, dan kunnen we sneller antwoorden."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "fr",
+  "title": "Aide & FAQ",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Bases & extraction",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Que fait cette application ?",
+          "a": [
+            "Elle extrait les applis installées sur votre téléphone sous forme de fichiers APK, XAPK ou APKS, pour que vous puissiez les sauvegarder, les partager ou les réinstaller plus tard. Elle gère aussi les paquets d'installation déjà présents sur votre appareil."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Où sont enregistrés les fichiers extraits, et puis-je changer cet emplacement ?",
+          "a": [
+            "Les fichiers vont dans le dossier d'export indiqué dans les Paramètres. Ouvrez Paramètres → Chemin d'exportation pour choisir le dossier de votre choix, y compris sur une carte SD."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "Quelle est la différence entre APK, XAPK et APKS ?",
+          "a": [
+            "Un APK est un fichier d'installation unique. XAPK et APKS sont des archives qui contiennent en plus les paquets split d'une appli (langue, densité d'écran, architecture du processeur) et ses données OBB. Utilisez APK pour les applis ordinaires et XAPK/APKS pour celles publiées sous forme d'App Bundle."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Pourquoi une appli est-elle exportée en XAPK plutôt qu'en APK ?",
+          "a": [
+            "Cette appli a été publiée sous forme d'App Bundle : le système l'a donc installée en plusieurs paquets split. Un APK seul serait incomplet, tous les splits sont donc regroupés dans un seul fichier XAPK."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Puis-je personnaliser le nom des fichiers exportés ?",
+          "a": [
+            "Oui. Paramètres → Règles d'exportation vous permet de combiner nom app, nom paquet, version et code version. Paramètres → Ext. fichier compressé et Séparateur de nom de paquet règlent le reste du nom."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Pourquoi certaines applis n'apparaissent-elles pas dans la liste ?",
+          "a": [
+            "Les applis système sont masquées par défaut. Ouvrez Paramètres → Étendue des paquets et activez les applis système pour les afficher."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Installation",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "Comment installer un fichier XAPK ou APKS ?",
+          "a": [
+            "Ouvrez l'onglet APKs, touchez le fichier et choisissez Installer. L'appli passe par l'installateur par session du système et sélectionne automatiquement les splits correspondant à votre appareil."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "On me demande d'autoriser l'installation d'applis inconnues. Que faire ?",
+          "a": [
+            "Android exige une autorisation explicite avant qu'une appli puisse installer des paquets. Touchez Paramètres dans la demande, activez « Autoriser cette source », revenez en arrière et réessayez."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Puis-je installer plusieurs paquets d'un coup ?",
+          "a": [
+            "Oui. Sélectionnez plusieurs fichiers dans l'onglet APKs et ajoutez-les à la file d'installation : ils s'installeront les uns après les autres. L'Installation groupée est une fonction Pro."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Pourquoi une installation a-t-elle échoué ?",
+          "a": [
+            "Les causes habituelles : une signature différente de celle de l'appli installée, une version plus ancienne que celle en place, des splits manquants pour l'architecture de votre processeur, ou un espace de stockage insuffisant. Désinstaller d'abord l'ancienne appli règle la plupart des cas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Partage & transfert",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "Comment envoyer une appli à un ami ?",
+          "a": [
+            "Sélectionnez l'appli et choisissez Partager. Paramètres → Mode de partage détermine si le fichier d'origine est partagé directement ou s'il est d'abord extrait."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Comment fonctionne le Transfert web ?",
+          "a": [
+            "Ouvrez Transfert web depuis le menu latéral, gardez les deux appareils sur le même Wi-Fi, puis saisissez l'adresse affichée à l'écran dans le navigateur de votre ordinateur ou scannez le QR code. Le port se change dans Paramètres → Numéro de port. Le Transfert web est une fonction Pro."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Comment recevoir des fichiers APK depuis un autre téléphone ?",
+          "a": [
+            "Ouvrez Recevoir des APKs depuis le menu latéral et laissez l'autre téléphone envoyer vers cet appareil par le réseau local. Paramètres → Nom de l'appareil change la façon dont votre téléphone apparaît, et un point d'accès peut servir en l'absence de Wi-Fi."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "Le transfert ne se connecte pas. Que vérifier ?",
+          "a": [
+            "Assurez-vous que les deux appareils sont sur le même Wi-Fi et que ni l'isolation des clients ni un VPN ne les bloquent. Si le port est déjà occupé, changez-le dans les Paramètres, ou activez le point d'accès sur un appareil et connectez-y l'autre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Sauvegarde & historique des versions",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "Qu'est-ce que la sauvegarde automatique et quel espace occupe-t-elle ?",
+          "a": [
+            "La Sauvegarde automatique conserve une copie de l'APK d'une appli à chaque mise à jour, pour que vous puissiez revenir à une version antérieure plus tard. Chaque version conservée occupe à peu près autant de place que l'appli elle-même : supprimez donc dans l'Historique des versions les entrées dont vous n'avez plus besoin."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Comment choisir les applis à sauvegarder ?",
+          "a": [
+            "Ouvrez Historique des versions → menu → Choisir les applis à sauvegarder et cochez celles que vous voulez surveiller. La version gratuite peut sauvegarder automatiquement un nombre limité d'applis ; Pro supprime cette limite."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Comment revenir à une version antérieure ?",
+          "a": [
+            "Ouvrez l'Historique des versions, choisissez l'appli, sélectionnez la version voulue et touchez Installer. Android n'autorise pas de rétrograder par-dessus une appli existante : désinstallez d'abord la version en place — ses données seront supprimées."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Qu'affiche la Comparaison de versions ?",
+          "a": [
+            "Elle compare un paquet d'installation avec la version installée sur votre téléphone : version et code de version, taille du fichier, SDK cible, correspondance de la signature, permissions ajoutées ou retirées, et changements de composants. C'est le moyen le plus rapide de vérifier qu'un fichier téléchargé est authentique."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Détails & analyse",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "Que trouve-t-on dans les pages de détails et d'analyse ?",
+          "a": [
+            "Elles indiquent le nom du paquet, les versions, les dates d'installation et de mise à jour, la signature, les permissions, les composants, les architectures de processeur prises en charge et la répartition de la taille, ainsi que des statistiques sur l'ensemble de vos applis installées."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Pourquoi la taille diffère-t-elle de celle affichée dans les paramètres du système ?",
+          "a": [
+            "Cette appli affiche la taille du paquet d'installation. Les paramètres du système y ajoutent les données utilisateur et le cache, d'où un chiffre généralement plus élevé."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro & publicités",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "Qu'apporte la version Pro ?",
+          "a": [
+            "Pro supprime toutes les publicités, lève la limite du nombre d'applis sauvegardées automatiquement et débloque le Transfert web et la file d'Installation groupée. C'est un achat unique, pas un abonnement."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "J'ai changé de téléphone. Comment récupérer Pro ?",
+          "a": [
+            "Ouvrez Passer à Pro et touchez Restaurer l'achat. Connectez-vous avec le compte Google utilisé lors de l'achat ; rien ne vous sera facturé une seconde fois."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "J'ai payé mais les publicités s'affichent toujours.",
+          "a": [
+            "Vérifiez que l'appareil est connecté, touchez Restaurer l'achat, puis redémarrez l'appli. Google Play met parfois quelques minutes à confirmer un paiement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Confidentialité & divers",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "L'appli envoie-t-elle mes applis ou mes données sur Internet ?",
+          "a": [
+            "Non. L'extraction, la sauvegarde et le transfert se font entièrement sur votre appareil ou à l'intérieur de votre propre réseau local. Consultez la politique de confidentialité pour le détail."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "Comment changer la langue ou passer en mode sombre ?",
+          "a": [
+            "Paramètres → Language propose plus de vingt langues, et Paramètres → Mode nuit bascule entre activé, désactivé et suivre le système."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "Comment signaler un problème ou proposer une fonctionnalité ?",
+          "a": [
+            "Utilisez le bouton en bas de cette page pour nous écrire. Nous indiquer la version de l'appli, le modèle du téléphone et la version d'Android nous aide à répondre plus vite."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

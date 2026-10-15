@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Applications Android indépendantes",
-    "description": "DappleByte est un studio indépendant qui crée des applications Android : Gamepad Pro, un mappeur de touches qui transforme une manette en commandes tactiles ; Relaypad, une application de manette Remote Play et de streaming de console pour PS5 et PS4 ; WhenDo, une application d'automatisation par IA avec cliqueur automatique ; JoyLink, qui transforme un téléphone en manette Bluetooth, pavé tactile et télécommande TV ; et Gamepad Tester Pro, qui détecte sur une manette la dérive des sticks, l'input lag et les boutons morts.",
+    "description": "DappleByte est un studio indépendant qui crée des applications Android : Gamepad Pro, un mappeur de touches qui transforme une manette en commandes tactiles ; Relaypad, une application de manette Remote Play et de streaming de console pour PS5 et PS4 ; WhenDo, une application d'automatisation par IA avec cliqueur automatique ; JoyLink, qui transforme un téléphone en manette Bluetooth, pavé tactile et télécommande TV ; et Gamepad Tester Pro, qui détecte sur une manette la dérive des sticks, l'input lag et les boutons morts. DappleByte développe aussi Apk Extractor, un extracteur d'APK, outil de sauvegarde d'applications et installeur de XAPK qui transfère vos applications vers un nouveau téléphone.",
     "appsHeading": "Applications",
     "principlesHeading": "Notre façon de travailler",
     "principles": [
@@ -78,7 +78,7 @@
     "whatBody": "DappleByte est un studio indépendant qui crée des applications Android. Un seul développeur, quelques applications, chacune pensée pour bien faire une chose précise, puis se faire oublier.",
     "howHeading": "Notre façon de travailler",
     "openSourceHeading": "Code source",
-    "openSourceBody": "Quand le code source d'une application est publié, le lien figure sur sa page et dans son kit presse. Relaypad est publié sous AGPL-3.0.",
+    "openSourceBody": "Quand le code source d'une application est publié, le lien figure sur sa page et dans son kit presse. Relaypad est publié sous AGPL-3.0. Apk Extractor est publié sous GPL-3.0.",
     "contactHeading": "Contact",
     "contactBody": "Studio, presse et partenariats : {email}. Pour l'assistance d'une application précise, écrivez à l'adresse indiquée sur sa page d'assistance : votre message arrive ainsi dans la bonne boîte, avec le bon contexte.",
     "trademarksHeading": "Marques",
@@ -221,7 +221,13 @@
       "test-history": "Historique des tests et tendance de la dérive par manette",
       "led-test": "Test de la barre lumineuse (PlayStation en Bluetooth)",
       "motion-test": "Test du gyroscope et de l'accéléromètre",
-      "touchpad-test": "Test du pavé tactile"
+      "touchpad-test": "Test du pavé tactile",
+      "extract-apk": "Extrait les applications installées en fichiers APK",
+      "xapk-install": "Installe les paquets XAPK et APK scindés",
+      "batch-install": "File d'installation groupée",
+      "version-history": "Historique des versions avec retour à une version antérieure",
+      "device-migration": "Transfère les applications vers un nouveau téléphone en Wi-Fi",
+      "wifi-transfer": "Transfère des applications entre appareils en Wi-Fi ou via un navigateur"
     },
     "values": {
       "yes": "Oui",
@@ -593,6 +599,45 @@
         "description": "Gamepad Tester Pro comparé aux autres applications de test de manette sur Android, fonctionnalité par fonctionnalité, uniquement des faits.",
         "vsDescription": "{name} et {other} comparés sur Android, fonctionnalité par fonctionnalité : test des boutons, analyse de la dérive du stick, taux d'interrogation, vibration, rapport de santé, publicité et prix.",
         "vsIntro": "Les deux testent une manette de jeu sur un téléphone Android. Voici en quoi ils diffèrent, fonctionnalité par fonctionnalité."
+      }
+    },
+    "apk-extractor": {
+      "kicker": "Sauvegarde APK · Installeur XAPK · Nouveau téléphone",
+      "heroPoints": [
+        "Extrait n'importe quelle application installée en fichier APK ou XAPK, en sauvegarde plusieurs d'un coup et garde un historique des versions pour annuler une mise à jour ratée, sans root",
+        "Installe les paquets APK et XAPK, compare un fichier avec la version installée et vérifie la signature et les autorisations avant que vous installiez",
+        "Transfère vos applications vers un nouveau téléphone en Wi-Fi et les partage hors ligne. Installation gratuite ; la suppression des publicités, l'Installation groupée, le Transfert web et la migration illimitée s'obtiennent par un achat Pro unique"
+      ],
+      "faqDescription": "Réponses sur Apk Extractor : où vont les fichiers extraits, APK ou XAPK, installation des paquets scindés, échecs d'installation, transfert Wi-Fi et Transfert web, sauvegarde automatique et historique des versions, détails des applications, Pro et publicités, et confidentialité.",
+      "faqNotFoundBody": "Écrivez-nous en indiquant votre modèle de téléphone, votre version d'Android et ce qui s'est passé. Une vraie personne lit chaque message.",
+      "support": {
+        "beforeItems": [
+          "Ouvrez la FAQ. Dossier d'exportation, installation de XAPK, échecs d'installation, transferts et restauration de Pro y sont traités, avec les mêmes termes que dans l'application.",
+          "En cas d'échec d'installation, notez la raison affichée par l'application : ABI incompatible, version d'Android minimale, stockage insuffisant ou signature différente. C'est généralement toute la réponse.",
+          "Pour un problème de transfert ou de migration, vérifiez que les deux appareils sont sur le même réseau Wi-Fi et notez l'étape où tout s'est arrêté. L'option d'envoi de commentaires de l'application renseigne pour vous la version de l'application, le modèle de l'appareil et la version d'Android."
+        ],
+        "template": {
+          "phone": "Modèle du téléphone :",
+          "android": "Version d'Android :",
+          "feature": "Fonction (extraction / installation / transfert / migration / sauvegarde) :",
+          "file": "Type de fichier (APK / XAPK / APKS) et application concernée :",
+          "what": "Ce qui s'est passé, étape par étape :",
+          "pro": "Achat Pro : oui / non"
+        },
+        "refundBody": "Apk Extractor s'installe gratuitement. Si vous avez acheté Pro et qu'il ne fait pas ce que vous attendiez, écrivez-nous dans les 7 jours suivant l'achat et nous vous rembourserons. Dites-nous ce que vous avez essayé : cela nous aide à corriger le problème pour les prochains utilisateurs."
+      },
+      "press": {
+        "description": "Faits, visuels et texte de présentation pour parler d'Apk Extractor, l'application Android qui extrait, sauvegarde, installe et transfère des applications sous forme de fichiers APK et XAPK.",
+        "boilerplate": "Apk Extractor est un extracteur d'APK, un outil de sauvegarde d'applications, un installeur d'APK et de XAPK et un gestionnaire d'applications pour Android. Il extrait les applications installées en fichiers APK ou XAPK, garde un historique des versions pour pouvoir annuler une mise à jour, installe les paquets scindés, compare versions et signatures, transfère les applications vers un nouveau téléphone en Wi-Fi et les partage hors ligne, le tout sans root. L'application est développée par DappleByte, un studio indépendant.",
+        "priceValue": "Installation gratuite, avec publicités. L'extraction, la gestion des applications, la Comparaison de versions, le partage en Wi-Fi, la sauvegarde automatique d'un nombre limité d'applications et la migration de 5 applications maximum vers un nouveau téléphone sont gratuits ; la suppression des publicités, l'Installation groupée, le Transfert web, la sauvegarde automatique illimitée et la migration illimitée se débloquent par un achat Pro unique. Il n'y a pas d'abonnement. Le prix actuel est indiqué sur Google Play.",
+        "assetScreenshots": "Captures d'écran, PNG 1620 × 2880, en anglais"
+      },
+      "videosDescription": "De courtes vidéos d'Apk Extractor sur un vrai téléphone : extraire une application, installer un XAPK, transférer des applications vers un nouveau téléphone et revenir à une version antérieure.",
+      "privacyDescription": "Ce qu'Apk Extractor pour Android fait de vos données : pas de compte, aucun serveur à nous, des listes d'applications et des fichiers APK qui restent sur votre appareil, des transferts qui passent par votre réseau local, à quoi sert l'autorisation facultative « Accès à l'utilisation » et ce que collectent les services de statistiques et de publicité.",
+      "compare": {
+        "description": "Apk Extractor comparé aux autres applications Android d'extraction d'APK et de sauvegarde d'applications, fonctionnalité par fonctionnalité, uniquement des faits.",
+        "vsDescription": "{name} et {other} comparés sur Android, fonctionnalité par fonctionnalité : extraction d'APK, installation de XAPK, installation groupée, historique des versions, migration vers un nouveau téléphone, transfert Wi-Fi, root, publicité et prix.",
+        "vsIntro": "Les deux extraient les applications installées sous forme de fichiers APK sur Android. Voici en quoi ils diffèrent, fonctionnalité par fonctionnalité."
       }
     }
   }

@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "en",
+  "title": "Help & FAQ",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Basics & extracting",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "What can this app do?",
+          "a": [
+            "It extracts the apps installed on your phone into APK, XAPK or APKS files so you can back them up, share them or install them again later. It also manages the installation packages already stored on your device."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Where are extracted files saved, and can I change it?",
+          "a": [
+            "Files go to the export folder shown in Settings. Open Settings → Exporting path to pick any folder you like, including one on an SD card."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "What is the difference between APK, XAPK and APKS?",
+          "a": [
+            "An APK is a single installation file. XAPK and APKS are archives that also contain an app's split packages (language, screen density, CPU architecture) and its OBB data. Use APK for ordinary apps and XAPK/APKS for apps published as an App Bundle."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Why is an app exported as XAPK instead of APK?",
+          "a": [
+            "That app was published as an App Bundle, so the system installed it as several split packages. A single APK would be incomplete, so every split is packed into one XAPK file instead."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Can I customise the exported file name?",
+          "a": [
+            "Yes. Settings → Exporting rules lets you combine app name, package name, version name and version code. Settings → Compressed ExtName and Pkg Name Separator control the rest of the name."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Why are some apps missing from the list?",
+          "a": [
+            "System apps are hidden by default. Open Settings → Package scope and turn on system apps to show them."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Installing",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "How do I install an XAPK or APKS file?",
+          "a": [
+            "Open the Apks tab, tap the file and choose Install. The app uses the system session installer and automatically picks the splits that match your device."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "It asks me to allow installing unknown apps. What now?",
+          "a": [
+            "Android requires an explicit permission before any app can install packages. Tap Settings in the prompt, turn on “Allow from this source”, then go back and try again."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Can I install several packages at once?",
+          "a": [
+            "Yes. Select multiple files in the Apks tab and add them to the install queue; they are then installed one after another. Batch install is a Pro feature."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Why did an installation fail?",
+          "a": [
+            "The usual reasons are a signature that differs from the installed app, a version older than the installed one, missing splits for your CPU architecture, or not enough free storage. Uninstalling the old app first solves most cases."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Sharing & transfer",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "How do I send an app to a friend?",
+          "a": [
+            "Select the app and choose Share. Settings → Sharing mode decides whether the original file is shared directly or extracted first."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "How does Web Transfer work?",
+          "a": [
+            "Open Web Transfer from the side menu, keep both devices on the same Wi-Fi, then enter the address shown on screen in your computer's browser or scan the QR code. The port can be changed in Settings → port number. Web Transfer is a Pro feature."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "How do I receive APK files from another phone?",
+          "a": [
+            "Open Receive Apks from the side menu and let the other phone send to this device over the local network. Settings → Device name changes how your phone appears, and a hotspot can be used when there is no Wi-Fi."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "The transfer will not connect. What should I check?",
+          "a": [
+            "Make sure both devices are on the same Wi-Fi and that AP isolation or a VPN is not blocking them. If the port is already taken, change it in Settings, or turn on the hotspot on one device and connect the other to it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Backup & version history",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "What is auto backup and how much space does it use?",
+          "a": [
+            "Auto backup keeps a copy of an app's APK every time it is updated, so you can go back to an older version later. Each kept version takes about as much space as the app itself, so delete records you no longer need in Version History."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "How do I choose which apps get backed up?",
+          "a": [
+            "Open Version History → menu → Select apps and tick the apps you want to watch. The free version can auto-back up a limited number of apps; Pro removes that limit."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "How do I go back to an older version?",
+          "a": [
+            "Open Version History, pick the app, choose the version you want and tap Install. Android does not allow downgrading over an existing app, so uninstall the current version first — its data will be removed."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "What does Version Compare show?",
+          "a": [
+            "It compares an installation package with the version installed on your phone: version name and code, file size, target SDK, whether the signature matches, added and removed permissions, and component changes. It is the quickest way to check whether a downloaded file is genuine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Details & analysis",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "What is on the app details and analysis pages?",
+          "a": [
+            "They show the package name, versions, install and update dates, signature, permissions, components, supported CPU architectures and a size breakdown, plus statistics across all your installed apps."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Why is the size different from the one in system settings?",
+          "a": [
+            "This app shows the size of the installation package. System settings adds user data and cache on top of that, so its number is usually larger."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro & ads",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "What do I get with Pro?",
+          "a": [
+            "Pro removes all ads, lifts the limit on how many apps can be backed up automatically, and unlocks Web Transfer and the batch install queue. It is a one-time purchase, not a subscription."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "I changed phone. How do I get Pro back?",
+          "a": [
+            "Open Upgrade to Pro and tap Restore purchase. Sign in with the same Google account you used for the purchase; you will not be charged again."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "I paid but ads are still showing.",
+          "a": [
+            "Make sure the device is online, tap Restore purchase, then restart the app. Google Play can take a few minutes to confirm a payment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Privacy & other",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "Does the app upload my apps or my data?",
+          "a": [
+            "No. Extracting, backup and transfer all happen on your device or inside your own local network. See the privacy policy for details."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "How do I change the language or use dark mode?",
+          "a": [
+            "Settings → Language offers more than twenty languages, and Settings → Night mode switches between light, dark and follow system."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "How do I report a problem or suggest a feature?",
+          "a": [
+            "Use the button at the bottom of this page to email us. Telling us your app version, phone model and Android version helps us answer faster."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

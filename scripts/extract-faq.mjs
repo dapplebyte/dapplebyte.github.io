@@ -12,11 +12,31 @@
 // `kotlin-flat` products (WhenDo): HelpData.kt holds flat `listOf(Item(R.string.q, R.string.a, videoId = "…"))`
 // lists, one per section; the text is in every *.xml of res/values*. Entry ids are the question key
 // without its prefix (`faq_q_presets` → `presets`).
+//
+// `java` products (Apk Extractor): FaqActivity.java builds the list with `section(items, R.string.faq_section_x)` and
+// `question(items, R.string.faq_q_N, R.string.faq_a_N, pro)` calls, in display order; the text is in every *.xml of
+// res/values*. Entry ids are `qNN` from the question key's number (`faq_q_7` → `q07`).
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { LOCALES, localProducts, parseStrings, unescapeAndroid, androidValues, writeJson, now } from './lib.mjs';
 
 const CONFIG = {
+  'apk-extractor': {
+    kind: 'java',
+    java: 'app/src/main/java/com/dylan/win11/apkextractor/activities/FaqActivity.java',
+    res: 'app/src/main/res',
+    titleKey: 'activity_faq_title',
+    /** URL slug per section title key. */
+    slugs: {
+      faq_section_basic: 'basics-extracting',
+      faq_section_install: 'installing',
+      faq_section_transfer: 'sharing-transfer',
+      faq_section_backup: 'backup-version-history',
+      faq_section_detail: 'details-analysis',
+      faq_section_pro: 'pro-ads',
+      faq_section_other: 'privacy-other',
+    },
+  },
   whendo: {
     kind: 'kotlin-flat',
     kotlin: 'app/src/main/java/top/xjunz/tasker/ui/help/HelpData.kt',
@@ -269,6 +289,66 @@ function extractKotlinFlat(slug, root, cfg) {
 }
 
 /** Return the text of the balanced `(...)` that starts at `open` (index of the `(`). */
+/** `section(items, R.string.X)` / `question(items, R.string.Q, R.string.A, pro)` calls after `buildItems()`, in file order. */
+function parseJava(src) {
+  const start = src.indexOf('buildItems()');
+  if (start < 0) throw new Error('[faq] buildItems() not found in FaqActivity.java');
+  const sections = [];
+  for (const m of src.slice(start).matchAll(/\b(section|question)\(\s*items\s*,\s*R\.string\.(\w+)(?:\s*,\s*R\.string\.(\w+))?/g)) {
+    if (m[1] === 'section') sections.push({ titleKey: m[2], entries: [] });
+    else if (sections.length) {
+      const n = m[2].match(/(\d+)$/)?.[1] ?? String(sections.at(-1).entries.length + 1);
+      sections.at(-1).entries.push({ id: `q${n.padStart(2, '0')}`, qKey: m[2], aKey: m[3] });
+    }
+  }
+  return sections;
+}
+
+function extractJava(slug, root, cfg) {
+  const parsed = parseJava(readFileSync(join(root, cfg.java), 'utf8'));
+  const total = parsed.reduce((n, s) => n + s.entries.length, 0);
+  const resDir = join(root, cfg.res);
+  const base = readFolderStrings(join(resDir, 'values'));
+  let written = 0;
+  for (const locale of LOCALES) {
+    const folder = androidValues(slug, locale);
+    if (!folder) {
+      console.log(`[faq] ${slug}/${locale.slug}: the app has no translation, skipped (the site shows English)`);
+      continue;
+    }
+    const own = folder === 'values' ? base : readFolderStrings(join(resDir, folder));
+    if (own.strings.size === 0) {
+      console.warn(`[faq] ${slug}/${locale.slug}: ${folder} missing, locale skipped`);
+      continue;
+    }
+    let missing = 0;
+    const sections = parsed.map((s) => ({
+      id: cfg.slugs[s.titleKey] ?? s.titleKey,
+      title: own.strings.get(s.titleKey) ?? (missing++, ''),
+      entries: s.entries.map((e) => {
+        const q = own.strings.get(e.qKey);
+        const a = own.strings.get(e.aKey);
+        if (q === undefined || a === undefined) missing++;
+        return { id: e.id, q: q ?? '', a: answerParagraphs(a ?? '') };
+      }),
+    }));
+    if (missing > 0) {
+      console.error(`[faq] ${slug}/${locale.slug}: ${missing} strings missing, locale not written (no half-translated pages)`);
+      process.exitCode = 1;
+      continue;
+    }
+    writeJson(`src/content/faq/${slug}/${locale.slug}.json`, {
+      slug,
+      locale: locale.slug,
+      title: own.strings.get(cfg.titleKey) ?? base.strings.get(cfg.titleKey) ?? 'FAQ',
+      sections,
+      extractedAt: now(),
+    });
+    written++;
+  }
+  console.log(`[faq] ${slug}: ${written} locales, ${parsed.length} sections, ${total} questions`);
+}
+
 function balanced(src, open) {
   let depth = 0;
   for (let i = open; i < src.length; i++) {
@@ -324,6 +404,10 @@ for (const [slug, root] of Object.entries(products)) {
   }
   if (cfg.kind === 'kotlin-flat') {
     extractKotlinFlat(slug, root, cfg);
+    continue;
+  }
+  if (cfg.kind === 'java') {
+    extractJava(slug, root, cfg);
     continue;
   }
   const parsed = parseKotlin(readFileSync(join(root, cfg.kotlin), 'utf8'));

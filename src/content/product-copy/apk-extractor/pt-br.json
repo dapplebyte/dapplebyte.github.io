@@ -1,0 +1,143 @@
+{
+  "slug": "apk-extractor",
+  "locale": "pt-br",
+  "title": "Apk Extractor",
+  "shortDescription": "Extrator APK, backup de apps, instalador XAPK, mudar de celular, sem root",
+  "tagline": "Extraia arquivos APK, faça backup de apps e instale APK/XAPK — tudo em um",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Extraia arquivos APK, faça backup de apps e instale APK/XAPK — tudo em um",
+      "paragraphs": [
+        "O APK Extractor & App Manager é um extrator APK rápido e leve: backup de apps, instalador APK/XAPK, gerenciador de aplicativos e analisador APK. Extraia os apps como arquivos APK, mantenha um histórico de versões, instale Split APK (XAPK), mude para um celular novo e compartilhe offline — sem root."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Backup de apps antes de restaurar o celular ou trocar de aparelho",
+      "paragraphs": [],
+      "bullets": [
+        "Compartilhar apps com amigos offline — sem internet nem loja de apps",
+        "Mudar para um celular novo, ou fazer backup antes de restaurar o aparelho",
+        "Guardar o APK da versão atual antes que o app atualize",
+        "Salvar apps que saíram da loja"
+      ]
+    },
+    {
+      "id": "extract",
+      "title": "Extrator APK e backup de apps",
+      "paragraphs": [],
+      "bullets": [
+        "Extrair arquivos APK de apps do usuário e do sistema",
+        "Fazer backup de vários apps de uma vez, sem acesso root",
+        "Escolher a pasta de exportação no armazenamento interno ou externo"
+      ]
+    },
+    {
+      "id": "version-history",
+      "title": "Histórico de versões, backup automático e downgrade",
+      "paragraphs": [],
+      "bullets": [
+        "Backup automático: guardar o APK de cada nova versão dos apps monitorados",
+        "Definir quantas versões manter por app — tudo fica no seu aparelho",
+        "Reinstalar uma versão antiga e desfazer uma atualização indesejada"
+      ]
+    },
+    {
+      "id": "installer",
+      "title": "Instalador APK, instalador XAPK e instalação em lote",
+      "paragraphs": [],
+      "bullets": [
+        "Instalar arquivos APK com o instalador de pacotes do Android",
+        "Instalar pacotes XAPK: um APK base e arquivos Split APK",
+        "Instalação em lote: enfileirar vários APK ou XAPK e rodar tudo de uma vez",
+        "Falhas explicadas: ABI incompatível, API mínima, pouco espaço"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Migração de dispositivo: mudar para um celular novo",
+      "paragraphs": [],
+      "bullets": [
+        "Enviar a lista de apps — e os próprios arquivos APK/XAPK — do celular antigo para o novo por Wi-Fi",
+        "O celular novo confere o que já tem e reinstala o resto numa única fila",
+        "Avisa sobre versões já instaladas, assinaturas diferentes e apps incompatíveis",
+        "Apps vindos da loja ganham um link direto para a página deles"
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "Comparação de versões e verificação de assinatura",
+      "paragraphs": [],
+      "bullets": [
+        "Comparar um arquivo APK com a versão já instalada",
+        "Ver se as assinaturas conferem ou vêm de outro desenvolvedor",
+        "Identificar permissões adicionadas ou removidas antes de instalar"
+      ]
+    },
+    {
+      "id": "manager",
+      "title": "Gerenciador de apps poderoso",
+      "paragraphs": [],
+      "bullets": [
+        "Navegar pelos apps do usuário e do sistema em lista ou grade",
+        "Pesquisar por nome do app ou nome do pacote",
+        "Abrir o app, ver as informações do sistema, visitar a loja ou desinstalar"
+      ]
+    },
+    {
+      "id": "analyzer",
+      "title": "Analisador APK e informações do app",
+      "paragraphs": [],
+      "bullets": [
+        "Nome do pacote, nome e código da versão, SDK mínimo e SDK alvo",
+        "Tamanho, caminho do APK, origem, data de instalação e de atualização",
+        "Certificado de assinatura e somas MD5, SHA-1, SHA-256 e CRC32"
+      ]
+    },
+    {
+      "id": "stats",
+      "title": "Estatísticas de apps e saúde do aparelho",
+      "paragraphs": [],
+      "bullets": [
+        "Comparar apps do usuário e do sistema por quantidade, tamanho total e médio",
+        "Encontrar os apps maiores, mais antigos e atualizados recentemente",
+        "Ver quais apps pedem localização, câmera, microfone ou contatos"
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "Compartilhar apps, transferência por Wi-Fi e transferência web",
+      "paragraphs": [],
+      "bullets": [
+        "Enviar apps e arquivos APK pelo menu compartilhar — Quick Share, Bluetooth, e-mail",
+        "Transferir apps entre aparelhos na mesma rede Wi-Fi, sem internet",
+        "Transferência web: abrir um endereço ou escanear um QR Code no navegador para mover apps entre o celular e o PC"
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Pasta de exportação, regras de nome de arquivo e compactação ZIP",
+      "paragraphs": [
+        "Defina a pasta de exportação, o nome dos arquivos APK, a compactação ZIP, o alcance da busca, o compartilhamento, o idioma e o modo escuro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacidade em primeiro lugar, sem root",
+      "paragraphs": [
+        "Extrair APK, fazer backup e gerenciar apps não exige root. O acesso de uso, opcional, serve apenas para as estatísticas de cache e de apps sem uso. Backup automático, instalação em lote, transferência web, versão sem anúncios e migração além dos 5 primeiros apps fazem parte de uma compra Pro única."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Um extrator APK para seus arquivos APK, um backup para trocar de celular, um instalador XAPK para Split APKs — baixe o APK Extractor & App Manager.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

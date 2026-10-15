@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Bağımsız Android uygulamaları",
-    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo, telefonu Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çeviren JoyLink, bir de oyun kolunda çubuk kayması, giriş gecikmesi ve çalışmayan tuş olup olmadığını kontrol eden Gamepad Tester Pro var.",
+    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo, telefonu Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çeviren JoyLink, bir de oyun kolunda çubuk kayması, giriş gecikmesi ve çalışmayan tuş olup olmadığını kontrol eden Gamepad Tester Pro var. DappleByte ayrıca uygulamaları yeni telefona taşıyan APK çıkarıcı, uygulama yedekleme aracı ve XAPK yükleyici Apk Extractor'ı geliştiriyor.",
     "appsHeading": "Uygulamalar",
     "principlesHeading": "Nasıl çalışıyoruz",
     "principles": [
@@ -78,7 +78,7 @@
     "whatBody": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Tek bir geliştirici ve az sayıda uygulama; her biri belirli bir işi iyi yapmak ve sonra aradan çekilmek için tasarlandı.",
     "howHeading": "Nasıl çalışıyoruz",
     "openSourceHeading": "Kaynak kodu",
-    "openSourceBody": "Bir uygulamanın kaynak kodu yayımlandıysa bağlantısı o uygulamanın sayfasında ve basın kitinde yer alır. Relaypad, AGPL-3.0 lisansıyla yayımlanır.",
+    "openSourceBody": "Bir uygulamanın kaynak kodu yayımlandıysa bağlantısı o uygulamanın sayfasında ve basın kitinde yer alır. Relaypad, AGPL-3.0 lisansıyla yayımlanır. Apk Extractor, GPL-3.0 lisansıyla yayımlanır.",
     "contactHeading": "İletişim",
     "contactBody": "Stüdyo, basın ve iş birlikleri için: {email}. Belirli bir uygulamayla ilgili destek için o uygulamanın destek sayfasındaki adrese yazın; böylece mesajınız doğru kutuya, doğru bağlamla ulaşır.",
     "trademarksHeading": "Ticari markalar",
@@ -221,7 +221,13 @@
       "test-history": "Test geçmişi ve oyun kolu başına kayma eğilimi",
       "led-test": "Işık çubuğu testi (Bluetooth ile PlayStation)",
       "motion-test": "Jiroskop ve ivmeölçer testi",
-      "touchpad-test": "Dokunmatik yüzey testi"
+      "touchpad-test": "Dokunmatik yüzey testi",
+      "extract-apk": "Yüklü uygulamaları APK dosyalarına çıkarır",
+      "xapk-install": "XAPK ve split APK paketlerini yükler",
+      "batch-install": "Toplu yükleme kuyruğu",
+      "version-history": "Eski bir sürüme dönebilen sürüm geçmişi",
+      "device-migration": "Uygulamaları Wi-Fi üzerinden yeni telefona taşır",
+      "wifi-transfer": "Uygulamaları cihazlar arasında Wi-Fi veya tarayıcı üzerinden aktarır"
     },
     "values": {
       "yes": "Evet",
@@ -593,6 +599,45 @@
         "description": "Gamepad Tester Pro'nun Android'deki diğer oyun kolu test uygulamalarıyla özellik özellik karşılaştırması; yalnızca gerçekler.",
         "vsDescription": "{name} ve {other}, Android'de özellik özellik karşılaştırılıyor: tuş testi, çubuk kayması analizi, sorgulama hızı, titreşim, sağlık raporu, reklamlar ve fiyatlandırma.",
         "vsIntro": "İkisi de Android telefonda oyun kolunu test eder. Aralarındaki farklar, özellik özellik."
+      }
+    },
+    "apk-extractor": {
+      "kicker": "APK yedekleme · XAPK yükleyici · Yeni telefon",
+      "heroPoints": [
+        "Yüklü her uygulamayı APK veya XAPK dosyasına çıkarır, birçoğunu tek seferde yedekler ve sürüm geçmişi tutar; kötü bir güncellemeyi geri alabilirsiniz, root gerekmez",
+        "APK ve XAPK paketlerini yükler, dosyayı yüklü sürümle karşılaştırır, yüklemeden önce imzayı ve izinleri kontrol eder",
+        "Uygulamalarınızı Wi-Fi üzerinden yeni telefona taşır ve çevrimdışı paylaşır. Yüklemesi ücretsiz; reklamları kaldırma, toplu yükleme, Web Aktarımı ve sınırsız taşıma tek seferlik Pro satın alımıyla açılır"
+      ],
+      "faqDescription": "Apk Extractor hakkında yanıtlar: çıkarılan dosyaların nereye kaydedildiği, APK ile XAPK farkı, split paketleri yükleme, başarısız yüklemeler, Wi-Fi ve Web Aktarımı, otomatik yedekleme ve sürüm geçmişi, uygulama ayrıntıları, Pro ve reklamlar, gizlilik.",
+      "faqNotFoundBody": "Telefon modelinizi, Android sürümünüzü ve ne olduğunu yazarak bize ulaşın. Her mesajı bir insan okuyor.",
+      "support": {
+        "beforeItems": [
+          "Önce SSS'ye bakın. Dışa aktarma klasörleri, XAPK yükleme, başarısız yüklemeler, aktarımlar ve Pro'yu geri yükleme sorularının yanıtı orada, uygulamadaki ifadelerle.",
+          "Yükleme başarısız olduysa uygulamanın gösterdiği nedeni not edin: uyumsuz ABI, minimum Android sürümü, yetersiz depolama alanı veya farklı imza. Çoğu zaman yanıtın tamamı budur.",
+          "Aktarım veya taşıma sorununda iki cihazın da aynı Wi-Fi ağında olduğunu kontrol edin ve hangi adımda durduğunu not edin. Uygulamadaki geri bildirim gönderme seçeneği uygulama sürümünü, cihaz modelini ve Android sürümünü sizin için doldurur."
+        ],
+        "template": {
+          "phone": "Telefon modeli:",
+          "android": "Android sürümü:",
+          "feature": "Özellik (çıkarma / yükleme / aktarım / taşıma / yedekleme):",
+          "file": "Dosya türü (APK / XAPK / APKS) ve ilgili uygulama:",
+          "what": "Ne oldu, adım adım:",
+          "pro": "Pro satın alındı mı: evet / hayır"
+        },
+        "refundBody": "Apk Extractor'ı yüklemek ücretsiz. Pro satın aldıysanız ve beklediğinizi karşılamıyorsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi anlatın; sorunu bir sonraki kişi için düzeltmemize yardımcı olur."
+      },
+      "press": {
+        "description": "Uygulamaları APK ve XAPK dosyası olarak çıkaran, yedekleyen, yükleyen ve taşıyan Android uygulaması Apk Extractor hakkında yazmak isteyenler için bilgiler, görseller ve hazır tanıtım metni.",
+        "boilerplate": "Apk Extractor, Android için bir APK çıkarıcı, uygulama yedekleme aracı, APK ve XAPK yükleyici ve uygulama yöneticisidir. Yüklü uygulamaları APK veya XAPK dosyalarına çıkarır, bir güncellemenin geri alınabilmesi için sürüm geçmişi tutar, split paketleri yükler, sürümleri ve imzaları karşılaştırır, uygulamaları Wi-Fi üzerinden yeni telefona taşır ve çevrimdışı paylaşır; bunların hepsini root olmadan yapar. Apk Extractor, bağımsız stüdyo DappleByte tarafından geliştiriliyor.",
+        "priceValue": "Yüklemesi ücretsiz, reklamlı. Çıkarma, uygulama yönetimi, sürüm karşılaştırma, Wi-Fi ile paylaşım, sınırlı sayıda uygulama için otomatik yedekleme ve yeni telefona 5 uygulamaya kadar taşıma ücretsiz; reklamları kaldırma, toplu yükleme, Web Aktarımı, sınırsız otomatik yedekleme ve sınırsız taşıma tek seferlik Pro satın alımıyla açılır. Abonelik yok. Güncel fiyat Google Play'de gösterilir.",
+        "assetScreenshots": "Ekran görüntüleri, PNG, İngilizce (1620 × 2880)"
+      },
+      "videosDescription": "Apk Extractor'ı gerçek bir telefonda gösteren kısa videolar: bir uygulamayı çıkarma, XAPK yükleme, uygulamaları yeni telefona taşıma ve eski bir sürüme dönme.",
+      "privacyDescription": "Android için Apk Extractor verilerinizle ne yapıyor: hesap gerekmez, bize ait bir sunucu yok, uygulama listeleri ve APK dosyaları cihazınızda kalır, aktarımlar yerel ağınız üzerinden yapılır, isteğe bağlı “Kullanım erişimi” izni ne için kullanılır ve analiz ile reklam hizmetleri neleri toplar.",
+      "compare": {
+        "description": "Apk Extractor'ın Android'deki diğer APK çıkarma ve uygulama yedekleme uygulamalarıyla özellik özellik karşılaştırması, yalnızca gerçekler.",
+        "vsDescription": "Android'de {name} ve {other} özellik özellik karşılaştırması: APK çıkarma, XAPK yükleme, toplu yükleme, sürüm geçmişi, uygulamaları yeni telefona taşıma, Wi-Fi aktarımı, root, reklamlar ve fiyat.",
+        "vsIntro": "İkisi de Android'de yüklü uygulamaları APK dosyası olarak çıkarır. Farkları özellik özellik burada."
       }
     }
   }

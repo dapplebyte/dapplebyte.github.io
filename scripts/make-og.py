@@ -58,6 +58,7 @@ products = {
     'gamepad-pro': ('Gamepad Pro', 'Map controller keys to touch. Sticks, triggers, macros, turbo. No root.', os.path.join(ROOT, 'public/gamepad-pro/icon.png'), '#E4345A'),
     'whendo': ('WhenDo', 'AI automation, auto clicker and macro maker for Android. No root needed.', os.path.join(ROOT, 'public/whendo/icon.png'), '#FF8A7D'),
     'joylink': ('JoyLink', 'Your phone as a Bluetooth gamepad, touchpad and TV remote. Nothing to install on the other side.', os.path.join(ROOT, 'public/joylink/icon.png'), '#E6FF66'),
+    'apk-extractor': ('Apk Extractor', 'Extract, back up, install and move Android apps as APK and XAPK files. No root.', os.path.join(ROOT, 'public/apk-extractor/icon.png'), '#5BE89A'),
     'gamepad-tester': ('Gamepad Tester Pro', 'Test any controller on your phone: buttons, stick drift, input lag, vibration. No PC needed.', os.path.join(ROOT, 'public/gamepad-tester/icon.png'), '#3DDFA8'),
 }
 for slug, (name, tagline, icon, accent) in products.items():

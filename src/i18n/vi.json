@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Ứng dụng Android độc lập",
-    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker; JoyLink, ứng dụng biến điện thoại thành tay cầm Bluetooth, bàn di chuột và điều khiển TV; và Gamepad Tester Pro, ứng dụng kiểm tra tay cầm xem có bị trôi cần, trễ đầu vào hay liệt nút không.",
+    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker; JoyLink, ứng dụng biến điện thoại thành tay cầm Bluetooth, bàn di chuột và điều khiển TV; và Gamepad Tester Pro, ứng dụng kiểm tra tay cầm xem có bị trôi cần, trễ đầu vào hay liệt nút không. DappleByte còn làm Apk Extractor, ứng dụng trích xuất APK, sao lưu ứng dụng và cài XAPK giúp chuyển ứng dụng sang điện thoại mới.",
     "appsHeading": "Ứng dụng",
     "principlesHeading": "Cách chúng tôi làm việc",
     "principles": [
@@ -78,7 +78,7 @@
     "whatBody": "DappleByte là một studio độc lập chuyên làm ứng dụng Android. Một nhà phát triển, vài ứng dụng, mỗi ứng dụng làm tốt một việc cụ thể rồi không làm phiền bạn thêm.",
     "howHeading": "Cách chúng tôi làm việc",
     "openSourceHeading": "Mã nguồn",
-    "openSourceBody": "Ứng dụng nào được công khai mã nguồn thì đường dẫn nằm trên trang của ứng dụng đó và trong tài liệu báo chí. Relaypad được công khai mã nguồn theo AGPL-3.0.",
+    "openSourceBody": "Ứng dụng nào được công khai mã nguồn thì đường dẫn nằm trên trang của ứng dụng đó và trong tài liệu báo chí. Relaypad được công khai mã nguồn theo AGPL-3.0. Apk Extractor được công khai mã nguồn theo GPL-3.0.",
     "contactHeading": "Liên hệ",
     "contactBody": "Studio, báo chí và hợp tác: {email}. Hỗ trợ cho từng ứng dụng thì gửi tới địa chỉ trên trang hỗ trợ của ứng dụng đó, để thư đến đúng hộp thư và có đủ thông tin cần thiết.",
     "trademarksHeading": "Nhãn hiệu",
@@ -221,7 +221,13 @@
       "test-history": "Lịch sử kiểm tra và xu hướng trôi cần của từng tay cầm",
       "led-test": "Kiểm tra thanh đèn (PlayStation qua Bluetooth)",
       "motion-test": "Kiểm tra con quay hồi chuyển và gia tốc kế",
-      "touchpad-test": "Kiểm tra bàn di"
+      "touchpad-test": "Kiểm tra bàn di",
+      "extract-apk": "Trích xuất ứng dụng đã cài thành tệp APK",
+      "xapk-install": "Cài gói XAPK và split APK",
+      "batch-install": "Hàng đợi cài hàng loạt",
+      "version-history": "Lịch sử phiên bản, quay về phiên bản cũ được",
+      "device-migration": "Chuyển ứng dụng sang điện thoại mới qua Wi-Fi",
+      "wifi-transfer": "Truyền ứng dụng giữa các thiết bị qua Wi-Fi hoặc trình duyệt"
     },
     "values": {
       "yes": "Có",
@@ -593,6 +599,45 @@
         "description": "Gamepad Tester Pro so với các ứng dụng kiểm tra tay cầm khác trên Android, từng tính năng một, chỉ có dữ kiện.",
         "vsDescription": "So sánh {name} và {other} trên Android, từng tính năng một: kiểm tra nút, phân tích trôi cần, tốc độ polling, rung, báo cáo tình trạng, quảng cáo và giá.",
         "vsIntro": "Cả hai đều kiểm tra tay cầm chơi game trên điện thoại Android. Đây là những điểm khác nhau, từng tính năng một."
+      }
+    },
+    "apk-extractor": {
+      "kicker": "Sao lưu APK · Cài XAPK · Chuyển máy",
+      "heroPoints": [
+        "Trích xuất mọi ứng dụng đã cài thành tệp APK hoặc XAPK, sao lưu nhiều ứng dụng cùng lúc và giữ lịch sử phiên bản để quay lại khi bản cập nhật bị lỗi, không cần root",
+        "Cài gói APK và XAPK, so sánh tệp với phiên bản đang cài, kiểm tra chữ ký và quyền trước khi cài",
+        "Chuyển ứng dụng sang điện thoại mới qua Wi-Fi và chia sẻ ngoại tuyến. Cài đặt miễn phí; gỡ quảng cáo, cài hàng loạt, truyền qua web và chuyển máy không giới hạn được mở khóa bằng một lần mua Pro"
+      ],
+      "faqDescription": "Giải đáp về Apk Extractor: tệp trích xuất được lưu ở đâu, APK khác XAPK thế nào, cài gói split, cài đặt thất bại, Wi-Fi và truyền qua web, sao lưu tự động và lịch sử phiên bản, chi tiết ứng dụng, Pro và quảng cáo, quyền riêng tư.",
+      "faqNotFoundBody": "Hãy viết cho chúng tôi kèm kiểu máy điện thoại, phiên bản Android và chuyện gì đã xảy ra. Mọi thư đều có người thật đọc.",
+      "support": {
+        "beforeItems": [
+          "Mở FAQ trước. Thư mục xuất, cài XAPK, cài đặt thất bại, truyền tệp và khôi phục Pro đều đã có lời giải ở đó, dùng đúng từ ngữ như trong ứng dụng.",
+          "Nếu cài đặt thất bại, hãy ghi lại lý do ứng dụng hiển thị: ABI không tương thích, phiên bản Android tối thiểu, thiếu bộ nhớ hoặc chữ ký khác. Thường thì đó đã là câu trả lời.",
+          "Nếu truyền tệp hoặc chuyển máy gặp lỗi, hãy kiểm tra hai thiết bị có cùng mạng Wi-Fi không và ghi lại bị dừng ở bước nào. Mục gửi phản hồi trong ứng dụng sẽ tự điền phiên bản ứng dụng, kiểu máy và phiên bản Android cho bạn."
+        ],
+        "template": {
+          "phone": "Kiểu máy điện thoại:",
+          "android": "Phiên bản Android:",
+          "feature": "Tính năng (trích xuất / cài đặt / truyền tệp / chuyển máy / sao lưu):",
+          "file": "Loại tệp (APK / XAPK / APKS) và ứng dụng liên quan:",
+          "what": "Chuyện gì đã xảy ra, từng bước:",
+          "pro": "Đã mua Pro: có / không"
+        },
+        "refundBody": "Apk Extractor cài đặt miễn phí. Nếu bạn đã mua Pro mà nó không như bạn mong đợi, hãy email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền. Hãy cho biết bạn đã thử những gì; điều đó giúp chúng tôi sửa lỗi cho người dùng sau."
+      },
+      "press": {
+        "description": "Thông tin, tư liệu và đoạn giới thiệu chuẩn để viết về Apk Extractor, ứng dụng Android trích xuất, sao lưu, cài đặt và chuyển ứng dụng dưới dạng tệp APK và XAPK.",
+        "boilerplate": "Apk Extractor là ứng dụng trích xuất APK, công cụ sao lưu ứng dụng, trình cài APK và XAPK kiêm trình quản lý ứng dụng cho Android. Ứng dụng trích xuất các ứng dụng đã cài thành tệp APK hoặc XAPK, giữ lịch sử phiên bản để có thể quay lại trước bản cập nhật, cài gói split, so sánh phiên bản và chữ ký, chuyển ứng dụng sang điện thoại mới qua Wi-Fi và chia sẻ ngoại tuyến, tất cả đều không cần root. Apk Extractor do DappleByte, một studio độc lập, phát triển.",
+        "priceValue": "Cài đặt miễn phí, có quảng cáo. Trích xuất, quản lý ứng dụng, so sánh phiên bản, chia sẻ qua Wi-Fi, sao lưu tự động cho một số ứng dụng giới hạn và chuyển tối đa 5 ứng dụng sang điện thoại mới đều miễn phí; gỡ quảng cáo, cài hàng loạt, truyền qua web, sao lưu tự động không giới hạn và chuyển máy không giới hạn được mở khóa bằng một lần mua Pro. Không có thuê bao. Giá hiện tại hiển thị trên Google Play.",
+        "assetScreenshots": "Ảnh chụp màn hình, PNG, tiếng Anh (dọc 1620 × 2880)"
+      },
+      "videosDescription": "Video ngắn quay Apk Extractor trên điện thoại thật: trích xuất một ứng dụng, cài một tệp XAPK, chuyển ứng dụng sang điện thoại mới và quay về phiên bản cũ.",
+      "privacyDescription": "Apk Extractor cho Android làm gì với dữ liệu của bạn: không cần tài khoản, không có máy chủ nào của chúng tôi, danh sách ứng dụng và tệp APK nằm lại trên thiết bị, việc truyền tệp chạy qua mạng nội bộ của bạn, quyền Truy cập dữ liệu sử dụng (không bắt buộc) dùng để làm gì và các dịch vụ phân tích, quảng cáo thu thập những gì.",
+      "compare": {
+        "description": "So sánh Apk Extractor với các ứng dụng trích xuất APK và sao lưu ứng dụng khác trên Android theo từng tính năng, chỉ nêu sự thật.",
+        "vsDescription": "So sánh {name} và {other} trên Android theo từng tính năng: trích xuất APK, cài XAPK, cài hàng loạt, lịch sử phiên bản, chuyển ứng dụng sang điện thoại mới, truyền qua Wi-Fi, root, quảng cáo và giá.",
+        "vsIntro": "Cả hai đều trích xuất ứng dụng đã cài thành tệp APK trên Android. Đây là những điểm khác nhau, từng tính năng một."
       }
     }
   }

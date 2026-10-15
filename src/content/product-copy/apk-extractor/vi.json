@@ -1,0 +1,143 @@
+{
+  "slug": "apk-extractor",
+  "locale": "vi",
+  "title": "Apk Extractor",
+  "shortDescription": "Sao lưu ứng dụng, lịch sử phiên bản, cài XAPK, chuyển sang máy mới. Không root.",
+  "tagline": "Trích xuất file APK, sao lưu ứng dụng và cài đặt APK/XAPK — tất cả trong một",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Trích xuất file APK, sao lưu ứng dụng và cài đặt APK/XAPK — tất cả trong một",
+      "paragraphs": [
+        "APK Extractor & App Manager là công cụ trích xuất APK nhanh và nhẹ, kiêm sao lưu ứng dụng, cài đặt APK/XAPK, quản lý ứng dụng và phân tích APK. Trích xuất ứng dụng đã cài thành file APK, giữ lịch sử phiên bản để quay lại khi bản cập nhật bị lỗi, cài gói Split APK (XAPK), chuyển ứng dụng sang máy mới và chia sẻ ứng dụng ngoại tuyến — không cần root."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Sao lưu ứng dụng trước khi reset máy hoặc lên điện thoại mới",
+      "paragraphs": [],
+      "bullets": [
+        "Chia sẻ ứng dụng với bạn bè ngoại tuyến — không cần Internet hay cửa hàng",
+        "Chuyển ứng dụng sang máy mới, hoặc sao lưu trước khi khôi phục cài đặt gốc",
+        "Giữ lại file APK của phiên bản hiện tại trước khi ứng dụng cập nhật",
+        "Lưu giữ những ứng dụng đã bị gỡ khỏi cửa hàng"
+      ]
+    },
+    {
+      "id": "extract",
+      "title": "Trích xuất APK và sao lưu ứng dụng",
+      "paragraphs": [],
+      "bullets": [
+        "Trích xuất file APK từ ứng dụng người dùng và ứng dụng hệ thống",
+        "Sao lưu hàng loạt nhiều ứng dụng cùng lúc, không cần quyền root",
+        "Chọn thư mục xuất tùy ý trên bộ nhớ trong hoặc bộ nhớ ngoài"
+      ]
+    },
+    {
+      "id": "version-history",
+      "title": "Lịch sử phiên bản, sao lưu tự động và hạ cấp",
+      "paragraphs": [],
+      "bullets": [
+        "Sao lưu tự động: theo dõi ứng dụng đã chọn và giữ APK của mọi phiên bản mới",
+        "Đặt số phiên bản muốn giữ cho từng ứng dụng — tất cả nằm trên máy bạn",
+        "Cài lại phiên bản cũ để quay về trước bản cập nhật bạn không ưng ý"
+      ]
+    },
+    {
+      "id": "installer",
+      "title": "Cài đặt APK, cài đặt XAPK và cài hàng loạt",
+      "paragraphs": [],
+      "bullets": [
+        "Cài file APK bằng trình cài đặt gói của Android",
+        "Cài gói XAPK gồm APK gốc và các file Split APK",
+        "Cài hàng loạt: xếp nhiều file APK hoặc XAPK vào hàng đợi và chạy một lượt",
+        "Nêu rõ lý do khi cài thất bại — ABI không hợp, API tối thiểu, thiếu dung lượng"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Chuyển máy: đưa ứng dụng sang điện thoại mới",
+      "paragraphs": [],
+      "bullets": [
+        "Gửi danh sách ứng dụng cùng chính các file APK/XAPK từ máy cũ sang máy mới qua Wi-Fi",
+        "Máy mới kiểm tra những gì đã có, rồi cài lại tất cả trong một hàng đợi",
+        "Đánh dấu phiên bản bạn đã có, chữ ký khác và ứng dụng không chạy được",
+        "Ứng dụng cài từ cửa hàng có liên kết một chạm tới trang cửa hàng"
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "So sánh phiên bản và kiểm tra chữ ký",
+      "paragraphs": [],
+      "bullets": [
+        "So sánh file APK với phiên bản đang cài trên máy",
+        "Xem chữ ký có khớp hay đến từ một nhà phát hành khác",
+        "Phát hiện quyền được thêm hoặc bị bỏ trước khi cài"
+      ]
+    },
+    {
+      "id": "manager",
+      "title": "Quản lý ứng dụng mạnh mẽ",
+      "paragraphs": [],
+      "bullets": [
+        "Duyệt ứng dụng người dùng và hệ thống dạng danh sách hoặc lưới",
+        "Tìm theo tên ứng dụng hoặc tên gói",
+        "Mở ứng dụng, xem thông tin hệ thống, vào trang cửa hàng hoặc gỡ cài đặt"
+      ]
+    },
+    {
+      "id": "analyzer",
+      "title": "Phân tích APK và thông tin ứng dụng",
+      "paragraphs": [],
+      "bullets": [
+        "Tên gói, tên phiên bản, mã phiên bản, SDK tối thiểu và SDK mục tiêu",
+        "Dung lượng, đường dẫn APK, nguồn cài, thời gian cài và cập nhật",
+        "Chứng chỉ chữ ký cùng mã kiểm tra MD5, SHA-1, SHA-256 và CRC32"
+      ]
+    },
+    {
+      "id": "stats",
+      "title": "Thống kê ứng dụng và sức khỏe thiết bị",
+      "paragraphs": [],
+      "bullets": [
+        "So sánh ứng dụng người dùng và hệ thống theo số lượng, tổng và trung bình",
+        "Tìm ứng dụng lớn nhất, cũ nhất và mới cập nhật gần đây nhất",
+        "Xem ứng dụng nào xin quyền vị trí, camera, micro hoặc danh bạ"
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "Chia sẻ ứng dụng, truyền qua Wi-Fi và truyền qua web",
+      "paragraphs": [],
+      "bullets": [
+        "Gửi ứng dụng và file APK qua menu chia sẻ — Quick Share, Bluetooth, email",
+        "Truyền ứng dụng giữa các thiết bị trong cùng mạng Wi-Fi, không cần Internet",
+        "Truyền qua web: mở địa chỉ hoặc quét QR Code trên trình duyệt để chuyển ứng dụng giữa điện thoại và máy tính"
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Đường dẫn xuất, quy tắc đặt tên file và nén ZIP",
+      "paragraphs": [
+        "Thiết lập thư mục xuất, quy tắc tên APK, mức nén ZIP, phạm vi quét, chế độ chia sẻ, ngôn ngữ và chế độ tối theo thói quen của bạn."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Ưu tiên quyền riêng tư, không cần root",
+      "paragraphs": [
+        "Trích xuất APK, sao lưu và quản lý ứng dụng đều không cần root. Quyền truy cập thông tin sử dụng là tùy chọn, chỉ dùng cho phân tích bộ nhớ đệm và ứng dụng ít dùng. Sao lưu tự động, cài hàng loạt, truyền qua web, không quảng cáo và chuyển máy từ ứng dụng thứ 6 trở đi thuộc gói Pro mua một lần."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Công cụ trích xuất APK để lưu file APK, công cụ sao lưu khi đổi máy, trình cài XAPK cho Split APK — hãy tải APK Extractor & App Manager và làm chủ ứng dụng của bạn.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

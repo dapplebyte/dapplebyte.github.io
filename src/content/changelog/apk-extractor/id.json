@@ -1,0 +1,42 @@
+{
+  "slug": "apk-extractor",
+  "locale": "id",
+  "entries": [
+    {
+      "code": 612,
+      "name": "6.1.2",
+      "date": "2026-09-20",
+      "items": [
+        "Baru: Migrasi Perangkat — pindahkan aplikasi dari ponsel lama ke ponsel baru lewat Wi-Fi",
+        "Kirim daftar aplikasinya saja atau sekalian berkas APK/XAPK, lalu pasang semuanya sekali ketuk",
+        "Ponsel baru menandai versi yang sudah ada, tanda tangan berbeda, dan aplikasi yang tidak bisa jalan",
+        "Aplikasi dari store mendapat tombol langsung ke halamannya",
+        "Gratis sampai 5 aplikasi; kartu di layar utama bisa disembunyikan lewat Setelan"
+      ]
+    },
+    {
+      "code": 611,
+      "name": "6.1.1",
+      "date": "2026-09-13",
+      "items": [
+        "Cadangan Otomatis kini gratis — pilih aplikasi yang dipantau, slot terpakai tampil di Riwayat Versi",
+        "Penginstal XAPK menunjukkan tiap langkah dan hasilnya, bisa disembunyikan saat memasang",
+        "Daftar APK dan halaman detail menampilkan nama serta ikon asli, terbuka seketika",
+        "Layar penuh di tablet dan perangkat lipat; memutar layar tak menghentikan ekspor",
+        "Jalur folder ekspor via pemilih file sistem kini benar"
+      ]
+    },
+    {
+      "code": 609,
+      "name": "6.0.9",
+      "date": "2026-09-03",
+      "items": [
+        "Semua dialog di Pengaturan didesain ulang — kartu bersudut membulat, opsi lebih jelas, dan warna yang konsisten",
+        "Memperbaiki warna tombol pilihan, kursor teks, dan garis pemisah yang salah dalam Mode malam",
+        "Tata letak pemilihan bahasa kini tampil benar pada bahasa kanan-ke-kiri seperti bahasa Arab",
+        "Ukuran unduhan lebih kecil berkat pengecilan kode dan sumber daya"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

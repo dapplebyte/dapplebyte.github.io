@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "de",
+  "title": "Hilfe & FAQ",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Grundlagen & Extrahieren",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Was kann diese App?",
+          "a": [
+            "Sie extrahiert die auf Ihrem Handy installierten Apps in APK-, XAPK- oder APKS-Dateien, damit Sie sie sichern, weitergeben oder später wieder installieren können. Außerdem verwaltet sie die Installationspakete, die bereits auf Ihrem Gerät liegen."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Wo landen die extrahierten Dateien, und lässt sich das ändern?",
+          "a": [
+            "Die Dateien landen in dem Exportordner, der in den Einstellungen angezeigt wird. Öffnen Sie Einstellungen → Exportpfad, um einen beliebigen Ordner auszuwählen, auch einen auf der SD-Karte."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "Worin unterscheiden sich APK, XAPK und APKS?",
+          "a": [
+            "Eine APK ist eine einzelne Installationsdatei. XAPK und APKS sind Archive, die zusätzlich die Split-Pakete einer App (Sprache, Bildschirmdichte, CPU-Architektur) und ihre OBB-Daten enthalten. Nehmen Sie APK für gewöhnliche Apps und XAPK/APKS für Apps, die als App Bundle veröffentlicht wurden."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Warum wird eine App als XAPK statt als APK exportiert?",
+          "a": [
+            "Diese App wurde als App Bundle veröffentlicht, das System hat sie also in mehreren Split-Paketen installiert. Eine einzelne APK wäre unvollständig, deshalb werden alle Splits stattdessen in eine XAPK-Datei gepackt."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Kann ich den Namen der exportierten Datei anpassen?",
+          "a": [
+            "Ja. Unter Einstellungen → Exportregeln kombinieren Sie App-Name, Paketname, Versionsname und Versionscode. Einstellungen → Komprimierte Dateiendung und Paketname-Trennzeichen bestimmen den Rest des Namens."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Warum fehlen manche Apps in der Liste?",
+          "a": [
+            "System-Apps sind standardmäßig ausgeblendet. Öffnen Sie Einstellungen → Paketbereich und schalten Sie die System-Apps ein, um sie anzuzeigen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Installieren",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "Wie installiere ich eine XAPK- oder APKS-Datei?",
+          "a": [
+            "Öffnen Sie den Tab APKs, tippen Sie die Datei an und wählen Sie Installieren. Die App nutzt den Session-Installer des Systems und wählt automatisch die Splits aus, die zu Ihrem Gerät passen."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "Ich werde gefragt, ob ich unbekannte Apps installieren darf. Was jetzt?",
+          "a": [
+            "Android verlangt eine ausdrückliche Erlaubnis, bevor eine App Pakete installieren darf. Tippen Sie in der Abfrage auf Einstellungen, schalten Sie „Aus dieser Quelle zulassen“ ein, gehen Sie zurück und versuchen Sie es erneut."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Kann ich mehrere Pakete auf einmal installieren?",
+          "a": [
+            "Ja. Wählen Sie im Tab APKs mehrere Dateien aus und fügen Sie sie der Installationswarteschlange hinzu; sie werden dann nacheinander installiert. Die Stapelinstallation ist eine Pro-Funktion."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Warum ist eine Installation fehlgeschlagen?",
+          "a": [
+            "Die üblichen Gründe sind eine Signatur, die von der installierten App abweicht, eine ältere Version als die installierte, fehlende Splits für Ihre CPU-Architektur oder zu wenig freier Speicher. In den meisten Fällen hilft es, die alte App vorher zu deinstallieren."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Teilen & Übertragen",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "Wie schicke ich eine App an einen Freund?",
+          "a": [
+            "Wählen Sie die App aus und tippen Sie auf Teilen. Einstellungen → Freigabemodus legt fest, ob die Originaldatei direkt geteilt oder vorher extrahiert wird."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Wie funktioniert die Web-Übertragung?",
+          "a": [
+            "Öffnen Sie die Web-Übertragung im Seitenmenü, halten Sie beide Geräte im selben WLAN und geben Sie dann die angezeigte Adresse im Browser Ihres Computers ein oder scannen Sie den QR-Code. Den Port ändern Sie unter Einstellungen → Portnummer. Die Web-Übertragung ist eine Pro-Funktion."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Wie empfange ich APK-Dateien von einem anderen Handy?",
+          "a": [
+            "Öffnen Sie APKs empfangen im Seitenmenü und lassen Sie das andere Handy über das lokale Netzwerk an dieses Gerät senden. Einstellungen → Gerätename ändert, wie Ihr Handy dort erscheint, und wenn kein WLAN da ist, geht es auch über einen Hotspot."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "Die Übertragung kommt nicht zustande. Was soll ich prüfen?",
+          "a": [
+            "Vergewissern Sie sich, dass beide Geräte im selben WLAN sind und dass weder die AP-Isolierung noch ein VPN dazwischenfunkt. Ist der Port bereits belegt, ändern Sie ihn in den Einstellungen – oder Sie schalten auf einem Gerät den Hotspot ein und verbinden das andere damit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Backup & Versionsverlauf",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "Was ist das automatische Backup und wie viel Platz braucht es?",
+          "a": [
+            "Das Automatische Backup legt bei jedem Update eine Kopie der APK einer App ab, damit Sie später zu einer älteren Version zurückkehren können. Jede aufbewahrte Version braucht ungefähr so viel Platz wie die App selbst – löschen Sie also im Versionsverlauf die Einträge, die Sie nicht mehr benötigen."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Wie lege ich fest, welche Apps gesichert werden?",
+          "a": [
+            "Öffnen Sie Versionsverlauf → Menü → Apps zum Sichern auswählen und haken Sie die Apps ab, die beobachtet werden sollen. In der kostenlosen Version lässt sich nur eine begrenzte Anzahl von Apps automatisch sichern; Pro hebt diese Grenze auf."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Wie kehre ich zu einer älteren Version zurück?",
+          "a": [
+            "Öffnen Sie den Versionsverlauf, wählen Sie die App, dann die gewünschte Version und tippen Sie auf Installieren. Android lässt kein Downgrade über eine vorhandene App zu, deshalb muss die aktuelle Version zuerst deinstalliert werden – ihre Daten werden dabei gelöscht."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Was zeigt der Versionsvergleich?",
+          "a": [
+            "Er vergleicht ein Installationspaket mit der Version, die auf Ihrem Handy installiert ist: Versionsname und -code, Dateigröße, Ziel-SDK, ob die Signatur übereinstimmt, hinzugekommene und entfallene Berechtigungen sowie Änderungen an den Komponenten. Das ist der schnellste Weg, um zu prüfen, ob eine heruntergeladene Datei echt ist."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Details & Analyse",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "Was steht auf den Seiten für App-Details und Analyse?",
+          "a": [
+            "Dort finden Sie Paketname, Versionen, Installations- und Aktualisierungsdatum, Signatur, Berechtigungen, Komponenten, unterstützte CPU-Architekturen und eine Aufschlüsselung der Größe – dazu Statistiken über alle installierten Apps hinweg."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Warum weicht die Größe von der in den Systemeinstellungen ab?",
+          "a": [
+            "Diese App zeigt die Größe des Installationspakets. Die Systemeinstellungen rechnen Nutzerdaten und Cache obendrauf, deshalb fällt der Wert dort meist höher aus."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro & Werbung",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "Was bekomme ich mit Pro?",
+          "a": [
+            "Pro entfernt sämtliche Werbung, hebt die Grenze für die Anzahl automatisch gesicherter Apps auf und schaltet die Web-Übertragung sowie die Warteschlange für die Stapelinstallation frei. Es ist ein einmaliger Kauf, kein Abo."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Ich habe das Handy gewechselt. Wie hole ich Pro zurück?",
+          "a": [
+            "Öffnen Sie Auf Pro upgraden und tippen Sie auf Kauf wiederherstellen. Melden Sie sich mit demselben Google-Konto an, mit dem Sie gekauft haben; es wird nichts erneut berechnet."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Ich habe bezahlt, aber es wird weiterhin Werbung angezeigt.",
+          "a": [
+            "Achten Sie darauf, dass das Gerät online ist, tippen Sie auf Kauf wiederherstellen und starten Sie die App neu. Google Play braucht manchmal ein paar Minuten, um eine Zahlung zu bestätigen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Datenschutz & Sonstiges",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "Lädt die App meine Apps oder meine Daten hoch?",
+          "a": [
+            "Nein. Extrahieren, Backup und Übertragung laufen alle auf Ihrem Gerät oder innerhalb Ihres eigenen lokalen Netzwerks ab. Einzelheiten stehen in der Datenschutzerklärung."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "Wie ändere ich die Sprache oder nutze den Dunkelmodus?",
+          "a": [
+            "Einstellungen → Language bietet mehr als zwanzig Sprachen, und Einstellungen → Nachtmodus wechselt zwischen Aktiviert, Deaktiviert und System folgen."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "Wie melde ich ein Problem oder schlage eine Funktion vor?",
+          "a": [
+            "Schreiben Sie uns über die Schaltfläche unten auf dieser Seite eine E-Mail. Wenn Sie App-Version, Handymodell und Android-Version nennen, können wir schneller antworten."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

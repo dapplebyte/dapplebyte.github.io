@@ -1,0 +1,42 @@
+{
+  "slug": "apk-extractor",
+  "locale": "nl",
+  "entries": [
+    {
+      "code": 612,
+      "name": "6.1.2",
+      "date": "2026-09-20",
+      "items": [
+        "Nieuw: Apparaatmigratie — verplaats je apps via wifi van je oude telefoon naar je nieuwe",
+        "Stuur alleen de lijst of ook de APK-/XAPK-bestanden en installeer alles met één tik terug",
+        "De nieuwe telefoon markeert versies die je al hebt, afwijkende handtekeningen en apps die niet werken",
+        "Apps uit de store krijgen een directe link naar hun pagina",
+        "Gratis tot 5 apps; de kaart op het startscherm kun je verbergen in Instellingen"
+      ]
+    },
+    {
+      "code": 611,
+      "name": "6.1.1",
+      "date": "2026-09-13",
+      "items": [
+        "Automatische back-up is nu gratis – kies de apps, Versiegeschiedenis toont bezette plekken",
+        "De XAPK Installer toont elke stap, eindigt met een helder resultaat en is te verbergen",
+        "APK's-lijst en detailpagina tonen de echte appnaam en -pictogram en openen direct",
+        "Fullscreen op tablets en opvouwbare toestellen; schermdraaien breekt geen export af",
+        "Mappad voor exports via de systeemkiezer gecorrigeerd"
+      ]
+    },
+    {
+      "code": 609,
+      "name": "6.0.9",
+      "date": "2026-09-03",
+      "items": [
+        "Alle dialoogvensters in Instellingen opnieuw ontworpen – afgeronde kaarten, duidelijkere opties en consistente merkkleuren",
+        "Opgelost: keuzerondjes, tekstcursors en scheidingslijnen hadden de verkeerde kleur in de nachtmodus",
+        "De taalkiezer wordt nu correct weergegeven in talen die van rechts naar links lopen, zoals Arabisch",
+        "Kleinere downloadgrootte dankzij het verkleinen van code en bronbestanden"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

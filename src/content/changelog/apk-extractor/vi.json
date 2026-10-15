@@ -1,0 +1,42 @@
+{
+  "slug": "apk-extractor",
+  "locale": "vi",
+  "entries": [
+    {
+      "code": 612,
+      "name": "6.1.2",
+      "date": "2026-09-20",
+      "items": [
+        "Mới: Chuyển máy — chuyển ứng dụng từ điện thoại cũ sang máy mới qua Wi-Fi",
+        "Gửi riêng danh sách ứng dụng hoặc kèm cả tệp APK/XAPK, rồi cài lại tất cả chỉ với một chạm",
+        "Máy mới báo trước phiên bản bạn đã có, chữ ký khác nhau và ứng dụng không chạy được",
+        "Ứng dụng cài từ cửa hàng có nút mở thẳng trang cửa hàng",
+        "Miễn phí 5 ứng dụng; thẻ ở màn hình chính có thể ẩn trong Cài đặt"
+      ]
+    },
+    {
+      "code": 611,
+      "name": "6.1.1",
+      "date": "2026-09-13",
+      "items": [
+        "Tự động sao lưu miễn phí — chọn ứng dụng cần theo dõi, Lịch sử phiên bản hiện số suất đang dùng",
+        "XAPK Installer hiện từng bước khi chạy, kết quả rõ ràng, ẩn được khi đang cài",
+        "Danh sách APK và trang chi tiết hiện đúng tên và biểu tượng thật, mở tức thì",
+        "Toàn màn hình trên máy tính bảng và điện thoại gập; xoay màn hình không ngắt xuất",
+        "Sửa đường dẫn thư mục bản xuất lưu qua trình chọn tệp hệ thống"
+      ]
+    },
+    {
+      "code": 609,
+      "name": "6.0.9",
+      "date": "2026-09-03",
+      "items": [
+        "Làm mới toàn bộ hộp thoại trong Cài đặt: thẻ bo góc, tùy chọn rõ ràng hơn và màu thương hiệu đồng nhất",
+        "Sửa lỗi nút chọn, con trỏ nhập liệu và đường phân cách hiển thị sai màu trong Chế độ ban đêm",
+        "Trình chọn ngôn ngữ giờ hiển thị đúng bố cục ở các ngôn ngữ viết từ phải sang trái như tiếng Ả Rập",
+        "Dung lượng tải về nhỏ hơn nhờ rút gọn mã và tài nguyên"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

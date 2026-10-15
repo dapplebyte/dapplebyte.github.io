@@ -1,0 +1,42 @@
+{
+  "slug": "apk-extractor",
+  "locale": "de",
+  "entries": [
+    {
+      "code": 612,
+      "name": "6.1.2",
+      "date": "2026-09-20",
+      "items": [
+        "Neu: Geräteumzug – übertrage deine Apps per WLAN vom alten aufs neue Handy",
+        "Schicke nur die App-Liste oder auch die APK-/XAPK-Dateien und installiere alles mit einem Tippen zurück",
+        "Das neue Handy markiert vorhandene Versionen, abweichende Signaturen und nicht lauffähige Apps",
+        "Apps aus dem Store bekommen einen Direktlink zu ihrer Store-Seite",
+        "Gratis bis zu 5 Apps; die Karte auf dem Startbildschirm lässt sich in den Einstellungen ausblenden"
+      ]
+    },
+    {
+      "code": 611,
+      "name": "6.1.1",
+      "date": "2026-09-13",
+      "items": [
+        "Automatisches Backup jetzt gratis – Apps wählen, belegte Plätze zeigt der Versionsverlauf",
+        "XAPK-Installer zeigt jeden Schritt, endet mit klarem Ergebnis und lässt sich ausblenden",
+        "APKs-Liste und Detailseite zeigen echten App-Namen und Symbol, öffnen sofort",
+        "Vollbild auf Tablets und Foldables; Bildschirmdrehen bricht keinen Export mehr ab",
+        "Ordnerpfad für Exporte über die System-Dateiauswahl korrigiert"
+      ]
+    },
+    {
+      "code": 609,
+      "name": "6.0.9",
+      "date": "2026-09-03",
+      "items": [
+        "Alle Dialoge in den Einstellungen neu gestaltet – abgerundete Karten, klarere Optionen und einheitliche Markenfarben",
+        "Behoben: Optionsfelder, Textcursor und Trennlinien wurden im Nachtmodus in der falschen Farbe angezeigt",
+        "Die Sprachauswahl wird jetzt auch in Sprachen mit Rechts-nach-links-Schrift wie Arabisch korrekt dargestellt",
+        "Kleinere Downloadgröße dank Code- und Ressourcenkomprimierung"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

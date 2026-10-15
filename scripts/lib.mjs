@@ -40,6 +40,10 @@ export function localProducts() {
  * app has no translation for that locale (the locale is skipped, which is not an error).
  */
 const LOCALE_OVERRIDES = {
+  /** Apk Extractor: the app's Portuguese is `values-pt` (the site's pt-br); every other locale uses the default folders. */
+  'apk-extractor': {
+    android: { 'pt-br': 'values-pt' },
+  },
   'gamepad-pro': {
     fastlane: { es: 'es-419' },
     android: { 'pt-br': 'values-pt', id: null, vi: null },

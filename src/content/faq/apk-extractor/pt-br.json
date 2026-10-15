@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "pt-br",
+  "title": "Ajuda e perguntas frequentes",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Noções básicas e extração",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "O que este aplicativo faz?",
+          "a": [
+            "Ele extrai os aplicativos instalados no seu celular em arquivos APK, XAPK ou APKS, para você guardar, compartilhar ou instalar de novo mais tarde. Também organiza os pacotes de instalação que já estão no seu dispositivo."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Onde os arquivos extraídos são salvos e dá para mudar isso?",
+          "a": [
+            "Os arquivos vão para a pasta de exportação mostrada nas Configurações. Abra Configurações → Caminho de exportação para escolher a pasta que quiser, inclusive uma no cartão SD."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "Qual é a diferença entre APK, XAPK e APKS?",
+          "a": [
+            "Um APK é um único arquivo de instalação. XAPK e APKS são pacotes que trazem também os splits do aplicativo (idioma, densidade de tela, arquitetura de CPU) e os dados OBB. Use APK para aplicativos comuns e XAPK/APKS para os publicados como App Bundle."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Por que um aplicativo é exportado como XAPK em vez de APK?",
+          "a": [
+            "Esse aplicativo foi publicado como App Bundle, então o sistema o instalou em vários splits. Um APK sozinho ficaria incompleto, por isso todos os splits são reunidos em um único arquivo XAPK."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Posso personalizar o nome do arquivo exportado?",
+          "a": [
+            "Sim. Em Configurações → Regras de exportação você combina Nome do aplicativo, Nome do pacote, Nome da versão e Código da versão. Configurações → Extensão do arquivo compactado e Separador de nome de pacote definem o resto do nome."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Por que alguns aplicativos não aparecem na lista?",
+          "a": [
+            "Os aplicativos do sistema ficam ocultos por padrão. Abra Configurações → Escopo do pacote e ative os aplicativos do sistema para exibi-los."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Instalação",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "Como instalo um arquivo XAPK ou APKS?",
+          "a": [
+            "Abra a aba Pacotes, toque no arquivo e escolha Instalar. O aplicativo usa o instalador por sessão do sistema e seleciona automaticamente os splits compatíveis com o seu dispositivo."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "Ele pede permissão para instalar aplicativos desconhecidos. E agora?",
+          "a": [
+            "O Android exige uma permissão explícita antes que qualquer aplicativo possa instalar pacotes. Toque em Configurações no aviso, ative “Permitir desta fonte”, volte e tente de novo."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Dá para instalar vários pacotes de uma vez?",
+          "a": [
+            "Sim. Selecione vários arquivos na aba Pacotes e adicione-os à fila de instalação; eles serão instalados um após o outro. A Instalação em lote é um recurso Pro."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Por que uma instalação falhou?",
+          "a": [
+            "Os motivos mais comuns são assinatura diferente da do aplicativo instalado, versão mais antiga que a atual, falta de splits para a arquitetura da sua CPU ou espaço insuficiente. Desinstalar o aplicativo antigo antes resolve a maioria dos casos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Compartilhamento e transferência",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "Como envio um aplicativo para um amigo?",
+          "a": [
+            "Selecione o aplicativo e escolha Compartilhar. Configurações → Modo de compartilhamento define se o arquivo original é compartilhado direto ou se é extraído antes."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Como funciona a Transferência web?",
+          "a": [
+            "Abra a Transferência web pelo menu lateral, deixe os dois dispositivos no mesmo Wi-Fi e digite no navegador do computador o endereço mostrado na tela, ou aponte a câmera para o QR code. A porta pode ser alterada em Configurações → Número da porta. A Transferência web é um recurso Pro."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Como recebo arquivos APK de outro celular?",
+          "a": [
+            "Abra Receber arquivos pelo menu lateral e deixe o outro celular enviar para este dispositivo pela rede local. Configurações → Nome do dispositivo muda como o seu celular aparece, e dá para usar um roteador portátil quando não há Wi-Fi."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "A transferência não conecta. O que devo verificar?",
+          "a": [
+            "Confirme que os dois dispositivos estão no mesmo Wi-Fi e que nem o isolamento de clientes nem uma VPN estão bloqueando a conexão. Se a porta já estiver em uso, mude-a nas Configurações, ou ligue o roteador portátil em um dispositivo e conecte o outro a ele."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Backup e histórico de versões",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "O que é o backup automático e quanto espaço ele ocupa?",
+          "a": [
+            "O Backup automático guarda uma cópia do APK do aplicativo a cada atualização, para que você possa voltar a uma versão anterior depois. Cada versão guardada ocupa mais ou menos o mesmo que o próprio aplicativo, então apague no Histórico de versões os registros de que você não precisa mais."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Como escolho de quais aplicativos será feito backup?",
+          "a": [
+            "Abra Histórico de versões → menu → Escolher apps para backup e marque os que você quer acompanhar. A versão gratuita faz backup automático de um número limitado de apps; o Pro remove esse limite."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Como volto para uma versão anterior?",
+          "a": [
+            "Abra o Histórico de versões, escolha o aplicativo, selecione a versão desejada e toque em Instalar. O Android não permite rebaixar por cima de um aplicativo existente, então desinstale primeiro a versão atual — os dados dela serão apagados."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "O que o Comparar versões mostra?",
+          "a": [
+            "Ele compara um pacote de instalação com a versão instalada no seu celular: nome e código da versão, tamanho do arquivo, SDK de destino, se a assinatura confere, permissões adicionadas e removidas e mudanças nos componentes. É o jeito mais rápido de checar se um arquivo baixado é legítimo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Detalhes e análise",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "O que há nas páginas de detalhes e análise do aplicativo?",
+          "a": [
+            "Elas mostram o nome do pacote, as versões, as datas de instalação e atualização, a assinatura, as permissões, os componentes, as arquiteturas de CPU suportadas e a divisão do tamanho, além de estatísticas de todos os aplicativos instalados."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Por que o tamanho é diferente do que aparece nas configurações do sistema?",
+          "a": [
+            "Este aplicativo mostra o tamanho do pacote de instalação. As configurações do sistema somam a isso os dados do usuário e o cache, por isso o número de lá costuma ser maior."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro e anúncios",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "O que eu ganho com o Pro?",
+          "a": [
+            "O Pro remove todos os anúncios, elimina o limite de quantos apps podem ter backup automático e libera a Transferência web e a fila de Instalação em lote. É uma compra única, não uma assinatura."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Troquei de celular. Como recupero o Pro?",
+          "a": [
+            "Abra Atualizar para o Pro e toque em Restaurar compra. Entre com a mesma conta do Google usada na compra; você não será cobrado de novo."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Paguei, mas os anúncios continuam aparecendo.",
+          "a": [
+            "Verifique se o dispositivo está online, toque em Restaurar compra e reinicie o aplicativo. O Google Play pode levar alguns minutos para confirmar um pagamento."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Privacidade e outros",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "O aplicativo envia meus apps ou meus dados para algum servidor?",
+          "a": [
+            "Não. A extração, o backup e a transferência acontecem no seu dispositivo ou dentro da sua própria rede local. Veja a política de privacidade para mais detalhes."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "Como mudo o idioma ou uso o modo escuro?",
+          "a": [
+            "Configurações → Language oferece mais de vinte idiomas, e Configurações → Modo noturno alterna entre Ativado, Desativado e Seguir sistema."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "Como relato um problema ou sugiro um recurso?",
+          "a": [
+            "Use o botão no fim desta página para nos enviar um e-mail. Informar a versão do aplicativo, o modelo do celular e a versão do Android ajuda a responder mais rápido."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

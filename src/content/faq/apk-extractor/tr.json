@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "tr",
+  "title": "Yardım ve SSS",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Temel bilgiler ve dışa aktarma",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Bu uygulama ne yapar?",
+          "a": [
+            "Telefonunuzdaki yüklü uygulamaları APK, XAPK veya APKS dosyası olarak dışa aktarır; böylece onları yedekleyebilir, paylaşabilir ya da sonradan yeniden yükleyebilirsiniz. Ayrıca cihazınızda hâlihazırda duran kurulum paketlerini de yönetir."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Dışa aktarılan dosyalar nereye kaydediliyor, değiştirebilir miyim?",
+          "a": [
+            "Dosyalar Ayarlar'da görünen dışa aktarma klasörüne kaydedilir. Ayarlar → Dışa aktarma yolu bölümünden, SD karttakiler dâhil istediğiniz klasörü seçebilirsiniz."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "APK, XAPK ve APKS arasındaki fark nedir?",
+          "a": [
+            "APK tek parça bir kurulum dosyasıdır. XAPK ve APKS ise bir uygulamanın split paketlerini (dil, ekran yoğunluğu, CPU mimarisi) ve OBB verilerini de barındıran arşivlerdir. Sıradan uygulamalar için APK, App Bundle olarak yayımlanan uygulamalar için XAPK/APKS kullanın."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Bir uygulama neden APK yerine XAPK olarak dışa aktarılıyor?",
+          "a": [
+            "O uygulama App Bundle olarak yayımlandığı için sistem onu birkaç split paket hâlinde yüklemiştir. Tek bir APK eksik kalacağından, tüm split'ler tek bir XAPK dosyasında toplanır."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Dışa aktarılan dosyanın adını özelleştirebilir miyim?",
+          "a": [
+            "Evet. Ayarlar → Dışa aktarma kuralları ile uygulama adını, paket adını, sürüm adını ve sürüm kodunu birleştirebilirsiniz. Adın geri kalanını Ayarlar → Sıkıştırılmış dosya uzantısı ve Paket adı ayırıcı belirler."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Bazı uygulamalar listede neden görünmüyor?",
+          "a": [
+            "Sistem uygulamaları varsayılan olarak gizlidir. Ayarlar → Paket kapsamı bölümünü açıp sistem uygulamalarını etkinleştirin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Yükleme",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "XAPK veya APKS dosyasını nasıl yüklerim?",
+          "a": [
+            "APK'lar sekmesini açın, dosyaya dokunun ve Yükle'yi seçin. Uygulama sistemin oturum yükleyicisini kullanır ve cihazınıza uyan split'leri otomatik olarak seçer."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "Bilinmeyen uygulamaların yüklenmesine izin vermemi istiyor, ne yapmalıyım?",
+          "a": [
+            "Android, herhangi bir uygulamanın paket yükleyebilmesi için açık izin ister. Çıkan uyarıda Ayarlar'a dokunun, “Bu kaynağa izin ver” seçeneğini açın, sonra geri dönüp tekrar deneyin."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Aynı anda birden fazla paket yükleyebilir miyim?",
+          "a": [
+            "Evet. APK'lar sekmesinden birden fazla dosya seçip yükleme kuyruğuna ekleyin; sırayla yüklenirler. Toplu yükleme bir Pro özelliğidir."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Yükleme neden başarısız oldu?",
+          "a": [
+            "En sık nedenler şunlardır: imzanın yüklü uygulamadakinden farklı olması, sürümün yüklü olandan eski olması, CPU mimarinize uygun split'lerin bulunmaması veya yeterli boş alanın olmaması. Çoğu durumda eski uygulamayı önce kaldırmak sorunu çözer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Paylaşım ve aktarım",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "Bir uygulamayı arkadaşıma nasıl gönderirim?",
+          "a": [
+            "Uygulamayı seçip Paylaş'a dokunun. Orijinal dosyanın doğrudan mı paylaşılacağını, yoksa önce dışa mı aktarılacağını Ayarlar → Paylaşım modu belirler."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Web Aktarımı nasıl çalışır?",
+          "a": [
+            "Yan menüden Web Aktarımı'nı açın, iki cihazı da aynı Wi-Fi ağında tutun, ardından ekranda görünen adresi bilgisayarınızın tarayıcısına yazın ya da QR kodunu okutun. Port, Ayarlar → Port numarası bölümünden değiştirilebilir. Web Aktarımı bir Pro özelliğidir."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Başka bir telefondan APK dosyalarını nasıl alırım?",
+          "a": [
+            "Yan menüden APK Al'ı açın ve diğer telefonun yerel ağ üzerinden bu cihaza göndermesini sağlayın. Telefonunuzun nasıl göründüğünü Ayarlar → Cihaz adı değiştirir; Wi-Fi yoksa hotspot da kullanabilirsiniz."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "Aktarım bağlanmıyor, neyi kontrol etmeliyim?",
+          "a": [
+            "İki cihazın da aynı Wi-Fi ağında olduğundan, AP yalıtımının ya da bir VPN'in bağlantıyı engellemediğinden emin olun. Port kullanımdaysa Ayarlar'dan değiştirin veya bir cihazda hotspot açıp diğerini ona bağlayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Yedekleme ve sürüm geçmişi",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "Otomatik yedekleme nedir, ne kadar yer kaplar?",
+          "a": [
+            "Otomatik yedekleme, bir uygulama her güncellendiğinde APK'sının bir kopyasını saklar; böylece sonradan eski bir sürüme dönebilirsiniz. Saklanan her sürüm aşağı yukarı uygulamanın kendisi kadar yer kaplar, bu yüzden artık ihtiyaç duymadığınız kayıtları Sürüm Geçmişi'nden silin."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Hangi uygulamaların yedekleneceğini nasıl seçerim?",
+          "a": [
+            "Sürüm Geçmişi → menü → Yedeklenecek uygulamaları seç yolunu izleyip takip etmek istediğiniz uygulamaları işaretleyin. Ücretsiz sürüm sınırlı sayıda uygulamayı otomatik yedekler; Pro bu sınırı kaldırır."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Eski bir sürüme nasıl dönerim?",
+          "a": [
+            "Sürüm Geçmişi'ni açın, uygulamayı seçin, istediğiniz sürümü belirleyip Yükle'ye dokunun. Android mevcut bir uygulamanın üzerine sürüm düşürmeye izin vermez; bu yüzden önce güncel sürümü kaldırın — verileri de silinecektir."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Sürüm Karşılaştırma ne gösterir?",
+          "a": [
+            "Bir kurulum paketini telefonunuzda yüklü olan sürümle karşılaştırır: sürüm adı ve kodu, dosya boyutu, hedef SDK, imzanın eşleşip eşleşmediği, eklenen ve kaldırılan izinler ve bileşen değişiklikleri. İndirdiğiniz bir dosyanın orijinal olup olmadığını anlamanın en hızlı yoludur."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Ayrıntılar ve analiz",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "Uygulama ayrıntıları ve analiz sayfalarında neler var?",
+          "a": [
+            "Paket adı, sürümler, yükleme ve güncelleme tarihleri, imza, izinler, bileşenler, desteklenen CPU mimarileri ve boyut dağılımının yanı sıra yüklü tüm uygulamalarınıza dair istatistikler yer alır."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Boyut neden sistem ayarlarındakinden farklı?",
+          "a": [
+            "Bu uygulama kurulum paketinin boyutunu gösterir. Sistem ayarları bunun üzerine kullanıcı verilerini ve önbelleği de ekler, bu yüzden oradaki sayı genelde daha büyüktür."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro ve reklamlar",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "Pro ile neler geliyor?",
+          "a": [
+            "Pro tüm reklamları kaldırır, otomatik yedeklenebilecek uygulama sayısındaki sınırı ortadan kaldırır, Web Aktarımı ile toplu yükleme kuyruğunu açar. Abonelik değil, tek seferlik bir satın alımdır."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Telefon değiştirdim, Pro'yu nasıl geri alırım?",
+          "a": [
+            "Pro'ya yükselt sayfasını açıp Satın alımı geri yükle'ye dokunun. Satın alırken kullandığınız Google hesabıyla oturum açın; tekrar ücret alınmaz."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Ödeme yaptım ama reklamlar hâlâ görünüyor.",
+          "a": [
+            "Cihazın internete bağlı olduğundan emin olun, Satın alımı geri yükle'ye dokunun, ardından uygulamayı yeniden başlatın. Google Play'in bir ödemeyi onaylaması birkaç dakika sürebilir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Gizlilik ve diğer",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "Uygulama, uygulamalarımı veya verilerimi bir yere yüklüyor mu?",
+          "a": [
+            "Hayır. Dışa aktarma, yedekleme ve aktarma işlemlerinin tamamı cihazınızda ya da kendi yerel ağınız içinde gerçekleşir. Ayrıntılar için gizlilik politikasına bakın."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "Dili nasıl değiştiririm veya koyu modu nasıl kullanırım?",
+          "a": [
+            "Ayarlar → Language yirmiden fazla dil sunar; Ayarlar → Gece modu ise açık, koyu ve sistemi izle seçenekleri arasında geçiş yapar."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "Sorun bildirmek veya bir özellik önermek için ne yapmalıyım?",
+          "a": [
+            "Bu sayfanın altındaki düğmeyi kullanarak bize e-posta gönderin. Uygulama sürümünüzü, telefon modelinizi ve Android sürümünüzü yazmanız daha hızlı yanıt vermemize yardımcı olur."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

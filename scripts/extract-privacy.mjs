@@ -6,6 +6,7 @@ import { join } from 'node:path';
 import { ROOT, localProducts, slugify, writeJson } from './lib.mjs';
 
 const SOURCE = {
+  'apk-extractor': { file: 'policy/AppExtractorPrivacyPolicyV915.html', format: 'wrap' },
   relaypad: { file: 'docs/privacy-policy.html', format: 'wrap' },
   'gamepad-pro': { file: 'docs/privacy/gamePadProV1007.html', format: 'main' },
   whendo: { file: 'app/src/main/assets/privacy-policy.html', format: 'body' },

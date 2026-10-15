@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Aplikasi Android independen",
-    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: Gamepad Pro, aplikasi pemetaan tombol yang mengubah gamepad jadi kontrol sentuh; Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4; WhenDo, aplikasi otomatisasi AI dan klik otomatis; JoyLink, yang mengubah ponsel jadi gamepad Bluetooth, touchpad, dan remote TV; serta Gamepad Tester Pro, yang memeriksa kontroler dari drift stik, input lag, dan tombol mati.",
+    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: Gamepad Pro, aplikasi pemetaan tombol yang mengubah gamepad jadi kontrol sentuh; Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4; WhenDo, aplikasi otomatisasi AI dan klik otomatis; JoyLink, yang mengubah ponsel jadi gamepad Bluetooth, touchpad, dan remote TV; serta Gamepad Tester Pro, yang memeriksa kontroler dari drift stik, input lag, dan tombol mati. DappleByte juga membuat Apk Extractor, pengekstrak APK, alat pencadangan aplikasi, dan pemasang XAPK yang memindahkan aplikasi ke ponsel baru.",
     "appsHeading": "Aplikasi",
     "principlesHeading": "Cara kami bekerja",
     "principles": [
@@ -78,7 +78,7 @@
     "whatBody": "DappleByte adalah studio independen yang membuat aplikasi Android. Satu pengembang, sedikit aplikasi, masing-masing dibuat untuk mengerjakan satu tugas dengan baik lalu tidak merepotkan Anda.",
     "howHeading": "Cara kami bekerja",
     "openSourceHeading": "Kode sumber",
-    "openSourceBody": "Jika kode sumber sebuah aplikasi dipublikasikan, tautannya ada di halaman aplikasi tersebut dan di kit persnya. Relaypad dipublikasikan dengan lisensi AGPL-3.0.",
+    "openSourceBody": "Jika kode sumber sebuah aplikasi dipublikasikan, tautannya ada di halaman aplikasi tersebut dan di kit persnya. Relaypad dipublikasikan dengan lisensi AGPL-3.0. Apk Extractor dipublikasikan dengan lisensi GPL-3.0.",
     "contactHeading": "Kontak",
     "contactBody": "Studio, media, dan kerja sama: {email}. Dukungan untuk aplikasi tertentu dikirim ke alamat di halaman dukungan aplikasi tersebut, supaya sampai ke kotak masuk yang tepat dengan konteks yang tepat.",
     "trademarksHeading": "Merek dagang",
@@ -221,7 +221,13 @@
       "test-history": "Riwayat pengujian dan tren drift per kontroler",
       "led-test": "Uji light bar (PlayStation lewat Bluetooth)",
       "motion-test": "Uji giroskop dan akselerometer",
-      "touchpad-test": "Uji touchpad"
+      "touchpad-test": "Uji touchpad",
+      "extract-apk": "Mengekstrak aplikasi terpasang jadi file APK",
+      "xapk-install": "Memasang paket XAPK dan APK split",
+      "batch-install": "Antrean instal massal",
+      "version-history": "Riwayat versi untuk kembali ke versi lama",
+      "device-migration": "Memindahkan aplikasi ke ponsel baru lewat Wi-Fi",
+      "wifi-transfer": "Mentransfer aplikasi antarperangkat lewat Wi-Fi atau browser"
     },
     "values": {
       "yes": "Ya",
@@ -593,6 +599,45 @@
         "description": "Perbandingan Gamepad Tester Pro dengan aplikasi tes kontroler lain di Android, fitur demi fitur, hanya fakta.",
         "vsDescription": "Perbandingan {name} dan {other} di Android, fitur demi fitur: tes tombol, analisis drift stik, polling rate, getaran, laporan kondisi, iklan, dan harga.",
         "vsIntro": "Keduanya menguji kontroler game di ponsel Android. Ini perbedaannya, fitur demi fitur."
+      }
+    },
+    "apk-extractor": {
+      "kicker": "Cadangan APK · Pemasang XAPK · Ponsel baru",
+      "heroPoints": [
+        "Mengekstrak aplikasi terpasang apa pun jadi file APK atau XAPK, mencadangkan banyak aplikasi sekaligus, dan menyimpan riwayat versi agar pembaruan yang bermasalah bisa dibatalkan, tanpa root",
+        "Memasang paket APK dan XAPK, membandingkan file dengan versi yang terpasang, serta memeriksa tanda tangan dan izin sebelum Anda memasangnya",
+        "Memindahkan aplikasi Anda ke ponsel baru lewat Wi-Fi dan membagikannya secara offline. Gratis dipasang; hapus iklan, Instal massal, Transfer Web, dan migrasi tanpa batas didapat dengan pembelian Pro sekali bayar"
+      ],
+      "faqDescription": "Jawaban seputar Apk Extractor: lokasi file hasil ekstrak, beda APK dan XAPK, memasang paket split, pemasangan yang gagal, transfer Wi-Fi dan Transfer Web, cadangan otomatis dan riwayat versi, detail aplikasi, Pro dan iklan, serta privasi.",
+      "faqNotFoundBody": "Tulis ke kami dengan menyebutkan model ponsel, versi Android, dan apa yang terjadi. Setiap pesan dibaca oleh manusia.",
+      "support": {
+        "beforeItems": [
+          "Buka FAQ. Pertanyaan soal folder ekspor, pemasangan XAPK, pemasangan yang gagal, transfer, dan memulihkan Pro sudah terjawab di sana, dengan kata-kata yang sama seperti di aplikasi.",
+          "Jika pemasangan gagal, catat alasan yang ditampilkan aplikasi: ABI tidak kompatibel, versi Android minimum, penyimpanan kurang, atau tanda tangan berbeda. Biasanya itu sudah menjawab semuanya.",
+          "Untuk masalah transfer atau migrasi, pastikan kedua perangkat ada di jaringan Wi-Fi yang sama dan catat di langkah mana prosesnya berhenti. Opsi kirim masukan di aplikasi otomatis mengisi versi aplikasi, model perangkat, dan versi Android untuk Anda."
+        ],
+        "template": {
+          "phone": "Model ponsel:",
+          "android": "Versi Android:",
+          "feature": "Fitur (ekstrak / pasang / transfer / migrasi / cadangan):",
+          "file": "Jenis file (APK / XAPK / APKS) dan aplikasi yang bersangkutan:",
+          "what": "Apa yang terjadi, langkah demi langkah:",
+          "pro": "Sudah beli Pro: ya / tidak"
+        },
+        "refundBody": "Apk Extractor gratis dipasang. Jika Anda membeli Pro dan ternyata tidak sesuai harapan, kirim email ke kami dalam 7 hari sejak pembelian dan kami akan mengembalikan dananya. Ceritakan apa saja yang sudah Anda coba; itu membantu kami memperbaikinya untuk pengguna berikutnya."
+      },
+      "press": {
+        "description": "Fakta, aset, dan teks deskripsi standar untuk menulis tentang Apk Extractor, aplikasi Android yang mengekstrak, mencadangkan, memasang, dan memindahkan aplikasi sebagai file APK dan XAPK.",
+        "boilerplate": "Apk Extractor adalah pengekstrak APK, alat pencadangan aplikasi, pemasang APK dan XAPK, sekaligus pengelola aplikasi untuk Android. Aplikasi ini mengekstrak aplikasi terpasang jadi file APK atau XAPK, menyimpan riwayat versi agar pembaruan bisa dibatalkan, memasang paket split, membandingkan versi dan tanda tangan, memindahkan aplikasi ke ponsel baru lewat Wi-Fi, dan membagikannya secara offline, semuanya tanpa root. Aplikasi ini dibuat oleh DappleByte, sebuah studio independen.",
+        "priceValue": "Gratis dipasang, dengan iklan. Ekstrak, kelola aplikasi, Bandingkan Versi, berbagi lewat Wi-Fi, cadangan otomatis untuk sejumlah aplikasi terbatas, dan memindahkan hingga 5 aplikasi ke ponsel baru gratis; hapus iklan, Instal massal, Transfer Web, cadangan otomatis tanpa batas, dan migrasi tanpa batas dibuka dengan pembelian Pro sekali bayar. Tidak ada langganan. Harga terkini ditampilkan di Google Play.",
+        "assetScreenshots": "Tangkapan layar, PNG 1620 × 2880, bahasa Inggris"
+      },
+      "videosDescription": "Video singkat yang menunjukkan Apk Extractor di ponsel sungguhan: mengekstrak aplikasi, memasang XAPK, memindahkan aplikasi ke ponsel baru, dan kembali ke versi lama.",
+      "privacyDescription": "Apa yang dilakukan Apk Extractor untuk Android dengan data Anda: tanpa akun, tanpa server milik kami, daftar aplikasi dan file APK yang tetap di perangkat Anda, transfer yang berjalan di jaringan lokal Anda, untuk apa izin opsional Akses penggunaan dipakai, dan apa yang dikumpulkan layanan analitik dan iklan.",
+      "compare": {
+        "description": "Perbandingan Apk Extractor dengan aplikasi pengekstrak APK dan pencadangan aplikasi lain untuk Android, fitur demi fitur, hanya fakta.",
+        "vsDescription": "Perbandingan {name} dan {other} di Android, fitur demi fitur: ekstrak APK, pemasangan XAPK, instal massal, riwayat versi, pindah ke ponsel baru, transfer Wi-Fi, root, iklan, dan harga.",
+        "vsIntro": "Keduanya mengekstrak aplikasi terpasang jadi file APK di Android. Ini perbedaannya, fitur demi fitur."
       }
     }
   }

@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "pl",
+  "title": "Pomoc i FAQ",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Podstawy i wyodrębnianie",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Co potrafi ta aplikacja?",
+          "a": [
+            "Wyodrębnia aplikacje zainstalowane na telefonie do plików APK, XAPK lub APKS, dzięki czemu możesz je zachować, przekazać dalej albo zainstalować ponownie później. Zarządza też pakietami instalacyjnymi, które już masz na urządzeniu."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Gdzie trafiają wyodrębnione pliki i czy mogę to zmienić?",
+          "a": [
+            "Pliki trafiają do folderu eksportu wskazanego w ustawieniach. Otwórz Ustawienia → Ścieżka eksportu, aby wybrać dowolny folder, także na karcie SD."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "Czym różnią się APK, XAPK i APKS?",
+          "a": [
+            "APK to pojedynczy plik instalacyjny. XAPK i APKS to archiwa, które zawierają dodatkowo pakiety split aplikacji (język, gęstość ekranu, architektura procesora) oraz jej dane OBB. Do zwykłych aplikacji użyj APK, a do publikowanych jako App Bundle — XAPK/APKS."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Dlaczego aplikacja eksportuje się jako XAPK, a nie APK?",
+          "a": [
+            "Ta aplikacja została opublikowana jako App Bundle, więc system zainstalował ją z kilku pakietów split. Pojedynczy APK byłby niekompletny, dlatego wszystkie pakiety split trafiają do jednego pliku XAPK."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Czy mogę dostosować nazwę eksportowanego pliku?",
+          "a": [
+            "Tak. Ustawienia → Reguły eksportu pozwalają łączyć nazwę aplikacji, nazwę pakietu, nazwę wersji i kod wersji. O resztę nazwy dbają Ustawienia → Rozszerzenie pliku skompresowanego oraz Separator nazwy pakietu."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Dlaczego niektórych aplikacji nie ma na liście?",
+          "a": [
+            "Aplikacje systemowe są domyślnie ukryte. Otwórz Ustawienia → Zakres pakietów i włącz aplikacje systemowe, aby je pokazać."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Instalacja",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "Jak zainstalować plik XAPK lub APKS?",
+          "a": [
+            "Otwórz kartę APK, dotknij pliku i wybierz Zainstaluj. Aplikacja korzysta z systemowego instalatora sesyjnego i sama dobiera pakiety split pasujące do Twojego urządzenia."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "Aplikacja prosi o zgodę na instalowanie nieznanych aplikacji. Co dalej?",
+          "a": [
+            "Android wymaga wyraźnej zgody, zanim jakakolwiek aplikacja będzie mogła instalować pakiety. W komunikacie dotknij Ustawienia, włącz „Zezwalaj z tego źródła”, wróć i spróbuj ponownie."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Czy mogę zainstalować kilka pakietów naraz?",
+          "a": [
+            "Tak. Zaznacz kilka plików na karcie APK i dodaj je do kolejki instalacji — zostaną zainstalowane jeden po drugim. Instalacja zbiorcza to funkcja Pro."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Dlaczego instalacja się nie powiodła?",
+          "a": [
+            "Typowe przyczyny to podpis inny niż w zainstalowanej aplikacji, wersja starsza od zainstalowanej, brak pakietów split dla architektury Twojego procesora albo za mało wolnego miejsca. W większości przypadków pomaga wcześniejsze odinstalowanie starej aplikacji."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Udostępnianie i przesyłanie",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "Jak wysłać aplikację znajomemu?",
+          "a": [
+            "Zaznacz aplikację i wybierz Udostępnij. Ustawienia → Tryb udostępniania decydują, czy oryginalny plik jest udostępniany bezpośrednio, czy najpierw wyodrębniany."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Jak działa Przesyłanie przez WWW?",
+          "a": [
+            "Otwórz Przesyłanie przez WWW z menu bocznego, trzymaj oba urządzenia w tej samej sieci Wi-Fi, a następnie wpisz w przeglądarce komputera adres pokazany na ekranie albo zeskanuj kod QR. Port zmienisz w Ustawienia → Numer portu. Przesyłanie przez WWW to funkcja Pro."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Jak odebrać pliki APK z innego telefonu?",
+          "a": [
+            "Otwórz Odbierz APK z menu bocznego i pozwól drugiemu telefonowi wysłać pliki na to urządzenie przez sieć lokalną. Ustawienia → Nazwa urządzenia zmieniają sposób wyświetlania Twojego telefonu, a gdy nie ma Wi-Fi, można skorzystać z hotspotu."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "Przesyłanie nie może się połączyć. Co sprawdzić?",
+          "a": [
+            "Upewnij się, że oba urządzenia są w tej samej sieci Wi-Fi i że nie blokuje ich izolacja klientów AP ani VPN. Jeśli port jest zajęty, zmień go w ustawieniach albo włącz hotspot na jednym urządzeniu i podłącz do niego drugie."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Kopie zapasowe i historia wersji",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "Czym są automatyczne kopie zapasowe i ile zajmują miejsca?",
+          "a": [
+            "Automatyczne kopie zapasowe zachowują kopię pliku APK aplikacji przy każdej aktualizacji, dzięki czemu później możesz wrócić do starszej wersji. Każda zachowana wersja zajmuje mniej więcej tyle miejsca co sama aplikacja, więc usuwaj niepotrzebne wpisy w Historii wersji."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Jak wybrać aplikacje, dla których tworzone są kopie?",
+          "a": [
+            "Otwórz Historia wersji → menu → Wybierz aplikacje do kopii zapasowej i zaznacz te, które chcesz obserwować. Wersja bezpłatna może automatycznie tworzyć kopie zapasowe ograniczonej liczby aplikacji; Pro znosi ten limit."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Jak wrócić do starszej wersji?",
+          "a": [
+            "Otwórz Historię wersji, wybierz aplikację, wskaż odpowiednią wersję i dotknij Zainstaluj. Android nie pozwala instalować starszej wersji na istniejącej aplikacji, więc najpierw odinstaluj bieżącą — jej dane zostaną usunięte."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Co pokazuje Porównanie wersji?",
+          "a": [
+            "Zestawia pakiet instalacyjny z wersją zainstalowaną na telefonie: nazwę i kod wersji, rozmiar pliku, target SDK, zgodność podpisu, dodane i usunięte uprawnienia oraz zmiany w komponentach. To najszybszy sposób, aby sprawdzić, czy pobrany plik jest oryginalny."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Szczegóły i analiza",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "Co znajdę na stronach szczegółów i analizy aplikacji?",
+          "a": [
+            "Pokazują nazwę pakietu, wersje, daty instalacji i aktualizacji, podpis, uprawnienia, komponenty, obsługiwane architektury procesora i rozbicie rozmiaru, a także statystyki wszystkich zainstalowanych aplikacji."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Dlaczego rozmiar różni się od tego w ustawieniach systemu?",
+          "a": [
+            "Ta aplikacja pokazuje rozmiar pakietu instalacyjnego. Ustawienia systemu doliczają do niego dane użytkownika i pamięć podręczną, dlatego ich wynik jest zwykle większy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro i reklamy",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "Co daje Pro?",
+          "a": [
+            "Pro usuwa wszystkie reklamy, znosi limit liczby aplikacji objętych automatyczną kopią zapasową oraz odblokowuje Przesyłanie przez WWW i kolejkę instalacji zbiorczej. To jednorazowy zakup, a nie subskrypcja."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Zmieniłem telefon. Jak odzyskać Pro?",
+          "a": [
+            "Otwórz Przejdź na Pro i dotknij Przywróć zakup. Zaloguj się na to samo konto Google, z którego dokonano zakupu — nie zapłacisz ponownie."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Zapłaciłem, ale reklamy nadal się wyświetlają.",
+          "a": [
+            "Sprawdź, czy urządzenie ma połączenie z internetem, dotknij Przywróć zakup, a następnie uruchom aplikację ponownie. Google Play czasem potrzebuje kilku minut na potwierdzenie płatności."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Prywatność i inne",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "Czy aplikacja wysyła gdzieś moje aplikacje lub dane?",
+          "a": [
+            "Nie. Wyodrębnianie, tworzenie kopii i przesyłanie odbywają się na Twoim urządzeniu albo w Twojej sieci lokalnej. Szczegóły znajdziesz w polityce prywatności."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "Jak zmienić język albo włączyć tryb ciemny?",
+          "a": [
+            "Ustawienia → Language oferują ponad dwadzieścia języków, a Ustawienia → Tryb nocny przełączają między jasnym, ciemnym i podążaj za systemem."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "Jak zgłosić problem lub zaproponować funkcję?",
+          "a": [
+            "Skorzystaj z przycisku na dole tej strony, aby napisać do nas. Podanie wersji aplikacji, modelu telefonu i wersji Androida pozwoli nam odpowiedzieć szybciej."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

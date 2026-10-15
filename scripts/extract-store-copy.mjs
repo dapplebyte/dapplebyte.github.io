@@ -10,6 +10,8 @@
 //   to their "Try requests such as:" line instead of being mixed into the feature bullets).
 //   JoyLink adds `dropParagraphsStartingWith` (paragraphs that open with one of these emoji are left out:
 //   its 🎯 closing line repeats the hero tagline and has no heading of its own).
+//   Apk Extractor is the plain `bold` shape with `taglineFromTitle`: 14 `<emoji> <b>Title</b>` headings, the last
+//   one (🎯) a closing line with a heading of its own and no body, kept as the `outro` section.
 //   Gamepad Tester Pro is the plain `bold` shape with `taglineFromTitle` (12 headings, no closing line).
 // Every email address in the copy is replaced with the product's `contactEmail` (products/<slug>.json):
 // a listing may still name the developer's own mailbox, and the site shows the studio address.
@@ -22,6 +24,27 @@ import { ROOT, LOCALES, localProducts, fastlaneLocale, writeJson, now } from './
 
 /** Position → section id. Must match the number of headings in full_description.txt. */
 const CONFIG = {
+  'apk-extractor': {
+    format: 'bold',
+    taglineFromTitle: true,
+    stripParagraphEmoji: true,
+    ids: [
+      'intro',
+      'use-cases',
+      'extract',
+      'version-history',
+      'installer',
+      'migration',
+      'compare',
+      'manager',
+      'analyzer',
+      'stats',
+      'transfer',
+      'settings',
+      'privacy',
+      'outro',
+    ],
+  },
   relaypad: {
     format: 'bold',
     ids: [

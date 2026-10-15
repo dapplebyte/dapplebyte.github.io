@@ -1,0 +1,30 @@
+{
+  "slug": "apk-extractor",
+  "name": "Apk Extractor",
+  "order": 6,
+  "status": "live",
+  "platform": "Android",
+  "applicationId": "com.dylan.win11.app.extractor",
+  "playUrl": "https://play.google.com/store/apps/details?id=com.dylan.win11.app.extractor",
+  "sourceUrl": "https://github.com/DavidInChina/apkextractor",
+  "sourceLicense": "GPL-3.0",
+  "category": "UtilitiesApplication",
+  "minOs": "Android 7.0",
+  "versions": [
+    { "code": 609, "name": "6.0.9", "date": "2026-09-03" },
+    { "code": 611, "name": "6.1.1", "date": "2026-09-13" },
+    { "code": 612, "name": "6.1.2", "date": "2026-09-20" }
+  ],
+  "contactEmail": "feedback@dapplebyte.com",
+  "accent": { "solid": "#32DC82", "bright": "#5BE89A", "ink": "#04180D" },
+  "displayFont": "IBM Plex Sans",
+  "screenshotCount": 6,
+  "screenshotOrientation": "portrait",
+  "featuredFaq": ["q01", "q03", "q07", "q15", "q17", "q24"],
+  "languages": 19,
+  "overview": {
+    "useCases": "use-cases",
+    "cells": ["settings", "privacy"],
+    "privacyLinkIn": "privacy"
+  }
+}

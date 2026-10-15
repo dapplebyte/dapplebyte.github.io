@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Onafhankelijke Android-apps",
-    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker); JoyLink, dat een telefoon verandert in een Bluetooth-gamepad, touchpad en tv-afstandsbediening; en Gamepad Tester Pro, dat een controller controleert op stick drift, input lag en dode knoppen.",
+    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker); JoyLink, dat een telefoon verandert in een Bluetooth-gamepad, touchpad en tv-afstandsbediening; en Gamepad Tester Pro, dat een controller controleert op stick drift, input lag en dode knoppen. DappleByte maakt ook Apk Extractor, een APK-extractor, back-uptool voor apps en XAPK-installer die je apps overzet naar een nieuwe telefoon.",
     "appsHeading": "Apps",
     "principlesHeading": "Hoe we werken",
     "principles": [
@@ -78,7 +78,7 @@
     "whatBody": "DappleByte is een onafhankelijke studio die Android-apps maakt. Eén ontwikkelaar, een handvol apps, elk bedoeld om één taak goed te doen en verder niet in de weg te zitten.",
     "howHeading": "Hoe we werken",
     "openSourceHeading": "Broncode",
-    "openSourceBody": "Is de broncode van een app gepubliceerd, dan staat de link op de pagina van die app en in de persmap. Relaypad is gepubliceerd onder de AGPL-3.0.",
+    "openSourceBody": "Is de broncode van een app gepubliceerd, dan staat de link op de pagina van die app en in de persmap. Relaypad is gepubliceerd onder de AGPL-3.0. Apk Extractor is gepubliceerd onder de GPL-3.0.",
     "contactHeading": "Contact",
     "contactBody": "Studio, pers en samenwerkingen: {email}. Support voor een specifieke app loopt via het adres op de supportpagina van die app, zodat je bericht met de juiste context in de juiste inbox belandt.",
     "trademarksHeading": "Handelsmerken",
@@ -221,7 +221,13 @@
       "test-history": "Testgeschiedenis en driftverloop per controller",
       "led-test": "Lichtbalktest (PlayStation via Bluetooth)",
       "motion-test": "Test van gyroscoop en versnellingsmeter",
-      "touchpad-test": "Touchpadtest"
+      "touchpad-test": "Touchpadtest",
+      "extract-apk": "Zet geïnstalleerde apps om in APK-bestanden",
+      "xapk-install": "Installeert XAPK- en split-APK-pakketten",
+      "batch-install": "Wachtrij voor batch-installatie",
+      "version-history": "Versiegeschiedenis met terugzetten naar een oudere versie",
+      "device-migration": "Zet apps via Wi-Fi over naar een nieuwe telefoon",
+      "wifi-transfer": "Draagt apps over tussen apparaten via Wi-Fi of een browser"
     },
     "values": {
       "yes": "Ja",
@@ -593,6 +599,45 @@
         "description": "Hoe Gamepad Tester Pro zich verhoudt tot andere controllertest-apps op Android, functie voor functie, alleen feiten.",
         "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: knoppentest, stick drift-analyse, polling rate, trilling, conditierapport, advertenties en prijs.",
         "vsIntro": "Beide testen een gamecontroller op een Android-telefoon. Hier zie je waarin ze verschillen, functie voor functie."
+      }
+    },
+    "apk-extractor": {
+      "kicker": "APK-back-up · XAPK-installer · Nieuwe telefoon",
+      "heroPoints": [
+        "Zet elke geïnstalleerde app om in een APK- of XAPK-bestand, maakt van veel apps tegelijk een back-up en houdt een versiegeschiedenis bij, zodat je een slechte update kunt terugdraaien, zonder root",
+        "Installeert APK- en XAPK-pakketten, vergelijkt een bestand met de geïnstalleerde versie en controleert handtekening en machtigingen voordat je installeert",
+        "Zet je apps via Wi-Fi over naar een nieuwe telefoon en deelt ze offline. Gratis te installeren; geen advertenties, batch-installatie, Weboverdracht en onbeperkte apparaatmigratie ontgrendel je met een eenmalige Pro-aankoop"
+      ],
+      "faqDescription": "Antwoorden over Apk Extractor: waar geëxtraheerde bestanden terechtkomen, APK of XAPK, split-pakketten installeren, mislukte installaties, Wi-Fi en Weboverdracht, automatische back-up en versiegeschiedenis, app-details, Pro en advertenties, en privacy.",
+      "faqNotFoundBody": "Schrijf ons met je telefoonmodel, Android-versie en wat er gebeurde. Elk bericht wordt door een mens gelezen.",
+      "support": {
+        "beforeItems": [
+          "Open de FAQ. Exportmappen, XAPK-installaties, mislukte installaties, overdrachten en Pro terugzetten worden daar beantwoord, in dezelfde woorden als in de app.",
+          "Mislukt een installatie, noteer dan de reden die de app toont: niet-compatibele ABI, minimale Android-versie, te weinig opslag of een andere handtekening. Meestal is dat al het hele antwoord.",
+          "Bij een probleem met overdragen of migreren: controleer of beide apparaten op hetzelfde Wi-Fi-netwerk zitten en noteer bij welke stap het stopte. Via de feedbackoptie in de app worden de app-versie, het apparaatmodel en de Android-versie automatisch ingevuld."
+        ],
+        "template": {
+          "phone": "Telefoonmodel:",
+          "android": "Android-versie:",
+          "feature": "Functie (extraheren / installeren / overdragen / migratie / back-up):",
+          "file": "Bestandstype (APK / XAPK / APKS) en de betreffende app:",
+          "what": "Wat er gebeurde, stap voor stap:",
+          "pro": "Pro gekocht: ja / nee"
+        },
+        "refundBody": "Apk Extractor installeer je gratis. Heb je Pro gekocht en doet het niet wat je verwachtte, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen."
+      },
+      "press": {
+        "description": "Feiten, beeldmateriaal en een standaardtekst om over Apk Extractor te schrijven, de Android-app die apps als APK- en XAPK-bestand extraheert, back-upt, installeert en overzet.",
+        "boilerplate": "Apk Extractor is een APK-extractor, back-uptool voor apps, APK- en XAPK-installer en appbeheerder voor Android. De app zet geïnstalleerde apps om in APK- of XAPK-bestanden, houdt een versiegeschiedenis bij zodat je een update kunt terugdraaien, installeert split-pakketten, vergelijkt versies en handtekeningen, zet apps via Wi-Fi over naar een nieuwe telefoon en deelt ze offline, allemaal zonder root. Apk Extractor is gemaakt door DappleByte, een onafhankelijke studio.",
+        "priceValue": "Gratis te installeren, met advertenties. Extraheren, appbeheer, versies vergelijken, delen via Wi-Fi, automatische back-up voor een beperkt aantal apps en tot 5 apps overzetten naar een nieuwe telefoon zijn gratis; de advertenties weghalen, batch-installatie, Weboverdracht, onbeperkte automatische back-up en onbeperkte apparaatmigratie ontgrendel je met een eenmalige Pro-aankoop. Er is geen abonnement. De actuele prijs staat op Google Play.",
+        "assetScreenshots": "Screenshots, PNG van 1620 × 2880, Engelstalig"
+      },
+      "videosDescription": "Korte video's van Apk Extractor op een echte telefoon: een app extraheren, een XAPK installeren, apps overzetten naar een nieuwe telefoon en teruggaan naar een oudere versie.",
+      "privacyDescription": "Wat Apk Extractor voor Android met je gegevens doet: geen account, geen eigen server, applijsten en APK-bestanden die op je apparaat blijven, overdrachten die via je lokale netwerk lopen, waarvoor de optionele toestemming ‘Gebruikstoegang’ dient en wat de statistiek- en advertentiediensten verzamelen.",
+      "compare": {
+        "description": "Hoe Apk Extractor zich verhoudt tot andere apps voor APK-extractie en app-back-up op Android, functie voor functie, alleen feiten.",
+        "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: APK-extractie, XAPK installeren, batch-installatie, versiegeschiedenis, apps overzetten naar een nieuwe telefoon, overdracht via Wi-Fi, root, advertenties en prijs.",
+        "vsIntro": "Beide extraheren geïnstalleerde apps als APK-bestand op Android. Hier zie je waarin ze verschillen, functie voor functie."
       }
     }
   }

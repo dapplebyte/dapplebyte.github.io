@@ -1,0 +1,143 @@
+{
+  "slug": "apk-extractor",
+  "locale": "en",
+  "title": "Apk Extractor",
+  "shortDescription": "App backup, version history, XAPK installer, move apps to a new phone. No root.",
+  "tagline": "Extract APK files, back up apps and install APK/XAPK — all in one toolkit",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Extract APK files, back up apps and install APK/XAPK — all in one toolkit",
+      "paragraphs": [
+        "APK Extractor & App Manager is a fast, lightweight APK extractor, app backup tool, APK/XAPK installer, app manager and APK analyzer. Extract installed apps as APK files, keep a version history to roll back a bad update, install split APK (XAPK) packages, move your apps to a new phone and share apps offline — no root required."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Back Up Apps Before a Reset or a New Phone",
+      "paragraphs": [],
+      "bullets": [
+        "Share apps with friends offline — no internet or app store needed",
+        "Move your apps to a new phone, or back up before a factory reset",
+        "Keep an APK of the current version before an app updates",
+        "Save apps no longer available in the app store"
+      ]
+    },
+    {
+      "id": "extract",
+      "title": "APK Extractor & App Backup",
+      "paragraphs": [],
+      "bullets": [
+        "Extract APK files from user apps and system apps",
+        "Batch backup many apps at once, without root access",
+        "Pick a custom export folder on internal or external storage"
+      ]
+    },
+    {
+      "id": "version-history",
+      "title": "Version History, Auto Backup & Downgrade",
+      "paragraphs": [],
+      "bullets": [
+        "Auto backup: watch chosen apps and keep an APK of every new version",
+        "Set how many versions to keep per app — all stored on your device",
+        "Reinstall an older version and roll back an update you did not want"
+      ]
+    },
+    {
+      "id": "installer",
+      "title": "APK Installer, XAPK Installer & Batch Install",
+      "paragraphs": [],
+      "bullets": [
+        "Install APK files with the Android package installer",
+        "Install XAPK packages made of a base APK and split APK files",
+        "Batch install: queue several APK or XAPK files and run them in one go",
+        "Clear reasons when installs fail — incompatible ABI, min API, low space"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Device Migration: Move Apps to a New Phone",
+      "paragraphs": [],
+      "bullets": [
+        "Send the app list — and the APK/XAPK files themselves — from the old phone to the new one over Wi-Fi",
+        "The new phone checks what it already has, then installs everything back in one queue",
+        "Flags versions you already have, different signatures and apps it cannot run",
+        "Store-installed apps get a one-tap link to their store page"
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "Version Compare & Signature Check",
+      "paragraphs": [],
+      "bullets": [
+        "Compare an APK file with the version already installed",
+        "See whether signatures match or come from a different publisher",
+        "Spot added or removed permissions before you install"
+      ]
+    },
+    {
+      "id": "manager",
+      "title": "Powerful App Manager",
+      "paragraphs": [],
+      "bullets": [
+        "Browse user apps and system apps in a list or grid",
+        "Search by app name or package name",
+        "Launch, open system app info, visit the store page or uninstall"
+      ]
+    },
+    {
+      "id": "analyzer",
+      "title": "APK Analyzer & App Info",
+      "paragraphs": [],
+      "bullets": [
+        "Package name, version name, version code, min SDK and target SDK",
+        "App size, APK path, installer, install time and update time",
+        "Signature certificate plus MD5, SHA-1, SHA-256 and CRC32 checksums"
+      ]
+    },
+    {
+      "id": "stats",
+      "title": "App Statistics & Device Health",
+      "paragraphs": [],
+      "bullets": [
+        "Compare user and system apps by count, total size and average size",
+        "Find the largest, oldest and most recently updated apps",
+        "See which apps request location, camera, microphone or contacts"
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "Share Apps, Wi-Fi Transfer & Web Transfer",
+      "paragraphs": [],
+      "bullets": [
+        "Send apps and APK files via the share menu — Quick Share, Bluetooth, email",
+        "Transfer apps between devices on the same Wi-Fi, no internet needed",
+        "Web transfer: open an address or scan a QR code in a browser to move apps between phone and computer"
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Export Path, File Naming Rules & ZIP Compression",
+      "paragraphs": [
+        "Set the export folder, APK naming rules, ZIP compression, scan range, sharing mode, language and dark mode to match your workflow."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy First, No Root Needed",
+      "paragraphs": [
+        "APK extraction, backup and app management need no root. Optional Usage Access is used only for cache and unused-app insights. Auto backup, batch install, web transfer, ad-free and device migration beyond the first 5 apps are part of a one-time Pro purchase."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "An APK extractor to save APK files, a backup tool for switching phones, an XAPK installer for split APKs — download APK Extractor & App Manager and take control of your apps.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

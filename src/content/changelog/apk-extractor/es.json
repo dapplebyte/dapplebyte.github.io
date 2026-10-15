@@ -1,0 +1,42 @@
+{
+  "slug": "apk-extractor",
+  "locale": "es",
+  "entries": [
+    {
+      "code": 612,
+      "name": "6.1.2",
+      "date": "2026-09-20",
+      "items": [
+        "Novedad: Migración de dispositivo — pasa tus apps del móvil antiguo al nuevo por Wi-Fi",
+        "Envía solo la lista o también los archivos APK/XAPK y reinstálalo todo con un toque",
+        "El móvil nuevo marca las versiones que ya tienes, las firmas distintas y las apps incompatibles",
+        "Las apps de la tienda incluyen un acceso directo a su ficha",
+        "Gratis hasta 5 apps; la tarjeta de inicio se puede ocultar en Ajustes"
+      ]
+    },
+    {
+      "code": 611,
+      "name": "6.1.1",
+      "date": "2026-09-13",
+      "items": [
+        "La Copia automática ya es gratis: las plazas en uso salen en el Historial",
+        "El Instalador XAPK muestra cada paso, acaba con un resultado claro y tiene botón Ocultar",
+        "La lista APKs y la ficha muestran nombre e icono reales, y abren al instante",
+        "A pantalla completa en tablets y plegables; girar la pantalla ya no corta un export",
+        "Corregida la ruta de la carpeta en exports con el selector de archivos"
+      ]
+    },
+    {
+      "code": 609,
+      "name": "6.0.9",
+      "date": "2026-09-03",
+      "items": [
+        "Rediseñados todos los diálogos de Ajustes: tarjetas redondeadas, opciones más claras y colores de marca uniformes",
+        "Corregido el color incorrecto de los botones de opción, el cursor de texto y los separadores en el Modo nocturno",
+        "El selector de idioma ya se muestra bien en idiomas de derecha a izquierda, como el árabe",
+        "Descarga más ligera gracias a la reducción de código y recursos"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "it",
+  "title": "Guida e FAQ",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Nozioni di base ed estrazione",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Che cosa può fare questa app?",
+          "a": [
+            "Estrae le app installate sul telefono in file APK, XAPK o APKS, così puoi conservarle, condividerle o reinstallarle in seguito. Gestisce anche i pacchetti di installazione già presenti sul dispositivo."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Dove vengono salvati i file estratti e posso cambiarlo?",
+          "a": [
+            "I file finiscono nella cartella di esportazione indicata nelle impostazioni. Apri Impostazioni → Percorso esportazione per scegliere la cartella che preferisci, anche su scheda SD."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "Qual è la differenza tra APK, XAPK e APKS?",
+          "a": [
+            "Un APK è un singolo file di installazione. XAPK e APKS sono archivi che contengono anche i pacchetti split di un'app (lingua, densità dello schermo, architettura della CPU) e i suoi dati OBB. Usa APK per le app normali e XAPK/APKS per quelle pubblicate come App Bundle."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Perché un'app viene esportata come XAPK invece che come APK?",
+          "a": [
+            "Quell'app è stata pubblicata come App Bundle, quindi il sistema l'ha installata come più pacchetti split. Un singolo APK sarebbe incompleto, perciò tutti gli split vengono raccolti in un unico file XAPK."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Posso personalizzare il nome del file esportato?",
+          "a": [
+            "Sì. Impostazioni → Regole esportazione permette di combinare nome app, nome pacchetto, versione e codice versione. Impostazioni → Estensione file compresso e Separatore nome pacchetto governano il resto del nome."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Perché alcune app non compaiono nell'elenco?",
+          "a": [
+            "Le app di sistema sono nascoste per impostazione predefinita. Apri Impostazioni → Ambito pacchetti e attiva le app di sistema per mostrarle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Installazione",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "Come installo un file XAPK o APKS?",
+          "a": [
+            "Apri la scheda APK, tocca il file e scegli Installa. L'app usa l'installer di sessione del sistema e seleziona automaticamente gli split adatti al tuo dispositivo."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "Mi chiede di consentire l'installazione di app sconosciute. E adesso?",
+          "a": [
+            "Android richiede un permesso esplicito prima che una qualsiasi app possa installare pacchetti. Tocca Impostazioni nella richiesta, attiva “Consenti da questa origine”, poi torna indietro e riprova."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Posso installare più pacchetti in una volta sola?",
+          "a": [
+            "Sì. Seleziona più file nella scheda APK e aggiungili alla coda di installazione: verranno installati uno dopo l'altro. L'installazione in batch è una funzione Pro."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Perché un'installazione non è riuscita?",
+          "a": [
+            "I motivi più comuni sono una firma diversa da quella dell'app installata, una versione più vecchia di quella presente, split mancanti per l'architettura della tua CPU o spazio libero insufficiente. Disinstallare prima la vecchia app risolve quasi sempre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Condivisione e trasferimento",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "Come invio un'app a un amico?",
+          "a": [
+            "Seleziona l'app e scegli Condividi. Impostazioni → Modalità condivisione decide se il file originale viene condiviso direttamente o prima estratto."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Come funziona il Trasferimento web?",
+          "a": [
+            "Apri Trasferimento web dal menu laterale, tieni i due dispositivi sulla stessa rete Wi-Fi, poi digita nel browser del computer l'indirizzo mostrato a schermo oppure scansiona il codice QR. La porta si cambia in Impostazioni → Numero porta. Trasferimento web è una funzione Pro."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Come ricevo file APK da un altro telefono?",
+          "a": [
+            "Apri Ricevi APK dal menu laterale e lascia che l'altro telefono invii i file a questo dispositivo tramite la rete locale. Impostazioni → Nome dispositivo cambia il modo in cui il tuo telefono viene visualizzato e, in assenza di Wi-Fi, si può usare un hotspot."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "Il trasferimento non si connette. Cosa devo controllare?",
+          "a": [
+            "Assicurati che entrambi i dispositivi siano sulla stessa rete Wi-Fi e che l'isolamento AP o una VPN non li stiano bloccando. Se la porta è già occupata, cambiala nelle impostazioni, oppure attiva l'hotspot su un dispositivo e collegaci l'altro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Backup e cronologia versioni",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "Che cos'è il backup automatico e quanto spazio occupa?",
+          "a": [
+            "Il backup automatico conserva una copia dell'APK di un'app a ogni aggiornamento, così puoi tornare in seguito a una versione precedente. Ogni versione conservata occupa più o meno lo spazio dell'app stessa, quindi elimina in Cronologia versioni i record che non ti servono più."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Come scelgo di quali app fare il backup?",
+          "a": [
+            "Apri Cronologia versioni → menu → Scegli le app di cui fare il backup e spunta quelle da tenere d'occhio. La versione gratuita esegue il backup automatico di un numero limitato di app; Pro elimina questo limite."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Come torno a una versione precedente?",
+          "a": [
+            "Apri Cronologia versioni, scegli l'app, seleziona la versione che ti serve e tocca Installa. Android non consente di installare una versione precedente sopra un'app esistente, quindi disinstalla prima quella attuale: i suoi dati verranno rimossi."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Che cosa mostra il Confronto versioni?",
+          "a": [
+            "Confronta un pacchetto di installazione con la versione installata sul telefono: versione e codice versione, dimensione del file, target SDK, se la firma corrisponde, autorizzazioni aggiunte e rimosse e modifiche ai componenti. È il modo più rapido per capire se un file scaricato è autentico."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Dettagli e analisi",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "Che cosa trovo nelle pagine dei dettagli e dell'analisi?",
+          "a": [
+            "Mostrano nome pacchetto, versioni, date di installazione e aggiornamento, firma, autorizzazioni, componenti, architetture CPU supportate e la ripartizione delle dimensioni, oltre alle statistiche su tutte le app installate."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Perché la dimensione è diversa da quella nelle impostazioni di sistema?",
+          "a": [
+            "Questa app mostra la dimensione del pacchetto di installazione. Le impostazioni di sistema ci aggiungono i dati utente e la cache, quindi il loro valore è di solito più alto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro e pubblicità",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "Cosa ottengo con Pro?",
+          "a": [
+            "Pro rimuove tutta la pubblicità, elimina il limite al numero di app di cui viene eseguito il backup automatico e sblocca il Trasferimento web e la coda di installazione in batch. È un acquisto unico, non un abbonamento."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Ho cambiato telefono. Come recupero Pro?",
+          "a": [
+            "Apri Passa a Pro e tocca Ripristina acquisto. Accedi con lo stesso account Google usato per l'acquisto: non ti verrà addebitato nulla di nuovo."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Ho pagato ma la pubblicità continua a comparire.",
+          "a": [
+            "Verifica che il dispositivo sia online, tocca Ripristina acquisto e poi riavvia l'app. Google Play può impiegare qualche minuto per confermare un pagamento."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Privacy e altro",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "L'app carica altrove le mie app o i miei dati?",
+          "a": [
+            "No. Estrazione, backup e trasferimento avvengono tutti sul tuo dispositivo o all'interno della tua rete locale. Consulta l'informativa sulla privacy per i dettagli."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "Come cambio lingua o attivo la modalità scura?",
+          "a": [
+            "Impostazioni → Language offre più di venti lingue e Impostazioni → Modalità notte alterna tra chiaro, scuro e segui sistema."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "Come segnalo un problema o propongo una funzione?",
+          "a": [
+            "Usa il pulsante in fondo a questa pagina per scriverci. Indicare la versione dell'app, il modello del telefono e la versione di Android ci aiuta a risponderti più in fretta."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

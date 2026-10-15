@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · 독립 스튜디오의 Android 앱",
-    "description": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 게임패드를 터치 조작으로 바꿔 주는 컨트롤러 키매핑 앱 Gamepad Pro, PS5·PS4용 리모트 플레이 컨트롤러이자 콘솔 스트리밍 앱인 Relaypad, AI 자동화와 연속 클릭(오토 클리커) 앱인 WhenDo, 휴대폰을 블루투스 게임패드, 터치패드, TV 리모컨으로 바꿔 주는 JoyLink, 그리고 컨트롤러의 스틱 드리프트, 입력 지연, 반응 없는 버튼을 찾아 주는 Gamepad Tester Pro를 만들어요.",
+    "description": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 게임패드를 터치 조작으로 바꿔 주는 컨트롤러 키매핑 앱 Gamepad Pro, PS5·PS4용 리모트 플레이 컨트롤러이자 콘솔 스트리밍 앱인 Relaypad, AI 자동화와 연속 클릭(오토 클리커) 앱인 WhenDo, 휴대폰을 블루투스 게임패드, 터치패드, TV 리모컨으로 바꿔 주는 JoyLink, 그리고 컨트롤러의 스틱 드리프트, 입력 지연, 반응 없는 버튼을 찾아 주는 Gamepad Tester Pro를 만들어요. 그 밖에 APK 추출, 앱 백업, XAPK 설치를 지원하고 새 휴대폰으로 앱을 옮겨 주는 Apk Extractor도 만들어요.",
     "appsHeading": "앱",
     "principlesHeading": "일하는 방식",
     "principles": [
@@ -78,7 +78,7 @@
     "whatBody": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 개발자는 한 명이고, 앱도 몇 개뿐이에요. 앱마다 맡은 일 하나를 제대로 해내고, 그 밖에는 방해되지 않는 것을 목표로 해요.",
     "howHeading": "일하는 방식",
     "openSourceHeading": "소스 코드",
-    "openSourceBody": "소스 코드를 공개한 앱은 해당 앱 페이지와 프레스 키트에 링크가 있어요. Relaypad는 AGPL-3.0으로 공개돼 있어요.",
+    "openSourceBody": "소스 코드를 공개한 앱은 해당 앱 페이지와 프레스 키트에 링크가 있어요. Relaypad는 AGPL-3.0으로 공개돼 있어요. Apk Extractor는 GPL-3.0으로 공개돼 있어요.",
     "contactHeading": "문의",
     "contactBody": "스튜디오, 언론, 제휴 문의: {email}. 특정 앱에 대한 지원 문의는 그 앱의 지원 페이지에 있는 주소로 보내 주세요. 그래야 필요한 맥락과 함께 알맞은 곳으로 전달돼요.",
     "trademarksHeading": "상표",
@@ -221,7 +221,13 @@
       "test-history": "컨트롤러별 테스트 기록과 드리프트 추이",
       "led-test": "라이트 바 테스트(PlayStation, Bluetooth 연결)",
       "motion-test": "자이로스코프·가속도계 테스트",
-      "touchpad-test": "터치패드 테스트"
+      "touchpad-test": "터치패드 테스트",
+      "extract-apk": "설치된 앱을 APK 파일로 추출",
+      "xapk-install": "XAPK와 분할 APK 패키지 설치",
+      "batch-install": "일괄 설치 대기열",
+      "version-history": "버전 기록에서 이전 버전으로 되돌리기",
+      "device-migration": "Wi-Fi로 새 휴대폰에 앱 이전",
+      "wifi-transfer": "Wi-Fi나 브라우저로 기기 간 앱 전송"
     },
     "values": {
       "yes": "예",
@@ -593,6 +599,45 @@
         "description": "Android의 다른 컨트롤러 테스트 앱과 Gamepad Tester Pro를 기능별로 비교했어요. 사실만 담았어요.",
         "vsDescription": "Android에서 {name} vs {other} 기능별 비교: 버튼 테스트, 스틱 드리프트 분석, 폴링 레이트, 진동, 상태 리포트, 광고, 가격.",
         "vsIntro": "둘 다 Android 휴대폰으로 게임 컨트롤러를 테스트해요. 어디가 다른지 기능별로 정리했어요."
+      }
+    },
+    "apk-extractor": {
+      "kicker": "APK 백업 · XAPK 설치 · 새 휴대폰",
+      "heroPoints": [
+        "설치된 앱을 APK나 XAPK 파일로 추출하고 여러 개를 한 번에 백업해요. 버전 기록이 남아 잘못된 업데이트도 되돌릴 수 있고, root도 필요 없어요",
+        "APK와 XAPK 패키지를 설치하고, 설치하기 전에 파일을 설치된 버전과 비교해 서명과 권한을 확인할 수 있어요",
+        "Wi-Fi로 새 휴대폰에 앱을 옮기고 오프라인으로 공유해요. 설치는 무료이고, 광고 제거, 일괄 설치, 웹 전송, 무제한 기기 이전은 Pro를 한 번만 구매하면 열려요"
+      ],
+      "faqDescription": "Apk Extractor 관련 답변: 추출한 파일의 저장 위치, APK와 XAPK의 차이, 분할 패키지 설치, 설치 실패, Wi-Fi 전송과 웹 전송, 자동 백업과 버전 기록, 앱 상세 정보, Pro와 광고, 개인정보.",
+      "faqNotFoundBody": "휴대폰 모델, Android 버전, 어떤 일이 있었는지 적어서 보내 주세요. 모든 메시지를 사람이 직접 읽어요.",
+      "support": {
+        "beforeItems": [
+          "먼저 자주 묻는 질문을 열어 보세요. 내보내기 폴더, XAPK 설치, 설치 실패, 전송, Pro 복원 관련 질문은 앱과 같은 문구로 답이 나와 있어요.",
+          "설치가 실패했다면 앱에 표시되는 이유를 적어 두세요. 호환되지 않는 ABI, 최소 Android 버전, 저장 공간 부족, 다른 서명 중 하나인데, 대개는 그것만으로 답이 나와요.",
+          "전송이나 기기 이전에 문제가 있다면 두 기기가 같은 Wi-Fi 네트워크에 연결돼 있는지 확인하고 어느 단계에서 멈췄는지 적어 두세요. 앱의 의견 보내기 기능을 쓰면 앱 버전, 기기 모델, Android 버전이 자동으로 채워져요."
+        ],
+        "template": {
+          "phone": "휴대폰 모델:",
+          "android": "Android 버전:",
+          "feature": "기능(추출 / 설치 / 전송 / 기기 이전 / 백업):",
+          "file": "파일 형식(APK / XAPK / APKS)과 해당 앱:",
+          "what": "어떤 일이 있었는지 순서대로:",
+          "pro": "Pro 구매: 예 / 아니요"
+        },
+        "refundBody": "Apk Extractor는 무료로 설치할 수 있어요. Pro를 구매했는데 기대한 대로 작동하지 않으면 구매 후 7일 안에 메일을 보내 주세요. 환불해 드려요. 어떤 걸 시도해 봤는지도 알려 주시면 다음 분을 위해 고치는 데 도움이 돼요."
+      },
+      "press": {
+        "description": "앱을 APK와 XAPK 파일로 추출하고, 백업하고, 설치하고, 새 휴대폰으로 옮겨 주는 Android 앱 Apk Extractor 관련 기사를 쓸 때 필요한 정보, 자료, 소개 문구.",
+        "boilerplate": "Apk Extractor는 Android용 APK 추출기이자 앱 백업 도구, APK·XAPK 설치 도구, 앱 관리자입니다. 설치된 앱을 APK나 XAPK 파일로 추출하고, 버전 기록을 남겨 업데이트를 되돌릴 수 있게 하며, 분할 패키지를 설치하고, 버전과 서명을 비교하고, Wi-Fi로 새 휴대폰에 앱을 옮기고 오프라인으로 공유합니다. 모두 root 없이 작동합니다. 독립 스튜디오 DappleByte가 만들었습니다.",
+        "priceValue": "무료로 설치할 수 있고 광고가 있어요. 추출, 앱 관리, 버전 비교, Wi-Fi 공유, 일정 개수까지의 자동 백업, 새 휴대폰으로 앱 5개까지 이전하기는 무료이고, 광고 제거, 일괄 설치, 웹 전송, 무제한 자동 백업, 무제한 기기 이전은 Pro를 한 번 구매하면 열려요. 구독은 없어요. 현재 가격은 Google Play에서 확인할 수 있어요.",
+        "assetScreenshots": "스크린샷, PNG, 영어(세로 1620 × 2880)"
+      },
+      "videosDescription": "실제 휴대폰에서 Apk Extractor를 보여 주는 짧은 영상: 앱 추출하기, XAPK 설치하기, 새 휴대폰으로 앱 옮기기, 이전 버전으로 되돌리기.",
+      "privacyDescription": "Android용 Apk Extractor 앱이 데이터를 어떻게 다루는지: 계정 없음, 저희 서버 없음, 앱 목록과 APK 파일은 기기 안에만 보관, 전송은 로컬 네트워크 안에서만 진행, 선택 사항인 ‘사용 정보 접근’ 권한을 쓰는 목적, 통계와 광고 서비스가 수집하는 항목.",
+      "compare": {
+        "description": "Android용 다른 APK 추출·앱 백업 앱과 Apk Extractor를 기능별로 비교했어요. 사실만 담았어요.",
+        "vsDescription": "Android에서 {name} vs {other} 기능별 비교: APK 추출, XAPK 설치, 일괄 설치, 버전 기록, 새 휴대폰으로 이전, Wi-Fi 전송, root, 광고, 가격.",
+        "vsIntro": "둘 다 Android에서 설치된 앱을 APK 파일로 추출해요. 어디가 다른지 기능별로 정리했어요."
       }
     }
   }

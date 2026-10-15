@@ -1,0 +1,143 @@
+{
+  "slug": "apk-extractor",
+  "locale": "zh-cn",
+  "title": "Apk Extractor",
+  "shortDescription": "版本历史一键回退旧版，安装 XAPK 与 Split APK 安装包，换机迁移到新手机，Wi-Fi 与网页传输，离线分享应用，免 Root。",
+  "tagline": "提取 APK、备份应用、安装 APK/XAPK，一个工具全搞定",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "提取 APK、备份应用、安装 APK/XAPK，一个工具全搞定",
+      "paragraphs": [
+        "APK Extractor & App Manager 是一款轻巧快速的 APK 提取器、应用备份工具、APK/XAPK 安装器、应用管理器和 APK 分析器。把已安装的应用提取为 APK 文件、保留版本历史以便更新出问题时回退旧版、安装 Split APK（XAPK）安装包、把应用搬到新手机，还能离线分享应用——全程免 Root。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "恢复出厂设置或换新手机前，先备份应用",
+      "paragraphs": [],
+      "bullets": [
+        "不用联网、不用应用商店，直接离线把应用分享给朋友",
+        "把应用迁移到新手机，或在恢复出厂设置前先备份",
+        "在应用更新前，先留一份当前版本的 APK",
+        "保存已从商店下架、再也找不到的应用"
+      ]
+    },
+    {
+      "id": "extract",
+      "title": "APK 提取器 & 应用备份",
+      "paragraphs": [],
+      "bullets": [
+        "从用户应用和系统应用中提取 APK 文件",
+        "一次批量备份多个应用，无需 Root 权限",
+        "在内部或外部存储上自定义导出文件夹"
+      ]
+    },
+    {
+      "id": "version-history",
+      "title": "版本历史、自动备份与降级回退",
+      "paragraphs": [],
+      "bullets": [
+        "自动备份：监控你指定的应用，每次更新都自动留一份 APK",
+        "自定义每个应用保留几个版本——全部只存在你自己的设备上",
+        "重新安装旧版本，回退你不想要的更新"
+      ]
+    },
+    {
+      "id": "installer",
+      "title": "APK 安装器、XAPK 安装器与批量安装",
+      "paragraphs": [],
+      "bullets": [
+        "通过 Android 软件包安装程序安装 APK 文件",
+        "安装由基础 APK 和 Split APK 组成的 XAPK 安装包",
+        "批量安装：把多个 APK 或 XAPK 加入队列，一次装完",
+        "安装失败会直接说明原因——ABI 不兼容、系统版本过低、空间不足"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "换机助手：把应用迁移到新手机",
+      "paragraphs": [],
+      "bullets": [
+        "通过 Wi-Fi 把旧手机的应用清单和 APK/XAPK 安装包一起发给新手机",
+        "新手机先比对已经装了什么，再把其余的排成一个队列一次装回",
+        "自动标出版本已有、签名不同和跑不了的应用",
+        "从商店装的应用，一键直达对应的商店页面"
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "版本比对与签名检查",
+      "paragraphs": [],
+      "bullets": [
+        "把 APK 文件和设备上已安装的版本直接比对",
+        "看清签名是否一致，或来自不同的发布者",
+        "安装前先发现新增或移除了哪些权限"
+      ]
+    },
+    {
+      "id": "manager",
+      "title": "强大的应用管理器",
+      "paragraphs": [],
+      "bullets": [
+        "以列表或网格浏览用户应用和系统应用",
+        "按应用名或包名搜索",
+        "启动应用、打开系统应用详情、跳转商店页面或卸载"
+      ]
+    },
+    {
+      "id": "analyzer",
+      "title": "APK 分析器 & 应用信息",
+      "paragraphs": [],
+      "bullets": [
+        "包名、版本名、版本号、最低 SDK 与目标 SDK",
+        "应用大小、APK 路径、安装来源、安装时间与更新时间",
+        "签名证书，以及 MD5、SHA-1、SHA-256 与 CRC32 校验值"
+      ]
+    },
+    {
+      "id": "stats",
+      "title": "应用统计与设备健康度",
+      "paragraphs": [],
+      "bullets": [
+        "对比用户应用与系统应用的数量、总大小与平均大小",
+        "找出最大、最旧与最近更新的应用",
+        "了解哪些应用申请了位置、相机、麦克风或通讯录权限"
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "应用分享、Wi-Fi 传输与网页传输",
+      "paragraphs": [],
+      "bullets": [
+        "通过分享菜单发送应用和 APK 文件——支持 Quick Share、蓝牙、邮件",
+        "同一 Wi-Fi 内的设备直接互传应用，无需连接互联网",
+        "网页传输：在浏览器打开网址或扫描 QR Code，在手机与电脑之间互传应用"
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "导出路径、命名规则与 ZIP 压缩",
+      "paragraphs": [
+        "导出文件夹、APK 命名格式、ZIP 压缩级别、扫描范围、分享方式、语言与深色模式，都能按你的使用习惯调整。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "隐私优先，无需 Root",
+      "paragraphs": [
+        "APK 提取、应用备份与应用管理都不需要 Root 权限。「使用情况访问」为可选权限，仅用于缓存与未使用应用分析。自动备份、批量安装、网页传输、去广告，以及换机助手超过前 5 个应用的部分，属于一次性买断的 Pro 内购。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "想保存 APK 文件的 APK 提取器、换机前的应用备份工具、装 Split APK 的 XAPK 安装器——下载 APK Extractor & App Manager，全面掌控你的 Android 应用。",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

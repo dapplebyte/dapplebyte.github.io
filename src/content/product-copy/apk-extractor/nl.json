@@ -1,0 +1,143 @@
+{
+  "slug": "apk-extractor",
+  "locale": "nl",
+  "title": "Apk Extractor",
+  "shortDescription": "App-back-up, versiegeschiedenis, XAPK-installer, apps overzetten. Zonder root.",
+  "tagline": "APK-bestanden uitpakken, apps back-uppen en APK/XAPK installeren — alles in één toolkit",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "APK-bestanden uitpakken, apps back-uppen en APK/XAPK installeren — alles in één toolkit",
+      "paragraphs": [
+        "APK Extractor & App Manager is een snelle, lichte APK-extractor, app-back-uptool, APK/XAPK-installer, appbeheerder en APK-analyzer. Pak geïnstalleerde apps uit als APK-bestand, houd versiegeschiedenis bij om een mislukte update terug te draaien, installeer split APK (XAPK), zet je apps over naar een nieuwe telefoon en deel apps offline — zonder root."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Apps back-uppen vóór een reset of een nieuwe telefoon",
+      "paragraphs": [],
+      "bullets": [
+        "Apps offline met vrienden delen — zonder internet of appwinkel",
+        "Apps overzetten naar een nieuwe telefoon of back-up vóór een reset",
+        "De APK van de huidige versie bewaren vóór een app-update",
+        "Apps bewaren die niet meer in de appwinkel staan"
+      ]
+    },
+    {
+      "id": "extract",
+      "title": "APK-extractor & app-back-up",
+      "paragraphs": [],
+      "bullets": [
+        "APK-bestanden uitpakken uit gebruikers-apps en systeem-apps",
+        "Veel apps tegelijk back-uppen, zonder root-toegang",
+        "Een eigen exportmap kiezen op interne of externe opslag"
+      ]
+    },
+    {
+      "id": "version-history",
+      "title": "Versiegeschiedenis, automatische back-up & downgrade",
+      "paragraphs": [],
+      "bullets": [
+        "Automatische back-up: volg gekozen apps en bewaar elke nieuwe versie als APK",
+        "Instellen hoeveel versies per app blijven — alles op je toestel",
+        "Een oudere versie herinstalleren en een ongewenste update terugdraaien"
+      ]
+    },
+    {
+      "id": "installer",
+      "title": "APK-installer, XAPK-installer & batch-installatie",
+      "paragraphs": [],
+      "bullets": [
+        "APK-bestanden installeren met de Android-pakketinstaller",
+        "XAPK-pakketten installeren met een basis-APK en split APK-bestanden",
+        "Batch-installatie: meerdere APK- of XAPK-bestanden in één keer uitvoeren",
+        "Duidelijke reden als installeren mislukt — incompatibele ABI, min API, weinig ruimte"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Apparaatmigratie: apps overzetten naar een nieuwe telefoon",
+      "paragraphs": [],
+      "bullets": [
+        "Stuur de applijst — en de APK/XAPK-bestanden zelf — via wifi van je oude naar je nieuwe telefoon",
+        "De nieuwe telefoon kijkt wat er al staat en installeert de rest in één wachtrij",
+        "Meldt versies die je al hebt, andere handtekeningen en apps die niet werken",
+        "Apps uit de winkel krijgen een link naar hun winkelpagina"
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "Versies vergelijken & handtekening controleren",
+      "paragraphs": [],
+      "bullets": [
+        "Een APK-bestand vergelijken met de geïnstalleerde versie",
+        "Zien of handtekeningen overeenkomen of van een andere uitgever komen",
+        "Toegevoegde of verwijderde rechten opmerken voordat je installeert"
+      ]
+    },
+    {
+      "id": "manager",
+      "title": "Krachtige appbeheerder",
+      "paragraphs": [],
+      "bullets": [
+        "Gebruikers-apps en systeem-apps bekijken in lijst of raster",
+        "Zoeken op appnaam of pakketnaam",
+        "Apps starten, app-info openen, winkelpagina bezoeken of verwijderen"
+      ]
+    },
+    {
+      "id": "analyzer",
+      "title": "APK-analyzer & app-info",
+      "paragraphs": [],
+      "bullets": [
+        "Pakketnaam, versienaam, versiecode, min SDK en target SDK",
+        "Appgrootte, APK-pad, installatiebron, installatietijd en updatetijd",
+        "Handtekeningcertificaat plus MD5-, SHA-1-, SHA-256- en CRC32-controlesommen"
+      ]
+    },
+    {
+      "id": "stats",
+      "title": "App-statistieken & toestelinzicht",
+      "paragraphs": [],
+      "bullets": [
+        "Gebruikers- en systeem-apps vergelijken op aantal, totale en gemiddelde grootte",
+        "De grootste, oudste en laatst bijgewerkte apps vinden",
+        "Zien welke apps locatie, camera, microfoon of contacten opvragen"
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "Apps delen, wifi-overdracht & weboverdracht",
+      "paragraphs": [],
+      "bullets": [
+        "Apps en APK-bestanden versturen via het deelmenu — Quick Share, Bluetooth, e-mail",
+        "Apps tussen toestellen overzetten via hetzelfde Wi-Fi, zonder internet",
+        "Weboverdracht: open een adres of scan een QR Code in de browser om apps tussen telefoon en pc te zetten"
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Exportpad, regels voor bestandsnamen & ZIP-compressie",
+      "paragraphs": [
+        "Stel exportmap, APK-naamregels, ZIP-compressie, scanbereik, deelmodus, taal en donkere modus in zoals jij werkt."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy voorop, geen root nodig",
+      "paragraphs": [
+        "APK uitpakken, back-uppen en apps beheren werkt zonder root. Optionele toegang tot gebruiksgegevens dient alleen voor cache en ongebruikte apps. Automatische back-up, batch-installatie, weboverdracht, advertentievrij en migratie vanaf de 6e app horen bij de eenmalige Pro-aankoop."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Een APK-extractor om APK-bestanden te bewaren, back-uptool bij een nieuwe telefoon, XAPK-installer voor split APK's — download APK Extractor & App Manager en houd je apps in eigen hand.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

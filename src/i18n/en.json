@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Independent Android apps",
-    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls; Relaypad, a Remote Play controller and console streaming app for PS5 and PS4; WhenDo, an AI automation and auto clicker app; JoyLink, which turns a phone into a Bluetooth gamepad, touchpad and TV remote; and Gamepad Tester Pro, which checks a controller for stick drift, input lag and dead buttons.",
+    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls; Relaypad, a Remote Play controller and console streaming app for PS5 and PS4; WhenDo, an AI automation and auto clicker app; JoyLink, which turns a phone into a Bluetooth gamepad, touchpad and TV remote; and Gamepad Tester Pro, which checks a controller for stick drift, input lag and dead buttons. DappleByte also makes Apk Extractor, an APK extractor, app backup tool and XAPK installer that moves apps to a new phone.",
     "appsHeading": "Apps",
     "principlesHeading": "How we work",
     "principles": [
@@ -78,7 +78,7 @@
     "whatBody": "DappleByte is an independent studio building Android apps. One developer, a small number of apps, each one meant to do a specific job well and then stay out of the way.",
     "howHeading": "How we work",
     "openSourceHeading": "Source code",
-    "openSourceBody": "Where an app's source code is published, the link is on that app's page and in its press kit. Relaypad is published under the AGPL-3.0.",
+    "openSourceBody": "Where an app's source code is published, the link is on that app's page and in its press kit. Relaypad is published under the AGPL-3.0. Apk Extractor is published under the GPL-3.0.",
     "contactHeading": "Contact",
     "contactBody": "Studio, press and partnerships: {email}. Support for a specific app goes to the address on that app's support page, so it reaches the right inbox with the right context.",
     "trademarksHeading": "Trademarks",
@@ -221,7 +221,13 @@
       "test-history": "Test history and drift trends per controller",
       "led-test": "Light bar test (PlayStation over Bluetooth)",
       "motion-test": "Gyroscope and accelerometer test",
-      "touchpad-test": "Touchpad test"
+      "touchpad-test": "Touchpad test",
+      "extract-apk": "Extracts installed apps to APK files",
+      "xapk-install": "Installs XAPK and split APK packages",
+      "batch-install": "Batch install queue",
+      "version-history": "Version history with rollback to an older version",
+      "device-migration": "Moves apps to a new phone over Wi-Fi",
+      "wifi-transfer": "Transfers apps between devices over Wi-Fi or a browser"
     },
     "values": {
       "yes": "Yes",
@@ -593,6 +599,45 @@
         "description": "How Gamepad Tester Pro compares with other controller tester apps on Android, feature by feature, facts only.",
         "vsDescription": "{name} and {other} compared on Android, feature by feature: button test, stick drift analysis, polling rate, vibration, health report, ads and pricing.",
         "vsIntro": "Both test a game controller on an Android phone. Here is where they differ, feature by feature."
+      }
+    },
+    "apk-extractor": {
+      "kicker": "APK backup · XAPK installer · New phone",
+      "heroPoints": [
+        "Extracts any installed app to an APK or XAPK file, backs up many at once and keeps a version history so a bad update can be rolled back, no root",
+        "Installs APK and XAPK packages, compares a file with the installed version and checks signatures and permissions before you install",
+        "Moves your apps to a new phone over Wi-Fi and shares them offline. Free to install; ad removal, batch install, web transfer and unlimited migration are a one-time Pro purchase"
+      ],
+      "faqDescription": "Answers about Apk Extractor: where extracted files go, APK versus XAPK, installing split packages, failed installs, Wi-Fi and web transfer, auto backup and version history, app details, Pro and ads, and privacy.",
+      "faqNotFoundBody": "Write to us with your phone model, Android version and what happened. A person reads every message.",
+      "support": {
+        "beforeItems": [
+          "Open the FAQ. Export folders, XAPK installs, failed installs, transfers and restoring Pro are answered there, with the same wording as in the app.",
+          "For a failed install, note the reason the app shows: incompatible ABI, minimum Android version, low storage or a different signature. That is usually the whole answer.",
+          "For a transfer or migration problem, check that both devices are on the same Wi-Fi network and note which step stopped. The app's Send feedback option fills in the app version, device model and Android version for you."
+        ],
+        "template": {
+          "phone": "Phone model:",
+          "android": "Android version:",
+          "feature": "Feature (extract / install / transfer / migration / backup):",
+          "file": "File type (APK / XAPK / APKS) and the app involved:",
+          "what": "What happened, step by step:",
+          "pro": "Pro purchase: yes / no"
+        },
+        "refundBody": "Apk Extractor is free to install. If you bought Pro and it doesn't do what you expected, email us within 7 days of the purchase and we'll refund it. Tell us what you tried; it helps us fix it for the next person."
+      },
+      "press": {
+        "description": "Facts, assets and a boilerplate for writing about Apk Extractor, the Android app that extracts, backs up, installs and moves apps as APK and XAPK files.",
+        "boilerplate": "Apk Extractor is an APK extractor, app backup tool, APK and XAPK installer and app manager for Android. It extracts installed apps to APK or XAPK files, keeps a version history so an update can be rolled back, installs split packages, compares versions and signatures, moves apps to a new phone over Wi-Fi and shares them offline, all without root. It is made by DappleByte, an independent studio.",
+        "priceValue": "Free to install, with ads. Extracting, app management, version compare, Wi-Fi sharing, auto backup for a limited number of apps and moving up to 5 apps to a new phone are free; removing the ads, batch install, web transfer, unlimited auto backup and unlimited migration are unlocked with a one-time Pro purchase. There is no subscription. The current price is shown on Google Play.",
+        "assetScreenshots": "Screenshots, 1620 × 2880 PNG, English"
+      },
+      "videosDescription": "Short videos showing Apk Extractor on a real phone: extracting an app, installing an XAPK, moving apps to a new phone and going back to an older version.",
+      "privacyDescription": "What Apk Extractor for Android does with your data: no account, no server of ours, app lists and APK files that stay on your device, transfers that run over your local network, what the optional Usage Access permission is for, and what the analytics and advertising services collect.",
+      "compare": {
+        "description": "How Apk Extractor compares with other APK extractor and app backup apps for Android, feature by feature, facts only.",
+        "vsDescription": "{name} and {other} compared on Android, feature by feature: APK extraction, XAPK installing, batch install, version history, moving apps to a new phone, Wi-Fi transfer, root, ads and pricing.",
+        "vsIntro": "Both extract installed apps as APK files on Android. Here is where they differ, feature by feature."
       }
     }
   }

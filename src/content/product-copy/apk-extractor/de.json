@@ -1,0 +1,143 @@
+{
+  "slug": "apk-extractor",
+  "locale": "de",
+  "title": "Apk Extractor",
+  "shortDescription": "App-Backup, Versionsverlauf, XAPK-Installer, Umzug aufs neue Handy. Ohne Root.",
+  "tagline": "APK-Dateien extrahieren, Apps sichern und APK/XAPK installieren — alles in einem Toolkit",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "APK-Dateien extrahieren, Apps sichern und APK/XAPK installieren — alles in einem Toolkit",
+      "paragraphs": [
+        "APK Extractor & App Manager ist ein schneller, leichter APK Extractor, App-Backup-Tool, APK/XAPK-Installer, App-Manager und APK-Analyzer. Extrahiere installierte Apps als APK-Dateien, nutze den Versionsverlauf, um ein schlechtes Update zurückzunehmen, installiere Split APK (XAPK), übertrage deine Apps aufs neue Handy und teile Apps offline — ohne Root."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Apps vor Werksreset oder Handywechsel sichern",
+      "paragraphs": [],
+      "bullets": [
+        "Apps offline mit Freunden teilen — ohne Internet oder App-Store",
+        "Apps aufs neue Handy übertragen oder vor dem Werksreset sichern",
+        "Die APK der aktuellen Version behalten, bevor die App aktualisiert wird",
+        "Apps aufbewahren, die es im App-Store nicht mehr gibt"
+      ]
+    },
+    {
+      "id": "extract",
+      "title": "APK Extractor & App-Backup",
+      "paragraphs": [],
+      "bullets": [
+        "APK-Dateien aus Nutzer-Apps und System-Apps extrahieren",
+        "Viele Apps auf einmal sichern, ohne Root-Zugriff",
+        "Eigenen Exportordner auf internem oder externem Speicher wählen"
+      ]
+    },
+    {
+      "id": "version-history",
+      "title": "Versionsverlauf, Auto-Backup & Downgrade",
+      "paragraphs": [],
+      "bullets": [
+        "Auto-Backup: gewählte Apps überwachen, jede neue Version als APK behalten",
+        "Festlegen, wie viele Versionen pro App bleiben — alles auf deinem Gerät",
+        "Ältere Version neu installieren und ein ungewolltes Update zurücknehmen"
+      ]
+    },
+    {
+      "id": "installer",
+      "title": "APK-Installer, XAPK-Installer & Stapelinstallation",
+      "paragraphs": [],
+      "bullets": [
+        "APK-Dateien mit dem Android-Paketinstaller installieren",
+        "XAPK-Pakete aus Basis-APK und Split-APK-Dateien installieren",
+        "Stapelinstallation: mehrere APK- oder XAPK-Dateien einreihen und in einem Rutsch abarbeiten",
+        "Klare Gründe bei Fehlschlägen — inkompatible ABI, min API, wenig Speicher"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Geräteumzug: Apps aufs neue Handy übertragen",
+      "paragraphs": [],
+      "bullets": [
+        "App-Liste samt APK/XAPK-Dateien per WLAN vom alten aufs neue Handy senden",
+        "Das neue Handy prüft, was schon da ist, und installiert alles in einer Warteschlange",
+        "Weist auf vorhandene Versionen, andere Signaturen und nicht lauffähige Apps hin",
+        "Store-Apps bekommen einen Ein-Tipp-Link zur Store-Seite"
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "Versionsvergleich & Signaturprüfung",
+      "paragraphs": [],
+      "bullets": [
+        "APK-Datei mit der bereits installierten Version vergleichen",
+        "Sehen, ob Signaturen übereinstimmen oder von einem anderen Herausgeber stammen",
+        "Hinzugefügte oder entfernte Berechtigungen vor der Installation erkennen"
+      ]
+    },
+    {
+      "id": "manager",
+      "title": "Leistungsstarker App-Manager",
+      "paragraphs": [],
+      "bullets": [
+        "Nutzer- und System-Apps in Liste oder Raster durchstöbern",
+        "Nach App-Name oder Paketname suchen",
+        "Apps starten, System-App-Info öffnen, Store-Seite besuchen oder deinstallieren"
+      ]
+    },
+    {
+      "id": "analyzer",
+      "title": "APK-Analyzer & App-Info",
+      "paragraphs": [],
+      "bullets": [
+        "Paketname, Versionsname, Versionscode, min SDK und target SDK",
+        "App-Größe, APK-Pfad, Installationsquelle, Installations- und Update-Zeit",
+        "Signaturzertifikat plus MD5-, SHA-1-, SHA-256- und CRC32-Prüfsummen"
+      ]
+    },
+    {
+      "id": "stats",
+      "title": "App-Statistiken & Geräte-Einblicke",
+      "paragraphs": [],
+      "bullets": [
+        "Nutzer- und System-Apps nach Anzahl, Gesamt- und Durchschnittsgröße vergleichen",
+        "Die größten, ältesten und zuletzt aktualisierten Apps finden",
+        "Sehen, welche Apps Standort, Kamera, Mikrofon oder Kontakte anfordern"
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "Apps teilen, WLAN-Übertragung & Web-Transfer",
+      "paragraphs": [],
+      "bullets": [
+        "Apps und APK-Dateien per Teilen-Menü senden — Quick Share, Bluetooth, E-Mail",
+        "Apps im selben WLAN zwischen Geräten übertragen, ohne Internet",
+        "Web-Transfer: Adresse oder QR Code im Browser öffnen und Apps zwischen Handy und PC bewegen"
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Exportpfad, Dateinamen-Regeln & ZIP-Komprimierung",
+      "paragraphs": [
+        "Passe Exportordner, APK-Namensregeln, ZIP-Komprimierung, Scanbereich, Freigabemodus, Sprache und Dark Mode an deinen Workflow an."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privatsphäre zuerst, kein Root nötig",
+      "paragraphs": [
+        "APK-Extraktion, Backup und App-Verwaltung brauchen kein Root. Der optionale Nutzungszugriff dient nur Cache- und Nutzungsanalysen. Auto-Backup, Stapelinstallation, Web-Transfer, Werbefreiheit und der Geräteumzug ab der 6. App gehören zum einmaligen Pro-Kauf."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Ein APK Extractor zum Sichern von APK-Dateien, Backup-Tool für den Handywechsel, XAPK-Installer für Split APKs — hol dir APK Extractor & App Manager und behalte die Kontrolle über deine Apps.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

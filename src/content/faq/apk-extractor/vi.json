@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "vi",
+  "title": "Trợ giúp & Câu hỏi thường gặp",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Cơ bản & trích xuất",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Ứng dụng này làm được những gì?",
+          "a": [
+            "Nó trích xuất các ứng dụng đã cài trên máy thành tệp APK, XAPK hoặc APKS để bạn sao lưu, chia sẻ hay cài lại sau này. Ngoài ra nó còn quản lý các gói cài đặt đã có sẵn trong máy."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Tệp trích xuất được lưu ở đâu, có đổi được không?",
+          "a": [
+            "Tệp được lưu vào thư mục xuất hiển thị trong phần cài đặt. Mở Cài đặt → Đường dẫn xuất để chọn thư mục bất kỳ, kể cả thư mục trên thẻ SD."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "APK, XAPK và APKS khác nhau thế nào?",
+          "a": [
+            "APK là một tệp cài đặt duy nhất. XAPK và APKS là gói lưu trữ chứa thêm các gói split của ứng dụng (ngôn ngữ, mật độ màn hình, kiến trúc CPU) cùng dữ liệu OBB. Dùng APK cho ứng dụng thông thường và XAPK/APKS cho ứng dụng phát hành dưới dạng App Bundle."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Vì sao có ứng dụng lại xuất ra XAPK thay vì APK?",
+          "a": [
+            "Ứng dụng đó được phát hành dưới dạng App Bundle nên hệ thống cài nó thành nhiều gói split. Một tệp APK đơn lẻ sẽ bị thiếu, vì vậy mọi split được đóng chung vào một tệp XAPK."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Tôi có tự đặt tên tệp xuất ra được không?",
+          "a": [
+            "Được. Cài đặt → Quy tắc xuất cho phép kết hợp tên ứng dụng, tên gói, tên phiên bản và mã phiên bản. Phần còn lại của tên do Cài đặt → Phần mở rộng tệp nén và Dấu phân cách tên gói quyết định."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Vì sao vài ứng dụng không hiện trong danh sách?",
+          "a": [
+            "Ứng dụng hệ thống được ẩn mặc định. Mở Cài đặt → Phạm vi gói rồi bật ứng dụng hệ thống để hiển thị chúng."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Cài đặt ứng dụng",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "Cài tệp XAPK hoặc APKS như thế nào?",
+          "a": [
+            "Mở tab APK, chạm vào tệp rồi chọn Cài đặt. Ứng dụng dùng session installer của hệ thống và tự chọn các split phù hợp với máy bạn."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "Máy yêu cầu cho phép cài ứng dụng không rõ nguồn gốc, phải làm sao?",
+          "a": [
+            "Android bắt buộc phải cấp quyền rõ ràng trước khi một ứng dụng có thể cài gói. Chạm vào phần cài đặt trong hộp thoại, bật “Cho phép từ nguồn này”, rồi quay lại và thử lại."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Tôi cài nhiều gói cùng lúc được không?",
+          "a": [
+            "Được. Chọn nhiều tệp trong tab APK rồi thêm vào hàng đợi cài đặt, chúng sẽ được cài lần lượt. Cài hàng loạt là tính năng Pro."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Vì sao cài đặt thất bại?",
+          "a": [
+            "Nguyên nhân thường gặp là chữ ký khác với ứng dụng đang cài, phiên bản cũ hơn bản đã cài, thiếu split cho kiến trúc CPU của máy, hoặc không đủ dung lượng trống. Gỡ ứng dụng cũ trước sẽ giải quyết được hầu hết trường hợp."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Chia sẻ & truyền tệp",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "Làm sao gửi một ứng dụng cho bạn bè?",
+          "a": [
+            "Chọn ứng dụng rồi chọn Chia sẻ. Cài đặt → Chế độ chia sẻ quyết định chia sẻ thẳng tệp gốc hay trích xuất trước rồi mới gửi."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Truyền qua web hoạt động ra sao?",
+          "a": [
+            "Mở Truyền qua web từ menu bên, giữ hai thiết bị trong cùng mạng Wi-Fi, rồi nhập địa chỉ hiện trên màn hình vào trình duyệt máy tính hoặc quét mã QR. Cổng có thể đổi trong Cài đặt → Số cổng. Truyền qua web là tính năng Pro."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Làm sao nhận tệp APK từ điện thoại khác?",
+          "a": [
+            "Mở Nhận APK từ menu bên rồi để máy kia gửi sang thiết bị này qua mạng nội bộ. Cài đặt → Tên thiết bị đổi tên máy bạn khi hiển thị, và bạn có thể dùng điểm phát sóng khi không có Wi-Fi."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "Không kết nối truyền được, cần kiểm tra gì?",
+          "a": [
+            "Hãy chắc chắn hai thiết bị cùng mạng Wi-Fi và không bị AP isolation hay VPN chặn. Nếu cổng đang bị chiếm, hãy đổi cổng trong phần cài đặt, hoặc bật điểm phát sóng trên một máy rồi cho máy kia kết nối vào."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Sao lưu & lịch sử phiên bản",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "Sao lưu tự động là gì và tốn bao nhiêu dung lượng?",
+          "a": [
+            "Sao lưu tự động giữ lại một bản APK của ứng dụng mỗi lần nó cập nhật, để sau này bạn quay về phiên bản cũ được. Mỗi phiên bản giữ lại chiếm dung lượng xấp xỉ chính ứng dụng đó, nên hãy xóa những bản ghi không cần nữa trong Lịch sử phiên bản."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Làm sao chọn ứng dụng nào được sao lưu?",
+          "a": [
+            "Mở Lịch sử phiên bản → menu → Chọn ứng dụng cần sao lưu rồi tích những ứng dụng bạn muốn theo dõi. Bản miễn phí sao lưu tự động được số lượng ứng dụng có hạn; bản Pro gỡ bỏ giới hạn đó."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Làm sao quay về phiên bản cũ?",
+          "a": [
+            "Mở Lịch sử phiên bản, chọn ứng dụng, chọn phiên bản bạn muốn rồi chạm Cài đặt. Android không cho hạ cấp đè lên ứng dụng đang có, nên phải gỡ phiên bản hiện tại trước — dữ liệu của nó sẽ bị xóa."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "So sánh phiên bản cho biết những gì?",
+          "a": [
+            "Nó đối chiếu một gói cài đặt với phiên bản đang cài trên máy: tên và mã phiên bản, kích thước tệp, target SDK, chữ ký có khớp không, quyền được thêm và bị bỏ, cùng các thay đổi về thành phần. Đây là cách nhanh nhất để kiểm tra tệp tải về có phải bản gốc hay không."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Chi tiết & phân tích",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "Trang chi tiết ứng dụng và phân tích có những gì?",
+          "a": [
+            "Chúng hiển thị tên gói, phiên bản, ngày cài và ngày cập nhật, chữ ký, quyền, thành phần, kiến trúc CPU được hỗ trợ và phân tích dung lượng, kèm thống kê trên toàn bộ ứng dụng đã cài."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Vì sao dung lượng khác với trong cài đặt hệ thống?",
+          "a": [
+            "Ứng dụng này hiển thị dung lượng của gói cài đặt. Cài đặt hệ thống cộng thêm dữ liệu người dùng và bộ nhớ đệm nên con số ở đó thường lớn hơn."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro & quảng cáo",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "Mua Pro thì được gì?",
+          "a": [
+            "Pro gỡ toàn bộ quảng cáo, bỏ giới hạn số ứng dụng được sao lưu tự động, đồng thời mở khóa truyền qua web và hàng đợi cài hàng loạt. Đây là khoản mua một lần, không phải thuê bao."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Tôi đổi điện thoại, làm sao lấy lại Pro?",
+          "a": [
+            "Mở Nâng cấp lên Pro rồi chạm Khôi phục giao dịch mua. Đăng nhập bằng đúng tài khoản Google đã dùng để mua, bạn sẽ không bị tính tiền lần nữa."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Tôi đã trả tiền nhưng quảng cáo vẫn hiện.",
+          "a": [
+            "Hãy kiểm tra máy có mạng, chạm Khôi phục giao dịch mua rồi khởi động lại ứng dụng. Google Play có thể cần vài phút để xác nhận thanh toán."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Quyền riêng tư & khác",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "Ứng dụng có tải lên ứng dụng hay dữ liệu của tôi không?",
+          "a": [
+            "Không. Việc trích xuất, sao lưu và truyền tệp đều diễn ra ngay trên máy bạn hoặc trong mạng nội bộ của bạn. Xem chi tiết trong Chính sách quyền riêng tư."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "Đổi ngôn ngữ hoặc dùng chế độ tối bằng cách nào?",
+          "a": [
+            "Cài đặt → Language có hơn hai mươi ngôn ngữ, còn Cài đặt → Chế độ ban đêm cho phép chuyển giữa sáng, tối và theo hệ thống."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "Báo lỗi hoặc góp ý tính năng ở đâu?",
+          "a": [
+            "Dùng nút ở cuối trang này để gửi email cho chúng tôi. Cho biết phiên bản ứng dụng, model điện thoại và phiên bản Android sẽ giúp chúng tôi trả lời nhanh hơn."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

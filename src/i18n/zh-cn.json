@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · 独立工作室的 Android 应用",
-    "description": "DappleByte 是一家做 Android app 的独立工作室，作品有 Gamepad Pro：把手柄变成触屏操作的按键映射工具；Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app；WhenDo：一款 AI 自动化与连点器 app；JoyLink：把手机变成蓝牙手柄、触控板和电视遥控器；还有 Gamepad Tester Pro：检查手柄有没有摇杆漂移、输入延迟和失灵的按键。",
+    "description": "DappleByte 是一家做 Android app 的独立工作室，作品有 Gamepad Pro：把手柄变成触屏操作的按键映射工具；Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app；WhenDo：一款 AI 自动化与连点器 app；JoyLink：把手机变成蓝牙手柄、触控板和电视遥控器；还有 Gamepad Tester Pro：检查手柄有没有摇杆漂移、输入延迟和失灵的按键。DappleByte 还开发了 Apk Extractor：一款 APK 提取、应用备份与 XAPK 安装工具，也能帮你把应用搬到新手机。",
     "appsHeading": "应用",
     "principlesHeading": "我们的做法",
     "principles": [
@@ -78,7 +78,7 @@
     "whatBody": "DappleByte 是一家做 Android app 的独立工作室。一个开发者，几款 app，每一款都只想把一件事做好，其余时候不打扰你。",
     "howHeading": "我们的做法",
     "openSourceHeading": "源代码",
-    "openSourceBody": "公开了源代码的 app，链接会放在该 app 的页面和媒体资料包里。Relaypad 以 AGPL-3.0 公开。",
+    "openSourceBody": "公开了源代码的 app，链接会放在该 app 的页面和媒体资料包里。Relaypad 以 AGPL-3.0 公开。Apk Extractor 以 GPL-3.0 公开。",
     "contactHeading": "联系",
     "contactBody": "工作室事务、媒体与合作：{email}。某个 app 的使用问题，请发到该 app 支持页上的邮箱，这样才能带着完整的背景信息送到对的收件箱。",
     "trademarksHeading": "商标",
@@ -221,7 +221,13 @@
       "test-history": "测试历史与每个手柄的漂移趋势",
       "led-test": "灯条测试（PlayStation 蓝牙连接）",
       "motion-test": "陀螺仪与加速度计测试",
-      "touchpad-test": "触控板测试"
+      "touchpad-test": "触控板测试",
+      "extract-apk": "把已安装的应用提取成 APK 文件",
+      "xapk-install": "安装 XAPK 和 APK 分包",
+      "batch-install": "批量安装队列",
+      "version-history": "版本历史，可退回旧版本",
+      "device-migration": "通过 Wi-Fi 把应用迁移到新手机",
+      "wifi-transfer": "通过 Wi-Fi 或浏览器在设备间传输应用"
     },
     "values": {
       "yes": "是",
@@ -593,6 +599,45 @@
         "description": "在 Android 上逐项对比 Gamepad Tester Pro 与其他手柄测试 app 的功能，只讲事实。",
         "vsDescription": "在 Android 上逐项对比 {name} 与 {other}：按键测试、摇杆漂移分析、轮询率、震动、健康报告、广告与收费方式。",
         "vsIntro": "两者都能在 Android 手机上测试游戏手柄。下面逐项列出它们的不同之处。"
+      }
+    },
+    "apk-extractor": {
+      "kicker": "APK 备份 · XAPK 安装 · 换机",
+      "heroPoints": [
+        "把任意已安装应用提取成 APK 或 XAPK 文件，可一次备份多个，并保留版本历史，更新出问题能退回旧版，免 root",
+        "安装 APK 和 XAPK 安装包，把文件和已安装版本做对比，安装前先核对签名与权限",
+        "通过 Wi-Fi 把应用搬到新手机，也能离线分享。免费安装；去广告、批量安装、网页传输和不限数量的换机，一次性购买 Pro 即可解锁"
+      ],
+      "faqDescription": "关于 Apk Extractor 的常见问题：提取的文件存在哪里、APK 和 XAPK 有什么区别、安装分包、安装失败、Wi-Fi 与网页传输、自动备份与版本历史、应用详情、Pro 与广告，以及隐私。",
+      "faqNotFoundBody": "给我们发邮件，写上手机型号、Android 版本和实际发生的情况。每封邮件都有真人看。",
+      "support": {
+        "beforeItems": [
+          "先看常见问题。导出目录、XAPK 安装、安装失败、传输和恢复 Pro 都在那里有答案，措辞和 app 里一样。",
+          "如果安装失败，记下 app 显示的原因：ABI 不兼容、Android 版本过低、存储空间不足或签名不一致。通常这就是答案了。",
+          "传输或换机出问题时，先确认两台设备连在同一个 Wi-Fi 下，并记下卡在哪一步。通过 app 里的反馈入口发邮件，会自动带上 app 版本、设备型号和 Android 版本。"
+        ],
+        "template": {
+          "phone": "手机型号：",
+          "android": "Android 版本：",
+          "feature": "功能（提取 / 安装 / 传输 / 换机 / 备份）：",
+          "file": "文件类型（APK / XAPK / APKS）及涉及的应用：",
+          "what": "发生了什么（按步骤写）：",
+          "pro": "是否购买 Pro：是 / 否"
+        },
+        "refundBody": "Apk Extractor 可以免费安装。如果你买了 Pro，但它没达到你的预期，购买后 7 天内发邮件给我们，我们会退款。顺便说说你试过哪些办法，能帮我们为下一位用户修好它。"
+      },
+      "press": {
+        "description": "报道 Apk Extractor 所需的资料、素材和标准介绍。Apk Extractor 是一款以 APK 和 XAPK 文件形式提取、备份、安装和迁移应用的 Android app。",
+        "boilerplate": "Apk Extractor 是一款 Android 上的 APK 提取器、应用备份工具、APK 与 XAPK 安装器和应用管理器。它能把已安装的应用提取成 APK 或 XAPK 文件，保留版本历史以便退回更新前的版本，安装分包，对比版本和签名，通过 Wi-Fi 把应用搬到新手机，还能离线分享，全程免 root。它由独立工作室 DappleByte 开发。",
+        "priceValue": "免费安装，含广告。提取、应用管理、版本对比、Wi-Fi 分享、有限数量应用的自动备份，以及最多 5 个应用的换机迁移都免费；去广告、批量安装、网页传输、不限数量的自动备份和不限数量的换机，一次性购买 Pro 即可解锁。没有订阅。当前价格以 Google Play 显示为准。",
+        "assetScreenshots": "截图，PNG，英文（竖屏 1620 × 2880）"
+      },
+      "videosDescription": "在真机上演示 Apk Extractor 的短视频：提取应用、安装 XAPK、把应用搬到新手机，以及退回旧版本。",
+      "privacyDescription": "Android 版 Apk Extractor 如何处理你的数据：无需账号、没有我们自己的服务器、应用列表和 APK 文件都留在你的设备上、传输只走你的局域网、可选的“使用情况访问权限”用来做什么，以及统计分析和广告服务收集哪些信息。",
+      "compare": {
+        "description": "Apk Extractor 与其他 Android APK 提取和应用备份工具的逐项功能对比，只摆事实。",
+        "vsDescription": "{name} 与 {other} 在 Android 上的逐项对比：APK 提取、XAPK 安装、批量安装、版本历史、换机迁移、Wi-Fi 传输、root、广告与价格。",
+        "vsIntro": "两者都能在 Android 上把已安装的应用提取成 APK 文件。下面逐项列出区别。"
       }
     }
   }

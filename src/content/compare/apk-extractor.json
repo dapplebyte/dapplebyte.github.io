@@ -1,0 +1,25 @@
+{
+  "slug": "apk-extractor",
+  "draft": true,
+  "verifiedOn": null,
+  "competitors": [
+    { "id": "ml-manager", "name": "ML Manager", "url": "https://play.google.com/store/apps/details?id=com.javiersantos.mlmanager" },
+    { "id": "apk-extractor-meher", "name": "Apk Extractor (Meher)", "url": "https://play.google.com/store/apps/details?id=com.ext.ui" }
+  ],
+  "rows": [
+    { "id": "platform", "values": { "apk-extractor": "Android 7.0+", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "extract-apk", "values": { "apk-extractor": "yes", "ml-manager": "yes", "apk-extractor-meher": "yes" } },
+    { "id": "xapk-install", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "batch-install", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "version-history", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "device-migration", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "wifi-transfer", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "no-root", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "no-account", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "open-source", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "free-install", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "no-ads", "values": { "apk-extractor": "no", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "no-subscription", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
+    { "id": "pricing-model", "values": { "apk-extractor": "free-with-pro", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "slug": "apk-extractor",
+  "locale": "id",
+  "title": "Apk Extractor",
+  "shortDescription": "Ekstrak APK, cadangan aplikasi, installer XAPK, pindah ke HP baru. Tanpa root.",
+  "tagline": "Ekstrak file APK, cadangkan aplikasi, dan instal APK/XAPK — dalam satu alat",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Ekstrak file APK, cadangkan aplikasi, dan instal APK/XAPK — dalam satu alat",
+      "paragraphs": [
+        "APK Extractor & App Manager adalah ekstraktor APK cepat dan ringan, alat cadangan aplikasi, installer APK/XAPK, pengelola aplikasi, dan penganalisis APK. Ekstrak aplikasi terinstal jadi file APK, simpan riwayat versi untuk kembali dari pembaruan bermasalah, instal paket Split APK (XAPK), pindahkan aplikasi ke ponsel baru, dan bagikan aplikasi offline — tanpa root."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Cadangkan Aplikasi Sebelum Reset atau Ganti Ponsel",
+      "paragraphs": [],
+      "bullets": [
+        "Bagikan aplikasi ke teman offline — tanpa internet atau toko aplikasi",
+        "Pindah ke ponsel baru, atau cadangkan sebelum reset pabrik",
+        "Simpan APK versi saat ini sebelum aplikasi diperbarui",
+        "Simpan aplikasi yang sudah tidak ada di toko"
+      ]
+    },
+    {
+      "id": "extract",
+      "title": "Ekstraktor APK & Cadangan Aplikasi",
+      "paragraphs": [],
+      "bullets": [
+        "Ekstrak file APK dari aplikasi pengguna dan aplikasi sistem",
+        "Cadangkan banyak aplikasi sekaligus, tanpa akses root",
+        "Pilih folder ekspor sendiri di penyimpanan internal atau eksternal"
+      ]
+    },
+    {
+      "id": "version-history",
+      "title": "Riwayat Versi, Cadangan Otomatis & Turun Versi",
+      "paragraphs": [],
+      "bullets": [
+        "Cadangan otomatis: pantau aplikasi pilihan, simpan APK tiap versi baru",
+        "Atur jumlah versi yang disimpan per aplikasi — semua di perangkat Anda",
+        "Pasang ulang versi lama, batalkan pembaruan yang tidak diinginkan"
+      ]
+    },
+    {
+      "id": "installer",
+      "title": "Installer APK, Installer XAPK & Instal Massal",
+      "paragraphs": [],
+      "bullets": [
+        "Instal file APK dengan penginstal paket Android",
+        "Instal paket XAPK berisi APK dasar dan file Split APK",
+        "Instal massal: antrekan beberapa file APK atau XAPK, jalankan sekaligus",
+        "Alasan jelas saat instalasi gagal — ABI tak cocok, API minimum, ruang kurang"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Migrasi Perangkat: Pindah ke Ponsel Baru",
+      "paragraphs": [],
+      "bullets": [
+        "Kirim daftar aplikasi beserta file APK/XAPK-nya dari ponsel lama ke ponsel baru lewat Wi-Fi",
+        "Ponsel baru memeriksa apa yang sudah ada, lalu memasang sisanya dalam satu antrean",
+        "Tandai versi yang sudah ada, tanda tangan berbeda, dan aplikasi yang tak bisa jalan",
+        "Aplikasi dari toko dapat tautan sekali ketuk ke halaman tokonya"
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "Bandingkan Versi & Periksa Tanda Tangan",
+      "paragraphs": [],
+      "bullets": [
+        "Bandingkan file APK dengan versi yang sudah terpasang",
+        "Lihat apakah tanda tangan cocok atau dari penerbit lain",
+        "Kenali izin yang bertambah atau hilang sebelum memasang"
+      ]
+    },
+    {
+      "id": "manager",
+      "title": "Pengelola Aplikasi yang Andal",
+      "paragraphs": [],
+      "bullets": [
+        "Jelajahi aplikasi pengguna dan sistem dalam daftar atau kisi",
+        "Cari berdasarkan nama aplikasi atau nama paket",
+        "Buka aplikasi, lihat info sistem, kunjungi halaman toko, atau uninstal"
+      ]
+    },
+    {
+      "id": "analyzer",
+      "title": "Penganalisis APK & Info Aplikasi",
+      "paragraphs": [],
+      "bullets": [
+        "Nama paket, nama versi, kode versi, SDK minimum, dan SDK target",
+        "Ukuran aplikasi, jalur APK, sumber instalasi, waktu instal dan pembaruan",
+        "Sertifikat tanda tangan plus checksum MD5, SHA-1, SHA-256, dan CRC32"
+      ]
+    },
+    {
+      "id": "stats",
+      "title": "Statistik Aplikasi & Kesehatan Perangkat",
+      "paragraphs": [],
+      "bullets": [
+        "Bandingkan aplikasi pengguna dan sistem: jumlah, total, rata-rata ukuran",
+        "Temukan aplikasi terbesar, tertua, dan paling baru diperbarui",
+        "Lihat aplikasi mana yang meminta lokasi, kamera, mikrofon, atau kontak"
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "Bagikan Aplikasi, Transfer Wi-Fi & Transfer Web",
+      "paragraphs": [],
+      "bullets": [
+        "Kirim aplikasi dan file APK lewat menu berbagi — Quick Share, Bluetooth, email",
+        "Transfer aplikasi antarperangkat di jaringan Wi-Fi yang sama, tanpa internet",
+        "Transfer web: buka alamat atau pindai QR Code di browser untuk memindahkan aplikasi antara ponsel dan komputer"
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Jalur Ekspor, Aturan Penamaan File & Kompresi ZIP",
+      "paragraphs": [
+        "Atur folder ekspor, aturan nama APK, kompresi ZIP, cakupan pemindaian, mode berbagi, bahasa, dan mode gelap sesuai kebutuhan."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privasi Utama, Tanpa Root",
+      "paragraphs": [
+        "Ekstraksi APK, pencadangan, dan pengelolaan aplikasi tanpa perlu root. Izin Akses Penggunaan opsional, hanya untuk analisis cache dan aplikasi jarang dipakai. Cadangan otomatis, instal massal, transfer web, bebas iklan, dan migrasi perangkat di atas 5 aplikasi pertama termasuk dalam pembelian Pro sekali bayar."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Ekstraktor APK untuk menyimpan file APK, alat cadangan saat ganti ponsel, installer XAPK untuk Split APK — unduh APK Extractor & App Manager dan kendalikan aplikasi Anda.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

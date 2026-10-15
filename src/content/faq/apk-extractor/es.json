@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "es",
+  "title": "Ayuda y preguntas frecuentes",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Conceptos básicos y extracción",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "¿Qué hace esta aplicación?",
+          "a": [
+            "Extrae las apps instaladas en tu teléfono a archivos APK, XAPK o APKS para que puedas guardarlas, compartirlas o volver a instalarlas más adelante. También gestiona los paquetes de instalación que ya tienes en el dispositivo."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "¿Dónde se guardan los archivos extraídos y puedo cambiarlo?",
+          "a": [
+            "Los archivos van a la carpeta de exportación que aparece en Ajustes. Abre Ajustes → Ruta de exportación para elegir la carpeta que prefieras, incluida una de la tarjeta SD."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "¿Qué diferencia hay entre APK, XAPK y APKS?",
+          "a": [
+            "Un APK es un único archivo de instalación. XAPK y APKS son archivos comprimidos que además incluyen los paquetes split de una app (idioma, densidad de pantalla, arquitectura de CPU) y sus datos OBB. Usa APK para las apps normales y XAPK/APKS para las publicadas como App Bundle."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "¿Por qué una app se exporta como XAPK en vez de APK?",
+          "a": [
+            "Esa app se publicó como App Bundle, así que el sistema la instaló en varios paquetes split. Un APK suelto quedaría incompleto, por eso todos los splits se empaquetan en un solo archivo XAPK."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "¿Puedo personalizar el nombre del archivo exportado?",
+          "a": [
+            "Sí. Ajustes → Reglas de exportación te deja combinar nombre app, nombre paquete, versión y código versión. Ajustes → Ext. del archivo comprimido y Separador de nombre de paquete controlan el resto del nombre."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "¿Por qué faltan algunas apps en la lista?",
+          "a": [
+            "Las apps del sistema están ocultas por defecto. Abre Ajustes → Ámbito de paquetes y activa las apps del sistema para que aparezcan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Instalación",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "¿Cómo instalo un archivo XAPK o APKS?",
+          "a": [
+            "Abre la pestaña APKs, toca el archivo y elige Instalar. La app usa el instalador por sesión del sistema y escoge automáticamente los splits que le corresponden a tu dispositivo."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "Me pide permiso para instalar apps desconocidas. ¿Y ahora qué?",
+          "a": [
+            "Android exige un permiso explícito antes de que cualquier app pueda instalar paquetes. Toca Ajustes en el aviso, activa «Permitir desde esta fuente», vuelve atrás e inténtalo de nuevo."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "¿Puedo instalar varios paquetes de una vez?",
+          "a": [
+            "Sí. Selecciona varios archivos en la pestaña APKs y añádelos a la cola de instalación; se instalarán uno tras otro. La Instalación por lotes es una función Pro."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "¿Por qué ha fallado una instalación?",
+          "a": [
+            "Los motivos habituales son una firma distinta a la de la app instalada, una versión más antigua que la que ya tienes, splits que no existen para la arquitectura de tu CPU o falta de espacio libre. Desinstalar antes la app anterior resuelve la mayoría de los casos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Compartir y transferir",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "¿Cómo le envío una app a un amigo?",
+          "a": [
+            "Selecciona la app y elige Compartir. Ajustes → Modo de compartir decide si se comparte el archivo original directamente o si se extrae antes."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "¿Cómo funciona la Transferencia web?",
+          "a": [
+            "Abre Transferencia web desde el menú lateral, mantén ambos dispositivos en la misma Wi-Fi y escribe en el navegador del ordenador la dirección que aparece en pantalla, o escanea el código QR. El puerto se cambia en Ajustes → Número de puerto. La Transferencia web es una función Pro."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "¿Cómo recibo archivos APK desde otro teléfono?",
+          "a": [
+            "Abre Recibir APKs desde el menú lateral y deja que el otro teléfono envíe a este dispositivo por la red local. Ajustes → Nombre del dispositivo cambia cómo se ve tu teléfono, y si no hay Wi-Fi puedes tirar de punto de acceso."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "La transferencia no conecta. ¿Qué debo comprobar?",
+          "a": [
+            "Asegúrate de que los dos dispositivos están en la misma Wi-Fi y de que ni el aislamiento de clientes ni una VPN los están bloqueando. Si el puerto ya está ocupado, cámbialo en Ajustes, o activa el punto de acceso en un dispositivo y conecta el otro a él."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Copia de seguridad e historial de versiones",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "¿Qué es la copia automática y cuánto espacio ocupa?",
+          "a": [
+            "La Copia automática guarda una copia del APK de una app cada vez que se actualiza, para que luego puedas volver a una versión anterior. Cada versión guardada ocupa más o menos lo mismo que la propia app, así que borra en el Historial de versiones los registros que ya no necesites."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "¿Cómo elijo de qué apps se hace copia?",
+          "a": [
+            "Abre Historial de versiones → menú → Elegir apps para copiar y marca las que quieras vigilar. La versión gratuita puede hacer copias automáticas de un número limitado de apps; Pro elimina ese límite."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "¿Cómo vuelvo a una versión anterior?",
+          "a": [
+            "Abre el Historial de versiones, elige la app, selecciona la versión que quieras y toca Instalar. Android no permite instalar una versión anterior encima de la que ya está, así que desinstala primero la actual: sus datos se perderán."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "¿Qué muestra Comparar versiones?",
+          "a": [
+            "Compara un paquete de instalación con la versión instalada en tu teléfono: nombre y código de versión, tamaño del archivo, SDK de destino, si la firma coincide, permisos añadidos y eliminados, y cambios en los componentes. Es la forma más rápida de comprobar si un archivo descargado es auténtico."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Detalles y análisis",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "¿Qué hay en las páginas de detalles y análisis de la app?",
+          "a": [
+            "Muestran el nombre del paquete, las versiones, las fechas de instalación y actualización, la firma, los permisos, los componentes, las arquitecturas de CPU compatibles y el desglose del tamaño, además de estadísticas del conjunto de tus apps instaladas."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "¿Por qué el tamaño no coincide con el de los ajustes del sistema?",
+          "a": [
+            "Esta app muestra el tamaño del paquete de instalación. Los ajustes del sistema le suman los datos de usuario y la caché, por eso su cifra suele ser mayor."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro y anuncios",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "¿Qué incluye Pro?",
+          "a": [
+            "Pro elimina todos los anuncios, quita el límite de apps que se pueden copiar automáticamente y desbloquea la Transferencia web y la cola de Instalación por lotes. Es un pago único, no una suscripción."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "He cambiado de teléfono. ¿Cómo recupero Pro?",
+          "a": [
+            "Abre Mejorar a Pro y toca Restaurar compra. Inicia sesión con la misma cuenta de Google con la que compraste; no se te cobrará otra vez."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "He pagado pero siguen saliendo anuncios.",
+          "a": [
+            "Comprueba que el dispositivo tenga conexión, toca Restaurar compra y reinicia la app. Google Play puede tardar unos minutos en confirmar un pago."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Privacidad y otros",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "¿La app sube mis apps o mis datos a algún sitio?",
+          "a": [
+            "No. La extracción, la copia de seguridad y la transferencia ocurren en tu dispositivo o dentro de tu propia red local. Consulta la política de privacidad para más detalles."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "¿Cómo cambio el idioma o uso el modo oscuro?",
+          "a": [
+            "Ajustes → Language ofrece más de veinte idiomas, y Ajustes → Modo nocturno alterna entre activado, desactivado y seguir sistema."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "¿Cómo informo de un problema o propongo una función?",
+          "a": [
+            "Usa el botón que hay al final de esta página para escribirnos. Si nos dices la versión de la app, el modelo del teléfono y la versión de Android, podremos responderte antes."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

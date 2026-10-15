@@ -1,0 +1,232 @@
+{
+  "slug": "apk-extractor",
+  "locale": "id",
+  "title": "Bantuan & FAQ",
+  "sections": [
+    {
+      "id": "basics-extracting",
+      "title": "Dasar & ekstraksi",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Apa saja yang bisa dilakukan aplikasi ini?",
+          "a": [
+            "Aplikasi ini mengekstrak aplikasi yang terpasang di ponsel Anda menjadi file APK, XAPK, atau APKS sehingga bisa Anda cadangkan, bagikan, atau pasang kembali nanti. Aplikasi ini juga mengelola paket pemasangan yang sudah tersimpan di perangkat."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Di mana file hasil ekspor disimpan, dan bisakah diubah?",
+          "a": [
+            "File disimpan ke folder ekspor yang ditampilkan di Pengaturan. Buka Pengaturan → Jalur ekspor untuk memilih folder mana pun yang Anda mau, termasuk di kartu SD."
+          ]
+        },
+        {
+          "id": "q03",
+          "q": "Apa bedanya APK, XAPK, dan APKS?",
+          "a": [
+            "APK adalah satu file pemasangan tunggal. XAPK dan APKS adalah arsip yang juga memuat paket split sebuah aplikasi (bahasa, kepadatan layar, arsitektur CPU) beserta data OBB-nya. Gunakan APK untuk aplikasi biasa dan XAPK/APKS untuk aplikasi yang dirilis sebagai App Bundle."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Kenapa sebuah aplikasi diekspor menjadi XAPK, bukan APK?",
+          "a": [
+            "Aplikasi itu dirilis sebagai App Bundle, sehingga sistem memasangnya dalam beberapa paket split. Satu file APK saja tidak akan lengkap, jadi semua split dikemas menjadi satu file XAPK."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Bisakah saya menyesuaikan nama file hasil ekspor?",
+          "a": [
+            "Bisa. Pengaturan → Aturan ekspor memungkinkan Anda menggabungkan nama aplikasi, nama paket, nama versi, dan kode versi. Pengaturan → Ekstensi file terkompresi dan Pemisah nama paket mengatur sisa penamaannya."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Kenapa ada aplikasi yang tidak muncul di daftar?",
+          "a": [
+            "Aplikasi sistem disembunyikan secara bawaan. Buka Pengaturan → Cakupan paket lalu aktifkan aplikasi sistem agar ikut ditampilkan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installing",
+      "title": "Pemasangan",
+      "entries": [
+        {
+          "id": "q07",
+          "q": "Bagaimana cara memasang file XAPK atau APKS?",
+          "a": [
+            "Buka tab APK, ketuk file-nya, lalu pilih Pasang. Aplikasi memakai session installer bawaan sistem dan otomatis memilih split yang cocok dengan perangkat Anda."
+          ]
+        },
+        {
+          "id": "q08",
+          "q": "Muncul permintaan untuk mengizinkan pemasangan aplikasi tidak dikenal. Lalu bagaimana?",
+          "a": [
+            "Android mewajibkan izin eksplisit sebelum aplikasi mana pun boleh memasang paket. Ketuk Setelan pada permintaan yang muncul, aktifkan “Izinkan dari sumber ini”, lalu kembali dan coba lagi."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Bisakah memasang beberapa paket sekaligus?",
+          "a": [
+            "Bisa. Pilih beberapa file di tab APK lalu tambahkan ke antrean pemasangan; semuanya akan dipasang satu per satu. Instal massal adalah fitur Pro."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Kenapa pemasangan gagal?",
+          "a": [
+            "Penyebab yang paling umum: tanda tangan berbeda dari aplikasi yang sudah terpasang, versinya lebih lama daripada yang terpasang, split untuk arsitektur CPU Anda tidak tersedia, atau ruang penyimpanan tidak cukup. Mencopot aplikasi lama lebih dulu biasanya menyelesaikan masalah."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing-transfer",
+      "title": "Berbagi & transfer",
+      "entries": [
+        {
+          "id": "q11",
+          "q": "Bagaimana cara mengirim aplikasi ke teman?",
+          "a": [
+            "Pilih aplikasinya lalu pilih Bagikan. Pengaturan → Mode berbagi menentukan apakah file asli langsung dibagikan atau diekstrak dulu."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Bagaimana cara kerja Transfer Web?",
+          "a": [
+            "Buka Transfer Web dari menu samping, pastikan kedua perangkat berada di Wi-Fi yang sama, lalu masukkan alamat yang tampil di layar ke browser komputer Anda atau pindai kode QR-nya. Portnya bisa diubah di Pengaturan → Nomor port. Transfer Web adalah fitur Pro."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Bagaimana cara menerima file APK dari ponsel lain?",
+          "a": [
+            "Buka Terima APK dari menu samping, lalu minta ponsel satunya mengirim ke perangkat ini lewat jaringan lokal. Pengaturan → Nama perangkat mengubah cara ponsel Anda ditampilkan, dan hotspot bisa dipakai kalau tidak ada Wi-Fi."
+          ]
+        },
+        {
+          "id": "q14",
+          "q": "Transfernya tidak mau terhubung. Apa yang perlu diperiksa?",
+          "a": [
+            "Pastikan kedua perangkat berada di Wi-Fi yang sama dan tidak terhalang AP isolation atau VPN. Kalau portnya sudah terpakai, ubah di Pengaturan, atau nyalakan hotspot di satu perangkat lalu hubungkan perangkat lainnya ke sana."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-version-history",
+      "title": "Pencadangan & riwayat versi",
+      "entries": [
+        {
+          "id": "q15",
+          "q": "Apa itu cadangan otomatis dan berapa banyak ruang yang dipakai?",
+          "a": [
+            "Cadangan otomatis menyimpan salinan APK sebuah aplikasi setiap kali aplikasi itu diperbarui, jadi Anda bisa kembali ke versi lama nanti. Setiap versi yang disimpan memakan ruang kira-kira sebesar aplikasinya sendiri, jadi hapus catatan yang tidak lagi diperlukan di Riwayat Versi."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Bagaimana cara memilih aplikasi mana yang dicadangkan?",
+          "a": [
+            "Buka Riwayat Versi → menu → Pilih aplikasi untuk dicadangkan lalu centang aplikasi yang ingin Anda pantau. Versi gratis dapat mencadangkan sejumlah aplikasi yang terbatas secara otomatis; Pro menghilangkan batas tersebut."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Bagaimana cara kembali ke versi lama?",
+          "a": [
+            "Buka Riwayat Versi, pilih aplikasinya, tentukan versi yang Anda inginkan, lalu ketuk Pasang. Android tidak mengizinkan penurunan versi di atas aplikasi yang sudah ada, jadi copot dulu versi yang sekarang — datanya akan ikut terhapus."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Apa yang ditampilkan Bandingkan Versi?",
+          "a": [
+            "Fitur ini membandingkan paket pemasangan dengan versi yang terpasang di ponsel Anda: nama dan kode versi, ukuran file, target SDK, cocok atau tidaknya tanda tangan, izin yang ditambahkan dan dihapus, serta perubahan komponen. Ini cara tercepat memastikan file yang Anda unduh asli."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "details-analysis",
+      "title": "Detail & analisis",
+      "entries": [
+        {
+          "id": "q19",
+          "q": "Apa isi halaman detail aplikasi dan analisis?",
+          "a": [
+            "Halaman itu menampilkan nama paket, versi, tanggal pemasangan dan pembaruan, tanda tangan, izin, komponen, arsitektur CPU yang didukung, dan rincian ukuran, ditambah statistik dari seluruh aplikasi yang terpasang."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Kenapa ukurannya berbeda dengan yang ada di pengaturan sistem?",
+          "a": [
+            "Aplikasi ini menampilkan ukuran paket pemasangan. Pengaturan sistem menambahkan data pengguna dan cache di atasnya, jadi angkanya biasanya lebih besar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-ads",
+      "title": "Pro & iklan",
+      "entries": [
+        {
+          "id": "q21",
+          "q": "Apa yang saya dapat dengan Pro?",
+          "a": [
+            "Pro menghilangkan semua iklan, menghapus batas jumlah aplikasi yang dicadangkan secara otomatis, serta membuka Transfer Web dan antrean instal massal. Ini pembelian sekali bayar, bukan langganan."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Saya ganti ponsel. Bagaimana cara mendapatkan Pro kembali?",
+          "a": [
+            "Buka Tingkatkan ke Pro lalu ketuk Pulihkan pembelian. Masuk dengan akun Google yang sama seperti saat membeli; Anda tidak akan ditagih lagi."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Saya sudah membayar tetapi iklan masih muncul.",
+          "a": [
+            "Pastikan perangkat terhubung ke internet, ketuk Pulihkan pembelian, lalu mulai ulang aplikasi. Google Play kadang butuh beberapa menit untuk mengonfirmasi pembayaran."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-other",
+      "title": "Privasi & lainnya",
+      "entries": [
+        {
+          "id": "q24",
+          "q": "Apakah aplikasi ini mengunggah aplikasi atau data saya?",
+          "a": [
+            "Tidak. Proses ekstraksi, pencadangan, dan transfer semuanya berlangsung di perangkat Anda atau di dalam jaringan lokal Anda sendiri. Lihat kebijakan privasi untuk detailnya."
+          ]
+        },
+        {
+          "id": "q25",
+          "q": "Bagaimana cara mengganti bahasa atau memakai mode gelap?",
+          "a": [
+            "Pengaturan → Language menyediakan lebih dari dua puluh bahasa, dan Pengaturan → Mode malam beralih antara terang, gelap, dan ikuti sistem."
+          ]
+        },
+        {
+          "id": "q26",
+          "q": "Bagaimana cara melaporkan masalah atau mengusulkan fitur?",
+          "a": [
+            "Gunakan tombol di bagian bawah halaman ini untuk mengirim email ke kami. Menyertakan versi aplikasi, model ponsel, dan versi Android akan membantu kami menjawab lebih cepat."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

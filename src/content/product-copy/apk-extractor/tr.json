@@ -1,0 +1,143 @@
+{
+  "slug": "apk-extractor",
+  "locale": "tr",
+  "title": "Apk Extractor",
+  "shortDescription": "Uygulama yedekleme, sürüm geçmişi, XAPK yükleyici, yeni telefona taşı. Root yok.",
+  "tagline": "APK dosyalarını çıkarın, uygulamaları yedekleyin, APK/XAPK kurun — hepsi tek araçta",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "APK dosyalarını çıkarın, uygulamaları yedekleyin, APK/XAPK kurun — hepsi tek araçta",
+      "paragraphs": [
+        "APK Extractor & App Manager; hızlı ve hafif bir APK çıkarıcı, yedekleme aracı, APK/XAPK yükleyici, uygulama yöneticisi ve APK analiz aracıdır. Uygulamaları APK olarak çıkarın, sürüm geçmişi tutup kötü güncellemeyi geri alın, Split APK (XAPK) kurun, uygulamalarınızı yeni telefona taşıyın ve çevrimdışı paylaşın — root gerekmez."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Sıfırlama veya Telefon Değişimi Öncesi Uygulama Yedekleme",
+      "paragraphs": [],
+      "bullets": [
+        "Uygulamaları arkadaşlarınızla paylaşın — internet ve mağaza gerekmez",
+        "Uygulamalarınızı yeni telefona taşıyın ya da sıfırlamadan önce yedekleyin",
+        "Uygulama güncellenmeden önce mevcut sürümün APK'sını saklayın",
+        "Mağazadan kaldırılmış uygulamaları elinizde tutun"
+      ]
+    },
+    {
+      "id": "extract",
+      "title": "APK Çıkarıcı ve Uygulama Yedekleme",
+      "paragraphs": [],
+      "bullets": [
+        "Kullanıcı ve sistem uygulamalarından APK çıkarın",
+        "Root olmadan birçok uygulamayı tek seferde toplu yedekleyin",
+        "Dahili veya harici depolamada dışa aktarma klasörü seçin"
+      ]
+    },
+    {
+      "id": "version-history",
+      "title": "Sürüm Geçmişi, Otomatik Yedekleme ve Sürüm Düşürme",
+      "paragraphs": [],
+      "bullets": [
+        "Otomatik yedekleme: seçtiğiniz uygulamaları izler, her sürümün APK'sını saklar",
+        "Kaç sürüm tutulacağını belirleyin — hepsi cihazınızda kalır",
+        "Eski sürümü yeniden kurup istemediğiniz güncellemeyi geri alın"
+      ]
+    },
+    {
+      "id": "installer",
+      "title": "APK Yükleyici, XAPK Yükleyici ve Toplu Kurulum",
+      "paragraphs": [],
+      "bullets": [
+        "APK dosyalarını Android paket yükleyicisiyle kurun",
+        "Temel APK ve Split APK'lardan oluşan XAPK paketlerini kurun",
+        "Toplu kurulum: birden çok APK veya XAPK'yı sıraya alıp tek seferde kurun",
+        "Kurulum başarısız olunca net nedenler — uyumsuz ABI, min API, yetersiz alan"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Yeni Telefona Taşıma: Uygulamaları Yeni Telefona Aktarın",
+      "paragraphs": [],
+      "bullets": [
+        "Uygulama listesini ve APK/XAPK dosyalarını eski telefondan yeniye Wi-Fi ile gönderin",
+        "Yeni telefon nelerin kurulu olduğunu denetler, kalanları tek sırada geri yükler",
+        "Sizde olan sürümleri, farklı imzaları ve çalışmayacak uygulamaları işaretler",
+        "Mağazadan kurulanlar için tek dokunuşla mağaza sayfası bağlantısı"
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "Sürüm Karşılaştırma ve İmza Denetimi",
+      "paragraphs": [],
+      "bullets": [
+        "Bir APK dosyasını kurulu sürümle karşılaştırın",
+        "İmzalar eşleşiyor mu, paket farklı bir yayıncıdan mı görün",
+        "Kurmadan önce eklenen veya kaldırılan izinleri fark edin"
+      ]
+    },
+    {
+      "id": "manager",
+      "title": "Güçlü Uygulama Yöneticisi",
+      "paragraphs": [],
+      "bullets": [
+        "Kullanıcı ve sistem uygulamalarını liste ya da ızgarada gezin",
+        "Uygulama adına veya paket adına göre arayın",
+        "Başlatın, sistem bilgisini açın, mağaza sayfasına gidin veya kaldırın"
+      ]
+    },
+    {
+      "id": "analyzer",
+      "title": "APK Analiz Aracı ve Uygulama Bilgisi",
+      "paragraphs": [],
+      "bullets": [
+        "Paket adı, sürüm adı, sürüm kodu, minimum SDK ve hedef SDK",
+        "Boyut, APK yolu, yükleme kaynağı, kurulum ve güncelleme zamanı",
+        "İmza sertifikası ile MD5, SHA-1, SHA-256 ve CRC32 sağlama toplamları"
+      ]
+    },
+    {
+      "id": "stats",
+      "title": "Uygulama İstatistikleri ve Cihaz Durumu",
+      "paragraphs": [],
+      "bullets": [
+        "Kullanıcı ve sistem uygulamalarını sayı, toplam ve ortalama boyutla kıyaslayın",
+        "En büyük, en eski ve en son güncellenen uygulamaları bulun",
+        "Hangi uygulamalar konum, kamera, mikrofon veya kişi istiyor görün"
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "Uygulama Paylaşımı, Wi-Fi Aktarımı ve Web Aktarımı",
+      "paragraphs": [],
+      "bullets": [
+        "Uygulama ve APK'ları paylaşım menüsüyle gönderin — Quick Share, Bluetooth, e-posta",
+        "Aynı Wi-Fi ağındaki cihazlar arasında internetsiz uygulama aktarın",
+        "Web aktarımı: tarayıcıda adres açın veya QR Code okutun, telefonla PC arasında uygulama taşıyın"
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Dışa Aktarma Yolu, Dosya Adlandırma Kuralları ve ZIP Sıkıştırma",
+      "paragraphs": [
+        "Dışa aktarma klasörünü, APK adlandırmayı, ZIP sıkıştırmayı, tarama kapsamını, paylaşım modunu, dili ve karanlık modu ayarlayın."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Önce Gizlilik, Root Gerekmez",
+      "paragraphs": [
+        "APK çıkarma, yedekleme ve uygulama yönetimi root gerektirmez. İsteğe bağlı Kullanım Erişimi yalnızca önbellek ve kullanılmayan uygulama analizleri içindir. Otomatik yedekleme, toplu kurulum, web aktarımı, reklamsız kullanım ve ilk 5 uygulamadan sonraki yeni telefona taşıma tek seferlik Pro satın alımına dahildir."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "APK dosyalarınızı saklamak için APK çıkarıcı, telefon değişimi için yedekleme aracı, Split APK'lar için XAPK yükleyici — APK Extractor & App Manager'ı indirin, uygulamalarınızın kontrolünü elinize alın.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

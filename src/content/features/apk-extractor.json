@@ -1,0 +1,14 @@
+{
+  "slug": "apk-extractor",
+  "items": [
+    { "id": "extract", "sectionId": "extract", "screenshots": [1, 2], "faq": ["q01", "q02", "q04", "q05", "q06"] },
+    { "id": "version-history", "sectionId": "version-history", "screenshots": [], "faq": ["q15", "q16", "q17"] },
+    { "id": "installer", "sectionId": "installer", "screenshots": [4], "faq": ["q03", "q07", "q08", "q09", "q10"] },
+    { "id": "migration", "sectionId": "migration", "screenshots": [], "faq": ["q13", "q14", "q21"] },
+    { "id": "compare", "sectionId": "compare", "screenshots": [], "faq": ["q18", "q10"] },
+    { "id": "manager", "sectionId": "manager", "screenshots": [2], "faq": ["q06", "q25"] },
+    { "id": "analyzer", "sectionId": "analyzer", "screenshots": [6, 4], "faq": ["q19", "q20"] },
+    { "id": "stats", "sectionId": "stats", "screenshots": [], "faq": ["q20", "q24"] },
+    { "id": "transfer", "sectionId": "transfer", "screenshots": [5], "faq": ["q11", "q12", "q13", "q14"] }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "apk-extractor",
+  "locale": "tr",
+  "entries": [
+    {
+      "code": 612,
+      "name": "6.1.2",
+      "date": "2026-09-20",
+      "items": [
+        "Yeni: Yeni Telefona Taşıma — uygulamalarınızı eski telefondan yenisine Wi-Fi ile taşıyın",
+        "Yalnızca uygulama listesini ya da APK/XAPK dosyalarını da gönderin, yeni telefonda tek dokunuşla hepsini kurun",
+        "Yeni telefon, sizde zaten olan sürümleri, farklı imzaları ve çalışmayacak uygulamaları önceden işaretler",
+        "Mağazadan kurulan uygulamalar için mağaza sayfasına giden buton eklendi",
+        "Ücretsiz 5 uygulama; ana ekran kartı Ayarlar'dan gizlenebilir"
+      ]
+    },
+    {
+      "code": 611,
+      "name": "6.1.1",
+      "date": "2026-09-13",
+      "items": [
+        "Otomatik Yedekleme artık ücretsiz — uygulamaları seçin, Sürüm Geçmişi kontenjanı gösterir",
+        "XAPK Yükleyici adımları gösterir, net sonuçla biter, gizlenebilir",
+        "APK'lar listesi ve ayrıntı sayfası gerçek ad ve simgeyi gösterir, anında açılır",
+        "Tablet ve katlanabilir cihazlarda tam ekran; ekran döndürme artık dışa aktarmayı bölmez",
+        "Sistem dosya seçiciyle kaydedilen dışa aktarmalarda klasör yolu düzeltildi"
+      ]
+    },
+    {
+      "code": 609,
+      "name": "6.0.9",
+      "date": "2026-09-03",
+      "items": [
+        "Ayarlar'daki tüm iletişim kutuları yenilendi: yuvarlak köşeli kartlar, daha net seçenekler ve tutarlı marka renkleri",
+        "Gece modunda seçim düğmelerinin, metin imlecinin ve ayırıcıların yanlış renkte görünmesi düzeltildi",
+        "Dil seçimi artık Arapça gibi sağdan sola yazılan dillerde doğru şekilde yerleşiyor",
+        "Kod ve kaynak küçültme sayesinde indirme boyutu daha küçük"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

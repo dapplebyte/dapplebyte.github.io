@@ -1,0 +1,143 @@
+{
+  "slug": "apk-extractor",
+  "locale": "zh-tw",
+  "title": "Apk Extractor",
+  "shortDescription": "版本歷史一鍵回退舊版，安裝 XAPK 與 Split APK 安裝包，換機移轉到新手機，Wi-Fi 與網頁傳輸，離線分享 App，免 Root。",
+  "tagline": "擷取 APK、備份 App、安裝 APK/XAPK，一套工具全搞定",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "擷取 APK、備份 App、安裝 APK/XAPK，一套工具全搞定",
+      "paragraphs": [
+        "APK Extractor & App Manager 是一款輕巧快速的 APK 擷取器、App 備份工具、APK/XAPK 安裝器、App 管理器與 APK 分析器。把已安裝的 App 擷取成 APK 檔案、保留版本歷史以便更新出包時回退舊版、安裝 Split APK（XAPK）安裝包、把 App 搬到新手機，還能離線分享 App——全程免 Root。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "恢復原廠設定或換新手機前，先備份 App",
+      "paragraphs": [],
+      "bullets": [
+        "不必連網、不必上商店，直接離線把 App 分享給朋友",
+        "把 App 移轉到新手機，或在恢復原廠設定前先備份",
+        "在 App 更新前，先留一份目前版本的 APK",
+        "保存已從商店下架、再也找不到的 App"
+      ]
+    },
+    {
+      "id": "extract",
+      "title": "APK 擷取器 & App 備份",
+      "paragraphs": [],
+      "bullets": [
+        "從使用者 App 與系統 App 擷取 APK 檔案",
+        "一次批次備份多個 App，免 Root 權限",
+        "在內部或外部儲存空間自訂匯出資料夾"
+      ]
+    },
+    {
+      "id": "version-history",
+      "title": "版本歷史、自動備份與降級回退",
+      "paragraphs": [],
+      "bullets": [
+        "自動備份：監看你指定的 App，每次更新都自動留一份 APK",
+        "自訂每個 App 保留幾個版本——全部只存在你自己的裝置上",
+        "重新安裝舊版本，回退你不想要的更新"
+      ]
+    },
+    {
+      "id": "installer",
+      "title": "APK 安裝器、XAPK 安裝器與批次安裝",
+      "paragraphs": [],
+      "bullets": [
+        "透過 Android 套件安裝程式安裝 APK 檔案",
+        "安裝由基底 APK 與 Split APK 組成的 XAPK 安裝包",
+        "批次安裝：把多個 APK 或 XAPK 排進佇列，一次裝完",
+        "安裝失敗會直接說明原因——ABI 不相容、系統版本過低、空間不足"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "換機助手：把 App 移轉到新手機",
+      "paragraphs": [],
+      "bullets": [
+        "透過 Wi-Fi 把舊手機的 App 清單和 APK/XAPK 安裝包一起傳給新手機",
+        "新手機先比對已經裝了什麼，再把其餘的排成一個佇列一次裝回",
+        "自動標出版本已有、簽章不同和跑不動的 App",
+        "從商店裝的 App，一鍵直達對應的商店頁面"
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "版本比對與簽章檢查",
+      "paragraphs": [],
+      "bullets": [
+        "把 APK 檔案跟裝置上已安裝的版本直接比對",
+        "看清楚簽章是否相符，或來自不同的發布者",
+        "安裝前先發現新增或移除了哪些權限"
+      ]
+    },
+    {
+      "id": "manager",
+      "title": "強大的 App 管理器",
+      "paragraphs": [],
+      "bullets": [
+        "以清單或格狀檢視瀏覽使用者 App 與系統 App",
+        "依 App 名稱或套件名稱搜尋",
+        "啟動 App、開啟系統 App 資訊、前往商店頁面或解除安裝"
+      ]
+    },
+    {
+      "id": "analyzer",
+      "title": "APK 分析器 & App 資訊",
+      "paragraphs": [],
+      "bullets": [
+        "套件名稱、版本名稱、版本號、最低 SDK 與目標 SDK",
+        "App 大小、APK 路徑、安裝來源、安裝時間與更新時間",
+        "簽章憑證，以及 MD5、SHA-1、SHA-256 與 CRC32 檢查碼"
+      ]
+    },
+    {
+      "id": "stats",
+      "title": "App 統計與裝置健康度",
+      "paragraphs": [],
+      "bullets": [
+        "比較使用者 App 與系統 App 的數量、總大小與平均大小",
+        "找出最大、最舊與最近更新的 App",
+        "了解哪些 App 要求位置、相機、麥克風或聯絡人權限"
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "App 分享、Wi-Fi 傳輸與網頁傳輸",
+      "paragraphs": [],
+      "bullets": [
+        "透過分享選單傳送 App 與 APK 檔案——支援 Quick Share、藍牙、電子郵件",
+        "同一 Wi-Fi 內的裝置直接互傳 App，不必連上網際網路",
+        "網頁傳輸：在瀏覽器開啟網址或掃描 QR Code，在手機與電腦之間互傳 App"
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "匯出路徑、檔名規則與 ZIP 壓縮",
+      "paragraphs": [
+        "匯出資料夾、APK 命名格式、ZIP 壓縮等級、掃描範圍、分享方式、語言與深色模式，都能依你的使用習慣調整。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "隱私優先，無需 Root",
+      "paragraphs": [
+        "APK 擷取、App 備份與 App 管理都不需要 Root 權限。「使用狀況存取權」為選用權限，僅用於快取與未使用 App 分析。自動備份、批次安裝、網頁傳輸、去廣告，以及換機助手超過前 5 個 App 的部分，屬於一次性買斷的 Pro 功能。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "想保存 APK 檔案的 APK 擷取器、換機前的 App 備份工具、安裝 Split APK 的 XAPK 安裝器——下載 APK Extractor & App Manager，全面掌控你的 Android App。",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

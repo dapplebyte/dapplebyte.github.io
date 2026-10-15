@@ -1,0 +1,42 @@
+{
+  "slug": "apk-extractor",
+  "locale": "en",
+  "entries": [
+    {
+      "code": 612,
+      "name": "6.1.2",
+      "date": "2026-09-20",
+      "items": [
+        "New: Device Migration — move your apps from an old phone to a new one over Wi-Fi",
+        "Send just the app list, or the APK/XAPK files as well, then install everything back with one tap",
+        "The new phone flags versions you already have, signature conflicts and apps it can't run",
+        "Apps installed from the store get a one-tap link to their store page",
+        "Free plan moves up to 5 apps; the home screen card can be hidden in Settings"
+      ]
+    },
+    {
+      "code": 611,
+      "name": "6.1.1",
+      "date": "2026-09-13",
+      "items": [
+        "Auto Backup is now free, with the slots in use shown in Version History",
+        "The XAPK Installer shows each step and its result, with a Hide button",
+        "The Apks list and detail page show the real app name and icon, and open instantly",
+        "Full-screen on tablets and foldables; rotation no longer interrupts an export",
+        "Fixed the folder path shown for exports saved via the system file picker"
+      ]
+    },
+    {
+      "code": 609,
+      "name": "6.0.9",
+      "date": "2026-09-03",
+      "items": [
+        "Redesigned every dialog in Settings — rounded cards, clearer options and consistent brand colours",
+        "Fixed radio buttons, text cursors and dividers showing the wrong colour in night mode",
+        "The language picker now lays out correctly in right-to-left languages such as Arabic",
+        "Smaller download size thanks to code and resource shrinking"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}
