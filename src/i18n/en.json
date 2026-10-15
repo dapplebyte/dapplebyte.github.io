@@ -14,8 +14,6 @@
     "home": "Home"
   },
   "footer": {
-    "studio": "Studio",
-    "contact": "Contact",
     "languages": "Languages",
     "privacy": "Website privacy",
     "copyright": "© {year} DappleByte",
@@ -28,12 +26,9 @@
     "learnMore": "Learn more"
   },
   "labels": {
-    "apps": "Apps",
     "nextApp": "Next app",
     "nextAppBody": "In progress. It will appear here when it ships.",
     "lastUpdated": "Last updated {date}",
-    "android": "Android",
-    "by": "by DappleByte",
     "overview": "Overview",
     "features": "Features",
     "faq": "FAQ",
@@ -42,39 +37,48 @@
     "support": "Support",
     "privacy": "Privacy",
     "changelog": "Release notes",
-    "press": "Press kit",
-    "sourceCode": "Source code",
-    "googlePlay": "Google Play"
+    "press": "Press kit"
   },
   "facts": {
     "minOs": "{version} or later",
-    "consoles": "PS5 · PS4",
     "languages": "{count} languages",
     "source": "{license} source",
     "version": "Version {version}"
   },
   "home": {
     "title": "DappleByte · Independent Android apps",
-    "description": "DappleByte is an independent studio building Android apps, including Relaypad, a Remote Play controller and console streaming app for PS5 and PS4.",
+    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls, and Relaypad, a Remote Play controller and console streaming app for PS5 and PS4.",
     "appsHeading": "Apps",
     "principlesHeading": "How we work",
     "principles": [
-      { "title": "No ads, no subscriptions.", "body": "One price, or none. Nothing renting your attention." },
-      { "title": "No server in between.", "body": "Our apps talk to your own hardware. We never see your data." },
-      { "title": "Source published.", "body": "Every release is pushed to a public repository under AGPL-3.0." },
-      { "title": "We answer every email.", "body": "Write to {email}. A person reads it." }
+      {
+        "title": "Pay once, or not at all.",
+        "body": "Where an app costs money, it is a one-time purchase. Nothing renews."
+      },
+      {
+        "title": "No account with us.",
+        "body": "Nothing to sign up for. The app works the moment it is installed."
+      },
+      {
+        "title": "Permissions explained before you grant them.",
+        "body": "Each app says what a permission is for and what it never does, in the app and in a privacy policy that matches the code."
+      },
+      {
+        "title": "We answer every email.",
+        "body": "Write to {email}. A person reads it."
+      }
     ],
     "contactHeading": "Contact",
     "contactBody": "Studio, press and partnerships: {email}. Each app has its own support address on its support page."
   },
   "about": {
     "title": "About DappleByte",
-    "description": "DappleByte is an independent studio building Android apps: no ads, no subscriptions, no server between you and your hardware, source published under AGPL-3.0.",
+    "description": "DappleByte is an independent studio building Android apps. One developer, a small number of apps, no subscriptions, no accounts, and a person who answers every email.",
     "whatHeading": "What DappleByte is",
     "whatBody": "DappleByte is an independent studio building Android apps. One developer, a small number of apps, each one meant to do a specific job well and then stay out of the way.",
     "howHeading": "How we work",
-    "openSourceHeading": "Open source",
-    "openSourceBody": "Every release of every app is published as source code under the AGPL-3.0. The repository link is on each app's page. You can read exactly what the app does, build it yourself, or check that the privacy policy matches the code.",
+    "openSourceHeading": "Source code",
+    "openSourceBody": "Where an app's source code is published, the link is on that app's page and in its press kit. Relaypad is published under the AGPL-3.0.",
     "contactHeading": "Contact",
     "contactBody": "Studio, press and partnerships: {email}. Support for a specific app goes to the address on that app's support page, so it reaches the right inbox with the right context.",
     "trademarksHeading": "Trademarks",
@@ -90,32 +94,28 @@
     "faqHeading": "Common questions",
     "faqAll": "All questions",
     "getHeading": "Get {name}",
-    "getBody": "Available on Google Play for Android. The source code is published under {license}.",
+    "getBody": "Available on Google Play for Android.",
+    "getBodySource": "The source code is published under {license}.",
     "requiresLabel": "Requires",
     "videoHeading": "See it in action",
-    "allVideos": "All videos",
-    "moreHeading": "More about {name}"
+    "allVideos": "All videos"
   },
   "features": {
     "title": "{feature} · {name}",
     "indexHeading": "Features",
     "relatedFaq": "Related questions",
     "backToProduct": "Back to {name}",
-    "allFeatures": "All {name} features",
-    "inShort": "In short"
+    "allFeatures": "All {name} features"
   },
   "faq": {
     "title": "{name} FAQ",
     "sectionTitle": "{section} · {name} FAQ",
-    "description": "Answers about {name}: ways to play, connecting, sign-in, streaming quality, controllers, purchase and refunds.",
     "sectionDescription": "{name} FAQ, {section}: {count} questions with full answers.",
     "intro": "The same answers are in the app under Settings → FAQ. Each section is one page; every question has its own link.",
+    "englishOnly": "This FAQ is shown in English until the translation is ready.",
     "questionsCount": "{count} questions",
     "notFoundHeading": "Didn't find your answer?",
-    "notFoundBody": "Write to us with your phone model, your console and what happened. A person reads every message.",
     "notFoundCta": "Go to support",
-    "prev": "Previous",
-    "next": "Next",
     "allSections": "All sections",
     "linkToQuestion": "Link to this question"
   },
@@ -123,11 +123,6 @@
     "title": "{name} support",
     "description": "Get help with {name}: what to check first, how to write to us, what to include, and how refunds work.",
     "beforeHeading": "Before you write",
-    "beforeItems": [
-      "Open the FAQ. Most connection, sign-in and picture questions are answered there, with the same wording as in the app.",
-      "If the app can't connect, run Connection Doctor from Settings. It checks your network, the console and Remote Play, and it can email the report to us with one tap.",
-      "Make sure the console is on or in rest mode with Remote Play turned on in its settings."
-    ],
     "writeHeading": "Write to us",
     "writeBody": "The button opens your mail app with the subject filled in. If nothing opens, copy the address and the checklist below into any email.",
     "writeButton": "Email {email}",
@@ -135,23 +130,13 @@
     "copied": "Copied",
     "subject": "[{name}] ",
     "templateHeading": "What to include",
-    "template": {
-      "phone": "Phone model:",
-      "android": "Android version:",
-      "console": "Console: PS5 / PS4",
-      "where": "At home or away from home:",
-      "what": "What happened, step by step:",
-      "doctor": "If you ran Connection Doctor, paste the report here."
-    },
     "refundHeading": "Refunds",
-    "refundBody": "If {name} doesn't work with your setup, email us within 7 days of purchase and we'll refund it. Tell us what you tried; it helps us fix it for the next person.",
     "replyHeading": "When you'll hear back",
     "replyBody": "Usually within two working days. Every message is read by a person, and every message gets an answer.",
     "faqLink": "Read the FAQ first"
   },
   "privacy": {
     "title": "{name} privacy policy",
-    "description": "What {name} for Android does with your data: no account, no server of ours, what stays on the device, and where the app connects.",
     "effective": "Effective {date}",
     "appliesTo": "Applies to {name} for Android ({appId}), distributed on Google Play.",
     "governing": "This policy is published in English. Translations, when available, are for convenience only; the English text governs.",
@@ -173,16 +158,19 @@
   },
   "videos": {
     "title": "{name} videos",
-    "description": "Short videos showing {name} on a real phone: setup, streaming, controller layouts and fixing connection problems.",
     "emptyHeading": "Videos are on the way",
     "emptyBody": "We're recording a walkthrough for each feature. Until then, the feature pages and the FAQ cover the same ground.",
-    "kinds": { "promo": "Overview", "tutorial": "How-to", "troubleshooting": "Fixing problems" },
+    "kinds": {
+      "promo": "Overview",
+      "tutorial": "How-to",
+      "troubleshooting": "Fixing problems"
+    },
     "watchOn": "Watch on YouTube",
-    "play": "Play video"
+    "play": "Play video",
+    "playlist": "Watch the playlist on YouTube"
   },
   "compare": {
     "title": "{name} compared",
-    "description": "How {name} compares with PS Remote Play, PXPlay and Chiaki on Android, feature by feature, facts only.",
     "intro": "Facts only, checked against each app's store listing or website. Each app is described as of the date below; newer versions may differ. No app is rated here, and we don't claim any is better overall.",
     "verified": "Checked on {date}",
     "notVerified": "The other columns have not been verified yet, so this page is not listed in search engines.",
@@ -196,6 +184,12 @@
       "tv-output": "TV output over HDMI",
       "connection-doctor": "Built-in connection diagnostics",
       "open-source": "Open source",
+      "no-root": "Works without root",
+      "stick-trigger-mapping": "Analog stick and L2/R2 trigger mapping",
+      "phases": "Several layouts per game, switchable in game",
+      "macros": "Macros",
+      "turbo": "Turbo (auto-repeat)",
+      "combos": "Button combinations",
       "pricing-model": "Pricing model"
     },
     "values": {
@@ -205,11 +199,10 @@
       "unknown": "Not checked",
       "one-time": "One-time purchase",
       "free": "Free",
-      "subscription": "Subscription"
+      "subscription": "Subscription",
+      "free-with-pro": "Free, one-time Pro purchase"
     },
     "vsTitle": "{name} vs {other}",
-    "vsDescription": "{name} and {other} compared on Android, feature by feature: remote play away from home, HEVC and HDR, controllers, TV output, open source and pricing.",
-    "vsIntro": "Both connect an Android device to a PS5 or PS4. Here is where they differ, feature by feature.",
     "fullComparison": "See the full comparison"
   },
   "changelog": {
@@ -221,7 +214,6 @@
   },
   "press": {
     "title": "{name} press kit",
-    "description": "Facts, assets and a boilerplate for writing about {name}, the Remote Play controller and console streaming app for Android.",
     "intro": "Everything on this page may be used in articles, videos and app listings without asking. If you need something else, write to us.",
     "factsHeading": "Fact sheet",
     "facts": {
@@ -231,7 +223,6 @@
       "firstReleased": "First released",
       "currentVersion": "Current version",
       "price": "Price",
-      "priceValue": "Paid app, one-time purchase, no subscription, no ads. The current price is shown on Google Play.",
       "languages": "Languages",
       "license": "License",
       "website": "Website",
@@ -241,11 +232,9 @@
     },
     "oneLineHeading": "One line",
     "boilerplateHeading": "Boilerplate",
-    "boilerplate": "{name} turns an Android phone into a wireless controller for a PS5 or PS4, or streams the console's picture to the phone, a tablet or a TV, at home or away over mobile data. It is made by DappleByte, an independent studio, and published as open source under the AGPL-3.0.",
     "assetsHeading": "Assets",
     "assetIcon": "App icon, 512 px PNG",
     "assetFeature": "Feature graphic, 1024 × 500 PNG",
-    "assetScreenshots": "Screenshots, 1920 × 1080 PNG, English",
     "assetStudioMark": "DappleByte mark, SVG",
     "screenshotN": "Screenshot {index}",
     "contactHeading": "Press contact",
@@ -258,5 +247,137 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 and PS4 are trademarks of Sony Interactive Entertainment Inc. {name} is not affiliated with or endorsed by Sony."
+  },
+  "videoItems": {
+    "gamepad-pro": {
+      "a01-tutorial": {
+        "title": "How to create a key mapping, step by step",
+        "description": "Pick a game, add a button, press the controller button you want to use, drag it onto the spot on screen, then save and play."
+      },
+      "a01-ad": {
+        "title": "Play touch-only games with your controller",
+        "description": "A short look at Gamepad Pro turning a controller's buttons, sticks and triggers into touch controls in a game that only supports touch."
+      },
+      "a02-ad": {
+        "title": "One button. Five different things",
+        "description": "One controller button can be a tap, a hold, a swipe, a turbo or a macro that taps several spots in order; this shows how to choose in the editor."
+      },
+      "t01": {
+        "title": "Map the analog sticks and L2/R2",
+        "description": "Both sticks and both triggers are already in every new layout: drag them into place, then tap one to choose camera swipe or movement dial and set its sensitivity."
+      },
+      "t02": {
+        "title": "Button in the wrong spot? Fix it without leaving the game",
+        "description": "Tap the floating button during a game to show your layout on top of it, drag the button to the right spot and apply it without leaving the game."
+      },
+      "p01": {
+        "title": "Only one button works at a time?",
+        "description": "When a second touch gets dropped, update to the latest version first, then follow the steps in Settings › Advanced multi-touch."
+      },
+      "p02": {
+        "title": "Your controller isn't detected?",
+        "description": "Check the Bluetooth or USB connection and the pairing in Android settings, reconnect the controller and make sure it is in the right mode."
+      },
+      "p03": {
+        "title": "Buttons work but the sticks do nothing?",
+        "description": "Why analog sticks and triggers need the Gamepad Pro keyboard on some Android versions, and how to turn it on so they can be mapped."
+      },
+      "p04": {
+        "title": "Mapping worked, then just stopped?",
+        "description": "Android can close apps in the background to save power; turning off battery optimisation for Gamepad Pro keeps your mappings running."
+      },
+      "p05": {
+        "title": "Why does it need the Accessibility permission?",
+        "description": "What the Accessibility service is used for: turning your button presses into taps and swipes, without reading or uploading what is on your screen."
+      },
+      "p06": {
+        "title": "Screen stopped responding to your fingers?",
+        "description": "How to pause every mapping at once, from the switch on the home screen or from Quick Settings when you can't get back to the app."
+      },
+      "p07": {
+        "title": "Keyboard took over — how do I type now?",
+        "description": "Tap the globe to switch back to your own keyboard, or turn on automatic switching so Gamepad Pro only uses its keyboard while mappings run."
+      }
+    }
+  },
+  "products": {
+    "gamepad-pro": {
+      "kicker": "Controller mapper · No root",
+      "heroPoints": [
+        "Buttons, sticks and L2/R2 triggers become taps, holds and swipes",
+        "A layout for every game, and Phases for different parts of it",
+        "Macros, turbo and button combos. No root, no cloning"
+      ],
+      "faqDescription": "Answers about Gamepad Pro: setup and permissions, building a key mapping, sticks and triggers, controllers, Pro and backups.",
+      "faqNotFoundBody": "Write to us with your phone model, your controller, the game and what happened. A person reads every message.",
+      "support": {
+        "beforeItems": [
+          "Open the FAQ. Most setup, permission and mapping questions are answered there, with the same wording as in the app.",
+          "Check that the Accessibility service is on and that mapping isn't paused. If it worked before and then stopped, battery optimisation is the usual cause; the FAQ has the steps.",
+          "Note which game, which controller and what happens on screen when you press a button. That is what we need to reproduce it."
+        ],
+        "template": {
+          "phone": "Phone model:",
+          "android": "Android version:",
+          "controller": "Controller (model, USB or Bluetooth):",
+          "game": "Game or app:",
+          "what": "What happened, step by step:",
+          "pro": "Pro purchase: yes / no"
+        },
+        "refundBody": "Gamepad Pro is free to install. If you bought Pro and it doesn't work with your setup, email us within 7 days of the purchase and we'll refund it. Tell us what you tried; it helps us fix it for the next person."
+      },
+      "press": {
+        "description": "Facts, assets and a boilerplate for writing about Gamepad Pro, the controller key mapper for Android.",
+        "boilerplate": "Gamepad Pro turns the controller you already own into touch controls for Android games that don't support gamepads: buttons, sticks and triggers become taps, holds and swipes, with a layout per game, Phases, macros, turbo and button combos. No root is required. It is made by DappleByte, an independent studio.",
+        "priceValue": "Free to install, with ads. A one-time Pro purchase removes the ads and unlocks every Pro feature; there is no subscription. The current price is shown on Google Play.",
+        "assetScreenshots": "Phone screenshots, PNG, English (portrait 1080 × 1920; the editor screenshot is landscape)"
+      },
+      "videosDescription": "Short videos showing Gamepad Pro on a real phone: creating a key mapping, sticks and triggers, fixing a layout mid-game, and the most common problems.",
+      "privacyDescription": "What Gamepad Pro for Android does with your data: no account, what the Accessibility service is used for, what the analytics and advertising SDKs collect, and how to turn optional collection off.",
+      "compare": {
+        "description": "How Gamepad Pro compares with other controller mappers on Android, feature by feature, facts only.",
+        "vsDescription": "{name} and {other} compared on Android, feature by feature: root, sticks and triggers, per-game layouts, macros, turbo and pricing.",
+        "vsIntro": "Both map a controller to touch games on Android. Here is where they differ, feature by feature."
+      }
+    },
+    "relaypad": {
+      "kicker": "PS5 · PS4",
+      "heroPoints": [
+        "Playing when the controller battery just died",
+        "Browsing console menus and video apps with big remote keys",
+        "Playing in bed or another room while the console stays by the TV"
+      ],
+      "faqDescription": "Answers about {name}: ways to play, connecting, sign-in, streaming quality, controllers, purchase and refunds.",
+      "faqNotFoundBody": "Write to us with your phone model, your console and what happened. A person reads every message.",
+      "support": {
+        "beforeItems": [
+          "Open the FAQ. Most connection, sign-in and picture questions are answered there, with the same wording as in the app.",
+          "If the app can't connect, run Connection Doctor from Settings. It checks your network, the console and Remote Play, and it can email the report to us with one tap.",
+          "Make sure the console is on or in rest mode with Remote Play turned on in its settings."
+        ],
+        "template": {
+          "phone": "Phone model:",
+          "android": "Android version:",
+          "console": "Console: PS5 / PS4",
+          "where": "At home or away from home:",
+          "what": "What happened, step by step:",
+          "doctor": "If you ran Connection Doctor, paste the report here."
+        },
+        "refundBody": "If {name} doesn't work with your setup, email us within 7 days of purchase and we'll refund it. Tell us what you tried; it helps us fix it for the next person."
+      },
+      "press": {
+        "description": "Facts, assets and a boilerplate for writing about {name}, the Remote Play controller and console streaming app for Android.",
+        "boilerplate": "{name} turns an Android phone into a wireless controller for a PS5 or PS4, or streams the console's picture to the phone, a tablet or a TV, at home or away over mobile data. It is made by DappleByte, an independent studio, and published as open source under the AGPL-3.0.",
+        "priceValue": "Paid app, one-time purchase, no subscription, no ads. The current price is shown on Google Play.",
+        "assetScreenshots": "Screenshots, 1920 × 1080 PNG, English"
+      },
+      "videosDescription": "Short videos showing {name} on a real phone: setup, streaming, controller layouts and fixing connection problems.",
+      "privacyDescription": "What {name} for Android does with your data: no account, no server of ours, what stays on the device, and where the app connects.",
+      "compare": {
+        "description": "How {name} compares with PS Remote Play, PXPlay and Chiaki on Android, feature by feature, facts only.",
+        "vsDescription": "{name} and {other} compared on Android, feature by feature: remote play away from home, HEVC and HDR, controllers, TV output, open source and pricing.",
+        "vsIntro": "Both connect an Android device to a PS5 or PS4. Here is where they differ, feature by feature."
+      }
+    }
   }
 }

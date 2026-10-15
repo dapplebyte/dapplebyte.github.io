@@ -27,9 +27,28 @@ const products = defineCollection({
     accent: z.object({ solid: hex, bright: hex, ink: hex }).optional(),
     displayFont: z.string().optional(),
     screenshotCount: z.number().default(0),
+    /** Store screenshots are landscape (cropped into a wide frame) or portrait (shown side by side). */
+    screenshotOrientation: z.enum(['landscape', 'portrait']).default('landscape'),
     featuredFaq: z.array(z.string()).default([]),
     trademark: z.string().optional(),
     languages: z.number().optional(),
+    /** YouTube playlist id with every video of the product. */
+    youtubePlaylist: z.string().optional(),
+    /**
+     * Which product-copy sections fill the fixed blocks of the product page.
+     * `useCases`: bullets in two columns under the screenshots. `steps`: an ordered list there instead.
+     * `cells`: up to three cells after the FAQ (paragraphs and bullets). `privacyLinkIn`: the cell that
+     * gets a link to the privacy policy. `fine`: small print under "Get {name}".
+     */
+    overview: z
+      .object({
+        useCases: z.string().optional(),
+        steps: z.string().optional(),
+        cells: z.array(z.string()).default([]),
+        privacyLinkIn: z.string().optional(),
+        fine: z.string().optional(),
+      })
+      .default({ cells: [] }),
   }),
 });
 
@@ -67,7 +86,7 @@ const faq = defineCollection({
       z.object({
         id: z.string(),
         title: z.string(),
-        entries: z.array(z.object({ id: z.string(), q: z.string(), a: z.array(z.string()) })),
+        entries: z.array(z.object({ id: z.string(), q: z.string(), a: z.array(z.string()), video: z.string().optional() })),
       }),
     ),
     extractedAt: z.string(),
@@ -112,6 +131,8 @@ const videos = defineCollection({
         descriptionKey: z.string(),
         feature: z.string().optional(),
         faq: z.string().optional(),
+        /** Frame of the video. Portrait videos get a 9:16 player. */
+        aspect: z.enum(['16:9', '9:16']).default('16:9'),
       }),
     ),
   }),

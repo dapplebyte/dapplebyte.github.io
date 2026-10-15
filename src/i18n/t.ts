@@ -28,7 +28,17 @@ export function useT(locale: string = DEFAULT_LOCALE) {
     const value = lookup(dict, key) ?? lookup(en as Dict, key);
     return Array.isArray(value) ? (value as T[]) : [];
   };
-  return { t, list };
+  /** `t` for the site's own words about one product: `products.<slug>.<key>`. */
+  const tp = (slug: string, key: string, vars: Vars = {}): string => t(`products.${slug}.${key}`, vars);
+  /** `list` for `products.<slug>.<key>`. */
+  const listp = <T = unknown>(slug: string, key: string): T[] => list<T>(`products.${slug}.${key}`);
+  /** `[key, text]` pairs of an object of strings, in English key order, each falling back to English. */
+  const pairs = (key: string): [string, string][] => {
+    const base = lookup(en as Dict, key);
+    if (!base || typeof base !== 'object' || Array.isArray(base)) return [];
+    return Object.keys(base as Dict).map((k) => [k, t(`${key}.${k}`)]);
+  };
+  return { t, list, tp, listp, pairs };
 }
 
 export function formatDate(locale: string, iso: string | undefined, lang: string): string {

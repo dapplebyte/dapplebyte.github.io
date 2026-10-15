@@ -4,7 +4,7 @@ import Base from '../../../../layouts/Base.astro';
 import ProductNav from '../../../../components/ProductNav.astro';
 import { getLocale, localePath } from '../../../../i18n/locales';
 import { useT, formatDate } from '../../../../i18n/t';
-import { getProduct } from '../../../../lib/content';
+import { getProduct, COMPARE_VALUES } from '../../../../lib/content';
 import { productLangPaths } from '../../../../lib/routes';
 import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../../lib/jsonld';
 
@@ -20,7 +20,7 @@ export async function getStaticPaths() {
 }
 
 const { locale, slug, alternates, competitorId } = Astro.props;
-const { t } = useT(locale);
+const { t, tp } = useT(locale);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
 const compare = (await getEntry('compare', slug))!.data;
@@ -28,8 +28,8 @@ const other = compare.competitors.find((c) => c.id === competitorId)!;
 const path = `/${slug}/vs/${competitorId}/`;
 const url = new URL(localePath(locale, path), SITE).href;
 const title = t('compare.vsTitle', { name: product.name, other: other.name });
-const description = t('compare.vsDescription', { name: product.name, other: other.name });
-const cell = (v: string) => (v in { yes: 1, no: 1, partial: 1, unknown: 1, 'one-time': 1, free: 1, subscription: 1 } ? t(`compare.values.${v}`) : v);
+const description = tp(slug, 'compare.vsDescription', { name: product.name, other: other.name });
+const cell = (v: string) => (COMPARE_VALUES.includes(v) ? t(`compare.values.${v}`) : v);
 const jsonLd = graph(
   organization(),
   website(loc.lang),
@@ -48,7 +48,7 @@ const jsonLd = graph(
   <section class="wrap section">
     <div class="mono mono-accent" style="margin-bottom:14px">{product.name} · {t('labels.compare')}</div>
     <h1 class="h-page">{title}</h1>
-    <p class="lede" style="margin-top:16px">{t('compare.vsIntro')}</p>
+    <p class="lede" style="margin-top:16px">{tp(slug, 'compare.vsIntro')}</p>
     <p class="fine" style="margin-top:12px">{compare.verifiedOn ? t('compare.verified', { date: formatDate(locale, compare.verifiedOn, loc.lang) }) : t('compare.notVerified')}</p>
   </section>
   <section class="wrap section">

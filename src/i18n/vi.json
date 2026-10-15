@@ -14,8 +14,6 @@
     "home": "Trang chủ"
   },
   "footer": {
-    "studio": "Studio",
-    "contact": "Liên hệ",
     "languages": "Ngôn ngữ",
     "privacy": "Quyền riêng tư của trang web",
     "copyright": "© {year} DappleByte",
@@ -28,12 +26,9 @@
     "learnMore": "Tìm hiểu thêm"
   },
   "labels": {
-    "apps": "Ứng dụng",
     "nextApp": "Ứng dụng tiếp theo",
     "nextAppBody": "Đang được làm. Khi ra mắt, ứng dụng sẽ xuất hiện ở đây.",
     "lastUpdated": "Cập nhật lần cuối {date}",
-    "android": "Android",
-    "by": "của DappleByte",
     "overview": "Tổng quan",
     "features": "Tính năng",
     "faq": "Câu hỏi thường gặp",
@@ -42,39 +37,48 @@
     "support": "Hỗ trợ",
     "privacy": "Quyền riêng tư",
     "changelog": "Ghi chú phát hành",
-    "press": "Tài liệu báo chí",
-    "sourceCode": "Mã nguồn",
-    "googlePlay": "Google Play"
+    "press": "Tài liệu báo chí"
   },
   "facts": {
     "minOs": "{version} trở lên",
-    "consoles": "PS5 · PS4",
     "languages": "{count} ngôn ngữ",
     "source": "Mã nguồn {license}",
     "version": "Phiên bản {version}"
   },
   "home": {
     "title": "DappleByte · Ứng dụng Android độc lập",
-    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android, trong đó có Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4.",
+    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm, và Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4.",
     "appsHeading": "Ứng dụng",
     "principlesHeading": "Cách chúng tôi làm việc",
     "principles": [
-      { "title": "Không quảng cáo, không thuê bao.", "body": "Một mức giá, hoặc miễn phí. Không có gì giành giật sự chú ý của bạn." },
-      { "title": "Không có máy chủ trung gian.", "body": "Ứng dụng của chúng tôi kết nối thẳng với thiết bị của bạn. Chúng tôi không bao giờ thấy dữ liệu của bạn." },
-      { "title": "Công khai mã nguồn.", "body": "Mỗi bản phát hành đều được đưa lên một kho mã công khai theo giấy phép AGPL-3.0." },
-      { "title": "Email nào cũng được trả lời.", "body": "Hãy viết cho {email}. Người thật sẽ đọc thư của bạn." }
+      {
+        "title": "Trả một lần, hoặc không trả gì.",
+        "body": "Ứng dụng nào thu phí thì là mua một lần. Không có gì tự gia hạn."
+      },
+      {
+        "title": "Không cần tài khoản.",
+        "body": "Không phải đăng ký gì cả. Cài xong là dùng được ngay."
+      },
+      {
+        "title": "Giải thích quyền trước khi bạn cấp.",
+        "body": "Mỗi ứng dụng đều nói rõ một quyền dùng để làm gì và không bao giờ làm gì, ngay trong ứng dụng và trong chính sách quyền riêng tư khớp với mã nguồn."
+      },
+      {
+        "title": "Email nào cũng được trả lời.",
+        "body": "Hãy viết cho {email}. Người thật sẽ đọc thư của bạn."
+      }
     ],
     "contactHeading": "Liên hệ",
     "contactBody": "Studio, báo chí và hợp tác: {email}. Mỗi ứng dụng có địa chỉ hỗ trợ riêng trên trang hỗ trợ của nó."
   },
   "about": {
     "title": "Giới thiệu DappleByte",
-    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: không quảng cáo, không thuê bao, không có máy chủ nào đứng giữa bạn và thiết bị của bạn, mã nguồn công khai theo AGPL-3.0.",
+    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android. Một nhà phát triển, vài ứng dụng, không thuê bao, không tài khoản, và có người thật trả lời từng email.",
     "whatHeading": "DappleByte là gì",
     "whatBody": "DappleByte là một studio độc lập chuyên làm ứng dụng Android. Một nhà phát triển, vài ứng dụng, mỗi ứng dụng làm tốt một việc cụ thể rồi không làm phiền bạn thêm.",
     "howHeading": "Cách chúng tôi làm việc",
-    "openSourceHeading": "Mã nguồn mở",
-    "openSourceBody": "Mọi bản phát hành của mọi ứng dụng đều được công khai mã nguồn theo AGPL-3.0. Đường dẫn tới kho mã có trên trang của từng ứng dụng. Bạn có thể xem chính xác ứng dụng làm gì, tự build, hoặc kiểm tra chính sách quyền riêng tư có khớp với mã hay không.",
+    "openSourceHeading": "Mã nguồn",
+    "openSourceBody": "Ứng dụng nào được công khai mã nguồn thì đường dẫn nằm trên trang của ứng dụng đó và trong tài liệu báo chí. Relaypad được công khai mã nguồn theo AGPL-3.0.",
     "contactHeading": "Liên hệ",
     "contactBody": "Studio, báo chí và hợp tác: {email}. Hỗ trợ cho từng ứng dụng thì gửi tới địa chỉ trên trang hỗ trợ của ứng dụng đó, để thư đến đúng hộp thư và có đủ thông tin cần thiết.",
     "trademarksHeading": "Nhãn hiệu",
@@ -90,32 +94,28 @@
     "faqHeading": "Câu hỏi thường gặp",
     "faqAll": "Tất cả câu hỏi",
     "getHeading": "Tải {name}",
-    "getBody": "Có trên Google Play cho Android. Mã nguồn được công khai theo {license}.",
+    "getBody": "Có trên Google Play cho Android.",
+    "getBodySource": "Mã nguồn được công khai theo {license}.",
     "requiresLabel": "Yêu cầu",
     "videoHeading": "Xem ứng dụng hoạt động",
-    "allVideos": "Tất cả video",
-    "moreHeading": "Thêm về {name}"
+    "allVideos": "Tất cả video"
   },
   "features": {
     "title": "{feature} · {name}",
     "indexHeading": "Tính năng",
     "relatedFaq": "Câu hỏi liên quan",
     "backToProduct": "Quay lại {name}",
-    "allFeatures": "Tất cả tính năng của {name}",
-    "inShort": "Tóm tắt"
+    "allFeatures": "Tất cả tính năng của {name}"
   },
   "faq": {
     "title": "Câu hỏi thường gặp về {name}",
     "sectionTitle": "{section} · Câu hỏi thường gặp về {name}",
-    "description": "Giải đáp về {name}: các cách chơi, kết nối, đăng nhập, chất lượng stream, tay cầm, mua và hoàn tiền.",
     "sectionDescription": "Câu hỏi thường gặp về {name}, {section}: {count} câu hỏi kèm câu trả lời đầy đủ.",
     "intro": "Các câu trả lời này cũng có trong ứng dụng, tại Cài đặt → Câu hỏi thường gặp. Mỗi mục là một trang, mỗi câu hỏi có đường dẫn riêng.",
+    "englishOnly": "Trong lúc chờ bản dịch, phần Câu hỏi thường gặp này tạm hiển thị bằng tiếng Anh.",
     "questionsCount": "{count} câu hỏi",
     "notFoundHeading": "Chưa tìm thấy câu trả lời?",
-    "notFoundBody": "Hãy viết cho chúng tôi, kèm kiểu máy điện thoại, máy chơi game của bạn và chuyện đã xảy ra. Mọi tin nhắn đều do người thật đọc.",
     "notFoundCta": "Đến trang hỗ trợ",
-    "prev": "Trước",
-    "next": "Tiếp",
     "allSections": "Tất cả các mục",
     "linkToQuestion": "Đường dẫn tới câu hỏi này"
   },
@@ -123,11 +123,6 @@
     "title": "Hỗ trợ {name}",
     "description": "Nhận trợ giúp với {name}: nên kiểm tra gì trước, cách viết cho chúng tôi, cần gửi kèm gì và cách hoàn tiền.",
     "beforeHeading": "Trước khi viết thư",
-    "beforeItems": [
-      "Mở phần Câu hỏi thường gặp. Phần lớn thắc mắc về kết nối, đăng nhập và hình ảnh đã được giải đáp ở đó, với cách diễn đạt giống trong ứng dụng.",
-      "Nếu ứng dụng không kết nối được, hãy chạy Chẩn đoán kết nối trong Cài đặt. Công cụ này kiểm tra mạng, máy chơi game và Remote Play, và có thể gửi báo cáo cho chúng tôi qua email chỉ với một chạm.",
-      "Đảm bảo máy chơi game đang bật hoặc ở chế độ nghỉ, và Remote Play đã được bật trong phần cài đặt của máy."
-    ],
     "writeHeading": "Viết cho chúng tôi",
     "writeBody": "Nút này mở ứng dụng email với tiêu đề đã điền sẵn. Nếu không có gì mở ra, hãy chép địa chỉ và danh sách bên dưới vào một email bất kỳ.",
     "writeButton": "Gửi email tới {email}",
@@ -135,23 +130,13 @@
     "copied": "Đã sao chép",
     "subject": "[{name}] ",
     "templateHeading": "Nên gửi kèm",
-    "template": {
-      "phone": "Kiểu máy điện thoại:",
-      "android": "Phiên bản Android:",
-      "console": "Máy chơi game: PS5 / PS4",
-      "where": "Ở nhà hay ở ngoài:",
-      "what": "Chuyện gì đã xảy ra, từng bước:",
-      "doctor": "Nếu đã chạy Chẩn đoán kết nối, hãy dán báo cáo vào đây."
-    },
     "refundHeading": "Hoàn tiền",
-    "refundBody": "Nếu {name} không chạy được với thiết bị của bạn, hãy email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền. Hãy cho biết bạn đã thử những gì; điều đó giúp chúng tôi sửa lỗi cho người dùng sau.",
     "replyHeading": "Khi nào bạn nhận được phản hồi",
     "replyBody": "Thường trong vòng hai ngày làm việc. Mọi tin nhắn đều do người thật đọc, và tin nhắn nào cũng được trả lời.",
     "faqLink": "Đọc Câu hỏi thường gặp trước"
   },
   "privacy": {
     "title": "Chính sách quyền riêng tư của {name}",
-    "description": "{name} cho Android làm gì với dữ liệu của bạn: không cần tài khoản, không có máy chủ của chúng tôi, dữ liệu nào ở lại trên thiết bị và ứng dụng kết nối tới đâu.",
     "effective": "Có hiệu lực từ {date}",
     "appliesTo": "Áp dụng cho {name} trên Android ({appId}), phát hành trên Google Play.",
     "governing": "Chính sách này được công bố bằng tiếng Anh. Các bản dịch, nếu có, chỉ để tiện theo dõi; bản tiếng Anh là bản có giá trị.",
@@ -173,16 +158,19 @@
   },
   "videos": {
     "title": "Video về {name}",
-    "description": "Video ngắn quay {name} trên điện thoại thật: thiết lập, stream, bố cục tay cầm và cách xử lý sự cố kết nối.",
     "emptyHeading": "Video sắp có",
     "emptyBody": "Chúng tôi đang quay hướng dẫn cho từng tính năng. Trong lúc chờ, các trang tính năng và Câu hỏi thường gặp có cùng nội dung.",
-    "kinds": { "promo": "Tổng quan", "tutorial": "Hướng dẫn", "troubleshooting": "Xử lý sự cố" },
+    "kinds": {
+      "promo": "Tổng quan",
+      "tutorial": "Hướng dẫn",
+      "troubleshooting": "Xử lý sự cố"
+    },
     "watchOn": "Xem trên YouTube",
-    "play": "Phát video"
+    "play": "Phát video",
+    "playlist": "Xem danh sách phát trên YouTube"
   },
   "compare": {
     "title": "So sánh {name}",
-    "description": "{name} so với PS Remote Play, PXPlay và Chiaki trên Android, từng tính năng một, chỉ có dữ kiện.",
     "intro": "Chỉ có dữ kiện, đối chiếu với trang cửa hàng hoặc trang web của từng ứng dụng. Mỗi ứng dụng được mô tả theo thời điểm ghi bên dưới; phiên bản mới hơn có thể khác. Trang này không chấm điểm ứng dụng nào, và chúng tôi không khẳng định ứng dụng nào tốt hơn về tổng thể.",
     "verified": "Kiểm tra ngày {date}",
     "notVerified": "Các cột khác chưa được kiểm chứng, nên trang này chưa được đưa lên công cụ tìm kiếm.",
@@ -196,6 +184,12 @@
       "tv-output": "Xuất ra TV qua HDMI",
       "connection-doctor": "Chẩn đoán kết nối tích hợp",
       "open-source": "Mã nguồn mở",
+      "no-root": "Không cần root",
+      "stick-trigger-mapping": "Ánh xạ cần analog và cò L2/R2",
+      "phases": "Nhiều layout cho mỗi game, đổi ngay trong game",
+      "macros": "Macro",
+      "turbo": "Turbo (tự lặp lại)",
+      "combos": "Tổ hợp nút",
       "pricing-model": "Hình thức tính phí"
     },
     "values": {
@@ -205,11 +199,10 @@
       "unknown": "Chưa kiểm tra",
       "one-time": "Mua một lần",
       "free": "Miễn phí",
-      "subscription": "Thuê bao"
+      "subscription": "Thuê bao",
+      "free-with-pro": "Miễn phí, Pro mua một lần"
     },
     "vsTitle": "{name} và {other}",
-    "vsDescription": "So sánh {name} và {other} trên Android, từng tính năng một: Remote Play khi ở ngoài, HEVC và HDR, tay cầm, xuất ra TV, mã nguồn mở và giá.",
-    "vsIntro": "Cả hai đều kết nối thiết bị Android với PS5 hoặc PS4. Dưới đây là những điểm khác nhau, từng tính năng một.",
     "fullComparison": "Xem bảng so sánh đầy đủ"
   },
   "changelog": {
@@ -221,7 +214,6 @@
   },
   "press": {
     "title": "Tài liệu báo chí về {name}",
-    "description": "Dữ kiện, tư liệu và đoạn giới thiệu soạn sẵn để viết về {name}, ứng dụng tay cầm Remote Play và stream máy chơi game cho Android.",
     "intro": "Mọi thứ trên trang này đều có thể dùng trong bài viết, video và trang giới thiệu ứng dụng mà không cần xin phép. Nếu cần thêm gì, hãy viết cho chúng tôi.",
     "factsHeading": "Thông tin tóm tắt",
     "facts": {
@@ -231,7 +223,6 @@
       "firstReleased": "Phát hành lần đầu",
       "currentVersion": "Phiên bản hiện tại",
       "price": "Giá",
-      "priceValue": "Ứng dụng trả phí, mua một lần, không thuê bao, không quảng cáo. Giá hiện tại hiển thị trên Google Play.",
       "languages": "Ngôn ngữ",
       "license": "Giấy phép",
       "website": "Trang web",
@@ -241,11 +232,9 @@
     },
     "oneLineHeading": "Một câu giới thiệu",
     "boilerplateHeading": "Đoạn giới thiệu",
-    "boilerplate": "{name} biến điện thoại Android thành tay cầm không dây cho PS5 hoặc PS4, hoặc stream hình ảnh từ máy chơi game sang điện thoại, máy tính bảng hay TV, ở nhà hoặc ở ngoài qua dữ liệu di động. Ứng dụng do DappleByte, một studio độc lập, phát triển và được công khai mã nguồn theo AGPL-3.0.",
     "assetsHeading": "Tư liệu",
     "assetIcon": "Biểu tượng ứng dụng, PNG 512 px",
     "assetFeature": "Ảnh nổi bật, PNG 1024 × 500",
-    "assetScreenshots": "Ảnh chụp màn hình, PNG 1920 × 1080, tiếng Anh",
     "assetStudioMark": "Logo DappleByte, SVG",
     "screenshotN": "Ảnh chụp màn hình {index}",
     "contactHeading": "Liên hệ báo chí",
@@ -258,5 +247,137 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 và PS4 là nhãn hiệu của Sony Interactive Entertainment Inc. {name} không liên kết với Sony và không được Sony chứng thực."
+  },
+  "videoItems": {
+    "gamepad-pro": {
+      "a01-tutorial": {
+        "title": "Cách tạo ánh xạ phím, từng bước một",
+        "description": "Chọn game, thêm một nút, bấm nút tay cầm bạn muốn dùng, kéo nó tới đúng vị trí trên màn hình, rồi lưu lại và chơi."
+      },
+      "a01-ad": {
+        "title": "Chơi game cảm ứng bằng tay cầm",
+        "description": "Xem nhanh cách Gamepad Pro biến nút, cần analog và cò của tay cầm thành thao tác chạm trong một game chỉ hỗ trợ cảm ứng."
+      },
+      "a02-ad": {
+        "title": "Một nút. Năm kiểu thao tác",
+        "description": "Một nút trên tay cầm có thể là chạm, giữ, vuốt, turbo hoặc macro chạm lần lượt nhiều vị trí; video chỉ cách chọn trong trình chỉnh sửa."
+      },
+      "t01": {
+        "title": "Ánh xạ cần analog và L2/R2",
+        "description": "Hai cần analog và hai cò đã có sẵn trong mọi layout mới: kéo chúng vào vị trí, rồi chạm vào một cái để chọn vuốt camera hoặc joystick di chuyển và chỉnh độ nhạy."
+      },
+      "t02": {
+        "title": "Nút đặt sai chỗ? Sửa ngay mà không cần thoát game",
+        "description": "Trong lúc chơi, chạm vào nút nổi để hiện layout đè lên game, kéo nút tới đúng chỗ rồi áp dụng mà không cần thoát game."
+      },
+      "p01": {
+        "title": "Mỗi lúc chỉ bấm được một nút?",
+        "description": "Khi lần chạm thứ hai bị mất, trước hết hãy cập nhật lên bản mới nhất, rồi làm theo các bước trong Settings › Advanced multi-touch."
+      },
+      "p02": {
+        "title": "Không nhận tay cầm?",
+        "description": "Kiểm tra kết nối Bluetooth hoặc USB và việc ghép đôi trong cài đặt Android, kết nối lại tay cầm và đảm bảo tay cầm đang ở đúng chế độ."
+      },
+      "p03": {
+        "title": "Nút bấm được nhưng cần analog không ăn?",
+        "description": "Vì sao trên một số phiên bản Android, cần analog và cò phải dùng bàn phím Gamepad Pro, và cách bật bàn phím này để ánh xạ được."
+      },
+      "p04": {
+        "title": "Đang ánh xạ bình thường bỗng dưng ngừng?",
+        "description": "Android có thể đóng ứng dụng chạy nền để tiết kiệm pin; tắt tối ưu hóa pin cho Gamepad Pro giúp ánh xạ của bạn tiếp tục chạy."
+      },
+      "p05": {
+        "title": "Vì sao cần quyền Trợ năng?",
+        "description": "Dịch vụ Trợ năng dùng để làm gì: biến thao tác bấm nút thành chạm và vuốt, không đọc hay tải lên nội dung trên màn hình của bạn."
+      },
+      "p06": {
+        "title": "Màn hình không nhận ngón tay nữa?",
+        "description": "Cách tạm dừng mọi ánh xạ cùng lúc, bằng công tắc ở màn hình chính của ứng dụng hoặc từ Cài đặt nhanh khi không quay lại ứng dụng được."
+      },
+      "p07": {
+        "title": "Bàn phím bị đổi, giờ gõ chữ kiểu gì?",
+        "description": "Chạm vào biểu tượng quả địa cầu để quay về bàn phím của bạn, hoặc bật tự động chuyển để Gamepad Pro chỉ dùng bàn phím của nó khi ánh xạ đang chạy."
+      }
+    }
+  },
+  "products": {
+    "gamepad-pro": {
+      "kicker": "Ánh xạ phím tay cầm · Không root",
+      "heroPoints": [
+        "Nút, cần analog và cò L2/R2 thành chạm, giữ và vuốt",
+        "Mỗi game một layout, thêm Phase cho từng giai đoạn trong game",
+        "Macro, turbo và tổ hợp nút. Không root, không clone"
+      ],
+      "faqDescription": "Giải đáp về Gamepad Pro: thiết lập và quyền, tạo ánh xạ phím, cần analog và cò, tay cầm, Pro và sao lưu.",
+      "faqNotFoundBody": "Hãy viết cho chúng tôi, kèm kiểu máy điện thoại, tay cầm, game và chuyện đã xảy ra. Mọi tin nhắn đều do người thật đọc.",
+      "support": {
+        "beforeItems": [
+          "Mở phần Câu hỏi thường gặp. Phần lớn thắc mắc về thiết lập, quyền và ánh xạ đã được giải đáp ở đó, với cách diễn đạt giống trong ứng dụng.",
+          "Kiểm tra Dịch vụ Trợ năng đang bật và ánh xạ không bị tạm dừng. Nếu trước đó chạy được rồi bỗng ngừng, thủ phạm thường là tối ưu hóa pin; các bước xử lý có trong Câu hỏi thường gặp.",
+          "Ghi lại game nào, tay cầm nào và chuyện gì xảy ra trên màn hình khi bạn bấm nút. Đó chính là thứ chúng tôi cần để tái hiện lỗi."
+        ],
+        "template": {
+          "phone": "Kiểu máy điện thoại:",
+          "android": "Phiên bản Android:",
+          "controller": "Tay cầm (mẫu, USB hay Bluetooth):",
+          "game": "Game hoặc ứng dụng:",
+          "what": "Chuyện gì đã xảy ra, từng bước:",
+          "pro": "Đã mua Pro: có / không"
+        },
+        "refundBody": "Gamepad Pro cài đặt miễn phí. Nếu bạn đã mua Pro mà nó không chạy được với thiết bị của bạn, hãy email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền. Hãy cho biết bạn đã thử những gì; điều đó giúp chúng tôi sửa lỗi cho người dùng sau."
+      },
+      "press": {
+        "description": "Dữ kiện, tư liệu và đoạn giới thiệu soạn sẵn để viết về Gamepad Pro, ứng dụng ánh xạ phím tay cầm cho Android.",
+        "boilerplate": "Gamepad Pro biến chiếc tay cầm bạn đang có thành thao tác chạm cho các game Android không hỗ trợ tay cầm: nút, cần analog và cò trở thành chạm, giữ và vuốt, kèm layout riêng cho từng game, Phase, macro, turbo và tổ hợp nút. Không cần root. Ứng dụng do DappleByte, một studio độc lập, phát triển.",
+        "priceValue": "Cài đặt miễn phí, có quảng cáo. Mua Pro một lần để bỏ quảng cáo và mở khóa mọi tính năng Pro; không có thuê bao. Giá hiện tại hiển thị trên Google Play.",
+        "assetScreenshots": "Ảnh chụp màn hình điện thoại, PNG, tiếng Anh (dọc 1080 × 1920; ảnh trình chỉnh sửa là ảnh ngang)"
+      },
+      "videosDescription": "Video ngắn quay Gamepad Pro trên điện thoại thật: tạo ánh xạ phím, cần analog và cò, sửa layout ngay giữa game, và các sự cố hay gặp nhất.",
+      "privacyDescription": "Gamepad Pro cho Android làm gì với dữ liệu của bạn: không cần tài khoản, Dịch vụ Trợ năng dùng để làm gì, SDK phân tích và quảng cáo thu thập những gì, và cách tắt phần thu thập không bắt buộc.",
+      "compare": {
+        "description": "Gamepad Pro so với các ứng dụng ánh xạ tay cầm khác trên Android, từng tính năng một, chỉ có dữ kiện.",
+        "vsDescription": "So sánh {name} và {other} trên Android, từng tính năng một: root, cần analog và cò, layout theo từng game, macro, turbo và giá.",
+        "vsIntro": "Cả hai đều ánh xạ tay cầm sang game cảm ứng trên Android. Đây là những điểm khác nhau, từng tính năng một."
+      }
+    },
+    "relaypad": {
+      "kicker": "PS5 · PS4",
+      "heroPoints": [
+        "Chơi tiếp khi tay cầm vừa hết pin",
+        "Duyệt menu máy chơi game và ứng dụng xem video bằng phím remote cỡ lớn",
+        "Nằm trên giường hoặc chơi ở phòng khác, máy vẫn để cạnh TV"
+      ],
+      "faqDescription": "Giải đáp về {name}: các cách chơi, kết nối, đăng nhập, chất lượng stream, tay cầm, mua và hoàn tiền.",
+      "faqNotFoundBody": "Hãy viết cho chúng tôi, kèm kiểu máy điện thoại, máy chơi game của bạn và chuyện đã xảy ra. Mọi tin nhắn đều do người thật đọc.",
+      "support": {
+        "beforeItems": [
+          "Mở phần Câu hỏi thường gặp. Phần lớn thắc mắc về kết nối, đăng nhập và hình ảnh đã được giải đáp ở đó, với cách diễn đạt giống trong ứng dụng.",
+          "Nếu ứng dụng không kết nối được, hãy chạy Chẩn đoán kết nối trong Cài đặt. Công cụ này kiểm tra mạng, máy chơi game và Remote Play, và có thể gửi báo cáo cho chúng tôi qua email chỉ với một chạm.",
+          "Đảm bảo máy chơi game đang bật hoặc ở chế độ nghỉ, và Remote Play đã được bật trong phần cài đặt của máy."
+        ],
+        "template": {
+          "phone": "Kiểu máy điện thoại:",
+          "android": "Phiên bản Android:",
+          "console": "Máy chơi game: PS5 / PS4",
+          "where": "Ở nhà hay ở ngoài:",
+          "what": "Chuyện gì đã xảy ra, từng bước:",
+          "doctor": "Nếu đã chạy Chẩn đoán kết nối, hãy dán báo cáo vào đây."
+        },
+        "refundBody": "Nếu {name} không chạy được với thiết bị của bạn, hãy email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền. Hãy cho biết bạn đã thử những gì; điều đó giúp chúng tôi sửa lỗi cho người dùng sau."
+      },
+      "press": {
+        "description": "Dữ kiện, tư liệu và đoạn giới thiệu soạn sẵn để viết về {name}, ứng dụng tay cầm Remote Play và stream máy chơi game cho Android.",
+        "boilerplate": "{name} biến điện thoại Android thành tay cầm không dây cho PS5 hoặc PS4, hoặc stream hình ảnh từ máy chơi game sang điện thoại, máy tính bảng hay TV, ở nhà hoặc ở ngoài qua dữ liệu di động. Ứng dụng do DappleByte, một studio độc lập, phát triển và được công khai mã nguồn theo AGPL-3.0.",
+        "priceValue": "Ứng dụng trả phí, mua một lần, không thuê bao, không quảng cáo. Giá hiện tại hiển thị trên Google Play.",
+        "assetScreenshots": "Ảnh chụp màn hình, PNG 1920 × 1080, tiếng Anh"
+      },
+      "videosDescription": "Video ngắn quay {name} trên điện thoại thật: thiết lập, stream, bố cục tay cầm và cách xử lý sự cố kết nối.",
+      "privacyDescription": "{name} cho Android làm gì với dữ liệu của bạn: không cần tài khoản, không có máy chủ của chúng tôi, dữ liệu nào ở lại trên thiết bị và ứng dụng kết nối tới đâu.",
+      "compare": {
+        "description": "{name} so với PS Remote Play, PXPlay và Chiaki trên Android, từng tính năng một, chỉ có dữ kiện.",
+        "vsDescription": "So sánh {name} và {other} trên Android, từng tính năng một: Remote Play khi ở ngoài, HEVC và HDR, tay cầm, xuất ra TV, mã nguồn mở và giá.",
+        "vsIntro": "Cả hai đều kết nối thiết bị Android với PS5 hoặc PS4. Dưới đây là những điểm khác nhau, từng tính năng một."
+      }
+    }
   }
 }

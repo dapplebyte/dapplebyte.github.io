@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "pt-br",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 ou mais recente: a configuração agora tem um passo só. Os analógicos e gatilhos do controle funcionam sem o teclado Gamepad Pro.",
+        "Não precisa mais do teclado Gamepad Pro? Uma dica única mostra como desativá-lo, e seu teclado de sempre não é mais trocado.",
+        "Corrigida uma falha ao ativar o serviço no modo paisagem.",
+        "Melhorias de estabilidade."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "Nova configuração: \"Sensibilidade dos gatilhos (LT/RT)\".",
+        "Nova configuração: \"Enviar ao jogo os controles não mapeados\", ótima para jogos na nuvem.",
+        "\"Opções de mapeamento padrão\" voltaram às configurações.",
+        "O analógico direito agora funciona em mais controles de terceiros.",
+        "Corrigidos LT/RT segurados, botões apertados juntos e toques travados ao usar muitos botões.",
+        "Corrigidos caneta detectada como controle, botão flutuante que não voltava e travamentos ocasionais."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Corrigido: o serviço de mapeamento caía no meio do jogo e os botões ficavam mortos.",
+        "Corrigido: ações de «segurar para alternar» paravam depois do primeiro toque.",
+        "Android 10 ou anterior: tocar no chat do jogo agora abre o seu teclado de sempre.",
+        "Os mapeamentos funcionam só com teclado externo, sem controle.",
+        "Corrigidas as falhas ao desconectar o controle e ao abrir diálogos após voltar do segundo plano.",
+        "Permissão de localização removida."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Tablets, dobráveis e tela dividida: o editor de mapeamento de teclas e «Testar controle» não ficam mais presos a uma única orientação.",
+        "Seis novas respostas das Perguntas frequentes e ajuda têm vídeo de demonstração.",
+        "Layout de ponta a ponta: as telas de introdução e política de privacidade não ficam mais encobertas pelas barras do sistema.",
+        "Os fundos do editor agora são decodificados no tamanho da tela: usam muito menos memória e o arrastar segue fluido."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Corrigido: após uma ou duas horas, analógicos e gatilhos paravam de responder até reiniciar o serviço.",
+        "Corrigido: botões segurados disparavam sozinhos até desligar o serviço de acessibilidade.",
+        "Salvar um layout com analógicos ou gatilhos não pede mais a configuração do teclado; ela é checada ao iniciar o jogo.",
+        "Perguntas frequentes e ajuda: videotutoriais e quatro perguntas novas.",
+        "Corrigidas as etiquetas LB/RB e LT/RT trocadas em «Testar controle»."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

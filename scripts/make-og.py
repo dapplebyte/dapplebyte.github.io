@@ -52,11 +52,12 @@ d.text((80, y + 24), 'An independent studio building Android apps.', font=font(3
 d.text((80, 560), 'DAPPLEBYTE.COM', font=font(22), fill=ACCENT)
 im.save(os.path.join(OUT, 'dapplebyte.png'), optimize=True)
 
-# Products: icon + name + tagline
+# Products: icon + name + tagline + the product's accent for the address line
 products = {
-    'relaypad': ('Relaypad', 'Remote Play controller and console streaming for PS5 and PS4 on Android.', os.path.join(ROOT, 'public/relaypad/icon.png')),
+    'relaypad': ('Relaypad', 'Remote Play controller and console streaming for PS5 and PS4 on Android.', os.path.join(ROOT, 'public/relaypad/icon.png'), '#FF9426'),
+    'gamepad-pro': ('Gamepad Pro', 'Map controller keys to touch. Sticks, triggers, macros, turbo. No root.', os.path.join(ROOT, 'public/gamepad-pro/icon.png'), '#E4345A'),
 }
-for slug, (name, tagline, icon) in products.items():
+for slug, (name, tagline, icon, accent) in products.items():
     im, d = base()
     mark(d, 80, 80, 44)
     d.text((140, 82), 'DappleByte', font=font(32), fill=MUTED)
@@ -69,6 +70,6 @@ for slug, (name, tagline, icon) in products.items():
     y = 350
     for line in wrap(d, tagline, font(40, False), 1040):
         d.text((80, y), line, font=font(40, False), fill=MUTED); y += 52
-    d.text((80, 560), f'DAPPLEBYTE.COM/{slug.upper()}', font=font(22), fill='#FF9426')
+    d.text((80, 560), f'DAPPLEBYTE.COM/{slug.upper()}', font=font(22), fill=accent)
     im.save(os.path.join(OUT, f'{slug}.png'), optimize=True)
 print('ok', os.listdir(OUT))

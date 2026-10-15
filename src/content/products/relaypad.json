@@ -1,7 +1,7 @@
 {
   "slug": "relaypad",
   "name": "Relaypad",
-  "order": 1,
+  "order": 2,
   "status": "live",
   "platform": "Android",
   "applicationId": "com.relaypad.remoteplay.app",
@@ -21,5 +21,11 @@
   "screenshotCount": 8,
   "featuredFaq": ["home_card_modes", "extra_controller", "away_from_home", "same_network_but_not", "hevc_hdr_unavailable", "paid_not_subscription"],
   "trademark": "sony",
-  "languages": 19
+  "languages": 19,
+  "overview": {
+    "useCases": "use-cases",
+    "cells": ["pricing", "privacy", "before-you-buy"],
+    "privacyLinkIn": "privacy",
+    "fine": "trademark"
+  }
 }

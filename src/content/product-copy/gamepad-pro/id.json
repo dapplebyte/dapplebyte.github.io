@@ -1,0 +1,169 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "id",
+  "title": "Gamepad Pro: Controller Mapper",
+  "shortDescription": "Pemetaan tombol gamepad ke sentuhan: stik, trigger, makro, turbo — tanpa root.",
+  "tagline": "Gamepad Pro adalah pemetaan tombol kontroler untuk Android: ubah gamepad yang sudah kamu punya jadi kontrol sentuh dan mainkan game touch-only pakai tombol asli. Tanpa root.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Gamepad Pro: Controller Mapper",
+      "paragraphs": [
+        "Gamepad Pro adalah pemetaan tombol kontroler untuk Android: ubah gamepad yang sudah kamu punya jadi kontrol sentuh dan mainkan game touch-only pakai tombol asli. Tanpa root.",
+        "Petakan tombol, kedua stik analog, dan trigger L2/R2 jadi tap, tahan, dan swipe. Buat layout per game, ganti layout di tengah match, lalu tambahkan makro, turbo, dan kombo.",
+        "Tanpa cloning, tanpa ADB untuk setup inti. Petakan kontrolmu, langsung main."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "drag-map-play",
+      "title": "Seret. Petakan. Main.",
+      "paragraphs": [
+        "Tambahkan game, buka editor pemetaan, lalu seret tiap kontrol ke titik yang pas di layar. Simpan, lalu jalankan game langsung dari Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "mapping",
+      "title": "Pemetaan tombol, stik & trigger",
+      "paragraphs": [
+        "Petakan tombol kontroler, kedua stik analog, D-pad, dan trigger analog jadi tap, tahan, dan swipe, dengan sensitivitas stik yang bisa diatur."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "multi-button",
+      "title": "Kontrol multi-tombol",
+      "paragraphs": [
+        "Gerak, bidik, dan menyerang sekaligus — dibuat untuk game yang butuh beberapa input bersamaan."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "profiles",
+      "title": "Satu profil untuk tiap game",
+      "paragraphs": [
+        "Simpan pemetaan terpisah per game, jadi kamu selalu kembali ke layout yang benar."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "phases",
+      "title": "Phase — banyak layout untuk satu game",
+      "paragraphs": [
+        "Buat beberapa Phase untuk bagian berbeda dalam game yang sama, misalnya Gerak, Nyetir, Terjun, Tempur, atau Menu."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "phase-switch",
+      "title": "Ganti phase saat main",
+      "paragraphs": [
+        "Pilih Phase lain dari tombol melayang tanpa keluar dari game, atau set satu tombol untuk memutar layout seketika."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "combos",
+      "title": "Tombol kombinasi",
+      "paragraphs": [
+        "Pakai kombinasi tombol kontroler sebagai satu pemicu, menambah shortcut tanpa mengorbankan kontrol yang ada."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "macros",
+      "title": "Makro satu tombol",
+      "paragraphs": [
+        "Susun rangkaian aksi sentuh dan jalankan semuanya dari satu input kontroler — pas untuk rutinitas yang berulang."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "turbo",
+      "title": "Aksi turbo",
+      "paragraphs": [
+        "Tahan tombol untuk mengulang aksi sentuh otomatis, dengan kecepatan ulang yang kamu atur per aksi."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "vibration",
+      "title": "Umpan balik getaran",
+      "paragraphs": [
+        "Rasakan getaran tiap kali kontrol yang dipetakan aktif, dalam level ringan, sedang, atau kuat."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "any-game",
+      "title": "Cocok untuk semua jenis game",
+      "paragraphs": [
+        "Shooter dan battle royale, MOBA dan MMORPG, balapan, action RPG, open world, fighting, survival, idle dan clicker, plus emulator retro — selama game-nya menerima input sentuh, kamu bisa memetakan kontroler ke sana."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Tanpa cloning, tanpa root, tanpa ADB",
+      "paragraphs": [
+        "Gamepad Pro memetakan input kontroler langsung ke aksi layar: tanpa salinan game, tanpa root, dan tanpa ADB untuk setup inti. Beberapa opsi lanjutan bisa memakai Shizuku; pemetaannya sendiri tidak."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "controllers",
+      "title": "Kompatibilitas kontroler luas",
+      "paragraphs": [
+        "Gamepad Pro bekerja dengan banyak kontroler kabel dan nirkabel yang didukung Android, dan label tombolnya bisa menyesuaikan layout kontroler populer."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "get-started",
+      "title": "Cara memulai",
+      "paragraphs": [],
+      "bullets": [
+        "Buka Gamepad Pro dan ikuti panduan setup.",
+        "Aktifkan Layanan Aksesibilitas dan hubungkan kontrolermu.",
+        "Aktifkan keyboard Gamepad Pro untuk stik dan trigger L2/R2.",
+        "Ketuk Tambah, pilih game, seret kontrol ke posisinya.",
+        "Simpan, jalankan game, dan main."
+      ]
+    },
+    {
+      "id": "permissions",
+      "title": "Izin",
+      "paragraphs": [
+        "Layanan Aksesibilitas:",
+        "Gamepad Pro memakai AccessibilityService API milik Android untuk mengubah aksi kontroler yang kamu atur jadi tap dan swipe. Izin ini wajib agar pemetaan jalan di luar aplikasi, hanya menjalankan aksi yang kamu buat, dan tidak pernah mengumpulkan atau mengunggah data pribadimu."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "keyboard",
+      "title": "Gamepad Pro Keyboard",
+      "paragraphs": [
+        "Layanan Aksesibilitas Android tidak bisa membaca nilai stik analog atau trigger L2/R2. Metode input Gamepad Pro menangkap input ini agar bisa dipetakan dengan benar, dan bisa juga dipakai untuk mengetik."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "compatibility",
+      "title": "Kompatibilitas",
+      "paragraphs": [
+        "Kompatibilitas bisa berbeda tergantung perangkat, versi Android, kontroler, dan cara tiap game menangani input sentuh atau overlay."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "help",
+      "title": "Butuh bantuan?",
+      "paragraphs": [
+        "Ulasan di Play Store tidak memberi kami detail yang cukup untuk menelusuri masalah teknis. Kalau ada yang tidak jalan, buka Gamepad Pro lalu ke Setelan > Masukan."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

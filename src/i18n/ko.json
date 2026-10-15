@@ -14,8 +14,6 @@
     "home": "홈"
   },
   "footer": {
-    "studio": "스튜디오",
-    "contact": "문의",
     "languages": "언어",
     "privacy": "웹사이트 개인정보 보호",
     "copyright": "© {year} DappleByte",
@@ -28,12 +26,9 @@
     "learnMore": "자세히 보기"
   },
   "labels": {
-    "apps": "앱",
     "nextApp": "다음 앱",
     "nextAppBody": "만들고 있어요. 출시하면 여기에 올라와요.",
     "lastUpdated": "최종 업데이트 {date}",
-    "android": "Android",
-    "by": "개발: DappleByte",
     "overview": "개요",
     "features": "기능",
     "faq": "자주 묻는 질문",
@@ -42,39 +37,48 @@
     "support": "지원",
     "privacy": "개인정보 보호",
     "changelog": "업데이트 내역",
-    "press": "프레스 키트",
-    "sourceCode": "소스 코드",
-    "googlePlay": "Google Play"
+    "press": "프레스 키트"
   },
   "facts": {
     "minOs": "{version} 이상",
-    "consoles": "PS5 · PS4",
     "languages": "{count}개 언어",
     "source": "{license} 소스 공개",
     "version": "버전 {version}"
   },
   "home": {
     "title": "DappleByte · 독립 스튜디오의 Android 앱",
-    "description": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 대표 앱은 PS5·PS4용 리모트 플레이 컨트롤러이자 콘솔 스트리밍 앱인 Relaypad예요.",
+    "description": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 게임패드를 터치 조작으로 바꿔 주는 컨트롤러 키매핑 앱 Gamepad Pro와, PS5·PS4용 리모트 플레이 컨트롤러이자 콘솔 스트리밍 앱인 Relaypad를 만들어요.",
     "appsHeading": "앱",
     "principlesHeading": "일하는 방식",
     "principles": [
-      { "title": "광고 없음, 구독 없음", "body": "한 번만 사거나, 아예 무료예요. 여러분의 관심을 붙잡아 돈을 벌지 않아요." },
-      { "title": "중간 서버 없음", "body": "앱은 여러분의 기기와 직접 통신해요. 저희는 여러분의 데이터를 보지 않아요." },
-      { "title": "소스 코드 공개", "body": "모든 릴리스를 AGPL-3.0으로 공개 저장소에 올려요." },
-      { "title": "모든 메일에 답장해요", "body": "{email}에 메일을 보내 주세요. 사람이 직접 읽어요." }
+      {
+        "title": "한 번 사거나, 아예 무료",
+        "body": "유료 앱은 모두 한 번만 구매하면 돼요. 자동으로 갱신되는 건 없어요."
+      },
+      {
+        "title": "가입할 계정 없음",
+        "body": "따로 가입할 필요가 없어요. 설치하자마자 바로 쓸 수 있어요."
+      },
+      {
+        "title": "권한은 허용하기 전에 설명해요",
+        "body": "권한을 어디에 쓰는지, 무엇에는 절대 쓰지 않는지 앱 안에서, 그리고 코드와 일치하는 개인정보처리방침에서 알려 드려요."
+      },
+      {
+        "title": "모든 메일에 답장해요",
+        "body": "{email}에 메일을 보내 주세요. 사람이 직접 읽어요."
+      }
     ],
     "contactHeading": "문의",
     "contactBody": "스튜디오, 언론, 제휴 문의: {email}. 앱별 지원 주소는 각 앱의 지원 페이지에 있어요."
   },
   "about": {
     "title": "DappleByte 소개",
-    "description": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 광고도 구독도 없고, 여러분과 기기 사이에 서버를 두지 않으며, 소스 코드는 AGPL-3.0으로 공개해요.",
+    "description": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 개발자는 한 명, 앱은 몇 개뿐이에요. 구독도 계정도 없고, 모든 메일에 사람이 직접 답장해요.",
     "whatHeading": "DappleByte는 어떤 곳인가요",
     "whatBody": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 개발자는 한 명이고, 앱도 몇 개뿐이에요. 앱마다 맡은 일 하나를 제대로 해내고, 그 밖에는 방해되지 않는 것을 목표로 해요.",
     "howHeading": "일하는 방식",
-    "openSourceHeading": "오픈소스",
-    "openSourceBody": "모든 앱의 모든 릴리스를 AGPL-3.0에 따라 소스 코드로 공개해요. 저장소 링크는 각 앱 페이지에 있어요. 앱이 정확히 무엇을 하는지 읽어 보거나, 직접 빌드하거나, 개인정보처리방침이 코드와 맞는지 확인할 수 있어요.",
+    "openSourceHeading": "소스 코드",
+    "openSourceBody": "소스 코드를 공개한 앱은 해당 앱 페이지와 프레스 키트에 링크가 있어요. Relaypad는 AGPL-3.0으로 공개돼 있어요.",
     "contactHeading": "문의",
     "contactBody": "스튜디오, 언론, 제휴 문의: {email}. 특정 앱에 대한 지원 문의는 그 앱의 지원 페이지에 있는 주소로 보내 주세요. 그래야 필요한 맥락과 함께 알맞은 곳으로 전달돼요.",
     "trademarksHeading": "상표",
@@ -90,32 +94,28 @@
     "faqHeading": "자주 묻는 질문",
     "faqAll": "모든 질문",
     "getHeading": "{name} 받기",
-    "getBody": "Google Play에서 Android용으로 받을 수 있어요. 소스 코드는 {license} 라이선스로 공개돼 있어요.",
+    "getBody": "Google Play에서 Android용으로 받을 수 있어요.",
+    "getBodySource": "소스 코드는 {license} 라이선스로 공개돼 있어요.",
     "requiresLabel": "요구 사항",
     "videoHeading": "실제로 보기",
-    "allVideos": "모든 동영상",
-    "moreHeading": "{name} 더 알아보기"
+    "allVideos": "모든 동영상"
   },
   "features": {
     "title": "{feature} · {name}",
     "indexHeading": "기능",
     "relatedFaq": "관련 질문",
     "backToProduct": "{name} 페이지로 돌아가기",
-    "allFeatures": "{name} 전체 기능",
-    "inShort": "요약"
+    "allFeatures": "{name} 전체 기능"
   },
   "faq": {
     "title": "{name} 자주 묻는 질문",
     "sectionTitle": "{section} · {name} 자주 묻는 질문",
-    "description": "{name} 관련 답변: 플레이 방식, 연결, 로그인, 스트리밍 화질, 컨트롤러, 결제와 환불.",
     "sectionDescription": "{name} 자주 묻는 질문 · {section}: 질문 {count}개와 전체 답변.",
     "intro": "같은 답변을 앱의 설정 → 자주 묻는 질문에서도 볼 수 있어요. 섹션마다 한 페이지이고, 질문마다 따로 링크가 있어요.",
+    "englishOnly": "번역이 준비될 때까지 이 자주 묻는 질문은 영어로 보여 드려요.",
     "questionsCount": "질문 {count}개",
     "notFoundHeading": "원하는 답을 찾지 못했나요?",
-    "notFoundBody": "휴대폰 모델, 콘솔, 어떤 일이 있었는지 적어서 보내 주세요. 모든 메시지를 사람이 직접 읽어요.",
     "notFoundCta": "지원 페이지로 가기",
-    "prev": "이전",
-    "next": "다음",
     "allSections": "모든 섹션",
     "linkToQuestion": "이 질문 링크"
   },
@@ -123,11 +123,6 @@
     "title": "{name} 지원",
     "description": "{name} 도움말: 먼저 확인할 것, 문의하는 방법, 함께 보내 줄 정보, 환불 방법.",
     "beforeHeading": "문의하기 전에",
-    "beforeItems": [
-      "먼저 자주 묻는 질문을 열어 보세요. 연결, 로그인, 화면 관련 질문은 대부분 앱과 같은 문구로 답이 나와 있어요.",
-      "앱이 연결되지 않으면 설정에서 연결 진단을 실행해 보세요. 네트워크, 콘솔, 리모트 플레이를 점검하고, 한 번만 누르면 결과를 저희에게 메일로 보낼 수 있어요.",
-      "콘솔이 켜져 있거나 대기 모드인지, 그리고 콘솔 설정에서 리모트 플레이가 켜져 있는지 확인하세요."
-    ],
     "writeHeading": "메일 보내기",
     "writeBody": "버튼을 누르면 제목이 채워진 채로 메일 앱이 열려요. 아무것도 열리지 않으면 주소와 아래 체크리스트를 복사해서 아무 메일에나 붙여 넣으세요.",
     "writeButton": "메일 보내기: {email}",
@@ -135,23 +130,13 @@
     "copied": "복사됨",
     "subject": "[{name}] ",
     "templateHeading": "함께 적어 주세요",
-    "template": {
-      "phone": "휴대폰 모델:",
-      "android": "Android 버전:",
-      "console": "콘솔: PS5 / PS4",
-      "where": "집인지 밖인지:",
-      "what": "어떤 일이 있었는지 순서대로:",
-      "doctor": "연결 진단을 실행했다면 결과를 여기에 붙여 넣어 주세요."
-    },
     "refundHeading": "환불",
-    "refundBody": "사용 중인 환경에서 {name} 앱이 작동하지 않으면 구매 후 7일 안에 메일을 보내 주세요. 환불해 드려요. 어떤 걸 시도해 봤는지도 알려 주시면 다음 분을 위해 고치는 데 도움이 돼요.",
     "replyHeading": "답장은 언제 오나요",
     "replyBody": "보통 영업일 기준 2일 안에 답장해요. 모든 메시지를 사람이 직접 읽고, 빠짐없이 답장해요.",
     "faqLink": "자주 묻는 질문 먼저 보기"
   },
   "privacy": {
     "title": "{name} 개인정보처리방침",
-    "description": "Android용 {name} 앱이 데이터를 어떻게 다루는지: 계정 없음, 저희 서버 없음, 기기에 남는 것, 앱이 연결하는 곳.",
     "effective": "시행일 {date}",
     "appliesTo": "Google Play에서 배포하는 Android용 {name}({appId})에 적용돼요.",
     "governing": "이 방침은 영어로 게시돼요. 번역본이 있더라도 참고용이며, 영어 원문이 우선해요.",
@@ -173,16 +158,19 @@
   },
   "videos": {
     "title": "{name} 동영상",
-    "description": "실제 휴대폰에서 {name} 앱을 보여 주는 짧은 영상: 설정, 스트리밍, 컨트롤러 레이아웃, 연결 문제 해결.",
     "emptyHeading": "동영상을 준비하고 있어요",
     "emptyBody": "기능마다 안내 영상을 녹화하고 있어요. 그전까지는 기능 페이지와 자주 묻는 질문에서 같은 내용을 볼 수 있어요.",
-    "kinds": { "promo": "소개", "tutorial": "사용법", "troubleshooting": "문제 해결" },
+    "kinds": {
+      "promo": "소개",
+      "tutorial": "사용법",
+      "troubleshooting": "문제 해결"
+    },
     "watchOn": "YouTube에서 보기",
-    "play": "동영상 재생"
+    "play": "동영상 재생",
+    "playlist": "YouTube에서 재생목록 보기"
   },
   "compare": {
     "title": "{name} 비교",
-    "description": "Android에서 {name} 앱을 PS Remote Play, PXPlay, Chiaki와 기능별로 비교했어요. 사실만 담았어요.",
     "intro": "각 앱의 스토어 페이지나 웹사이트에서 확인한 사실만 담았어요. 내용은 아래 날짜 기준이라 새 버전에서는 다를 수 있어요. 여기서는 어떤 앱도 평가하지 않고, 어느 쪽이 전반적으로 더 낫다고 말하지도 않아요.",
     "verified": "확인일 {date}",
     "notVerified": "다른 열은 아직 확인하지 않아서, 이 페이지는 검색 엔진에 노출하지 않아요.",
@@ -196,6 +184,12 @@
       "tv-output": "HDMI로 TV 출력",
       "connection-doctor": "연결 진단 내장",
       "open-source": "오픈소스",
+      "no-root": "root 없이 작동",
+      "stick-trigger-mapping": "아날로그 스틱과 L2/R2 트리거 매핑",
+      "phases": "게임당 여러 레이아웃, 플레이 중 전환",
+      "macros": "매크로",
+      "turbo": "연사(자동 반복)",
+      "combos": "조합 버튼",
       "pricing-model": "가격 방식"
     },
     "values": {
@@ -205,11 +199,10 @@
       "unknown": "확인 안 함",
       "one-time": "일회성 구매",
       "free": "무료",
-      "subscription": "구독"
+      "subscription": "구독",
+      "free-with-pro": "무료, Pro는 일회성 구매"
     },
     "vsTitle": "{name} vs {other}",
-    "vsDescription": "Android에서 {name} vs {other} 기능별 비교: 집 밖 리모트 플레이, HEVC와 HDR, 컨트롤러, TV 출력, 오픈소스, 가격.",
-    "vsIntro": "둘 다 Android 기기를 PS5나 PS4에 연결해요. 어디가 다른지 기능별로 정리했어요.",
     "fullComparison": "전체 비교 보기"
   },
   "changelog": {
@@ -221,7 +214,6 @@
   },
   "press": {
     "title": "{name} 프레스 키트",
-    "description": "Android용 리모트 플레이 컨트롤러이자 콘솔 스트리밍 앱 {name} 관련 기사를 쓸 때 필요한 정보, 자료, 소개 문구.",
     "intro": "이 페이지의 모든 내용은 기사, 영상, 앱 소개에 따로 허락받지 않고 쓰셔도 돼요. 다른 자료가 필요하면 연락 주세요.",
     "factsHeading": "기본 정보",
     "facts": {
@@ -231,7 +223,6 @@
       "firstReleased": "최초 출시",
       "currentVersion": "현재 버전",
       "price": "가격",
-      "priceValue": "유료 앱이에요. 한 번만 구매하면 되고, 구독도 광고도 없어요. 현재 가격은 Google Play에서 확인할 수 있어요.",
       "languages": "지원 언어",
       "license": "라이선스",
       "website": "웹사이트",
@@ -241,11 +232,9 @@
     },
     "oneLineHeading": "한 줄 소개",
     "boilerplateHeading": "소개 문구",
-    "boilerplate": "{name} 앱은 Android 휴대폰을 PS5나 PS4용 무선 컨트롤러로 바꾸거나, 콘솔 화면을 휴대폰, 태블릿, TV로 스트리밍합니다. 집에서도, 밖에서 모바일 데이터로도 쓸 수 있습니다. 독립 스튜디오 DappleByte가 만들었으며, AGPL-3.0에 따라 오픈소스로 공개되어 있습니다.",
     "assetsHeading": "자료",
     "assetIcon": "앱 아이콘, 512px PNG",
     "assetFeature": "그래픽 이미지, 1024 × 500 PNG",
-    "assetScreenshots": "스크린샷, 1920 × 1080 PNG, 영어",
     "assetStudioMark": "DappleByte 마크, SVG",
     "screenshotN": "스크린샷 {index}",
     "contactHeading": "언론 문의",
@@ -258,5 +247,137 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5, PS4는 Sony Interactive Entertainment Inc.의 상표입니다. {name} 앱은 Sony와 제휴 관계가 없으며, Sony의 보증을 받지 않았습니다."
+  },
+  "videoItems": {
+    "gamepad-pro": {
+      "a01-tutorial": {
+        "title": "키매핑 만드는 법, 단계별로",
+        "description": "게임을 고르고 버튼을 추가한 다음, 쓰고 싶은 컨트롤러 버튼을 누르고 화면의 원하는 위치로 드래그하세요. 저장하면 바로 플레이할 수 있어요."
+      },
+      "a01-ad": {
+        "title": "터치 전용 게임을 컨트롤러로",
+        "description": "터치만 지원하는 게임에서 Gamepad Pro가 컨트롤러의 버튼, 스틱, 트리거를 터치 조작으로 바꾸는 모습을 짧게 보여 드려요."
+      },
+      "a02-ad": {
+        "title": "버튼 하나로 다섯 가지",
+        "description": "컨트롤러 버튼 하나를 탭, 길게 누르기, 스와이프, 연사, 또는 여러 지점을 차례로 탭하는 매크로로 쓸 수 있어요. 편집기에서 고르는 방법을 보여 드려요."
+      },
+      "t01": {
+        "title": "아날로그 스틱과 L2/R2 매핑하기",
+        "description": "새 레이아웃에는 스틱 두 개와 트리거 두 개가 이미 들어 있어요. 원하는 위치로 드래그한 뒤 탭해서 시점 스와이프나 이동 패드를 고르고 감도를 맞추세요."
+      },
+      "t02": {
+        "title": "버튼 위치가 틀렸다면? 게임을 나가지 않고 고치기",
+        "description": "플레이 중에 플로팅 버튼을 탭하면 게임 위에 레이아웃이 나타나요. 버튼을 맞는 위치로 드래그하고, 게임을 나가지 않은 채 바로 적용하세요."
+      },
+      "p01": {
+        "title": "버튼이 한 번에 하나만 먹나요?",
+        "description": "두 번째 터치가 사라질 때는 먼저 최신 버전으로 업데이트한 뒤, 설정 › 고급 멀티터치의 단계를 따라 하세요."
+      },
+      "p02": {
+        "title": "컨트롤러가 인식되지 않나요?",
+        "description": "Bluetooth나 USB 연결과 Android 설정의 페어링을 확인하고, 컨트롤러를 다시 연결한 뒤 올바른 모드인지 확인하세요."
+      },
+      "p03": {
+        "title": "버튼은 되는데 스틱이 안 움직이나요?",
+        "description": "일부 Android 버전에서 아날로그 스틱과 트리거에 Gamepad Pro 키보드가 필요한 이유와, 매핑할 수 있도록 켜는 방법이에요."
+      },
+      "p04": {
+        "title": "잘 되던 매핑이 갑자기 멈췄나요?",
+        "description": "Android는 전력을 아끼려고 백그라운드 앱을 종료할 수 있어요. Gamepad Pro의 배터리 최적화를 끄면 매핑이 계속 작동해요."
+      },
+      "p05": {
+        "title": "왜 접근성 권한이 필요한가요?",
+        "description": "접근성 서비스를 어디에 쓰는지 알려 드려요. 버튼 입력을 탭과 스와이프로 바꾸는 데만 쓰고, 화면 내용을 읽거나 업로드하지 않아요."
+      },
+      "p06": {
+        "title": "화면이 손가락에 반응하지 않나요?",
+        "description": "모든 매핑을 한 번에 일시정지하는 방법이에요. 홈 화면의 스위치에서, 앱으로 돌아갈 수 없을 때는 빠른 설정에서 할 수 있어요."
+      },
+      "p07": {
+        "title": "키보드가 바뀌었어요, 글자는 어떻게 치죠?",
+        "description": "지구본 아이콘을 탭해 원래 키보드로 돌아가거나, 자동 전환을 켜서 매핑이 실행되는 동안에만 Gamepad Pro 키보드를 쓰게 하세요."
+      }
+    }
+  },
+  "products": {
+    "gamepad-pro": {
+      "kicker": "컨트롤러 키매핑 · root 불필요",
+      "heroPoints": [
+        "버튼, 스틱, L2/R2 트리거를 탭, 길게 누르기, 스와이프로",
+        "게임마다 레이아웃, 장면마다 페이즈",
+        "매크로, 연사, 조합 버튼. root도 앱 복제도 필요 없어요"
+      ],
+      "faqDescription": "Gamepad Pro 관련 답변: 설정과 권한, 키매핑 만들기, 스틱과 트리거, 컨트롤러, Pro와 백업.",
+      "faqNotFoundBody": "휴대폰 모델, 컨트롤러, 게임, 어떤 일이 있었는지 적어서 보내 주세요. 모든 메시지를 사람이 직접 읽어요.",
+      "support": {
+        "beforeItems": [
+          "먼저 자주 묻는 질문을 열어 보세요. 설정, 권한, 매핑 관련 질문은 대부분 앱과 같은 문구로 답이 나와 있어요.",
+          "접근성 서비스가 켜져 있는지, 매핑이 일시정지되지 않았는지 확인하세요. 잘 되다가 멈췄다면 보통 배터리 최적화 때문이에요. 해결 방법은 자주 묻는 질문에 있어요.",
+          "어떤 게임에서 어떤 컨트롤러를 썼는지, 버튼을 눌렀을 때 화면에서 무슨 일이 일어나는지 적어 두세요. 문제를 재현하려면 이 정보가 필요해요."
+        ],
+        "template": {
+          "phone": "휴대폰 모델:",
+          "android": "Android 버전:",
+          "controller": "컨트롤러(모델, USB 또는 Bluetooth):",
+          "game": "게임 또는 앱:",
+          "what": "어떤 일이 있었는지 순서대로:",
+          "pro": "Pro 구매: 예 / 아니요"
+        },
+        "refundBody": "Gamepad Pro는 무료로 설치할 수 있어요. Pro를 구매했는데 사용 중인 환경에서 작동하지 않으면 구매 후 7일 안에 메일을 보내 주세요. 환불해 드려요. 어떤 걸 시도해 봤는지도 알려 주시면 다음 분을 위해 고치는 데 도움이 돼요."
+      },
+      "press": {
+        "description": "Android용 컨트롤러 키매핑 앱 Gamepad Pro 관련 기사를 쓸 때 필요한 정보, 자료, 소개 문구.",
+        "boilerplate": "Gamepad Pro는 이미 가지고 있는 컨트롤러를, 게임패드를 지원하지 않는 Android 게임의 터치 조작으로 바꿔 줍니다. 버튼, 스틱, 트리거를 탭, 길게 누르기, 스와이프로 매핑하고, 게임별 레이아웃, 페이즈, 매크로, 연사, 조합 버튼을 쓸 수 있습니다. root는 필요 없습니다. 독립 스튜디오 DappleByte가 만들었습니다.",
+        "priceValue": "무료로 설치할 수 있고 광고가 있어요. Pro를 한 번 구매하면 광고가 사라지고 모든 Pro 기능이 열려요. 구독은 없어요. 현재 가격은 Google Play에서 확인할 수 있어요.",
+        "assetScreenshots": "휴대폰 스크린샷, PNG, 영어(세로 1080 × 1920, 편집기 스크린샷만 가로)"
+      },
+      "videosDescription": "실제 휴대폰에서 Gamepad Pro를 보여 주는 짧은 영상: 키매핑 만들기, 스틱과 트리거, 플레이 중 레이아웃 고치기, 자주 생기는 문제.",
+      "privacyDescription": "Android용 Gamepad Pro가 데이터를 어떻게 다루는지: 계정 없음, 접근성 서비스의 용도, 분석·광고 SDK가 수집하는 정보, 선택 수집을 끄는 방법.",
+      "compare": {
+        "description": "Android에서 Gamepad Pro를 다른 컨트롤러 매핑 앱과 기능별로 비교했어요. 사실만 담았어요.",
+        "vsDescription": "Android에서 {name} vs {other} 기능별 비교: root, 스틱과 트리거, 게임별 레이아웃, 매크로, 연사, 가격.",
+        "vsIntro": "둘 다 Android에서 컨트롤러를 터치 게임에 매핑해요. 어디가 다른지 기능별로 정리했어요."
+      }
+    },
+    "relaypad": {
+      "kicker": "PS5 · PS4",
+      "heroPoints": [
+        "컨트롤러 배터리가 갑자기 다 됐을 때 휴대폰으로 이어서 플레이",
+        "큰 리모컨 키로 콘솔 메뉴와 동영상 앱 조작",
+        "콘솔은 TV 옆에 둔 채 침대나 다른 방에서 플레이"
+      ],
+      "faqDescription": "{name} 관련 답변: 플레이 방식, 연결, 로그인, 스트리밍 화질, 컨트롤러, 결제와 환불.",
+      "faqNotFoundBody": "휴대폰 모델, 콘솔, 어떤 일이 있었는지 적어서 보내 주세요. 모든 메시지를 사람이 직접 읽어요.",
+      "support": {
+        "beforeItems": [
+          "먼저 자주 묻는 질문을 열어 보세요. 연결, 로그인, 화면 관련 질문은 대부분 앱과 같은 문구로 답이 나와 있어요.",
+          "앱이 연결되지 않으면 설정에서 연결 진단을 실행해 보세요. 네트워크, 콘솔, 리모트 플레이를 점검하고, 한 번만 누르면 결과를 저희에게 메일로 보낼 수 있어요.",
+          "콘솔이 켜져 있거나 대기 모드인지, 그리고 콘솔 설정에서 리모트 플레이가 켜져 있는지 확인하세요."
+        ],
+        "template": {
+          "phone": "휴대폰 모델:",
+          "android": "Android 버전:",
+          "console": "콘솔: PS5 / PS4",
+          "where": "집인지 밖인지:",
+          "what": "어떤 일이 있었는지 순서대로:",
+          "doctor": "연결 진단을 실행했다면 결과를 여기에 붙여 넣어 주세요."
+        },
+        "refundBody": "사용 중인 환경에서 {name} 앱이 작동하지 않으면 구매 후 7일 안에 메일을 보내 주세요. 환불해 드려요. 어떤 걸 시도해 봤는지도 알려 주시면 다음 분을 위해 고치는 데 도움이 돼요."
+      },
+      "press": {
+        "description": "Android용 리모트 플레이 컨트롤러이자 콘솔 스트리밍 앱 {name} 관련 기사를 쓸 때 필요한 정보, 자료, 소개 문구.",
+        "boilerplate": "{name} 앱은 Android 휴대폰을 PS5나 PS4용 무선 컨트롤러로 바꾸거나, 콘솔 화면을 휴대폰, 태블릿, TV로 스트리밍합니다. 집에서도, 밖에서 모바일 데이터로도 쓸 수 있습니다. 독립 스튜디오 DappleByte가 만들었으며, AGPL-3.0에 따라 오픈소스로 공개되어 있습니다.",
+        "priceValue": "유료 앱이에요. 한 번만 구매하면 되고, 구독도 광고도 없어요. 현재 가격은 Google Play에서 확인할 수 있어요.",
+        "assetScreenshots": "스크린샷, 1920 × 1080 PNG, 영어"
+      },
+      "videosDescription": "실제 휴대폰에서 {name} 앱을 보여 주는 짧은 영상: 설정, 스트리밍, 컨트롤러 레이아웃, 연결 문제 해결.",
+      "privacyDescription": "Android용 {name} 앱이 데이터를 어떻게 다루는지: 계정 없음, 저희 서버 없음, 기기에 남는 것, 앱이 연결하는 곳.",
+      "compare": {
+        "description": "Android에서 {name} 앱을 PS Remote Play, PXPlay, Chiaki와 기능별로 비교했어요. 사실만 담았어요.",
+        "vsDescription": "Android에서 {name} vs {other} 기능별 비교: 집 밖 리모트 플레이, HEVC와 HDR, 컨트롤러, TV 출력, 오픈소스, 가격.",
+        "vsIntro": "둘 다 Android 기기를 PS5나 PS4에 연결해요. 어디가 다른지 기능별로 정리했어요."
+      }
+    }
   }
 }

@@ -5,11 +5,15 @@ import '@fontsource/ibm-plex-sans/600.css';
 import '@fontsource/ibm-plex-mono/400.css';
 import '@fontsource/ibm-plex-mono/500.css';
 import '@fontsource/chakra-petch/700.css';
+import '@fontsource/saira/600.css';
 
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { getLocale, localePath, LOCALE_SLUGS, DEFAULT_LOCALE } from '../i18n/locales';
 import { SITE } from '../lib/jsonld';
+import { useT } from '../i18n/t';
+import { getProduct } from '../lib/content';
+import { productStyle } from '../lib/brand';
 
 interface Props {
   locale: string;
@@ -22,17 +26,20 @@ interface Props {
   jsonLd?: object;
   noindex?: boolean;
   ogImage?: string;
-  /** Product accent colours for pages under a product. */
+  /** Product accent colours for pages under a product. Defaults to the product's own. */
   accent?: { bright: string; ink: string; solid: string };
+  /** Pages under a product get its accent colours and display face. */
   productSlug?: string;
 }
 
 const { locale, path, title, description, alternates = LOCALE_SLUGS, jsonLd, noindex = false, ogImage = '/og/dapplebyte.png', accent, productSlug } = Astro.props;
 const loc = getLocale(locale);
+const { t } = useT(locale);
 const canonical = new URL(localePath(locale, path), SITE).href;
 const altLinks = alternates.map((slug) => ({ slug, lang: getLocale(slug).lang, href: new URL(localePath(slug, path), SITE).href }));
 const xDefault = new URL(localePath(DEFAULT_LOCALE, path), SITE).href;
-const accentStyle = accent ? `--product:${accent.bright};--product-ink:${accent.ink};--product-solid:${accent.solid}` : undefined;
+const product = productSlug ? await getProduct(productSlug) : undefined;
+const accentStyle = product || accent ? productStyle({ accent: accent ?? product?.accent, displayFont: product?.displayFont }) : undefined;
 ---
 
 <!doctype html>
@@ -64,7 +71,7 @@ const accentStyle = accent ? `--product:${accent.bright};--product-ink:${accent.
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
   <body style={accentStyle}>
-    <a class="skip" href="#main">Skip to content</a>
+    <a class="skip" href="#main">{t('nav.skip')}</a>
     <Header locale={locale} path={path} alternates={alternates} productSlug={productSlug} />
     <main id="main">
       <slot />
@@ -92,6 +99,7 @@ const accentStyle = accent ? `--product:${accent.bright};--product-ink:${accent.
     --font-sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Helvetica Neue', sans-serif;
     --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     --font-display: 'Chakra Petch', var(--font-sans);
+    --display-weight: 700;
     --wrap: 1120px;
     --gutter: clamp(16px, 4vw, 40px);
     color-scheme: dark;
@@ -186,7 +194,7 @@ const accentStyle = accent ? `--product:${accent.bright};--product-ink:${accent.
 
   .display {
     font-family: var(--font-display);
-    font-weight: 700;
+    font-weight: var(--display-weight);
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }

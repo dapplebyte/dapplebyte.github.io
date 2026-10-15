@@ -1,0 +1,15 @@
+{
+  "slug": "gamepad-pro",
+  "items": [
+    { "id": "mapping", "sectionId": "mapping", "screenshots": [2, 4], "faq": ["q10", "q05", "q09", "q17"], "video": "j2qYLNqHtA4" },
+    { "id": "multi-button", "sectionId": "multi-button", "screenshots": [], "faq": ["q21", "shizuku"], "video": "cOnoseRHaUM" },
+    { "id": "profiles", "sectionId": "profiles", "screenshots": [1], "faq": ["q05", "q08", "q20", "q18"] },
+    { "id": "phases", "sectionId": "phases", "screenshots": [3], "faq": ["q27", "q22"], "video": "nz4xZcZ95hY" },
+    { "id": "combos", "sectionId": "combos", "screenshots": [], "faq": ["q12"] },
+    { "id": "macros", "sectionId": "macros", "screenshots": [4], "faq": ["q15", "q24"], "video": "bs5oMvTess8" },
+    { "id": "turbo", "sectionId": "turbo", "screenshots": [4], "faq": ["q14", "q13"] },
+    { "id": "any-game", "sectionId": "any-game", "screenshots": [], "faq": ["q17", "q18"] },
+    { "id": "no-root", "sectionId": "no-root", "screenshots": [], "faq": ["q11", "shizuku"] },
+    { "id": "controllers", "sectionId": "controllers", "screenshots": [5], "faq": ["q06", "q19", "q26"] }
+  ]
+}

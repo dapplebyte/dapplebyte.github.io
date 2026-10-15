@@ -1,8 +1,9 @@
 // fastlane changelogs/<versionCode>.txt → src/content/changelog/<slug>/<locale>.json
-// Version names and dates come from src/content/products/<slug>.json (`versions`).
+// Version names and dates come from src/content/products/<slug>.json (`versions`). When `versions` is
+// set, only those builds are published; older changelog files in the project are left out.
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { ROOT, LOCALES, localProducts, writeJson, now } from './lib.mjs';
+import { ROOT, LOCALES, localProducts, fastlaneLocale, writeJson, now } from './lib.mjs';
 
 const products = localProducts();
 for (const [slug, root] of Object.entries(products)) {
@@ -12,11 +13,12 @@ for (const [slug, root] of Object.entries(products)) {
   const base = join(root, 'fastlane/metadata/android');
   let written = 0;
   for (const locale of LOCALES) {
-    const dir = join(base, locale.fastlane, 'changelogs');
+    const dir = join(base, fastlaneLocale(slug, locale), 'changelogs');
     if (!existsSync(dir)) continue;
     const entries = readdirSync(dir)
       .filter((f) => /^\d+\.txt$/.test(f))
       .map((f) => Number(f.replace('.txt', '')))
+      .filter((code) => versions.size === 0 || versions.has(code))
       .sort((a, b) => b - a)
       .map((code) => {
         const v = versions.get(code) ?? {};

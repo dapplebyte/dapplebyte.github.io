@@ -4,13 +4,15 @@ import ProductNav from '../../../../components/ProductNav.astro';
 import FaqList from '../../../../components/FaqList.astro';
 import { getLocale, localePath, DEFAULT_LOCALE } from '../../../../i18n/locales';
 import { useT, formatDate } from '../../../../i18n/t';
-import { getProduct, getFaq, localesFor, liveProducts } from '../../../../lib/content';
+import { getProduct, getFaq, getFaqOrEnglish, localesFor, liveProducts } from '../../../../lib/content';
 import { graph, organization, website, webPage, breadcrumbs, faqPage, SITE } from '../../../../lib/jsonld';
 
 export async function getStaticPaths() {
   const out = [];
   for (const p of await liveProducts()) {
-    const alternates = await localesFor('faq', p.slug);
+    if ((await localesFor('faq', p.slug)).length === 0) continue;
+    // Every locale with product copy; see faq/index.astro.
+    const alternates = await localesFor('productCopy', p.slug);
     const en = await getFaq(p.slug, DEFAULT_LOCALE);
     for (const locale of alternates) {
       for (const s of en?.sections ?? []) {
@@ -22,10 +24,11 @@ export async function getStaticPaths() {
 }
 
 const { locale, slug, alternates, sectionId } = Astro.props;
-const { t } = useT(locale);
+const { t, tp } = useT(locale);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
-const faq = (await getFaq(slug, locale))!;
+const { faq, fallback } = (await getFaqOrEnglish(slug, locale))!;
+const faqLang = getLocale(faq.locale);
 const index = faq.sections.findIndex((s) => s.id === sectionId);
 const section = faq.sections[index];
 const prev = faq.sections[index - 1];
@@ -44,7 +47,7 @@ const jsonLd = graph(
     { name: t('labels.faq'), url: new URL(localePath(locale, `/${slug}/faq/`), SITE).href },
     { name: section.title, url },
   ]),
-  faqPage(url, section.entries, loc.lang),
+  faqPage(url, section.entries, faqLang.lang),
 );
 ---
 
@@ -56,9 +59,10 @@ const jsonLd = graph(
     </div>
     <h1 class="h-page">{section.title}</h1>
     <p class="lede" style="margin-top:12px">{t('faq.questionsCount', { count: section.entries.length })}</p>
+    {fallback && <p class="fine notice">{t('faq.englishOnly')}</p>}
   </section>
-  <section class="wrap" style="padding-bottom:40px">
-    <FaqList entries={section.entries} level={2} linkLabel={t('faq.linkToQuestion')} />
+  <section class="wrap" style="padding-bottom:40px" lang={fallback ? faqLang.lang : undefined} dir={fallback ? faqLang.dir : undefined}>
+    <FaqList entries={section.entries} level={2} linkLabel={t('faq.linkToQuestion')} watchLabel={t('videos.watchOn')} playlist={product.youtubePlaylist} />
   </section>
   <section class="wrap section">
     <nav class="pager" aria-label={t('labels.faq')}>
@@ -69,13 +73,18 @@ const jsonLd = graph(
   </section>
   <section class="wrap section">
     <h2 class="h-sub" style="margin-bottom:8px">{t('faq.notFoundHeading')}</h2>
-    <p class="lede" style="margin-bottom:18px">{t('faq.notFoundBody')}</p>
+    <p class="lede" style="margin-bottom:18px">{tp(slug, 'faqNotFoundBody')}</p>
     <a class="button" href={localePath(locale, `/${slug}/support/`)}>{t('faq.notFoundCta')}</a>
     <p class="fine" style="margin-top:24px">{t('labels.lastUpdated', { date: formatDate(locale, faq.extractedAt, loc.lang) })}</p>
   </section>
 </Base>
 
 <style>
+  .notice {
+    margin-top: 16px;
+    border-inline-start: 2px solid var(--accent);
+    padding-inline-start: 12px;
+  }
   .pager {
     display: flex;
     justify-content: space-between;

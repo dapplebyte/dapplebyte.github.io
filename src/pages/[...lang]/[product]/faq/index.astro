@@ -3,14 +3,17 @@ import Base from '../../../../layouts/Base.astro';
 import ProductNav from '../../../../components/ProductNav.astro';
 import { getLocale, localePath } from '../../../../i18n/locales';
 import { useT, formatDate } from '../../../../i18n/t';
-import { getProduct, getFaq, localesFor, liveProducts } from '../../../../lib/content';
+import { getProduct, getFaqOrEnglish, localesFor, liveProducts } from '../../../../lib/content';
 import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../../lib/jsonld';
 import { DEFAULT_LOCALE } from '../../../../i18n/locales';
 
+// One FAQ page in every locale the product page exists in. Where the app has no translation, the English
+// FAQ is shown with a notice, so the FAQ links in the product menu and the footer work in every language.
 export async function getStaticPaths() {
   const out = [];
   for (const p of await liveProducts()) {
-    const alternates = await localesFor('faq', p.slug);
+    if ((await localesFor('faq', p.slug)).length === 0) continue;
+    const alternates = await localesFor('productCopy', p.slug);
     for (const locale of alternates) {
       out.push({ params: { lang: locale === DEFAULT_LOCALE ? undefined : locale, product: p.slug }, props: { locale, slug: p.slug, alternates } });
     }
@@ -19,15 +22,16 @@ export async function getStaticPaths() {
 }
 
 const { locale, slug, alternates } = Astro.props;
-const { t } = useT(locale);
+const { t, tp } = useT(locale);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
-const faq = (await getFaq(slug, locale))!;
+const { faq, fallback } = (await getFaqOrEnglish(slug, locale))!;
+const faqLang = getLocale(faq.locale);
 const path = `/${slug}/faq/`;
 const url = new URL(localePath(locale, path), SITE).href;
 const total = faq.sections.reduce((n, s) => n + s.entries.length, 0);
 const title = t('faq.title', { name: product.name });
-const description = t('faq.description', { name: product.name });
+const description = tp(slug, 'faqDescription', { name: product.name });
 const jsonLd = graph(
   organization(),
   website(loc.lang),
@@ -45,10 +49,11 @@ const jsonLd = graph(
   <section class="wrap section">
     <div class="mono mono-accent" style="margin-bottom:14px">{product.name} · {t('faq.questionsCount', { count: total })}</div>
     <h1 class="h-page">{title}</h1>
-    <p class="lede" style="margin-top:16px">{faq.intro ?? t('faq.intro')}</p>
+    <p class="lede" style="margin-top:16px">{fallback ? t('faq.intro') : (faq.intro ?? t('faq.intro'))}</p>
+    {fallback && <p class="fine notice">{t('faq.englishOnly')}</p>}
   </section>
   <section class="wrap section">
-    <div class="faq-sections">
+    <div class="faq-sections" lang={fallback ? faqLang.lang : undefined} dir={fallback ? faqLang.dir : undefined}>
       {faq.sections.map((s, i) => (
         <div class="faq-section">
           <div class="mono mono-accent">{String(i + 1).padStart(2, '0')} · {t('faq.questionsCount', { count: s.entries.length })}</div>
@@ -64,13 +69,18 @@ const jsonLd = graph(
   </section>
   <section class="wrap section">
     <h2 class="h-sub" style="margin-bottom:8px">{t('faq.notFoundHeading')}</h2>
-    <p class="lede" style="margin-bottom:18px">{t('faq.notFoundBody')}</p>
+    <p class="lede" style="margin-bottom:18px">{tp(slug, 'faqNotFoundBody')}</p>
     <a class="button" href={localePath(locale, `/${slug}/support/`)}>{t('faq.notFoundCta')}</a>
     <p class="fine" style="margin-top:24px">{t('labels.lastUpdated', { date: formatDate(locale, faq.extractedAt, loc.lang) })}</p>
   </section>
 </Base>
 
 <style>
+  .notice {
+    margin-top: 16px;
+    border-inline-start: 2px solid var(--accent);
+    padding-inline-start: 12px;
+  }
   .faq-sections {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

@@ -1,0 +1,245 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "en",
+  "title": "FAQ & Help",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Setup",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "What does Gamepad Pro do?",
+          "a": [
+            "Gamepad Pro maps your controller, keyboard or any external buttons to taps and swipes on the screen, so you can play touch games and control apps with physical buttons."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Why does it need the Accessibility permission? Is it safe?",
+          "a": [
+            "The accessibility service lets Gamepad Pro turn your button presses into taps and swipes, even outside the app. Your key maps only work after it is enabled. Gamepad Pro only uses it to perform the actions you set up — it does not collect or upload your personal data."
+          ],
+          "video": "xbevEmk-T1Q"
+        },
+        {
+          "id": "q04",
+          "q": "It stops working after a while in the background. How do I fix it?",
+          "a": [
+            "Android may close apps in the background to save power. Allow Gamepad Pro to run in the background by disabling battery optimisation. Some brands (such as MIUI or Samsung) add extra power-saving rules — the guide at dontkillmyapp.com shows how to turn those off for your device."
+          ],
+          "video": "8hZqhdyWx_Y"
+        },
+        {
+          "id": "q07",
+          "q": "Why do I need to enable the Gamepad Pro keyboard?",
+          "a": [
+            "Mainly so your controller's analog sticks and L2/R2 triggers can be mapped. Android's accessibility service can read normal button presses, but it cannot read analog stick or trigger movement — only the Gamepad Pro keyboard can capture those. It is also needed for actions such as typing text. Enable and switch to it when prompted so these mappings and actions can work."
+          ],
+          "video": "bkJYiGawnnc"
+        },
+        {
+          "id": "q11",
+          "q": "Does Gamepad Pro need root access?",
+          "a": [
+            "No. Gamepad Pro works through the accessibility service and does not require root. Root or Shizuku is only needed for a few optional advanced features."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Will it work with every game?",
+          "a": [
+            "It works with most touch games. A few games block simulated taps or use anti-cheat that may interfere, so it can't be guaranteed for every game. If a game doesn't respond, let us know through Feedback."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "The Gamepad Pro keyboard took over. How do I type now?",
+          "a": [
+            "The Gamepad Pro keyboard has no typing UI — it only reads sticks and triggers, so nothing appears when you tap a text field. Tap the globe at the bottom right to switch back to your own keyboard. Better still, turn on \"Automatically switch input methods\" — then Gamepad Pro only uses its own keyboard while mappings are running and hands yours back afterwards."
+          ],
+          "video": "AAa5IUf8mPo"
+        },
+        {
+          "id": "q25",
+          "q": "Why does Android warn that Gamepad Pro can read passwords?",
+          "a": [
+            "Android shows the same warning for every accessibility app. Gamepad Pro only uses it to read your controller and the app in front, and to place touches. It never reads, stores or uploads what is on your screen or what you type."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mapping",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "My key mapping doesn't work. What should I check?",
+          "a": [
+            "1. Make sure the Accessibility service is enabled (Settings → Accessibility → Gamepad Pro).",
+            "2. Make sure mapping is turned on (not paused).",
+            "3. For text actions, switch to the Gamepad Pro keyboard.",
+            "4. If it worked before but stopped, check the battery / background settings (see the next question)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "How do I create a key mapping?",
+          "a": [
+            "1. Pick a game or app from the list.",
+            "2. Tap to add a button, then press the controller button you want to use.",
+            "3. Drag it onto the spot on screen you want to tap.",
+            "4. Save, then turn on mapping and play."
+          ],
+          "video": "j2qYLNqHtA4"
+        },
+        {
+          "id": "q08",
+          "q": "How do I delete a key mapping or a preset button?",
+          "a": [
+            "Tap the button on the screen and a small menu appears with Copy and Delete. Tap Delete to remove it. This is also how you remove the preset buttons you don't need."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "How do I set a screenshot of my game as the background?",
+          "a": [
+            "In the editor, tap the image button (bottom-right) and choose a screenshot from your gallery. It becomes the background so you can place each button exactly where it should tap."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "How do I map the analog sticks or L2/R2 triggers?",
+          "a": [
+            "You don't have to record them — both sticks and both triggers are already in every new layout. Just drag them onto the spots they should control, and tap one to open its settings: the right stick can be a camera swipe (the default) or a movement dial, with sensitivity and response curve there too. They do need the Gamepad Pro keyboard to be enabled, because Android's accessibility service cannot read analog stick or trigger movement."
+          ],
+          "video": "rEvNu-S6_CY"
+        },
+        {
+          "id": "q12",
+          "q": "How do I map several buttons pressed together (a combo)?",
+          "a": [
+            "Start recording, then press the buttons together. They are saved as one combo, so the action triggers only when you press them at the same time. A combo can also work like a modifier: map LB+A and LB on its own, then hold LB and press A to fire the combo. While the combo is held, A's own action stays quiet, and LB's own action waits about 0.2 s so the app can tell the two apart."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "What happens when I hold a controller button down?",
+          "a": [
+            "By default, holding a button keeps the screen pressed at that spot and only releases when you let go — a quick press is a quick tap, a long hold is a long press. This works well for aiming, sprinting and charged attacks. To change it, tap the button in the editor and open the gear icon."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "The tap lands in the wrong place. How do I position buttons accurately?",
+          "a": [
+            "Set a screenshot of the game as the background, then drag each button onto the exact spot it should tap. You can drag it again at any time to fine-tune the position."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "How do I pause or resume my mappings?",
+          "a": [
+            "Use the Mapping service switch at the top of the home screen to pause or resume every mapping at once. If you can't get back to the app, add the same switch to Quick Settings and reach it from anywhere. Pausing stops the mappings only — the accessibility service stays enabled."
+          ],
+          "video": "FMxFD5nLdnw"
+        },
+        {
+          "id": "q21",
+          "q": "I can't move and shoot at the same time. What can I do?",
+          "a": [
+            "That is a second touch being dropped. Update to the latest version first — newer builds already keep both touches alive on their own. If one still gets dropped, open Settings › Advanced multi-touch and follow the three steps there; the page tells you which one is missing. It is optional, and ordinary mappings work without it."
+          ],
+          "video": "cOnoseRHaUM"
+        },
+        {
+          "id": "q22",
+          "q": "A button is in the wrong place. Can I fix it without leaving the game?",
+          "a": [
+            "Yes. Tap the floating button while you play and your layout appears on top of the game — drag the button to the right spot and tap the floating button again to apply it. Long-press the floating button to switch to another layout without leaving the game (you need at least two saved layouts for that)."
+          ],
+          "video": "nz4xZcZ95hY"
+        },
+        {
+          "id": "q24",
+          "q": "What can a single controller button do?",
+          "a": [
+            "Any of them. One button can be a single tap, a hold that keeps the screen pressed, a turbo that taps over and over while you hold it, or a macro that taps several spots in order. The analog sticks can be a movement dial or a camera swipe. Tap a button in the editor and open the gear icon to choose."
+          ],
+          "video": "bs5oMvTess8"
+        },
+        {
+          "id": "q27",
+          "q": "How do phases work?",
+          "a": [
+            "Each game can have several phases: one for combat, one for driving, one for menus and so on. Phase 1 is used when the game launches. Switch phases in game with the cycle combo you set in the profile, or with the floating switcher pill."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "What is Shizuku, and do I need it?",
+          "a": [
+            "Shizuku is an optional advanced enhancement. It lets Gamepad Pro inject multi-touch events more directly, with lower latency and smoother tracking than the accessibility path — most noticeable with two joysticks or several simultaneous touch paths. It does not replace the Accessibility service, and every mapping also works without it. On Android 11 and later it can be started with wireless debugging, but usually needs to be started again after a device reboot."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Controller",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "A button on my controller isn't detected. What can I do?",
+          "a": [
+            "Android versions and devices differ, so a few buttons may not be detected on some hardware. Try a different button, reconnect the device, or let us know through Feedback so we can look into it."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "My controller isn't detected at all. What should I check?",
+          "a": [
+            "Make sure it's properly connected by Bluetooth or USB and paired in Android settings. Try reconnecting it and check that it works in other apps. Some controllers must be turned on in a specific mode."
+          ],
+          "video": "t0HAKJXgRCU"
+        },
+        {
+          "id": "q26",
+          "q": "My left stick moves an invisible mouse. How do I stop it?",
+          "a": [
+            "Some games and launchers have built-in controller support and turn the left stick into a pointer. If the game already works with your controller, open its profile and turn mapping off for that game, or delete the left-stick mapping. If you want Gamepad Pro to handle it instead, open the phase, tap the left stick keycap and choose Movement dial."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "How do I make a button auto-tap repeatedly (turbo)?",
+          "a": [
+            "Tap the button in the editor, open the gear icon and choose Turbo. While you hold the controller button, that spot is tapped again and again at the interval you set; release to stop. Turbo buttons show a small purple T next to the key name."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "How do I make one button tap several spots in order (macro)?",
+          "a": [
+            "Tap the button in the editor and choose + to add a macro step. Each step becomes a numbered sticker (1, 2, 3…) that you can drag to its own spot. One press then taps every step in order; the delay between steps is adjustable via the gear icon. While a macro is running, extra presses are ignored until it finishes."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "How do I back up and restore my mappings?",
+          "a": [
+            "Open the menu and choose Back up to save all your mappings to a file, or Restore to load them again — handy when switching phones or before reinstalling."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -2,26 +2,38 @@
 import { getEntry } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import ProductNav from '../../../components/ProductNav.astro';
+import VideoFacade from '../../../components/VideoFacade.astro';
 import { getLocale, localePath } from '../../../i18n/locales';
 import { useT } from '../../../i18n/t';
-import { getProduct, getCopy } from '../../../lib/content';
+import { getProduct, getCopy, getFaqOrEnglish, faqEntryById, formatDuration } from '../../../lib/content';
 import { productLangPaths } from '../../../lib/routes';
 import { graph, organization, website, webPage, breadcrumbs, videoObject, SITE } from '../../../lib/jsonld';
 
 export const getStaticPaths = productLangPaths;
 
 const { locale, slug, alternates } = Astro.props;
-const { t } = useT(locale);
+const { t, tp } = useT(locale);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
 const copy = await getCopy(slug, locale);
 const items = (await getEntry('videos', slug))?.data.items ?? [];
+// The FAQ (or its English fallback) tells which section page a video's question lives on.
+const faq = (await getFaqOrEnglish(slug, locale))?.faq;
 const path = `/${slug}/videos/`;
 const url = new URL(localePath(locale, path), SITE).href;
 const title = t('videos.title', { name: product.name });
-const description = t('videos.description', { name: product.name });
+const description = tp(slug, 'videosDescription', { name: product.name });
 const kinds = ['promo', 'tutorial', 'troubleshooting'] as const;
-const videos = items.map((v) => ({ ...v, name: t(v.titleKey), description: t(v.descriptionKey) }));
+const videos = items.map((v) => {
+  const q = v.faq && faq ? faqEntryById(faq, v.faq) : undefined;
+  return {
+    ...v,
+    name: t(v.titleKey),
+    description: t(v.descriptionKey),
+    faqHref: q ? localePath(locale, `/${slug}/faq/${q.section.id}/`) + '#' + q.entry.id : undefined,
+  };
+});
+const playlistUrl = product.youtubePlaylist ? `https://www.youtube.com/playlist?list=${product.youtubePlaylist}` : undefined;
 const jsonLd = graph(
   organization(),
   website(loc.lang),
@@ -36,11 +48,12 @@ const jsonLd = graph(
 ---
 
 <Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} noindex={videos.length === 0} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
-  <ProductNav locale={locale} product={product} current="videos" showVideos={videos.length > 0} />
+  <ProductNav locale={locale} product={product} current="videos" />
   <section class="wrap section">
     <div class="mono mono-accent" style="margin-bottom:14px">{product.name}</div>
     <h1 class="h-page">{title}</h1>
     <p class="lede" style="margin-top:16px">{videos.length ? description : copy.tagline}</p>
+    {videos.length > 0 && playlistUrl && <p style="margin-top:16px"><a href={playlistUrl}>▶ {t('videos.playlist')}</a></p>}
   </section>
 
   {videos.length === 0 ? (
@@ -55,21 +68,24 @@ const jsonLd = graph(
   ) : (
     kinds.map((kind) => {
       const group = videos.filter((v) => v.kind === kind);
+      const portrait = group.length > 0 && group.every((v) => v.aspect === '9:16');
       return group.length > 0 && (
         <section class="wrap section">
           <div class="section-head mono"><span>{t(`videos.kinds.${kind}`)}</span><span>{group.length}</span></div>
-          <div class="video-grid">
+          <div class:list={['video-grid', { portrait }]}>
             {group.map((v) => (
               <figure class="video">
-                <a class="facade" href={`https://www.youtube.com/watch?v=${v.youtubeId}`} data-yt={v.youtubeId} aria-label={`${t('videos.play')}: ${v.name}`}>
-                  <img src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`} alt="" width="480" height="360" loading="lazy" />
-                  <span class="play" aria-hidden="true">▶</span>
-                </a>
+                <VideoFacade youtubeId={v.youtubeId} label={`${t('videos.play')}: ${v.name}`} aspect={v.aspect} />
                 <figcaption>
                   <strong>{v.name}</strong>
-                  <span class="mono">{v.duration.replace('PT', '').toLowerCase()}</span>
+                  <span class="mono">{formatDuration(v.duration)}</span>
                   <p>{v.description}</p>
-                  {v.feature && <a href={localePath(locale, `/${slug}/features/${v.feature}/`)}>{t('labels.features')} →</a>}
+                  {(v.feature || v.faqHref) && (
+                    <span class="links">
+                      {v.feature && <a href={localePath(locale, `/${slug}/features/${v.feature}/`)}>{t('labels.features')} →</a>}
+                      {v.faqHref && <a href={v.faqHref}>{t('labels.faq')} →</a>}
+                    </span>
+                  )}
                 </figcaption>
               </figure>
             ))}
@@ -80,54 +96,21 @@ const jsonLd = graph(
   )}
 </Base>
 
-<script>
-  // Facade: nothing from YouTube loads until the viewer clicks. Without JS the link opens YouTube.
-  for (const a of document.querySelectorAll<HTMLAnchorElement>('a.facade[data-yt]')) {
-    a.addEventListener('click', (e) => {
-      e.preventDefault();
-      const iframe = document.createElement('iframe');
-      iframe.src = `https://www.youtube-nocookie.com/embed/${a.dataset.yt}?autoplay=1`;
-      iframe.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
-      iframe.allowFullscreen = true;
-      iframe.title = a.getAttribute('aria-label') ?? '';
-      iframe.style.cssText = 'width:100%;aspect-ratio:16/9;border:0;display:block';
-      a.replaceWith(iframe);
-    });
-  }
-</script>
-
 <style>
   .video-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
   }
+  .video-grid.portrait {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
   .video {
     margin: 0;
     border: 1px solid var(--line);
     background: var(--surface);
-  }
-  .facade {
-    position: relative;
-    display: block;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-    background: var(--bg-deep);
-  }
-  .facade img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .play {
-    position: absolute;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    color: var(--fg);
-    font-size: 40px;
-    background: #00000055;
+    display: flex;
+    flex-direction: column;
   }
   figcaption {
     padding: 16px 18px;
@@ -139,8 +122,20 @@ const jsonLd = graph(
     color: var(--fg-2);
     font-size: 15px;
   }
+  .links {
+    display: flex;
+    gap: 6px 18px;
+    flex-wrap: wrap;
+  }
   @media (max-width: 860px) {
-    .video-grid {
+    .video-grid,
+    .video-grid.portrait {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 560px) {
+    .video-grid,
+    .video-grid.portrait {
       grid-template-columns: repeat(1, minmax(0, 1fr));
     }
   }

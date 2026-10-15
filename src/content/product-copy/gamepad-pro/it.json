@@ -1,0 +1,169 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "it",
+  "title": "Gamepad Pro: Controller Mapper",
+  "shortDescription": "Mappatura tasti da controller a touch: stick, grilletti, macro, turbo, no root.",
+  "tagline": "Gamepad Pro è un mappatore di tasti per controller su Android: trasforma il controller che hai già in comandi touch e gioca con pulsanti veri ai giochi solo touch. Senza root.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Gamepad Pro: Controller Mapper",
+      "paragraphs": [
+        "Gamepad Pro è un mappatore di tasti per controller su Android: trasforma il controller che hai già in comandi touch e gioca con pulsanti veri ai giochi solo touch. Senza root.",
+        "Mappa pulsanti, stick analogici e grilletti L2/R2 su tocchi, pressioni prolungate e scorrimenti. Crea un layout per ogni gioco, cambialo durante la partita e aggiungi macro, turbo e combinazioni.",
+        "Niente cloni delle app, niente ADB per la configurazione di base. Mappa i comandi e gioca."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "drag-map-play",
+      "title": "Trascina. Mappa. Gioca.",
+      "paragraphs": [
+        "Aggiungi un gioco, apri l’editor e trascina ogni comando nel punto giusto sullo schermo. Salva e avvia il gioco da Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "mapping",
+      "title": "Mappatura di pulsanti, stick e grilletti",
+      "paragraphs": [
+        "Mappa i pulsanti, entrambi gli stick analogici, la croce direzionale e i grilletti analogici su tocchi, pressioni prolungate e scorrimenti, con sensibilità degli stick regolabile."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "multi-button",
+      "title": "Comandi simultanei",
+      "paragraphs": [
+        "Muoviti, mira e attacca insieme: pensato per i giochi con più input contemporanei."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "profiles",
+      "title": "Un profilo per ogni gioco",
+      "paragraphs": [
+        "Salva una mappatura per ogni gioco: ritrovi sempre il layout giusto."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "phases",
+      "title": "Fasi — più layout per un solo gioco",
+      "paragraphs": [
+        "Crea più Fasi per le diverse parti dello stesso gioco: Movimento, Guida, Paracadutismo, Combattimento o Menu."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "phase-switch",
+      "title": "Cambia fase mentre giochi",
+      "paragraphs": [
+        "Scegli un’altra Fase dal controllo flottante senza uscire dal gioco, oppure assegna un pulsante per scorrere i layout all’istante."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "combos",
+      "title": "Combinazioni di pulsanti",
+      "paragraphs": [
+        "Usa una combinazione di pulsanti come singolo comando: più scorciatoie senza rinunciare ai comandi che hai già."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "macros",
+      "title": "Macro con un solo comando",
+      "paragraphs": [
+        "Crea una sequenza di azioni touch ed eseguila tutta con un solo input: perfetta per le procedure ripetitive."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "turbo",
+      "title": "Azioni turbo",
+      "paragraphs": [
+        "Tieni premuto un pulsante per ripetere in automatico un’azione touch mappata, con la frequenza che imposti per ogni azione."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "vibration",
+      "title": "Feedback con vibrazione",
+      "paragraphs": [
+        "Senti una vibrazione quando scatta un comando mappato: leggera, media o forte."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "any-game",
+      "title": "Pensato per ogni genere di gioco",
+      "paragraphs": [
+        "Sparatutto e battle royale, MOBA e MMORPG, corse, action RPG, open world, picchiaduro, survival, idle e clicker, più gli emulatori retro: se un gioco si comanda a tocchi, puoi giocarlo con il controller."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Niente cloni, niente root, niente ADB",
+      "paragraphs": [
+        "Gamepad Pro mappa gli input del controller direttamente sulle azioni a schermo: nessuna copia clonata del gioco, nessun root e nessun ADB per la configurazione di base. Qualche opzione avanzata può usare Shizuku; la mappatura no."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "controllers",
+      "title": "Ottima compatibilità con i controller",
+      "paragraphs": [
+        "Gamepad Pro funziona con molti controller cablati e wireless supportati da Android e le etichette dei pulsanti si adattano alle disposizioni più diffuse."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "get-started",
+      "title": "Come iniziare",
+      "paragraphs": [],
+      "bullets": [
+        "Apri Gamepad Pro e segui la configurazione guidata.",
+        "Abilita il Servizio di accessibilità e collega il controller.",
+        "Abilita la tastiera Gamepad Pro per stick e grilletti L2/R2.",
+        "Tocca Aggiungi, scegli il gioco e trascina i comandi in posizione.",
+        "Salva, avvia il gioco e gioca."
+      ]
+    },
+    {
+      "id": "permissions",
+      "title": "Autorizzazioni",
+      "paragraphs": [
+        "Servizio di accessibilità:",
+        "Gamepad Pro usa l’API AccessibilityService di Android per trasformare in tocchi e scorrimenti le azioni del controller configurate. Serve perché la mappatura funzioni fuori dall’app, esegue solo le azioni che crei e non raccoglie né carica i tuoi dati personali."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "keyboard",
+      "title": "Tastiera Gamepad Pro",
+      "paragraphs": [
+        "Il Servizio di accessibilità di Android non può leggere i valori degli stick o dei grilletti L2/R2. Il metodo di input di Gamepad Pro acquisisce questi segnali per mapparli correttamente e può essere usato anche per l’immissione di testo."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "compatibility",
+      "title": "Compatibilità",
+      "paragraphs": [
+        "La compatibilità può variare in base al dispositivo, alla versione di Android, al controller e al modo in cui ogni gioco gestisce il touch o le sovrapposizioni."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "help",
+      "title": "Serve aiuto?",
+      "paragraphs": [
+        "Le recensioni sul Play Store non ci danno abbastanza dettagli per analizzare i problemi tecnici. Se qualcosa non funziona, apri Gamepad Pro e vai su Impostazioni > Invia feedback."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

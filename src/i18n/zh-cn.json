@@ -14,8 +14,6 @@
     "home": "首页"
   },
   "footer": {
-    "studio": "工作室",
-    "contact": "联系",
     "languages": "语言",
     "privacy": "网站隐私",
     "copyright": "© {year} DappleByte",
@@ -28,12 +26,9 @@
     "learnMore": "了解更多"
   },
   "labels": {
-    "apps": "应用",
     "nextApp": "下一款应用",
     "nextAppBody": "正在开发，上线后会出现在这里。",
     "lastUpdated": "最后更新于 {date}",
-    "android": "Android",
-    "by": "DappleByte 出品",
     "overview": "概览",
     "features": "功能",
     "faq": "常见问题",
@@ -42,39 +37,48 @@
     "support": "支持",
     "privacy": "隐私",
     "changelog": "更新日志",
-    "press": "媒体资料包",
-    "sourceCode": "源代码",
-    "googlePlay": "Google Play"
+    "press": "媒体资料包"
   },
   "facts": {
     "minOs": "{version} 及以上",
-    "consoles": "PS5 · PS4",
     "languages": "{count} 种语言",
     "source": "{license} 开源",
     "version": "版本 {version}"
   },
   "home": {
     "title": "DappleByte · 独立工作室的 Android 应用",
-    "description": "DappleByte 是一家做 Android app 的独立工作室，作品包括 Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app。",
+    "description": "DappleByte 是一家做 Android app 的独立工作室，作品有 Gamepad Pro：把手柄变成触屏操作的按键映射工具；还有 Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app。",
     "appsHeading": "应用",
     "principlesHeading": "我们的做法",
     "principles": [
-      { "title": "没有广告，没有订阅", "body": "要么一次付费，要么免费。不靠占用你的注意力赚钱。" },
-      { "title": "中间没有服务器", "body": "我们的 app 直接和你自己的设备通信，我们看不到你的数据。" },
-      { "title": "源代码公开", "body": "每个版本都以 AGPL-3.0 推送到公开仓库。" },
-      { "title": "每封邮件都回", "body": "写信到 {email}，会有真人看。" }
+      {
+        "title": "一次买断，或者免费",
+        "body": "收费的 app 都是一次性买断，没有任何东西会自动续费。"
+      },
+      {
+        "title": "不用注册账号",
+        "body": "没有什么需要注册，装好就能用。"
+      },
+      {
+        "title": "授权之前，先讲清权限",
+        "body": "每款 app 都会说明权限用来做什么、绝不会拿来做什么，写在 app 里，也写在和代码一致的隐私政策里。"
+      },
+      {
+        "title": "每封邮件都回",
+        "body": "写信到 {email}，会有真人看。"
+      }
     ],
     "contactHeading": "联系",
     "contactBody": "工作室事务、媒体与合作：{email}。每个 app 的支持邮箱写在各自的支持页上。"
   },
   "about": {
     "title": "关于 DappleByte",
-    "description": "DappleByte 是一家做 Android app 的独立工作室：没有广告，没有订阅，你和你的设备之间没有服务器，源代码以 AGPL-3.0 公开。",
+    "description": "DappleByte 是一家做 Android app 的独立工作室。一个开发者，几款 app，没有订阅，不用账号，每封邮件都有真人回复。",
     "whatHeading": "DappleByte 是什么",
     "whatBody": "DappleByte 是一家做 Android app 的独立工作室。一个开发者，几款 app，每一款都只想把一件事做好，其余时候不打扰你。",
     "howHeading": "我们的做法",
-    "openSourceHeading": "开源",
-    "openSourceBody": "每款 app 的每个版本都以 AGPL-3.0 公开源代码，仓库链接在各 app 的页面上。你可以看清 app 到底做了什么，自己动手编译，或者核对隐私政策和代码是否一致。",
+    "openSourceHeading": "源代码",
+    "openSourceBody": "公开了源代码的 app，链接会放在该 app 的页面和媒体资料包里。Relaypad 以 AGPL-3.0 公开。",
     "contactHeading": "联系",
     "contactBody": "工作室事务、媒体与合作：{email}。某个 app 的使用问题，请发到该 app 支持页上的邮箱，这样才能带着完整的背景信息送到对的收件箱。",
     "trademarksHeading": "商标",
@@ -90,32 +94,28 @@
     "faqHeading": "常见问题",
     "faqAll": "全部问题",
     "getHeading": "获取 {name}",
-    "getBody": "Android 版已在 Google Play 上架，源代码以 {license} 公开。",
+    "getBody": "Android 版已在 Google Play 上架。",
+    "getBodySource": "源代码以 {license} 公开。",
     "requiresLabel": "系统要求",
     "videoHeading": "看看实际效果",
-    "allVideos": "全部视频",
-    "moreHeading": "{name} 的更多内容"
+    "allVideos": "全部视频"
   },
   "features": {
     "title": "{feature} · {name}",
     "indexHeading": "功能",
     "relatedFaq": "相关问题",
     "backToProduct": "返回 {name}",
-    "allFeatures": "{name} 全部功能",
-    "inShort": "要点"
+    "allFeatures": "{name} 全部功能"
   },
   "faq": {
     "title": "{name} 常见问题",
     "sectionTitle": "{section} · {name} 常见问题",
-    "description": "关于 {name} 的解答：玩法、连接、登录、串流画质、手柄、购买与退款。",
     "sectionDescription": "{name} 常见问题 · {section}：{count} 个问题及完整解答。",
     "intro": "同样的解答在 app 的“设置 → 常见问题”里也能看到。每个分区一页，每个问题都有单独的链接。",
+    "englishOnly": "翻译完成之前，这份常见问题先以英文显示。",
     "questionsCount": "{count} 个问题",
     "notFoundHeading": "没找到答案？",
-    "notFoundBody": "写信给我们，附上手机型号、主机型号和具体情况。每条消息都有真人看。",
     "notFoundCta": "前往支持页",
-    "prev": "上一页",
-    "next": "下一页",
     "allSections": "全部分区",
     "linkToQuestion": "本题链接"
   },
@@ -123,11 +123,6 @@
     "title": "{name} 支持",
     "description": "{name} 使用帮助：先检查什么、怎么写信、要附上哪些信息、怎么退款。",
     "beforeHeading": "写信之前",
-    "beforeItems": [
-      "先看常见问题。连接、登录和画面相关的问题大多在那里有答案，措辞和 app 里一样。",
-      "如果 app 连不上，到设置里运行连接诊断。它会检查网络、主机和远程游玩，还能一键把报告发邮件给我们。",
-      "确认主机已开机或处于待机状态，并且已在主机设置里打开远程游玩。"
-    ],
     "writeHeading": "写信给我们",
     "writeBody": "点按钮会打开邮件 app，并填好主题。如果什么都没打开，就把地址和下面的清单复制到任意邮件里。",
     "writeButton": "发邮件到 {email}",
@@ -135,23 +130,13 @@
     "copied": "已复制",
     "subject": "[{name}] ",
     "templateHeading": "请附上这些信息",
-    "template": {
-      "phone": "手机型号：",
-      "android": "Android 版本：",
-      "console": "主机：PS5 / PS4",
-      "where": "在家还是在外：",
-      "what": "发生了什么（按步骤写）：",
-      "doctor": "如果运行过连接诊断，请把报告贴在这里。"
-    },
     "refundHeading": "退款",
-    "refundBody": "如果 {name} 在你的设备环境下用不了，购买后 7 天内发邮件给我们，我们会退款。顺便说说你试过哪些办法，能帮我们为下一位用户修好它。",
     "replyHeading": "多久能收到回复",
     "replyBody": "通常在两个工作日内。每条消息都有真人看，每条都会回复。",
     "faqLink": "先看常见问题"
   },
   "privacy": {
     "title": "{name} 隐私政策",
-    "description": "Android 版 {name} 如何处理你的数据：无需账号、没有我们的服务器、哪些数据留在设备上、app 会连到哪里。",
     "effective": "生效日期：{date}",
     "appliesTo": "适用于在 Google Play 发布的 Android 版 {name}（{appId}）。",
     "governing": "本政策以英文发布。如有译文，仅供参考，以英文版本为准。",
@@ -173,16 +158,19 @@
   },
   "videos": {
     "title": "{name} 视频",
-    "description": "在真机上演示 {name} 的短视频：设置、串流、手柄布局，以及解决连接问题。",
     "emptyHeading": "视频正在制作中",
     "emptyBody": "我们正在为每个功能录制讲解视频。在那之前，功能页和常见问题讲的是同样的内容。",
-    "kinds": { "promo": "介绍", "tutorial": "教程", "troubleshooting": "问题排查" },
+    "kinds": {
+      "promo": "介绍",
+      "tutorial": "教程",
+      "troubleshooting": "问题排查"
+    },
     "watchOn": "在 YouTube 上观看",
-    "play": "播放视频"
+    "play": "播放视频",
+    "playlist": "在 YouTube 上看完整播放列表"
   },
   "compare": {
     "title": "{name} 对比",
-    "description": "在 Android 上逐项对比 {name} 与 PS Remote Play、PXPlay、Chiaki 的功能，只讲事实。",
     "intro": "只列事实，均已对照各 app 的商店页或官网核实。描述以下方日期为准，新版本可能有变化。这里不给任何 app 打分，也不声称哪一款整体更好。",
     "verified": "核实于 {date}",
     "notVerified": "其他列尚未核实，所以本页暂不让搜索引擎收录。",
@@ -196,6 +184,12 @@
       "tv-output": "HDMI 输出到电视",
       "connection-doctor": "内置连接诊断",
       "open-source": "开源",
+      "no-root": "免 root",
+      "stick-trigger-mapping": "模拟摇杆和 L2/R2 扳机映射",
+      "phases": "一款游戏多套布局，游戏中切换",
+      "macros": "宏",
+      "turbo": "连发（自动连点）",
+      "combos": "组合键",
       "pricing-model": "收费方式"
     },
     "values": {
@@ -205,11 +199,10 @@
       "unknown": "未核实",
       "one-time": "一次性买断",
       "free": "免费",
-      "subscription": "订阅"
+      "subscription": "订阅",
+      "free-with-pro": "免费，Pro 一次性买断"
     },
     "vsTitle": "{name} 与 {other} 对比",
-    "vsDescription": "在 Android 上逐项对比 {name} 与 {other}：在外远程游玩、HEVC 与 HDR、手柄、电视输出、开源与收费方式。",
-    "vsIntro": "两者都能把 Android 设备连到 PS5 或 PS4。下面逐项列出它们的不同之处。",
     "fullComparison": "查看完整对比"
   },
   "changelog": {
@@ -221,7 +214,6 @@
   },
   "press": {
     "title": "{name} 媒体资料包",
-    "description": "报道 Android 远程游玩手柄与主机串流 app {name} 所需的资料、素材和标准介绍。",
     "intro": "本页所有内容都可以直接用于文章、视频和 app 介绍，无需事先询问。如需其他资料，请写信给我们。",
     "factsHeading": "基本信息",
     "facts": {
@@ -231,7 +223,6 @@
       "firstReleased": "首次发布",
       "currentVersion": "当前版本",
       "price": "价格",
-      "priceValue": "付费 app，一次性买断，没有订阅，没有广告。当前价格以 Google Play 显示为准。",
       "languages": "语言",
       "license": "许可证",
       "website": "官网",
@@ -241,11 +232,9 @@
     },
     "oneLineHeading": "一句话介绍",
     "boilerplateHeading": "标准介绍",
-    "boilerplate": "{name} 能把 Android 手机变成 PS5 或 PS4 的无线手柄，也能把主机画面串流到手机、平板或电视上，在家用或在外用移动数据都可以。它由独立工作室 DappleByte 开发，以 AGPL-3.0 开源发布。",
     "assetsHeading": "素材",
     "assetIcon": "app 图标，512 px PNG",
     "assetFeature": "置顶大图，1024 × 500 PNG",
-    "assetScreenshots": "截图，1920 × 1080 PNG，英文",
     "assetStudioMark": "DappleByte 标志，SVG",
     "screenshotN": "截图 {index}",
     "contactHeading": "媒体联系",
@@ -258,5 +247,137 @@
   },
   "trademarks": {
     "sony": "PlayStation、PS5 和 PS4 是 Sony Interactive Entertainment Inc. 的商标。{name} 与 Sony 没有关联，也未获得 Sony 的背书。"
+  },
+  "videoItems": {
+    "gamepad-pro": {
+      "a01-tutorial": {
+        "title": "手把手教你创建按键映射",
+        "description": "选好游戏，添加按键，按下想用的手柄按键，把它拖到屏幕上对应的位置，保存后就能开玩。"
+      },
+      "a01-ad": {
+        "title": "用手柄玩只支持触屏的游戏",
+        "description": "快速看看 Gamepad Pro 怎样把手柄的按键、摇杆和扳机，变成只支持触屏的游戏里的触控操作。"
+      },
+      "a02-ad": {
+        "title": "一个按键，五种玩法",
+        "description": "同一个手柄按键可以是点按、长按、滑动、连发，或按顺序点几个位置的宏；视频演示怎么在编辑器里选。"
+      },
+      "t01": {
+        "title": "映射模拟摇杆和 L2/R2",
+        "description": "每套新布局都自带两根摇杆和两个扳机：拖到位置上，再点一下选择视角滑动或走位盘，并调好灵敏度。"
+      },
+      "t02": {
+        "title": "按键位置不对？不退出游戏就能改",
+        "description": "游戏中点一下悬浮球，布局就会叠加在画面上；把按键拖到正确位置后直接生效，不用退出游戏。"
+      },
+      "p01": {
+        "title": "一次只有一个按键能用？",
+        "description": "第二个触点被丢掉时，先更新到最新版本，再按「设置 › 高级多点触控」里的步骤操作。"
+      },
+      "p02": {
+        "title": "识别不到手柄？",
+        "description": "检查蓝牙或 USB 连接，以及 Android 设置里的配对，重新连接手柄，并确认它处于正确的模式。"
+      },
+      "p03": {
+        "title": "按键能用，摇杆却没反应？",
+        "description": "为什么在部分 Android 版本上，模拟摇杆和扳机需要 Gamepad Pro 键盘，以及怎样开启它才能映射。"
+      },
+      "p04": {
+        "title": "映射用着用着突然失效？",
+        "description": "Android 可能为了省电关掉后台 app；为 Gamepad Pro 关闭电池优化，映射就能一直运行。"
+      },
+      "p05": {
+        "title": "为什么需要无障碍权限？",
+        "description": "无障碍服务用来做什么：把你按下的按键转换成点击和滑动，不会读取或上传你屏幕上的内容。"
+      },
+      "p06": {
+        "title": "手指点屏幕没反应了？",
+        "description": "怎样一次暂停所有映射：用主界面上的开关，回不到 app 时也能从快捷设置里操作。"
+      },
+      "p07": {
+        "title": "键盘被换掉了，怎么打字？",
+        "description": "点地球图标切回你自己的键盘，或者打开自动切换，让 Gamepad Pro 只在映射运行时使用自己的键盘。"
+      }
+    }
+  },
+  "products": {
+    "gamepad-pro": {
+      "kicker": "手柄按键映射 · 免 root",
+      "heroPoints": [
+        "按键、摇杆和 L2/R2 扳机变成点击、长按和滑动",
+        "每款游戏一套布局，不同环节还能用“阶段”切换",
+        "宏、连发、组合键。免 root，免分身"
+      ],
+      "faqDescription": "关于 Gamepad Pro 的解答：设置与权限、创建按键映射、摇杆与扳机、手柄、Pro 与备份。",
+      "faqNotFoundBody": "写信给我们，附上手机型号、手柄、游戏和具体情况。每条消息都有真人看。",
+      "support": {
+        "beforeItems": [
+          "先看常见问题。设置、权限和映射相关的问题大多在那里有答案，措辞和 app 里一样。",
+          "确认无障碍服务已开启，并且映射没有暂停。如果之前能用、后来失效了，通常是电池优化导致的，常见问题里有操作步骤。",
+          "记下是哪款游戏、哪个手柄，以及按下按键时屏幕上发生了什么。我们需要这些信息来复现问题。"
+        ],
+        "template": {
+          "phone": "手机型号：",
+          "android": "Android 版本：",
+          "controller": "手柄（型号，USB 还是蓝牙）：",
+          "game": "游戏或 app：",
+          "what": "发生了什么（按步骤写）：",
+          "pro": "是否购买 Pro：是 / 否"
+        },
+        "refundBody": "Gamepad Pro 可以免费安装。如果你买了 Pro，但在你的设备环境下用不了，购买后 7 天内发邮件给我们，我们会退款。顺便说说你试过哪些办法，能帮我们为下一位用户修好它。"
+      },
+      "press": {
+        "description": "报道 Android 手柄按键映射工具 Gamepad Pro 所需的资料、素材和标准介绍。",
+        "boilerplate": "Gamepad Pro 能把你手上现有的手柄，变成 Android 上不支持手柄的游戏的触屏操作：按键、摇杆和扳机变成点击、长按和滑动，每款游戏一套布局，还有阶段、宏、连发和组合键。不需要 root。它由独立工作室 DappleByte 开发。",
+        "priceValue": "免费安装，含广告。一次性购买 Pro 即可去除广告并解锁全部 Pro 功能，没有订阅。当前价格以 Google Play 显示为准。",
+        "assetScreenshots": "手机截图，PNG，英文（竖屏 1080 × 1920；编辑器截图为横屏）"
+      },
+      "videosDescription": "在真机上演示 Gamepad Pro 的短视频：创建按键映射、摇杆与扳机、游戏中调整布局，以及最常见的问题。",
+      "privacyDescription": "Android 版 Gamepad Pro 如何处理你的数据：无需账号、无障碍服务用来做什么、统计和广告 SDK 会收集什么，以及如何关闭可选的数据收集。",
+      "compare": {
+        "description": "在 Android 上逐项对比 Gamepad Pro 与其他手柄映射工具的功能，只讲事实。",
+        "vsDescription": "在 Android 上逐项对比 {name} 与 {other}：root、摇杆与扳机、每款游戏的布局、宏、连发与收费方式。",
+        "vsIntro": "两者都能在 Android 上把手柄映射到触屏游戏。下面逐项列出它们的不同之处。"
+      }
+    },
+    "relaypad": {
+      "kicker": "PS5 · PS4",
+      "heroPoints": [
+        "手柄突然没电，直接拿手机接着玩",
+        "用大按键的遥控布局操作主机菜单和视频 app",
+        "躺在床上或在别的房间玩，主机留在电视旁不用搬"
+      ],
+      "faqDescription": "关于 {name} 的解答：玩法、连接、登录、串流画质、手柄、购买与退款。",
+      "faqNotFoundBody": "写信给我们，附上手机型号、主机型号和具体情况。每条消息都有真人看。",
+      "support": {
+        "beforeItems": [
+          "先看常见问题。连接、登录和画面相关的问题大多在那里有答案，措辞和 app 里一样。",
+          "如果 app 连不上，到设置里运行连接诊断。它会检查网络、主机和远程游玩，还能一键把报告发邮件给我们。",
+          "确认主机已开机或处于待机状态，并且已在主机设置里打开远程游玩。"
+        ],
+        "template": {
+          "phone": "手机型号：",
+          "android": "Android 版本：",
+          "console": "主机：PS5 / PS4",
+          "where": "在家还是在外：",
+          "what": "发生了什么（按步骤写）：",
+          "doctor": "如果运行过连接诊断，请把报告贴在这里。"
+        },
+        "refundBody": "如果 {name} 在你的设备环境下用不了，购买后 7 天内发邮件给我们，我们会退款。顺便说说你试过哪些办法，能帮我们为下一位用户修好它。"
+      },
+      "press": {
+        "description": "报道 Android 远程游玩手柄与主机串流 app {name} 所需的资料、素材和标准介绍。",
+        "boilerplate": "{name} 能把 Android 手机变成 PS5 或 PS4 的无线手柄，也能把主机画面串流到手机、平板或电视上，在家用或在外用移动数据都可以。它由独立工作室 DappleByte 开发，以 AGPL-3.0 开源发布。",
+        "priceValue": "付费 app，一次性买断，没有订阅，没有广告。当前价格以 Google Play 显示为准。",
+        "assetScreenshots": "截图，1920 × 1080 PNG，英文"
+      },
+      "videosDescription": "在真机上演示 {name} 的短视频：设置、串流、手柄布局，以及解决连接问题。",
+      "privacyDescription": "Android 版 {name} 如何处理你的数据：无需账号、没有我们的服务器、哪些数据留在设备上、app 会连到哪里。",
+      "compare": {
+        "description": "在 Android 上逐项对比 {name} 与 PS Remote Play、PXPlay、Chiaki 的功能，只讲事实。",
+        "vsDescription": "在 Android 上逐项对比 {name} 与 {other}：在外远程游玩、HEVC 与 HDR、手柄、电视输出、开源与收费方式。",
+        "vsIntro": "两者都能把 Android 设备连到 PS5 或 PS4。下面逐项列出它们的不同之处。"
+      }
+    }
   }
 }

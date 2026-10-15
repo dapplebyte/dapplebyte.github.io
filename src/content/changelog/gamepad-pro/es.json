@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "es",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 y posteriores: la configuración ahora es de un solo paso. Los sticks y gatillos del control funcionan sin el teclado Gamepad Pro.",
+        "¿Ya no necesitas el teclado Gamepad Pro? Un aviso único te muestra cómo desactivarlo para que tu teclado de siempre no cambie.",
+        "Se corrigió un cierre inesperado al activar el servicio en modo horizontal.",
+        "Mejoras de estabilidad."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "Nuevo ajuste: \"Sensibilidad de los gatillos (LT/RT)\".",
+        "Nuevo ajuste: \"Enviar al juego los controles sin asignar\", ideal para juegos en la nube.",
+        "\"Opciones de asignación predeterminadas\" volvió a la configuración.",
+        "El stick derecho ahora funciona en más controles de terceros.",
+        "Se corrigieron LT/RT mantenidos, botones presionados juntos y toques trabados al usar muchos botones.",
+        "Se corrigió el lápiz detectado como control, el botón flotante que no volvía y congelamientos ocasionales."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Se corrigió el cierre del servicio de asignaciones en pleno juego, que dejaba los botones muertos.",
+        "Se corrigió que «mantener para alternar» dejara de responder tras la primera pulsación.",
+        "Android 10 o anterior: tocar el chat del juego abre tu teclado de siempre.",
+        "Las asignaciones funcionan solo con teclado externo, sin mando.",
+        "Se corrigieron cierres al desconectar el mando y al abrir diálogos al volver del segundo plano.",
+        "Permiso de ubicación eliminado."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Tabletas, plegables y pantalla dividida: el editor de asignación de teclas y «Probar mando» ya no se limitan a una sola orientación.",
+        "Seis respuestas más de Preguntas frecuentes y ayuda ya tienen video de demostración.",
+        "Diseño de borde a borde: las pantallas de introducción y de política de privacidad ya no las cubren las barras del sistema.",
+        "Los fondos del editor ahora se decodifican al tamaño de la pantalla: usan mucha menos memoria y el arrastre va fluido."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Se corrigió que tras 1 o 2 horas sticks y gatillos dejaran de responder hasta reiniciar el servicio.",
+        "Se corrigió que los botones mantenidos se dispararan solos hasta apagar el servicio de accesibilidad.",
+        "Guardar asignaciones con sticks o gatillos ya no pide configurar el teclado: se revisa al iniciar el juego.",
+        "Preguntas frecuentes y ayuda: videotutoriales y cuatro preguntas nuevas.",
+        "Etiquetas LB/RB y LT/RT invertidas en «Probar mando»: se corrigió."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

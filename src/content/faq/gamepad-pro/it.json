@@ -1,0 +1,245 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "it",
+  "title": "FAQ e aiuto",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Configurazione",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Cosa fa Gamepad Pro?",
+          "a": [
+            "Gamepad Pro mappa controller, tastiera o qualsiasi pulsante esterno su tocchi e scorrimenti sullo schermo, così puoi giocare ai giochi touch e controllare le app con pulsanti fisici."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Perché serve l'autorizzazione di accessibilità? È sicura?",
+          "a": [
+            "Il servizio di accessibilità consente a Gamepad Pro di trasformare le pressioni in tocchi e scorrimenti, anche fuori dall'app. Le mappature funzionano solo dopo l'attivazione. Gamepad Pro lo usa solo per eseguire le tue azioni e non raccoglie dati personali."
+          ],
+          "video": "xbevEmk-T1Q"
+        },
+        {
+          "id": "q04",
+          "q": "Smette di funzionare dopo un po' in background. Come risolvo?",
+          "a": [
+            "Android può chiudere le app in background per risparmiare energia. Consenti a Gamepad Pro di funzionare in background disattivando l'ottimizzazione della batteria. Alcune marche (come MIUI o Samsung) aggiungono regole extra: la guida su dontkillmyapp.com spiega come disattivarle sul tuo dispositivo."
+          ],
+          "video": "8hZqhdyWx_Y"
+        },
+        {
+          "id": "q07",
+          "q": "Perché devo attivare la tastiera Gamepad Pro?",
+          "a": [
+            "Soprattutto per poter mappare le levette analogiche e i grilletti L2/R2 del controller. Il servizio di accessibilità di Android legge le normali pressioni dei pulsanti, ma non il movimento di levette o grilletti: solo la tastiera Gamepad Pro riesce a rilevarlo. Serve anche per azioni come digitare testo. Attivala e passa a quella tastiera quando richiesto, perché queste mappature e azioni funzionino."
+          ],
+          "video": "bkJYiGawnnc"
+        },
+        {
+          "id": "q11",
+          "q": "Gamepad Pro richiede l'accesso root?",
+          "a": [
+            "No. Gamepad Pro funziona tramite il servizio di accessibilità e non richiede il root. Root o Shizuku serve solo per alcune funzioni avanzate facoltative."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Funziona con tutti i giochi?",
+          "a": [
+            "Funziona con la maggior parte dei giochi touch. Alcuni giochi bloccano i tocchi simulati o usano anti-cheat che può interferire, quindi non è garantito con ogni gioco. Se un gioco non risponde, faccelo sapere tramite Feedback."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "La tastiera Gamepad Pro ha preso il sopravvento. Come faccio a scrivere adesso?",
+          "a": [
+            "La tastiera Gamepad Pro non ha un'interfaccia di scrittura: legge solo levette e grilletti, quindi non compare nulla quando tocchi un campo di testo. Tocca il mappamondo in basso a destra per tornare alla tua tastiera. Meglio ancora, attiva «Cambia automaticamente il metodo di immissione»: così Gamepad Pro usa la propria tastiera solo mentre le mappature sono in esecuzione e poi ti restituisce la tua."
+          ],
+          "video": "AAa5IUf8mPo"
+        },
+        {
+          "id": "q25",
+          "q": "Perché Android avvisa che Gamepad Pro può leggere le password?",
+          "a": [
+            "Android mostra lo stesso avviso per ogni app di accessibilità. Gamepad Pro lo usa solo per leggere il controller e l'app in primo piano e per posizionare i tocchi. Non legge, salva né carica mai ciò che c'è sullo schermo o ciò che scrivi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mappatura",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "La mia mappatura non funziona. Cosa devo controllare?",
+          "a": [
+            "1. Verifica che il servizio di accessibilità sia attivo (Impostazioni → Accessibilità → Gamepad Pro).",
+            "2. Verifica che la mappatura sia attiva (non in pausa).",
+            "3. Per le azioni di testo, passa alla tastiera Gamepad Pro.",
+            "4. Se prima funzionava e si è fermata, controlla le impostazioni di batteria/background (vedi la domanda successiva)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Come creo una mappatura dei pulsanti?",
+          "a": [
+            "1. Scegli un gioco o un'app dall'elenco.",
+            "2. Tocca per aggiungere un pulsante e premi il pulsante del controller desiderato.",
+            "3. Trascinalo nel punto da toccare.",
+            "4. Salva, attiva la mappatura e gioca."
+          ],
+          "video": "j2qYLNqHtA4"
+        },
+        {
+          "id": "q08",
+          "q": "Come elimino una mappatura o un pulsante predefinito?",
+          "a": [
+            "Tocca il pulsante sullo schermo e compare un piccolo menu con Copia ed Elimina. Tocca Elimina per rimuoverlo. Così rimuovi anche i pulsanti predefiniti che non ti servono."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Come imposto uno screenshot del mio gioco come sfondo?",
+          "a": [
+            "Nell'editor, tocca il pulsante immagine (in basso a destra) e scegli uno screenshot dalla galleria. Diventa lo sfondo, così posizioni ogni pulsante esattamente dove deve toccare."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Come mappo le levette analogiche o i grilletti L2/R2?",
+          "a": [
+            "Non devi registrarle: entrambe le levette ed entrambi i grilletti sono già presenti in ogni nuovo layout. Basta trascinarli sui punti che devono controllare e toccarne uno per aprire le sue impostazioni: la levetta destra può essere uno scorrimento camera (l'impostazione predefinita) o un disco di movimento, e lì trovi anche sensibilità e curva di risposta. Richiedono però la tastiera Gamepad Pro attiva, perché il servizio di accessibilità di Android non legge il movimento di levette o grilletti."
+          ],
+          "video": "rEvNu-S6_CY"
+        },
+        {
+          "id": "q12",
+          "q": "Come mappo più pulsanti premuti insieme (una combinazione)?",
+          "a": [
+            "Avvia la registrazione, poi premi i pulsanti insieme. Vengono salvati come una combinazione, quindi l'azione si attiva solo premendoli contemporaneamente. Una combinazione può anche fare da modificatore: assegna LB+A e LB da solo, poi tieni premuto LB e premi A per attivare la combinazione. Finché la combinazione è premuta, l'azione di A non si attiva, e l'azione di LB attende circa 0,2 s così l'app può distinguere le due."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Cosa succede quando tengo premuto un pulsante?",
+          "a": [
+            "Per impostazione predefinita, finché tieni premuto il pulsante lo schermo resta premuto in quel punto e si rilascia solo quando lasci il pulsante: una pressione breve è un tocco, una lunga è una pressione prolungata. Perfetto per mirare, correre o caricare attacchi. Per cambiare, tocca il pulsante nell'editor e apri l'icona dell'ingranaggio."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Il tocco finisce nel punto sbagliato. Come posiziono i pulsanti con precisione?",
+          "a": [
+            "Imposta uno screenshot del gioco come sfondo, poi trascina ogni pulsante nel punto esatto da toccare. Puoi trascinarlo di nuovo in qualsiasi momento per regolare la posizione."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Come metto in pausa o riprendo le mappature?",
+          "a": [
+            "Usa l'interruttore Servizio mappature in cima alla schermata Home per mettere in pausa o riprendere tutte le mappature in una volta. Se non riesci a tornare nell'app, aggiungi lo stesso interruttore alle Impostazioni rapide e raggiungilo da ovunque. La pausa ferma solo le mappature: il servizio di accessibilità resta attivo."
+          ],
+          "video": "FMxFD5nLdnw"
+        },
+        {
+          "id": "q21",
+          "q": "Non riesco a muovermi e sparare allo stesso tempo. Cosa posso fare?",
+          "a": [
+            "È un secondo tocco che va perso. Aggiorna prima all'ultima versione: le build più recenti mantengono già attivi entrambi i tocchi da sole. Se un tocco continua a sparire, apri Impostazioni › Multi-touch avanzato e segui i tre passaggi indicati lì; la pagina ti dice quale manca. È facoltativo e le mappature normali funzionano anche senza."
+          ],
+          "video": "cOnoseRHaUM"
+        },
+        {
+          "id": "q22",
+          "q": "Un pulsante è nel punto sbagliato. Posso sistemarlo senza uscire dal gioco?",
+          "a": [
+            "Sì. Tocca il pulsante flottante mentre giochi e il tuo layout compare sopra il gioco: trascina il pulsante nel punto giusto e tocca di nuovo il pulsante flottante per applicare la modifica. Tieni premuto il pulsante flottante per passare a un altro layout senza uscire dal gioco (servono almeno due layout salvati)."
+          ],
+          "video": "nz4xZcZ95hY"
+        },
+        {
+          "id": "q24",
+          "q": "Cosa può fare un singolo pulsante del controller?",
+          "a": [
+            "Tutto. Un solo pulsante può essere un tocco singolo, una pressione che tiene premuto lo schermo, un turbo che tocca ripetutamente finché lo tieni premuto o una macro che tocca più punti in sequenza. Le levette analogiche possono essere un disco di movimento o uno scorrimento camera. Tocca un pulsante nell'editor e apri l'icona dell'ingranaggio per scegliere."
+          ],
+          "video": "bs5oMvTess8"
+        },
+        {
+          "id": "q27",
+          "q": "Come funzionano gli schemi?",
+          "a": [
+            "Ogni gioco può avere più schemi: uno per il combattimento, uno per la guida, uno per i menu e così via. Lo schema 1 viene usato all'avvio del gioco. Durante la partita cambia schema con la combinazione impostata nel profilo o con l'etichetta del selettore flottante."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Cos’è Shizuku e mi serve?",
+          "a": [
+            "Shizuku è un potenziamento avanzato facoltativo. Consente a Gamepad Pro di iniettare eventi multitouch in modo più diretto, con latenza inferiore e tracciamento più fluido rispetto al percorso di accessibilità: la differenza si nota soprattutto con due levette o più percorsi tattili simultanei. Non sostituisce il servizio di accessibilità e tutte le mappature funzionano anche senza. Su Android 11 e successivi può essere avviato con il debug wireless, ma di solito va riavviato dopo il riavvio del dispositivo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Controller",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "Un pulsante del mio controller non viene rilevato. Cosa posso fare?",
+          "a": [
+            "Le versioni di Android e i dispositivi variano, quindi alcuni pulsanti potrebbero non essere rilevati su certo hardware. Prova un altro pulsante, ricollega il dispositivo o segnalacelo tramite Feedback."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Il mio controller non viene rilevato affatto. Cosa devo controllare?",
+          "a": [
+            "Assicurati che sia ben collegato via Bluetooth o USB e associato nelle impostazioni Android. Prova a ricollegarlo e verifica che funzioni in altre app. Alcuni controller vanno accesi in una modalità specifica."
+          ],
+          "video": "t0HAKJXgRCU"
+        },
+        {
+          "id": "q26",
+          "q": "Lo stick sinistro muove un mouse invisibile. Come lo blocco?",
+          "a": [
+            "Alcuni giochi e launcher supportano già i controller e trasformano lo stick sinistro in un puntatore. Se il gioco funziona già con il tuo controller, apri il suo profilo e disattiva la mappatura per quel gioco, oppure elimina la mappatura dello stick sinistro. Se preferisci che sia Gamepad Pro a gestirlo, apri lo schema, tocca il tasto dello stick sinistro e scegli Disco di movimento."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Come faccio a far toccare automaticamente un pulsante (turbo)?",
+          "a": [
+            "Tocca il pulsante nell'editor, apri l'ingranaggio e scegli Turbo. Finché tieni premuto il pulsante, quel punto viene toccato ripetutamente all'intervallo impostato; rilascia per fermare. I pulsanti turbo mostrano una piccola T viola accanto al nome del tasto."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Come faccio a toccare più punti in sequenza con un solo pulsante (macro)?",
+          "a": [
+            "Tocca il pulsante nell'editor e scegli + per aggiungere un passaggio macro. Ogni passaggio diventa un adesivo numerato (1, 2, 3…) da trascinare nel proprio punto. Una sola pressione tocca tutti i passaggi in ordine; l'intervallo si regola con l'ingranaggio. Mentre la macro è in esecuzione, le pressioni extra vengono ignorate fino alla fine."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Come eseguo backup e ripristino delle mappature?",
+          "a": [
+            "Apri il menu e scegli Backup per salvare tutte le mappature in un file, o Ripristina per ricaricarle – utile quando cambi telefono o prima di reinstallare."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

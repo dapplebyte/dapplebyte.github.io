@@ -4,7 +4,7 @@ import Base from '../../../layouts/Base.astro';
 import ProductNav from '../../../components/ProductNav.astro';
 import { getLocale, localePath } from '../../../i18n/locales';
 import { useT, formatDate } from '../../../i18n/t';
-import { getProduct } from '../../../lib/content';
+import { getProduct, COMPARE_VALUES } from '../../../lib/content';
 import { productLangPaths } from '../../../lib/routes';
 import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../lib/jsonld';
 
@@ -17,16 +17,16 @@ export async function getStaticPaths() {
 }
 
 const { locale, slug, alternates } = Astro.props;
-const { t } = useT(locale);
+const { t, tp } = useT(locale);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
 const compare = (await getEntry('compare', slug))!.data;
 const path = `/${slug}/compare/`;
 const url = new URL(localePath(locale, path), SITE).href;
 const title = t('compare.title', { name: product.name });
-const description = t('compare.description', { name: product.name });
+const description = tp(slug, 'compare.description', { name: product.name });
 const columns = [{ id: slug, name: product.name, url: product.playUrl }, ...compare.competitors];
-const cell = (v: string) => (v in { yes: 1, no: 1, partial: 1, unknown: 1, 'one-time': 1, free: 1, subscription: 1 } ? t(`compare.values.${v}`) : v);
+const cell = (v: string) => (COMPARE_VALUES.includes(v) ? t(`compare.values.${v}`) : v);
 const jsonLd = graph(
   organization(),
   website(loc.lang),

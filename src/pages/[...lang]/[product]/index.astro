@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import Base from '../../../layouts/Base.astro';
 import ProductNav from '../../../components/ProductNav.astro';
 import ProductHero from '../../../components/ProductHero.astro';
+import VideoFacade from '../../../components/VideoFacade.astro';
 import { getLocale, localePath } from '../../../i18n/locales';
 import { useT, formatDate } from '../../../i18n/t';
 import { getProduct, getCopy, getFaq, faqEntryById, copySection, localesFor } from '../../../lib/content';
@@ -14,27 +15,30 @@ import { getEntry } from 'astro:content';
 export const getStaticPaths = productLangPaths;
 
 const { locale, slug, alternates } = Astro.props;
-const { t } = useT(locale);
+const { t, tp } = useT(locale);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
 const copy = await getCopy(slug, locale);
 const faq = await getFaq(slug, locale);
 const features = (await getEntry('features', slug))?.data.items ?? [];
 const videos = (await getEntry('videos', slug))?.data.items ?? [];
-const compare = (await getEntry('compare', slug))?.data;
 const path = `/${slug}/`;
 const url = new URL(localePath(locale, path), SITE).href;
 const shots = screenshots(slug, locale, product.screenshotCount);
 const langs = (await localesFor('productCopy', slug)).map((s) => getLocale(s).lang);
 const latest = product.versions.at(-1);
 
+const portrait = product.screenshotOrientation === 'portrait';
+
 const featureSections = features.map((f) => ({ f, s: copySection(copy, f.sectionId) })).filter((x) => x.s);
-const useCases = copySection(copy, 'use-cases');
-const pricing = copySection(copy, 'pricing');
-const privacy = copySection(copy, 'privacy');
-const before = copySection(copy, 'before-you-buy');
-const trademark = copySection(copy, 'trademark');
+// Fixed blocks of the page, filled from the store listing sections named in products/<slug>.json `overview`.
+const { overview } = product;
+const useCases = overview.useCases ? copySection(copy, overview.useCases) : undefined;
+const steps = overview.steps ? copySection(copy, overview.steps) : undefined;
+const cells = overview.cells.map((id) => copySection(copy, id)).filter((s) => !!s);
+const fine = overview.fine ? copySection(copy, overview.fine) : undefined;
 const featured = faq ? product.featuredFaq.map((id) => faqEntryById(faq, id)).filter(Boolean) : [];
+const intro = videos.find((v) => v.kind === 'tutorial') ?? videos[0];
 
 const jsonLd = graph(
   organization(),
@@ -44,19 +48,19 @@ const jsonLd = graph(
     { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
     { name: product.name, url },
   ]),
-  softwareApplication(product, copy, langs, screenshots(slug, 'en', product.screenshotCount).map((i) => new URL(i.src, SITE).href)),
+  softwareApplication(product, copy, langs, screenshots(slug, 'en', product.screenshotCount).map((i) => new URL(i.src, SITE).href), true, features.map((f) => f.sectionId)),
 );
 ---
 
 <Base locale={locale} path={path} title={t('product.title', { name: product.name })} description={copy.shortDescription} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
-  <ProductNav locale={locale} product={product} current="overview" showVideos={videos.length > 0} showCompare={!!compare && !compare.draft} />
+  <ProductNav locale={locale} product={product} current="overview" />
 
   <section class="grid-bg">
     <div class="wrap section">
       <ProductHero locale={locale} product={product} copy={copy} level={1} />
       <div class="chips" style="margin-top:18px">
         {product.minOs && <span class="chip">{t('facts.minOs', { version: product.minOs })}</span>}
-        <span class="chip">{t('facts.consoles')}</span>
+        <span class="chip">{tp(slug, 'kicker')}</span>
         {product.languages && <span class="chip">{t('facts.languages', { count: product.languages })}</span>}
         {product.sourceLicense && <span class="chip">{t('facts.source', { license: product.sourceLicense })}</span>}
         {latest && <span class="chip">{t('facts.version', { version: latest.name })}</span>}
@@ -71,7 +75,7 @@ const jsonLd = graph(
       <div class="shots-strip">
         {shots.map((img, i) => (
           <figure>
-            <Image src={img} alt={t('product.screenshotAlt', { name: product.name, index: i + 1 })} widths={[560, 1120]} sizes="(max-width: 860px) 78vw, 560px" loading={i < 2 ? 'eager' : 'lazy'} />
+            <Image src={img} alt={t('product.screenshotAlt', { name: product.name, index: i + 1 })} widths={img.height > img.width ? [240, 480] : [560, 1120]} sizes={img.height > img.width ? '200px' : '(max-width: 860px) 78vw, 560px'} loading={i < (portrait ? 4 : 2) ? 'eager' : 'lazy'} />
           </figure>
         ))}
       </div>
@@ -82,6 +86,27 @@ const jsonLd = graph(
     <section class="wrap section">
       <h2 class="h-section">{useCases.title}</h2>
       <ul class="bullets two-col">{useCases.bullets.map((b) => <li>{b}</li>)}</ul>
+    </section>
+  )}
+
+  {steps && (
+    <section class="wrap section">
+      <h2 class="h-section">{steps.title}</h2>
+      {steps.paragraphs.map((p) => <p class="muted" style="margin-top:12px">{p}</p>)}
+      <ol class="steps">{steps.bullets.map((b) => <li>{b}</li>)}</ol>
+    </section>
+  )}
+
+  {intro && (
+    <section class="wrap section">
+      <div class="section-head mono"><span>{t('product.videoHeading')}</span><a href={localePath(locale, `/${slug}/videos/`)}>{t('product.allVideos')} →</a></div>
+      <div class="in-action">
+        <VideoFacade youtubeId={intro.youtubeId} label={`${t('videos.play')}: ${t(intro.titleKey)}`} aspect={intro.aspect} />
+        <div>
+          <h2 class="h-sub" style="margin-bottom:10px">{t(intro.titleKey)}</h2>
+          <p class="muted">{t(intro.descriptionKey)}</p>
+        </div>
+      </div>
     </section>
   )}
 
@@ -112,39 +137,30 @@ const jsonLd = graph(
     </section>
   )}
 
-  <section class="wrap section">
-    <div class="cells cells-3">
-      {pricing && (
-        <div>
-          <h3 class="h-sub" style="margin-bottom:10px">{pricing.title}</h3>
-          {pricing.paragraphs.map((p) => <p class="muted">{p}</p>)}
-        </div>
-      )}
-      {privacy && (
-        <div>
-          <h3 class="h-sub" style="margin-bottom:10px">{privacy.title}</h3>
-          {privacy.paragraphs.map((p) => <p class="muted">{p}</p>)}
-          <p style="margin-top:10px"><a href={localePath(locale, `/${slug}/privacy/`)}>{t('privacy.title', { name: product.name })} →</a></p>
-        </div>
-      )}
-      {before && (
-        <div>
-          <h3 class="h-sub" style="margin-bottom:10px">{before.title}</h3>
-          <ul class="bullets muted">{before.bullets.map((b) => <li>{b}</li>)}</ul>
-        </div>
-      )}
-    </div>
-  </section>
+  {cells.length > 0 && (
+    <section class="wrap section">
+      <div class={`cells cells-${Math.min(cells.length, 3)}`}>
+        {cells.map((c) => (
+          <div>
+            <h3 class="h-sub" style="margin-bottom:10px">{c.title}</h3>
+            {c.paragraphs.map((p) => <p class="muted">{p}</p>)}
+            {c.bullets.length > 0 && <ul class="bullets muted">{c.bullets.map((b) => <li>{b}</li>)}</ul>}
+            {c.id === overview.privacyLinkIn && <p style="margin-top:10px"><a href={localePath(locale, `/${slug}/privacy/`)}>{t('privacy.title', { name: product.name })} →</a></p>}
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
 
   <section class="wrap section">
     <h2 class="h-section" style="margin-bottom:12px">{t('product.getHeading', { name: product.name })}</h2>
-    <p class="lede" style="margin-bottom:20px">{t('product.getBody', { license: product.sourceLicense ?? '' })}</p>
+    <p class="lede" style="margin-bottom:20px">{t('product.getBody')}{product.sourceLicense && ` ${t('product.getBodySource', { license: product.sourceLicense })}`}</p>
     <div class="actions">
       {product.playUrl && <a class="button" href={product.playUrl}>{t('cta.getOnPlay', { name: product.name })}</a>}
       {product.sourceUrl && <a class="link-plain" href={product.sourceUrl}>{t('cta.readSource')}</a>}
       <a class="link-plain" href={localePath(locale, `/${slug}/support/`)}>{t('labels.support')}</a>
     </div>
-    {trademark && <p class="fine" style="margin-top:28px">{trademark.paragraphs.join(' ')}</p>}
+    {fine && <p class="fine" style="margin-top:28px">{fine.paragraphs.join(' ')}</p>}
     <p class="fine" style="margin-top:8px">{t('labels.lastUpdated', { date: formatDate(locale, copy.extractedAt, loc.lang) })}</p>
   </section>
 </Base>
@@ -167,6 +183,31 @@ const jsonLd = graph(
   }
   .muted {
     color: var(--fg-2);
+  }
+  .muted + .muted {
+    margin-top: 8px;
+  }
+  .steps {
+    margin: 16px 0 0;
+    padding-inline-start: 1.4em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--fg-2);
+    max-width: 64ch;
+  }
+  .steps li::marker {
+    color: var(--product);
+    font-family: var(--font-mono);
+  }
+  .in-action {
+    display: grid;
+    grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+    gap: 32px;
+    align-items: center;
+  }
+  .in-action:has(.vf-landscape) {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
   }
   .feature-link {
     color: var(--fg);
@@ -199,7 +240,9 @@ const jsonLd = graph(
   }
   @media (max-width: 860px) {
     .two-col,
-    .featured-faq {
+    .featured-faq,
+    .in-action,
+    .in-action:has(.vf-landscape) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
     }
   }

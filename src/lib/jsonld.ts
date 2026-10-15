@@ -41,11 +41,17 @@ export function webPage(url: string, name: string, description: string, lang: st
   };
 }
 
-export function softwareApplication(product: Product, copy: ProductCopy, langs: string[], screenshotUrls: string[], full = true) {
+/**
+ * `featureSectionIds`: the product's features.json `sectionId`s, in order. Each feature contributes its
+ * bullets, or its first paragraph when it has none.
+ */
+export function softwareApplication(product: Product, copy: ProductCopy, langs: string[], screenshotUrls: string[], full = true, featureSectionIds: string[] = []) {
   const id = `${SITE}/${product.slug}/#app`;
   if (!full) return { '@type': 'SoftwareApplication', '@id': id };
   const latest = product.versions.at(-1);
-  const features = copy.sections.filter((s) => ['virtual-gamepad', 'console-streaming', 'remote-play-away', 'connection-doctor', 'guided-setup'].includes(s.id)).flatMap((s) => s.bullets);
+  const features = featureSectionIds
+    .map((sid) => copy.sections.find((s) => s.id === sid))
+    .flatMap((s) => (!s ? [] : s.bullets.length ? s.bullets : s.paragraphs.slice(0, 1)));
   return {
     '@type': 'SoftwareApplication',
     '@id': id,
@@ -57,7 +63,7 @@ export function softwareApplication(product: Product, copy: ProductCopy, langs: 
     ...(latest ? { softwareVersion: latest.name } : {}),
     ...(product.firstReleased ? { datePublished: product.firstReleased } : {}),
     ...(copy.requires ? { softwareRequirements: copy.requires } : {}),
-    featureList: features,
+    ...(features.length ? { featureList: features } : {}),
     screenshot: screenshotUrls,
     inLanguage: langs,
     ...(product.playUrl ? { installUrl: product.playUrl, downloadUrl: product.playUrl } : {}),

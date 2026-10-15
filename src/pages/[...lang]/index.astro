@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import ProductHero from '../../components/ProductHero.astro';
 import { getLocale, localePath } from '../../i18n/locales';
 import { useT } from '../../i18n/t';
-import { allProducts, getCopy, localesFor } from '../../lib/content';
+import { allProducts, getCopy, localesFor, featureSectionIds } from '../../lib/content';
 import { langPaths } from '../../lib/routes';
 import { graph, organization, website, webPage, softwareApplication, SITE } from '../../lib/jsonld';
 import { screenshots } from '../../lib/screenshots';
@@ -24,7 +24,7 @@ const apps = await Promise.all(
   live.map(async (p, i) => {
     const langs = (await localesFor('productCopy', p.slug)).map((s) => getLocale(s).lang);
     const shots = screenshots(p.slug, 'en', p.screenshotCount).map((img) => new URL(img.src, SITE).href);
-    return softwareApplication(p, copies[i], langs, shots);
+    return softwareApplication(p, copies[i], langs, shots, true, await featureSectionIds(p.slug));
   }),
 );
 const jsonLd = graph(
@@ -51,7 +51,7 @@ const jsonLd = graph(
     </div>
     <div class="apps">
       {live.map((p, i) => (
-        <ProductHero locale={locale} product={p} copy={copies[i]} level={2} linkTo={localePath(locale, `/${p.slug}/`)} />
+        <ProductHero locale={locale} product={p} copy={copies[i]} level={2} linkTo={localePath(locale, `/${p.slug}/`)} featured={i === 0} />
       ))}
       {placeholders.length > 0 && (
         <div class="cells placeholders" style={`grid-template-columns: repeat(${Math.min(placeholders.length, 3)}, minmax(0, 1fr))`}>

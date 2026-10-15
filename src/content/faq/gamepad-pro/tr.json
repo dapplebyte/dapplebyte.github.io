@@ -1,0 +1,245 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "tr",
+  "title": "SSS ve Yardım",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Kurulum",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Gamepad Pro ne yapar?",
+          "a": [
+            "Gamepad Pro; kumandanızı, klavyenizi veya herhangi bir harici düğmeyi ekrandaki dokunuşlara ve kaydırmalara eşler; böylece dokunmatik oyunlar oynayabilir ve uygulamaları fiziksel düğmelerle kontrol edebilirsiniz."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Erişilebilirlik izni neden gerekli? Güvenli mi?",
+          "a": [
+            "Erişilebilirlik hizmeti, Gamepad Pro'nun basışlarınızı dokunuşlara ve kaydırmalara dönüştürmesini sağlar – uygulama dışındayken bile. Eşlemeler yalnızca etkinleştirdikten sonra çalışır. Gamepad Pro bunu yalnızca işlemlerinizi gerçekleştirmek için kullanır ve kişisel veri toplamaz."
+          ],
+          "video": "xbevEmk-T1Q"
+        },
+        {
+          "id": "q04",
+          "q": "Arka planda bir süre sonra duruyor. Nasıl düzeltirim?",
+          "a": [
+            "Android, güç tasarrufu için arka plandaki uygulamaları kapatabilir. Pil optimizasyonunu kapatarak Gamepad Pro'nun arka planda çalışmasına izin verin. Bazı markalar (MIUI veya Samsung gibi) ek kurallar ekler – dontkillmyapp.com'daki kılavuz bunları cihazınızda nasıl kapatacağınızı gösterir."
+          ],
+          "video": "8hZqhdyWx_Y"
+        },
+        {
+          "id": "q07",
+          "q": "Gamepad Pro klavyesini neden etkinleştirmem gerekiyor?",
+          "a": [
+            "Başlıca nedeni, kumandanızın analog çubuklarının ve L2/R2 tetiklerinin eşlenebilmesidir. Android'in erişilebilirlik hizmeti normal düğme basışlarını okuyabilir, ama çubuk veya tetik hareketini okuyamaz; bunları yalnızca Gamepad Pro klavyesi yakalayabilir. Metin yazma gibi işlemler için de gerekir. Bu eşlemelerin ve işlemlerin çalışması için istendiğinde klavyeyi etkinleştirip ona geçin."
+          ],
+          "video": "bkJYiGawnnc"
+        },
+        {
+          "id": "q11",
+          "q": "Gamepad Pro root erişimi gerektirir mi?",
+          "a": [
+            "Hayır. Gamepad Pro erişilebilirlik hizmetiyle çalışır ve root gerektirmez. Root veya Shizuku yalnızca birkaç isteğe bağlı gelişmiş özellik için gerekir."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Her oyunla çalışır mı?",
+          "a": [
+            "Çoğu dokunmatik oyunla çalışır. Bazı oyunlar sahte dokunuşları engeller veya engel olabilecek hile önleme kullanır, bu yüzden her oyun garanti edilemez. Bir oyun yanıt vermezse Geri Bildirim üzerinden bize bildirin."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Gamepad Pro klavyesi devraldı. Şimdi nasıl yazarım?",
+          "a": [
+            "Gamepad Pro klavyesinin yazma arayüzü yoktur — yalnızca çubukları ve tetikleri okur, bu yüzden bir metin alanına dokunduğunuzda hiçbir şey çıkmaz. Kendi klavyenize dönmek için sağ alttaki küre simgesine dokunun. Daha da iyisi, \"Giriş yöntemini otomatik değiştir\" seçeneğini açın — böylece Gamepad Pro kendi klavyesini yalnızca eşlemeler çalışırken kullanır, sonrasında sizinkini geri verir."
+          ],
+          "video": "AAa5IUf8mPo"
+        },
+        {
+          "id": "q25",
+          "q": "Android neden Gamepad Pro'nun şifreleri okuyabileceği konusunda uyarıyor?",
+          "a": [
+            "Android her erişilebilirlik uygulaması için aynı uyarıyı gösterir. Gamepad Pro bunu yalnızca kumandanızı ve ön plandaki uygulamayı okumak ve dokunuşları yerleştirmek için kullanır. Ekranınızdakileri veya yazdıklarınızı asla okumaz, saklamaz ya da yüklemez."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Eşleme",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Tuş eşlemem çalışmıyor. Neyi kontrol etmeliyim?",
+          "a": [
+            "1. Erişilebilirlik hizmetinin açık olduğundan emin olun (Ayarlar → Erişilebilirlik → Gamepad Pro).",
+            "2. Eşlemenin açık (duraklatılmamış) olduğundan emin olun.",
+            "3. Metin işlemleri için Gamepad Pro klavyesine geçin.",
+            "4. Önce çalışıp sonra durduysa pil/arka plan ayarlarını kontrol edin (bir sonraki soruya bakın)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Tuş eşlemesi nasıl oluştururum?",
+          "a": [
+            "1. Listeden bir oyun veya uygulama seçin.",
+            "2. Düğme eklemek için dokunun ve istediğiniz kumanda düğmesine basın.",
+            "3. Dokunması gereken yere sürükleyin.",
+            "4. Kaydedin, eşlemeyi açın ve oynayın."
+          ],
+          "video": "j2qYLNqHtA4"
+        },
+        {
+          "id": "q08",
+          "q": "Bir tuş eşlemesini veya hazır düğmeyi nasıl silerim?",
+          "a": [
+            "Ekrandaki düğmeye dokunun; Kopyala ve Sil seçenekleri olan küçük bir menü açılır. Kaldırmak için Sil'e dokunun. İhtiyacınız olmayan hazır düğmeleri de böyle kaldırırsınız."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Oyunumun ekran görüntüsünü nasıl arka plan yaparım?",
+          "a": [
+            "Düzenleyicide resim düğmesine (sağ alt) dokunun ve galerinizden bir ekran görüntüsü seçin. Arka plan olur, böylece her düğmeyi tam dokunması gereken yere yerleştirirsiniz."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Analog çubukları veya L2/R2 tetiklerini nasıl eşlerim?",
+          "a": [
+            "Bunları kaydetmenize gerek yok — her yeni düzende iki çubuk da iki tetik de hazır gelir. Sadece kontrol etmelerini istediğiniz noktalara sürükleyin ve ayarlarını açmak için birine dokunun: sağ çubuk kamera kaydırma (varsayılan) ya da hareket diski olabilir, hassasiyet ve tepki eğrisi de oradadır. Bunlar için Gamepad Pro klavyesinin etkin olması gerekir; çünkü Android'in erişilebilirlik hizmeti çubuk veya tetik hareketini okuyamaz."
+          ],
+          "video": "rEvNu-S6_CY"
+        },
+        {
+          "id": "q12",
+          "q": "Birlikte basılan birkaç düğmeyi (kombinasyon) nasıl eşlerim?",
+          "a": [
+            "Kaydı başlatın, ardından düğmelere birlikte basın. Tek bir kombinasyon olarak kaydedilir, böylece işlem yalnızca aynı anda bastığınızda tetiklenir. Bir kombinasyon değiştirici tuş gibi de çalışabilir: LB+A ile tek başına LB'yi atayın, ardından LB'yi basılı tutup A'ya basarak kombinasyonu tetikleyin. Kombinasyon basılı tutulduğu sürece A'nın kendi işlemi çalışmaz, LB'nin kendi işlemi ise uygulamanın ikisini ayırt edebilmesi için yaklaşık 0,2 sn bekler."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Bir düğmeyi basılı tuttuğumda ne olur?",
+          "a": [
+            "Varsayılan olarak, düğmeyi basılı tuttuğun sürece ekran o noktada basılı kalır ve ancak bıraktığında serbest kalır: kısa basmak dokunmadır, uzun tutmak uzun basmadır. Nişan alma, koşma ve şarjlı saldırılar için idealdir. Değiştirmek için düzenleyicide düğmeye dokun ve dişli simgesini aç."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Dokunuş yanlış yere geliyor. Düğmeleri nasıl tam yerleştiririm?",
+          "a": [
+            "Oyunun ekran görüntüsünü arka plan yapın, sonra her düğmeyi dokunması gereken tam noktaya sürükleyin. Konumu ince ayarlamak için istediğiniz zaman yeniden sürükleyebilirsiniz."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Eşlemelerimi nasıl duraklatır veya sürdürürüm?",
+          "a": [
+            "Tüm eşlemeleri aynı anda duraklatmak veya sürdürmek için ana ekranın üst kısmındaki Eşleme hizmeti anahtarını kullanın. Uygulamaya dönemiyorsanız aynı anahtarı Hızlı Ayarlar'a ekleyin ve her yerden erişin. Duraklatmak yalnızca eşlemeleri durdurur — erişilebilirlik hizmeti etkin kalır."
+          ],
+          "video": "FMxFD5nLdnw"
+        },
+        {
+          "id": "q21",
+          "q": "Aynı anda hareket edip ateş edemiyorum. Ne yapabilirim?",
+          "a": [
+            "Bu, ikinci dokunuşun düşmesinden kaynaklanır. Önce en son sürüme güncelleyin — yeni sürümler iki dokunuşu da kendiliğinden canlı tutuyor. Yine de biri düşüyorsa Ayarlar › Gelişmiş çoklu dokunma bölümünü açıp oradaki üç adımı uygulayın; sayfa hangi adımın eksik olduğunu söyler. Bu isteğe bağlıdır, sıradan eşlemeler onsuz da çalışır."
+          ],
+          "video": "cOnoseRHaUM"
+        },
+        {
+          "id": "q22",
+          "q": "Bir düğme yanlış yerde. Oyundan çıkmadan düzeltebilir miyim?",
+          "a": [
+            "Evet. Oynarken yüzen düğmeye dokunun, düzeniniz oyunun üzerinde belirir — düğmeyi doğru noktaya sürükleyin ve uygulamak için yüzen düğmeye tekrar dokunun. Oyundan çıkmadan başka bir düzene geçmek için yüzen düğmeyi basılı tutun (bunun için en az iki kayıtlı düzen gerekir)."
+          ],
+          "video": "nz4xZcZ95hY"
+        },
+        {
+          "id": "q24",
+          "q": "Tek bir kumanda düğmesi neler yapabilir?",
+          "a": [
+            "Neredeyse her şeyi. Tek bir düğme tek dokunuş olabilir, ekranı basılı tutan bir tutma olabilir, siz basılı tuttukça tekrar tekrar dokunan bir turbo olabilir ya da birkaç noktaya sırayla dokunan bir makro olabilir. Analog çubuklar da hareket diski veya kamera kaydırma olabilir. Seçmek için düzenleyicide bir düğmeye dokunup dişli simgesini açın."
+          ],
+          "video": "bs5oMvTess8"
+        },
+        {
+          "id": "q27",
+          "q": "Düzenler nasıl çalışır?",
+          "a": [
+            "Her oyunun birkaç düzeni olabilir: biri dövüş, biri sürüş, biri menüler için vb. Oyun başladığında Düzen 1 kullanılır. Oyun içinde düzenler arasında profilde ayarladığınız kombinasyonla veya yüzen düzen seçici etiketiyle geçiş yapın."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku nedir ve gerekli mi?",
+          "a": [
+            "Shizuku isteğe bağlı gelişmiş bir iyileştirmedir. Gamepad Pro'nun çoklu dokunma olaylarını daha doğrudan iletmesini sağlar; erişilebilirlik yoluna göre gecikme daha düşük, takip daha akıcıdır — en çok çift analog veya birden fazla eşzamanlı dokunma yolunda hissedilir. Erişilebilirlik hizmetinin yerini almaz ve tüm eşlemeler onsuz da çalışır. Android 11 ve üzeri sürümlerde kablosuz hata ayıklama ile başlatılabilir, ancak cihaz yeniden başlatıldıktan sonra genellikle yeniden başlatılması gerekir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Kumanda",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "Kumandamdaki bir düğme algılanmıyor. Ne yapabilirim?",
+          "a": [
+            "Android sürümleri ve cihazlar farklıdır, bu yüzden bazı düğmeler belirli donanımlarda algılanmayabilir. Başka bir düğme deneyin, cihazı yeniden bağlayın veya Geri Bildirim üzerinden bize bildirin."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Kumandam hiç algılanmıyor. Neyi kontrol etmeliyim?",
+          "a": [
+            "Bluetooth veya USB ile düzgün bağlandığından ve Android ayarlarında eşlendiğinden emin olun. Yeniden bağlamayı deneyin ve başka uygulamalarda çalışıp çalışmadığını kontrol edin. Bazı kumandalar belirli bir modda açılmalıdır."
+          ],
+          "video": "t0HAKJXgRCU"
+        },
+        {
+          "id": "q26",
+          "q": "Sol çubuğum görünmez bir fareyi hareket ettiriyor. Bunu nasıl durdururum?",
+          "a": [
+            "Bazı oyunlar ve başlatıcılar yerleşik kumanda desteğine sahiptir ve sol çubuğu bir işaretçiye dönüştürür. Oyun kumandanızla zaten çalışıyorsa profilini açıp o oyun için eşlemeyi kapatın ya da sol çubuk eşlemesini silin. Bunu Gamepad Pro'nun yapmasını istiyorsanız düzeni açın, sol çubuk tuşuna dokunun ve Hareket diski'ni seçin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Bir düğmeye otomatik dokunma (turbo) nasıl yaptırılır?",
+          "a": [
+            "Düzenleyicide düğmeye dokun, dişliyi aç ve Turbo'yu seç. Düğmeyi basılı tuttuğun sürece o nokta ayarladığın aralıkla tekrar tekrar dokunulur; bırakınca durur. Turbo düğmelerinde tuş adının yanında küçük mor bir T görünür."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Tek düğmeyle birden çok noktaya sırayla dokunma (makro) nasıl yapılır?",
+          "a": [
+            "Düzenleyicide düğmeye dokun ve makro adımı eklemek için + seç. Her adım, kendi yerine sürükleyebileceğin numaralı bir çıkartma (1, 2, 3…) olur. Tek basış tüm adımlara sırayla dokunur; adım aralığı dişliden ayarlanır. Makro çalışırken fazladan basışlar bitene kadar yok sayılır."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Eşlemelerimi nasıl yedekler ve geri yüklerim?",
+          "a": [
+            "Menüyü açın ve tüm eşlemeleri bir dosyaya kaydetmek için Yedekle'yi, yeniden yüklemek için Geri Yükle'yi seçin – telefon değiştirirken veya yeniden yüklemeden önce kullanışlıdır."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

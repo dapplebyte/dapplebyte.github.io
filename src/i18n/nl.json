@@ -14,8 +14,6 @@
     "home": "Home"
   },
   "footer": {
-    "studio": "Studio",
-    "contact": "Contact",
     "languages": "Talen",
     "privacy": "Privacy van de website",
     "copyright": "© {year} DappleByte",
@@ -28,12 +26,9 @@
     "learnMore": "Meer informatie"
   },
   "labels": {
-    "apps": "Apps",
     "nextApp": "Volgende app",
     "nextAppBody": "In de maak. Hij verschijnt hier zodra hij uit is.",
     "lastUpdated": "Laatst bijgewerkt op {date}",
-    "android": "Android",
-    "by": "door DappleByte",
     "overview": "Overzicht",
     "features": "Functies",
     "faq": "FAQ",
@@ -42,39 +37,48 @@
     "support": "Support",
     "privacy": "Privacy",
     "changelog": "Versiegeschiedenis",
-    "press": "Persmap",
-    "sourceCode": "Broncode",
-    "googlePlay": "Google Play"
+    "press": "Persmap"
   },
   "facts": {
     "minOs": "{version} of hoger",
-    "consoles": "PS5 · PS4",
     "languages": "{count} talen",
     "source": "Broncode onder {license}",
     "version": "Versie {version}"
   },
   "home": {
     "title": "DappleByte · Onafhankelijke Android-apps",
-    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt, waaronder Relaypad: een controller- en streaming-app voor PS5 en PS4 via Remote Play.",
+    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening, en Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play.",
     "appsHeading": "Apps",
     "principlesHeading": "Hoe we werken",
     "principles": [
-      { "title": "Geen advertenties, geen abonnementen", "body": "Eén prijs, of helemaal geen. Niets dat op je aandacht aast." },
-      { "title": "Geen server ertussen", "body": "Onze apps praten rechtstreeks met je eigen hardware. Wij zien je gegevens nooit." },
-      { "title": "Broncode openbaar", "body": "Elke release komt in een openbare repository onder AGPL-3.0." },
-      { "title": "We beantwoorden elke e-mail", "body": "Schrijf naar {email}. Een mens leest je bericht." }
+      {
+        "title": "Eén keer betalen, of helemaal niet",
+        "body": "Kost een app geld, dan is het een eenmalige aankoop. Er wordt niets verlengd."
+      },
+      {
+        "title": "Geen account bij ons",
+        "body": "Je hoeft je nergens te registreren. De app werkt zodra hij geïnstalleerd is."
+      },
+      {
+        "title": "Machtigingen uitgelegd voordat je ze geeft",
+        "body": "Elke app vertelt waarvoor een machtiging dient en wat hij er nooit mee doet, in de app en in een privacybeleid dat klopt met de code."
+      },
+      {
+        "title": "We beantwoorden elke e-mail",
+        "body": "Schrijf naar {email}. Een mens leest je bericht."
+      }
     ],
     "contactHeading": "Contact",
     "contactBody": "Studio, pers en samenwerkingen: {email}. Elke app heeft een eigen supportadres, dat op de supportpagina van die app staat."
   },
   "about": {
     "title": "Over DappleByte",
-    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: geen advertenties, geen abonnementen, geen server tussen jou en je hardware, broncode openbaar onder AGPL-3.0.",
+    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt. Eén ontwikkelaar, een handvol apps, geen abonnementen, geen accounts en een mens die elke e-mail beantwoordt.",
     "whatHeading": "Wat DappleByte is",
     "whatBody": "DappleByte is een onafhankelijke studio die Android-apps maakt. Eén ontwikkelaar, een handvol apps, elk bedoeld om één taak goed te doen en verder niet in de weg te zitten.",
     "howHeading": "Hoe we werken",
-    "openSourceHeading": "Open source",
-    "openSourceBody": "Elke release van elke app wordt als broncode gepubliceerd onder de AGPL-3.0. De link naar de repository staat op de pagina van elke app. Je kunt precies nalezen wat de app doet, hem zelf bouwen of controleren of het privacybeleid klopt met de code.",
+    "openSourceHeading": "Broncode",
+    "openSourceBody": "Is de broncode van een app gepubliceerd, dan staat de link op de pagina van die app en in de persmap. Relaypad is gepubliceerd onder de AGPL-3.0.",
     "contactHeading": "Contact",
     "contactBody": "Studio, pers en samenwerkingen: {email}. Support voor een specifieke app loopt via het adres op de supportpagina van die app, zodat je bericht met de juiste context in de juiste inbox belandt.",
     "trademarksHeading": "Handelsmerken",
@@ -90,32 +94,28 @@
     "faqHeading": "Veelgestelde vragen",
     "faqAll": "Alle vragen",
     "getHeading": "Download {name}",
-    "getBody": "Beschikbaar op Google Play voor Android. De broncode is gepubliceerd onder {license}.",
+    "getBody": "Beschikbaar op Google Play voor Android.",
+    "getBodySource": "De broncode is gepubliceerd onder {license}.",
     "requiresLabel": "Vereist",
     "videoHeading": "Zie het in actie",
-    "allVideos": "Alle video's",
-    "moreHeading": "Meer over {name}"
+    "allVideos": "Alle video's"
   },
   "features": {
     "title": "{feature} · {name}",
     "indexHeading": "Functies",
     "relatedFaq": "Gerelateerde vragen",
     "backToProduct": "Terug naar {name}",
-    "allFeatures": "Alle functies van {name}",
-    "inShort": "In het kort"
+    "allFeatures": "Alle functies van {name}"
   },
   "faq": {
     "title": "FAQ over {name}",
     "sectionTitle": "{section} · FAQ over {name}",
-    "description": "Antwoorden over {name}: manieren om te spelen, verbinden, aanmelden, streamkwaliteit, controllers, aankoop en terugbetalingen.",
     "sectionDescription": "FAQ over {name}, {section}: {count} vragen met volledige antwoorden.",
     "intro": "Dezelfde antwoorden staan in de app onder Instellingen → FAQ. Elke sectie is één pagina en elke vraag heeft een eigen link.",
+    "englishOnly": "Deze FAQ staat in het Engels tot de vertaling klaar is.",
     "questionsCount": "{count} vragen",
     "notFoundHeading": "Antwoord niet gevonden?",
-    "notFoundBody": "Schrijf ons met je telefoonmodel, je console en wat er gebeurde. Elk bericht wordt door een mens gelezen.",
     "notFoundCta": "Naar support",
-    "prev": "Vorige",
-    "next": "Volgende",
     "allSections": "Alle secties",
     "linkToQuestion": "Link naar deze vraag"
   },
@@ -123,11 +123,6 @@
     "title": "Support voor {name}",
     "description": "Hulp bij {name}: wat je eerst controleert, hoe je ons bereikt, wat je meestuurt en hoe terugbetalingen werken.",
     "beforeHeading": "Voordat je schrijft",
-    "beforeItems": [
-      "Open de FAQ. De meeste vragen over verbinden, aanmelden en beeld worden daar beantwoord, in dezelfde bewoording als in de app.",
-      "Maakt de app geen verbinding, start dan de verbindingsdokter via Instellingen. Die controleert je netwerk, de console en Remote Play, en kan het rapport met één tik naar ons mailen.",
-      "Zorg dat de console aanstaat of in de slaapstand staat, en dat Remote Play in de instellingen van de console is ingeschakeld."
-    ],
     "writeHeading": "Schrijf ons",
     "writeBody": "De knop opent je mail-app met het onderwerp al ingevuld. Opent er niets, kopieer dan het adres en de checklist hieronder naar een gewone e-mail.",
     "writeButton": "Mail naar {email}",
@@ -135,23 +130,13 @@
     "copied": "Gekopieerd",
     "subject": "[{name}] ",
     "templateHeading": "Wat je meestuurt",
-    "template": {
-      "phone": "Telefoonmodel:",
-      "android": "Android-versie:",
-      "console": "Console: PS5 / PS4",
-      "where": "Thuis of onderweg:",
-      "what": "Wat er gebeurde, stap voor stap:",
-      "doctor": "Heb je de verbindingsdokter gebruikt, plak het rapport dan hier."
-    },
     "refundHeading": "Terugbetalingen",
-    "refundBody": "Werkt {name} niet met jouw opstelling, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen.",
     "replyHeading": "Wanneer je antwoord krijgt",
     "replyBody": "Meestal binnen twee werkdagen. Elk bericht wordt door een mens gelezen en krijgt een antwoord.",
     "faqLink": "Lees eerst de FAQ"
   },
   "privacy": {
     "title": "Privacybeleid van {name}",
-    "description": "Wat {name} voor Android met je gegevens doet: geen account, geen eigen server, wat op het apparaat blijft en waarmee de app verbinding maakt.",
     "effective": "Van kracht vanaf {date}",
     "appliesTo": "Geldt voor {name} voor Android ({appId}), verspreid via Google Play.",
     "governing": "Dit beleid wordt in het Engels gepubliceerd. Vertalingen, indien beschikbaar, zijn alleen bedoeld als hulpmiddel; de Engelse tekst is bindend.",
@@ -173,16 +158,19 @@
   },
   "videos": {
     "title": "Video's van {name}",
-    "description": "Korte video's van {name} op een echte telefoon: instellen, streamen, controllerindelingen en verbindingsproblemen oplossen.",
     "emptyHeading": "Video's komen eraan",
     "emptyBody": "We nemen voor elke functie een uitleg op. Tot die tijd behandelen de functiepagina's en de FAQ hetzelfde.",
-    "kinds": { "promo": "Overzicht", "tutorial": "Uitleg", "troubleshooting": "Problemen oplossen" },
+    "kinds": {
+      "promo": "Overzicht",
+      "tutorial": "Uitleg",
+      "troubleshooting": "Problemen oplossen"
+    },
     "watchOn": "Bekijk op YouTube",
-    "play": "Video afspelen"
+    "play": "Video afspelen",
+    "playlist": "Bekijk de playlist op YouTube"
   },
   "compare": {
     "title": "{name} vergeleken",
-    "description": "Hoe {name} zich verhoudt tot PS Remote Play, PXPlay en Chiaki op Android: functie voor functie, alleen feiten.",
     "intro": "Alleen feiten, gecontroleerd aan de hand van de winkelpagina of website van elke app. Elke app is beschreven zoals op de datum hieronder; nieuwere versies kunnen afwijken. We geven hier geen enkele app een beoordeling en beweren niet dat er één over de hele linie beter is.",
     "verified": "Gecontroleerd op {date}",
     "notVerified": "De andere kolommen zijn nog niet gecontroleerd, dus deze pagina wordt niet in zoekmachines opgenomen.",
@@ -196,6 +184,12 @@
       "tv-output": "Tv-uitvoer via HDMI",
       "connection-doctor": "Ingebouwde verbindingsdiagnose",
       "open-source": "Open source",
+      "no-root": "Werkt zonder root",
+      "stick-trigger-mapping": "Analoge sticks en L2/R2-triggers toewijzen",
+      "phases": "Meerdere indelingen per game, wisselbaar tijdens het spelen",
+      "macros": "Macro's",
+      "turbo": "Turbo (automatisch herhalen)",
+      "combos": "Knopcombinaties",
       "pricing-model": "Prijsmodel"
     },
     "values": {
@@ -205,11 +199,10 @@
       "unknown": "Niet gecontroleerd",
       "one-time": "Eenmalige aankoop",
       "free": "Gratis",
-      "subscription": "Abonnement"
+      "subscription": "Abonnement",
+      "free-with-pro": "Gratis, Pro als eenmalige aankoop"
     },
     "vsTitle": "{name} vs. {other}",
-    "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: Remote Play onderweg, HEVC en HDR, controllers, tv-uitvoer, open source en prijs.",
-    "vsIntro": "Allebei verbinden ze een Android-apparaat met een PS5 of PS4. Dit zijn de verschillen, functie voor functie.",
     "fullComparison": "Bekijk de volledige vergelijking"
   },
   "changelog": {
@@ -221,7 +214,6 @@
   },
   "press": {
     "title": "Persmap van {name}",
-    "description": "Feiten, beeldmateriaal en een standaardtekst om over {name} te schrijven, de Android-app die via Remote Play als controller werkt en het beeld van je console streamt.",
     "intro": "Alles op deze pagina mag je zonder te vragen gebruiken in artikelen, video's en app-overzichten. Heb je iets anders nodig, schrijf ons dan.",
     "factsHeading": "Feitenoverzicht",
     "facts": {
@@ -231,7 +223,6 @@
       "firstReleased": "Eerste release",
       "currentVersion": "Huidige versie",
       "price": "Prijs",
-      "priceValue": "Betaalde app, eenmalige aankoop, geen abonnement, geen advertenties. De actuele prijs staat op Google Play.",
       "languages": "Talen",
       "license": "Licentie",
       "website": "Website",
@@ -241,11 +232,9 @@
     },
     "oneLineHeading": "In één zin",
     "boilerplateHeading": "Standaardtekst",
-    "boilerplate": "{name} maakt van een Android-telefoon een draadloze controller voor een PS5 of PS4, of streamt het beeld van de console naar de telefoon, een tablet of een tv, thuis of onderweg via mobiele data. De app is gemaakt door DappleByte, een onafhankelijke studio, en is als open source gepubliceerd onder de AGPL-3.0.",
     "assetsHeading": "Beeldmateriaal",
     "assetIcon": "App-icoon, PNG van 512 px",
     "assetFeature": "Feature graphic, PNG van 1024 × 500",
-    "assetScreenshots": "Screenshots, PNG van 1920 × 1080, Engelstalig",
     "assetStudioMark": "DappleByte-beeldmerk, SVG",
     "screenshotN": "Screenshot {index}",
     "contactHeading": "Perscontact",
@@ -258,5 +247,137 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 en PS4 zijn handelsmerken van Sony Interactive Entertainment Inc. {name} is niet verbonden aan Sony en wordt niet door Sony onderschreven."
+  },
+  "videoItems": {
+    "gamepad-pro": {
+      "a01-tutorial": {
+        "title": "Zo maak je een toetsenmapping, stap voor stap",
+        "description": "Kies een game, voeg een knop toe, druk op de controllerknop die je wilt gebruiken, sleep hem naar de juiste plek op het scherm, sla op en speel."
+      },
+      "a01-ad": {
+        "title": "Speel touchgames met je controller",
+        "description": "Een korte blik op hoe Gamepad Pro de knoppen, sticks en triggers van een controller omzet in touchbediening, in een game die alleen touch ondersteunt."
+      },
+      "a02-ad": {
+        "title": "Eén knop. Vijf verschillende acties",
+        "description": "Eén controllerknop kan een tik, een lange druk, een veeg, turbo of een macro zijn die meerdere plekken na elkaar aantikt; de video laat zien hoe je dat in de editor kiest."
+      },
+      "t01": {
+        "title": "Analoge sticks en L2/R2 toewijzen",
+        "description": "Beide sticks en beide triggers zitten al in elke nieuwe indeling: sleep ze op hun plek, tik er een aan om Camera vegen of Bewegingsschijf te kiezen en stel de gevoeligheid in."
+      },
+      "t02": {
+        "title": "Knop op de verkeerde plek? Fix het zonder de game te verlaten",
+        "description": "Tik tijdens het spelen op het zwevende bedieningselement om je indeling eroverheen te tonen, sleep de knop naar de juiste plek en pas het toe zonder de game te verlaten."
+      },
+      "p01": {
+        "title": "Werkt er maar één knop tegelijk?",
+        "description": "Valt een tweede aanraking weg, update dan eerst naar de nieuwste versie en volg daarna de stappen in Instellingen › Geavanceerde multi-touch."
+      },
+      "p02": {
+        "title": "Wordt je controller niet herkend?",
+        "description": "Controleer de bluetooth- of USB-verbinding en de koppeling in de Android-instellingen, verbind de controller opnieuw en kijk of hij in de juiste modus staat."
+      },
+      "p03": {
+        "title": "Knoppen werken, maar de sticks doen niets?",
+        "description": "Waarom analoge sticks en triggers op sommige Android-versies het Gamepad Pro-toetsenbord nodig hebben, en hoe je het inschakelt zodat je ze kunt toewijzen."
+      },
+      "p04": {
+        "title": "Mapping werkte eerst en stopte toen ineens?",
+        "description": "Android kan apps op de achtergrond sluiten om stroom te besparen; zet batterijoptimalisatie uit voor Gamepad Pro, dan blijven je mappings werken."
+      },
+      "p05": {
+        "title": "Waarom is de toegankelijkheidsmachtiging nodig?",
+        "description": "Waarvoor de toegankelijkheidsservice dient: je knopdrukken omzetten in tikken en vegen, zonder te lezen of te uploaden wat er op je scherm staat."
+      },
+      "p06": {
+        "title": "Reageert je scherm niet meer op je vingers?",
+        "description": "Zo pauzeer je alle mappings in één keer, met de schakelaar op het startscherm van de app of via Snelle instellingen als je niet meer in de app komt."
+      },
+      "p07": {
+        "title": "Toetsenbord overgenomen? Zo typ je weer",
+        "description": "Tik op de wereldbol om terug te gaan naar je eigen toetsenbord, of zet automatisch wisselen aan, zodat Gamepad Pro zijn toetsenbord alleen gebruikt zolang mappings actief zijn."
+      }
+    }
+  },
+  "products": {
+    "gamepad-pro": {
+      "kicker": "Controller-mapper · Zonder root",
+      "heroPoints": [
+        "Knoppen, sticks en L2/R2-triggers worden tikken, vasthouden en vegen",
+        "Een indeling voor elke game, en Fasen voor de verschillende delen ervan",
+        "Macro's, turbo en knopcombinaties. Zonder root, zonder klonen"
+      ],
+      "faqDescription": "Antwoorden over Gamepad Pro: installatie en machtigingen, een mapping maken, sticks en triggers, controllers, Pro en back-ups.",
+      "faqNotFoundBody": "Schrijf ons met je telefoonmodel, je controller, de game en wat er gebeurde. Elk bericht wordt door een mens gelezen.",
+      "support": {
+        "beforeItems": [
+          "Open de FAQ. De meeste vragen over installatie, machtigingen en toewijzen worden daar beantwoord, in dezelfde bewoording als in de app.",
+          "Controleer of de toegankelijkheidsservice aanstaat en de mapping niet gepauzeerd is. Werkte het eerst en stopte het daarna, dan is batterijoptimalisatie meestal de oorzaak; de stappen staan in de FAQ.",
+          "Noteer welke game, welke controller en wat er op het scherm gebeurt als je op een knop drukt. Dat hebben we nodig om het na te bootsen."
+        ],
+        "template": {
+          "phone": "Telefoonmodel:",
+          "android": "Android-versie:",
+          "controller": "Controller (model, USB of bluetooth):",
+          "game": "Game of app:",
+          "what": "Wat er gebeurde, stap voor stap:",
+          "pro": "Pro gekocht: ja / nee"
+        },
+        "refundBody": "Gamepad Pro installeer je gratis. Heb je Pro gekocht en werkt het niet met jouw opstelling, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen."
+      },
+      "press": {
+        "description": "Feiten, beeldmateriaal en een standaardtekst om over Gamepad Pro te schrijven, de toetsen-mapper voor controllers op Android.",
+        "boilerplate": "Gamepad Pro maakt van de controller die je al hebt touchbediening voor Android-games zonder gamepad-ondersteuning: knoppen, sticks en triggers worden tikken, vasthouden en vegen, met een indeling per game, Fasen, macro's, turbo en knopcombinaties. Root is niet nodig. De app is gemaakt door DappleByte, een onafhankelijke studio.",
+        "priceValue": "Gratis te installeren, met advertenties. Een eenmalige Pro-aankoop haalt de advertenties weg en ontgrendelt alle Pro-functies; er is geen abonnement. De actuele prijs staat op Google Play.",
+        "assetScreenshots": "Telefoonscreenshots, PNG, Engels (staand 1080 × 1920; de screenshot van de editor is liggend)"
+      },
+      "videosDescription": "Korte video's van Gamepad Pro op een echte telefoon: een mapping maken, sticks en triggers, een indeling midden in een game aanpassen en de meest voorkomende problemen.",
+      "privacyDescription": "Wat Gamepad Pro voor Android met je gegevens doet: geen account, waarvoor de toegankelijkheidsservice dient, wat de analyse- en advertentie-SDK's verzamelen en hoe je optionele gegevensverzameling uitzet.",
+      "compare": {
+        "description": "Hoe Gamepad Pro zich verhoudt tot andere controller-mappers op Android, functie voor functie, alleen feiten.",
+        "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: root, sticks en triggers, indelingen per game, macro's, turbo en prijs.",
+        "vsIntro": "Beide wijzen een controller toe aan touchgames op Android. Hier zie je waarin ze verschillen, functie voor functie."
+      }
+    },
+    "relaypad": {
+      "kicker": "PS5 · PS4",
+      "heroPoints": [
+        "Doorspelen als de batterij van je controller net leeg is",
+        "Consolemenu's en video-apps bedienen met grote afstandsbedieningsknoppen",
+        "In bed of in een andere kamer spelen terwijl de console bij de tv blijft"
+      ],
+      "faqDescription": "Antwoorden over {name}: manieren om te spelen, verbinden, aanmelden, streamkwaliteit, controllers, aankoop en terugbetalingen.",
+      "faqNotFoundBody": "Schrijf ons met je telefoonmodel, je console en wat er gebeurde. Elk bericht wordt door een mens gelezen.",
+      "support": {
+        "beforeItems": [
+          "Open de FAQ. De meeste vragen over verbinden, aanmelden en beeld worden daar beantwoord, in dezelfde bewoording als in de app.",
+          "Maakt de app geen verbinding, start dan de verbindingsdokter via Instellingen. Die controleert je netwerk, de console en Remote Play, en kan het rapport met één tik naar ons mailen.",
+          "Zorg dat de console aanstaat of in de slaapstand staat, en dat Remote Play in de instellingen van de console is ingeschakeld."
+        ],
+        "template": {
+          "phone": "Telefoonmodel:",
+          "android": "Android-versie:",
+          "console": "Console: PS5 / PS4",
+          "where": "Thuis of onderweg:",
+          "what": "Wat er gebeurde, stap voor stap:",
+          "doctor": "Heb je de verbindingsdokter gebruikt, plak het rapport dan hier."
+        },
+        "refundBody": "Werkt {name} niet met jouw opstelling, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen."
+      },
+      "press": {
+        "description": "Feiten, beeldmateriaal en een standaardtekst om over {name} te schrijven, de Android-app die via Remote Play als controller werkt en het beeld van je console streamt.",
+        "boilerplate": "{name} maakt van een Android-telefoon een draadloze controller voor een PS5 of PS4, of streamt het beeld van de console naar de telefoon, een tablet of een tv, thuis of onderweg via mobiele data. De app is gemaakt door DappleByte, een onafhankelijke studio, en is als open source gepubliceerd onder de AGPL-3.0.",
+        "priceValue": "Betaalde app, eenmalige aankoop, geen abonnement, geen advertenties. De actuele prijs staat op Google Play.",
+        "assetScreenshots": "Screenshots, PNG van 1920 × 1080, Engelstalig"
+      },
+      "videosDescription": "Korte video's van {name} op een echte telefoon: instellen, streamen, controllerindelingen en verbindingsproblemen oplossen.",
+      "privacyDescription": "Wat {name} voor Android met je gegevens doet: geen account, geen eigen server, wat op het apparaat blijft en waarmee de app verbinding maakt.",
+      "compare": {
+        "description": "Hoe {name} zich verhoudt tot PS Remote Play, PXPlay en Chiaki op Android: functie voor functie, alleen feiten.",
+        "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: Remote Play onderweg, HEVC en HDR, controllers, tv-uitvoer, open source en prijs.",
+        "vsIntro": "Allebei verbinden ze een Android-apparaat met een PS5 of PS4. Dit zijn de verschillen, functie voor functie."
+      }
+    }
   }
 }

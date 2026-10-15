@@ -1,0 +1,169 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "tr",
+  "title": "Gamepad Pro: Controller Mapper",
+  "shortDescription": "Tuş eşleme: kumanda tuşlarını dokunmaya çevir. Çubuk, tetik, makro, turbo.",
+  "tagline": "Gamepad Pro, Android için bir kumanda tuş eşleme uygulamasıdır: elinizdeki kumandayı dokunmatik kontrole çevirin, yalnızca dokunmatik oyunları gerçek tuşlarla oynayın. root gerekmez.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Gamepad Pro: Controller Mapper",
+      "paragraphs": [
+        "Gamepad Pro, Android için bir kumanda tuş eşleme uygulamasıdır: elinizdeki kumandayı dokunmatik kontrole çevirin, yalnızca dokunmatik oyunları gerçek tuşlarla oynayın. root gerekmez.",
+        "Tuşları, analog çubukları ve L2/R2 tetiklerini dokunma, basılı tutma ve kaydırmaya eşleyin. Her oyuna bir düzen kurun, maç ortasında düzen değiştirin; makro, turbo ve kombinasyon ekleyin.",
+        "Klonlama yok, temel kurulum için ADB yok. Kontrolleri eşleyin ve oynamaya başlayın."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "drag-map-play",
+      "title": "Sürükle. Eşle. Oyna.",
+      "paragraphs": [
+        "Bir oyun ekleyin, eşleme düzenleyicisini açın ve her kontrolü ekranda karşılık gelen noktaya sürükleyin. Kaydedin ve oyunu Gamepad Pro'dan başlatın."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "mapping",
+      "title": "Tuş, çubuk ve tetik eşleme",
+      "paragraphs": [
+        "Kumanda tuşlarını, iki analog çubuğu, yön tuşlarını ve analog tetikleri dokunma, basılı tutma ve kaydırmaya eşleyin; çubuk hassasiyeti ayarlanabilir."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "multi-button",
+      "title": "Çoklu tuş kontrolü",
+      "paragraphs": [
+        "Aynı anda hareket edin, nişan alın ve saldırın — birden fazla eş zamanlı giriş isteyen oyunlar için tasarlandı."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "profiles",
+      "title": "Her oyuna bir profil",
+      "paragraphs": [
+        "Her oyun için ayrı bir eşleme kaydedin, her açtığınızda doğru düzene dönün."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "phases",
+      "title": "Aşamalar — tek oyuna birden fazla düzen",
+      "paragraphs": [
+        "Aynı oyunun farklı bölümleri için birden fazla Aşama oluşturun: Hareket, Sürüş, Paraşüt, Çatışma veya Menüler."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "phase-switch",
+      "title": "Oynarken aşama değiştirin",
+      "paragraphs": [
+        "Oyundan çıkmadan kayan kontrolden başka bir Aşama seçin veya düzenler arasında anında geçiş için bir tuş atayın."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "combos",
+      "title": "Tuş kombinasyonları",
+      "paragraphs": [
+        "Kumanda tuşlarının birleşimini tek bir tetikleyici olarak kullanın; mevcut kontrollerinizden vazgeçmeden yeni kısayollar kazanın."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "macros",
+      "title": "Tek tuşla makrolar",
+      "paragraphs": [
+        "Bir dizi dokunma eylemi hazırlayın ve hepsini tek bir kumanda girişiyle çalıştırın — tekrar eden işler için birebir."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "turbo",
+      "title": "Turbo eylemler",
+      "paragraphs": [
+        "Bir tuşu basılı tutarak eşlenen dokunma eylemini otomatik tekrarlayın; tekrar hızını her eylem için ayrı ayarlayın."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "vibration",
+      "title": "Titreşimli geri bildirim",
+      "paragraphs": [
+        "Eşlenen bir kontrol çalıştığında hafif, orta veya güçlü titreşimle geri bildirim alın."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "any-game",
+      "title": "Her tür oyun için",
+      "paragraphs": [
+        "Nişancı ve battle royale, MOBA ve MMORPG, yarış, aksiyon RPG, açık dünya, dövüş, hayatta kalma, idle ve clicker oyunları, ayrıca retro emülatörler — dokunmatik giriş alan her oyuna kumanda eşleyebilirsiniz."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Klonlama yok, root yok, ADB yok",
+      "paragraphs": [
+        "Gamepad Pro, kumanda girişlerini doğrudan ekran eylemlerine eşler: oyunun klon kopyası yok, root yok, temel kurulumda ADB yok. Birkaç gelişmiş seçenek Shizuku kullanabilir; eşlemenin kendisi kullanmaz."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "controllers",
+      "title": "Geniş kumanda uyumluluğu",
+      "paragraphs": [
+        "Gamepad Pro, Android'in desteklediği birçok kablolu ve kablosuz kumandayla çalışır; tuş etiketleri popüler kumanda düzenlerine uyum sağlar."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "get-started",
+      "title": "Nasıl başlanır?",
+      "paragraphs": [],
+      "bullets": [
+        "Gamepad Pro'yu açın ve rehberli kurulumu izleyin.",
+        "Erişilebilirlik Hizmeti'ni etkinleştirin ve kumandanızı bağlayın.",
+        "Çubuklar ve L2/R2 tetikleri için Gamepad Pro klavyesini etkinleştirin.",
+        "Ekle'ye dokunun, oyununuzu seçin, kontrolleri yerine sürükleyin.",
+        "Kaydedin, oyunu başlatın ve oynayın."
+      ]
+    },
+    {
+      "id": "permissions",
+      "title": "İzinler",
+      "paragraphs": [
+        "Erişilebilirlik Hizmeti:",
+        "Gamepad Pro, yapılandırdığınız kumanda eylemlerini ekranda dokunma ve kaydırmaya dönüştürmek için Android'in AccessibilityService API'sini kullanır. Eşlemenin uygulama dışında çalışması için gereklidir; yalnızca sizin oluşturduğunuz eylemleri yapar, kişisel verilerinizi asla toplamaz veya yüklemez."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "keyboard",
+      "title": "Gamepad Pro Klavyesi",
+      "paragraphs": [
+        "Android'in Erişilebilirlik Hizmeti, analog çubuk veya L2/R2 tetik değerlerini okuyamaz. Gamepad Pro giriş yöntemi, doğru şekilde eşlenebilmeleri için bu girişleri yakalar; metin girişi için de kullanılabilir."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "compatibility",
+      "title": "Uyumluluk",
+      "paragraphs": [
+        "Uyumluluk; cihazınıza, Android sürümüne, kumandaya ve her oyunun dokunmatik girişleri veya katmanları işleyişine göre değişebilir."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "help",
+      "title": "Yardım mı gerekiyor?",
+      "paragraphs": [
+        "Play Store yorumları, teknik sorunları incelememiz için yeterli ayrıntı vermiyor. Bir şey çalışmıyorsa Gamepad Pro'yu açın ve Ayarlar > Geri bildirim gönder yolunu izleyin."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

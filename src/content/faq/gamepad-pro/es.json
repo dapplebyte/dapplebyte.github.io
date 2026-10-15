@@ -1,0 +1,245 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "es",
+  "title": "Preguntas frecuentes y ayuda",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Configuración",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "¿Qué hace Gamepad Pro?",
+          "a": [
+            "Gamepad Pro asigna tu mando, teclado o cualquier botón externo a toques y deslizamientos en la pantalla, para jugar a juegos táctiles y controlar apps con botones físicos."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "¿Por qué necesita el permiso de accesibilidad? ¿Es seguro?",
+          "a": [
+            "El servicio de accesibilidad permite a Gamepad Pro convertir tus pulsaciones en toques y deslizamientos, incluso fuera de la app. Tus asignaciones solo funcionan tras activarlo. Gamepad Pro solo lo usa para realizar tus acciones y no recopila datos personales."
+          ],
+          "video": "xbevEmk-T1Q"
+        },
+        {
+          "id": "q04",
+          "q": "Deja de funcionar tras un rato en segundo plano. ¿Cómo lo soluciono?",
+          "a": [
+            "Android puede cerrar apps en segundo plano para ahorrar batería. Permite que Gamepad Pro se ejecute en segundo plano desactivando la optimización de batería. Algunas marcas (como MIUI o Samsung) añaden reglas extra; la guía de dontkillmyapp.com explica cómo desactivarlas en tu dispositivo."
+          ],
+          "video": "8hZqhdyWx_Y"
+        },
+        {
+          "id": "q07",
+          "q": "¿Por qué tengo que activar el teclado Gamepad Pro?",
+          "a": [
+            "Sobre todo para poder asignar los sticks analógicos y los gatillos L2/R2 de tu mando. El servicio de accesibilidad de Android puede leer las pulsaciones normales de los botones, pero no puede leer el movimiento de sticks ni gatillos: solo el teclado Gamepad Pro puede captarlo. También hace falta para acciones como escribir texto. Actívalo y cambia a él cuando se te indique para que esas asignaciones y acciones funcionen."
+          ],
+          "video": "bkJYiGawnnc"
+        },
+        {
+          "id": "q11",
+          "q": "¿Gamepad Pro necesita acceso root?",
+          "a": [
+            "No. Gamepad Pro funciona mediante el servicio de accesibilidad y no requiere root. Root o Shizuku solo se necesita para algunas funciones avanzadas opcionales."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "¿Funciona con todos los juegos?",
+          "a": [
+            "Funciona con la mayoría de los juegos táctiles. Algunos juegos bloquean toques simulados o usan antitrampas que pueden interferir, por lo que no se puede garantizar con todos. Si un juego no responde, avísanos mediante Comentarios."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "El teclado Gamepad Pro ha tomado el control. ¿Cómo escribo ahora?",
+          "a": [
+            "El teclado Gamepad Pro no tiene interfaz de escritura: solo lee los sticks y los gatillos, por eso no aparece nada al tocar un campo de texto. Toca el globo terráqueo de abajo a la derecha para volver a tu propio teclado. Mejor aún, activa «Cambiar automáticamente el método de entrada»: así Gamepad Pro solo usa su teclado mientras las asignaciones están en marcha y luego te devuelve el tuyo."
+          ],
+          "video": "AAa5IUf8mPo"
+        },
+        {
+          "id": "q25",
+          "q": "¿Por qué Android avisa de que Gamepad Pro puede leer contraseñas?",
+          "a": [
+            "Android muestra la misma advertencia con todas las apps de accesibilidad. Gamepad Pro solo la usa para leer tu mando y la app en primer plano, y para colocar los toques. Nunca lee, guarda ni sube lo que hay en tu pantalla ni lo que escribes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Asignación",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Mi asignación no funciona. ¿Qué debo revisar?",
+          "a": [
+            "1. Asegúrate de que el servicio de accesibilidad está activado (Ajustes → Accesibilidad → Gamepad Pro).",
+            "2. Asegúrate de que la asignación está activada (no en pausa).",
+            "3. Para acciones de texto, cambia al teclado Gamepad Pro.",
+            "4. Si antes funcionaba y se detuvo, revisa los ajustes de batería/segundo plano (ver la siguiente pregunta)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "¿Cómo creo una asignación de botones?",
+          "a": [
+            "1. Elige un juego o app de la lista.",
+            "2. Toca para añadir un botón y pulsa el botón del mando que quieras.",
+            "3. Arrástralo al punto que debe tocar.",
+            "4. Guarda, activa la asignación y juega."
+          ],
+          "video": "j2qYLNqHtA4"
+        },
+        {
+          "id": "q08",
+          "q": "¿Cómo elimino una asignación o un botón predefinido?",
+          "a": [
+            "Toca el botón en la pantalla y aparece un pequeño menú con Copiar y Eliminar. Toca Eliminar para quitarlo. Así también quitas los botones predefinidos que no necesites."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "¿Cómo pongo una captura de mi juego como fondo?",
+          "a": [
+            "En el editor, toca el botón de imagen (abajo a la derecha) y elige una captura de tu galería. Se convierte en el fondo, así colocas cada botón justo donde debe tocar."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "¿Cómo asigno los sticks analógicos o los gatillos L2/R2?",
+          "a": [
+            "No hace falta grabarlos: los dos sticks y los dos gatillos ya vienen en cada diseño nuevo. Solo tienes que arrastrarlos a los puntos que deben controlar y tocar uno para abrir sus ajustes: el stick derecho puede ser un deslizamiento de cámara (la opción predeterminada) o un disco de movimiento, y ahí mismo están la sensibilidad y la curva de respuesta. Eso sí, necesitan el teclado Gamepad Pro activado, porque el servicio de accesibilidad de Android no puede leer el movimiento de sticks ni gatillos."
+          ],
+          "video": "rEvNu-S6_CY"
+        },
+        {
+          "id": "q12",
+          "q": "¿Cómo asigno varios botones pulsados a la vez (una combinación)?",
+          "a": [
+            "Empieza a grabar y pulsa los botones juntos. Se guardan como una combinación, así que la acción solo se activa al pulsarlos al mismo tiempo. Una combinación también puede funcionar como modificador: asigna LB+A y LB por separado, luego mantén LB y pulsa A para activar la combinación. Mientras la combinación esté pulsada, la acción propia de A no se activa, y la acción propia de LB espera unos 0,2 s para que la app pueda distinguirlas."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "¿Qué pasa cuando mantengo pulsado un botón?",
+          "a": [
+            "Por defecto, mientras mantienes el botón, la pantalla queda pulsada en ese punto y solo se suelta al soltar el botón: una pulsación corta es un toque y una larga es una pulsación larga. Ideal para apuntar, correr o ataques cargados. Para cambiarlo, toca el botón en el editor y abre el icono del engranaje."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "El toque cae en el lugar equivocado. ¿Cómo coloco los botones con precisión?",
+          "a": [
+            "Pon una captura del juego como fondo y arrastra cada botón al punto exacto que debe tocar. Puedes volver a arrastrarlo en cualquier momento para ajustar la posición."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "¿Cómo pauso o reanudo mis asignaciones?",
+          "a": [
+            "Usa el interruptor Servicio de asignaciones de la parte superior de la pantalla de inicio para pausar o reanudar todas las asignaciones a la vez. Si no puedes volver a la aplicación, añade ese mismo interruptor a Ajustes rápidos y tenlo a mano desde cualquier sitio. Pausar solo detiene las asignaciones: el servicio de accesibilidad sigue activado."
+          ],
+          "video": "FMxFD5nLdnw"
+        },
+        {
+          "id": "q21",
+          "q": "No puedo moverme y disparar a la vez. ¿Qué puedo hacer?",
+          "a": [
+            "Es un segundo toque que se pierde. Actualiza primero a la última versión: las versiones nuevas ya mantienen vivos los dos toques por sí solas. Si aun así se pierde uno, abre Ajustes › Multitáctil avanzado y sigue los tres pasos que aparecen ahí; la página te indica cuál falta. Es opcional, y las asignaciones normales funcionan sin él."
+          ],
+          "video": "cOnoseRHaUM"
+        },
+        {
+          "id": "q22",
+          "q": "Un botón está en el lugar equivocado. ¿Puedo corregirlo sin salir del juego?",
+          "a": [
+            "Sí. Toca el botón flotante mientras juegas y tu diseño aparecerá sobre el juego: arrastra el botón al punto correcto y vuelve a tocar el botón flotante para aplicarlo. Mantén pulsado el botón flotante para cambiar a otro diseño sin salir del juego (necesitas al menos dos diseños guardados)."
+          ],
+          "video": "nz4xZcZ95hY"
+        },
+        {
+          "id": "q24",
+          "q": "¿Qué puede hacer un solo botón del mando?",
+          "a": [
+            "Cualquiera de esas cosas. Un botón puede ser un toque simple, una pulsación mantenida que deja la pantalla presionada, un turbo que toca una y otra vez mientras lo mantienes, o una macro que toca varios puntos en orden. Los sticks analógicos pueden ser un disco de movimiento o un deslizamiento de cámara. Toca un botón en el editor y abre el icono del engranaje para elegir."
+          ],
+          "video": "bs5oMvTess8"
+        },
+        {
+          "id": "q27",
+          "q": "¿Cómo funcionan los esquemas?",
+          "a": [
+            "Cada juego puede tener varios esquemas: uno para combatir, otro para conducir, otro para los menús, etc. El esquema 1 se usa al iniciar el juego. Cambia de esquema durante la partida con la combinación que configuraste en el perfil o con la etiqueta del selector flotante."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "¿Qué es Shizuku y lo necesito?",
+          "a": [
+            "Shizuku es una mejora avanzada opcional. Permite que Gamepad Pro inyecte eventos multitáctiles de forma más directa, con menor latencia y un seguimiento más fluido que la vía de accesibilidad; se nota sobre todo con dos joysticks o varias rutas táctiles simultáneas. No sustituye al servicio de accesibilidad y todas las asignaciones funcionan también sin él. En Android 11 o superior puede iniciarse con la depuración inalámbrica, pero normalmente hay que volver a iniciarlo tras reiniciar el dispositivo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Mando",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "Un botón de mi mando no se detecta. ¿Qué puedo hacer?",
+          "a": [
+            "Las versiones de Android y los dispositivos varían, así que algunos botones podrían no detectarse en cierto hardware. Prueba otro botón, vuelve a conectar el dispositivo o avísanos mediante Comentarios."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Mi mando no se detecta en absoluto. ¿Qué debo revisar?",
+          "a": [
+            "Asegúrate de que esté bien conectado por Bluetooth o USB y emparejado en los ajustes de Android. Intenta reconectarlo y comprueba que funciona en otras apps. Algunos mandos deben encenderse en un modo concreto."
+          ],
+          "video": "t0HAKJXgRCU"
+        },
+        {
+          "id": "q26",
+          "q": "Mi stick izquierdo mueve un ratón invisible. ¿Cómo lo evito?",
+          "a": [
+            "Algunos juegos y launchers son compatibles con mando de serie y convierten el stick izquierdo en un puntero. Si el juego ya funciona con tu mando, abre su perfil y desactiva la asignación para ese juego, o elimina la asignación del stick izquierdo. Si prefieres que lo gestione Gamepad Pro, abre el esquema, toca la tecla del stick izquierdo y elige Disco de movimiento."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "¿Cómo hago que un botón toque automáticamente (turbo)?",
+          "a": [
+            "Toca el botón en el editor, abre el engranaje y elige Turbo. Mientras mantengas el botón, ese punto se tocará una y otra vez con el intervalo que configures; al soltar se detiene. Los botones turbo muestran una pequeña T morada junto al nombre de la tecla."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "¿Cómo hago que un botón toque varios puntos en orden (macro)?",
+          "a": [
+            "Toca el botón en el editor y elige + para añadir un paso de macro. Cada paso es una pegatina numerada (1, 2, 3…) que puedes arrastrar a su propio punto. Una sola pulsación toca todos los pasos en orden; el intervalo entre pasos se ajusta con el engranaje. Mientras la macro se ejecuta, las pulsaciones extra se ignoran hasta que termina."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "¿Cómo hago copia de seguridad y restauro mis asignaciones?",
+          "a": [
+            "Abre el menú y elige Copia de seguridad para guardar todas tus asignaciones en un archivo, o Restaurar para cargarlas de nuevo: útil al cambiar de teléfono o antes de reinstalar."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

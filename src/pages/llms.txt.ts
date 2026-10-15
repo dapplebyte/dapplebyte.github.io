@@ -6,10 +6,11 @@ import { useT } from '../i18n/t';
 
 // https://llmstxt.org — a short, plain-text map of the site for language models.
 export const GET: APIRoute = async () => {
-  const { t } = useT('en');
+  const { t, tp, list } = useT('en');
   const lines: string[] = [];
   lines.push('# DappleByte', '', `> ${t('site.definition')} ${t('site.tagline')}`, '');
-  lines.push('No ads, no subscriptions, no server between the user and their hardware, source published under AGPL-3.0. Contact: hello@dapplebyte.com. Pages exist in 19 languages; English is at the root, other languages under a prefix such as /ja/ or /zh-tw/.', '');
+  const principles = list<{ title: string; body: string }>('home.principles').map((p) => p.title.replace(/\.$/, ''));
+  lines.push(`${principles.join('. ')}. Contact: ${t('site.email')}. Pages exist in 19 languages; English is at the root, other languages under a prefix such as /ja/ or /zh-tw/.`, '');
   lines.push('## Studio', '', `- [About DappleByte](${SITE}/about/): what the studio is and how it works`, `- [Website privacy](${SITE}/privacy/): no cookies, no analytics`, '');
   for (const p of await liveProducts()) {
     const copy = await getCopy(p.slug, 'en');
@@ -19,6 +20,7 @@ export const GET: APIRoute = async () => {
     const features = (await getEntry('features', p.slug))?.data.items ?? [];
     lines.push(`## ${p.name}`, '', `> ${copy.tagline}`, '');
     if (copy.requires) lines.push(copy.requires, '');
+    lines.push(`Pricing: ${tp(p.slug, 'press.priceValue', { name: p.name })}`, '');
     lines.push(`- [${p.name} overview](${SITE}/${p.slug}/): features, screenshots, requirements, pricing model`);
     lines.push(`- [Features](${SITE}/${p.slug}/features/): one page per feature`);
     for (const f of features) {

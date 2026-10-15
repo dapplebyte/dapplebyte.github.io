@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "vi",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 trở lên: thiết lập giờ chỉ còn một bước. Cần analog và cò của tay cầm hoạt động mà không cần bàn phím Gamepad Pro.",
+        "Không cần bàn phím Gamepad Pro nữa? Một gợi ý hiện một lần sẽ chỉ bạn cách tắt nó, để bàn phím quen dùng của bạn không bị đổi.",
+        "Sửa lỗi sập khi bật dịch vụ ở chế độ màn hình ngang.",
+        "Cải thiện độ ổn định."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "Cài đặt mới: độ nhạy cò LT/RT.",
+        "Cài đặt mới: chuyển các điều khiển chưa ánh xạ cho game, rất hợp với chơi game đám mây.",
+        "Tùy chọn ánh xạ mặc định đã trở lại trong Cài đặt.",
+        "Cần phải giờ hoạt động trên nhiều tay cầm bên thứ ba hơn.",
+        "Sửa lỗi giữ LT/RT, bấm nhiều nút cùng lúc và chạm bị kẹt khi dùng nhiều nút.",
+        "Sửa lỗi bút cảm ứng bị nhận là tay cầm, nút nổi không hiện lại và thỉnh thoảng bị đơ."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Sửa lỗi dịch vụ ánh xạ sập giữa game khiến mọi nút chết cho tới khi bật lại.",
+        "Sửa lỗi các hành động “giữ để chuyển” chỉ ăn ở lần bấm đầu tiên.",
+        "Android 10 trở xuống: chạm ô chat trong game giờ sẽ mở đúng bàn phím bạn hay dùng.",
+        "Chỉ cần bàn phím ngoài, không có tay cầm vẫn bật được ánh xạ.",
+        "Sửa lỗi sập khi tay cầm ngắt kết nối và khi mở hộp thoại lúc quay lại từ nền.",
+        "Đã bỏ quyền vị trí."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Máy tính bảng, máy gập và chia đôi màn hình: trình chỉnh sửa ánh xạ phím và màn hình thử tay cầm không còn bị khoá ở một hướng.",
+        "Thêm 6 câu trả lời FAQ có video minh hoạ.",
+        "Bố cục edge-to-edge: trang giới thiệu và trang chính sách bảo mật không còn bị thanh hệ thống che.",
+        "Nền của trình chỉnh sửa nay giải mã theo kích thước màn hình, tốn ít bộ nhớ hơn nhiều và kéo mượt hơn."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Sửa lỗi ánh xạ chết sau 1-2 tiếng: cần analog và cò ngừng nhận, phải mở lại trình chỉnh sửa hay bật lại dịch vụ.",
+        "Sửa lỗi nút đang giữ tự bấm lại đồng loạt vài giây một lần, chỉ dừng khi tắt Dịch vụ Trợ năng.",
+        "Lưu layout có cần analog hoặc cò không còn bị cài bàn phím cắt ngang, kiểm tra lúc vào game.",
+        "Câu hỏi thường gặp & Trợ giúp: video hướng dẫn trong câu trả lời và 4 câu hỏi mới.",
+        "Sửa nhãn LB/RB và LT/RT bị đảo ở màn hình thử tay cầm."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,4 +1,5 @@
 ---
+import { getEntry } from 'astro:content';
 import { localePath } from '../i18n/locales';
 import { useT } from '../i18n/t';
 import type { Product } from '../lib/content';
@@ -7,10 +8,13 @@ interface Props {
   locale: string;
   product: Product;
   current: 'overview' | 'features' | 'faq' | 'videos' | 'compare' | 'support' | 'privacy' | 'changelog' | 'press';
+  /** Defaults: Videos when the product has any, Compare when its comparison is no longer a draft. */
   showVideos?: boolean;
   showCompare?: boolean;
 }
-const { locale, product, current, showVideos = false, showCompare = false } = Astro.props;
+const { locale, product, current } = Astro.props;
+const showVideos = Astro.props.showVideos ?? ((await getEntry('videos', product.slug))?.data.items.length ?? 0) > 0;
+const showCompare = Astro.props.showCompare ?? (((await getEntry('compare', product.slug))?.data.draft ?? true) === false);
 const { t } = useT(locale);
 const base = `/${product.slug}`;
 const items: { key: Props['current']; path: string }[] = [

@@ -1,0 +1,245 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "de",
+  "title": "FAQ & Hilfe",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Einrichtung",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Was macht Gamepad Pro?",
+          "a": [
+            "Gamepad Pro ordnet Controller, Tastatur oder beliebige externe Tasten Tipp- und Wischgesten auf dem Bildschirm zu, sodass du Touch-Spiele spielen und Apps mit physischen Tasten steuern kannst."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Warum wird die Bedienungshilfe-Berechtigung benötigt? Ist das sicher?",
+          "a": [
+            "Die Bedienungshilfe ermöglicht Gamepad Pro, deine Tastendrücke in Tipp- und Wischgesten umzuwandeln – auch außerhalb der App. Deine Zuordnungen funktionieren erst nach der Aktivierung. Gamepad Pro nutzt sie nur, um deine eingerichteten Aktionen auszuführen, und sammelt keine persönlichen Daten."
+          ],
+          "video": "xbevEmk-T1Q"
+        },
+        {
+          "id": "q04",
+          "q": "Nach einer Weile im Hintergrund hört es auf zu funktionieren. Wie behebe ich das?",
+          "a": [
+            "Android schließt Apps im Hintergrund möglicherweise, um Energie zu sparen. Erlaube Gamepad Pro die Ausführung im Hintergrund, indem du die Akkuoptimierung deaktivierst. Manche Marken (wie MIUI oder Samsung) haben zusätzliche Energiesparregeln – die Anleitung auf dontkillmyapp.com zeigt, wie du diese für dein Gerät ausschaltest."
+          ],
+          "video": "8hZqhdyWx_Y"
+        },
+        {
+          "id": "q07",
+          "q": "Warum muss ich die Gamepad-Pro-Tastatur aktivieren?",
+          "a": [
+            "Vor allem, damit sich die Analog-Sticks und die L2/R2-Trigger deines Controllers zuordnen lassen. Androids Bedienungshilfe kann normale Tastendrücke lesen, aber nicht die Bewegung von Analog-Sticks und Triggern — nur die Gamepad-Pro-Tastatur kann diese erfassen. Auch für Aktionen wie Texteingabe wird sie gebraucht. Aktiviere sie und wechsle zu ihr, wenn du dazu aufgefordert wirst, damit diese Zuordnungen und Aktionen funktionieren."
+          ],
+          "video": "bkJYiGawnnc"
+        },
+        {
+          "id": "q11",
+          "q": "Benötigt Gamepad Pro Root-Zugriff?",
+          "a": [
+            "Nein. Gamepad Pro funktioniert über die Bedienungshilfe und benötigt kein Root. Root oder Shizuku ist nur für einige optionale erweiterte Funktionen nötig."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Funktioniert es mit jedem Spiel?",
+          "a": [
+            "Es funktioniert mit den meisten Touch-Spielen. Einige Spiele blockieren simulierte Tipps oder nutzen Anti-Cheat, das stören kann, daher lässt sich nicht jedes Spiel garantieren. Reagiert ein Spiel nicht, sag uns über Feedback Bescheid."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Die Gamepad-Pro-Tastatur hat übernommen. Wie schreibe ich jetzt?",
+          "a": [
+            "Die Gamepad-Pro-Tastatur hat keine Schreiboberfläche — sie liest nur Sticks und Trigger, deshalb erscheint nichts, wenn du auf ein Textfeld tippst. Tippe unten rechts auf die Weltkugel, um zu deiner eigenen Tastatur zurückzuwechseln. Besser noch: Aktiviere „Eingabemethode automatisch wechseln“ — dann nutzt Gamepad Pro seine eigene Tastatur nur, solange Zuordnungen laufen, und gibt dir danach deine zurück."
+          ],
+          "video": "AAa5IUf8mPo"
+        },
+        {
+          "id": "q25",
+          "q": "Warum warnt Android, dass Gamepad Pro Passwörter lesen kann?",
+          "a": [
+            "Android zeigt dieselbe Warnung bei jeder Bedienungshilfen-App. Gamepad Pro nutzt sie nur, um deinen Controller und die App im Vordergrund zu lesen und Berührungen zu setzen. Es liest, speichert oder lädt niemals hoch, was auf deinem Bildschirm zu sehen ist oder was du tippst."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Zuordnung",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Meine Tastenzuordnung funktioniert nicht. Was soll ich prüfen?",
+          "a": [
+            "1. Stelle sicher, dass die Bedienungshilfe aktiviert ist (Einstellungen → Bedienungshilfen → Gamepad Pro).",
+            "2. Stelle sicher, dass die Zuordnung eingeschaltet (nicht pausiert) ist.",
+            "3. Wechsle für Textaktionen zur Gamepad-Pro-Tastatur.",
+            "4. Wenn es früher ging und nun stoppt, prüfe die Akku-/Hintergrundeinstellungen (siehe nächste Frage)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Wie erstelle ich eine Tastenzuordnung?",
+          "a": [
+            "1. Wähle ein Spiel oder eine App aus der Liste.",
+            "2. Tippe zum Hinzufügen einer Taste und drücke die gewünschte Controller-Taste.",
+            "3. Ziehe sie an die Stelle, die getippt werden soll.",
+            "4. Speichern, dann die Zuordnung einschalten und spielen."
+          ],
+          "video": "j2qYLNqHtA4"
+        },
+        {
+          "id": "q08",
+          "q": "Wie lösche ich eine Tastenzuordnung oder eine voreingestellte Taste?",
+          "a": [
+            "Tippe auf die Taste auf dem Bildschirm und es erscheint ein kleines Menü mit Kopieren und Löschen. Tippe auf Löschen, um sie zu entfernen. So entfernst du auch die voreingestellten Tasten, die du nicht brauchst."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Wie lege ich einen Screenshot meines Spiels als Hintergrund fest?",
+          "a": [
+            "Tippe im Editor auf die Bild-Schaltfläche (unten rechts) und wähle einen Screenshot aus deiner Galerie. Er wird zum Hintergrund, sodass du jede Taste genau dort platzierst, wo sie tippen soll."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Wie ordne ich die Analog-Sticks oder L2/R2-Trigger zu?",
+          "a": [
+            "Du musst sie nicht aufnehmen — beide Sticks und beide Trigger sind in jedem neuen Layout schon vorhanden. Zieh sie einfach auf die Stellen, die sie steuern sollen, und tippe einen an, um seine Einstellungen zu öffnen: Der rechte Stick kann ein Kamera-Wischen (die Standardeinstellung) oder ein Bewegungsfeld sein, Empfindlichkeit und Reaktionskurve findest du ebenfalls dort. Dafür muss die Gamepad-Pro-Tastatur aktiviert sein, da Androids Bedienungshilfe die Bewegung von Analog-Sticks und Triggern nicht lesen kann."
+          ],
+          "video": "rEvNu-S6_CY"
+        },
+        {
+          "id": "q12",
+          "q": "Wie ordne ich mehrere gleichzeitig gedrückte Tasten (Kombination) zu?",
+          "a": [
+            "Starte die Aufnahme und drücke die Tasten zusammen. Sie werden als eine Kombination gespeichert, sodass die Aktion nur ausgelöst wird, wenn du sie gleichzeitig drückst. Eine Kombination kann auch wie eine Modifikatortaste wirken: Belege LB+A und LB allein, halte dann LB gedrückt und drücke A, um die Kombination auszulösen. Solange die Kombination gehalten wird, bleibt die eigene Aktion von A stumm, und die eigene Aktion von LB wartet etwa 0,2 s, damit die App beide unterscheiden kann."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Was passiert, wenn ich eine Taste gedrückt halte?",
+          "a": [
+            "Standardmäßig bleibt der Bildschirm an der Stelle gedrückt, solange du die Taste hältst, und wird erst beim Loslassen freigegeben — kurz drücken heißt tippen, lange halten heißt langes Drücken. Ideal zum Zielen, Sprinten und für aufgeladene Angriffe. Zum Ändern tippe im Editor auf die Taste und öffne das Zahnrad-Symbol."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Der Tipp landet an der falschen Stelle. Wie platziere ich Tasten genau?",
+          "a": [
+            "Lege einen Screenshot des Spiels als Hintergrund fest und ziehe dann jede Taste an die genaue Stelle, die sie tippen soll. Du kannst sie jederzeit erneut ziehen, um die Position fein abzustimmen."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Wie pausiere ich meine Zuordnungen oder setze sie fort?",
+          "a": [
+            "Nutze den Schalter Zuordnungsdienst oben auf dem Startbildschirm, um alle Zuordnungen auf einmal zu pausieren oder fortzusetzen. Wenn du nicht zur App zurückkommst, füge denselben Schalter zu den Schnelleinstellungen hinzu und erreiche ihn von überall. Das Pausieren stoppt nur die Zuordnungen — die Bedienungshilfe bleibt aktiviert."
+          ],
+          "video": "FMxFD5nLdnw"
+        },
+        {
+          "id": "q21",
+          "q": "Ich kann mich nicht bewegen und gleichzeitig schießen. Was kann ich tun?",
+          "a": [
+            "Dabei geht die zweite Berührung verloren. Aktualisiere zuerst auf die neueste Version — neuere Builds halten beide Berührungen bereits von selbst aufrecht. Geht trotzdem eine verloren, öffne Einstellungen › Erweiterte Multi-Touch-Steuerung und folge dort den drei Schritten; die Seite zeigt dir, welcher davon noch fehlt. Das ist optional, gewöhnliche Zuordnungen funktionieren auch ohne."
+          ],
+          "video": "cOnoseRHaUM"
+        },
+        {
+          "id": "q22",
+          "q": "Eine Taste sitzt an der falschen Stelle. Kann ich das beheben, ohne das Spiel zu verlassen?",
+          "a": [
+            "Ja. Tippe beim Spielen auf die schwebende Schaltfläche, dann erscheint dein Layout über dem Spiel — zieh die Taste an die richtige Stelle und tippe erneut auf die schwebende Schaltfläche, um sie zu übernehmen. Mit einem langen Druck auf die schwebende Schaltfläche wechselst du zu einem anderen Layout, ohne das Spiel zu verlassen (dafür brauchst du mindestens zwei gespeicherte Layouts)."
+          ],
+          "video": "nz4xZcZ95hY"
+        },
+        {
+          "id": "q24",
+          "q": "Was kann eine einzelne Controller-Taste alles?",
+          "a": [
+            "Alles davon. Eine Taste kann ein einzelner Tipp sein, ein Halten, das den Bildschirm gedrückt hält, ein Turbo, der immer wieder tippt, solange du sie hältst, oder ein Makro, das mehrere Stellen nacheinander antippt. Die Analog-Sticks können ein Bewegungsfeld oder ein Kamera-Wischen sein. Tippe im Editor auf eine Taste und öffne das Zahnrad-Symbol, um zu wählen."
+          ],
+          "video": "bs5oMvTess8"
+        },
+        {
+          "id": "q27",
+          "q": "Wie funktionieren Layouts?",
+          "a": [
+            "Jedes Spiel kann mehrere Layouts haben: eins zum Kämpfen, eins zum Fahren, eins für Menüs und so weiter. Layout 1 wird beim Spielstart verwendet. Im Spiel wechselst du das Layout mit der Wechselkombination, die du im Profil festgelegt hast, oder über die schwebende Layout-Anzeige."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Was ist Shizuku und brauche ich es?",
+          "a": [
+            "Shizuku ist eine optionale erweiterte Verbesserung. Damit injiziert Gamepad Pro Multitouch-Ereignisse direkter – mit geringerer Latenz und flüssigerem Tracking als über den Bedienungshilfen-Pfad, am deutlichsten bei zwei Sticks oder mehreren gleichzeitigen Touch-Pfaden. Es ersetzt den Bedienungshilfen-Dienst nicht, und alle Zuordnungen funktionieren auch ohne. Ab Android 11 lässt es sich per WLAN-Debugging starten, muss nach einem Geräteneustart aber meist erneut gestartet werden."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Controller",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "Eine Taste meines Controllers wird nicht erkannt. Was kann ich tun?",
+          "a": [
+            "Android-Versionen und Geräte sind unterschiedlich, daher werden manche Tasten auf bestimmter Hardware nicht erkannt. Probiere eine andere Taste, verbinde das Gerät neu oder informiere uns über Feedback."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Mein Controller wird gar nicht erkannt. Was soll ich prüfen?",
+          "a": [
+            "Stelle sicher, dass er per Bluetooth oder USB richtig verbunden und in den Android-Einstellungen gekoppelt ist. Verbinde ihn neu und prüfe, ob er in anderen Apps funktioniert. Manche Controller müssen in einem bestimmten Modus eingeschaltet werden."
+          ],
+          "video": "t0HAKJXgRCU"
+        },
+        {
+          "id": "q26",
+          "q": "Mein linker Stick bewegt eine unsichtbare Maus. Wie stoppe ich das?",
+          "a": [
+            "Manche Spiele und Launcher haben eine eingebaute Controller-Unterstützung und machen aus dem linken Stick einen Mauszeiger. Funktioniert das Spiel bereits mit deinem Controller, öffne sein Profil und schalte die Zuordnung für dieses Spiel aus oder lösche die Zuordnung des linken Sticks. Soll stattdessen Gamepad Pro das übernehmen, öffne das Layout, tippe auf die Tastenkappe des linken Sticks und wähle Bewegungsfeld."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Wie lasse ich eine Taste automatisch tippen (Turbo)?",
+          "a": [
+            "Tippe im Editor auf die Taste, öffne das Zahnrad-Symbol und wähle Turbo. Solange du die Taste hältst, wird die Stelle im eingestellten Intervall immer wieder angetippt; beim Loslassen stoppt es. Turbo-Tasten zeigen ein kleines lila T neben dem Tastennamen."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Wie tippt eine Taste mehrere Stellen nacheinander an (Makro)?",
+          "a": [
+            "Tippe im Editor auf die Taste und wähle +, um einen Makro-Schritt hinzuzufügen. Jeder Schritt wird ein nummerierter Sticker (1, 2, 3 …), den du an seine eigene Stelle ziehst. Ein Tastendruck tippt dann alle Schritte der Reihe nach an; das Intervall stellst du über das Zahnrad ein. Während ein Makro läuft, werden weitere Tastendrücke ignoriert, bis es fertig ist."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Wie sichere und stelle ich meine Zuordnungen wieder her?",
+          "a": [
+            "Öffne das Menü und wähle Sichern, um alle Zuordnungen in einer Datei zu speichern, oder Wiederherstellen, um sie erneut zu laden – praktisch beim Wechsel des Telefons oder vor einer Neuinstallation."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

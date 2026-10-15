@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "tr",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 ve sonrası: kurulum artık tek adım. Kumandanın analog çubukları ve tetikleri Gamepad Pro klavyesi olmadan çalışıyor.",
+        "Gamepad Pro klavyesine artık gerek yok mu? Tek seferlik bir ipucu nasıl kapatacağınızı gösterir, her zamanki klavyeniz değişmez.",
+        "Yatay modda hizmeti açarken yaşanan çökme düzeltildi.",
+        "Kararlılık iyileştirmeleri."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "Yeni ayar: \"Tetik hassasiyeti (LT/RT)\".",
+        "Yeni ayar: \"Eşlenmemiş kontrolleri oyuna ilet\", bulut oyunları için ideal.",
+        "\"Varsayılan tuş eşleme seçenekleri\" ayarlara geri döndü.",
+        "Sağ çubuk artık daha fazla üçüncü taraf kontrolcüde çalışıyor.",
+        "Basılı tutulan LT/RT, aynı anda basılan tuşlar ve çok tuş kullanırken takılan dokunuşlar düzeltildi.",
+        "Kalemin kontrolcü sanılması, kayan butonun geri gelmemesi ve ara sıra donmalar düzeltildi."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Oyun ortasında eşleme hizmetinin çökmesi ve tuşların ölü kalması düzeltildi.",
+        "“Basılı tutarak değiştir” eylemlerinin ilk basıştan sonra durması düzeltildi.",
+        "Android 10 ve altı: oyunda sohbet kutusuna dokununca artık her zamanki klavyeniz açılıyor.",
+        "Eşlemeler kumanda olmadan, yalnızca harici klavyeyle de başlatılabiliyor.",
+        "Kumanda bağlantısı kesilince ve arka plandan dönünce açılan pencerelerdeki çökmeler düzeltildi.",
+        "Konum izni kaldırıldı."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Tablet, katlanabilir cihazlar ve bölünmüş ekran: tuş eşleme düzenleyicisi ile kumanda testi artık tek yöne kilitli değil.",
+        "Altı SSS cevabına daha demo videosu eklendi.",
+        "Edge-to-edge düzen: tanıtım ve gizlilik politikası ekranları artık sistem çubuklarıyla örtülmüyor.",
+        "Düzenleyici arka planları artık ekran boyutunda çözülüyor; bellek kullanımı çok azaldı ve sürükleme akıcı kaldı."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Bir iki saat oynayınca eşlemeler ölüyordu: çubuklar ve tetikler hizmeti yeniden başlatana kadar çalışmıyordu.",
+        "Basılı tuşların oyunda kendiliğinden tekrarlanması düzeltildi; artık hizmeti kapatmak gerekmiyor.",
+        "Çubuklu veya tetikli düzeni kaydederken klavye kurulumu araya girmiyor; kontrol oyun başında yapılıyor.",
+        "SSS ve Yardım: cevaplarda video eğitimleri ve dört yeni soru.",
+        "Kumanda testindeki ters LB/RB ve LT/RT etiketleri düzeltildi."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

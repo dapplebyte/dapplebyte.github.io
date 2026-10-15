@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "pl",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 i nowszy: konfiguracja to teraz jeden krok. Gałki i spusty kontrolera działają bez klawiatury Gamepad Pro.",
+        "Klawiatura Gamepad Pro nie jest już potrzebna? Jednorazowa wskazówka pokaże, jak ją wyłączyć, żeby została Twoja zwykła klawiatura.",
+        "Naprawiono awarię przy włączaniu usługi w trybie poziomym.",
+        "Poprawki stabilności."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "Nowe ustawienie: „Czułość spustów (LT/RT)”.",
+        "Nowe ustawienie: „Przekazuj grze nieprzypisane sterowanie”, idealne do gier w chmurze.",
+        "„Domyślne opcje mapowania” wróciły do ustawień.",
+        "Prawa gałka działa teraz na większej liczbie padów innych firm.",
+        "Naprawiono przytrzymanie LT/RT, jednoczesne naciśnięcia i zawieszone dotknięcia przy wielu przyciskach.",
+        "Naprawiono: rysik brany za pad, pływający przycisk nie wracał, sporadyczne zawieszanie."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Naprawiono awarię usługi mapowania w trakcie gry, po której przyciski nie działały.",
+        "Naprawiono akcje „przytrzymaj, by przełączyć”, które działały tylko za pierwszym razem.",
+        "Android 10 i starszy: dotknięcie czatu w grze otwiera teraz twoją zwykłą klawiaturę.",
+        "Mapowania włączysz z samą klawiaturą zewnętrzną, bez kontrolera.",
+        "Naprawiono awarie przy odłączeniu kontrolera i przy oknach po powrocie z tła.",
+        "Usunięto uprawnienie do lokalizacji."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Tablety, składane telefony i podzielony ekran: edytor mapowania klawiszy i ekran testu kontrolera nie są już zablokowane do jednej orientacji.",
+        "Sześć kolejnych odpowiedzi FAQ ma samouczek wideo.",
+        "Edge-to-edge: ekrany wprowadzające i polityka prywatności nie są już zasłaniane przez paski systemowe.",
+        "Tła edytora są teraz dekodowane w rozmiarze ekranu — mniejsze zużycie pamięci i płynniejsze przeciąganie."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Naprawiono zanik mapowań po godzinie–dwóch gry: drążki i spusty przestawały działać do restartu usługi.",
+        "Naprawiono przytrzymane przyciski, które w grze co kilka sekund wyzwalały się same do wyłączenia usługi.",
+        "Układ z drążkami lub spustami zapiszesz bez konfiguracji klawiatury — sprawdzamy ją na starcie gry.",
+        "FAQ i pomoc: samouczki wideo w odpowiedziach i cztery nowe pytania.",
+        "Poprawione etykiety LB/RB i LT/RT na ekranie testu kontrolera."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

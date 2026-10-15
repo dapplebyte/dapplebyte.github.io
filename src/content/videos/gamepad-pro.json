@@ -1,0 +1,17 @@
+{
+  "slug": "gamepad-pro",
+  "items": [
+    { "id": "a01-tutorial", "youtubeId": "j2qYLNqHtA4", "kind": "tutorial", "uploadDate": "2026-10-10", "duration": "PT44S", "titleKey": "videoItems.gamepad-pro.a01-tutorial.title", "descriptionKey": "videoItems.gamepad-pro.a01-tutorial.description", "feature": "mapping", "faq": "q05", "aspect": "9:16" },
+    { "id": "a01-ad", "youtubeId": "Sm0wP4vASmM", "kind": "promo", "uploadDate": "2026-10-12", "duration": "PT30S", "titleKey": "videoItems.gamepad-pro.a01-ad.title", "descriptionKey": "videoItems.gamepad-pro.a01-ad.description", "aspect": "9:16" },
+    { "id": "a02-ad", "youtubeId": "bs5oMvTess8", "kind": "promo", "uploadDate": "2026-10-12", "duration": "PT32S", "titleKey": "videoItems.gamepad-pro.a02-ad.title", "descriptionKey": "videoItems.gamepad-pro.a02-ad.description", "feature": "macros", "faq": "q24", "aspect": "9:16" },
+    { "id": "t01", "youtubeId": "rEvNu-S6_CY", "kind": "tutorial", "uploadDate": "2026-10-10", "duration": "PT68S", "titleKey": "videoItems.gamepad-pro.t01.title", "descriptionKey": "videoItems.gamepad-pro.t01.description", "feature": "mapping", "faq": "q10", "aspect": "9:16" },
+    { "id": "t02", "youtubeId": "nz4xZcZ95hY", "kind": "tutorial", "uploadDate": "2026-10-10", "duration": "PT44S", "titleKey": "videoItems.gamepad-pro.t02.title", "descriptionKey": "videoItems.gamepad-pro.t02.description", "feature": "phases", "faq": "q22", "aspect": "9:16" },
+    { "id": "p01", "youtubeId": "cOnoseRHaUM", "kind": "troubleshooting", "uploadDate": "2026-10-11", "duration": "PT63S", "titleKey": "videoItems.gamepad-pro.p01.title", "descriptionKey": "videoItems.gamepad-pro.p01.description", "feature": "multi-button", "faq": "q21", "aspect": "9:16" },
+    { "id": "p02", "youtubeId": "t0HAKJXgRCU", "kind": "troubleshooting", "uploadDate": "2026-10-10", "duration": "PT47S", "titleKey": "videoItems.gamepad-pro.p02.title", "descriptionKey": "videoItems.gamepad-pro.p02.description", "feature": "controllers", "faq": "q19", "aspect": "9:16" },
+    { "id": "p03", "youtubeId": "bkJYiGawnnc", "kind": "troubleshooting", "uploadDate": "2026-10-11", "duration": "PT60S", "titleKey": "videoItems.gamepad-pro.p03.title", "descriptionKey": "videoItems.gamepad-pro.p03.description", "faq": "q07", "aspect": "9:16" },
+    { "id": "p04", "youtubeId": "8hZqhdyWx_Y", "kind": "troubleshooting", "uploadDate": "2026-10-10", "duration": "PT56S", "titleKey": "videoItems.gamepad-pro.p04.title", "descriptionKey": "videoItems.gamepad-pro.p04.description", "faq": "q04", "aspect": "9:16" },
+    { "id": "p05", "youtubeId": "xbevEmk-T1Q", "kind": "troubleshooting", "uploadDate": "2026-10-10", "duration": "PT58S", "titleKey": "videoItems.gamepad-pro.p05.title", "descriptionKey": "videoItems.gamepad-pro.p05.description", "faq": "q02", "aspect": "9:16" },
+    { "id": "p06", "youtubeId": "FMxFD5nLdnw", "kind": "troubleshooting", "uploadDate": "2026-10-10", "duration": "PT39S", "titleKey": "videoItems.gamepad-pro.p06.title", "descriptionKey": "videoItems.gamepad-pro.p06.description", "faq": "q18", "aspect": "9:16" },
+    { "id": "p07", "youtubeId": "AAa5IUf8mPo", "kind": "troubleshooting", "uploadDate": "2026-10-11", "duration": "PT55S", "titleKey": "videoItems.gamepad-pro.p07.title", "descriptionKey": "videoItems.gamepad-pro.p07.description", "faq": "q23", "aspect": "9:16" }
+  ]
+}

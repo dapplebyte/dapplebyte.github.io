@@ -1,0 +1,169 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "nl",
+  "title": "Gamepad Pro: Controller Mapper",
+  "shortDescription": "Toetsen toewijzen: controller naar touch. Sticks, triggers, macro’s, geen root.",
+  "tagline": "Gamepad Pro is een toetsen-mapper voor controllers op Android: maak van de controller die je al hebt touchbediening en speel touchgames met echte knoppen. Zonder root.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Gamepad Pro: Controller Mapper",
+      "paragraphs": [
+        "Gamepad Pro is een toetsen-mapper voor controllers op Android: maak van de controller die je al hebt touchbediening en speel touchgames met echte knoppen. Zonder root.",
+        "Wijs knoppen, analoge sticks en L2/R2-triggers toe aan tikken, vasthouden en vegen. Maak per game een indeling, wissel midden in een match en voeg macro’s, turbo en combinaties toe.",
+        "Geen apps klonen, geen ADB voor de basisinstellingen. Wijs je bediening toe en speel."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "drag-map-play",
+      "title": "Sleep. Wijs toe. Speel.",
+      "paragraphs": [
+        "Voeg een game toe, open de editor en sleep elke knop naar de juiste plek. Sla op en start de game vanuit Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "mapping",
+      "title": "Knoppen, sticks en triggers toewijzen",
+      "paragraphs": [
+        "Wijs controllerknoppen, beide analoge sticks, de D-pad en analoge triggers toe aan tikken, vasthouden en vegen, met instelbare stickgevoeligheid."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "multi-button",
+      "title": "Meerdere knoppen tegelijk",
+      "paragraphs": [
+        "Bewegen, richten en aanvallen tegelijk: gemaakt voor games met meerdere invoeren tegelijk."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "profiles",
+      "title": "Een profiel voor elke game",
+      "paragraphs": [
+        "Bewaar per game een eigen mapping: je komt altijd terug bij de juiste indeling."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "phases",
+      "title": "Fasen — meerdere indelingen voor één game",
+      "paragraphs": [
+        "Maak meerdere Fasen voor verschillende delen van dezelfde game, zoals Bewegen, Rijden, Parachutespringen, Gevechten of Menu’s."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "phase-switch",
+      "title": "Wissel van fase tijdens het spelen",
+      "paragraphs": [
+        "Kies een andere Fase via het zwevende bedieningselement zonder de game te verlaten, of wijs een knop toe om direct door je indelingen te bladeren."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "combos",
+      "title": "Knopcombinaties",
+      "paragraphs": [
+        "Gebruik een combinatie van controllerknoppen als één trigger: extra snelkoppelingen zonder je bestaande bediening op te geven."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "macros",
+      "title": "Macro’s met één trigger",
+      "paragraphs": [
+        "Bouw een reeks touchacties en voer die met één controllerinvoer helemaal uit — ideaal voor wat je steeds herhaalt."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "turbo",
+      "title": "Turbo-acties",
+      "paragraphs": [
+        "Houd een knop ingedrukt om een toegewezen touchactie automatisch te herhalen, met een herhaalsnelheid die je per actie instelt."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "vibration",
+      "title": "Trilfeedback",
+      "paragraphs": [
+        "Voel een trilling zodra een toegewezen knop afgaat: licht, gemiddeld of krachtig."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "any-game",
+      "title": "Gemaakt voor elk soort game",
+      "paragraphs": [
+        "Shooters en battle royale, MOBA en MMORPG, racing, action RPG, open world, fighting, survival, idle- en clickergames, plus retro-emulators: werkt een game op touch, dan wijs je er een controller aan toe."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Geen klonen, geen root, geen ADB",
+      "paragraphs": [
+        "Gamepad Pro zet controllerinvoer rechtstreeks om in schermacties: geen gekloonde kopie van je game, geen root en geen ADB voor de basisinstellingen. Een paar geavanceerde opties kunnen Shizuku gebruiken; het toewijzen zelf niet."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "controllers",
+      "title": "Werkt met veel controllers",
+      "paragraphs": [
+        "Gamepad Pro werkt met veel bedrade en draadloze controllers die Android ondersteunt, en knoplabels passen zich aan populaire controllerindelingen aan."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "get-started",
+      "title": "Aan de slag",
+      "paragraphs": [],
+      "bullets": [
+        "Open Gamepad Pro en volg de begeleide installatie.",
+        "Schakel de toegankelijkheidsservice in en verbind je controller.",
+        "Schakel het Gamepad Pro-toetsenbord in voor sticks en L2/R2-triggers.",
+        "Tik op Toevoegen, kies je game en sleep de bediening op zijn plek.",
+        "Sla op, start de game en speel."
+      ]
+    },
+    {
+      "id": "permissions",
+      "title": "Machtigingen",
+      "paragraphs": [
+        "Toegankelijkheidsservice:",
+        "Gamepad Pro gebruikt de AccessibilityService-API van Android om je ingestelde controlleracties om te zetten in tikken en vegen. De service is nodig om buiten de app te kunnen toewijzen, voert alleen jouw acties uit en verzamelt of uploadt nooit je persoonlijke gegevens."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "keyboard",
+      "title": "Gamepad Pro-toetsenbord",
+      "paragraphs": [
+        "De toegankelijkheidsservice van Android kan waarden van analoge sticks of L2/R2-triggers niet lezen. De invoermethode van Gamepad Pro registreert die invoer zodat ze correct wordt toegewezen, en kan ook voor tekstinvoer worden gebruikt."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "compatibility",
+      "title": "Compatibiliteit",
+      "paragraphs": [
+        "De compatibiliteit kan variëren per apparaat, Android-versie, controller en de manier waarop een game touchinvoer of overlays verwerkt."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "help",
+      "title": "Hulp nodig?",
+      "paragraphs": [
+        "Play Store-recensies geven ons te weinig details om technische problemen te onderzoeken. Werkt er iets niet? Open Gamepad Pro en ga naar Instellingen > Feedback sturen."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

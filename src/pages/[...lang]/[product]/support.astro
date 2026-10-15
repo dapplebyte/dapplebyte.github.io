@@ -10,7 +10,7 @@ import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../
 export const getStaticPaths = productLangPaths;
 
 const { locale, slug, alternates } = Astro.props;
-const { t, list } = useT(locale);
+const { t, tp, listp, pairs } = useT(locale);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
 const copy = await getCopy(slug, locale);
@@ -19,8 +19,8 @@ const path = `/${slug}/support/`;
 const url = new URL(localePath(locale, path), SITE).href;
 const title = t('support.title', { name: product.name });
 const description = t('support.description', { name: product.name });
-const before = list<string>('support.beforeItems');
-const templateLines = ['phone', 'android', 'console', 'where', 'what', 'doctor'].map((k) => t(`support.template.${k}`));
+const before = listp<string>(slug, 'support.beforeItems');
+const templateLines = pairs(`products.${slug}.support.template`).map(([, line]) => line);
 const subject = t('support.subject', { name: product.name }).trim();
 const mailto = `mailto:${email}?subject=${encodeURIComponent(subject + ' ')}&body=${encodeURIComponent(templateLines.join('\n') + '\n')}`;
 const jsonLd = graph(
@@ -75,7 +75,7 @@ const jsonLd = graph(
     <div class="cells cells-2">
       <div>
         <h2 class="h-sub" style="margin-bottom:8px">{t('support.refundHeading')}</h2>
-        <p class="muted">{t('support.refundBody', { name: product.name })}</p>
+        <p class="muted">{tp(slug, 'support.refundBody', { name: product.name })}</p>
       </div>
       <div>
         <h2 class="h-sub" style="margin-bottom:8px">{t('support.replyHeading')}</h2>

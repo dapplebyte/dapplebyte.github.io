@@ -14,8 +14,6 @@
     "home": "Ana sayfa"
   },
   "footer": {
-    "studio": "Stüdyo",
-    "contact": "İletişim",
     "languages": "Diller",
     "privacy": "Site gizliliği",
     "copyright": "© {year} DappleByte",
@@ -28,12 +26,9 @@
     "learnMore": "Daha fazla bilgi"
   },
   "labels": {
-    "apps": "Uygulamalar",
     "nextApp": "Sıradaki uygulama",
     "nextAppBody": "Üzerinde çalışıyoruz. Yayımlandığında burada görünecek.",
     "lastUpdated": "Son güncelleme: {date}",
-    "android": "Android",
-    "by": "Geliştirici: DappleByte",
     "overview": "Genel bakış",
     "features": "Özellikler",
     "faq": "SSS",
@@ -42,39 +37,48 @@
     "support": "Destek",
     "privacy": "Gizlilik",
     "changelog": "Sürüm notları",
-    "press": "Basın kiti",
-    "sourceCode": "Kaynak kodu",
-    "googlePlay": "Google Play"
+    "press": "Basın kiti"
   },
   "facts": {
     "minOs": "{version} veya üzeri",
-    "consoles": "PS5 · PS4",
     "languages": "{count} dil",
     "source": "{license} kaynak kodu",
     "version": "Sürüm {version}"
   },
   "home": {
     "title": "DappleByte · Bağımsız Android uygulamaları",
-    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında PS5 ve PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad de var.",
+    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro ve PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad var.",
     "appsHeading": "Uygulamalar",
     "principlesHeading": "Nasıl çalışıyoruz",
     "principles": [
-      { "title": "Reklam yok, abonelik yok.", "body": "Tek fiyat ya da hiç. Dikkatinizi paraya çeviren hiçbir şey yok." },
-      { "title": "Arada sunucu yok.", "body": "Uygulamalarımız doğrudan sizin cihazlarınızla konuşur. Verilerinizi hiçbir zaman görmeyiz." },
-      { "title": "Kaynak kodu açık.", "body": "Her sürüm, AGPL-3.0 lisansıyla herkese açık bir depoya gönderilir." },
-      { "title": "Her e-postayı yanıtlarız.", "body": "{email} adresine yazın. Mesajınızı gerçek bir insan okur." }
+      {
+        "title": "Bir kez ödeyin ya da hiç ödemeyin.",
+        "body": "Uygulama ücretliyse tek seferlik bir satın almadır. Hiçbir şey kendiliğinden yenilenmez."
+      },
+      {
+        "title": "Hesap açmanız gerekmez.",
+        "body": "Kaydolacağınız bir şey yok. Uygulama kurulduğu anda çalışır."
+      },
+      {
+        "title": "İzinleri, vermeden önce açıklarız.",
+        "body": "Her uygulama, bir iznin ne için gerektiğini ve asla ne yapmadığını hem uygulamanın içinde hem de kodla örtüşen gizlilik politikasında anlatır."
+      },
+      {
+        "title": "Her e-postayı yanıtlarız.",
+        "body": "{email} adresine yazın. Mesajınızı gerçek bir insan okur."
+      }
     ],
     "contactHeading": "İletişim",
     "contactBody": "Stüdyo, basın ve iş birlikleri için: {email}. Her uygulamanın kendi destek adresi vardır ve o uygulamanın destek sayfasında yer alır."
   },
   "about": {
     "title": "DappleByte hakkında",
-    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo: reklam yok, abonelik yok, sizinle cihazınız arasında sunucu yok, kaynak kodu AGPL-3.0 ile yayımlanır.",
+    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Tek bir geliştirici, az sayıda uygulama; abonelik yok, hesap yok ve her e-postayı yanıtlayan gerçek bir insan var.",
     "whatHeading": "DappleByte nedir",
     "whatBody": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Tek bir geliştirici ve az sayıda uygulama; her biri belirli bir işi iyi yapmak ve sonra aradan çekilmek için tasarlandı.",
     "howHeading": "Nasıl çalışıyoruz",
-    "openSourceHeading": "Açık kaynak",
-    "openSourceBody": "Her uygulamanın her sürümü, AGPL-3.0 lisansıyla kaynak kodu olarak yayımlanır. Depo bağlantısı her uygulamanın sayfasında bulunur. Uygulamanın tam olarak ne yaptığını okuyabilir, kendiniz derleyebilir ya da gizlilik politikasının kodla örtüştüğünü kontrol edebilirsiniz.",
+    "openSourceHeading": "Kaynak kodu",
+    "openSourceBody": "Bir uygulamanın kaynak kodu yayımlandıysa bağlantısı o uygulamanın sayfasında ve basın kitinde yer alır. Relaypad, AGPL-3.0 lisansıyla yayımlanır.",
     "contactHeading": "İletişim",
     "contactBody": "Stüdyo, basın ve iş birlikleri için: {email}. Belirli bir uygulamayla ilgili destek için o uygulamanın destek sayfasındaki adrese yazın; böylece mesajınız doğru kutuya, doğru bağlamla ulaşır.",
     "trademarksHeading": "Ticari markalar",
@@ -90,32 +94,28 @@
     "faqHeading": "Sık sorulan sorular",
     "faqAll": "Tüm sorular",
     "getHeading": "{name} uygulamasını edinin",
-    "getBody": "Android için Google Play'de. Kaynak kodu {license} lisansıyla yayımlanır.",
+    "getBody": "Android için Google Play'de.",
+    "getBodySource": "Kaynak kodu {license} lisansıyla yayımlanır.",
     "requiresLabel": "Gereksinimler",
     "videoHeading": "Nasıl çalıştığını görün",
-    "allVideos": "Tüm videolar",
-    "moreHeading": "{name} hakkında daha fazlası"
+    "allVideos": "Tüm videolar"
   },
   "features": {
     "title": "{feature} · {name}",
     "indexHeading": "Özellikler",
     "relatedFaq": "İlgili sorular",
     "backToProduct": "{name} sayfasına dön",
-    "allFeatures": "Tüm {name} özellikleri",
-    "inShort": "Kısaca"
+    "allFeatures": "Tüm {name} özellikleri"
   },
   "faq": {
     "title": "{name} SSS",
     "sectionTitle": "{section} · {name} SSS",
-    "description": "{name} hakkında yanıtlar: oynama biçimleri, bağlantı, giriş, akış kalitesi, kumandalar, satın alma ve iadeler.",
     "sectionDescription": "{name} SSS, {section}: eksiksiz yanıtlarıyla {count} soru.",
     "intro": "Aynı yanıtlar uygulamada Ayarlar → SSS altında da var. Her bölüm ayrı bir sayfadır ve her sorunun kendi bağlantısı vardır.",
+    "englishOnly": "Çeviri hazır olana kadar bu SSS İngilizce gösteriliyor.",
     "questionsCount": "{count} soru",
     "notFoundHeading": "Yanıtınızı bulamadınız mı?",
-    "notFoundBody": "Telefon modelinizi, konsolunuzu ve ne olduğunu yazarak bize ulaşın. Her mesajı gerçek bir insan okur.",
     "notFoundCta": "Desteğe git",
-    "prev": "Önceki",
-    "next": "Sonraki",
     "allSections": "Tüm bölümler",
     "linkToQuestion": "Bu sorunun bağlantısı"
   },
@@ -123,11 +123,6 @@
     "title": "{name} destek",
     "description": "{name} için yardım: önce neleri kontrol etmeli, bize nasıl yazmalı, nelere yer vermeli ve iadeler nasıl işler.",
     "beforeHeading": "Yazmadan önce",
-    "beforeItems": [
-      "SSS'ye göz atın. Bağlantı, giriş ve görüntüyle ilgili soruların çoğu, uygulamadakiyle aynı ifadelerle orada yanıtlanmıştır.",
-      "Uygulama bağlanamıyorsa Ayarlar'dan Bağlantı doktorunu çalıştırın. Ağınızı, konsolu ve Remote Play'i kontrol eder; raporu tek dokunuşla bize e-postayla da gönderebilir.",
-      "Konsolun açık ya da dinlenme modunda olduğundan ve ayarlarında Remote Play'in etkin olduğundan emin olun."
-    ],
     "writeHeading": "Bize yazın",
     "writeBody": "Düğme, konusu doldurulmuş olarak e-posta uygulamanızı açar. Hiçbir şey açılmazsa adresi ve aşağıdaki listeyi herhangi bir e-postaya kopyalayın.",
     "writeButton": "{email} adresine yazın",
@@ -135,23 +130,13 @@
     "copied": "Kopyalandı",
     "subject": "[{name}] ",
     "templateHeading": "Nelere yer vermelisiniz",
-    "template": {
-      "phone": "Telefon modeli:",
-      "android": "Android sürümü:",
-      "console": "Konsol: PS5 / PS4",
-      "where": "Evde mi, dışarıda mı:",
-      "what": "Ne oldu, adım adım:",
-      "doctor": "Bağlantı doktorunu çalıştırdıysanız raporu buraya yapıştırın."
-    },
     "refundHeading": "İadeler",
-    "refundBody": "{name} sizin kurulumunuzla çalışmazsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi anlatın; sorunu bir sonraki kişi için düzeltmemize yardımcı olur.",
     "replyHeading": "Ne zaman yanıt alırsınız",
     "replyBody": "Genellikle iki iş günü içinde. Her mesajı gerçek bir insan okur ve her mesaj yanıtlanır.",
     "faqLink": "Önce SSS'yi okuyun"
   },
   "privacy": {
     "title": "{name} gizlilik politikası",
-    "description": "Android için {name} verilerinizle ne yapar: hesap yok, bize ait sunucu yok, cihazda neler kalır ve uygulama nerelere bağlanır.",
     "effective": "Yürürlük tarihi: {date}",
     "appliesTo": "Google Play'de dağıtılan Android için {name} ({appId}) uygulaması için geçerlidir.",
     "governing": "Bu politika İngilizce olarak yayımlanmıştır. Varsa çeviriler yalnızca kolaylık amaçlıdır; esas alınan metin İngilizce metindir.",
@@ -173,16 +158,19 @@
   },
   "videos": {
     "title": "{name} videoları",
-    "description": "{name} uygulamasını gerçek bir telefonda gösteren kısa videolar: kurulum, akış, kumanda yerleşimleri ve bağlantı sorunlarını giderme.",
     "emptyHeading": "Videolar yolda",
     "emptyBody": "Her özellik için bir anlatım videosu kaydediyoruz. O zamana kadar özellik sayfaları ve SSS aynı konuları anlatıyor.",
-    "kinds": { "promo": "Tanıtım", "tutorial": "Nasıl yapılır", "troubleshooting": "Sorun giderme" },
+    "kinds": {
+      "promo": "Tanıtım",
+      "tutorial": "Nasıl yapılır",
+      "troubleshooting": "Sorun giderme"
+    },
     "watchOn": "YouTube'da izle",
-    "play": "Videoyu oynat"
+    "play": "Videoyu oynat",
+    "playlist": "Oynatma listesini YouTube'da izleyin"
   },
   "compare": {
     "title": "{name} karşılaştırması",
-    "description": "{name}, Android'de PS Remote Play, PXPlay ve Chiaki ile özellik özellik karşılaştırılıyor; yalnızca gerçekler.",
     "intro": "Yalnızca gerçekler; her biri uygulamanın mağaza sayfasından veya web sitesinden kontrol edildi. Her uygulama aşağıdaki tarihteki haliyle anlatılıyor; yeni sürümler farklı olabilir. Burada hiçbir uygulamaya puan verilmiyor ve hiçbirinin genel olarak daha iyi olduğunu iddia etmiyoruz.",
     "verified": "Kontrol tarihi: {date}",
     "notVerified": "Diğer sütunlar henüz doğrulanmadı; bu yüzden bu sayfa arama motorlarında listelenmiyor.",
@@ -196,6 +184,12 @@
       "tv-output": "HDMI ile TV çıkışı",
       "connection-doctor": "Yerleşik bağlantı tanılama",
       "open-source": "Açık kaynak",
+      "no-root": "Root olmadan çalışır",
+      "stick-trigger-mapping": "Analog çubuk ve L2/R2 tetik eşleme",
+      "phases": "Oyun başına birden fazla düzen, oyun içinde değiştirilebilir",
+      "macros": "Makrolar",
+      "turbo": "Turbo (otomatik tekrar)",
+      "combos": "Tuş kombinasyonları",
       "pricing-model": "Fiyatlandırma"
     },
     "values": {
@@ -205,11 +199,10 @@
       "unknown": "Kontrol edilmedi",
       "one-time": "Tek seferlik satın alma",
       "free": "Ücretsiz",
-      "subscription": "Abonelik"
+      "subscription": "Abonelik",
+      "free-with-pro": "Ücretsiz, Pro tek seferlik satın alma"
     },
     "vsTitle": "{name} ile {other} karşılaştırması",
-    "vsDescription": "Android'de {name} ile {other}, özellik özellik karşılaştırma: ev dışında Remote Play, HEVC ve HDR, kumandalar, TV çıkışı, açık kaynak ve fiyat.",
-    "vsIntro": "İkisi de bir Android cihazı PS5 veya PS4'e bağlar. Aralarındaki farklar, özellik özellik şöyle.",
     "fullComparison": "Karşılaştırmanın tamamını görün"
   },
   "changelog": {
@@ -221,7 +214,6 @@
   },
   "press": {
     "title": "{name} basın kiti",
-    "description": "Android için Remote Play kumandası ve konsol akışı uygulaması {name} hakkında yazmak için bilgiler, görseller ve hazır tanıtım metni.",
     "intro": "Bu sayfadaki her şey; makalelerde, videolarda ve uygulama listelerinde izin almadan kullanılabilir. Başka bir şeye ihtiyacınız olursa bize yazın.",
     "factsHeading": "Bilgi notu",
     "facts": {
@@ -231,7 +223,6 @@
       "firstReleased": "İlk yayın",
       "currentVersion": "Güncel sürüm",
       "price": "Fiyat",
-      "priceValue": "Ücretli uygulama; tek seferlik satın alma, abonelik yok, reklam yok. Güncel fiyat Google Play'de gösterilir.",
       "languages": "Diller",
       "license": "Lisans",
       "website": "Web sitesi",
@@ -241,11 +232,9 @@
     },
     "oneLineHeading": "Tek cümleyle",
     "boilerplateHeading": "Hazır tanıtım metni",
-    "boilerplate": "{name}, bir Android telefonu PS5 veya PS4 için kablosuz kumandaya dönüştürür ya da konsolun görüntüsünü telefona, tablete veya TV'ye aktarır; evde de, dışarıda mobil veriyle de çalışır. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilmiştir ve AGPL-3.0 lisansıyla açık kaynak olarak yayımlanmıştır.",
     "assetsHeading": "Görseller",
     "assetIcon": "Uygulama simgesi, 512 px PNG",
     "assetFeature": "Öne çıkan görsel, 1024 × 500 PNG",
-    "assetScreenshots": "Ekran görüntüleri, 1920 × 1080 PNG, İngilizce",
     "assetStudioMark": "DappleByte logosu, SVG",
     "screenshotN": "Ekran görüntüsü {index}",
     "contactHeading": "Basın iletişimi",
@@ -258,5 +247,137 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 ve PS4, Sony Interactive Entertainment Inc. şirketinin ticari markalarıdır. {name}, Sony ile bağlantılı değildir ve Sony tarafından onaylanmamıştır."
+  },
+  "videoItems": {
+    "gamepad-pro": {
+      "a01-tutorial": {
+        "title": "Adım adım tuş eşleme nasıl yapılır",
+        "description": "Bir oyun seçin, bir tuş ekleyin, kullanmak istediğiniz kumanda tuşuna basın, ekranda istediğiniz noktaya sürükleyin, sonra kaydedip oynayın."
+      },
+      "a01-ad": {
+        "title": "Dokunmatik oyunları kumandayla oynayın",
+        "description": "Gamepad Pro'nun, yalnızca dokunmatik destekleyen bir oyunda kumandanın tuşlarını, çubuklarını ve tetiklerini dokunmatik kontrole nasıl çevirdiğine kısa bir bakış."
+      },
+      "a02-ad": {
+        "title": "Tek tuş. Beş farklı iş",
+        "description": "Tek bir kumanda tuşu dokunma, basılı tutma, kaydırma, turbo ya da sırayla birkaç noktaya dokunan bir makro olabilir; video bunu düzenleyicide nasıl seçeceğinizi gösterir."
+      },
+      "t01": {
+        "title": "Analog çubukları ve L2/R2'yi eşleyin",
+        "description": "İki çubuk ve iki tetik her yeni düzende zaten hazır: onları yerine sürükleyin, sonra birine dokunup kamera kaydırma ya da hareket çubuğunu seçin ve hassasiyetini ayarlayın."
+      },
+      "t02": {
+        "title": "Tuş yanlış yerde mi? Oyundan çıkmadan düzeltin",
+        "description": "Oyun sırasında kayan düğmeye dokunarak düzeninizi oyunun üstünde gösterin, tuşu doğru yere sürükleyin ve oyundan çıkmadan uygulayın."
+      },
+      "p01": {
+        "title": "Aynı anda yalnızca bir tuş mu çalışıyor?",
+        "description": "İkinci dokunuş düşüyorsa önce en son sürüme güncelleyin, ardından Ayarlar › Gelişmiş çoklu dokunma bölümündeki adımları izleyin."
+      },
+      "p02": {
+        "title": "Kumandanız algılanmıyor mu?",
+        "description": "Bluetooth veya USB bağlantısını ve Android ayarlarındaki eşleştirmeyi kontrol edin, kumandayı yeniden bağlayın ve doğru modda olduğundan emin olun."
+      },
+      "p03": {
+        "title": "Tuşlar çalışıyor ama çubuklar tepki vermiyor mu?",
+        "description": "Bazı Android sürümlerinde analog çubuklar ve tetikler için neden Gamepad Pro klavyesinin gerektiği ve eşlenebilmeleri için bu klavyenin nasıl açılacağı."
+      },
+      "p04": {
+        "title": "Eşleme çalışıyordu, birden durdu mu?",
+        "description": "Android, güç tasarrufu için arka plandaki uygulamaları kapatabilir; Gamepad Pro için pil optimizasyonunu kapatırsanız eşlemeleriniz çalışmaya devam eder."
+      },
+      "p05": {
+        "title": "Erişilebilirlik izni neden gerekiyor?",
+        "description": "Erişilebilirlik Hizmeti ne için kullanılır: tuşa basışlarınızı dokunma ve kaydırmaya çevirir; ekranınızdakileri okumaz, hiçbir yere yüklemez."
+      },
+      "p06": {
+        "title": "Ekran dokunuşlarınıza tepki vermiyor mu?",
+        "description": "Tüm eşlemeleri tek seferde duraklatmanın yolları: ana ekrandaki anahtardan ya da uygulamaya geri dönemiyorsanız Hızlı Ayarlar'dan."
+      },
+      "p07": {
+        "title": "Klavye değişti, şimdi nasıl yazacağım?",
+        "description": "Kendi klavyenize dönmek için küre simgesine dokunun ya da otomatik geçişi açın; böylece Gamepad Pro kendi klavyesini yalnızca eşlemeler çalışırken kullanır."
+      }
+    }
+  },
+  "products": {
+    "gamepad-pro": {
+      "kicker": "Kumanda tuş eşleme · Root gerekmez",
+      "heroPoints": [
+        "Tuşlar, çubuklar ve L2/R2 tetikleri dokunma, basılı tutma ve kaydırmaya dönüşür",
+        "Her oyuna bir düzen, oyunun farklı bölümleri için Aşamalar",
+        "Makrolar, turbo ve tuş kombinasyonları. Root yok, klonlama yok"
+      ],
+      "faqDescription": "Gamepad Pro hakkında yanıtlar: kurulum ve izinler, tuş eşleme oluşturma, çubuklar ve tetikler, kumandalar, Pro ve yedekler.",
+      "faqNotFoundBody": "Telefon modelinizi, kumandanızı, oyunu ve ne olduğunu yazarak bize ulaşın. Her mesajı gerçek bir insan okur.",
+      "support": {
+        "beforeItems": [
+          "SSS'ye göz atın. Kurulum, izin ve eşlemeyle ilgili soruların çoğu, uygulamadakiyle aynı ifadelerle orada yanıtlanmıştır.",
+          "Erişilebilirlik Hizmeti'nin açık olduğundan ve eşlemenin duraklatılmadığından emin olun. Önce çalışıp sonra durduysa sebep genellikle pil optimizasyonudur; adımlar SSS'de.",
+          "Hangi oyun, hangi kumanda ve bir tuşa bastığınızda ekranda ne olduğunu not edin. Sorunu yeniden oluşturmak için tam olarak buna ihtiyacımız var."
+        ],
+        "template": {
+          "phone": "Telefon modeli:",
+          "android": "Android sürümü:",
+          "controller": "Kumanda (model, USB mi Bluetooth mu):",
+          "game": "Oyun veya uygulama:",
+          "what": "Ne oldu, adım adım:",
+          "pro": "Pro satın alındı mı: evet / hayır"
+        },
+        "refundBody": "Gamepad Pro ücretsiz kurulur. Pro satın aldıysanız ve sizin kurulumunuzla çalışmıyorsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi anlatın; sorunu bir sonraki kişi için düzeltmemize yardımcı olur."
+      },
+      "press": {
+        "description": "Android için kumanda tuş eşleme uygulaması Gamepad Pro hakkında yazmak için bilgiler, görseller ve hazır tanıtım metni.",
+        "boilerplate": "Gamepad Pro, elinizdeki kumandayı kumanda desteği olmayan Android oyunları için dokunmatik kontrole çevirir: tuşlar, çubuklar ve tetikler dokunma, basılı tutma ve kaydırmaya dönüşür; her oyuna ayrı düzen, Aşamalar, makrolar, turbo ve tuş kombinasyonları da var. Root gerekmez. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilir.",
+        "priceValue": "Ücretsiz kurulur, reklam içerir. Tek seferlik Pro satın alımı reklamları kaldırır ve tüm Pro özelliklerinin kilidini açar; abonelik yoktur. Güncel fiyat Google Play'de gösterilir.",
+        "assetScreenshots": "Telefon ekran görüntüleri, PNG, İngilizce (dikey 1080 × 1920; düzenleyici ekran görüntüsü yatay)"
+      },
+      "videosDescription": "Gamepad Pro'yu gerçek bir telefonda gösteren kısa videolar: tuş eşleme oluşturma, çubuklar ve tetikler, oyun ortasında düzeni düzeltme ve en sık karşılaşılan sorunlar.",
+      "privacyDescription": "Android için Gamepad Pro verilerinizle ne yapar: hesap yok, Erişilebilirlik Hizmeti ne için kullanılır, analiz ve reklam SDK'ları neler toplar ve isteğe bağlı veri toplama nasıl kapatılır.",
+      "compare": {
+        "description": "Gamepad Pro'nun Android'deki diğer kumanda eşleme uygulamalarıyla özellik özellik karşılaştırması; yalnızca gerçekler.",
+        "vsDescription": "{name} ve {other}, Android'de özellik özellik karşılaştırılıyor: root, çubuklar ve tetikler, oyun başına düzenler, makrolar, turbo ve fiyatlandırma.",
+        "vsIntro": "İkisi de Android'de kumandayı dokunmatik oyunlara eşler. Aralarındaki farklar, özellik özellik."
+      }
+    },
+    "relaypad": {
+      "kicker": "PS5 · PS4",
+      "heroPoints": [
+        "Kumandanın pili bittiğinde oynamaya devam etmek",
+        "Konsol menülerinde ve video uygulamalarında büyük kumanda tuşlarıyla gezinmek",
+        "Konsol TV'nin yanında kalırken yatakta ya da başka odada oynamak"
+      ],
+      "faqDescription": "{name} hakkında yanıtlar: oynama biçimleri, bağlantı, giriş, akış kalitesi, kumandalar, satın alma ve iadeler.",
+      "faqNotFoundBody": "Telefon modelinizi, konsolunuzu ve ne olduğunu yazarak bize ulaşın. Her mesajı gerçek bir insan okur.",
+      "support": {
+        "beforeItems": [
+          "SSS'ye göz atın. Bağlantı, giriş ve görüntüyle ilgili soruların çoğu, uygulamadakiyle aynı ifadelerle orada yanıtlanmıştır.",
+          "Uygulama bağlanamıyorsa Ayarlar'dan Bağlantı doktorunu çalıştırın. Ağınızı, konsolu ve Remote Play'i kontrol eder; raporu tek dokunuşla bize e-postayla da gönderebilir.",
+          "Konsolun açık ya da dinlenme modunda olduğundan ve ayarlarında Remote Play'in etkin olduğundan emin olun."
+        ],
+        "template": {
+          "phone": "Telefon modeli:",
+          "android": "Android sürümü:",
+          "console": "Konsol: PS5 / PS4",
+          "where": "Evde mi, dışarıda mı:",
+          "what": "Ne oldu, adım adım:",
+          "doctor": "Bağlantı doktorunu çalıştırdıysanız raporu buraya yapıştırın."
+        },
+        "refundBody": "{name} sizin kurulumunuzla çalışmazsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi anlatın; sorunu bir sonraki kişi için düzeltmemize yardımcı olur."
+      },
+      "press": {
+        "description": "Android için Remote Play kumandası ve konsol akışı uygulaması {name} hakkında yazmak için bilgiler, görseller ve hazır tanıtım metni.",
+        "boilerplate": "{name}, bir Android telefonu PS5 veya PS4 için kablosuz kumandaya dönüştürür ya da konsolun görüntüsünü telefona, tablete veya TV'ye aktarır; evde de, dışarıda mobil veriyle de çalışır. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilmiştir ve AGPL-3.0 lisansıyla açık kaynak olarak yayımlanmıştır.",
+        "priceValue": "Ücretli uygulama; tek seferlik satın alma, abonelik yok, reklam yok. Güncel fiyat Google Play'de gösterilir.",
+        "assetScreenshots": "Ekran görüntüleri, 1920 × 1080 PNG, İngilizce"
+      },
+      "videosDescription": "{name} uygulamasını gerçek bir telefonda gösteren kısa videolar: kurulum, akış, kumanda yerleşimleri ve bağlantı sorunlarını giderme.",
+      "privacyDescription": "Android için {name} verilerinizle ne yapar: hesap yok, bize ait sunucu yok, cihazda neler kalır ve uygulama nerelere bağlanır.",
+      "compare": {
+        "description": "{name}, Android'de PS Remote Play, PXPlay ve Chiaki ile özellik özellik karşılaştırılıyor; yalnızca gerçekler.",
+        "vsDescription": "Android'de {name} ile {other}, özellik özellik karşılaştırma: ev dışında Remote Play, HEVC ve HDR, kumandalar, TV çıkışı, açık kaynak ve fiyat.",
+        "vsIntro": "İkisi de bir Android cihazı PS5 veya PS4'e bağlar. Aralarındaki farklar, özellik özellik şöyle."
+      }
+    }
   }
 }

@@ -5,14 +5,54 @@ import { fileURLToPath } from 'node:url';
 export const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 export const LOCALES = JSON.parse(readFileSync(join(ROOT, 'src/i18n/locales.json'), 'utf8'));
 
-/** `{ slug: localPath }` for every product whose source project lives on this machine. */
-export function localProducts() {
+/**
+ * products.local.json, normalised. Each value may be a string (the project root) or an object
+ * `{ "root": "...", "screenshots": "store/export/site" }` where `screenshots` is relative to the root
+ * and replaces `fastlane/metadata/android` as the place to look for `<fastlane-locale>/images/phoneScreenshots`.
+ * Returns `{ slug: { root, screenshots? } }`.
+ */
+export function localProductEntries() {
   const file = join(ROOT, 'products.local.json');
   if (!existsSync(file)) {
     console.error('products.local.json is missing. Copy products.local.example.json and fill in the local paths.');
     process.exit(1);
   }
-  return JSON.parse(readFileSync(file, 'utf8'));
+  const raw = JSON.parse(readFileSync(file, 'utf8'));
+  const out = {};
+  for (const [slug, value] of Object.entries(raw)) {
+    if (typeof value === 'string') out[slug] = { root: value };
+    else if (value && typeof value.root === 'string') out[slug] = { root: value.root, screenshots: value.screenshots };
+    else console.warn(`[products.local] ${slug}: expected a path or { "root": "..." }, skipped`);
+  }
+  return out;
+}
+
+/** `{ slug: projectRoot }` for every product whose source project lives on this machine. */
+export function localProducts() {
+  return Object.fromEntries(Object.entries(localProductEntries()).map(([slug, e]) => [slug, e.root]));
+}
+
+/**
+ * Per-product exceptions to the folder names in src/i18n/locales.json.
+ * `fastlane`: website locale → fastlane folder. `android`: website locale → res folder, or null when the
+ * app has no translation for that locale (the locale is skipped, which is not an error).
+ */
+const LOCALE_OVERRIDES = {
+  'gamepad-pro': {
+    fastlane: { es: 'es-419' },
+    android: { 'pt-br': 'values-pt', id: null, vi: null },
+  },
+};
+
+/** fastlane metadata folder name for a website locale. */
+export function fastlaneLocale(slug, locale) {
+  return LOCALE_OVERRIDES[slug]?.fastlane?.[locale.slug] ?? locale.fastlane;
+}
+
+/** Android res folder for a website locale, or null when the app is not translated into it. */
+export function androidValues(slug, locale) {
+  const map = LOCALE_OVERRIDES[slug]?.android ?? {};
+  return locale.slug in map ? map[locale.slug] : locale.android;
 }
 
 export function writeJson(relPath, data) {

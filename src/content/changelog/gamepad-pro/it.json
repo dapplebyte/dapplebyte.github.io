@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "it",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 e successivi: la configurazione ora richiede un solo passaggio. Levette e grilletti del controller funzionano senza la tastiera Gamepad Pro.",
+        "Non ti serve più la tastiera Gamepad Pro? Un suggerimento, mostrato una sola volta, ti spiega come disattivarla, così resta la tua tastiera di sempre.",
+        "Risolto un crash attivando il servizio in modalità orizzontale.",
+        "Miglioramenti della stabilità."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "Nuova impostazione: \"Sensibilità dei grilletti (LT/RT)\".",
+        "Nuova impostazione: \"Passa al gioco i comandi non mappati\", ideale per il cloud gaming.",
+        "Le \"Opzioni di mappatura predefinite\" tornano nelle impostazioni.",
+        "Lo stick destro ora funziona su più controller di terze parti.",
+        "Corretti LT/RT tenuti premuti, tasti premuti insieme e tocchi bloccati usando molti tasti.",
+        "Corretti pennino scambiato per controller, pulsante mobile che non tornava e blocchi occasionali."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Risolto: il servizio di mappatura si chiudeva a metà partita e i tasti restavano morti.",
+        "Risolto: le azioni «tieni premuto per alternare» funzionavano solo al primo tocco.",
+        "Android 10 e precedenti: toccando la chat nel gioco si apre la tua tastiera di sempre.",
+        "Le mappature partono anche solo con una tastiera esterna, senza controller.",
+        "Risolti i crash alla disconnessione del controller e nei dialoghi al ritorno dal background.",
+        "Permesso di posizione rimosso."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Tablet, pieghevoli e split screen: l'editor mappatura tasti e «Prova controller» non sono più bloccati su un solo orientamento.",
+        "Altre sei risposte delle FAQ hanno ora un video dimostrativo.",
+        "Edge-to-edge: le schermate Introduzione e Politica sulla riservatezza non sono più coperte dalle barre di sistema.",
+        "Gli sfondi dell'editor ora vengono decodificati in base alla dimensione dello schermo: molta meno memoria e trascinamento più fluido."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Risolto: dopo un'ora o due stick e grilletti non rispondevano più fino al riavvio del servizio.",
+        "Risolto: i tasti premuti si riattivavano da soli finché non si spegneva il servizio di accessibilità.",
+        "Salvare mappature con stick o grilletti non chiede più di configurare la tastiera: si verifica all'avvio del gioco.",
+        "FAQ e aiuto: videoguide nelle risposte e quattro nuove domande.",
+        "Risolto lo scambio delle etichette LB/RB e LT/RT in «Prova controller»."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

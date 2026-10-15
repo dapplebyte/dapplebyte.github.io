@@ -1,0 +1,245 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "pl",
+  "title": "FAQ i pomoc",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Konfiguracja",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Co robi Gamepad Pro?",
+          "a": [
+            "Gamepad Pro przypisuje kontroler, klawiaturę lub dowolne zewnętrzne przyciski do dotknięć i przesunięć na ekranie, abyś mógł grać w gry dotykowe i sterować aplikacjami fizycznymi przyciskami."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Dlaczego potrzebne jest uprawnienie dostępności? Czy to bezpieczne?",
+          "a": [
+            "Usługa dostępności pozwala Gamepad Pro zamieniać naciśnięcia na dotknięcia i przesunięcia, także poza aplikacją. Mapowania działają dopiero po jej włączeniu. Gamepad Pro używa jej tylko do wykonywania Twoich akcji i nie zbiera danych osobowych."
+          ],
+          "video": "xbevEmk-T1Q"
+        },
+        {
+          "id": "q04",
+          "q": "Przestaje działać po chwili w tle. Jak to naprawić?",
+          "a": [
+            "Android może zamykać aplikacje w tle, aby oszczędzać energię. Zezwól Gamepad Pro na działanie w tle, wyłączając optymalizację baterii. Niektóre marki (np. MIUI lub Samsung) dodają dodatkowe reguły – przewodnik na dontkillmyapp.com pokazuje, jak je wyłączyć na Twoim urządzeniu."
+          ],
+          "video": "8hZqhdyWx_Y"
+        },
+        {
+          "id": "q07",
+          "q": "Dlaczego muszę włączyć klawiaturę Gamepad Pro?",
+          "a": [
+            "Przede wszystkim po to, aby dało się zmapować drążki analogowe i spusty L2/R2 kontrolera. Usługa dostępności Androida odczytuje zwykłe naciśnięcia przycisków, ale nie odczytuje ruchu drążków ani spustów — wychwycić go potrafi tylko klawiatura Gamepad Pro. Jest też potrzebna do akcji takich jak wpisywanie tekstu. Włącz ją i przełącz się na nią, gdy pojawi się monit, aby te mapowania i akcje działały."
+          ],
+          "video": "bkJYiGawnnc"
+        },
+        {
+          "id": "q11",
+          "q": "Czy Gamepad Pro wymaga dostępu root?",
+          "a": [
+            "Nie. Gamepad Pro działa przez usługę dostępności i nie wymaga roota. Root lub Shizuku jest potrzebny tylko do kilku opcjonalnych funkcji zaawansowanych."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Czy działa z każdą grą?",
+          "a": [
+            "Działa z większością gier dotykowych. Niektóre gry blokują symulowane dotknięcia lub używają anty-cheata, który może przeszkadzać, więc nie można zagwarantować każdej gry. Jeśli gra nie reaguje, daj nam znać przez Opinie."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Klawiatura Gamepad Pro przejęła pisanie. Jak teraz pisać?",
+          "a": [
+            "Klawiatura Gamepad Pro nie ma klawiszy do pisania — odczytuje tylko drążki i spusty, więc po stuknięciu pola tekstowego nic się nie pojawia. Stuknij ikonę globusa w prawym dolnym rogu, aby wrócić do własnej klawiatury. Jeszcze lepiej włącz opcję \"Automatycznie przełączaj metodę wprowadzania\" — wtedy Gamepad Pro używa własnej klawiatury tylko wtedy, gdy mapowania są uruchomione, a potem oddaje Twoją."
+          ],
+          "video": "AAa5IUf8mPo"
+        },
+        {
+          "id": "q25",
+          "q": "Dlaczego Android ostrzega, że Gamepad Pro może odczytywać hasła?",
+          "a": [
+            "Android pokazuje to samo ostrzeżenie przy każdej aplikacji ułatwień dostępu. Gamepad Pro używa go tylko do odczytu kontrolera i aplikacji na pierwszym planie oraz do umieszczania dotknięć. Nigdy nie odczytuje, nie zapisuje ani nie przesyła tego, co jest na ekranie, ani tego, co wpisujesz."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mapowanie",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Moje mapowanie nie działa. Co sprawdzić?",
+          "a": [
+            "1. Upewnij się, że usługa dostępności jest włączona (Ustawienia → Dostępność → Gamepad Pro).",
+            "2. Upewnij się, że mapowanie jest włączone (nie wstrzymane).",
+            "3. Do akcji tekstowych przełącz się na klawiaturę Gamepad Pro.",
+            "4. Jeśli wcześniej działało, a przestało, sprawdź ustawienia baterii/tła (zobacz następne pytanie)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Jak utworzyć mapowanie przycisków?",
+          "a": [
+            "1. Wybierz grę lub aplikację z listy.",
+            "2. Dotknij, aby dodać przycisk, i naciśnij żądany przycisk kontrolera.",
+            "3. Przeciągnij go w miejsce do dotknięcia.",
+            "4. Zapisz, włącz mapowanie i graj."
+          ],
+          "video": "j2qYLNqHtA4"
+        },
+        {
+          "id": "q08",
+          "q": "Jak usunąć mapowanie lub gotowy przycisk?",
+          "a": [
+            "Dotknij przycisku na ekranie, a pojawi się małe menu z opcjami Kopiuj i Usuń. Dotknij Usuń, aby go usunąć. Tak też usuwasz gotowe przyciski, których nie potrzebujesz."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Jak ustawić zrzut ekranu gry jako tło?",
+          "a": [
+            "W edytorze dotknij przycisku obrazu (prawy dolny róg) i wybierz zrzut ekranu z galerii. Stanie się tłem, dzięki czemu umieścisz każdy przycisk dokładnie tam, gdzie ma dotykać."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Jak zmapować drążki analogowe lub spusty L2/R2?",
+          "a": [
+            "Nie musisz ich nagrywać — oba drążki i oba spusty są już w każdej nowej konfiguracji. Wystarczy przeciągnąć je na miejsca, którymi mają sterować, i stuknąć jeden z nich, aby otworzyć jego ustawienia: prawy drążek może działać jako przesuwanie kamery (domyślnie) lub tarcza ruchu, a tam znajdziesz też czułość i krzywą reakcji. Wymagają one włączonej klawiatury Gamepad Pro, ponieważ usługa dostępności Androida nie odczytuje ruchu drążków ani spustów."
+          ],
+          "video": "rEvNu-S6_CY"
+        },
+        {
+          "id": "q12",
+          "q": "Jak zmapować kilka przycisków naciśniętych razem (kombinację)?",
+          "a": [
+            "Rozpocznij nagrywanie i naciśnij przyciski razem. Zostaną zapisane jako jedna kombinacja, więc akcja uruchamia się tylko po jednoczesnym naciśnięciu. Kombinacja może też działać jak modyfikator: przypisz LB+A oraz samo LB, potem przytrzymaj LB i naciśnij A, aby uruchomić kombinację. Gdy kombinacja jest przytrzymana, własna akcja A nie uruchamia się, a własna akcja LB czeka około 0,2 s, aby aplikacja mogła je rozróżnić."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Co się dzieje, gdy przytrzymam przycisk?",
+          "a": [
+            "Domyślnie, dopóki trzymasz przycisk, ekran pozostaje wciśnięty w tym miejscu i zwalnia się dopiero po puszczeniu: krótkie naciśnięcie to stuknięcie, długie przytrzymanie to długie naciśnięcie. Idealne do celowania, biegu i ładowanych ataków. Aby to zmienić, stuknij przycisk w edytorze i otwórz ikonę zębatki."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Dotknięcie trafia w złe miejsce. Jak dokładnie rozmieścić przyciski?",
+          "a": [
+            "Ustaw zrzut ekranu gry jako tło, a następnie przeciągnij każdy przycisk w dokładne miejsce, które ma dotykać. Możesz go w każdej chwili przeciągnąć ponownie, aby dostroić położenie."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Jak wstrzymać lub wznowić mapowania?",
+          "a": [
+            "Użyj przełącznika Usługa mapowania u góry ekranu głównego, aby wstrzymać lub wznowić wszystkie mapowania naraz. Jeśli nie możesz wrócić do aplikacji, dodaj ten sam przełącznik do Szybkich ustawień i miej go pod ręką wszędzie. Wstrzymanie zatrzymuje tylko mapowania — usługa dostępności pozostaje włączona."
+          ],
+          "video": "FMxFD5nLdnw"
+        },
+        {
+          "id": "q21",
+          "q": "Nie mogę jednocześnie biegać i strzelać. Co mogę zrobić?",
+          "a": [
+            "To drugie dotknięcie, które jest gubione. Najpierw zaktualizuj aplikację do najnowszej wersji — nowsze wydania same utrzymują oba dotknięcia. Jeśli jedno nadal znika, otwórz Ustawienia › Zaawansowany wielodotyk i wykonaj trzy kroki z tej strony; sama pokaże, którego brakuje. To opcjonalne — zwykłe mapowania działają bez tego."
+          ],
+          "video": "cOnoseRHaUM"
+        },
+        {
+          "id": "q22",
+          "q": "Przycisk jest w złym miejscu. Czy mogę to poprawić bez wychodzenia z gry?",
+          "a": [
+            "Tak. Podczas gry stuknij pływający przycisk, a Twoja konfiguracja pojawi się na wierzchu gry — przeciągnij przycisk we właściwe miejsce i stuknij pływający przycisk ponownie, aby to zastosować. Przytrzymaj pływający przycisk, aby przełączyć się na inną konfigurację bez wychodzenia z gry (potrzebujesz do tego co najmniej dwóch zapisanych konfiguracji)."
+          ],
+          "video": "nz4xZcZ95hY"
+        },
+        {
+          "id": "q24",
+          "q": "Co potrafi jeden przycisk kontrolera?",
+          "a": [
+            "Praktycznie wszystko. Jeden przycisk może być pojedynczym stuknięciem, przytrzymaniem, które trzyma ekran wciśnięty, turbo, które stuka raz za razem, dopóki go trzymasz, albo makrem, które stuka kilka miejsc po kolei. Drążki analogowe mogą działać jako tarcza ruchu lub przesuwanie kamery. Stuknij przycisk w edytorze i otwórz ikonę zębatki, aby wybrać."
+          ],
+          "video": "bs5oMvTess8"
+        },
+        {
+          "id": "q27",
+          "q": "Jak działają układy?",
+          "a": [
+            "Każda gra może mieć kilka układów: jeden do walki, jeden do jazdy, jeden do menu i tak dalej. Układ 1 jest używany po uruchomieniu gry. W grze przełączaj układy kombinacją ustawioną w profilu albo pływającą etykietą przełącznika."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Czym jest Shizuku i czy go potrzebuję?",
+          "a": [
+            "Shizuku to opcjonalne zaawansowane ulepszenie. Pozwala Gamepad Pro wstrzykiwać zdarzenia multi-touch bardziej bezpośrednio, z mniejszym opóźnieniem i płynniejszym śledzeniem niż ścieżka ułatwień dostępu — najbardziej widoczne przy dwóch drążkach lub kilku równoczesnych ścieżkach dotyku. Nie zastępuje usługi ułatwień dostępu, a wszystkie mapowania działają też bez niego. Na Androidzie 11 i nowszych można go uruchomić przez debugowanie bezprzewodowe, ale po ponownym uruchomieniu urządzenia zwykle trzeba go włączyć ponownie."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Kontroler",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "Przycisk mojego kontrolera nie jest wykrywany. Co mogę zrobić?",
+          "a": [
+            "Wersje Androida i urządzenia się różnią, więc niektóre przyciski mogą nie być wykrywane na pewnym sprzęcie. Spróbuj innego przycisku, połącz urządzenie ponownie lub daj nam znać przez Opinie."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Mój kontroler w ogóle nie jest wykrywany. Co sprawdzić?",
+          "a": [
+            "Upewnij się, że jest poprawnie połączony przez Bluetooth lub USB i sparowany w ustawieniach Androida. Spróbuj połączyć ponownie i sprawdź, czy działa w innych aplikacjach. Niektóre kontrolery trzeba włączyć w określonym trybie."
+          ],
+          "video": "t0HAKJXgRCU"
+        },
+        {
+          "id": "q26",
+          "q": "Lewy drążek porusza niewidzialną myszą. Jak to wyłączyć?",
+          "a": [
+            "Niektóre gry i launchery mają wbudowaną obsługę kontrolerów i zamieniają lewy drążek we wskaźnik. Jeśli gra już działa z Twoim kontrolerem, otwórz jej profil i wyłącz mapowanie dla tej gry albo usuń mapowanie lewego drążka. Jeśli wolisz, żeby obsługiwał to Gamepad Pro, otwórz układ, dotknij przycisku lewego drążka i wybierz Tarcza ruchu."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Jak sprawić, by przycisk stukał automatycznie (turbo)?",
+          "a": [
+            "Stuknij przycisk w edytorze, otwórz zębatkę i wybierz Turbo. Dopóki trzymasz przycisk, to miejsce jest stukane raz za razem z ustawionym odstępem; puszczenie zatrzymuje. Przyciski turbo mają małą fioletową literę T obok nazwy klawisza."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Jak jednym przyciskiem stukać kilka miejsc po kolei (makro)?",
+          "a": [
+            "Stuknij przycisk w edytorze i wybierz +, aby dodać krok makra. Każdy krok staje się ponumerowaną naklejką (1, 2, 3…), którą przeciągasz w wybrane miejsce. Jedno naciśnięcie stuka potem wszystkie kroki po kolei; odstęp ustawisz zębatką. Podczas wykonywania makra dodatkowe naciśnięcia są ignorowane do jego zakończenia."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Jak utworzyć kopię zapasową i przywrócić mapowania?",
+          "a": [
+            "Otwórz menu i wybierz Kopia zapasowa, aby zapisać wszystkie mapowania do pliku, lub Przywróć, aby wczytać je ponownie – przydatne przy zmianie telefonu lub przed ponowną instalacją."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

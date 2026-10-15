@@ -1,0 +1,32 @@
+{
+  "slug": "gamepad-pro",
+  "name": "Gamepad Pro",
+  "order": 1,
+  "status": "live",
+  "platform": "Android",
+  "applicationId": "com.dylan.gamepad.pro",
+  "playUrl": "https://play.google.com/store/apps/details?id=com.dylan.gamepad.pro",
+  "category": "GameApplication",
+  "minOs": "Android 12",
+  "versions": [
+    { "code": 191, "name": "1.9.1", "date": "2026-09-10" },
+    { "code": 192, "name": "1.9.2", "date": "2026-09-15" },
+    { "code": 193, "name": "1.9.3", "date": "2026-09-22" },
+    { "code": 194, "name": "1.9.4", "date": "2026-10-06" },
+    { "code": 195, "name": "1.9.5", "date": "2026-10-10" }
+  ],
+  "contactEmail": "feedback@dapplebyte.com",
+  "accent": { "solid": "#E11D48", "bright": "#E4345A", "ink": "#FFFFFF" },
+  "displayFont": "Saira",
+  "screenshotCount": 5,
+  "screenshotOrientation": "portrait",
+  "featuredFaq": ["q01", "q02", "q05", "q10", "q21", "q11"],
+  "languages": 17,
+  "youtubePlaylist": "PLVe1RTcdv9MI",
+  "overview": {
+    "steps": "get-started",
+    "cells": ["permissions", "keyboard", "compatibility"],
+    "privacyLinkIn": "permissions",
+    "fine": "help"
+  }
+}

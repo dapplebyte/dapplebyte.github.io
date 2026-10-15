@@ -1,0 +1,20 @@
+{
+  "slug": "gamepad-pro",
+  "draft": true,
+  "verifiedOn": null,
+  "competitors": [
+    { "id": "mantis", "name": "Mantis Gamepad Pro" },
+    { "id": "panda", "name": "Panda Gamepad Pro" },
+    { "id": "octopus", "name": "Octopus" }
+  ],
+  "rows": [
+    { "id": "platform", "values": { "gamepad-pro": "Android 12+", "mantis": "unknown", "panda": "unknown", "octopus": "unknown" } },
+    { "id": "no-root", "values": { "gamepad-pro": "yes", "mantis": "unknown", "panda": "unknown", "octopus": "unknown" } },
+    { "id": "stick-trigger-mapping", "values": { "gamepad-pro": "yes", "mantis": "unknown", "panda": "unknown", "octopus": "unknown" } },
+    { "id": "phases", "values": { "gamepad-pro": "yes", "mantis": "unknown", "panda": "unknown", "octopus": "unknown" } },
+    { "id": "macros", "values": { "gamepad-pro": "yes", "mantis": "unknown", "panda": "unknown", "octopus": "unknown" } },
+    { "id": "turbo", "values": { "gamepad-pro": "yes", "mantis": "unknown", "panda": "unknown", "octopus": "unknown" } },
+    { "id": "combos", "values": { "gamepad-pro": "yes", "mantis": "unknown", "panda": "unknown", "octopus": "unknown" } },
+    { "id": "pricing-model", "values": { "gamepad-pro": "free-with-pro", "mantis": "unknown", "panda": "unknown", "octopus": "unknown" } }
+  ]
+}

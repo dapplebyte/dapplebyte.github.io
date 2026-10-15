@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "en",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 and later: setup now takes one step. Controller sticks and triggers work without the Gamepad Pro keyboard.",
+        "Don't need the Gamepad Pro keyboard anymore? A one-time tip shows you how to turn it off, so your usual keyboard stays put.",
+        "Fixed a crash when turning on the service in landscape.",
+        "Stability improvements."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "New setting: \"Trigger sensitivity (LT/RT)\".",
+        "New setting: \"Pass unmapped controls to games\", great for cloud gaming.",
+        "\"Default mapping options\" is back in Settings.",
+        "Right stick now works on more third-party controllers.",
+        "Fixed held LT/RT, buttons pressed together, and stuck touches when using many buttons.",
+        "Fixed a stylus seen as a controller, the floating button not coming back, and occasional freezes."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Fixed the mapping service crashing mid-game and leaving buttons dead until re-enabled.",
+        "Fixed \"hold\" toggle actions stopping after the first press.",
+        "Android 10 and below: tapping a chat box in a game now opens your regular keyboard.",
+        "Mappings now start with just an external keyboard, no controller needed.",
+        "Fixed crashes on controller disconnect and when dialogs open after returning from the background.",
+        "Location permission removed."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Tablets, foldables and split screen: the keymap editor and test screen are no longer locked to one orientation.",
+        "Six more FAQ answers now have a demo video.",
+        "Edge-to-edge layout: the intro and privacy policy screens are no longer covered by the system bars.",
+        "Editor backgrounds now decode at screen size, using far less memory and keeping dragging smooth."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Fixed mappings going dead after an hour or two of play: sticks and triggers only came back after restarting the service.",
+        "Fixed held buttons all firing again every few seconds mid-game until the accessibility service was turned off.",
+        "Saving a layout with sticks or triggers no longer interrupts you with keyboard setup.",
+        "FAQ & Help: video tutorials in the answers, plus four new questions.",
+        "Fixed swapped LB/RB and LT/RT labels on the controller test screen."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

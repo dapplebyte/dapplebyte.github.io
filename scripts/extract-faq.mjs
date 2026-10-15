@@ -1,10 +1,16 @@
-// App FAQ (strings_faq.xml + FaqContent.kt) → src/content/faq/<slug>/<locale>.json
-// FaqContent.kt holds the grouping, order and ids; the strings files hold the text.
-// The website always publishes the paid edition with nothing on sale (docs/17 D10):
+// App FAQ → src/content/faq/<slug>/<locale>.json
+//
+// `kotlin` products (Relaypad): FaqContent.kt holds the grouping, order and ids; strings_faq.xml holds
+// the text. The website always publishes the paid edition with nothing on sale:
 // `answer(proOffered, free, paid)` picks `paid`, and the purchase section is `faq_section_purchase_paid`.
-import { existsSync, readFileSync } from 'node:fs';
+//
+// `arrays` products (Gamepad Pro): res/values*/arrays.xml holds `faq_questions` / `faq_answers`, aligned
+// by position, plus `faq_sections` (section index per question) and `faq_video_ids` (YouTube id per
+// question, may be empty; not translated). Question ids are `q01`… by array position. Extra entries
+// from single strings are appended to the end of a section, the same way the app shows them.
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { LOCALES, localProducts, parseStrings, writeJson, now } from './lib.mjs';
+import { LOCALES, localProducts, parseStrings, unescapeAndroid, androidValues, writeJson, now } from './lib.mjs';
 
 const CONFIG = {
   relaypad: {
@@ -33,7 +39,112 @@ const CONFIG = {
       faq_section_other: 'other',
     },
   },
+  'gamepad-pro': {
+    kind: 'arrays',
+    res: 'app/src/main/res',
+    /** Section index in `faq_sections` → URL slug and title key, in the order the app shows them. */
+    sections: [
+      { slug: 'setup', titleKey: 'faq_section_setup' },
+      { slug: 'mapping', titleKey: 'faq_section_mapping' },
+      { slug: 'controller', titleKey: 'faq_section_controller' },
+      { slug: 'pro', titleKey: 'faq_section_pro' },
+    ],
+    /** Single-string entries appended to the end of a section (app: FaqScreen adds Shizuku under Mapping). */
+    extra: [{ id: 'shizuku', section: 'mapping', qKey: 'shizuku_faq_question', aKey: 'shizuku_faq_answer' }],
+  },
 };
+
+/** `<string-array>` / `<integer-array>` items by name, comments stripped. */
+function parseArrays(xml) {
+  const out = new Map();
+  const clean = xml.replace(/<!--[\s\S]*?-->/g, '');
+  for (const m of clean.matchAll(/<(string|integer)-array\s+name="([^"]+)"[^>]*>([\s\S]*?)<\/\1-array>/g)) {
+    out.set(m[2], [...m[3].matchAll(/<item>([\s\S]*?)<\/item>/g)].map((i) => unescapeAndroid(i[1])));
+  }
+  return out;
+}
+
+/** Every `<string>` in every *.xml of one res/values* folder. */
+function readFolderStrings(dir) {
+  const strings = new Map();
+  const arrays = new Map();
+  if (!existsSync(dir)) return { strings, arrays };
+  for (const f of readdirSync(dir).filter((f) => f.endsWith('.xml'))) {
+    const xml = readFileSync(join(dir, f), 'utf8');
+    for (const [k, v] of parseStrings(xml)) strings.set(k, v);
+    for (const [k, v] of parseArrays(xml)) arrays.set(k, v);
+  }
+  return { strings, arrays };
+}
+
+const answerParagraphs = (a) => a.split(/\n{1,}/).map((p) => p.trim()).filter(Boolean);
+
+function extractArrays(slug, root, cfg) {
+  const resDir = join(root, cfg.res);
+  const base = readFolderStrings(join(resDir, 'values'));
+  const sectionIdx = (base.arrays.get('faq_sections') ?? []).map(Number);
+  const videos = base.arrays.get('faq_video_ids') ?? [];
+  const total = sectionIdx.length + cfg.extra.length;
+  let written = 0;
+  for (const locale of LOCALES) {
+    const folder = androidValues(slug, locale);
+    if (!folder) {
+      console.log(`[faq] ${slug}/${locale.slug}: the app has no translation, skipped (the site shows English)`);
+      continue;
+    }
+    const own = folder === 'values' ? base : readFolderStrings(join(resDir, folder));
+    if (own.arrays.size === 0 && own.strings.size === 0) {
+      console.warn(`[faq] ${slug}/${locale.slug}: ${folder} missing, locale skipped`);
+      continue;
+    }
+    const qs = own.arrays.get('faq_questions') ?? [];
+    const as = own.arrays.get('faq_answers') ?? [];
+    if (qs.length !== sectionIdx.length || as.length !== sectionIdx.length) {
+      console.error(`[faq] ${slug}/${locale.slug}: ${qs.length} questions / ${as.length} answers, expected ${sectionIdx.length}; locale not written (arrays are aligned by position)`);
+      process.exitCode = 1;
+      continue;
+    }
+    // Section titles may be untranslatable (`faq_section_pro`), so fall back to the default folder.
+    const str = (k) => own.strings.get(k) ?? base.strings.get(k);
+    let missing = 0;
+    const sections = cfg.sections.map((s, idx) => ({
+      id: s.slug,
+      title: str(s.titleKey) ?? (missing++, ''),
+      entries: sectionIdx
+        .map((sec, i) => ({ sec, i }))
+        .filter((x) => x.sec === idx)
+        .map(({ i }) => ({
+          id: `q${String(i + 1).padStart(2, '0')}`,
+          q: qs[i],
+          a: answerParagraphs(as[i]),
+          ...(videos[i] ? { video: videos[i] } : {}),
+        })),
+    }));
+    for (const e of cfg.extra) {
+      const q = own.strings.get(e.qKey);
+      const a = own.strings.get(e.aKey);
+      if (q === undefined || a === undefined) {
+        missing++;
+        continue;
+      }
+      sections.find((s) => s.id === e.section).entries.push({ id: e.id, q, a: answerParagraphs(a) });
+    }
+    if (missing > 0 || sections.some((s) => s.entries.some((x) => !x.q || x.a.length === 0))) {
+      console.error(`[faq] ${slug}/${locale.slug}: ${missing} strings missing, locale not written (no half-translated pages)`);
+      process.exitCode = 1;
+      continue;
+    }
+    writeJson(`src/content/faq/${slug}/${locale.slug}.json`, {
+      slug,
+      locale: locale.slug,
+      title: str('faq_title') ?? 'FAQ',
+      sections,
+      extractedAt: now(),
+    });
+    written++;
+  }
+  console.log(`[faq] ${slug}: ${written} locales, ${cfg.sections.length} sections, ${total} questions`);
+}
 
 /** Return the text of the balanced `(...)` that starts at `open` (index of the `(`). */
 function balanced(src, open) {
@@ -83,6 +194,10 @@ for (const [slug, root] of Object.entries(products)) {
   const cfg = CONFIG[slug];
   if (!cfg) {
     console.warn(`[faq] no CONFIG for ${slug}, skipping`);
+    continue;
+  }
+  if (cfg.kind === 'arrays') {
+    extractArrays(slug, root, cfg);
     continue;
   }
   const parsed = parseKotlin(readFileSync(join(root, cfg.kotlin), 'utf8'));

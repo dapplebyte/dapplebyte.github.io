@@ -1,0 +1,245 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "nl",
+  "title": "FAQ en hulp",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Instellen",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Wat doet Gamepad Pro?",
+          "a": [
+            "Gamepad Pro wijst je controller, toetsenbord of willekeurige externe knoppen toe aan tikken en vegen op het scherm, zodat je touchspellen kunt spelen en apps met fysieke knoppen kunt bedienen."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Waarom is de toegankelijkheidsmachtiging nodig? Is het veilig?",
+          "a": [
+            "De toegankelijkheidsdienst laat Gamepad Pro je knopdrukken omzetten in tikken en vegen, ook buiten de app. Je toewijzingen werken pas na inschakelen. Gamepad Pro gebruikt dit alleen om je acties uit te voeren en verzamelt geen persoonlijke gegevens."
+          ],
+          "video": "xbevEmk-T1Q"
+        },
+        {
+          "id": "q04",
+          "q": "Het stopt na een tijdje op de achtergrond. Hoe los ik dit op?",
+          "a": [
+            "Android kan apps op de achtergrond sluiten om energie te besparen. Sta Gamepad Pro toe op de achtergrond te draaien door de batterijoptimalisatie uit te zetten. Sommige merken (zoals MIUI of Samsung) voegen extra regels toe – de gids op dontkillmyapp.com toont hoe je die voor jouw toestel uitzet."
+          ],
+          "video": "8hZqhdyWx_Y"
+        },
+        {
+          "id": "q07",
+          "q": "Waarom moet ik het Gamepad Pro-toetsenbord inschakelen?",
+          "a": [
+            "Vooral zodat de analoge sticks en de L2/R2-triggers van je controller toegewezen kunnen worden. De toegankelijkheidsdienst van Android kan gewone knopdrukken lezen, maar niet de beweging van sticks of triggers — alleen het Gamepad Pro-toetsenbord kan die opvangen. Het is ook nodig voor acties zoals tekst typen. Schakel het in en stel het in wanneer daarom wordt gevraagd, zodat deze toewijzingen en acties werken."
+          ],
+          "video": "bkJYiGawnnc"
+        },
+        {
+          "id": "q11",
+          "q": "Heeft Gamepad Pro root-toegang nodig?",
+          "a": [
+            "Nee. Gamepad Pro werkt via de toegankelijkheidsdienst en heeft geen root nodig. Root of Shizuku is alleen nodig voor enkele optionele geavanceerde functies."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Werkt het met elk spel?",
+          "a": [
+            "Het werkt met de meeste touchspellen. Sommige spellen blokkeren gesimuleerde tikken of gebruiken anti-cheat die kan storen, dus elk spel kan niet worden gegarandeerd. Reageert een spel niet, laat het ons weten via Feedback."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Het Gamepad Pro-toetsenbord heeft het overgenomen. Hoe typ ik nu?",
+          "a": [
+            "Het Gamepad Pro-toetsenbord heeft geen toetsen om mee te typen — het leest alleen sticks en triggers, dus er verschijnt niets als je op een tekstveld tikt. Tik op de wereldbol rechtsonder om terug te gaan naar je eigen toetsenbord. Nog handiger: zet \"Invoermethode automatisch wisselen\" aan — dan gebruikt Gamepad Pro zijn eigen toetsenbord alleen zolang de toewijzingen actief zijn en geeft het daarna het jouwe weer terug."
+          ],
+          "video": "AAa5IUf8mPo"
+        },
+        {
+          "id": "q25",
+          "q": "Waarom waarschuwt Android dat Gamepad Pro wachtwoorden kan lezen?",
+          "a": [
+            "Android toont dezelfde waarschuwing voor elke toegankelijkheidsapp. Gamepad Pro gebruikt het alleen om je controller en de app op de voorgrond te lezen en om aanrakingen te plaatsen. Het leest, bewaart of uploadt nooit wat er op je scherm staat of wat je typt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Toewijzing",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Mijn toewijzing werkt niet. Wat moet ik controleren?",
+          "a": [
+            "1. Zorg dat de toegankelijkheidsdienst is ingeschakeld (Instellingen → Toegankelijkheid → Gamepad Pro).",
+            "2. Zorg dat de toewijzing aan staat (niet gepauzeerd).",
+            "3. Schakel voor tekstacties over naar het Gamepad Pro-toetsenbord.",
+            "4. Werkte het eerder en stopte het, controleer dan de batterij-/achtergrondinstellingen (zie de volgende vraag)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Hoe maak ik een knoptoewijzing?",
+          "a": [
+            "1. Kies een spel of app uit de lijst.",
+            "2. Tik om een knop toe te voegen en druk op de gewenste controllerknop.",
+            "3. Sleep die naar de plek die getikt moet worden.",
+            "4. Sla op, zet de toewijzing aan en speel."
+          ],
+          "video": "j2qYLNqHtA4"
+        },
+        {
+          "id": "q08",
+          "q": "Hoe verwijder ik een toewijzing of een vooraf ingestelde knop?",
+          "a": [
+            "Tik op de knop op het scherm en er verschijnt een klein menu met Kopiëren en Verwijderen. Tik op Verwijderen om hem te wissen. Zo verwijder je ook de vooraf ingestelde knoppen die je niet nodig hebt."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Hoe stel ik een screenshot van mijn spel als achtergrond in?",
+          "a": [
+            "Tik in de editor op de afbeeldingsknop (rechtsonder) en kies een screenshot uit je galerij. Het wordt de achtergrond, zodat je elke knop precies plaatst waar hij moet tikken."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Hoe wijs ik de analoge sticks of L2/R2-triggers toe?",
+          "a": [
+            "Je hoeft ze niet op te nemen — beide sticks en beide triggers zitten al in elke nieuwe configuratie. Sleep ze gewoon naar de plekken die ze moeten besturen en tik op één ervan om de instellingen te openen: de rechterstick kan een camera-veeg zijn (de standaard) of een bewegingsschijf, met daar ook de gevoeligheid en de responscurve. Wel moet het Gamepad Pro-toetsenbord ingeschakeld zijn, omdat de toegankelijkheidsdienst van Android de beweging van sticks of triggers niet kan lezen."
+          ],
+          "video": "rEvNu-S6_CY"
+        },
+        {
+          "id": "q12",
+          "q": "Hoe wijs ik meerdere tegelijk ingedrukte knoppen (een combinatie) toe?",
+          "a": [
+            "Start de opname en druk de knoppen samen in. Ze worden als één combinatie opgeslagen, zodat de actie alleen wordt geactiveerd als je ze tegelijk indrukt. Een combinatie kan ook als modificatietoets werken: wijs LB+A en LB apart toe, houd dan LB ingedrukt en druk op A om de combinatie te activeren. Zolang de combinatie ingedrukt blijft, doet de eigen actie van A niets, en wacht de eigen actie van LB ongeveer 0,2 s zodat de app ze uit elkaar kan houden."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Wat gebeurt er als ik een knop ingedrukt houd?",
+          "a": [
+            "Standaard blijft het scherm op die plek ingedrukt zolang je de knop vasthoudt, en laat het pas los wanneer jij loslaat: kort drukken is een tik, lang vasthouden is lang indrukken. Ideaal voor richten, sprinten en opgeladen aanvallen. Om dit te wijzigen tik je in de editor op de knop en open je het tandwiel-icoon."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "De tik komt op de verkeerde plek. Hoe plaats ik knoppen nauwkeurig?",
+          "a": [
+            "Stel een screenshot van het spel als achtergrond in en sleep elke knop naar de exacte plek die hij moet tikken. Je kunt hem altijd opnieuw slepen om de positie bij te stellen."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Hoe pauzeer of hervat ik mijn toewijzingen?",
+          "a": [
+            "Gebruik de schakelaar Toewijzingsservice bovenaan het startscherm om alle toewijzingen tegelijk te pauzeren of te hervatten. Kun je niet terug naar de app, voeg dezelfde schakelaar dan toe aan Snelle instellingen en bedien hem van overal. Pauzeren stopt alleen de toewijzingen — de toegankelijkheidsdienst blijft ingeschakeld."
+          ],
+          "video": "FMxFD5nLdnw"
+        },
+        {
+          "id": "q21",
+          "q": "Ik kan niet tegelijk bewegen en schieten. Wat kan ik doen?",
+          "a": [
+            "Dan valt de tweede aanraking weg. Werk eerst bij naar de nieuwste versie — nieuwere versies houden beide aanrakingen al vanzelf in stand. Valt er daarna nog steeds één weg, open dan Instellingen › Geavanceerde multi-touch en doorloop de drie stappen daar; de pagina laat zien welke stap nog ontbreekt. Het is optioneel: gewone toewijzingen werken ook zonder."
+          ],
+          "video": "cOnoseRHaUM"
+        },
+        {
+          "id": "q22",
+          "q": "Een knop staat op de verkeerde plek. Kan ik dat oplossen zonder het spel te verlaten?",
+          "a": [
+            "Ja. Tik tijdens het spelen op de zwevende knop en je configuratie verschijnt over het spel heen — sleep de knop naar de juiste plek en tik nogmaals op de zwevende knop om het toe te passen. Houd de zwevende knop ingedrukt om naar een andere configuratie te wisselen zonder het spel te verlaten (daarvoor heb je minstens twee opgeslagen configuraties nodig)."
+          ],
+          "video": "nz4xZcZ95hY"
+        },
+        {
+          "id": "q24",
+          "q": "Wat kan één controllerknop allemaal doen?",
+          "a": [
+            "Vrijwel alles. Eén knop kan een enkele tik zijn, een vasthouden dat het scherm ingedrukt houdt, een turbo die steeds opnieuw tikt zolang je hem vasthoudt, of een macro die meerdere plekken op volgorde tikt. De analoge sticks kunnen een bewegingsschijf of een camera-veeg zijn. Tik in de editor op een knop en open het tandwiel-icoon om te kiezen."
+          ],
+          "video": "bs5oMvTess8"
+        },
+        {
+          "id": "q27",
+          "q": "Hoe werken indelingen?",
+          "a": [
+            "Elke game kan meerdere indelingen hebben: een voor gevechten, een voor rijden, een voor menu's enzovoort. Indeling 1 wordt gebruikt als de game start. Wissel in de game van indeling met de wisselcombinatie die je in het profiel instelt, of met het zwevende indelingslabel."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Wat is Shizuku en heb ik het nodig?",
+          "a": [
+            "Shizuku is een optionele geavanceerde verbetering. Hiermee injecteert Gamepad Pro multitouch-gebeurtenissen directer, met lagere latentie en vloeiender tracking dan via toegankelijkheid — vooral merkbaar met twee sticks of meerdere gelijktijdige aanraakpaden. Het vervangt de toegankelijkheidsservice niet en alle toewijzingen werken ook zonder. Op Android 11 en hoger kan het worden gestart via draadloze foutopsporing, maar na een herstart van het apparaat moet het meestal opnieuw worden gestart."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Controller",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "Een knop op mijn controller wordt niet herkend. Wat kan ik doen?",
+          "a": [
+            "Android-versies en toestellen verschillen, dus sommige knoppen worden op bepaalde hardware niet herkend. Probeer een andere knop, verbind het toestel opnieuw of laat het ons weten via Feedback."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Mijn controller wordt helemaal niet herkend. Wat moet ik controleren?",
+          "a": [
+            "Zorg dat hij goed is verbonden via Bluetooth of USB en gekoppeld in de Android-instellingen. Verbind hem opnieuw en controleer of hij in andere apps werkt. Sommige controllers moeten in een specifieke modus worden aangezet."
+          ],
+          "video": "t0HAKJXgRCU"
+        },
+        {
+          "id": "q26",
+          "q": "Mijn linkerstick beweegt een onzichtbare muis. Hoe stop ik dat?",
+          "a": [
+            "Sommige games en launchers hebben ingebouwde controllerondersteuning en maken van de linkerstick een aanwijzer. Werkt de game al met je controller, open dan het profiel en zet de toewijzing voor die game uit, of verwijder de toewijzing van de linkerstick. Wil je dat Gamepad Pro het overneemt, open dan de indeling, tik op de toetskap van de linkerstick en kies Bewegingsschijf."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Hoe laat ik een knop automatisch tikken (turbo)?",
+          "a": [
+            "Tik in de editor op de knop, open het tandwiel en kies Turbo. Zolang je de knop vasthoudt, wordt die plek steeds opnieuw getikt met het ingestelde interval; loslaten stopt het. Turboknoppen tonen een kleine paarse T naast de toetsnaam."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Hoe laat ik één knop meerdere plekken op volgorde tikken (macro)?",
+          "a": [
+            "Tik in de editor op de knop en kies + om een macrostap toe te voegen. Elke stap wordt een genummerde sticker (1, 2, 3…) die je naar een eigen plek sleept. Eén druk tikt daarna alle stappen op volgorde aan; het interval stel je in via het tandwiel. Tijdens het uitvoeren van een macro worden extra drukken genegeerd tot hij klaar is."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Hoe maak ik een back-up van mijn toewijzingen en zet ik ze terug?",
+          "a": [
+            "Open het menu en kies Back-up om al je toewijzingen in een bestand op te slaan, of Herstellen om ze opnieuw te laden – handig bij het wisselen van telefoon of vóór een herinstallatie."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

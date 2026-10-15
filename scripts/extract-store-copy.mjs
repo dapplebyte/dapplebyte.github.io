@@ -1,30 +1,95 @@
 // Store listing (fastlane metadata) → src/content/product-copy/<slug>/<locale>.json
-// The full description has a fixed shape: an optional opening line, then blocks that start
-// with an `<emoji> <b>Title</b>` line followed by paragraphs or `•` bullets. Section ids are
-// assigned by position so every locale lines up with the English order.
+// Section ids are assigned by position so every locale lines up with the English order.
+//
+// Two listing shapes are supported:
+// - `bold`  (Relaypad): an optional opening line, then blocks that start with an `<emoji> <b>Title</b>`
+//   line followed by paragraphs or `•` bullets.
+// - `emoji` (Gamepad Pro): no <b> tags. The first three paragraphs are the intro (the first one starts
+//   with 👍); after that every block starts with an `<emoji> Title` line, followed by paragraphs,
+//   `•` bullets or a `1.` numbered list (kept as bullets).
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { LOCALES, localProducts, writeJson, now } from './lib.mjs';
+import { LOCALES, localProducts, fastlaneLocale, writeJson, now } from './lib.mjs';
 
-/** Position → section id. Must match the number of `<b>` headings in full_description.txt. */
-const SECTION_IDS = {
-  relaypad: [
-    'intro',
-    'use-cases',
-    'virtual-gamepad',
-    'console-streaming',
-    'remote-play-away',
-    'connection-doctor',
-    'guided-setup',
-    'pricing',
-    'privacy',
-    'before-you-buy',
-    'support',
-    'trademark',
-  ],
+/** Position → section id. Must match the number of headings in full_description.txt. */
+const CONFIG = {
+  relaypad: {
+    format: 'bold',
+    ids: [
+      'intro',
+      'use-cases',
+      'virtual-gamepad',
+      'console-streaming',
+      'remote-play-away',
+      'connection-doctor',
+      'guided-setup',
+      'pricing',
+      'privacy',
+      'before-you-buy',
+      'support',
+      'trademark',
+    ],
+  },
+  'gamepad-pro': {
+    format: 'emoji',
+    introParagraphs: 3,
+    ids: [
+      'intro',
+      'drag-map-play',
+      'mapping',
+      'multi-button',
+      'profiles',
+      'phases',
+      'phase-switch',
+      'combos',
+      'macros',
+      'turbo',
+      'vibration',
+      'any-game',
+      'no-root',
+      'controllers',
+      'get-started',
+      'permissions',
+      'keyboard',
+      'compatibility',
+      'help',
+    ],
+  },
 };
 
-function parseFullDescription(text, ids) {
+const BULLET = /^[•\-*·]\s*/;
+const NUMBERED = /^\d+[.)]\s+/;
+/** One emoji: a pictograph with optional variation selector / skin tone / ZWJ sequence. */
+const EMOJI = '(?:\\p{Extended_Pictographic}|\\p{Emoji_Modifier}|\\uFE0F|\\u200D|\\u20E3)';
+const LEADING_EMOJI = new RegExp(`^(?:${EMOJI})+\\s*`, 'u');
+const TRAILING_EMOJI = new RegExp(`\\s*(?:${EMOJI})+$`, 'u');
+const STARTS_WITH_EMOJI = /^\p{Extended_Pictographic}/u;
+
+const stripEmoji = (s) => s.replace(LEADING_EMOJI, '').replace(TRAILING_EMOJI, '').trim();
+
+/** Words whose spelling must survive the sentence-case conversion. Matched case-insensitively. */
+const KEEP = ['Gamepad Pro', 'Android', 'Shizuku', 'ADB', 'L2/R2', 'D-pad', 'USB', 'MOBA', 'MMORPG', 'RPG'];
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&');
+const KEEP_RE = new RegExp(`(?<![\\p{L}\\p{N}])(?:${KEEP.map(escapeRe).join('|')})(?![\\p{L}\\p{N}])`, 'giu');
+const canonical = (m) => KEEP.find((k) => k.toLowerCase() === m.toLowerCase()) ?? m;
+
+/**
+ * Store headings are written in capitals ("DRAG. MAP. PLAY."). Convert a heading to sentence case,
+ * but only when every cased letter outside the protected words (and "root", which some locales keep
+ * lowercase inside a capitalised line) is upper case. German is left as written: lower-casing it
+ * would also lower-case its nouns.
+ */
+function sentenceCase(title, lang) {
+  if (lang === 'de') return title;
+  const rest = title.replace(KEEP_RE, '').replace(/\broot\b/g, '');
+  if (!/\p{Lu}/u.test(rest) || /\p{Ll}/u.test(rest)) return title;
+  let out = title.toLocaleLowerCase(lang);
+  // Capitalise the first letter of the line and of each sentence ("Drag. Map. Play.").
+  out = out.replace(/(^|[.!?]\s+)([^\p{L}]*)(\p{L})/gu, (_, a, b, c) => a + b + c.toLocaleUpperCase(lang));
+  return out.replace(KEEP_RE, canonical);
+}
+
+function parseBold(text, ids) {
   const lines = text.replace(/\r/g, '').split('\n');
   let requires;
   const sections = [];
@@ -42,31 +107,60 @@ function parseFullDescription(text, ids) {
       requires = requires ? `${requires} ${line}` : line;
       continue;
     }
-    if (/^[•\-*·]\s*/.test(line)) current.bullets.push(line.replace(/^[•\-*·]\s*/, ''));
+    if (BULLET.test(line)) current.bullets.push(line.replace(BULLET, ''));
     else if (/^Source code/i.test(line) || /codeberg\.org/.test(line)) continue; // the hero already links the source
     else current.paragraphs.push(line.replace(/<\/?[^>]+>/g, ''));
   }
   return { requires, sections };
 }
 
+function parseEmoji(text, ids, cfg, title, lang) {
+  const lines = text
+    .replace(/\r/g, '')
+    .split('\n')
+    .map((l) => l.trim())
+    .filter(Boolean);
+  const intro = { id: ids[0], title, paragraphs: [], bullets: [] };
+  const sections = [intro];
+  let current = intro;
+  for (const line of lines) {
+    if (intro.paragraphs.length < cfg.introParagraphs && current === intro) {
+      intro.paragraphs.push(stripEmoji(line));
+      continue;
+    }
+    if (STARTS_WITH_EMOJI.test(line)) {
+      const heading = sentenceCase(stripEmoji(line).replace(/\s*[:：]$/, ''), lang);
+      current = { id: ids[sections.length] ?? `section-${sections.length + 1}`, title: heading, paragraphs: [], bullets: [] };
+      sections.push(current);
+      continue;
+    }
+    if (BULLET.test(line)) current.bullets.push(line.replace(BULLET, ''));
+    else if (NUMBERED.test(line)) current.bullets.push(line.replace(NUMBERED, ''));
+    else current.paragraphs.push(stripEmoji(line));
+  }
+  return { requires: undefined, sections };
+}
+
 const products = localProducts();
 for (const [slug, root] of Object.entries(products)) {
-  const ids = SECTION_IDS[slug];
-  if (!ids) {
-    console.warn(`[store-copy] no SECTION_IDS for ${slug}, skipping`);
+  const cfg = CONFIG[slug];
+  if (!cfg) {
+    console.warn(`[store-copy] no CONFIG for ${slug}, skipping`);
     continue;
   }
+  const { ids } = cfg;
   const base = join(root, 'fastlane/metadata/android');
   let written = 0;
   for (const locale of LOCALES) {
-    const dir = join(base, locale.fastlane);
+    const dir = join(base, fastlaneLocale(slug, locale));
     if (!existsSync(join(dir, 'full_description.txt'))) {
-      console.warn(`[store-copy] ${slug}/${locale.slug}: no fastlane folder ${locale.fastlane}`);
+      console.warn(`[store-copy] ${slug}/${locale.slug}: no fastlane folder ${fastlaneLocale(slug, locale)}`);
       continue;
     }
     const title = readFileSync(join(dir, 'title.txt'), 'utf8').trim();
     const shortDescription = readFileSync(join(dir, 'short_description.txt'), 'utf8').trim();
-    const { requires, sections } = parseFullDescription(readFileSync(join(dir, 'full_description.txt'), 'utf8'), ids);
+    const full = readFileSync(join(dir, 'full_description.txt'), 'utf8');
+    const { requires, sections } = cfg.format === 'emoji' ? parseEmoji(full, ids, cfg, title, locale.lang) : parseBold(full, ids);
     if (sections.length !== ids.length) {
       console.error(`[store-copy] ${slug}/${locale.slug}: expected ${ids.length} sections, found ${sections.length}`);
       process.exitCode = 1;

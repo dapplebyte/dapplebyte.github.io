@@ -10,7 +10,7 @@ import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../
 export const getStaticPaths = productLangPaths;
 
 const { locale, slug, alternates } = Astro.props;
-const { t } = useT(locale);
+const { t, tp } = useT(locale);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
 const copy = await getCopy(slug, locale);
@@ -18,7 +18,7 @@ const latest = product.versions.at(-1);
 const path = `/${slug}/press/`;
 const url = new URL(localePath(locale, path), SITE).href;
 const title = t('press.title', { name: product.name });
-const description = t('press.description', { name: product.name });
+const description = tp(slug, 'press.description', { name: product.name });
 const email = t('site.email');
 const facts: [string, string | undefined, string?][] = [
   [t('press.facts.name'), product.name],
@@ -26,9 +26,10 @@ const facts: [string, string | undefined, string?][] = [
   [t('press.facts.platform'), product.minOs ? `${product.platform}, ${t('facts.minOs', { version: product.minOs })}` : product.platform],
   [t('press.facts.firstReleased'), product.firstReleased ? formatDate(locale, product.firstReleased, loc.lang) : undefined],
   [t('press.facts.currentVersion'), latest ? `${latest.name}${latest.date ? ` (${formatDate(locale, latest.date, loc.lang)})` : ''}` : undefined],
-  [t('press.facts.price'), t('press.facts.priceValue')],
+  [t('press.facts.price'), tp(slug, 'press.priceValue')],
   [t('press.facts.languages'), product.languages ? String(product.languages) : undefined],
-  [t('press.facts.license'), product.sourceLicense],
+  // License and source rows only exist for apps whose source is published.
+  [t('press.facts.license'), product.sourceUrl ? product.sourceLicense : undefined],
   [t('press.facts.website'), `dapplebyte.com/${slug}/`, new URL(`/${slug}/`, SITE).href],
   [t('press.facts.store'), product.playUrl?.replace('https://', ''), product.playUrl],
   [t('press.facts.source'), product.sourceUrl?.replace('https://', ''), product.sourceUrl],
@@ -60,7 +61,7 @@ const jsonLd = graph(
       <h2 class="h-sub" style="margin-bottom:12px">{t('press.oneLineHeading')}</h2>
       <p class="quote">{copy.tagline}</p>
       <h2 class="h-sub" style="margin:28px 0 12px">{t('press.boilerplateHeading')}</h2>
-      <p class="quote">{t('press.boilerplate', { name: product.name })}</p>
+      <p class="quote">{tp(slug, 'press.boilerplate', { name: product.name })}</p>
       <h2 class="h-sub" style="margin:28px 0 12px">{t('press.contactHeading')}</h2>
       <p>{t('press.contactBody', { email: '' }).replace('. ', '')}<a href={`mailto:${email}`}>{email}</a>. {t('press.contactBody', { email }).split('. ').slice(1).join('. ')}</p>
     </div>
@@ -80,7 +81,7 @@ const jsonLd = graph(
       <li><a href={`/${slug}/press/icon.png`} download>{t('press.assetIcon')}</a></li>
       <li><a href={`/${slug}/press/feature-graphic.png`} download>{t('press.assetFeature')}</a></li>
       <li>
-        {t('press.assetScreenshots')}:
+        {tp(slug, 'press.assetScreenshots')}:
         {shots.map((i) => <a href={`/${slug}/press/screenshot-${String(i).padStart(2, '0')}.png`} download>{t('press.screenshotN', { index: i })}</a>)}
       </li>
       <li><a href="/favicon.svg" download>{t('press.assetStudioMark')}</a></li>

@@ -1,1 +1,4 @@
-{ "relaypad": "/path/to/the/relaypad/android/project" }
+{
+  "relaypad": "/path/to/the/relaypad/android/project",
+  "gamepad-pro": { "root": "/path/to/the/gamepad-pro/android/project", "screenshots": "store/export/site" }
+}

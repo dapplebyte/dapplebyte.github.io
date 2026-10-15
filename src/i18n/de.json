@@ -14,8 +14,6 @@
     "home": "Startseite"
   },
   "footer": {
-    "studio": "Studio",
-    "contact": "Kontakt",
     "languages": "Sprachen",
     "privacy": "Datenschutz der Website",
     "copyright": "© {year} DappleByte",
@@ -28,12 +26,9 @@
     "learnMore": "Mehr erfahren"
   },
   "labels": {
-    "apps": "Apps",
     "nextApp": "Nächste App",
     "nextAppBody": "In Arbeit. Sie erscheint hier, sobald sie veröffentlicht ist.",
     "lastUpdated": "Zuletzt aktualisiert am {date}",
-    "android": "Android",
-    "by": "von DappleByte",
     "overview": "Überblick",
     "features": "Funktionen",
     "faq": "FAQ",
@@ -42,39 +37,48 @@
     "support": "Support",
     "privacy": "Datenschutz",
     "changelog": "Versionshinweise",
-    "press": "Pressekit",
-    "sourceCode": "Quellcode",
-    "googlePlay": "Google Play"
+    "press": "Pressekit"
   },
   "facts": {
     "minOs": "{version} oder neuer",
-    "consoles": "PS5 · PS4",
     "languages": "{count} Sprachen",
     "source": "Quellcode unter {license}",
     "version": "Version {version}"
   },
   "home": {
     "title": "DappleByte · Unabhängige Android-Apps",
-    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps, darunter Relaypad: Controller und Konsolen-Streaming per Remote Play für PS5 und PS4.",
+    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht, und Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4.",
     "appsHeading": "Apps",
     "principlesHeading": "So arbeiten wir",
     "principles": [
-      { "title": "Keine Werbung, keine Abos", "body": "Ein Preis oder gar keiner. Niemand mietet sich Ihre Aufmerksamkeit." },
-      { "title": "Kein Server dazwischen", "body": "Unsere Apps sprechen direkt mit Ihrer eigenen Hardware. Ihre Daten sehen wir nie." },
-      { "title": "Quellcode veröffentlicht", "body": "Jede Version landet in einem öffentlichen Repository unter AGPL-3.0." },
-      { "title": "Wir beantworten jede E-Mail", "body": "Schreiben Sie an {email}. Ein Mensch liest sie." }
+      {
+        "title": "Einmal zahlen oder gar nicht",
+        "body": "Wenn eine App Geld kostet, ist es ein Einmalkauf. Nichts verlängert sich."
+      },
+      {
+        "title": "Kein Konto bei uns",
+        "body": "Keine Registrierung. Die App funktioniert, sobald sie installiert ist."
+      },
+      {
+        "title": "Berechtigungen erklärt, bevor Sie sie erteilen",
+        "body": "Jede App sagt, wofür eine Berechtigung da ist und was sie damit nie tut, in der App und in einer Datenschutzerklärung, die zum Code passt."
+      },
+      {
+        "title": "Wir beantworten jede E-Mail",
+        "body": "Schreiben Sie an {email}. Ein Mensch liest sie."
+      }
     ],
     "contactHeading": "Kontakt",
     "contactBody": "Studio, Presse und Partnerschaften: {email}. Jede App hat auf ihrer Support-Seite eine eigene Support-Adresse."
   },
   "about": {
     "title": "Über DappleByte",
-    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: keine Werbung, keine Abos, kein Server zwischen Ihnen und Ihrer Hardware, Quellcode unter AGPL-3.0 veröffentlicht.",
+    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps. Ein Entwickler, wenige Apps, keine Abos, keine Konten und ein Mensch, der jede E-Mail beantwortet.",
     "whatHeading": "Was DappleByte ist",
     "whatBody": "DappleByte ist ein unabhängiges Studio, das Android-Apps entwickelt. Ein Entwickler, wenige Apps, und jede soll eine bestimmte Aufgabe gut erledigen und sich ansonsten zurückhalten.",
     "howHeading": "So arbeiten wir",
-    "openSourceHeading": "Open Source",
-    "openSourceBody": "Jede Version jeder App wird als Quellcode unter der AGPL-3.0 veröffentlicht. Den Link zum Repository finden Sie auf der Seite der jeweiligen App. Sie können genau nachlesen, was die App tut, sie selbst bauen oder prüfen, ob die Datenschutzerklärung zum Code passt.",
+    "openSourceHeading": "Quellcode",
+    "openSourceBody": "Wenn der Quellcode einer App veröffentlicht ist, steht der Link auf der Seite der App und in ihrem Pressekit. Relaypad ist unter der AGPL-3.0 veröffentlicht.",
     "contactHeading": "Kontakt",
     "contactBody": "Studio, Presse und Partnerschaften: {email}. Support zu einer bestimmten App läuft über die Adresse auf deren Support-Seite, damit Ihre Nachricht mit dem richtigen Kontext im richtigen Postfach landet.",
     "trademarksHeading": "Marken",
@@ -90,32 +94,28 @@
     "faqHeading": "Häufige Fragen",
     "faqAll": "Alle Fragen",
     "getHeading": "{name} herunterladen",
-    "getBody": "Erhältlich bei Google Play für Android. Der Quellcode ist unter {license} veröffentlicht.",
+    "getBody": "Erhältlich bei Google Play für Android.",
+    "getBodySource": "Der Quellcode ist unter {license} veröffentlicht.",
     "requiresLabel": "Voraussetzung",
     "videoHeading": "So sieht es in Aktion aus",
-    "allVideos": "Alle Videos",
-    "moreHeading": "Mehr über {name}"
+    "allVideos": "Alle Videos"
   },
   "features": {
     "title": "{feature} · {name}",
     "indexHeading": "Funktionen",
     "relatedFaq": "Passende Fragen",
     "backToProduct": "Zurück zu {name}",
-    "allFeatures": "Alle Funktionen von {name}",
-    "inShort": "Kurz gesagt"
+    "allFeatures": "Alle Funktionen von {name}"
   },
   "faq": {
     "title": "FAQ zu {name}",
     "sectionTitle": "{section} · FAQ zu {name}",
-    "description": "Antworten zu {name}: Spielweisen, Verbindung, Anmeldung, Streaming-Qualität, Controller, Kauf und Rückerstattungen.",
     "sectionDescription": "FAQ zu {name}, {section}: {count} Fragen mit ausführlichen Antworten.",
     "intro": "Dieselben Antworten finden Sie in der App unter Einstellungen → FAQ. Jeder Abschnitt ist eine eigene Seite, und jede Frage hat ihren eigenen Link.",
+    "englishOnly": "Diese FAQ erscheint auf Englisch, bis die Übersetzung fertig ist.",
     "questionsCount": "{count} Fragen",
     "notFoundHeading": "Keine Antwort gefunden?",
-    "notFoundBody": "Schreiben Sie uns, welches Telefon und welche Konsole Sie nutzen und was passiert ist. Jede Nachricht liest ein Mensch.",
     "notFoundCta": "Zum Support",
-    "prev": "Zurück",
-    "next": "Weiter",
     "allSections": "Alle Abschnitte",
     "linkToQuestion": "Link zu dieser Frage"
   },
@@ -123,11 +123,6 @@
     "title": "Support für {name}",
     "description": "Hilfe zu {name}: was Sie zuerst prüfen sollten, wie Sie uns erreichen, was in die Nachricht gehört und wie Rückerstattungen funktionieren.",
     "beforeHeading": "Bevor Sie schreiben",
-    "beforeItems": [
-      "Öffnen Sie die FAQ. Die meisten Fragen zu Verbindung, Anmeldung und Bild sind dort beantwortet, im selben Wortlaut wie in der App.",
-      "Wenn die App keine Verbindung herstellt, starten Sie die Verbindungsdiagnose in den Einstellungen. Sie prüft Ihr Netzwerk, die Konsole und Remote Play und kann uns den Bericht mit einem Tippen per E-Mail schicken.",
-      "Die Konsole muss eingeschaltet oder im Ruhemodus sein, und Remote Play muss in ihren Einstellungen aktiviert sein."
-    ],
     "writeHeading": "Schreiben Sie uns",
     "writeBody": "Der Button öffnet Ihre Mail-App mit bereits ausgefülltem Betreff. Falls sich nichts öffnet, kopieren Sie die Adresse und die Checkliste unten in eine beliebige E-Mail.",
     "writeButton": "E-Mail an {email}",
@@ -135,23 +130,13 @@
     "copied": "Kopiert",
     "subject": "[{name}] ",
     "templateHeading": "Was in die Nachricht gehört",
-    "template": {
-      "phone": "Telefonmodell:",
-      "android": "Android-Version:",
-      "console": "Konsole: PS5 / PS4",
-      "where": "Zu Hause oder unterwegs:",
-      "what": "Was ist passiert, Schritt für Schritt:",
-      "doctor": "Falls Sie die Verbindungsdiagnose ausgeführt haben, fügen Sie den Bericht hier ein."
-    },
     "refundHeading": "Rückerstattungen",
-    "refundBody": "Wenn {name} mit Ihrem Setup nicht funktioniert, schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf, und wir erstatten den Betrag. Erzählen Sie uns, was Sie versucht haben; das hilft uns, das Problem für die Nächsten zu beheben.",
     "replyHeading": "Wann Sie von uns hören",
     "replyBody": "Meist innerhalb von zwei Werktagen. Jede Nachricht liest ein Mensch, und jede bekommt eine Antwort.",
     "faqLink": "Zuerst die FAQ lesen"
   },
   "privacy": {
     "title": "Datenschutzerklärung für {name}",
-    "description": "Was {name} für Android mit Ihren Daten macht: kein Konto, kein eigener Server, was auf dem Gerät bleibt und womit sich die App verbindet.",
     "effective": "Gültig ab {date}",
     "appliesTo": "Gilt für {name} für Android ({appId}), vertrieben über Google Play.",
     "governing": "Diese Erklärung wird auf Englisch veröffentlicht. Übersetzungen dienen, sofern vorhanden, nur der Orientierung; maßgeblich ist der englische Text.",
@@ -173,16 +158,19 @@
   },
   "videos": {
     "title": "Videos zu {name}",
-    "description": "Kurze Videos, die {name} auf einem echten Telefon zeigen: Einrichtung, Streaming, Controller-Layouts und Lösungen für Verbindungsprobleme.",
     "emptyHeading": "Videos folgen bald",
     "emptyBody": "Wir nehmen zu jeder Funktion eine Anleitung auf. Bis dahin decken die Funktionsseiten und die FAQ dieselben Themen ab.",
-    "kinds": { "promo": "Überblick", "tutorial": "Anleitung", "troubleshooting": "Problemlösung" },
+    "kinds": {
+      "promo": "Überblick",
+      "tutorial": "Anleitung",
+      "troubleshooting": "Problemlösung"
+    },
     "watchOn": "Auf YouTube ansehen",
-    "play": "Video abspielen"
+    "play": "Video abspielen",
+    "playlist": "Playlist auf YouTube ansehen"
   },
   "compare": {
     "title": "{name} im Vergleich",
-    "description": "{name} im Vergleich mit PS Remote Play, PXPlay und Chiaki auf Android: Funktion für Funktion, nur Fakten.",
     "intro": "Nur Fakten, geprüft anhand des Store-Eintrags oder der Website der jeweiligen App. Jede App ist auf dem Stand des unten genannten Datums beschrieben; neuere Versionen können abweichen. Hier wird keine App bewertet, und wir behaupten nicht, dass eine insgesamt besser ist.",
     "verified": "Geprüft am {date}",
     "notVerified": "Die anderen Spalten sind noch nicht geprüft, deshalb erscheint diese Seite nicht in Suchmaschinen.",
@@ -196,6 +184,12 @@
       "tv-output": "TV-Ausgabe über HDMI",
       "connection-doctor": "Integrierte Verbindungsdiagnose",
       "open-source": "Open Source",
+      "no-root": "Funktioniert ohne root",
+      "stick-trigger-mapping": "Belegung von Analogsticks und L2/R2-Triggern",
+      "phases": "Mehrere Layouts pro Spiel, im Spiel umschaltbar",
+      "macros": "Makros",
+      "turbo": "Turbo (automatische Wiederholung)",
+      "combos": "Tastenkombinationen",
       "pricing-model": "Preismodell"
     },
     "values": {
@@ -205,11 +199,10 @@
       "unknown": "Nicht geprüft",
       "one-time": "Einmalkauf",
       "free": "Kostenlos",
-      "subscription": "Abo"
+      "subscription": "Abo",
+      "free-with-pro": "Kostenlos, Pro als Einmalkauf"
     },
     "vsTitle": "{name} vs. {other}",
-    "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Remote Play unterwegs, HEVC und HDR, Controller, TV-Ausgabe, Open Source und Preis.",
-    "vsIntro": "Beide verbinden ein Android-Gerät mit einer PS5 oder PS4. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion.",
     "fullComparison": "Zum vollständigen Vergleich"
   },
   "changelog": {
@@ -221,7 +214,6 @@
   },
   "press": {
     "title": "Pressekit zu {name}",
-    "description": "Fakten, Material und ein Standardtext für Berichte über {name}, die Android-App für Controller und Konsolen-Streaming per Remote Play.",
     "intro": "Alles auf dieser Seite darf ohne Rückfrage in Artikeln, Videos und App-Verzeichnissen verwendet werden. Wenn Sie etwas anderes brauchen, schreiben Sie uns.",
     "factsHeading": "Datenblatt",
     "facts": {
@@ -231,7 +223,6 @@
       "firstReleased": "Erstveröffentlichung",
       "currentVersion": "Aktuelle Version",
       "price": "Preis",
-      "priceValue": "Kostenpflichtige App, Einmalkauf, kein Abo, keine Werbung. Den aktuellen Preis finden Sie bei Google Play.",
       "languages": "Sprachen",
       "license": "Lizenz",
       "website": "Website",
@@ -241,11 +232,9 @@
     },
     "oneLineHeading": "In einem Satz",
     "boilerplateHeading": "Standardtext",
-    "boilerplate": "{name} macht ein Android-Telefon zum kabellosen Controller für eine PS5 oder PS4 oder streamt das Bild der Konsole auf das Telefon, ein Tablet oder einen Fernseher, zu Hause oder unterwegs über mobile Daten. Die App stammt von DappleByte, einem unabhängigen Studio, und ist als Open Source unter der AGPL-3.0 veröffentlicht.",
     "assetsHeading": "Material",
     "assetIcon": "App-Symbol, PNG, 512 px",
     "assetFeature": "Feature-Grafik, PNG, 1024 × 500",
-    "assetScreenshots": "Screenshots, PNG, 1920 × 1080, Englisch",
     "assetStudioMark": "DappleByte-Bildmarke, SVG",
     "screenshotN": "Screenshot {index}",
     "contactHeading": "Pressekontakt",
@@ -258,5 +247,137 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 und PS4 sind Marken von Sony Interactive Entertainment Inc. {name} steht in keiner Verbindung zu Sony und wird von Sony weder unterstützt noch gebilligt."
+  },
+  "videoItems": {
+    "gamepad-pro": {
+      "a01-tutorial": {
+        "title": "Tastenbelegung erstellen, Schritt für Schritt",
+        "description": "Spiel wählen, Taste hinzufügen, die gewünschte Controller-Taste drücken, an die richtige Stelle auf dem Bildschirm ziehen, speichern und losspielen."
+      },
+      "a01-ad": {
+        "title": "Reine Touch-Spiele mit dem Controller spielen",
+        "description": "Ein kurzer Blick darauf, wie Gamepad Pro Tasten, Sticks und Trigger eines Controllers in einem reinen Touch-Spiel zur Touch-Steuerung macht."
+      },
+      "a02-ad": {
+        "title": "Eine Taste. Fünf verschiedene Aktionen",
+        "description": "Eine Controller-Taste kann ein Tipp, ein Halten, ein Wischen, Turbo oder ein Makro sein, das mehrere Stellen nacheinander antippt. Das Video zeigt, wie Sie das im Editor auswählen."
+      },
+      "t01": {
+        "title": "Analogsticks und L2/R2 belegen",
+        "description": "Beide Sticks und beide Trigger sind in jedem neuen Layout schon dabei: an die richtige Stelle ziehen, dann antippen, Kamera-Wischen oder Bewegungsfeld wählen und die Empfindlichkeit einstellen."
+      },
+      "t02": {
+        "title": "Taste an der falschen Stelle? Direkt im Spiel korrigieren",
+        "description": "Tippen Sie im Spiel auf das schwebende Steuerelement, um Ihr Layout darüber einzublenden, ziehen Sie die Taste an die richtige Stelle und übernehmen Sie die Änderung, ohne das Spiel zu verlassen."
+      },
+      "p01": {
+        "title": "Es reagiert immer nur eine Taste?",
+        "description": "Wenn eine zweite Berührung verloren geht, aktualisieren Sie zuerst auf die neueste Version und folgen Sie dann den Schritten unter Einstellungen › Erweiterte Multi-Touch-Steuerung."
+      },
+      "p02": {
+        "title": "Controller wird nicht erkannt?",
+        "description": "Prüfen Sie die Bluetooth- oder USB-Verbindung und die Kopplung in den Android-Einstellungen, verbinden Sie den Controller neu und achten Sie darauf, dass er im richtigen Modus ist."
+      },
+      "p03": {
+        "title": "Tasten gehen, aber die Sticks tun nichts?",
+        "description": "Warum Analogsticks und Trigger auf manchen Android-Versionen die Gamepad Pro-Tastatur brauchen und wie Sie die Tastatur aktivieren, damit sich Sticks und Trigger belegen lassen."
+      },
+      "p04": {
+        "title": "Belegung lief erst und dann plötzlich nicht mehr?",
+        "description": "Android kann Apps im Hintergrund schließen, um Strom zu sparen. Wenn Sie die Batterieoptimierung für Gamepad Pro deaktivieren, läuft Ihre Belegung weiter."
+      },
+      "p05": {
+        "title": "Warum braucht die App die Bedienungshilfen?",
+        "description": "Wofür der Bedienungshilfendienst da ist: Er macht aus Ihren Tastendrücken Tippen und Wischen, ohne zu lesen oder hochzuladen, was auf Ihrem Bildschirm zu sehen ist."
+      },
+      "p06": {
+        "title": "Bildschirm reagiert nicht mehr auf Berührungen?",
+        "description": "So pausieren Sie alle Belegungen auf einmal: über den Schalter auf der Startseite der App oder über die Schnelleinstellungen, wenn Sie nicht mehr in die App zurückkommen."
+      },
+      "p07": {
+        "title": "Tastatur hat übernommen – wie tippe ich jetzt?",
+        "description": "Tippen Sie auf das Globus-Symbol, um zu Ihrer eigenen Tastatur zurückzuwechseln, oder aktivieren Sie den automatischen Wechsel, damit Gamepad Pro seine Tastatur nur verwendet, solange die Belegung aktiv ist."
+      }
+    }
+  },
+  "products": {
+    "gamepad-pro": {
+      "kicker": "Controller-Mapper · Ohne root",
+      "heroPoints": [
+        "Tasten, Sticks und L2/R2-Trigger werden zu Tippen, Halten und Wischen",
+        "Ein Layout für jedes Spiel und Phasen für die einzelnen Abschnitte",
+        "Makros, Turbo und Tastenkombinationen. Ohne root, ohne Klonen"
+      ],
+      "faqDescription": "Antworten zu Gamepad Pro: Einrichtung und Berechtigungen, Tastenbelegung erstellen, Sticks und Trigger, Controller, Pro und Backups.",
+      "faqNotFoundBody": "Schreiben Sie uns, welches Telefon, welchen Controller und welches Spiel Sie nutzen und was passiert ist. Jede Nachricht liest ein Mensch.",
+      "support": {
+        "beforeItems": [
+          "Öffnen Sie die FAQ. Die meisten Fragen zu Einrichtung, Berechtigungen und Belegung sind dort beantwortet, im selben Wortlaut wie in der App.",
+          "Prüfen Sie, ob der Bedienungshilfendienst aktiv und die Belegung nicht pausiert ist. Hat es vorher funktioniert und dann aufgehört, liegt es meist an der Batterieoptimierung; die Schritte stehen in der FAQ.",
+          "Notieren Sie, um welches Spiel und welchen Controller es geht und was auf dem Bildschirm passiert, wenn Sie eine Taste drücken. Genau das brauchen wir, um das Problem nachzustellen."
+        ],
+        "template": {
+          "phone": "Telefonmodell:",
+          "android": "Android-Version:",
+          "controller": "Controller (Modell, USB oder Bluetooth):",
+          "game": "Spiel oder App:",
+          "what": "Was ist passiert, Schritt für Schritt:",
+          "pro": "Pro gekauft: ja / nein"
+        },
+        "refundBody": "Gamepad Pro ist kostenlos installierbar. Wenn Sie Pro gekauft haben und es mit Ihrem Setup nicht funktioniert, schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf, und wir erstatten den Betrag. Erzählen Sie uns, was Sie versucht haben; das hilft uns, das Problem für die Nächsten zu beheben."
+      },
+      "press": {
+        "description": "Fakten, Material und ein Standardtext für Berichte über Gamepad Pro, die Android-App zur Tastenbelegung für Controller.",
+        "boilerplate": "Gamepad Pro macht den Controller, den Sie schon haben, zur Touch-Steuerung für Android-Spiele ohne Gamepad-Unterstützung: Tasten, Sticks und Trigger werden zu Tippen, Halten und Wischen, mit einem Layout pro Spiel, Phasen, Makros, Turbo und Tastenkombinationen. Root-Rechte sind nicht nötig. Die App stammt von DappleByte, einem unabhängigen Studio.",
+        "priceValue": "Kostenlos installierbar, mit Werbung. Ein einmaliger Pro-Kauf entfernt die Werbung und schaltet alle Pro-Funktionen frei; ein Abo gibt es nicht. Den aktuellen Preis finden Sie bei Google Play.",
+        "assetScreenshots": "Telefon-Screenshots, PNG, Englisch (Hochformat 1080 × 1920; der Editor-Screenshot ist im Querformat)"
+      },
+      "videosDescription": "Kurze Videos, die Gamepad Pro auf einem echten Telefon zeigen: Tastenbelegung erstellen, Sticks und Trigger, ein Layout mitten im Spiel korrigieren und die häufigsten Probleme.",
+      "privacyDescription": "Was Gamepad Pro für Android mit Ihren Daten macht: kein Konto, wofür der Bedienungshilfendienst genutzt wird, was die Analyse- und Werbe-SDKs erfassen und wie Sie die optionale Erfassung abschalten.",
+      "compare": {
+        "description": "Gamepad Pro im Vergleich mit anderen Controller-Mappern für Android: Funktion für Funktion, nur Fakten.",
+        "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Root, Sticks und Trigger, Layouts pro Spiel, Makros, Turbo und Preis.",
+        "vsIntro": "Beide machen einen Controller zur Steuerung für Touch-Spiele auf Android. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
+      }
+    },
+    "relaypad": {
+      "kicker": "PS5 · PS4",
+      "heroPoints": [
+        "Weiterspielen, wenn der Controller-Akku gerade leer ist",
+        "Konsolenmenüs und Video-Apps mit großen Fernbedienungstasten bedienen",
+        "Im Bett oder Nebenzimmer spielen, die Konsole bleibt am Fernseher"
+      ],
+      "faqDescription": "Antworten zu {name}: Spielweisen, Verbindung, Anmeldung, Streaming-Qualität, Controller, Kauf und Rückerstattungen.",
+      "faqNotFoundBody": "Schreiben Sie uns, welches Telefon und welche Konsole Sie nutzen und was passiert ist. Jede Nachricht liest ein Mensch.",
+      "support": {
+        "beforeItems": [
+          "Öffnen Sie die FAQ. Die meisten Fragen zu Verbindung, Anmeldung und Bild sind dort beantwortet, im selben Wortlaut wie in der App.",
+          "Wenn die App keine Verbindung herstellt, starten Sie die Verbindungsdiagnose in den Einstellungen. Sie prüft Ihr Netzwerk, die Konsole und Remote Play und kann uns den Bericht mit einem Tippen per E-Mail schicken.",
+          "Die Konsole muss eingeschaltet oder im Ruhemodus sein, und Remote Play muss in ihren Einstellungen aktiviert sein."
+        ],
+        "template": {
+          "phone": "Telefonmodell:",
+          "android": "Android-Version:",
+          "console": "Konsole: PS5 / PS4",
+          "where": "Zu Hause oder unterwegs:",
+          "what": "Was ist passiert, Schritt für Schritt:",
+          "doctor": "Falls Sie die Verbindungsdiagnose ausgeführt haben, fügen Sie den Bericht hier ein."
+        },
+        "refundBody": "Wenn {name} mit Ihrem Setup nicht funktioniert, schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf, und wir erstatten den Betrag. Erzählen Sie uns, was Sie versucht haben; das hilft uns, das Problem für die Nächsten zu beheben."
+      },
+      "press": {
+        "description": "Fakten, Material und ein Standardtext für Berichte über {name}, die Android-App für Controller und Konsolen-Streaming per Remote Play.",
+        "boilerplate": "{name} macht ein Android-Telefon zum kabellosen Controller für eine PS5 oder PS4 oder streamt das Bild der Konsole auf das Telefon, ein Tablet oder einen Fernseher, zu Hause oder unterwegs über mobile Daten. Die App stammt von DappleByte, einem unabhängigen Studio, und ist als Open Source unter der AGPL-3.0 veröffentlicht.",
+        "priceValue": "Kostenpflichtige App, Einmalkauf, kein Abo, keine Werbung. Den aktuellen Preis finden Sie bei Google Play.",
+        "assetScreenshots": "Screenshots, PNG, 1920 × 1080, Englisch"
+      },
+      "videosDescription": "Kurze Videos, die {name} auf einem echten Telefon zeigen: Einrichtung, Streaming, Controller-Layouts und Lösungen für Verbindungsprobleme.",
+      "privacyDescription": "Was {name} für Android mit Ihren Daten macht: kein Konto, kein eigener Server, was auf dem Gerät bleibt und womit sich die App verbindet.",
+      "compare": {
+        "description": "{name} im Vergleich mit PS Remote Play, PXPlay und Chiaki auf Android: Funktion für Funktion, nur Fakten.",
+        "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Remote Play unterwegs, HEVC und HDR, Controller, TV-Ausgabe, Open Source und Preis.",
+        "vsIntro": "Beide verbinden ein Android-Gerät mit einer PS5 oder PS4. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
+      }
+    }
   }
 }

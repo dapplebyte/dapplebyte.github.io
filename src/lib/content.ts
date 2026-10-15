@@ -49,3 +49,30 @@ export function faqEntryById(faq: Faq, id: string) {
 export function copySection(copy: ProductCopy, id: string) {
   return copy.sections.find((s) => s.id === id);
 }
+
+/**
+ * The FAQ in `locale`, or the English one when the app has no translation for it.
+ * `fallback` is true when the English text is shown on a page in another language.
+ */
+export async function getFaqOrEnglish(slug: string, locale: string): Promise<{ faq: Faq; fallback: boolean } | undefined> {
+  const own = await getFaq(slug, locale);
+  if (own) return { faq: own, fallback: false };
+  const en = await getFaq(slug, DEFAULT_LOCALE);
+  return en ? { faq: en, fallback: locale !== DEFAULT_LOCALE } : undefined;
+}
+
+/** features.json `sectionId`s of a product, in order. */
+export async function featureSectionIds(slug: string): Promise<string[]> {
+  return ((await getEntry('features', slug))?.data.items ?? []).map((f) => f.sectionId);
+}
+
+/** "PT1M8S" / "PT68S" → "1:08". */
+export function formatDuration(iso: string): string {
+  const m = iso.match(/^PT(?:(\d+)M)?(?:(\d+)S)?$/);
+  if (!m) return iso;
+  const total = Number(m[1] ?? 0) * 60 + Number(m[2] ?? 0);
+  return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, '0')}`;
+}
+
+/** compare.json cell values that are translated (`compare.values.<v>`); anything else is shown as written. */
+export const COMPARE_VALUES = ['yes', 'no', 'partial', 'unknown', 'one-time', 'free', 'free-with-pro', 'subscription'];

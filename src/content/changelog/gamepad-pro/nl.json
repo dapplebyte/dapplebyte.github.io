@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "nl",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 en hoger: de installatie is nu één stap. Sticks en triggers van je controller werken zonder het Gamepad Pro-toetsenbord.",
+        "Gamepad Pro-toetsenbord niet meer nodig? Een eenmalige tip laat zien hoe je het uitzet, zodat je gewone toetsenbord blijft staan.",
+        "Opgelost: crash bij het inschakelen van de service in liggende stand.",
+        "Verbeterde stabiliteit."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "Nieuwe instelling: 'Triggergevoeligheid (LT/RT)'.",
+        "Nieuwe instelling: 'Niet-toegewezen bediening doorgeven aan games', handig voor cloudgaming.",
+        "'Standaard toewijzingsopties' staan weer in Instellingen.",
+        "Rechterstick werkt nu op meer controllers van derden.",
+        "Opgelost: ingedrukte LT/RT, tegelijk ingedrukte knoppen en vastlopende aanrakingen bij veel knoppen.",
+        "Opgelost: stylus als controller herkend, zwevende knop kwam niet terug, af en toe vastlopen."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Opgelost: de toewijzingsservice crashte in een game en alle knoppen deden niets meer.",
+        "Opgelost: acties 'ingedrukt houden om te wisselen' werkten alleen bij de eerste druk.",
+        "Android 10 en lager: tik in een game op het chatvak en je gewone toetsenbord komt op.",
+        "Toewijzingen starten met alleen een extern toetsenbord, zonder controller.",
+        "Opgelost: crashes bij loskoppelen van de controller en bij dialogen na terugkeer uit de achtergrond.",
+        "Locatietoestemming verwijderd."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Tablets, vouwbare telefoons en split screen: de toetsmapping-editor en 'Controller testen' zitten niet meer vast aan één schermstand.",
+        "Zes extra FAQ-antwoorden hebben nu een demovideo.",
+        "Edge-to-edge: de introductie en het privacybeleid worden niet meer bedekt door de systeembalken.",
+        "Editorachtergronden worden nu op schermgrootte gedecodeerd: veel minder geheugen en soepeler slepen."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Opgelost: na een uur of twee deden sticks en triggers niets meer tot je de service herstartte.",
+        "Opgelost: ingedrukte knoppen vuurden vanzelf opnieuw tot je de toegankelijkheidsservice uitzette.",
+        "Opslaan met sticks of triggers vraagt niet meer om de toetsenbordsetup; die check gebeurt bij de start van de game.",
+        "FAQ en hulp: videotutorials in de antwoorden en vier nieuwe vragen.",
+        "Opgelost: verwisselde LB/RB- en LT/RT-labels bij 'Controller testen'."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

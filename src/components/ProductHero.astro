@@ -1,9 +1,9 @@
 ---
 import { Image } from 'astro:assets';
-import { localePath } from '../i18n/locales';
 import { useT } from '../i18n/t';
 import type { Product, ProductCopy } from '../lib/content';
-import { screenshot } from '../lib/screenshots';
+import { screenshot, screenshots } from '../lib/screenshots';
+import { productStyle } from '../lib/brand';
 
 interface Props {
   locale: string;
@@ -14,31 +14,46 @@ interface Props {
   /** Link the name and add "About" instead of showing it as the current page. */
   linkTo?: string;
   kicker?: string;
+  /** Landscape products: which screenshot fills the wide frame. */
   shot?: number;
+  /** The home page's lead product: bigger name, more screenshots. */
+  featured?: boolean;
 }
-const { locale, product, copy, level = 1, linkTo, kicker, shot = 2 } = Astro.props;
-const { t } = useT(locale);
+const { locale, product, copy, level = 1, linkTo, kicker, shot = 2, featured = false } = Astro.props;
+const { t, tp, listp } = useT(locale);
 const Heading = `h${level}` as 'h1' | 'h2' | 'h3';
-const img = screenshot(product.slug, locale, shot);
 const iconSrc = `/${product.slug}/icon.png`;
-const useCases = copy.sections.find((s) => s.id === 'use-cases');
+const points = listp<string>(product.slug, 'heroPoints');
+const portrait = product.screenshotOrientation === 'portrait';
+const eager = level === 1 || featured;
+// Portrait products show several phone screenshots side by side. Only portrait images are used, so a
+// stray landscape screenshot in the set doesn't end up cropped to a sliver.
+const phoneShots = portrait
+  ? screenshots(product.slug, locale, product.screenshotCount)
+      .map((img, i) => ({ img, index: i + 1 }))
+      .filter((x) => x.img.height > x.img.width)
+      .slice(0, featured ? 3 : 2)
+  : [];
+const img = portrait ? undefined : screenshot(product.slug, locale, shot);
+// On the home page the tile carries its own product's colours and display face.
+const style = linkTo ? productStyle(product) : undefined;
 ---
 
-<article class="hero-tile">
+<article class:list={['hero-tile', { featured, portrait }]} style={style}>
   <div class="hero-copy">
     <div class="hero-id">
-      <img src={iconSrc} alt="" width="52" height="52" class="hero-icon" />
+      <img src={iconSrc} alt="" width={featured ? 72 : 52} height={featured ? 72 : 52} class="hero-icon" />
       <div>
         <Heading class="display hero-name">
           {linkTo ? <a href={linkTo}>{product.name}</a> : product.name}
         </Heading>
-        <div class="mono">{kicker ?? `${product.platform} · ${t('facts.consoles')}`}</div>
+        <div class="mono">{kicker ?? `${product.platform} · ${tp(product.slug, 'kicker')}`}</div>
       </div>
     </div>
     <p class="hero-tagline">{copy.tagline}</p>
-    {useCases && (
+    {points.length > 0 && (
       <ul class="hero-points">
-        {useCases.bullets.slice(0, 3).map((b) => <li>{b}</li>)}
+        {points.map((b) => <li>{b}</li>)}
       </ul>
     )}
     <div class="actions">
@@ -51,9 +66,17 @@ const useCases = copy.sections.find((s) => s.id === 'use-cases');
     </div>
   </div>
   <div class="hero-media">
-    <div class="crop">
-      {img && <Image src={img} alt={t('product.screenshotAlt', { name: product.name, index: shot })} widths={[640, 960, 1280]} sizes="(max-width: 860px) 100vw, 640px" loading={level === 1 ? 'eager' : 'lazy'} />}
-    </div>
+    {portrait ? (
+      <div class="phones" style={`--count:${phoneShots.length}`}>
+        {phoneShots.map((x) => (
+          <Image src={x.img} alt={t('product.screenshotAlt', { name: product.name, index: x.index })} widths={[240, 480]} sizes="(max-width: 860px) 33vw, 240px" loading={eager ? 'eager' : 'lazy'} />
+        ))}
+      </div>
+    ) : (
+      <div class="crop">
+        {img && <Image src={img} alt={t('product.screenshotAlt', { name: product.name, index: shot })} widths={[640, 960, 1280]} sizes="(max-width: 860px) 100vw, 640px" loading={eager ? 'eager' : 'lazy'} />}
+      </div>
+    )}
   </div>
 </article>
 
@@ -81,6 +104,31 @@ const useCases = copy.sections.find((s) => s.id === 'use-cases');
   }
   .hero-media .crop {
     width: 100%;
+  }
+  /* Portrait screenshots side by side, each at its own 9:16 shape. When the frame would get taller than
+     --phones-h, the image keeps its width and loses its bottom (the top carries the caption). */
+  .phones {
+    --phones-h: clamp(260px, 32vw, 420px);
+    --gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--gap);
+    padding: clamp(16px, 2.4vw, 28px);
+  }
+  .phones img {
+    display: block;
+    flex: 0 0 auto;
+    width: calc((100% - (var(--count) - 1) * var(--gap)) / var(--count));
+    max-width: none;
+    height: auto;
+    aspect-ratio: 9 / 16;
+    max-height: var(--phones-h);
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--bg);
   }
   .hero-id {
     display: flex;
@@ -115,6 +163,31 @@ const useCases = copy.sections.find((s) => s.id === 'use-cases');
     flex-direction: column;
     gap: 6px;
   }
+
+  /* Featured: the home page's lead product. */
+  .featured {
+    border-color: var(--line-2);
+  }
+  .featured .hero-copy {
+    gap: 22px;
+    justify-content: center;
+  }
+  .featured .hero-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
+  }
+  .featured .hero-name {
+    font-size: clamp(34px, 4.4vw, 52px);
+    line-height: 1.02;
+  }
+  .featured .hero-tagline {
+    font-size: clamp(18px, 1.8vw, 21px);
+  }
+  .featured .phones {
+    --phones-h: clamp(300px, 38vw, 480px);
+  }
+
   @media (max-width: 860px) {
     .hero-copy,
     .hero-media {
@@ -123,6 +196,10 @@ const useCases = copy.sections.find((s) => s.id === 'use-cases');
     .hero-copy {
       border-inline-end: 0;
       border-bottom: 1px solid var(--line);
+    }
+    .phones,
+    .featured .phones {
+      --phones-h: clamp(240px, 70vw, 380px);
     }
   }
 </style>

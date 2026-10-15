@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "id",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 ke atas: penyiapan kini cukup satu langkah. Stik dan pelatuk kontroler berfungsi tanpa keyboard Gamepad Pro.",
+        "Tidak butuh keyboard Gamepad Pro lagi? Tips sekali tampil menunjukkan cara menonaktifkannya, jadi keyboard biasa Anda tidak terganti.",
+        "Perbaikan crash saat menyalakan layanan dalam mode lanskap.",
+        "Peningkatan stabilitas."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "Pengaturan baru: sensitivitas pelatuk LT/RT.",
+        "Pengaturan baru: teruskan kontrol yang belum dipetakan ke game, cocok untuk cloud gaming.",
+        "Opsi pemetaan bawaan kembali ada di Pengaturan.",
+        "Stik kanan kini berfungsi di lebih banyak kontroler pihak ketiga.",
+        "Perbaikan LT/RT yang ditahan, tombol yang ditekan bersamaan, dan sentuhan macet saat memakai banyak tombol.",
+        "Perbaikan stylus terdeteksi sebagai kontroler, tombol mengambang tak muncul lagi, dan sesekali macet."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Perbaikan layanan pemetaan yang mati di tengah main dan membuat semua tombol tak berfungsi.",
+        "Perbaikan aksi “tahan untuk alihkan” yang berhenti setelah tekanan pertama.",
+        "Android 10 ke bawah: menyentuh kotak chat dalam game kini memunculkan keyboard biasa Anda.",
+        "Pemetaan bisa dijalankan hanya dengan keyboard eksternal, tanpa kontroler.",
+        "Perbaikan crash saat kontroler terputus dan saat dialog terbuka setelah kembali dari latar.",
+        "Izin lokasi dihapus."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Tablet, perangkat lipat, dan layar terpisah: editor pemetaan tombol dan layar uji kontroler tidak lagi terkunci pada satu orientasi.",
+        "Enam jawaban FAQ lain kini punya video demo.",
+        "Tampilan edge-to-edge: halaman perkenalan dan kebijakan privasi tidak lagi tertutup bilah sistem.",
+        "Latar belakang editor kini didekode sesuai ukuran layar, memori jauh lebih hemat, dan menyeret tombol lebih mulus."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Perbaikan pemetaan mati setelah main 1–2 jam: stik dan trigger berhenti sampai layanan direstart.",
+        "Perbaikan tombol tertahan yang tertekan ulang sendiri tiap beberapa detik saat main.",
+        "Menyimpan layout berstik/trigger tak lagi dipotong penyiapan keyboard; dicek saat game dimulai.",
+        "FAQ & Bantuan: video tutorial di jawaban, plus empat pertanyaan baru.",
+        "Perbaikan label LB/RB dan LT/RT tertukar di layar uji kontroler."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

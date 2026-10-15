@@ -1,0 +1,245 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "pt-br",
+  "title": "Perguntas frequentes e ajuda",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Configuração",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "O que o Gamepad Pro faz?",
+          "a": [
+            "O Gamepad Pro mapeia seu controle, teclado ou quaisquer botões externos para toques e deslizes na tela, para você jogar jogos de toque e controlar apps com botões físicos."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Por que ele precisa da permissão de acessibilidade? É seguro?",
+          "a": [
+            "O serviço de acessibilidade permite que o Gamepad Pro transforme seus toques em toques e deslizes, mesmo fora do app. Os mapeamentos só funcionam após ativá-lo. O Gamepad Pro o usa apenas para realizar suas ações e não coleta dados pessoais."
+          ],
+          "video": "xbevEmk-T1Q"
+        },
+        {
+          "id": "q04",
+          "q": "Ele para depois de um tempo em segundo plano. Como resolver?",
+          "a": [
+            "O Android pode fechar apps em segundo plano para economizar energia. Permita que o Gamepad Pro rode em segundo plano desativando a otimização de bateria. Algumas marcas (como MIUI ou Samsung) adicionam regras extras – o guia em dontkillmyapp.com mostra como desativá-las no seu aparelho."
+          ],
+          "video": "8hZqhdyWx_Y"
+        },
+        {
+          "id": "q07",
+          "q": "Por que preciso ativar o teclado Gamepad Pro?",
+          "a": [
+            "Principalmente para que os analógicos e os gatilhos L2/R2 do seu controle possam ser mapeados. O serviço de acessibilidade do Android consegue ler o pressionamento normal dos botões, mas não consegue ler o movimento de analógicos ou gatilhos — só o teclado do Gamepad Pro captura isso. Ele também é necessário para ações como digitar texto. Ative-o e mude para ele quando solicitado, para que esses mapeamentos e ações funcionem."
+          ],
+          "video": "bkJYiGawnnc"
+        },
+        {
+          "id": "q11",
+          "q": "O Gamepad Pro precisa de acesso root?",
+          "a": [
+            "Não. O Gamepad Pro funciona pelo serviço de acessibilidade e não exige root. Root ou Shizuku só é necessário para alguns recursos avançados opcionais."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Funciona com todos os jogos?",
+          "a": [
+            "Funciona com a maioria dos jogos de toque. Alguns jogos bloqueiam toques simulados ou usam anticheat que pode interferir, então não dá para garantir todos. Se um jogo não responder, avise-nos pelo Feedback."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "O teclado do Gamepad Pro assumiu. Como digito agora?",
+          "a": [
+            "O teclado do Gamepad Pro não tem teclas para digitar — ele só lê os analógicos e os gatilhos, então nada aparece quando você toca em um campo de texto. Toque no globo no canto inferior direito para voltar ao seu teclado. Melhor ainda: ative \"Alternar automaticamente o método de entrada\" — assim o Gamepad Pro usa o próprio teclado só enquanto os mapeamentos estão em execução e devolve o seu depois."
+          ],
+          "video": "AAa5IUf8mPo"
+        },
+        {
+          "id": "q25",
+          "q": "Por que o Android avisa que o Gamepad Pro pode ler senhas?",
+          "a": [
+            "O Android mostra o mesmo aviso para todo app de acessibilidade. O Gamepad Pro só usa a acessibilidade para ler seu controle e o app em primeiro plano, e para posicionar os toques. Ele nunca lê, armazena nem envia o que está na sua tela ou o que você digita."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mapeamento",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Meu mapeamento não funciona. O que devo verificar?",
+          "a": [
+            "1. Verifique se o serviço de acessibilidade está ativado (Configurações → Acessibilidade → Gamepad Pro).",
+            "2. Verifique se o mapeamento está ativado (não pausado).",
+            "3. Para ações de texto, mude para o teclado Gamepad Pro.",
+            "4. Se funcionava antes e parou, verifique as configurações de bateria/segundo plano (veja a próxima pergunta)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Como crio um mapeamento de botões?",
+          "a": [
+            "1. Escolha um jogo ou app na lista.",
+            "2. Toque para adicionar um botão e pressione o botão do controle desejado.",
+            "3. Arraste-o até o ponto a tocar.",
+            "4. Salve, ative o mapeamento e jogue."
+          ],
+          "video": "j2qYLNqHtA4"
+        },
+        {
+          "id": "q08",
+          "q": "Como excluo um mapeamento ou um botão predefinido?",
+          "a": [
+            "Toque no botão na tela e aparece um pequeno menu com Copiar e Excluir. Toque em Excluir para removê-lo. É assim também que você remove os botões predefinidos que não precisa."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Como defino uma captura de tela do meu jogo como fundo?",
+          "a": [
+            "No editor, toque no botão de imagem (canto inferior direito) e escolha uma captura de tela da galeria. Ela vira o fundo, para você posicionar cada botão exatamente onde ele deve tocar."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Como mapeio os analógicos ou os gatilhos L2/R2?",
+          "a": [
+            "Você não precisa gravá-los — os dois analógicos e os dois gatilhos já vêm em toda configuração nova. Basta arrastá-los para os pontos que devem controlar e tocar em um deles para abrir suas configurações: o analógico direito pode ser um deslizar de câmera (o padrão) ou um disco de movimento, e a sensibilidade e a curva de resposta também ficam ali. Eles precisam do teclado do Gamepad Pro ativado, porque o serviço de acessibilidade do Android não consegue ler o movimento de analógicos ou gatilhos."
+          ],
+          "video": "rEvNu-S6_CY"
+        },
+        {
+          "id": "q12",
+          "q": "Como mapeio vários botões pressionados juntos (uma combinação)?",
+          "a": [
+            "Inicie a gravação e pressione os botões juntos. Eles são salvos como uma combinação, então a ação só dispara quando você os pressiona ao mesmo tempo. Uma combinação também pode funcionar como modificador: mapeie LB+A e LB sozinho, depois segure LB e pressione A para disparar a combinação. Enquanto a combinação estiver pressionada, a ação do A não dispara, e a ação do LB espera cerca de 0,2 s para o app conseguir distinguir as duas."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "O que acontece quando mantenho um botão pressionado?",
+          "a": [
+            "Por padrão, enquanto você segura o botão, a tela fica pressionada naquele ponto e só solta quando você solta o botão: um aperto rápido é um toque, segurar é um toque longo. Ideal para mirar, correr e ataques carregados. Para mudar, toque no botão no editor e abra o ícone de engrenagem."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "O toque cai no lugar errado. Como posiciono os botões com precisão?",
+          "a": [
+            "Defina uma captura de tela do jogo como fundo e arraste cada botão até o ponto exato que ele deve tocar. Você pode arrastá-lo de novo a qualquer momento para ajustar a posição."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Como pauso ou retomo meus mapeamentos?",
+          "a": [
+            "Use a chave Serviço de mapeamento no topo da tela inicial para pausar ou retomar todos os mapeamentos de uma vez. Se você não conseguir voltar ao app, adicione a mesma chave às Definições rápidas e acesse de qualquer lugar. Pausar interrompe apenas os mapeamentos — o serviço de acessibilidade continua ativado."
+          ],
+          "video": "FMxFD5nLdnw"
+        },
+        {
+          "id": "q21",
+          "q": "Não consigo me mover e atirar ao mesmo tempo. O que posso fazer?",
+          "a": [
+            "É o segundo toque sendo descartado. Primeiro atualize para a versão mais recente — as versões novas já mantêm os dois toques ativos sozinhas. Se um ainda cair, abra Configurações › Multitoque avançado e siga os três passos de lá; a página mostra qual está faltando. É opcional, e os mapeamentos comuns funcionam sem isso."
+          ],
+          "video": "cOnoseRHaUM"
+        },
+        {
+          "id": "q22",
+          "q": "Um botão está no lugar errado. Dá para corrigir sem sair do jogo?",
+          "a": [
+            "Sim. Toque no botão flutuante enquanto joga e sua configuração aparece por cima do jogo — arraste o botão até o ponto certo e toque no botão flutuante de novo para aplicar. Mantenha o botão flutuante pressionado para trocar de configuração sem sair do jogo (para isso você precisa de pelo menos duas configurações salvas)."
+          ],
+          "video": "nz4xZcZ95hY"
+        },
+        {
+          "id": "q24",
+          "q": "O que um único botão do controle pode fazer?",
+          "a": [
+            "Praticamente tudo. Um botão pode ser um toque simples, um segurar que mantém a tela pressionada, um turbo que toca sem parar enquanto você segura, ou uma macro que toca vários pontos em ordem. Os analógicos podem ser um disco de movimento ou um deslizar de câmera. Toque em um botão no editor e abra o ícone de engrenagem para escolher."
+          ],
+          "video": "bs5oMvTess8"
+        },
+        {
+          "id": "q27",
+          "q": "Como funcionam os esquemas?",
+          "a": [
+            "Cada jogo pode ter vários esquemas: um para combate, um para dirigir, um para menus e assim por diante. O esquema 1 é usado quando o jogo abre. Troque de esquema durante o jogo com a combinação de alternância definida no perfil ou com a etiqueta do seletor flutuante."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "O que é o Shizuku e eu preciso dele?",
+          "a": [
+            "O Shizuku é um aprimoramento avançado opcional. Ele permite que o Gamepad Pro injete eventos multitoque de forma mais direta, com menor latência e rastreamento mais fluido do que a via de acessibilidade — mais perceptível com dois analógicos ou vários trajetos de toque simultâneos. Ele não substitui o serviço de acessibilidade e todos os mapeamentos também funcionam sem ele. No Android 11 ou superior, pode ser iniciado pela depuração sem fio, mas normalmente precisa ser iniciado de novo após reiniciar o aparelho."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Controle",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "Um botão do meu controle não é detectado. O que posso fazer?",
+          "a": [
+            "As versões do Android e os aparelhos variam, então alguns botões podem não ser detectados em certo hardware. Tente outro botão, reconecte o aparelho ou avise-nos pelo Feedback."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Meu controle não é detectado de jeito nenhum. O que devo verificar?",
+          "a": [
+            "Verifique se ele está bem conectado por Bluetooth ou USB e pareado nas configurações do Android. Tente reconectá-lo e veja se funciona em outros apps. Alguns controles precisam ser ligados em um modo específico."
+          ],
+          "video": "t0HAKJXgRCU"
+        },
+        {
+          "id": "q26",
+          "q": "Meu analógico esquerdo move um mouse invisível. Como faço para parar?",
+          "a": [
+            "Alguns jogos e launchers têm suporte nativo a controle e transformam o analógico esquerdo em um ponteiro. Se o jogo já funciona com o seu controle, abra o perfil dele e desative o mapeamento para esse jogo, ou exclua o mapeamento do analógico esquerdo. Se preferir que o Gamepad Pro cuide disso, abra o esquema, toque na tecla do analógico esquerdo e escolha Disco de movimento."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Como faço um botão tocar automaticamente (turbo)?",
+          "a": [
+            "Toque no botão no editor, abra a engrenagem e escolha Turbo. Enquanto você segura o botão, aquele ponto é tocado repetidamente no intervalo definido; solte para parar. Botões turbo mostram um pequeno T roxo ao lado do nome da tecla."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Como faço um botão tocar vários pontos em ordem (macro)?",
+          "a": [
+            "Toque no botão no editor e escolha + para adicionar uma etapa de macro. Cada etapa vira um adesivo numerado (1, 2, 3…) que você arrasta para o próprio ponto. Um único aperto toca todas as etapas em ordem; o intervalo é ajustado na engrenagem. Enquanto a macro executa, apertos extras são ignorados até ela terminar."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Como faço backup e restauro meus mapeamentos?",
+          "a": [
+            "Abra o menu e escolha Backup para salvar todos os mapeamentos em um arquivo, ou Restaurar para carregá-los de novo — útil ao trocar de telefone ou antes de reinstalar."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

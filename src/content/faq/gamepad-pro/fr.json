@@ -1,0 +1,245 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "fr",
+  "title": "FAQ et aide",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Configuration",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Que fait Gamepad Pro ?",
+          "a": [
+            "Gamepad Pro associe ta manette, ton clavier ou n'importe quels boutons externes à des touches et balayages à l'écran, pour jouer aux jeux tactiles et contrôler des apps avec des boutons physiques."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Pourquoi l'autorisation d'accessibilité est-elle nécessaire ? Est-ce sûr ?",
+          "a": [
+            "Le service d'accessibilité permet à Gamepad Pro de transformer tes appuis en touches et balayages, même hors de l'app. Tes mappages ne fonctionnent qu'après son activation. Gamepad Pro l'utilise uniquement pour exécuter tes actions et ne collecte aucune donnée personnelle."
+          ],
+          "video": "xbevEmk-T1Q"
+        },
+        {
+          "id": "q04",
+          "q": "Ça s'arrête après un moment en arrière-plan. Comment corriger ?",
+          "a": [
+            "Android peut fermer les apps en arrière-plan pour économiser la batterie. Autorise Gamepad Pro à fonctionner en arrière-plan en désactivant l'optimisation de la batterie. Certaines marques (comme MIUI ou Samsung) ajoutent des règles supplémentaires – le guide sur dontkillmyapp.com explique comment les désactiver pour ton appareil."
+          ],
+          "video": "8hZqhdyWx_Y"
+        },
+        {
+          "id": "q07",
+          "q": "Pourquoi dois-je activer le clavier Gamepad Pro ?",
+          "a": [
+            "Surtout pour que les sticks analogiques et les gâchettes L2/R2 de votre manette puissent être mappés. Le service d'accessibilité d'Android sait lire les appuis de boutons normaux, mais pas le mouvement des sticks ni des gâchettes : seul le clavier Gamepad Pro peut les capter. Il sert aussi à des actions comme la saisie de texte. Activez-le et basculez dessus lorsqu'on vous le demande, pour que ces mappages et ces actions fonctionnent."
+          ],
+          "video": "bkJYiGawnnc"
+        },
+        {
+          "id": "q11",
+          "q": "Gamepad Pro nécessite-t-il un accès root ?",
+          "a": [
+            "Non. Gamepad Pro fonctionne via le service d'accessibilité et ne nécessite pas le root. Le root ou Shizuku n'est requis que pour quelques fonctions avancées facultatives."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Fonctionne-t-il avec tous les jeux ?",
+          "a": [
+            "Il fonctionne avec la plupart des jeux tactiles. Quelques jeux bloquent les touchers simulés ou utilisent un anti-triche qui peut gêner, donc on ne peut pas garantir chaque jeu. Si un jeu ne répond pas, dis-le-nous via Commentaires."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Le clavier Gamepad Pro a pris le dessus. Comment taper du texte maintenant ?",
+          "a": [
+            "Le clavier Gamepad Pro n'a aucune interface de saisie : il lit uniquement les sticks et les gâchettes, donc rien n'apparaît quand vous touchez un champ de texte. Touchez le globe en bas à droite pour revenir à votre clavier. Mieux encore, activez « Changer automatiquement de méthode de saisie » : Gamepad Pro n'utilise alors son clavier que pendant l'exécution des mappages et vous rend le vôtre ensuite."
+          ],
+          "video": "AAa5IUf8mPo"
+        },
+        {
+          "id": "q25",
+          "q": "Pourquoi Android avertit-il que Gamepad Pro peut lire les mots de passe ?",
+          "a": [
+            "Android affiche le même avertissement pour toutes les apps d'accessibilité. Gamepad Pro s'en sert uniquement pour lire votre manette et l'app au premier plan, et pour placer les touchers. Il ne lit, ne stocke et n'envoie jamais ce qui s'affiche à l'écran ni ce que vous saisissez."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mappage",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Mon mappage ne fonctionne pas. Que dois-je vérifier ?",
+          "a": [
+            "1. Vérifie que le service d'accessibilité est activé (Paramètres → Accessibilité → Gamepad Pro).",
+            "2. Vérifie que le mappage est activé (non en pause).",
+            "3. Pour les actions de texte, bascule vers le clavier Gamepad Pro.",
+            "4. Si ça marchait avant et s'est arrêté, vérifie les réglages de batterie/arrière-plan (voir la question suivante)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Comment créer un mappage de boutons ?",
+          "a": [
+            "1. Choisis un jeu ou une app dans la liste.",
+            "2. Appuie pour ajouter un bouton, puis presse le bouton de manette voulu.",
+            "3. Fais-le glisser à l'endroit à toucher.",
+            "4. Enregistre, puis active le mappage et joue."
+          ],
+          "video": "j2qYLNqHtA4"
+        },
+        {
+          "id": "q08",
+          "q": "Comment supprimer un mappage ou un bouton prédéfini ?",
+          "a": [
+            "Appuie sur le bouton à l'écran et un petit menu apparaît avec Copier et Supprimer. Appuie sur Supprimer pour l'enlever. C'est aussi ainsi qu'on retire les boutons prédéfinis dont on n'a pas besoin."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Comment définir une capture d'écran de mon jeu en fond ?",
+          "a": [
+            "Dans l'éditeur, appuie sur le bouton image (en bas à droite) et choisis une capture dans ta galerie. Elle devient le fond, ce qui permet de placer chaque bouton exactement là où il doit toucher."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Comment mapper les sticks analogiques ou les gâchettes L2/R2 ?",
+          "a": [
+            "Vous n'avez pas besoin de les enregistrer : les deux sticks et les deux gâchettes sont déjà présents dans chaque nouvelle disposition. Faites-les simplement glisser sur les endroits qu'ils doivent contrôler, et touchez-en un pour ouvrir ses réglages : le stick droit peut servir de balayage caméra (le réglage par défaut) ou de disque de déplacement, avec la sensibilité et la courbe de réponse au même endroit. Ils exigent en revanche que le clavier Gamepad Pro soit activé, car le service d'accessibilité d'Android ne peut pas lire le mouvement des sticks ni des gâchettes."
+          ],
+          "video": "rEvNu-S6_CY"
+        },
+        {
+          "id": "q12",
+          "q": "Comment mapper plusieurs boutons pressés ensemble (une combinaison) ?",
+          "a": [
+            "Démarre l'enregistrement, puis presse les boutons ensemble. Ils sont enregistrés comme une seule combinaison, donc l'action ne se déclenche que si tu les presses en même temps. Une combinaison peut aussi servir de modificateur : assigne LB+A et LB seul, puis maintiens LB et presse A pour déclencher la combinaison. Tant que la combinaison est maintenue, l'action propre de A reste muette, et l'action propre de LB attend environ 0,2 s pour que l'appli puisse distinguer les deux."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Que se passe-t-il quand je maintiens un bouton enfoncé ?",
+          "a": [
+            "Par défaut, tant que le bouton est maintenu, l'écran reste appuyé à cet endroit et ne se relâche que lorsque vous relâchez le bouton : un appui bref donne un simple toucher, un appui long un appui prolongé. Idéal pour viser, courir ou charger une attaque. Pour changer ce comportement, touchez le bouton dans l'éditeur et ouvrez l'icône d'engrenage."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Le toucher tombe au mauvais endroit. Comment placer les boutons avec précision ?",
+          "a": [
+            "Définis une capture du jeu en fond, puis fais glisser chaque bouton à l'endroit exact qu'il doit toucher. Tu peux le refaire glisser à tout moment pour ajuster la position."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Comment mettre en pause ou reprendre mes mappages ?",
+          "a": [
+            "Utilisez l'interrupteur Service de mappage en haut de l'écran d'accueil pour mettre en pause ou reprendre tous les mappages d'un coup. Si vous ne pouvez pas revenir à l'application, ajoutez ce même interrupteur aux réglages rapides pour y accéder de n'importe où. La mise en pause n'arrête que les mappages — le service d'accessibilité reste activé."
+          ],
+          "video": "FMxFD5nLdnw"
+        },
+        {
+          "id": "q21",
+          "q": "Je ne peux pas me déplacer et tirer en même temps. Que faire ?",
+          "a": [
+            "C'est un deuxième toucher qui se perd. Mettez d'abord à jour vers la dernière version : les versions récentes maintiennent déjà les deux touchers actifs toutes seules. Si un toucher se perd encore, ouvrez Paramètres › Multi-touch avancé et suivez les trois étapes indiquées ; la page vous dit laquelle manque. C'est facultatif : les mappages ordinaires fonctionnent sans."
+          ],
+          "video": "cOnoseRHaUM"
+        },
+        {
+          "id": "q22",
+          "q": "Un bouton est au mauvais endroit. Puis-je le corriger sans quitter le jeu ?",
+          "a": [
+            "Oui. Touchez le bouton flottant pendant que vous jouez : votre disposition s'affiche par-dessus le jeu — faites glisser le bouton au bon endroit, puis touchez à nouveau le bouton flottant pour l'appliquer. Un appui long sur le bouton flottant permet de passer à une autre disposition sans quitter le jeu (il faut au moins deux dispositions enregistrées)."
+          ],
+          "video": "nz4xZcZ95hY"
+        },
+        {
+          "id": "q24",
+          "q": "Que peut faire un seul bouton de manette ?",
+          "a": [
+            "Tout cela. Un bouton peut être un simple toucher, un maintien qui garde l'écran appuyé, un turbo qui touche en boucle tant que vous le maintenez, ou une macro qui touche plusieurs endroits dans l'ordre. Les sticks analogiques peuvent servir de disque de déplacement ou de balayage caméra. Touchez un bouton dans l'éditeur et ouvrez l'icône d'engrenage pour choisir."
+          ],
+          "video": "bs5oMvTess8"
+        },
+        {
+          "id": "q27",
+          "q": "Comment fonctionnent les phases ?",
+          "a": [
+            "Chaque jeu peut avoir plusieurs phases : une pour le combat, une pour la conduite, une pour les menus, etc. La phase 1 est utilisée au lancement du jeu. En jeu, changez de phase avec la combinaison définie dans le profil ou avec la pastille du sélecteur flottant."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Qu’est-ce que Shizuku et en ai-je besoin ?",
+          "a": [
+            "Shizuku est une amélioration avancée facultative. Il permet à Gamepad Pro d'injecter les événements multi-touch plus directement, avec une latence réduite et un suivi plus fluide que la voie d'accessibilité — surtout visible avec deux joysticks ou plusieurs trajets tactiles simultanés. Il ne remplace pas le service d'accessibilité et tous les mappages fonctionnent aussi sans lui. Sur Android 11 et plus, il peut être lancé via le débogage sans fil, mais doit généralement être relancé après un redémarrage de l'appareil."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Manette",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "Un bouton de ma manette n'est pas détecté. Que faire ?",
+          "a": [
+            "Les versions d'Android et les appareils diffèrent, donc quelques boutons peuvent ne pas être détectés sur certains matériels. Essaie un autre bouton, reconnecte l'appareil ou préviens-nous via Commentaires."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Ma manette n'est pas détectée du tout. Que dois-je vérifier ?",
+          "a": [
+            "Vérifie qu'elle est bien connectée en Bluetooth ou USB et associée dans les paramètres Android. Reconnecte-la et vérifie qu'elle fonctionne dans d'autres apps. Certaines manettes doivent être allumées dans un mode précis."
+          ],
+          "video": "t0HAKJXgRCU"
+        },
+        {
+          "id": "q26",
+          "q": "Mon stick gauche déplace une souris invisible. Comment l'arrêter ?",
+          "a": [
+            "Certains jeux et lanceurs gèrent nativement les manettes et transforment le stick gauche en pointeur. Si le jeu fonctionne déjà avec votre manette, ouvrez son profil et désactivez le mappage pour ce jeu, ou supprimez le mappage du stick gauche. Si vous préférez que Gamepad Pro s'en charge, ouvrez la phase, touchez la touche du stick gauche et choisissez Disque de déplacement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Comment faire toucher automatiquement un bouton (turbo) ?",
+          "a": [
+            "Touchez le bouton dans l'éditeur, ouvrez l'engrenage et choisissez Turbo. Tant que le bouton est maintenu, l'endroit est touché en boucle à l'intervalle réglé ; relâchez pour arrêter. Les boutons turbo affichent un petit T violet à côté du nom de la touche."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Comment toucher plusieurs endroits dans l'ordre avec un seul bouton (macro) ?",
+          "a": [
+            "Touchez le bouton dans l'éditeur et choisissez + pour ajouter une étape de macro. Chaque étape devient un autocollant numéroté (1, 2, 3…) à glisser à son propre endroit. Un seul appui touche ensuite toutes les étapes dans l'ordre ; l'intervalle se règle via l'engrenage. Pendant l'exécution d'une macro, les appuis supplémentaires sont ignorés jusqu'à la fin."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Comment sauvegarder et restaurer mes mappages ?",
+          "a": [
+            "Ouvre le menu et choisis Sauvegarder pour enregistrer tous tes mappages dans un fichier, ou Restaurer pour les recharger – pratique en changeant de téléphone ou avant une réinstallation."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

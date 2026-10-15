@@ -1,0 +1,169 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "en",
+  "title": "Gamepad Pro: Controller Mapper",
+  "shortDescription": "Map controller keys to touch. Sticks, triggers, macros, turbo — no root.",
+  "tagline": "Gamepad Pro is a controller key mapper for Android: turn the gamepad you already own into touch controls and play touch-only games with real buttons. No root.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Gamepad Pro: Controller Mapper",
+      "paragraphs": [
+        "Gamepad Pro is a controller key mapper for Android: turn the gamepad you already own into touch controls and play touch-only games with real buttons. No root.",
+        "Map buttons, analog sticks and L2/R2 triggers to taps, holds and swipes. Build a layout per game, switch layouts mid-match, and add macros, turbo and combos.",
+        "No cloning, no ADB for the core setup. Map your controls and start playing."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "drag-map-play",
+      "title": "Drag. Map. Play.",
+      "paragraphs": [
+        "Add a game, open the mapping editor, and drag each control onto the matching spot on screen. Save it and launch the game from Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "mapping",
+      "title": "Button, stick & trigger mapping",
+      "paragraphs": [
+        "Map controller buttons, both analog sticks, the D-pad and analog triggers to taps, holds and swipes, with adjustable stick sensitivity."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "multi-button",
+      "title": "Multi-button control",
+      "paragraphs": [
+        "Move, aim and act at the same time — built for games that need several simultaneous inputs."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "profiles",
+      "title": "A profile for every game",
+      "paragraphs": [
+        "Save an independent mapping per game, so you always come back to the right layout."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "phases",
+      "title": "Phases — multiple layouts for one game",
+      "paragraphs": [
+        "Create multiple Phases for different parts of the same game, such as Movement, Driving, Parachuting, Combat or Menus."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "phase-switch",
+      "title": "Switch phases while you play",
+      "paragraphs": [
+        "Pick another Phase from the floating control without leaving the game, or assign a button to cycle through layouts instantly."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "combos",
+      "title": "Combination buttons",
+      "paragraphs": [
+        "Use a combination of controller buttons as a single trigger, adding shortcuts without giving up existing controls."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "macros",
+      "title": "One-trigger macros",
+      "paragraphs": [
+        "Build a sequence of touch actions and run the whole thing from one controller input — ideal for repeated routines."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "turbo",
+      "title": "Turbo actions",
+      "paragraphs": [
+        "Hold a button to repeat a mapped touch action automatically, at a repeat rate you set per action."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "vibration",
+      "title": "Vibration feedback",
+      "paragraphs": [
+        "Feel a haptic response when a mapped control fires, in light, medium or strong."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "any-game",
+      "title": "Built for every kind of game",
+      "paragraphs": [
+        "Shooters and battle royale, MOBA and MMORPG, racing, action RPG, open world, fighting, survival, idle and clicker games, plus retro emulators — if it takes touch input, you can map a controller to it."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "No cloning, no root, no ADB",
+      "paragraphs": [
+        "Gamepad Pro maps controller input straight to screen actions: no cloned copy of your game, no root, and no ADB for the core setup. A few advanced options can use Shizuku; mapping itself does not."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "controllers",
+      "title": "Great controller compatibility",
+      "paragraphs": [
+        "Gamepad Pro works with many wired and wireless controllers supported by Android, and button labels can adapt to popular controller layouts."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "get-started",
+      "title": "How to get started",
+      "paragraphs": [],
+      "bullets": [
+        "Open Gamepad Pro and follow the guided setup.",
+        "Enable the Accessibility Service and connect your controller.",
+        "Enable the Gamepad Pro keyboard for sticks and L2/R2 triggers.",
+        "Tap Add, pick your game, drag the controls into position.",
+        "Save, launch the game, and play."
+      ]
+    },
+    {
+      "id": "permissions",
+      "title": "Permissions",
+      "paragraphs": [
+        "Accessibility Service:",
+        "Gamepad Pro uses Android’s AccessibilityService API to turn your configured controller actions into taps and swipes. It is required for mapping to work outside the app, only performs the actions you create, and never collects or uploads your personal data."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "keyboard",
+      "title": "Gamepad Pro Keyboard",
+      "paragraphs": [
+        "Android’s Accessibility Service cannot read analog stick or L2/R2 trigger values. The Gamepad Pro input method captures these inputs so they can be mapped correctly, and may also be used for text input."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "compatibility",
+      "title": "Compatibility",
+      "paragraphs": [
+        "Compatibility may vary with your device, Android version, controller, and how each game handles touch input or overlays."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "help",
+      "title": "Need help?",
+      "paragraphs": [
+        "Play Store reviews don’t give us enough detail to investigate technical problems. If something isn’t working, open Gamepad Pro and go to Settings > Feedback."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

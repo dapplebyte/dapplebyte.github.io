@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import { getEntry } from 'astro:content';
 import Base from '../../../../layouts/Base.astro';
 import ProductNav from '../../../../components/ProductNav.astro';
+import VideoFacade from '../../../../components/VideoFacade.astro';
 import { getLocale, localePath } from '../../../../i18n/locales';
 import { useT } from '../../../../i18n/t';
 import { getProduct, getCopy, getFaq, faqEntryById, copySection } from '../../../../lib/content';
@@ -31,6 +32,11 @@ const section = copySection(copy, feature.sectionId);
 if (!section) throw new Error(`feature ${feature.id}: copy section ${feature.sectionId} missing for ${locale}`);
 const related = faq ? feature.faq.map((id) => faqEntryById(faq, id)).filter(Boolean) : [];
 const shots = feature.screenshots.map((i) => ({ i, img: screenshot(slug, locale, i) })).filter((x) => x.img);
+const portrait = product.screenshotOrientation === 'portrait';
+const videos = (await getEntry('videos', slug))?.data.items ?? [];
+const video = feature.video ? videos.find((v) => v.youtubeId === feature.video) : undefined;
+const videoAspect = video?.aspect ?? (portrait ? '9:16' : '16:9');
+const videoName = video ? t(video.titleKey) : section.title;
 const path = `/${slug}/features/${feature.id}/`;
 const url = new URL(localePath(locale, path), SITE).href;
 const title = t('features.title', { feature: section.title, name: product.name });
@@ -62,12 +68,27 @@ const jsonLd = graph(
 
   {shots.length > 0 && (
     <section class="wrap section">
-      <div class={shots.length > 1 ? 'shots' : 'single'}>
+      <div class:list={[shots.length > 1 ? 'shots' : 'single', { portrait }]}>
         {shots.map((x) => (
           <figure>
-            <Image src={x.img!} alt={t('product.screenshotAlt', { name: product.name, index: x.i })} widths={[640, 1280]} sizes="(max-width: 860px) 100vw, 1120px" />
+            <Image src={x.img!} alt={t('product.screenshotAlt', { name: product.name, index: x.i })} widths={portrait ? [420, 840] : [640, 1280]} sizes={portrait ? '(max-width: 860px) 100vw, 540px' : '(max-width: 860px) 100vw, 1120px'} />
           </figure>
         ))}
+      </div>
+    </section>
+  )}
+
+  {feature.video && (
+    <section class="wrap section">
+      <div class="section-head mono"><span>{t('product.videoHeading')}</span><a href={localePath(locale, `/${slug}/videos/`)}>{t('product.allVideos')} →</a></div>
+      <div class:list={['feature-video', { portrait: videoAspect === '9:16' }]}>
+        <VideoFacade youtubeId={feature.video} label={`${t('videos.play')}: ${videoName}`} aspect={videoAspect} />
+        {video && (
+          <div>
+            <h2 class="h-sub" style="margin-bottom:10px">{videoName}</h2>
+            <p class="muted">{t(video.descriptionKey)}</p>
+          </div>
+        )}
       </div>
     </section>
   )}
@@ -112,6 +133,37 @@ const jsonLd = graph(
     display: block;
     width: 100%;
     height: auto;
+  }
+  .single.portrait {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+  .shots.portrait {
+    max-width: 860px;
+    margin-inline: auto;
+  }
+  .feature-video {
+    max-width: 960px;
+  }
+  .feature-video.portrait {
+    display: grid;
+    grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+    gap: 32px;
+    align-items: center;
+  }
+  .feature-video > div + div {
+    margin-top: 16px;
+  }
+  .feature-video.portrait > div + div {
+    margin-top: 0;
+  }
+  .muted {
+    color: var(--fg-2);
+  }
+  @media (max-width: 860px) {
+    .feature-video.portrait {
+      grid-template-columns: minmax(0, 1fr);
+    }
   }
   .related {
     margin: 0;

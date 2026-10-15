@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "fr",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 et plus : la configuration se fait en une seule étape. Les joysticks et gâchettes de la manette fonctionnent sans le clavier Gamepad Pro.",
+        "Plus besoin du clavier Gamepad Pro ? Un conseil affiché une seule fois vous montre comment le désactiver, pour garder votre clavier habituel.",
+        "Corrigé : plantage à l'activation du service en mode paysage.",
+        "Améliorations de la stabilité."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "Nouveau réglage : « Sensibilité des gâchettes (LT/RT) ».",
+        "Nouveau réglage : « Transmettre au jeu les commandes non mappées », idéal pour le cloud gaming.",
+        "Les « Options de mappage par défaut » sont de retour dans les réglages.",
+        "Le stick droit fonctionne sur plus de manettes tierces.",
+        "Corrigé : LT/RT maintenues, touches pressées ensemble et appuis bloqués avec de nombreux boutons.",
+        "Corrigé : stylet pris pour une manette, bouton flottant qui ne revenait pas et gels ponctuels."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Corrigé : le service de mappage plantait en pleine partie et les touches restaient mortes.",
+        "Corrigé : les actions « maintenir pour basculer » ne marchaient qu'au premier appui.",
+        "Android 10 et antérieur : toucher le chat d'un jeu ouvre enfin votre clavier habituel.",
+        "Les mappages démarrent avec un simple clavier externe, sans manette.",
+        "Corrigé : plantages à la déconnexion de la manette et aux dialogues au retour d'arrière-plan.",
+        "Permission de localisation supprimée."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Tablettes, pliables et écran partagé : l'éditeur de mappage de touches et « Tester la manette » ne sont plus limités à une seule orientation.",
+        "FAQ et aide : six nouvelles réponses ont une vidéo de démonstration.",
+        "Affichage bord à bord : les écrans d'introduction et de politique de confidentialité ne sont plus cachés par les barres système.",
+        "Les arrière-plans de l'éditeur se décodent à la taille de l'écran : bien moins de mémoire et un glisser plus fluide."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Après 1 à 2 h, sticks et gâchettes ne répondaient plus jusqu'au redémarrage du service : corrigé.",
+        "Les boutons maintenus se redéclenchaient en boucle jusqu'à couper le service d'accessibilité : corrigé.",
+        "Enregistrer un mappage avec sticks ou gâchettes n'ouvre plus la configuration du clavier : vérifiée au lancement.",
+        "FAQ et aide : tutoriels vidéo, quatre nouvelles questions.",
+        "Libellés LB/RB et LT/RT inversés dans « Tester la manette » : corrigé."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

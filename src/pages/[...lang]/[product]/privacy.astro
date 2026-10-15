@@ -11,7 +11,7 @@ import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../
 export const getStaticPaths = productLangPaths;
 
 const { locale, slug, alternates } = Astro.props;
-const { t } = useT(locale);
+const { t, tp } = useT(locale);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
 const own = await getEntry('privacy', `${slug}/${locale}`);
@@ -20,7 +20,7 @@ const translated = policy.locale === locale;
 const path = `/${slug}/privacy/`;
 const url = new URL(localePath(locale, path), SITE).href;
 const title = t('privacy.title', { name: product.name });
-const description = t('privacy.description', { name: product.name });
+const description = tp(slug, 'privacyDescription', { name: product.name });
 const toc = [...policy.html.matchAll(/<h2 id="([^"]+)"[^>]*>([\s\S]*?)<\/h2>/g)].map((m) => ({ id: m[1], title: m[2].replace(/<[^>]+>/g, '').trim() }));
 const jsonLd = graph(
   organization(),

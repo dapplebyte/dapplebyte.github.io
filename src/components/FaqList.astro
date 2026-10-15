@@ -1,11 +1,16 @@
 ---
 interface Props {
-  entries: { id: string; q: string; a: string[] }[];
+  entries: { id: string; q: string; a: string[]; video?: string }[];
   /** Heading level for questions. */
   level?: 2 | 3;
   linkLabel?: string;
+  /** Label of the link shown under answers that have a video. */
+  watchLabel?: string;
+  /** YouTube playlist the video links open in. */
+  playlist?: string;
 }
-const { entries, level = 2, linkLabel = '#' } = Astro.props;
+const { entries, level = 2, linkLabel = '#', watchLabel = 'YouTube', playlist } = Astro.props;
+const watchUrl = (id: string) => `https://www.youtube.com/watch?v=${id}${playlist ? `&list=${playlist}` : ''}`;
 const H = `h${level}` as 'h2' | 'h3';
 ---
 
@@ -18,6 +23,7 @@ const H = `h${level}` as 'h2' | 'h3';
       </H>
       <div class="faq-a">
         {e.a.map((p) => <p>{p}</p>)}
+        {e.video && <p class="faq-video"><a href={watchUrl(e.video)}>▶ {watchLabel}</a></p>}
       </div>
     </article>
   ))}
@@ -57,5 +63,12 @@ const H = `h${level}` as 'h2' | 'h3';
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+  .faq-video a {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-decoration: none;
   }
 </style>

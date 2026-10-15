@@ -1,0 +1,67 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "de",
+  "entries": [
+    {
+      "code": 195,
+      "name": "1.9.5",
+      "date": "2026-10-10",
+      "items": [
+        "Android 14 und neuer: Die Einrichtung braucht nur noch einen Schritt. Sticks und Trigger des Controllers funktionieren ohne die Gamepad Pro-Tastatur.",
+        "Gamepad Pro-Tastatur nicht mehr nötig? Ein einmaliger Hinweis zeigt dir, wie du sie ausschaltest, damit deine gewohnte Tastatur bleibt.",
+        "Behoben: Absturz beim Einschalten des Dienstes im Querformat.",
+        "Stabilitätsverbesserungen."
+      ]
+    },
+    {
+      "code": 194,
+      "name": "1.9.4",
+      "date": "2026-10-06",
+      "items": [
+        "Neue Einstellung: „Trigger-Empfindlichkeit (LT/RT)“.",
+        "Neue Einstellung: „Nicht zugeordnete Eingaben an Spiele weitergeben“, ideal für Cloud-Gaming.",
+        "„Standardzuordnungsoptionen“ sind zurück in den Einstellungen.",
+        "Rechter Stick funktioniert jetzt auf mehr Drittanbieter-Controllern.",
+        "Behoben: gehaltene LT/RT, gleichzeitig gedrückte Tasten und hängende Touches bei vielen Tasten.",
+        "Behoben: Stylus als Controller erkannt, Schwebetaste kam nicht zurück, gelegentliches Einfrieren."
+      ]
+    },
+    {
+      "code": 193,
+      "name": "1.9.3",
+      "date": "2026-09-22",
+      "items": [
+        "Behoben: Der Zuordnungsdienst stürzte mitten im Spiel ab, Tasten blieben tot.",
+        "Behoben: „Halten zum Umschalten“-Aktionen wirkten nur beim ersten Druck.",
+        "Android 10 und älter: Tippen auf das Chatfeld im Spiel öffnet jetzt deine normale Tastatur.",
+        "Zuordnungen starten auch nur mit externer Tastatur, ohne Controller.",
+        "Behoben: Abstürze beim Trennen des Controllers und bei Dialogen nach Rückkehr aus dem Hintergrund.",
+        "Standortberechtigung entfernt."
+      ]
+    },
+    {
+      "code": 192,
+      "name": "1.9.2",
+      "date": "2026-09-15",
+      "items": [
+        "Tablets, Foldables und Split-Screen: Tastenbelegungseditor und Controller-Test sind nicht mehr auf eine Ausrichtung festgelegt.",
+        "Sechs weitere FAQ-Antworten haben jetzt ein Demo-Video.",
+        "Edge-to-Edge: Einführung und Datenschutz-Bestimmungen werden nicht mehr von den Systemleisten verdeckt.",
+        "Editor-Hintergründe werden jetzt in Bildschirmgröße dekodiert: deutlich weniger Speicher, flüssigeres Ziehen."
+      ]
+    },
+    {
+      "code": 191,
+      "name": "1.9.1",
+      "date": "2026-09-10",
+      "items": [
+        "Behoben: Mappings fielen nach 1–2 Stunden aus – Sticks und Trigger liefen erst nach Dienst-Neustart wieder.",
+        "Behoben: Gehaltene Tasten lösten alle paar Sekunden erneut aus, bis der Barrierefreiheitsdienst aus war.",
+        "Belegungen mit Sticks oder Triggern speichern ohne Tastatur-Einrichtung; Prüfung beim Spielstart.",
+        "FAQ & Hilfe: Videos in den Antworten, vier neue Fragen.",
+        "Behoben: vertauschte LB/RB- und LT/RT-Labels unter „Controller testen“."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

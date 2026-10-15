@@ -6,7 +6,7 @@ import { useT } from '../i18n/t';
 
 // The English product pages and FAQ as one Markdown document.
 export const GET: APIRoute = async () => {
-  const { t, list } = useT('en');
+  const { t, tp, list } = useT('en');
   const out: string[] = [];
   out.push('# DappleByte', '', t('site.definition'), '', t('site.tagline'), '');
   out.push('## How we work', '');
@@ -22,6 +22,7 @@ export const GET: APIRoute = async () => {
     if (p.sourceUrl) out.push(`- Source code (${p.sourceLicense}): ${p.sourceUrl}`);
     if (p.minOs) out.push(`- Requires: ${p.minOs} or later. ${copy.requires ?? ''}`.trim());
     if (p.versions.length) out.push(`- Current version: ${p.versions.at(-1)!.name}`);
+    out.push(`- Price: ${tp(p.slug, 'press.priceValue', { name: p.name })}`);
     out.push('');
     for (const s of copy.sections) {
       if (s.id === 'intro') continue;
