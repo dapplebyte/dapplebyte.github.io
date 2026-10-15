@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Unabhängige Android-Apps",
-    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht, und Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4.",
+    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht; Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4; und WhenDo, eine App für KI-Automatisierung mit Auto-Klicker.",
     "appsHeading": "Apps",
     "principlesHeading": "So arbeiten wir",
     "principles": [
@@ -202,7 +202,11 @@
       "backup-restore": "Alle Layouts in eine Datei sichern und wiederherstellen",
       "no-account": "Kein Konto, keine Anmeldung",
       "video-help": "FAQ in der App mit Video-Anleitungen",
-      "pricing-model": "Preismodell"
+      "pricing-model": "Preismodell",
+      "ai-builder": "Baut eine komplette Automatisierung aus einer Beschreibung in Alltagssprache",
+      "auto-clicker": "Auto-Klicker mit Klickintervall und Anzahl der Wiederholungen",
+      "gesture-recorder": "Zeichnet Tipp- und Wischgesten auf und spielt sie ab",
+      "no-ads": "Keine Werbung"
     },
     "values": {
       "yes": "Ja",
@@ -310,6 +314,72 @@
         "title": "Tastatur hat übernommen – wie tippe ich jetzt?",
         "description": "Tippen Sie auf das Globus-Symbol, um zu Ihrer eigenen Tastatur zurückzuwechseln, oder aktivieren Sie den automatischen Wechsel, damit Gamepad Pro seine Tastatur nur verwendet, solange die Belegung aktiv ist."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "Wie erstelle ich eine Aufgabe mit KI?",
+        "description": "Schreiben Sie in eigenen Worten, was Sie möchten, lassen Sie WhenDo Auslöser, Bedingungen und Aktionen bauen und prüfen Sie jeden Schritt, bevor Sie die Aufgabe einschalten."
+      },
+      "b02": {
+        "title": "Ich will nichts selbst bauen. Gibt es was Fertiges?",
+        "description": "Öffnen Sie die Vorlagen, wählen Sie eine Voreinstellung, ergänzen Sie die ein, zwei abgefragten Angaben, und schon läuft sie."
+      },
+      "b03": {
+        "title": "Wenn, Falls, Dann: Was macht was?",
+        "description": "Eine Aufgabe von Hand bauen: Wenn ist der Auslöser, Falls die Bedingung, Dann die Aktion."
+      },
+      "t01": {
+        "title": "Was kann eine Automatisierung eigentlich auslösen?",
+        "description": "Ein Rundgang durch die Auslöser: Uhrzeit, Apps, Wi-Fi und Bluetooth, Benachrichtigungen, Sensoren, Hardware-Tasten und mehr."
+      },
+      "t03": {
+        "title": "Eine Aufgabe auslösen, ohne die App zu öffnen",
+        "description": "Starten Sie eine Aufgabe über eine schwebende Schaltfläche, eine Lautstärketaste oder eine Fingerabdruckgeste."
+      },
+      "t04": {
+        "title": "Läuft das auch zu einer festen Uhrzeit oder wiederholt?",
+        "description": "Eine Aufgabe nach Uhrzeit, wiederholt oder nach Kalenderterminen planen."
+      },
+      "a01-what": {
+        "title": "Was kann die App eigentlich mit meinem Handy machen?",
+        "description": "Ein Rundgang durch die Aktionen: Systemeinstellungen, Apps, Medien, HTTP-Anfragen, Zwischenablage, Benachrichtigungen und Shizuku-Funktionen."
+      },
+      "e01": {
+        "title": "Falsch gebaut? Sie müssen nicht von vorn anfangen",
+        "description": "Öffnen Sie eine bestehende Aufgabe, ändern Sie einen Auslöser oder eine Aktion und behalten Sie den Rest."
+      },
+      "p01": {
+        "title": "Im Dashboard steht „Dienst gestoppt“. Wo schalte ich ihn ein?",
+        "description": "Den Bedienungshilfen-Dienst und die anderen Berechtigungen einer Aufgabe einschalten, Schritt für Schritt."
+      },
+      "p03": {
+        "title": "Was ist der Shizuku-Modus, und warum zeigt mein Dashboard ihn an?",
+        "description": "Was Shizuku zum normalen Modus hinzufügt, wann Sie es brauchen und wie Sie es einschalten."
+      },
+      "m01": {
+        "title": "Dauerhaft oder einmalig: Was nehme ich?",
+        "description": "Der Unterschied zwischen einer Aufgabe, die im Hintergrund wartet, und einer, die Sie von Hand starten."
+      },
+      "m02": {
+        "title": "Wo sind meine Aufgaben, und wie stoppe ich eine?",
+        "description": "Ihre Aufgaben im Tab „Szenen“ finden und eine einzelne Aufgabe oder eine ganze Szene ausschalten."
+      },
+      "e03": {
+        "title": "Die KI hat etwas gebaut, nur nicht das, was Sie wollten",
+        "description": "Was tun, wenn die erzeugte Aufgabe danebenliegt: anders formulieren, die Schritte bearbeiten oder mit einer Voreinstellung anfangen."
+      },
+      "a01-ad": {
+        "title": "Automatisierung einrichten sollte keine 12 Schritte brauchen",
+        "description": "Sagen Sie, was Sie wollen, und WhenDo baut es. 17 Sekunden Aufgaben-Erstellung mit KI."
+      },
+      "b03-ad": {
+        "title": "Drei Zeilen sind eine komplette Android-Automatisierung",
+        "description": "Wenn, Falls, Dann: eine vollständige Aufgabe in drei Zeilen."
+      },
+      "t01-ad": {
+        "title": "Ihr Handy kann auf fast alles reagieren",
+        "description": "Wi-Fi, Kopfhörer, Uhrzeit, Standort, Benachrichtigungen: ein kurzer Blick darauf, was eine Aufgabe auslösen kann."
+      }
     }
   },
   "products": {
@@ -389,6 +459,45 @@
         "description": "{name} im Vergleich mit PS Remote Play, PXPlay und Chiaki auf Android: Funktion für Funktion, nur Fakten.",
         "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Remote Play unterwegs, HEVC und HDR, Controller, TV-Ausgabe, Open Source und Preis.",
         "vsIntro": "Beide verbinden ein Android-Gerät mit einer PS5 oder PS4. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
+      }
+    },
+    "whendo": {
+      "kicker": "Automatisierung · Ohne root",
+      "heroPoints": [
+        "Beschreiben Sie eine Routine in eigenen Worten, und die KI baut jeden Auslöser, jede Bedingung und jede Aktion",
+        "Auto-Klicker, Gestenrekorder und über 250 Auslöser: Uhrzeit, Standort, Apps, Wi-Fi, Benachrichtigungen",
+        "Abläufe mit Wenn, Falls und Dann, dazu Schleifen und Variablen. Ohne root, ohne Abo"
+      ],
+      "faqDescription": "Antworten zu WhenDo: warum eine Aufgabe nicht läuft, Berechtigungen, Aufgaben mit KI erstellen, Auslöser, der Auto-Klicker, Backups und Shizuku.",
+      "faqNotFoundBody": "Schreiben Sie uns, welches Telefon Sie nutzen, welche Aufgabe Sie gebaut haben und was passiert ist. Jede Nachricht liest ein Mensch.",
+      "support": {
+        "beforeItems": [
+          "Öffnen Sie die FAQ. Die meisten Fragen zu Aufgaben, die nicht laufen, zu Berechtigungen und zum Auto-Klicker sind dort beantwortet, im selben Wortlaut wie in der App.",
+          "Schauen Sie ins Dashboard: Der Dienst muss laufen, die Aufgabe aktiviert und der Bedienungshilfen-Dienst erlaubt sein. Hat eine Aufgabe vorher funktioniert und dann aufgehört, liegt es meist an der Batterieoptimierung; die Schritte stehen in der FAQ.",
+          "Notieren Sie, welchen Auslöser Sie verwendet haben, in welcher App die Aufgabe etwas tun soll und was auf dem Bildschirm passiert ist. Genau das brauchen wir, um das Problem nachzustellen."
+        ],
+        "template": {
+          "phone": "Telefonmodell:",
+          "android": "Android-Version:",
+          "task": "Aufgabe (was sie tun soll und ihr Auslöser):",
+          "app": "App, in der die Aufgabe etwas tut (falls zutreffend):",
+          "what": "Was ist passiert, Schritt für Schritt:",
+          "pro": "Pro gekauft: ja / nein"
+        },
+        "refundBody": "WhenDo ist kostenlos installierbar. Wenn Sie Pro oder ein AI-Booster-Paket gekauft haben und es mit Ihrem Setup nicht funktioniert, schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf, und wir erstatten den Betrag. Erzählen Sie uns, was Sie versucht haben; das hilft uns, das Problem für die Nächsten zu beheben."
+      },
+      "press": {
+        "description": "Fakten, Material und ein Standardtext für Berichte über WhenDo, die Android-App für KI-Automatisierung, Auto-Klicker und Makros.",
+        "boilerplate": "WhenDo automatisiert ein Android-Smartphone ohne Root: Sie beschreiben eine Routine in eigenen Worten, und die KI baut daraus die Automatisierung, wobei sich jeder Auslöser, jede Bedingung und jede Aktion bearbeiten lässt. Oder Sie bauen sie selbst, mit über 250 Auslösern, einem Auto-Klicker, einem Gestenrekorder und Abläufen aus Wenn, Falls und Dann. Die App stammt von DappleByte, einem unabhängigen Studio.",
+        "priceValue": "Kostenlos installierbar, ohne Werbung. Die Pro-Funktionen werden mit einem einmaligen Kauf freigeschaltet, zusätzliche KI-Nutzungen gibt es als einmalig bezahlte Pakete; ein Abo gibt es nicht. Die aktuellen Preise finden Sie bei Google Play.",
+        "assetScreenshots": "Telefon-Screenshots, PNG, Englisch (Hochformat 1080 × 2400)"
+      },
+      "videosDescription": "Kurze Videos, die WhenDo auf einem echten Telefon zeigen: eine Aufgabe mit KI erstellen, Auslöser, Wenn und Falls, eine Aufgabe starten, ohne die App zu öffnen, und die häufigsten Probleme.",
+      "privacyDescription": "Was WhenDo für Android mit Ihren Daten macht: kein Konto, was auf dem Gerät bleibt, was die KI-Funktion sendet, wofür der Bedienungshilfen-Dienst genutzt wird und was die Analyse erfasst.",
+      "compare": {
+        "description": "WhenDo im Vergleich mit anderen Automatisierungs-Apps für Android: Funktion für Funktion, nur Fakten.",
+        "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Aufgaben per KI erstellen, Auto-Klicker, Auslöser, Root, Werbung und Preis.",
+        "vsIntro": "Beide automatisieren ein Android-Smartphone. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
       }
     }
   }

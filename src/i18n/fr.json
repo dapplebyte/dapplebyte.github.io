@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Applications Android indépendantes",
-    "description": "DappleByte est un studio indépendant qui crée des applications Android : Gamepad Pro, un mappeur de touches qui transforme une manette en commandes tactiles, et Relaypad, une application de manette Remote Play et de streaming de console pour PS5 et PS4.",
+    "description": "DappleByte est un studio indépendant qui crée des applications Android : Gamepad Pro, un mappeur de touches qui transforme une manette en commandes tactiles ; Relaypad, une application de manette Remote Play et de streaming de console pour PS5 et PS4 ; et WhenDo, une application d'automatisation par IA avec cliqueur automatique.",
     "appsHeading": "Applications",
     "principlesHeading": "Notre façon de travailler",
     "principles": [
@@ -202,7 +202,11 @@
       "backup-restore": "Sauvegarde de toutes les dispositions dans un fichier et restauration",
       "no-account": "Ni compte ni connexion",
       "video-help": "FAQ dans l'app avec tutoriels vidéo",
-      "pricing-model": "Modèle tarifaire"
+      "pricing-model": "Modèle tarifaire",
+      "ai-builder": "Crée une automatisation complète à partir d'une simple description",
+      "auto-clicker": "Cliqueur automatique avec intervalle de clic et nombre de répétitions",
+      "gesture-recorder": "Enregistre et rejoue les appuis et les balayages",
+      "no-ads": "Sans publicité"
     },
     "values": {
       "yes": "Oui",
@@ -310,6 +314,72 @@
         "title": "Le clavier a pris la main : comment écrire ?",
         "description": "Touchez le globe pour revenir à votre clavier habituel, ou activez le changement automatique pour que Gamepad Pro n'utilise son clavier que pendant le mappage."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "Comment créer une tâche avec l'IA ?",
+        "description": "Écrivez ce que vous voulez avec vos mots, laissez WhenDo créer les déclencheurs, conditions et actions, puis vérifiez chaque étape avant de l'activer."
+      },
+      "b02": {
+        "title": "Je ne veux rien construire. Il existe du tout prêt ?",
+        "description": "Ouvrez Modèles, choisissez une tâche prédéfinie, renseignez le ou les deux détails demandés, et c'est parti."
+      },
+      "b03": {
+        "title": "Quand, Si, Alors : qui fait quoi ?",
+        "description": "Créer une tâche à la main : Quand est le déclencheur, Si la condition, Alors l'action."
+      },
+      "t01": {
+        "title": "Qu'est-ce qui peut vraiment déclencher une automatisation ?",
+        "description": "Le tour des déclencheurs : heure, applications, Wi-Fi et Bluetooth, notifications, capteurs, touches physiques et plus encore."
+      },
+      "t03": {
+        "title": "Déclencher une tâche sans ouvrir l'appli",
+        "description": "Lancez une tâche depuis un bouton flottant, une touche de volume ou un geste sur le capteur d'empreinte."
+      },
+      "t04": {
+        "title": "Peut-on la lancer à heure fixe ou en boucle ?",
+        "description": "Programmer une tâche à une heure précise, de façon répétée ou selon les événements de l'agenda."
+      },
+      "a01-what": {
+        "title": "Que peut-elle vraiment faire sur mon téléphone ?",
+        "description": "Le tour des actions : réglages système, applications, médias, requêtes HTTP, presse-papiers, notifications et commandes Shizuku."
+      },
+      "e01": {
+        "title": "Une erreur ? Inutile de tout recommencer",
+        "description": "Ouvrez une tâche existante, changez un déclencheur ou une action, et gardez le reste."
+      },
+      "p01": {
+        "title": "L'onglet Accueil affiche « Service arrêté ». Où l'activer ?",
+        "description": "Activer le service d'accessibilité et les autres autorisations dont une tâche a besoin, étape par étape."
+      },
+      "p03": {
+        "title": "Le mode Shizuku, c'est quoi, et pourquoi s'affiche-t-il dans Accueil ?",
+        "description": "Ce que Shizuku ajoute au mode normal, quand vous en avez besoin et comment l'activer."
+      },
+      "m01": {
+        "title": "Tâche résidente ou unique : laquelle choisir ?",
+        "description": "La différence entre une tâche qui attend en arrière-plan et une tâche que vous lancez à la main."
+      },
+      "m02": {
+        "title": "Où sont passées mes tâches, et comment en arrêter une ?",
+        "description": "Retrouver vos tâches dans l'onglet Scènes et désactiver une tâche, ou une scène entière."
+      },
+      "e03": {
+        "title": "L'IA a créé quelque chose, mais pas ce que vous vouliez",
+        "description": "Que faire quand la tâche générée tombe à côté : reformuler, modifier les étapes ou partir d'une tâche prédéfinie."
+      },
+      "a01-ad": {
+        "title": "Configurer une automatisation ne devrait pas prendre 12 étapes",
+        "description": "Dites ce que vous voulez, WhenDo le construit. 17 secondes pour découvrir la création par IA."
+      },
+      "b03-ad": {
+        "title": "Trois lignes, et c'est une automatisation Android complète",
+        "description": "Quand, Si, Alors : une tâche complète en trois lignes."
+      },
+      "t01-ad": {
+        "title": "Votre téléphone peut réagir à presque tout",
+        "description": "Wi-Fi, écouteurs, heure, lieu, notifications : un aperçu rapide de ce qui peut déclencher une tâche."
+      }
     }
   },
   "products": {
@@ -389,6 +459,45 @@
         "description": "{name} comparé à PS Remote Play, PXPlay et Chiaki sur Android, fonctionnalité par fonctionnalité, faits uniquement.",
         "vsDescription": "{name} et {other} comparés sur Android, fonctionnalité par fonctionnalité : Remote Play hors de chez soi, HEVC et HDR, manettes, sortie TV, open source et prix.",
         "vsIntro": "Les deux relient un appareil Android à une PS5 ou une PS4. Voici ce qui les distingue, fonctionnalité par fonctionnalité."
+      }
+    },
+    "whendo": {
+      "kicker": "Automatisation · Sans root",
+      "heroPoints": [
+        "Décrivez une routine avec vos mots et l'IA crée chaque déclencheur, condition et action",
+        "Cliqueur automatique, enregistreur de gestes et plus de 250 déclencheurs : heure, lieu, applications, Wi-Fi, notifications",
+        "Des flux Quand, Si, Alors avec boucles et variables. Sans root, sans abonnement"
+      ],
+      "faqDescription": "Réponses sur WhenDo : pourquoi une tâche ne se lance pas, autorisations, création de tâches avec l'IA, déclencheurs, cliqueur automatique, sauvegardes et Shizuku.",
+      "faqNotFoundBody": "Écrivez-nous en indiquant votre modèle de téléphone, la tâche que vous avez créée et ce qui s'est passé. Une vraie personne lit chaque message.",
+      "support": {
+        "beforeItems": [
+          "Ouvrez la FAQ. La plupart des questions sur les tâches qui ne se lancent pas, les autorisations et le cliqueur automatique y trouvent leur réponse, avec les mêmes termes que dans l'application.",
+          "Regardez l'onglet Accueil : le service doit tourner, la tâche doit être activée et le service d'accessibilité autorisé. Si une tâche marchait puis s'est arrêtée, l'optimisation de la batterie est la cause habituelle ; la FAQ donne la marche à suivre.",
+          "Notez le déclencheur utilisé, l'application sur laquelle agit la tâche et ce qui s'est passé à l'écran. C'est ce qu'il nous faut pour reproduire le problème."
+        ],
+        "template": {
+          "phone": "Modèle du téléphone :",
+          "android": "Version d'Android :",
+          "task": "Tâche (ce qu'elle doit faire et son déclencheur) :",
+          "app": "Application sur laquelle agit la tâche, le cas échéant :",
+          "what": "Ce qui s'est passé, étape par étape :",
+          "pro": "Achat Pro : oui / non"
+        },
+        "refundBody": "WhenDo s'installe gratuitement. Si vous avez acheté Pro ou un pack Booster AI et qu'il ne fonctionne pas avec votre configuration, écrivez-nous dans les 7 jours suivant l'achat et nous vous rembourserons. Dites-nous ce que vous avez essayé : cela nous aide à corriger le problème pour les prochains utilisateurs."
+      },
+      "press": {
+        "description": "Faits, visuels et texte de présentation pour parler de WhenDo, l'application d'automatisation par IA, de clic automatique et de macros pour Android.",
+        "boilerplate": "WhenDo automatise un téléphone Android sans root : décrivez une routine avec vos mots et son IA crée l'automatisation, dont chaque déclencheur, condition et action reste modifiable ; ou construisez-la vous-même avec plus de 250 déclencheurs, un cliqueur automatique, un enregistreur de gestes et des flux Quand, Si, Alors. L'application est développée par DappleByte, un studio indépendant.",
+        "priceValue": "Installation gratuite, sans publicité. Les fonctions Pro se débloquent par un achat unique, et des crédits IA supplémentaires sont vendus en packs payés une seule fois ; il n'y a pas d'abonnement. Les prix actuels sont indiqués sur Google Play.",
+        "assetScreenshots": "Captures d'écran du téléphone, PNG, en anglais (portrait 1080 × 2400)"
+      },
+      "videosDescription": "De courtes vidéos de WhenDo sur un vrai téléphone : créer une tâche avec l'IA, les déclencheurs, Quand et Si, lancer une tâche sans ouvrir l'application, et les problèmes les plus courants.",
+      "privacyDescription": "Ce que WhenDo pour Android fait de vos données : pas de compte, ce qui reste sur l'appareil, ce qu'envoie la fonction IA, à quoi sert le service d'accessibilité et ce que collectent les statistiques d'utilisation.",
+      "compare": {
+        "description": "WhenDo comparé aux autres applications d'automatisation sur Android, fonctionnalité par fonctionnalité, uniquement des faits.",
+        "vsDescription": "{name} et {other} comparés sur Android, fonctionnalité par fonctionnalité : création de tâches par IA, cliqueur automatique, déclencheurs, root, publicité et prix.",
+        "vsIntro": "Les deux automatisent un téléphone Android. Voici en quoi ils diffèrent, fonctionnalité par fonctionnalité."
       }
     }
   }

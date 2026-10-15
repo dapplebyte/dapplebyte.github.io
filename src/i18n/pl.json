@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Niezależne aplikacje na Androida",
-    "description": "DappleByte to niezależne studio, które tworzy aplikacje na Androida: Gamepad Pro, maper przycisków, który zamienia pada w sterowanie dotykowe, oraz Relaypad, kontroler Remote Play i aplikację do strumieniowania obrazu z PS5 i PS4.",
+    "description": "DappleByte to niezależne studio, które tworzy aplikacje na Androida: Gamepad Pro, maper przycisków, który zamienia pada w sterowanie dotykowe; Relaypad, kontroler Remote Play i aplikację do strumieniowania obrazu z PS5 i PS4; oraz WhenDo, aplikację do automatyzacji z AI i klikaczem (auto clicker).",
     "appsHeading": "Aplikacje",
     "principlesHeading": "Jak pracujemy",
     "principles": [
@@ -202,7 +202,11 @@
       "backup-restore": "Kopia wszystkich układów do jednego pliku i przywracanie",
       "no-account": "Bez konta i logowania",
       "video-help": "FAQ w aplikacji z filmami instruktażowymi",
-      "pricing-model": "Model cenowy"
+      "pricing-model": "Model cenowy",
+      "ai-builder": "Tworzy całą automatyzację na podstawie opisu zwykłymi słowami",
+      "auto-clicker": "Klikacz z ustawianym odstępem i liczbą powtórzeń",
+      "gesture-recorder": "Nagrywa i odtwarza dotknięcia i przesunięcia",
+      "no-ads": "Bez reklam"
     },
     "values": {
       "yes": "Tak",
@@ -310,6 +314,72 @@
         "title": "Klawiatura się podmieniła — jak teraz pisać?",
         "description": "Dotknij ikony globusa, żeby wrócić do swojej klawiatury, albo włącz automatyczne przełączanie, żeby Gamepad Pro używał swojej klawiatury tylko wtedy, gdy działa mapowanie."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "Jak utworzyć zadanie z AI?",
+        "description": "Wpisz zwykłymi słowami, czego chcesz, pozwól WhenDo zbudować wyzwalacze, warunki i akcje, a potem sprawdź każdy krok przed włączeniem."
+      },
+      "b02": {
+        "title": "Nie chcę niczego budować. Jest coś gotowego?",
+        "description": "Otwórz Szablony, wybierz zadanie domyślne, uzupełnij jeden czy dwa szczegóły, o które prosi, i od razu działa."
+      },
+      "b03": {
+        "title": "Gdy, Jeśli, Następnie: co do czego służy?",
+        "description": "Ręczne tworzenie zadania: Gdy to wyzwalacz, Jeśli to warunek, Następnie to akcja."
+      },
+      "t01": {
+        "title": "Co właściwie może uruchomić automatyzację?",
+        "description": "Przegląd wyzwalaczy: czas, aplikacje, Wi-Fi i Bluetooth, powiadomienia, czujniki, przyciski fizyczne i nie tylko."
+      },
+      "t03": {
+        "title": "Uruchom zadanie bez otwierania aplikacji",
+        "description": "Uruchamianie zadania przyciskiem pływającym, klawiszem głośności albo gestem na czytniku linii papilarnych."
+      },
+      "t04": {
+        "title": "Czy zadanie może działać o stałej porze albo cyklicznie?",
+        "description": "Planowanie zadania według pory dnia, cyklicznie lub według wydarzeń w kalendarzu."
+      },
+      "a01-what": {
+        "title": "Co to właściwie potrafi zrobić z moim telefonem?",
+        "description": "Przegląd akcji: ustawienia systemu, aplikacje, multimedia, żądania HTTP, schowek, powiadomienia i sterowanie przez Shizuku."
+      },
+      "e01": {
+        "title": "Coś poszło nie tak? Nie musisz zaczynać od nowa",
+        "description": "Otwórz istniejące zadanie, zmień wyzwalacz lub akcję, a resztę zostaw bez zmian."
+      },
+      "p01": {
+        "title": "Pulpit nawigacyjny pokazuje, że usługa jest wyłączona. Gdzie ją włączyć?",
+        "description": "Włączanie usługi ułatwień dostępu i innych uprawnień potrzebnych zadaniu, krok po kroku."
+      },
+      "p03": {
+        "title": "Czym jest tryb Shizuku i czemu widzę go na pulpicie?",
+        "description": "Co Shizuku dodaje do zwykłego trybu, kiedy jest potrzebne i jak je włączyć."
+      },
+      "m01": {
+        "title": "Zadanie stałe czy jednorazowe: które wybrać?",
+        "description": "Różnica między zadaniem, które czeka w tle, a takim, które uruchamiasz ręcznie."
+      },
+      "m02": {
+        "title": "Gdzie są moje zadania i jak zatrzymać jedno z nich?",
+        "description": "Jak znaleźć zadania na karcie Sceny i wyłączyć jedno zadanie albo całą scenę."
+      },
+      "e03": {
+        "title": "AI coś zbudowało, ale nie to, o co chodziło",
+        "description": "Co zrobić, gdy wygenerowane zadanie się nie zgadza: sformułuj prośbę inaczej, popraw kroki albo zacznij od zadania domyślnego."
+      },
+      "a01-ad": {
+        "title": "Ustawienie automatyzacji nie powinno wymagać 12 kroków",
+        "description": "Powiedz, czego chcesz, a WhenDo to zbuduje. Tworzenie z AI w 17 sekund."
+      },
+      "b03-ad": {
+        "title": "Trzy linijki to cała automatyzacja na Androidzie",
+        "description": "Gdy, Jeśli, Następnie: kompletne zadanie w trzech linijkach."
+      },
+      "t01-ad": {
+        "title": "Twój telefon może reagować prawie na wszystko",
+        "description": "Wi-Fi, słuchawki, czas, lokalizacja, powiadomienia: szybki przegląd tego, co może uruchomić zadanie."
+      }
     }
   },
   "products": {
@@ -389,6 +459,45 @@
         "description": "Porównanie {name} z PS Remote Play, PXPlay i Chiaki na Androidzie: funkcja po funkcji, same fakty.",
         "vsDescription": "Porównanie {name} i {other} na Androidzie, funkcja po funkcji: Remote Play poza domem, HEVC i HDR, kontrolery, wyjście na TV, open source i cena.",
         "vsIntro": "Obie aplikacje łączą urządzenie z Androidem z PS5 lub PS4. Oto czym się różnią, funkcja po funkcji."
+      }
+    },
+    "whendo": {
+      "kicker": "Automatyzacja · Bez roota",
+      "heroPoints": [
+        "Opisz rutynę zwykłymi słowami, a AI zbuduje wszystkie wyzwalacze, warunki i akcje",
+        "Klikacz, nagrywanie gestów i ponad 250 wyzwalaczy: czas, lokalizacja, aplikacje, Wi-Fi, powiadomienia",
+        "Przepływy Gdy, Jeśli, Następnie z pętlami i zmiennymi. Bez roota, bez subskrypcji"
+      ],
+      "faqDescription": "Odpowiedzi o WhenDo: dlaczego zadanie się nie uruchamia, uprawnienia, tworzenie zadań z AI, wyzwalacze, klikacz, kopie zapasowe i Shizuku.",
+      "faqNotFoundBody": "Napisz do nas: podaj model telefonu, opisz utworzone zadanie i to, co się stało. Każdą wiadomość czyta człowiek.",
+      "support": {
+        "beforeItems": [
+          "Otwórz FAQ. Większość pytań o zadania, które się nie uruchamiają, uprawnienia i klikacz ma tam odpowiedź, w tych samych słowach co w aplikacji.",
+          "Zajrzyj na kartę Pulpit nawigacyjny: usługa musi działać, zadanie musi być włączone, a usługa ułatwień dostępu przyznana. Jeśli zadanie wcześniej działało, a potem przestało, zwykle winna jest optymalizacja baterii; kroki znajdziesz w FAQ.",
+          "Zapisz, jakiego wyzwalacza używa zadanie, na jakiej aplikacji działa i co stało się na ekranie. Tego potrzebujemy, żeby odtworzyć problem."
+        ],
+        "template": {
+          "phone": "Model telefonu:",
+          "android": "Wersja Androida:",
+          "task": "Zadanie (co ma robić i jaki ma wyzwalacz):",
+          "app": "Aplikacja, na której działa zadanie (jeśli jest):",
+          "what": "Co się stało, krok po kroku:",
+          "pro": "Zakup Pro: tak / nie"
+        },
+        "refundBody": "WhenDo instalujesz za darmo. Jeśli po zakupie Pro lub pakietu AI aplikacja nie działa z Twoim sprzętem, napisz do nas w ciągu 7 dni od zakupu, a zwrócimy pieniądze. Opisz, co już próbowano; to pomoże nam naprawić problem dla kolejnych osób."
+      },
+      "press": {
+        "description": "Fakty, materiały i notka do tekstów o WhenDo, aplikacji na Androida do automatyzacji z AI, z klikaczem (auto clicker) i makrami.",
+        "boilerplate": "WhenDo automatyzuje telefon z Androidem bez roota: wystarczy opisać rutynę zwykłymi słowami, a AI zbuduje automatyzację, w której każdy wyzwalacz, warunek i akcję można edytować. Można też złożyć ją samodzielnie z ponad 250 wyzwalaczy, klikacza, nagrywania gestów i przepływów Gdy, Jeśli, Następnie. Aplikację tworzy DappleByte, niezależne studio.",
+        "priceValue": "Instalacja za darmo, bez reklam. Funkcje Pro odblokowuje jednorazowy zakup, a dodatkowe kredyty AI kupuje się w jednorazowych pakietach; nie ma subskrypcji. Aktualne ceny są podane w Google Play.",
+        "assetScreenshots": "Zrzuty ekranu z telefonu, PNG, po angielsku (pionowe 1080 × 2400)"
+      },
+      "videosDescription": "Krótkie filmy pokazujące WhenDo na prawdziwym telefonie: tworzenie zadania z AI, wyzwalacze, Gdy i Jeśli, uruchamianie zadania bez otwierania aplikacji i najczęstsze problemy.",
+      "privacyDescription": "Co WhenDo na Androida robi z Twoimi danymi: bez konta, co zostaje na urządzeniu, co wysyła funkcja AI, do czego służy usługa ułatwień dostępu i co zbierają statystyki.",
+      "compare": {
+        "description": "Jak WhenDo wypada na tle innych aplikacji do automatyzacji na Androida, funkcja po funkcji, same fakty.",
+        "vsDescription": "{name} i {other} na Androidzie, porównanie funkcja po funkcji: tworzenie zadań z AI, klikacz, wyzwalacze, root, reklamy i ceny.",
+        "vsIntro": "Obie automatyzują telefon z Androidem. Oto czym się różnią, funkcja po funkcji."
       }
     }
   }

@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Apps independientes para Android",
-    "description": "DappleByte es un estudio independiente que hace apps para Android: Gamepad Pro, un mapeador de botones que convierte un control en controles táctiles, y Relaypad, una app de control por Remote Play y transmisión de la consola para PS5 y PS4.",
+    "description": "DappleByte es un estudio independiente que hace apps para Android: Gamepad Pro, un mapeador de botones que convierte un control en controles táctiles; Relaypad, una app de control por Remote Play y transmisión de la consola para PS5 y PS4; y WhenDo, una app de automatización con IA y clic automático.",
     "appsHeading": "Apps",
     "principlesHeading": "Cómo trabajamos",
     "principles": [
@@ -202,7 +202,11 @@
       "backup-restore": "Copia de seguridad de todos los esquemas en un archivo y restauración",
       "no-account": "Sin cuenta ni inicio de sesión",
       "video-help": "Preguntas frecuentes en la app con videos",
-      "pricing-model": "Modelo de precio"
+      "pricing-model": "Modelo de precio",
+      "ai-builder": "Crea una automatización completa a partir de una descripción con tus palabras",
+      "auto-clicker": "Clic automático con intervalo de clic y número de repeticiones",
+      "gesture-recorder": "Graba y reproduce toques y deslizamientos",
+      "no-ads": "Sin anuncios"
     },
     "values": {
       "yes": "Sí",
@@ -310,6 +314,72 @@
         "title": "El teclado tomó el control: ¿cómo escribo ahora?",
         "description": "Toca el globo para volver a tu teclado de siempre, o activa el cambio automático para que Gamepad Pro use su teclado solo mientras el mapeo está activo."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "¿Cómo creo una tarea con IA?",
+        "description": "Escribe lo que quieres con tus palabras, deja que WhenDo arme los disparadores, las condiciones y las acciones, y revisa cada paso antes de activarla."
+      },
+      "b02": {
+        "title": "No quiero armar nada. ¿Hay algo ya hecho?",
+        "description": "Abre Plantillas, elige una tarea predefinida, completa el dato o los dos que te pide y listo, ya está activa."
+      },
+      "b03": {
+        "title": "Cuando, Si, Entonces: ¿qué hace cada uno?",
+        "description": "Crear una tarea a mano: Cuando es el disparador, Si es la condición y Entonces es la acción."
+      },
+      "t01": {
+        "title": "¿Qué puede poner en marcha una automatización?",
+        "description": "Un recorrido por los disparadores: hora, apps, Wi-Fi y Bluetooth, notificaciones, sensores, botones físicos y más."
+      },
+      "t03": {
+        "title": "Activa una tarea sin abrir la app",
+        "description": "Inicia una tarea desde un botón flotante, una tecla de volumen o un gesto en el sensor de huellas."
+      },
+      "t04": {
+        "title": "¿Puede ejecutarse a una hora fija o repetirse?",
+        "description": "Programar una tarea a una hora del día, de forma repetida o según los eventos del calendario."
+      },
+      "a01-what": {
+        "title": "¿Qué puede hacer realmente con mi teléfono?",
+        "description": "Un recorrido por las acciones: ajustes del sistema, apps, multimedia, solicitudes HTTP, portapapeles, notificaciones y controles de Shizuku."
+      },
+      "e01": {
+        "title": "¿Te salió mal? No tienes que empezar de cero",
+        "description": "Abre una tarea que ya existe, cambia un disparador o una acción y conserva el resto."
+      },
+      "p01": {
+        "title": "Inicio dice «Servicio detenido». ¿Dónde lo activo?",
+        "description": "Cómo activar el servicio de accesibilidad y los demás permisos que necesita una tarea, paso a paso."
+      },
+      "p03": {
+        "title": "¿Qué es el modo Shizuku y por qué aparece en Inicio?",
+        "description": "Qué añade Shizuku al modo normal, cuándo lo necesitas y cómo activarlo."
+      },
+      "m01": {
+        "title": "Tarea residente o de una sola vez: ¿cuál elijo?",
+        "description": "La diferencia entre una tarea que espera en segundo plano y una que ejecutas a mano."
+      },
+      "m02": {
+        "title": "¿Dónde quedaron mis tareas y cómo detengo una?",
+        "description": "Encontrar tus tareas en la pestaña Escenas y desactivar una tarea o una escena entera."
+      },
+      "e03": {
+        "title": "La IA creó algo, pero no lo que pediste",
+        "description": "Qué hacer cuando la tarea generada no da en el clavo: reformula, edita los pasos o empieza desde una tarea predefinida."
+      },
+      "a01-ad": {
+        "title": "Configurar una automatización no debería llevar 12 pasos",
+        "description": "Di lo que quieres y WhenDo lo arma. Un vistazo de 17 segundos a la creación con IA."
+      },
+      "b03-ad": {
+        "title": "Tres líneas son una automatización completa de Android",
+        "description": "Cuando, Si, Entonces: una tarea completa en tres líneas."
+      },
+      "t01-ad": {
+        "title": "Tu teléfono puede reaccionar a casi todo",
+        "description": "Wi-Fi, auriculares, hora, ubicación, notificaciones: un vistazo rápido a lo que puede activar una tarea."
+      }
     }
   },
   "products": {
@@ -389,6 +459,45 @@
         "description": "Cómo se compara {name} con PS Remote Play, PXPlay y Chiaki en Android, función por función y solo con datos.",
         "vsDescription": "{name} y {other} comparadas en Android, función por función: Remote Play fuera de casa, HEVC y HDR, mandos, salida a la TV, código abierto y precio.",
         "vsIntro": "Ambas conectan un dispositivo Android a una PS5 o PS4. Estas son sus diferencias, función por función."
+      }
+    },
+    "whendo": {
+      "kicker": "Automatización · Sin root",
+      "heroPoints": [
+        "Describe una rutina con tus palabras y la IA arma cada disparador, condición y acción",
+        "Clic automático, grabador de gestos y más de 250 disparadores: hora, ubicación, apps, Wi-Fi, notificaciones",
+        "Flujos Cuando, Si, Entonces con bucles y variables. Sin root y sin suscripción"
+      ],
+      "faqDescription": "Respuestas sobre WhenDo: por qué una tarea no se ejecuta, permisos, cómo crear tareas con IA, disparadores, el clic automático, copias de seguridad y Shizuku.",
+      "faqNotFoundBody": "Escríbenos con el modelo de tu teléfono, la tarea que creaste y lo que pasó. Una persona lee cada mensaje.",
+      "support": {
+        "beforeItems": [
+          "Abre las preguntas frecuentes. Ahí se responden la mayoría de las dudas sobre tareas que no se ejecutan, permisos y el clic automático, con las mismas palabras que en la app.",
+          "Revisa la pestaña Inicio: el servicio tiene que estar en marcha, la tarea activada y el servicio de accesibilidad concedido. Si una tarea funcionaba y dejó de hacerlo, casi siempre es la optimización de batería; los pasos están en las preguntas frecuentes.",
+          "Anota qué disparador usaste, en qué app actúa la tarea y qué pasó en pantalla. Eso es lo que necesitamos para reproducir el problema."
+        ],
+        "template": {
+          "phone": "Modelo del teléfono:",
+          "android": "Versión de Android:",
+          "task": "Tarea (qué debería hacer y cuál es su disparador):",
+          "app": "App en la que actúa la tarea, si aplica:",
+          "what": "Qué pasó, paso a paso:",
+          "pro": "Compra de Pro: sí / no"
+        },
+        "refundBody": "WhenDo se instala gratis. Si compraste Pro o un paquete AI Booster y no funciona con tu configuración, escríbenos en los 7 días siguientes a la compra y te devolvemos el dinero. Cuéntanos qué probaste; nos ayuda a arreglarlo para la próxima persona."
+      },
+      "press": {
+        "description": "Datos, recursos y un texto de presentación para escribir sobre WhenDo, la app de automatización con IA, clic automático y macros para Android.",
+        "boilerplate": "WhenDo automatiza un teléfono Android sin root: describes una rutina con tus palabras y su IA crea la automatización, con cada disparador, condición y acción editable, o la armas tú mismo con más de 250 disparadores, clic automático, un grabador de gestos y flujos Cuando, Si, Entonces. Lo hace DappleByte, un estudio independiente.",
+        "priceValue": "Se instala gratis, sin anuncios. Las funciones Pro se desbloquean con una compra única y los usos extra de IA se venden en paquetes de pago único; no hay suscripción. Los precios actuales aparecen en Google Play.",
+        "assetScreenshots": "Capturas de pantalla del teléfono, PNG, en inglés (vertical 1080 × 2400)"
+      },
+      "videosDescription": "Videos cortos de WhenDo en un teléfono real: cómo crear una tarea con IA, los disparadores, Cuando y Si, cómo iniciar una tarea sin abrir la app y los problemas más comunes.",
+      "privacyDescription": "Qué hace WhenDo para Android con tus datos: sin cuenta, qué se queda en el dispositivo, qué envía la función de IA, para qué se usa el servicio de accesibilidad y qué recopilan las analíticas.",
+      "compare": {
+        "description": "Cómo se compara WhenDo con otras apps de automatización en Android, función por función, solo datos.",
+        "vsDescription": "{name} y {other} comparadas en Android, función por función: creación de tareas con IA, clic automático, disparadores, root, anuncios y precio.",
+        "vsIntro": "Las dos automatizan un teléfono Android. Aquí ves en qué se diferencian, función por función."
       }
     }
   }

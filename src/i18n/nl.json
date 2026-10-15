@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Onafhankelijke Android-apps",
-    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening, en Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play.",
+    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; en WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker).",
     "appsHeading": "Apps",
     "principlesHeading": "Hoe we werken",
     "principles": [
@@ -202,7 +202,11 @@
       "backup-restore": "Alle indelingen in één bestand back-uppen en terugzetten",
       "no-account": "Geen account of aanmelding",
       "video-help": "FAQ in de app met video-uitleg",
-      "pricing-model": "Prijsmodel"
+      "pricing-model": "Prijsmodel",
+      "ai-builder": "Bouwt een complete automatisering uit een beschrijving in gewone woorden",
+      "auto-clicker": "Klikgenerator met klikinterval en aantal herhalingen",
+      "gesture-recorder": "Neemt tikken en swipes op en speelt ze af",
+      "no-ads": "Geen advertenties"
     },
     "values": {
       "yes": "Ja",
@@ -310,6 +314,72 @@
         "title": "Toetsenbord overgenomen? Zo typ je weer",
         "description": "Tik op de wereldbol om terug te gaan naar je eigen toetsenbord, of zet automatisch wisselen aan, zodat Gamepad Pro zijn toetsenbord alleen gebruikt zolang mappings actief zijn."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "Hoe maak ik een taak met AI?",
+        "description": "Typ in gewone woorden wat je wilt, laat WhenDo de triggers, voorwaarden en acties bouwen en controleer elke stap voordat je hem aanzet."
+      },
+      "b02": {
+        "title": "Ik wil niks zelf bouwen. Is er iets kant-en-klaars?",
+        "description": "Open Sjablonen, kies een preset, vul de een of twee gegevens in waar hij om vraagt en hij staat aan."
+      },
+      "b03": {
+        "title": "Wanneer, Als, Dan: wat doet wat?",
+        "description": "Zelf een taak bouwen: Wanneer is de trigger, Als is de voorwaarde, Dan is de actie."
+      },
+      "t01": {
+        "title": "Waarmee kun je een automatisering eigenlijk starten?",
+        "description": "Een rondje langs de triggers: tijd, apps, Wi-Fi en Bluetooth, meldingen, sensoren, fysieke toetsen en meer."
+      },
+      "t03": {
+        "title": "Een taak starten zonder de app te openen",
+        "description": "Start een taak met een zwevende knop, een volumetoets of een vingerafdrukgebaar."
+      },
+      "t04": {
+        "title": "Kan het op een vast tijdstip of steeds opnieuw?",
+        "description": "Een taak plannen op tijdstip, als herhaling of op agenda-afspraken."
+      },
+      "a01-what": {
+        "title": "Wat kan het eigenlijk allemaal met mijn telefoon?",
+        "description": "Een rondje langs de acties: systeeminstellingen, apps, media, HTTP-verzoeken, klembord, meldingen en Shizuku-besturing."
+      },
+      "e01": {
+        "title": "Verkeerd gebouwd? Je hoeft niet opnieuw te beginnen",
+        "description": "Open een bestaande taak, wijzig een trigger of actie en laat de rest staan."
+      },
+      "p01": {
+        "title": "Op Start staat dat de service uit is. Waar zet ik die aan?",
+        "description": "De toegankelijkheidsservice en de andere machtigingen die een taak nodig heeft aanzetten, stap voor stap."
+      },
+      "p03": {
+        "title": "Wat is Shizuku-modus en waarom staat die op mijn Start-scherm?",
+        "description": "Wat Shizuku toevoegt aan de normale modus, wanneer je het nodig hebt en hoe je het aanzet."
+      },
+      "m01": {
+        "title": "Blijvend of eenmalig: welke kies ik?",
+        "description": "Het verschil tussen een taak die op de achtergrond wacht en een taak die je zelf start."
+      },
+      "m02": {
+        "title": "Waar zijn mijn taken gebleven en hoe stop ik er een?",
+        "description": "Je taken vinden op het tabblad Scènes en één taak of een hele scène uitzetten."
+      },
+      "e03": {
+        "title": "De AI heeft iets gebouwd, alleen niet wat je vroeg",
+        "description": "Wat je doet als de gemaakte taak niet klopt: anders formuleren, de stappen aanpassen of beginnen met een preset."
+      },
+      "a01-ad": {
+        "title": "Een automatisering instellen hoort geen 12 stappen te kosten",
+        "description": "Zeg wat je wilt en WhenDo bouwt het. De AI-bouwer in 17 seconden."
+      },
+      "b03-ad": {
+        "title": "Drie regels en je hebt een complete Android-automatisering",
+        "description": "Wanneer, Als, Dan: een complete taak in drie regels."
+      },
+      "t01-ad": {
+        "title": "Je telefoon kan op bijna alles reageren",
+        "description": "Wi-Fi, koptelefoon, tijd, locatie, meldingen: snel zien wat een taak kan starten."
+      }
     }
   },
   "products": {
@@ -389,6 +459,45 @@
         "description": "Hoe {name} zich verhoudt tot PS Remote Play, PXPlay en Chiaki op Android: functie voor functie, alleen feiten.",
         "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: Remote Play onderweg, HEVC en HDR, controllers, tv-uitvoer, open source en prijs.",
         "vsIntro": "Allebei verbinden ze een Android-apparaat met een PS5 of PS4. Dit zijn de verschillen, functie voor functie."
+      }
+    },
+    "whendo": {
+      "kicker": "Automatisering · Zonder root",
+      "heroPoints": [
+        "Beschrijf een routine in gewone woorden en de AI bouwt elke trigger, voorwaarde en actie",
+        "Klikgenerator, gebaren opnemen en 250+ triggers: tijd, locatie, apps, Wi-Fi, meldingen",
+        "Workflows met Wanneer, Als en Dan, plus lussen en variabelen. Zonder root, zonder abonnement"
+      ],
+      "faqDescription": "Antwoorden over WhenDo: waarom een taak niet start, machtigingen, taken bouwen met AI, triggers, de klikgenerator, back-ups en Shizuku.",
+      "faqNotFoundBody": "Schrijf ons met je telefoonmodel, de taak die je hebt gebouwd en wat er gebeurde. Elk bericht wordt door een mens gelezen.",
+      "support": {
+        "beforeItems": [
+          "Open de FAQ. De meeste vragen over taken die niet starten, machtigingen en de klikgenerator worden daar beantwoord, in dezelfde woorden als in de app.",
+          "Kijk op het Start-scherm: de service moet draaien, de taak moet aan staan en de toegankelijkheidsservice moet toegestaan zijn. Werkte een taak eerst wel en nu niet meer, dan zit batterijoptimalisatie er meestal achter; de stappen staan in de FAQ.",
+          "Noteer welke trigger je hebt gebruikt, in welke app de taak iets doet en wat er op het scherm gebeurde. Dat hebben we nodig om het probleem na te bootsen."
+        ],
+        "template": {
+          "phone": "Telefoonmodel:",
+          "android": "Android-versie:",
+          "task": "Taak (wat hij moet doen en met welke trigger):",
+          "app": "App waarin de taak iets doet, indien van toepassing:",
+          "what": "Wat er gebeurde, stap voor stap:",
+          "pro": "Pro gekocht: ja / nee"
+        },
+        "refundBody": "WhenDo installeer je gratis. Heb je Pro of een AI-pakket gekocht en werkt het niet met jouw opstelling, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen."
+      },
+      "press": {
+        "description": "Feiten, beeldmateriaal en een standaardtekst om over WhenDo te schrijven, de Android-app voor automatisering met AI, een klikgenerator (auto clicker) en macro's.",
+        "boilerplate": "WhenDo automatiseert een Android-telefoon zonder root: beschrijf een routine in gewone woorden en de AI bouwt de automatisering, waarbij elke trigger, voorwaarde en actie aan te passen is. Of bouw hem zelf met 250+ triggers, een klikgenerator, gebaren opnemen en workflows met Wanneer, Als en Dan. WhenDo is gemaakt door DappleByte, een onafhankelijke studio.",
+        "priceValue": "Gratis te installeren, zonder advertenties. Pro-functies ontgrendel je met een eenmalige aankoop, en extra AI-tegoed koop je in losse pakketten; er is geen abonnement. De actuele prijzen staan op Google Play.",
+        "assetScreenshots": "Telefoonscreenshots, PNG, Engels (staand 1080 × 2400)"
+      },
+      "videosDescription": "Korte video's van WhenDo op een echte telefoon: een taak bouwen met AI, triggers, Wanneer en Als, een taak starten zonder de app te openen en de meest voorkomende problemen.",
+      "privacyDescription": "Wat WhenDo voor Android met je gegevens doet: geen account, wat op het apparaat blijft, wat de AI-functie verstuurt, waarvoor de toegankelijkheidsservice dient en wat de statistieken verzamelen.",
+      "compare": {
+        "description": "Hoe WhenDo zich verhoudt tot andere automatiseringsapps op Android, functie voor functie, alleen feiten.",
+        "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: taken bouwen met AI, klikgenerator, triggers, root, advertenties en prijs.",
+        "vsIntro": "Beide automatiseren een Android-telefoon. Hier zie je waarin ze verschillen, functie voor functie."
       }
     }
   }

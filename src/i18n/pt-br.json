@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Apps independentes para Android",
-    "description": "A DappleByte é um estúdio independente que faz apps para Android: o Gamepad Pro, um mapeador de botões que transforma um controle em comandos de toque, e o Relaypad, um controle de Remote Play e app de transmissão do console para PS5 e PS4.",
+    "description": "A DappleByte é um estúdio independente que faz apps para Android: o Gamepad Pro, um mapeador de botões que transforma um controle em comandos de toque; o Relaypad, um controle de Remote Play e app de transmissão do console para PS5 e PS4; e o WhenDo, um app de automação com AI e clique automático (auto clicker).",
     "appsHeading": "Apps",
     "principlesHeading": "Como trabalhamos",
     "principles": [
@@ -202,7 +202,11 @@
       "backup-restore": "Backup de todos os esquemas em um arquivo e restauração",
       "no-account": "Sem conta nem login",
       "video-help": "FAQ no app com vídeos passo a passo",
-      "pricing-model": "Modelo de preço"
+      "pricing-model": "Modelo de preço",
+      "ai-builder": "Cria uma automação inteira a partir de uma descrição em palavras simples",
+      "auto-clicker": "Clique automático com intervalo e número de repetições",
+      "gesture-recorder": "Grava e repete toques e deslizes",
+      "no-ads": "Sem anúncios"
     },
     "values": {
       "yes": "Sim",
@@ -310,6 +314,72 @@
         "title": "O teclado tomou conta: como eu digito agora?",
         "description": "Toque no globo para voltar ao seu teclado, ou ative a troca automática para o Gamepad Pro usar o teclado dele só enquanto os mapeamentos estão ativos."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "Como criar uma tarefa com AI?",
+        "description": "Digite o que você quer com suas palavras, deixe o WhenDo montar os gatilhos, as condições e as ações e revise cada etapa antes de ativar."
+      },
+      "b02": {
+        "title": "Não quero montar nada. Tem alguma pronta?",
+        "description": "Abra Modelos, escolha uma tarefa pré-definida, preencha os um ou dois dados que ela pede e ela já fica ativa."
+      },
+      "b03": {
+        "title": "Quando, Se, Então: quem faz o quê?",
+        "description": "Montando uma tarefa à mão: Quando é o gatilho, Se é a condição, Então é a ação."
+      },
+      "t01": {
+        "title": "O que pode disparar uma automação, afinal?",
+        "description": "Um tour pelos gatilhos: horário, apps, Wi-Fi e Bluetooth, notificações, sensores, teclas físicas e mais."
+      },
+      "t03": {
+        "title": "Acione uma tarefa sem abrir o app",
+        "description": "Inicie uma tarefa por um botão flutuante, uma tecla de volume ou um gesto no leitor de digital."
+      },
+      "t04": {
+        "title": "Dá para rodar num horário fixo ou repetir?",
+        "description": "Como agendar uma tarefa por horário, com repetição ou por eventos da agenda."
+      },
+      "a01-what": {
+        "title": "O que ele consegue fazer no meu celular, de verdade?",
+        "description": "Um tour pelas ações: configurações do sistema, apps, mídia, requisições HTTP, área de transferência, notificações e controles via Shizuku."
+      },
+      "e01": {
+        "title": "Montou errado? Não precisa começar do zero",
+        "description": "Abra uma tarefa que já existe, troque um gatilho ou uma ação e mantenha o resto."
+      },
+      "p01": {
+        "title": "A tela Início diz que o serviço está parado. Onde eu ligo?",
+        "description": "Como ativar o serviço de acessibilidade e as outras permissões de que uma tarefa precisa, passo a passo."
+      },
+      "p03": {
+        "title": "O que é o modo Shizuku e por que ele aparece na tela Início?",
+        "description": "O que o Shizuku acrescenta ao modo normal, quando você precisa dele e como ativar."
+      },
+      "m01": {
+        "title": "Residente ou única: qual escolher?",
+        "description": "A diferença entre uma tarefa que fica esperando em segundo plano e uma que você roda manualmente."
+      },
+      "m02": {
+        "title": "Cadê minhas tarefas e como eu paro uma?",
+        "description": "Como achar suas tarefas na aba Cenas e desligar uma tarefa ou uma cena inteira."
+      },
+      "e03": {
+        "title": "A AI criou alguma coisa, só que não o que você pediu",
+        "description": "O que fazer quando a tarefa gerada não saiu certa: reformule o pedido, edite as etapas ou comece por uma tarefa pré-definida."
+      },
+      "a01-ad": {
+        "title": "Configurar uma automação não deveria levar 12 passos",
+        "description": "Diga o que você quer e o WhenDo monta. Uma olhada de 17 segundos no criador com AI."
+      },
+      "b03-ad": {
+        "title": "Três linhas e você tem uma automação Android completa",
+        "description": "Quando, Se, Então: uma tarefa completa em três linhas."
+      },
+      "t01-ad": {
+        "title": "Seu celular pode reagir a quase tudo",
+        "description": "Wi-Fi, fone de ouvido, horário, localização, notificações: uma olhada rápida no que pode disparar uma tarefa."
+      }
     }
   },
   "products": {
@@ -389,6 +459,45 @@
         "description": "Como o {name} se compara ao PS Remote Play, PXPlay e Chiaki no Android, recurso por recurso, só com fatos.",
         "vsDescription": "{name} e {other} comparados no Android, recurso por recurso: Remote Play fora de casa, HEVC e HDR, controles, saída para TV, código aberto e preço.",
         "vsIntro": "Os dois conectam um dispositivo Android a um PS5 ou PS4. Veja onde eles se diferenciam, recurso por recurso."
+      }
+    },
+    "whendo": {
+      "kicker": "Automação · Sem root",
+      "heroPoints": [
+        "Descreva uma rotina com suas palavras e a AI monta cada gatilho, condição e ação",
+        "Clique automático, gravador de gestos e mais de 250 gatilhos: horário, localização, apps, Wi-Fi, notificações",
+        "Fluxos Quando, Se, Então com loops e variáveis. Sem root, sem assinatura"
+      ],
+      "faqDescription": "Respostas sobre o WhenDo: por que uma tarefa não roda, permissões, criar tarefas com AI, gatilhos, clique automático, backups e Shizuku.",
+      "faqNotFoundBody": "Escreva para a gente com o modelo do celular, a tarefa que você criou e o que aconteceu. Toda mensagem é lida por uma pessoa.",
+      "support": {
+        "beforeItems": [
+          "Abra o FAQ. A maioria das dúvidas sobre tarefas que não rodam, permissões e clique automático tem resposta lá, com as mesmas palavras do app.",
+          "Confira a tela Início: o serviço precisa estar rodando, a tarefa ativada e o serviço de acessibilidade permitido. Se uma tarefa funcionava e parou, quase sempre a culpa é da otimização de bateria; o FAQ tem o passo a passo.",
+          "Anote qual gatilho você usou, em qual app a tarefa age e o que aconteceu na tela. É disso que a gente precisa para reproduzir o problema."
+        ],
+        "template": {
+          "phone": "Modelo do celular:",
+          "android": "Versão do Android:",
+          "task": "Tarefa (o que ela deveria fazer e qual é o gatilho):",
+          "app": "App em que a tarefa age, se houver:",
+          "what": "O que aconteceu, passo a passo:",
+          "pro": "Comprou o Pro: sim / não"
+        },
+        "refundBody": "O WhenDo é grátis para instalar. Se você comprou o Pro ou um pacote de AI e ele não funcionar com a sua configuração, mande um e-mail em até 7 dias após a compra e devolvemos o valor. Conte o que você tentou; isso ajuda a gente a resolver para a próxima pessoa."
+      },
+      "press": {
+        "description": "Fatos, materiais e um texto padrão para escrever sobre o WhenDo, o app de automação com AI, clique automático e macros para Android.",
+        "boilerplate": "O WhenDo automatiza um celular Android sem root: descreva uma rotina com suas palavras e a AI monta a automação, com cada gatilho, condição e ação editável. Ou monte você mesmo com mais de 250 gatilhos, clique automático, gravador de gestos e fluxos Quando, Se, Então. O app é feito pela DappleByte, um estúdio independente.",
+        "priceValue": "Grátis para instalar, sem anúncios. Os recursos Pro são liberados com uma compra única, e créditos extras de AI vêm em pacotes avulsos; não tem assinatura. Os preços atuais aparecem no Google Play.",
+        "assetScreenshots": "Capturas de tela do celular, PNG, em inglês (retrato 1080 × 2400)"
+      },
+      "videosDescription": "Vídeos curtos mostrando o WhenDo num celular de verdade: como criar uma tarefa com AI, gatilhos, Quando e Se, como iniciar uma tarefa sem abrir o app e os problemas mais comuns.",
+      "privacyDescription": "O que o WhenDo para Android faz com seus dados: sem conta, o que fica no aparelho, o que o recurso de AI envia, para que serve o serviço de acessibilidade e o que as estatísticas coletam.",
+      "compare": {
+        "description": "Como o WhenDo se compara a outros apps de automação no Android, recurso por recurso, só fatos.",
+        "vsDescription": "{name} e {other} comparados no Android, recurso por recurso: criação de tarefas com AI, clique automático, gatilhos, root, anúncios e preço.",
+        "vsIntro": "Os dois automatizam um celular Android. Veja onde eles diferem, recurso por recurso."
       }
     }
   }

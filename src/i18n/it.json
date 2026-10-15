@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · App indipendenti per Android",
-    "description": "DappleByte è uno studio indipendente che crea app per Android: Gamepad Pro, un mappatore di tasti che trasforma un controller in comandi touch, e Relaypad, un controller Remote Play e app di streaming della console per PS5 e PS4.",
+    "description": "DappleByte è uno studio indipendente che crea app per Android: Gamepad Pro, un mappatore di tasti che trasforma un controller in comandi touch; Relaypad, un controller Remote Play e app di streaming della console per PS5 e PS4; e WhenDo, un'app di automazione con AI e auto clicker.",
     "appsHeading": "App",
     "principlesHeading": "Come lavoriamo",
     "principles": [
@@ -202,7 +202,11 @@
       "backup-restore": "Backup di tutti gli schemi in un file e ripristino",
       "no-account": "Nessun account né accesso",
       "video-help": "FAQ nell'app con video guida",
-      "pricing-model": "Modello di prezzo"
+      "pricing-model": "Modello di prezzo",
+      "ai-builder": "Crea un'automazione completa da una descrizione a parole",
+      "auto-clicker": "Auto clicker con intervallo e numero di ripetizioni",
+      "gesture-recorder": "Registra e riproduce tocchi e scorrimenti",
+      "no-ads": "Senza pubblicità"
     },
     "values": {
       "yes": "Sì",
@@ -310,6 +314,72 @@
         "title": "La tastiera ha preso il controllo: come scrivo ora?",
         "description": "Tocca il globo per tornare alla tua tastiera, oppure attiva il cambio automatico così Gamepad Pro usa la sua tastiera solo mentre le mappature sono attive."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "Come creo un'attività con l'AI?",
+        "description": "Scrivi a parole tue cosa vuoi, lascia che WhenDo crei trigger, condizioni e azioni, poi controlla ogni passaggio prima di attivarla."
+      },
+      "b02": {
+        "title": "Non ho voglia di costruire niente. C'è qualcosa di già pronto?",
+        "description": "Apri Modelli, scegli un'attività predefinita, inserisci uno o due dati che ti chiede e parte subito."
+      },
+      "b03": {
+        "title": "Quando, Se, Allora: chi fa cosa?",
+        "description": "Creare un'attività a mano: Quando è il trigger, Se è la condizione, Allora è l'azione."
+      },
+      "t01": {
+        "title": "Cosa può far partire un'automazione?",
+        "description": "Una panoramica dei trigger: ora, app, Wi-Fi e Bluetooth, notifiche, sensori, tasti fisici e altro."
+      },
+      "t03": {
+        "title": "Avviare un'attività senza aprire l'app",
+        "description": "Avvia un'attività da un pulsante mobile, da un tasto del volume o con un gesto sul sensore di impronte."
+      },
+      "t04": {
+        "title": "Può partire a un orario fisso o a ripetizione?",
+        "description": "Pianificare un'attività in base all'ora, a ripetizione o agli eventi del calendario."
+      },
+      "a01-what": {
+        "title": "Cosa può fare davvero sul mio telefono?",
+        "description": "Una panoramica delle azioni: impostazioni di sistema, app, contenuti multimediali, richieste HTTP, appunti, notifiche e controlli Shizuku."
+      },
+      "e01": {
+        "title": "Hai sbagliato qualcosa? Non serve ricominciare da capo",
+        "description": "Apri un'attività esistente, cambia un trigger o un'azione e lascia il resto com'è."
+      },
+      "p01": {
+        "title": "La Home dice che il servizio è fermo. Dove lo attivo?",
+        "description": "Attivare il servizio di accessibilità e le altre autorizzazioni che servono a un'attività, passo per passo."
+      },
+      "p03": {
+        "title": "Cos'è la modalità Shizuku e perché compare nella Home?",
+        "description": "Cosa aggiunge Shizuku alla modalità normale, quando serve e come attivarla."
+      },
+      "m01": {
+        "title": "Residente o singola: quale scelgo?",
+        "description": "La differenza tra un'attività che resta in attesa in background e una che avvii a mano."
+      },
+      "m02": {
+        "title": "Dove sono finite le mie attività e come ne fermo una?",
+        "description": "Trovare le attività nella scheda Scene e disattivarne una, o un'intera scena."
+      },
+      "e03": {
+        "title": "L'AI ha creato qualcosa, ma non quello che volevi",
+        "description": "Cosa fare quando l'attività generata non va: riformula la richiesta, modifica i passaggi o parti da un'attività predefinita."
+      },
+      "a01-ad": {
+        "title": "Impostare un'automazione non dovrebbe richiedere 12 passaggi",
+        "description": "Di' cosa ti serve e WhenDo la crea. Il generatore AI in 17 secondi."
+      },
+      "b03-ad": {
+        "title": "Bastano tre righe per un'automazione Android completa",
+        "description": "Quando, Se, Allora: un'attività completa in tre righe."
+      },
+      "t01-ad": {
+        "title": "Il tuo telefono può reagire quasi a tutto",
+        "description": "Wi-Fi, cuffie, ora, posizione, notifiche: un colpo d'occhio su cosa può avviare un'attività."
+      }
     }
   },
   "products": {
@@ -389,6 +459,45 @@
         "description": "Come si confronta {name} con PS Remote Play, PXPlay e Chiaki su Android, funzione per funzione, solo fatti.",
         "vsDescription": "{name} e {other} a confronto su Android, funzione per funzione: Remote Play fuori casa, HEVC e HDR, controller, uscita TV, open source e prezzo.",
         "vsIntro": "Entrambe collegano un dispositivo Android a una PS5 o PS4. Ecco dove si differenziano, funzione per funzione."
+      }
+    },
+    "whendo": {
+      "kicker": "Automazione · Senza root",
+      "heroPoints": [
+        "Descrivi una routine a parole tue e l'AI crea ogni trigger, condizione e azione",
+        "Auto clicker, registrazione dei gesti e oltre 250 trigger: ora, posizione, app, Wi-Fi, notifiche",
+        "Flussi Quando, Se, Allora con cicli e variabili. Senza root, senza abbonamento"
+      ],
+      "faqDescription": "Risposte su WhenDo: perché un'attività non parte, autorizzazioni, creare attività con l'AI, trigger, auto clicker, backup e Shizuku.",
+      "faqNotFoundBody": "Scrivici indicando modello del telefono, l'attività che hai creato e cosa è successo. Ogni messaggio lo legge una persona.",
+      "support": {
+        "beforeItems": [
+          "Apri le FAQ. Quasi tutte le domande su attività che non partono, autorizzazioni e auto clicker trovano risposta lì, con le stesse parole dell'app.",
+          "Controlla la schermata Home dell'app: il servizio deve essere attivo, l'attività abilitata e il servizio di accessibilità concesso. Se un'attività funzionava e poi si è fermata, di solito la colpa è dell'ottimizzazione della batteria: nelle FAQ trovi i passaggi.",
+          "Annota quale trigger hai usato, su quale app agisce l'attività e cosa è successo sullo schermo. È quello che ci serve per riprodurre il problema."
+        ],
+        "template": {
+          "phone": "Modello del telefono:",
+          "android": "Versione di Android:",
+          "task": "Attività (cosa dovrebbe fare e con quale trigger):",
+          "app": "App su cui agisce l'attività, se c'è:",
+          "what": "Cosa è successo, passo per passo:",
+          "pro": "Acquisto Pro: sì / no"
+        },
+        "refundBody": "WhenDo si installa gratis. Se hai acquistato Pro o un pacchetto AI e non funziona con la tua configurazione, scrivici entro 7 giorni dall'acquisto e ti rimborsiamo. Raccontaci cosa hai provato: ci aiuta a sistemare il problema per chi verrà dopo."
+      },
+      "press": {
+        "description": "Dati, materiali e un testo di presentazione per scrivere di WhenDo, l'app per Android di automazione con AI, auto clicker e macro.",
+        "boilerplate": "WhenDo automatizza un telefono Android senza root: descrivi una routine a parole tue e l'AI crea l'automazione, con ogni trigger, condizione e azione modificabile. In alternativa puoi costruirla da te con oltre 250 trigger, un auto clicker, la registrazione dei gesti e flussi Quando, Se, Allora. È sviluppata da DappleByte, uno studio indipendente.",
+        "priceValue": "Gratis da installare, senza pubblicità. Le funzioni Pro si sbloccano con un acquisto una tantum e i crediti AI extra si comprano in pacchetti singoli; non c'è nessun abbonamento. I prezzi attuali sono indicati su Google Play.",
+        "assetScreenshots": "Screenshot del telefono, PNG, in inglese (verticale 1080 × 2400)"
+      },
+      "videosDescription": "Brevi video che mostrano WhenDo su un telefono vero: creare un'attività con l'AI, i trigger, Quando e Se, avviare un'attività senza aprire l'app e i problemi più comuni.",
+      "privacyDescription": "Cosa fa WhenDo per Android con i tuoi dati: nessun account, cosa resta sul dispositivo, cosa invia la funzione AI, a cosa serve il servizio di accessibilità e cosa raccolgono le statistiche.",
+      "compare": {
+        "description": "Come si colloca WhenDo rispetto alle altre app di automazione per Android, funzione per funzione, solo fatti.",
+        "vsDescription": "{name} e {other} a confronto su Android, funzione per funzione: creazione di attività con l'AI, auto clicker, trigger, root, pubblicità e prezzi.",
+        "vsIntro": "Entrambe automatizzano un telefono Android. Ecco dove si differenziano, funzione per funzione."
       }
     }
   }

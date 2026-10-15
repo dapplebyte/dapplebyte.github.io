@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Aplikasi Android independen",
-    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: Gamepad Pro, aplikasi pemetaan tombol yang mengubah gamepad jadi kontrol sentuh, dan Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4.",
+    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: Gamepad Pro, aplikasi pemetaan tombol yang mengubah gamepad jadi kontrol sentuh; Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4; serta WhenDo, aplikasi otomatisasi AI dan klik otomatis.",
     "appsHeading": "Aplikasi",
     "principlesHeading": "Cara kami bekerja",
     "principles": [
@@ -202,7 +202,11 @@
       "backup-restore": "Cadangkan semua layout ke satu file dan pulihkan",
       "no-account": "Tanpa akun atau login",
       "video-help": "FAQ dalam aplikasi dengan panduan video",
-      "pricing-model": "Model harga"
+      "pricing-model": "Model harga",
+      "ai-builder": "Membuat otomatisasi utuh dari deskripsi dengan bahasa sehari-hari",
+      "auto-clicker": "Klik otomatis dengan interval klik dan jumlah pengulangan",
+      "gesture-recorder": "Merekam dan memutar ulang ketukan dan gesekan",
+      "no-ads": "Tanpa iklan"
     },
     "values": {
       "yes": "Ya",
@@ -310,6 +314,72 @@
         "title": "Keyboard tiba-tiba berganti? Begini cara mengetik lagi",
         "description": "Ketuk ikon globe untuk kembali ke keyboard Anda, atau aktifkan pergantian otomatis supaya Gamepad Pro hanya memakai keyboard-nya saat pemetaan berjalan."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "Bagaimana cara membuat tugas dengan AI?",
+        "description": "Ketik apa yang Anda inginkan dengan bahasa sehari-hari, biarkan WhenDo menyusun pemicu, kondisi, dan aksinya, lalu tinjau setiap langkah sebelum mengaktifkannya."
+      },
+      "b02": {
+        "title": "Tidak mau bikin sendiri. Ada yang sudah jadi?",
+        "description": "Buka Templat, pilih tugas bawaan, isi satu atau dua detail yang diminta, dan tugas langsung aktif."
+      },
+      "b03": {
+        "title": "Ketika, Jika, Maka: mana yang melakukan apa?",
+        "description": "Membuat tugas secara manual: Ketika adalah pemicu, Jika adalah kondisi, dan Maka adalah aksi."
+      },
+      "t01": {
+        "title": "Apa saja yang bisa memicu otomatisasi?",
+        "description": "Tur singkat pemicu: waktu, aplikasi, Wi-Fi dan Bluetooth, notifikasi, sensor, tombol fisik, dan lainnya."
+      },
+      "t03": {
+        "title": "Jalankan tugas tanpa membuka aplikasi",
+        "description": "Mulai tugas dari tombol mengambang, tombol volume, atau gestur sidik jari."
+      },
+      "t04": {
+        "title": "Bisa jalan di jam tertentu atau berulang?",
+        "description": "Menjadwalkan tugas berdasarkan jam, secara berulang, atau berdasarkan acara kalender."
+      },
+      "a01-what": {
+        "title": "Sebenarnya apa saja yang bisa dilakukannya di ponsel saya?",
+        "description": "Tur singkat aksi: pengaturan sistem, aplikasi, media, permintaan HTTP, papan klip, notifikasi, dan kontrol Shizuku."
+      },
+      "e01": {
+        "title": "Salah bikin? Tidak perlu mulai dari awal",
+        "description": "Buka tugas yang sudah ada, ganti pemicu atau aksinya, dan biarkan sisanya."
+      },
+      "p01": {
+        "title": "Beranda bilang «Layanan Berhenti». Di mana menyalakannya?",
+        "description": "Langkah demi langkah menyalakan Layanan Aksesibilitas dan izin lain yang dibutuhkan tugas."
+      },
+      "p03": {
+        "title": "Apa itu mode Shizuku, dan kenapa muncul di Beranda saya?",
+        "description": "Apa yang ditambahkan Shizuku di atas mode biasa, kapan Anda membutuhkannya, dan cara menyalakannya."
+      },
+      "m01": {
+        "title": "Tugas residen atau sekali jalan: pilih yang mana?",
+        "description": "Bedanya tugas yang menunggu di latar belakang dengan tugas yang Anda jalankan sendiri."
+      },
+      "m02": {
+        "title": "Tugas saya ke mana, dan bagaimana menghentikannya?",
+        "description": "Menemukan tugas di tab Adegan dan mematikan satu tugas atau satu adegan sekaligus."
+      },
+      "e03": {
+        "title": "AI membuat sesuatu, tapi bukan yang Anda minta",
+        "description": "Yang bisa dilakukan saat tugas hasil AI meleset: ubah kalimatnya, edit langkahnya, atau mulai dari tugas bawaan."
+      },
+      "a01-ad": {
+        "title": "Menyiapkan otomatisasi tidak seharusnya butuh 12 langkah",
+        "description": "Bilang saja maunya apa, WhenDo yang menyusun. Sekilas 17 detik membuat tugas dengan AI."
+      },
+      "b03-ad": {
+        "title": "Tiga baris sudah jadi otomatisasi Android yang utuh",
+        "description": "Ketika, Jika, Maka: satu tugas lengkap dalam tiga baris."
+      },
+      "t01-ad": {
+        "title": "Ponsel Anda bisa bereaksi pada hampir apa saja",
+        "description": "Wi-Fi, headphone, waktu, lokasi, notifikasi: sekilas apa saja yang bisa memicu tugas."
+      }
     }
   },
   "products": {
@@ -389,6 +459,45 @@
         "description": "Perbandingan {name} dengan PS Remote Play, PXPlay, dan Chiaki di Android, fitur demi fitur, hanya fakta.",
         "vsDescription": "Perbandingan {name} dan {other} di Android, fitur demi fitur: Remote Play di luar rumah, HEVC dan HDR, kontroler, output ke TV, sumber terbuka, dan harga.",
         "vsIntro": "Keduanya menghubungkan perangkat Android ke PS5 atau PS4. Berikut perbedaannya, fitur demi fitur."
+      }
+    },
+    "whendo": {
+      "kicker": "Otomatisasi · Tanpa root",
+      "heroPoints": [
+        "Jelaskan rutinitas dengan bahasa sehari-hari, lalu AI menyusun setiap pemicu, kondisi, dan aksinya",
+        "Klik otomatis, perekam gestur, dan 250+ pemicu: waktu, lokasi, aplikasi, Wi-Fi, notifikasi",
+        "Alur Ketika, Jika, Maka dengan loop dan variabel. Tanpa root, tanpa langganan"
+      ],
+      "faqDescription": "Jawaban seputar WhenDo: kenapa tugas tidak berjalan, izin, membuat tugas dengan AI, pemicu, klik otomatis, cadangan, dan Shizuku.",
+      "faqNotFoundBody": "Tulis ke kami dengan menyebutkan model ponsel, tugas yang Anda buat, dan apa yang terjadi. Setiap pesan dibaca oleh manusia.",
+      "support": {
+        "beforeItems": [
+          "Buka FAQ. Sebagian besar pertanyaan soal tugas yang tidak berjalan, izin, dan klik otomatis sudah terjawab di sana, dengan kata-kata yang sama seperti di aplikasi.",
+          "Cek Beranda: layanan harus berjalan, tugas harus aktif, dan Layanan Aksesibilitas harus diizinkan. Kalau tugas tadinya jalan lalu berhenti, penyebab yang paling umum adalah optimasi baterai; langkah-langkahnya ada di FAQ.",
+          "Catat pemicu yang Anda pakai, aplikasi yang menjadi sasaran tugas, dan apa yang terjadi di layar. Itulah yang kami butuhkan untuk mereproduksi masalahnya."
+        ],
+        "template": {
+          "phone": "Model ponsel:",
+          "android": "Versi Android:",
+          "task": "Tugas (apa yang seharusnya dilakukan, dan pemicunya):",
+          "app": "Aplikasi yang menjadi sasaran tugas, jika ada:",
+          "what": "Apa yang terjadi, langkah demi langkah:",
+          "pro": "Sudah beli Pro: ya / tidak"
+        },
+        "refundBody": "WhenDo gratis dipasang. Jika Anda membeli Pro atau Paket AI Booster dan ternyata tidak berfungsi dengan perangkat Anda, kirim email ke kami dalam 7 hari sejak pembelian dan kami akan mengembalikan dananya. Ceritakan apa saja yang sudah Anda coba; itu membantu kami memperbaikinya untuk pengguna berikutnya."
+      },
+      "press": {
+        "description": "Fakta, aset, dan teks deskripsi standar untuk menulis tentang WhenDo, aplikasi otomatisasi AI, klik otomatis, dan makro untuk Android.",
+        "boilerplate": "WhenDo mengotomatiskan ponsel Android tanpa root: jelaskan rutinitas dengan bahasa sehari-hari dan AI-nya menyusun otomatisasinya, dengan setiap pemicu, kondisi, dan aksi tetap bisa diedit, atau susun sendiri dengan 250+ pemicu, klik otomatis, perekam gestur, dan alur Ketika, Jika, Maka. Aplikasi ini dibuat oleh DappleByte, sebuah studio independen.",
+        "priceValue": "Gratis dipasang, tanpa iklan. Fitur Pro dibuka dengan pembelian sekali bayar, dan kuota AI tambahan tersedia dalam paket sekali bayar; tidak ada langganan. Harga terkini ditampilkan di Google Play.",
+        "assetScreenshots": "Tangkapan layar ponsel, PNG, bahasa Inggris (potret 1080 × 2400)"
+      },
+      "videosDescription": "Video singkat yang menunjukkan WhenDo di ponsel sungguhan: membuat tugas dengan AI, pemicu, Ketika dan Jika, menjalankan tugas tanpa membuka aplikasi, dan masalah yang paling sering muncul.",
+      "privacyDescription": "Apa yang dilakukan WhenDo untuk Android dengan data Anda: tanpa akun, apa yang tetap di perangkat, apa yang dikirim fitur AI, untuk apa Layanan Aksesibilitas dipakai, dan apa yang dikumpulkan analitik.",
+      "compare": {
+        "description": "Perbandingan WhenDo dengan aplikasi otomatisasi lain di Android, fitur demi fitur, hanya fakta.",
+        "vsDescription": "Perbandingan {name} dan {other} di Android, fitur demi fitur: membuat tugas dengan AI, klik otomatis, pemicu, root, iklan, dan harga.",
+        "vsIntro": "Keduanya mengotomatiskan ponsel Android. Ini perbedaannya, fitur demi fitur."
       }
     }
   }
