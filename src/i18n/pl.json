@@ -177,6 +177,7 @@
     "verified": "Sprawdzono {date}",
     "notVerified": "Pozostałe kolumny nie zostały jeszcze sprawdzone, dlatego ta strona nie jest indeksowana w wyszukiwarkach.",
     "featureColumn": "Funkcja",
+    "highlightsHeading": "Co jeszcze ma {name}",
     "rows": {
       "platform": "Platforma",
       "away-from-home": "Remote Play poza domem",

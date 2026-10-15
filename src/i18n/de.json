@@ -177,6 +177,7 @@
     "verified": "Geprüft am {date}",
     "notVerified": "Die anderen Spalten sind noch nicht geprüft, deshalb erscheint diese Seite nicht in Suchmaschinen.",
     "featureColumn": "Funktion",
+    "highlightsHeading": "Was {name} außerdem bietet",
     "rows": {
       "platform": "Plattform",
       "away-from-home": "Remote Play unterwegs",

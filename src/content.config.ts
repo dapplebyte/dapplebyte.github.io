@@ -148,6 +148,8 @@ const compare = defineCollection({
     slug: z.string(),
     draft: z.boolean().default(true),
     verifiedOn: z.string().nullable().default(null),
+    /** Row ids (labels in `compare.rows`) listed under the table as facts about this product only. */
+    highlights: z.array(z.string()).default([]),
     competitors: z.array(z.object({ id: z.string(), name: z.string(), url: z.string().url().optional(), platforms: z.string().optional() })),
     rows: z.array(
       z.object({

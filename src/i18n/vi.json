@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Ứng dụng Android độc lập",
-    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm, và Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4.",
+    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; và WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker.",
     "appsHeading": "Ứng dụng",
     "principlesHeading": "Cách chúng tôi làm việc",
     "principles": [
@@ -177,6 +177,7 @@
     "verified": "Kiểm tra ngày {date}",
     "notVerified": "Các cột khác chưa được kiểm chứng, nên trang này chưa được đưa lên công cụ tìm kiếm.",
     "featureColumn": "Tính năng",
+    "highlightsHeading": "{name} còn có gì nữa",
     "rows": {
       "platform": "Nền tảng",
       "away-from-home": "Remote Play khi ở ngoài",
@@ -201,7 +202,11 @@
       "backup-restore": "Sao lưu tất cả layout vào một tệp và khôi phục",
       "no-account": "Không cần tài khoản hay đăng nhập",
       "video-help": "FAQ trong ứng dụng kèm video hướng dẫn",
-      "pricing-model": "Hình thức tính phí"
+      "pricing-model": "Hình thức tính phí",
+      "ai-builder": "Dựng cả quy trình tự động chỉ từ một câu mô tả bằng lời thường",
+      "auto-clicker": "Auto clicker chỉnh được nhịp nhấp và số lần lặp",
+      "gesture-recorder": "Ghi và phát lại thao tác chạm, vuốt",
+      "no-ads": "Không quảng cáo"
     },
     "values": {
       "yes": "Có",
@@ -309,6 +314,72 @@
         "title": "Bàn phím bị đổi, giờ gõ chữ kiểu gì?",
         "description": "Chạm vào biểu tượng quả địa cầu để quay về bàn phím của bạn, hoặc bật tự động chuyển để Gamepad Pro chỉ dùng bàn phím của nó khi ánh xạ đang chạy."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "Tạo tác vụ bằng AI thế nào?",
+        "description": "Gõ điều bạn muốn bằng lời thường, để WhenDo dựng kích hoạt, điều kiện và hành động, rồi xem lại từng bước trước khi bật."
+      },
+      "b02": {
+        "title": "Không muốn tự dựng gì cả. Có sẵn không?",
+        "description": "Mở Mẫu, chọn một nhiệm vụ có sẵn, điền một hai thông tin nó hỏi là chạy ngay."
+      },
+      "b03": {
+        "title": "When, If, And then: cái nào làm gì?",
+        "description": "Tự dựng tác vụ: When là kích hoạt, If là điều kiện, And then là hành động."
+      },
+      "t01": {
+        "title": "Rốt cuộc những gì có thể kích hoạt tự động hóa?",
+        "description": "Điểm qua các kích hoạt: thời gian, ứng dụng, Wi-Fi và Bluetooth, thông báo, cảm biến, phím vật lý và nhiều nữa."
+      },
+      "t03": {
+        "title": "Chạy tác vụ mà không cần mở ứng dụng",
+        "description": "Chạy tác vụ bằng nút nổi, phím âm lượng hoặc cử chỉ trên cảm biến vân tay."
+      },
+      "t04": {
+        "title": "Có chạy được vào giờ cố định hay lặp lại không?",
+        "description": "Lên lịch tác vụ theo giờ trong ngày, lặp lại, hoặc theo sự kiện lịch."
+      },
+      "a01-what": {
+        "title": "Rốt cuộc nó làm được gì với điện thoại của tôi?",
+        "description": "Điểm qua các hành động: cài đặt hệ thống, ứng dụng, đa phương tiện, yêu cầu HTTP, bộ nhớ tạm, thông báo và điều khiển qua Shizuku."
+      },
+      "e01": {
+        "title": "Dựng sai rồi? Không cần làm lại từ đầu",
+        "description": "Mở tác vụ đã có, đổi một kích hoạt hay một hành động, phần còn lại giữ nguyên."
+      },
+      "p01": {
+        "title": "Trang chủ báo dịch vụ đang tắt. Bật ở đâu?",
+        "description": "Từng bước bật Dịch vụ trợ năng và các quyền khác mà tác vụ cần."
+      },
+      "p03": {
+        "title": "Chế độ Shizuku là gì, sao Trang chủ lại hiện nó?",
+        "description": "Shizuku thêm được gì so với chế độ thường, khi nào cần và bật nó thế nào."
+      },
+      "m01": {
+        "title": "Thường trú hay một lần: chọn loại nào?",
+        "description": "Khác nhau giữa tác vụ chờ sẵn ở chế độ nền và tác vụ bạn tự bấm chạy."
+      },
+      "m02": {
+        "title": "Tác vụ của tôi đâu rồi, tắt một cái thế nào?",
+        "description": "Tìm tác vụ trong thẻ Cảnh, rồi tắt một tác vụ hoặc cả một cảnh."
+      },
+      "e03": {
+        "title": "AI dựng xong, nhưng không đúng ý bạn",
+        "description": "Làm gì khi tác vụ được tạo bị lệch: diễn đạt lại, sửa từng bước, hoặc bắt đầu từ nhiệm vụ có sẵn."
+      },
+      "a01-ad": {
+        "title": "Cài tự động hóa đâu cần tới 12 bước",
+        "description": "Nói điều bạn muốn, WhenDo dựng giúp bạn. 17 giây xem trình tạo bằng AI."
+      },
+      "b03-ad": {
+        "title": "Ba dòng là đủ một quy trình tự động Android",
+        "description": "When, If, And then: trọn một tác vụ trong ba dòng."
+      },
+      "t01-ad": {
+        "title": "Điện thoại của bạn phản ứng được với gần như mọi thứ",
+        "description": "Wi-Fi, tai nghe, thời gian, vị trí, thông báo: xem nhanh những gì có thể kích hoạt tác vụ."
+      }
     }
   },
   "products": {
@@ -388,6 +459,45 @@
         "description": "{name} so với PS Remote Play, PXPlay và Chiaki trên Android, từng tính năng một, chỉ có dữ kiện.",
         "vsDescription": "So sánh {name} và {other} trên Android, từng tính năng một: Remote Play khi ở ngoài, HEVC và HDR, tay cầm, xuất ra TV, mã nguồn mở và giá.",
         "vsIntro": "Cả hai đều kết nối thiết bị Android với PS5 hoặc PS4. Dưới đây là những điểm khác nhau, từng tính năng một."
+      }
+    },
+    "whendo": {
+      "kicker": "Tự động hóa · Không cần root",
+      "heroPoints": [
+        "Mô tả thói quen bằng lời thường ngày, AI sẽ dựng đủ mọi kích hoạt, điều kiện và hành động",
+        "Auto clicker, ghi cử chỉ và hơn 250 kích hoạt: thời gian, vị trí, ứng dụng, Wi-Fi, thông báo",
+        "Quy trình When, If, Then có vòng lặp và biến. Không cần root, không thuê bao"
+      ],
+      "faqDescription": "Giải đáp về WhenDo: vì sao tác vụ không chạy, quyền, tạo tác vụ bằng AI, kích hoạt, auto clicker, sao lưu và Shizuku.",
+      "faqNotFoundBody": "Hãy viết cho chúng tôi kèm kiểu máy điện thoại, tác vụ bạn đã tạo và chuyện gì đã xảy ra. Mọi thư đều có người thật đọc.",
+      "support": {
+        "beforeItems": [
+          "Mở FAQ trước. Phần lớn câu hỏi về tác vụ không chạy, quyền và auto clicker đều đã có lời giải ở đó, dùng đúng từ ngữ như trong ứng dụng.",
+          "Kiểm tra Trang chủ: dịch vụ phải đang chạy, tác vụ phải được bật và Dịch vụ trợ năng phải được cấp quyền. Nếu tác vụ từng chạy được rồi tự dưng ngừng, nguyên nhân thường là tối ưu pin; các bước xử lý có trong FAQ.",
+          "Ghi lại bạn đã dùng kích hoạt nào, tác vụ thao tác trên ứng dụng nào và màn hình đã hiện gì. Đó chính là những gì chúng tôi cần để tái hiện lỗi."
+        ],
+        "template": {
+          "phone": "Kiểu máy điện thoại:",
+          "android": "Phiên bản Android:",
+          "task": "Tác vụ (cần làm gì, kích hoạt bằng gì):",
+          "app": "Ứng dụng mà tác vụ thao tác (nếu có):",
+          "what": "Chuyện gì đã xảy ra, từng bước:",
+          "pro": "Đã mua Pro: có / không"
+        },
+        "refundBody": "WhenDo cài đặt miễn phí. Nếu bạn đã mua Pro hoặc gói AI mà không dùng được trên máy của mình, hãy email cho chúng tôi trong vòng 7 ngày kể từ khi mua, chúng tôi sẽ hoàn tiền. Hãy cho biết bạn đã thử những gì; điều đó giúp chúng tôi sửa lỗi cho người dùng sau."
+      },
+      "press": {
+        "description": "Thông tin, tư liệu và đoạn giới thiệu chuẩn để viết về WhenDo, ứng dụng tự động hóa bằng AI, auto clicker và macro cho Android.",
+        "boilerplate": "WhenDo tự động hóa điện thoại Android mà không cần root: mô tả thói quen bằng lời thường ngày, AI sẽ dựng quy trình tự động, mọi kích hoạt, điều kiện và hành động đều chỉnh sửa được; hoặc tự dựng với hơn 250 kích hoạt, auto clicker, ghi cử chỉ và quy trình When, If, Then. WhenDo do DappleByte, một studio độc lập, phát triển.",
+        "priceValue": "Cài đặt miễn phí, không quảng cáo. Tính năng Pro được mở khóa bằng một lần mua, lượt dùng AI bổ sung được bán theo gói mua một lần; không có thuê bao. Giá hiện tại hiển thị trên Google Play.",
+        "assetScreenshots": "Ảnh chụp màn hình điện thoại, PNG, tiếng Anh (dọc 1080 × 2400)"
+      },
+      "videosDescription": "Video ngắn quay WhenDo trên điện thoại thật: tạo tác vụ bằng AI, kích hoạt, When và If, chạy tác vụ mà không cần mở ứng dụng, và những lỗi hay gặp nhất.",
+      "privacyDescription": "WhenDo cho Android làm gì với dữ liệu của bạn: không cần tài khoản, dữ liệu nào chỉ nằm trên máy, tính năng AI gửi đi những gì, Dịch vụ trợ năng dùng để làm gì và phần phân tích thu thập những gì.",
+      "compare": {
+        "description": "So sánh WhenDo với các ứng dụng tự động hóa khác trên Android theo từng tính năng, chỉ nêu sự thật.",
+        "vsDescription": "So sánh {name} và {other} trên Android theo từng tính năng: tạo tác vụ bằng AI, auto clicker, kích hoạt, root, quảng cáo và giá.",
+        "vsIntro": "Cả hai đều tự động hóa điện thoại Android. Đây là những điểm khác nhau, từng tính năng một."
       }
     }
   }

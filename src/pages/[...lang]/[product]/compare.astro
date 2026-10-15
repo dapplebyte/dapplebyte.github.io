@@ -74,6 +74,14 @@ const jsonLd = graph(
       {compare.competitors.map((c) => c.url && <li><a href={c.url}>{c.name}</a></li>)}
     </ul>
   </section>
+  {compare.highlights.length > 0 && (
+    <section class="wrap section">
+      <h2 class="h-section" style="margin-bottom:16px">{t('compare.highlightsHeading', { name: product.name })}</h2>
+      <ul class="highlights">
+        {compare.highlights.map((id) => <li><CompareCell value="yes" label={t(`compare.rows.${id}`)} /></li>)}
+      </ul>
+    </section>
+  )}
   <section class="wrap section">
     <div class="actions">
       {compare.competitors.map((c) => <a class="link-plain" href={localePath(locale, `/${slug}/vs/${c.id}/`)}>{t('compare.vsTitle', { name: product.name, other: c.name })}</a>)}
@@ -112,6 +120,21 @@ const jsonLd = graph(
   }
   .v-unknown {
     color: var(--muted);
+  }
+  .highlights {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 32px;
+    color: var(--fg-2);
+    max-width: 960px;
+  }
+  @media (max-width: 860px) {
+    .highlights {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
   }
   .sources {
     margin: 16px 0 0;

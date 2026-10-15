@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Bağımsız Android uygulamaları",
-    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro ve PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad var.",
+    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, bir de AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo var.",
     "appsHeading": "Uygulamalar",
     "principlesHeading": "Nasıl çalışıyoruz",
     "principles": [
@@ -177,6 +177,7 @@
     "verified": "Kontrol tarihi: {date}",
     "notVerified": "Diğer sütunlar henüz doğrulanmadı; bu yüzden bu sayfa arama motorlarında listelenmiyor.",
     "featureColumn": "Özellik",
+    "highlightsHeading": "{name} ayrıca şunları sunar",
     "rows": {
       "platform": "Platform",
       "away-from-home": "Ev dışında Remote Play",
@@ -201,7 +202,11 @@
       "backup-restore": "Tüm düzenleri tek dosyaya yedekleme ve geri yükleme",
       "no-account": "Hesap veya giriş gerekmez",
       "video-help": "Uygulama içi SSS ve video rehberler",
-      "pricing-model": "Fiyatlandırma"
+      "pricing-model": "Fiyatlandırma",
+      "ai-builder": "Günlük dille anlatılan isteği eksiksiz bir otomasyona çevirir",
+      "auto-clicker": "Tıklama aralığı ve tekrar sayısı ayarlanabilen otomatik tıklayıcı",
+      "gesture-recorder": "Dokunma ve kaydırmaları kaydedip yeniden oynatır",
+      "no-ads": "Reklam yok"
     },
     "values": {
       "yes": "Evet",
@@ -309,6 +314,72 @@
         "title": "Klavye değişti, şimdi nasıl yazacağım?",
         "description": "Kendi klavyenize dönmek için küre simgesine dokunun ya da otomatik geçişi açın; böylece Gamepad Pro kendi klavyesini yalnızca eşlemeler çalışırken kullanır."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "AI ile nasıl görev oluştururum?",
+        "description": "İstediğinizi günlük dille yazın, WhenDo tetikleyicileri, koşulları ve eylemleri kursun; açmadan önce her adımı gözden geçirin."
+      },
+      "b02": {
+        "title": "Hiçbir şey kurmak istemiyorum. Hazırı var mı?",
+        "description": "Şablonlar'ı açın, hazır bir görev seçin, istediği bir iki bilgiyi girin; görev hemen çalışmaya başlar."
+      },
+      "b03": {
+        "title": "When, If, And then: hangisi ne işe yarar?",
+        "description": "Görevi elle kurmak: When tetikleyici, If koşul, And then eylemdir."
+      },
+      "t01": {
+        "title": "Otomasyonu tam olarak neler başlatabilir?",
+        "description": "Tetikleyicilerde kısa bir tur: saat, uygulamalar, Wi-Fi ve Bluetooth, bildirimler, sensörler, fiziksel tuşlar ve daha fazlası."
+      },
+      "t03": {
+        "title": "Uygulamayı açmadan görev başlatın",
+        "description": "Görevi kayan düğmeyle, ses tuşuyla ya da parmak izi hareketiyle başlatın."
+      },
+      "t04": {
+        "title": "Belirli bir saatte ya da tekrarlı çalışabilir mi?",
+        "description": "Görevi günün saatine, tekrara veya takvim etkinliklerine göre zamanlamak."
+      },
+      "a01-what": {
+        "title": "Telefonumda gerçekte neler yapabilir?",
+        "description": "Eylemlerde kısa bir tur: sistem ayarları, uygulamalar, medya, HTTP istekleri, pano, bildirimler ve Shizuku kontrolleri."
+      },
+      "e01": {
+        "title": "Yanlış mı kurdunuz? Baştan başlamanıza gerek yok",
+        "description": "Mevcut bir görevi açın, bir tetikleyiciyi ya da eylemi değiştirin, gerisini olduğu gibi bırakın."
+      },
+      "p01": {
+        "title": "Ana Sayfa hizmetin kapalı olduğunu söylüyor. Nereden açarım?",
+        "description": "Erişilebilirlik Hizmeti'ni ve görevin ihtiyaç duyduğu diğer izinleri adım adım açmak."
+      },
+      "p03": {
+        "title": "Shizuku modu nedir, Ana Sayfa'da neden görünüyor?",
+        "description": "Shizuku'nun normal moda neler kattığı, ne zaman gerektiği ve nasıl açıldığı."
+      },
+      "m01": {
+        "title": "Yerleşik mi, tek seferlik mi: hangisini seçmeliyim?",
+        "description": "Arka planda bekleyen görevle sizin elle çalıştırdığınız görev arasındaki fark."
+      },
+      "m02": {
+        "title": "Görevlerim nereye gitti, birini nasıl durdururum?",
+        "description": "Görevlerinizi Sahneler sekmesinde bulup tek bir görevi ya da bütün bir sahneyi kapatmak."
+      },
+      "e03": {
+        "title": "AI bir şey kurdu ama istediğinizi değil",
+        "description": "Oluşturulan görev tutmadığında ne yapılır: isteği farklı anlatın, adımları düzenleyin ya da hazır bir görevle başlayın."
+      },
+      "a01-ad": {
+        "title": "Otomasyon kurmak 12 adım sürmemeli",
+        "description": "Ne istediğinizi söyleyin, WhenDo kursun. AI oluşturucuya 17 saniyelik bir bakış."
+      },
+      "b03-ad": {
+        "title": "Üç satır, koca bir Android otomasyonu",
+        "description": "When, If, And then: üç satırda eksiksiz bir görev."
+      },
+      "t01-ad": {
+        "title": "Telefonunuz neredeyse her şeye tepki verebilir",
+        "description": "Wi-Fi, kulaklık, saat, konum, bildirimler: bir görevi nelerin tetikleyebileceğine hızlı bir bakış."
+      }
     }
   },
   "products": {
@@ -388,6 +459,45 @@
         "description": "{name}, Android'de PS Remote Play, PXPlay ve Chiaki ile özellik özellik karşılaştırılıyor; yalnızca gerçekler.",
         "vsDescription": "Android'de {name} ile {other}, özellik özellik karşılaştırma: ev dışında Remote Play, HEVC ve HDR, kumandalar, TV çıkışı, açık kaynak ve fiyat.",
         "vsIntro": "İkisi de bir Android cihazı PS5 veya PS4'e bağlar. Aralarındaki farklar, özellik özellik şöyle."
+      }
+    },
+    "whendo": {
+      "kicker": "Otomasyon · Root gerekmez",
+      "heroPoints": [
+        "Rutininizi günlük dille anlatın, AI tüm tetikleyicileri, koşulları ve eylemleri kursun",
+        "Otomatik tıklayıcı, hareket kaydı ve 250+ tetikleyici: saat, konum, uygulamalar, Wi-Fi, bildirimler",
+        "Döngü ve değişken destekli When, If, Then akışları. Root yok, abonelik yok"
+      ],
+      "faqDescription": "WhenDo hakkında yanıtlar: görev neden çalışmıyor, izinler, AI ile görev oluşturma, tetikleyiciler, otomatik tıklayıcı, yedekleme ve Shizuku.",
+      "faqNotFoundBody": "Telefon modelinizi, kurduğunuz görevi ve ne olduğunu yazarak bize ulaşın. Her mesajı bir insan okuyor.",
+      "support": {
+        "beforeItems": [
+          "Önce SSS'ye bakın. Çalışmayan görevler, izinler ve otomatik tıklayıcıyla ilgili soruların çoğunun yanıtı orada, uygulamadaki ifadelerle.",
+          "Ana Sayfa'yı kontrol edin: hizmet çalışıyor, görev açık ve Erişilebilirlik Hizmeti'ne izin verilmiş olmalı. Görev önce çalışıp sonra durduysa sebep genellikle pil optimizasyonudur; adımlar SSS'de.",
+          "Hangi tetikleyiciyi kullandığınızı, görevin hangi uygulamada çalıştığını ve ekranda ne olduğunu not edin. Sorunu yeniden oluşturmak için tam olarak buna ihtiyacımız var."
+        ],
+        "template": {
+          "phone": "Telefon modeli:",
+          "android": "Android sürümü:",
+          "task": "Görev (ne yapması gerekiyor, tetikleyicisi ne):",
+          "app": "Görevin çalıştığı uygulama (varsa):",
+          "what": "Ne oldu, adım adım:",
+          "pro": "Pro satın alındı mı: evet / hayır"
+        },
+        "refundBody": "WhenDo'yu yüklemek ücretsiz. Pro'yu ya da bir AI paketini satın aldıysanız ve sizin cihazınızda çalışmıyorsa, satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi de yazın; sorunu bir sonraki kullanıcı için düzeltmemize yardımcı olur."
+      },
+      "press": {
+        "description": "Android için AI otomasyon, otomatik tıklayıcı ve makro uygulaması WhenDo hakkında yazmak isteyenler için bilgiler, görseller ve hazır tanıtım metni.",
+        "boilerplate": "WhenDo, Android telefonu root olmadan otomatikleştirir: bir rutini günlük dille anlatın, AI otomasyonu kursun; her tetikleyici, koşul ve eylem düzenlenebilir. İsterseniz 250+ tetikleyici, otomatik tıklayıcı, hareket kaydı ve When, If, Then akışlarıyla kendiniz kurun. WhenDo, bağımsız stüdyo DappleByte tarafından geliştiriliyor.",
+        "priceValue": "Yüklemesi ücretsiz, reklam yok. Pro özellikleri tek seferlik satın alımla açılır, ek AI hakları da tek seferlik paketler halinde sunulur; abonelik yok. Güncel fiyatlar Google Play'de gösterilir.",
+        "assetScreenshots": "Telefon ekran görüntüleri, PNG, İngilizce (dikey 1080 × 2400)"
+      },
+      "videosDescription": "WhenDo'yu gerçek bir telefonda gösteren kısa videolar: AI ile görev oluşturma, tetikleyiciler, When ve If, uygulamayı açmadan görev başlatma ve en sık karşılaşılan sorunlar.",
+      "privacyDescription": "Android için WhenDo verilerinizle ne yapıyor: hesap gerekmez, cihazda neler kalır, AI özelliği neleri gönderir, Erişilebilirlik Hizmeti ne için kullanılır ve analiz neleri toplar.",
+      "compare": {
+        "description": "WhenDo'nun Android'deki diğer otomasyon uygulamalarıyla özellik özellik karşılaştırması, yalnızca gerçekler.",
+        "vsDescription": "Android'de {name} ve {other} özellik özellik karşılaştırması: AI ile görev oluşturma, otomatik tıklayıcı, tetikleyiciler, root, reklamlar ve fiyat.",
+        "vsIntro": "İkisi de Android telefonu otomatikleştirir. Farkları özellik özellik burada."
       }
     }
   }

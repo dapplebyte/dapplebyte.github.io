@@ -177,6 +177,7 @@
     "verified": "確認日：{date}",
     "notVerified": "ほかの列はまだ確認できていないため、このページは検索エンジンに載せていません。",
     "featureColumn": "機能",
+    "highlightsHeading": "{name} にはほかにも",
     "rows": {
       "platform": "プラットフォーム",
       "away-from-home": "外出先からのリモートプレイ",

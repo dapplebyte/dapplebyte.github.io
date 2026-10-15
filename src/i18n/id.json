@@ -177,6 +177,7 @@
     "verified": "Dicek pada {date}",
     "notVerified": "Kolom lainnya belum diverifikasi, jadi halaman ini tidak dicantumkan di mesin pencari.",
     "featureColumn": "Fitur",
+    "highlightsHeading": "Apa lagi yang ada di {name}",
     "rows": {
       "platform": "Platform",
       "away-from-home": "Remote Play di luar rumah",

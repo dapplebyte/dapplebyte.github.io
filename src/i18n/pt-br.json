@@ -177,6 +177,7 @@
     "verified": "Conferido em {date}",
     "notVerified": "As outras colunas ainda não foram conferidas, então esta página não aparece nos buscadores.",
     "featureColumn": "Recurso",
+    "highlightsHeading": "O que mais o {name} tem",
     "rows": {
       "platform": "Plataforma",
       "away-from-home": "Remote Play fora de casa",

@@ -177,6 +177,7 @@
     "verified": "Checked on {date}",
     "notVerified": "The other columns have not been verified yet, so this page is not listed in search engines.",
     "featureColumn": "Feature",
+    "highlightsHeading": "What else {name} has",
     "rows": {
       "platform": "Platform",
       "away-from-home": "Remote Play away from home",

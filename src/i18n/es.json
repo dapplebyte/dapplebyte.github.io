@@ -177,6 +177,7 @@
     "verified": "Comprobado el {date}",
     "notVerified": "Las demás columnas aún no se han comprobado, así que esta página no aparece en los buscadores.",
     "featureColumn": "Función",
+    "highlightsHeading": "Qué más tiene {name}",
     "rows": {
       "platform": "Plataforma",
       "away-from-home": "Remote Play fuera de casa",

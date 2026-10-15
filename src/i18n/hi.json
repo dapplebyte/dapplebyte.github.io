@@ -177,6 +177,7 @@
     "verified": "{date} को जाँचा गया",
     "notVerified": "बाकी कॉलम अभी जाँचे नहीं गए हैं, इसलिए यह पेज सर्च इंजन में नहीं दिखता।",
     "featureColumn": "फ़ीचर",
+    "highlightsHeading": "{name} में और क्या है",
     "rows": {
       "platform": "प्लैटफ़ॉर्म",
       "away-from-home": "घर से बाहर Remote Play",

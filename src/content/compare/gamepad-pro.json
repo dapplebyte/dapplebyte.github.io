@@ -2,6 +2,14 @@
   "slug": "gamepad-pro",
   "draft": false,
   "verifiedOn": "2026-10-15",
+  "highlights": [
+    "controller-test",
+    "pause-tile",
+    "haptic-feedback",
+    "backup-restore",
+    "no-account",
+    "video-help"
+  ],
   "competitors": [
     {
       "id": "mantis",

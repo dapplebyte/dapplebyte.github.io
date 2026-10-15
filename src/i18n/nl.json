@@ -177,6 +177,7 @@
     "verified": "Gecontroleerd op {date}",
     "notVerified": "De andere kolommen zijn nog niet gecontroleerd, dus deze pagina wordt niet in zoekmachines opgenomen.",
     "featureColumn": "Functie",
+    "highlightsHeading": "Wat {name} verder biedt",
     "rows": {
       "platform": "Platform",
       "away-from-home": "Remote Play onderweg",

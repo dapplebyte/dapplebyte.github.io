@@ -177,6 +177,7 @@
     "verified": "확인일 {date}",
     "notVerified": "다른 열은 아직 확인하지 않아서, 이 페이지는 검색 엔진에 노출하지 않아요.",
     "featureColumn": "기능",
+    "highlightsHeading": "{name}에는 이것도 있어요",
     "rows": {
       "platform": "플랫폼",
       "away-from-home": "집 밖에서 리모트 플레이",

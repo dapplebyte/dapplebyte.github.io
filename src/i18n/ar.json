@@ -177,6 +177,7 @@
     "verified": "تم التحقق في {date}",
     "notVerified": "لم يتم التحقق من الأعمدة الأخرى بعد، لذا لا تظهر هذه الصفحة في محركات البحث.",
     "featureColumn": "الميزة",
+    "highlightsHeading": "ما يقدّمه {name} أيضًا",
     "rows": {
       "platform": "المنصة",
       "away-from-home": "Remote Play خارج المنزل",

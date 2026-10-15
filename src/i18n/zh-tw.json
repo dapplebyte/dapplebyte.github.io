@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · 獨立開發的 Android app",
-    "description": "DappleByte 是一個獨立開發 Android app 的小工作室，產品有 Gamepad Pro：把手把變成觸控操作的按鍵映射工具；以及 Relaypad：PS5 與 PS4 的 Remote Play 控制器與主機串流 app。",
+    "description": "DappleByte 是一個獨立開發 Android app 的小工作室，產品有 Gamepad Pro：把手把變成觸控操作的按鍵映射工具；Relaypad：PS5 與 PS4 的 Remote Play 控制器與主機串流 app；以及 WhenDo：結合 AI 的自動化與連點器 app。",
     "appsHeading": "產品",
     "principlesHeading": "我們怎麼做事",
     "principles": [
@@ -177,6 +177,7 @@
     "verified": "核對日期 {date}",
     "notVerified": "其他欄位尚未核對，所以這一頁暫不提供給搜尋引擎收錄。",
     "featureColumn": "功能",
+    "highlightsHeading": "{name} 另外還有",
     "rows": {
       "platform": "平台",
       "away-from-home": "外出 Remote Play",
@@ -201,7 +202,11 @@
       "backup-restore": "所有配置備份成一個檔案並還原",
       "no-account": "不需要帳號或登入",
       "video-help": "App 內常見問題附影片教學",
-      "pricing-model": "收費方式"
+      "pricing-model": "收費方式",
+      "ai-builder": "用一句話描述，AI 就建好整套自動化",
+      "auto-clicker": "可設定點擊間隔與重複次數的連點器",
+      "gesture-recorder": "錄製並重播點擊與滑動",
+      "no-ads": "無廣告"
     },
     "values": {
       "yes": "有",
@@ -309,6 +314,72 @@
         "title": "鍵盤被換掉了，現在怎麼打字？",
         "description": "點地球圖示切回你自己的鍵盤，或開啟自動切換，讓 Gamepad Pro 只在映射執行時使用自己的鍵盤。"
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "怎麼用 AI 建立任務？",
+        "description": "用平常說話的方式打出你想做的事，WhenDo 會建好觸發、條件和動作，開啟前可以逐步檢查。"
+      },
+      "b02": {
+        "title": "不想自己動手，有現成的嗎？",
+        "description": "打開「範本」，挑一個現成任務，填好它要的一兩項資料就啟用了。"
+      },
+      "b03": {
+        "title": "When、If、And then 各管什麼？",
+        "description": "自己動手建任務：When 是觸發，If 是條件，And then 是動作。"
+      },
+      "t01": {
+        "title": "到底有哪些事能觸發自動化？",
+        "description": "觸發條件一次看：時間、App、Wi-Fi 與藍牙、通知、感應器、實體按鍵等等。"
+      },
+      "t03": {
+        "title": "不開 App 也能啟動任務",
+        "description": "用懸浮按鈕、音量鍵或指紋手勢啟動任務。"
+      },
+      "t04": {
+        "title": "能在固定時間或重複執行嗎？",
+        "description": "依時段、重複週期或日曆活動排程任務。"
+      },
+      "a01-what": {
+        "title": "它到底能幫我的手機做什麼？",
+        "description": "動作一次看：系統設定、App、媒體、HTTP 請求、剪貼簿、通知，以及 Shizuku 控制。"
+      },
+      "e01": {
+        "title": "建錯了？不用整個重來",
+        "description": "打開現有任務，改一個觸發或動作，其餘保持原樣。"
+      },
+      "p01": {
+        "title": "首頁說服務沒開，要去哪裡開？",
+        "description": "一步步開啟無障礙服務，以及任務需要的其他權限。"
+      },
+      "p03": {
+        "title": "Shizuku 模式是什麼？首頁為什麼會出現它？",
+        "description": "Shizuku 在一般模式之外多了什麼、什麼時候需要，以及怎麼開啟。"
+      },
+      "m01": {
+        "title": "常駐任務還是單次任務，該選哪個？",
+        "description": "一個在背景等著觸發，一個由你手動執行，差別就在這裡。"
+      },
+      "m02": {
+        "title": "我的任務跑哪去了？要怎麼停掉？",
+        "description": "在「場景」分頁找到你的任務，關掉單一任務或整個場景。"
+      },
+      "e03": {
+        "title": "AI 建出來的，跟你要的不一樣",
+        "description": "生成的任務不對時怎麼辦：換個說法、修改步驟，或從現成任務開始。"
+      },
+      "a01-ad": {
+        "title": "設定自動化不該要 12 個步驟",
+        "description": "說出你想要的，WhenDo 幫你建好。17 秒看懂 AI 建立功能。"
+      },
+      "b03-ad": {
+        "title": "三行就是一整套 Android 自動化",
+        "description": "When、If、And then：三行寫完一個完整任務。"
+      },
+      "t01-ad": {
+        "title": "你的手機幾乎什麼都能感應",
+        "description": "Wi-Fi、耳機、時間、位置、通知：快速看看哪些事能觸發任務。"
+      }
     }
   },
   "products": {
@@ -388,6 +459,45 @@
         "description": "{name} 與 PS Remote Play、PXPlay、Chiaki 在 Android 上逐項比較，只列事實。",
         "vsDescription": "{name} 與 {other} 在 Android 上逐項比較：外出 Remote Play、HEVC 與 HDR、手把、電視輸出、開源與收費方式。",
         "vsIntro": "兩者都能讓 Android 裝置連到 PS5 或 PS4。差別逐項列在下面。"
+      }
+    },
+    "whendo": {
+      "kicker": "自動化 · 免 root",
+      "heroPoints": [
+        "用平常說話的方式描述日常操作，AI 幫你建好每個觸發、條件和動作",
+        "連點器、手勢錄製，加上 250 多種觸發：時間、位置、App、Wi-Fi、通知",
+        "When、If、Then 流程，支援迴圈與變數。免 root，不用訂閱"
+      ],
+      "faqDescription": "WhenDo 常見問題：任務為什麼沒執行、權限、用 AI 建立任務、觸發條件、連點器、備份與 Shizuku。",
+      "faqNotFoundBody": "寫信給我們，附上手機型號、你建立的任務和實際發生的狀況。每封信都由真人閱讀。",
+      "support": {
+        "beforeItems": [
+          "先看常見問題。任務沒執行、權限、連點器這幾類問題大多都有解答，用詞和 App 裡一致。",
+          "檢查首頁：服務要在執行中、任務要開啟、無障礙服務要授權。如果任務原本正常、後來突然不動了，通常是電池優化造成的，常見問題裡有設定步驟。",
+          "記下你用的觸發條件、任務操作的是哪個 App，以及畫面上發生了什麼。我們要靠這些資訊重現問題。"
+        ],
+        "template": {
+          "phone": "手機型號：",
+          "android": "Android 版本：",
+          "task": "任務（應該做什麼、用什麼觸發）：",
+          "app": "任務操作的 App（如果有）：",
+          "what": "發生了什麼事，一步一步寫：",
+          "pro": "是否購買 Pro：是／否"
+        },
+        "refundBody": "WhenDo 可以免費安裝。如果你買了 Pro 或 AI 加量包，卻在你的手機上用不了，請在購買後 7 天內寫信給我們，我們會退款。也請告訴我們你試過哪些做法，這能幫我們把問題修好，下一位使用者就不會再遇到。"
+      },
+      "press": {
+        "description": "撰寫 WhenDo 報導用的資料、素材與標準介紹。WhenDo 是 Android 上結合 AI 的自動化、連點器與巨集 App。",
+        "boilerplate": "WhenDo 免 root 就能讓 Android 手機自動化：用平常說話的方式描述日常操作，AI 就會建好整套自動化，每個觸發、條件和動作都能修改；也可以自己動手，用 250 多種觸發、連點器、手勢錄製以及 When、If、Then 流程來建立。WhenDo 由獨立工作室 DappleByte 開發。",
+        "priceValue": "免費安裝、無廣告。Pro 功能一次購買即可解鎖，額外的 AI 次數則以單次購買的加量包提供，沒有任何訂閱。實際價格以 Google Play 上顯示的為準。",
+        "assetScreenshots": "手機截圖，PNG，英文（直式 1080 × 2400）"
+      },
+      "videosDescription": "在真實手機上示範 WhenDo 的短片：用 AI 建立任務、觸發條件、When 與 If、不開 App 就啟動任務，以及最常見的問題。",
+      "privacyDescription": "Android 版 WhenDo 如何處理你的資料：不需要帳號、哪些資料只留在裝置上、AI 功能會傳送什麼、無障礙服務用來做什麼，以及數據分析收集哪些資訊。",
+      "compare": {
+        "description": "WhenDo 和 Android 上其他自動化 App 的逐項功能比較，只列事實。",
+        "vsDescription": "{name} 與 {other} 在 Android 上的逐項比較：AI 建立任務、連點器、觸發條件、root、廣告與價格。",
+        "vsIntro": "兩者都能讓 Android 手機自動化。以下逐項列出差別。"
       }
     }
   }

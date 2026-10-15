@@ -177,6 +177,7 @@
     "verified": "Vérifié le {date}",
     "notVerified": "Les autres colonnes n'ont pas encore été vérifiées : cette page n'est donc pas référencée par les moteurs de recherche.",
     "featureColumn": "Fonctionnalité",
+    "highlightsHeading": "Ce que {name} propose en plus",
     "rows": {
       "platform": "Plateforme",
       "away-from-home": "Remote Play hors de chez soi",
