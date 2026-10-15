@@ -20,7 +20,8 @@
           "a": [
             "Le service d'accessibilité permet à Gamepad Pro de transformer tes appuis en touches et balayages, même hors de l'app. Tes mappages ne fonctionnent qu'après son activation. Gamepad Pro l'utilise uniquement pour exécuter tes actions et ne collecte aucune donnée personnelle."
           ],
-          "video": "xbevEmk-T1Q"
+          "video": "xbevEmk-T1Q",
+          "tiktok": "7695321646764231966"
         },
         {
           "id": "q04",
@@ -28,7 +29,8 @@
           "a": [
             "Android peut fermer les apps en arrière-plan pour économiser la batterie. Autorise Gamepad Pro à fonctionner en arrière-plan en désactivant l'optimisation de la batterie. Certaines marques (comme MIUI ou Samsung) ajoutent des règles supplémentaires – le guide sur dontkillmyapp.com explique comment les désactiver pour ton appareil."
           ],
-          "video": "8hZqhdyWx_Y"
+          "video": "8hZqhdyWx_Y",
+          "tiktok": "7695320574507191582"
         },
         {
           "id": "q07",
@@ -36,7 +38,8 @@
           "a": [
             "Surtout pour que les sticks analogiques et les gâchettes L2/R2 de votre manette puissent être mappés. Le service d'accessibilité d'Android sait lire les appuis de boutons normaux, mais pas le mouvement des sticks ni des gâchettes : seul le clavier Gamepad Pro peut les capter. Il sert aussi à des actions comme la saisie de texte. Activez-le et basculez dessus lorsqu'on vous le demande, pour que ces mappages et ces actions fonctionnent."
           ],
-          "video": "bkJYiGawnnc"
+          "video": "bkJYiGawnnc",
+          "tiktok": "7695321963761323294"
         },
         {
           "id": "q11",
@@ -58,7 +61,8 @@
           "a": [
             "Le clavier Gamepad Pro n'a aucune interface de saisie : il lit uniquement les sticks et les gâchettes, donc rien n'apparaît quand vous touchez un champ de texte. Touchez le globe en bas à droite pour revenir à votre clavier. Mieux encore, activez « Changer automatiquement de méthode de saisie » : Gamepad Pro n'utilise alors son clavier que pendant l'exécution des mappages et vous rend le vôtre ensuite."
           ],
-          "video": "AAa5IUf8mPo"
+          "video": "AAa5IUf8mPo",
+          "tiktok": "7695322404259679518"
         },
         {
           "id": "q25",
@@ -92,7 +96,8 @@
             "3. Fais-le glisser à l'endroit à toucher.",
             "4. Enregistre, puis active le mappage et joue."
           ],
-          "video": "j2qYLNqHtA4"
+          "video": "j2qYLNqHtA4",
+          "tiktok": "7695319170019298591"
         },
         {
           "id": "q08",
@@ -114,7 +119,8 @@
           "a": [
             "Vous n'avez pas besoin de les enregistrer : les deux sticks et les deux gâchettes sont déjà présents dans chaque nouvelle disposition. Faites-les simplement glisser sur les endroits qu'ils doivent contrôler, et touchez-en un pour ouvrir ses réglages : le stick droit peut servir de balayage caméra (le réglage par défaut) ou de disque de déplacement, avec la sensibilité et la courbe de réponse au même endroit. Ils exigent en revanche que le clavier Gamepad Pro soit activé, car le service d'accessibilité d'Android ne peut pas lire le mouvement des sticks ni des gâchettes."
           ],
-          "video": "rEvNu-S6_CY"
+          "video": "rEvNu-S6_CY",
+          "tiktok": "7695320133933354271"
         },
         {
           "id": "q12",
@@ -143,7 +149,8 @@
           "a": [
             "Utilisez l'interrupteur Service de mappage en haut de l'écran d'accueil pour mettre en pause ou reprendre tous les mappages d'un coup. Si vous ne pouvez pas revenir à l'application, ajoutez ce même interrupteur aux réglages rapides pour y accéder de n'importe où. La mise en pause n'arrête que les mappages — le service d'accessibilité reste activé."
           ],
-          "video": "FMxFD5nLdnw"
+          "video": "FMxFD5nLdnw",
+          "tiktok": "7695320891034520863"
         },
         {
           "id": "q21",
@@ -151,7 +158,8 @@
           "a": [
             "C'est un deuxième toucher qui se perd. Mettez d'abord à jour vers la dernière version : les versions récentes maintiennent déjà les deux touchers actifs toutes seules. Si un toucher se perd encore, ouvrez Paramètres › Multi-touch avancé et suivez les trois étapes indiquées ; la page vous dit laquelle manque. C'est facultatif : les mappages ordinaires fonctionnent sans."
           ],
-          "video": "cOnoseRHaUM"
+          "video": "cOnoseRHaUM",
+          "tiktok": "7695322720493473054"
         },
         {
           "id": "q22",
@@ -159,7 +167,8 @@
           "a": [
             "Oui. Touchez le bouton flottant pendant que vous jouez : votre disposition s'affiche par-dessus le jeu — faites glisser le bouton au bon endroit, puis touchez à nouveau le bouton flottant pour l'appliquer. Un appui long sur le bouton flottant permet de passer à une autre disposition sans quitter le jeu (il faut au moins deux dispositions enregistrées)."
           ],
-          "video": "nz4xZcZ95hY"
+          "video": "nz4xZcZ95hY",
+          "tiktok": "7695321174254882079"
         },
         {
           "id": "q24",
@@ -167,7 +176,8 @@
           "a": [
             "Tout cela. Un bouton peut être un simple toucher, un maintien qui garde l'écran appuyé, un turbo qui touche en boucle tant que vous le maintenez, ou une macro qui touche plusieurs endroits dans l'ordre. Les sticks analogiques peuvent servir de disque de déplacement ou de balayage caméra. Touchez un bouton dans l'éditeur et ouvrez l'icône d'engrenage pour choisir."
           ],
-          "video": "bs5oMvTess8"
+          "video": "bs5oMvTess8",
+          "tiktok": "7695299425039584543"
         },
         {
           "id": "q27",
@@ -202,7 +212,8 @@
           "a": [
             "Vérifie qu'elle est bien connectée en Bluetooth ou USB et associée dans les paramètres Android. Reconnecte-la et vérifie qu'elle fonctionne dans d'autres apps. Certaines manettes doivent être allumées dans un mode précis."
           ],
-          "video": "t0HAKJXgRCU"
+          "video": "t0HAKJXgRCU",
+          "tiktok": "7695323165261630750"
         },
         {
           "id": "q26",

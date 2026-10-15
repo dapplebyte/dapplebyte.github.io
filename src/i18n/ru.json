@@ -166,8 +166,10 @@
       "troubleshooting": "Решение проблем"
     },
     "watchOn": "Смотреть на YouTube",
+    "watchOnTikTok": "Смотреть в TikTok",
     "play": "Воспроизвести видео",
-    "playlist": "Смотреть плейлист на YouTube"
+    "playlist": "Смотреть плейлист на YouTube",
+    "tiktokProfile": "Ещё короткие ролики в TikTok"
   },
   "compare": {
     "title": "Сравнение {name}",

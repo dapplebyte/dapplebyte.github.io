@@ -166,8 +166,10 @@
       "troubleshooting": "解決問題"
     },
     "watchOn": "在 YouTube 觀看",
+    "watchOnTikTok": "在 TikTok 觀看",
     "play": "播放影片",
-    "playlist": "到 YouTube 看完整播放清單"
+    "playlist": "到 YouTube 看完整播放清單",
+    "tiktokProfile": "更多短片在 TikTok"
   },
   "compare": {
     "title": "{name} 與其他 app 的比較",

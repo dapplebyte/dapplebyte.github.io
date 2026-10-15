@@ -166,8 +166,10 @@
       "troubleshooting": "Xử lý sự cố"
     },
     "watchOn": "Xem trên YouTube",
+    "watchOnTikTok": "Xem trên TikTok",
     "play": "Phát video",
-    "playlist": "Xem danh sách phát trên YouTube"
+    "playlist": "Xem danh sách phát trên YouTube",
+    "tiktokProfile": "Thêm clip ngắn trên TikTok"
   },
   "compare": {
     "title": "So sánh {name}",

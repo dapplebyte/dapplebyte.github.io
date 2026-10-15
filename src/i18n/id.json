@@ -166,8 +166,10 @@
       "troubleshooting": "Mengatasi masalah"
     },
     "watchOn": "Tonton di YouTube",
+    "watchOnTikTok": "Tonton di TikTok",
     "play": "Putar video",
-    "playlist": "Tonton playlist-nya di YouTube"
+    "playlist": "Tonton playlist-nya di YouTube",
+    "tiktokProfile": "Klip pendek lainnya di TikTok"
   },
   "compare": {
     "title": "Perbandingan {name}",

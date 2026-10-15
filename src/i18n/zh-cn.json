@@ -166,8 +166,10 @@
       "troubleshooting": "问题排查"
     },
     "watchOn": "在 YouTube 上观看",
+    "watchOnTikTok": "在 TikTok 观看",
     "play": "播放视频",
-    "playlist": "在 YouTube 上看完整播放列表"
+    "playlist": "在 YouTube 上看完整播放列表",
+    "tiktokProfile": "更多短视频在 TikTok"
   },
   "compare": {
     "title": "{name} 对比",

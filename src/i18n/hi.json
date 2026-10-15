@@ -166,8 +166,10 @@
       "troubleshooting": "समस्या समाधान"
     },
     "watchOn": "YouTube पर देखें",
+    "watchOnTikTok": "TikTok पर देखें",
     "play": "वीडियो चलाएँ",
-    "playlist": "YouTube पर पूरी प्लेलिस्ट देखें"
+    "playlist": "YouTube पर पूरी प्लेलिस्ट देखें",
+    "tiktokProfile": "TikTok पर और छोटे क्लिप"
   },
   "compare": {
     "title": "{name} की तुलना",

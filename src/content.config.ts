@@ -34,6 +34,8 @@ const products = defineCollection({
     languages: z.number().optional(),
     /** YouTube playlist id with every video of the product. */
     youtubePlaylist: z.string().optional(),
+    /** TikTok profile URL; video links are `<profile>/video/<id>`. */
+    tiktokProfile: z.string().url().optional(),
     /**
      * Which product-copy sections fill the fixed blocks of the product page.
      * `useCases`: bullets in two columns under the screenshots. `steps`: an ordered list there instead.
@@ -86,7 +88,7 @@ const faq = defineCollection({
       z.object({
         id: z.string(),
         title: z.string(),
-        entries: z.array(z.object({ id: z.string(), q: z.string(), a: z.array(z.string()), video: z.string().optional() })),
+        entries: z.array(z.object({ id: z.string(), q: z.string(), a: z.array(z.string()), video: z.string().optional(), tiktok: z.string().optional() })),
       }),
     ),
     extractedAt: z.string(),
@@ -124,6 +126,8 @@ const videos = defineCollection({
       z.object({
         id: z.string(),
         youtubeId: z.string(),
+        /** The same clip on TikTok (video id only). */
+        tiktokId: z.string().optional(),
         kind: z.enum(['promo', 'tutorial', 'troubleshooting']),
         uploadDate: z.string(),
         duration: z.string(),

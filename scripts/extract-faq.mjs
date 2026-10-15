@@ -84,6 +84,7 @@ function extractArrays(slug, root, cfg) {
   const base = readFolderStrings(join(resDir, 'values'));
   const sectionIdx = (base.arrays.get('faq_sections') ?? []).map(Number);
   const videos = base.arrays.get('faq_video_ids') ?? [];
+  const tiktoks = base.arrays.get('faq_tiktok_ids') ?? [];
   const total = sectionIdx.length + cfg.extra.length;
   let written = 0;
   for (const locale of LOCALES) {
@@ -118,6 +119,7 @@ function extractArrays(slug, root, cfg) {
           q: qs[i],
           a: answerParagraphs(as[i]),
           ...(videos[i] ? { video: videos[i] } : {}),
+          ...(tiktoks[i] ? { tiktok: tiktoks[i] } : {}),
         })),
     }));
     for (const e of cfg.extra) {

@@ -166,8 +166,10 @@
       "troubleshooting": "แก้ปัญหา"
     },
     "watchOn": "ดูบน YouTube",
+    "watchOnTikTok": "ดูบน TikTok",
     "play": "เล่นวิดีโอ",
-    "playlist": "ดูเพลย์ลิสต์บน YouTube"
+    "playlist": "ดูเพลย์ลิสต์บน YouTube",
+    "tiktokProfile": "คลิปสั้นเพิ่มเติมบน TikTok"
   },
   "compare": {
     "title": "เปรียบเทียบ {name}",

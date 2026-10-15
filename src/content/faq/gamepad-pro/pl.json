@@ -20,7 +20,8 @@
           "a": [
             "Usługa dostępności pozwala Gamepad Pro zamieniać naciśnięcia na dotknięcia i przesunięcia, także poza aplikacją. Mapowania działają dopiero po jej włączeniu. Gamepad Pro używa jej tylko do wykonywania Twoich akcji i nie zbiera danych osobowych."
           ],
-          "video": "xbevEmk-T1Q"
+          "video": "xbevEmk-T1Q",
+          "tiktok": "7695321646764231966"
         },
         {
           "id": "q04",
@@ -28,7 +29,8 @@
           "a": [
             "Android może zamykać aplikacje w tle, aby oszczędzać energię. Zezwól Gamepad Pro na działanie w tle, wyłączając optymalizację baterii. Niektóre marki (np. MIUI lub Samsung) dodają dodatkowe reguły – przewodnik na dontkillmyapp.com pokazuje, jak je wyłączyć na Twoim urządzeniu."
           ],
-          "video": "8hZqhdyWx_Y"
+          "video": "8hZqhdyWx_Y",
+          "tiktok": "7695320574507191582"
         },
         {
           "id": "q07",
@@ -36,7 +38,8 @@
           "a": [
             "Przede wszystkim po to, aby dało się zmapować drążki analogowe i spusty L2/R2 kontrolera. Usługa dostępności Androida odczytuje zwykłe naciśnięcia przycisków, ale nie odczytuje ruchu drążków ani spustów — wychwycić go potrafi tylko klawiatura Gamepad Pro. Jest też potrzebna do akcji takich jak wpisywanie tekstu. Włącz ją i przełącz się na nią, gdy pojawi się monit, aby te mapowania i akcje działały."
           ],
-          "video": "bkJYiGawnnc"
+          "video": "bkJYiGawnnc",
+          "tiktok": "7695321963761323294"
         },
         {
           "id": "q11",
@@ -58,7 +61,8 @@
           "a": [
             "Klawiatura Gamepad Pro nie ma klawiszy do pisania — odczytuje tylko drążki i spusty, więc po stuknięciu pola tekstowego nic się nie pojawia. Stuknij ikonę globusa w prawym dolnym rogu, aby wrócić do własnej klawiatury. Jeszcze lepiej włącz opcję \"Automatycznie przełączaj metodę wprowadzania\" — wtedy Gamepad Pro używa własnej klawiatury tylko wtedy, gdy mapowania są uruchomione, a potem oddaje Twoją."
           ],
-          "video": "AAa5IUf8mPo"
+          "video": "AAa5IUf8mPo",
+          "tiktok": "7695322404259679518"
         },
         {
           "id": "q25",
@@ -92,7 +96,8 @@
             "3. Przeciągnij go w miejsce do dotknięcia.",
             "4. Zapisz, włącz mapowanie i graj."
           ],
-          "video": "j2qYLNqHtA4"
+          "video": "j2qYLNqHtA4",
+          "tiktok": "7695319170019298591"
         },
         {
           "id": "q08",
@@ -114,7 +119,8 @@
           "a": [
             "Nie musisz ich nagrywać — oba drążki i oba spusty są już w każdej nowej konfiguracji. Wystarczy przeciągnąć je na miejsca, którymi mają sterować, i stuknąć jeden z nich, aby otworzyć jego ustawienia: prawy drążek może działać jako przesuwanie kamery (domyślnie) lub tarcza ruchu, a tam znajdziesz też czułość i krzywą reakcji. Wymagają one włączonej klawiatury Gamepad Pro, ponieważ usługa dostępności Androida nie odczytuje ruchu drążków ani spustów."
           ],
-          "video": "rEvNu-S6_CY"
+          "video": "rEvNu-S6_CY",
+          "tiktok": "7695320133933354271"
         },
         {
           "id": "q12",
@@ -143,7 +149,8 @@
           "a": [
             "Użyj przełącznika Usługa mapowania u góry ekranu głównego, aby wstrzymać lub wznowić wszystkie mapowania naraz. Jeśli nie możesz wrócić do aplikacji, dodaj ten sam przełącznik do Szybkich ustawień i miej go pod ręką wszędzie. Wstrzymanie zatrzymuje tylko mapowania — usługa dostępności pozostaje włączona."
           ],
-          "video": "FMxFD5nLdnw"
+          "video": "FMxFD5nLdnw",
+          "tiktok": "7695320891034520863"
         },
         {
           "id": "q21",
@@ -151,7 +158,8 @@
           "a": [
             "To drugie dotknięcie, które jest gubione. Najpierw zaktualizuj aplikację do najnowszej wersji — nowsze wydania same utrzymują oba dotknięcia. Jeśli jedno nadal znika, otwórz Ustawienia › Zaawansowany wielodotyk i wykonaj trzy kroki z tej strony; sama pokaże, którego brakuje. To opcjonalne — zwykłe mapowania działają bez tego."
           ],
-          "video": "cOnoseRHaUM"
+          "video": "cOnoseRHaUM",
+          "tiktok": "7695322720493473054"
         },
         {
           "id": "q22",
@@ -159,7 +167,8 @@
           "a": [
             "Tak. Podczas gry stuknij pływający przycisk, a Twoja konfiguracja pojawi się na wierzchu gry — przeciągnij przycisk we właściwe miejsce i stuknij pływający przycisk ponownie, aby to zastosować. Przytrzymaj pływający przycisk, aby przełączyć się na inną konfigurację bez wychodzenia z gry (potrzebujesz do tego co najmniej dwóch zapisanych konfiguracji)."
           ],
-          "video": "nz4xZcZ95hY"
+          "video": "nz4xZcZ95hY",
+          "tiktok": "7695321174254882079"
         },
         {
           "id": "q24",
@@ -167,7 +176,8 @@
           "a": [
             "Praktycznie wszystko. Jeden przycisk może być pojedynczym stuknięciem, przytrzymaniem, które trzyma ekran wciśnięty, turbo, które stuka raz za razem, dopóki go trzymasz, albo makrem, które stuka kilka miejsc po kolei. Drążki analogowe mogą działać jako tarcza ruchu lub przesuwanie kamery. Stuknij przycisk w edytorze i otwórz ikonę zębatki, aby wybrać."
           ],
-          "video": "bs5oMvTess8"
+          "video": "bs5oMvTess8",
+          "tiktok": "7695299425039584543"
         },
         {
           "id": "q27",
@@ -202,7 +212,8 @@
           "a": [
             "Upewnij się, że jest poprawnie połączony przez Bluetooth lub USB i sparowany w ustawieniach Androida. Spróbuj połączyć ponownie i sprawdź, czy działa w innych aplikacjach. Niektóre kontrolery trzeba włączyć w określonym trybie."
           ],
-          "video": "t0HAKJXgRCU"
+          "video": "t0HAKJXgRCU",
+          "tiktok": "7695323165261630750"
         },
         {
           "id": "q26",

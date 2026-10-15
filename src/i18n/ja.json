@@ -166,8 +166,10 @@
       "troubleshooting": "トラブル解決"
     },
     "watchOn": "YouTube で見る",
+    "watchOnTikTok": "TikTokで見る",
     "play": "動画を再生",
-    "playlist": "YouTube で再生リストを見る"
+    "playlist": "YouTube で再生リストを見る",
+    "tiktokProfile": "TikTokにもショート動画があります"
   },
   "compare": {
     "title": "{name} の比較",

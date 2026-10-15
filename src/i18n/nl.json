@@ -166,8 +166,10 @@
       "troubleshooting": "Problemen oplossen"
     },
     "watchOn": "Bekijk op YouTube",
+    "watchOnTikTok": "Bekijk op TikTok",
     "play": "Video afspelen",
-    "playlist": "Bekijk de playlist op YouTube"
+    "playlist": "Bekijk de playlist op YouTube",
+    "tiktokProfile": "Meer korte clips op TikTok"
   },
   "compare": {
     "title": "{name} vergeleken",

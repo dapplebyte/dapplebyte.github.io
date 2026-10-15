@@ -20,7 +20,8 @@
           "a": [
             "El servicio de accesibilidad permite a Gamepad Pro convertir tus pulsaciones en toques y deslizamientos, incluso fuera de la app. Tus asignaciones solo funcionan tras activarlo. Gamepad Pro solo lo usa para realizar tus acciones y no recopila datos personales."
           ],
-          "video": "xbevEmk-T1Q"
+          "video": "xbevEmk-T1Q",
+          "tiktok": "7695321646764231966"
         },
         {
           "id": "q04",
@@ -28,7 +29,8 @@
           "a": [
             "Android puede cerrar apps en segundo plano para ahorrar batería. Permite que Gamepad Pro se ejecute en segundo plano desactivando la optimización de batería. Algunas marcas (como MIUI o Samsung) añaden reglas extra; la guía de dontkillmyapp.com explica cómo desactivarlas en tu dispositivo."
           ],
-          "video": "8hZqhdyWx_Y"
+          "video": "8hZqhdyWx_Y",
+          "tiktok": "7695320574507191582"
         },
         {
           "id": "q07",
@@ -36,7 +38,8 @@
           "a": [
             "Sobre todo para poder asignar los sticks analógicos y los gatillos L2/R2 de tu mando. El servicio de accesibilidad de Android puede leer las pulsaciones normales de los botones, pero no puede leer el movimiento de sticks ni gatillos: solo el teclado Gamepad Pro puede captarlo. También hace falta para acciones como escribir texto. Actívalo y cambia a él cuando se te indique para que esas asignaciones y acciones funcionen."
           ],
-          "video": "bkJYiGawnnc"
+          "video": "bkJYiGawnnc",
+          "tiktok": "7695321963761323294"
         },
         {
           "id": "q11",
@@ -58,7 +61,8 @@
           "a": [
             "El teclado Gamepad Pro no tiene interfaz de escritura: solo lee los sticks y los gatillos, por eso no aparece nada al tocar un campo de texto. Toca el globo terráqueo de abajo a la derecha para volver a tu propio teclado. Mejor aún, activa «Cambiar automáticamente el método de entrada»: así Gamepad Pro solo usa su teclado mientras las asignaciones están en marcha y luego te devuelve el tuyo."
           ],
-          "video": "AAa5IUf8mPo"
+          "video": "AAa5IUf8mPo",
+          "tiktok": "7695322404259679518"
         },
         {
           "id": "q25",
@@ -92,7 +96,8 @@
             "3. Arrástralo al punto que debe tocar.",
             "4. Guarda, activa la asignación y juega."
           ],
-          "video": "j2qYLNqHtA4"
+          "video": "j2qYLNqHtA4",
+          "tiktok": "7695319170019298591"
         },
         {
           "id": "q08",
@@ -114,7 +119,8 @@
           "a": [
             "No hace falta grabarlos: los dos sticks y los dos gatillos ya vienen en cada diseño nuevo. Solo tienes que arrastrarlos a los puntos que deben controlar y tocar uno para abrir sus ajustes: el stick derecho puede ser un deslizamiento de cámara (la opción predeterminada) o un disco de movimiento, y ahí mismo están la sensibilidad y la curva de respuesta. Eso sí, necesitan el teclado Gamepad Pro activado, porque el servicio de accesibilidad de Android no puede leer el movimiento de sticks ni gatillos."
           ],
-          "video": "rEvNu-S6_CY"
+          "video": "rEvNu-S6_CY",
+          "tiktok": "7695320133933354271"
         },
         {
           "id": "q12",
@@ -143,7 +149,8 @@
           "a": [
             "Usa el interruptor Servicio de asignaciones de la parte superior de la pantalla de inicio para pausar o reanudar todas las asignaciones a la vez. Si no puedes volver a la aplicación, añade ese mismo interruptor a Ajustes rápidos y tenlo a mano desde cualquier sitio. Pausar solo detiene las asignaciones: el servicio de accesibilidad sigue activado."
           ],
-          "video": "FMxFD5nLdnw"
+          "video": "FMxFD5nLdnw",
+          "tiktok": "7695320891034520863"
         },
         {
           "id": "q21",
@@ -151,7 +158,8 @@
           "a": [
             "Es un segundo toque que se pierde. Actualiza primero a la última versión: las versiones nuevas ya mantienen vivos los dos toques por sí solas. Si aun así se pierde uno, abre Ajustes › Multitáctil avanzado y sigue los tres pasos que aparecen ahí; la página te indica cuál falta. Es opcional, y las asignaciones normales funcionan sin él."
           ],
-          "video": "cOnoseRHaUM"
+          "video": "cOnoseRHaUM",
+          "tiktok": "7695322720493473054"
         },
         {
           "id": "q22",
@@ -159,7 +167,8 @@
           "a": [
             "Sí. Toca el botón flotante mientras juegas y tu diseño aparecerá sobre el juego: arrastra el botón al punto correcto y vuelve a tocar el botón flotante para aplicarlo. Mantén pulsado el botón flotante para cambiar a otro diseño sin salir del juego (necesitas al menos dos diseños guardados)."
           ],
-          "video": "nz4xZcZ95hY"
+          "video": "nz4xZcZ95hY",
+          "tiktok": "7695321174254882079"
         },
         {
           "id": "q24",
@@ -167,7 +176,8 @@
           "a": [
             "Cualquiera de esas cosas. Un botón puede ser un toque simple, una pulsación mantenida que deja la pantalla presionada, un turbo que toca una y otra vez mientras lo mantienes, o una macro que toca varios puntos en orden. Los sticks analógicos pueden ser un disco de movimiento o un deslizamiento de cámara. Toca un botón en el editor y abre el icono del engranaje para elegir."
           ],
-          "video": "bs5oMvTess8"
+          "video": "bs5oMvTess8",
+          "tiktok": "7695299425039584543"
         },
         {
           "id": "q27",
@@ -202,7 +212,8 @@
           "a": [
             "Asegúrate de que esté bien conectado por Bluetooth o USB y emparejado en los ajustes de Android. Intenta reconectarlo y comprueba que funciona en otras apps. Algunos mandos deben encenderse en un modo concreto."
           ],
-          "video": "t0HAKJXgRCU"
+          "video": "t0HAKJXgRCU",
+          "tiktok": "7695323165261630750"
         },
         {
           "id": "q26",

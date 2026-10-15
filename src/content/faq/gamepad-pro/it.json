@@ -20,7 +20,8 @@
           "a": [
             "Il servizio di accessibilità consente a Gamepad Pro di trasformare le pressioni in tocchi e scorrimenti, anche fuori dall'app. Le mappature funzionano solo dopo l'attivazione. Gamepad Pro lo usa solo per eseguire le tue azioni e non raccoglie dati personali."
           ],
-          "video": "xbevEmk-T1Q"
+          "video": "xbevEmk-T1Q",
+          "tiktok": "7695321646764231966"
         },
         {
           "id": "q04",
@@ -28,7 +29,8 @@
           "a": [
             "Android può chiudere le app in background per risparmiare energia. Consenti a Gamepad Pro di funzionare in background disattivando l'ottimizzazione della batteria. Alcune marche (come MIUI o Samsung) aggiungono regole extra: la guida su dontkillmyapp.com spiega come disattivarle sul tuo dispositivo."
           ],
-          "video": "8hZqhdyWx_Y"
+          "video": "8hZqhdyWx_Y",
+          "tiktok": "7695320574507191582"
         },
         {
           "id": "q07",
@@ -36,7 +38,8 @@
           "a": [
             "Soprattutto per poter mappare le levette analogiche e i grilletti L2/R2 del controller. Il servizio di accessibilità di Android legge le normali pressioni dei pulsanti, ma non il movimento di levette o grilletti: solo la tastiera Gamepad Pro riesce a rilevarlo. Serve anche per azioni come digitare testo. Attivala e passa a quella tastiera quando richiesto, perché queste mappature e azioni funzionino."
           ],
-          "video": "bkJYiGawnnc"
+          "video": "bkJYiGawnnc",
+          "tiktok": "7695321963761323294"
         },
         {
           "id": "q11",
@@ -58,7 +61,8 @@
           "a": [
             "La tastiera Gamepad Pro non ha un'interfaccia di scrittura: legge solo levette e grilletti, quindi non compare nulla quando tocchi un campo di testo. Tocca il mappamondo in basso a destra per tornare alla tua tastiera. Meglio ancora, attiva «Cambia automaticamente il metodo di immissione»: così Gamepad Pro usa la propria tastiera solo mentre le mappature sono in esecuzione e poi ti restituisce la tua."
           ],
-          "video": "AAa5IUf8mPo"
+          "video": "AAa5IUf8mPo",
+          "tiktok": "7695322404259679518"
         },
         {
           "id": "q25",
@@ -92,7 +96,8 @@
             "3. Trascinalo nel punto da toccare.",
             "4. Salva, attiva la mappatura e gioca."
           ],
-          "video": "j2qYLNqHtA4"
+          "video": "j2qYLNqHtA4",
+          "tiktok": "7695319170019298591"
         },
         {
           "id": "q08",
@@ -114,7 +119,8 @@
           "a": [
             "Non devi registrarle: entrambe le levette ed entrambi i grilletti sono già presenti in ogni nuovo layout. Basta trascinarli sui punti che devono controllare e toccarne uno per aprire le sue impostazioni: la levetta destra può essere uno scorrimento camera (l'impostazione predefinita) o un disco di movimento, e lì trovi anche sensibilità e curva di risposta. Richiedono però la tastiera Gamepad Pro attiva, perché il servizio di accessibilità di Android non legge il movimento di levette o grilletti."
           ],
-          "video": "rEvNu-S6_CY"
+          "video": "rEvNu-S6_CY",
+          "tiktok": "7695320133933354271"
         },
         {
           "id": "q12",
@@ -143,7 +149,8 @@
           "a": [
             "Usa l'interruttore Servizio mappature in cima alla schermata Home per mettere in pausa o riprendere tutte le mappature in una volta. Se non riesci a tornare nell'app, aggiungi lo stesso interruttore alle Impostazioni rapide e raggiungilo da ovunque. La pausa ferma solo le mappature: il servizio di accessibilità resta attivo."
           ],
-          "video": "FMxFD5nLdnw"
+          "video": "FMxFD5nLdnw",
+          "tiktok": "7695320891034520863"
         },
         {
           "id": "q21",
@@ -151,7 +158,8 @@
           "a": [
             "È un secondo tocco che va perso. Aggiorna prima all'ultima versione: le build più recenti mantengono già attivi entrambi i tocchi da sole. Se un tocco continua a sparire, apri Impostazioni › Multi-touch avanzato e segui i tre passaggi indicati lì; la pagina ti dice quale manca. È facoltativo e le mappature normali funzionano anche senza."
           ],
-          "video": "cOnoseRHaUM"
+          "video": "cOnoseRHaUM",
+          "tiktok": "7695322720493473054"
         },
         {
           "id": "q22",
@@ -159,7 +167,8 @@
           "a": [
             "Sì. Tocca il pulsante flottante mentre giochi e il tuo layout compare sopra il gioco: trascina il pulsante nel punto giusto e tocca di nuovo il pulsante flottante per applicare la modifica. Tieni premuto il pulsante flottante per passare a un altro layout senza uscire dal gioco (servono almeno due layout salvati)."
           ],
-          "video": "nz4xZcZ95hY"
+          "video": "nz4xZcZ95hY",
+          "tiktok": "7695321174254882079"
         },
         {
           "id": "q24",
@@ -167,7 +176,8 @@
           "a": [
             "Tutto. Un solo pulsante può essere un tocco singolo, una pressione che tiene premuto lo schermo, un turbo che tocca ripetutamente finché lo tieni premuto o una macro che tocca più punti in sequenza. Le levette analogiche possono essere un disco di movimento o uno scorrimento camera. Tocca un pulsante nell'editor e apri l'icona dell'ingranaggio per scegliere."
           ],
-          "video": "bs5oMvTess8"
+          "video": "bs5oMvTess8",
+          "tiktok": "7695299425039584543"
         },
         {
           "id": "q27",
@@ -202,7 +212,8 @@
           "a": [
             "Assicurati che sia ben collegato via Bluetooth o USB e associato nelle impostazioni Android. Prova a ricollegarlo e verifica che funzioni in altre app. Alcuni controller vanno accesi in una modalità specifica."
           ],
-          "video": "t0HAKJXgRCU"
+          "video": "t0HAKJXgRCU",
+          "tiktok": "7695323165261630750"
         },
         {
           "id": "q26",

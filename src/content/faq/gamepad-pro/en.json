@@ -20,7 +20,8 @@
           "a": [
             "The accessibility service lets Gamepad Pro turn your button presses into taps and swipes, even outside the app. Your key maps only work after it is enabled. Gamepad Pro only uses it to perform the actions you set up — it does not collect or upload your personal data."
           ],
-          "video": "xbevEmk-T1Q"
+          "video": "xbevEmk-T1Q",
+          "tiktok": "7695321646764231966"
         },
         {
           "id": "q04",
@@ -28,7 +29,8 @@
           "a": [
             "Android may close apps in the background to save power. Allow Gamepad Pro to run in the background by disabling battery optimisation. Some brands (such as MIUI or Samsung) add extra power-saving rules — the guide at dontkillmyapp.com shows how to turn those off for your device."
           ],
-          "video": "8hZqhdyWx_Y"
+          "video": "8hZqhdyWx_Y",
+          "tiktok": "7695320574507191582"
         },
         {
           "id": "q07",
@@ -36,7 +38,8 @@
           "a": [
             "Mainly so your controller's analog sticks and L2/R2 triggers can be mapped. Android's accessibility service can read normal button presses, but it cannot read analog stick or trigger movement — only the Gamepad Pro keyboard can capture those. It is also needed for actions such as typing text. Enable and switch to it when prompted so these mappings and actions can work."
           ],
-          "video": "bkJYiGawnnc"
+          "video": "bkJYiGawnnc",
+          "tiktok": "7695321963761323294"
         },
         {
           "id": "q11",
@@ -58,7 +61,8 @@
           "a": [
             "The Gamepad Pro keyboard has no typing UI — it only reads sticks and triggers, so nothing appears when you tap a text field. Tap the globe at the bottom right to switch back to your own keyboard. Better still, turn on \"Automatically switch input methods\" — then Gamepad Pro only uses its own keyboard while mappings are running and hands yours back afterwards."
           ],
-          "video": "AAa5IUf8mPo"
+          "video": "AAa5IUf8mPo",
+          "tiktok": "7695322404259679518"
         },
         {
           "id": "q25",
@@ -92,7 +96,8 @@
             "3. Drag it onto the spot on screen you want to tap.",
             "4. Save, then turn on mapping and play."
           ],
-          "video": "j2qYLNqHtA4"
+          "video": "j2qYLNqHtA4",
+          "tiktok": "7695319170019298591"
         },
         {
           "id": "q08",
@@ -114,7 +119,8 @@
           "a": [
             "You don't have to record them — both sticks and both triggers are already in every new layout. Just drag them onto the spots they should control, and tap one to open its settings: the right stick can be a camera swipe (the default) or a movement dial, with sensitivity and response curve there too. They do need the Gamepad Pro keyboard to be enabled, because Android's accessibility service cannot read analog stick or trigger movement."
           ],
-          "video": "rEvNu-S6_CY"
+          "video": "rEvNu-S6_CY",
+          "tiktok": "7695320133933354271"
         },
         {
           "id": "q12",
@@ -143,7 +149,8 @@
           "a": [
             "Use the Mapping service switch at the top of the home screen to pause or resume every mapping at once. If you can't get back to the app, add the same switch to Quick Settings and reach it from anywhere. Pausing stops the mappings only — the accessibility service stays enabled."
           ],
-          "video": "FMxFD5nLdnw"
+          "video": "FMxFD5nLdnw",
+          "tiktok": "7695320891034520863"
         },
         {
           "id": "q21",
@@ -151,7 +158,8 @@
           "a": [
             "That is a second touch being dropped. Update to the latest version first — newer builds already keep both touches alive on their own. If one still gets dropped, open Settings › Advanced multi-touch and follow the three steps there; the page tells you which one is missing. It is optional, and ordinary mappings work without it."
           ],
-          "video": "cOnoseRHaUM"
+          "video": "cOnoseRHaUM",
+          "tiktok": "7695322720493473054"
         },
         {
           "id": "q22",
@@ -159,7 +167,8 @@
           "a": [
             "Yes. Tap the floating button while you play and your layout appears on top of the game — drag the button to the right spot and tap the floating button again to apply it. Long-press the floating button to switch to another layout without leaving the game (you need at least two saved layouts for that)."
           ],
-          "video": "nz4xZcZ95hY"
+          "video": "nz4xZcZ95hY",
+          "tiktok": "7695321174254882079"
         },
         {
           "id": "q24",
@@ -167,7 +176,8 @@
           "a": [
             "Any of them. One button can be a single tap, a hold that keeps the screen pressed, a turbo that taps over and over while you hold it, or a macro that taps several spots in order. The analog sticks can be a movement dial or a camera swipe. Tap a button in the editor and open the gear icon to choose."
           ],
-          "video": "bs5oMvTess8"
+          "video": "bs5oMvTess8",
+          "tiktok": "7695299425039584543"
         },
         {
           "id": "q27",
@@ -202,7 +212,8 @@
           "a": [
             "Make sure it's properly connected by Bluetooth or USB and paired in Android settings. Try reconnecting it and check that it works in other apps. Some controllers must be turned on in a specific mode."
           ],
-          "video": "t0HAKJXgRCU"
+          "video": "t0HAKJXgRCU",
+          "tiktok": "7695323165261630750"
         },
         {
           "id": "q26",

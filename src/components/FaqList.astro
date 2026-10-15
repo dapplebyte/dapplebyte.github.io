@@ -1,6 +1,6 @@
 ---
 interface Props {
-  entries: { id: string; q: string; a: string[]; video?: string }[];
+  entries: { id: string; q: string; a: string[]; video?: string; tiktok?: string }[];
   /** Heading level for questions. */
   level?: 2 | 3;
   linkLabel?: string;
@@ -8,8 +8,11 @@ interface Props {
   watchLabel?: string;
   /** YouTube playlist the video links open in. */
   playlist?: string;
+  /** Label and profile URL for the TikTok link. */
+  tiktokLabel?: string;
+  tiktokProfile?: string;
 }
-const { entries, level = 2, linkLabel = '#', watchLabel = 'YouTube', playlist } = Astro.props;
+const { entries, level = 2, linkLabel = '#', watchLabel = 'YouTube', playlist, tiktokLabel = 'TikTok', tiktokProfile } = Astro.props;
 const watchUrl = (id: string) => `https://www.youtube.com/watch?v=${id}${playlist ? `&list=${playlist}` : ''}`;
 const H = `h${level}` as 'h2' | 'h3';
 ---
@@ -23,7 +26,12 @@ const H = `h${level}` as 'h2' | 'h3';
       </H>
       <div class="faq-a">
         {e.a.map((p) => <p>{p}</p>)}
-        {e.video && <p class="faq-video"><a href={watchUrl(e.video)}>▶ {watchLabel}</a></p>}
+        {(e.video || (e.tiktok && tiktokProfile)) && (
+          <p class="faq-video">
+            {e.video && <a href={watchUrl(e.video)}>▶ {watchLabel}</a>}
+            {e.tiktok && tiktokProfile && <a href={`${tiktokProfile}/video/${e.tiktok}`}>▶ {tiktokLabel}</a>}
+          </p>
+        )}
       </div>
     </article>
   ))}
@@ -63,6 +71,11 @@ const H = `h${level}` as 'h2' | 'h3';
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+  .faq-video {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
   }
   .faq-video a {
     font-family: var(--font-mono);

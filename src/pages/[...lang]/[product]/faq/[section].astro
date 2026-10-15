@@ -62,7 +62,7 @@ const jsonLd = graph(
     {fallback && <p class="fine notice">{t('faq.englishOnly')}</p>}
   </section>
   <section class="wrap" style="padding-bottom:40px" lang={fallback ? faqLang.lang : undefined} dir={fallback ? faqLang.dir : undefined}>
-    <FaqList entries={section.entries} level={2} linkLabel={t('faq.linkToQuestion')} watchLabel={t('videos.watchOn')} playlist={product.youtubePlaylist} />
+    <FaqList entries={section.entries} level={2} linkLabel={t('faq.linkToQuestion')} watchLabel={t('videos.watchOn')} playlist={product.youtubePlaylist} tiktokLabel={t('videos.watchOnTikTok')} tiktokProfile={product.tiktokProfile} />
   </section>
   <section class="wrap section">
     <nav class="pager" aria-label={t('labels.faq')}>

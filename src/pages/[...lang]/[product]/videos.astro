@@ -53,7 +53,12 @@ const jsonLd = graph(
     <div class="mono mono-accent" style="margin-bottom:14px">{product.name}</div>
     <h1 class="h-page">{title}</h1>
     <p class="lede" style="margin-top:16px">{videos.length ? description : copy.tagline}</p>
-    {videos.length > 0 && playlistUrl && <p style="margin-top:16px"><a href={playlistUrl}>▶ {t('videos.playlist')}</a></p>}
+    {videos.length > 0 && (playlistUrl || product.tiktokProfile) && (
+      <p class="channels" style="margin-top:16px">
+        {playlistUrl && <a href={playlistUrl}>▶ {t('videos.playlist')}</a>}
+        {product.tiktokProfile && <a href={product.tiktokProfile}>▶ {t('videos.tiktokProfile')}</a>}
+      </p>
+    )}
   </section>
 
   {videos.length === 0 ? (
@@ -80,6 +85,10 @@ const jsonLd = graph(
                   <strong>{v.name}</strong>
                   <span class="mono">{formatDuration(v.duration)}</span>
                   <p>{v.description}</p>
+                  <span class="links">
+                    <a href={`https://www.youtube.com/watch?v=${v.youtubeId}${product.youtubePlaylist ? `&list=${product.youtubePlaylist}` : ''}`}>{t('videos.watchOn')}</a>
+                    {v.tiktokId && product.tiktokProfile && <a href={`${product.tiktokProfile}/video/${v.tiktokId}`}>{t('videos.watchOnTikTok')}</a>}
+                  </span>
                   {(v.feature || v.faqHref) && (
                     <span class="links">
                       {v.feature && <a href={localePath(locale, `/${slug}/features/${v.feature}/`)}>{t('labels.features')} →</a>}
@@ -125,6 +134,11 @@ const jsonLd = graph(
   .links {
     display: flex;
     gap: 6px 18px;
+    flex-wrap: wrap;
+  }
+  .channels {
+    display: flex;
+    gap: 8px 24px;
     flex-wrap: wrap;
   }
   @media (max-width: 860px) {

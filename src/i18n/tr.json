@@ -166,8 +166,10 @@
       "troubleshooting": "Sorun giderme"
     },
     "watchOn": "YouTube'da izle",
+    "watchOnTikTok": "TikTok'ta izle",
     "play": "Videoyu oynat",
-    "playlist": "Oynatma listesini YouTube'da izleyin"
+    "playlist": "Oynatma listesini YouTube'da izleyin",
+    "tiktokProfile": "TikTok'ta daha fazla kısa klip"
   },
   "compare": {
     "title": "{name} karşılaştırması",

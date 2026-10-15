@@ -166,8 +166,10 @@
       "troubleshooting": "Risoluzione problemi"
     },
     "watchOn": "Guarda su YouTube",
+    "watchOnTikTok": "Guarda su TikTok",
     "play": "Riproduci video",
-    "playlist": "Guarda la playlist su YouTube"
+    "playlist": "Guarda la playlist su YouTube",
+    "tiktokProfile": "Altri brevi clip su TikTok"
   },
   "compare": {
     "title": "{name} a confronto",

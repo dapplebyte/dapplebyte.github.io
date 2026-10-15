@@ -166,8 +166,10 @@
       "troubleshooting": "Dépannage"
     },
     "watchOn": "Regarder sur YouTube",
+    "watchOnTikTok": "Voir sur TikTok",
     "play": "Lire la vidéo",
-    "playlist": "Voir la playlist sur YouTube"
+    "playlist": "Voir la playlist sur YouTube",
+    "tiktokProfile": "Plus de clips courts sur TikTok"
   },
   "compare": {
     "title": "Comparatif {name}",

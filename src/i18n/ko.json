@@ -166,8 +166,10 @@
       "troubleshooting": "문제 해결"
     },
     "watchOn": "YouTube에서 보기",
+    "watchOnTikTok": "TikTok에서 보기",
     "play": "동영상 재생",
-    "playlist": "YouTube에서 재생목록 보기"
+    "playlist": "YouTube에서 재생목록 보기",
+    "tiktokProfile": "TikTok에 짧은 영상 더 보기"
   },
   "compare": {
     "title": "{name} 비교",
