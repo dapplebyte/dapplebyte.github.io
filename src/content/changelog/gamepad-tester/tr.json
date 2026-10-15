@@ -1,0 +1,47 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "tr",
+  "entries": [
+    {
+      "code": 125,
+      "name": "1.2.5",
+      "date": "2026-10-13",
+      "items": [
+        "Android 12'de uygulama açıkken oyun kolu bağlantısı kesilince yaşanan çökme düzeltildi",
+        "LED Işık Testi'nde renk seçiciyi sürüklerken ekranın donması düzeltildi",
+        "Bluetooth oyun kolu bağlanınca Tam Test ekranının donması düzeltildi",
+        "Bazı oyun kollarında (DualShock, DualSense) tuşlar çalışırken çubukların, D-pad'in ve tetiklerin tepki vermemesi düzeltildi"
+      ]
+    },
+    {
+      "code": 124,
+      "name": "1.2.4",
+      "date": "2026-09-18",
+      "items": [
+        "Yeni LED Işık Testi: ışık çubuğunun rengini ayarlayın, ardından düz renk, renk geçişi ve nefes testleriyle sönük nokta, renk kayması veya titremeyi bulun",
+        "Bluetooth ile DualShock 4 ya da DualSense ve Android 12+ gerekir. Kabloyla PS, Xbox ve diğer kollarda artık tepkisiz bir renk seçici yerine nedeni yazıyor",
+        "Yoklama hızı artık olduğundan düşük ölçülmüyor, eşikler gerçek ölçümlere göre yenilendi"
+      ]
+    },
+    {
+      "code": 123,
+      "name": "1.2.3",
+      "date": "2026-09-13",
+      "items": [
+        "Her ölçüm artık bir derecelendirme (Mükemmel / İyi / Orta / Zayıf), anlaşılır bir yorum ve kumandanızın nerede durduğunu gösteren bir referans tablosu içeriyor",
+        "Ölü bölge, kayma, yuvarlaklık, tetik yolu, yoklama hızı ve jitter kapsanıyor",
+        "Değerlendirme isteği yalnızca gerçekten bir kumanda test ettikten sonra görünür ve test başarısız olursa sessiz kalır"
+      ]
+    },
+    {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-09-07",
+      "items": [
+        "Uygulama boyutu küçültüldü: indirme ve kurulum daha hızlı",
+        "Daha akıcı ve kararlı çalışma için dahili optimizasyonlar"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

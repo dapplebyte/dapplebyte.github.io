@@ -44,6 +44,10 @@ const LOCALE_OVERRIDES = {
     fastlane: { es: 'es-419' },
     android: { 'pt-br': 'values-pt', id: null, vi: null },
   },
+  /** The app has no Dutch or Polish; the store listing has both, so only the FAQ falls back to English. */
+  'gamepad-tester': {
+    android: { nl: null, pl: null },
+  },
 };
 
 /** fastlane metadata folder name for a website locale. */

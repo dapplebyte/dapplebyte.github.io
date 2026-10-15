@@ -1,0 +1,310 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "vi",
+  "title": "Câu hỏi thường gặp",
+  "intro": "Những câu được hỏi nhiều nhất và cách xử lý. Chạm vào một câu hỏi để mở câu trả lời.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Kết nối & nhận diện",
+      "entries": [
+        {
+          "id": "no_device_detected",
+          "q": "Tay cầm đã kết nối nhưng ứng dụng không nhận",
+          "a": [
+            "Tay cầm Bluetooth phải được ghép đôi trong phần cài đặt Bluetooth của điện thoại trước — ứng dụng này chỉ đọc những tay cầm mà hệ thống đã nhận, nó không ghép đôi giúp bạn. Với USB, điện thoại cần hỗ trợ OTG và phải dùng cáp truyền dữ liệu thật; cáp chỉ để sạc thì không truyền dữ liệu. Kết nối xong, hãy bấm một nút bất kỳ hoặc gạt nhẹ cần để đánh thức tay cầm, rồi quay lại màn hình chính."
+          ]
+        },
+        {
+          "id": "supported_pads",
+          "q": "Những tay cầm nào được hỗ trợ?",
+          "a": [
+            "Bất cứ thứ gì Android nhận là gamepad: tay cầm Xbox Wireless và Series, DualShock 4 và DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, tay cầm kẹp điện thoại và các tay cầm HID phổ thông. Kiểm tra được tới đâu là tùy vào những gì tay cầm báo về — không có mô-tơ thì không có bài kiểm tra rung, không có bàn di thì không có bài kiểm tra bàn di. Thông tin thiết bị liệt kê đúng những gì tay cầm của bạn cung cấp."
+          ]
+        },
+        {
+          "id": "unknown_name",
+          "q": "Tay cầm hiện là “Thiết bị không xác định” hoặc một mã model khó hiểu",
+          "a": [
+            "Tên này do firmware của tay cầm tự báo và ứng dụng chỉ hiển thị lại, nên tay cầm giá rẻ và một số bộ chuyển USB không báo được tên nào có ý nghĩa. Điều đó không ảnh hưởng đến bất kỳ kết quả kiểm tra nào. Nếu cần một mã nhận dạng đáng tin cậy, hãy xem ID nhà sản xuất và ID sản phẩm trong Thông tin thiết bị."
+          ]
+        },
+        {
+          "id": "no_battery",
+          "q": "Vì sao không thấy mức pin hoặc chỉ hiện là không xác định?",
+          "a": [
+            "Mức pin phải do chính tay cầm báo về, mà phần lớn tay cầm của bên thứ ba không gửi thông tin này — kết nối USB thường cũng vậy. Tay cầm Xbox và PlayStation thường báo pin khi kết nối Bluetooth. Giá trị mà tay cầm không công bố thì không ứng dụng nào đọc được."
+          ]
+        },
+        {
+          "id": "two_pads",
+          "q": "Có thể kiểm tra hai tay cầm cùng lúc không?",
+          "a": [
+            "Được. Khi có nhiều hơn một tay cầm kết nối, các trang kiểm tra sẽ hiện bộ chọn tay cầm; còn So sánh hai tay cầm đặt hai tay cầm cạnh nhau theo thời gian thực — cách nhanh nhất để phân biệt tay cầm đã mòn với tay cầm còn tốt."
+          ]
+        },
+        {
+          "id": "random_disconnect",
+          "q": "Tay cầm tự ngắt giữa lúc đang kiểm tra",
+          "a": [
+            "Ba nguyên nhân thường gặp: tính năng tối ưu hóa pin treo ứng dụng khi chạy nền, khoảng cách hoặc vật cản, và nhiễu từ đầu thu 2.4 GHz hay router ở gần. Loại ứng dụng này khỏi danh sách tối ưu hóa pin trong phần cài đặt ứng dụng của điện thoại xử lý được hầu hết trường hợp. Nếu tay cầm cũng hay ngắt trên thiết bị khác thì nhiều khả năng lỗi nằm ở chính tay cầm."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buttons",
+      "title": "Nút bấm & bố cục",
+      "entries": [
+        {
+          "id": "why_layout_choice",
+          "q": "Vì sao phải chọn Xbox, PlayStation hay loại khác trước?",
+          "a": [
+            "Lựa chọn đó chỉ đổi cách vẽ và cách ghi nhãn các nút trên màn hình — mã phím bên dưới hoàn toàn giống nhau. Hãy chọn kiểu giống tay cầm bạn đang cầm để nhãn khớp với nút thật; nếu không kiểu nào giống, Tay cầm khác dùng được cho mọi tay cầm."
+          ]
+        },
+        {
+          "id": "wrong_button_lights",
+          "q": "Tôi bấm một nút nhưng nút khác lại sáng",
+          "a": [
+            "Trên tay cầm kiểu Nintendo, vị trí vật lý của A và B (cũng như X và Y) đảo so với tay cầm Xbox, nên cùng một mã phím lại rơi vào chỗ khác trên màn hình. Đó là khác biệt về nhãn, không phải lỗi. Lịch sử phím hiển thị mã phím và tên phím thật của từng lần bấm, đây mới là cách kiểm tra ánh xạ đáng tin."
+          ]
+        },
+        {
+          "id": "home_key_no_response",
+          "q": "Nút Home / PS / Xbox / Guide bấm không có phản ứng",
+          "a": [
+            "Android chặn nút này ở tầng hệ thống và không chuyển tiếp cho ai, nên không ứng dụng nào kiểm tra được — tay cầm của bạn vẫn ổn. Nút âm lượng trên một số tay cầm cũng vậy. Mọi nút còn lại, kể cả Share và Capture trên phần lớn mẫu máy, đều nhận bình thường."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "L3 / R3 (bấm cần xuống) không ăn",
+          "a": [
+            "Hãy ấn cần thẳng xuống cho tới khi nghe tiếng tách; hành trình trên một số tay cầm khá sâu nên ấn chéo thường bị trượt. Nếu Lịch sử phím không ghi được gì cho cú bấm đó, công tắc dưới cần nhiều khả năng đã mòn."
+          ]
+        },
+        {
+          "id": "what_is_cps",
+          "q": "CPS trong Lịch sử phím là gì?",
+          "a": [
+            "Số lần bấm mỗi giây — một nút phát tín hiệu bao nhiêu lần trong một giây. Nó dùng để kiểm chứng tay cầm có Turbo hay bắn liên thanh: bật Turbo rồi giữ nút, con số đọc được chính là tốc độ thật. Trên tay cầm thường, nó còn giúp phát hiện lỗi bấm một lần mà ăn hai lần."
+          ]
+        },
+        {
+          "id": "game_no_controller_support",
+          "q": "Mọi nút đều nhận ở đây, nhưng game lại phớt lờ tay cầm",
+          "a": [
+            "Vậy thì tay cầm không có vấn đề gì — chỉ là game đó không hề lắng nghe tín hiệu từ tay cầm, nó chỉ nhận thao tác chạm trên màn hình. Bạn có chỉnh gì trên tay cầm hay trong cài đặt Android cũng không thay đổi được điều đó. Thứ thực sự có tác dụng là một ứng dụng ánh xạ phím: nó chạy đè lên game và biến từng nút, cần analog và cò thành một cú chạm tại vị trí bạn chọn, nhờ vậy game vốn chỉ hỗ trợ cảm ứng lại chơi được như thể luôn hỗ trợ tay cầm ngay từ đầu."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sticks",
+      "title": "Cần analog: trôi cần & phân tích",
+      "entries": [
+        {
+          "id": "how_drift_measured",
+          "q": "Làm sao kiểm tra trôi cần?",
+          "a": [
+            "Đặt tay cầm lên mặt phẳng, bỏ tay hoàn toàn khỏi cần, rồi đọc độ lệch khi nghỉ. Cần còn tốt nằm ở mức 0 hoặc gần 0 và giữ nguyên; cần bị trôi thì đứng yên ở một giá trị khác 0 — đó chính là lý do nhân vật tự đi trong game."
+          ]
+        },
+        {
+          "id": "drift_threshold",
+          "q": "Lệch bao nhiêu thì coi là có vấn đề?",
+          "a": [
+            "Tham khảo nhanh từ các tay cầm thông thường: dưới 3% là bình thường, 3–8% là nhẹ và vùng chết có sẵn của phần lớn game vẫn hấp thụ được, trên 8% thường đã cảm nhận rõ khi chơi. Đây là mốc tham khảo thực tế chứ không phải thông số của nhà sản xuất — quan trọng hơn là độ lệch có ổn định không và bạn có cảm thấy khi chơi không."
+          ]
+        },
+        {
+          "id": "fix_drift",
+          "q": "Trôi cần có sửa được không?",
+          "a": [
+            "Hãy thử cách rẻ trước: vệ sinh quanh chân cần và cập nhật firmware cho tay cầm — tay cầm Xbox dùng ứng dụng Xbox Accessories, còn DualSense hoặc DualShock 4 thì cắm vào máy PlayStation. Một số tay cầm còn có chức năng hiệu chỉnh lại trong ứng dụng của hãng. Nếu làm hết mà độ lệch vẫn còn thì cụm cần đã mòn, phải mang đi sửa hoặc thay."
+          ]
+        },
+        {
+          "id": "what_is_circularity",
+          "q": "Sai số độ tròn là gì?",
+          "a": [
+            "Xoay chậm cần dọc theo mép ngoài, ứng dụng sẽ so quỹ đạo vẽ được với một hình tròn hoàn hảo; độ lệch trung bình chính là sai số độ tròn. Số càng nhỏ nghĩa là cần cho giá trị càng đều ở mọi hướng, nhờ đó thao tác ngắm mượt hơn. Sai số lớn thường có cảm giác một hướng nào đó bị hụt so với các hướng còn lại. (Pro)"
+          ]
+        },
+        {
+          "id": "what_is_deadzone",
+          "q": "Vùng chết được ước lượng thế nào?",
+          "a": [
+            "Đẩy cần thật chậm ra khỏi tâm; mức dịch chuyển nhỏ nhất bắt đầu tạo ra giá trị chính là ước lượng vùng chết. Vùng chết càng lớn thì những chỉnh ngắm nhỏ càng dễ bị bỏ qua. Đây là ước lượng dựa trên dữ liệu tay cầm báo về, không phải giá trị mà game áp dụng bên trong. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibration-motion-touchpad",
+      "title": "Rung, chuyển động & bàn di",
+      "entries": [
+        {
+          "id": "no_vibration",
+          "q": "Kiểm tra rung không thấy gì xảy ra",
+          "a": [
+            "Có ba khả năng: tay cầm không có mô-tơ, Android không mở chức năng rung cho tay cầm đó với kiểu kết nối hiện tại, hoặc tay cầm chỉ nhận lệnh rung từ máy console của chính nó. Thông tin thiết bị sẽ cho biết là trường hợp nào — nếu ghi Rung: Không hỗ trợ thì ứng dụng chẳng có gì để điều khiển. Với tay cầm hỗ trợ cả hai, nên thử USB thay cho Bluetooth."
+          ]
+        },
+        {
+          "id": "what_is_vib_studio",
+          "q": "Xưởng rung dùng để làm gì?",
+          "a": [
+            "Đây là trình chỉnh sửa dòng thời gian cho hai mô-tơ rung, để bạn tự dựng và cảm nhận mẫu rung của riêng mình thay vì chỉ dùng các mẫu dựng sẵn. Việc chỉnh sửa và các mẫu dựng sẵn là miễn phí; chạy mô-tơ bằng mẫu tự tạo và lưu vào Mẫu của tôi thuộc về Pro."
+          ]
+        },
+        {
+          "id": "patterns_transfer",
+          "q": "Mẫu rung đã lưu và lịch sử có theo sang máy mới không?",
+          "a": [
+            "Không. Mẫu rung và bản ghi kiểm tra chỉ nằm trên thiết bị này, không có gì được giữ trên máy chủ. Chuyển dữ liệu máy sang máy kèm dữ liệu ứng dụng thì mang theo được; cài mới lại thì không."
+          ]
+        },
+        {
+          "id": "motion_unsupported",
+          "q": "Trang Cảm biến chuyển động báo không hỗ trợ",
+          "a": [
+            "Đọc con quay hồi chuyển của tay cầm cần Android 12 trở lên, và tay cầm phải công bố cảm biến cho hệ thống — trên thực tế là DualShock 4, DualSense và Switch Pro. Lưu ý đây là cảm biến của tay cầm chứ không phải của điện thoại, nên tay cầm không có con quay thì vẫn trống dù điện thoại có."
+          ]
+        },
+        {
+          "id": "touchpad_no_response",
+          "q": "Trang bàn di không phản hồi",
+          "a": [
+            "Bắt tín hiệu bàn di cần Android 8.0 trở lên, và chỉ những tay cầm thật sự có bàn di — DualShock 4 và DualSense — mới bắt được. Hãy chạm Bắt đầu bắt trước, nếu không dữ liệu chạm sẽ đi thẳng vào hệ thống thay vì vào ứng dụng. Rời khỏi trang là việc bắt tín hiệu được giải phóng."
+          ]
+        },
+        {
+          "id": "touchpad_capture_scope",
+          "q": "Trong lúc bắt tín hiệu bàn di, các nút khác còn dùng được không?",
+          "a": [
+            "Còn — việc bắt tín hiệu chỉ chuyển hướng bề mặt cảm ứng, còn nút và cần vẫn báo về như thường. Nó được giải phóng ngay khi bạn rời trang, nên sau đó không có gì bị khóa vào ứng dụng."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Độ trễ & kiểm tra toàn diện",
+      "entries": [
+        {
+          "id": "what_latency_measures",
+          "q": "Bài kiểm tra độ trễ thực sự đo cái gì?",
+          "a": [
+            "Đo tần suất tay cầm báo về điện thoại: tốc độ polling tính bằng Hz và khoảng cách giữa hai lần báo tính bằng mili giây. Đó không phải độ trễ từ ngón tay đến hình ảnh — phần đó còn phụ thuộc màn hình, game và điện thoại, không ứng dụng nào đo từ bên trong được. Nó hữu ích ở chỗ giúp so hai tay cầm, hoặc so cùng một tay cầm giữa Bluetooth và USB."
+          ]
+        },
+        {
+          "id": "low_polling_rate",
+          "q": "Vì sao tốc độ polling của tôi chỉ khoảng 100 Hz?",
+          "a": [
+            "Đó là mức bình thường với phần lớn tay cầm Bluetooth; USB và đầu thu 2.4 GHz thường báo nhanh hơn. Con số này còn bị giới hạn bởi tốc độ Android chuyển sự kiện nhập liệu, nên tay cầm tần số cao đọc ở đây có thể thấp hơn trên PC. Hãy gắn nhãn Kiểu kết nối trước khi lấy mẫu để các phiên đã lưu còn so sánh được với nhau."
+          ]
+        },
+        {
+          "id": "what_is_jitter",
+          "q": "Đọc Độ trễ dao động (σ) thế nào?",
+          "a": [
+            "Nó cho biết khoảng báo về dao động nhiều hay ít. Hai tay cầm có thể cùng khoảng trung bình, nhưng một cái báo đều còn cái kia báo dồn cục — cái không đều cho cảm giác tệ hơn, và đây chính là thứ chỉ số này phơi bày. Biểu đồ phân bố khoảng thời gian và phần so sánh phiên giúp thấy rõ điều đó. (Pro)"
+          ]
+        },
+        {
+          "id": "full_test_items",
+          "q": "Kiểm tra toàn diện gồm những gì?",
+          "a": [
+            "Sáu bước: toàn bộ nút, tầm cần, độ tròn của cần, hành trình cò, trôi cần khi nghỉ và rung. Ứng dụng dẫn bạn đi lần lượt và chấm Đạt, Cần xem hoặc Lỗi cho từng bước, kèm một báo cáo có thể chia sẻ. Khoảng hai phút nếu bạn không bỏ bước nào."
+          ]
+        },
+        {
+          "id": "full_test_warn_fail",
+          "q": "Một bước bị chấm Cần xem hoặc Lỗi — giờ làm gì?",
+          "a": [
+            "Cần xem thường là do nhập liệu chưa đủ chứ không phải hỏng: cần chưa đẩy tới hết các mép, hoặc cò chưa bóp hết cỡ, nên bước đó đáng làm lại. Lỗi ở phần trôi cần hoặc rung thì thiên về phần cứng — xem “Trôi cần có sửa được không?” và “Kiểm tra rung không thấy gì xảy ra” để biết nên thử gì. Các bước bị bỏ qua không tính vào kết quả."
+          ]
+        },
+        {
+          "id": "report_export",
+          "q": "Báo cáo kiểm tra nằm ở đâu và chia sẻ thế nào?",
+          "a": [
+            "Xuất sẽ dựng kết quả thành một ảnh dài rồi đưa sang bảng chia sẻ của điện thoại, nên bạn gửi được cho người bán, tiệm sửa hay bạn bè — ứng dụng không tải gì lên. Bản xuất miễn phí cần xem một video quảng cáo ngắn trước; có Pro thì xuất không quảng cáo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro & giao dịch mua",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Pro có phải gói thuê bao không? Gồm những gì?",
+          "a": [
+            "Không — mua một lần và mở khóa vĩnh viễn. Gồm điểm sức khỏe và xu hướng trôi cần trong Lịch sử kiểm tra, xuất báo cáo không quảng cáo cùng tệp CSV độ trễ, lưu và phát lại mẫu rung của riêng bạn, chẩn đoán cần nâng cao như độ tròn và vùng chết, so sánh ngoại tuyến các bản ghi đã lưu, và gỡ toàn bộ quảng cáo. Mọi bài kiểm tra cơ bản vẫn miễn phí."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Tôi đổi điện thoại và Pro biến mất",
+          "a": [
+            "Hãy đăng nhập Google Play bằng đúng tài khoản đã mua, rồi dùng Khôi phục giao dịch mua. Quyền Pro gắn với tài khoản Google đó chứ không gắn với thiết bị."
+          ]
+        },
+        {
+          "id": "pro_purchase_failed",
+          "q": "Giao dịch mua thất bại, hoặc cứ đứng ở “Đang kết nối Google Play”",
+          "a": [
+            "Kiểm tra xem Play Store có mở bình thường không và khu vực tài khoản có hỗ trợ hình thức thanh toán bạn dùng không, rồi thử lại sau vài phút — hầu như luôn là sự cố tạm thời của Google Play chứ không phải của ứng dụng. Nếu đã bị trừ tiền mà Pro chưa mở, hãy dùng Khôi phục giao dịch mua trước. Việc hoàn tiền thực hiện qua lịch sử đơn hàng trong Google Play."
+          ]
+        },
+        {
+          "id": "pro_ads",
+          "q": "Mua Pro thì quảng cáo có hết không?",
+          "a": [
+            "Có, hết sạch — quảng cáo lúc mở ứng dụng, quảng cáo trước khi xuất báo cáo, không còn cái nào. Nó có hiệu lực ngay khi giao dịch hoàn tất; nếu vẫn thấy quảng cáo, hãy mở lại ứng dụng."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-compatibility",
+      "title": "Quyền riêng tư, tương thích & hỗ trợ",
+      "entries": [
+        {
+          "id": "data_privacy",
+          "q": "Dữ liệu kiểm tra của tôi có bị tải lên đâu không?",
+          "a": [
+            "Không. Kết quả kiểm tra, lịch sử và mẫu rung đều ở lại trên điện thoại của bạn, còn báo cáo đã xuất đi thẳng tới ứng dụng bạn chọn trong bảng chia sẻ. Ứng dụng có thu thập thống kê sử dụng ẩn danh — những trang nào được mở, kèm báo cáo sự cố — không chứa dữ liệu tay cầm và không có gì mang tính cá nhân. Chính sách bảo mật có đầy đủ chi tiết."
+          ]
+        },
+        {
+          "id": "history_manage",
+          "q": "Có xóa được lịch sử kiểm tra không? Nó có tốn dung lượng không?",
+          "a": [
+            "Mỗi bản ghi chỉ là vài kilobyte văn bản nên không đáng lo về dung lượng. Bạn có thể xóa từng bản ghi, hoặc xóa sạch mọi bản ghi của một tay cầm, ngay trong Lịch sử kiểm tra. Bản ghi được lưu tự động khi Kiểm tra toàn diện kết thúc."
+          ]
+        },
+        {
+          "id": "tool_unsupported",
+          "q": "Vì sao vài công cụ báo là không hỗ trợ trên điện thoại của tôi?",
+          "a": [
+            "Chỉ có hai lý do: phiên bản Android — cảm biến chuyển động cần từ 12 trở lên, bắt tín hiệu bàn di cần từ 8.0 trở lên — hoặc tay cầm không có khả năng đó, chẳng hạn không mô-tơ, không con quay hồi chuyển, không bàn di hay không cần analog. Thông tin thiết bị liệt kê những gì tay cầm đang kết nối cung cấp, và các công cụ chạy theo đúng danh sách đó."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Báo lỗi hoặc góp ý bằng cách nào?",
+          "a": [
+            "Cài đặt → Giới thiệu → Gửi phản hồi. Mẫu máy, phiên bản Android và phiên bản ứng dụng được đính kèm tự động, đó thường là những gì chúng tôi cần để tái hiện vấn đề. Nếu tay cầm không được nhận diện, cho chúng tôi biết chính xác model và cách kết nối sẽ giúp ích rất nhiều."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

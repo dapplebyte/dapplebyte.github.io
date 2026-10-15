@@ -1,0 +1,27 @@
+{
+  "slug": "gamepad-tester",
+  "draft": true,
+  "verifiedOn": null,
+  "competitors": [
+    { "id": "gamepad-tester-selva", "name": "Gamepad Tester", "url": "https://play.google.com/store/apps/details?id=com.chimera.saturday.evogamepadtester" },
+    { "id": "game-controller-tester", "name": "Game Controller Tester", "url": "https://play.google.com/store/apps/details?id=uk.co.powgames.gamecondiag" },
+    { "id": "driftguard", "name": "DriftGuard", "url": "https://play.google.com/store/apps/details?id=com.vestracode.driftguard" }
+  ],
+  "rows": [
+    { "id": "platform", "values": { "gamepad-tester": "Android 6+", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "button-test", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "drift-analysis", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "polling-rate", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "rumble-test", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "health-report", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "test-history", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "led-test", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "motion-test", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "touchpad-test", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "no-root", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "no-account", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "free-install", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "no-subscription", "values": { "gamepad-tester": "yes", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } },
+    { "id": "pricing-model", "values": { "gamepad-tester": "free-with-pro", "gamepad-tester-selva": "unknown", "game-controller-tester": "unknown", "driftguard": "unknown" } }
+  ]
+}

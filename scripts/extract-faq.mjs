@@ -1,6 +1,6 @@
 // App FAQ → src/content/faq/<slug>/<locale>.json
 //
-// `kotlin` products (Relaypad, JoyLink): FaqContent.kt holds the grouping, order and ids; strings_faq.xml holds
+// `kotlin` products (Relaypad, JoyLink, Gamepad Tester Pro): FaqContent.kt holds the grouping, order and ids; strings_faq.xml holds
 // the text. The website always publishes the paid edition with nothing on sale:
 // `answer(proOffered, free, paid)` picks `paid`, and the purchase section is `faq_section_purchase_paid`.
 //
@@ -73,6 +73,29 @@ const CONFIG = {
       faq_section_pro_modes: 'pro-modes',
       faq_section_purchase: 'purchase',
       faq_section_compat: 'compatibility',
+    },
+  },
+  'gamepad-tester': {
+    kotlin: 'app/src/main/java/com/swordfish/radialgamepad/faq/FaqContent.kt',
+    stringsFile: 'strings_faq.xml',
+    /** Section title keys in the order FaqContent.Sections lists them. */
+    order: [
+      'faq_section_connection',
+      'faq_section_buttons',
+      'faq_section_sticks',
+      'faq_section_haptics',
+      'faq_section_latency',
+      'faq_section_purchase',
+      'faq_section_compat',
+    ],
+    slugs: {
+      faq_section_connection: 'connection',
+      faq_section_buttons: 'buttons',
+      faq_section_sticks: 'sticks',
+      faq_section_haptics: 'vibration-motion-touchpad',
+      faq_section_latency: 'latency',
+      faq_section_purchase: 'purchase',
+      faq_section_compat: 'privacy-compatibility',
     },
   },
   'gamepad-pro': {
@@ -314,7 +337,12 @@ for (const [slug, root] of Object.entries(products)) {
   let written = 0;
   const counts = new Set();
   for (const locale of LOCALES) {
-    const file = join(root, 'app/src/main/res', locale.android, cfg.stringsFile);
+    const folder = androidValues(slug, locale);
+    if (!folder) {
+      console.log(`[faq] ${slug}/${locale.slug}: the app has no translation, skipped (the site shows English)`);
+      continue;
+    }
+    const file = join(root, 'app/src/main/res', folder, cfg.stringsFile);
     if (!existsSync(file)) {
       console.warn(`[faq] ${slug}/${locale.slug}: ${file} missing, locale skipped`);
       continue;

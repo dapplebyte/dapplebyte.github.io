@@ -53,7 +53,7 @@ const jsonLd = graph(
     <div class="apps">
       {live.length > 0 && <ProductHero locale={locale} product={live[0]} copy={copies[0]} level={2} linkTo={localePath(locale, `/${live[0].slug}/`)} featured />}
       {live.length > 1 && (
-        <div class="app-cards">
+        <div class:list={['app-cards', { 'two-up': live.length - 1 === 4 }]}>
           {live.slice(1).map((p, i) => (
             <ProductCard locale={locale} product={p} copy={copies[i + 1]} linkTo={localePath(locale, `/${p.slug}/`)} />
           ))}
@@ -116,11 +116,15 @@ const jsonLd = graph(
     flex-direction: column;
     gap: 24px;
   }
-  /* The lead product gets the full-width hero; the rest sit in a row of equal cards below it. */
+  /* The lead product gets the full-width hero; the rest sit in a row of equal cards below it.
+     Four cards go two by two: in three columns the last one would sit alone, and four columns are too narrow for the buttons. */
   .app-cards {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 24px;
+  }
+  .app-cards.two-up {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .placeholder {
     display: flex;

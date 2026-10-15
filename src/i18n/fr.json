@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Applications Android indépendantes",
-    "description": "DappleByte est un studio indépendant qui crée des applications Android : Gamepad Pro, un mappeur de touches qui transforme une manette en commandes tactiles ; Relaypad, une application de manette Remote Play et de streaming de console pour PS5 et PS4 ; WhenDo, une application d'automatisation par IA avec cliqueur automatique ; et JoyLink, qui transforme un téléphone en manette Bluetooth, pavé tactile et télécommande TV.",
+    "description": "DappleByte est un studio indépendant qui crée des applications Android : Gamepad Pro, un mappeur de touches qui transforme une manette en commandes tactiles ; Relaypad, une application de manette Remote Play et de streaming de console pour PS5 et PS4 ; WhenDo, une application d'automatisation par IA avec cliqueur automatique ; JoyLink, qui transforme un téléphone en manette Bluetooth, pavé tactile et télécommande TV ; et Gamepad Tester Pro, qui détecte sur une manette la dérive des sticks, l'input lag et les boutons morts.",
     "appsHeading": "Applications",
     "principlesHeading": "Notre façon de travailler",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "Pavé tactile, souris et clavier",
       "tv-remote": "Télécommande TV pour Android TV, Google TV et Fire TV",
       "racing-wheel": "Volant qui se dirige en inclinant le téléphone",
-      "custom-layouts": "Déplacer, redimensionner et enregistrer les dispositions des commandes"
+      "custom-layouts": "Déplacer, redimensionner et enregistrer les dispositions des commandes",
+      "button-test": "Test des boutons et des codes de touche en temps réel",
+      "drift-analysis": "Analyse de la dérive du stick, de la zone morte et de la circularité",
+      "polling-rate": "Mesure du taux d'interrogation et de l'input lag",
+      "rumble-test": "Test de vibration moteur par moteur",
+      "health-report": "Score de santé et rapport à partager",
+      "test-history": "Historique des tests et tendance de la dérive par manette",
+      "led-test": "Test de la barre lumineuse (PlayStation en Bluetooth)",
+      "motion-test": "Test du gyroscope et de l'accéléromètre",
+      "touchpad-test": "Test du pavé tactile"
     },
     "values": {
       "yes": "Oui",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 et PS4 sont des marques commerciales de Sony Interactive Entertainment Inc. {name} n'est ni affilié à Sony ni approuvé par Sony.",
-    "hosts": "Windows et Xbox sont des marques commerciales de Microsoft ; Mac, iPhone et iPad, d'Apple ; PlayStation, de Sony Interactive Entertainment ; Nintendo Switch, de Nintendo ; Android, Android TV et Google TV, de Google ; Fire TV, d'Amazon ; Steam, de Valve ; Raspberry Pi, de Raspberry Pi Ltd. {name} n'est affilié à aucune de ces sociétés ni approuvé par elles."
+    "hosts": "Windows et Xbox sont des marques commerciales de Microsoft ; Mac, iPhone et iPad, d'Apple ; PlayStation, de Sony Interactive Entertainment ; Nintendo Switch, de Nintendo ; Android, Android TV et Google TV, de Google ; Fire TV, d'Amazon ; Steam, de Valve ; Raspberry Pi, de Raspberry Pi Ltd. {name} n'est affilié à aucune de ces sociétés ni approuvé par elles.",
+    "controllers": "Xbox est une marque commerciale de Microsoft ; PlayStation, DualShock et DualSense, de Sony Interactive Entertainment ; Nintendo Switch, de Nintendo. {name} n'est affilié à aucune de ces sociétés ni approuvé par elles."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "JoyLink comparé aux autres applications qui transforment un téléphone en manette pour un ordinateur ou une TV, fonctionnalité par fonctionnalité, uniquement des faits.",
         "vsDescription": "{name} et {other} comparés sur Android, fonctionnalité par fonctionnalité : application réceptrice, manette Bluetooth, pavé tactile et télécommande TV, volant, root, publicité et prix.",
         "vsIntro": "Les deux transforment un téléphone Android en manette pour un ordinateur ou une TV. Voici en quoi ils diffèrent, fonctionnalité par fonctionnalité."
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "Testeur de manette · Sans PC",
+      "heroPoints": [
+        "Boutons, sticks, gâchettes, dérive du stick et vibration en un seul test guidé, avec un score de santé et un rapport à partager",
+        "Analyse de la dérive du stick, de la zone morte et de la circularité, plus le taux d'interrogation et l'input lag en Bluetooth ou en USB",
+        "Gratuit avec publicités. Pro est un achat unique qui supprime les publicités et débloque les diagnostics avancés"
+      ],
+      "faqDescription": "Réponses sur Gamepad Tester Pro : détection et appairage, boutons et dispositions, dérive du stick et zone morte, vibration, mouvement et pavé tactile, latence et test complet, Pro, confidentialité et compatibilité.",
+      "faqNotFoundBody": "Écrivez-nous en indiquant votre modèle de téléphone, votre manette et la façon dont elle est connectée. Une vraie personne lit chaque message.",
+      "support": {
+        "beforeItems": [
+          "Ouvrez la FAQ. La plupart des questions sur la détection, la dérive, la latence et la vibration y trouvent leur réponse, avec les mêmes termes que dans l'application.",
+          "Consultez d'abord Infos de l'appareil. Si Android ne signale ni batterie, ni vibration, ni capteurs de mouvement, ni pavé tactile pour votre manette, l'application ne peut pas les tester ; la FAQ indique ce que chaque manette expose.",
+          "Notez le modèle de votre manette, si elle est connectée en Bluetooth ou en USB, et quel test a donné un résultat inattendu. C'est ce qu'il nous faut pour reproduire le problème."
+        ],
+        "template": {
+          "phone": "Modèle du téléphone :",
+          "android": "Version d'Android :",
+          "controller": "Manette (modèle, Bluetooth ou USB) :",
+          "test": "Test concerné et résultat obtenu :",
+          "what": "Ce qui s'est passé, étape par étape :",
+          "pro": "Achat Pro : oui / non"
+        },
+        "refundBody": "Gamepad Tester Pro s'installe gratuitement. Si vous avez acheté Pro et qu'il ne fonctionne pas avec votre configuration, écrivez-nous dans les 7 jours suivant l'achat et nous vous rembourserons. Dites-nous ce que vous avez essayé : cela nous aide à corriger le problème pour les prochains utilisateurs."
+      },
+      "press": {
+        "description": "Faits, visuels et texte de présentation pour parler de Gamepad Tester Pro, le testeur de manette et de dérive du stick pour Android.",
+        "boilerplate": "Gamepad Tester Pro vérifie toute manette Bluetooth, USB ou OTG sur un téléphone ou une tablette Android : boutons, sticks analogiques, dérive du stick, zone morte, gâchettes, vibration, input lag et taux d'interrogation, puis attribue un score de santé et produit un rapport à partager. Il fonctionne avec les manettes Xbox, PlayStation, Switch Pro et génériques, sans PC. L'application est développée par DappleByte, un studio indépendant.",
+        "priceValue": "Installation gratuite, avec publicités. Les tests de base sont gratuits ; un achat Pro unique supprime les publicités et débloque les diagnostics avancés, le suivi de l'état de santé, l'export CSV et l'enregistrement des motifs de vibration. Il n'y a pas d'abonnement. Le prix actuel est indiqué sur Google Play.",
+        "assetScreenshots": "Captures d'écran de téléphone, PNG 1080 × 1920, en anglais"
+      },
+      "videosDescription": "De courtes vidéos de Gamepad Tester Pro sur un vrai téléphone : le test complet, la lecture d'un résultat de dérive du stick, le test de latence et le test de vibration.",
+      "privacyDescription": "Ce que Gamepad Tester Pro pour Android fait de vos données : pas de compte, des résultats de test qui restent sur le téléphone, ce que collectent les SDK de statistiques et de publicité, et comment vous y opposer ou demander la suppression de vos données.",
+      "compare": {
+        "description": "Gamepad Tester Pro comparé aux autres applications de test de manette sur Android, fonctionnalité par fonctionnalité, uniquement des faits.",
+        "vsDescription": "{name} et {other} comparés sur Android, fonctionnalité par fonctionnalité : test des boutons, analyse de la dérive du stick, taux d'interrogation, vibration, rapport de santé, publicité et prix.",
+        "vsIntro": "Les deux testent une manette de jeu sur un téléphone Android. Voici en quoi ils diffèrent, fonctionnalité par fonctionnalité."
       }
     }
   }

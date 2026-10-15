@@ -1,0 +1,310 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "en",
+  "title": "FAQ",
+  "intro": "The questions we get asked most, and what to do about them. Tap a question to expand it.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Connection & detection",
+      "entries": [
+        {
+          "id": "no_device_detected",
+          "q": "My controller is connected, but the app doesn't detect it",
+          "a": [
+            "Bluetooth controllers have to be paired in your phone's own Bluetooth settings first — this app reads the controllers the system already recognises, it doesn't pair them. For USB, the phone needs OTG support and a real data cable; charge-only cables carry no data. Once connected, press any button or nudge a stick to wake the controller, then come back to the home screen."
+          ]
+        },
+        {
+          "id": "supported_pads",
+          "q": "Which controllers are supported?",
+          "a": [
+            "Anything Android recognises as a gamepad: Xbox Wireless and Series controllers, DualShock 4 and DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, telescopic phone controllers and generic HID pads. How much can be tested depends on what your controller reports — a pad with no motor has no vibration test, one with no touchpad has no touchpad test. Device Info lists exactly what yours exposes."
+          ]
+        },
+        {
+          "id": "unknown_name",
+          "q": "The controller shows up as “Unknown Devices” or a raw model code",
+          "a": [
+            "The name comes from the controller's own firmware and the app just passes it through, so budget pads and some USB adapters report nothing useful. It has no effect on any test result. If you need a reliable identifier, use the Vendor ID and Product ID in Device Info."
+          ]
+        },
+        {
+          "id": "no_battery",
+          "q": "Why is the battery level missing or unknown?",
+          "a": [
+            "Battery has to be reported by the controller itself, and most third-party pads never send it — USB connections usually don't either. Xbox and PlayStation controllers normally report it over Bluetooth. No app can read a level the controller doesn't publish."
+          ]
+        },
+        {
+          "id": "two_pads",
+          "q": "Can I test two controllers at once?",
+          "a": [
+            "Yes. Test pages show a controller picker when more than one is connected, and Dual Controller Compare puts two pads side by side in real time — the quickest way to tell a worn pad from a healthy one."
+          ]
+        },
+        {
+          "id": "random_disconnect",
+          "q": "The controller drops out in the middle of a test",
+          "a": [
+            "Three usual causes: battery optimisation suspending the app in the background, distance or obstacles, and interference from 2.4 GHz dongles or a nearby router. Excluding this app from battery optimisation in your phone's app settings fixes most cases. A pad that also drops out on other devices is likely the pad itself."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buttons",
+      "title": "Buttons & layouts",
+      "entries": [
+        {
+          "id": "why_layout_choice",
+          "q": "Why do I have to pick Xbox, PlayStation or Others first?",
+          "a": [
+            "It only changes how the buttons are drawn and labelled on screen — the key codes underneath are identical. Pick whichever matches the pad in your hands so the labels line up; if none of them does, Others Gamepad works for every controller."
+          ]
+        },
+        {
+          "id": "wrong_button_lights",
+          "q": "I press a button and the wrong one lights up",
+          "a": [
+            "A and B (and X and Y) sit in swapped physical positions on Nintendo-style pads compared with Xbox ones, so the same key code lands somewhere else on screen. That is a labelling difference, not a fault. Key History shows the real key code and name for every press, which is the reliable way to check a mapping."
+          ]
+        },
+        {
+          "id": "home_key_no_response",
+          "q": "The Home / PS / Xbox / Guide button does nothing",
+          "a": [
+            "Android intercepts that button at system level and never passes it on, so no app can test it — your controller is fine. The same applies to the volume keys on some pads. Everything else, including Share and Capture on most models, comes through normally."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "L3 / R3 (pressing the sticks down) won't register",
+          "a": [
+            "Press the stick straight down until it clicks; the travel is deep on some pads and an angled push often misses it. If Key History logs nothing at all for the click, the switch under that stick is probably worn."
+          ]
+        },
+        {
+          "id": "what_is_cps",
+          "q": "What is CPS in Key History?",
+          "a": [
+            "Clicks per second — how many times a button fires each second. It is there to verify turbo and rapid-fire pads: hold the button with turbo on and the reading gives you the real rate. On a normal pad it also exposes double-firing, where one press registers twice."
+          ]
+        },
+        {
+          "id": "game_no_controller_support",
+          "q": "Every button works here, but my game ignores the controller",
+          "a": [
+            "Then the pad is fine — the game simply never listens for controller input and only accepts taps on the screen. Nothing you change on the pad or in Android settings will fix that. What does work is a key mapper: it sits on top of the game and turns each button, stick and trigger into a touch on the spot you choose, so a touch-only game plays like it had controller support all along."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sticks",
+      "title": "Sticks: drift & analysis",
+      "entries": [
+        {
+          "id": "how_drift_measured",
+          "q": "How do I check for stick drift?",
+          "a": [
+            "Put the controller down on a flat surface, take your hands completely off the sticks, then read the resting offset. A healthy stick sits at or near zero and stays there; a drifting one holds a steady non-zero value, which is what makes a character walk off on its own."
+          ]
+        },
+        {
+          "id": "drift_threshold",
+          "q": "How much offset counts as a problem?",
+          "a": [
+            "As a rough guide from ordinary pads: under 3% is normal, 3–8% is mild and most games' built-in dead zone absorbs it, and above 8% tends to be noticeable in game. These are practical reference points rather than a manufacturer specification — what matters more is whether the offset stays steady and whether you can feel it while playing."
+          ]
+        },
+        {
+          "id": "fix_drift",
+          "q": "Can drift be fixed?",
+          "a": [
+            "Try the cheap things first: clean around the base of the stick, and update the controller's firmware — the Xbox Accessories app for Xbox pads, or plugging a DualSense or DualShock 4 into a PlayStation console. Some controllers also have a recalibration routine in their maker's own app. If the offset survives all of that, the stick module is worn and needs servicing or replacing."
+          ]
+        },
+        {
+          "id": "what_is_circularity",
+          "q": "What is circularity error?",
+          "a": [
+            "Rotate a stick slowly along its outer edge and the app compares the traced path with a perfect circle; the average deviation is the circularity error. Lower means the stick reads consistently in every direction, which is what keeps aiming even. A large error usually feels like one direction being shorter than the rest. (Pro)"
+          ]
+        },
+        {
+          "id": "what_is_deadzone",
+          "q": "How is the dead zone estimated?",
+          "a": [
+            "Push the stick very slowly out from the centre; the smallest movement that produces any reading approximates the dead zone. A larger dead zone means small aiming corrections get ignored. This is an estimate based on what the controller reports, not the value a game applies internally. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibration-motion-touchpad",
+      "title": "Vibration, motion & touchpad",
+      "entries": [
+        {
+          "id": "no_vibration",
+          "q": "The vibration test doesn't do anything",
+          "a": [
+            "Three possible reasons: the controller has no motors, Android does not expose vibration for that pad over the current connection, or the pad only accepts rumble from its own console. Device Info tells you which — if it says Vibration: Not supported, there is nothing for the app to drive. On pads that support both, USB is worth trying instead of Bluetooth."
+          ]
+        },
+        {
+          "id": "what_is_vib_studio",
+          "q": "What is Vibration Studio for?",
+          "a": [
+            "It is a timeline editor for the two rumble motors, so you can build and feel your own patterns instead of only the fixed presets. Editing and the built-in presets are free; driving the motors with a custom pattern and saving it to My patterns are Pro."
+          ]
+        },
+        {
+          "id": "patterns_transfer",
+          "q": "Will my saved patterns and history move to a new phone?",
+          "a": [
+            "No. Patterns and test records are stored on this device only, with nothing kept on a server. A full phone-to-phone transfer that includes app data will carry them over; a fresh install will not."
+          ]
+        },
+        {
+          "id": "motion_unsupported",
+          "q": "The Motion Sensors page says it is not supported",
+          "a": [
+            "Reading a controller's gyroscope needs Android 12 or newer, and the pad has to publish its sensors to the system — in practice DualShock 4, DualSense and Switch Pro. Note that this reads the controller's sensors, not the phone's, so a pad without a gyro shows nothing even on a phone that has one."
+          ]
+        },
+        {
+          "id": "touchpad_no_response",
+          "q": "The touchpad page doesn't react",
+          "a": [
+            "Touchpad capture needs Android 8.0 or newer, and only pads that actually have a touchpad — DualShock 4 and DualSense — can be captured. Tap Start capture first, otherwise the touch data goes to the system instead of the app. Leaving the page releases the capture."
+          ]
+        },
+        {
+          "id": "touchpad_capture_scope",
+          "q": "While the touchpad is captured, do the other buttons still work?",
+          "a": [
+            "Yes — capture only redirects the touch surface, while buttons and sticks keep reporting as usual. It is released the moment you leave the page, so nothing stays locked to the app afterwards."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Latency & full test",
+      "entries": [
+        {
+          "id": "what_latency_measures",
+          "q": "What does the latency test actually measure?",
+          "a": [
+            "How often the controller reports to the phone: the polling rate in Hz and the interval between reports in milliseconds. It is not end-to-end lag from your thumb to the picture — that also depends on the display, the game and the phone, and no app can measure it from the inside. What it is good for is comparing two pads, or the same pad on Bluetooth versus USB."
+          ]
+        },
+        {
+          "id": "low_polling_rate",
+          "q": "Why is my polling rate only around 100 Hz?",
+          "a": [
+            "That is normal for most Bluetooth pads; USB and 2.4 GHz dongles usually report faster. The reading is also capped by how quickly Android delivers input events, so a high-rate pad can read lower here than on a PC. Tag the connection type before sampling and your saved sessions stay comparable."
+          ]
+        },
+        {
+          "id": "what_is_jitter",
+          "q": "How do I read jitter?",
+          "a": [
+            "It is how much the reporting interval varies. Two pads can share the same average interval while one reports evenly and the other in bursts — the uneven one feels worse, and jitter is what reveals it. The interval distribution chart and session comparison make it visible. (Pro)"
+          ]
+        },
+        {
+          "id": "full_test_items",
+          "q": "What does the Full Test cover?",
+          "a": [
+            "Six steps: every button, stick range, stick circularity, trigger travel, resting drift and vibration. It walks you through them in order and gives a pass, check or fail for each, plus a report you can share. Around two minutes if you skip nothing."
+          ]
+        },
+        {
+          "id": "full_test_warn_fail",
+          "q": "A step came back as Check or Fail — now what?",
+          "a": [
+            "Check usually means incomplete input rather than a fault: a stick that never reached every edge, or a trigger not pulled all the way, so that step is worth re-running. Fail on drift or vibration points at hardware — see “Can drift be fixed?” and “The vibration test doesn't do anything” for what to try. Skipped steps do not count towards the result."
+          ]
+        },
+        {
+          "id": "report_export",
+          "q": "Where does the test report go, and how do I share it?",
+          "a": [
+            "Export renders the result as one long image and hands it to your phone's share sheet, so you can send it to a seller, a repair shop or a friend — the app uploads nothing. A free export asks you to watch a short video ad first; with Pro it exports without ads."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro & purchases",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Is Pro a subscription? What does it include?",
+          "a": [
+            "No — it is a one-time purchase that stays unlocked for good. It covers health score and drift trends in Test History, ad-free report export and the latency CSV, saving and playing your own vibration patterns, advanced stick diagnostics such as circularity and dead zone, offline comparison of saved records, and it removes all ads. Every basic test stays free."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "I changed phones and Pro is gone",
+          "a": [
+            "Sign in to Google Play with the same account you bought it with, then use Restore purchase. The purchase is tied to that Google account, not to the device."
+          ]
+        },
+        {
+          "id": "pro_purchase_failed",
+          "q": "The purchase failed, or it stays on “Connecting to Google Play”",
+          "a": [
+            "Check that the Play Store opens normally and that your account region supports the payment method, then try again in a few minutes — this is almost always a temporary Google Play issue rather than the app. If you were charged but Pro did not unlock, use Restore purchase first. Refunds go through your order history in Google Play."
+          ]
+        },
+        {
+          "id": "pro_ads",
+          "q": "Do the ads go away with Pro?",
+          "a": [
+            "Yes, all of them — the launch ad, the one before a report export, everything. It takes effect as soon as the purchase completes; if an ad still appears, reopen the app."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-compatibility",
+      "title": "Privacy, compatibility & support",
+      "entries": [
+        {
+          "id": "data_privacy",
+          "q": "Is my test data uploaded anywhere?",
+          "a": [
+            "No. Test results, history and vibration patterns stay on your phone, and an exported report goes straight to whichever app you pick in the share sheet. The app does collect anonymous usage statistics — which pages get opened, plus crash reports — containing no controller data and nothing personal. The privacy policy has the full details."
+          ]
+        },
+        {
+          "id": "history_manage",
+          "q": "Can I delete test history? Does it take up space?",
+          "a": [
+            "Each record is a few kilobytes of text, so space is not a concern. You can delete a single record, or clear every record for one controller, from Test History. Records are saved automatically when a Full Test finishes."
+          ]
+        },
+        {
+          "id": "tool_unsupported",
+          "q": "Why do some tools say they are not supported on my phone?",
+          "a": [
+            "Only two reasons: the Android version — motion sensors need 12 or newer, touchpad capture needs 8.0 or newer — or a capability your controller does not have, such as no motor, no gyroscope, no touchpad or no analog stick. Device Info lists what the connected pad exposes, and the tools follow that."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "How do I report a problem or suggest something?",
+          "a": [
+            "Settings → About → Send feedback. Your phone model, Android version and app version are attached automatically, which is usually what we need to reproduce the problem. If a controller is not being detected, telling us its exact model and how it is connected helps a lot."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

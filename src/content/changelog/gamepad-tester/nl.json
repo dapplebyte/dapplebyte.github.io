@@ -1,0 +1,47 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "nl",
+  "entries": [
+    {
+      "code": 125,
+      "name": "1.2.5",
+      "date": "2026-10-13",
+      "items": [
+        "Crash op Android 12 opgelost wanneer een controller de verbinding verbrak terwijl de app open was",
+        "LED-lichttest loopt niet meer vast bij het slepen van de kleurkiezer",
+        "Pagina Volledige test loopt niet meer vast wanneer een Bluetooth-controller verbinding maakt",
+        "Opgelost: op sommige controllers (DualShock, DualSense) reageerden sticks, D-pad en triggers niet terwijl de knoppen wel werkten"
+      ]
+    },
+    {
+      "code": 124,
+      "name": "1.2.4",
+      "date": "2026-09-18",
+      "items": [
+        "Nieuwe LED-lichttest: stel de kleur van de lichtbalk in en doe een effen-kleur-, kleurverloop- en ademtest om dode plekken, kleurzweem of flikkering te spotten",
+        "Vereist DualShock 4 of DualSense via Bluetooth, Android 12+. PS via kabel, Xbox en andere pads krijgen nu een duidelijke uitleg in plaats van een kleurkiezer die niets doet",
+        "De polling rate wordt niet langer te laag gemeten en de beoordelingsdrempels zijn afgestemd op echte Android-metingen"
+      ]
+    },
+    {
+      "code": 123,
+      "name": "1.2.3",
+      "date": "2026-09-13",
+      "items": [
+        "Elke meting krijgt nu een beoordeling (Uitstekend / Goed / Matig / Slecht) plus een helder oordeel, met een referentietabel die laat zien waar je gamepad staat",
+        "Deadzone, drift, rondheid, triggerslag, polling rate en jitter komen allemaal aan bod",
+        "De vraag om een beoordeling verschijnt pas nadat je echt een controller hebt getest, en blijft weg na een mislukte test"
+      ]
+    },
+    {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-09-07",
+      "items": [
+        "Kleinere app voor een snellere download en installatie",
+        "Optimalisaties onder de motorkap voor soepelere, stabielere prestaties"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

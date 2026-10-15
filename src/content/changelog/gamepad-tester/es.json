@@ -1,0 +1,47 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "es",
+  "entries": [
+    {
+      "code": 125,
+      "name": "1.2.5",
+      "date": "2026-10-13",
+      "items": [
+        "Corregido el cierre inesperado en Android 12 al desconectar el mando con la app abierta",
+        "Corregido el bloqueo de la Prueba de luz LED al arrastrar el selector de color",
+        "Corregido el bloqueo de la Prueba completa al conectar un mando por Bluetooth",
+        "Corregido el problema por el que, en algunos mandos (DualShock, DualSense), los sticks, la cruceta (D-pad) y los gatillos no respondían aunque los botones sí funcionaban"
+      ]
+    },
+    {
+      "code": 124,
+      "name": "1.2.4",
+      "date": "2026-09-18",
+      "items": [
+        "Nueva prueba de LED: cambia el color de la barra de luz y ejecuta pruebas de color sólido, degradado y respiración para detectar zonas apagadas, tono raro o parpadeos",
+        "Requiere DualShock 4 o DualSense por Bluetooth y Android 12+. En PS por cable, Xbox y otros mandos ahora se explica el motivo en vez de mostrar un selector inútil",
+        "La tasa de sondeo ya no se mide por debajo de lo real y los umbrales se ajustaron a mediciones reales"
+      ]
+    },
+    {
+      "code": 123,
+      "name": "1.2.3",
+      "date": "2026-09-13",
+      "items": [
+        "Cada medición ahora muestra una valoración (Excelente / Buena / Normal / Deficiente) con un comentario claro y una tabla de referencia para situar tu mando",
+        "Cubre zona muerta, deriva, circularidad, recorrido del gatillo, frecuencia de sondeo y jitter",
+        "La invitación a valorar solo aparece después de probar realmente un mando, y se mantiene callada si la prueba falla"
+      ]
+    },
+    {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-09-07",
+      "items": [
+        "Menor tamaño de la aplicación: descarga e instalación más rápidas",
+        "Optimizaciones internas para un rendimiento más fluido y estable"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

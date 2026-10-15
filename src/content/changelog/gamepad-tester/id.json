@@ -1,0 +1,47 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "id",
+  "entries": [
+    {
+      "code": 125,
+      "name": "1.2.5",
+      "date": "2026-10-13",
+      "items": [
+        "Memperbaiki aplikasi keluar sendiri di Android 12 saat kontroler terputus ketika aplikasi terbuka",
+        "Memperbaiki Uji Lampu LED yang macet saat pemilih warna digeser",
+        "Memperbaiki halaman Tes Lengkap yang macet saat kontroler Bluetooth tersambung",
+        "Memperbaiki stik, D-pad, dan trigger yang tidak merespons di beberapa kontroler (DualShock, DualSense) padahal tombolnya berfungsi"
+      ]
+    },
+    {
+      "code": 124,
+      "name": "1.2.4",
+      "date": "2026-09-18",
+      "items": [
+        "Tes Lampu LED baru: atur warna light bar, lalu jalankan cek warna solid, gradasi, dan napas untuk menemukan titik mati, warna melenceng, atau kedipan",
+        "Butuh DualShock 4 atau DualSense lewat Bluetooth, Android 12+. Pada PS berkabel, Xbox, dan kontroler lain kini ada penjelasannya, bukan pemilih warna yang diam saja",
+        "Polling rate tidak lagi terbaca lebih rendah dari aslinya, ambang penilaian disetel ulang"
+      ]
+    },
+    {
+      "code": 123,
+      "name": "1.2.3",
+      "date": "2026-09-13",
+      "items": [
+        "Setiap pengukuran kini punya penilaian (Sangat Baik / Baik / Cukup / Kurang) dengan komentar yang mudah dipahami dan tabel acuan untuk melihat posisi controller Anda",
+        "Mencakup deadzone, drift, kebulatan, jarak pemicu, polling rate, dan jitter",
+        "Ajakan memberi rating hanya muncul setelah Anda benar-benar menguji controller, dan diam bila hasil pengujian gagal"
+      ]
+    },
+    {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-09-07",
+      "items": [
+        "Ukuran aplikasi lebih kecil: unduh dan pasang lebih cepat",
+        "Optimalisasi internal untuk performa yang lebih mulus dan stabil"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "it",
+  "entries": [
+    {
+      "code": 125,
+      "name": "1.2.5",
+      "date": "2026-10-13",
+      "items": [
+        "Risolto un arresto anomalo su Android 12 quando il controller si scollegava con l'app aperta",
+        "Risolto il blocco del Test luci LED durante il trascinamento del selettore colore",
+        "Risolto il blocco della pagina Test completo quando si collega un controller Bluetooth",
+        "Risolto il problema per cui su alcuni controller (DualShock, DualSense) stick, croce direzionale (D-pad) e grilletti non rispondevano, mentre i pulsanti funzionavano"
+      ]
+    },
+    {
+      "code": 124,
+      "name": "1.2.4",
+      "date": "2026-09-18",
+      "items": [
+        "Nuovo test LED: imposta il colore della light bar, poi avvia i test a tinta unita, sfumatura e respiro per trovare zone spente, dominanti o sfarfallio",
+        "Richiede DualShock 4 o DualSense via Bluetooth, Android 12+. Con PS via cavo, Xbox e altri controller ora trovi una spiegazione invece di un selettore che non fa nulla",
+        "Il polling rate non viene più misurato troppo basso e le soglie sono state ritarate su misure reali"
+      ]
+    },
+    {
+      "code": 123,
+      "name": "1.2.3",
+      "date": "2026-09-13",
+      "items": [
+        "Ogni misurazione ora mostra una valutazione (Eccellente / Buono / Discreto / Scarso) con un commento chiaro e una tabella di riferimento per capire dove si colloca il tuo controller",
+        "Copre zona morta, deriva, circolarità, corsa del grilletto, polling rate e jitter",
+        "L'invito a valutare compare solo dopo aver testato davvero un controller, e resta silenzioso se il test non va a buon fine"
+      ]
+    },
+    {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-09-07",
+      "items": [
+        "Dimensioni dell'app ridotte: download e installazione più rapidi",
+        "Ottimizzazioni interne per prestazioni più fluide e stabili"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

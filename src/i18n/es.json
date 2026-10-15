@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Apps independientes para Android",
-    "description": "DappleByte es un estudio independiente que hace apps para Android: Gamepad Pro, un mapeador de botones que convierte un control en controles táctiles; Relaypad, una app de control por Remote Play y transmisión de la consola para PS5 y PS4; WhenDo, una app de automatización con IA y clic automático; y JoyLink, que convierte un teléfono en un mando Bluetooth, panel táctil y mando de TV.",
+    "description": "DappleByte es un estudio independiente que hace apps para Android: Gamepad Pro, un mapeador de botones que convierte un control en controles táctiles; Relaypad, una app de control por Remote Play y transmisión de la consola para PS5 y PS4; WhenDo, una app de automatización con IA y clic automático; JoyLink, que convierte un teléfono en un mando Bluetooth, panel táctil y mando de TV; y Gamepad Tester Pro, que revisa un mando en busca de deriva del stick, input lag y botones que no responden.",
     "appsHeading": "Apps",
     "principlesHeading": "Cómo trabajamos",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "Panel táctil, ratón y teclado",
       "tv-remote": "Mando de TV para Android TV, Google TV y Fire TV",
       "racing-wheel": "Volante que gira inclinando el teléfono",
-      "custom-layouts": "Mueve, redimensiona y guarda diseños de controles"
+      "custom-layouts": "Mueve, redimensiona y guarda diseños de controles",
+      "button-test": "Prueba de botones y códigos de tecla en tiempo real",
+      "drift-analysis": "Análisis de deriva del stick, zona muerta y circularidad",
+      "polling-rate": "Medición de tasa de sondeo e input lag",
+      "rumble-test": "Prueba de vibración de cada motor",
+      "health-report": "Puntuación de salud con informe para compartir",
+      "test-history": "Historial de pruebas y tendencia de deriva por mando",
+      "led-test": "Prueba de la barra de luz (PlayStation por Bluetooth)",
+      "motion-test": "Prueba de giroscopio y acelerómetro",
+      "touchpad-test": "Prueba del panel táctil"
     },
     "values": {
       "yes": "Sí",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 y PS4 son marcas comerciales de Sony Interactive Entertainment Inc. {name} no está afiliada a Sony ni cuenta con su respaldo.",
-    "hosts": "Windows y Xbox son marcas comerciales de Microsoft; Mac, iPhone y iPad, de Apple; PlayStation, de Sony Interactive Entertainment; Nintendo Switch, de Nintendo; Android, Android TV y Google TV, de Google; Fire TV, de Amazon; Steam, de Valve; Raspberry Pi, de Raspberry Pi Ltd. {name} no está afiliada a ninguna de ellas ni cuenta con su respaldo."
+    "hosts": "Windows y Xbox son marcas comerciales de Microsoft; Mac, iPhone y iPad, de Apple; PlayStation, de Sony Interactive Entertainment; Nintendo Switch, de Nintendo; Android, Android TV y Google TV, de Google; Fire TV, de Amazon; Steam, de Valve; Raspberry Pi, de Raspberry Pi Ltd. {name} no está afiliada a ninguna de ellas ni cuenta con su respaldo.",
+    "controllers": "Xbox es una marca comercial de Microsoft; PlayStation, DualShock y DualSense, de Sony Interactive Entertainment; Nintendo Switch, de Nintendo. {name} no está afiliada a ninguna de ellas ni cuenta con su respaldo."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "Cómo se compara JoyLink con otras apps que convierten el teléfono en un mando para PC o TV, función por función, solo datos.",
         "vsDescription": "{name} y {other} comparadas en Android, función por función: app receptora, mando Bluetooth, panel táctil y mando de TV, volante, root, anuncios y precio.",
         "vsIntro": "Las dos convierten un teléfono Android en un mando para PC o TV. Aquí ves en qué se diferencian, función por función."
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "Probador de mandos · Sin PC",
+      "heroPoints": [
+        "Botones, sticks, gatillos, deriva del stick y vibración en una sola prueba guiada, con puntuación de salud e informe para compartir",
+        "Análisis de deriva del stick, zona muerta y circularidad, además de tasa de sondeo e input lag por Bluetooth o USB",
+        "Gratis con anuncios. Pro es un pago único que quita los anuncios y desbloquea el diagnóstico avanzado"
+      ],
+      "faqDescription": "Respuestas sobre Gamepad Tester Pro: detección y emparejamiento, botones y distribuciones, deriva del stick y zona muerta, vibración, movimiento y panel táctil, latencia y prueba completa, Pro, privacidad y compatibilidad.",
+      "faqNotFoundBody": "Escríbenos con el modelo de tu teléfono, tu mando y cómo lo conectas. Una persona lee cada mensaje.",
+      "support": {
+        "beforeItems": [
+          "Abre las preguntas frecuentes. Ahí se responden la mayoría de las dudas sobre detección, deriva, latencia y vibración, con las mismas palabras que en la app.",
+          "Mira primero Información del dispositivo. Si Android no informa de batería, vibración, sensores de movimiento o panel táctil en tu mando, la app no puede probarlos; en las preguntas frecuentes se explica qué ofrece cada mando.",
+          "Anota el modelo del mando, si está conectado por Bluetooth o USB y qué prueba dio un resultado inesperado. Eso es lo que necesitamos para reproducir el problema."
+        ],
+        "template": {
+          "phone": "Modelo del teléfono:",
+          "android": "Versión de Android:",
+          "controller": "Mando (modelo, Bluetooth o USB):",
+          "test": "Qué prueba y qué resultado dio:",
+          "what": "Qué pasó, paso a paso:",
+          "pro": "Compra de Pro: sí / no"
+        },
+        "refundBody": "Gamepad Tester Pro se instala gratis. Si compraste Pro y no funciona con tu configuración, escríbenos en los 7 días siguientes a la compra y te devolvemos el dinero. Cuéntanos qué probaste; nos ayuda a arreglarlo para la próxima persona."
+      },
+      "press": {
+        "description": "Datos, recursos y un texto de presentación para escribir sobre Gamepad Tester Pro, el probador de mandos y de deriva del stick para Android.",
+        "boilerplate": "Gamepad Tester Pro comprueba cualquier mando Bluetooth, USB u OTG en un teléfono o tablet Android: botones, sticks analógicos, deriva del stick, zona muerta, gatillos, vibración, input lag y tasa de sondeo, y después da una puntuación de salud y un informe para compartir. Funciona con mandos Xbox, PlayStation, Switch Pro y genéricos, y no necesita PC. Lo hace DappleByte, un estudio independiente.",
+        "priceValue": "Se instala gratis, con anuncios. Las pruebas básicas son gratis; una compra única de Pro quita los anuncios y desbloquea el diagnóstico avanzado, las tendencias de estado, la exportación a CSV y los patrones de vibración guardados. No hay suscripción. El precio actual aparece en Google Play.",
+        "assetScreenshots": "Capturas de pantalla del teléfono, PNG de 1080 × 1920, en inglés"
+      },
+      "videosDescription": "Videos cortos de Gamepad Tester Pro en un teléfono real: la prueba completa, cómo leer un resultado de deriva del stick, la prueba de latencia y la de vibración.",
+      "privacyDescription": "Qué hace Gamepad Tester Pro para Android con tus datos: sin cuenta, los resultados de las pruebas se quedan en el teléfono, qué recopilan los SDK de analíticas y de publicidad, y cómo desactivarlos o pedir que se borren tus datos.",
+      "compare": {
+        "description": "Cómo se compara Gamepad Tester Pro con otras apps para probar mandos en Android, función por función, solo datos.",
+        "vsDescription": "{name} y {other} comparadas en Android, función por función: prueba de botones, análisis de deriva del stick, tasa de sondeo, vibración, informe de estado, anuncios y precio.",
+        "vsIntro": "Las dos prueban un mando de juego en un teléfono Android. Aquí ves en qué se diferencian, función por función."
       }
     }
   }

@@ -1,0 +1,310 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "fr",
+  "title": "FAQ",
+  "intro": "Les questions qu'on nous pose le plus, et quoi faire dans chaque cas. Touchez une question pour l'ouvrir.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Connexion et détection",
+      "entries": [
+        {
+          "id": "no_device_detected",
+          "q": "Ma manette est connectée, mais l'app ne la détecte pas",
+          "a": [
+            "Les manettes Bluetooth doivent d'abord être appairées dans les paramètres Bluetooth du téléphone : cette app lit les manettes que le système reconnaît déjà, elle ne les appaire pas. En USB, le téléphone doit gérer l'OTG et il faut un vrai câble de données ; un câble de charge seule ne transmet rien. Une fois la manette connectée, appuyez sur un bouton ou bougez un stick pour la réveiller, puis revenez à l'écran d'accueil."
+          ]
+        },
+        {
+          "id": "supported_pads",
+          "q": "Quelles manettes sont prises en charge ?",
+          "a": [
+            "Tout ce qu'Android reconnaît comme manette : Xbox Wireless et Series, DualShock 4 et DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, manettes télescopiques pour téléphone et manettes HID génériques. L'étendue des tests dépend de ce que votre manette déclare : sans moteur, pas de test de vibration ; sans pavé tactile, pas de test du pavé tactile. Infos de l'appareil liste exactement ce que la vôtre expose."
+          ]
+        },
+        {
+          "id": "unknown_name",
+          "q": "La manette apparaît comme « Appareils inconnus » ou sous un code modèle brut",
+          "a": [
+            "Le nom vient du firmware de la manette et l'app ne fait que le relayer ; les modèles d'entrée de gamme et certains adaptateurs USB ne renvoient donc rien d'exploitable. Cela n'a aucun effet sur les résultats des tests. Pour un identifiant fiable, utilisez l'ID fabricant et l'ID produit dans Infos de l'appareil."
+          ]
+        },
+        {
+          "id": "no_battery",
+          "q": "Pourquoi le niveau de batterie est-il absent ou inconnu ?",
+          "a": [
+            "Le niveau doit être transmis par la manette elle-même, et la plupart des modèles tiers ne l'envoient jamais — en USB non plus, le plus souvent. Les manettes Xbox et PlayStation le transmettent normalement en Bluetooth. Aucune app ne peut lire une valeur que la manette ne publie pas."
+          ]
+        },
+        {
+          "id": "two_pads",
+          "q": "Puis-je tester deux manettes en même temps ?",
+          "a": [
+            "Oui. Les pages de test affichent un sélecteur dès que plusieurs manettes sont connectées, et Comparaison de manettes place deux modèles côte à côte en temps réel : le moyen le plus rapide de distinguer une manette usée d'une manette saine."
+          ]
+        },
+        {
+          "id": "random_disconnect",
+          "q": "La manette se déconnecte en plein test",
+          "a": [
+            "Trois causes habituelles : l'optimisation de la batterie qui suspend l'app en arrière-plan, la distance ou les obstacles, et les interférences d'un dongle 2,4 GHz ou d'un routeur proche. Exclure l'app de l'optimisation de la batterie dans les paramètres d'applications du téléphone règle la plupart des cas. Une manette qui décroche aussi sur d'autres appareils est sans doute en cause elle-même."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buttons",
+      "title": "Boutons et dispositions",
+      "entries": [
+        {
+          "id": "why_layout_choice",
+          "q": "Pourquoi dois-je d'abord choisir Manette Xbox, Manette PlayStation ou Autres manettes ?",
+          "a": [
+            "Cela ne change que la façon dont les boutons sont dessinés et étiquetés à l'écran : les codes de touches en dessous sont identiques. Choisissez celle qui ressemble le plus à la manette que vous tenez, pour que les libellés correspondent ; si aucune ne convient, Autres manettes fonctionne avec toutes les manettes."
+          ]
+        },
+        {
+          "id": "wrong_button_lights",
+          "q": "J'appuie sur un bouton et c'est le mauvais qui s'allume",
+          "a": [
+            "A et B (comme X et Y) occupent des positions physiques inversées sur les manettes de type Nintendo par rapport aux manettes Xbox : le même code de touche tombe donc ailleurs à l'écran. C'est une différence d'étiquetage, pas une panne. Historique des touches affiche le code et le nom réels de chaque appui, c'est la méthode fiable pour vérifier un mappage."
+          ]
+        },
+        {
+          "id": "home_key_no_response",
+          "q": "Le bouton Home / PS / Xbox / Guide ne fait rien",
+          "a": [
+            "Android intercepte ce bouton au niveau système et ne le transmet jamais : aucune app ne peut le tester, votre manette n'a donc rien. Même chose pour les touches de volume sur certains modèles. Tout le reste, y compris Share et Capture sur la plupart des manettes, arrive normalement."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "L3 / R3 (appui sur les sticks) ne répond pas",
+          "a": [
+            "Appuyez bien à la verticale jusqu'au clic ; la course est profonde sur certaines manettes et un appui de biais la rate souvent. Si Historique des touches n'enregistre rien du tout pour ce clic, le contacteur sous le stick est probablement usé."
+          ]
+        },
+        {
+          "id": "what_is_cps",
+          "q": "Qu'est-ce que le CPS dans Historique des touches ?",
+          "a": [
+            "Clics par seconde : le nombre de déclenchements d'un bouton chaque seconde. Cela sert à vérifier les manettes Turbo et tir rapide — maintenez le bouton avec le Turbo activé et la mesure donne la cadence réelle. Sur une manette classique, cela révèle aussi les doubles déclenchements, quand un seul appui est compté deux fois."
+          ]
+        },
+        {
+          "id": "game_no_controller_support",
+          "q": "Tous les boutons répondent ici, mais mon jeu ignore la manette",
+          "a": [
+            "Alors la manette n'a rien : le jeu n'écoute tout simplement jamais les manettes et n'accepte que les appuis sur l'écran. Aucun réglage de la manette ni d'Android n'y changera quoi que ce soit. Ce qui marche vraiment, c'est un outil de mappage : il se superpose au jeu et transforme chaque bouton, stick et gâchette en un appui à l'endroit que vous choisissez, si bien qu'un jeu purement tactile se joue comme s'il avait toujours géré les manettes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sticks",
+      "title": "Sticks : dérive et analyse",
+      "entries": [
+        {
+          "id": "how_drift_measured",
+          "q": "Comment vérifier la dérive d'un stick ?",
+          "a": [
+            "Posez la manette à plat, retirez complètement les mains des sticks, puis lisez le décalage au repos. Un stick sain reste à zéro ou tout près et n'en bouge pas ; un stick qui dérive se fige sur une valeur non nulle constante, ce qui fait avancer le personnage tout seul."
+          ]
+        },
+        {
+          "id": "drift_threshold",
+          "q": "À partir de quel décalage y a-t-il un problème ?",
+          "a": [
+            "En repère approximatif, d'après des manettes ordinaires : en dessous de 3%, c'est normal ; entre 3% et 8%, c'est léger et la zone morte intégrée à la plupart des jeux l'absorbe ; au-delà de 8%, cela se remarque en jeu. Ce sont des repères pratiques, pas une spécification constructeur — ce qui compte davantage, c'est la stabilité du décalage et le fait que vous le sentiez ou non en jouant."
+          ]
+        },
+        {
+          "id": "fix_drift",
+          "q": "La dérive peut-elle se réparer ?",
+          "a": [
+            "Commencez par le moins coûteux : nettoyez le pourtour de la base du stick et mettez à jour le firmware de la manette — via l'app Accessoires Xbox pour les manettes Xbox, ou en branchant une DualSense ou une DualShock 4 sur une console PlayStation. Certaines manettes proposent aussi un recalibrage dans l'app de leur fabricant. Si le décalage survit à tout cela, le module du stick est usé : il faut le faire réparer ou le remplacer."
+          ]
+        },
+        {
+          "id": "what_is_circularity",
+          "q": "Qu'est-ce que l'erreur de circularité ?",
+          "a": [
+            "Faites tourner lentement un stick le long de son bord extérieur : l'app compare le tracé obtenu à un cercle parfait, et l'écart moyen constitue l'erreur de circularité. Plus elle est faible, plus le stick répond de façon homogène dans toutes les directions, ce qui garde une visée régulière. Une erreur importante donne souvent l'impression qu'une direction est plus courte que les autres. (Pro)"
+          ]
+        },
+        {
+          "id": "what_is_deadzone",
+          "q": "Comment la zone morte est-elle estimée ?",
+          "a": [
+            "Poussez le stick très lentement depuis le centre : le plus petit mouvement qui produit une valeur approxime la zone morte. Plus elle est grande, plus les petites corrections de visée passent à la trappe. Il s'agit d'une estimation basée sur ce que la manette déclare, pas de la valeur qu'un jeu applique en interne. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibration-motion-touchpad",
+      "title": "Vibration, mouvement et pavé tactile",
+      "entries": [
+        {
+          "id": "no_vibration",
+          "q": "Le test de vibration ne fait rien",
+          "a": [
+            "Trois raisons possibles : la manette n'a pas de moteur, Android n'expose pas la vibration pour ce modèle sur la connexion actuelle, ou la manette n'accepte le retour de force que depuis sa propre console. Infos de l'appareil permet de trancher : s'il y est indiqué « Vibration : Non pris en charge », l'app n'a rien à piloter. Sur les manettes qui gèrent les deux, essayez l'USB plutôt que le Bluetooth."
+          ]
+        },
+        {
+          "id": "what_is_vib_studio",
+          "q": "À quoi sert Studio de vibration ?",
+          "a": [
+            "C'est un éditeur de timeline pour les deux moteurs de vibration : vous composez vos propres motifs et vous les ressentez, au lieu de vous limiter aux préréglages. L'édition et les préréglages intégrés sont gratuits ; piloter les moteurs avec un motif personnalisé et l'enregistrer dans Mes motifs relèvent de Pro."
+          ]
+        },
+        {
+          "id": "patterns_transfer",
+          "q": "Mes motifs enregistrés et mon historique suivront-ils sur un nouveau téléphone ?",
+          "a": [
+            "Non. Les motifs et les enregistrements de test restent sur cet appareil uniquement, rien n'est conservé sur un serveur. Un transfert complet de téléphone à téléphone incluant les données d'applications les emporte ; une réinstallation, non."
+          ]
+        },
+        {
+          "id": "motion_unsupported",
+          "q": "La page Capteurs de mouvement indique qu'ils ne sont pas pris en charge",
+          "a": [
+            "Lire le gyroscope d'une manette demande Android 12 ou ultérieur, et la manette doit publier ses capteurs auprès du système — en pratique DualShock 4, DualSense et Switch Pro. À noter : ce sont les capteurs de la manette qui sont lus, pas ceux du téléphone. Une manette sans gyroscope n'affiche donc rien, même sur un téléphone qui en possède un."
+          ]
+        },
+        {
+          "id": "touchpad_no_response",
+          "q": "La page du pavé tactile ne réagit pas",
+          "a": [
+            "La capture du pavé tactile demande Android 8.0 ou ultérieur, et seules les manettes qui en ont vraiment un — DualShock 4 et DualSense — peuvent être capturées. Touchez d'abord Démarrer la capture, sinon les données tactiles partent vers le système et non vers l'app. Quitter la page libère la capture."
+          ]
+        },
+        {
+          "id": "touchpad_capture_scope",
+          "q": "Pendant la capture du pavé tactile, les autres boutons fonctionnent-ils toujours ?",
+          "a": [
+            "Oui — la capture ne détourne que la surface tactile, les boutons et les sticks continuent de remonter normalement. Elle est libérée dès que vous quittez la page, rien ne reste accaparé par l'app."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Latence et test complet",
+      "entries": [
+        {
+          "id": "what_latency_measures",
+          "q": "Que mesure réellement le test de latence ?",
+          "a": [
+            "La fréquence à laquelle la manette envoie ses rapports au téléphone : le taux d'interrogation en Hz et l'intervalle entre deux rapports en millisecondes. Ce n'est pas la latence de bout en bout, de votre pouce à l'image — celle-ci dépend aussi de l'écran, du jeu et du téléphone, et aucune app ne peut la mesurer de l'intérieur. Son intérêt : comparer deux manettes, ou la même manette en Bluetooth et en USB."
+          ]
+        },
+        {
+          "id": "low_polling_rate",
+          "q": "Pourquoi mon taux d'interrogation tourne-t-il autour de 100 Hz ?",
+          "a": [
+            "C'est normal pour la plupart des manettes Bluetooth ; l'USB et les dongles 2,4 GHz vont généralement plus vite. La mesure est aussi plafonnée par la vitesse à laquelle Android délivre les événements d'entrée, donc une manette rapide peut afficher moins ici que sur PC. Indiquez le type de connexion avant l'échantillonnage et vos sessions enregistrées restent comparables."
+          ]
+        },
+        {
+          "id": "what_is_jitter",
+          "q": "Comment lire la gigue (σ) ?",
+          "a": [
+            "Elle indique à quel point l'intervalle entre les rapports varie. Deux manettes peuvent afficher le même intervalle moyen alors que l'une remonte régulièrement et l'autre par à-coups : la seconde donne une moins bonne sensation, et c'est la gigue qui le révèle. Le graphique de distribution des intervalles et la comparaison de sessions le rendent visible. (Pro)"
+          ]
+        },
+        {
+          "id": "full_test_items",
+          "q": "Que couvre le Test complet ?",
+          "a": [
+            "Six étapes : tous les boutons, l'amplitude des sticks, la circularité, la course des gâchettes, la dérive au repos et la vibration. Il vous guide dans l'ordre et attribue à chaque étape OK, À vérifier ou Échec, puis produit un rapport partageable. Comptez environ deux minutes sans rien sauter."
+          ]
+        },
+        {
+          "id": "full_test_warn_fail",
+          "q": "Une étape ressort en À vérifier ou Échec — et maintenant ?",
+          "a": [
+            "« À vérifier » signale le plus souvent une saisie incomplète plutôt qu'une panne : un stick qui n'a pas atteint tous les bords, ou une gâchette pas enfoncée à fond — cette étape mérite d'être refaite. Un « Échec » sur la dérive ou la vibration pointe vers le matériel : voyez « La dérive peut-elle se réparer ? » et « Le test de vibration ne fait rien » pour les pistes à essayer. Les étapes sautées ne comptent pas dans le résultat."
+          ]
+        },
+        {
+          "id": "report_export",
+          "q": "Où va le rapport de test et comment le partager ?",
+          "a": [
+            "L'export transforme le résultat en une longue image et la passe au menu de partage du téléphone : vous pouvez l'envoyer à un vendeur, à un réparateur ou à un ami — l'app ne téléverse rien. Un export gratuit demande de regarder une courte vidéo publicitaire au préalable ; avec Pro, l'export se fait sans publicité."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro et achats",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Pro est-il un abonnement ? Que contient-il ?",
+          "a": [
+            "Non — c'est un achat unique, débloqué définitivement. Il couvre le score de santé et les tendances de dérive dans Historique des tests, l'export de rapport sans publicité et le CSV de latence, l'enregistrement et la lecture de vos propres motifs de vibration, le diagnostic avancé des sticks comme la circularité et la zone morte, la comparaison hors ligne des enregistrements, et il supprime toutes les publicités. Tous les tests de base restent gratuits."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "J'ai changé de téléphone et Pro a disparu",
+          "a": [
+            "Connectez-vous à Google Play avec le compte utilisé pour l'achat, puis touchez Restaurer l'achat. L'achat est rattaché à ce compte Google, pas à l'appareil."
+          ]
+        },
+        {
+          "id": "pro_purchase_failed",
+          "q": "L'achat échoue, ou reste bloqué sur « Connexion à Google Play »",
+          "a": [
+            "Vérifiez que le Play Store s'ouvre normalement et que la région de votre compte accepte le moyen de paiement, puis réessayez dans quelques minutes — il s'agit presque toujours d'un souci temporaire de Google Play, pas de l'app. Si vous avez été débité sans que Pro se débloque, utilisez d'abord Restaurer l'achat. Les remboursements passent par votre historique de commandes dans Google Play."
+          ]
+        },
+        {
+          "id": "pro_ads",
+          "q": "Les publicités disparaissent-elles avec Pro ?",
+          "a": [
+            "Oui, toutes — celle au lancement, celle avant un export de rapport, sans exception. Cela prend effet dès que l'achat est validé ; si une publicité s'affiche encore, relancez l'app."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-compatibility",
+      "title": "Confidentialité, compatibilité et assistance",
+      "entries": [
+        {
+          "id": "data_privacy",
+          "q": "Mes données de test sont-elles envoyées quelque part ?",
+          "a": [
+            "Non. Résultats de test, historique et motifs de vibration restent sur votre téléphone, et un rapport exporté part directement vers l'app que vous choisissez dans le menu de partage. Nous collectons en revanche des statistiques d'usage anonymes — quelles pages sont ouvertes, plus les rapports de plantage — sans aucune donnée de manette ni information personnelle. La politique de confidentialité donne le détail complet."
+          ]
+        },
+        {
+          "id": "history_manage",
+          "q": "Puis-je supprimer l'historique des tests ? Prend-il de la place ?",
+          "a": [
+            "Chaque enregistrement représente quelques kilo-octets de texte, l'espace n'est donc pas un souci. Vous pouvez supprimer un enregistrement isolé, ou effacer tous ceux d'une manette, depuis Historique des tests. Les enregistrements sont créés automatiquement à la fin d'un Test complet."
+          ]
+        },
+        {
+          "id": "tool_unsupported",
+          "q": "Pourquoi certains outils indiquent-ils qu'ils ne sont pas pris en charge sur mon téléphone ?",
+          "a": [
+            "Deux raisons seulement : la version d'Android — les capteurs de mouvement exigent 12 ou ultérieur, la capture du pavé tactile 8.0 ou ultérieur — ou une capacité absente de votre manette : pas de moteur, pas de gyroscope, pas de pavé tactile ou pas de stick analogique. Infos de l'appareil liste ce que la manette connectée expose, et les outils s'y conforment."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Comment signaler un problème ou proposer une idée ?",
+          "a": [
+            "Paramètres → À propos → Envoyer un commentaire. Votre modèle de téléphone, la version d'Android et la version de l'app sont joints automatiquement, ce qui suffit généralement à reproduire le problème. Si une manette n'est pas détectée, préciser son modèle exact et son mode de connexion aide beaucoup."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

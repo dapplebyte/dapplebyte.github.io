@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · 독립 스튜디오의 Android 앱",
-    "description": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 게임패드를 터치 조작으로 바꿔 주는 컨트롤러 키매핑 앱 Gamepad Pro, PS5·PS4용 리모트 플레이 컨트롤러이자 콘솔 스트리밍 앱인 Relaypad, AI 자동화와 연속 클릭(오토 클리커) 앱인 WhenDo, 그리고 휴대폰을 블루투스 게임패드, 터치패드, TV 리모컨으로 바꿔 주는 JoyLink를 만들어요.",
+    "description": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 게임패드를 터치 조작으로 바꿔 주는 컨트롤러 키매핑 앱 Gamepad Pro, PS5·PS4용 리모트 플레이 컨트롤러이자 콘솔 스트리밍 앱인 Relaypad, AI 자동화와 연속 클릭(오토 클리커) 앱인 WhenDo, 휴대폰을 블루투스 게임패드, 터치패드, TV 리모컨으로 바꿔 주는 JoyLink, 그리고 컨트롤러의 스틱 드리프트, 입력 지연, 반응 없는 버튼을 찾아 주는 Gamepad Tester Pro를 만들어요.",
     "appsHeading": "앱",
     "principlesHeading": "일하는 방식",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "터치패드, 마우스, 키보드",
       "tv-remote": "Android TV, Google TV, Fire TV용 TV 리모컨",
       "racing-wheel": "기울여 조향하는 레이싱 휠",
-      "custom-layouts": "버튼 이동·크기 조절, 배치 저장"
+      "custom-layouts": "버튼 이동·크기 조절, 배치 저장",
+      "button-test": "버튼·키 코드 실시간 테스트",
+      "drift-analysis": "스틱 드리프트, 데드존, 원형도 분석",
+      "polling-rate": "폴링 레이트와 입력 지연 측정",
+      "rumble-test": "모터별 진동 테스트",
+      "health-report": "상태 점수와 공유용 리포트",
+      "test-history": "컨트롤러별 테스트 기록과 드리프트 추이",
+      "led-test": "라이트 바 테스트(PlayStation, Bluetooth 연결)",
+      "motion-test": "자이로스코프·가속도계 테스트",
+      "touchpad-test": "터치패드 테스트"
     },
     "values": {
       "yes": "예",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5, PS4는 Sony Interactive Entertainment Inc.의 상표입니다. {name} 앱은 Sony와 제휴 관계가 없으며, Sony의 보증을 받지 않았습니다.",
-    "hosts": "Windows와 Xbox는 Microsoft의 상표이고, Mac, iPhone, iPad는 Apple, PlayStation은 Sony Interactive Entertainment, Nintendo Switch는 Nintendo, Android, Android TV, Google TV는 Google, Fire TV는 Amazon, Steam은 Valve, Raspberry Pi는 Raspberry Pi Ltd.의 상표입니다. {name} 앱은 이들 회사와 제휴 관계가 없으며, 이들의 보증을 받지 않았습니다."
+    "hosts": "Windows와 Xbox는 Microsoft의 상표이고, Mac, iPhone, iPad는 Apple, PlayStation은 Sony Interactive Entertainment, Nintendo Switch는 Nintendo, Android, Android TV, Google TV는 Google, Fire TV는 Amazon, Steam은 Valve, Raspberry Pi는 Raspberry Pi Ltd.의 상표입니다. {name} 앱은 이들 회사와 제휴 관계가 없으며, 이들의 보증을 받지 않았습니다.",
+    "controllers": "Xbox는 Microsoft의 상표이고, PlayStation, DualShock, DualSense는 Sony Interactive Entertainment, Nintendo Switch는 Nintendo의 상표입니다. {name} 앱은 이들 회사와 제휴 관계가 없으며, 이들의 보증을 받지 않았습니다."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "휴대폰을 컴퓨터나 TV용 컨트롤러로 바꿔 주는 다른 앱과 JoyLink를 기능별로 비교했어요. 사실만 담았어요.",
         "vsDescription": "Android에서 {name} vs {other} 기능별 비교: 수신 앱, 블루투스 게임패드, 터치패드와 TV 리모컨, 레이싱 휠, root, 광고, 가격.",
         "vsIntro": "둘 다 Android 휴대폰을 컴퓨터나 TV용 컨트롤러로 바꿔 줘요. 어디가 다른지 기능별로 정리했어요."
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "컨트롤러 테스터 · PC 불필요",
+      "heroPoints": [
+        "버튼, 스틱, 트리거, 스틱 드리프트, 진동을 안내에 따라 한 번에 테스트하고, 상태 점수와 공유할 수 있는 리포트까지 받아 볼 수 있어요",
+        "스틱 드리프트, 데드존, 원형도 분석은 물론 Bluetooth나 USB 연결의 폴링 레이트와 입력 지연까지 측정해요",
+        "광고와 함께 무료로 쓸 수 있어요. Pro는 한 번만 구매하면 되고, 광고가 사라지고 고급 진단 기능이 열려요"
+      ],
+      "faqDescription": "Gamepad Tester Pro 관련 답변: 감지와 페어링, 버튼과 배치, 스틱 드리프트와 데드존, 진동·모션·터치패드, 지연 시간과 전체 테스트, Pro, 개인정보와 호환성.",
+      "faqNotFoundBody": "휴대폰 모델, 컨트롤러, 연결 방식을 적어서 보내 주세요. 모든 메시지를 사람이 직접 읽어요.",
+      "support": {
+        "beforeItems": [
+          "먼저 자주 묻는 질문을 열어 보세요. 감지, 드리프트, 지연 시간, 진동 관련 질문은 대부분 앱과 같은 문구로 답이 나와 있어요.",
+          "기기 정보도 미리 확인해 보세요. Android가 컨트롤러의 배터리, 진동, 모션 센서, 터치패드 정보를 받지 못하면 앱에서도 테스트할 수 없어요. 어떤 컨트롤러가 무엇을 지원하는지는 자주 묻는 질문에 정리해 두었어요.",
+          "컨트롤러 모델, Bluetooth와 USB 중 어떤 방식으로 연결했는지, 어떤 테스트에서 예상과 다른 결과가 나왔는지 적어 두세요. 문제를 재현하려면 이 정보가 필요해요."
+        ],
+        "template": {
+          "phone": "휴대폰 모델:",
+          "android": "Android 버전:",
+          "controller": "컨트롤러(모델, Bluetooth / USB):",
+          "test": "실행한 테스트와 결과:",
+          "what": "어떤 일이 있었는지 순서대로:",
+          "pro": "Pro 구매: 예 / 아니요"
+        },
+        "refundBody": "Gamepad Tester Pro는 무료로 설치할 수 있어요. Pro를 구매했는데 사용 중인 환경에서 작동하지 않으면 구매 후 7일 안에 메일을 보내 주세요. 환불해 드려요. 어떤 걸 시도해 봤는지도 알려 주시면 다음 분을 위해 고치는 데 도움이 돼요."
+      },
+      "press": {
+        "description": "Android용 컨트롤러·스틱 드리프트 테스트 앱 Gamepad Tester Pro 관련 기사를 쓸 때 필요한 정보, 자료, 소개 문구.",
+        "boilerplate": "Gamepad Tester Pro는 Android 휴대폰이나 태블릿에 Bluetooth, USB, OTG로 연결한 컨트롤러를 점검합니다. 버튼, 아날로그 스틱, 스틱 드리프트, 데드존, 트리거, 진동, 입력 지연, 폴링 레이트를 확인한 뒤 상태 점수와 공유할 수 있는 리포트를 만들어 줍니다. Xbox, PlayStation, Switch Pro와 일반 컨트롤러를 지원하며, PC가 필요 없습니다. 독립 스튜디오 DappleByte가 만들었습니다.",
+        "priceValue": "무료로 설치할 수 있고 광고가 있어요. 기본 테스트는 무료이고, Pro를 한 번 구매하면 광고가 사라지고 고급 진단, 상태 점수 추이, CSV 내보내기, 진동 패턴 저장이 열려요. 구독은 없어요. 현재 가격은 Google Play에서 확인할 수 있어요.",
+        "assetScreenshots": "휴대폰 스크린샷, PNG, 영어(세로 1080 × 1920)"
+      },
+      "videosDescription": "실제 휴대폰에서 Gamepad Tester Pro를 보여 주는 짧은 영상: 전체 테스트, 스틱 드리프트 결과 읽는 법, 지연 시간 테스트, 진동 테스트.",
+      "privacyDescription": "Android용 Gamepad Tester Pro 앱이 데이터를 어떻게 다루는지: 계정 없음, 테스트 결과는 휴대폰에만 저장, 통계·광고 SDK가 수집하는 항목, 수집 거부와 삭제 요청 방법.",
+      "compare": {
+        "description": "Android의 다른 컨트롤러 테스트 앱과 Gamepad Tester Pro를 기능별로 비교했어요. 사실만 담았어요.",
+        "vsDescription": "Android에서 {name} vs {other} 기능별 비교: 버튼 테스트, 스틱 드리프트 분석, 폴링 레이트, 진동, 상태 리포트, 광고, 가격.",
+        "vsIntro": "둘 다 Android 휴대폰으로 게임 컨트롤러를 테스트해요. 어디가 다른지 기능별로 정리했어요."
       }
     }
   }

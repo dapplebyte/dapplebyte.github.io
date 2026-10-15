@@ -58,6 +58,7 @@ products = {
     'gamepad-pro': ('Gamepad Pro', 'Map controller keys to touch. Sticks, triggers, macros, turbo. No root.', os.path.join(ROOT, 'public/gamepad-pro/icon.png'), '#E4345A'),
     'whendo': ('WhenDo', 'AI automation, auto clicker and macro maker for Android. No root needed.', os.path.join(ROOT, 'public/whendo/icon.png'), '#FF8A7D'),
     'joylink': ('JoyLink', 'Your phone as a Bluetooth gamepad, touchpad and TV remote. Nothing to install on the other side.', os.path.join(ROOT, 'public/joylink/icon.png'), '#E6FF66'),
+    'gamepad-tester': ('Gamepad Tester Pro', 'Test any controller on your phone: buttons, stick drift, input lag, vibration. No PC needed.', os.path.join(ROOT, 'public/gamepad-tester/icon.png'), '#3DDFA8'),
 }
 for slug, (name, tagline, icon, accent) in products.items():
     im, d = base()
@@ -68,7 +69,11 @@ for slug, (name, tagline, icon, accent) in products.items():
         m = Image.new('L', (120, 120), 0)
         ImageDraw.Draw(m).rounded_rectangle([0, 0, 120, 120], radius=28, fill=255)
         im.paste(ic, (80, 200), m)
-    d.text((224, 206), name.upper(), font=font(92), fill=FG)
+    # Long names ("GAMEPAD TESTER PRO") step down until they fit beside the icon.
+    size = 92
+    while size > 48 and d.textlength(name.upper(), font=font(size)) > W - 224 - 80:
+        size -= 4
+    d.text((224, 206 + (92 - size) // 2), name.upper(), font=font(size), fill=FG)
     y = 350
     for line in wrap(d, tagline, font(40, False), 1040):
         d.text((80, y), line, font=font(40, False), fill=MUTED); y += 52

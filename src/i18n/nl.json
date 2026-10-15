@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Onafhankelijke Android-apps",
-    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker); en JoyLink, dat een telefoon verandert in een Bluetooth-gamepad, touchpad en tv-afstandsbediening.",
+    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker); JoyLink, dat een telefoon verandert in een Bluetooth-gamepad, touchpad en tv-afstandsbediening; en Gamepad Tester Pro, dat een controller controleert op stick drift, input lag en dode knoppen.",
     "appsHeading": "Apps",
     "principlesHeading": "Hoe we werken",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "Touchpad, muis en toetsenbord",
       "tv-remote": "Tv-afstandsbediening voor Android TV, Google TV en Fire TV",
       "racing-wheel": "Stuur: sturen door te kantelen",
-      "custom-layouts": "Knoppen verplaatsen en vergroten, indelingen bewaren"
+      "custom-layouts": "Knoppen verplaatsen en vergroten, indelingen bewaren",
+      "button-test": "Knoppen- en keycodetest in realtime",
+      "drift-analysis": "Analyse van stick drift, deadzone en rondheid",
+      "polling-rate": "Polling rate en input lag meten",
+      "rumble-test": "Trillingstest per motor",
+      "health-report": "Conditiescore met deelbaar rapport",
+      "test-history": "Testgeschiedenis en driftverloop per controller",
+      "led-test": "Lichtbalktest (PlayStation via Bluetooth)",
+      "motion-test": "Test van gyroscoop en versnellingsmeter",
+      "touchpad-test": "Touchpadtest"
     },
     "values": {
       "yes": "Ja",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 en PS4 zijn handelsmerken van Sony Interactive Entertainment Inc. {name} is niet verbonden aan Sony en wordt niet door Sony onderschreven.",
-    "hosts": "Windows en Xbox zijn handelsmerken van Microsoft; Mac, iPhone en iPad van Apple; PlayStation van Sony Interactive Entertainment; Nintendo Switch van Nintendo; Android, Android TV en Google TV van Google; Fire TV van Amazon; Steam van Valve; Raspberry Pi van Raspberry Pi Ltd. {name} is met geen van hen verbonden en wordt door geen van hen onderschreven."
+    "hosts": "Windows en Xbox zijn handelsmerken van Microsoft; Mac, iPhone en iPad van Apple; PlayStation van Sony Interactive Entertainment; Nintendo Switch van Nintendo; Android, Android TV en Google TV van Google; Fire TV van Amazon; Steam van Valve; Raspberry Pi van Raspberry Pi Ltd. {name} is met geen van hen verbonden en wordt door geen van hen onderschreven.",
+    "controllers": "Xbox is een handelsmerk van Microsoft; PlayStation, DualShock en DualSense van Sony Interactive Entertainment; Nintendo Switch van Nintendo. {name} is met geen van hen verbonden en wordt door geen van hen onderschreven."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "Hoe JoyLink zich verhoudt tot andere apps die een telefoon veranderen in een controller voor een computer of tv, functie voor functie, alleen feiten.",
         "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: host-app, Bluetooth-gamepad, touchpad en tv-afstandsbediening, stuur, root, advertenties en prijs.",
         "vsIntro": "Beide veranderen een Android-telefoon in een controller voor een computer of tv. Hier zie je waarin ze verschillen, functie voor functie."
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "Controllertester · Zonder pc",
+      "heroPoints": [
+        "Knoppen, sticks, triggers, stick drift en trilling in één begeleide test, met een conditiescore en een deelbaar rapport",
+        "Analyse van stick drift, deadzone en rondheid, plus polling rate en input lag via Bluetooth of USB",
+        "Gratis met advertenties. Pro is een eenmalige aankoop die de advertenties weghaalt en de geavanceerde diagnose ontgrendelt"
+      ],
+      "faqDescription": "Antwoorden over Gamepad Tester Pro: herkenning en koppelen, knoppen en lay-outs, stick drift en deadzone, trilling, bewegingssensoren en touchpad, latency en de volledige test, Pro, privacy en compatibiliteit.",
+      "faqNotFoundBody": "Schrijf ons met je telefoonmodel, je controller en hoe die verbonden is. Elk bericht wordt door een mens gelezen.",
+      "support": {
+        "beforeItems": [
+          "Open de FAQ. De meeste vragen over herkenning, drift, latency en trilling worden daar beantwoord, in dezelfde woorden als in de app.",
+          "Kijk eerst bij Controllerinfo. Geeft Android voor je controller geen batterij, trilling, bewegingssensoren of touchpad door, dan kan de app die niet testen; in de FAQ lees je welke controllers wat doorgeven.",
+          "Noteer je controllermodel, of hij via Bluetooth of USB verbonden is en welke test een onverwacht resultaat gaf. Dat hebben we nodig om het probleem na te bootsen."
+        ],
+        "template": {
+          "phone": "Telefoonmodel:",
+          "android": "Android-versie:",
+          "controller": "Controller (model, Bluetooth of USB):",
+          "test": "Welke test, en wat was het resultaat:",
+          "what": "Wat er gebeurde, stap voor stap:",
+          "pro": "Pro gekocht: ja / nee"
+        },
+        "refundBody": "Gamepad Tester Pro installeer je gratis. Heb je Pro gekocht en werkt het niet met jouw opstelling, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen."
+      },
+      "press": {
+        "description": "Feiten, beeldmateriaal en een standaardtekst om over Gamepad Tester Pro te schrijven, de controller- en stick drift-tester voor Android.",
+        "boilerplate": "Gamepad Tester Pro test elke Bluetooth-, USB- of OTG-controller op een Android-telefoon of -tablet: knoppen, analoge sticks, stick drift, deadzone, triggers, trilling, input lag en polling rate, en geeft daarna een conditiescore en een deelbaar rapport. De app werkt met Xbox-, PlayStation-, Switch Pro- en andere controllers en heeft geen pc nodig. Gamepad Tester Pro is gemaakt door DappleByte, een onafhankelijke studio.",
+        "priceValue": "Gratis te installeren, met advertenties. De basistests zijn gratis; een eenmalige Pro-aankoop haalt de advertenties weg en ontgrendelt geavanceerde diagnose, conditieverloop, CSV-export en bewaarde trilpatronen. Er is geen abonnement. De actuele prijs staat op Google Play.",
+        "assetScreenshots": "Telefoonscreenshots, PNG van 1080 × 1920, Engelstalig"
+      },
+      "videosDescription": "Korte video's van Gamepad Tester Pro op een echte telefoon: de volledige test, een stick drift-resultaat aflezen, de latencytest en de trillingstest.",
+      "privacyDescription": "Wat Gamepad Tester Pro voor Android met je gegevens doet: geen account, testresultaten die op de telefoon blijven, wat de SDK's voor statistieken en advertenties verzamelen en hoe je je afmeldt of verwijdering aanvraagt.",
+      "compare": {
+        "description": "Hoe Gamepad Tester Pro zich verhoudt tot andere controllertest-apps op Android, functie voor functie, alleen feiten.",
+        "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: knoppentest, stick drift-analyse, polling rate, trilling, conditierapport, advertenties en prijs.",
+        "vsIntro": "Beide testen een gamecontroller op een Android-telefoon. Hier zie je waarin ze verschillen, functie voor functie."
       }
     }
   }

@@ -10,6 +10,7 @@ const SOURCE = {
   'gamepad-pro': { file: 'docs/privacy/gamePadProV1007.html', format: 'main' },
   whendo: { file: 'app/src/main/assets/privacy-policy.html', format: 'body' },
   joylink: { file: 'app/src/main/assets/privacy-policy.html', format: 'body' },
+  'gamepad-tester': { file: 'docs/GamepadTesterV915.html', format: 'wrap' },
 };
 
 /**
@@ -74,8 +75,14 @@ function parseBody(html, contactEmail) {
   return { effectiveDate, body };
 }
 
-function parseWrap(html) {
-  const effective = html.match(/Effective date:<\/strong>\s*([^<]+)</)?.[1]?.trim();
+/**
+ * Relaypad's and Gamepad Tester Pro's policies (the same template): the body is the `.wrap` div minus the
+ * page header, table of contents, "back to top" links and footer. Gamepad Tester Pro's effective date
+ * carries a parenthetical ("replaces the version of …") and its contact is the developer's own mailbox,
+ * so the parenthetical is dropped before parsing and every email address becomes the product's `contactEmail`.
+ */
+function parseWrap(html, contactEmail) {
+  const effective = html.match(/Effective date:<\/strong>\s*([^<]+)</)?.[1]?.replace(/\s*\(.*\)\s*$/, '').trim();
   const date = effective ? new Date(effective) : null;
   const effectiveDate = date && !Number.isNaN(date.getTime()) ? date.toISOString().slice(0, 10) : '';
   let body = html.match(/<div class="wrap"[^>]*>([\s\S]*)<\/div>\s*<\/body>/)?.[1] ?? '';
@@ -85,6 +92,7 @@ function parseWrap(html) {
     .replace(/<p class="top">[\s\S]*?<\/p>/g, '')
     .replace(/<footer>[\s\S]*?<\/footer>/, '')
     .replace(/<span class="num">[^<]*<\/span>/g, '')
+    .replace(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g, (m) => contactEmail ?? m)
     .replace(/\n{3,}/g, '\n\n')
     .trim();
   return { effectiveDate, body };
@@ -102,12 +110,12 @@ for (const [slug, root] of Object.entries(products)) {
   const html = readFileSync(file, 'utf8');
   const productFile = join(ROOT, 'src/content/products', `${slug}.json`);
   const contactEmail = existsSync(productFile) ? JSON.parse(readFileSync(productFile, 'utf8')).contactEmail : undefined;
-  if ((src.format === 'main' || src.format === 'body') && !contactEmail) {
+  if (!contactEmail) {
     console.error(`[privacy] ${slug}: contactEmail missing in src/content/products/${slug}.json`);
     process.exitCode = 1;
     continue;
   }
-  const { effectiveDate, body } = src.format === 'main' ? parseMain(html, contactEmail) : src.format === 'body' ? parseBody(html, contactEmail) : parseWrap(html);
+  const { effectiveDate, body } = src.format === 'main' ? parseMain(html, contactEmail) : src.format === 'body' ? parseBody(html, contactEmail) : parseWrap(html, contactEmail);
   if (!body || !effectiveDate) {
     console.error(`[privacy] ${slug}: could not parse body or effective date`);
     process.exitCode = 1;

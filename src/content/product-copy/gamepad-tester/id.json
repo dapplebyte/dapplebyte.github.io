@@ -1,0 +1,122 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "id",
+  "title": "Gamepad Tester Pro: Kontroler",
+  "shortDescription": "Tes kontroler & joystick: stick drift, tombol, input lag, getaran, dead zone",
+  "tagline": "Tes Kontroler, Joystick & Stick Drift untuk Android",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Tes Kontroler, Joystick & Stick Drift untuk Android",
+      "paragraphs": [
+        "Uji gamepad Bluetooth, USB, atau OTG apa pun di ponsel dan tablet Android dalam hitungan detik. Gamepad Tester Pro adalah alat tes kontroler dan joystick yang lengkap: cek tombol, stik analog, stick drift, dead zone, trigger, getaran, input lag, dan polling rate, lalu dapatkan skor kesehatan dan laporan yang bisa dibagikan. Cocok untuk Xbox, PlayStation (DualShock 4, DualSense), Switch Pro, dan gamepad generik."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Cara orang memakai aplikasi ini",
+      "paragraphs": [],
+      "bullets": [
+        "Cek stick drift dan dead zone sebelum membeli atau menjual kontroler bekas",
+        "Pastikan gamepad baru berfungsi sebelum masa retur atau garansi habis",
+        "Lacak input yang terlewat, double press, tombol lengket, atau trigger mati",
+        "Bandingkan polling rate dan input lag Bluetooth vs USB sebelum ranked match"
+      ]
+    },
+    {
+      "id": "full-test",
+      "title": "Tes Kontroler Lengkap & Skor Kesehatan",
+      "paragraphs": [],
+      "bullets": [
+        "Satu tes terpandu untuk tombol, D-pad, stik analog, trigger L2/R2, stick drift, dan getaran",
+        "Skor kesehatan menyeluruh dengan hasil per item, otomatis masuk Riwayat Tes",
+        "Ekspor dan bagikan laporan tes visual untuk klaim garansi, servis, atau jual beli"
+      ]
+    },
+    {
+      "id": "button-test",
+      "title": "Tes Tombol & Tes Joystick Real-Time",
+      "paragraphs": [],
+      "bullets": [
+        "Lihat setiap tekan, lepas, dan key code Android secara instan",
+        "Visualkan kedua stik analog, sumbu, D-pad, dan tekanan trigger analog",
+        "Tata letak untuk Xbox, PlayStation, gamepad generik, dan remote TV"
+      ]
+    },
+    {
+      "id": "stick-drift",
+      "title": "Tes Stick Drift, Dead Zone & Circularity",
+      "paragraphs": [],
+      "bullets": [
+        "Posisi stik langsung, simpangan saat diam, dan panduan dead zone",
+        "Analisis stik lanjutan: cakupan, error circularity, rentang radius, dan estimasi dead zone"
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Tes Input Lag, Latensi & Polling Rate",
+      "paragraphs": [],
+      "bullets": [
+        "Estimasi polling rate (Hz), interval input rata-rata, minimum, dan maksimum",
+        "Sampling lanjutan: jitter, histogram interval, perbandingan sesi Bluetooth vs USB, ekspor CSV"
+      ]
+    },
+    {
+      "id": "vibration",
+      "title": "Tes Getaran & Rumble Studio",
+      "paragraphs": [],
+      "bullets": [
+        "Uji kekuatan motor rumble kiri dan kanan secara terpisah",
+        "Vibration Studio: susun pola dua motor multi-segmen, ulangi, dan simpan"
+      ]
+    },
+    {
+      "id": "led",
+      "title": "Tes Lampu LED (PlayStation lewat Bluetooth)",
+      "paragraphs": [],
+      "bullets": [
+        "Atur warna light bar, lalu jalankan cek warna solid, gradasi, dan napas",
+        "Temukan titik mati, warna melenceng, lompatan, atau kedipan",
+        "Butuh DualShock 4 atau DualSense lewat Bluetooth, Android 12+. Pada PS berkabel, Xbox, dan kontroler lain Android tidak membuka lampunya: aplikasi menjelaskan alasannya, bukan menampilkan pemilih warna yang tidak berfungsi."
+      ]
+    },
+    {
+      "id": "motion-touchpad",
+      "title": "Giroskop, Touchpad & Bandingkan Dua Kontroler",
+      "paragraphs": [],
+      "bullets": [
+        "Giroskop, akselerometer, dan level kemiringan untuk DualShock 4, DualSense, dan Switch Pro (Android 12+)",
+        "Tes touchpad dengan jejak multi-sentuh dan penghitung tekanan"
+      ]
+    },
+    {
+      "id": "controller-info",
+      "title": "Info Kontroler & Tren Kesehatan",
+      "paragraphs": [
+        "Lihat merek, nama perangkat, Vendor ID, Product ID, jenis koneksi, sumbu, jumlah tombol, dukungan getaran, dan level baterai bila tersedia. Riwayat Tes melacak skor kesehatan dan tren drift tiap kontroler, jadi stik yang mulai rusak cepat ketahuan."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Perlu diketahui",
+      "paragraphs": [],
+      "bullets": [
+        "Fitur bergantung pada model kontroler, jenis koneksi, versi Android, dan pabrikan ponsel. Sebagian kontroler tidak melaporkan baterai, getaran, sensor gerak, atau touchpad ke Android.",
+        "Aplikasi hanya membaca input, tidak bisa memetakan ulang tombol, memperbarui firmware, atau memperbaiki hardware.",
+        "Tes inti gratis dengan iklan. Pro adalah pembelian sekali bayar: iklan hilang, lalu terbuka diagnostik lanjutan, tren kesehatan, ekspor CSV, dan pola getaran tersimpan.",
+        "Xbox, PlayStation, DualShock, DualSense, dan Nintendo Switch adalah merek dagang pemiliknya masing-masing. Aplikasi ini tidak berafiliasi dengan Microsoft, Sony, atau Nintendo."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Ada yang tidak berfungsi?",
+      "paragraphs": [
+        "Kalau kontroler tidak terdeteksi atau hasilnya janggal, tolong kirim email ke feedback@dapplebyte.com dulu sebelum memberi ulasan. Sebutkan model kontroler dan ponsel Anda, kami akan bantu. Sebagian besar masalah bisa diperbaiki di update berikutnya."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

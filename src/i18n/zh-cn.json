@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · 独立工作室的 Android 应用",
-    "description": "DappleByte 是一家做 Android app 的独立工作室，作品有 Gamepad Pro：把手柄变成触屏操作的按键映射工具；Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app；WhenDo：一款 AI 自动化与连点器 app；还有 JoyLink：把手机变成蓝牙手柄、触控板和电视遥控器。",
+    "description": "DappleByte 是一家做 Android app 的独立工作室，作品有 Gamepad Pro：把手柄变成触屏操作的按键映射工具；Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app；WhenDo：一款 AI 自动化与连点器 app；JoyLink：把手机变成蓝牙手柄、触控板和电视遥控器；还有 Gamepad Tester Pro：检查手柄有没有摇杆漂移、输入延迟和失灵的按键。",
     "appsHeading": "应用",
     "principlesHeading": "我们的做法",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "触控板、鼠标与键盘",
       "tv-remote": "Android TV、Google TV、Fire TV 的电视遥控器",
       "racing-wheel": "倾斜手机就能转向的方向盘",
-      "custom-layouts": "控件可挪位置、改大小，布局可保存"
+      "custom-layouts": "控件可挪位置、改大小，布局可保存",
+      "button-test": "实时按键与按键码测试",
+      "drift-analysis": "摇杆漂移、死区与圆度分析",
+      "polling-rate": "轮询率与输入延迟测量",
+      "rumble-test": "逐个马达的震动测试",
+      "health-report": "健康分数与可分享的报告",
+      "test-history": "测试历史与每个手柄的漂移趋势",
+      "led-test": "灯条测试（PlayStation 蓝牙连接）",
+      "motion-test": "陀螺仪与加速度计测试",
+      "touchpad-test": "触控板测试"
     },
     "values": {
       "yes": "是",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation、PS5 和 PS4 是 Sony Interactive Entertainment Inc. 的商标。{name} 与 Sony 没有关联，也未获得 Sony 的背书。",
-    "hosts": "Windows 和 Xbox 是 Microsoft 的商标；Mac、iPhone 和 iPad 是 Apple 的商标；PlayStation 是 Sony Interactive Entertainment 的商标；Nintendo Switch 是 Nintendo 的商标；Android、Android TV 和 Google TV 是 Google 的商标；Fire TV 是 Amazon 的商标；Steam 是 Valve 的商标；Raspberry Pi 是 Raspberry Pi Ltd 的商标。{name} 与上述公司均没有关联，也未获得它们的背书。"
+    "hosts": "Windows 和 Xbox 是 Microsoft 的商标；Mac、iPhone 和 iPad 是 Apple 的商标；PlayStation 是 Sony Interactive Entertainment 的商标；Nintendo Switch 是 Nintendo 的商标；Android、Android TV 和 Google TV 是 Google 的商标；Fire TV 是 Amazon 的商标；Steam 是 Valve 的商标；Raspberry Pi 是 Raspberry Pi Ltd 的商标。{name} 与上述公司均没有关联，也未获得它们的背书。",
+    "controllers": "Xbox 是 Microsoft 的商标；PlayStation、DualShock 和 DualSense 是 Sony Interactive Entertainment 的商标；Nintendo Switch 是 Nintendo 的商标。{name} 与上述公司均没有关联，也未获得它们的背书。"
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "JoyLink 与其他把手机变成电脑或电视控制器的应用的逐项功能对比，只摆事实。",
         "vsDescription": "{name} 与 {other} 在 Android 上的逐项对比：接收端软件、蓝牙手柄、触控板与电视遥控器、方向盘、root、广告与价格。",
         "vsIntro": "两者都能把 Android 手机变成电脑或电视的控制器。下面逐项列出区别。"
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "手柄测试 · 无需电脑",
+      "heroPoints": [
+        "按键、摇杆、扳机、摇杆漂移和震动，一次引导式测试全部测完，最后给出健康分数和可分享的报告",
+        "分析摇杆漂移、死区和圆度，还能测蓝牙或 USB 连接下的轮询率与输入延迟",
+        "免费使用，含广告。Pro 一次性买断，去除广告并解锁高级诊断"
+      ],
+      "faqDescription": "关于 Gamepad Tester Pro 的解答：识别与配对、按键与布局、摇杆漂移与死区、震动、体感与触控板、延迟与完整测试、Pro、隐私与兼容性。",
+      "faqNotFoundBody": "写信给我们，附上手机型号、手柄型号和连接方式。每条消息都有真人看。",
+      "support": {
+        "beforeItems": [
+          "先看常见问题。识别、漂移、延迟和震动相关的问题大多在那里有答案，措辞和 app 里一样。",
+          "先看“设备信息”。如果 Android 没有上报你这个手柄的电量、震动、体感传感器或触控板，app 就没法测试；常见问题里写了哪些手柄会开放哪些功能。",
+          "记下手柄型号、用蓝牙还是 USB 连接，以及哪项测试结果不对劲。我们需要这些信息来复现问题。"
+        ],
+        "template": {
+          "phone": "手机型号：",
+          "android": "Android 版本：",
+          "controller": "手柄（型号，蓝牙还是 USB）：",
+          "test": "哪项测试，结果是什么：",
+          "what": "发生了什么（按步骤写）：",
+          "pro": "是否购买 Pro：是 / 否"
+        },
+        "refundBody": "Gamepad Tester Pro 可以免费安装。如果你买了 Pro，但在你的设备环境下用不了，购买后 7 天内发邮件给我们，我们会退款。顺便说说你试过哪些办法，能帮我们为下一位用户修好它。"
+      },
+      "press": {
+        "description": "报道 Android 手柄与摇杆漂移检测工具 Gamepad Tester Pro 所需的资料、素材和标准介绍。",
+        "boilerplate": "Gamepad Tester Pro 能在 Android 手机或平板上检测任何蓝牙、USB 或 OTG 手柄：按键、模拟摇杆、摇杆漂移、死区、扳机、震动、输入延迟和轮询率，最后给出健康分数和可分享的报告。支持 Xbox、PlayStation、Switch Pro 和各类通用手柄，不需要电脑。它由独立工作室 DappleByte 开发。",
+        "priceValue": "免费安装，含广告。核心测试免费；一次性购买 Pro 即可去除广告，并解锁高级诊断、健康趋势、CSV 导出和震动模式保存。没有订阅。当前价格以 Google Play 显示为准。",
+        "assetScreenshots": "手机截图，PNG，英文（竖屏 1080 × 1920）"
+      },
+      "videosDescription": "在真机上演示 Gamepad Tester Pro 的短视频：完整测试、怎么看摇杆漂移结果、延迟测试和震动测试。",
+      "privacyDescription": "Android 版 Gamepad Tester Pro 如何处理你的数据：无需账号、测试结果只保存在手机上、统计和广告 SDK 会收集什么，以及如何关闭收集或申请删除数据。",
+      "compare": {
+        "description": "在 Android 上逐项对比 Gamepad Tester Pro 与其他手柄测试 app 的功能，只讲事实。",
+        "vsDescription": "在 Android 上逐项对比 {name} 与 {other}：按键测试、摇杆漂移分析、轮询率、震动、健康报告、广告与收费方式。",
+        "vsIntro": "两者都能在 Android 手机上测试游戏手柄。下面逐项列出它们的不同之处。"
       }
     }
   }

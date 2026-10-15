@@ -1,0 +1,13 @@
+{
+  "slug": "gamepad-tester",
+  "items": [
+    { "id": "full-test", "sectionId": "full-test", "screenshots": [1], "faq": ["full_test_items", "full_test_warn_fail", "report_export", "history_manage"] },
+    { "id": "button-test", "sectionId": "button-test", "screenshots": [], "faq": ["why_layout_choice", "wrong_button_lights", "home_key_no_response", "stick_click", "what_is_cps", "game_no_controller_support"] },
+    { "id": "stick-drift", "sectionId": "stick-drift", "screenshots": [2], "faq": ["how_drift_measured", "drift_threshold", "fix_drift", "what_is_circularity", "what_is_deadzone"] },
+    { "id": "latency", "sectionId": "latency", "screenshots": [3], "faq": ["what_latency_measures", "low_polling_rate", "what_is_jitter"] },
+    { "id": "vibration", "sectionId": "vibration", "screenshots": [4], "faq": ["no_vibration", "what_is_vib_studio", "patterns_transfer"] },
+    { "id": "led", "sectionId": "led", "screenshots": [], "faq": ["tool_unsupported", "supported_pads"] },
+    { "id": "motion-touchpad", "sectionId": "motion-touchpad", "screenshots": [], "faq": ["motion_unsupported", "touchpad_no_response", "touchpad_capture_scope"] },
+    { "id": "controller-info", "sectionId": "controller-info", "screenshots": [5], "faq": ["no_device_detected", "unknown_name", "no_battery", "two_pads", "random_disconnect"] }
+  ]
+}

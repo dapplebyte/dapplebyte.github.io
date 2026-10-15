@@ -1,0 +1,310 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "it",
+  "title": "FAQ",
+  "intro": "Le domande che ci fanno più spesso e cosa fare in ciascun caso. Tocca una domanda per aprirla.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Connessione e rilevamento",
+      "entries": [
+        {
+          "id": "no_device_detected",
+          "q": "Il controller è collegato, ma l'app non lo rileva",
+          "a": [
+            "I controller Bluetooth vanno prima associati nelle impostazioni Bluetooth del telefono: quest'app legge i controller che il sistema già riconosce, non li associa. Per l'USB servono il supporto OTG e un vero cavo dati; i cavi solo-ricarica non trasportano dati. Una volta collegato, premi un pulsante qualsiasi o muovi uno stick per svegliare il controller, poi torna alla schermata principale."
+          ]
+        },
+        {
+          "id": "supported_pads",
+          "q": "Quali controller sono supportati?",
+          "a": [
+            "Tutto ciò che Android riconosce come gamepad: Xbox Wireless e Series, DualShock 4 e DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, controller telescopici per telefono e pad HID generici. Quanto si riesce a testare dipende da ciò che il controller dichiara: senza motore niente test di vibrazione, senza touchpad niente test del touchpad. Info dispositivo elenca esattamente cosa espone il tuo."
+          ]
+        },
+        {
+          "id": "unknown_name",
+          "q": "Il controller compare come «Dispositivi sconosciuti» o come un codice di modello",
+          "a": [
+            "Il nome arriva dal firmware del controller e l'app si limita a mostrarlo, perciò i pad economici e alcuni adattatori USB non restituiscono nulla di utile. Non influisce su nessun risultato dei test. Se ti serve un identificativo affidabile, usa ID produttore e ID prodotto in Info dispositivo."
+          ]
+        },
+        {
+          "id": "no_battery",
+          "q": "Perché il livello della batteria manca o risulta sconosciuto?",
+          "a": [
+            "Il livello deve essere comunicato dal controller stesso e la maggior parte dei pad di terze parti non lo invia mai — di solito nemmeno via USB. I controller Xbox e PlayStation lo comunicano normalmente via Bluetooth. Nessuna app può leggere un valore che il controller non pubblica."
+          ]
+        },
+        {
+          "id": "two_pads",
+          "q": "Posso testare due controller insieme?",
+          "a": [
+            "Sì. Quando ne è collegato più di uno, le pagine di test mostrano un selettore, e Confronto controller affianca due pad in tempo reale: il modo più rapido per distinguere un pad consumato da uno in salute."
+          ]
+        },
+        {
+          "id": "random_disconnect",
+          "q": "Il controller si scollega a metà test",
+          "a": [
+            "Tre cause tipiche: l'ottimizzazione della batteria che sospende l'app in background, la distanza o gli ostacoli, e le interferenze di dongle a 2,4 GHz o di un router vicino. Escludere l'app dall'ottimizzazione della batteria nelle impostazioni delle app del telefono risolve quasi sempre. Un pad che si scollega anche su altri dispositivi è probabilmente lui il problema."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buttons",
+      "title": "Pulsanti e layout",
+      "entries": [
+        {
+          "id": "why_layout_choice",
+          "q": "Perché devo scegliere prima Controller Xbox, Controller PlayStation o Altri controller?",
+          "a": [
+            "Cambia solo come i pulsanti vengono disegnati ed etichettati sullo schermo: i codici tasto sottostanti sono identici. Scegli quello che assomiglia al pad che hai in mano, così le etichette coincidono; se nessuno corrisponde, Altri controller funziona con qualsiasi controller."
+          ]
+        },
+        {
+          "id": "wrong_button_lights",
+          "q": "Premo un pulsante e si accende quello sbagliato",
+          "a": [
+            "A e B (come X e Y) occupano posizioni fisiche invertite sui pad in stile Nintendo rispetto a quelli Xbox, quindi lo stesso codice tasto finisce altrove sullo schermo. È una differenza di etichette, non un guasto. Cronologia tasti mostra il codice e il nome reali di ogni pressione: è il modo affidabile per verificare una mappatura."
+          ]
+        },
+        {
+          "id": "home_key_no_response",
+          "q": "Il pulsante Home / PS / Xbox / Guide non fa nulla",
+          "a": [
+            "Android intercetta quel pulsante a livello di sistema e non lo inoltra mai, quindi nessuna app può testarlo: il tuo controller sta bene. Lo stesso vale per i tasti volume su alcuni pad. Tutto il resto, inclusi Share e Capture sulla maggior parte dei modelli, arriva normalmente."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "L3 / R3 (pressione degli stick) non viene rilevata",
+          "a": [
+            "Premi lo stick dritto verso il basso finché non scatta; su alcuni pad la corsa è profonda e una spinta obliqua spesso la manca. Se Cronologia tasti non registra proprio nulla per quel clic, l'interruttore sotto quello stick è probabilmente usurato."
+          ]
+        },
+        {
+          "id": "what_is_cps",
+          "q": "Cos'è il CPS in Cronologia tasti?",
+          "a": [
+            "Clic al secondo: quante volte un pulsante si attiva in un secondo. Serve a verificare i pad con Turbo e fuoco rapido — tieni premuto il pulsante con il Turbo attivo e il valore ti dà la cadenza reale. Su un pad normale evidenzia anche i doppi scatti, quando una sola pressione viene contata due volte."
+          ]
+        },
+        {
+          "id": "game_no_controller_support",
+          "q": "Qui tutti i pulsanti funzionano, ma il gioco ignora il controller",
+          "a": [
+            "Allora il pad è a posto — il gioco semplicemente non ascolta mai i comandi del controller e accetta solo i tocchi sullo schermo. Non c'è niente da cambiare sul pad o nelle impostazioni di Android che possa risolverlo. Quello che funziona è un'app di mappatura dei pulsanti: si sovrappone al gioco e trasforma ogni pulsante, stick e grilletto in un tocco nel punto che scegli tu, così un gioco solo touch si gioca come se avesse sempre supportato il controller."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sticks",
+      "title": "Stick: drift e analisi",
+      "entries": [
+        {
+          "id": "how_drift_measured",
+          "q": "Come verifico il drift di uno stick?",
+          "a": [
+            "Appoggia il controller su una superficie piana, togli completamente le mani dagli stick e leggi lo scostamento a riposo. Uno stick sano resta a zero o quasi e non si muove; uno con drift si ferma su un valore stabile diverso da zero — è proprio questo a far camminare il personaggio da solo."
+          ]
+        },
+        {
+          "id": "drift_threshold",
+          "q": "Quanto scostamento è un problema?",
+          "a": [
+            "Come riferimento di massima su pad comuni: sotto il 3% è normale, tra 3% e 8% è lieve e la zona morta integrata nella maggior parte dei giochi lo assorbe, oltre l'8% di solito si nota giocando. Sono riferimenti pratici, non una specifica del produttore: conta di più se lo scostamento resta stabile e se lo percepisci mentre giochi."
+          ]
+        },
+        {
+          "id": "fix_drift",
+          "q": "Il drift si può risolvere?",
+          "a": [
+            "Parti dalle cose più semplici: pulisci intorno alla base dello stick e aggiorna il firmware del controller — con l'app Accessori Xbox per i pad Xbox, oppure collegando un DualSense o un DualShock 4 a una console PlayStation. Alcuni controller hanno anche una ricalibrazione nell'app del produttore. Se lo scostamento sopravvive a tutto questo, il modulo dello stick è usurato e va riparato o sostituito."
+          ]
+        },
+        {
+          "id": "what_is_circularity",
+          "q": "Cos'è l'errore di circolarità?",
+          "a": [
+            "Ruota lentamente uno stick lungo il bordo esterno: l'app confronta il tracciato con un cerchio perfetto e la deviazione media è l'errore di circolarità. Più è basso, più lo stick risponde in modo uniforme in ogni direzione, e la mira resta regolare. Un errore elevato di solito si sente come una direzione che arriva più corta delle altre. (Pro)"
+          ]
+        },
+        {
+          "id": "what_is_deadzone",
+          "q": "Come viene stimata la zona morta?",
+          "a": [
+            "Spingi lo stick molto lentamente dal centro verso l'esterno: il movimento più piccolo che produce una lettura approssima la zona morta. Una zona morta più ampia significa che le piccole correzioni di mira vengono ignorate. È una stima basata su ciò che il controller dichiara, non il valore che un gioco applica internamente. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibration-motion-touchpad",
+      "title": "Vibrazione, movimento e touchpad",
+      "entries": [
+        {
+          "id": "no_vibration",
+          "q": "Il test di vibrazione non fa nulla",
+          "a": [
+            "Tre possibili motivi: il controller non ha motori, Android non espone la vibrazione per quel pad sulla connessione attuale, oppure il pad accetta il rumble solo dalla propria console. Info dispositivo ti dice quale dei tre — se compare «Vibrazione: Non supportata», l'app non ha nulla da pilotare. Sui pad che supportano entrambe le connessioni vale la pena provare l'USB al posto del Bluetooth."
+          ]
+        },
+        {
+          "id": "what_is_vib_studio",
+          "q": "A cosa serve Studio vibrazione?",
+          "a": [
+            "È un editor a timeline per i due motori di vibrazione: costruisci i tuoi pattern e li senti davvero, senza limitarti ai preset fissi. La modifica e i preset inclusi sono gratuiti; pilotare i motori con un pattern personalizzato e salvarlo in I miei pattern sono funzioni Pro."
+          ]
+        },
+        {
+          "id": "patterns_transfer",
+          "q": "I pattern salvati e la cronologia passano su un telefono nuovo?",
+          "a": [
+            "No. Pattern e record dei test restano solo su questo dispositivo, sui server non viene conservato nulla. Un trasferimento completo da telefono a telefono che includa i dati delle app li porta con sé; una nuova installazione no."
+          ]
+        },
+        {
+          "id": "motion_unsupported",
+          "q": "La pagina Sensori di movimento dice che non sono supportati",
+          "a": [
+            "Per leggere il giroscopio di un controller servono Android 12 o successivo e un pad che pubblichi i propri sensori al sistema — in pratica DualShock 4, DualSense e Switch Pro. Attenzione: si leggono i sensori del controller, non quelli del telefono, quindi un pad senza giroscopio non mostra nulla nemmeno su un telefono che ne ha uno."
+          ]
+        },
+        {
+          "id": "touchpad_no_response",
+          "q": "La pagina del touchpad non reagisce",
+          "a": [
+            "La cattura del touchpad richiede Android 8.0 o successivo e funziona solo con i pad che hanno davvero un touchpad: DualShock 4 e DualSense. Tocca prima Avvia cattura, altrimenti i dati tattili vanno al sistema invece che all'app. Uscendo dalla pagina la cattura viene rilasciata."
+          ]
+        },
+        {
+          "id": "touchpad_capture_scope",
+          "q": "Mentre il touchpad è catturato, gli altri pulsanti funzionano ancora?",
+          "a": [
+            "Sì — la cattura devia solo la superficie tattile, mentre pulsanti e stick continuano a rispondere come sempre. Viene rilasciata nel momento in cui esci dalla pagina, quindi nulla resta bloccato sull'app."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Latenza e test completo",
+      "entries": [
+        {
+          "id": "what_latency_measures",
+          "q": "Cosa misura davvero il test di latenza?",
+          "a": [
+            "Quanto spesso il controller invia dati al telefono: la frequenza di polling in Hz e l'intervallo tra due invii in millisecondi. Non è il ritardo end-to-end dal pollice all'immagine — quello dipende anche da schermo, gioco e telefono, e nessuna app può misurarlo dall'interno. Serve soprattutto a confrontare due pad, o lo stesso pad via Bluetooth e via USB."
+          ]
+        },
+        {
+          "id": "low_polling_rate",
+          "q": "Perché la mia frequenza di polling è solo intorno ai 100 Hz?",
+          "a": [
+            "È normale per la maggior parte dei pad Bluetooth; USB e dongle a 2,4 GHz di solito vanno più veloci. La lettura è anche limitata dalla velocità con cui Android consegna gli eventi di input, quindi un pad ad alta frequenza qui può risultare più basso che su PC. Indica il tipo di connessione prima di campionare e le sessioni salvate restano confrontabili."
+          ]
+        },
+        {
+          "id": "what_is_jitter",
+          "q": "Come si legge il Jitter (σ)?",
+          "a": [
+            "Indica quanto varia l'intervallo tra un invio e l'altro. Due pad possono avere lo stesso intervallo medio mentre uno invia in modo regolare e l'altro a raffiche: il secondo dà una sensazione peggiore, ed è il jitter a rivelarlo. Il grafico della distribuzione degli intervalli e il confronto tra sessioni lo rendono evidente. (Pro)"
+          ]
+        },
+        {
+          "id": "full_test_items",
+          "q": "Cosa copre il Test completo?",
+          "a": [
+            "Sei passaggi: tutti i pulsanti, escursione degli stick, circolarità, corsa dei grilletti, drift a riposo e vibrazione. Ti guida nell'ordine e assegna a ogni passaggio OK, Verifica o Errore, più un report da condividere. Circa due minuti se non salti nulla."
+          ]
+        },
+        {
+          "id": "full_test_warn_fail",
+          "q": "Un passaggio è risultato Verifica o Errore: e adesso?",
+          "a": [
+            "«Verifica» di solito indica un input incompleto più che un guasto: uno stick che non ha raggiunto tutti i bordi o un grilletto non premuto a fondo — vale la pena rifare quel passaggio. Un «Errore» su drift o vibrazione punta all'hardware: vedi «Il drift si può risolvere?» e «Il test di vibrazione non fa nulla» per cosa provare. I passaggi saltati non incidono sul risultato."
+          ]
+        },
+        {
+          "id": "report_export",
+          "q": "Dove finisce il report del test e come lo condivido?",
+          "a": [
+            "L'esportazione trasforma il risultato in un'unica immagine lunga e la passa al menu di condivisione del telefono, così puoi inviarla a un venditore, a un centro riparazioni o a un amico — l'app non carica nulla online. L'esportazione gratuita richiede di guardare prima un breve video pubblicitario; con Pro l'esportazione è senza pubblicità."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro e acquisti",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Pro è un abbonamento? Cosa include?",
+          "a": [
+            "No — è un acquisto unico che resta sbloccato per sempre. Include punteggio di salute e tendenze del drift in Cronologia test, esportazione dei report senza pubblicità e CSV della latenza, salvataggio e riproduzione dei tuoi pattern di vibrazione, diagnostica avanzata degli stick come circolarità e zona morta, confronto offline dei record salvati, e rimuove tutte le pubblicità. Tutti i test di base restano gratuiti."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Ho cambiato telefono e Pro è sparito",
+          "a": [
+            "Accedi a Google Play con lo stesso account usato per l'acquisto, poi tocca Ripristina acquisto. L'acquisto è legato a quell'account Google, non al dispositivo."
+          ]
+        },
+        {
+          "id": "pro_purchase_failed",
+          "q": "L'acquisto non va a buon fine, o resta su «Connessione a Google Play in corso»",
+          "a": [
+            "Controlla che il Play Store si apra normalmente e che la regione del tuo account supporti il metodo di pagamento, poi riprova tra qualche minuto: quasi sempre è un problema temporaneo di Google Play e non dell'app. Se ti è stato addebitato l'importo ma Pro non si è sbloccato, usa prima Ripristina acquisto. I rimborsi si richiedono dalla cronologia ordini di Google Play."
+          ]
+        },
+        {
+          "id": "pro_ads",
+          "q": "Con Pro le pubblicità spariscono?",
+          "a": [
+            "Sì, tutte — quella all'avvio, quella prima dell'esportazione di un report, nessuna esclusa. Ha effetto appena l'acquisto è completato; se compare ancora una pubblicità, riapri l'app."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-compatibility",
+      "title": "Privacy, compatibilità e supporto",
+      "entries": [
+        {
+          "id": "data_privacy",
+          "q": "I miei dati di test vengono caricati da qualche parte?",
+          "a": [
+            "No. Risultati dei test, cronologia e pattern di vibrazione restano sul tuo telefono, e un report esportato va direttamente all'app che scegli nel menu di condivisione. Raccogliamo però statistiche d'uso anonime — quali pagine vengono aperte, più i report di crash — senza alcun dato del controller né informazione personale. L'informativa sulla privacy contiene tutti i dettagli."
+          ]
+        },
+        {
+          "id": "history_manage",
+          "q": "Posso eliminare la cronologia dei test? Occupa spazio?",
+          "a": [
+            "Ogni record è qualche kilobyte di testo, quindi lo spazio non è un problema. Da Cronologia test puoi eliminare un singolo record oppure cancellare tutti quelli di un controller. I record vengono salvati automaticamente al termine di un Test completo."
+          ]
+        },
+        {
+          "id": "tool_unsupported",
+          "q": "Perché alcuni strumenti dicono di non essere supportati sul mio telefono?",
+          "a": [
+            "Solo due motivi: la versione di Android — i sensori di movimento richiedono la 12 o successiva, la cattura del touchpad la 8.0 o successiva — oppure una capacità che il controller non ha, come nessun motore, nessun giroscopio, nessun touchpad o nessuno stick analogico. Info dispositivo elenca cosa espone il pad collegato e gli strumenti si adeguano."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Come segnalo un problema o propongo un'idea?",
+          "a": [
+            "Impostazioni → Informazioni → Invia un feedback. Il modello del telefono, la versione di Android e la versione dell'app vengono allegati automaticamente: di solito è proprio quello che ci serve per riprodurre il problema. Se un controller non viene rilevato, indicarci il modello esatto e come è collegato aiuta molto."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

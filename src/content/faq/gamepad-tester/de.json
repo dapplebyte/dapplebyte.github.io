@@ -1,0 +1,310 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "de",
+  "title": "FAQ",
+  "intro": "Die Fragen, die uns am häufigsten erreichen – und was du dagegen tun kannst. Tippe auf eine Frage, um sie aufzuklappen.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Verbindung & Erkennung",
+      "entries": [
+        {
+          "id": "no_device_detected",
+          "q": "Mein Controller ist verbunden, aber die App erkennt ihn nicht",
+          "a": [
+            "Bluetooth-Controller müssen zuerst in den Bluetooth-Einstellungen deines Handys gekoppelt werden – die App liest nur die Controller aus, die das System bereits kennt, koppeln kann sie nicht. Für USB braucht das Handy OTG-Unterstützung und ein echtes Datenkabel; reine Ladekabel übertragen keine Daten. Nach dem Verbinden eine beliebige Taste drücken oder einen Stick bewegen, um den Controller aufzuwecken, und dann zurück auf den Startbildschirm gehen."
+          ]
+        },
+        {
+          "id": "supported_pads",
+          "q": "Welche Controller werden unterstützt?",
+          "a": [
+            "Alles, was Android als Gamepad erkennt: Xbox Wireless und Series Controller, DualShock 4 und DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, ausziehbare Handy-Controller und generische HID-Pads. Wie viel sich testen lässt, hängt davon ab, was dein Controller meldet – ohne Motor gibt es keinen Vibrationstest, ohne Touchpad keinen Touchpad-Test. In der Geräteinfo steht genau, was deiner bereitstellt."
+          ]
+        },
+        {
+          "id": "unknown_name",
+          "q": "Der Controller erscheint als „Unbekannte Geräte“ oder als kryptischer Modellcode",
+          "a": [
+            "Der Name kommt aus der Firmware des Controllers und die App gibt ihn nur weiter, deshalb melden günstige Pads und manche USB-Adapter nichts Brauchbares. Auf die Testergebnisse hat das keinen Einfluss. Wenn du eine verlässliche Kennung brauchst, nimm Hersteller-ID und Produkt-ID aus der Geräteinfo."
+          ]
+        },
+        {
+          "id": "no_battery",
+          "q": "Warum fehlt der Akkustand oder ist unbekannt?",
+          "a": [
+            "Den Akkustand muss der Controller selbst melden, und die meisten Drittanbieter-Pads senden ihn nie – über USB kommt er ebenfalls selten an. Xbox- und PlayStation-Controller melden ihn per Bluetooth normalerweise mit. Einen Wert, den der Controller nicht veröffentlicht, kann keine App auslesen."
+          ]
+        },
+        {
+          "id": "two_pads",
+          "q": "Kann ich zwei Controller gleichzeitig testen?",
+          "a": [
+            "Ja. Sobald mehr als einer verbunden ist, zeigen die Testseiten eine Controller-Auswahl, und der Controller-Vergleich stellt zwei Pads in Echtzeit nebeneinander – der schnellste Weg, ein ausgeleiertes Pad von einem gesunden zu unterscheiden."
+          ]
+        },
+        {
+          "id": "random_disconnect",
+          "q": "Der Controller bricht mitten im Test weg",
+          "a": [
+            "Drei übliche Ursachen: die Akku-Optimierung friert die App im Hintergrund ein, zu große Entfernung oder Hindernisse, und Störungen durch 2,4-GHz-Dongles oder einen Router in der Nähe. Die App in den App-Einstellungen deines Handys von der Akku-Optimierung auszunehmen löst die meisten Fälle. Ein Pad, das auch an anderen Geräten abbricht, ist vermutlich selbst das Problem."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buttons",
+      "title": "Tasten & Layouts",
+      "entries": [
+        {
+          "id": "why_layout_choice",
+          "q": "Warum muss ich erst Xbox-Controller, PlayStation-Controller oder Andere Controller auswählen?",
+          "a": [
+            "Das ändert nur, wie die Tasten auf dem Bildschirm gezeichnet und beschriftet werden – die Tastencodes darunter sind identisch. Nimm das Layout, das zu dem Pad in deinen Händen passt, dann stimmen die Beschriftungen. Passt keines davon, funktioniert Andere Controller mit jedem Controller."
+          ]
+        },
+        {
+          "id": "wrong_button_lights",
+          "q": "Ich drücke eine Taste und es leuchtet die falsche auf",
+          "a": [
+            "A und B (und ebenso X und Y) sitzen auf Pads im Nintendo-Stil physisch vertauscht im Vergleich zu Xbox-Pads, deshalb landet derselbe Tastencode auf dem Bildschirm woanders. Das ist ein Unterschied in der Beschriftung, kein Defekt. Der Tastenverlauf zeigt zu jedem Druck den echten Tastencode samt Namen – so prüfst du eine Belegung zuverlässig."
+          ]
+        },
+        {
+          "id": "home_key_no_response",
+          "q": "Die Home- / PS- / Xbox- / Guide-Taste tut nichts",
+          "a": [
+            "Android fängt diese Taste auf Systemebene ab und reicht sie nie weiter, deshalb kann keine App sie testen – mit deinem Controller ist alles in Ordnung. Dasselbe gilt bei manchen Pads für die Lautstärketasten. Alles andere, auf den meisten Modellen auch Share und Capture, kommt normal an."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "L3 / R3 (Stick herunterdrücken) wird nicht erkannt",
+          "a": [
+            "Drück den Stick gerade nach unten, bis er klickt; bei manchen Pads ist der Weg tief und ein schräger Druck geht oft daneben. Wenn der Tastenverlauf für den Klick gar nichts protokolliert, ist der Schalter unter diesem Stick wahrscheinlich verschlissen."
+          ]
+        },
+        {
+          "id": "what_is_cps",
+          "q": "Was bedeutet CPS im Tastenverlauf?",
+          "a": [
+            "Clicks per second – wie oft eine Taste pro Sekunde auslöst. Gedacht ist der Wert zum Prüfen von Turbo- und Dauerfeuer-Pads: Taste mit aktivem Turbo gedrückt halten, und der Messwert zeigt die echte Frequenz. Bei einem normalen Pad deckt er außerdem Doppelauslöser auf, bei denen ein Druck zweimal registriert wird."
+          ]
+        },
+        {
+          "id": "game_no_controller_support",
+          "q": "Hier reagiert jede Taste, aber mein Spiel ignoriert den Controller",
+          "a": [
+            "Dann ist das Pad in Ordnung – das Spiel wertet Controller-Eingaben schlicht nie aus und nimmt nur Berührungen auf dem Bildschirm an. Daran ändert nichts, was du am Pad oder in den Android-Einstellungen umstellst. Was wirklich hilft, ist ein Key-Mapper: Er legt sich über das Spiel und macht aus jeder Taste, jedem Stick und jedem Trigger eine Berührung an der Stelle, die du festlegst – so spielt sich ein reines Touch-Spiel, als hätte es von Anfang an Controller-Unterstützung."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sticks",
+      "title": "Sticks: Drift & Analyse",
+      "entries": [
+        {
+          "id": "how_drift_measured",
+          "q": "Wie prüfe ich, ob ein Stick driftet?",
+          "a": [
+            "Leg den Controller auf eine ebene Fläche, nimm die Hände komplett von den Sticks und lies dann die Ruheabweichung ab. Ein gesunder Stick liegt bei null oder nahe null und bleibt dort; ein driftender hält einen konstanten Wert ungleich null – genau deshalb läuft die Spielfigur von allein los."
+          ]
+        },
+        {
+          "id": "drift_threshold",
+          "q": "Ab welcher Abweichung wird es zum Problem?",
+          "a": [
+            "Als grobe Orientierung von gewöhnlichen Pads: unter 3% ist normal, 3–8% ist leicht und wird von der eingebauten Deadzone der meisten Spiele geschluckt, über 8% fällt im Spiel meist auf. Das sind praktische Richtwerte, keine Herstellerangabe – wichtiger ist, ob die Abweichung konstant bleibt und ob du sie beim Spielen spürst."
+          ]
+        },
+        {
+          "id": "fix_drift",
+          "q": "Lässt sich Drift beheben?",
+          "a": [
+            "Zuerst die günstigen Sachen: rund um den Fuß des Sticks reinigen und die Firmware des Controllers aktualisieren – bei Xbox-Pads über die App Xbox-Zubehör, bei DualSense oder DualShock 4 durch Anschließen an eine PlayStation-Konsole. Manche Controller haben in der App ihres Herstellers zusätzlich eine Kalibrierung. Bleibt die Abweichung nach alldem bestehen, ist das Stick-Modul verschlissen und muss repariert oder ersetzt werden."
+          ]
+        },
+        {
+          "id": "what_is_circularity",
+          "q": "Was ist der Rundheitsfehler?",
+          "a": [
+            "Dreh einen Stick langsam am äußeren Rand entlang; die App vergleicht die aufgezeichnete Bahn mit einem perfekten Kreis, und die mittlere Abweichung ist der Rundheitsfehler. Je kleiner der Wert, desto gleichmäßiger liest der Stick in alle Richtungen – das hält das Zielen rund. Ein großer Fehler fühlt sich meist so an, als käme eine Richtung zu kurz. (Pro)"
+          ]
+        },
+        {
+          "id": "what_is_deadzone",
+          "q": "Wie wird die Deadzone geschätzt?",
+          "a": [
+            "Schieb den Stick sehr langsam aus der Mitte heraus; die kleinste Bewegung, die überhaupt einen Messwert erzeugt, entspricht ungefähr der Deadzone. Eine größere Deadzone bedeutet, dass kleine Zielkorrekturen ignoriert werden. Das ist eine Schätzung anhand dessen, was der Controller meldet, nicht der Wert, den ein Spiel intern verwendet. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibration-motion-touchpad",
+      "title": "Vibration, Bewegung & Touchpad",
+      "entries": [
+        {
+          "id": "no_vibration",
+          "q": "Der Vibrationstest tut nichts",
+          "a": [
+            "Drei mögliche Gründe: Der Controller hat keine Motoren, Android gibt Vibration für dieses Pad über die aktuelle Verbindung nicht frei, oder das Pad nimmt Rumble nur von seiner eigenen Konsole an. Die Geräteinfo verrät, was zutrifft – steht dort „Vibration: Nicht unterstützt“, gibt es für die App nichts anzusteuern. Bei Pads, die beides können, lohnt sich USB statt Bluetooth."
+          ]
+        },
+        {
+          "id": "what_is_vib_studio",
+          "q": "Wofür ist das Vibrationsstudio da?",
+          "a": [
+            "Es ist ein Timeline-Editor für die beiden Rumble-Motoren: Du baust dir eigene Muster und spürst sie, statt auf die festen Vorlagen beschränkt zu sein. Bearbeiten und die mitgelieferten Vorlagen sind kostenlos; die Motoren mit einem eigenen Muster anzusteuern und es unter Meine Muster zu speichern gehört zu Pro."
+          ]
+        },
+        {
+          "id": "patterns_transfer",
+          "q": "Wandern meine gespeicherten Muster und der Verlauf auf ein neues Handy mit?",
+          "a": [
+            "Nein. Muster und Testeinträge liegen nur auf diesem Gerät, auf einem Server wird nichts abgelegt. Eine vollständige Handy-zu-Handy-Übertragung inklusive App-Daten nimmt sie mit; eine Neuinstallation nicht."
+          ]
+        },
+        {
+          "id": "motion_unsupported",
+          "q": "Die Seite Bewegungssensoren sagt, sie würden nicht unterstützt",
+          "a": [
+            "Das Gyroskop eines Controllers auszulesen setzt Android 12 oder neuer voraus, und das Pad muss seine Sensoren dem System bereitstellen – in der Praxis sind das DualShock 4, DualSense und Switch Pro. Beachte: Gelesen werden die Sensoren des Controllers, nicht die des Handys. Ein Pad ohne Gyroskop zeigt also nichts an, selbst auf einem Handy, das eines hat."
+          ]
+        },
+        {
+          "id": "touchpad_no_response",
+          "q": "Die Touchpad-Seite reagiert nicht",
+          "a": [
+            "Die Touchpad-Erfassung braucht Android 8.0 oder neuer, und erfassen lassen sich nur Pads, die wirklich ein Touchpad haben – DualShock 4 und DualSense. Tippe zuerst auf Erfassung starten, sonst gehen die Berührungsdaten an das System statt an die App. Beim Verlassen der Seite wird die Erfassung wieder freigegeben."
+          ]
+        },
+        {
+          "id": "touchpad_capture_scope",
+          "q": "Funktionieren die anderen Tasten weiter, während das Touchpad erfasst wird?",
+          "a": [
+            "Ja – die Erfassung leitet nur die Berührungsfläche um, Tasten und Sticks melden wie gewohnt. Sobald du die Seite verlässt, wird sie freigegeben, es bleibt also nichts dauerhaft an die App gebunden."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Latenz & Komplett-Test",
+      "entries": [
+        {
+          "id": "what_latency_measures",
+          "q": "Was misst der Latenztest eigentlich?",
+          "a": [
+            "Wie oft der Controller ans Handy meldet: die Abfragerate in Hz und den Abstand zwischen zwei Meldungen in Millisekunden. Es ist nicht die Verzögerung von deinem Daumen bis zum Bild – da spielen auch Display, Spiel und Handy mit, und keine App kann das von innen messen. Gut ist der Test zum Vergleichen: zwei Pads gegeneinander oder dasselbe Pad per Bluetooth und per USB."
+          ]
+        },
+        {
+          "id": "low_polling_rate",
+          "q": "Warum liegt meine Abfragerate nur bei etwa 100 Hz?",
+          "a": [
+            "Für die meisten Bluetooth-Pads ist das normal; USB und 2,4-GHz-Dongles melden in der Regel schneller. Der Messwert wird zusätzlich davon begrenzt, wie schnell Android Eingabe-Ereignisse zustellt – ein Pad mit hoher Rate kann hier also niedriger ausfallen als am PC. Markiere vor dem Messen die Verbindungsart, dann bleiben deine gespeicherten Messungen vergleichbar."
+          ]
+        },
+        {
+          "id": "what_is_jitter",
+          "q": "Wie lese ich den Jitter (σ)?",
+          "a": [
+            "Er zeigt, wie stark der Abstand zwischen den Meldungen schwankt. Zwei Pads können denselben Durchschnitt haben, während eines gleichmäßig meldet und das andere in Schüben – das ungleichmäßige fühlt sich schlechter an, und genau das macht der Jitter sichtbar. Das Diagramm der Intervallverteilung und der Vergleich mehrerer Messungen zeigen es deutlich. (Pro)"
+          ]
+        },
+        {
+          "id": "full_test_items",
+          "q": "Was deckt der Komplett-Test ab?",
+          "a": [
+            "Sechs Schritte: alle Tasten, Stick-Reichweite, Stick-Rundheit, Trigger-Weg, Ruheabweichung und Vibration. Er führt dich der Reihe nach durch und bewertet jeden Schritt mit OK, Prüfen oder Fehler, dazu gibt es einen Bericht zum Teilen. Ohne Auslassen dauert das rund zwei Minuten."
+          ]
+        },
+        {
+          "id": "full_test_warn_fail",
+          "q": "Ein Schritt kam als Prüfen oder Fehler zurück – was jetzt?",
+          "a": [
+            "„Prüfen“ heißt meistens unvollständige Eingabe statt Defekt: ein Stick, der nicht jeden Rand erreicht hat, oder ein Trigger, der nicht ganz durchgezogen wurde – diesen Schritt lohnt es sich zu wiederholen. „Fehler“ bei Drift oder Vibration deutet auf die Hardware; was du versuchen kannst, steht unter „Lässt sich Drift beheben?“ und „Der Vibrationstest tut nichts“. Übersprungene Schritte zählen nicht ins Ergebnis."
+          ]
+        },
+        {
+          "id": "report_export",
+          "q": "Wo landet der Testbericht und wie teile ich ihn?",
+          "a": [
+            "Der Export rendert das Ergebnis als ein langes Bild und übergibt es dem Teilen-Menü deines Handys – so schickst du es an einen Verkäufer, eine Reparaturwerkstatt oder Freunde. Die App lädt nichts hoch. Für einen kostenlosen Export musst du vorher ein kurzes Werbevideo ansehen; mit Pro wird ohne Werbung exportiert."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro & Käufe",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Ist Pro ein Abo? Was ist enthalten?",
+          "a": [
+            "Nein – es ist ein einmaliger Kauf, der dauerhaft freigeschaltet bleibt. Enthalten sind Gesundheitswert und Drift-Trends im Testverlauf, werbefreier Berichtsexport und die Latenz-CSV, das Speichern und Abspielen eigener Vibrationsmuster, erweiterte Stick-Diagnose wie Rundheit und Deadzone sowie der Offline-Vergleich gespeicherter Einträge – und sämtliche Werbung verschwindet. Alle Basistests bleiben kostenlos."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Ich habe das Handy gewechselt und Pro ist weg",
+          "a": [
+            "Melde dich bei Google Play mit demselben Konto an, mit dem du gekauft hast, und tippe dann auf Kauf wiederherstellen. Der Kauf hängt an diesem Google-Konto, nicht am Gerät."
+          ]
+        },
+        {
+          "id": "pro_purchase_failed",
+          "q": "Der Kauf schlägt fehl oder bleibt bei „Verbindung zu Google Play wird hergestellt“ hängen",
+          "a": [
+            "Prüfe, ob sich der Play Store normal öffnen lässt und ob deine Kontoregion die Zahlungsart unterstützt, und versuch es dann in ein paar Minuten noch einmal – fast immer ist das ein vorübergehendes Google-Play-Problem und nicht die App. Wurde dir Geld abgebucht, ohne dass Pro freigeschaltet wurde, nutze zuerst Kauf wiederherstellen. Erstattungen laufen über deinen Bestellverlauf in Google Play."
+          ]
+        },
+        {
+          "id": "pro_ads",
+          "q": "Verschwindet mit Pro die Werbung?",
+          "a": [
+            "Ja, komplett – die Werbung beim Start, die vor einem Berichtsexport, einfach alles. Das greift, sobald der Kauf abgeschlossen ist; falls doch noch Werbung auftaucht, starte die App neu."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-compatibility",
+      "title": "Datenschutz, Kompatibilität & Support",
+      "entries": [
+        {
+          "id": "data_privacy",
+          "q": "Werden meine Testdaten irgendwohin hochgeladen?",
+          "a": [
+            "Nein. Testergebnisse, Verlauf und Vibrationsmuster bleiben auf deinem Handy, und ein exportierter Bericht geht direkt an die App, die du im Teilen-Menü auswählst. Wir erfassen anonyme Nutzungsstatistiken – welche Seiten geöffnet werden, dazu Absturzberichte – ohne Controller-Daten und ohne persönliche Angaben. Alle Details stehen in der Datenschutzerklärung."
+          ]
+        },
+        {
+          "id": "history_manage",
+          "q": "Kann ich den Testverlauf löschen? Braucht er Speicherplatz?",
+          "a": [
+            "Jeder Eintrag sind ein paar Kilobyte Text, Speicherplatz ist also kein Thema. Im Testverlauf kannst du einen einzelnen Eintrag löschen oder alle Einträge eines Controllers auf einmal. Gespeichert wird automatisch, sobald ein Komplett-Test fertig ist."
+          ]
+        },
+        {
+          "id": "tool_unsupported",
+          "q": "Warum sagen manche Test-Tools, sie würden auf meinem Handy nicht unterstützt?",
+          "a": [
+            "Dafür gibt es nur zwei Gründe: die Android-Version – Bewegungssensoren brauchen 12 oder neuer, die Touchpad-Erfassung 8.0 oder neuer – oder eine Fähigkeit, die dein Controller nicht hat, etwa kein Motor, kein Gyroskop, kein Touchpad oder kein Analogstick. Die Geräteinfo listet auf, was das verbundene Pad bereitstellt, und die Test-Tools richten sich danach."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Wie melde ich ein Problem oder schlage etwas vor?",
+          "a": [
+            "Einstellungen → Über → Feedback senden. Gerätemodell, Android-Version und App-Version werden automatisch angehängt – meistens genau das, was wir zum Nachstellen brauchen. Wird ein Controller nicht erkannt, hilft es sehr, uns das genaue Modell und die Art der Verbindung zu nennen."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

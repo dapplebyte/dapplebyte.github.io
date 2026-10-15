@@ -1,0 +1,47 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "vi",
+  "entries": [
+    {
+      "code": 125,
+      "name": "1.2.5",
+      "date": "2026-10-13",
+      "items": [
+        "Sửa lỗi ứng dụng bị thoát đột ngột trên Android 12 khi tay cầm mất kết nối lúc đang mở ứng dụng",
+        "Sửa lỗi Kiểm tra đèn LED bị đơ khi kéo bảng màu",
+        "Sửa lỗi màn hình Kiểm tra toàn diện bị đơ khi kết nối tay cầm Bluetooth",
+        "Sửa lỗi một số tay cầm (DualShock, DualSense) nút bấm vẫn nhận nhưng cần analog, D-pad và cò không phản hồi"
+      ]
+    },
+    {
+      "code": 124,
+      "name": "1.2.4",
+      "date": "2026-09-18",
+      "items": [
+        "Thêm Kiểm tra đèn LED: đổi màu dải đèn, rồi chạy kiểm tra màu đơn, chuyển sắc và nhịp thở để tìm điểm tối, lệch màu hoặc nhấp nháy",
+        "Cần DualShock 4 hoặc DualSense qua Bluetooth, Android 12 trở lên. Với PS có dây, Xbox và tay cầm khác, ứng dụng nay giải thích lý do thay vì hiện bảng màu vô tác dụng",
+        "Tốc độ hỏi vòng không còn bị đo thấp hơn thực tế, ngưỡng đánh giá được hiệu chỉnh lại"
+      ]
+    },
+    {
+      "code": 123,
+      "name": "1.2.3",
+      "date": "2026-09-13",
+      "items": [
+        "Mỗi phép đo giờ có xếp hạng (Xuất sắc / Tốt / Tạm được / Kém) kèm nhận xét dễ hiểu và bảng tham chiếu để biết tay cầm của bạn đang ở mức nào",
+        "Bao gồm vùng chết, trôi, độ tròn, hành trình cò, tốc độ lấy mẫu và jitter",
+        "Lời mời đánh giá chỉ hiện sau khi bạn thật sự kiểm tra tay cầm, và im lặng nếu kết quả kiểm tra bất thường"
+      ]
+    },
+    {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-09-07",
+      "items": [
+        "Giảm dung lượng ứng dụng: tải xuống và cài đặt nhanh hơn",
+        "Tối ưu hóa bên trong để hoạt động mượt mà và ổn định hơn"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

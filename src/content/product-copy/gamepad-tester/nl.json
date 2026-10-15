@@ -1,0 +1,122 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "nl",
+  "title": "Gamepad Tester Pro: Controller",
+  "shortDescription": "Controllertest: stick drift, knoppen, input lag, trilling en deadzone checken",
+  "tagline": "Controller-, joystick- en stick drift-test voor Android",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Controller-, joystick- en stick drift-test voor Android",
+      "paragraphs": [
+        "Test elke Bluetooth-, USB- of OTG-gamepad in seconden op je Android-telefoon of -tablet. Gamepad Tester Pro is een complete controllertester en joystickchecker: knoppen, analoge sticks, stick drift, deadzone, triggers, trilling, input lag en polling rate, plus een conditiescore en een deelbaar rapport. Werkt met Xbox, PlayStation (DualShock 4, DualSense), Switch Pro en andere controllers."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Zo gebruiken gamers deze app het vaakst",
+      "paragraphs": [],
+      "bullets": [
+        "Stick drift en deadzone checken bij koop of verkoop van een tweedehands controller",
+        "Een nieuwe gamepad testen voordat de retour- of garantietermijn verloopt",
+        "Gemiste inputs, dubbele drukken, plakkende knoppen of een dode trigger opsporen",
+        "Polling rate en input lag via Bluetooth en USB vergelijken vóór een ranked match"
+      ]
+    },
+    {
+      "id": "full-test",
+      "title": "Volledige controllertest en conditiescore",
+      "paragraphs": [],
+      "bullets": [
+        "Eén begeleide test voor knoppen, D-pad, analoge sticks, L2/R2-triggers, stick drift en trilling",
+        "Totaalscore met resultaat per onderdeel, automatisch bewaard in de testgeschiedenis",
+        "Visueel testrapport exporteren en delen voor support, reparatie of je verkoopadvertentie"
+      ]
+    },
+    {
+      "id": "button-test",
+      "title": "Knoppentest en joysticktest in realtime",
+      "paragraphs": [],
+      "bullets": [
+        "Zie elke druk, elk loslaten en de Android-keycode meteen",
+        "Beide analoge sticks, assen, D-pad en analoge triggerdruk in beeld",
+        "Lay-outs voor Xbox, PlayStation, andere gamepads en tv-afstandsbedieningen"
+      ]
+    },
+    {
+      "id": "stick-drift",
+      "title": "Stick drift-test, deadzone en rondheid",
+      "paragraphs": [],
+      "bullets": [
+        "Live stickpositie, afwijking in rust en een deadzone-hulplijn",
+        "Geavanceerde stickanalyse: dekking, rondheidsfout, radiusbereik en deadzone-schatting"
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Input lag, latency en polling rate testen",
+      "paragraphs": [],
+      "bullets": [
+        "Geschatte polling rate in Hz, gemiddeld, minimaal en maximaal inputinterval",
+        "Geavanceerde meting: jitter, intervalhistogram, Bluetooth vs USB vergelijken, CSV-export"
+      ]
+    },
+    {
+      "id": "vibration",
+      "title": "Trillingstest en Rumble Studio",
+      "paragraphs": [],
+      "bullets": [
+        "Kracht van de linker en rechter rumble-motor apart testen",
+        "Trillingsstudio: patronen met meerdere segmenten voor beide motoren maken, herhalen en bewaren"
+      ]
+    },
+    {
+      "id": "led",
+      "title": "LED-lichttest (PlayStation via Bluetooth)",
+      "paragraphs": [],
+      "bullets": [
+        "Stel de kleur van de lichtbalk in en doe daarna een effen-kleur-, kleurverloop- en ademtest",
+        "Spot dode plekken, kleurzweem, sprongen of flikkering",
+        "Vereist DualShock 4 of DualSense via Bluetooth, Android 12+. Bij PS via kabel, Xbox en andere pads geeft Android het licht niet vrij; de app legt uit waarom in plaats van een nutteloze kleurkiezer te tonen."
+      ]
+    },
+    {
+      "id": "motion-touchpad",
+      "title": "Gyroscoop, touchpad en twee controllers vergelijken",
+      "paragraphs": [],
+      "bullets": [
+        "Gyroscoop, versnellingsmeter en kanteling voor DualShock 4, DualSense en Switch Pro (Android 12+)",
+        "Touchpadtest met multi-touch-sporen en drukteller"
+      ]
+    },
+    {
+      "id": "controller-info",
+      "title": "Controllerinfo en conditieverloop",
+      "paragraphs": [
+        "Toont merk, apparaatnaam, Vendor ID, Product ID, verbindingstype, assen, aantal knoppen, trilfunctie en batterijniveau, indien beschikbaar. De testgeschiedenis volgt conditiescore en drift per controller, zodat je een slijtende stick op tijd ziet."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Goed om te weten",
+      "paragraphs": [],
+      "bullets": [
+        "Functies hangen af van controllermodel, verbindingstype, Android-versie en telefoonmerk. Sommige controllers geven batterij, trilling, bewegingssensoren of touchpad niet door aan Android.",
+        "De app leest alleen input. Knoppen remappen, firmware updaten of hardware repareren kan niet.",
+        "De basistests zijn gratis met advertenties. Pro is een eenmalige aankoop: geen advertenties, plus geavanceerde diagnose, conditieverloop, CSV-export en bewaarde trilpatronen.",
+        "Xbox, PlayStation, DualShock, DualSense en Nintendo Switch zijn handelsmerken van hun eigenaren. Deze app is niet gelieerd aan Microsoft, Sony of Nintendo."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Werkt er iets niet?",
+      "paragraphs": [
+        "Wordt je controller niet herkend of klopt een resultaat niet? Mail naar feedback@dapplebyte.com voordat je een review schrijft. Noem je controller en telefoon, dan helpen we je. De meeste problemen lossen we op in de volgende update."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

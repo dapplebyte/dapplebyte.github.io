@@ -10,6 +10,7 @@
 //   to their "Try requests such as:" line instead of being mixed into the feature bullets).
 //   JoyLink adds `dropParagraphsStartingWith` (paragraphs that open with one of these emoji are left out:
 //   its 🎯 closing line repeats the hero tagline and has no heading of its own).
+//   Gamepad Tester Pro is the plain `bold` shape with `taglineFromTitle` (12 headings, no closing line).
 // Every email address in the copy is replaced with the product's `contactEmail` (products/<slug>.json):
 // a listing may still name the developer's own mailbox, and the site shows the studio address.
 // - `emoji` (Gamepad Pro): no <b> tags. The first three paragraphs are the intro (the first one starts
@@ -63,6 +64,25 @@ const CONFIG = {
       'pricing',
       'privacy',
       'before-you-install',
+    ],
+  },
+  'gamepad-tester': {
+    format: 'bold',
+    taglineFromTitle: true,
+    stripParagraphEmoji: true,
+    ids: [
+      'intro',
+      'use-cases',
+      'full-test',
+      'button-test',
+      'stick-drift',
+      'latency',
+      'vibration',
+      'led',
+      'motion-touchpad',
+      'controller-info',
+      'please-note',
+      'support',
     ],
   },
   'gamepad-pro': {

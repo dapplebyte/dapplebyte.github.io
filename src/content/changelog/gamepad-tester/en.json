@@ -1,0 +1,47 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "en",
+  "entries": [
+    {
+      "code": 125,
+      "name": "1.2.5",
+      "date": "2026-10-13",
+      "items": [
+        "Fixed a crash on Android 12 when a controller disconnected while the app was open",
+        "Fixed the LED Light Test freezing while dragging the color picker",
+        "Fixed the Full Test page freezing when a Bluetooth controller connects",
+        "Fixed sticks, D-pad and triggers not responding on some controllers (DualShock, DualSense) while the buttons still worked"
+      ]
+    },
+    {
+      "code": 124,
+      "name": "1.2.4",
+      "date": "2026-09-18",
+      "items": [
+        "New LED Light Test: set the light bar color, then run solid-color, hue sweep and breathing checks to spot dead spots, tint or flicker",
+        "Needs a DualShock 4 or DualSense over Bluetooth, Android 12+. Wired PS, Xbox and other pads now get a clear explanation instead of a color picker that does nothing",
+        "Polling rate no longer reads lower than it really is, and the rating thresholds were retuned to real Android measurements"
+      ]
+    },
+    {
+      "code": 123,
+      "name": "1.2.3",
+      "date": "2026-09-13",
+      "items": [
+        "Every measurement now gets a rating (Excellent / Good / Fair / Poor) plus a plain-language verdict, with a reference table showing where your gamepad lands",
+        "Deadzone, drift, roundness, trigger travel, polling rate and jitter all covered",
+        "The rating prompt now only appears after you have actually tested a controller, and stays quiet after a failed test"
+      ]
+    },
+    {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-09-07",
+      "items": [
+        "Smaller app size for a faster download and install",
+        "Under-the-hood optimizations for smoother, more stable performance"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "fr",
+  "entries": [
+    {
+      "code": 125,
+      "name": "1.2.5",
+      "date": "2026-10-13",
+      "items": [
+        "Correction d'un plantage sous Android 12 quand la manette se déconnectait avec l'appli ouverte",
+        "Correction du blocage du Test des LED lors du glissement du sélecteur de couleur",
+        "Correction du blocage de la page Test complet à la connexion d'une manette Bluetooth",
+        "Correction des sticks, de la croix directionnelle (D-pad) et des gâchettes qui ne répondaient pas sur certaines manettes (DualShock, DualSense) alors que les boutons fonctionnaient"
+      ]
+    },
+    {
+      "code": 124,
+      "name": "1.2.4",
+      "date": "2026-09-18",
+      "items": [
+        "Nouveau test de LED : réglez la couleur de la barre lumineuse, puis lancez les tests couleur unie, dégradé et respiration pour repérer points morts, dominante ou scintillement",
+        "Nécessite une DualShock 4 ou DualSense en Bluetooth, Android 12+. En USB sur PS, sur Xbox et autres manettes, l'appli explique désormais pourquoi",
+        "La fréquence d'interrogation n'est plus sous-évaluée ; seuils de notation recalés sur des mesures réelles"
+      ]
+    },
+    {
+      "code": 123,
+      "name": "1.2.3",
+      "date": "2026-09-13",
+      "items": [
+        "Chaque mesure affiche désormais une note (Excellent / Bon / Moyen / Faible) avec un commentaire clair et un tableau de référence pour situer votre manette",
+        "Zone morte, dérive, circularité, course de gâchette, taux d'interrogation et gigue sont couverts",
+        "L'invitation à noter n'apparaît qu'après un vrai test de manette, et reste silencieuse si le test échoue"
+      ]
+    },
+    {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-09-07",
+      "items": [
+        "Taille de l'application réduite : téléchargement et installation plus rapides",
+        "Optimisations internes pour des performances plus fluides et plus stables"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "es",
+  "title": "Gamepad Tester Pro: Mando",
+  "shortDescription": "Test de mando y joystick: drift, botones, input lag, vibración, zona muerta",
+  "tagline": "Test de mando, joystick y drift del stick para Android",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Test de mando, joystick y drift del stick para Android",
+      "paragraphs": [
+        "Prueba cualquier gamepad Bluetooth, USB u OTG en tu móvil o tablet Android. Gamepad Tester Pro es un probador de mandos completo: botones, sticks analógicos, drift, zona muerta, gatillos, vibración, input lag y polling rate, con puntuación de estado e informe para compartir. Funciona con mandos Xbox, PlayStation (DualShock 4, DualSense), Switch Pro y genéricos."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Para qué se usa este probador de mandos",
+      "paragraphs": [],
+      "bullets": [
+        "Detecta drift y zona muerta antes de comprar o vender un mando usado",
+        "Comprueba un mando nuevo antes de que acabe la devolución o garantía",
+        "Diagnostica entradas perdidas, dobles pulsaciones, botones pegados o gatillo muerto",
+        "Compara polling rate e input lag por Bluetooth y por USB antes de una ranked"
+      ]
+    },
+    {
+      "id": "full-test",
+      "title": "Test completo del mando con puntuación de estado",
+      "paragraphs": [],
+      "bullets": [
+        "Prueba guiada de botones, cruceta, sticks analógicos, gatillos L2/R2, drift y vibración",
+        "Puntuación general con el detalle de cada apartado, guardada en el historial",
+        "Exporta y comparte un informe visual para soporte, reparaciones o venta"
+      ]
+    },
+    {
+      "id": "button-test",
+      "title": "Test de botones y test de joystick en tiempo real",
+      "paragraphs": [],
+      "bullets": [
+        "Ve al instante cada pulsación, cada liberación y el código de tecla de Android",
+        "Visualiza los dos sticks, los ejes, la cruceta y la presión de los gatillos",
+        "Diseños para mandos Xbox, PlayStation, gamepads genéricos y mandos de TV"
+      ]
+    },
+    {
+      "id": "stick-drift",
+      "title": "Prueba de drift del stick, zona muerta y circularidad",
+      "paragraphs": [],
+      "bullets": [
+        "Posición del stick en directo, desviación en reposo y guía de zona muerta",
+        "Análisis avanzado: cobertura, error de circularidad, rango de radio y estimación de zona muerta"
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Test de input lag, latencia y tasa de sondeo",
+      "paragraphs": [],
+      "bullets": [
+        "Tasa de sondeo estimada en Hz e intervalo de entrada medio, mínimo y máximo",
+        "Muestreo avanzado: jitter, histograma de intervalos, Bluetooth frente a USB, exporta a CSV"
+      ]
+    },
+    {
+      "id": "vibration",
+      "title": "Prueba de vibración y estudio de rumble",
+      "paragraphs": [],
+      "bullets": [
+        "Prueba por separado la fuerza de los motores izquierdo y derecho",
+        "Estudio de vibración: patrones de varios tramos con los dos motores, en bucle y guardados"
+      ]
+    },
+    {
+      "id": "led",
+      "title": "Prueba de LED (PlayStation por Bluetooth)",
+      "paragraphs": [],
+      "bullets": [
+        "Cambia el color de la barra de luz y ejecuta pruebas de color sólido, degradado y respiración",
+        "Detecta zonas apagadas, tono incorrecto, saltos o parpadeos",
+        "Requiere DualShock 4 o DualSense por Bluetooth y Android 12+. En PS por cable, en Xbox y en la mayoría de mandos Android no abre la luz: la app explica por qué en vez de mostrar un selector que no hace nada."
+      ]
+    },
+    {
+      "id": "motion-touchpad",
+      "title": "Giroscopio, touchpad y comparación de dos mandos",
+      "paragraphs": [],
+      "bullets": [
+        "Giroscopio, acelerómetro y nivel de inclinación en DualShock 4, DualSense y Switch Pro (Android 12+)",
+        "Test de touchpad con trazos multitáctiles y contador de toques"
+      ]
+    },
+    {
+      "id": "controller-info",
+      "title": "Información del mando y evolución del estado",
+      "paragraphs": [
+        "Consulta marca, nombre, Vendor ID, Product ID, tipo de conexión, ejes, número de botones, vibración y batería cuando el mando los facilite. El historial sigue la puntuación y el drift de cada mando, así detectas pronto un stick que falla."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Ten en cuenta",
+      "paragraphs": [],
+      "bullets": [
+        "Las funciones dependen del mando, la conexión, la versión de Android y el fabricante del móvil. Algunos mandos no informan a Android batería, vibración, sensores ni touchpad.",
+        "La app solo lee la entrada. No puede remapear botones, actualizar el firmware ni reparar el hardware.",
+        "Las pruebas básicas son gratuitas y con publicidad. Pro es un pago único: sin anuncios, con diagnósticos avanzados, evolución del estado, exportación CSV y patrones de vibración guardados.",
+        "Xbox, PlayStation, DualShock, DualSense y Nintendo Switch son marcas de sus dueños. Esta app no está afiliada a Microsoft, Sony ni Nintendo."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "¿Algo no funciona?",
+      "paragraphs": [
+        "Si tu mando no se detecta o un resultado no cuadra, escríbenos a feedback@dapplebyte.com antes de dejar una reseña. Dinos qué mando y qué móvil tienes y te ayudamos. Casi todo se arregla en la siguiente actualización."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

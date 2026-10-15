@@ -1,0 +1,310 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "id",
+  "title": "FAQ",
+  "intro": "Pertanyaan yang paling sering kami terima, beserta cara mengatasinya. Ketuk sebuah pertanyaan untuk membukanya.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Koneksi & deteksi",
+      "entries": [
+        {
+          "id": "no_device_detected",
+          "q": "Kontroler sudah terhubung, tapi aplikasi tidak mendeteksinya",
+          "a": [
+            "Kontroler Bluetooth harus dipasangkan dulu lewat pengaturan Bluetooth ponsel — aplikasi ini membaca kontroler yang sudah dikenali sistem, bukan memasangkannya. Untuk USB, ponsel perlu dukungan OTG dan kabel data sungguhan; kabel khusus pengisian daya tidak mengalirkan data. Setelah terhubung, tekan tombol apa saja atau goyangkan stik untuk membangunkan kontroler, lalu kembali ke layar utama."
+          ]
+        },
+        {
+          "id": "supported_pads",
+          "q": "Kontroler apa saja yang didukung?",
+          "a": [
+            "Apa pun yang dikenali Android sebagai gamepad: kontroler Xbox Wireless dan Series, DualShock 4 dan DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, kontroler jepit ponsel, serta gamepad HID umum. Seberapa banyak yang bisa diuji tergantung apa yang dilaporkan kontroler Anda — tanpa motor tidak ada uji getaran, tanpa touchpad tidak ada uji touchpad. Info perangkat menampilkan persis kemampuan yang dibuka kontroler Anda."
+          ]
+        },
+        {
+          "id": "unknown_name",
+          "q": "Kontroler muncul sebagai “Perangkat tak dikenal” atau kode model mentah",
+          "a": [
+            "Nama itu berasal dari firmware kontroler sendiri dan aplikasi hanya meneruskannya, jadi gamepad murah dan sebagian adaptor USB memang tidak melaporkan nama yang berguna. Hal ini tidak memengaruhi hasil pengujian apa pun. Kalau Anda butuh penanda yang andal, gunakan ID vendor dan ID produk di Info perangkat."
+          ]
+        },
+        {
+          "id": "no_battery",
+          "q": "Kenapa level baterai tidak muncul atau tidak diketahui?",
+          "a": [
+            "Level baterai harus dilaporkan kontroler itu sendiri, dan kebanyakan gamepad pihak ketiga tidak pernah mengirimnya — koneksi USB biasanya juga tidak. Kontroler Xbox dan PlayStation umumnya melaporkannya lewat Bluetooth. Nilai yang tidak dipublikasikan kontroler tidak bisa dibaca aplikasi mana pun."
+          ]
+        },
+        {
+          "id": "two_pads",
+          "q": "Bisakah menguji dua kontroler sekaligus?",
+          "a": [
+            "Bisa. Halaman pengujian menampilkan pemilih kontroler saat lebih dari satu terhubung, dan Bandingkan dua kontroler menyandingkan dua gamepad secara real-time — cara tercepat membedakan gamepad yang sudah aus dari yang masih sehat."
+          ]
+        },
+        {
+          "id": "random_disconnect",
+          "q": "Kontroler terputus di tengah pengujian",
+          "a": [
+            "Tiga penyebab umum: pengoptimalan baterai yang menghentikan aplikasi di latar belakang, jarak atau penghalang, dan gangguan dari dongle 2.4 GHz atau router di dekatnya. Mengecualikan aplikasi ini dari pengoptimalan baterai di pengaturan aplikasi ponsel mengatasi sebagian besar kasus. Kalau gamepad juga terputus di perangkat lain, masalahnya kemungkinan besar ada pada gamepad itu sendiri."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buttons",
+      "title": "Tombol & tata letak",
+      "entries": [
+        {
+          "id": "why_layout_choice",
+          "q": "Kenapa saya harus memilih Xbox, PlayStation, atau lainnya dulu?",
+          "a": [
+            "Pilihan itu hanya mengubah cara tombol digambar dan diberi label di layar — kode tombol di baliknya sama persis. Pilih yang paling mirip dengan gamepad di tangan Anda supaya labelnya cocok; kalau tidak ada yang cocok, Gamepad lainnya bisa dipakai untuk semua kontroler."
+          ]
+        },
+        {
+          "id": "wrong_button_lights",
+          "q": "Saya menekan satu tombol, tapi yang menyala tombol lain",
+          "a": [
+            "Pada gamepad bergaya Nintendo, posisi fisik A dan B (juga X dan Y) tertukar dibanding gamepad Xbox, jadi kode tombol yang sama mendarat di tempat berbeda di layar. Itu perbedaan pelabelan, bukan kerusakan. Riwayat tombol menampilkan kode dan nama tombol asli untuk setiap penekanan, dan itulah cara paling andal memeriksa pemetaan."
+          ]
+        },
+        {
+          "id": "home_key_no_response",
+          "q": "Tombol Home / PS / Xbox / Guide tidak bereaksi",
+          "a": [
+            "Android mencegat tombol itu di tingkat sistem dan tidak pernah meneruskannya, jadi tidak ada aplikasi yang bisa mengujinya — kontroler Anda baik-baik saja. Hal yang sama berlaku untuk tombol volume di sebagian gamepad. Sisanya, termasuk Share dan Capture di kebanyakan model, masuk seperti biasa."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "L3 / R3 (menekan stik ke bawah) tidak terbaca",
+          "a": [
+            "Tekan stik lurus ke bawah sampai terasa klik; pada sebagian gamepad jaraknya cukup dalam dan tekanan miring sering meleset. Kalau Riwayat tombol sama sekali tidak mencatat klik itu, sakelar di bawah stik tersebut kemungkinan sudah aus."
+          ]
+        },
+        {
+          "id": "what_is_cps",
+          "q": "Apa itu CPS di Riwayat tombol?",
+          "a": [
+            "Klik per detik — berapa kali sebuah tombol terpicu setiap detik. Gunanya untuk menguji gamepad dengan Turbo atau tembak cepat: aktifkan Turbo, tahan tombolnya, dan angkanya menunjukkan laju yang sebenarnya. Pada gamepad biasa, angka ini juga membongkar double-firing, yaitu satu tekanan terbaca dua kali."
+          ]
+        },
+        {
+          "id": "game_no_controller_support",
+          "q": "Semua tombol berfungsi di sini, tapi game saya mengabaikan kontroler",
+          "a": [
+            "Berarti gamepad Anda baik-baik saja — game itu memang tidak pernah mendengarkan input kontroler dan hanya menerima ketukan di layar. Apa pun yang Anda ubah pada gamepad atau di pengaturan Android tidak akan mengubahnya. Yang benar-benar berhasil adalah aplikasi pemetaan tombol: ia berjalan di atas game dan mengubah setiap tombol, stik, dan trigger menjadi sentuhan di titik yang Anda pilih, sehingga game yang hanya menerima sentuhan bisa dimainkan seolah sejak awal sudah mendukung kontroler."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sticks",
+      "title": "Stik: drift & analisis",
+      "entries": [
+        {
+          "id": "how_drift_measured",
+          "q": "Bagaimana cara memeriksa drift stik?",
+          "a": [
+            "Letakkan kontroler di permukaan datar, lepaskan tangan sepenuhnya dari stik, lalu baca simpangan diamnya. Stik yang sehat berada di nol atau mendekati nol dan tetap di sana; stik yang drift bertahan di satu nilai bukan nol — itulah yang membuat karakter berjalan sendiri."
+          ]
+        },
+        {
+          "id": "drift_threshold",
+          "q": "Berapa besar simpangan yang dianggap bermasalah?",
+          "a": [
+            "Patokan kasar dari gamepad pada umumnya: di bawah 3% normal, 3–8% ringan dan zona mati bawaan kebanyakan game masih menyerapnya, di atas 8% biasanya sudah terasa saat bermain. Ini acuan praktis, bukan spesifikasi pabrikan — yang lebih penting adalah apakah simpangannya stabil dan apakah Anda merasakannya saat bermain."
+          ]
+        },
+        {
+          "id": "fix_drift",
+          "q": "Apakah drift bisa diperbaiki?",
+          "a": [
+            "Coba yang paling murah dulu: bersihkan sekeliling pangkal stik dan perbarui firmware kontroler — aplikasi Xbox Accessories untuk gamepad Xbox, atau colokkan DualSense maupun DualShock 4 ke konsol PlayStation. Sebagian kontroler juga punya rutin kalibrasi ulang di aplikasi resmi pabrikannya. Kalau simpangan tetap ada setelah semua itu, modul stiknya sudah aus dan perlu diservis atau diganti."
+          ]
+        },
+        {
+          "id": "what_is_circularity",
+          "q": "Apa itu galat kebundaran?",
+          "a": [
+            "Putar stik perlahan menyusuri tepi luarnya, lalu aplikasi membandingkan jalur yang terekam dengan lingkaran sempurna; deviasi rata-ratanya adalah galat kebundaran. Makin kecil berarti stik membaca konsisten ke segala arah, dan itu yang membuat bidikan terasa rata. Galat besar biasanya terasa seperti satu arah yang lebih pendek dari arah lain. (Pro)"
+          ]
+        },
+        {
+          "id": "what_is_deadzone",
+          "q": "Bagaimana zona mati diperkirakan?",
+          "a": [
+            "Dorong stik sangat perlahan dari titik tengah; gerakan terkecil yang mulai menghasilkan pembacaan mendekati zona mati. Zona mati yang lebih besar membuat koreksi bidikan halus jadi terabaikan. Ini perkiraan berdasarkan yang dilaporkan kontroler, bukan nilai yang diterapkan game di dalamnya. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibration-motion-touchpad",
+      "title": "Getaran, gerak & touchpad",
+      "entries": [
+        {
+          "id": "no_vibration",
+          "q": "Uji getaran tidak menghasilkan apa-apa",
+          "a": [
+            "Ada tiga kemungkinan: kontroler tidak punya motor, Android tidak membuka fungsi getaran untuk gamepad itu pada koneksi yang sedang dipakai, atau gamepad hanya menerima perintah getar dari konsolnya sendiri. Info perangkat memberi tahu yang mana — kalau tertulis Getaran: Tidak didukung, memang tidak ada yang bisa dijalankan aplikasi. Pada gamepad yang mendukung keduanya, USB layak dicoba sebagai ganti Bluetooth."
+          ]
+        },
+        {
+          "id": "what_is_vib_studio",
+          "q": "Studio getaran itu untuk apa?",
+          "a": [
+            "Ini editor lini masa untuk dua motor getar, jadi Anda bisa menyusun dan merasakan pola buatan sendiri, bukan hanya preset tetap. Pengeditan dan preset bawaan gratis; menjalankan motor dengan pola kustom dan menyimpannya ke Pola saya termasuk Pro."
+          ]
+        },
+        {
+          "id": "patterns_transfer",
+          "q": "Apakah pola tersimpan dan riwayat ikut pindah ke ponsel baru?",
+          "a": [
+            "Tidak. Pola dan rekaman pengujian hanya tersimpan di perangkat ini, tidak ada yang disimpan di server. Pemindahan ponsel ke ponsel yang menyertakan data aplikasi akan membawanya serta; instalasi baru tidak."
+          ]
+        },
+        {
+          "id": "motion_unsupported",
+          "q": "Halaman Sensor gerak menyatakan tidak didukung",
+          "a": [
+            "Membaca giroskop kontroler memerlukan Android 12 atau lebih baru, dan gamepad harus mempublikasikan sensornya ke sistem — dalam praktiknya DualShock 4, DualSense, dan Switch Pro. Perlu dicatat, yang dibaca adalah sensor kontroler, bukan sensor ponsel, jadi gamepad tanpa giroskop tetap kosong meski ponselnya punya."
+          ]
+        },
+        {
+          "id": "touchpad_no_response",
+          "q": "Halaman touchpad tidak bereaksi",
+          "a": [
+            "Penangkapan touchpad memerlukan Android 8.0 atau lebih baru, dan hanya gamepad yang benar-benar punya touchpad — DualShock 4 dan DualSense — yang bisa ditangkap. Ketuk Mulai tangkap dulu, kalau tidak data sentuhnya masuk ke sistem, bukan ke aplikasi. Meninggalkan halaman akan melepaskan penangkapan."
+          ]
+        },
+        {
+          "id": "touchpad_capture_scope",
+          "q": "Saat touchpad sedang ditangkap, apakah tombol lain tetap berfungsi?",
+          "a": [
+            "Ya — penangkapan hanya mengalihkan permukaan sentuh, sedangkan tombol dan stik tetap melapor seperti biasa. Penangkapan dilepas begitu Anda keluar dari halaman, jadi tidak ada yang terkunci ke aplikasi setelahnya."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Latensi & tes lengkap",
+      "entries": [
+        {
+          "id": "what_latency_measures",
+          "q": "Apa yang sebenarnya diukur uji latensi?",
+          "a": [
+            "Seberapa sering kontroler melapor ke ponsel: laju polling dalam Hz dan jeda antarlaporan dalam milidetik. Ini bukan lag ujung ke ujung dari jempol Anda sampai ke gambar — bagian itu juga bergantung pada layar, game, dan ponsel, dan tidak ada aplikasi yang bisa mengukurnya dari dalam. Kegunaannya adalah membandingkan dua gamepad, atau gamepad yang sama pada Bluetooth versus USB."
+          ]
+        },
+        {
+          "id": "low_polling_rate",
+          "q": "Kenapa laju polling saya hanya sekitar 100 Hz?",
+          "a": [
+            "Itu wajar untuk kebanyakan gamepad Bluetooth; USB dan dongle 2.4 GHz biasanya melapor lebih cepat. Angkanya juga dibatasi kecepatan Android mengantarkan event input, jadi gamepad berlaju tinggi bisa terbaca lebih rendah di sini dibanding di PC. Tandai Jenis koneksi sebelum mengambil sampel supaya sesi yang tersimpan tetap bisa dibandingkan."
+          ]
+        },
+        {
+          "id": "what_is_jitter",
+          "q": "Bagaimana membaca Jitter (σ)?",
+          "a": [
+            "Angka ini menunjukkan seberapa besar jeda pelaporan berubah-ubah. Dua gamepad bisa punya jeda rata-rata sama, tapi yang satu melapor rata dan yang lain menyentak — yang tidak rata terasa lebih buruk, dan jitter-lah yang membongkarnya. Grafik distribusi jeda dan perbandingan sesi membuatnya terlihat jelas. (Pro)"
+          ]
+        },
+        {
+          "id": "full_test_items",
+          "q": "Apa saja yang dicakup Tes Lengkap?",
+          "a": [
+            "Enam langkah: semua tombol, jangkauan stik, kebundaran stik, jarak trigger, drift saat diam, dan getaran. Aplikasi memandu Anda satu per satu dan memberi status Lulus, Periksa, atau Gagal untuk tiap langkah, plus laporan yang bisa dibagikan. Sekitar dua menit kalau tidak ada yang dilewati."
+          ]
+        },
+        {
+          "id": "full_test_warn_fail",
+          "q": "Sebuah langkah berstatus Periksa atau Gagal — lalu apa?",
+          "a": [
+            "Periksa biasanya berarti input belum lengkap, bukan kerusakan: stik yang belum menyentuh semua tepi, atau trigger yang belum ditarik penuh, jadi langkah itu layak diulang. Gagal pada drift atau getaran mengarah ke perangkat keras — lihat “Apakah drift bisa diperbaiki?” dan “Uji getaran tidak menghasilkan apa-apa” untuk langkah yang bisa dicoba. Langkah yang dilewati tidak dihitung ke hasil akhir."
+          ]
+        },
+        {
+          "id": "report_export",
+          "q": "Laporan pengujian tersimpan di mana, dan bagaimana membagikannya?",
+          "a": [
+            "Ekspor merender hasilnya menjadi satu gambar panjang lalu menyerahkannya ke panel berbagi ponsel, jadi Anda bisa mengirimkannya ke penjual, tempat servis, atau teman — aplikasi tidak mengunggah apa pun. Ekspor gratis meminta Anda menonton iklan video singkat lebih dulu; dengan Pro, ekspor berjalan tanpa iklan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro & pembelian",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Apakah Pro berlangganan? Apa saja isinya?",
+          "a": [
+            "Bukan — ini pembelian sekali bayar yang terbuka selamanya. Isinya skor kesehatan dan tren drift di Riwayat pengujian, ekspor laporan tanpa iklan berikut CSV latensi, menyimpan dan memutar pola getaran buatan Anda, diagnostik stik lanjutan seperti kebundaran dan zona mati, perbandingan offline rekaman tersimpan, plus menghapus semua iklan. Semua pengujian dasar tetap gratis."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Saya ganti ponsel dan Pro hilang",
+          "a": [
+            "Masuk ke Google Play dengan akun yang sama saat membeli, lalu gunakan Pulihkan pembelian. Pembelian terikat ke akun Google itu, bukan ke perangkatnya."
+          ]
+        },
+        {
+          "id": "pro_purchase_failed",
+          "q": "Pembelian gagal, atau terus berhenti di “Menghubungkan ke Google Play”",
+          "a": [
+            "Pastikan Play Store terbuka normal dan wilayah akun Anda mendukung metode pembayaran yang dipakai, lalu coba lagi beberapa menit kemudian — hampir selalu ini masalah sementara Google Play, bukan aplikasinya. Kalau biaya sudah terpotong tapi Pro belum terbuka, gunakan Pulihkan pembelian lebih dulu. Pengembalian dana diurus lewat riwayat pesanan di Google Play."
+          ]
+        },
+        {
+          "id": "pro_ads",
+          "q": "Apakah iklan hilang dengan Pro?",
+          "a": [
+            "Ya, semuanya — iklan pembuka, iklan sebelum ekspor laporan, semuanya. Berlaku begitu pembelian selesai; kalau iklan masih muncul, buka ulang aplikasinya."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-compatibility",
+      "title": "Privasi, kompatibilitas & dukungan",
+      "entries": [
+        {
+          "id": "data_privacy",
+          "q": "Apakah data pengujian saya diunggah ke suatu tempat?",
+          "a": [
+            "Tidak. Hasil pengujian, riwayat, dan pola getaran tetap di ponsel Anda, dan laporan yang diekspor langsung menuju aplikasi yang Anda pilih di panel berbagi. Aplikasi memang mengumpulkan statistik penggunaan anonim — halaman mana yang dibuka, plus laporan error — yang tidak memuat data kontroler maupun data pribadi. Rinciannya ada di Kebijakan privasi."
+          ]
+        },
+        {
+          "id": "history_manage",
+          "q": "Bisakah riwayat pengujian dihapus? Apakah memakan ruang?",
+          "a": [
+            "Setiap rekaman hanya beberapa kilobyte teks, jadi ruang bukan masalah. Anda bisa menghapus satu rekaman, atau membersihkan semua rekaman untuk satu kontroler, dari Riwayat pengujian. Rekaman tersimpan otomatis setiap kali Tes Lengkap selesai."
+          ]
+        },
+        {
+          "id": "tool_unsupported",
+          "q": "Kenapa beberapa alat menyatakan tidak didukung di ponsel saya?",
+          "a": [
+            "Hanya dua sebabnya: versi Android — sensor gerak butuh 12 atau lebih baru, penangkapan touchpad butuh 8.0 atau lebih baru — atau kemampuan yang tidak dimiliki kontroler Anda, misalnya tanpa motor, tanpa giroskop, tanpa touchpad, atau tanpa stik analog. Info perangkat menampilkan apa yang dibuka gamepad yang terhubung, dan alat-alatnya mengikuti daftar itu."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Bagaimana cara melaporkan masalah atau memberi saran?",
+          "a": [
+            "Pengaturan → Tentang → Kirim masukan. Model ponsel, versi Android, dan versi aplikasi dilampirkan otomatis, dan biasanya itulah yang kami butuhkan untuk mereproduksi masalahnya. Kalau ada kontroler yang tidak terdeteksi, menyebutkan model persisnya dan cara menghubungkannya sangat membantu."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

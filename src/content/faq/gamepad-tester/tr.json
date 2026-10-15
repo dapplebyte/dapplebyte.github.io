@@ -1,0 +1,310 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "tr",
+  "title": "SSS",
+  "intro": "En çok sorulan sorular ve çözümleri. Yanıtı açmak için soruya dokunun.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Bağlantı ve algılama",
+      "entries": [
+        {
+          "id": "no_device_detected",
+          "q": "Oyun kolum bağlı ama uygulama onu algılamıyor",
+          "a": [
+            "Bluetooth oyun kollarının önce telefonun kendi Bluetooth ayarlarında eşleştirilmesi gerekir; bu uygulama sistemin zaten tanıdığı kolları okur, eşleştirmeyi kendisi yapmaz. USB için telefonda OTG desteği ve gerçek bir veri kablosu şarttır — yalnızca şarj eden kablolar veri taşımaz. Bağlandıktan sonra kolu uyandırmak için bir düğmeye basın ya da çubuğu oynatın, sonra ana ekrana dönün."
+          ]
+        },
+        {
+          "id": "supported_pads",
+          "q": "Hangi oyun kolları destekleniyor?",
+          "a": [
+            "Android'in oyun kolu olarak tanıdığı her şey: Xbox Wireless ve Series kolları, DualShock 4 ve DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, teleskopik telefon kolları ve genel HID kolları. Ne kadarının test edilebileceği kolun bildirdiklerine bağlıdır: motoru olmayan kolda titreşim testi, dokunmatik yüzeyi olmayanda dokunmatik yüzey testi çıkmaz. Cihaz bilgisi, kolunuzun tam olarak neleri sunduğunu listeler."
+          ]
+        },
+        {
+          "id": "unknown_name",
+          "q": "Oyun kolu “Bilinmeyen cihazlar” ya da ham bir model kodu olarak görünüyor",
+          "a": [
+            "Ad, oyun kolunun kendi donanım yazılımından gelir ve uygulama onu olduğu gibi gösterir; bu yüzden ucuz kollar ve bazı USB adaptörleri işe yarar bir ad bildirmez. Bunun test sonuçlarına hiçbir etkisi yoktur. Güvenilir bir kimlik gerekiyorsa Cihaz bilgisi içindeki Üretici kimliği ve Ürün kimliği değerlerini kullanın."
+          ]
+        },
+        {
+          "id": "no_battery",
+          "q": "Pil seviyesi neden görünmüyor ya da neden bilinmiyor?",
+          "a": [
+            "Pil seviyesini oyun kolunun kendisi bildirmek zorundadır ve çoğu üçüncü taraf kol bunu hiç göndermez; USB bağlantılarında da genelde gelmez. Xbox ve PlayStation kolları Bluetooth üzerinden normalde bildirir. Kolun yayınlamadığı bir seviyeyi hiçbir uygulama okuyamaz."
+          ]
+        },
+        {
+          "id": "two_pads",
+          "q": "Aynı anda iki oyun kolu test edebilir miyim?",
+          "a": [
+            "Evet. Birden fazla kol bağlıyken test sayfalarında bir kol seçici çıkar; İkili Oyun Kolu Karşılaştırma ise iki kolu gerçek zamanlı olarak yan yana gösterir — yıpranmış bir kolu sağlam olandan ayırmanın en hızlı yolu budur."
+          ]
+        },
+        {
+          "id": "random_disconnect",
+          "q": "Oyun kolu testin ortasında bağlantıyı kesiyor",
+          "a": [
+            "Genelde üç neden vardır: pil optimizasyonunun uygulamayı arka planda askıya alması, mesafe ya da araya giren engeller ve 2,4 GHz alıcılardan veya yakındaki modemden gelen parazit. Telefonun uygulama ayarlarından Gamepad Tester'ı pil optimizasyonunun dışında bırakmak durumların çoğunu çözer. Başka cihazlarda da kopan bir kolda sorun büyük ihtimalle kolun kendisindedir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buttons",
+      "title": "Düğmeler ve düzenler",
+      "entries": [
+        {
+          "id": "why_layout_choice",
+          "q": "Neden önce Xbox, PlayStation ya da Diğer oyun kolları seçeneğini seçmem gerekiyor?",
+          "a": [
+            "Bu seçim yalnızca düğmelerin ekranda nasıl çizildiğini ve etiketlendiğini değiştirir; alttaki tuş kodları aynıdır. Etiketlerin oturması için elinizdeki kola en çok benzeyeni seçin; hiçbiri uymuyorsa Diğer oyun kolları her kolda çalışır."
+          ]
+        },
+        {
+          "id": "wrong_button_lights",
+          "q": "Bir düğmeye basıyorum, ekranda yanlış düğme yanıyor",
+          "a": [
+            "Nintendo tarzı kollarda A ile B (ayrıca X ile Y) fiziksel olarak Xbox kollarının tersi konumdadır; bu yüzden aynı tuş kodu ekranda başka bir yere düşer. Bu bir etiketleme farkıdır, arıza değil. Tuş geçmişi her basışın gerçek tuş kodunu ve adını gösterir; eşleşmeyi kontrol etmenin en güvenilir yolu budur."
+          ]
+        },
+        {
+          "id": "home_key_no_response",
+          "q": "Home / PS / Xbox / Guide düğmesi hiçbir şey yapmıyor",
+          "a": [
+            "Android bu düğmeyi sistem düzeyinde yakalar ve hiçbir zaman uygulamalara iletmez; dolayısıyla onu hiçbir uygulama test edemez — kolunuzda bir sorun yok. Bazı kollarda ses düğmeleri için de aynısı geçerlidir. Çoğu modelde Share ve Capture dahil diğer her şey normal şekilde gelir."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "L3 / R3 (çubukları aşağı bastırma) algılanmıyor",
+          "a": [
+            "Çubuğu tık sesi gelene kadar dümdüz aşağı bastırın; bazı kollarda bu hareketin derinliği fazladır ve yandan bastırmak çoğu zaman ıskalar. Tuş geçmişi bu basışı hiç kaydetmiyorsa o çubuğun altındaki anahtar büyük olasılıkla yıpranmıştır."
+          ]
+        },
+        {
+          "id": "what_is_cps",
+          "q": "Tuş geçmişindeki CPS nedir?",
+          "a": [
+            "Saniyedeki tıklama sayısı, yani bir düğmenin saniyede kaç kez tetiklendiği. Turbo ve seri atış kollarını doğrulamak için vardır: turbo açıkken düğmeyi basılı tutun, değer size gerçek hızı verir. Normal bir kolda ise tek basışın iki kez sayıldığı çift tetiklemeyi ortaya çıkarır."
+          ]
+        },
+        {
+          "id": "game_no_controller_support",
+          "q": "Burada her düğme çalışıyor ama oyunum kolu görmezden geliyor",
+          "a": [
+            "O halde kolda bir sorun yok — oyun kol girişini hiç dinlemiyor, yalnızca ekrandaki dokunuşları kabul ediyor. Kolda ya da Android ayarlarında yapacağınız hiçbir değişiklik bunu düzeltmez. Asıl işe yarayan şey bir tuş eşleme uygulamasıdır: oyunun üzerine yerleşir ve her düğmeyi, çubuğu ve tetiği seçtiğiniz noktadaki bir dokunuşa dönüştürür; böylece yalnızca dokunmayla oynanan bir oyun, baştan beri kol desteği varmış gibi oynanır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sticks",
+      "title": "Çubuklar: kayma ve analiz",
+      "entries": [
+        {
+          "id": "how_drift_measured",
+          "q": "Çubuk kaymasını nasıl kontrol ederim?",
+          "a": [
+            "Oyun kolunu düz bir zemine bırakın, ellerinizi çubuklardan tamamen çekin ve durağan sapmayı okuyun. Sağlam bir çubuk sıfırda ya da sıfıra çok yakın durur ve orada kalır; kayan bir çubuk ise sıfırdan farklı sabit bir değerde takılı kalır — karakterin kendi kendine yürümesinin sebebi budur."
+          ]
+        },
+        {
+          "id": "drift_threshold",
+          "q": "Ne kadarlık bir sapma sorun sayılır?",
+          "a": [
+            "Sıradan kollara göre kabaca: %3 altı normaldir, %3–8 arası hafiftir ve çoğu oyunun kendi ölü bölgesi bunu yutar, %8 üzeri ise oyunda genellikle fark edilir. Bunlar üretici spesifikasyonu değil, pratik referans noktalarıdır — asıl önemlisi sapmanın sabit kalıp kalmadığı ve oynarken bunu hissedip hissetmediğinizdir."
+          ]
+        },
+        {
+          "id": "fix_drift",
+          "q": "Çubuk kayması onarılabilir mi?",
+          "a": [
+            "Önce ucuz yöntemleri deneyin: çubuğun dibindeki çevreyi temizleyin ve kolun donanım yazılımını güncelleyin — Xbox kolları için Xbox Aksesuarları uygulamasıyla, DualSense veya DualShock 4 için kolu bir PlayStation konsoluna takarak. Bazı kolların üretici uygulamasında ayrıca yeniden kalibrasyon seçeneği bulunur. Sapma bunların hepsinden sonra da duruyorsa çubuk modülü yıpranmıştır; servis ya da değişim gerekir."
+          ]
+        },
+        {
+          "id": "what_is_circularity",
+          "q": "Dairesellik hatası nedir?",
+          "a": [
+            "Çubuğu dış kenarı boyunca yavaşça döndürdüğünüzde uygulama çizilen yolu kusursuz bir daireyle karşılaştırır; ortalama sapma dairesellik hatasıdır. Değer küçüldükçe çubuk her yönde daha tutarlı okunur, nişan alma da o kadar dengeli olur. Büyük bir hata genelde bir yönün diğerlerinden kısa kalması gibi hissedilir. (Pro)"
+          ]
+        },
+        {
+          "id": "what_is_deadzone",
+          "q": "Ölü bölge nasıl tahmin ediliyor?",
+          "a": [
+            "Çubuğu merkezden dışarı doğru çok yavaş itin; herhangi bir okuma üreten en küçük hareket ölü bölgeye yaklaşık olarak eşittir. Ölü bölge büyüdükçe küçük nişan düzeltmeleri göz ardı edilir. Bu, kolun bildirdiklerine dayanan bir tahmindir; oyunun içeride uyguladığı değer değildir. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibration-motion-touchpad",
+      "title": "Titreşim, hareket ve dokunmatik yüzey",
+      "entries": [
+        {
+          "id": "no_vibration",
+          "q": "Titreşim testi hiçbir şey yapmıyor",
+          "a": [
+            "Üç olası neden var: kolda motor yoktur, Android o kol için mevcut bağlantı üzerinden titreşimi sunmuyordur ya da kol titreşimi yalnızca kendi konsolundan kabul ediyordur. Hangisi olduğunu Cihaz bilgisi söyler — orada Titreşim: Desteklenmiyor yazıyorsa uygulamanın sürebileceği bir motor yok demektir. İkisini birden destekleyen kollarda Bluetooth yerine USB'yi denemekte fayda var."
+          ]
+        },
+        {
+          "id": "what_is_vib_studio",
+          "q": "Titreşim Stüdyosu ne işe yarar?",
+          "a": [
+            "İki titreşim motoru için bir zaman çizelgesi düzenleyicisidir; sabit hazır desenlerle yetinmek yerine kendi desenlerinizi kurup hissedebilirsiniz. Düzenleme ve hazır desenler ücretsizdir; özel bir desenle motorları sürmek ve deseni Desenlerim'e kaydetmek Pro'ya dahildir."
+          ]
+        },
+        {
+          "id": "patterns_transfer",
+          "q": "Kaydettiğim desenler ve geçmiş yeni telefona geçer mi?",
+          "a": [
+            "Hayır. Desenler ve test kayıtları yalnızca bu cihazda tutulur, sunucuda hiçbir şey saklanmaz. Uygulama verilerini de kapsayan tam bir telefondan telefona aktarım bunları taşır; sıfırdan kurulum taşımaz."
+          ]
+        },
+        {
+          "id": "motion_unsupported",
+          "q": "Hareket Sensörleri sayfası desteklenmediğini söylüyor",
+          "a": [
+            "Bir kolun jiroskopunu okumak için Android 12 veya üzeri gerekir ve kolun sensörlerini sisteme sunması şarttır — pratikte DualShock 4, DualSense ve Switch Pro. Burada kolun sensörleri okunur, telefonunkiler değil; yani jiroskopu olmayan bir kol, jiroskoplu bir telefonda bile hiçbir şey göstermez."
+          ]
+        },
+        {
+          "id": "touchpad_no_response",
+          "q": "Dokunmatik Yüzey Testi sayfası tepki vermiyor",
+          "a": [
+            "Dokunmatik yüzey yakalama Android 8.0 veya üzeri gerektirir ve yalnızca gerçekten dokunmatik yüzeyi olan kollar — DualShock 4 ile DualSense — yakalanabilir. Önce Yakalamayı başlat'a dokunun, yoksa dokunma verisi uygulamaya değil sisteme gider. Sayfadan çıkınca yakalama bırakılır."
+          ]
+        },
+        {
+          "id": "touchpad_capture_scope",
+          "q": "Dokunmatik yüzey yakalanırken diğer düğmeler çalışmaya devam eder mi?",
+          "a": [
+            "Evet — yakalama yalnızca dokunma yüzeyini yönlendirir; düğmeler ve çubuklar her zamanki gibi bildirmeyi sürdürür. Sayfadan çıktığınız anda serbest bırakılır, yani sonrasında uygulamaya kilitli hiçbir şey kalmaz."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Gecikme ve tam test",
+      "entries": [
+        {
+          "id": "what_latency_measures",
+          "q": "Gecikme testi aslında neyi ölçüyor?",
+          "a": [
+            "Oyun kolunun telefona ne sıklıkta rapor verdiğini: Hz cinsinden sorgulama hızını ve raporlar arasındaki milisaniye cinsinden aralığı. Parmağınızdan ekrandaki görüntüye kadar olan uçtan uca gecikme değildir — o, ekrana, oyuna ve telefona da bağlıdır ve hiçbir uygulama onu içeriden ölçemez. Asıl işe yaradığı yer, iki kolu ya da aynı kolu Bluetooth ile USB üzerinde karşılaştırmaktır."
+          ]
+        },
+        {
+          "id": "low_polling_rate",
+          "q": "Sorgulama hızım neden yalnızca 100 Hz civarında?",
+          "a": [
+            "Çoğu Bluetooth kol için bu normaldir; USB ve 2,4 GHz alıcılar genelde daha hızlı rapor verir. Değer aynı zamanda Android'in girdi olaylarını ne kadar hızlı ilettiğiyle sınırlıdır, bu yüzden yüksek hızlı bir kol burada bilgisayardakinden düşük okunabilir. Örnekleme öncesinde Bağlantı türünü etiketlerseniz kaydettiğiniz oturumlar karşılaştırılabilir kalır."
+          ]
+        },
+        {
+          "id": "what_is_jitter",
+          "q": "Titreşim (σ) değeri nasıl okunur?",
+          "a": [
+            "Raporlama aralığının ne kadar değiştiğini gösterir. İki kolun ortalama aralığı aynı olabilir; ama biri düzenli, diğeri kesik kesik rapor verir — düzensiz olan elde daha kötü hissettirir ve bunu ortaya çıkaran şey Titreşim (σ), yani jitter değeridir. Aralık dağılımı grafiği ve oturum karşılaştırması bunu görünür kılar. (Pro)"
+          ]
+        },
+        {
+          "id": "full_test_items",
+          "q": "Tam Test neleri kapsıyor?",
+          "a": [
+            "Altı adım: tüm düğmeler, çubuk menzili, çubuk daireselliği, tetik hareketi, durağan kayma ve titreşim. Uygulama sizi bu adımlarda sırayla gezdirir, her biri için Geçti, Kontrol veya Hata sonucu verir ve paylaşabileceğiniz bir rapor hazırlar. Hiçbir adımı atlamazsanız yaklaşık iki dakika sürer."
+          ]
+        },
+        {
+          "id": "full_test_warn_fail",
+          "q": "Bir adım Kontrol ya da Hata olarak sonuçlandı — şimdi ne yapmalıyım?",
+          "a": [
+            "Kontrol genelde arıza değil, eksik girdi anlamına gelir: çubuk her kenara ulaşmamıştır ya da tetik sonuna kadar çekilmemiştir; o adımı tekrarlamakta fayda var. Kayma veya titreşimde Hata ise donanımı işaret eder — neler deneyebileceğiniz için “Çubuk kayması onarılabilir mi?” ve “Titreşim testi hiçbir şey yapmıyor” sorularına bakın. Atlanan adımlar sonuca dahil edilmez."
+          ]
+        },
+        {
+          "id": "report_export",
+          "q": "Test raporu nereye gidiyor, nasıl paylaşırım?",
+          "a": [
+            "Dışa aktarma, sonucu tek uzun bir görsele dönüştürüp telefonunuzun paylaşım menüsüne verir; satıcıya, servise ya da bir arkadaşınıza gönderebilirsiniz — uygulama hiçbir şey yüklemez. Ücretsiz dışa aktarımda önce kısa bir video reklam izlemeniz istenir; Pro ile reklamsız dışa aktarılır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro ve satın alma",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "Pro bir abonelik mi? Neleri kapsıyor?",
+          "a": [
+            "Hayır — tek seferlik bir satın almadır ve kalıcı olarak açık kalır. Test Geçmişi'ndeki sağlık puanı ile kayma eğilimlerini, reklamsız rapor dışa aktarımını ve gecikme CSV'sini, kendi titreşim desenlerinizi kaydedip oynatmayı, dairesellik ve ölü bölge gibi gelişmiş çubuk tanılamalarını, kayıtlı sonuçların çevrimdışı karşılaştırmasını kapsar; ayrıca tüm reklamları kaldırır. Bütün temel testler ücretsiz kalır."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Telefon değiştirdim, Pro kayboldu",
+          "a": [
+            "Satın alırken kullandığınız hesapla Google Play'e giriş yapın, ardından Satın alımı geri yükle seçeneğini kullanın. Satın alma cihaza değil, o Google hesabına bağlıdır."
+          ]
+        },
+        {
+          "id": "pro_purchase_failed",
+          "q": "Satın alma başarısız oluyor ya da “Google Play'e bağlanılıyor” ekranında takılıyor",
+          "a": [
+            "Play Store'un normal açıldığını ve hesap bölgenizin ödeme yönteminizi desteklediğini kontrol edip birkaç dakika sonra tekrar deneyin — bu neredeyse her zaman uygulamadan değil, geçici bir Google Play sorunundan kaynaklanır. Ücret çekildiği hâlde Pro açılmadıysa önce Satın alımı geri yükle seçeneğini kullanın. İadeler Google Play'deki sipariş geçmişiniz üzerinden yapılır."
+          ]
+        },
+        {
+          "id": "pro_ads",
+          "q": "Pro ile reklamlar kalkıyor mu?",
+          "a": [
+            "Evet, hepsi — açılış reklamı da, rapor dışa aktarmadan önceki reklam da. Satın alma tamamlanır tamamlanmaz devreye girer; yine de bir reklam görürseniz uygulamayı kapatıp yeniden açın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-compatibility",
+      "title": "Gizlilik, uyumluluk ve destek",
+      "entries": [
+        {
+          "id": "data_privacy",
+          "q": "Test verilerim bir yere yükleniyor mu?",
+          "a": [
+            "Hayır. Test sonuçları, geçmiş ve titreşim desenleri telefonunuzda kalır; dışa aktardığınız rapor da doğrudan paylaşım menüsünde seçtiğiniz uygulamaya gider. Uygulama yalnızca anonim kullanım istatistiği toplar — hangi sayfaların açıldığı ve çökme raporları — bunların içinde ne kol verisi ne de kişisel bilgi bulunur. Ayrıntılar Gizlilik politikası sayfasında."
+          ]
+        },
+        {
+          "id": "history_manage",
+          "q": "Test geçmişini silebilir miyim? Yer kaplıyor mu?",
+          "a": [
+            "Her kayıt birkaç kilobaytlık metindir, yani yer sorun değil. Test Geçmişi içinden tek bir kaydı silebilir ya da bir kola ait tüm kayıtları temizleyebilirsiniz. Kayıtlar, Tam Test bittiğinde otomatik olarak saklanır."
+          ]
+        },
+        {
+          "id": "tool_unsupported",
+          "q": "Bazı araçlar telefonumda neden desteklenmediklerini söylüyor?",
+          "a": [
+            "Yalnızca iki neden var: Android sürümü — hareket sensörleri 12 ve üzerini, dokunmatik yüzey yakalama 8.0 ve üzerini ister — ya da kolunuzda bulunmayan bir özellik: motor, jiroskop, dokunmatik yüzey veya analog çubuk yokluğu. Cihaz bilgisi bağlı kolun neleri sunduğunu listeler, araçlar da bu listeye uyar."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Bir sorunu nasıl bildiririm ya da nasıl öneride bulunurum?",
+          "a": [
+            "Ayarlar → Hakkında → Geri bildirim gönder. Telefon modeliniz, Android sürümünüz ve uygulama sürümü otomatik olarak eklenir; sorunu yeniden oluşturmak için genelde bize gereken budur. Algılanmayan bir kol varsa tam modelini ve nasıl bağlandığını yazmanız çok yardımcı olur."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · 獨立開發的 Android app",
-    "description": "DappleByte 是一個獨立開發 Android app 的小工作室，產品有 Gamepad Pro：把手把變成觸控操作的按鍵映射工具；Relaypad：PS5 與 PS4 的 Remote Play 控制器與主機串流 app；WhenDo：結合 AI 的自動化與連點器 app；以及 JoyLink：把手機變成藍牙手把、觸控板和電視遙控器。",
+    "description": "DappleByte 是一個獨立開發 Android app 的小工作室，產品有 Gamepad Pro：把手把變成觸控操作的按鍵映射工具；Relaypad：PS5 與 PS4 的 Remote Play 控制器與主機串流 app；WhenDo：結合 AI 的自動化與連點器 app；JoyLink：把手機變成藍牙手把、觸控板和電視遙控器；以及 Gamepad Tester Pro：檢查手把有沒有搖桿飄移、輸入延遲和失靈的按鍵。",
     "appsHeading": "產品",
     "principlesHeading": "我們怎麼做事",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "觸控板、滑鼠與鍵盤",
       "tv-remote": "Android TV、Google TV、Fire TV 的電視遙控器",
       "racing-wheel": "傾斜手機就能轉向的方向盤",
-      "custom-layouts": "移動、縮放並保存控制佈局"
+      "custom-layouts": "移動、縮放並保存控制佈局",
+      "button-test": "即時按鍵與按鍵碼測試",
+      "drift-analysis": "搖桿飄移、死區與圓度分析",
+      "polling-rate": "輪詢率與輸入延遲測量",
+      "rumble-test": "逐顆馬達的震動測試",
+      "health-report": "健康分數與可分享的報告",
+      "test-history": "測試歷史與每支手把的飄移趨勢",
+      "led-test": "燈條測試（PlayStation 藍牙連線）",
+      "motion-test": "陀螺儀與加速度計測試",
+      "touchpad-test": "觸控板測試"
     },
     "values": {
       "yes": "有",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation、PS5 與 PS4 是 Sony Interactive Entertainment Inc. 的商標。{name} 與 Sony 無關聯，也未獲其背書。",
-    "hosts": "Windows 與 Xbox 是 Microsoft 的商標；Mac、iPhone 與 iPad 是 Apple 的商標；PlayStation 是 Sony Interactive Entertainment 的商標；Nintendo Switch 是 Nintendo 的商標；Android、Android TV 與 Google TV 是 Google 的商標；Fire TV 是 Amazon 的商標；Steam 是 Valve 的商標；Raspberry Pi 是 Raspberry Pi Ltd 的商標。{name} 與上述公司均無關聯，也未獲其背書。"
+    "hosts": "Windows 與 Xbox 是 Microsoft 的商標；Mac、iPhone 與 iPad 是 Apple 的商標；PlayStation 是 Sony Interactive Entertainment 的商標；Nintendo Switch 是 Nintendo 的商標；Android、Android TV 與 Google TV 是 Google 的商標；Fire TV 是 Amazon 的商標；Steam 是 Valve 的商標；Raspberry Pi 是 Raspberry Pi Ltd 的商標。{name} 與上述公司均無關聯，也未獲其背書。",
+    "controllers": "Xbox 是 Microsoft 的商標；PlayStation、DualShock 與 DualSense 是 Sony Interactive Entertainment 的商標；Nintendo Switch 是 Nintendo 的商標。{name} 與上述公司均無關聯，也未獲其背書。"
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "JoyLink 與其他把手機變成電腦或電視控制器的 app 逐項比較，只列事實。",
         "vsDescription": "{name} 與 {other} 在 Android 上逐項比較：接收端程式、藍牙手把、觸控板與電視遙控器、方向盤、root、廣告與收費方式。",
         "vsIntro": "兩者都能把 Android 手機變成電腦或電視的控制器。差別逐項列在下面。"
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "手把測試 · 不用電腦",
+      "heroPoints": [
+        "按鍵、搖桿、扳機、搖桿飄移和震動，一次引導式測試全部跑完，最後給出健康分數和可分享的報告",
+        "分析搖桿飄移、死區與圓度，還能測藍牙或 USB 連線下的輪詢率與輸入延遲",
+        "免費使用，含廣告。Pro 一次買斷，移除廣告並解鎖進階診斷"
+      ],
+      "faqDescription": "Gamepad Tester Pro 的問題解答：偵測與配對、按鍵與版面、搖桿飄移與死區、震動、體感與觸控板、延遲與完整測試、Pro、隱私與相容性。",
+      "faqNotFoundBody": "寫信給我們，附上手機型號、手把，以及它是怎麼連接的。每封信都有人讀。",
+      "support": {
+        "beforeItems": [
+          "先看常見問題。偵測、飄移、延遲和震動的問題大多在那裡有答案，措辭和 app 內一致。",
+          "先看「裝置資訊」。如果 Android 沒有回報你這支手把的電量、震動、體感感測器或觸控板，app 就沒辦法測；常見問題裡有說明哪些手把會開放哪些功能。",
+          "記下手把型號、用藍牙還是 USB 連線，以及哪一項測試的結果不如預期。我們要靠這些才能重現問題。"
+        ],
+        "template": {
+          "phone": "手機型號：",
+          "android": "Android 版本：",
+          "controller": "手把（型號、藍牙或 USB）：",
+          "test": "哪一項測試、結果是什麼：",
+          "what": "發生了什麼事，一步一步寫：",
+          "pro": "是否購買 Pro：是 / 否"
+        },
+        "refundBody": "Gamepad Tester Pro 免費安裝。如果你買了 Pro，但在你的環境下用不起來，購買起 7 天內寫信給我們就退款。告訴我們你試過什麼，這能幫我們替下一個人修好。"
+      },
+      "press": {
+        "description": "撰寫 Gamepad Tester Pro 報導所需的事實、素材與介紹文字：Android 上的手把與搖桿飄移檢測工具。",
+        "boilerplate": "Gamepad Tester Pro 能在 Android 手機或平板上檢測任何藍牙、USB 或 OTG 手把：按鍵、類比搖桿、搖桿飄移、死區、扳機、震動、輸入延遲與輪詢率，最後給出健康分數和可分享的報告。支援 Xbox、PlayStation、Switch Pro 與各式通用手把，不需要電腦。由獨立工作室 DappleByte 開發。",
+        "priceValue": "免費安裝，含廣告。核心測試免費；一次購買 Pro 就能移除廣告，並解鎖進階診斷、健康趨勢、CSV 匯出與震動模式儲存。沒有訂閱。目前價格以 Google Play 顯示為準。",
+        "assetScreenshots": "手機截圖，PNG，英文（直式 1080 × 1920）"
+      },
+      "videosDescription": "在真實手機上示範 Gamepad Tester Pro 的短片：完整測試、怎麼看搖桿飄移結果、延遲測試和震動測試。",
+      "privacyDescription": "Gamepad Tester Pro Android 版怎麼處理你的資料：沒有帳號、測試結果只存在手機上、分析與廣告 SDK 會收集什麼，以及怎麼關閉收集或要求刪除資料。",
+      "compare": {
+        "description": "Gamepad Tester Pro 與 Android 上其他手把測試 app 逐項比較，只列事實。",
+        "vsDescription": "{name} 與 {other} 在 Android 上逐項比較：按鍵測試、搖桿飄移分析、輪詢率、震動、健康報告、廣告與收費方式。",
+        "vsIntro": "兩者都能在 Android 手機上測試遊戲手把。差別逐項列在下面。"
       }
     }
   }

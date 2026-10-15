@@ -1,0 +1,310 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "pt-br",
+  "title": "Perguntas frequentes",
+  "intro": "As perguntas que a gente mais recebe e o que fazer em cada caso. Toque em uma pergunta para expandir.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Conexão e detecção",
+      "entries": [
+        {
+          "id": "no_device_detected",
+          "q": "Meu controle está conectado, mas o app não detecta",
+          "a": [
+            "Controles Bluetooth precisam ser pareados antes nas configurações de Bluetooth do próprio celular — este app lê os controles que o sistema já reconhece, ele não faz o pareamento. No USB, o celular precisa ter suporte a OTG e um cabo de dados de verdade; cabo só de carga não transmite dados. Depois de conectar, pressione qualquer botão ou mexa um analógico para acordar o controle e volte para a tela inicial."
+          ]
+        },
+        {
+          "id": "supported_pads",
+          "q": "Quais controles são compatíveis?",
+          "a": [
+            "Qualquer um que o Android reconheça como gamepad: Xbox Wireless e Series, DualShock 4 e DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, controles telescópicos para celular e controles HID genéricos. O quanto dá para testar depende do que o seu controle informa: sem motor não existe teste de vibração, sem touchpad não existe teste de touchpad. Informações do dispositivo mostra exatamente o que o seu expõe."
+          ]
+        },
+        {
+          "id": "unknown_name",
+          "q": "O controle aparece como “Dispositivos desconhecidos” ou como um código de modelo",
+          "a": [
+            "O nome vem do firmware do próprio controle e o app só repassa o que recebe, então controles mais baratos e alguns adaptadores USB não informam nada útil. Isso não afeta nenhum resultado de teste. Se você precisa de um identificador confiável, use o ID do fabricante e o ID do produto em Informações do dispositivo."
+          ]
+        },
+        {
+          "id": "no_battery",
+          "q": "Por que o nível da bateria não aparece ou fica desconhecido?",
+          "a": [
+            "O nível de bateria precisa ser informado pelo próprio controle, e a maioria dos controles de terceiros nunca envia isso — no USB normalmente também não. Controles Xbox e PlayStation costumam informar via Bluetooth. Nenhum app consegue ler um dado que o controle não publica."
+          ]
+        },
+        {
+          "id": "two_pads",
+          "q": "Dá para testar dois controles ao mesmo tempo?",
+          "a": [
+            "Sim. Com mais de um conectado, as páginas de teste mostram um seletor de controle, e Comparar dois controles coloca os dois lado a lado em tempo real — o jeito mais rápido de diferenciar um controle gasto de um saudável."
+          ]
+        },
+        {
+          "id": "random_disconnect",
+          "q": "O controle cai no meio do teste",
+          "a": [
+            "Três causas comuns: a otimização de bateria suspendendo o app em segundo plano, distância ou obstáculos, e interferência de receptores 2,4 GHz ou de um roteador por perto. Tirar este app da otimização de bateria nas configurações de apps do celular resolve a maior parte dos casos. Se o controle também cai em outros aparelhos, o problema costuma ser o próprio controle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buttons",
+      "title": "Botões e layouts",
+      "entries": [
+        {
+          "id": "why_layout_choice",
+          "q": "Por que preciso escolher Xbox, PlayStation ou Outros primeiro?",
+          "a": [
+            "Isso muda só como os botões são desenhados e rotulados na tela — os códigos de tecla por baixo são idênticos. Escolha o que combina com o controle que você tem na mão para os rótulos baterem; se nenhum servir, Outros controles funciona com qualquer controle."
+          ]
+        },
+        {
+          "id": "wrong_button_lights",
+          "q": "Pressiono um botão e acende outro",
+          "a": [
+            "Em controles no estilo Nintendo, A e B (e X e Y) ficam em posições físicas trocadas em relação aos do Xbox, então o mesmo código de tecla cai em outro ponto da tela. É diferença de rótulo, não defeito. Histórico de teclas mostra o código e o nome reais de cada toque, que é o jeito confiável de conferir o mapeamento."
+          ]
+        },
+        {
+          "id": "home_key_no_response",
+          "q": "O botão Home / PS / Xbox / Guide não faz nada",
+          "a": [
+            "O Android intercepta esse botão no nível do sistema e nunca repassa, então nenhum app consegue testá-lo — seu controle está bem. O mesmo vale para as teclas de volume de alguns controles. Todo o resto, incluindo Share e Capture na maioria dos modelos, chega normalmente."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "L3 / R3 (pressionar os analógicos) não registra",
+          "a": [
+            "Pressione o analógico reto para baixo até clicar; em alguns controles o curso é profundo e apertar de lado quase sempre erra. Se o Histórico de teclas não registrar nada no clique, a chave embaixo daquele analógico provavelmente está gasta."
+          ]
+        },
+        {
+          "id": "what_is_cps",
+          "q": "O que é CPS no Histórico de teclas?",
+          "a": [
+            "Cliques por segundo — quantas vezes um botão dispara a cada segundo. Serve para conferir controles com Turbo e disparo rápido: segure o botão com o Turbo ligado e a leitura mostra a taxa real. Num controle comum, também revela o disparo duplo, quando um toque registra duas vezes."
+          ]
+        },
+        {
+          "id": "game_no_controller_support",
+          "q": "Todos os botões funcionam aqui, mas meu jogo ignora o controle",
+          "a": [
+            "Então o controle está bem — o jogo simplesmente não escuta o controle e só aceita toques na tela. Nada que você mude no controle ou nas configurações do Android resolve isso. O que resolve é um app de mapeamento de botões: ele fica por cima do jogo e transforma cada botão, analógico e gatilho em um toque no ponto que você escolher, aí um jogo só de toque passa a funcionar como se sempre tivesse suporte a controle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sticks",
+      "title": "Analógicos: drift e análise",
+      "entries": [
+        {
+          "id": "how_drift_measured",
+          "q": "Como eu verifico o drift do analógico?",
+          "a": [
+            "Apoie o controle numa superfície plana, tire as mãos completamente dos analógicos e veja o desvio em repouso. Um analógico saudável fica em zero ou bem perto e não sai dali; um com drift mantém um valor fixo diferente de zero, que é o que faz o personagem andar sozinho."
+          ]
+        },
+        {
+          "id": "drift_threshold",
+          "q": "Quanto de desvio já é problema?",
+          "a": [
+            "Como referência geral em controles comuns: abaixo de 3% é normal, entre 3% e 8% é leve e a zona morta que os jogos já aplicam costuma absorver, e acima de 8% dá para perceber jogando. São valores práticos, não especificação de fabricante — importa mais se o desvio se mantém estável e se você sente isso enquanto joga."
+          ]
+        },
+        {
+          "id": "fix_drift",
+          "q": "Dá para consertar o drift?",
+          "a": [
+            "Comece pelo mais barato: limpe em volta da base do analógico e atualize o firmware do controle — pelo app Acessórios do Xbox nos controles Xbox, ou ligando o DualSense ou o DualShock 4 num console PlayStation. Alguns controles ainda têm uma rotina de recalibração no app do próprio fabricante. Se o desvio continuar depois de tudo isso, o módulo do analógico está gasto e precisa de conserto ou troca."
+          ]
+        },
+        {
+          "id": "what_is_circularity",
+          "q": "O que é erro de circularidade?",
+          "a": [
+            "Gire o analógico devagar pela borda externa e o app compara o traçado com um círculo perfeito; o desvio médio é o erro de circularidade. Quanto menor, mais consistente é a leitura do analógico em todas as direções, e é isso que deixa a mira uniforme. Um erro grande costuma dar a sensação de que uma direção não vai até o fim. (Pro)"
+          ]
+        },
+        {
+          "id": "what_is_deadzone",
+          "q": "Como a zona morta é estimada?",
+          "a": [
+            "Empurre o analógico bem devagar a partir do centro; o menor movimento que já gera alguma leitura se aproxima da zona morta. Uma zona morta maior faz as correções finas de mira serem ignoradas. É uma estimativa baseada no que o controle informa, não o valor que o jogo aplica internamente. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibration-motion-touchpad",
+      "title": "Vibração, movimento e touchpad",
+      "entries": [
+        {
+          "id": "no_vibration",
+          "q": "O teste de vibração não faz nada",
+          "a": [
+            "Três motivos possíveis: o controle não tem motores, o Android não expõe a vibração desse controle na conexão atual, ou o controle só aceita vibração vinda do console dele. Informações do dispositivo mostra qual é o caso — se aparecer “Vibração: Não compatível”, não há nada para o app acionar. Nos controles que aceitam as duas conexões, vale tentar USB no lugar do Bluetooth."
+          ]
+        },
+        {
+          "id": "what_is_vib_studio",
+          "q": "Para que serve o Estúdio de vibração?",
+          "a": [
+            "É um editor de linha do tempo para os dois motores, então você monta e sente os seus próprios padrões em vez de ficar só nas predefinições fixas. Editar e usar as predefinições internas é grátis; acionar os motores com um padrão personalizado e salvá-lo em Meus padrões são recursos Pro."
+          ]
+        },
+        {
+          "id": "patterns_transfer",
+          "q": "Meus padrões salvos e o histórico vão para um celular novo?",
+          "a": [
+            "Não. Padrões e registros de teste ficam só neste aparelho, sem nada guardado em servidor. Uma transferência completa de celular para celular que inclua os dados dos apps leva tudo junto; uma instalação do zero, não."
+          ]
+        },
+        {
+          "id": "motion_unsupported",
+          "q": "A página Sensores de movimento diz que não é compatível",
+          "a": [
+            "Ler o giroscópio de um controle exige Android 12 ou mais recente, e o controle precisa publicar os sensores dele para o sistema — na prática, DualShock 4, DualSense e Switch Pro. Vale lembrar que aqui são lidos os sensores do controle, não os do celular, então um controle sem giroscópio não mostra nada mesmo num celular que tenha um."
+          ]
+        },
+        {
+          "id": "touchpad_no_response",
+          "q": "A página do touchpad não reage",
+          "a": [
+            "A captura do touchpad exige Android 8.0 ou mais recente, e só dá para capturar em controles que realmente têm touchpad — DualShock 4 e DualSense. Toque em Iniciar captura primeiro; caso contrário, os dados de toque vão para o sistema em vez de irem para o app. Sair da página libera a captura."
+          ]
+        },
+        {
+          "id": "touchpad_capture_scope",
+          "q": "Enquanto o touchpad está capturado, os outros botões continuam funcionando?",
+          "a": [
+            "Sim — a captura só redireciona a superfície de toque, enquanto botões e analógicos continuam reportando normalmente. Ela é liberada assim que você sai da página, então nada fica preso ao app depois."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Latência e teste completo",
+      "entries": [
+        {
+          "id": "what_latency_measures",
+          "q": "O que o teste de latência mede de verdade?",
+          "a": [
+            "Com que frequência o controle reporta ao celular: a taxa de sondagem em Hz e o intervalo entre relatórios em milissegundos. Não é o atraso de ponta a ponta entre o seu dedo e a imagem — isso depende também da tela, do jogo e do celular, e nenhum app consegue medir por dentro. O que ele é bom mesmo é para comparar dois controles, ou o mesmo controle no Bluetooth e no USB."
+          ]
+        },
+        {
+          "id": "low_polling_rate",
+          "q": "Por que minha taxa de sondagem fica só em torno de 100 Hz?",
+          "a": [
+            "Isso é normal na maioria dos controles Bluetooth; USB e receptores 2,4 GHz costumam reportar mais rápido. A leitura também é limitada pela velocidade com que o Android entrega os eventos de entrada, então um controle de alta taxa pode marcar menos aqui do que num PC. Marque o Tipo de conexão antes de amostrar e suas sessões salvas continuam comparáveis."
+          ]
+        },
+        {
+          "id": "what_is_jitter",
+          "q": "Como ler o Jitter (σ)?",
+          "a": [
+            "Ele mostra o quanto o intervalo entre relatórios varia. Dois controles podem ter o mesmo intervalo médio, com um reportando de forma regular e o outro aos trancos — o irregular parece pior, e é isso que o jitter revela. O gráfico de distribuição de intervalos e a comparação de sessões deixam isso visível. (Pro)"
+          ]
+        },
+        {
+          "id": "full_test_items",
+          "q": "O que o Teste completo cobre?",
+          "a": [
+            "Seis etapas: todos os botões, o curso dos analógicos, a circularidade, o curso dos gatilhos, o drift em repouso e a vibração. Ele guia você por elas em ordem e dá um OK, Verificar ou Falha em cada uma, além de um relatório para compartilhar. Cerca de dois minutos, se você não pular nada."
+          ]
+        },
+        {
+          "id": "full_test_warn_fail",
+          "q": "Uma etapa deu Verificar ou Falha — e agora?",
+          "a": [
+            "Verificar geralmente é entrada incompleta, não defeito: um analógico que não chegou a todas as bordas, ou um gatilho que não foi até o fim, então vale refazer essa etapa. Falha em drift ou vibração aponta para o hardware — veja “Dá para consertar o drift?” e “O teste de vibração não faz nada” para saber o que tentar. Etapas puladas não entram no resultado."
+          ]
+        },
+        {
+          "id": "report_export",
+          "q": "Onde fica o relatório do teste e como eu compartilho?",
+          "a": [
+            "A exportação transforma o resultado em uma imagem longa e entrega ao menu de compartilhamento do celular, então dá para mandar para o vendedor, para a assistência técnica ou para um amigo — o app não envia nada para lugar nenhum. A exportação gratuita pede que você assista antes a um vídeo curto; com o Pro, a exportação sai sem anúncios."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro e compras",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "O Pro é assinatura? O que vem nele?",
+          "a": [
+            "Não — é uma compra única que fica desbloqueada para sempre. Vem com a pontuação de saúde e as tendências de drift no Histórico de testes, exportação de relatórios sem anúncios e o CSV de latência, salvar e reproduzir seus próprios padrões de vibração, o diagnóstico avançado dos analógicos como circularidade e zona morta, a comparação offline de registros salvos, e remove todos os anúncios. Todos os testes básicos continuam gratuitos."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "Troquei de celular e o Pro sumiu",
+          "a": [
+            "Entre no Google Play com a mesma conta usada na compra e toque em Restaurar compra. A compra fica vinculada àquela conta do Google, não ao aparelho."
+          ]
+        },
+        {
+          "id": "pro_purchase_failed",
+          "q": "A compra falhou, ou fica parada em “Conectando ao Google Play”",
+          "a": [
+            "Confira se a Play Store abre normalmente e se a região da sua conta aceita a forma de pagamento, e tente de novo em alguns minutos — quase sempre é um problema temporário do Google Play, não do app. Se você foi cobrado e o Pro não desbloqueou, use Restaurar compra primeiro. Reembolsos são feitos pelo histórico de pedidos no Google Play."
+          ]
+        },
+        {
+          "id": "pro_ads",
+          "q": "Os anúncios somem com o Pro?",
+          "a": [
+            "Somem, todos — o de abertura, o de antes de exportar um relatório, todos. Vale assim que a compra é concluída; se ainda aparecer algum, feche e abra o app de novo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-compatibility",
+      "title": "Privacidade, compatibilidade e suporte",
+      "entries": [
+        {
+          "id": "data_privacy",
+          "q": "Meus dados de teste são enviados para algum lugar?",
+          "a": [
+            "Não. Resultados, histórico e padrões de vibração ficam no seu celular, e o relatório exportado vai direto para o app que você escolher no menu de compartilhamento. O app coleta estatísticas de uso anônimas — quais páginas são abertas, mais relatórios de falha — sem nenhum dado do controle e nada pessoal. A Política de privacidade tem os detalhes completos."
+          ]
+        },
+        {
+          "id": "history_manage",
+          "q": "Dá para apagar o histórico de testes? Ocupa espaço?",
+          "a": [
+            "Cada registro tem alguns kilobytes de texto, então espaço não é preocupação. Você pode excluir um registro sozinho, ou limpar todos os registros de um controle, no Histórico de testes. Os registros são salvos automaticamente quando um Teste completo termina."
+          ]
+        },
+        {
+          "id": "tool_unsupported",
+          "q": "Por que algumas ferramentas dizem que não são compatíveis com meu celular?",
+          "a": [
+            "Só dois motivos: a versão do Android — sensores de movimento pedem 12 ou mais recente, captura de touchpad pede 8.0 ou mais recente — ou um recurso que o seu controle não tem, como não ter motor, giroscópio, touchpad ou analógico. Informações do dispositivo lista o que o controle conectado expõe, e as ferramentas seguem isso."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Como eu reporto um problema ou mando uma sugestão?",
+          "a": [
+            "Configurações → Sobre → Enviar feedback. O modelo do celular, a versão do Android e a versão do app vão anexados automaticamente, que costuma ser o que precisamos para reproduzir o problema. Se um controle não está sendo detectado, dizer o modelo exato e como ele está conectado ajuda muito."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

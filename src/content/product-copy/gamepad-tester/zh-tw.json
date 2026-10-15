@@ -1,0 +1,122 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "zh-tw",
+  "title": "Gamepad Tester Pro：控制器測試",
+  "shortDescription": "手把／搖桿檢測：飄移、按鍵、輸入延遲、震動、死區、回報率，一次測完",
+  "tagline": "Android 手把、搖桿與飄移檢測工具",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Android 手把、搖桿與飄移檢測工具",
+      "paragraphs": [
+        "用 Android 手機或平板，幾秒鐘就能測完任何 Bluetooth、USB 或 OTG 手把。Gamepad Tester Pro 是完整的手把測試與搖桿檢測工具：檢查按鍵、類比搖桿、搖桿飄移、死區、扳機、震動、輸入延遲與回報率（輪詢率），再給出健康分數與可分享的測試報告。支援 Xbox、PlayStation（DualShock 4、DualSense）、Switch Pro 與各式通用控制器。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "大家常這樣用",
+      "paragraphs": [],
+      "bullets": [
+        "買賣二手手把前，先檢查搖桿飄移與死區",
+        "新手把趁退貨或保固期內，確認一切正常",
+        "找出漏按、連點、按鍵卡住或扳機沒反應的原因",
+        "排位賽前比較 Bluetooth 與 USB 的回報率和輸入延遲"
+      ]
+    },
+    {
+      "id": "full-test",
+      "title": "完整手把測試與健康分數",
+      "paragraphs": [],
+      "bullets": [
+        "一次引導式流程測完按鍵、十字鍵、類比搖桿、L2/R2 扳機、搖桿飄移與震動",
+        "逐項結果匯總成健康分數，並自動存入測試紀錄",
+        "匯出並分享圖像化測試報告，方便客服、送修或二手刊登"
+      ]
+    },
+    {
+      "id": "button-test",
+      "title": "即時按鍵測試與搖桿測試",
+      "paragraphs": [],
+      "bullets": [
+        "每次按下、放開與 Android 鍵碼即時顯示",
+        "視覺化左右類比搖桿、軸向、十字鍵與扳機類比壓力",
+        "提供 Xbox、PlayStation、通用手把與電視遙控器版面"
+      ]
+    },
+    {
+      "id": "stick-drift",
+      "title": "搖桿飄移、死區與圓度測試",
+      "paragraphs": [],
+      "bullets": [
+        "即時搖桿位置、靜止偏移量與死區參考圈",
+        "進階搖桿分析：覆蓋率、圓度誤差、半徑範圍與死區估算"
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "輸入延遲與回報率測試",
+      "paragraphs": [],
+      "bullets": [
+        "估算回報率（Hz）、平均、最小與最大輸入間隔",
+        "進階取樣：抖動、間隔分布直方圖、Bluetooth 與 USB 場次比較、CSV 匯出"
+      ]
+    },
+    {
+      "id": "vibration",
+      "title": "震動測試與震動工作室",
+      "paragraphs": [],
+      "bullets": [
+        "分別測試左右震動馬達強度",
+        "震動工作室：自訂多段雙馬達震動模式，可循環播放並儲存"
+      ]
+    },
+    {
+      "id": "led",
+      "title": "LED 燈光測試（PlayStation 藍牙連線）",
+      "paragraphs": [],
+      "bullets": [
+        "自訂燈條顏色，再跑純色、色相漸層與呼吸自檢",
+        "看出暗點、偏色、跳色或閃爍",
+        "需要 DualShock 4 或 DualSense 以藍牙連線，Android 12 以上。PS 有線、Xbox 與其他手把的燈不對 Android 開放，App 會直接說明原因，而不是給一個按了沒反應的調色盤。"
+      ]
+    },
+    {
+      "id": "motion-touchpad",
+      "title": "陀螺儀、觸控板與雙手把比較",
+      "paragraphs": [],
+      "bullets": [
+        "DualShock 4、DualSense 與 Switch Pro 的陀螺儀、加速度計與水平儀（Android 12 以上）",
+        "觸控板測試：多點觸控軌跡與按壓計數"
+      ]
+    },
+    {
+      "id": "controller-info",
+      "title": "手把資訊與健康趨勢",
+      "paragraphs": [
+        "查看品牌、裝置名稱、Vendor ID、Product ID、連線方式、軸數、按鍵數、震動支援與電量（視手把是否回報而定）。測試紀錄會按手把追蹤健康分數與飄移趨勢，及早發現快壞掉的搖桿。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "請注意",
+      "paragraphs": [],
+      "bullets": [
+        "可用功能取決於手把型號、連線方式、Android 版本與手機品牌。部分手把不會向 Android 回報電量、震動、體感或觸控板。",
+        "本 App 只讀取輸入訊號，無法改鍵、更新韌體或修復硬體故障。",
+        "核心測試免費（含廣告）。Pro 為一次性買斷，可移除廣告並解鎖進階診斷、健康趨勢、CSV 匯出與震動模式儲存。",
+        "Xbox、PlayStation、DualShock、DualSense 與 Nintendo Switch 為各自所有者的商標。本 App 與 Microsoft、Sony、Nintendo 無任何關聯。"
+      ]
+    },
+    {
+      "id": "support",
+      "title": "遇到問題了嗎？",
+      "paragraphs": [
+        "如果手把沒被偵測到或結果看起來不對，請先寄信到 feedback@dapplebyte.com，別急著留下評價。告訴我們手把型號與手機型號，我們會協助處理，多數問題都能在下一版修正。"
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

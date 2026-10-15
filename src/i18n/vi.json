@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Ứng dụng Android độc lập",
-    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker; và JoyLink, ứng dụng biến điện thoại thành tay cầm Bluetooth, bàn di chuột và điều khiển TV.",
+    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker; JoyLink, ứng dụng biến điện thoại thành tay cầm Bluetooth, bàn di chuột và điều khiển TV; và Gamepad Tester Pro, ứng dụng kiểm tra tay cầm xem có bị trôi cần, trễ đầu vào hay liệt nút không.",
     "appsHeading": "Ứng dụng",
     "principlesHeading": "Cách chúng tôi làm việc",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "Bàn di chuột, chuột và bàn phím",
       "tv-remote": "Điều khiển TV cho Android TV, Google TV và Fire TV",
       "racing-wheel": "Vô lăng nghiêng máy để lái",
-      "custom-layouts": "Di chuyển, đổi kích thước và lưu bố cục nút"
+      "custom-layouts": "Di chuyển, đổi kích thước và lưu bố cục nút",
+      "button-test": "Kiểm tra nút và mã phím theo thời gian thực",
+      "drift-analysis": "Phân tích trôi cần, vùng chết và độ tròn",
+      "polling-rate": "Đo tốc độ polling và độ trễ đầu vào",
+      "rumble-test": "Kiểm tra rung từng mô-tơ",
+      "health-report": "Điểm tình trạng kèm báo cáo có thể chia sẻ",
+      "test-history": "Lịch sử kiểm tra và xu hướng trôi cần của từng tay cầm",
+      "led-test": "Kiểm tra thanh đèn (PlayStation qua Bluetooth)",
+      "motion-test": "Kiểm tra con quay hồi chuyển và gia tốc kế",
+      "touchpad-test": "Kiểm tra bàn di"
     },
     "values": {
       "yes": "Có",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 và PS4 là nhãn hiệu của Sony Interactive Entertainment Inc. {name} không liên kết với Sony và không được Sony chứng thực.",
-    "hosts": "Windows và Xbox là nhãn hiệu của Microsoft; Mac, iPhone và iPad của Apple; PlayStation của Sony Interactive Entertainment; Nintendo Switch của Nintendo; Android, Android TV và Google TV của Google; Fire TV của Amazon; Steam của Valve; Raspberry Pi của Raspberry Pi Ltd. {name} không liên kết với và không được bất kỳ công ty nào trong số này chứng thực."
+    "hosts": "Windows và Xbox là nhãn hiệu của Microsoft; Mac, iPhone và iPad của Apple; PlayStation của Sony Interactive Entertainment; Nintendo Switch của Nintendo; Android, Android TV và Google TV của Google; Fire TV của Amazon; Steam của Valve; Raspberry Pi của Raspberry Pi Ltd. {name} không liên kết với và không được bất kỳ công ty nào trong số này chứng thực.",
+    "controllers": "Xbox là nhãn hiệu của Microsoft; PlayStation, DualShock và DualSense của Sony Interactive Entertainment; Nintendo Switch của Nintendo. {name} không liên kết với và không được bất kỳ công ty nào trong số này chứng thực."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "So sánh JoyLink với các ứng dụng khác biến điện thoại thành tay cầm cho máy tính hay TV theo từng tính năng, chỉ nêu sự thật.",
         "vsDescription": "So sánh {name} và {other} trên Android theo từng tính năng: ứng dụng nhận, tay cầm Bluetooth, bàn di chuột và điều khiển TV, vô lăng, root, quảng cáo và giá.",
         "vsIntro": "Cả hai đều biến điện thoại Android thành tay cầm cho máy tính hay TV. Đây là những điểm khác nhau, từng tính năng một."
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "Kiểm tra tay cầm · Không cần PC",
+      "heroPoints": [
+        "Nút, cần analog, cò, trôi cần và rung trong một bài kiểm tra có hướng dẫn, kèm điểm tình trạng và báo cáo có thể chia sẻ",
+        "Phân tích trôi cần, vùng chết và độ tròn, cùng tốc độ polling và độ trễ đầu vào qua Bluetooth hoặc USB",
+        "Miễn phí, có quảng cáo. Pro là gói mua một lần, bỏ quảng cáo và mở khóa chẩn đoán nâng cao"
+      ],
+      "faqDescription": "Giải đáp về Gamepad Tester Pro: nhận diện và ghép đôi, nút và bố cục, trôi cần và vùng chết, rung, cảm biến chuyển động và bàn di, độ trễ và kiểm tra toàn diện, Pro, quyền riêng tư và khả năng tương thích.",
+      "faqNotFoundBody": "Hãy viết cho chúng tôi, kèm kiểu máy điện thoại, tay cầm và cách bạn kết nối nó. Mọi tin nhắn đều do người thật đọc.",
+      "support": {
+        "beforeItems": [
+          "Mở phần Câu hỏi thường gặp. Phần lớn thắc mắc về nhận diện tay cầm, trôi cần, độ trễ và rung đã được giải đáp ở đó, với cách diễn đạt giống trong ứng dụng.",
+          "Xem Thông tin thiết bị trước. Nếu Android không báo pin, rung, cảm biến chuyển động hay bàn di của tay cầm, ứng dụng không thể kiểm tra những phần đó; Câu hỏi thường gặp có giải thích tay cầm nào cung cấp những gì.",
+          "Ghi lại mẫu tay cầm, kết nối qua Bluetooth hay USB, và bài kiểm tra nào cho kết quả bất thường. Đó chính là thứ chúng tôi cần để tái hiện lỗi."
+        ],
+        "template": {
+          "phone": "Kiểu máy điện thoại:",
+          "android": "Phiên bản Android:",
+          "controller": "Tay cầm (mẫu, Bluetooth hay USB):",
+          "test": "Bài kiểm tra nào, kết quả ra sao:",
+          "what": "Chuyện gì đã xảy ra, từng bước:",
+          "pro": "Đã mua Pro: có / không"
+        },
+        "refundBody": "Gamepad Tester Pro cài đặt miễn phí. Nếu bạn đã mua Pro mà nó không chạy được với thiết bị của bạn, hãy email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền. Hãy cho biết bạn đã thử những gì; điều đó giúp chúng tôi sửa lỗi cho người dùng sau."
+      },
+      "press": {
+        "description": "Dữ kiện, tư liệu và đoạn giới thiệu soạn sẵn để viết về Gamepad Tester Pro, ứng dụng kiểm tra tay cầm và trôi cần cho Android.",
+        "boilerplate": "Gamepad Tester Pro kiểm tra mọi tay cầm Bluetooth, USB hay OTG trên điện thoại hoặc máy tính bảng Android: nút, cần analog, trôi cần, vùng chết, cò, rung, độ trễ đầu vào và tốc độ polling, rồi đưa ra điểm tình trạng cùng báo cáo có thể chia sẻ. Ứng dụng chạy với tay cầm Xbox, PlayStation, Switch Pro và tay cầm phổ thông, không cần PC. Gamepad Tester Pro do DappleByte, một studio độc lập, phát triển.",
+        "priceValue": "Cài đặt miễn phí, có quảng cáo. Các bài kiểm tra cơ bản miễn phí; mua Pro một lần để bỏ quảng cáo và mở khóa chẩn đoán nâng cao, xu hướng tình trạng, xuất CSV và lưu mẫu rung. Không có thuê bao. Giá hiện tại hiển thị trên Google Play.",
+        "assetScreenshots": "Ảnh chụp màn hình điện thoại, PNG, tiếng Anh (dọc 1080 × 1920)"
+      },
+      "videosDescription": "Video ngắn quay Gamepad Tester Pro trên điện thoại thật: kiểm tra toàn diện, cách đọc kết quả trôi cần, kiểm tra độ trễ và kiểm tra rung.",
+      "privacyDescription": "Gamepad Tester Pro cho Android làm gì với dữ liệu của bạn: không cần tài khoản, kết quả kiểm tra chỉ nằm trên điện thoại, SDK phân tích và quảng cáo thu thập những gì, và cách tắt thu thập hoặc yêu cầu xóa dữ liệu.",
+      "compare": {
+        "description": "Gamepad Tester Pro so với các ứng dụng kiểm tra tay cầm khác trên Android, từng tính năng một, chỉ có dữ kiện.",
+        "vsDescription": "So sánh {name} và {other} trên Android, từng tính năng một: kiểm tra nút, phân tích trôi cần, tốc độ polling, rung, báo cáo tình trạng, quảng cáo và giá.",
+        "vsIntro": "Cả hai đều kiểm tra tay cầm chơi game trên điện thoại Android. Đây là những điểm khác nhau, từng tính năng một."
       }
     }
   }

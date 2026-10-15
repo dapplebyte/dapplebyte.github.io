@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Unabhängige Android-Apps",
-    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht; Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4; WhenDo, eine App für KI-Automatisierung mit Auto-Klicker; und JoyLink, das ein Smartphone zu Bluetooth-Gamepad, Touchpad und TV-Fernbedienung macht.",
+    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht; Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4; WhenDo, eine App für KI-Automatisierung mit Auto-Klicker; JoyLink, das ein Smartphone zu Bluetooth-Gamepad, Touchpad und TV-Fernbedienung macht; und Gamepad Tester Pro, das einen Controller auf Stick-Drift, Input-Lag und tote Tasten prüft.",
     "appsHeading": "Apps",
     "principlesHeading": "So arbeiten wir",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "Touchpad, Maus und Tastatur",
       "tv-remote": "TV-Fernbedienung für Android TV, Google TV und Fire TV",
       "racing-wheel": "Lenkrad: Lenken durch Neigen",
-      "custom-layouts": "Bedienelemente verschieben, skalieren und als Layout speichern"
+      "custom-layouts": "Bedienelemente verschieben, skalieren und als Layout speichern",
+      "button-test": "Tasten- und Tastencode-Test in Echtzeit",
+      "drift-analysis": "Analyse von Stick-Drift, Deadzone und Rundheit",
+      "polling-rate": "Messung von Polling-Rate und Input-Lag",
+      "rumble-test": "Vibrationstest für jeden Motor einzeln",
+      "health-report": "Zustandswert mit teilbarem Bericht",
+      "test-history": "Testverlauf und Drift-Trend pro Controller",
+      "led-test": "Lichtleisten-Test (PlayStation über Bluetooth)",
+      "motion-test": "Test für Gyroskop und Beschleunigungssensor",
+      "touchpad-test": "Touchpad-Test"
     },
     "values": {
       "yes": "Ja",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 und PS4 sind Marken von Sony Interactive Entertainment Inc. {name} steht in keiner Verbindung zu Sony und wird von Sony weder unterstützt noch gebilligt.",
-    "hosts": "Windows und Xbox sind Marken von Microsoft; Mac, iPhone und iPad von Apple; PlayStation von Sony Interactive Entertainment; Nintendo Switch von Nintendo; Android, Android TV und Google TV von Google; Fire TV von Amazon; Steam von Valve; Raspberry Pi von Raspberry Pi Ltd. {name} steht mit keinem dieser Unternehmen in Verbindung und wird von keinem von ihnen unterstützt oder gebilligt."
+    "hosts": "Windows und Xbox sind Marken von Microsoft; Mac, iPhone und iPad von Apple; PlayStation von Sony Interactive Entertainment; Nintendo Switch von Nintendo; Android, Android TV und Google TV von Google; Fire TV von Amazon; Steam von Valve; Raspberry Pi von Raspberry Pi Ltd. {name} steht mit keinem dieser Unternehmen in Verbindung und wird von keinem von ihnen unterstützt oder gebilligt.",
+    "controllers": "Xbox ist eine Marke von Microsoft; PlayStation, DualShock und DualSense von Sony Interactive Entertainment; Nintendo Switch von Nintendo. {name} steht mit keinem dieser Unternehmen in Verbindung und wird von keinem von ihnen unterstützt oder gebilligt."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "JoyLink im Vergleich mit anderen Apps, die ein Smartphone zum Controller für Computer oder Fernseher machen: Funktion für Funktion, nur Fakten.",
         "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Empfänger-App, Bluetooth-Gamepad, Touchpad und TV-Fernbedienung, Lenkrad, Root, Werbung und Preis.",
         "vsIntro": "Beide machen ein Android-Smartphone zum Controller für Computer oder Fernseher. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "Controller-Tester · Ohne PC",
+      "heroPoints": [
+        "Tasten, Sticks, Trigger, Stick-Drift und Vibration in einem geführten Test, mit Zustandswert und teilbarem Bericht",
+        "Analyse von Stick-Drift, Deadzone und Rundheit, dazu Polling-Rate und Input-Lag über Bluetooth oder USB",
+        "Kostenlos mit Werbung. Pro ist ein Einmalkauf, der die Werbung entfernt und die erweiterte Diagnose freischaltet"
+      ],
+      "faqDescription": "Antworten zu Gamepad Tester Pro: Erkennung und Koppeln, Tasten und Layouts, Stick-Drift und Deadzone, Vibration, Bewegungssensoren und Touchpad, Latenz und Komplett-Test, Pro, Datenschutz und Kompatibilität.",
+      "faqNotFoundBody": "Schreiben Sie uns, welches Telefon und welchen Controller Sie nutzen und wie er verbunden ist. Jede Nachricht liest ein Mensch.",
+      "support": {
+        "beforeItems": [
+          "Öffnen Sie die FAQ. Die meisten Fragen zu Erkennung, Drift, Latenz und Vibration sind dort beantwortet, im selben Wortlaut wie in der App.",
+          "Sehen Sie zuerst in der Geräteinfo nach. Meldet Android für Ihren Controller keinen Akku, keine Vibration, keine Bewegungssensoren oder kein Touchpad, kann die App sie nicht testen; in der FAQ steht, welcher Controller was bereitstellt.",
+          "Notieren Sie das Controller-Modell, ob er per Bluetooth oder USB verbunden ist und welcher Test ein unerwartetes Ergebnis geliefert hat. Genau das brauchen wir, um das Problem nachzustellen."
+        ],
+        "template": {
+          "phone": "Telefonmodell:",
+          "android": "Android-Version:",
+          "controller": "Controller (Modell, Bluetooth oder USB):",
+          "test": "Welcher Test, mit welchem Ergebnis:",
+          "what": "Was ist passiert, Schritt für Schritt:",
+          "pro": "Pro gekauft: ja / nein"
+        },
+        "refundBody": "Gamepad Tester Pro ist kostenlos installierbar. Wenn Sie Pro gekauft haben und es mit Ihrem Setup nicht funktioniert, schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf, und wir erstatten den Betrag. Erzählen Sie uns, was Sie versucht haben; das hilft uns, das Problem für die Nächsten zu beheben."
+      },
+      "press": {
+        "description": "Fakten, Material und ein Standardtext für Berichte über Gamepad Tester Pro, den Controller- und Stick-Drift-Tester für Android.",
+        "boilerplate": "Gamepad Tester Pro prüft jeden Bluetooth-, USB- oder OTG-Controller an einem Android-Smartphone oder -Tablet: Tasten, Analogsticks, Stick-Drift, Deadzone, Trigger, Vibration, Input-Lag und Polling-Rate, und liefert danach einen Zustandswert und einen teilbaren Bericht. Die App funktioniert mit Xbox-, PlayStation-, Switch-Pro- und generischen Controllern und braucht keinen PC. Sie stammt von DappleByte, einem unabhängigen Studio.",
+        "priceValue": "Kostenlos installierbar, mit Werbung. Die Grundtests sind kostenlos; ein einmaliger Pro-Kauf entfernt die Werbung und schaltet erweiterte Diagnose, Zustandstrends, CSV-Export und gespeicherte Vibrationsmuster frei. Ein Abo gibt es nicht. Den aktuellen Preis finden Sie bei Google Play.",
+        "assetScreenshots": "Smartphone-Screenshots, PNG, 1080 × 1920, Englisch"
+      },
+      "videosDescription": "Kurze Videos, die Gamepad Tester Pro auf einem echten Telefon zeigen: den Komplett-Test, wie man ein Stick-Drift-Ergebnis liest, den Latenztest und den Vibrationstest.",
+      "privacyDescription": "Was Gamepad Tester Pro für Android mit Ihren Daten macht: kein Konto, Testergebnisse, die auf dem Telefon bleiben, was die Analyse- und Werbe-SDKs erfassen und wie Sie widersprechen oder die Löschung beantragen.",
+      "compare": {
+        "description": "Gamepad Tester Pro im Vergleich mit anderen Controller-Tester-Apps für Android: Funktion für Funktion, nur Fakten.",
+        "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Tastentest, Stick-Drift-Analyse, Polling-Rate, Vibration, Zustandsbericht, Werbung und Preis.",
+        "vsIntro": "Beide testen einen Gamecontroller an einem Android-Smartphone. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
       }
     }
   }

@@ -1,0 +1,47 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "pl",
+  "entries": [
+    {
+      "code": 125,
+      "name": "1.2.5",
+      "date": "2026-10-13",
+      "items": [
+        "Naprawiono awarię na Androidzie 12, gdy kontroler rozłączał się przy otwartej aplikacji",
+        "Naprawiono zawieszanie się testu LED podczas przeciągania wyboru koloru",
+        "Naprawiono zawieszanie się strony pełnego testu po połączeniu kontrolera Bluetooth",
+        "Naprawiono brak reakcji gałek, D-pada i triggerów na niektórych kontrolerach (DualShock, DualSense), mimo że przyciski działały"
+      ]
+    },
+    {
+      "code": 124,
+      "name": "1.2.4",
+      "date": "2026-09-18",
+      "items": [
+        "Nowy test diody LED: ustaw kolor paska świetlnego i uruchom test jednolitego koloru, przejścia barw i oddychania, by wyłapać martwe punkty, przebarwienia lub migotanie",
+        "Wymaga DualShock 4 lub DualSense przez Bluetooth i Androida 12+. Przewodowe pady PS, Xbox i inne dostają teraz jasne wyjaśnienie zamiast niedziałającego wyboru koloru",
+        "Polling rate nie jest już zaniżany, a progi ocen dostrojono do rzeczywistych pomiarów na Androidzie"
+      ]
+    },
+    {
+      "code": 123,
+      "name": "1.2.3",
+      "date": "2026-09-13",
+      "items": [
+        "Każdy pomiar dostaje teraz ocenę (Świetny / Dobry / Przeciętny / Słaby) i zrozumiały werdykt, a tabela referencyjna pokazuje, gdzie plasuje się Twój pad",
+        "Obejmuje dead zone, drift, okrągłość, skok triggera, polling rate i jitter",
+        "Prośba o ocenę pojawia się dopiero po faktycznym przetestowaniu kontrolera i nie wyskakuje po nieudanym teście"
+      ]
+    },
+    {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-09-07",
+      "items": [
+        "Mniejszy rozmiar aplikacji – szybsze pobieranie i instalacja",
+        "Optymalizacje pod maską dla płynniejszego i stabilniejszego działania"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

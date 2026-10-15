@@ -1,0 +1,30 @@
+{
+  "slug": "gamepad-tester",
+  "name": "Gamepad Tester Pro",
+  "order": 5,
+  "status": "live",
+  "platform": "Android",
+  "applicationId": "com.dylan.gamepad.tester.pro",
+  "playUrl": "https://play.google.com/store/apps/details?id=com.dylan.gamepad.tester.pro",
+  "category": "UtilitiesApplication",
+  "minOs": "Android 6",
+  "versions": [
+    { "code": 122, "name": "1.2.2", "date": "2026-09-07" },
+    { "code": 123, "name": "1.2.3", "date": "2026-09-13" },
+    { "code": 124, "name": "1.2.4", "date": "2026-09-18" },
+    { "code": 125, "name": "1.2.5", "date": "2026-10-13" }
+  ],
+  "contactEmail": "feedback@dapplebyte.com",
+  "accent": { "solid": "#1CCB95", "bright": "#3DDFA8", "ink": "#05110D" },
+  "screenshotCount": 5,
+  "screenshotOrientation": "portrait",
+  "featuredFaq": ["no_device_detected", "how_drift_measured", "drift_threshold", "what_latency_measures", "no_vibration", "pro_subscription"],
+  "trademark": "controllers",
+  "languages": 17,
+  "overview": {
+    "useCases": "use-cases",
+    "cells": ["controller-info", "please-note"],
+    "privacyLinkIn": "please-note",
+    "fine": "support"
+  }
+}

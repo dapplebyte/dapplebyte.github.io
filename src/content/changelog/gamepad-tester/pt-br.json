@@ -1,0 +1,47 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "pt-br",
+  "entries": [
+    {
+      "code": 125,
+      "name": "1.2.5",
+      "date": "2026-10-13",
+      "items": [
+        "Corrigido o fechamento inesperado no Android 12 quando o controle era desconectado com o app aberto",
+        "Corrigido o travamento do Teste de luz LED ao arrastar o seletor de cor",
+        "Corrigido o travamento da tela do Teste completo ao conectar um controle Bluetooth",
+        "Corrigidos analógicos, direcional e gatilhos sem resposta em alguns controles (DualShock, DualSense), mesmo com os botões funcionando"
+      ]
+    },
+    {
+      "code": 124,
+      "name": "1.2.4",
+      "date": "2026-09-18",
+      "items": [
+        "Novo teste de LED: defina a cor da barra de luz e rode os testes de cor sólida, degradê e respiração para achar pontos apagados, cor puxada ou cintilação",
+        "Precisa de DualShock 4 ou DualSense por Bluetooth, Android 12+. No PS com cabo, Xbox e outros controles agora aparece a explicação em vez de um seletor que não funciona",
+        "A taxa de polling não é mais medida abaixo do real e os limites de nota foram reajustados"
+      ]
+    },
+    {
+      "code": 123,
+      "name": "1.2.3",
+      "date": "2026-09-13",
+      "items": [
+        "Cada medição agora traz uma avaliação (Excelente / Bom / Razoável / Ruim) com um comentário claro e uma tabela de referência para situar seu controle",
+        "Cobre zona morta, deriva, circularidade, curso do gatilho, taxa de polling e jitter",
+        "O convite para avaliar só aparece depois de você testar de verdade um controle, e fica em silêncio se o teste falhar"
+      ]
+    },
+    {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-09-07",
+      "items": [
+        "Tamanho do app reduzido: download e instalação mais rápidos",
+        "Otimizações internas para um desempenho mais fluido e estável"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

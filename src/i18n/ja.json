@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · 独立系スタジオの Android アプリ",
-    "description": "DappleByte は Android アプリをつくっている独立系スタジオです。コントローラーをタッチ操作に変えるキーマッピングアプリ Gamepad Pro、PS5・PS4 向けのリモートプレイ用コントローラー兼ゲーム機ストリーミングアプリ Relaypad、AI 自動化と連続クリック（オートクリッカー）のアプリ WhenDo、そしてスマホを Bluetooth ゲームパッド・タッチパッド・テレビリモコンに変える JoyLink を開発しています。",
+    "description": "DappleByte は Android アプリをつくっている独立系スタジオです。コントローラーをタッチ操作に変えるキーマッピングアプリ Gamepad Pro、PS5・PS4 向けのリモートプレイ用コントローラー兼ゲーム機ストリーミングアプリ Relaypad、AI 自動化と連続クリック（オートクリッカー）のアプリ WhenDo、スマホを Bluetooth ゲームパッド・タッチパッド・テレビリモコンに変える JoyLink、そしてコントローラーのスティックドリフト・入力遅延・反応しないボタンをチェックする Gamepad Tester Pro を開発しています。",
     "appsHeading": "アプリ",
     "principlesHeading": "大切にしていること",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "タッチパッド・マウス・キーボード",
       "tv-remote": "Android TV・Google TV・Fire TV 用のテレビリモコン",
       "racing-wheel": "傾けて操作するハンドル",
-      "custom-layouts": "ボタン配置の移動・サイズ変更・保存"
+      "custom-layouts": "ボタン配置の移動・サイズ変更・保存",
+      "button-test": "ボタンとキーコードのリアルタイムテスト",
+      "drift-analysis": "スティックドリフト・デッドゾーン・真円度の分析",
+      "polling-rate": "ポーリングレートと入力遅延の測定",
+      "rumble-test": "モーターごとの振動テスト",
+      "health-report": "ヘルススコアと共有できるレポート",
+      "test-history": "コントローラーごとのテスト履歴とドリフトの推移",
+      "led-test": "ライトバーのテスト（PlayStation、Bluetooth 接続時）",
+      "motion-test": "ジャイロスコープと加速度センサーのテスト",
+      "touchpad-test": "タッチパッドテスト"
     },
     "values": {
       "yes": "あり",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation、PS5、PS4 は Sony Interactive Entertainment Inc. の商標です。{name} は Sony と提携しておらず、Sony の承認を受けたものでもありません。",
-    "hosts": "Windows と Xbox は Microsoft の、Mac、iPhone、iPad は Apple の、PlayStation は Sony Interactive Entertainment の、Nintendo Switch は Nintendo の、Android、Android TV、Google TV は Google の、Fire TV は Amazon の、Steam は Valve の、Raspberry Pi は Raspberry Pi Ltd の商標です。{name} はこれらのいずれの企業とも提携しておらず、承認を受けたものでもありません。"
+    "hosts": "Windows と Xbox は Microsoft の、Mac、iPhone、iPad は Apple の、PlayStation は Sony Interactive Entertainment の、Nintendo Switch は Nintendo の、Android、Android TV、Google TV は Google の、Fire TV は Amazon の、Steam は Valve の、Raspberry Pi は Raspberry Pi Ltd の商標です。{name} はこれらのいずれの企業とも提携しておらず、承認を受けたものでもありません。",
+    "controllers": "Xbox は Microsoft の、PlayStation、DualShock、DualSense は Sony Interactive Entertainment の、Nintendo Switch は Nintendo の商標です。{name} はこれらのいずれの企業とも提携しておらず、承認を受けたものでもありません。"
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "JoyLink を、スマホをパソコンやテレビのコントローラーにするほかのアプリと機能ごとに比較しました。事実だけをまとめています。",
         "vsDescription": "Android の {name} と {other} を機能ごとに比較：受信アプリ、Bluetooth ゲームパッド、タッチパッドとテレビリモコン、ハンドル、root、広告、料金。",
         "vsIntro": "どちらも Android スマホをパソコンやテレビのコントローラーにするアプリです。違いを機能ごとにまとめました。"
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "コントローラーテスター · PC 不要",
+      "heroPoints": [
+        "ボタン、スティック、トリガー、スティックドリフト、振動をガイドに沿ってまとめてテスト。ヘルススコアと共有できるレポートも作成します",
+        "スティックドリフト、デッドゾーン、真円度の分析に加え、Bluetooth や USB 接続でのポーリングレートと入力遅延も測定できます",
+        "無料（広告あり）。Pro は買い切りで、広告がなくなり、詳細診断も使えるようになります"
+      ],
+      "faqDescription": "Gamepad Tester Pro についての回答：検出とペアリング、ボタンと配置、スティックドリフトとデッドゾーン、振動・モーション・タッチパッド、遅延と完全テスト、Pro、プライバシーと対応状況。",
+      "faqNotFoundBody": "スマートフォンの機種、コントローラー、接続方法を書いてお送りください。すべてのメッセージを人が読んでいます。",
+      "support": {
+        "beforeItems": [
+          "まずよくある質問を開いてください。検出、ドリフト、遅延、振動についての質問はほとんど、アプリ内と同じ文面でそこに回答があります。",
+          "デバイス情報もあらかじめ確認してください。お使いのコントローラーのバッテリー、振動、モーションセンサー、タッチパッドを Android が認識していない場合、アプリではテストできません。どのコントローラーが何に対応しているかは、よくある質問で説明しています。",
+          "コントローラーの機種、Bluetooth と USB のどちらで接続しているか、どのテストで想定外の結果が出たかをメモしておいてください。問題を再現するのに必要な情報です。"
+        ],
+        "template": {
+          "phone": "スマートフォンの機種：",
+          "android": "Android のバージョン：",
+          "controller": "コントローラー（機種、Bluetooth / USB）：",
+          "test": "実行したテストとその結果：",
+          "what": "何が起きたか（手順を順番に）：",
+          "pro": "Pro の購入：あり / なし"
+        },
+        "refundBody": "Gamepad Tester Pro は無料でインストールできます。Pro を購入したのにお使いの環境で動かない場合は、購入から 7 日以内にメールをいただければ返金します。試したことも教えてください。次の方のための修正に役立ちます。"
+      },
+      "press": {
+        "description": "Android 向けのコントローラー・スティックドリフト診断アプリ Gamepad Tester Pro を紹介するための基本情報、素材、紹介文。",
+        "boilerplate": "Gamepad Tester Pro は、Android スマホやタブレットに Bluetooth・USB・OTG で接続したコントローラーをチェックするアプリです。ボタン、アナログスティック、スティックドリフト、デッドゾーン、トリガー、振動、入力遅延、ポーリングレートを調べ、ヘルススコアと共有できるレポートを作成します。Xbox、PlayStation、Switch Pro、汎用コントローラーに対応し、PC は必要ありません。独立系スタジオの DappleByte が開発しています。",
+        "priceValue": "無料でインストールでき、広告が表示されます。基本のテストは無料です。Pro を一度購入すると広告がなくなり、詳細診断、ヘルススコアの推移、CSV 書き出し、振動パターンの保存が使えるようになります。サブスクはありません。現在の価格は Google Play でご確認ください。",
+        "assetScreenshots": "スマートフォンのスクリーンショット、PNG、英語（縦 1080 × 1920）"
+      },
+      "videosDescription": "実際のスマートフォンで Gamepad Tester Pro を使う短い動画：完全テスト、スティックドリフト結果の見方、遅延テスト、振動テスト。",
+      "privacyDescription": "Android 版 Gamepad Tester Pro があなたのデータをどう扱うか：アカウント不要、テスト結果は端末内に保存されること、アナリティクスと広告の SDK が収集する内容、オプトアウトや削除依頼の方法。",
+      "compare": {
+        "description": "Gamepad Tester Pro を、Android のほかのコントローラーテストアプリと機能ごとに比較しました。事実だけをまとめています。",
+        "vsDescription": "Android の {name} と {other} を機能ごとに比較：ボタンテスト、スティックドリフト分析、ポーリングレート、振動、ヘルスレポート、広告、料金。",
+        "vsIntro": "どちらも Android スマホでゲームコントローラーをテストするアプリです。違いを機能ごとにまとめました。"
       }
     }
   }

@@ -1,0 +1,122 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "it",
+  "title": "Gamepad Tester Pro: Controller",
+  "shortDescription": "Test controller: drift stick, zona morta, tasti, input lag, vibrazione",
+  "tagline": "Test controller, joystick e drift degli stick per Android",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Test controller, joystick e drift degli stick per Android",
+      "paragraphs": [
+        "Prova qualsiasi gamepad Bluetooth, USB o OTG da telefono o tablet Android in pochi secondi. Gamepad Tester Pro è un tester per controller completo: pulsanti, stick analogici, drift degli stick, zona morta, grilletti, vibrazione, input lag e polling rate, con punteggio di salute e report condivisibile. Funziona con Xbox, PlayStation (DualShock 4, DualSense), Switch Pro e controller generici."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Come viene usata più spesso",
+      "paragraphs": [],
+      "bullets": [
+        "Controllare drift e zona morta prima di comprare o vendere un controller usato",
+        "Verificare un gamepad nuovo prima che scadano reso o garanzia",
+        "Individuare input persi, doppie pressioni, tasti bloccati o un grilletto morto",
+        "Confrontare polling rate e input lag tra Bluetooth e USB prima di una ranked"
+      ]
+    },
+    {
+      "id": "full-test",
+      "title": "Test completo del controller e punteggio di salute",
+      "paragraphs": [],
+      "bullets": [
+        "Test guidato di pulsanti, D-pad, stick analogici, grilletti L2/R2, drift e vibrazione",
+        "Punteggio complessivo con esito per voce, salvato nella cronologia dei test",
+        "Report visivo da esportare e condividere per assistenza, riparazione o vendita"
+      ]
+    },
+    {
+      "id": "button-test",
+      "title": "Test dei pulsanti e test del joystick in tempo reale",
+      "paragraphs": [],
+      "bullets": [
+        "Ogni pressione, rilascio e key code Android visibili all'istante",
+        "Entrambi gli stick, assi, D-pad e pressione analogica dei grilletti a schermo",
+        "Layout per Xbox, PlayStation, gamepad generici e telecomandi TV"
+      ]
+    },
+    {
+      "id": "stick-drift",
+      "title": "Test del drift degli stick, zona morta e circolarità",
+      "paragraphs": [],
+      "bullets": [
+        "Posizione dello stick in tempo reale, scostamento a riposo e zona morta",
+        "Analisi avanzata: copertura, errore di circolarità, raggio, stima della zona morta"
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Input lag, latenza e polling rate",
+      "paragraphs": [],
+      "bullets": [
+        "Polling rate stimato in Hz, intervallo di input medio, minimo e massimo",
+        "Campionamento avanzato: jitter, istogramma intervalli, Bluetooth e USB, export CSV"
+      ]
+    },
+    {
+      "id": "vibration",
+      "title": "Test di vibrazione e studio del rumble",
+      "paragraphs": [],
+      "bullets": [
+        "Prova separatamente l'intensità dei motori sinistro e destro",
+        "Studio della vibrazione: crea schemi multi-segmento per i due motori, in loop e salvabili"
+      ]
+    },
+    {
+      "id": "led",
+      "title": "Test LED (PlayStation via Bluetooth)",
+      "paragraphs": [],
+      "bullets": [
+        "Imposta il colore della light bar, poi avvia i test a tinta unita, sfumatura e respiro",
+        "Individua zone spente, dominanti di colore, scatti o sfarfallio",
+        "Richiede DualShock 4 o DualSense via Bluetooth, Android 12+. Con PS via cavo, Xbox e altri controller Android non apre la luce: l'app spiega il motivo invece di mostrare un selettore che non fa nulla."
+      ]
+    },
+    {
+      "id": "motion-touchpad",
+      "title": "Giroscopio, touchpad e confronto tra controller",
+      "paragraphs": [],
+      "bullets": [
+        "Giroscopio, accelerometro e livella per DualShock 4, DualSense, Switch Pro (Android 12+)",
+        "Test del touchpad con tracce multi-touch e contatore pressioni"
+      ]
+    },
+    {
+      "id": "controller-info",
+      "title": "Info controller e andamento dello stato",
+      "paragraphs": [
+        "Mostra marca, nome, Vendor ID, Product ID, connessione, assi, numero di pulsanti, vibrazione e batteria quando vengono comunicati. La cronologia segue punteggio e drift di ogni controller: noti in anticipo uno stick che cede."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Da sapere",
+      "paragraphs": [],
+      "bullets": [
+        "Le funzioni dipendono dal modello di controller, dalla connessione, dalla versione di Android e dal telefono. Alcuni controller non comunicano ad Android batteria, vibrazione, sensori o touchpad.",
+        "L'app legge solo gli input. Non può rimappare i pulsanti, aggiornare il firmware o riparare l'hardware.",
+        "I test principali si usano senza pagare, con pubblicità. Pro è un acquisto una tantum: niente pubblicità, più diagnostica avanzata, andamento dello stato, export CSV e schemi di vibrazione salvati.",
+        "Xbox, PlayStation, DualShock, DualSense e Nintendo Switch sono marchi dei rispettivi proprietari. Questa app non è affiliata a Microsoft, Sony o Nintendo."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Qualcosa non funziona?",
+      "paragraphs": [
+        "Se il controller non viene rilevato o un risultato sembra sbagliato, scrivici a feedback@dapplebyte.com prima di lasciare una recensione. Indicaci modello di controller e telefono e ti aiutiamo. Quasi tutto si risolve con il prossimo aggiornamento."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

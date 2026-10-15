@@ -1,0 +1,122 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "fr",
+  "title": "Gamepad Tester Pro : Manette",
+  "shortDescription": "Test manette : drift du stick, zone morte, boutons, input lag, vibration",
+  "tagline": "Test de manette, joystick et drift du stick sur Android",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Test de manette, joystick et drift du stick sur Android",
+      "paragraphs": [
+        "Testez toute manette Bluetooth, USB ou OTG sur téléphone ou tablette Android en quelques secondes. Gamepad Tester Pro est un testeur de manette complet : boutons, sticks analogiques, drift du stick, zone morte, gâchettes, vibration, input lag et polling rate, avec score d'état et rapport à partager. Compatible Xbox, PlayStation (DualShock 4, DualSense), Switch Pro et manettes génériques."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Les usages les plus fréquents",
+      "paragraphs": [],
+      "bullets": [
+        "Vérifier drift du stick et zone morte avant d'acheter ou de vendre une manette d'occasion",
+        "Contrôler une manette neuve avant la fin du retour ou de la garantie",
+        "Repérer entrées perdues, doubles appuis, bouton collant ou gâchette morte",
+        "Comparer polling rate et latence en Bluetooth et USB avant une partie classée"
+      ]
+    },
+    {
+      "id": "full-test",
+      "title": "Test complet de la manette et score d'état",
+      "paragraphs": [],
+      "bullets": [
+        "Test guidé : boutons, croix, sticks, gâchettes L2/R2, drift et vibration",
+        "Score global et détail par élément, gardés dans l'historique des tests",
+        "Rapport visuel à exporter et partager : SAV, réparation ou annonce de revente"
+      ]
+    },
+    {
+      "id": "button-test",
+      "title": "Test des boutons et test du joystick en direct",
+      "paragraphs": [],
+      "bullets": [
+        "Chaque appui, relâchement et key code Android affiché aussitôt",
+        "Les deux sticks, les axes, la croix et la pression des gâchettes",
+        "Interfaces dédiées : Xbox, PlayStation, manettes génériques, télécommandes TV"
+      ]
+    },
+    {
+      "id": "stick-drift",
+      "title": "Test de drift du stick, zone morte et circularité",
+      "paragraphs": [],
+      "bullets": [
+        "Position du stick en direct, écart au repos et repère de zone morte",
+        "Analyse avancée : couverture, erreur de circularité, rayon, estimation de zone morte"
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Input lag, latence et polling rate",
+      "paragraphs": [],
+      "bullets": [
+        "Polling rate estimé en Hz, intervalle d'entrée moyen, minimal et maximal",
+        "Mesure avancée : jitter, histogramme des intervalles, Bluetooth / USB, export CSV"
+      ]
+    },
+    {
+      "id": "vibration",
+      "title": "Test de vibration et studio de rumble",
+      "paragraphs": [],
+      "bullets": [
+        "Tester séparément la puissance des moteurs gauche et droit",
+        "Studio de vibration : motifs multi-segments sur les deux moteurs, à boucler et enregistrer"
+      ]
+    },
+    {
+      "id": "led",
+      "title": "Test de LED (PlayStation en Bluetooth)",
+      "paragraphs": [],
+      "bullets": [
+        "Réglez la couleur de la barre lumineuse, puis lancez les tests couleur unie, dégradé et respiration",
+        "Repérez points morts, dominante de couleur, sauts ou scintillement",
+        "Nécessite une DualShock 4 ou DualSense en Bluetooth, Android 12+. En USB sur PS, sur Xbox et les autres manettes, Android n'ouvre pas la LED : l'appli explique pourquoi au lieu d'afficher un sélecteur inutile."
+      ]
+    },
+    {
+      "id": "motion-touchpad",
+      "title": "Gyroscope, pavé tactile et comparaison de manettes",
+      "paragraphs": [],
+      "bullets": [
+        "Gyroscope, accéléromètre et inclinaison pour DualShock 4, DualSense, Switch Pro (Android 12+)",
+        "Test du pavé tactile avec tracés multi-touch et compteur d'appuis"
+      ]
+    },
+    {
+      "id": "controller-info",
+      "title": "Infos manette et suivi de l'état",
+      "paragraphs": [
+        "Affiche marque, nom, Vendor ID, Product ID, type de connexion, axes, nombre de boutons, vibration et batterie quand la manette les transmet. L'historique suit le score et le drift manette par manette : un stick qui faiblit se repère tôt."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "À noter",
+      "paragraphs": [],
+      "bullets": [
+        "Les fonctions dépendent de la manette, de la connexion, de la version d'Android et du téléphone. Certaines manettes ne transmettent ni batterie, ni vibration, ni capteurs, ni pavé tactile.",
+        "L'app lit seulement les entrées. Elle ne peut pas remapper les boutons, mettre à jour un firmware ni réparer le matériel.",
+        "Les tests principaux s'utilisent sans payer, avec publicité. Pro est un achat unique : sans publicité, diagnostics avancés, suivi de l'état, export CSV et motifs de vibration enregistrés.",
+        "Xbox, PlayStation, DualShock, DualSense et Nintendo Switch sont des marques de leurs propriétaires respectifs. Cette app n'est pas affiliée à Microsoft, Sony ou Nintendo."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Un souci ?",
+      "paragraphs": [
+        "Si votre manette n'est pas détectée ou qu'un résultat semble faux, écrivez-nous à feedback@dapplebyte.com avant de laisser un avis. Précisez vos modèles de manette et téléphone, nous vous aiderons. La plupart se règlent dès la mise à jour suivante."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

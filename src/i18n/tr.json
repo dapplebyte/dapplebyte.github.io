@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Bağımsız Android uygulamaları",
-    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo, bir de telefonu Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çeviren JoyLink var.",
+    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo, telefonu Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çeviren JoyLink, bir de oyun kolunda çubuk kayması, giriş gecikmesi ve çalışmayan tuş olup olmadığını kontrol eden Gamepad Tester Pro var.",
     "appsHeading": "Uygulamalar",
     "principlesHeading": "Nasıl çalışıyoruz",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "Dokunmatik yüzey, fare ve klavye",
       "tv-remote": "Android TV, Google TV ve Fire TV için TV kumandası",
       "racing-wheel": "Eğerek yönlendirilen direksiyon",
-      "custom-layouts": "Kontrol yerleşimlerini taşıma, boyutlandırma ve kaydetme"
+      "custom-layouts": "Kontrol yerleşimlerini taşıma, boyutlandırma ve kaydetme",
+      "button-test": "Gerçek zamanlı tuş ve tuş kodu testi",
+      "drift-analysis": "Çubuk kayması, ölü bölge ve dairesellik analizi",
+      "polling-rate": "Sorgulama hızı ve giriş gecikmesi ölçümü",
+      "rumble-test": "Her motor için ayrı titreşim testi",
+      "health-report": "Paylaşılabilir raporla sağlık puanı",
+      "test-history": "Test geçmişi ve oyun kolu başına kayma eğilimi",
+      "led-test": "Işık çubuğu testi (Bluetooth ile PlayStation)",
+      "motion-test": "Jiroskop ve ivmeölçer testi",
+      "touchpad-test": "Dokunmatik yüzey testi"
     },
     "values": {
       "yes": "Evet",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 ve PS4, Sony Interactive Entertainment Inc. şirketinin ticari markalarıdır. {name}, Sony ile bağlantılı değildir ve Sony tarafından onaylanmamıştır.",
-    "hosts": "Windows ve Xbox, Microsoft'un; Mac, iPhone ve iPad, Apple'ın; PlayStation, Sony Interactive Entertainment'ın; Nintendo Switch, Nintendo'nun; Android, Android TV ve Google TV, Google'ın; Fire TV, Amazon'un; Steam, Valve'ın; Raspberry Pi, Raspberry Pi Ltd.'nin ticari markalarıdır. {name}, bu şirketlerin hiçbiriyle bağlantılı değildir ve hiçbiri tarafından onaylanmamıştır."
+    "hosts": "Windows ve Xbox, Microsoft'un; Mac, iPhone ve iPad, Apple'ın; PlayStation, Sony Interactive Entertainment'ın; Nintendo Switch, Nintendo'nun; Android, Android TV ve Google TV, Google'ın; Fire TV, Amazon'un; Steam, Valve'ın; Raspberry Pi, Raspberry Pi Ltd.'nin ticari markalarıdır. {name}, bu şirketlerin hiçbiriyle bağlantılı değildir ve hiçbiri tarafından onaylanmamıştır.",
+    "controllers": "Xbox, Microsoft'un; PlayStation, DualShock ve DualSense, Sony Interactive Entertainment'ın; Nintendo Switch, Nintendo'nun ticari markalarıdır. {name}, bu şirketlerin hiçbiriyle bağlantılı değildir ve hiçbiri tarafından onaylanmamıştır."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "JoyLink'in, telefonu bilgisayar veya TV için kumandaya çeviren diğer uygulamalarla özellik özellik karşılaştırması, yalnızca gerçekler.",
         "vsDescription": "Android'de {name} ve {other} özellik özellik karşılaştırması: alıcı uygulama, Bluetooth oyun kolu, dokunmatik yüzey ve TV kumandası, direksiyon, root, reklamlar ve fiyat.",
         "vsIntro": "İkisi de Android telefonu bilgisayar veya TV için bir kumandaya çevirir. Farkları özellik özellik burada."
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "Oyun kolu testi · PC gerekmez",
+      "heroPoints": [
+        "Tuşlar, çubuklar, tetikler, çubuk kayması ve titreşim tek bir yönlendirmeli testte; sonunda sağlık puanı ve paylaşılabilir bir rapor",
+        "Çubuk kayması, ölü bölge ve dairesellik analizi; ayrıca Bluetooth veya USB üzerinden sorgulama hızı ve giriş gecikmesi ölçümü",
+        "Ücretsiz, reklamlı. Pro tek seferlik bir satın alımdır: reklamları kaldırır ve gelişmiş tanılamanın kilidini açar"
+      ],
+      "faqDescription": "Gamepad Tester Pro hakkında yanıtlar: algılama ve eşleştirme, tuşlar ve düzenler, çubuk kayması ve ölü bölge, titreşim, hareket sensörleri ve dokunmatik yüzey, gecikme ve Tam Test, Pro, gizlilik ve uyumluluk.",
+      "faqNotFoundBody": "Telefon modelinizi, oyun kolunuzu ve nasıl bağlı olduğunu yazarak bize ulaşın. Her mesajı gerçek bir insan okur.",
+      "support": {
+        "beforeItems": [
+          "Önce SSS'ye bakın. Algılama, kayma, gecikme ve titreşimle ilgili soruların çoğunun yanıtı orada, uygulamadaki ifadelerle.",
+          "Önce Cihaz bilgisi ekranına bakın. Android oyun kolunuz için pil, titreşim, hareket sensörü veya dokunmatik yüzey bildirmiyorsa uygulama bunları test edemez; hangi kolun neyi sunduğunu SSS'de bulabilirsiniz.",
+          "Oyun kolunuzun modelini, Bluetooth ile mi USB ile mi bağlı olduğunu ve hangi testin beklenmedik bir sonuç verdiğini not edin. Sorunu yeniden oluşturmak için tam olarak buna ihtiyacımız var."
+        ],
+        "template": {
+          "phone": "Telefon modeli:",
+          "android": "Android sürümü:",
+          "controller": "Oyun kolu (model, Bluetooth mu USB mi):",
+          "test": "Hangi test ve sonuç ne oldu:",
+          "what": "Ne oldu, adım adım:",
+          "pro": "Pro satın alındı mı: evet / hayır"
+        },
+        "refundBody": "Gamepad Tester Pro ücretsiz kurulur. Pro satın aldıysanız ve sizin kurulumunuzla çalışmıyorsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi anlatın; sorunu bir sonraki kişi için düzeltmemize yardımcı olur."
+      },
+      "press": {
+        "description": "Android için oyun kolu ve çubuk kayması test uygulaması Gamepad Tester Pro hakkında yazmak için bilgiler, görseller ve hazır tanıtım metni.",
+        "boilerplate": "Gamepad Tester Pro, Android telefon veya tablette Bluetooth, USB ya da OTG ile bağlı her oyun kolunu test eder: tuşlar, analog çubuklar, çubuk kayması, ölü bölge, tetikler, titreşim, giriş gecikmesi ve sorgulama hızı; ardından bir sağlık puanı ve paylaşılabilir bir rapor sunar. Xbox, PlayStation, Switch Pro ve genel oyun kollarıyla çalışır, PC gerekmez. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilir.",
+        "priceValue": "Ücretsiz kurulur, reklam içerir. Temel testler ücretsizdir; tek seferlik Pro satın alımı reklamları kaldırır ve gelişmiş tanılama, sağlık eğilimi, CSV dışa aktarma ve kayıtlı titreşim desenlerinin kilidini açar. Abonelik yoktur. Güncel fiyat Google Play'de gösterilir.",
+        "assetScreenshots": "Telefon ekran görüntüleri, PNG, İngilizce (dikey 1080 × 1920)"
+      },
+      "videosDescription": "Gamepad Tester Pro'yu gerçek bir telefonda gösteren kısa videolar: Tam Test, çubuk kayması sonucunu okuma, gecikme testi ve titreşim testi.",
+      "privacyDescription": "Android için Gamepad Tester Pro verilerinizle ne yapar: hesap yok, test sonuçları telefonda kalır, analiz ve reklam SDK'ları neler toplar, veri toplama nasıl kapatılır ve silme nasıl talep edilir.",
+      "compare": {
+        "description": "Gamepad Tester Pro'nun Android'deki diğer oyun kolu test uygulamalarıyla özellik özellik karşılaştırması; yalnızca gerçekler.",
+        "vsDescription": "{name} ve {other}, Android'de özellik özellik karşılaştırılıyor: tuş testi, çubuk kayması analizi, sorgulama hızı, titreşim, sağlık raporu, reklamlar ve fiyatlandırma.",
+        "vsIntro": "İkisi de Android telefonda oyun kolunu test eder. Aralarındaki farklar, özellik özellik."
       }
     }
   }

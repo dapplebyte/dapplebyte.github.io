@@ -1,0 +1,310 @@
+{
+  "slug": "gamepad-tester",
+  "locale": "es",
+  "title": "Preguntas frecuentes",
+  "intro": "Las preguntas que más nos hacen y qué hacer en cada caso. Toca una pregunta para desplegarla.",
+  "sections": [
+    {
+      "id": "connection",
+      "title": "Conexión y detección",
+      "entries": [
+        {
+          "id": "no_device_detected",
+          "q": "Mi mando está conectado, pero la app no lo detecta",
+          "a": [
+            "Los mandos Bluetooth hay que emparejarlos antes en los ajustes de Bluetooth del propio teléfono: esta app lee los mandos que el sistema ya reconoce, no los empareja. Por USB, el teléfono necesita compatibilidad con OTG y un cable de datos de verdad; los cables de solo carga no transmiten datos. Una vez conectado, pulsa cualquier botón o mueve un stick para despertar el mando y vuelve a la pantalla de inicio."
+          ]
+        },
+        {
+          "id": "supported_pads",
+          "q": "¿Qué mandos son compatibles?",
+          "a": [
+            "Cualquiera que Android reconozca como mando: Xbox Wireless y Series, DualShock 4 y DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, mandos telescópicos para móvil y mandos HID genéricos. Cuánto se puede probar depende de lo que informe tu mando: uno sin motor no tiene prueba de vibración y uno sin panel táctil no tiene prueba de panel táctil. En Información del dispositivo ves exactamente qué expone el tuyo."
+          ]
+        },
+        {
+          "id": "unknown_name",
+          "q": "El mando aparece como «Dispositivos desconocidos» o como un código de modelo",
+          "a": [
+            "El nombre viene del firmware del propio mando y la app solo lo muestra tal cual, así que los mandos económicos y algunos adaptadores USB no informan nada útil. No afecta a ningún resultado de las pruebas. Si necesitas un identificador fiable, usa el ID de fabricante y el ID de producto que aparecen en Información del dispositivo."
+          ]
+        },
+        {
+          "id": "no_battery",
+          "q": "¿Por qué no aparece el nivel de batería o sale como desconocido?",
+          "a": [
+            "El nivel de batería lo tiene que informar el mando, y la mayoría de los mandos de terceros nunca lo envían; por USB tampoco suele enviarse. Los mandos Xbox y PlayStation sí lo informan normalmente por Bluetooth. Ninguna app puede leer un dato que el mando no publica."
+          ]
+        },
+        {
+          "id": "two_pads",
+          "q": "¿Puedo probar dos mandos a la vez?",
+          "a": [
+            "Sí. Cuando hay más de uno conectado, las páginas de prueba muestran un selector de mando, y Comparar dos mandos pone los dos en paralelo en tiempo real: la forma más rápida de distinguir un mando gastado de uno sano."
+          ]
+        },
+        {
+          "id": "random_disconnect",
+          "q": "El mando se desconecta a mitad de una prueba",
+          "a": [
+            "Suele deberse a tres cosas: la optimización de batería que suspende la app en segundo plano, la distancia o los obstáculos, y las interferencias de receptores de 2,4 GHz o de un router cercano. Excluir esta app de la optimización de batería en los ajustes de aplicaciones del teléfono resuelve la mayoría de los casos. Si el mando también se desconecta en otros dispositivos, el problema suele estar en el mando."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buttons",
+      "title": "Botones y distribuciones",
+      "entries": [
+        {
+          "id": "why_layout_choice",
+          "q": "¿Por qué tengo que elegir primero Xbox, PlayStation u Otros?",
+          "a": [
+            "Solo cambia cómo se dibujan y se etiquetan los botones en pantalla; los códigos de tecla de debajo son idénticos. Elige el que se parezca al mando que tienes en las manos para que las etiquetas coincidan; si ninguno encaja, Otros mandos sirve para cualquier mando."
+          ]
+        },
+        {
+          "id": "wrong_button_lights",
+          "q": "Pulso un botón y se ilumina otro",
+          "a": [
+            "En los mandos de estilo Nintendo, A y B (y X e Y) están en posiciones físicas intercambiadas respecto a los de Xbox, así que el mismo código de tecla cae en otro sitio de la pantalla. Es una diferencia de etiquetado, no un fallo. Historial de teclas muestra el código y el nombre reales de cada pulsación, que es la forma fiable de comprobar una asignación."
+          ]
+        },
+        {
+          "id": "home_key_no_response",
+          "q": "El botón Home / PS / Xbox / Guide no hace nada",
+          "a": [
+            "Android intercepta ese botón a nivel de sistema y nunca lo pasa a las apps, así que ninguna puede probarlo: tu mando está bien. Lo mismo ocurre con las teclas de volumen de algunos mandos. Todo lo demás, incluidos Share y Capture en la mayoría de modelos, llega con normalidad."
+          ]
+        },
+        {
+          "id": "stick_click",
+          "q": "L3 / R3 (pulsar los sticks hacia abajo) no se registra",
+          "a": [
+            "Presiona el stick recto hacia abajo hasta que haga clic; en algunos mandos el recorrido es profundo y un empujón en ángulo se queda corto. Si Historial de teclas no registra nada al pulsarlo, es probable que el interruptor que hay debajo de ese stick esté desgastado."
+          ]
+        },
+        {
+          "id": "what_is_cps",
+          "q": "¿Qué es el CPS en Historial de teclas?",
+          "a": [
+            "Clics por segundo: cuántas veces se dispara un botón cada segundo. Sirve para verificar los mandos con Turbo o disparo rápido: mantén el botón pulsado con el Turbo activado y la lectura te da la frecuencia real. En un mando normal también delata el doble disparo, cuando una sola pulsación se registra dos veces."
+          ]
+        },
+        {
+          "id": "game_no_controller_support",
+          "q": "Aquí funcionan todos los botones, pero mi juego ignora el mando",
+          "a": [
+            "Entonces el mando está bien: el juego sencillamente no escucha las señales del mando y solo acepta toques en la pantalla. No hay nada que puedas cambiar en el mando ni en los ajustes de Android que lo arregle. Lo que sí funciona es una app de asignación de botones: se pone por encima del juego y convierte cada botón, stick y gatillo en un toque en el punto que tú elijas, así un juego solo táctil se juega como si siempre hubiera admitido mando."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sticks",
+      "title": "Sticks: deriva y análisis",
+      "entries": [
+        {
+          "id": "how_drift_measured",
+          "q": "¿Cómo compruebo si un stick tiene deriva?",
+          "a": [
+            "Deja el mando sobre una superficie plana, retira las manos por completo de los sticks y mira el desvío en reposo. Un stick sano se queda en cero o muy cerca y no se mueve de ahí; uno con deriva mantiene un valor fijo distinto de cero, que es lo que hace que el personaje se vaya solo hacia un lado."
+          ]
+        },
+        {
+          "id": "drift_threshold",
+          "q": "¿Cuánto desvío es preocupante?",
+          "a": [
+            "Como referencia aproximada con mandos normales: por debajo del 3% es normal, entre 3% y 8% es leve y la zona muerta que traen los juegos suele absorberlo, y por encima del 8% se acaba notando al jugar. Son valores prácticos, no una especificación del fabricante: importa más si el desvío se mantiene estable y si lo notas mientras juegas."
+          ]
+        },
+        {
+          "id": "fix_drift",
+          "q": "¿Se puede arreglar la deriva?",
+          "a": [
+            "Empieza por lo más barato: limpia alrededor de la base del stick y actualiza el firmware del mando, con la app Accesorios de Xbox en los mandos Xbox, o conectando el DualSense o el DualShock 4 a una consola PlayStation. Algunos mandos tienen además una rutina de recalibración en la app de su fabricante. Si el desvío sigue ahí después de todo eso, el módulo del stick está desgastado y hay que repararlo o cambiarlo."
+          ]
+        },
+        {
+          "id": "what_is_circularity",
+          "q": "¿Qué es el error de circularidad?",
+          "a": [
+            "Gira el stick despacio por su borde exterior y la app compara el trazo con un círculo perfecto; la desviación media es el error de circularidad. Cuanto menor sea, más consistente es la lectura del stick en todas las direcciones, que es lo que mantiene la puntería uniforme. Un error grande se suele notar como si una dirección se quedara corta. (Pro)"
+          ]
+        },
+        {
+          "id": "what_is_deadzone",
+          "q": "¿Cómo se estima la zona muerta?",
+          "a": [
+            "Mueve el stick muy despacio desde el centro hacia fuera; el movimiento más pequeño que produce alguna lectura se aproxima a la zona muerta. Una zona muerta grande hace que se ignoren las correcciones finas de puntería. Es una estimación basada en lo que informa el mando, no el valor que el juego aplica por dentro. (Pro)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibration-motion-touchpad",
+      "title": "Vibración, movimiento y panel táctil",
+      "entries": [
+        {
+          "id": "no_vibration",
+          "q": "La prueba de vibración no hace nada",
+          "a": [
+            "Puede haber tres motivos: que el mando no tenga motores, que Android no exponga la vibración de ese mando con la conexión actual, o que el mando solo acepte la vibración que envía su propia consola. Información del dispositivo te lo aclara: si ahí pone «Vibración: No compatible», no hay nada que la app pueda accionar. En los mandos que admiten las dos conexiones, merece la pena probar por USB en vez de Bluetooth."
+          ]
+        },
+        {
+          "id": "what_is_vib_studio",
+          "q": "¿Para qué sirve Estudio de vibración?",
+          "a": [
+            "Es un editor de línea de tiempo para los dos motores, así puedes crear y sentir tus propios patrones en lugar de quedarte con los preajustes fijos. Editar y usar los preajustes integrados es gratis; accionar los motores con un patrón propio y guardarlo en Mis patrones son funciones Pro."
+          ]
+        },
+        {
+          "id": "patterns_transfer",
+          "q": "¿Mis patrones guardados y el historial pasan a un teléfono nuevo?",
+          "a": [
+            "No. Los patrones y los registros de pruebas se guardan solo en este dispositivo, sin nada en ningún servidor. Una migración completa de teléfono a teléfono que incluya los datos de las apps sí los lleva; una instalación desde cero, no."
+          ]
+        },
+        {
+          "id": "motion_unsupported",
+          "q": "La página Sensores de movimiento dice que no es compatible",
+          "a": [
+            "Leer el giroscopio de un mando requiere Android 12 o superior, y el mando tiene que publicar sus sensores al sistema: en la práctica, DualShock 4, DualSense y Switch Pro. Ten en cuenta que aquí se leen los sensores del mando, no los del teléfono, así que un mando sin giroscopio no muestra nada aunque el teléfono tenga uno."
+          ]
+        },
+        {
+          "id": "touchpad_no_response",
+          "q": "La página del panel táctil no reacciona",
+          "a": [
+            "La captura del panel táctil requiere Android 8.0 o superior, y solo se puede capturar en mandos que tengan panel táctil de verdad: DualShock 4 y DualSense. Toca primero Iniciar captura; si no, los datos táctiles van al sistema en lugar de a la app. Al salir de la página se libera la captura."
+          ]
+        },
+        {
+          "id": "touchpad_capture_scope",
+          "q": "Mientras se captura el panel táctil, ¿siguen funcionando los demás botones?",
+          "a": [
+            "Sí: la captura solo redirige la superficie táctil, mientras que botones y sticks siguen informando con normalidad. Se libera en cuanto sales de la página, así que después no queda nada bloqueado por la app."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "Latencia y prueba completa",
+      "entries": [
+        {
+          "id": "what_latency_measures",
+          "q": "¿Qué mide en realidad la prueba de latencia?",
+          "a": [
+            "Con qué frecuencia informa el mando al teléfono: la tasa de sondeo en Hz y el intervalo entre informes en milisegundos. No es el retardo de extremo a extremo entre tu dedo y la imagen, porque eso depende también de la pantalla, del juego y del teléfono, y ninguna app puede medirlo desde dentro. Para lo que sí sirve es para comparar dos mandos, o el mismo mando por Bluetooth y por USB."
+          ]
+        },
+        {
+          "id": "low_polling_rate",
+          "q": "¿Por qué mi tasa de sondeo es de solo unos 100 Hz?",
+          "a": [
+            "Es lo normal en la mayoría de los mandos Bluetooth; el USB y los receptores de 2,4 GHz suelen informar más rápido. La lectura también está limitada por la velocidad con la que Android entrega los eventos de entrada, así que un mando de alta frecuencia puede marcar menos aquí que en un PC. Etiqueta el Tipo de conexión antes de muestrear y tus sesiones guardadas seguirán siendo comparables."
+          ]
+        },
+        {
+          "id": "what_is_jitter",
+          "q": "¿Cómo se interpreta el Jitter (σ)?",
+          "a": [
+            "Indica cuánto varía el intervalo entre informes. Dos mandos pueden tener el mismo intervalo medio y que uno informe de forma regular y el otro a ráfagas: el irregular se siente peor, y el jitter es justo lo que lo delata. La distribución de intervalos y la comparación de sesiones lo hacen visible. (Pro)"
+          ]
+        },
+        {
+          "id": "full_test_items",
+          "q": "¿Qué incluye la Prueba completa?",
+          "a": [
+            "Seis pasos: todos los botones, el rango de los sticks, la circularidad, el recorrido de los gatillos, la deriva en reposo y la vibración. Te guía por ellos en orden y da un OK, Revisar o Falla en cada uno, además de un informe que puedes compartir. Unos dos minutos si no omites nada."
+          ]
+        },
+        {
+          "id": "full_test_warn_fail",
+          "q": "Un paso ha salido como Revisar o Falla, ¿y ahora qué?",
+          "a": [
+            "Revisar suele significar entrada incompleta más que avería: un stick que no llegó a todos los bordes, o un gatillo que no se apretó del todo, así que merece la pena repetir ese paso. Una Falla en la deriva o en la vibración apunta al hardware: mira «¿Se puede arreglar la deriva?» y «La prueba de vibración no hace nada» para saber qué probar. Los pasos omitidos no cuentan para el resultado."
+          ]
+        },
+        {
+          "id": "report_export",
+          "q": "¿Dónde queda el informe de la prueba y cómo lo comparto?",
+          "a": [
+            "Exportar convierte el resultado en una imagen larga y la pasa al panel de compartir del teléfono, así puedes enviarla a un vendedor, a un servicio técnico o a un amigo: la app no sube nada. La exportación gratuita te pide ver antes un vídeo corto; con Pro se exporta sin anuncios."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "title": "Pro y compras",
+      "entries": [
+        {
+          "id": "pro_subscription",
+          "q": "¿Pro es una suscripción? ¿Qué incluye?",
+          "a": [
+            "No: es un pago único que queda desbloqueado para siempre. Incluye la puntuación de salud y las tendencias de deriva en Historial de pruebas, la exportación de informes sin anuncios y el CSV de latencia, guardar y reproducir tus propios patrones de vibración, el diagnóstico avanzado del stick como la circularidad y la zona muerta, la comparación sin conexión de registros guardados, y elimina todos los anuncios. Todas las pruebas básicas siguen siendo gratuitas."
+          ]
+        },
+        {
+          "id": "pro_restore",
+          "q": "He cambiado de teléfono y Pro ha desaparecido",
+          "a": [
+            "Inicia sesión en Google Play con la misma cuenta con la que lo compraste y usa Restaurar compra. La compra está vinculada a esa cuenta de Google, no al dispositivo."
+          ]
+        },
+        {
+          "id": "pro_purchase_failed",
+          "q": "La compra falla o se queda en «Conectando con Google Play»",
+          "a": [
+            "Comprueba que Google Play Store se abre con normalidad y que la región de tu cuenta admite ese método de pago, y vuelve a intentarlo en unos minutos: casi siempre es un problema temporal de Google Play y no de la app. Si te han cobrado y Pro no se ha desbloqueado, usa primero Restaurar compra. Los reembolsos se gestionan desde tu historial de pedidos en Google Play."
+          ]
+        },
+        {
+          "id": "pro_ads",
+          "q": "¿Con Pro desaparecen los anuncios?",
+          "a": [
+            "Sí, todos: el de inicio, el previo a exportar un informe, todos. Se aplica en cuanto se completa la compra; si aún ves alguno, cierra la app y vuelve a abrirla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-compatibility",
+      "title": "Privacidad, compatibilidad y soporte",
+      "entries": [
+        {
+          "id": "data_privacy",
+          "q": "¿Se suben mis datos de prueba a algún sitio?",
+          "a": [
+            "No. Los resultados, el historial y los patrones de vibración se quedan en tu teléfono, y un informe exportado va directo a la app que elijas en el panel de compartir. La app sí recoge estadísticas de uso anónimas (qué páginas se abren, además de los informes de fallos) que no contienen datos del mando ni información personal. Todos los detalles están en la Política de privacidad."
+          ]
+        },
+        {
+          "id": "history_manage",
+          "q": "¿Puedo borrar el historial de pruebas? ¿Ocupa espacio?",
+          "a": [
+            "Cada registro son unos pocos kilobytes de texto, así que el espacio no es un problema. Puedes borrar un registro suelto, o vaciar todos los registros de un mando, desde Historial de pruebas. Los registros se guardan automáticamente al terminar una Prueba completa."
+          ]
+        },
+        {
+          "id": "tool_unsupported",
+          "q": "¿Por qué algunas herramientas dicen que no son compatibles con mi teléfono?",
+          "a": [
+            "Solo hay dos motivos: la versión de Android (los sensores de movimiento necesitan la 12 o superior y la captura del panel táctil la 8.0 o superior) o una capacidad que tu mando no tiene, como no llevar motor, giroscopio, panel táctil o stick analógico. Información del dispositivo lista lo que expone el mando conectado, y las herramientas se ajustan a eso."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "¿Cómo informo de un problema o propongo una idea?",
+          "a": [
+            "Ajustes → Acerca de → Enviar comentarios. Se adjuntan automáticamente tu modelo de teléfono, la versión de Android y la de la app, que suele ser justo lo que necesitamos para reproducir el problema. Si no se detecta un mando, decirnos su modelo exacto y cómo está conectado ayuda mucho."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

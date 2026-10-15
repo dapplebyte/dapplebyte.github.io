@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · App indipendenti per Android",
-    "description": "DappleByte è uno studio indipendente che crea app per Android: Gamepad Pro, un mappatore di tasti che trasforma un controller in comandi touch; Relaypad, un controller Remote Play e app di streaming della console per PS5 e PS4; WhenDo, un'app di automazione con AI e auto clicker; e JoyLink, che trasforma un telefono in gamepad Bluetooth, touchpad e telecomando TV.",
+    "description": "DappleByte è uno studio indipendente che crea app per Android: Gamepad Pro, un mappatore di tasti che trasforma un controller in comandi touch; Relaypad, un controller Remote Play e app di streaming della console per PS5 e PS4; WhenDo, un'app di automazione con AI e auto clicker; JoyLink, che trasforma un telefono in gamepad Bluetooth, touchpad e telecomando TV; e Gamepad Tester Pro, che verifica se un controller ha drift degli stick, input lag o tasti che non rispondono.",
     "appsHeading": "App",
     "principlesHeading": "Come lavoriamo",
     "principles": [
@@ -212,7 +212,16 @@
       "touchpad-keyboard": "Touchpad, mouse e tastiera",
       "tv-remote": "Telecomando TV per Android TV, Google TV e Fire TV",
       "racing-wheel": "Volante che sterza inclinando il telefono",
-      "custom-layouts": "Sposta, ridimensiona e salva i layout dei comandi"
+      "custom-layouts": "Sposta, ridimensiona e salva i layout dei comandi",
+      "button-test": "Test di pulsanti e codici tasto in tempo reale",
+      "drift-analysis": "Analisi di drift, zona morta e circolarità degli stick",
+      "polling-rate": "Misura di frequenza di polling e input lag",
+      "rumble-test": "Test di vibrazione per ogni motore",
+      "health-report": "Punteggio di salute con report condivisibile",
+      "test-history": "Cronologia test e andamento del drift per controller",
+      "led-test": "Test della barra luminosa (PlayStation via Bluetooth)",
+      "motion-test": "Test di giroscopio e accelerometro",
+      "touchpad-test": "Test del touchpad"
     },
     "values": {
       "yes": "Sì",
@@ -269,7 +278,8 @@
   },
   "trademarks": {
     "sony": "PlayStation, PS5 e PS4 sono marchi di Sony Interactive Entertainment Inc. {name} non è affiliata a Sony né approvata da Sony.",
-    "hosts": "Windows e Xbox sono marchi di Microsoft; Mac, iPhone e iPad di Apple; PlayStation di Sony Interactive Entertainment; Nintendo Switch di Nintendo; Android, Android TV e Google TV di Google; Fire TV di Amazon; Steam di Valve; Raspberry Pi di Raspberry Pi Ltd. {name} non è affiliata a nessuna di queste aziende né approvata da esse."
+    "hosts": "Windows e Xbox sono marchi di Microsoft; Mac, iPhone e iPad di Apple; PlayStation di Sony Interactive Entertainment; Nintendo Switch di Nintendo; Android, Android TV e Google TV di Google; Fire TV di Amazon; Steam di Valve; Raspberry Pi di Raspberry Pi Ltd. {name} non è affiliata a nessuna di queste aziende né approvata da esse.",
+    "controllers": "Xbox è un marchio di Microsoft; PlayStation, DualShock e DualSense di Sony Interactive Entertainment; Nintendo Switch di Nintendo. {name} non è affiliata a nessuna di queste aziende né approvata da esse."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -544,6 +554,45 @@
         "description": "Come si colloca JoyLink rispetto alle altre app che trasformano il telefono in un controller per computer o TV, funzione per funzione, solo fatti.",
         "vsDescription": "{name} e {other} a confronto su Android, funzione per funzione: app ricevente, gamepad Bluetooth, touchpad e telecomando TV, volante, root, pubblicità e prezzi.",
         "vsIntro": "Entrambe trasformano un telefono Android in un controller per computer o TV. Ecco dove si differenziano, funzione per funzione."
+      }
+    },
+    "gamepad-tester": {
+      "kicker": "Tester per controller · Senza PC",
+      "heroPoints": [
+        "Pulsanti, stick, grilletti, drift degli stick e vibrazione in un unico test guidato, con punteggio di salute e report condivisibile",
+        "Analisi di drift, zona morta e circolarità degli stick, più frequenza di polling e input lag via Bluetooth o USB",
+        "Gratis con pubblicità. Pro è un acquisto unico che toglie la pubblicità e sblocca la diagnostica avanzata"
+      ],
+      "faqDescription": "Risposte su Gamepad Tester Pro: rilevamento e abbinamento, pulsanti e layout, drift degli stick e zona morta, vibrazione, movimento e touchpad, latenza e test completo, Pro, privacy e compatibilità.",
+      "faqNotFoundBody": "Scrivici indicando modello del telefono, controller e come è collegato. Ogni messaggio lo legge una persona.",
+      "support": {
+        "beforeItems": [
+          "Apri le FAQ. Quasi tutte le domande su rilevamento, drift, latenza e vibrazione trovano risposta lì, con le stesse parole dell'app.",
+          "Controlla prima Info dispositivo. Se Android non comunica batteria, vibrazione, sensori di movimento o touchpad del tuo controller, l'app non può testarli; nelle FAQ trovi cosa mette a disposizione ciascun controller.",
+          "Annota il modello del controller, se è collegato via Bluetooth o USB e quale test ha dato un risultato inatteso. È quello che ci serve per riprodurre il problema."
+        ],
+        "template": {
+          "phone": "Modello del telefono:",
+          "android": "Versione di Android:",
+          "controller": "Controller (modello, Bluetooth o USB):",
+          "test": "Test eseguito e risultato ottenuto:",
+          "what": "Cosa è successo, passo per passo:",
+          "pro": "Acquisto Pro: sì / no"
+        },
+        "refundBody": "Gamepad Tester Pro si installa gratis. Se hai acquistato Pro e non funziona con la tua configurazione, scrivici entro 7 giorni dall'acquisto e ti rimborsiamo. Raccontaci cosa hai provato: ci aiuta a sistemare il problema per chi verrà dopo."
+      },
+      "press": {
+        "description": "Dati, materiali e un testo di presentazione per scrivere di Gamepad Tester Pro, l'app per testare i controller e il drift degli stick su Android.",
+        "boilerplate": "Gamepad Tester Pro controlla qualsiasi controller Bluetooth, USB o OTG da un telefono o tablet Android: pulsanti, stick analogici, drift degli stick, zona morta, grilletti, vibrazione, input lag e frequenza di polling, poi assegna un punteggio di salute e crea un report condivisibile. Funziona con controller Xbox, PlayStation, Switch Pro e generici, senza bisogno di un PC. È sviluppata da DappleByte, uno studio indipendente.",
+        "priceValue": "Gratis da installare, con pubblicità. I test principali sono gratuiti; un acquisto Pro una tantum toglie la pubblicità e sblocca diagnostica avanzata, trend di salute, esportazione CSV e salvataggio dei pattern di vibrazione. Non c'è nessun abbonamento. Il prezzo attuale è indicato su Google Play.",
+        "assetScreenshots": "Screenshot del telefono, PNG 1080 × 1920, in inglese"
+      },
+      "videosDescription": "Brevi video che mostrano Gamepad Tester Pro su un telefono vero: il test completo, come leggere il risultato del drift, il test di latenza e il test di vibrazione.",
+      "privacyDescription": "Cosa fa Gamepad Tester Pro per Android con i tuoi dati: nessun account, risultati dei test che restano sul telefono, cosa raccolgono gli SDK di statistiche e pubblicità, e come disattivarli o chiedere la cancellazione.",
+      "compare": {
+        "description": "Come si colloca Gamepad Tester Pro rispetto alle altre app per testare i controller su Android, funzione per funzione, solo fatti.",
+        "vsDescription": "{name} e {other} a confronto su Android, funzione per funzione: test dei pulsanti, analisi del drift, frequenza di polling, vibrazione, report sulla salute, pubblicità e prezzi.",
+        "vsIntro": "Entrambe testano un controller da un telefono Android. Ecco dove si differenziano, funzione per funzione."
       }
     }
   }
