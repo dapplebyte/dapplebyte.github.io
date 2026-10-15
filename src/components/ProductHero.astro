@@ -103,7 +103,7 @@ const style = linkTo ? productStyle(product) : undefined;
     background: var(--bg-deep);
   }
   .hero-media .crop {
-    width: 100%;
+    margin: clamp(16px, 2.4vw, 28px);
   }
   /* Portrait screenshots side by side, each at its own 9:16 shape. When the frame would get taller than
      --phones-h, the image keeps its width and loses its bottom (the top carries the caption). */

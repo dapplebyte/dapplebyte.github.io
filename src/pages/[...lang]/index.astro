@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ProductHero from '../../components/ProductHero.astro';
+import ProductCard from '../../components/ProductCard.astro';
 import { getLocale, localePath } from '../../i18n/locales';
 import { useT } from '../../i18n/t';
 import { allProducts, getCopy, localesFor, featureSectionIds } from '../../lib/content';
@@ -50,9 +51,14 @@ const jsonLd = graph(
       <span>{String(live.length).padStart(2, '0')} / {String(products.length).padStart(2, '0')}</span>
     </div>
     <div class="apps">
-      {live.map((p, i) => (
-        <ProductHero locale={locale} product={p} copy={copies[i]} level={2} linkTo={localePath(locale, `/${p.slug}/`)} featured={i === 0} />
-      ))}
+      {live.length > 0 && <ProductHero locale={locale} product={live[0]} copy={copies[0]} level={2} linkTo={localePath(locale, `/${live[0].slug}/`)} featured />}
+      {live.length > 1 && (
+        <div class="app-cards">
+          {live.slice(1).map((p, i) => (
+            <ProductCard locale={locale} product={p} copy={copies[i + 1]} linkTo={localePath(locale, `/${p.slug}/`)} />
+          ))}
+        </div>
+      )}
       {placeholders.length > 0 && (
         <div class="cells placeholders" style={`grid-template-columns: repeat(${Math.min(placeholders.length, 3)}, minmax(0, 1fr))`}>
           {placeholders.map((p) => (
@@ -110,6 +116,12 @@ const jsonLd = graph(
     flex-direction: column;
     gap: 24px;
   }
+  /* The lead product gets the full-width hero; the rest sit in a row of equal cards below it. */
+  .app-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+  }
   .placeholder {
     display: flex;
     flex-direction: column;
@@ -135,6 +147,16 @@ const jsonLd = graph(
   .principle-body {
     color: var(--muted);
     font-size: 15px;
+  }
+  @media (max-width: 960px) {
+    .app-cards {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 620px) {
+    .app-cards {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
   }
   @media (max-width: 860px) {
     .placeholders {

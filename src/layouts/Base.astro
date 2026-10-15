@@ -409,24 +409,27 @@ const accentStyle = product || accent ? productStyle({ accent: accent ?? product
     border-color: var(--product);
   }
 
+  /* Landscape store screenshots: a window onto the phone screen of the store template. The phone sits at
+     x 153–1126, y 246–693 of the 1280 × 720 image with 27 px rounded corners; the window is inset 30 px
+     inside that frame so the light page background never shows through the corners, and the window
+     itself gets the same rounded, bordered treatment as the portrait phones. The screenshot is not
+     mirrored in RTL locales, so the negative start margin applies there too: a right-aligned block
+     pulled past the right edge shows the same middle of the image. */
   .crop {
-    aspect-ratio: 2.183;
+    aspect-ratio: 914 / 388;
     overflow: hidden;
     background: var(--bg-deep);
+    border: 1px solid var(--line-2);
+    border-radius: 12px;
   }
   .crop img {
     display: block;
-    width: 131.7%;
+    width: 140.04%;
     max-width: none;
     height: auto;
-    margin-inline-start: -15.9%;
-    margin-top: -25.5%;
+    margin-inline-start: -20.02%;
+    margin-top: -30.2%;
   }
-  [dir='rtl'] .crop img {
-    margin-inline-start: 0;
-    margin-inline-end: -15.9%;
-  }
-
   .shots {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
