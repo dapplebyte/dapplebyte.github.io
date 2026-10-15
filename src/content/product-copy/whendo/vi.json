@@ -1,0 +1,124 @@
+{
+  "slug": "whendo",
+  "locale": "vi",
+  "title": "WhenDo: AI Auto Clicker, Macro",
+  "shortDescription": "Tự động hóa: lên lịch tác vụ, trình kích hoạt, cử chỉ, không cần root.",
+  "tagline": "Tự động hóa bằng AI, auto clicker và macro cho Android — không cần viết mã",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Tự động hóa bằng AI, auto clicker và macro cho Android — không cần viết mã",
+      "paragraphs": [
+        "Hãy mô tả thói quen bằng lời thường ngày, AI của WhenDo sẽ dựng sẵn quy trình: trình kích hoạt, điều kiện và hành động, tất cả đều sửa được. Muốn tự dựng? Hãy lên lịch tác vụ, ghi lại cử chỉ và chạy auto clicker trên mọi ứng dụng. Không cần root."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "ai",
+      "title": "Dựng quy trình tự động bằng AI",
+      "paragraphs": [
+        "Hãy thử các yêu cầu như:",
+        "“Tắt tiếng điện thoại khi tôi kết nối Wi-Fi ở nhà”",
+        "“Mở ứng dụng nghe nhạc khi cắm tai nghe”",
+        "“Bật Không làm phiền lúc 11 giờ mỗi tối”",
+        "“Nhắc tôi uống nước hai giờ một lần”"
+      ],
+      "bullets": [
+        "Mô tả thói quen bằng lời của bạn, hoặc nhập bằng giọng nói",
+        "AI tạo trọn quy trình — từng trình kích hoạt, điều kiện và hành động",
+        "Xem lại và chỉnh sửa mọi bước trước khi bật",
+        "Bắt đầu nhanh hơn với ví dụ và mẫu có sẵn"
+      ]
+    },
+    {
+      "id": "clicker",
+      "title": "Auto Clicker, ghi cử chỉ và tự động hóa màn hình",
+      "paragraphs": [],
+      "bullets": [
+        "Auto clicker chỉnh được nhịp nhấp và số lần lặp",
+        "Ghi và phát lại thao tác chạm, vuốt và cử chỉ nhiều bước",
+        "Vuốt theo hướng, quãng đường và tốc độ, hoặc theo tọa độ chính xác",
+        "Nút kích hoạt nổi — chạy mọi tác vụ ngay từ nút trên màn hình",
+        "Trợ lý nổi giúp chọn phần tử và tự động hóa giao diện ứng dụng",
+        "Chụp màn hình, nhấn Quay lại hoặc tắt màn hình"
+      ]
+    },
+    {
+      "id": "triggers",
+      "title": "Lên lịch tác vụ và hơn 250 trình kích hoạt",
+      "paragraphs": [],
+      "bullets": [
+        "Thời gian, lịch biểu, sự kiện Lịch, vị trí và hàng rào địa lý",
+        "Mở hoặc đóng ứng dụng, ứng dụng gần đây, sự kiện màn hình và giao diện",
+        "Thay đổi Wi-Fi, Bluetooth, tai nghe và mạng",
+        "Thông báo, cuộc gọi, cảm biến, NFC và bảng nhớ tạm",
+        "Phím vật lý như tăng giảm âm lượng và cử chỉ vân tay"
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Hành động macro cho mọi nhu cầu",
+      "paragraphs": [],
+      "bullets": [
+        "Âm lượng, độ sáng, Không làm phiền và các cài đặt hệ thống khác",
+        "Mở ứng dụng, điều khiển nhạc, yêu cầu HTTP, tệp và văn bản",
+        "Lối tắt intent: gọi, SMS, email, tìm bản đồ, chỉ đường, tìm trên web",
+        "Hành động với bảng nhớ tạm và thông báo, kèm Shizuku tùy chọn"
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Quy trình đơn giản hoặc nâng cao",
+      "paragraphs": [],
+      "bullets": [
+        "Kết hợp Khi, Nếu, Thì, Nếu không, độ trễ, vòng lặp và biến",
+        "Thêm nhiều trình kích hoạt và điều kiện vào một tác vụ",
+        "Chạy Tác vụ thường trú trong nền hoặc Tác vụ một chạm thủ công",
+        "Sắp xếp thói quen bằng các Cảnh tùy chỉnh",
+        "Nhập, xuất, sao lưu và khôi phục quy trình của bạn"
+      ]
+    },
+    {
+      "id": "ideas",
+      "title": "Ý tưởng tự động hóa hằng ngày",
+      "paragraphs": [
+        "Thói quen cho công việc, ở nhà, giấc ngủ và lái xe:"
+      ],
+      "bullets": [
+        "Tắt tiếng điện thoại khi họp hoặc lúc đi ngủ",
+        "Phát nhạc khi kết nối tai nghe Bluetooth",
+        "Mở ứng dụng chỉ đường khi bắt đầu lái xe",
+        "Tự động nhấp các nút lặp đi lặp lại thay vì tự tay chạm",
+        "Mở ứng dụng theo thời gian, vị trí hoặc sự kiện của thiết bị"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Quyền riêng tư, quyền hạn và không cần root",
+      "paragraphs": [],
+      "bullets": [
+        "Các tác vụ tự động hóa chạy trực tiếp trên thiết bị của bạn",
+        "Tạo bằng AI cần Internet và sẽ gửi yêu cầu của bạn tới dịch vụ AI",
+        "Hỗ trợ tiếp cận chỉ dùng cho những chức năng mà tác vụ của bạn cần",
+        "Tác vụ hằng ngày không cần root, Shizuku tùy chọn cho thêm quyền nâng cao",
+        "Xem lại hoặc thu hồi quyền trong cài đặt Android bất cứ lúc nào"
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Dành cho người mới lẫn người dùng nâng cao",
+      "paragraphs": [
+        "Mới làm quen với tự động hóa điện thoại? Hãy bắt đầu bằng AI, ví dụ và mẫu có sẵn.",
+        "Cần kiểm soát nhiều hơn? Hãy dựng quy trình có điều kiện, tự động hóa tương tác giao diện, dùng biến, ghi cử chỉ hoặc bật chế độ Shizuku."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Mô tả thói quen, để WhenDo dựng quy trình và tự động hóa điện thoại Android của bạn.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

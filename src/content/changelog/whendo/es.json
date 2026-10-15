@@ -1,0 +1,49 @@
+{
+  "slug": "whendo",
+  "locale": "es",
+  "entries": [
+    {
+      "code": 182,
+      "name": "1.8.1",
+      "date": "2026-09-16",
+      "items": [
+        "Novedades",
+        "Cinco respuestas nuevas en el Centro de ayuda: iniciar una tarea sin abrir la app, qué puede hacer WhenDo con tu teléfono, para qué sirve cada permiso, qué es el modo Shizuku y si puede pulsar botones dentro de otras apps.",
+        "Mejoras",
+        "Vídeos de demostración en las preguntas frecuentes: permisos, activación manual y más, con la pantalla delante."
+      ]
+    },
+    {
+      "code": 180,
+      "name": "1.8.0",
+      "date": "2026-09-10",
+      "items": [
+        "Novedades",
+        "Preajustes renovados — 64 tareas listas en Plantillas, añadidas con un toque. Las que piden un dato te dejan elegir app o dispositivo.",
+        "Búsqueda mientras creas — disparadores, condiciones y acciones en un solo sitio, o deja la tarea a la IA.",
+        "Auto clic: configura, cuenta atrás y listo.",
+        "Mejoras",
+        "Taskly ahora es WhenDo, con icono nuevo.",
+        "Vídeos de ayuda en el Centro de ayuda.",
+        "Corregido",
+        "El indonesio se mostraba en inglés."
+      ]
+    },
+    {
+      "code": 170,
+      "name": "1.7.0",
+      "date": "2026-09-04",
+      "items": [
+        "Novedades",
+        "Botones activadores flotantes: toca, toca dos veces o mantén pulsado para ejecutar una tarea. Colócalos donde quieras.",
+        "Tecla física pulsada: ejecuta tareas con una pulsación simple, doble o larga de una tecla de volumen, bloqueando si quieres la acción original.",
+        "Mejoras",
+        "Compatibilidad con Android 16 y texto más claro en «Volver a la aplicación anterior».",
+        "Correcciones",
+        "Fallo al mostrar un aviso emergente en modo Shizuku.",
+        "El servicio se detenía al fallar una tarea residente."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

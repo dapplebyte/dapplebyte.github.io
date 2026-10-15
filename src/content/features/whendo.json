@@ -1,0 +1,10 @@
+{
+  "slug": "whendo",
+  "items": [
+    { "id": "ai", "sectionId": "ai", "screenshots": [1, 2], "faq": ["ai_generate", "ai_better", "edit_task", "presets"], "video": "ockn9aw9LYQ" },
+    { "id": "auto-clicker", "sectionId": "clicker", "screenshots": [5], "faq": ["auto_click_stops", "ui_automation", "manual_trigger", "bank_apps"], "video": "hcqbXCb-5Q8" },
+    { "id": "triggers", "sectionId": "triggers", "screenshots": [6], "faq": ["trigger_types", "schedule_time", "not_triggered"], "video": "m1CCS9DQ_jo" },
+    { "id": "actions", "sectionId": "actions", "screenshots": [], "faq": ["action_types", "shizuku", "permissions_why"], "video": "s44BKhrgGdM" },
+    { "id": "workflows", "sectionId": "workflows", "screenshots": [3, 4], "faq": ["when_vs_if", "resident_vs_oneshot", "find_tasks", "backup", "debug_run"], "video": "OHhz4YyPG-g" }
+  ]
+}

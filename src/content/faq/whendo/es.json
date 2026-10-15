@@ -1,0 +1,243 @@
+{
+  "slug": "whendo",
+  "locale": "es",
+  "title": "Centro de ayuda",
+  "sections": [
+    {
+      "id": "questions",
+      "title": "Preguntas frecuentes",
+      "entries": [
+        {
+          "id": "not_triggered",
+          "q": "¿Por qué no se ejecuta mi tarea?",
+          "a": [
+            "Asegúrate de que el servicio esté en marcha y la tarea activada. La mayoría de disparadores también necesitan el servicio de accesibilidad y que la app siga viva en segundo plano (revisa los ajustes de batería)."
+          ]
+        },
+        {
+          "id": "find_tasks",
+          "q": "¿Dónde están mis tareas y cómo detengo una?",
+          "a": [
+            "Todo lo que has creado está en la pestaña Escenas, agrupado por escenas. Cada tarjeta tiene su propio interruptor, así que puedes detener una sola tarea sin tocar las demás; el interruptor de la escena apaga el grupo entero de una vez. Ten en cuenta que volver a activar una escena habilita todas las tareas que contiene, así que revisa de nuevo las que hubieras desactivado por separado."
+          ],
+          "video": "ZEvyPaMP7U0"
+        },
+        {
+          "id": "presets",
+          "q": "¿Cómo uso las tareas predefinidas?",
+          "a": [
+            "Abre «Plantillas › Predefinidas», elige una categoría y toca Agregar. Las predefinidas marcadas con «Configurar» piden uno o dos datos (una app, un botón flotante, el nombre de tu Wi-Fi) y se activan enseguida. Toca la etiqueta de estado de una predefinida para ver qué permiso le falta. Las tareas que solo se activan con botones flotantes o teclas físicas no cuentan para el límite gratuito de tareas residentes."
+          ],
+          "video": "LxWzDB0vqOE"
+        },
+        {
+          "id": "auto_click_stops",
+          "q": "El clic automático se detiene a los pocos minutos.",
+          "a": [
+            "La mayoría de los móviles detienen los servicios de accesibilidad para ahorrar batería. Fija WhenDo en Recientes, desactiva la optimización de batería para la app, permite el inicio automático y, en Xiaomi / OPPO / vivo / Huawei, añádela también a la lista de apps protegidas o «sin restricciones». Si el sistema detiene WhenDo, recibirás una notificación que abre esta página. Las predefinidas de la categoría Auto clic añaden una pequeña variación aleatoria a cada toque, así los juegos detectan menos los intervalos idénticos repetidos."
+          ]
+        },
+        {
+          "id": "bank_apps",
+          "q": "Mi app del banco no se abre con WhenDo activado.",
+          "a": [
+            "Algunas apps bancarias bloquean cualquier servicio de accesibilidad activo. Añade una tarea «Cuando se abra la app del banco → Pausar la app actual» desde las predefinidas de Utilidades, o desactiva WhenDo mientras usas el banco. Es una restricción del banco, no algo que WhenDo pueda saltarse."
+          ]
+        },
+        {
+          "id": "permissions",
+          "q": "¿Cómo concedo los permisos necesarios?",
+          "a": [
+            "Abre el panel y sigue las tarjetas de permisos. El servicio de accesibilidad se concede en «Ajustes → Accesibilidad»; Shizuku, desde la app Shizuku."
+          ],
+          "video": "VdeGorn3azg"
+        },
+        {
+          "id": "background_killed",
+          "q": "La app se cierra una y otra vez en segundo plano.",
+          "a": [
+            "Fija la app en Recientes, desactiva la optimización de batería para ella y activa «Inicio automático tras arrancar» en Ajustes. Algunos móviles tienen además una lista de apps protegidas."
+          ]
+        },
+        {
+          "id": "when_vs_if",
+          "q": "¿Cuál es la diferencia entre Cuándo y Si?",
+          "a": [
+            "El disparador (When) decide cuándo empieza una tarea. La condición (If) decide si las acciones siguientes se ejecutan tras empezar. Una tarea necesita un disparador para comenzar; las condiciones solo filtran."
+          ],
+          "video": "OHhz4YyPG-g"
+        },
+        {
+          "id": "trigger_types",
+          "q": "¿Qué puede poner en marcha una tarea?",
+          "a": [
+            "Casi cualquier cosa que el teléfono detecta: abrir o salir de una app, una hora concreta o tu alarma, conectarte a Wi-Fi, Bluetooth o unos auriculares, encender o apagar la pantalla, poner a cargar, un nivel de batería, el texto de una notificación, algo compartido con la app o una sacudida. También puedes prescindir por completo de los eventos y lanzar una tarea desde un botón flotante. La ubicación, el calendario, las llamadas, NFC y los gestos de pantalla hacia abajo y de toque en la parte trasera necesitan Pro."
+          ],
+          "video": "m1CCS9DQ_jo"
+        },
+        {
+          "id": "ai_generate",
+          "q": "¿Cómo creo una tarea con IA?",
+          "a": [
+            "En el editor de tareas, escribe lo que quieres en lenguaje natural y pulsa el botón de IA. La app redacta una tarea completa que luego puedes revisar y ajustar."
+          ],
+          "video": "ockn9aw9LYQ"
+        },
+        {
+          "id": "edit_task",
+          "q": "¿Puedo cambiar una tarea después de crearla?",
+          "a": [
+            "Sí, nunca tienes que empezar de cero. Toca Editar en la tarjeta de la tarea y luego toca el lápiz de cualquier línea para abrir solo esa línea y cambiar sus valores. Al salir se te pregunta antes de descartar los cambios, y no se guarda nada hasta que tocas la marca de verificación."
+          ],
+          "video": "ajU2Tf-cFPM"
+        },
+        {
+          "id": "backup",
+          "q": "¿Cómo hago copia o importo mis tareas?",
+          "a": [
+            "Ve a «Ajustes → Exportar todas las tareas» para guardar un archivo. Para importar, abre ese archivo con la app o usa la entrada de importación en la lista de tareas."
+          ]
+        },
+        {
+          "id": "resident_vs_oneshot",
+          "q": "¿Qué diferencia hay entre una tarea residente y una de una sola vez?",
+          "a": [
+            "Una tarea residente vigila su disparador de forma continua y se ejecuta automáticamente cuando se cumple la condición. Una tarea de una sola vez se ejecuta una vez, al tocarla. Usa residente para automatizaciones que reaccionan solas y de una vez para acciones que inicias a mano."
+          ],
+          "video": "r6MyGSQmF7s"
+        },
+        {
+          "id": "schedule_time",
+          "q": "¿Puedo ejecutar una tarea a una hora concreta o de forma repetida?",
+          "a": [
+            "Sí. En «Cuándo» añade un disparador basado en tiempo, como una hora concreta o un intervalo repetido. El servicio de tareas debe seguir activo para que las tareas programadas se disparen a tiempo."
+          ],
+          "video": "oCJWsS18Evs"
+        },
+        {
+          "id": "ai_better",
+          "q": "La generación con IA falló o no dio lo que quería, ¿qué hago?",
+          "a": [
+            "Describe el disparador y la acción en una frase clara, p. ej. «cuando me conecte al Wi-Fi de casa, silenciar el teléfono». Nombra la app o la condición de forma explícita, evita lo ambiguo y vuelve a pulsar «Generar con IA». Siempre puedes ajustar la tarea a mano después."
+          ],
+          "video": "lRJOqQ65ST0"
+        },
+        {
+          "id": "debug_run",
+          "q": "¿Cómo compruebo si mi tarea se ejecuta realmente?",
+          "a": [
+            "Asegúrate de que el servicio está activo y la tarea habilitada. Abre la tarea y revisa sus registros de ejecución / instantáneas para ver el resultado de cada paso. Si nunca se dispara, revisa de nuevo el disparador y los permisos necesarios."
+          ]
+        },
+        {
+          "id": "manual_trigger",
+          "q": "¿Puedo iniciar una tarea sin abrir la app?",
+          "a": [
+            "Sí: vincúlala a una tecla física o a un botón flotante. En el editor de tareas toca «Cuando → Estado del dispositivo → Tecla física pulsada», luego «Capturar tecla» y pulsa la tecla que quieras; funcionan la pulsación simple, la doble y la larga. O elige «Cuando → Botón flotante» y crea los botones en «Configuración → Botones activadores flotantes». En ambos casos hace falta el servicio de accesibilidad en marcha."
+          ],
+          "video": "hcqbXCb-5Q8"
+        },
+        {
+          "id": "action_types",
+          "q": "¿Qué puede hacer WhenDo realmente con mi teléfono?",
+          "a": [
+            "170 acciones en 19 grupos. Operación de control abarca cualquier cosa en pantalla: tocar, mantener pulsado, escribir, deslizar y arrastrar. En Operaciones de aplicaciones puedes abrir o detener apps; en Estado del dispositivo, la linterna, el Bluetooth, el Wi-Fi y la batería; en Operaciones multimedia, el volumen y No molestar. También hay acciones de texto, archivos, shell, notificaciones, calendario, OCR y variables globales. Las que necesitan Pro o Shizuku están marcadas en la lista."
+          ],
+          "video": "s44BKhrgGdM"
+        },
+        {
+          "id": "permissions_why",
+          "q": "¿Por qué WhenDo pide tantos permisos?",
+          "a": [
+            "Cada permiso respalda una función concreta, así que solo tienes que conceder los que uses. El servicio de accesibilidad es lo que permite a WhenDo leer la pantalla y pulsar por ti; sin él se detienen la automatización de pantalla y los eventos de apps. El permiso para ventana flotante dibuja los botones flotantes y los avisos, y no puede leer tu pantalla. La ubicación solo se usa para los nombres de redes Wi-Fi y las geovallas; el micrófono, la cámara, el calendario y el estado del teléfono solo los usan las acciones que los necesitan. La red se usa para la generación con IA, la biblioteca de tareas predefinidas en línea, la configuración remota y las estadísticas de uso anónimas."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "¿Qué es el modo Shizuku y cómo lo activo?",
+          "a": [
+            "Shizuku es una app complementaria aparte que otorga a WhenDo capacidades de nivel de sistema sin root: comandos de shell, encender o apagar el Wi-Fi o el Bluetooth y mucho más. Instala Shizuku y arráncalo (necesita ADB, depuración inalámbrica o root para arrancar) y luego concede permiso a WhenDo desde el panel. Si se agota el tiempo al arrancar, actualiza Shizuku y vuelve a concederlo."
+          ],
+          "video": "S32Bz5ZBmog"
+        },
+        {
+          "id": "ui_automation",
+          "q": "¿Puede WhenDo tocar un botón dentro de otra app?",
+          "a": [
+            "Sí. Usa «Operación de control»: toca un botón por su texto, toca el control que cumpla una condición, escribe en un campo, desliza una lista o arrastra un control sobre otro. WhenDo lee la pantalla a través del servicio de accesibilidad, así que funciona en apps que no ofrecen ninguna API pública."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Conceptos clave",
+      "entries": [
+        {
+          "id": "flow",
+          "q": "Flujo (Flow)",
+          "a": [
+            "Un flujo es una automatización completa que creas. Suele tener una parte Cuándo (disparadores) y una parte Hacer (acciones)."
+          ]
+        },
+        {
+          "id": "rule",
+          "q": "Regla (Rule)",
+          "a": [
+            "Una regla es una fila del editor, el bloque básico de una tarea. Una regla puede contener subreglas."
+          ]
+        },
+        {
+          "id": "when",
+          "q": "Disparador (When)",
+          "a": [
+            "El evento que inicia tu tarea: abrir una app, una hora programada, etc. Sin disparador, una tarea nunca arranca sola."
+          ]
+        },
+        {
+          "id": "if",
+          "q": "Condición (If)",
+          "a": [
+            "Una comprobación que debe cumplirse para que se ejecuten las acciones siguientes, por ejemplo «solo si el Wi-Fi está conectado»."
+          ]
+        },
+        {
+          "id": "do",
+          "q": "Acción (Do)",
+          "a": [
+            "Algo que la app hace por ti: pulsar un botón, enviar una notificación o abrir una app."
+          ]
+        },
+        {
+          "id": "applet",
+          "q": "Applet",
+          "a": [
+            "El bloque más pequeño. Cada disparador, condición y acción es un applet que eliges y combinas."
+          ]
+        },
+        {
+          "id": "global_var",
+          "q": "Variable global",
+          "a": [
+            "Un valor que guardas y reutilizas entre tareas: un contador o texto capturado de la pantalla."
+          ]
+        },
+        {
+          "id": "a11y",
+          "q": "Servicio de accesibilidad",
+          "a": [
+            "El permiso del sistema que deja a la app leer la pantalla y pulsar por ti. La mayoría de automatizaciones lo necesitan."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku",
+          "a": [
+            "Una app complementaria opcional que otorga capacidades de sistema avanzadas (como comandos de shell) sin root."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

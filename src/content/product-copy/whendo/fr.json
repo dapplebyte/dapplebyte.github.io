@@ -1,0 +1,124 @@
+{
+  "slug": "whendo",
+  "locale": "fr",
+  "title": "WhenDo: Auto Clicker Macro IA",
+  "shortDescription": "Automatisation et planificateur de tâches : déclencheurs, gestes, sans root",
+  "tagline": "Automatisation par IA, auto clicker et macros pour Android, sans code",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Automatisation par IA, auto clicker et macros pour Android, sans code",
+      "paragraphs": [
+        "Décrivez une routine en langage courant : l’IA de WhenDo construit l’automatisation — déclencheurs, conditions et actions, tout reste modifiable. Vous préférez la créer vous-même ? Programmez des tâches, enregistrez des gestes et lancez un clic automatique sur n’importe quelle appli. Sans root."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "ai",
+      "title": "Créez des automatisations avec l’IA",
+      "paragraphs": [
+        "Essayez par exemple :",
+        "« Mets mon téléphone en silencieux sur le Wi-Fi de la maison »",
+        "« Ouvre mon appli musique quand mes écouteurs se connectent »",
+        "« Active Ne pas déranger tous les soirs à 23 h »",
+        "« Rappelle-moi de boire de l’eau toutes les deux heures »"
+      ],
+      "bullets": [
+        "Décrivez une routine avec vos mots, ou dictez-la",
+        "L’IA génère tout le flux : déclencheurs, conditions et actions",
+        "Vérifiez et modifiez chaque étape avant de l’activer",
+        "Démarrez vite avec des exemples et des modèles prêts à l’emploi"
+      ]
+    },
+    {
+      "id": "clicker",
+      "title": "Auto clicker, enregistreur de gestes et automatisation de l’écran",
+      "paragraphs": [],
+      "bullets": [
+        "Clic automatique avec intervalle et nombre de répétitions réglables",
+        "Enregistrez et rejouez appuis, balayages et gestes multi-étapes",
+        "Balayage par direction, distance et vitesse, ou par coordonnées exactes",
+        "Boutons flottants : lancez une tâche depuis l’écran",
+        "Assistant flottant pour cibler des éléments et automatiser l’interface",
+        "Capture d’écran, appui sur Retour ou extinction de l’écran"
+      ]
+    },
+    {
+      "id": "triggers",
+      "title": "Planificateur de tâches et plus de 250 déclencheurs",
+      "paragraphs": [],
+      "bullets": [
+        "Heure, programmations, agenda, localisation et zones géographiques",
+        "Appli ouverte ou fermée, applis récentes, écran et événements d’interface",
+        "Changements Wi-Fi, Bluetooth, casque et réseau",
+        "Notifications, appels, capteurs, NFC et presse-papiers",
+        "Touches physiques comme volume haut et bas, et gestes d’empreinte"
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Des actions de macro pour tout",
+      "paragraphs": [],
+      "bullets": [
+        "Volume, luminosité, Ne pas déranger et autres réglages système",
+        "Lancement d’applis, contrôles média, requêtes HTTP, fichiers et texte",
+        "Raccourcis Intent : appel, SMS, e-mail, carte, itinéraire, recherche web",
+        "Actions de presse-papiers et de notification, plus Shizuku en option"
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Flux simples ou avancés",
+      "paragraphs": [],
+      "bullets": [
+        "Combinez Quand, Si, Alors, Sinon, délais, boucles et variables",
+        "Ajoutez plusieurs déclencheurs et conditions à une même tâche",
+        "Lancez des Tâches résidentes en arrière-plan ou des Tâches One-Tap",
+        "Organisez vos routines avec des Scènes personnalisables",
+        "Importez, exportez, sauvegardez et restaurez vos automatisations"
+      ]
+    },
+    {
+      "id": "ideas",
+      "title": "Idées d’automatisation au quotidien",
+      "paragraphs": [
+        "Routines pour le travail, la maison, le sommeil et la conduite :"
+      ],
+      "bullets": [
+        "Mettez le téléphone en silencieux en réunion ou au coucher",
+        "Lancez la musique au branchement des écouteurs Bluetooth",
+        "Ouvrez la navigation dès que vous prenez le volant",
+        "Faites cliquer les boutons répétitifs à votre place",
+        "Ouvrez des applis selon l’heure, le lieu ou un événement de l’appareil"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Confidentialité, autorisations et sans root",
+      "paragraphs": [],
+      "bullets": [
+        "Vos tâches s’exécutent directement sur votre appareil",
+        "La génération par IA exige Internet et envoie votre demande au service IA",
+        "L’accessibilité sert uniquement aux fonctions requises par vos tâches",
+        "Aucun root au quotidien ; Shizuku, en option, ajoute un contrôle avancé",
+        "Consultez ou révoquez les autorisations dans les paramètres Android"
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Pensé pour les débutants comme pour les experts",
+      "paragraphs": [
+        "Vous débutez en automatisation mobile ? Commencez avec l’IA, des exemples et des modèles prêts.",
+        "Besoin de plus de contrôle ? Créez des flux conditionnels, automatisez l’interface, utilisez des variables, enregistrez des gestes ou activez le mode Shizuku."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Décrivez votre routine, laissez WhenDo la créer et automatisez votre téléphone Android.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

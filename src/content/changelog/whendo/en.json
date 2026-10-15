@@ -1,0 +1,49 @@
+{
+  "slug": "whendo",
+  "locale": "en",
+  "entries": [
+    {
+      "code": 182,
+      "name": "1.8.1",
+      "date": "2026-09-16",
+      "items": [
+        "New",
+        "Five new answers in the Help Center: start a task without opening the app, what WhenDo can do to your phone, why it asks for each permission, what Shizuku mode is, and whether it can tap buttons inside other apps.",
+        "Improved",
+        "Demo videos added to the FAQ — permissions, manual triggers and more now show you the screen while you follow along."
+      ]
+    },
+    {
+      "code": 180,
+      "name": "1.8.0",
+      "date": "2026-09-10",
+      "items": [
+        "New",
+        "Presets rebuilt — 64 ready-made tasks in Templates, added in one tap. Ones needing a detail let you pick an app or device.",
+        "Search while building — triggers, conditions and actions in one place, or hand the task to AI.",
+        "Clicker quick start: set up, countdown, run.",
+        "Improved",
+        "Taskly is now WhenDo, with a new icon.",
+        "How-to videos in the Help Center.",
+        "Fixed",
+        "Indonesian showing up in English."
+      ]
+    },
+    {
+      "code": 170,
+      "name": "1.7.0",
+      "date": "2026-09-04",
+      "items": [
+        "New",
+        "Floating trigger buttons — tap, double tap or long press to run a task. Drag them anywhere on screen.",
+        "Physical key triggers — run tasks with a single, double or long press of a volume key, optionally blocking the original key.",
+        "Improved",
+        "Android 16 support, clearer wording for \"Return to previous app\".",
+        "Fixed",
+        "Crash when showing a toast in Shizuku mode.",
+        "Service stopping when a resident task failed to start."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

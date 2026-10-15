@@ -1,0 +1,243 @@
+{
+  "slug": "whendo",
+  "locale": "fr",
+  "title": "Centre d’aide",
+  "sections": [
+    {
+      "id": "questions",
+      "title": "Questions fréquentes",
+      "entries": [
+        {
+          "id": "not_triggered",
+          "q": "Pourquoi ma tâche ne s’exécute-t-elle pas ?",
+          "a": [
+            "Vérifiez que le service tourne et que la tâche est activée. La plupart des déclencheurs requièrent aussi le service d’accessibilité et que l’appli reste active en arrière-plan (vérifiez les réglages de batterie)."
+          ]
+        },
+        {
+          "id": "find_tasks",
+          "q": "Où sont mes tâches et comment en arrêter une ?",
+          "a": [
+            "Tout ce que vous avez créé se trouve dans l'onglet « Scènes », regroupé par scène. Chaque carte a son propre interrupteur : vous pouvez donc arrêter une seule tâche sans toucher aux autres, tandis que l'interrupteur de la scène désactive tout le groupe d'un coup. Attention : réactiver une scène réactive toutes les tâches qu'elle contient, pensez donc à revérifier celles que vous aviez désactivées individuellement."
+          ],
+          "video": "ZEvyPaMP7U0"
+        },
+        {
+          "id": "presets",
+          "q": "Comment utiliser les tâches prédéfinies ?",
+          "a": [
+            "Ouvrez Modèles › Tâches prédéfinies, choisissez une catégorie et appuyez sur Ajouter. Les tâches marquées « À configurer » demandent un ou deux détails (une appli, un bouton flottant, le nom de votre Wi-Fi) puis s'activent aussitôt. Appuyez sur l'étiquette d'état d'une tâche prédéfinie pour voir l'autorisation qui lui manque encore. Les tâches déclenchées uniquement par un bouton flottant ou une touche physique ne comptent pas dans la limite gratuite de tâches résidentes."
+          ],
+          "video": "LxWzDB0vqOE"
+        },
+        {
+          "id": "auto_click_stops",
+          "q": "Le cliqueur automatique s'arrête au bout de quelques minutes.",
+          "a": [
+            "La plupart des téléphones coupent les services d'accessibilité pour économiser la batterie. Verrouillez WhenDo dans les récents, désactivez l'optimisation de batterie pour lui, autorisez le démarrage auto, et sur Xiaomi / OPPO / vivo / Huawei ajoutez-le aussi à la liste des applis protégées ou « sans restriction ». Si WhenDo est arrêté, vous recevez une notification qui ouvre cette page. Les tâches prédéfinies de la catégorie Cliqueur auto ajoutent une petite variation aléatoire à chaque clic, pour que les jeux repèrent moins facilement des intervalles identiques répétés."
+          ]
+        },
+        {
+          "id": "bank_apps",
+          "q": "Mon appli bancaire refuse de s'ouvrir quand WhenDo est actif.",
+          "a": [
+            "Certaines applis bancaires bloquent tout service d'accessibilité actif. Ajoutez une tâche « Quand l'appli bancaire s'ouvre → Mettre en pause pour l'appli en cours » depuis les tâches prédéfinies Utilitaires, ou désactivez WhenDo pendant vos opérations bancaires. C'est une restriction imposée par la banque, que WhenDo ne peut pas contourner."
+          ]
+        },
+        {
+          "id": "permissions",
+          "q": "Comment accorder les autorisations requises ?",
+          "a": [
+            "Ouvrez le tableau de bord et suivez les cartes d’autorisation. Le service d’accessibilité s’active dans « Paramètres → Accessibilité » ; Shizuku s’accorde depuis l’appli Shizuku."
+          ],
+          "video": "VdeGorn3azg"
+        },
+        {
+          "id": "background_killed",
+          "q": "L’appli est sans cesse fermée en arrière-plan.",
+          "a": [
+            "Verrouillez l’appli dans les récents, désactivez l’optimisation de batterie pour elle et activez « Démarrage auto après l’allumage » dans les réglages. Certains téléphones ont aussi une liste d’applis protégées."
+          ]
+        },
+        {
+          "id": "when_vs_if",
+          "q": "Quelle différence entre Quand et Si ?",
+          "a": [
+            "Le déclencheur (When) décide quand une tâche démarre. La condition (If) décide si les actions suivantes s’exécutent après le démarrage. Une tâche a besoin d’un déclencheur pour commencer ; les conditions ne font que filtrer."
+          ],
+          "video": "OHhz4YyPG-g"
+        },
+        {
+          "id": "trigger_types",
+          "q": "Qu'est-ce qui peut réellement déclencher une tâche ?",
+          "a": [
+            "Presque tout ce que le téléphone remarque : entrer dans une application ou en sortir, une heure précise ou votre alarme, la connexion au Wi-Fi, au Bluetooth ou à un casque, l'écran qui s'allume ou s'éteint, la mise en charge, un niveau de batterie, le texte d'une notification, un contenu partagé vers l'appli, ou un secouement de l'appareil. Vous pouvez aussi vous passer complètement d'événement et lancer une tâche depuis un bouton flottant. La localisation, le calendrier, les appels, le NFC ainsi que les gestes « écran face vers le bas » et « tapotement au dos » nécessitent Pro."
+          ],
+          "video": "m1CCS9DQ_jo"
+        },
+        {
+          "id": "ai_generate",
+          "q": "Comment créer une tâche avec l’IA ?",
+          "a": [
+            "Dans l’éditeur de tâches, décrivez ce que vous voulez en langage courant et appuyez sur le bouton IA. L’appli rédige une tâche complète que vous pouvez ensuite vérifier et ajuster."
+          ],
+          "video": "ockn9aw9LYQ"
+        },
+        {
+          "id": "edit_task",
+          "q": "Puis-je modifier une tâche après l'avoir créée ?",
+          "a": [
+            "Oui, vous n'avez jamais besoin de tout recommencer. Appuyez sur « Modifier » sur la carte de la tâche, puis sur le crayon d'une ligne pour n'ouvrir que cette ligne et en changer les valeurs. Si vous revenez en arrière, l'appli demande confirmation avant d'abandonner vos modifications, et rien n'est enregistré tant que vous n'avez pas appuyé sur la coche."
+          ],
+          "video": "ajU2Tf-cFPM"
+        },
+        {
+          "id": "backup",
+          "q": "Comment sauvegarder ou importer mes tâches ?",
+          "a": [
+            "Allez dans « Paramètres → Exporter toutes les tâches » pour enregistrer une archive. Pour importer, ouvrez cette archive avec l’appli ou utilisez l’entrée d’import de la liste des tâches."
+          ]
+        },
+        {
+          "id": "resident_vs_oneshot",
+          "q": "Quelle différence entre une tâche résidente et une tâche unique ?",
+          "a": [
+            "Une tâche résidente surveille son déclencheur en continu et s’exécute automatiquement dès que la condition est remplie. Une tâche unique s’exécute une seule fois, quand vous l’appuyez. Utilisez le mode résident pour une automatisation qui réagit seule, et unique pour les actions lancées à la main."
+          ],
+          "video": "r6MyGSQmF7s"
+        },
+        {
+          "id": "schedule_time",
+          "q": "Puis-je lancer une tâche à une heure précise ou de façon répétée ?",
+          "a": [
+            "Oui. Dans « Quand », ajoutez un déclencheur basé sur le temps, comme une heure précise ou un intervalle répété. Le service de tâches doit rester actif pour que les tâches planifiées se déclenchent à l’heure."
+          ],
+          "video": "oCJWsS18Evs"
+        },
+        {
+          "id": "ai_better",
+          "q": "La génération par IA a échoué ou ne donne pas le bon résultat — que faire ?",
+          "a": [
+            "Décrivez le déclencheur et l’action en une phrase claire, par ex. « quand je me connecte au Wi-Fi de la maison, mettre le téléphone en silencieux ». Nommez l’app ou la condition explicitement, évitez les formulations vagues, puis appuyez de nouveau sur « Générer avec l’IA ». Vous pourrez toujours ajuster la tâche à la main ensuite."
+          ],
+          "video": "lRJOqQ65ST0"
+        },
+        {
+          "id": "debug_run",
+          "q": "Comment vérifier que ma tâche s’exécute vraiment ?",
+          "a": [
+            "Vérifiez que le service est activé et la tâche activée. Ouvrez la tâche et consultez ses journaux d’exécution / instantanés pour voir le résultat de chaque étape. Si elle ne se déclenche jamais, revérifiez le déclencheur et les autorisations requises."
+          ]
+        },
+        {
+          "id": "manual_trigger",
+          "q": "Puis-je lancer une tâche sans ouvrir l’appli ?",
+          "a": [
+            "Oui — associez-la à une touche physique ou à un bouton flottant. Dans l’éditeur de tâches, appuyez sur « Quand → État de l’appareil → Touche physique pressée », puis sur « Capturer la touche » et appuyez sur la touche voulue ; les appuis simple, double et long fonctionnent tous. Vous pouvez aussi choisir « Quand → Bouton flottant », et créer les boutons dans « Paramètres → Boutons déclencheurs flottants ». Les deux nécessitent que le service d’accessibilité soit actif."
+          ],
+          "video": "hcqbXCb-5Q8"
+        },
+        {
+          "id": "action_types",
+          "q": "Que peut réellement faire WhenDo sur mon téléphone ?",
+          "a": [
+            "170 actions réparties en 19 groupes. « Action de contrôle » couvre tout ce qui est à l’écran — appuyer, appuyer longuement, saisir, faire défiler, glisser. « Opérations d’application » lance ou arrête des applis, « État de l’appareil » gère la lampe torche, le Bluetooth, le Wi-Fi et la batterie, « Opérations média » couvre le volume et Ne pas déranger. Il existe aussi des actions sur le texte, les fichiers, le shell, les notifications, le calendrier, l’OCR et les variables globales. Celles qui nécessitent Pro ou Shizuku sont indiquées dans la liste."
+          ],
+          "video": "s44BKhrgGdM"
+        },
+        {
+          "id": "permissions_why",
+          "q": "Pourquoi WhenDo demande-t-il autant d’autorisations ?",
+          "a": [
+            "Chacune correspond à une fonction précise : vous n’avez donc à accorder que celles que vous utilisez. Le service d’accessibilité permet à WhenDo de lire l’écran et d’appuyer à votre place ; sans lui, l’automatisation de l’écran et les événements d’application s’arrêtent. L’autorisation de fenêtre flottante dessine les boutons flottants et les invites, et ne peut pas lire votre écran. La localisation ne sert qu’aux noms Wi-Fi et aux zones de géorepérage, et le microphone, la caméra, le calendrier et l’état du téléphone ne sont utilisés que par les actions qui en ont besoin. Le réseau sert à la génération par IA, à la bibliothèque de tâches prédéfinies en ligne, à la configuration à distance et aux statistiques d’usage anonymes."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Qu’est-ce que le mode Shizuku, et comment l’activer ?",
+          "a": [
+            "Shizuku est une appli compagnon distincte qui prête à WhenDo des capacités système sans root — commandes shell, activation ou désactivation du Wi-Fi ou du Bluetooth, et bien plus. Installez Shizuku et lancez-le (il faut ADB, le débogage sans fil ou root pour le démarrer), puis accordez l’autorisation à WhenDo depuis le tableau de bord. Si le démarrage expire, mettez Shizuku à jour et accordez à nouveau l’autorisation."
+          ],
+          "video": "S32Bz5ZBmog"
+        },
+        {
+          "id": "ui_automation",
+          "q": "WhenDo peut-il appuyer sur un bouton dans une autre appli ?",
+          "a": [
+            "Oui. Utilisez une action du groupe « Action de contrôle » : appuyer sur un bouton par son texte, appuyer sur l’élément qui correspond à une condition, saisir du texte dans un champ, faire défiler une liste ou glisser un élément sur un autre. WhenDo lit l’écran via le service d’accessibilité, ce qui fonctionne même dans les applis sans API publique."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Notions clés",
+      "entries": [
+        {
+          "id": "flow",
+          "q": "Flux (Flow)",
+          "a": [
+            "Un flux est une automatisation complète que vous créez. Il comporte généralement une partie Quand (déclencheurs) et une partie Faire (actions)."
+          ]
+        },
+        {
+          "id": "rule",
+          "q": "Règle (Rule)",
+          "a": [
+            "Une règle est une ligne de l’éditeur, l’élément de base d’une tâche. Une règle peut contenir des sous-règles."
+          ]
+        },
+        {
+          "id": "when",
+          "q": "Déclencheur (When)",
+          "a": [
+            "L’événement qui démarre votre tâche : ouverture d’une appli, heure programmée, etc. Sans déclencheur, une tâche ne démarre jamais seule."
+          ]
+        },
+        {
+          "id": "if",
+          "q": "Condition (If)",
+          "a": [
+            "Un test qui doit être vrai pour que les actions suivantes s’exécutent, par exemple « seulement si le Wi-Fi est connecté »."
+          ]
+        },
+        {
+          "id": "do",
+          "q": "Action (Do)",
+          "a": [
+            "Ce que l’appli fait pour vous : appuyer sur un bouton, envoyer une notification, lancer une appli, etc."
+          ]
+        },
+        {
+          "id": "applet",
+          "q": "Applet",
+          "a": [
+            "Le plus petit bloc. Chaque déclencheur, condition et action est un applet que vous choisissez et combinez."
+          ]
+        },
+        {
+          "id": "global_var",
+          "q": "Variable globale",
+          "a": [
+            "Une valeur que vous stockez et réutilisez entre les tâches : un compteur ou du texte capturé à l’écran."
+          ]
+        },
+        {
+          "id": "a11y",
+          "q": "Service d’accessibilité",
+          "a": [
+            "L’autorisation système qui permet à l’appli de lire l’écran et d’appuyer pour vous. La plupart des automatisations l’exigent."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku",
+          "a": [
+            "Une appli compagnon facultative qui accorde des capacités système avancées (commandes shell) sans root."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

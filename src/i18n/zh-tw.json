@@ -192,6 +192,15 @@
       "macros": "巨集",
       "turbo": "連發（自動連點）",
       "combos": "組合鍵",
+      "activation": "只用手機就能設好，不需要電腦、無線偵錯或 Shizuku",
+      "free-install": "免費安裝",
+      "no-subscription": "任何功能都不需要訂閱",
+      "controller-test": "內建手把測試（按鍵、搖桿飄移、延遲、震動）",
+      "pause-tile": "快速設定裡的暫停開關",
+      "haptic-feedback": "映射觸發時的震動回饋",
+      "backup-restore": "所有配置備份成一個檔案並還原",
+      "no-account": "不需要帳號或登入",
+      "video-help": "App 內常見問題附影片教學",
       "pricing-model": "收費方式"
     },
     "values": {

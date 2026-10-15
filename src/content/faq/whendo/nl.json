@@ -1,0 +1,243 @@
+{
+  "slug": "whendo",
+  "locale": "nl",
+  "title": "Helpcentrum",
+  "sections": [
+    {
+      "id": "questions",
+      "title": "Veelgestelde vragen",
+      "entries": [
+        {
+          "id": "not_triggered",
+          "q": "Waarom draait mijn taak niet?",
+          "a": [
+            "Zorg dat de service draait en de taak is ingeschakeld. De meeste triggers hebben ook de toegankelijkheidsservice nodig en dat de app op de achtergrond actief blijft (controleer de batterijinstellingen)."
+          ]
+        },
+        {
+          "id": "find_tasks",
+          "q": "Waar staan mijn taken en hoe zet ik er één stop?",
+          "a": [
+            "Alles wat je hebt gemaakt staat op het tabblad “Scènes”, gegroepeerd per scène. Elke kaart heeft zijn eigen schakelaar, dus je kunt één taak stoppen zonder de andere aan te raken; de schakelaar van de scène zelf zet de hele groep in één keer uit. Let op: als je een scène weer aanzet, wordt elke taak erin ingeschakeld, dus controleer opnieuw welke je afzonderlijk had uitgezet."
+          ],
+          "video": "ZEvyPaMP7U0"
+        },
+        {
+          "id": "presets",
+          "q": "Hoe gebruik ik de kant-en-klare presets?",
+          "a": [
+            "Open “Sjablonen › Vooraf ingestelde taak”, kies een categorie en tik op Toevoegen. Presets met het label “Instellen nodig” vragen om een of twee gegevens (een app, een zwevende knop, de naam van je Wi-Fi) en gaan daarna meteen aan. Tik op het statuslabel van een preset om te zien welke machtiging nog ontbreekt. Taken die alleen door zwevende knoppen of fysieke toetsen worden gestart, tellen niet mee voor de gratis limiet voor permanente taken."
+          ],
+          "video": "LxWzDB0vqOE"
+        },
+        {
+          "id": "auto_click_stops",
+          "q": "De klikgenerator stopt na een paar minuten.",
+          "a": [
+            "De meeste telefoons stoppen toegankelijkheidsservices om stroom te besparen. Vergrendel WhenDo in Recent, schakel batterijoptimalisatie ervoor uit, sta automatisch starten toe en zet de app op Xiaomi / OPPO / vivo / Huawei ook in de lijst met beschermde apps of “geen beperkingen”. Als WhenDo wordt gestopt, krijg je een melding die deze pagina opent. Presets uit de categorie Klikgenerator geven elke tik een kleine willekeurige variatie, zodat games minder snel aanslaan op steeds identieke intervallen."
+          ]
+        },
+        {
+          "id": "bank_apps",
+          "q": "Mijn bank-app wil niet openen terwijl WhenDo aanstaat.",
+          "a": [
+            "Sommige bank-apps blokkeren elke actieve toegankelijkheidsservice. Voeg via de presets onder “Hulpmiddelen” de taak “Als de bank-app opent → Pauzeer voor de huidige app” toe, of zet WhenDo uit tijdens het bankieren. Dit is een beperking van de bank, niet iets wat WhenDo kan omzeilen."
+          ]
+        },
+        {
+          "id": "permissions",
+          "q": "Hoe verleen ik de vereiste machtigingen?",
+          "a": [
+            "Open het dashboard en volg de machtigingskaarten. De toegankelijkheidsservice geef je in “Instellingen → Toegankelijkheid”; Shizuku via de Shizuku-app."
+          ],
+          "video": "VdeGorn3azg"
+        },
+        {
+          "id": "background_killed",
+          "q": "De app wordt steeds op de achtergrond gesloten.",
+          "a": [
+            "Vergrendel de app in Recent, schakel batterijoptimalisatie ervoor uit en zet “Automatisch starten na opstarten” aan in de instellingen. Sommige telefoons hebben ook een aparte lijst met beschermde apps."
+          ]
+        },
+        {
+          "id": "when_vs_if",
+          "q": "Wat is het verschil tussen Wanneer en Als?",
+          "a": [
+            "De trigger (When) bepaalt wanneer een taak start. De voorwaarde (If) bepaalt of de volgende acties draaien na de start. Een taak heeft een trigger nodig om te beginnen; voorwaarden filteren alleen."
+          ],
+          "video": "OHhz4YyPG-g"
+        },
+        {
+          "id": "trigger_types",
+          "q": "Wat kan een taak in gang zetten?",
+          "a": [
+            "Bijna alles wat de telefoon opmerkt: een app openen of verlaten, een tijdstip of je wekker, verbinden met Wi-Fi, Bluetooth of een headset, het scherm dat aan- of uitgaat, opladen, een batterijniveau, de tekst van een melding, iets dat naar de app wordt gedeeld, of het schudden van het apparaat. Je kunt gebeurtenissen ook helemaal overslaan en een taak starten met een zwevende knop. Locatie, agenda, oproepen, NFC en de gebaren “scherm naar beneden” en “dubbeltik op achterkant” vereisen Pro."
+          ],
+          "video": "m1CCS9DQ_jo"
+        },
+        {
+          "id": "ai_generate",
+          "q": "Hoe maak ik een taak met AI?",
+          "a": [
+            "Typ in de taakeditor in gewone woorden wat je wilt en tik op de AI-knop. De app stelt een volledige taak op die je daarna kunt bekijken en aanpassen."
+          ],
+          "video": "ockn9aw9LYQ"
+        },
+        {
+          "id": "edit_task",
+          "q": "Kan ik een taak nog aanpassen nadat ik hem heb gemaakt?",
+          "a": [
+            "Ja, je hoeft nooit opnieuw te beginnen. Tik op “Bewerken” op de taakkaart en tik daarna op het potlood bij een regel om alleen die regel te openen en de waarden aan te passen. Bij het teruggaan wordt eerst gevraagd of je de wijzigingen wilt weggooien, en er wordt pas opgeslagen als je op het vinkje tikt."
+          ],
+          "video": "ajU2Tf-cFPM"
+        },
+        {
+          "id": "backup",
+          "q": "Hoe maak ik een back-up of importeer ik mijn taken?",
+          "a": [
+            "Ga naar “Instellingen → Alle taken exporteren” om een archiefbestand op te slaan. Om te importeren open je dat archief met de app of gebruik je de importoptie in de takenlijst."
+          ]
+        },
+        {
+          "id": "resident_vs_oneshot",
+          "q": "Wat is het verschil tussen een blijvende en een eenmalige taak?",
+          "a": [
+            "Een blijvende taak blijft op zijn trigger letten en draait automatisch zodra de voorwaarde klopt. Een eenmalige taak draait één keer, wanneer je erop tikt. Gebruik blijvend voor automatisering die vanzelf reageert en eenmalig voor acties die je met de hand start."
+          ],
+          "video": "r6MyGSQmF7s"
+        },
+        {
+          "id": "schedule_time",
+          "q": "Kan ik een taak op een bepaald tijdstip of herhaald laten lopen?",
+          "a": [
+            "Ja. Voeg onder Wanneer een trigger op tijd toe, zoals een bepaald tijdstip of een herhalend interval. De taakservice moet blijven draaien zodat geplande taken op tijd afgaan."
+          ],
+          "video": "oCJWsS18Evs"
+        },
+        {
+          "id": "ai_better",
+          "q": "AI-generatie mislukte of gaf niet wat ik wilde — wat nu?",
+          "a": [
+            "Beschrijf de trigger en de actie in één duidelijke zin, bijv. \"als ik met thuis-wifi verbind, telefoon op stil\". Noem de app of voorwaarde expliciet, vermijd vage woorden en tik opnieuw op \"Maken met AI\". Je kunt de gemaakte taak achteraf altijd met de hand bijschaven."
+          ],
+          "video": "lRJOqQ65ST0"
+        },
+        {
+          "id": "debug_run",
+          "q": "Hoe controleer ik of mijn taak echt draait?",
+          "a": [
+            "Zorg dat de service aan staat en de taak is ingeschakeld. Open de taak en bekijk de uitvoeringslogs/snapshots om het resultaat van elke stap te zien. Gaat hij nooit af, controleer dan opnieuw de trigger en de vereiste rechten."
+          ]
+        },
+        {
+          "id": "manual_trigger",
+          "q": "Kan ik een taak starten zonder de app te openen?",
+          "a": [
+            "Ja — koppel hem aan een fysieke toets of een zwevende knop. Tik in de taakeditor op Wanneer → Apparaatstatus → Fysieke knop ingedrukt en dan op Knop vastleggen; druk vervolgens op de toets die je wilt. Enkel, dubbel en lang indrukken werken allemaal. Of kies Wanneer → Zwevende knop en maak de knoppen aan via “Instellingen → Zwevende triggerknoppen”. Voor beide moet de toegankelijkheidsservice draaien."
+          ],
+          "video": "hcqbXCb-5Q8"
+        },
+        {
+          "id": "action_types",
+          "q": "Wat kan WhenDo eigenlijk met mijn telefoon doen?",
+          "a": [
+            "170 acties in 19 groepen. Widgetactie dekt alles op het scherm — klikken, lang indrukken, typen, scrollen, slepen. App-bediening start of stopt apps, Hardwarebediening regelt zaklamp, Bluetooth, Wi-Fi en batterij, Mediaspeler-bediening regelt volume en Niet storen. Er zijn ook acties voor tekst, bestanden, shell, meldingen, agenda, OCR en globale variabelen. Acties die Pro of Shizuku nodig hebben, zijn in de lijst gemarkeerd."
+          ],
+          "video": "s44BKhrgGdM"
+        },
+        {
+          "id": "permissions_why",
+          "q": "Waarom vraagt WhenDo om zoveel machtigingen?",
+          "a": [
+            "Elke machtiging hoort bij een specifieke functie, dus je hoeft alleen de machtigingen te geven die je echt gebruikt. Via de toegankelijkheidsservice leest WhenDo het scherm en tikt voor je; zonder deze stopt schermautomatisering en stoppen app-gebeurtenissen. De toestemming voor zwevend venster tekent de zwevende knoppen en meldingen en kan je scherm niet lezen. Locatie is alleen voor Wi-Fi-namen en geofences, en microfoon, camera, agenda en telefoonstatus worden alleen gebruikt door de acties die ze nodig hebben. Netwerk wordt gebruikt voor AI-generatie, de online voorbeeldbibliotheek, externe configuratie en anonieme gebruiksstatistieken."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Wat is Shizuku-modus en hoe zet ik die aan?",
+          "a": [
+            "Shizuku is een aparte begeleidende app die WhenDo systeemrechten leent zonder root — shell-commando's, Wi-Fi of Bluetooth aan- en uitzetten en meer. Installeer Shizuku en start het (het heeft ADB, draadloos debuggen of root nodig om te starten) en geef WhenDo daarna toestemming via het dashboard. Geeft het starten een time-out, werk Shizuku dan bij en geef de toestemming opnieuw."
+          ],
+          "video": "S32Bz5ZBmog"
+        },
+        {
+          "id": "ui_automation",
+          "q": "Kan WhenDo op een knop in een andere app tikken?",
+          "a": [
+            "Ja. Gebruik een Widgetactie: klik op een knop via de tekst, klik op het element dat aan een voorwaarde voldoet, typ in een veld, scroll door een lijst of sleep het ene element op het andere. WhenDo leest het scherm via de toegankelijkheidsservice en werkt dus ook in apps zonder openbare API."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Kernbegrippen",
+      "entries": [
+        {
+          "id": "flow",
+          "q": "Stroom (Flow)",
+          "a": [
+            "Een stroom is een volledige automatisering die je bouwt. Meestal heeft die een Wanneer-deel (triggers) en een Doe-deel (acties)."
+          ]
+        },
+        {
+          "id": "rule",
+          "q": "Regel (Rule)",
+          "a": [
+            "Een regel is één rij in de editor, de basisbouwsteen van een taak. Een regel kan subregels bevatten."
+          ]
+        },
+        {
+          "id": "when",
+          "q": "Trigger (When)",
+          "a": [
+            "De gebeurtenis die je taak start, zoals het openen van een app of een gepland tijdstip. Zonder trigger start een taak nooit vanzelf."
+          ]
+        },
+        {
+          "id": "if",
+          "q": "Voorwaarde (If)",
+          "a": [
+            "Een controle die waar moet zijn om de volgende acties uit te voeren, bijvoorbeeld “alleen als wifi verbonden is”."
+          ]
+        },
+        {
+          "id": "do",
+          "q": "Actie (Do)",
+          "a": [
+            "Iets dat de app voor je doet: op een knop tikken, een melding sturen of een app starten."
+          ]
+        },
+        {
+          "id": "applet",
+          "q": "Applet",
+          "a": [
+            "De kleinste bouwsteen. Elke trigger, voorwaarde en actie is een applet die je kiest en combineert."
+          ]
+        },
+        {
+          "id": "global_var",
+          "q": "Globale variabele",
+          "a": [
+            "Een waarde die je opslaat en hergebruikt tussen taken: een teller of tekst die van het scherm is opgehaald."
+          ]
+        },
+        {
+          "id": "a11y",
+          "q": "Toegankelijkheidsservice",
+          "a": [
+            "De systeemmachtiging waarmee de app het scherm kan lezen en voor je kan tikken. De meeste automatiseringen hebben die nodig."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku",
+          "a": [
+            "Een optionele begeleidende app die extra mogelijkheden op systeemniveau (zoals shell-opdrachten) verleent zonder root."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "whendo",
+  "locale": "vi",
+  "entries": [
+    {
+      "code": 182,
+      "name": "1.8.1",
+      "date": "2026-09-16",
+      "items": [
+        "Mới",
+        "Năm câu trả lời mới trong Trung tâm trợ giúp: chạy tác vụ mà không cần mở ứng dụng, WhenDo làm được gì với điện thoại, mỗi quyền dùng để làm gì, chế độ Shizuku là gì và có nhấn được nút trong ứng dụng khác không.",
+        "Cải tiến",
+        "Video minh họa trong câu hỏi thường gặp — quyền, kích hoạt thủ công và hơn thế, vừa xem màn hình vừa làm theo."
+      ]
+    },
+    {
+      "code": 180,
+      "name": "1.8.0",
+      "date": "2026-09-10",
+      "items": [
+        "Mới",
+        "Làm mới bộ mẫu — 64 tác vụ dựng sẵn trong Mẫu, thêm chỉ với một chạm. Mục nào cần thông tin thì chọn ứng dụng hoặc thiết bị từ danh sách.",
+        "Tìm kiếm ngay khi tạo — trình kích hoạt, điều kiện và thao tác ở cùng một chỗ, hoặc giao cả tác vụ cho AI.",
+        "Auto click khởi động nhanh: thiết lập, đếm ngược, chạy.",
+        "Cải tiến",
+        "Taskly nay là WhenDo, với biểu tượng mới.",
+        "Video hướng dẫn trong Trung tâm trợ giúp.",
+        "Đã sửa",
+        "Tiếng Indonesia hiển thị bằng tiếng Anh."
+      ]
+    },
+    {
+      "code": 170,
+      "name": "1.7.0",
+      "date": "2026-09-04",
+      "items": [
+        "Mới",
+        "Nút kích hoạt nổi — nhấn, nhấn đúp hoặc nhấn giữ để chạy tác vụ. Kéo tới vị trí bất kỳ, chỉnh kích thước và độ mờ.",
+        "Nhấn phím vật lý — chạy tác vụ bằng cách nhấn một lần, nhấn đúp hoặc nhấn giữ phím âm lượng, có thể chặn chức năng gốc của phím.",
+        "Cải tiến",
+        "Hỗ trợ Android 16, mô tả rõ hơn cho \"Quay về ứng dụng trước đó\".",
+        "Sửa lỗi",
+        "Sự cố khi hiển thị toast ở chế độ Shizuku.",
+        "Dịch vụ dừng khi tác vụ thường trú không khởi động được."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

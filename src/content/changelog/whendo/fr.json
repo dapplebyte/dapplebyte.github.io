@@ -1,0 +1,49 @@
+{
+  "slug": "whendo",
+  "locale": "fr",
+  "entries": [
+    {
+      "code": 182,
+      "name": "1.8.1",
+      "date": "2026-09-16",
+      "items": [
+        "Nouveautés",
+        "Cinq nouvelles réponses dans le Centre d'aide : lancer une tâche sans ouvrir l'app, ce que WhenDo peut faire sur votre téléphone, à quoi sert chaque autorisation, ce qu'est le mode Shizuku et s'il peut toucher des boutons dans d'autres apps.",
+        "Améliorations",
+        "Vidéos de démonstration dans les questions fréquentes — autorisations, déclenchement manuel et plus, avec l'écran sous les yeux."
+      ]
+    },
+    {
+      "code": 180,
+      "name": "1.8.0",
+      "date": "2026-09-10",
+      "items": [
+        "Nouveautés",
+        "Préréglages repensés — 64 tâches prêtes dans Modèles, ajoutées en un geste. Celles qui demandent un détail vous laissent choisir l'app ou l'appareil.",
+        "Recherche pendant la création — déclencheurs, conditions et actions au même endroit, ou confiez la tâche à l'IA.",
+        "Cliqueur automatique : réglez, décompte, partez.",
+        "Améliorations",
+        "Taskly devient WhenDo, avec une nouvelle icône.",
+        "Vidéos de prise en main dans le Centre d'aide.",
+        "Corrections",
+        "L'indonésien s'affichait en anglais."
+      ]
+    },
+    {
+      "code": 170,
+      "name": "1.7.0",
+      "date": "2026-09-04",
+      "items": [
+        "Nouveautés",
+        "Boutons déclencheurs flottants – appui simple, double ou long pour lancer une tâche. Placement libre à l'écran.",
+        "Touche physique pressée – lancez des tâches par appui simple, double ou long sur une touche de volume, en bloquant au besoin l'action d'origine.",
+        "Améliorations",
+        "Prise en charge d'Android 16, libellé plus clair pour « Retour à l'application précédente ».",
+        "Corrections",
+        "Plantage à l'affichage d'un toast en mode Shizuku.",
+        "Arrêt du service à l'échec d'une tâche résidente."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

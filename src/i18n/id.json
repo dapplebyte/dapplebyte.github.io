@@ -192,6 +192,15 @@
       "macros": "Makro",
       "turbo": "Turbo (ulang otomatis)",
       "combos": "Kombinasi tombol",
+      "activation": "Disiapkan dari ponsel saja, tanpa PC, debugging nirkabel, atau Shizuku",
+      "free-install": "Gratis dipasang",
+      "no-subscription": "Tanpa langganan untuk fitur apa pun",
+      "controller-test": "Uji kontroler bawaan (tombol, drift stik, latensi, getaran)",
+      "pause-tile": "Sakelar jeda di Pengaturan Cepat",
+      "haptic-feedback": "Umpan balik getar saat kontrol yang dipetakan aktif",
+      "backup-restore": "Cadangkan semua layout ke satu file dan pulihkan",
+      "no-account": "Tanpa akun atau login",
+      "video-help": "FAQ dalam aplikasi dengan panduan video",
       "pricing-model": "Model harga"
     },
     "values": {

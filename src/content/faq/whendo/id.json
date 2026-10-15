@@ -1,0 +1,243 @@
+{
+  "slug": "whendo",
+  "locale": "id",
+  "title": "Pusat Bantuan",
+  "sections": [
+    {
+      "id": "questions",
+      "title": "Pertanyaan Umum",
+      "entries": [
+        {
+          "id": "not_triggered",
+          "q": "Mengapa tugas saya tidak berjalan?",
+          "a": [
+            "Pastikan layanan berjalan dan tugas diaktifkan. Sebagian besar pemicu juga butuh layanan aksesibilitas dan aplikasi tetap hidup di latar belakang (cek pengaturan baterai)."
+          ]
+        },
+        {
+          "id": "find_tasks",
+          "q": "Di mana tugas saya, dan bagaimana menghentikan salah satunya?",
+          "a": [
+            "Semua yang kamu buat ada di tab Adegan, dikelompokkan per adegan. Tiap kartu punya sakelar sendiri, jadi kamu bisa menghentikan satu tugas tanpa mengusik yang lain; sakelar adegan itu sendiri mematikan seluruh grup sekaligus. Perlu diingat, menyalakan kembali sebuah adegan akan mengaktifkan setiap tugas di dalamnya, jadi periksa lagi tugas yang tadinya kamu matikan satu per satu."
+          ],
+          "video": "ZEvyPaMP7U0"
+        },
+        {
+          "id": "presets",
+          "q": "Bagaimana cara memakai tugas bawaan?",
+          "a": [
+            "Buka «Templat › Tugas Bawaan», pilih kategori lalu ketuk Tambah. Tugas bawaan bertanda «Perlu penyiapan» akan menanyakan satu dua hal (aplikasi mana, tombol mengambang mana, nama Wi-Fi rumah) lalu langsung aktif. Ketuk label status di kartunya untuk melihat izin apa yang masih kurang. Tugas yang hanya dipicu tombol mengambang atau tombol fisik tidak dihitung dalam batas tugas permanen gratis."
+          ],
+          "video": "LxWzDB0vqOE"
+        },
+        {
+          "id": "auto_click_stops",
+          "q": "Klik otomatis berhenti sendiri setelah beberapa menit.",
+          "a": [
+            "Kebanyakan ponsel mematikan layanan aksesibilitas demi menghemat daya. Kunci WhenDo di Terbaru, matikan optimasi baterai untuknya, izinkan mulai otomatis, dan di Xiaomi / OPPO / vivo / Huawei tambahkan juga ke daftar aplikasi terlindungi atau «tanpa batasan». Jika WhenDo dihentikan, akan muncul notifikasi yang membuka halaman ini. Tugas bawaan dari kategori Klik otomatis menambahkan sedikit variasi acak pada tiap ketukan, sehingga game lebih kecil kemungkinannya menandai interval yang berulang persis sama."
+          ]
+        },
+        {
+          "id": "bank_apps",
+          "q": "Aplikasi bank saya menolak terbuka saat WhenDo aktif.",
+          "a": [
+            "Sebagian aplikasi bank memblokir layanan aksesibilitas apa pun yang sedang aktif. Tambahkan tugas «Saat aplikasi bank dibuka → Jeda untuk aplikasi saat ini» dari tugas bawaan kategori Utilitas, atau matikan WhenDo selama memakai aplikasi bank. Ini batasan dari pihak bank, bukan sesuatu yang bisa dilewati WhenDo."
+          ]
+        },
+        {
+          "id": "permissions",
+          "q": "Bagaimana memberikan izin yang diperlukan?",
+          "a": [
+            "Buka Dasbor dan ikuti kartu izin. Layanan aksesibilitas diberikan di “Pengaturan → Aksesibilitas”; Shizuku diberikan dari aplikasi Shizuku."
+          ],
+          "video": "VdeGorn3azg"
+        },
+        {
+          "id": "background_killed",
+          "q": "Aplikasi terus ditutup di latar belakang.",
+          "a": [
+            "Kunci aplikasi di Terbaru, matikan optimasi baterai untuknya, dan aktifkan “Mulai otomatis setelah boot” di Pengaturan. Beberapa ponsel punya daftar aplikasi terlindungi terpisah."
+          ]
+        },
+        {
+          "id": "when_vs_if",
+          "q": "Apa beda Ketika dan Jika?",
+          "a": [
+            "Pemicu (When) menentukan kapan tugas mulai. Kondisi (If) menentukan apakah aksi berikutnya berjalan setelah mulai. Tugas perlu pemicu untuk mulai; kondisi hanya menyaring."
+          ],
+          "video": "OHhz4YyPG-g"
+        },
+        {
+          "id": "trigger_types",
+          "q": "Apa saja yang bisa memicu sebuah tugas?",
+          "a": [
+            "Hampir semua yang bisa disadari ponsel: membuka atau meninggalkan aplikasi, jam tertentu atau alarm kamu, terhubung ke Wi-Fi, Bluetooth atau headset, layar menyala atau mati, mulai mengisi daya, level baterai, teks sebuah notifikasi, konten yang dibagikan ke aplikasi, atau goyangan. Kamu juga bisa melewatkan peristiwa sepenuhnya dan menjalankan tugas dari tombol mengambang. Lokasi, kalender, panggilan, NFC, serta gestur menghadap ke bawah dan ketuk bagian belakang butuh Pro."
+          ],
+          "video": "m1CCS9DQ_jo"
+        },
+        {
+          "id": "ai_generate",
+          "q": "Bagaimana membuat tugas dengan AI?",
+          "a": [
+            "Di editor tugas, ketik yang kamu inginkan dengan bahasa biasa lalu ketuk tombol AI. Aplikasi menyusun draf tugas lengkap yang bisa kamu tinjau dan sesuaikan."
+          ],
+          "video": "ockn9aw9LYQ"
+        },
+        {
+          "id": "edit_task",
+          "q": "Bisakah mengubah tugas setelah selesai dibuat?",
+          "a": [
+            "Bisa, kamu tak perlu mengulang dari awal. Ketuk Edit di kartu tugas, lalu ketuk ikon pensil di baris mana pun untuk membuka baris itu saja dan mengubah nilainya. Saat keluar, aplikasi bertanya dulu sebelum membuang perubahanmu, dan tidak ada yang tersimpan sampai kamu mengetuk tanda centang."
+          ],
+          "video": "ajU2Tf-cFPM"
+        },
+        {
+          "id": "backup",
+          "q": "Bagaimana mencadangkan atau mengimpor tugas?",
+          "a": [
+            "Buka “Pengaturan → Ekspor semua tugas” untuk menyimpan file arsip. Untuk mengimpor, buka arsip itu dengan aplikasi atau gunakan entri impor di daftar tugas."
+          ]
+        },
+        {
+          "id": "resident_vs_oneshot",
+          "q": "Apa beda tugas residen dan tugas sekali jalan?",
+          "a": [
+            "Tugas residen terus memantau pemicunya dan berjalan otomatis saat kondisi terpenuhi. Tugas sekali jalan berjalan sekali, saat kamu menyentuhnya. Pakai residen untuk otomatisasi yang bereaksi sendiri, dan sekali jalan untuk aksi yang kamu mulai manual."
+          ],
+          "video": "r6MyGSQmF7s"
+        },
+        {
+          "id": "schedule_time",
+          "q": "Bisakah menjalankan tugas pada waktu tertentu atau berulang?",
+          "a": [
+            "Bisa. Di «Ketika», tambahkan pemicu berbasis waktu, seperti jam tertentu atau interval berulang. Layanan tugas harus tetap berjalan agar tugas terjadwal terpicu tepat waktu."
+          ],
+          "video": "oCJWsS18Evs"
+        },
+        {
+          "id": "ai_better",
+          "q": "Pembuatan AI gagal atau hasilnya tidak sesuai — apa yang harus dilakukan?",
+          "a": [
+            "Jelaskan pemicu dan aksi dalam satu kalimat jelas, mis. «saat terhubung Wi-Fi rumah, senyapkan ponsel». Sebut aplikasi atau kondisi secara eksplisit, hindari kata ambigu, lalu ketuk «Buat dengan AI» lagi. Kamu selalu bisa menyempurnakan tugasnya secara manual setelahnya."
+          ],
+          "video": "lRJOqQ65ST0"
+        },
+        {
+          "id": "debug_run",
+          "q": "Bagaimana memastikan tugas benar-benar berjalan?",
+          "a": [
+            "Pastikan layanan aktif dan tugas diaktifkan. Buka tugas dan lihat catatan eksekusi / snapshot-nya untuk melihat hasil tiap langkah. Jika tak pernah terpicu, periksa lagi pemicu dan izin yang dibutuhkan."
+          ]
+        },
+        {
+          "id": "manual_trigger",
+          "q": "Bisakah memulai tugas tanpa membuka aplikasi?",
+          "a": [
+            "Bisa — kaitkan tugas ke tombol fisik atau tombol mengambang. Di editor tugas, ketuk «Ketika → Status perangkat → Tombol fisik ditekan», lalu «Tangkap tombol» dan tekan tombol yang kamu mau; tekan sekali, dua kali, dan tahan semuanya berfungsi. Atau pilih «Ketika → Tombol mengambang», dan buat tombolnya di «Pengaturan → Tombol pemicu mengambang». Keduanya memerlukan layanan aksesibilitas yang berjalan."
+          ],
+          "video": "hcqbXCb-5Q8"
+        },
+        {
+          "id": "action_types",
+          "q": "Apa saja yang benar-benar bisa dilakukan WhenDo pada ponsel saya?",
+          "a": [
+            "170 aksi dalam 19 grup. Operasi kontrol mencakup apa pun di layar — ketuk, tekan lama, ketik, gulir, seret. Operasi Aplikasi meluncurkan atau menghentikan aplikasi, operasi perangkat keras menangani senter, Bluetooth, Wi-Fi, dan baterai, operasi media mencakup volume dan Jangan Ganggu. Ada juga aksi teks, berkas, Shell, notifikasi, kalender, OCR, dan variabel global. Aksi yang memerlukan Pro atau Shizuku ditandai di daftarnya."
+          ],
+          "video": "s44BKhrgGdM"
+        },
+        {
+          "id": "permissions_why",
+          "q": "Mengapa WhenDo meminta begitu banyak izin?",
+          "a": [
+            "Setiap izin mendukung fitur tertentu, jadi kamu hanya perlu memberi izin yang benar-benar kamu pakai. Aksesibilitas adalah cara WhenDo membaca layar dan mengetuk untukmu; tanpanya, otomatisasi layar dan event aplikasi akan berhenti. Izin Jendela Mengambang menggambar tombol mengambang dan perintah, dan tidak bisa membaca layar kamu. Lokasi hanya untuk nama Wi-Fi dan geofence, sedangkan mikrofon, kamera, kalender, dan status telepon hanya dipakai oleh aksi yang membutuhkannya. Jaringan dipakai untuk pembuatan AI, pustaka tugas bawaan online, konfigurasi jarak jauh, dan statistik penggunaan anonim."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Apa itu mode Shizuku, dan bagaimana cara mengaktifkannya?",
+          "a": [
+            "Shizuku adalah aplikasi pendamping terpisah yang memberi WhenDo kemampuan tingkat sistem tanpa root — perintah Shell, menyalakan atau mematikan Wi-Fi atau Bluetooth, dan lainnya. Pasang Shizuku lalu jalankan (perlu ADB, debugging nirkabel, atau root untuk memulai), kemudian beri izin kepada WhenDo dari Beranda. Jika memulainya kehabisan waktu, perbarui Shizuku dan beri izin lagi."
+          ],
+          "video": "S32Bz5ZBmog"
+        },
+        {
+          "id": "ui_automation",
+          "q": "Bisakah WhenDo mengetuk tombol di dalam aplikasi lain?",
+          "a": [
+            "Bisa. Pakai aksi operasi kontrol: ketuk tombol berdasarkan teksnya, ketuk kontrol yang cocok dengan suatu kondisi, ketik ke dalam kolom, gulir daftar, atau seret satu kontrol ke kontrol lain. WhenDo membaca layar lewat layanan aksesibilitas, jadi ini berfungsi di aplikasi yang tidak menyediakan API publik."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Konsep Inti",
+      "entries": [
+        {
+          "id": "flow",
+          "q": "Alur (Flow)",
+          "a": [
+            "Alur adalah otomatisasi lengkap yang kamu buat. Biasanya memiliki bagian Ketika (pemicu) dan bagian Lakukan (aksi)."
+          ]
+        },
+        {
+          "id": "rule",
+          "q": "Aturan (Rule)",
+          "a": [
+            "Aturan adalah satu baris di editor, blok dasar sebuah tugas. Sebuah aturan dapat berisi sub-aturan."
+          ]
+        },
+        {
+          "id": "when",
+          "q": "Pemicu (When)",
+          "a": [
+            "Peristiwa yang memulai tugasmu: aplikasi terbuka, waktu terjadwal, dll. Tanpa pemicu, tugas tidak pernah mulai sendiri."
+          ]
+        },
+        {
+          "id": "if",
+          "q": "Kondisi (If)",
+          "a": [
+            "Pemeriksaan yang harus benar agar aksi berikutnya berjalan, misalnya “hanya jika Wi-Fi terhubung”."
+          ]
+        },
+        {
+          "id": "do",
+          "q": "Aksi (Do)",
+          "a": [
+            "Sesuatu yang aplikasi lakukan untukmu: mengetuk tombol, mengirim notifikasi, atau membuka aplikasi."
+          ]
+        },
+        {
+          "id": "applet",
+          "q": "Applet",
+          "a": [
+            "Blok terkecil. Setiap pemicu, kondisi, dan aksi adalah applet yang kamu pilih dan gabungkan."
+          ]
+        },
+        {
+          "id": "global_var",
+          "q": "Variabel Global",
+          "a": [
+            "Nilai yang kamu simpan dan gunakan kembali antar tugas: penghitung atau teks yang diambil dari layar."
+          ]
+        },
+        {
+          "id": "a11y",
+          "q": "Layanan Aksesibilitas",
+          "a": [
+            "Izin sistem yang memungkinkan aplikasi membaca layar dan mengetuk untukmu. Sebagian besar otomatisasi membutuhkannya."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku",
+          "a": [
+            "Aplikasi pendamping opsional yang memberi kemampuan tingkat sistem tambahan (seperti perintah shell) tanpa root."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

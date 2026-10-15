@@ -192,6 +192,15 @@
       "macros": "マクロ",
       "turbo": "連射（自動連打）",
       "combos": "組み合わせボタン",
+      "activation": "PC・ワイヤレスデバッグ・Shizuku なしで、スマホだけで設定できる",
+      "free-install": "無料でインストール",
+      "no-subscription": "どの機能にもサブスクリプション不要",
+      "controller-test": "内蔵コントローラーテスト（ボタン、スティックのドリフト、遅延、振動）",
+      "pause-tile": "クイック設定の一時停止スイッチ",
+      "haptic-feedback": "割り当てた操作が発動したときの振動フィードバック",
+      "backup-restore": "すべてのレイアウトを1つのファイルにバックアップして復元",
+      "no-account": "アカウントやログイン不要",
+      "video-help": "アプリ内 FAQ に動画ガイド付き",
       "pricing-model": "料金体系"
     },
     "values": {

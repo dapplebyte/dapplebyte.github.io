@@ -192,6 +192,15 @@
       "macros": "매크로",
       "turbo": "연사(자동 반복)",
       "combos": "조합 버튼",
+      "activation": "PC, 무선 디버깅, Shizuku 없이 폰만으로 설정",
+      "free-install": "무료 설치",
+      "no-subscription": "어떤 기능도 구독 불필요",
+      "controller-test": "내장 컨트롤러 테스트(버튼, 스틱 드리프트, 지연, 진동)",
+      "pause-tile": "빠른 설정의 일시중지 스위치",
+      "haptic-feedback": "매핑된 조작이 실행될 때 진동 피드백",
+      "backup-restore": "모든 레이아웃을 한 파일로 백업하고 복원",
+      "no-account": "계정이나 로그인 불필요",
+      "video-help": "앱 내 FAQ에 영상 가이드 포함",
       "pricing-model": "가격 방식"
     },
     "values": {

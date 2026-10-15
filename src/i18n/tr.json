@@ -192,6 +192,15 @@
       "macros": "Makrolar",
       "turbo": "Turbo (otomatik tekrar)",
       "combos": "Tuş kombinasyonları",
+      "activation": "Yalnızca telefonla kurulum; PC, kablosuz hata ayıklama veya Shizuku gerekmez",
+      "free-install": "Ücretsiz yükleme",
+      "no-subscription": "Hiçbir özellik için abonelik yok",
+      "controller-test": "Yerleşik kumanda testi (tuşlar, çubuk kayması, gecikme, titreşim)",
+      "pause-tile": "Hızlı ayarlarda duraklatma anahtarı",
+      "haptic-feedback": "Eşlenen bir tuş tetiklendiğinde titreşim",
+      "backup-restore": "Tüm düzenleri tek dosyaya yedekleme ve geri yükleme",
+      "no-account": "Hesap veya giriş gerekmez",
+      "video-help": "Uygulama içi SSS ve video rehberler",
       "pricing-model": "Fiyatlandırma"
     },
     "values": {

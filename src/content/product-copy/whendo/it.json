@@ -1,0 +1,124 @@
+{
+  "slug": "whendo",
+  "locale": "it",
+  "title": "WhenDo: Auto Clicker Macro IA",
+  "shortDescription": "Automazione e pianificatore attività: trigger, gesti, flussi, senza root",
+  "tagline": "Automazione IA, auto clicker e macro per Android, senza programmare",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Automazione IA, auto clicker e macro per Android, senza programmare",
+      "paragraphs": [
+        "Descrivi una routine a parole tue e l’IA di WhenDo crea l’automazione: trigger, condizioni e azioni, tutto modificabile. Preferisci costruirla tu? Pianifica attività, registra gesti e avvia un auto clicker su qualsiasi app. Senza root."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "ai",
+      "title": "Crea automazioni con l’IA",
+      "paragraphs": [
+        "Prova richieste come:",
+        "“Silenzia il telefono quando mi collego al Wi-Fi di casa”",
+        "“Apri l’app di musica quando collego le cuffie”",
+        "“Attiva Non disturbare ogni sera alle 23”",
+        "“Ricordami di bere acqua ogni due ore”"
+      ],
+      "bullets": [
+        "Descrivi una routine con parole tue, o usa la voce",
+        "L’IA crea l’intero flusso: trigger, condizioni e azioni",
+        "Controlla e modifica ogni passaggio prima di attivarlo",
+        "Parti più veloce con esempi e modelli pronti all’uso"
+      ]
+    },
+    {
+      "id": "clicker",
+      "title": "Auto clicker, registrazione gesti e automazione dello schermo",
+      "paragraphs": [],
+      "bullets": [
+        "Auto clicker con intervallo e numero di ripetizioni regolabili",
+        "Registra e riproduci tocchi, scorrimenti e gesti in più passaggi",
+        "Scorrimenti per direzione, distanza e velocità, o per coordinate esatte",
+        "Pulsanti trigger flottanti: avvia una qualsiasi attività dallo schermo",
+        "Assistente flottante per scegliere elementi e automatizzare l’interfaccia",
+        "Screenshot, pressione di Indietro o spegnimento dello schermo"
+      ]
+    },
+    {
+      "id": "triggers",
+      "title": "Pianificatore attività e oltre 250 trigger",
+      "paragraphs": [],
+      "bullets": [
+        "Ora, pianificazioni, eventi del calendario, posizione e geofence",
+        "App aperta o chiusa, app recenti, schermo ed eventi dell’interfaccia",
+        "Cambiamenti di Wi-Fi, Bluetooth, cuffie e rete",
+        "Notifiche, chiamate, sensori, NFC e appunti",
+        "Tasti fisici come volume su e giù e gesti dell’impronta"
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Azioni macro per tutto",
+      "paragraphs": [],
+      "bullets": [
+        "Volume, luminosità, Non disturbare e altre impostazioni di sistema",
+        "Avvio app, controlli multimediali, richieste HTTP, file e testo",
+        "Scorciatoie Intent: chiamata, SMS, e-mail, mappe, indicazioni, ricerca web",
+        "Azioni su appunti e notifiche, più i controlli Shizuku opzionali"
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Flussi semplici o avanzati",
+      "paragraphs": [],
+      "bullets": [
+        "Combina Quando, Se, Allora, Altrimenti, ritardi, cicli e variabili",
+        "Aggiungi più trigger e condizioni a una stessa attività",
+        "Esegui Attività residenti in background o Attività One-Tap manuali",
+        "Organizza le routine con Scene personalizzabili",
+        "Importa, esporta, salva e ripristina le tue automazioni"
+      ]
+    },
+    {
+      "id": "ideas",
+      "title": "Idee di automazione quotidiana",
+      "paragraphs": [
+        "Routine per lavoro, casa, riposo e guida:"
+      ],
+      "bullets": [
+        "Silenzia il telefono in riunione o prima di dormire",
+        "Avvia la musica quando colleghi le cuffie Bluetooth",
+        "Apri il navigatore quando inizi a guidare",
+        "Fai cliccare i pulsanti ripetitivi al posto tuo",
+        "Avvia le app in base a ora, posizione o eventi del dispositivo"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy, autorizzazioni e nessun root",
+      "paragraphs": [],
+      "bullets": [
+        "Le tue attività di automazione vengono eseguite sul dispositivo",
+        "La generazione IA richiede Internet e invia la richiesta al servizio IA",
+        "L’accessibilità serve solo alle funzioni richieste dalle tue attività",
+        "Nessun root per l’uso quotidiano; Shizuku opzionale aggiunge controlli avanzati",
+        "Controlla o revoca le autorizzazioni dalle impostazioni Android"
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Per chi inizia e per chi vuole di più",
+      "paragraphs": [
+        "Non hai mai automatizzato il telefono? Inizia con l’IA, gli esempi e i modelli pronti all’uso.",
+        "Vuoi più controllo? Crea flussi condizionali, automatizza l’interfaccia, usa variabili, registra gesti o attiva la modalità Shizuku."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Descrivi la tua routine, lascia che WhenDo la crei e automatizza il tuo telefono Android.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

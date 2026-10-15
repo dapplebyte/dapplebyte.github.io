@@ -1,0 +1,243 @@
+{
+  "slug": "whendo",
+  "locale": "it",
+  "title": "Centro assistenza",
+  "sections": [
+    {
+      "id": "questions",
+      "title": "Domande frequenti",
+      "entries": [
+        {
+          "id": "not_triggered",
+          "q": "Perché la mia attività non parte?",
+          "a": [
+            "Assicurati che il servizio sia in esecuzione e l’attività attivata. La maggior parte dei trigger richiede anche il servizio di accessibilità e che l’app resti attiva in background (controlla le impostazioni della batteria)."
+          ]
+        },
+        {
+          "id": "find_tasks",
+          "q": "Dove sono le mie attività e come ne fermo una?",
+          "a": [
+            "Tutto quello che hai creato si trova nella scheda Scene, raggruppato per scene. Ogni attività ha il suo interruttore, quindi puoi fermarne una sola senza toccare le altre; l'interruttore della scena spegne l'intero gruppo in un colpo solo. Attenzione: riaccendere una scena abilita ogni attività al suo interno, perciò ricontrolla quelle che avevi disattivato una per una."
+          ],
+          "video": "ZEvyPaMP7U0"
+        },
+        {
+          "id": "presets",
+          "q": "Come si usano le attività predefinite?",
+          "a": [
+            "Apri «Modelli › Predefinite», scegli una categoria e tocca Aggiungi. Le predefinite contrassegnate con «Da configurare» chiedono uno o due dati (un'app, un pulsante flottante, il nome del tuo Wi-Fi) e si attivano subito. Tocca l'etichetta di stato di una predefinita per vedere quale autorizzazione manca ancora. Le attività attivate solo da pulsanti flottanti o tasti fisici non rientrano nel limite gratuito di attività residenti."
+          ],
+          "video": "LxWzDB0vqOE"
+        },
+        {
+          "id": "auto_click_stops",
+          "q": "Il clic automatico si ferma dopo pochi minuti.",
+          "a": [
+            "La maggior parte dei telefoni ferma i servizi di accessibilità per risparmiare energia. Blocca WhenDo nelle recenti, disattiva l'ottimizzazione della batteria per l'app, consenti l'avvio automatico e su Xiaomi / OPPO / vivo / Huawei aggiungila anche all'elenco delle app protette o «senza restrizioni». Se WhenDo viene fermata, ricevi una notifica che apre questa pagina. Le predefinite della categoria Auto clicker aggiungono una piccola variazione casuale a ogni tocco, così i giochi rilevano meno gli intervalli identici ripetuti."
+          ]
+        },
+        {
+          "id": "bank_apps",
+          "q": "L'app della banca non si apre mentre WhenDo è attiva.",
+          "a": [
+            "Alcune app bancarie bloccano qualsiasi servizio di accessibilità attivo. Aggiungi un'attività «Quando si apre l'app della banca → Metti in pausa l'app corrente» dalle predefinite di Utilità, oppure disattiva WhenDo mentre usi la banca. È una restrizione decisa dalla banca, non qualcosa che WhenDo possa aggirare."
+          ]
+        },
+        {
+          "id": "permissions",
+          "q": "Come concedo le autorizzazioni necessarie?",
+          "a": [
+            "Apri la dashboard e segui le schede delle autorizzazioni. Il servizio di accessibilità si concede in «Impostazioni → Accessibilità»; Shizuku dall’app Shizuku."
+          ],
+          "video": "VdeGorn3azg"
+        },
+        {
+          "id": "background_killed",
+          "q": "L’app viene chiusa di continuo in background.",
+          "a": [
+            "Blocca l’app nelle recenti, disattiva l’ottimizzazione della batteria per essa e attiva «Avvio automatico dopo il riavvio» nelle impostazioni. Alcuni telefoni hanno anche un elenco di app protette."
+          ]
+        },
+        {
+          "id": "when_vs_if",
+          "q": "Che differenza c’è tra Quando e Se?",
+          "a": [
+            "Il trigger (When) decide quando un’attività inizia. La condizione (If) decide se le azioni successive vengono eseguite dopo l’avvio. Un’attività ha bisogno di un trigger per partire; le condizioni filtrano soltanto."
+          ],
+          "video": "OHhz4YyPG-g"
+        },
+        {
+          "id": "trigger_types",
+          "q": "Che cosa può far partire un'attività?",
+          "a": [
+            "Quasi tutto quello che il telefono rileva: aprire o lasciare un'app, un orario preciso o la tua sveglia, il collegamento a Wi-Fi, Bluetooth o auricolari, lo schermo che si accende o si spegne, la ricarica, un livello di batteria, il testo di una notifica, qualcosa condiviso con l'app oppure una scossa. Puoi anche fare del tutto a meno degli eventi e avviare un'attività da un pulsante mobile. Posizione, calendario, chiamate, NFC e i gesti schermo verso il basso e tocco sul retro richiedono Pro."
+          ],
+          "video": "m1CCS9DQ_jo"
+        },
+        {
+          "id": "ai_generate",
+          "q": "Come creo un’attività con l’IA?",
+          "a": [
+            "Nell’editor delle attività scrivi ciò che vuoi in linguaggio naturale e tocca il pulsante IA. L’app prepara una bozza completa che puoi rivedere e modificare."
+          ],
+          "video": "ockn9aw9LYQ"
+        },
+        {
+          "id": "edit_task",
+          "q": "Posso modificare un'attività dopo averla creata?",
+          "a": [
+            "Sì, non devi mai ricominciare da capo. Tocca Modifica sulla scheda dell'attività, poi tocca la matita su una riga qualsiasi per aprire solo quella riga e cambiarne i valori. Se torni indietro l'app chiede conferma prima di scartare le modifiche, e niente viene salvato finché non tocchi il segno di spunta."
+          ],
+          "video": "ajU2Tf-cFPM"
+        },
+        {
+          "id": "backup",
+          "q": "Come eseguo il backup o l’importazione delle attività?",
+          "a": [
+            "Vai in «Impostazioni → Esporta tutte le attività» per salvare un archivio. Per importare, apri quell’archivio con l’app o usa la voce di importazione nell’elenco attività."
+          ]
+        },
+        {
+          "id": "resident_vs_oneshot",
+          "q": "Che differenza c'è tra un'attività residente e una singola?",
+          "a": [
+            "Un'attività residente sorveglia il suo trigger di continuo e si avvia in automatico quando la condizione è soddisfatta. Un'attività singola viene eseguita una volta, quando la tocchi. Usa residente per automazioni che reagiscono da sole, singola per azioni che avvii a mano."
+          ],
+          "video": "r6MyGSQmF7s"
+        },
+        {
+          "id": "schedule_time",
+          "q": "Posso eseguire un'attività a un orario preciso o in modo ripetuto?",
+          "a": [
+            "Sì. In «Quando» aggiungi un trigger basato sul tempo, come un orario preciso o un intervallo ripetuto. Il servizio attività deve restare attivo perché le attività pianificate scattino in orario."
+          ],
+          "video": "oCJWsS18Evs"
+        },
+        {
+          "id": "ai_better",
+          "q": "La generazione con l'IA è fallita o non dà ciò che voglio — cosa faccio?",
+          "a": [
+            "Descrivi trigger e azione in una frase chiara, es. «quando mi collego al Wi-Fi di casa, silenzia il telefono». Indica app o condizione in modo esplicito, evita termini vaghi e tocca di nuovo «Genera con l'IA». Puoi sempre rifinire a mano l'attività generata."
+          ],
+          "video": "lRJOqQ65ST0"
+        },
+        {
+          "id": "debug_run",
+          "q": "Come verifico se la mia attività viene eseguita davvero?",
+          "a": [
+            "Assicurati che il servizio sia attivo e l'attività abilitata. Apri l'attività e controlla i registri di esecuzione / snapshot per vedere l'esito di ogni passo. Se non scatta mai, ricontrolla il trigger e i permessi richiesti."
+          ]
+        },
+        {
+          "id": "manual_trigger",
+          "q": "Posso avviare un'attività senza aprire l'app?",
+          "a": [
+            "Sì: associala a un tasto fisico o a un pulsante mobile. Nell'editor dell'attività tocca «Quando → Stato dispositivo → Tasto fisico premuto», poi «Cattura tasto» e premi il tasto che vuoi; funzionano la pressione singola, doppia e lunga. Oppure scegli «Quando → Pulsante mobile» e crea i pulsanti in «Impostazioni → Pulsanti di attivazione mobili». In entrambi i casi serve il servizio di accessibilità attivo."
+          ],
+          "video": "hcqbXCb-5Q8"
+        },
+        {
+          "id": "action_types",
+          "q": "Cosa può fare davvero WhenDo con il mio telefono?",
+          "a": [
+            "170 azioni in 19 gruppi. Operazione controllo copre qualsiasi cosa sullo schermo: toccare, premere a lungo, digitare, scorrere e trascinare. In Operazioni dell'applicazione apri o arresti le app; in Stato dispositivo trovi torcia, Bluetooth, Wi-Fi e batteria; in Operazioni multimediali, volume e Non disturbare. Ci sono anche azioni di testo, file, shell, notifica, calendario, OCR e variabili globali. Quelle che richiedono Pro o Shizuku sono indicate nell'elenco."
+          ],
+          "video": "s44BKhrgGdM"
+        },
+        {
+          "id": "permissions_why",
+          "q": "Perché WhenDo chiede così tanti permessi?",
+          "a": [
+            "Ogni autorizzazione sostiene una funzione specifica, quindi devi concedere solo quelle che usi. Il servizio di accessibilità è ciò che permette a WhenDo di leggere lo schermo e toccare al posto tuo; senza di esso si fermano l'automazione dello schermo e gli eventi delle app. Il permesso finestra flottante disegna i pulsanti mobili e gli avvisi, e non può leggere lo schermo. La posizione serve solo per i nomi delle reti Wi-Fi e i geofence; microfono, fotocamera, calendario e stato del telefono vengono usati solo dalle azioni che ne hanno bisogno. La rete viene usata per la generazione con l'IA, la libreria di attività predefinite online, la configurazione remota e le statistiche d'uso anonime."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Che cos'è la modalità Shizuku e come si attiva?",
+          "a": [
+            "Shizuku è un'app companion separata che concede a WhenDo capacità di livello di sistema senza root: comandi shell, accendere o spegnere Wi-Fi o Bluetooth e altro ancora. Installa Shizuku e avvialo (per partire servono ADB, il debug wireless o i permessi di root), poi concedi l'autorizzazione a WhenDo dalla dashboard. Se l'avvio va in timeout, aggiorna Shizuku e concedi di nuovo."
+          ],
+          "video": "S32Bz5ZBmog"
+        },
+        {
+          "id": "ui_automation",
+          "q": "WhenDo può toccare un pulsante dentro un'altra app?",
+          "a": [
+            "Sì. Usa «Operazione controllo»: tocca un pulsante dal suo testo, tocca il controllo che soddisfa una condizione, digita in un campo, scorri una lista o trascina un controllo su un altro. WhenDo legge lo schermo tramite il servizio di accessibilità, quindi funziona nelle app che non offrono alcuna API pubblica."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Concetti chiave",
+      "entries": [
+        {
+          "id": "flow",
+          "q": "Flusso (Flow)",
+          "a": [
+            "Un flusso è un’automazione completa che crei. Di solito ha una parte Quando (trigger) e una parte Esegui (azioni)."
+          ]
+        },
+        {
+          "id": "rule",
+          "q": "Regola (Rule)",
+          "a": [
+            "Una regola è una riga dell’editor, il blocco base di un’attività. Una regola può contenere sotto-regole."
+          ]
+        },
+        {
+          "id": "when",
+          "q": "Trigger (When)",
+          "a": [
+            "L’evento che avvia l’attività: apertura di un’app, un orario, ecc. Senza trigger un’attività non parte mai da sola."
+          ]
+        },
+        {
+          "id": "if",
+          "q": "Condizione (If)",
+          "a": [
+            "Un controllo che deve essere vero perché le azioni successive vengano eseguite, ad esempio «solo se il Wi-Fi è connesso»."
+          ]
+        },
+        {
+          "id": "do",
+          "q": "Azione (Do)",
+          "a": [
+            "Qualcosa che l’app fa per te: toccare un pulsante, inviare una notifica o avviare un’app."
+          ]
+        },
+        {
+          "id": "applet",
+          "q": "Applet",
+          "a": [
+            "Il blocco più piccolo. Ogni trigger, condizione e azione è un applet che scegli e combini."
+          ]
+        },
+        {
+          "id": "global_var",
+          "q": "Variabile globale",
+          "a": [
+            "Un valore che memorizzi e riutilizzi tra le attività: un contatore o testo catturato dallo schermo."
+          ]
+        },
+        {
+          "id": "a11y",
+          "q": "Servizio di accessibilità",
+          "a": [
+            "L’autorizzazione di sistema che consente all’app di leggere lo schermo e toccare al posto tuo. La maggior parte delle automazioni la richiede."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku",
+          "a": [
+            "Un’app companion facoltativa che concede capacità di sistema avanzate (come i comandi shell) senza root."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

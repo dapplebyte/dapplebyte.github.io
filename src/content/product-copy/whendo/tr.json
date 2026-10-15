@@ -1,0 +1,124 @@
+{
+  "slug": "whendo",
+  "locale": "tr",
+  "title": "WhenDo: Auto Clicker Otomasyon",
+  "shortDescription": "Görev zamanlayıcı: tetikleyiciler, jestler ve iş akışları — root gerekmez.",
+  "tagline": "Android için yapay zekâ otomasyonu, otomatik tıklayıcı ve makro — kod yok",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Android için yapay zekâ otomasyonu, otomatik tıklayıcı ve makro — kod yok",
+      "paragraphs": [
+        "Bir rutini günlük dille anlatın, WhenDo’nin yapay zekâsı otomasyonu kursun: tetikleyiciler, koşullar ve eylemler, hepsi düzenlenebilir. Kendiniz kurmak isterseniz görev zamanlayın, hareket kaydedin ve her uygulamada otomatik tıklayıcı çalıştırın. Root gerekmez."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "ai",
+      "title": "Yapay zekâ ile otomasyon oluşturun",
+      "paragraphs": [
+        "Şu istekleri deneyin:",
+        "“Evdeki Wi-Fi ağına bağlandığımda telefonumu sessize al”",
+        "“Kulaklık bağlanınca müzik uygulamamı aç”",
+        "“Her gece 23.00’te Rahatsız Etmeyin’i aç”",
+        "“İki saatte bir su içmemi hatırlat”"
+      ],
+      "bullets": [
+        "Bir rutini kendi ifadelerinizle anlatın ya da sesle söyleyin",
+        "Yapay zekâ tüm akışı kursun — her tetikleyici, koşul ve eylem",
+        "Etkinleştirmeden önce her adımı gözden geçirip düzenleyin",
+        "Hazır örnekler ve şablonlarla daha hızlı başlayın"
+      ]
+    },
+    {
+      "id": "clicker",
+      "title": "Otomatik tıklayıcı, hareket kaydı ve ekran otomasyonu",
+      "paragraphs": [],
+      "bullets": [
+        "Tıklama aralığı ve tekrar sayısı ayarlanabilen otomatik tıklayıcı",
+        "Dokunma, kaydırma ve çok adımlı hareketleri kaydedip yeniden oynatın",
+        "Yöne, mesafeye ve hıza göre ya da tam koordinatlarla kaydırın",
+        "Kayan tetikleyici düğmeleri: her görevi ekrandaki düğmeden başlatın",
+        "Kayan Asistan ile ekran ögesi seçip uygulama arayüzünü otomatikleştirin",
+        "Ekran görüntüsü alın, Geri’ye basın veya ekranı kapatın"
+      ]
+    },
+    {
+      "id": "triggers",
+      "title": "Görev zamanlayıcı ve 250’den fazla tetikleyici",
+      "paragraphs": [],
+      "bullets": [
+        "Saat, programlar, Takvim etkinlikleri, konum ve coğrafi sınırlar",
+        "Uygulama açılışı veya kapanışı, son uygulamalar, ekran ve arayüz olayları",
+        "Wi-Fi, Bluetooth, kulaklık ve ağ değişiklikleri",
+        "Bildirimler, aramalar, sensörler, NFC ve pano",
+        "Ses açma ve kısma gibi fiziksel tuşlar, parmak izi hareketleri"
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Her iş için makro eylemleri",
+      "paragraphs": [],
+      "bullets": [
+        "Ses, parlaklık, Rahatsız Etmeyin ve diğer sistem ayarları",
+        "Uygulama başlatma, medya kontrolleri, HTTP istekleri, dosya ve metin",
+        "Intent kısayolları: arama, SMS, e-posta, harita, yol tarifi, web araması",
+        "Pano ve bildirim eylemleri, ayrıca isteğe bağlı Shizuku kontrolleri"
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Basit veya gelişmiş iş akışları",
+      "paragraphs": [],
+      "bullets": [
+        "Ne Zaman, Eğer, O Zaman, Aksi Takdirde, gecikme, döngü ve değişkenler",
+        "Tek bir göreve birden fazla tetikleyici ve koşul ekleyin",
+        "Arka planda Kalıcı Görevler ya da elle Tek Dokunuşlu Görevler çalıştırın",
+        "Rutinleri özelleştirilebilir Sahneler ile düzenleyin",
+        "Otomasyonlarınızı içe ve dışa aktarın, yedekleyin, geri yükleyin"
+      ]
+    },
+    {
+      "id": "ideas",
+      "title": "Günlük otomasyon fikirleri",
+      "paragraphs": [
+        "İş, ev, uyku ve sürüş için rutinler:"
+      ],
+      "bullets": [
+        "Toplantılarda veya yatarken telefonunuzu sessize alın",
+        "Bluetooth kulaklık bağlanınca müziği başlatın",
+        "Sürüşe başlayınca navigasyonu açın",
+        "Tekrarlayan düğmelere elle basmak yerine otomatik tıklatın",
+        "Uygulamaları saate, konuma veya cihaz olayına göre başlatın"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Gizlilik, izinler ve root gerekmez",
+      "paragraphs": [],
+      "bullets": [
+        "Otomasyon görevleriniz doğrudan cihazınızda çalışır",
+        "Yapay zekâ üretimi internet ister, isteminizi yapay zekâ hizmetine gönderir",
+        "Erişilebilirlik yalnızca görevlerinizin gerektirdiği özellikler için kullanılır",
+        "Günlük işlerde root gerekmez; isteğe bağlı Shizuku ileri kontrol ekler",
+        "İzinleri Android ayarlarından dilediğiniz zaman inceleyin veya kaldırın"
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Yeni başlayanlar ve ileri kullanıcılar için",
+      "paragraphs": [
+        "Telefon otomasyonunda yeni misiniz? Yapay zekâ, örnekler ve hazır şablonlarla başlayın.",
+        "Daha fazla kontrol mü lazım? Koşullu akışlar kurun, arayüz etkileşimlerini otomatikleştirin, değişken kullanın, hareket kaydedin ya da Shizuku modunu açın."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Rutininizi anlatın, WhenDo kursun ve Android telefonunuzu otomatikleştirin.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

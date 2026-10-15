@@ -1,0 +1,124 @@
+{
+  "slug": "whendo",
+  "locale": "de",
+  "title": "WhenDo: KI Auto Clicker Makro",
+  "shortDescription": "Aufgabenplaner: Automatisierung mit Auslösern, Gesten, Abläufen – ohne Root.",
+  "tagline": "KI-Automatisierung, Auto Clicker und Makros für Android – ohne Code",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "KI-Automatisierung, Auto Clicker und Makros für Android – ohne Code",
+      "paragraphs": [
+        "Beschreibe eine Routine in einfachen Worten und die KI von WhenDo baut die Automation: Auslöser, Bedingungen und Aktionen, alles bearbeitbar. Lieber selbst bauen? Plane Aufgaben, zeichne Gesten auf und nutze den Auto Clicker in jeder App. Kein Root nötig."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "ai",
+      "title": "Automationen mit KI erstellen",
+      "paragraphs": [
+        "Probiere zum Beispiel:",
+        "„Schalte mein Handy stumm, wenn ich zu Hause im Wi-Fi bin“",
+        "„Öffne meine Musik-App, wenn Kopfhörer verbunden werden“",
+        "„Aktiviere jeden Abend um 23 Uhr ‚Nicht stören‘“",
+        "„Erinnere mich alle zwei Stunden ans Wassertrinken“"
+      ],
+      "bullets": [
+        "Beschreibe eine Routine mit eigenen Worten oder per Spracheingabe",
+        "Die KI erstellt den ganzen Ablauf – Auslöser, Bedingungen, Aktionen",
+        "Prüfe und ändere jeden Schritt, bevor du ihn aktivierst",
+        "Starte schneller mit fertigen Beispielen und Vorlagen"
+      ]
+    },
+    {
+      "id": "clicker",
+      "title": "Auto Clicker, Gestenrekorder und Bildschirm-Automation",
+      "paragraphs": [],
+      "bullets": [
+        "Auto Clicker mit einstellbarem Klickintervall und Wiederholungen",
+        "Tipps, Wischer und mehrstufige Gesten aufzeichnen und abspielen",
+        "Wischen nach Richtung, Distanz und Tempo oder nach exakten Koordinaten",
+        "Schwebende Auslöser-Buttons: jede Aufgabe per Tippen vom Bildschirm starten",
+        "Schwebender Assistent: Bildschirmelemente wählen und App-UI steuern",
+        "Screenshot machen, Zurück drücken oder Bildschirm ausschalten"
+      ]
+    },
+    {
+      "id": "triggers",
+      "title": "Aufgabenplaner und über 250 Auslöser",
+      "paragraphs": [],
+      "bullets": [
+        "Zeit, Zeitpläne, Kalendertermine, Standort und Geofences",
+        "App gestartet oder beendet, letzte Apps, Bildschirm- und UI-Ereignisse",
+        "Wi-Fi-, Bluetooth-, Headset- und Netzwerkwechsel",
+        "Benachrichtigungen, Anrufe, Sensoren, NFC und Zwischenablage",
+        "Physische Tasten wie Lauter und Leiser sowie Fingerabdruck-Gesten"
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Makro-Aktionen für alles",
+      "paragraphs": [],
+      "bullets": [
+        "Lautstärke, Helligkeit, „Nicht stören“ und weitere Systemeinstellungen",
+        "Apps starten, Mediensteuerung, HTTP-Anfragen, Dateien und Text",
+        "Intent-Shortcuts: Anruf, SMS, E-Mail, Kartensuche, Route, Websuche",
+        "Aktionen für Zwischenablage und Mitteilungen, optional Shizuku-Steuerung"
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Einfache oder komplexe Abläufe",
+      "paragraphs": [],
+      "bullets": [
+        "Kombiniere Wenn, Falls, Dann, Sonst, Verzögerungen, Schleifen, Variablen",
+        "Mehrere Auslöser und Bedingungen in einer einzigen Aufgabe",
+        "Residente Aufgaben im Hintergrund oder manuelle One-Tap-Aufgaben",
+        "Routinen mit anpassbaren Szenen organisieren",
+        "Automationen importieren, exportieren, sichern und wiederherstellen"
+      ]
+    },
+    {
+      "id": "ideas",
+      "title": "Automations-Ideen für den Alltag",
+      "paragraphs": [
+        "Routinen für Arbeit, Zuhause, Schlaf und Autofahrt:"
+      ],
+      "bullets": [
+        "Handy in Besprechungen oder nachts stumm schalten",
+        "Musik starten, wenn Bluetooth-Kopfhörer verbunden werden",
+        "Navigation öffnen, wenn du losfährst",
+        "Wiederholte Buttons automatisch klicken statt selbst zu tippen",
+        "Apps nach Zeit, Standort oder Geräteereignis automatisch starten"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Datenschutz, Berechtigungen und kein Root",
+      "paragraphs": [],
+      "bullets": [
+        "Deine Automationen laufen direkt auf deinem Gerät",
+        "Die KI-Erstellung braucht Internet und sendet deine Eingabe an den KI-Dienst",
+        "Bedienungshilfen dienen nur den Funktionen deiner Aufgaben",
+        "Kein Root im Alltag; optional gibt Shizuku erweiterte Kontrolle",
+        "Berechtigungen jederzeit in den Android-Einstellungen prüfen oder entziehen"
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Für Einsteiger und Profis",
+      "paragraphs": [
+        "Neu in der Handy-Automatisierung? Starte mit KI, Beispielen und fertigen Vorlagen.",
+        "Mehr Kontrolle nötig? Baue bedingte Abläufe, automatisiere UI-Aktionen, nutze Variablen, zeichne Gesten auf oder aktiviere den Shizuku-Modus."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Beschreibe deine Routine, lass WhenDo sie bauen und automatisiere dein Android-Handy.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

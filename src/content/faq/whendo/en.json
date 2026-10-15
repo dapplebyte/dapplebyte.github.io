@@ -1,0 +1,243 @@
+{
+  "slug": "whendo",
+  "locale": "en",
+  "title": "Help Center",
+  "sections": [
+    {
+      "id": "questions",
+      "title": "Frequently Asked Questions",
+      "entries": [
+        {
+          "id": "not_triggered",
+          "q": "Why doesn’t my task run?",
+          "a": [
+            "Make sure the service is running and the task is enabled. Most triggers also need the Accessibility service granted and the app kept alive in the background (check battery settings)."
+          ]
+        },
+        {
+          "id": "find_tasks",
+          "q": "Where are my tasks, and how do I stop one?",
+          "a": [
+            "Everything you have made lives in the Scenes tab, grouped into scenes. Each card has its own switch, so you can stop a single task without touching the others; the scene's own switch turns the whole group off at once. Note that switching a scene back on enables every task in it, so re-check any you had turned off individually."
+          ],
+          "video": "ZEvyPaMP7U0"
+        },
+        {
+          "id": "presets",
+          "q": "How do I use the ready-made presets?",
+          "a": [
+            "Open Templates › Presets, pick a category and tap Add. Presets marked “Set up” ask for one or two details (an app, a floating button, your Wi-Fi name) and then turn on right away. Tap a preset’s status chip to see which permission it still needs. Tasks triggered only by floating buttons or physical keys don’t count toward the free resident-task limit."
+          ],
+          "video": "LxWzDB0vqOE"
+        },
+        {
+          "id": "auto_click_stops",
+          "q": "The auto clicker stops after a few minutes.",
+          "a": [
+            "Most phones stop accessibility services to save power. Lock WhenDo in Recents, turn off battery optimization for it, allow auto-start, and on Xiaomi / OPPO / vivo / Huawei also add it to the protected or “no restrictions” list. If WhenDo is stopped, you’ll get a notification that opens this page. Presets from the Auto clicker category add a small random jitter to each tap so games are less likely to flag repeated identical intervals."
+          ]
+        },
+        {
+          "id": "bank_apps",
+          "q": "My banking app refuses to open while WhenDo is on.",
+          "a": [
+            "Some banking apps block any active accessibility service. Add a task “When the banking app opens → Pause for current app” from the Utilities presets, or turn WhenDo off while banking. This is a restriction set by the bank, not something WhenDo can bypass."
+          ]
+        },
+        {
+          "id": "permissions",
+          "q": "How do I grant the required permissions?",
+          "a": [
+            "Open the Dashboard and follow the permission cards. The Accessibility service is granted in system Settings → Accessibility; Shizuku is granted from the Shizuku app."
+          ],
+          "video": "VdeGorn3azg"
+        },
+        {
+          "id": "background_killed",
+          "q": "The app keeps getting killed in the background.",
+          "a": [
+            "Lock the app in Recents, disable battery optimization for it, and enable “Auto-start after boot” in Settings. Some phones also have a separate protected-apps list."
+          ]
+        },
+        {
+          "id": "when_vs_if",
+          "q": "What’s the difference between When and If?",
+          "a": [
+            "When (trigger) decides when a task starts. If (condition) decides whether the next actions run after it has started. A task needs a trigger to begin; conditions just filter."
+          ],
+          "video": "OHhz4YyPG-g"
+        },
+        {
+          "id": "trigger_types",
+          "q": "What can actually set off a task?",
+          "a": [
+            "Almost anything the phone notices: opening or leaving an app, a clock time or your alarm, connecting to Wi-Fi, Bluetooth or a headset, the screen turning on or off, charging, a battery level, the text of a notification, something shared to the app, or a shake. You can also skip events entirely and start a task from a floating button. Location, calendar, calls, NFC and the face-down and back-tap gestures need Pro."
+          ],
+          "video": "m1CCS9DQ_jo"
+        },
+        {
+          "id": "ai_generate",
+          "q": "How do I create a task with AI?",
+          "a": [
+            "In the task editor, type what you want in plain words and tap the AI button. The app drafts a full task for you, which you can then review and adjust."
+          ],
+          "video": "ockn9aw9LYQ"
+        },
+        {
+          "id": "edit_task",
+          "q": "Can I change a task after I have built it?",
+          "a": [
+            "Yes, you never have to start over. Tap Edit on the task card, then tap the pencil on any line to open just that line and change its values. Backing out asks before discarding your changes, and nothing is saved until you tap the check mark."
+          ],
+          "video": "ajU2Tf-cFPM"
+        },
+        {
+          "id": "backup",
+          "q": "How do I back up or import my tasks?",
+          "a": [
+            "Go to Settings → Export all tasks to save an archive file. To import, open that archive with the app or use the import entry on the task list."
+          ]
+        },
+        {
+          "id": "resident_vs_oneshot",
+          "q": "What's the difference between a resident task and a one-shot task?",
+          "a": [
+            "A resident task keeps watching for its trigger and runs automatically whenever the condition is met. A one-shot task runs once, right when you tap it. Use resident for automation that should react on its own; use one-shot for actions you start by hand."
+          ],
+          "video": "r6MyGSQmF7s"
+        },
+        {
+          "id": "schedule_time",
+          "q": "Can I run a task at a specific time or repeatedly?",
+          "a": [
+            "Yes. Under When, add a time-based trigger, such as a specific clock time or a repeating interval. The task service must stay running for scheduled tasks to fire on time."
+          ],
+          "video": "oCJWsS18Evs"
+        },
+        {
+          "id": "ai_better",
+          "q": "AI generation failed or didn't give what I wanted — what can I do?",
+          "a": [
+            "Describe the trigger and the action in one clear sentence, e.g. \"when I connect to home Wi-Fi, mute the phone\". Name the app or condition explicitly and avoid vague wording, then tap Generate with AI again. You can always fine-tune the generated task by hand afterwards."
+          ],
+          "video": "lRJOqQ65ST0"
+        },
+        {
+          "id": "debug_run",
+          "q": "How do I check whether my task actually runs?",
+          "a": [
+            "Make sure the service is on and the task is enabled. Open the task and check its run records / snapshots to see the result of each step. If it never fires, re-check the trigger and the permissions it needs."
+          ]
+        },
+        {
+          "id": "manual_trigger",
+          "q": "Can I start a task without opening the app?",
+          "a": [
+            "Yes — bind it to a physical key or a floating button. In the task editor tap When → Hardware → Physical key pressed, then Capture key and press the key you want; single, double and long press all work. Or choose When → Floating button, and create the buttons in Settings → Floating trigger buttons. Both need the Accessibility service running."
+          ],
+          "video": "hcqbXCb-5Q8"
+        },
+        {
+          "id": "action_types",
+          "q": "What can WhenDo actually do to my phone?",
+          "a": [
+            "170 actions in 19 groups. Widget covers anything on screen — click, long-press, type, scroll, drag. App launches or stops apps, Hardware handles flashlight, Bluetooth, Wi-Fi and battery, Media covers volume and Do Not Disturb. There are also text, file, shell, notification, calendar, OCR and global-variable actions. The ones that need Pro or Shizuku are labelled in the list."
+          ],
+          "video": "s44BKhrgGdM"
+        },
+        {
+          "id": "permissions_why",
+          "q": "Why does WhenDo ask for so many permissions?",
+          "a": [
+            "Each one backs a specific feature, so you only need to grant the ones you use. Accessibility is how WhenDo reads the screen and taps for you; without it, screen automation and app events stop. Overlay draws the floating buttons and prompts, and cannot read your screen. Location is only for Wi-Fi names and geofences, and microphone, camera, calendar and phone state are used only by the actions that need them. Network is used for AI generation, the online preset library, remote configuration and anonymous usage statistics."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "What is Shizuku mode, and how do I turn it on?",
+          "a": [
+            "Shizuku is a separate companion app that lends WhenDo system-level abilities without root — shell commands, turning Wi-Fi or Bluetooth on and off, and more. Install Shizuku and start it (it needs ADB, wireless debugging or root to start), then grant WhenDo permission from the Dashboard. If starting times out, update Shizuku and grant again."
+          ],
+          "video": "S32Bz5ZBmog"
+        },
+        {
+          "id": "ui_automation",
+          "q": "Can WhenDo tap a button inside another app?",
+          "a": [
+            "Yes. Use a Widget action: click a button by its text, click the widget that matches a condition, type into a field, scroll a list, or drag one widget onto another. WhenDo reads the screen through the Accessibility service, so it works in apps that offer no public API."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Key Concepts",
+      "entries": [
+        {
+          "id": "flow",
+          "q": "Flow",
+          "a": [
+            "A flow is a complete automation you build. It usually has a When part (triggers) and a Do part (actions)."
+          ]
+        },
+        {
+          "id": "rule",
+          "q": "Rule",
+          "a": [
+            "A rule is one row in the editor — the basic building block of a task. A rule can contain child rules."
+          ]
+        },
+        {
+          "id": "when",
+          "q": "When (Trigger)",
+          "a": [
+            "The event that starts your task, such as an app opening or a scheduled time. Without a trigger, a task never starts on its own."
+          ]
+        },
+        {
+          "id": "if",
+          "q": "If (Condition)",
+          "a": [
+            "A check that must be true for the following actions to run, such as “only if Wi-Fi is connected”."
+          ]
+        },
+        {
+          "id": "do",
+          "q": "Do (Action)",
+          "a": [
+            "Something the app performs for you, such as tapping a button, sending a notification, or launching an app."
+          ]
+        },
+        {
+          "id": "applet",
+          "q": "Applet",
+          "a": [
+            "The smallest building block. Every trigger, condition and action is an applet you pick and combine."
+          ]
+        },
+        {
+          "id": "global_var",
+          "q": "Global Variable",
+          "a": [
+            "A value you store and reuse across tasks, such as a counter or text captured from the screen."
+          ]
+        },
+        {
+          "id": "a11y",
+          "q": "Accessibility Service",
+          "a": [
+            "The system permission that lets the app read the screen and tap for you. Most automations need it enabled."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku",
+          "a": [
+            "An optional companion app that grants extra system-level abilities, like shell commands, without root."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

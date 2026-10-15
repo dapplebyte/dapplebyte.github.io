@@ -192,6 +192,15 @@
       "macros": "Macro",
       "turbo": "Turbo (tự lặp lại)",
       "combos": "Tổ hợp nút",
+      "activation": "Thiết lập chỉ với điện thoại, không cần PC, gỡ lỗi không dây hay Shizuku",
+      "free-install": "Cài đặt miễn phí",
+      "no-subscription": "Không cần đăng ký thuê bao cho bất kỳ tính năng nào",
+      "controller-test": "Kiểm tra tay cầm tích hợp (nút, trôi cần, độ trễ, rung)",
+      "pause-tile": "Nút tạm dừng trong Cài đặt nhanh",
+      "haptic-feedback": "Rung phản hồi khi nút đã ánh xạ kích hoạt",
+      "backup-restore": "Sao lưu tất cả layout vào một tệp và khôi phục",
+      "no-account": "Không cần tài khoản hay đăng nhập",
+      "video-help": "FAQ trong ứng dụng kèm video hướng dẫn",
       "pricing-model": "Hình thức tính phí"
     },
     "values": {

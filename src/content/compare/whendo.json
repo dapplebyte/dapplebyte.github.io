@@ -1,0 +1,22 @@
+{
+  "slug": "whendo",
+  "draft": true,
+  "verifiedOn": null,
+  "competitors": [
+    { "id": "macrodroid", "name": "MacroDroid", "url": "https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid" },
+    { "id": "tasker", "name": "Tasker", "url": "https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm" },
+    { "id": "automate", "name": "Automate", "url": "https://play.google.com/store/apps/details?id=com.llamalab.automate" }
+  ],
+  "rows": [
+    { "id": "platform", "values": { "whendo": "Android 10+", "macrodroid": "unknown", "tasker": "unknown", "automate": "unknown" } },
+    { "id": "ai-builder", "values": { "whendo": "yes", "macrodroid": "unknown", "tasker": "unknown", "automate": "unknown" } },
+    { "id": "auto-clicker", "values": { "whendo": "yes", "macrodroid": "unknown", "tasker": "unknown", "automate": "unknown" } },
+    { "id": "gesture-recorder", "values": { "whendo": "yes", "macrodroid": "unknown", "tasker": "unknown", "automate": "unknown" } },
+    { "id": "no-root", "values": { "whendo": "yes", "macrodroid": "unknown", "tasker": "unknown", "automate": "unknown" } },
+    { "id": "no-account", "values": { "whendo": "yes", "macrodroid": "unknown", "tasker": "unknown", "automate": "unknown" } },
+    { "id": "free-install", "values": { "whendo": "yes", "macrodroid": "yes", "tasker": "no", "automate": "yes" } },
+    { "id": "no-ads", "values": { "whendo": "yes", "macrodroid": "no", "tasker": "yes", "automate": "yes" } },
+    { "id": "no-subscription", "values": { "whendo": "yes", "macrodroid": "unknown", "tasker": "unknown", "automate": "unknown" } },
+    { "id": "pricing-model", "values": { "whendo": "free-with-pro", "macrodroid": "free-with-pro", "tasker": "one-time", "automate": "free-with-pro" } }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "slug": "whendo",
+  "locale": "id",
+  "title": "WhenDo: Auto Clicker, Makro AI",
+  "shortDescription": "Otomatisasi dengan penjadwal tugas, pemicu, gestur, alur kerja, tanpa root.",
+  "tagline": "Otomatisasi AI, auto clicker, dan pembuat makro untuk Android — tanpa coding",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Otomatisasi AI, auto clicker, dan pembuat makro untuk Android — tanpa coding",
+      "paragraphs": [
+        "Jelaskan rutinitas dengan bahasa sehari-hari, lalu AI WhenDo menyusun otomatisasinya: pemicu, kondisi, dan tindakan, semuanya bisa diedit. Ingin menyusun sendiri? Jadwalkan tugas, rekam gestur, dan jalankan auto clicker di aplikasi apa pun. Tanpa root."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "ai",
+      "title": "Buat otomatisasi dengan AI",
+      "paragraphs": [
+        "Coba permintaan seperti:",
+        "“Senyapkan ponsel saat tersambung ke Wi-Fi rumah”",
+        "“Buka aplikasi musik saat headphone tersambung”",
+        "“Nyalakan Jangan Ganggu tiap malam pukul 23.00”",
+        "“Ingatkan saya minum air tiap dua jam”"
+      ],
+      "bullets": [
+        "Jelaskan rutinitas dengan kata-kata sendiri atau lewat input suara",
+        "AI membuat seluruh alur: setiap pemicu, kondisi, dan tindakan",
+        "Tinjau dan edit langkah mana pun sebelum diaktifkan",
+        "Mulai lebih cepat lewat contoh dan templat siap pakai"
+      ]
+    },
+    {
+      "id": "clicker",
+      "title": "Auto clicker, perekam gestur, dan otomatisasi layar",
+      "paragraphs": [],
+      "bullets": [
+        "Auto clicker dengan interval klik dan jumlah pengulangan yang bisa diatur",
+        "Rekam dan putar ulang ketukan, gesekan, dan gestur bertahap",
+        "Gesek menurut arah, jarak, dan kecepatan, atau lewat koordinat persis",
+        "Tombol pemicu mengambang: jalankan tugas apa pun dari layar",
+        "Asisten mengambang untuk memilih elemen dan mengotomatiskan UI aplikasi",
+        "Ambil tangkapan layar, tekan Kembali, atau matikan layar"
+      ]
+    },
+    {
+      "id": "triggers",
+      "title": "Penjadwal tugas dan 250+ pemicu",
+      "paragraphs": [],
+      "bullets": [
+        "Waktu, jadwal, acara Kalender, lokasi, dan geofence",
+        "Aplikasi dibuka atau ditutup, aplikasi terbaru, peristiwa layar dan UI",
+        "Perubahan Wi-Fi, Bluetooth, headset, dan jaringan",
+        "Notifikasi, panggilan, sensor, NFC, dan papan klip",
+        "Tombol fisik seperti volume naik dan turun, serta gestur sidik jari"
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Tindakan makro untuk segala hal",
+      "paragraphs": [],
+      "bullets": [
+        "Volume, kecerahan, Jangan Ganggu, dan setelan sistem lainnya",
+        "Buka aplikasi, kontrol media, permintaan HTTP, file, dan teks",
+        "Pintasan intent: telepon, SMS, email, cari peta, rute, cari di web",
+        "Tindakan papan klip dan notifikasi, plus kontrol Shizuku opsional"
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Alur sederhana atau tingkat lanjut",
+      "paragraphs": [],
+      "bullets": [
+        "Gabungkan Kapan, Jika, Maka, Jika Tidak, jeda, pengulangan, dan variabel",
+        "Tambahkan beberapa pemicu dan kondisi ke satu tugas",
+        "Jalankan Tugas residen di latar belakang atau Tugas sekali ketuk manual",
+        "Atur rutinitas dengan Adegan yang bisa disesuaikan",
+        "Impor, ekspor, cadangkan, dan pulihkan otomatisasi Anda"
+      ]
+    },
+    {
+      "id": "ideas",
+      "title": "Ide otomatisasi sehari-hari",
+      "paragraphs": [
+        "Rutinitas untuk kerja, rumah, tidur, dan berkendara:"
+      ],
+      "bullets": [
+        "Senyapkan ponsel saat rapat atau menjelang tidur",
+        "Putar musik saat headphone Bluetooth tersambung",
+        "Buka navigasi saat mulai berkendara",
+        "Klik tombol berulang secara otomatis tanpa perlu mengetuk sendiri",
+        "Jalankan aplikasi otomatis berdasarkan waktu, lokasi, atau peristiwa perangkat"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Privasi, izin, dan tanpa root",
+      "paragraphs": [],
+      "bullets": [
+        "Tugas otomatisasi Anda berjalan langsung di perangkat",
+        "Pembuatan AI perlu internet dan mengirim permintaan Anda ke layanan AI",
+        "Aksesibilitas dipakai hanya untuk fitur yang dibutuhkan tugas Anda",
+        "Tanpa root untuk tugas harian; Shizuku opsional menambah kontrol lanjutan",
+        "Tinjau atau cabut izin di setelan Android kapan saja"
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Dibuat untuk pemula dan pengguna mahir",
+      "paragraphs": [
+        "Baru mengenal otomatisasi ponsel? Mulai dari AI, contoh, dan templat siap pakai.",
+        "Perlu kendali lebih? Susun alur bersyarat, otomatiskan interaksi UI, pakai variabel, rekam gestur, atau aktifkan mode Shizuku."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Jelaskan rutinitas Anda, biarkan WhenDo membuatnya, dan otomatiskan ponsel Android Anda.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

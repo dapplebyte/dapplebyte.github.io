@@ -4,6 +4,8 @@ import type { Product } from './content';
 const DISPLAY_FONTS: Record<string, { family: string; weight: number }> = {
   'Chakra Petch': { family: "'Chakra Petch'", weight: 700 },
   Saira: { family: "'Saira'", weight: 600 },
+  /** Products without a display face of their own use the site's sans. */
+  'IBM Plex Sans': { family: "'IBM Plex Sans'", weight: 600 },
 };
 
 /** CSS custom properties that give an element a product's accent colours and display face. */

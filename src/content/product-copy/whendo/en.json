@@ -1,0 +1,124 @@
+{
+  "slug": "whendo",
+  "locale": "en",
+  "title": "WhenDo: AI Auto Clicker Macro",
+  "shortDescription": "Task automation & scheduler: triggers, gestures, workflows — no root needed.",
+  "tagline": "AI automation, auto clicker, and macro maker for Android — no coding",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "AI automation, auto clicker, and macro maker for Android — no coding",
+      "paragraphs": [
+        "Describe a routine in plain words and WhenDo's AI builds the automation for you: triggers, conditions, and actions, all editable. Prefer to build it yourself? Schedule tasks, record gestures, and run an auto clicker on any app. No root required."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "ai",
+      "title": "Build Automations with AI",
+      "paragraphs": [
+        "Try requests such as:",
+        "“Mute my phone when I connect to home Wi-Fi”",
+        "“Open my music app when headphones connect”",
+        "“Turn on Do Not Disturb every night at 11”",
+        "“Remind me to drink water every two hours”"
+      ],
+      "bullets": [
+        "Describe a routine in your own words, or use voice input",
+        "AI creates the whole workflow — every trigger, condition, and action",
+        "Review and edit any step before you turn it on",
+        "Get started faster with ready-made examples and templates"
+      ]
+    },
+    {
+      "id": "clicker",
+      "title": "Auto Clicker, Gesture Recorder & Screen Automation",
+      "paragraphs": [],
+      "bullets": [
+        "Auto clicker with adjustable click interval and repeat count",
+        "Record and replay taps, swipes, and multi-step gestures",
+        "Swipe by direction, distance, and speed, or by exact coordinates",
+        "Floating trigger buttons — start any task from a button on screen",
+        "Floating Assistant to pick screen elements and automate app UI",
+        "Take a screenshot, press Back, or turn the screen off"
+      ]
+    },
+    {
+      "id": "triggers",
+      "title": "Task Scheduler and 250+ Triggers",
+      "paragraphs": [],
+      "bullets": [
+        "Time, schedules, Calendar events, location, and geofences",
+        "App launched or closed, recent apps, screen and UI events",
+        "Wi-Fi, Bluetooth, headset, and network changes",
+        "Notifications, calls, sensors, NFC, and clipboard",
+        "Physical keys such as volume up and down, and fingerprint gestures"
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Macro Actions for Everything",
+      "paragraphs": [],
+      "bullets": [
+        "Volume, brightness, Do Not Disturb, and other system settings",
+        "Launch apps, media controls, HTTP requests, files, and text",
+        "Intent shortcuts: dial, SMS, email, map search, directions, web search",
+        "Clipboard and notification actions, plus optional Shizuku controls"
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Simple or Advanced Workflows",
+      "paragraphs": [],
+      "bullets": [
+        "Combine When, If, Then, Else, delays, loops, and variables",
+        "Add multiple triggers and conditions to a single task",
+        "Run background Resident Tasks or manual One-Tap Tasks",
+        "Organize routines with customizable Scenes",
+        "Import, export, back up, and restore your automations"
+      ]
+    },
+    {
+      "id": "ideas",
+      "title": "Everyday Automation Ideas",
+      "paragraphs": [
+        "Routines for work, home, sleep, and driving:"
+      ],
+      "bullets": [
+        "Silence your phone during meetings or at bedtime",
+        "Launch music when Bluetooth headphones connect",
+        "Open navigation when you start driving",
+        "Auto click repetitive buttons instead of tapping them yourself",
+        "Start apps automatically by time, location, or device event"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy, Permissions, and No Root",
+      "paragraphs": [],
+      "bullets": [
+        "Your automation tasks run directly on your device",
+        "AI generation needs internet and sends your prompt to the AI service",
+        "Accessibility is used only for the features your tasks require",
+        "No root for everyday tasks; optional Shizuku adds advanced control",
+        "Review or revoke permissions in Android settings at any time"
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Made for Beginners and Power Users",
+      "paragraphs": [
+        "New to phone automation? Start with AI, examples, and ready-made templates.",
+        "Need more control? Build conditional workflows, automate UI interactions, use variables, record gestures, or turn on Shizuku mode."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Describe your routine, let WhenDo build it, and automate your Android phone.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

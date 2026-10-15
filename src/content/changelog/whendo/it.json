@@ -1,0 +1,49 @@
+{
+  "slug": "whendo",
+  "locale": "it",
+  "entries": [
+    {
+      "code": 182,
+      "name": "1.8.1",
+      "date": "2026-09-16",
+      "items": [
+        "Novità",
+        "Cinque nuove risposte nel Centro assistenza: avviare un'attività senza aprire l'app, cosa può fare WhenDo sul telefono, a cosa serve ogni autorizzazione, cos'è la modalità Shizuku e se può toccare i pulsanti dentro altre app.",
+        "Miglioramenti",
+        "Video dimostrativi nelle domande frequenti: autorizzazioni, avvio manuale e altro, con lo schermo sotto gli occhi."
+      ]
+    },
+    {
+      "code": 180,
+      "name": "1.8.0",
+      "date": "2026-09-10",
+      "items": [
+        "Novità",
+        "Preimpostazioni rinnovate — 64 attività pronte in Modelli, aggiunte con un tocco. Quelle che richiedono un dato ti fanno scegliere app o dispositivo.",
+        "Ricerca mentre crei — trigger, condizioni e azioni in un unico posto, oppure lascia fare all'IA.",
+        "Auto clicker: imposta, conto alla rovescia, via.",
+        "Miglioramenti",
+        "Taskly ora è WhenDo, con una nuova icona.",
+        "Video guida nel Centro assistenza.",
+        "Correzioni",
+        "L'indonesiano veniva mostrato in inglese."
+      ]
+    },
+    {
+      "code": 170,
+      "name": "1.7.0",
+      "date": "2026-09-04",
+      "items": [
+        "Novità",
+        "Pulsanti di attivazione mobili: tocco, doppio tocco o pressione prolungata per eseguire un'attività. Spostali dove vuoi.",
+        "Tasto fisico premuto: esegui attività con pressione singola, doppia o prolungata di un tasto volume; puoi bloccare l'azione originale.",
+        "Miglioramenti",
+        "Supporto per Android 16, descrizione più chiara di «Torna all'applicazione precedente».",
+        "Correzioni",
+        "Crash mostrando un toast in modalità Shizuku.",
+        "Il servizio si fermava se un'attività residente non partiva."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

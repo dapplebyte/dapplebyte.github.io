@@ -1,0 +1,49 @@
+{
+  "slug": "whendo",
+  "locale": "pl",
+  "entries": [
+    {
+      "code": 182,
+      "name": "1.8.1",
+      "date": "2026-09-16",
+      "items": [
+        "Nowość",
+        "Pięć nowych odpowiedzi w Centrum pomocy: uruchamianie zadania bez otwierania aplikacji, co WhenDo potrafi zrobić z telefonem, do czego służy każde uprawnienie, czym jest tryb Shizuku i czy potrafi klikać przyciski w innych aplikacjach.",
+        "Ulepszenia",
+        "Filmy demonstracyjne w najczęstszych pytaniach — uprawnienia, ręczne uruchamianie i więcej, z ekranem przed oczami."
+      ]
+    },
+    {
+      "code": 180,
+      "name": "1.8.0",
+      "date": "2026-09-10",
+      "items": [
+        "Nowość",
+        "Odnowione gotowe zadania — 64 pozycje w Szablonach, dodawane jednym dotknięciem. Gdzie trzeba coś podać, wybierasz aplikację lub urządzenie z listy.",
+        "Wyszukiwanie podczas tworzenia — wyzwalacze, warunki i akcje w jednym miejscu albo zleć zadanie AI.",
+        "Szybki start Klikacza: ustaw, odliczanie, gotowe.",
+        "Ulepszenia",
+        "Taskly to teraz WhenDo, z nową ikoną.",
+        "Filmy instruktażowe w Centrum pomocy.",
+        "Poprawki",
+        "Indonezyjski wyświetlał się po angielsku."
+      ]
+    },
+    {
+      "code": 170,
+      "name": "1.7.0",
+      "date": "2026-09-04",
+      "items": [
+        "Nowość",
+        "Pływające przyciski wyzwalające – dotknij, dotknij dwukrotnie lub przytrzymaj, aby uruchomić zadanie.",
+        "Naciśnięto przycisk fizyczny – uruchamiaj zadania pojedynczym, podwójnym lub długim naciśnięciem przycisku głośności; opcjonalnie blokuj jego pierwotne działanie.",
+        "Ulepszenia",
+        "Obsługa Androida 16 i czytelniejszy opis „Powrotu do poprzedniej aplikacji\".",
+        "Poprawki",
+        "Awaria przy wyświetlaniu powiadomienia w trybie Shizuku.",
+        "Zatrzymanie usługi przy nieudanym starcie zadania stałego."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

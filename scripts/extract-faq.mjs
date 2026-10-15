@@ -8,11 +8,26 @@
 // by position, plus `faq_sections` (section index per question) and `faq_video_ids` (YouTube id per
 // question, may be empty; not translated). Question ids are `q01`… by array position. Extra entries
 // from single strings are appended to the end of a section, the same way the app shows them.
+//
+// `kotlin-flat` products (WhenDo): HelpData.kt holds flat `listOf(Item(R.string.q, R.string.a, videoId = "…"))`
+// lists, one per section; the text is in every *.xml of res/values*. Entry ids are the question key
+// without its prefix (`faq_q_presets` → `presets`).
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { LOCALES, localProducts, parseStrings, unescapeAndroid, androidValues, writeJson, now } from './lib.mjs';
 
 const CONFIG = {
+  whendo: {
+    kind: 'kotlin-flat',
+    kotlin: 'app/src/main/java/top/xjunz/tasker/ui/help/HelpData.kt',
+    res: 'app/src/main/res',
+    titleKey: 'help_center',
+    /** One `val NAME = listOf(Item(...))` per section, in the order HelpScreen shows them. */
+    sections: [
+      { id: 'questions', titleKey: 'help_section_faq', list: 'FAQ', idPrefix: 'faq_q_' },
+      { id: 'glossary', titleKey: 'help_section_glossary', list: 'GLOSSARY', idPrefix: 'glossary_term_' },
+    ],
+  },
   relaypad: {
     kotlin: 'app/src/main/kotlin/com/dylan/remotepad/faq/FaqContent.kt',
     stringsFile: 'strings_faq.xml',
@@ -148,6 +163,67 @@ function extractArrays(slug, root, cfg) {
   console.log(`[faq] ${slug}: ${written} locales, ${cfg.sections.length} sections, ${total} questions`);
 }
 
+/** `val NAME = listOf(...)` → entries `{ id, qKey, aKey, video? }`; the first two R.string refs of each item are the question and the answer. */
+function parseFlatList(src, name, idPrefix) {
+  const m = src.match(new RegExp(`val\\s+${name}\\s*=\\s*listOf\\(`));
+  if (!m) throw new Error(`[faq] list ${name} not found in HelpData.kt`);
+  const body = balanced(src, m.index + m[0].length - 1).replace(/\/\/[^\n]*/g, '');
+  const entries = [];
+  for (const item of body.matchAll(/\w+Item\(([\s\S]*?)\)\s*(?:,|$)/g)) {
+    const refs = [...item[1].matchAll(/R\.string\.(\w+)/g)].map((r) => r[1]);
+    if (refs.length < 2) continue;
+    const video = item[1].match(/videoId\s*=\s*"([^"]+)"/)?.[1];
+    entries.push({ id: refs[0].replace(idPrefix, ''), qKey: refs[0], aKey: refs[1], ...(video ? { video } : {}) });
+  }
+  return entries;
+}
+
+function extractKotlinFlat(slug, root, cfg) {
+  const src = readFileSync(join(root, cfg.kotlin), 'utf8');
+  const lists = cfg.sections.map((s) => ({ ...s, entries: parseFlatList(src, s.list, s.idPrefix) }));
+  const total = lists.reduce((n, s) => n + s.entries.length, 0);
+  const resDir = join(root, cfg.res);
+  const base = readFolderStrings(join(resDir, 'values'));
+  let written = 0;
+  for (const locale of LOCALES) {
+    const folder = androidValues(slug, locale);
+    if (!folder) {
+      console.log(`[faq] ${slug}/${locale.slug}: the app has no translation, skipped (the site shows English)`);
+      continue;
+    }
+    const own = folder === 'values' ? base : readFolderStrings(join(resDir, folder));
+    if (own.strings.size === 0) {
+      console.warn(`[faq] ${slug}/${locale.slug}: ${folder} missing, locale skipped`);
+      continue;
+    }
+    let missing = 0;
+    const sections = lists.map((s) => ({
+      id: s.id,
+      title: own.strings.get(s.titleKey) ?? (missing++, ''),
+      entries: s.entries.map((e) => {
+        const q = own.strings.get(e.qKey);
+        const a = own.strings.get(e.aKey);
+        if (q === undefined || a === undefined) missing++;
+        return { id: e.id, q: q ?? '', a: answerParagraphs(a ?? ''), ...(e.video ? { video: e.video } : {}) };
+      }),
+    }));
+    if (missing > 0) {
+      console.error(`[faq] ${slug}/${locale.slug}: ${missing} strings missing, locale not written (no half-translated pages)`);
+      process.exitCode = 1;
+      continue;
+    }
+    writeJson(`src/content/faq/${slug}/${locale.slug}.json`, {
+      slug,
+      locale: locale.slug,
+      title: own.strings.get(cfg.titleKey) ?? base.strings.get(cfg.titleKey) ?? 'FAQ',
+      sections,
+      extractedAt: now(),
+    });
+    written++;
+  }
+  console.log(`[faq] ${slug}: ${written} locales, ${lists.length} sections, ${total} questions`);
+}
+
 /** Return the text of the balanced `(...)` that starts at `open` (index of the `(`). */
 function balanced(src, open) {
   let depth = 0;
@@ -200,6 +276,10 @@ for (const [slug, root] of Object.entries(products)) {
   }
   if (cfg.kind === 'arrays') {
     extractArrays(slug, root, cfg);
+    continue;
+  }
+  if (cfg.kind === 'kotlin-flat') {
+    extractKotlinFlat(slug, root, cfg);
     continue;
   }
   const parsed = parseKotlin(readFileSync(join(root, cfg.kotlin), 'utf8'));

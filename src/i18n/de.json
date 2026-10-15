@@ -192,6 +192,15 @@
       "macros": "Makros",
       "turbo": "Turbo (automatische Wiederholung)",
       "combos": "Tastenkombinationen",
+      "activation": "Einrichtung nur am Handy, ohne PC, Wireless Debugging oder Shizuku",
+      "free-install": "Kostenlos installieren",
+      "no-subscription": "Kein Abo für irgendeine Funktion",
+      "controller-test": "Eingebauter Controller-Test (Tasten, Stick-Drift, Latenz, Vibration)",
+      "pause-tile": "Pause-Schalter in den Schnelleinstellungen",
+      "haptic-feedback": "Vibrationsfeedback, wenn eine belegte Taste auslöst",
+      "backup-restore": "Alle Layouts in eine Datei sichern und wiederherstellen",
+      "no-account": "Kein Konto, keine Anmeldung",
+      "video-help": "FAQ in der App mit Video-Anleitungen",
       "pricing-model": "Preismodell"
     },
     "values": {

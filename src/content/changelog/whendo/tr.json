@@ -1,0 +1,49 @@
+{
+  "slug": "whendo",
+  "locale": "tr",
+  "entries": [
+    {
+      "code": 182,
+      "name": "1.8.1",
+      "date": "2026-09-16",
+      "items": [
+        "Yenilikler",
+        "Yardım Merkezi'ne beş yeni yanıt: uygulamayı açmadan görev başlatma, WhenDo'nun telefonunuzla neler yapabildiği, her iznin ne için gerektiği, Shizuku modunun ne olduğu ve diğer uygulamalardaki düğmelere dokunup dokunamadığı.",
+        "İyileştirmeler",
+        "Sık sorulan sorulara tanıtım videoları eklendi — izinler, elle başlatma ve daha fazlası, ekranı görerek adım adım."
+      ]
+    },
+    {
+      "code": 180,
+      "name": "1.8.0",
+      "date": "2026-09-10",
+      "items": [
+        "Yenilikler",
+        "Hazır görevler yenilendi — Şablonlar'da 64 hazır görev, tek dokunuşla eklenir. Bilgi isteyenlerde uygulamayı veya cihazı listeden seçersiniz.",
+        "Oluştururken arama — tetikleyiciler, koşullar ve eylemler tek yerde; ya da görevi yapay zekâya bırakın.",
+        "Otomatik Tıklayıcı hızlı başlangıç: ayarla, geri sayım, başla.",
+        "İyileştirmeler",
+        "Taskly artık WhenDo, yeni simgesiyle.",
+        "Yardım Merkezi'ne nasıl yapılır videoları eklendi.",
+        "Düzeltmeler",
+        "Endonezcenin İngilizce görünmesi."
+      ]
+    },
+    {
+      "code": 170,
+      "name": "1.7.0",
+      "date": "2026-09-04",
+      "items": [
+        "Yeni",
+        "Kayan tetikleyici düğmeler — dokunma, çift dokunma veya uzun basma ile görev çalıştırın. İstediğiniz yere sürükleyin.",
+        "Fiziksel tuşa basıldı — ses tuşuna tek, çift veya uzun basarak görev çalıştırın; isterseniz tuşun özgün işlevini engelleyin.",
+        "İyileştirmeler",
+        "Android 16 desteği, \"Önceki uygulamaya geri dön\" için daha anlaşılır açıklama.",
+        "Düzeltmeler",
+        "Shizuku modunda toast gösterilirken oluşan çökme.",
+        "Kalıcı bir görev başlatılamadığında hizmetin durması."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

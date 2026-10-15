@@ -1,0 +1,243 @@
+{
+  "slug": "whendo",
+  "locale": "de",
+  "title": "Hilfecenter",
+  "sections": [
+    {
+      "id": "questions",
+      "title": "Häufige Fragen",
+      "entries": [
+        {
+          "id": "not_triggered",
+          "q": "Warum läuft meine Aufgabe nicht?",
+          "a": [
+            "Stelle sicher, dass der Dienst läuft und die Aufgabe aktiviert ist. Die meisten Auslöser brauchen zudem den Bedienungshilfen-Dienst und eine im Hintergrund aktive App (Akku-Einstellungen prüfen)."
+          ]
+        },
+        {
+          "id": "find_tasks",
+          "q": "Wo sind meine Aufgaben, und wie stoppe ich eine davon?",
+          "a": [
+            "Alles, was du erstellt hast, liegt im Tab „Szenen“, nach Szenen gruppiert. Jede Karte hat ihren eigenen Schalter, du kannst also eine einzelne Aufgabe stoppen, ohne die anderen anzufassen; der Schalter der Szene selbst schaltet die ganze Gruppe auf einmal ab. Beachte: Wenn du eine Szene wieder einschaltest, wird jede Aufgabe darin aktiviert – prüfe also die, die du einzeln ausgeschaltet hattest, noch einmal."
+          ],
+          "video": "ZEvyPaMP7U0"
+        },
+        {
+          "id": "presets",
+          "q": "Wie nutze ich die fertigen Voreinstellungen?",
+          "a": [
+            "Öffne „Vorlagen › Voreingestellte Aufgabe“, wähle eine Kategorie und tippe auf Hinzufügen. Voreinstellungen mit dem Tag „Einrichten nötig“ fragen ein bis zwei Angaben ab (eine App, eine schwebende Schaltfläche, deinen WLAN-Namen) und schalten sich dann sofort ein. Tippe auf das Status-Tag einer Voreinstellung, um zu sehen, welche Berechtigung noch fehlt. Aufgaben, die nur über schwebende Schaltflächen oder Hardware-Tasten ausgelöst werden, zählen nicht zum kostenlosen Limit für dauerhafte Aufgaben."
+          ],
+          "video": "LxWzDB0vqOE"
+        },
+        {
+          "id": "auto_click_stops",
+          "q": "Der Auto-Klicker stoppt nach ein paar Minuten.",
+          "a": [
+            "Die meisten Handys beenden Bedienungshilfen-Dienste, um Strom zu sparen. Fixiere WhenDo in den letzten Apps, deaktiviere die Akku-Optimierung dafür, erlaube den Autostart und trage die App auf Xiaomi / OPPO / vivo / Huawei zusätzlich in die Liste der geschützten Apps bzw. „keine Einschränkungen“ ein. Wenn WhenDo beendet wird, bekommst du eine Benachrichtigung, die diese Seite öffnet. Voreinstellungen aus der Kategorie Auto-Klicker geben jedem Tippen eine kleine zufällige Streuung, damit Spiele wiederholte identische Intervalle seltener beanstanden."
+          ]
+        },
+        {
+          "id": "bank_apps",
+          "q": "Meine Banking-App lässt sich nicht öffnen, während WhenDo aktiv ist.",
+          "a": [
+            "Manche Banking-Apps blockieren jeden aktiven Bedienungshilfen-Dienst. Füge aus den Voreinstellungen unter „Werkzeuge“ eine Aufgabe „Wenn die Banking-App startet → Für die aktuelle App pausieren“ hinzu oder schalte WhenDo beim Banking aus. Das ist eine Vorgabe der Bank, die WhenDo nicht umgehen kann."
+          ]
+        },
+        {
+          "id": "permissions",
+          "q": "Wie erteile ich die nötigen Berechtigungen?",
+          "a": [
+            "Öffne das Dashboard und folge den Berechtigungskarten. Der Bedienungshilfen-Dienst wird unter „Einstellungen → Bedienungshilfen“ erteilt, Shizuku in der Shizuku-App."
+          ],
+          "video": "VdeGorn3azg"
+        },
+        {
+          "id": "background_killed",
+          "q": "Die App wird im Hintergrund immer wieder beendet.",
+          "a": [
+            "Fixiere die App in den letzten Apps, deaktiviere die Akku-Optimierung dafür und aktiviere „Autostart nach dem Booten“ in den Einstellungen. Manche Geräte haben zusätzlich eine Liste geschützter Apps."
+          ]
+        },
+        {
+          "id": "when_vs_if",
+          "q": "Was ist der Unterschied zwischen Auslöser und Bedingung?",
+          "a": [
+            "Der Auslöser (When) bestimmt, wann eine Aufgabe startet. Die Bedingung (If) bestimmt, ob die nächsten Aktionen nach dem Start laufen. Eine Aufgabe braucht einen Auslöser zum Starten; Bedingungen filtern nur."
+          ],
+          "video": "OHhz4YyPG-g"
+        },
+        {
+          "id": "trigger_types",
+          "q": "Was kann eine Aufgabe auslösen?",
+          "a": [
+            "Fast alles, was das Telefon mitbekommt: eine App öffnen oder verlassen, eine Uhrzeit oder dein Wecker, die Verbindung mit WLAN, Bluetooth oder einem Headset, der Bildschirm geht an oder aus, das Laden, ein Akkustand, der Text einer Benachrichtigung, ein an die App geteilter Inhalt oder das Schütteln des Geräts. Du kannst Ereignisse auch ganz weglassen und eine Aufgabe über eine schwebende Schaltfläche starten. Standort, Kalender, Anrufe, NFC sowie die Gesten „Bildschirm nach unten“ und „Doppeltippen auf die Rückseite“ brauchen Pro."
+          ],
+          "video": "m1CCS9DQ_jo"
+        },
+        {
+          "id": "ai_generate",
+          "q": "Wie erstelle ich eine Aufgabe mit KI?",
+          "a": [
+            "Tippe im Aufgaben-Editor in einfachen Worten, was du möchtest, und tippe auf die KI-Schaltfläche. Die App entwirft eine komplette Aufgabe, die du prüfen und anpassen kannst."
+          ],
+          "video": "ockn9aw9LYQ"
+        },
+        {
+          "id": "edit_task",
+          "q": "Kann ich eine Aufgabe nachträglich noch ändern?",
+          "a": [
+            "Ja, du musst nie von vorn anfangen. Tippe auf der Aufgabenkarte auf „Bearbeiten“ und dann auf den Stift in einer Zeile, um nur diese Zeile zu öffnen und ihre Werte zu ändern. Beim Zurückgehen wirst du gefragt, ob du die Änderungen verwerfen willst, und gespeichert wird erst, wenn du auf das Häkchen tippst."
+          ],
+          "video": "ajU2Tf-cFPM"
+        },
+        {
+          "id": "backup",
+          "q": "Wie sichere oder importiere ich meine Aufgaben?",
+          "a": [
+            "Gehe zu „Einstellungen → Alle Aufgaben exportieren“, um eine Archivdatei zu speichern. Zum Importieren öffne dieses Archiv mit der App oder nutze den Import in der Aufgabenliste."
+          ]
+        },
+        {
+          "id": "resident_vs_oneshot",
+          "q": "Was ist der Unterschied zwischen einer dauerhaften und einer einmaligen Aufgabe?",
+          "a": [
+            "Eine dauerhafte Aufgabe überwacht ihren Auslöser ständig und läuft automatisch, sobald die Bedingung erfüllt ist. Eine einmalige Aufgabe läuft genau einmal, wenn du sie antippst. Nutze dauerhaft für Automatisierung, die von selbst reagiert, und einmalig für manuell gestartete Aktionen."
+          ],
+          "video": "r6MyGSQmF7s"
+        },
+        {
+          "id": "schedule_time",
+          "q": "Kann ich eine Aufgabe zu einer bestimmten Zeit oder wiederholt ausführen?",
+          "a": [
+            "Ja. Füge unter „Wenn“ einen zeitbasierten Auslöser hinzu, etwa eine bestimmte Uhrzeit oder ein Wiederholungsintervall. Damit geplante Aufgaben pünktlich auslösen, muss der Aufgabendienst laufen."
+          ],
+          "video": "oCJWsS18Evs"
+        },
+        {
+          "id": "ai_better",
+          "q": "Die KI-Generierung schlug fehl oder lieferte nicht das Gewünschte — was tun?",
+          "a": [
+            "Beschreibe Auslöser und Aktion in einem klaren Satz, z. B. „wenn ich mich mit dem Heim-WLAN verbinde, Handy stummschalten“. Nenne App oder Bedingung konkret, vermeide vage Formulierungen und tippe erneut auf „Mit KI erstellen“. Die erstellte Aufgabe kannst du danach jederzeit von Hand anpassen."
+          ],
+          "video": "lRJOqQ65ST0"
+        },
+        {
+          "id": "debug_run",
+          "q": "Wie prüfe ich, ob meine Aufgabe wirklich läuft?",
+          "a": [
+            "Stelle sicher, dass der Dienst an und die Aufgabe aktiviert ist. Öffne die Aufgabe und sieh dir die Ausführungsprotokolle/Snapshots an, um das Ergebnis jedes Schritts zu sehen. Löst sie nie aus, prüfe Auslöser und benötigte Berechtigungen erneut."
+          ]
+        },
+        {
+          "id": "manual_trigger",
+          "q": "Kann ich eine Aufgabe starten, ohne die App zu öffnen?",
+          "a": [
+            "Ja — binde sie an eine physische Taste oder eine schwebende Schaltfläche. Tippe im Aufgaben-Editor auf Wenn → Gerätestatus → Physische Taste gedrückt und dann auf Taste erfassen; drücke nun die Taste deiner Wahl. Einzel-, Doppel- und Langdruck funktionieren alle. Oder wähle Wenn → Schwebende Schaltfläche und erstelle die Schaltflächen unter „Einstellungen → Schwebende Auslöser-Schaltflächen“. Beides erfordert den laufenden Bedienungshilfen-Dienst."
+          ],
+          "video": "hcqbXCb-5Q8"
+        },
+        {
+          "id": "action_types",
+          "q": "Was kann WhenDo eigentlich mit meinem Handy machen?",
+          "a": [
+            "170 Aktionen in 19 Gruppen. Kontrollaktion deckt alles auf dem Bildschirm ab — Klicken, langes Drücken, Tippen, Scrollen, Ziehen. Anwendungsoperationen starten oder stoppen Apps, Hardwareoperationen kümmern sich um Taschenlampe, Bluetooth, WLAN und Akku, Medienoperationen um Lautstärke und Nicht stören. Dazu kommen Aktionen für Text, Dateien, Shell, Benachrichtigungen, Kalender, OCR und globale Variablen. Aktionen, die Pro oder Shizuku brauchen, sind in der Liste gekennzeichnet."
+          ],
+          "video": "s44BKhrgGdM"
+        },
+        {
+          "id": "permissions_why",
+          "q": "Warum fragt WhenDo nach so vielen Berechtigungen?",
+          "a": [
+            "Hinter jeder steckt eine bestimmte Funktion, du musst also nur die erteilen, die du wirklich nutzt. Über den Bedienungshilfen-Dienst liest WhenDo den Bildschirm und tippt für dich; ohne ihn stoppen Bildschirm-Automatisierung und App-Ereignisse. Die Schwebefenster-Berechtigung zeichnet die schwebenden Schaltflächen und Hinweise und kann deinen Bildschirm nicht lesen. Der Standort dient nur dazu, WLAN-Namen und Geofences zu erkennen, und Mikrofon, Kamera, Kalender und Telefonstatus werden nur von den Aktionen genutzt, die sie brauchen. Das Netzwerk wird für KI-Generierung, die Online-Vorlagenbibliothek, die Fernkonfiguration und anonyme Nutzungsstatistiken verwendet."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Was ist der Shizuku-Modus, und wie aktiviere ich ihn?",
+          "a": [
+            "Shizuku ist eine separate Begleit-App, die WhenDo ohne Root Systemrechte verleiht — Shell-Befehle, WLAN oder Bluetooth ein- und ausschalten und mehr. Installiere Shizuku und starte es (zum Starten braucht es ADB, drahtloses Debugging oder Root) und erteile WhenDo dann die Berechtigung über das Dashboard. Bricht der Start mit einer Zeitüberschreitung ab, aktualisiere Shizuku und erteile die Berechtigung erneut."
+          ],
+          "video": "S32Bz5ZBmog"
+        },
+        {
+          "id": "ui_automation",
+          "q": "Kann WhenDo eine Schaltfläche in einer anderen App antippen?",
+          "a": [
+            "Ja. Nutze eine Kontrollaktion: Klicke eine Schaltfläche über ihren Text an, klicke das zur Bedingung passende Element an, tippe in ein Feld, scrolle eine Liste oder ziehe ein Element auf ein anderes. WhenDo liest den Bildschirm über den Bedienungshilfen-Dienst und funktioniert daher auch in Apps ohne öffentliche API."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Grundbegriffe",
+      "entries": [
+        {
+          "id": "flow",
+          "q": "Ablauf (Flow)",
+          "a": [
+            "Ein Ablauf ist eine komplette Automatisierung, die du erstellst. Er besteht meist aus einem Wenn-Teil (Auslöser) und einem Tun-Teil (Aktionen)."
+          ]
+        },
+        {
+          "id": "rule",
+          "q": "Regel (Rule)",
+          "a": [
+            "Eine Regel ist eine Zeile im Editor – der Grundbaustein einer Aufgabe. Eine Regel kann Unterregeln enthalten."
+          ]
+        },
+        {
+          "id": "when",
+          "q": "Auslöser (When)",
+          "a": [
+            "Das Ereignis, das deine Aufgabe startet, etwa das Öffnen einer App oder eine Uhrzeit. Ohne Auslöser startet eine Aufgabe nie von selbst."
+          ]
+        },
+        {
+          "id": "if",
+          "q": "Bedingung (If)",
+          "a": [
+            "Eine Prüfung, die wahr sein muss, damit die folgenden Aktionen laufen, z. B. „nur wenn WLAN verbunden ist“."
+          ]
+        },
+        {
+          "id": "do",
+          "q": "Aktion (Do)",
+          "a": [
+            "Etwas, das die App für dich ausführt, etwa eine Schaltfläche tippen, eine Benachrichtigung senden oder eine App starten."
+          ]
+        },
+        {
+          "id": "applet",
+          "q": "Applet",
+          "a": [
+            "Der kleinste Baustein. Jeder Auslöser, jede Bedingung und Aktion ist ein Applet, das du auswählst und kombinierst."
+          ]
+        },
+        {
+          "id": "global_var",
+          "q": "Globale Variable",
+          "a": [
+            "Ein Wert, den du über Aufgaben hinweg speicherst und wiederverwendest, etwa ein Zähler oder vom Bildschirm erfasster Text."
+          ]
+        },
+        {
+          "id": "a11y",
+          "q": "Bedienungshilfen-Dienst",
+          "a": [
+            "Die Systemberechtigung, mit der die App den Bildschirm lesen und für dich tippen kann. Die meisten Automatisierungen brauchen sie."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku",
+          "a": [
+            "Eine optionale Begleit-App, die zusätzliche systemnahe Fähigkeiten (etwa Shell-Befehle) ohne Root gewährt."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

@@ -192,6 +192,15 @@
       "macros": "Macro's",
       "turbo": "Turbo (automatisch herhalen)",
       "combos": "Knopcombinaties",
+      "activation": "Instellen met alleen de telefoon, zonder pc, draadloze foutopsporing of Shizuku",
+      "free-install": "Gratis te installeren",
+      "no-subscription": "Geen abonnement voor welke functie dan ook",
+      "controller-test": "Ingebouwde controllertest (knoppen, stick-drift, vertraging, trillen)",
+      "pause-tile": "Pauzeschakelaar in de snelle instellingen",
+      "haptic-feedback": "Trilfeedback als een toegewezen knop afgaat",
+      "backup-restore": "Alle indelingen in één bestand back-uppen en terugzetten",
+      "no-account": "Geen account of aanmelding",
+      "video-help": "FAQ in de app met video-uitleg",
       "pricing-model": "Prijsmodel"
     },
     "values": {

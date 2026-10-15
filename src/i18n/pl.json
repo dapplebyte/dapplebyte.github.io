@@ -192,6 +192,15 @@
       "macros": "Makra",
       "turbo": "Turbo (automatyczne powtarzanie)",
       "combos": "Kombinacje przycisków",
+      "activation": "Konfiguracja tylko na telefonie, bez PC, debugowania bezprzewodowego i Shizuku",
+      "free-install": "Darmowa instalacja",
+      "no-subscription": "Żadna funkcja nie wymaga subskrypcji",
+      "controller-test": "Wbudowany test pada (przyciski, dryf gałek, opóźnienie, wibracje)",
+      "pause-tile": "Przełącznik pauzy w szybkich ustawieniach",
+      "haptic-feedback": "Wibracja, gdy zmapowany przycisk zadziała",
+      "backup-restore": "Kopia wszystkich układów do jednego pliku i przywracanie",
+      "no-account": "Bez konta i logowania",
+      "video-help": "FAQ w aplikacji z filmami instruktażowymi",
       "pricing-model": "Model cenowy"
     },
     "values": {

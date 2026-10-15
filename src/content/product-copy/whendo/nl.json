@@ -1,0 +1,124 @@
+{
+  "slug": "whendo",
+  "locale": "nl",
+  "title": "WhenDo: Auto Clicker, AI Macro",
+  "shortDescription": "Automatisering en taakplanner: triggers, gebaren, workflows — zonder root.",
+  "tagline": "AI-automatisering, auto clicker en macro’s voor Android — zonder code",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "AI-automatisering, auto clicker en macro’s voor Android — zonder code",
+      "paragraphs": [
+        "Beschrijf een routine in gewone woorden en de AI van WhenDo bouwt de automatisering: triggers, voorwaarden en acties, allemaal aanpasbaar. Liever zelf bouwen? Plan taken, neem gebaren op en laat een auto clicker in elke app draaien. Zonder root."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "ai",
+      "title": "Automatiseringen bouwen met AI",
+      "paragraphs": [
+        "Probeer bijvoorbeeld:",
+        "“Zet mijn telefoon op stil als ik verbind met thuis-Wi-Fi”",
+        "“Open mijn muziekapp als mijn koptelefoon verbindt”",
+        "“Zet elke avond om 23 uur Niet storen aan”",
+        "“Herinner me elke twee uur om water te drinken”"
+      ],
+      "bullets": [
+        "Beschrijf een routine in je eigen woorden of gebruik spraakinvoer",
+        "AI maakt de hele workflow — elke trigger, voorwaarde en actie",
+        "Bekijk en bewerk elke stap voordat je hem inschakelt",
+        "Begin sneller met kant-en-klare voorbeelden en sjablonen"
+      ]
+    },
+    {
+      "id": "clicker",
+      "title": "Auto clicker, gebaren opnemen en schermautomatisering",
+      "paragraphs": [],
+      "bullets": [
+        "Auto clicker met instelbaar klikinterval en aantal herhalingen",
+        "Neem tikken, swipes en gebaren met meerdere stappen op en speel ze af",
+        "Swipe op richting, afstand en snelheid, of op exacte coördinaten",
+        "Zwevende triggerknoppen — start elke taak vanaf een knop op het scherm",
+        "Zwevende assistent om schermelementen te kiezen en app-UI te automatiseren",
+        "Maak een screenshot, druk op Terug of schakel het scherm uit"
+      ]
+    },
+    {
+      "id": "triggers",
+      "title": "Taakplanner en 250+ triggers",
+      "paragraphs": [],
+      "bullets": [
+        "Tijd, schema’s, agenda-afspraken, locatie en geofences",
+        "App geopend of gesloten, recente apps, scherm- en UI-gebeurtenissen",
+        "Wi-Fi, Bluetooth, headset en netwerkwijzigingen",
+        "Meldingen, oproepen, sensoren, NFC en klembord",
+        "Fysieke toetsen zoals volume omhoog en omlaag, en vingerafdrukgebaren"
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Macro-acties voor alles",
+      "paragraphs": [],
+      "bullets": [
+        "Volume, helderheid, Niet storen en andere systeeminstellingen",
+        "Apps starten, mediabediening, HTTP-verzoeken, bestanden en tekst",
+        "Intent-snelkoppelingen: bellen, sms, e-mail, kaarten, route en zoeken op het web",
+        "Acties voor klembord en meldingen, plus optionele Shizuku-besturing"
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Eenvoudige of geavanceerde workflows",
+      "paragraphs": [],
+      "bullets": [
+        "Combineer Wanneer, Als, Dan, Anders, vertragingen, lussen en variabelen",
+        "Voeg meerdere triggers en voorwaarden toe aan één taak",
+        "Draai permanente taken op de achtergrond of handmatige eenmalige taken",
+        "Orden routines met aanpasbare scènes",
+        "Importeer, exporteer, maak back-ups en herstel je automatiseringen"
+      ]
+    },
+    {
+      "id": "ideas",
+      "title": "Ideeën voor dagelijkse automatisering",
+      "paragraphs": [
+        "Routines voor werk, thuis, slapen en autorijden:"
+      ],
+      "bullets": [
+        "Zet je telefoon stil tijdens vergaderingen of voor het slapengaan",
+        "Start muziek als je Bluetooth-koptelefoon verbindt",
+        "Open navigatie zodra je gaat rijden",
+        "Klik herhalende knoppen automatisch aan in plaats van zelf te tikken",
+        "Start apps automatisch op tijd, locatie of apparaatgebeurtenis"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy, machtigingen en zonder root",
+      "paragraphs": [],
+      "bullets": [
+        "Je automatiseringstaken draaien direct op je apparaat",
+        "AI-generatie vraagt internet en stuurt je prompt naar de AI-service",
+        "Toegankelijkheid wordt alleen gebruikt voor wat je taken nodig hebben",
+        "Geen root voor dagelijks gebruik; optioneel Shizuku voor extra controle",
+        "Bekijk of trek machtigingen op elk moment in via de Android-instellingen"
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Gemaakt voor beginners en gevorderden",
+      "paragraphs": [
+        "Nieuw met automatisering op je telefoon? Begin met AI, voorbeelden en kant-en-klare sjablonen.",
+        "Meer controle nodig? Bouw voorwaardelijke workflows, automatiseer UI-interacties, gebruik variabelen, neem gebaren op of zet de Shizuku-modus aan."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Beschrijf je routine, laat WhenDo hem bouwen en automatiseer je Android-telefoon.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

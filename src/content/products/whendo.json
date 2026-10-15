@@ -1,0 +1,29 @@
+{
+  "slug": "whendo",
+  "name": "WhenDo",
+  "order": 3,
+  "status": "live",
+  "platform": "Android",
+  "applicationId": "com.dylan.dalle3.pro",
+  "playUrl": "https://play.google.com/store/apps/details?id=com.dylan.dalle3.pro",
+  "category": "UtilitiesApplication",
+  "minOs": "Android 10",
+  "versions": [
+    { "code": 170, "name": "1.7.0", "date": "2026-09-04" },
+    { "code": 180, "name": "1.8.0", "date": "2026-09-10" },
+    { "code": 182, "name": "1.8.1", "date": "2026-09-16" }
+  ],
+  "contactEmail": "feedback@dapplebyte.com",
+  "accent": { "solid": "#FF6F61", "bright": "#FF8A7D", "ink": "#2A0D08" },
+  "displayFont": "IBM Plex Sans",
+  "screenshotCount": 6,
+  "screenshotOrientation": "portrait",
+  "featuredFaq": ["ai_generate", "trigger_types", "not_triggered", "presets", "resident_vs_oneshot", "permissions_why"],
+  "languages": 19,
+  "youtubePlaylist": "PLdP6sQnZjxNU",
+  "overview": {
+    "useCases": "ideas",
+    "cells": ["privacy", "audience"],
+    "privacyLinkIn": "privacy"
+  }
+}

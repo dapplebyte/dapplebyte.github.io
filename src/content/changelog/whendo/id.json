@@ -1,0 +1,49 @@
+{
+  "slug": "whendo",
+  "locale": "id",
+  "entries": [
+    {
+      "code": 182,
+      "name": "1.8.1",
+      "date": "2026-09-16",
+      "items": [
+        "Baru",
+        "Lima jawaban baru di Pusat Bantuan: menjalankan tugas tanpa membuka aplikasi, apa yang bisa dilakukan WhenDo pada ponsel Anda, untuk apa setiap izin, apa itu mode Shizuku, dan apakah bisa menekan tombol di dalam aplikasi lain.",
+        "Peningkatan",
+        "Video demo di pertanyaan umum — izin, pemicu manual, dan lainnya, sambil melihat layarnya langsung."
+      ]
+    },
+    {
+      "code": 180,
+      "name": "1.8.0",
+      "date": "2026-09-10",
+      "items": [
+        "Baru",
+        "Preset dirombak — 64 tugas siap pakai di Templat, ditambahkan dengan sekali ketuk. Yang butuh detail tinggal pilih aplikasi atau perangkat.",
+        "Cari sambil menyusun — pemicu, kondisi, dan aksi di satu tempat, atau serahkan tugasnya ke AI.",
+        "Penekan Berulang cepat: atur, hitung mundur, jalan.",
+        "Peningkatan",
+        "Taskly kini menjadi WhenDo, dengan ikon baru.",
+        "Video panduan di Pusat Bantuan.",
+        "Perbaikan",
+        "Bahasa Indonesia yang tampil dalam bahasa Inggris."
+      ]
+    },
+    {
+      "code": 170,
+      "name": "1.7.0",
+      "date": "2026-09-04",
+      "items": [
+        "Baru",
+        "Tombol pemicu mengambang — ketuk, ketuk dua kali, atau tekan lama untuk menjalankan tugas. Seret ke mana saja di layar.",
+        "Tombol fisik ditekan — jalankan tugas dengan tekan sekali, dua kali, atau tekan lama pada tombol volume, dan blokir fungsi asli tombol bila perlu.",
+        "Peningkatan",
+        "Dukungan Android 16, keterangan lebih jelas untuk \"Kembali ke aplikasi sebelumnya\".",
+        "Perbaikan",
+        "Kerusakan saat menampilkan toast di mode Shizuku.",
+        "Layanan berhenti saat tugas residen gagal dimulai."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

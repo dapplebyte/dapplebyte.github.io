@@ -192,6 +192,15 @@
       "macros": "Macros",
       "turbo": "Turbo (repetición automática)",
       "combos": "Combinaciones de botones",
+      "activation": "Se configura solo con el teléfono, sin PC, depuración inalámbrica ni Shizuku",
+      "free-install": "Instalación gratis",
+      "no-subscription": "Sin suscripción para ninguna función",
+      "controller-test": "Prueba de control integrada (botones, deriva de palancas, latencia, vibración)",
+      "pause-tile": "Interruptor de pausa en los ajustes rápidos",
+      "haptic-feedback": "Vibración al activarse un control mapeado",
+      "backup-restore": "Copia de seguridad de todos los esquemas en un archivo y restauración",
+      "no-account": "Sin cuenta ni inicio de sesión",
+      "video-help": "Preguntas frecuentes en la app con videos",
       "pricing-model": "Modelo de precio"
     },
     "values": {

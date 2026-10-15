@@ -192,6 +192,15 @@
       "macros": "宏",
       "turbo": "连发（自动连点）",
       "combos": "组合键",
+      "activation": "只用手机就能设好，不需要电脑、无线调试或 Shizuku",
+      "free-install": "免费安装",
+      "no-subscription": "任何功能都不需要订阅",
+      "controller-test": "内置手柄测试（按键、摇杆漂移、延迟、震动）",
+      "pause-tile": "快速设置里的暂停开关",
+      "haptic-feedback": "映射触发时的震动反馈",
+      "backup-restore": "所有布局备份成一个文件并恢复",
+      "no-account": "不需要账号或登录",
+      "video-help": "应用内常见问题附视频教程",
       "pricing-model": "收费方式"
     },
     "values": {

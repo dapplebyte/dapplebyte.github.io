@@ -192,6 +192,15 @@
       "macros": "Macros",
       "turbo": "Turbo (répétition automatique)",
       "combos": "Combinaisons de boutons",
+      "activation": "Configuration sur le téléphone seul, sans PC, débogage sans fil ni Shizuku",
+      "free-install": "Installation gratuite",
+      "no-subscription": "Aucun abonnement pour aucune fonction",
+      "controller-test": "Test de manette intégré (boutons, dérive des sticks, latence, vibration)",
+      "pause-tile": "Interrupteur de pause dans les réglages rapides",
+      "haptic-feedback": "Retour vibratoire quand une commande mappée se déclenche",
+      "backup-restore": "Sauvegarde de toutes les dispositions dans un fichier et restauration",
+      "no-account": "Ni compte ni connexion",
+      "video-help": "FAQ dans l'app avec tutoriels vidéo",
       "pricing-model": "Modèle tarifaire"
     },
     "values": {

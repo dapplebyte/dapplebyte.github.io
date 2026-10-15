@@ -1,0 +1,49 @@
+{
+  "slug": "whendo",
+  "locale": "nl",
+  "entries": [
+    {
+      "code": 182,
+      "name": "1.8.1",
+      "date": "2026-09-16",
+      "items": [
+        "Nieuw",
+        "Vijf nieuwe antwoorden in het Helpcentrum: een taak starten zonder de app te openen, wat WhenDo met je telefoon kan doen, waar elke machtiging voor dient, wat de Shizuku-modus is en of het knoppen in andere apps kan aanraken.",
+        "Verbeterd",
+        "Demonstratievideo's bij de veelgestelde vragen — machtigingen, handmatig starten en meer, met het scherm erbij."
+      ]
+    },
+    {
+      "code": 180,
+      "name": "1.8.0",
+      "date": "2026-09-10",
+      "items": [
+        "Nieuw",
+        "Voorinstellingen vernieuwd — 64 kant-en-klare taken in Sjablonen, met één tik toegevoegd. Waar een detail nodig is, kies je een app of apparaat.",
+        "Zoeken tijdens het bouwen — triggers, voorwaarden en acties op één plek, of laat de AI het doen.",
+        "Klikgenerator snel starten: instellen, aftellen, gaan.",
+        "Verbeterd",
+        "Taskly heet nu WhenDo, met een nieuw pictogram.",
+        "Instructievideo's in het Helpcentrum.",
+        "Opgelost",
+        "Indonesisch werd in het Engels weergegeven."
+      ]
+    },
+    {
+      "code": 170,
+      "name": "1.7.0",
+      "date": "2026-09-04",
+      "items": [
+        "Nieuw",
+        "Zwevende triggerknoppen – tik, dubbeltik of lang indrukken om een taak uit te voeren. Sleep ze waar je wilt.",
+        "Fysieke knop ingedrukt – voer taken uit met één keer, twee keer of lang drukken op een volumeknop, eventueel met blokkeren van de knopfunctie.",
+        "Verbeterd",
+        "Ondersteuning voor Android 16, duidelijkere uitleg bij \"Teruggaan naar de vorige applicatie\".",
+        "Opgelost",
+        "Crash bij het tonen van een toast in de Shizuku-modus.",
+        "Dienst stopte bij een mislukte start van een blijvende taak."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

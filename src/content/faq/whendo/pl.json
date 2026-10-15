@@ -1,0 +1,243 @@
+{
+  "slug": "whendo",
+  "locale": "pl",
+  "title": "Centrum pomocy",
+  "sections": [
+    {
+      "id": "questions",
+      "title": "Najczęstsze pytania",
+      "entries": [
+        {
+          "id": "not_triggered",
+          "q": "Dlaczego moje zadanie się nie uruchamia?",
+          "a": [
+            "Upewnij się, że usługa działa, a zadanie jest włączone. Większość wyzwalaczy wymaga też usługi ułatwień dostępu i utrzymania aplikacji w tle (sprawdź ustawienia baterii)."
+          ]
+        },
+        {
+          "id": "find_tasks",
+          "q": "Gdzie są moje zadania i jak zatrzymać jedno z nich?",
+          "a": [
+            "Wszystko, co utworzysz, znajduje się na karcie „Sceny”, pogrupowane w sceny. Każda karta ma własny przełącznik, więc możesz zatrzymać jedno zadanie, nie ruszając pozostałych; przełącznik samej sceny wyłącza całą grupę naraz. Pamiętaj, że ponowne włączenie sceny włącza każde zadanie w jej środku, więc sprawdź jeszcze raz te, które wyłączyłeś pojedynczo."
+          ],
+          "video": "ZEvyPaMP7U0"
+        },
+        {
+          "id": "presets",
+          "q": "Jak korzystać z gotowych zadań domyślnych?",
+          "a": [
+            "Otwórz „Szablony › Zadania Domyślne”, wybierz kategorię i dotknij Dodaj. Zadania oznaczone „Wymaga konfiguracji” zapytają o jeden lub dwa szczegóły (aplikację, pływający przycisk, nazwę domowego Wi-Fi) i od razu się włączą. Dotknij etykiety stanu zadania, aby zobaczyć, jakiego uprawnienia jeszcze brakuje. Zadania uruchamiane wyłącznie pływającymi przyciskami lub klawiszami sprzętowymi nie wliczają się do darmowego limitu zadań rezydentnych."
+          ],
+          "video": "LxWzDB0vqOE"
+        },
+        {
+          "id": "auto_click_stops",
+          "q": "Klikacz zatrzymuje się po kilku minutach.",
+          "a": [
+            "Większość telefonów wyłącza usługi ułatwień dostępu, aby oszczędzać energię. Zablokuj WhenDo w ostatnich aplikacjach, wyłącz dla niego optymalizację baterii, zezwól na autostart, a w Xiaomi / OPPO / vivo / Huawei dodaj go też do listy aplikacji chronionych lub „bez ograniczeń”. Gdy WhenDo zostanie zatrzymany, dostaniesz powiadomienie, które otwiera tę stronę. Zadania domyślne z kategorii Klikacz dodają do każdego dotknięcia niewielkie losowe odchylenie, dzięki czemu gry rzadziej wykrywają powtarzalne, identyczne odstępy."
+          ]
+        },
+        {
+          "id": "bank_apps",
+          "q": "Aplikacja bankowa nie chce się otworzyć, gdy WhenDo jest włączony.",
+          "a": [
+            "Niektóre aplikacje bankowe blokują każdą aktywną usługę ułatwień dostępu. Dodaj z kategorii „Narzędzia” zadanie „Gdy otworzy się aplikacja bankowa → Wstrzymaj dla bieżącej aplikacji” albo wyłącz WhenDo na czas korzystania z bankowości. To ograniczenie banku, którego WhenDo nie może obejść."
+          ]
+        },
+        {
+          "id": "permissions",
+          "q": "Jak nadać wymagane uprawnienia?",
+          "a": [
+            "Otwórz pulpit i postępuj zgodnie z kartami uprawnień. Usługę ułatwień dostępu nadajesz w „Ustawienia → Ułatwienia dostępu”, a Shizuku w aplikacji Shizuku."
+          ],
+          "video": "VdeGorn3azg"
+        },
+        {
+          "id": "background_killed",
+          "q": "Aplikacja ciągle jest zamykana w tle.",
+          "a": [
+            "Zablokuj aplikację w ostatnich, wyłącz dla niej optymalizację baterii i włącz „Autostart po uruchomieniu” w ustawieniach. Niektóre telefony mają też osobną listę chronionych aplikacji."
+          ]
+        },
+        {
+          "id": "when_vs_if",
+          "q": "Jaka jest różnica między Kiedy a Jeśli?",
+          "a": [
+            "Wyzwalacz (When) decyduje, kiedy zadanie startuje. Warunek (If) decyduje, czy kolejne akcje wykonają się po starcie. Zadanie potrzebuje wyzwalacza, by się zacząć; warunki tylko filtrują."
+          ],
+          "video": "OHhz4YyPG-g"
+        },
+        {
+          "id": "trigger_types",
+          "q": "Co właściwie może uruchomić zadanie?",
+          "a": [
+            "Niemal wszystko, co telefon zauważy: otwarcie lub opuszczenie aplikacji, godzina albo alarm, połączenie z Wi-Fi, Bluetooth lub słuchawkami, włączenie bądź wyłączenie ekranu, ładowanie, poziom baterii, treść powiadomienia, coś udostępnionego do aplikacji albo potrząśnięcie urządzeniem. Możesz też całkowicie pominąć zdarzenia i uruchamiać zadanie pływającym przyciskiem. Lokalizacja, kalendarz, połączenia, NFC oraz gesty „ekranem do dołu” i „podwójne stuknięcie w tył” wymagają Pro."
+          ],
+          "video": "m1CCS9DQ_jo"
+        },
+        {
+          "id": "ai_generate",
+          "q": "Jak utworzyć zadanie z pomocą AI?",
+          "a": [
+            "W edytorze zadań opisz, czego chcesz, zwykłymi słowami i dotknij przycisku AI. Aplikacja przygotuje szkic całego zadania, które możesz przejrzeć i dostosować."
+          ],
+          "video": "ockn9aw9LYQ"
+        },
+        {
+          "id": "edit_task",
+          "q": "Czy mogę zmienić zadanie po jego utworzeniu?",
+          "a": [
+            "Tak, nigdy nie musisz zaczynać od nowa. Dotknij „Edytuj” na karcie zadania, a potem ikony ołówka przy dowolnym wierszu, aby otworzyć tylko ten wiersz i zmienić jego wartości. Przy wychodzeniu pojawi się pytanie, czy porzucić zmiany, a zapis następuje dopiero po dotknięciu znacznika wyboru."
+          ],
+          "video": "ajU2Tf-cFPM"
+        },
+        {
+          "id": "backup",
+          "q": "Jak utworzyć kopię lub zaimportować zadania?",
+          "a": [
+            "Przejdź do „Ustawienia → Eksportuj wszystkie zadania”, aby zapisać archiwum. Aby zaimportować, otwórz to archiwum aplikacją lub użyj wpisu importu na liście zadań."
+          ]
+        },
+        {
+          "id": "resident_vs_oneshot",
+          "q": "Czym różni się zadanie stałe od jednorazowego?",
+          "a": [
+            "Zadanie stałe ciągle obserwuje wyzwalacz i uruchamia się automatycznie, gdy warunek jest spełniony. Zadanie jednorazowe wykonuje się raz, po dotknięciu. Stałe stosuj do automatyzacji reagującej samodzielnie, jednorazowe do akcji uruchamianych ręcznie."
+          ],
+          "video": "r6MyGSQmF7s"
+        },
+        {
+          "id": "schedule_time",
+          "q": "Czy mogę uruchamiać zadanie o określonej porze lub cyklicznie?",
+          "a": [
+            "Tak. W sekcji „Kiedy” dodaj wyzwalacz czasowy, np. konkretną godzinę lub powtarzający się odstęp. Aby zaplanowane zadania uruchamiały się na czas, usługa zadań musi działać."
+          ],
+          "video": "oCJWsS18Evs"
+        },
+        {
+          "id": "ai_better",
+          "q": "Generowanie AI nie powiodło się lub dało nie to, czego chcę — co zrobić?",
+          "a": [
+            "Opisz wyzwalacz i akcję jednym jasnym zdaniem, np. „gdy połączę się z domowym Wi-Fi, wycisz telefon”. Podaj wyraźnie aplikację lub warunek, unikaj niejasnych słów i ponownie dotknij „Utwórz z AI”. Wygenerowane zadanie zawsze możesz dopracować ręcznie."
+          ],
+          "video": "lRJOqQ65ST0"
+        },
+        {
+          "id": "debug_run",
+          "q": "Jak sprawdzić, czy moje zadanie naprawdę działa?",
+          "a": [
+            "Upewnij się, że usługa jest włączona, a zadanie aktywne. Otwórz zadanie i sprawdź jego zapisy wykonania / migawki, aby zobaczyć wynik każdego kroku. Jeśli nigdy się nie uruchamia, sprawdź ponownie wyzwalacz i wymagane uprawnienia."
+          ]
+        },
+        {
+          "id": "manual_trigger",
+          "q": "Czy mogę uruchomić zadanie bez otwierania aplikacji?",
+          "a": [
+            "Tak — przypisz je do klawisza fizycznego albo przycisku pływającego. W edytorze zadania dotknij Gdy → Sprzęt → Naciśnięto przycisk fizyczny, a potem Przechwyć przycisk i naciśnij wybrany klawisz; obsługiwane są pojedyncze, podwójne i długie naciśnięcia. Możesz też wybrać Gdy → Przycisk pływający i utworzyć przyciski w „Ustawienia → Pływające przyciski wyzwalające”. Oba warianty wymagają działającej usługi ułatwień dostępu."
+          ],
+          "video": "hcqbXCb-5Q8"
+        },
+        {
+          "id": "action_types",
+          "q": "Co WhenDo właściwie może zrobić z moim telefonem?",
+          "a": [
+            "170 akcji w 19 grupach. Element obejmuje wszystko na ekranie — dotknięcie, długie przytrzymanie, wpisanie tekstu, przewijanie, przeciąganie. Aplikacja uruchamia i zatrzymuje inne aplikacje, Sprzęt obsługuje latarkę, Bluetooth, Wi-Fi i baterię, Media odpowiadają za głośność i Nie przeszkadzać. Dostępne są też akcje tekstowe, plikowe, powłoki, powiadomień, kalendarza, OCR i zmiennych globalnych. Te, które wymagają Pro lub Shizuku, są oznaczone na liście."
+          ],
+          "video": "s44BKhrgGdM"
+        },
+        {
+          "id": "permissions_why",
+          "q": "Dlaczego WhenDo prosi o tak wiele uprawnień?",
+          "a": [
+            "Za każdym z nich stoi konkretna funkcja, więc wystarczy przyznać te, których naprawdę używasz. Usługa ułatwień dostępu pozwala WhenDo odczytywać ekran i dotykać za Ciebie; bez niej automatyzacja ekranu i zdarzenia aplikacji przestają działać. Uprawnienie nakładki rysuje pływające przyciski i podpowiedzi i nie może odczytać ekranu. Lokalizacja służy tylko nazwom Wi-Fi i geostrefom, a mikrofon, aparat, kalendarz i stan telefonu są używane wyłącznie przez akcje, które ich potrzebują. Sieć jest wykorzystywana do generowania AI, internetowej biblioteki gotowych zadań, konfiguracji zdalnej i anonimowych statystyk użycia."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Czym jest tryb Shizuku i jak go włączyć?",
+          "a": [
+            "Shizuku to osobna aplikacja towarzysząca, która daje WhenDo uprawnienia systemowe bez roota — polecenia powłoki, włączanie i wyłączanie Wi-Fi lub Bluetooth i wiele więcej. Zainstaluj Shizuku i uruchom je (do startu potrzebuje ADB, debugowania bezprzewodowego albo roota), a następnie przyznaj WhenDo uprawnienie z poziomu pulpitu. Jeśli uruchamianie przekroczy limit czasu, zaktualizuj Shizuku i przyznaj uprawnienie ponownie."
+          ],
+          "video": "S32Bz5ZBmog"
+        },
+        {
+          "id": "ui_automation",
+          "q": "Czy WhenDo może dotknąć przycisku w innej aplikacji?",
+          "a": [
+            "Tak. Użyj akcji Element: dotknij przycisku po jego tekście, dotknij elementu pasującego do warunku, wpisz tekst w polu, przewiń listę albo przeciągnij jeden element na drugi. WhenDo odczytuje ekran przez usługę ułatwień dostępu, więc działa też w aplikacjach bez publicznego API."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Kluczowe pojęcia",
+      "entries": [
+        {
+          "id": "flow",
+          "q": "Przepływ (Flow)",
+          "a": [
+            "Przepływ to cała automatyzacja, którą tworzysz. Zwykle ma część Kiedy (wyzwalacze) i część Zrób (akcje)."
+          ]
+        },
+        {
+          "id": "rule",
+          "q": "Reguła (Rule)",
+          "a": [
+            "Reguła to jeden wiersz w edytorze, podstawowy element zadania. Reguła może zawierać reguły podrzędne."
+          ]
+        },
+        {
+          "id": "when",
+          "q": "Wyzwalacz (When)",
+          "a": [
+            "Zdarzenie, które uruchamia zadanie: otwarcie aplikacji, zaplanowana godzina itp. Bez wyzwalacza zadanie nigdy nie startuje samo."
+          ]
+        },
+        {
+          "id": "if",
+          "q": "Warunek (If)",
+          "a": [
+            "Sprawdzenie, które musi być spełnione, aby kolejne akcje się wykonały, np. „tylko gdy Wi-Fi jest połączone”."
+          ]
+        },
+        {
+          "id": "do",
+          "q": "Akcja (Do)",
+          "a": [
+            "Coś, co aplikacja robi za ciebie: dotknięcie przycisku, wysłanie powiadomienia czy uruchomienie aplikacji."
+          ]
+        },
+        {
+          "id": "applet",
+          "q": "Aplet (Applet)",
+          "a": [
+            "Najmniejszy element. Każdy wyzwalacz, warunek i akcja to aplet, który wybierasz i łączysz."
+          ]
+        },
+        {
+          "id": "global_var",
+          "q": "Zmienna globalna",
+          "a": [
+            "Wartość przechowywana i używana ponownie między zadaniami: licznik lub tekst pobrany z ekranu."
+          ]
+        },
+        {
+          "id": "a11y",
+          "q": "Usługa ułatwień dostępu",
+          "a": [
+            "Uprawnienie systemowe pozwalające aplikacji czytać ekran i dotykać za ciebie. Wymaga go większość automatyzacji."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku",
+          "a": [
+            "Opcjonalna aplikacja towarzysząca, która nadaje dodatkowe możliwości systemowe (np. polecenia powłoki) bez roota."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

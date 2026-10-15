@@ -8,6 +8,7 @@ import { ROOT, localProducts, slugify, writeJson } from './lib.mjs';
 const SOURCE = {
   relaypad: { file: 'docs/privacy-policy.html', format: 'wrap' },
   'gamepad-pro': { file: 'docs/privacy/gamePadProV1007.html', format: 'main' },
+  whendo: { file: 'app/src/main/assets/privacy-policy.html', format: 'body' },
 };
 
 /**
@@ -33,6 +34,37 @@ function parseMain(html, contactEmail) {
     })
     .replace(/<div class="table-wrap">/g, '<div class="table-scroll">')
     .replace(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g, contactEmail)
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+  return { effectiveDate, body };
+}
+
+/**
+ * WhenDo's policy (the offline page the app shows): the body is everything inside <body>; the date is a
+ * plain `<p>Last updated: …</p>` after the <h1>. Its <h2>s get ids from their text, its bare tables get the
+ * scroll wrapper, its `highlight` boxes become the site's callouts, and every email address becomes the
+ * product's `contactEmail` (the file names the developer's own mailbox).
+ */
+function parseBody(html, contactEmail) {
+  const updated = html.match(/<p>\s*Last updated:\s*([^<]+)<\/p>/)?.[1]?.trim();
+  const date = updated ? new Date(`${updated} UTC`) : null;
+  const effectiveDate = date && !Number.isNaN(date.getTime()) ? date.toISOString().slice(0, 10) : '';
+  let body = html.match(/<body[^>]*>([\s\S]*?)<\/body>/)?.[1] ?? '';
+  const used = new Set();
+  body = body
+    .replace(/<h1[^>]*>[\s\S]*?<\/h1>/, '')
+    .replace(/<p>\s*Last updated:[\s\S]*?<\/p>/, '')
+    .replace(/<h2>([\s\S]*?)<\/h2>/g, (_, inner) => {
+      let id = slugify(inner.replace(/<[^>]+>/g, '')) || 'section';
+      while (used.has(id)) id += '-2';
+      used.add(id);
+      return `<h2 id="${id}">${inner}</h2>`;
+    })
+    .replace(/<table>/g, '<div class="table-scroll">\n<table>')
+    .replace(/<\/table>/g, '</table>\n</div>')
+    .replace(/class="highlight"/g, 'class="callout"')
+    .replace(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g, contactEmail)
+    .replace(/^ {4}/gm, '')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
   return { effectiveDate, body };
@@ -66,12 +98,12 @@ for (const [slug, root] of Object.entries(products)) {
   const html = readFileSync(file, 'utf8');
   const productFile = join(ROOT, 'src/content/products', `${slug}.json`);
   const contactEmail = existsSync(productFile) ? JSON.parse(readFileSync(productFile, 'utf8')).contactEmail : undefined;
-  if (src.format === 'main' && !contactEmail) {
+  if ((src.format === 'main' || src.format === 'body') && !contactEmail) {
     console.error(`[privacy] ${slug}: contactEmail missing in src/content/products/${slug}.json`);
     process.exitCode = 1;
     continue;
   }
-  const { effectiveDate, body } = src.format === 'main' ? parseMain(html, contactEmail) : parseWrap(html);
+  const { effectiveDate, body } = src.format === 'main' ? parseMain(html, contactEmail) : src.format === 'body' ? parseBody(html, contactEmail) : parseWrap(html);
   if (!body || !effectiveDate) {
     console.error(`[privacy] ${slug}: could not parse body or effective date`);
     process.exitCode = 1;

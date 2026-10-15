@@ -47,7 +47,7 @@
   },
   "home": {
     "title": "DappleByte · Independent Android apps",
-    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls, and Relaypad, a Remote Play controller and console streaming app for PS5 and PS4.",
+    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls; Relaypad, a Remote Play controller and console streaming app for PS5 and PS4; and WhenDo, an AI automation and auto clicker app.",
     "appsHeading": "Apps",
     "principlesHeading": "How we work",
     "principles": [
@@ -192,7 +192,20 @@
       "macros": "Macros",
       "turbo": "Turbo (auto-repeat)",
       "combos": "Button combinations",
-      "pricing-model": "Pricing model"
+      "activation": "Set up on the phone alone, without a PC, wireless debugging or Shizuku",
+      "free-install": "Free to install",
+      "no-subscription": "No subscription for any feature",
+      "controller-test": "Built-in controller test (buttons, stick drift, latency, vibration)",
+      "pause-tile": "Pause switch in Quick Settings",
+      "haptic-feedback": "Vibration feedback when a mapped control fires",
+      "backup-restore": "Back up all layouts to a file and restore them",
+      "no-account": "No account or sign-in",
+      "video-help": "In-app FAQ with video walkthroughs",
+      "pricing-model": "Pricing model",
+      "ai-builder": "Builds a whole automation from a plain-language description",
+      "auto-clicker": "Auto clicker with click interval and repeat count",
+      "gesture-recorder": "Records and replays taps and swipes",
+      "no-ads": "No ads"
     },
     "values": {
       "yes": "Yes",
@@ -300,6 +313,72 @@
         "title": "Keyboard took over — how do I type now?",
         "description": "Tap the globe to switch back to your own keyboard, or turn on automatic switching so Gamepad Pro only uses its keyboard while mappings run."
       }
+    },
+    "whendo": {
+      "b01": {
+        "title": "How do I create a task with AI?",
+        "description": "Type what you want in plain words, let WhenDo build the triggers, conditions and actions, then review each step before turning it on."
+      },
+      "b02": {
+        "title": "I don't want to build anything. Is there a ready-made one?",
+        "description": "Open Templates, pick a preset, fill in the one or two details it asks for, and it is on."
+      },
+      "b03": {
+        "title": "When, If, And then: which one does what?",
+        "description": "Building a task by hand: When is the trigger, If is the condition, And then is the action."
+      },
+      "t01": {
+        "title": "What can actually set off an automation?",
+        "description": "A tour of the triggers: time, apps, Wi-Fi and Bluetooth, notifications, sensors, physical keys and more."
+      },
+      "t03": {
+        "title": "Trigger a task without opening the app",
+        "description": "Start a task from a floating button, a volume key or a fingerprint gesture."
+      },
+      "t04": {
+        "title": "Can it run at a fixed time or on a repeat?",
+        "description": "Scheduling a task by time of day, on a repeat, or on calendar events."
+      },
+      "a01-what": {
+        "title": "What can it actually do to my phone?",
+        "description": "A tour of the actions: system settings, apps, media, HTTP requests, clipboard, notifications and Shizuku controls."
+      },
+      "e01": {
+        "title": "Built it wrong? You don't have to start over",
+        "description": "Open an existing task, change a trigger or an action, and keep the rest."
+      },
+      "p01": {
+        "title": "The dashboard says the service is off. Where do I turn it on?",
+        "description": "Turning on the Accessibility service and the other permissions a task needs, step by step."
+      },
+      "p03": {
+        "title": "What is Shizuku mode, and why is my dashboard showing it?",
+        "description": "What Shizuku adds on top of the normal mode, when you need it, and how to turn it on."
+      },
+      "m01": {
+        "title": "Resident or one-shot: which one do I pick?",
+        "description": "The difference between a task that waits in the background and one you run by hand."
+      },
+      "m02": {
+        "title": "Where did my tasks go, and how do I stop one?",
+        "description": "Finding your tasks in the Scenes tab and switching off one task, or a whole scene."
+      },
+      "e03": {
+        "title": "AI built something, just not what you asked for",
+        "description": "What to do when the generated task is off: rephrase, edit the steps, or start from a preset."
+      },
+      "a01-ad": {
+        "title": "Setting up automation shouldn't take 12 steps",
+        "description": "Say what you want and WhenDo builds it. A 17-second look at the AI builder."
+      },
+      "b03-ad": {
+        "title": "Three lines is a whole Android automation",
+        "description": "When, If, And then: a complete task in three lines."
+      },
+      "t01-ad": {
+        "title": "Your phone can react to almost anything",
+        "description": "Wi-Fi, headphones, time, location, notifications: a quick look at what can trigger a task."
+      }
     }
   },
   "products": {
@@ -379,6 +458,45 @@
         "description": "How {name} compares with PS Remote Play, PXPlay and Chiaki on Android, feature by feature, facts only.",
         "vsDescription": "{name} and {other} compared on Android, feature by feature: remote play away from home, HEVC and HDR, controllers, TV output, open source and pricing.",
         "vsIntro": "Both connect an Android device to a PS5 or PS4. Here is where they differ, feature by feature."
+      }
+    },
+    "whendo": {
+      "kicker": "Automation · No root",
+      "heroPoints": [
+        "Describe a routine in plain words and the AI builds every trigger, condition and action",
+        "Auto clicker, gesture recorder and 250+ triggers: time, location, apps, Wi-Fi, notifications",
+        "When, If, Then workflows with loops and variables. No root, no subscription"
+      ],
+      "faqDescription": "Answers about WhenDo: why a task doesn't run, permissions, building tasks with AI, triggers, the auto clicker, backups and Shizuku.",
+      "faqNotFoundBody": "Write to us with your phone model, the task you built and what happened. A person reads every message.",
+      "support": {
+        "beforeItems": [
+          "Open the FAQ. Most questions about tasks that don't run, permissions and the auto clicker are answered there, with the same wording as in the app.",
+          "Check the dashboard: the service must be running, the task enabled and the Accessibility service granted. If a task worked before and then stopped, battery optimisation is the usual cause; the FAQ has the steps.",
+          "Note which trigger you used, which app the task acts on and what happened on screen. That is what we need to reproduce it."
+        ],
+        "template": {
+          "phone": "Phone model:",
+          "android": "Android version:",
+          "task": "Task (what it should do, and its trigger):",
+          "app": "App the task acts on, if any:",
+          "what": "What happened, step by step:",
+          "pro": "Pro purchase: yes / no"
+        },
+        "refundBody": "WhenDo is free to install. If you bought Pro or an AI pack and it doesn't work with your setup, email us within 7 days of the purchase and we'll refund it. Tell us what you tried; it helps us fix it for the next person."
+      },
+      "press": {
+        "description": "Facts, assets and a boilerplate for writing about WhenDo, the AI automation, auto clicker and macro app for Android.",
+        "boilerplate": "WhenDo automates an Android phone without root: describe a routine in plain words and its AI builds the automation, with every trigger, condition and action editable, or build it yourself with 250+ triggers, an auto clicker, a gesture recorder and When, If, Then workflows. It is made by DappleByte, an independent studio.",
+        "priceValue": "Free to install, no ads. Pro features are unlocked with a one-time purchase, and extra AI credits come in one-time packs; there is no subscription. The current prices are shown on Google Play.",
+        "assetScreenshots": "Phone screenshots, PNG, English (portrait 1080 × 2400)"
+      },
+      "videosDescription": "Short videos showing WhenDo on a real phone: building a task with AI, triggers, When and If, starting a task without opening the app, and the most common problems.",
+      "privacyDescription": "What WhenDo for Android does with your data: no account, what stays on the device, what the AI feature sends, what the Accessibility service is used for, and what the analytics collect.",
+      "compare": {
+        "description": "How WhenDo compares with other automation apps on Android, feature by feature, facts only.",
+        "vsDescription": "{name} and {other} compared on Android, feature by feature: AI task building, auto clicker, triggers, root, ads and pricing.",
+        "vsIntro": "Both automate an Android phone. Here is where they differ, feature by feature."
       }
     }
   }

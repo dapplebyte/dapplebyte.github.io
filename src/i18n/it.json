@@ -192,6 +192,15 @@
       "macros": "Macro",
       "turbo": "Turbo (ripetizione automatica)",
       "combos": "Combinazioni di pulsanti",
+      "activation": "Configurazione solo dal telefono, senza PC, debug wireless o Shizuku",
+      "free-install": "Installazione gratuita",
+      "no-subscription": "Nessun abbonamento per nessuna funzione",
+      "controller-test": "Test del controller integrato (pulsanti, drift degli stick, latenza, vibrazione)",
+      "pause-tile": "Interruttore di pausa nelle impostazioni rapide",
+      "haptic-feedback": "Vibrazione quando scatta un controllo mappato",
+      "backup-restore": "Backup di tutti gli schemi in un file e ripristino",
+      "no-account": "Nessun account né accesso",
+      "video-help": "FAQ nell'app con video guida",
       "pricing-model": "Modello di prezzo"
     },
     "values": {

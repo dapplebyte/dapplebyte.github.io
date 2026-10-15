@@ -1,0 +1,124 @@
+{
+  "slug": "whendo",
+  "locale": "pl",
+  "title": "WhenDo: Auto Clicker, makra AI",
+  "shortDescription": "Automatyzacja i harmonogram zadań: wyzwalacze, gesty, przepływy — bez roota.",
+  "tagline": "Automatyzacja z AI, auto clicker i makra na Androida — bez kodowania",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Automatyzacja z AI, auto clicker i makra na Androida — bez kodowania",
+      "paragraphs": [
+        "Opisz rutynę zwykłymi słowami, a AI WhenDo zbuduje automatyzację: wyzwalacze, warunki i akcje, wszystko edytowalne. Wolisz sam? Planuj zadania, nagrywaj gesty i uruchom auto clicker w dowolnej aplikacji. Bez roota."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "ai",
+      "title": "Twórz automatyzacje z AI",
+      "paragraphs": [
+        "Wypróbuj poleceń takich jak:",
+        "„Wycisz telefon, gdy połączę się z domowym Wi-Fi”",
+        "„Otwórz aplikację muzyczną, gdy podłączę słuchawki”",
+        "„Włączaj Nie przeszkadzać codziennie o 23”",
+        "„Przypominaj mi o piciu wody co dwie godziny”"
+      ],
+      "bullets": [
+        "Opisz rutynę własnymi słowami lub użyj dyktowania",
+        "AI tworzy cały przepływ — każdy wyzwalacz, warunek i akcję",
+        "Sprawdź i popraw dowolny krok, zanim go włączysz",
+        "Zacznij szybciej dzięki gotowym przykładom i szablonom"
+      ]
+    },
+    {
+      "id": "clicker",
+      "title": "Auto clicker, nagrywanie gestów i automatyzacja ekranu",
+      "paragraphs": [],
+      "bullets": [
+        "Auto clicker z regulowanym odstępem i liczbą powtórzeń",
+        "Nagrywaj i odtwarzaj dotknięcia, przesunięcia i złożone gesty",
+        "Przesuwaj według kierunku, dystansu i szybkości lub dokładnych współrzędnych",
+        "Pływające przyciski wyzwalające — uruchom zadanie z przycisku na ekranie",
+        "Pływający asystent do wybierania elementów i automatyzacji interfejsu aplikacji",
+        "Zrób zrzut ekranu, naciśnij Wstecz lub wyłącz ekran"
+      ]
+    },
+    {
+      "id": "triggers",
+      "title": "Harmonogram zadań i ponad 250 wyzwalaczy",
+      "paragraphs": [],
+      "bullets": [
+        "Czas, harmonogramy, wydarzenia z kalendarza, lokalizacja i geofencing",
+        "Uruchomienie lub zamknięcie aplikacji, ostatnie aplikacje, zdarzenia ekranu i interfejsu",
+        "Zmiany Wi-Fi, Bluetooth, słuchawek i sieci",
+        "Powiadomienia, połączenia, czujniki, NFC i schowek",
+        "Klawisze fizyczne, np. głośność w górę i w dół, oraz gesty czytnika linii papilarnych"
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Akcje makr do wszystkiego",
+      "paragraphs": [],
+      "bullets": [
+        "Głośność, jasność, Nie przeszkadzać i inne ustawienia systemu",
+        "Uruchamianie aplikacji, sterowanie multimediami, żądania HTTP, pliki i tekst",
+        "Skróty intencji: telefon, SMS, e-mail, mapy, nawigacja, wyszukiwanie w sieci",
+        "Akcje schowka i powiadomień oraz opcjonalne sterowanie przez Shizuku"
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Proste lub zaawansowane przepływy",
+      "paragraphs": [],
+      "bullets": [
+        "Łącz Kiedy, Jeśli, To, W przeciwnym razie, opóźnienia, pętle i zmienne",
+        "Dodaj wiele wyzwalaczy i warunków do jednego zadania",
+        "Uruchamiaj zadania rezydentne w tle lub ręczne zadania jednorazowe",
+        "Porządkuj rutyny za pomocą konfigurowalnych scen",
+        "Importuj, eksportuj oraz twórz i przywracaj kopie automatyzacji"
+      ]
+    },
+    {
+      "id": "ideas",
+      "title": "Pomysły na codzienną automatyzację",
+      "paragraphs": [
+        "Rutyny do pracy, domu, snu i jazdy:"
+      ],
+      "bullets": [
+        "Wyciszaj telefon na spotkaniach lub przed snem",
+        "Włączaj muzykę po połączeniu słuchawek Bluetooth",
+        "Otwieraj nawigację, gdy ruszasz w drogę",
+        "Klikaj powtarzalne przyciski automatycznie, zamiast robić to ręcznie",
+        "Uruchamiaj aplikacje według czasu, lokalizacji lub zdarzenia urządzenia"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Prywatność, uprawnienia i brak roota",
+      "paragraphs": [],
+      "bullets": [
+        "Twoje zadania automatyzacji działają bezpośrednio na urządzeniu",
+        "Generowanie AI wymaga internetu i wysyła polecenie do usługi AI",
+        "Ułatwienia dostępu służą wyłącznie funkcjom wymaganym przez zadania",
+        "Bez roota na co dzień; opcjonalnie Shizuku daje zaawansowaną kontrolę",
+        "Uprawnienia sprawdzisz lub cofniesz w ustawieniach Androida w każdej chwili"
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Dla początkujących i zaawansowanych",
+      "paragraphs": [
+        "Zaczynasz z automatyzacją telefonu? Zacznij od AI, przykładów i gotowych szablonów.",
+        "Potrzebujesz większej kontroli? Twórz przepływy warunkowe, automatyzuj interfejs, używaj zmiennych, nagrywaj gesty lub włącz tryb Shizuku."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "outro",
+      "title": "Opisz swoją rutynę, pozwól WhenDo ją zbudować i zautomatyzuj swój telefon z Androidem.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

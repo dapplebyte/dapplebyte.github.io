@@ -1,0 +1,243 @@
+{
+  "slug": "whendo",
+  "locale": "vi",
+  "title": "Trung tâm trợ giúp",
+  "sections": [
+    {
+      "id": "questions",
+      "title": "Câu hỏi thường gặp",
+      "entries": [
+        {
+          "id": "not_triggered",
+          "q": "Vì sao tác vụ của tôi không chạy?",
+          "a": [
+            "Hãy chắc dịch vụ đang chạy và tác vụ đã bật. Phần lớn kích hoạt còn cần dịch vụ trợ năng và giữ ứng dụng sống ở nền (kiểm tra cài đặt pin)."
+          ]
+        },
+        {
+          "id": "find_tasks",
+          "q": "Tác vụ của tôi nằm ở đâu, và dừng một tác vụ thế nào?",
+          "a": [
+            "Mọi thứ bạn đã tạo đều nằm ở tab Cảnh, gom theo từng cảnh. Mỗi thẻ có công tắc riêng, nên bạn dừng được một tác vụ mà không đụng tới những tác vụ khác; công tắc của chính cảnh đó tắt cả nhóm cùng lúc. Lưu ý là bật lại một cảnh sẽ bật mọi tác vụ bên trong, nên hãy kiểm tra lại những tác vụ bạn từng tắt riêng lẻ."
+          ],
+          "video": "ZEvyPaMP7U0"
+        },
+        {
+          "id": "presets",
+          "q": "Dùng các nhiệm vụ có sẵn thế nào?",
+          "a": [
+            "Mở «Mẫu › Nhiệm vụ có sẵn», chọn một phân loại rồi nhấn Thêm. Những mục gắn nhãn «Cần thiết lập» sẽ hỏi bạn một hai thông tin (ứng dụng nào, nút nổi nào, tên Wi-Fi nhà) rồi bật ngay. Nhấn vào nhãn trạng thái trên thẻ để xem còn thiếu quyền nào. Các tác vụ chỉ kích hoạt bằng nút nổi hoặc phím vật lý không tính vào giới hạn tác vụ thường trú miễn phí."
+          ],
+          "video": "LxWzDB0vqOE"
+        },
+        {
+          "id": "auto_click_stops",
+          "q": "Auto click chạy vài phút là tự dừng.",
+          "a": [
+            "Phần lớn điện thoại sẽ tắt dịch vụ trợ năng để tiết kiệm pin. Hãy khóa WhenDo trong màn hình gần đây, tắt tối ưu hóa pin cho nó, cho phép tự khởi động; với Xiaomi / OPPO / vivo / Huawei còn phải thêm nó vào danh sách được bảo vệ hoặc «không giới hạn». Khi WhenDo bị dừng, bạn sẽ nhận một thông báo mở thẳng trang này. Các nhiệm vụ có sẵn thuộc phân loại Auto click thêm một chút dao động ngẫu nhiên vào mỗi lần nhấp, nhờ đó game khó gắn cờ hơn khi thấy các khoảng cách lặp lại giống hệt nhau."
+          ]
+        },
+        {
+          "id": "bank_apps",
+          "q": "Bật WhenDo thì ứng dụng ngân hàng không mở được.",
+          "a": [
+            "Một số ứng dụng ngân hàng chặn mọi dịch vụ trợ năng đang bật. Bạn có thể thêm tác vụ «Khi mở ứng dụng ngân hàng → Tạm dừng cho ứng dụng hiện tại» từ nhóm nhiệm vụ có sẵn Tiện ích, hoặc tắt WhenDo khi dùng ngân hàng. Đây là giới hạn do ngân hàng đặt ra, WhenDo không thể vượt qua."
+          ]
+        },
+        {
+          "id": "permissions",
+          "q": "Cấp các quyền cần thiết như thế nào?",
+          "a": [
+            "Mở Bảng điều khiển và làm theo các thẻ quyền. Dịch vụ trợ năng được cấp trong “Cài đặt → Trợ năng”; Shizuku cấp từ ứng dụng Shizuku."
+          ],
+          "video": "VdeGorn3azg"
+        },
+        {
+          "id": "background_killed",
+          "q": "Ứng dụng liên tục bị tắt ở nền.",
+          "a": [
+            "Khóa ứng dụng trong màn hình gần đây, tắt tối ưu hóa pin cho nó và bật “Tự khởi động sau khi khởi động máy” trong cài đặt. Một số máy còn có danh sách ứng dụng được bảo vệ riêng."
+          ]
+        },
+        {
+          "id": "when_vs_if",
+          "q": "Kích hoạt và điều kiện khác nhau thế nào?",
+          "a": [
+            "Kích hoạt (When) quyết định khi nào tác vụ bắt đầu. Điều kiện (If) quyết định các hành động tiếp theo có chạy sau khi bắt đầu hay không. Tác vụ cần kích hoạt để khởi động; điều kiện chỉ lọc."
+          ],
+          "video": "OHhz4YyPG-g"
+        },
+        {
+          "id": "trigger_types",
+          "q": "Những sự kiện nào có thể kích hoạt tác vụ?",
+          "a": [
+            "Hầu như mọi thứ điện thoại nhận biết được: mở hoặc rời một ứng dụng, một mốc giờ hoặc báo thức của bạn, kết nối Wi-Fi, Bluetooth hay tai nghe, màn hình bật hoặc tắt, bắt đầu sạc, mức pin, nội dung chữ của một thông báo, nội dung được chia sẻ tới ứng dụng, hoặc lắc máy. Bạn cũng có thể bỏ hẳn sự kiện và khởi động tác vụ từ một nút nổi. Vị trí, lịch, cuộc gọi, NFC cùng cử chỉ úp máy xuống và chạm mặt sau cần Pro."
+          ],
+          "video": "m1CCS9DQ_jo"
+        },
+        {
+          "id": "ai_generate",
+          "q": "Tạo tác vụ bằng AI như thế nào?",
+          "a": [
+            "Trong trình chỉnh sửa tác vụ, gõ điều bạn muốn bằng ngôn ngữ thường và chạm nút AI. Ứng dụng soạn sẵn một tác vụ hoàn chỉnh để bạn xem lại và điều chỉnh."
+          ],
+          "video": "ockn9aw9LYQ"
+        },
+        {
+          "id": "edit_task",
+          "q": "Tạo xong rồi có sửa tác vụ được không?",
+          "a": [
+            "Được, bạn không phải làm lại từ đầu. Nhấn Chỉnh sửa trên thẻ tác vụ, rồi nhấn biểu tượng bút chì ở bất kỳ dòng nào để chỉ mở riêng dòng đó và đổi giá trị. Khi thoát ra, ứng dụng sẽ hỏi trước khi bỏ thay đổi, và phải nhấn dấu tích thì mới thực sự lưu."
+          ],
+          "video": "ajU2Tf-cFPM"
+        },
+        {
+          "id": "backup",
+          "q": "Sao lưu hoặc nhập tác vụ như thế nào?",
+          "a": [
+            "Vào “Cài đặt → Xuất tất cả tác vụ” để lưu tệp lưu trữ. Để nhập, mở tệp đó bằng ứng dụng hoặc dùng mục nhập trên danh sách tác vụ."
+          ]
+        },
+        {
+          "id": "resident_vs_oneshot",
+          "q": "Tác vụ thường trú và tác vụ một lần khác nhau thế nào?",
+          "a": [
+            "Tác vụ thường trú luôn theo dõi kích hoạt và tự chạy khi điều kiện được đáp ứng. Tác vụ một lần chỉ chạy một lần khi bạn nhấn. Dùng thường trú cho tự động hóa phản ứng tự thân, dùng một lần cho thao tác bạn tự khởi động."
+          ],
+          "video": "r6MyGSQmF7s"
+        },
+        {
+          "id": "schedule_time",
+          "q": "Tôi có thể chạy tác vụ vào giờ cụ thể hoặc lặp lại không?",
+          "a": [
+            "Có. Trong «Khi», thêm một kích hoạt theo thời gian, như một mốc giờ cụ thể hoặc khoảng lặp lại. Dịch vụ tác vụ phải luôn chạy thì tác vụ hẹn giờ mới kích hoạt đúng lúc."
+          ],
+          "video": "oCJWsS18Evs"
+        },
+        {
+          "id": "ai_better",
+          "q": "Tạo bằng AI thất bại hoặc không ra kết quả mong muốn thì sao?",
+          "a": [
+            "Hãy mô tả kích hoạt và hành động trong một câu rõ ràng, ví dụ «khi kết nối Wi-Fi nhà thì tắt tiếng điện thoại». Nêu rõ ứng dụng hoặc điều kiện, tránh từ ngữ mơ hồ, rồi nhấn «Tạo bằng AI» lại. Bạn luôn có thể tinh chỉnh tác vụ bằng tay sau đó."
+          ],
+          "video": "lRJOqQ65ST0"
+        },
+        {
+          "id": "debug_run",
+          "q": "Làm sao biết tác vụ có thực sự chạy không?",
+          "a": [
+            "Trước hết hãy chắc dịch vụ đang bật và tác vụ đã bật. Mở tác vụ và xem bản ghi chạy / ảnh chụp để thấy kết quả từng bước. Nếu không bao giờ kích hoạt, hãy kiểm tra lại kích hoạt và các quyền cần thiết."
+          ]
+        },
+        {
+          "id": "manual_trigger",
+          "q": "Có thể khởi động tác vụ mà không cần mở ứng dụng không?",
+          "a": [
+            "Được — hãy gán tác vụ vào một phím vật lý hoặc nút nổi. Trong trình chỉnh sửa tác vụ, nhấn «Khi → Trạng thái thiết bị → Nhấn phím vật lý», rồi chọn «Ghi nhận phím» và nhấn phím bạn muốn; nhấn đơn, nhấn đôi và nhấn giữ đều hoạt động. Hoặc chọn «Khi → Nút nổi» và tạo các nút trong «Cài đặt → Nút kích hoạt nổi». Cả hai đều cần dịch vụ trợ năng đang chạy."
+          ],
+          "video": "hcqbXCb-5Q8"
+        },
+        {
+          "id": "action_types",
+          "q": "WhenDo thực sự có thể làm được gì trên điện thoại của tôi?",
+          "a": [
+            "170 hành động trong 19 nhóm. Hành động điều khiển bao quát mọi thứ trên màn hình — nhấn, nhấn giữ, nhập văn bản, cuộn, kéo. Thao tác ứng dụng khởi động hoặc dừng ứng dụng, thao tác phần cứng xử lý đèn pin, Bluetooth, Wi-Fi và pin, thao tác media phụ trách âm lượng và Không làm phiền. Ngoài ra còn có các hành động về văn bản, tệp tin, Shell, thông báo, lịch, OCR và biến toàn cục. Những hành động cần Pro hoặc Shizuku đều được ghi rõ trong danh sách."
+          ],
+          "video": "s44BKhrgGdM"
+        },
+        {
+          "id": "permissions_why",
+          "q": "Vì sao WhenDo yêu cầu nhiều quyền đến vậy?",
+          "a": [
+            "Mỗi quyền đều gắn với một tính năng cụ thể, nên bạn chỉ cần cấp những quyền mình thực sự dùng. Dịch vụ trợ năng là cách WhenDo đọc màn hình và nhấn thay bạn; không có nó, tự động hóa màn hình và sự kiện ứng dụng sẽ dừng. Quyền cửa sổ nổi dùng để vẽ nút nổi và lời nhắc, và không thể đọc màn hình của bạn. Vị trí chỉ dùng cho tên Wi-Fi và hàng rào địa lý; micrô, camera, lịch và trạng thái điện thoại chỉ được dùng bởi những hành động cần đến chúng. Mạng được dùng cho tạo bằng AI, thư viện nhiệm vụ có sẵn trực tuyến, cấu hình từ xa và thống kê sử dụng ẩn danh."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Chế độ Shizuku là gì và bật nó thế nào?",
+          "a": [
+            "Shizuku là một ứng dụng đồng hành riêng, cho WhenDo mượn các khả năng cấp hệ thống mà không cần root — lệnh Shell, bật/tắt Wi-Fi hoặc Bluetooth, v.v. Hãy cài Shizuku và khởi động nó (cần ADB, gỡ lỗi không dây hoặc root để khởi động), sau đó cấp quyền cho WhenDo từ Trang chủ. Nếu khởi động quá thời gian chờ, hãy cập nhật Shizuku rồi cấp quyền lại."
+          ],
+          "video": "S32Bz5ZBmog"
+        },
+        {
+          "id": "ui_automation",
+          "q": "WhenDo có thể nhấn nút bên trong ứng dụng khác không?",
+          "a": [
+            "Có. Hãy dùng hành động điều khiển: nhấn nút theo văn bản của nó, nhấn điều khiển khớp với một điều kiện, nhập văn bản vào một ô, cuộn danh sách, hoặc kéo một điều khiển lên một điều khiển khác. WhenDo đọc màn hình qua dịch vụ trợ năng, nên nó hoạt động cả trong những ứng dụng không có API công khai."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Khái niệm cốt lõi",
+      "entries": [
+        {
+          "id": "flow",
+          "q": "Luồng (Flow)",
+          "a": [
+            "Luồng là một tự động hóa hoàn chỉnh bạn tạo ra. Nó thường gồm phần Khi (kích hoạt) và phần Làm (hành động)."
+          ]
+        },
+        {
+          "id": "rule",
+          "q": "Quy tắc (Rule)",
+          "a": [
+            "Quy tắc là một dòng trong trình chỉnh sửa, khối cơ bản của tác vụ. Một quy tắc có thể chứa quy tắc con."
+          ]
+        },
+        {
+          "id": "when",
+          "q": "Kích hoạt (When)",
+          "a": [
+            "Sự kiện khởi động tác vụ: mở một ứng dụng, đến một thời điểm, v.v. Không có kích hoạt, tác vụ không bao giờ tự bắt đầu."
+          ]
+        },
+        {
+          "id": "if",
+          "q": "Điều kiện (If)",
+          "a": [
+            "Một kiểm tra phải đúng thì các hành động tiếp theo mới chạy, ví dụ “chỉ khi đã kết nối Wi-Fi”."
+          ]
+        },
+        {
+          "id": "do",
+          "q": "Hành động (Do)",
+          "a": [
+            "Điều ứng dụng làm thay bạn: chạm một nút, gửi thông báo hoặc mở một ứng dụng."
+          ]
+        },
+        {
+          "id": "applet",
+          "q": "Applet",
+          "a": [
+            "Khối nhỏ nhất. Mỗi kích hoạt, điều kiện và hành động đều là một applet bạn chọn và kết hợp."
+          ]
+        },
+        {
+          "id": "global_var",
+          "q": "Biến toàn cục",
+          "a": [
+            "Một giá trị bạn lưu và dùng lại giữa các tác vụ: một bộ đếm hoặc văn bản lấy từ màn hình."
+          ]
+        },
+        {
+          "id": "a11y",
+          "q": "Dịch vụ trợ năng",
+          "a": [
+            "Quyền hệ thống cho phép ứng dụng đọc màn hình và chạm thay bạn. Hầu hết tự động hóa đều cần bật nó."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku",
+          "a": [
+            "Ứng dụng đồng hành tùy chọn, cấp thêm khả năng cấp hệ thống (như lệnh shell) mà không cần root."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

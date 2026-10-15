@@ -1,0 +1,243 @@
+{
+  "slug": "whendo",
+  "locale": "tr",
+  "title": "Yardım Merkezi",
+  "sections": [
+    {
+      "id": "questions",
+      "title": "Sık Sorulan Sorular",
+      "entries": [
+        {
+          "id": "not_triggered",
+          "q": "Görevim neden çalışmıyor?",
+          "a": [
+            "Hizmetin çalıştığından ve görevin etkin olduğundan emin olun. Çoğu tetikleyici ayrıca erişilebilirlik hizmetini ve uygulamanın arka planda canlı kalmasını gerektirir (pil ayarlarını denetleyin)."
+          ]
+        },
+        {
+          "id": "find_tasks",
+          "q": "Görevlerim nerede ve birini nasıl durdururum?",
+          "a": [
+            "Oluşturduğunuz her şey, sahnelere göre gruplanmış olarak “Sahneler” sekmesinde bulunur. Her kartın kendi anahtarı vardır; böylece diğerlerine dokunmadan tek bir görevi durdurabilirsiniz, sahnenin kendi anahtarı ise tüm grubu bir kerede kapatır. Şuna dikkat edin: bir sahneyi yeniden açmak içindeki her görevi etkinleştirir, bu yüzden tek tek kapattıklarınızı yeniden gözden geçirin."
+          ],
+          "video": "ZEvyPaMP7U0"
+        },
+        {
+          "id": "presets",
+          "q": "Hazır önceden ayarlanmış görevleri nasıl kullanırım?",
+          "a": [
+            "Şablonlar › Önceden ayarlanmış görevler bölümünü açın, bir kategori seçip Ekle'ye dokunun. “Ayar gerekli” etiketli görevler bir iki bilgi ister (bir uygulama, bir kayan düğme, Wi-Fi ağınızın adı) ve hemen ardından çalışmaya başlar. Bir görevin durum etiketine dokunarak hangi iznin hâlâ eksik olduğunu görebilirsiniz. Yalnızca kayan düğmelerle veya fiziksel tuşlarla tetiklenen görevler ücretsiz yerleşik görev sınırına dahil edilmez."
+          ],
+          "video": "LxWzDB0vqOE"
+        },
+        {
+          "id": "auto_click_stops",
+          "q": "Otomatik tıklayıcı birkaç dakika sonra duruyor.",
+          "a": [
+            "Çoğu telefon güç tasarrufu için erişilebilirlik hizmetlerini durdurur. WhenDo'yi Son Kullanılanlar'da kilitleyin, onun için pil optimizasyonunu kapatın, otomatik başlatmaya izin verin; Xiaomi / OPPO / vivo / Huawei cihazlarda ayrıca korumalı veya “kısıtlama yok” listesine ekleyin. WhenDo durdurulursa bu sayfayı açan bir bildirim alırsınız. Tıklayıcı kategorisindeki hazır görevler her dokunuşa küçük bir rastgele sapma ekler; böylece oyunların tekrar eden aynı aralıkları fark etme olasılığı azalır."
+          ]
+        },
+        {
+          "id": "bank_apps",
+          "q": "WhenDo açıkken bankacılık uygulamam açılmıyor.",
+          "a": [
+            "Bazı bankacılık uygulamaları etkin olan her erişilebilirlik hizmetini engeller. Araçlar kategorisindeki hazır görevlerden “Bankacılık uygulaması açıldığında → Geçerli uygulama için duraklat” görevini ekleyin ya da bankacılık işlemleri sırasında WhenDo'yi kapatın. Bu, bankanın koyduğu bir kısıtlamadır; WhenDo bunu aşamaz."
+          ]
+        },
+        {
+          "id": "permissions",
+          "q": "Gerekli izinleri nasıl veririm?",
+          "a": [
+            "Panoyu açın ve izin kartlarını izleyin. Erişilebilirlik hizmeti “Ayarlar → Erişilebilirlik” bölümünden, Shizuku ise Shizuku uygulamasından verilir."
+          ],
+          "video": "VdeGorn3azg"
+        },
+        {
+          "id": "background_killed",
+          "q": "Uygulama arka planda sürekli kapatılıyor.",
+          "a": [
+            "Uygulamayı Son Kullanılanlar’da kilitleyin, onun için pil optimizasyonunu kapatın ve Ayarlar’da “Açılışta otomatik başlat” seçeneğini etkinleştirin. Bazı telefonlarda ayrı bir korumalı uygulamalar listesi de vardır."
+          ]
+        },
+        {
+          "id": "when_vs_if",
+          "q": "Ne Zaman ile Eğer arasındaki fark nedir?",
+          "a": [
+            "Tetikleyici (When) görevin ne zaman başlayacağını belirler. Koşul (If) başladıktan sonra sonraki eylemlerin çalışıp çalışmayacağını belirler. Görev başlamak için tetikleyiciye ihtiyaç duyar; koşullar yalnızca süzer."
+          ],
+          "video": "OHhz4YyPG-g"
+        },
+        {
+          "id": "trigger_types",
+          "q": "Bir görevi gerçekten ne başlatabilir?",
+          "a": [
+            "Telefonun fark ettiği hemen her şey: bir uygulamaya girmek veya ondan çıkmak, belirli bir saat ya da alarmınız, Wi-Fi'ye, Bluetooth'a veya kulaklığa bağlanmak, ekranın açılması veya kapanması, şarja takılması, belirli bir pil düzeyi, bir bildirimin metni, uygulamaya paylaşılan içerik ya da cihazı sallamak. Olayları tümüyle atlayıp görevi yüzer bir düğmeden de başlatabilirsiniz. Konum, takvim, çağrılar, NFC ile cihazı ekranı aşağı çevirme ve arkaya dokunma hareketleri Pro gerektirir."
+          ],
+          "video": "m1CCS9DQ_jo"
+        },
+        {
+          "id": "ai_generate",
+          "q": "Yapay zekâ ile nasıl görev oluştururum?",
+          "a": [
+            "Görev düzenleyicide istediğinizi sade sözcüklerle yazın ve yapay zekâ düğmesine dokunun. Uygulama, gözden geçirip ayarlayabileceğiniz eksiksiz bir görev taslağı hazırlar."
+          ],
+          "video": "ockn9aw9LYQ"
+        },
+        {
+          "id": "edit_task",
+          "q": "Bir görevi oluşturduktan sonra değiştirebilir miyim?",
+          "a": [
+            "Evet, baştan başlamanız gerekmez. Görev kartındaki “Düzenle”ye dokunun, ardından herhangi bir satırdaki kalem simgesine dokunarak yalnızca o satırı açın ve değerlerini değiştirin. Geri çıktığınızda uygulama, değişikliklerinizi silmeden önce sorar ve onay işaretine dokunmadan hiçbir şey kaydedilmez."
+          ],
+          "video": "ajU2Tf-cFPM"
+        },
+        {
+          "id": "backup",
+          "q": "Görevlerimi nasıl yedekler veya içe aktarırım?",
+          "a": [
+            "Bir arşiv dosyası kaydetmek için “Ayarlar → Tüm görevleri dışa aktar” bölümüne gidin. İçe aktarmak için o arşivi uygulamayla açın veya görev listesindeki içe aktarma girişini kullanın."
+          ]
+        },
+        {
+          "id": "resident_vs_oneshot",
+          "q": "Kalıcı görev ile tek seferlik görev arasındaki fark nedir?",
+          "a": [
+            "Kalıcı görev tetikleyicisini sürekli izler ve koşul sağlandığında otomatik çalışır. Tek seferlik görev, dokunduğunda bir kez çalışır. Kendi kendine tepki vermesi gereken otomasyon için kalıcıyı, elle başlattığın işlemler için tek seferliği kullan."
+          ],
+          "video": "r6MyGSQmF7s"
+        },
+        {
+          "id": "schedule_time",
+          "q": "Bir görevi belirli bir saatte veya tekrar tekrar çalıştırabilir miyim?",
+          "a": [
+            "Evet. «Ne Zaman» altında zamana dayalı bir tetikleyici ekle; belirli bir saat ya da tekrarlanan aralık gibi. Zamanlanmış görevlerin tam vaktinde çalışması için görev hizmeti açık kalmalı."
+          ],
+          "video": "oCJWsS18Evs"
+        },
+        {
+          "id": "ai_better",
+          "q": "Yapay zekâ üretimi başarısız oldu ya da istediğimi vermedi — ne yapmalıyım?",
+          "a": [
+            "Tetikleyici ve eylemi tek bir net cümleyle anlat, örn. «ev Wi-Fi’sine bağlanınca telefonu sessize al». Uygulamayı veya koşulu açıkça belirt, belirsiz ifadelerden kaçın ve yeniden «Yapay zekâ ile oluştur»a dokun. Üretilen görevi sonradan elle de ince ayar yapabilirsin."
+          ],
+          "video": "lRJOqQ65ST0"
+        },
+        {
+          "id": "debug_run",
+          "q": "Görevimin gerçekten çalışıp çalışmadığını nasıl anlarım?",
+          "a": [
+            "Önce hizmetin açık ve görevin etkin olduğundan emin ol. Görevi aç ve her adımın sonucunu görmek için çalışma kayıtlarına / anlık görüntülerine bak. Hiç tetiklenmiyorsa tetikleyiciyi ve gereken izinleri yeniden kontrol et."
+          ]
+        },
+        {
+          "id": "manual_trigger",
+          "q": "Uygulamayı açmadan bir görev başlatabilir miyim?",
+          "a": [
+            "Evet — görevi bir fiziksel tuşa veya kayan düğmeye bağlayın. Görev düzenleyicide “Ne zaman → Cihaz durumu → Fiziksel tuşa basıldı” yolunu açıp “Tuşu yakala”ya dokunun ve istediğiniz tuşa basın; tek, çift ve uzun basma çalışır. Ya da “Ne zaman → Kayan düğme” seçeneğini seçin ve düğmeleri “Ayarlar → Kayan tetikleyici düğmeler” bölümünde oluşturun. Her ikisi için de erişilebilirlik hizmeti çalışıyor olmalı."
+          ],
+          "video": "hcqbXCb-5Q8"
+        },
+        {
+          "id": "action_types",
+          "q": "WhenDo telefonumda tam olarak neler yapabilir?",
+          "a": [
+            "19 grupta 170 işlem. “Kontrol işlemi” ekrandaki her şeyi kapsar — dokunma, uzun basma, yazma, kaydırma, sürükleme. “Uygulama İşlemleri” uygulamaları başlatır veya durdurur, “Cihaz durumu” el feneri, Bluetooth, Wi-Fi ve pili yönetir, “Medya İşlemleri” ses düzeyini ve Rahatsız Etmeyin’i kapsar. Metin, dosya, kabuk, bildirim, takvim, OCR ve genel değişken işlemleri de vardır. Pro veya Shizuku gerektirenler listede işaretlidir."
+          ],
+          "video": "s44BKhrgGdM"
+        },
+        {
+          "id": "permissions_why",
+          "q": "WhenDo neden bu kadar çok izin istiyor?",
+          "a": [
+            "Her izin belirli bir özelliği destekler, bu yüzden yalnızca kullandıklarınızı vermeniz yeterli. Erişilebilirlik hizmeti WhenDo’nun ekranı okumasını ve sizin yerinize dokunmasını sağlar; o olmadan ekran otomasyonu ve uygulama olayları durur. Yüzer Pencere İzni kayan düğmeleri ve istemleri çizer, ekranınızı okuyamaz. Konum yalnızca Wi-Fi adları ve coğrafi sınırlar için kullanılır; mikrofon, kamera, takvim ve telefon durumu yalnızca bunlara ihtiyaç duyan işlemler tarafından kullanılır. Ağ; yapay zekâ üretimi, çevrimiçi hazır görev kitaplığı, uzaktan yapılandırma ve anonim kullanım istatistikleri için kullanılır."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku modu nedir ve nasıl açılır?",
+          "a": [
+            "Shizuku, WhenDo’ya root olmadan sistem düzeyinde yetenekler kazandıran ayrı bir yardımcı uygulamadır — kabuk komutları, Wi-Fi veya Bluetooth’u açıp kapatma ve daha fazlası. Shizuku’yu kurup başlatın (başlatmak için ADB, kablosuz hata ayıklama veya root gerekir), ardından panodan WhenDo’ya izin verin. Başlatma zaman aşımına uğrarsa Shizuku’yu güncelleyip izni yeniden verin."
+          ],
+          "video": "S32Bz5ZBmog"
+        },
+        {
+          "id": "ui_automation",
+          "q": "WhenDo başka bir uygulamanın içindeki bir düğmeye dokunabilir mi?",
+          "a": [
+            "Evet. “Kontrol işlemi” grubundan bir işlem kullanın: bir düğmeye metniyle dokunun, koşula uyan öğeye dokunun, bir alana metin yazın, bir listeyi kaydırın veya bir öğeyi başka bir öğenin üzerine sürükleyin. WhenDo ekranı erişilebilirlik hizmeti üzerinden okur, bu yüzden herkese açık API sunmayan uygulamalarda da çalışır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Temel Kavramlar",
+      "entries": [
+        {
+          "id": "flow",
+          "q": "Akış (Flow)",
+          "a": [
+            "Akış, oluşturduğunuz eksiksiz bir otomasyondur. Genellikle bir Ne Zaman (tetikleyiciler) ve bir Yap (eylemler) bölümü vardır."
+          ]
+        },
+        {
+          "id": "rule",
+          "q": "Kural (Rule)",
+          "a": [
+            "Kural, düzenleyicideki bir satırdır; görevin temel yapı taşıdır. Bir kural alt kurallar içerebilir."
+          ]
+        },
+        {
+          "id": "when",
+          "q": "Tetikleyici (When)",
+          "a": [
+            "Görevinizi başlatan olay: bir uygulamanın açılması, planlanmış bir saat vb. Tetikleyici olmadan görev kendiliğinden başlamaz."
+          ]
+        },
+        {
+          "id": "if",
+          "q": "Koşul (If)",
+          "a": [
+            "Sonraki eylemlerin çalışması için doğru olması gereken bir denetim, örneğin “yalnızca Wi-Fi bağlıysa”."
+          ]
+        },
+        {
+          "id": "do",
+          "q": "Eylem (Do)",
+          "a": [
+            "Uygulamanın sizin için yaptığı bir şey: bir düğmeye dokunma, bildirim gönderme veya uygulama başlatma."
+          ]
+        },
+        {
+          "id": "applet",
+          "q": "Applet",
+          "a": [
+            "En küçük yapı taşı. Her tetikleyici, koşul ve eylem, seçip birleştirdiğiniz bir applet’tir."
+          ]
+        },
+        {
+          "id": "global_var",
+          "q": "Genel Değişken",
+          "a": [
+            "Görevler arasında saklayıp yeniden kullandığınız bir değer: bir sayaç ya da ekrandan alınan metin."
+          ]
+        },
+        {
+          "id": "a11y",
+          "q": "Erişilebilirlik Hizmeti",
+          "a": [
+            "Uygulamanın ekranı okumasını ve sizin yerinize dokunmasını sağlayan sistem izni. Çoğu otomasyon bunu gerektirir."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku",
+          "a": [
+            "Root olmadan ek sistem düzeyi yetenekler (kabuk komutları gibi) veren isteğe bağlı bir yardımcı uygulama."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

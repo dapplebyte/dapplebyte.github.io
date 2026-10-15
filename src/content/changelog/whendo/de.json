@@ -1,0 +1,49 @@
+{
+  "slug": "whendo",
+  "locale": "de",
+  "entries": [
+    {
+      "code": 182,
+      "name": "1.8.1",
+      "date": "2026-09-16",
+      "items": [
+        "Neu",
+        "Fünf neue Antworten im Hilfecenter: eine Aufgabe starten, ohne die App zu öffnen, was WhenDo mit dem Handy machen kann, wofür jede Berechtigung gebraucht wird, was der Shizuku-Modus ist und ob Buttons in anderen Apps getippt werden können.",
+        "Verbessert",
+        "Anleitungsvideos zu den häufigen Fragen — Berechtigungen, manuelles Auslösen und mehr zeigen den Bildschirm zum Mitmachen."
+      ]
+    },
+    {
+      "code": 180,
+      "name": "1.8.0",
+      "date": "2026-09-10",
+      "items": [
+        "Neu",
+        "Voreingestellte Aufgaben neu — 64 fertige Aufgaben unter Vorlagen, mit einem Tipp hinzugefügt. Wo Angaben nötig sind, wählst du App oder Gerät aus.",
+        "Suche beim Erstellen — Auslöser, Bedingungen und Aktionen an einem Ort, oder die KI übernimmt.",
+        "Auto-Klicker: einrichten, Countdown, los.",
+        "Verbessert",
+        "Aus Taskly wird WhenDo, mit neuem Symbol.",
+        "Anleitungsvideos im Hilfecenter.",
+        "Behoben",
+        "Indonesisch wurde auf Englisch angezeigt."
+      ]
+    },
+    {
+      "code": 170,
+      "name": "1.7.0",
+      "date": "2026-09-04",
+      "items": [
+        "Neu",
+        "Schwebende Auslöser-Schaltflächen – Tippen, Doppeltippen oder langes Drücken startet eine Aufgabe. Frei verschiebbar.",
+        "Physische Taste gedrückt – Aufgaben per einfachem, doppeltem oder langem Druck auf eine Lautstärketaste starten, auf Wunsch mit Tastensperre.",
+        "Verbessert",
+        "Android 16 wird unterstützt, klarere Beschreibung von „Zurück zur vorherigen App\".",
+        "Behoben",
+        "Absturz beim Anzeigen eines Toasts im Shizuku-Modus.",
+        "Dienst stoppte beim Fehlstart einer dauerhaften Aufgabe."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-15"
+}

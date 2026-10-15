@@ -4,6 +4,10 @@
 // Two listing shapes are supported:
 // - `bold`  (Relaypad): an optional opening line, then blocks that start with an `<emoji> <b>Title</b>`
 //   line followed by paragraphs or `•` bullets.
+//   WhenDo uses the same shape with three options: `taglineFromTitle` (the hero line is the first heading,
+//   not the first paragraph), `stripParagraphEmoji`, and `quotedBulletsAsParagraphs` (section ids whose
+//   bullets that start with a quotation mark are example prompts, kept as paragraphs so they stay next
+//   to their "Try requests such as:" line instead of being mixed into the feature bullets).
 // - `emoji` (Gamepad Pro): no <b> tags. The first three paragraphs are the intro (the first one starts
 //   with 👍); after that every block starts with an `<emoji> Title` line, followed by paragraphs,
 //   `•` bullets or a `1.` numbered list (kept as bullets).
@@ -29,6 +33,13 @@ const CONFIG = {
       'support',
       'trademark',
     ],
+  },
+  whendo: {
+    format: 'bold',
+    taglineFromTitle: true,
+    stripParagraphEmoji: true,
+    quotedBulletsAsParagraphs: ['ai'],
+    ids: ['intro', 'ai', 'clicker', 'triggers', 'actions', 'workflows', 'ideas', 'privacy', 'audience', 'outro'],
   },
   'gamepad-pro': {
     format: 'emoji',
@@ -64,6 +75,8 @@ const EMOJI = '(?:\\p{Extended_Pictographic}|\\p{Emoji_Modifier}|\\uFE0F|\\u200D
 const LEADING_EMOJI = new RegExp(`^(?:${EMOJI})+\\s*`, 'u');
 const TRAILING_EMOJI = new RegExp(`\\s*(?:${EMOJI})+$`, 'u');
 const STARTS_WITH_EMOJI = /^\p{Extended_Pictographic}/u;
+/** Opening quotation marks across the store locales: “ " « „ ‚ ‘ ' 「 『 ‹ */
+const STARTS_WITH_QUOTE = /^[“"«„‚‘'「『‹]/u;
 
 const stripEmoji = (s) => s.replace(LEADING_EMOJI, '').replace(TRAILING_EMOJI, '').trim();
 
@@ -89,11 +102,12 @@ function sentenceCase(title, lang) {
   return out.replace(KEEP_RE, canonical);
 }
 
-function parseBold(text, ids) {
+function parseBold(text, ids, cfg = {}) {
   const lines = text.replace(/\r/g, '').split('\n');
   let requires;
   const sections = [];
   let current = null;
+  const paragraph = (s) => (cfg.stripParagraphEmoji ? stripEmoji(s) : s);
   for (const raw of lines) {
     const line = raw.trim();
     if (!line) continue;
@@ -107,9 +121,12 @@ function parseBold(text, ids) {
       requires = requires ? `${requires} ${line}` : line;
       continue;
     }
-    if (BULLET.test(line)) current.bullets.push(line.replace(BULLET, ''));
-    else if (/^Source code/i.test(line) || /codeberg\.org/.test(line)) continue; // the hero already links the source
-    else current.paragraphs.push(line.replace(/<\/?[^>]+>/g, ''));
+    if (BULLET.test(line)) {
+      const item = line.replace(BULLET, '');
+      if (cfg.quotedBulletsAsParagraphs?.includes(current.id) && STARTS_WITH_QUOTE.test(item)) current.paragraphs.push(item);
+      else current.bullets.push(item);
+    } else if (/^Source code/i.test(line) || /codeberg\.org/.test(line)) continue; // the hero already links the source
+    else current.paragraphs.push(paragraph(line.replace(/<\/?[^>]+>/g, '')));
   }
   return { requires, sections };
 }
@@ -160,14 +177,14 @@ for (const [slug, root] of Object.entries(products)) {
     const title = readFileSync(join(dir, 'title.txt'), 'utf8').trim();
     const shortDescription = readFileSync(join(dir, 'short_description.txt'), 'utf8').trim();
     const full = readFileSync(join(dir, 'full_description.txt'), 'utf8');
-    const { requires, sections } = cfg.format === 'emoji' ? parseEmoji(full, ids, cfg, title, locale.lang) : parseBold(full, ids);
+    const { requires, sections } = cfg.format === 'emoji' ? parseEmoji(full, ids, cfg, title, locale.lang) : parseBold(full, ids, cfg);
     if (sections.length !== ids.length) {
       console.error(`[store-copy] ${slug}/${locale.slug}: expected ${ids.length} sections, found ${sections.length}`);
       process.exitCode = 1;
       continue;
     }
     const intro = sections[0];
-    const tagline = intro.paragraphs[0] ?? shortDescription;
+    const tagline = (cfg.taglineFromTitle ? intro.title : intro.paragraphs[0]) ?? shortDescription;
     writeJson(`src/content/product-copy/${slug}/${locale.slug}.json`, {
       slug,
       locale: locale.slug,
