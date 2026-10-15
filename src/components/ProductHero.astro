@@ -19,7 +19,7 @@ interface Props {
   /** The home page's lead product: bigger name, more screenshots. */
   featured?: boolean;
 }
-const { locale, product, copy, level = 1, linkTo, kicker, shot = 2, featured = false } = Astro.props;
+const { locale, product, copy, level = 1, linkTo, kicker, shot = product.heroShot, featured = false } = Astro.props;
 const { t, tp, listp } = useT(locale);
 const Heading = `h${level}` as 'h1' | 'h2' | 'h3';
 const iconSrc = `/${product.slug}/icon.png`;

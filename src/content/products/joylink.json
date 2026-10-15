@@ -16,6 +16,7 @@
   "displayFont": "Orbitron",
   "screenshotCount": 6,
   "screenshotOrientation": "landscape",
+  "heroShot": 1,
   "featuredFaq": ["supported_hosts", "consoles", "windows_no_input", "phone_unsupported", "pro_subscription", "latency"],
   "trademark": "hosts",
   "languages": 19,
