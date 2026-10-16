@@ -99,13 +99,27 @@ export function breadcrumbs(items: { name: string; url: string }[]) {
   };
 }
 
+/** Timezone the studio publishes from; used when a video only records the upload day. */
+const UPLOAD_TZ_OFFSET = '+08:00';
+
+/**
+ * Google's VideoObject guidelines want `uploadDate` as a full ISO 8601 datetime with a timezone
+ * (Search Console flags a bare date as "missing timezone" / "invalid datetime"). Accept either a
+ * bare `YYYY-MM-DD` (expanded to local midnight) or an already complete datetime with offset.
+ */
+export function uploadDateTime(value: string): string {
+  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return `${value}T00:00:00${UPLOAD_TZ_OFFSET}`;
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$/.test(value)) return value;
+  throw new Error(`uploadDate "${value}" must be YYYY-MM-DD or an ISO 8601 datetime with timezone`);
+}
+
 export function videoObject(v: { name: string; description: string; youtubeId: string; uploadDate: string; duration: string }) {
   return {
     '@type': 'VideoObject',
     name: v.name,
     description: v.description,
     thumbnailUrl: `https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`,
-    uploadDate: v.uploadDate,
+    uploadDate: uploadDateTime(v.uploadDate),
     duration: v.duration,
     embedUrl: `https://www.youtube-nocookie.com/embed/${v.youtubeId}`,
     contentUrl: `https://www.youtube.com/watch?v=${v.youtubeId}`,

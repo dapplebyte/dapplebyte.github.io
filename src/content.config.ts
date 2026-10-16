@@ -131,7 +131,8 @@ const videos = defineCollection({
         /** The same clip on TikTok (video id only). */
         tiktokId: z.string().optional(),
         kind: z.enum(['promo', 'tutorial', 'troubleshooting']),
-        uploadDate: z.string(),
+        /** `YYYY-MM-DD` (studio local day) or a full ISO 8601 datetime with timezone offset. */
+        uploadDate: z.string().regex(/^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2}))?$/),
         duration: z.string(),
         titleKey: z.string(),
         descriptionKey: z.string(),

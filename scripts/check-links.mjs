@@ -1,5 +1,6 @@
 // After `astro build`: every internal link resolves, every hreflang alternate points back,
-// every page has exactly one <h1>, and every JSON-LD block parses.
+// every page has exactly one <h1>, every JSON-LD block parses, and every VideoObject's
+// uploadDate is a full ISO 8601 datetime with timezone (Search Console rejects bare dates).
 import { readdirSync, readFileSync, statSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { ROOT } from './lib.mjs';
@@ -48,11 +49,20 @@ for (const file of pages) {
     errors++;
   }
   for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    let data;
     try {
-      JSON.parse(m[1]);
+      data = JSON.parse(m[1]);
     } catch (e) {
       console.error(`[links] ${route}: JSON-LD does not parse: ${e.message}`);
       errors++;
+      continue;
+    }
+    for (const node of data['@graph'] ?? [data]) {
+      if (node['@type'] !== 'VideoObject') continue;
+      if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$/.test(node.uploadDate ?? '')) {
+        console.error(`[links] ${route}: VideoObject "${node.name}" uploadDate "${node.uploadDate}" needs a timezone`);
+        errors++;
+      }
     }
   }
   for (const m of html.matchAll(/<a\s[^>]*href="([^"]+)"/g)) {
