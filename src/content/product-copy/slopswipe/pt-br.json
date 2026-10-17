@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "Pule o lixo de IA no Shorts, TikTok e Reels",
       "paragraphs": [
-        "O lixo de IA está inundando os feeds de vídeos curtos: histórias com voz de IA, animais falsos, \"notícias\" sintéticas. O SlopSwipe é um filtro automático de vídeos de IA para Android. Continue usando os apps reais do YouTube Shorts, TikTok e Instagram Reels: quando um vídeo bate com uma regra que você ativou, o SlopSwipe passa para o próximo e registra o motivo, então desfazer um erro é fácil. Nada da sua tela sai do celular, e não precisa de conta."
+        "O lixo de IA está inundando os feeds de vídeos curtos: histórias com voz de IA, animais falsos, \"notícias\" sintéticas. O SlopSwipe é um filtro automático de vídeos de IA para Android. Continue usando os apps reais do YouTube Shorts, TikTok e Instagram Reels: quando um vídeo bate com uma regra que você ativou, o SlopSwipe passa para o próximo e registra o motivo, então desfazer um erro é fácil. Nada da sua tela sai do celular, e não precisa de conta. Ele precisa do serviço de acessibilidade do Android, que você ativa uma vez nas configurações do sistema."
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "Lê só o texto na tela do Shorts, TikTok e Reels: título, legenda, nome da conta, hashtags, selo de IA",
         "Sem gravar a tela, sem capturas, sem enviar o conteúdo da tela, sem login",
         "A página \"O que lemos\" mostra exatamente o que foi lido por último; relatórios de falhas e estatísticas são opcionais",
-        "Grátis, sem anúncios e sem compras no app"
+        "Sem anúncios e sem assinaturas"
       ]
     },
     {
@@ -102,7 +102,7 @@
       "id": "support",
       "title": "Algo não funcionou?",
       "paragraphs": [
-        "Se um vídeo não foi pulado, ou o errado foi, escreva para feedback@dapplebyte.com antes de avaliar. Conte o modelo do seu celular e a plataforma; a maioria dos problemas é corrigida na próxima atualização."
+        "Se um vídeo não foi pulado, ou o errado foi, escreva para feedback@dapplebyte.com antes de avaliar."
       ],
       "bullets": []
     }

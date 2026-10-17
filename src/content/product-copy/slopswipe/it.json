@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "Salta i video IA spazzatura su Shorts, TikTok e Reels",
       "paragraphs": [
-        "La spazzatura IA sta invadendo i feed di video brevi: storie con voce IA, animali finti, \"notizie\" sintetiche. SlopSwipe è un filtro automatico per video IA su Android. Usa le vere app di YouTube Shorts, TikTok e Instagram Reels: se un video rispetta una regola attiva, SlopSwipe passa al successivo e annota perché: un errore si annulla subito. Niente dello schermo lascia il telefono e non serve un account."
+        "La spazzatura IA sta invadendo i feed di video brevi: storie con voce IA, animali finti, \"notizie\" sintetiche. SlopSwipe è un filtro automatico per video IA su Android. Usa le vere app di YouTube Shorts, TikTok e Instagram Reels: se un video rispetta una regola attiva, SlopSwipe passa al successivo e annota perché: un errore si annulla subito. Niente dello schermo lascia il telefono e non serve un account. Richiede il servizio di accessibilità di Android, da attivare una sola volta nelle impostazioni di sistema."
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "Legge solo il testo a schermo di Shorts, TikTok e Reels: titolo, didascalia, nome dell’account, hashtag, etichetta IA",
         "Niente registrazione o screenshot, niente caricamento di ciò che è a schermo, niente login",
         "La pagina \"Cosa leggiamo\" mostra l’ultima cosa letta; report sui crash e statistiche sono facoltativi",
-        "Gratis, senza pubblicità né acquisti in-app"
+        "Senza pubblicità né abbonamenti"
       ]
     },
     {
@@ -94,7 +94,7 @@
       "bullets": [
         "SlopSwipe usa il servizio di accessibilità di Android per leggere il testo a schermo e scorrere al posto tuo. Non è uno strumento di assistenza per persone con disabilità; spiega cosa fa prima dell’attivazione e funziona solo col tuo consenso.",
         "Nella prima versione Instagram Reels è spento di default; attivalo in Impostazioni → Dove funziona.",
-        "Il rilevamento si basa su etichette, testo e liste: un video senza etichetta può sfuggire e un altro essere saltato per errore; Annulla rimedia. Se la piattaforma cambia layout, SlopSwipe si ferma e ti avvisa. Richiede Android 8.0 o successivo.",
+        "Il rilevamento si basa su etichette, testo e liste: un video senza etichetta può sfuggire e un altro essere saltato per errore; Annulla rimedia. Richiede Android 8.0 o successivo.",
         "YouTube, TikTok e Instagram sono marchi dei rispettivi proprietari. SlopSwipe non è affiliato né approvato da loro."
       ]
     },
@@ -102,7 +102,7 @@
       "id": "support",
       "title": "Qualcosa non va?",
       "paragraphs": [
-        "Video non saltato, o saltato quello sbagliato? Scrivi a feedback@dapplebyte.com prima di lasciare una recensione. Indica modello di telefono e piattaforma: quasi tutto si risolve nella versione successiva."
+        "Video non saltato, o saltato quello sbagliato? Scrivi a feedback@dapplebyte.com prima di lasciare una recensione."
       ],
       "bullets": []
     }

@@ -657,7 +657,7 @@
       "heroPoints": [
         "Swipes past AI videos inside the official YouTube Shorts and TikTok apps, and Instagram Reels once you turn it on",
         "Every skip shows the rule that matched, such as the platform's AI label, an AI keyword or your block list, with one-tap undo",
-        "Screen text is checked on your phone and never uploaded. No account. Free, no ads, no in-app purchases"
+        "Screen text is checked on your phone and never uploaded. No account. No ads, no subscriptions"
       ],
       "faqDescription": "Answers about SlopSwipe: turning on the accessibility service, how skipping and the rules work, lists and reports, privacy, the schedule, parent mode and wellbeing, and supported phones.",
       "faqNotFoundBody": "Write to us with your phone model, the platform and what happened; for a wrong skip, add the account name shown in History. A person reads every message.",
@@ -675,12 +675,12 @@
           "account": "For a wrong skip: the account name as shown in History:",
           "what": "What happened, step by step:"
         },
-        "refundBody": "SlopSwipe is free, with no ads and no in-app purchases, so there is nothing to buy and nothing to refund."
+        "refundBody": "If you paid for SlopSwipe and it doesn't work with your setup, email us within 7 days of the purchase and we'll refund it. Tell us what you tried; it helps us fix it for the next person."
       },
       "press": {
         "description": "Facts, assets and a boilerplate for writing about SlopSwipe, the Android app that skips AI-generated videos in short-video feeds.",
         "boilerplate": "SlopSwipe skips AI-generated videos on Android, inside the official YouTube Shorts and TikTok apps and, once turned on, Instagram Reels. When a video matches a rule the user switched on, such as the platform's own AI label, an AI keyword or an account on the user's block list, it swipes to the next video and records why, so a wrong skip can be undone in one tap. Screen text is checked on the phone and never uploaded, and no account is needed. It is made by DappleByte, an independent studio.",
-        "priceValue": "Free, with no ads and no in-app purchases.",
+        "priceValue": "No ads, no subscriptions. See Google Play for the current price.",
         "assetScreenshots": "Phone screenshots, 1080 × 1920 PNG, English"
       },
       "videosDescription": "Short videos showing SlopSwipe on a real phone: turning it on, what a skip looks like, undoing a wrong skip, and the block and allow lists.",

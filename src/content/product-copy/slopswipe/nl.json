@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "AI-slop overslaan in Shorts, TikTok en Reels",
       "paragraphs": [
-        "AI-slop overspoelt korte-videofeeds: verhalen met AI-stem, nepdieren, synthetisch “nieuws”. SlopSwipe is een automatisch AI-videofilter voor Android. Je blijft de echte apps YouTube Shorts, TikTok en Instagram Reels gebruiken; past een video op een regel die je hebt aangezet, dan veegt SlopSwipe door naar de volgende en legt vast waarom, zodat je een foute skip makkelijk terugdraait. Niets van je scherm verlaat je telefoon en je hebt geen account nodig."
+        "AI-slop overspoelt korte-videofeeds: verhalen met AI-stem, nepdieren, synthetisch “nieuws”. SlopSwipe is een automatisch AI-videofilter voor Android. Je blijft de echte apps YouTube Shorts, TikTok en Instagram Reels gebruiken; past een video op een regel die je hebt aangezet, dan veegt SlopSwipe door naar de volgende en legt vast waarom, zodat je een foute skip makkelijk terugdraait. Niets van je scherm verlaat je telefoon en je hebt geen account nodig. Het heeft de toegankelijkheidsservice van Android nodig, die je één keer aanzet in de systeeminstellingen."
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "Leest alleen tekst op het scherm in Shorts, TikTok en Reels: titel, bijschrift, accountnaam, hashtags, AI-label",
         "Geen schermopname, geen screenshots, geen upload van scherminhoud, geen login",
         "De pagina “Wat we lezen” toont precies wat het laatst is gelezen; crashrapporten en statistieken zijn optioneel",
-        "Gratis, geen advertenties, geen in-app-aankopen"
+        "Geen advertenties, geen abonnementen"
       ]
     },
     {
@@ -102,7 +102,7 @@
       "id": "support",
       "title": "Werkt er iets niet?",
       "paragraphs": [
-        "Werd een video niet of verkeerd overgeslagen, mail dan feedback@dapplebyte.com voordat je een review schrijft. Vermeld je telefoonmodel en het platform; de meeste problemen zijn in de volgende update opgelost."
+        "Werd een video niet of verkeerd overgeslagen, mail dan feedback@dapplebyte.com voordat je een review schrijft."
       ],
       "bullets": []
     }

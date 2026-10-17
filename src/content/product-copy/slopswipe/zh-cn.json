@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "在 Shorts、TikTok 和 Reels 自动划走 AI 垃圾视频",
       "paragraphs": [
-        "AI 生成的垃圾视频正在淹没短视频信息流：AI 配音故事、假动物、合成“新闻”。SlopSwipe 是 Android 上的 AI 视频过滤工具：你照常用原生的 YouTube Shorts、TikTok 和 Instagram Reels，视频命中你开启的规则时，SlopSwipe 替你划到下一条并记下原因，跳错了也很容易撤销。屏幕内容不离开手机，也不需要账号。"
+        "AI 生成的垃圾视频正在淹没短视频信息流：AI 配音故事、假动物、合成“新闻”。SlopSwipe 是 Android 上的 AI 视频过滤工具：你照常用原生的 YouTube Shorts、TikTok 和 Instagram Reels，视频命中你开启的规则时，SlopSwipe 替你划到下一条并记下原因，跳错了也很容易撤销。屏幕内容不离开手机，也不需要账号。需要开启 Android 无障碍服务，在系统设置里开一次即可。"
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "只读取 Shorts、TikTok 和 Reels 屏幕上的文字：标题、文案、账号名、话题标签、AI 标签",
         "不录屏、不截图、不上传屏幕内容、无需登录",
         "“我们读取了什么”页面能看到最近一次读到的内容；崩溃报告与统计都是可选",
-        "免费、无广告、无应用内购买"
+        "无广告、无订阅"
       ]
     },
     {

@@ -657,7 +657,7 @@
       "heroPoints": [
         "Resmi YouTube Shorts ve TikTok uygulamalarının içinde AI videolarını kaydırıp geçer; Instagram Reels'te de siz açınca",
         "Her atlamada eşleşen kural görünür: platformun AI etiketi, bir AI anahtar kelimesi ya da engel listeniz. Tek dokunuşla geri alınır",
-        "Ekrandaki metin telefonunuzda kontrol edilir, asla yüklenmez. Hesap yok. Ücretsiz, reklamsız, uygulama içi satın alma yok"
+        "Ekrandaki metin telefonunuzda kontrol edilir, asla yüklenmez. Hesap yok. Reklamsız, abonelik yok"
       ],
       "faqDescription": "SlopSwipe hakkında yanıtlar: erişilebilirlik hizmetini açma, atlamanın ve kuralların nasıl çalıştığı, listeler ve bildirimler, gizlilik, zamanlama, ebeveyn modu ve dijital denge, desteklenen telefonlar.",
       "faqNotFoundBody": "Telefon modelinizi, platformu ve ne olduğunu yazarak bize e-posta gönderin; yanlış bir atlama için hesap adını Geçmiş'te gösterildiği gibi ekleyin. Her mesajı bir insan okur.",
@@ -675,12 +675,12 @@
           "account": "Yanlış atlama için: Geçmiş'te gösterilen hesap adı:",
           "what": "Ne oldu, adım adım:"
         },
-        "refundBody": "SlopSwipe ücretsizdir; reklam ve uygulama içi satın alma yoktur. Yani satın alınacak ya da iade edilecek bir şey yok."
+        "refundBody": "SlopSwipe için ödeme yaptıysanız ve sizin kurulumunuzla çalışmıyorsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi anlatın; sorunu bir sonraki kişi için düzeltmemize yardımcı olur."
       },
       "press": {
         "description": "Kısa video akışlarında yapay zekâyla üretilmiş videoları atlayan Android uygulaması SlopSwipe hakkında yazmak için bilgiler, materyaller ve tanıtım metni.",
         "boilerplate": "SlopSwipe, resmi YouTube Shorts ve TikTok uygulamalarının içinde, açıldığında Instagram Reels'te de, yapay zekâyla üretilmiş videoları atlayan bir Android uygulamasıdır. Bir video kullanıcının açtığı bir kurala uyduğunda, örneğin platformun kendi AI etiketine, bir AI anahtar kelimesine ya da engel listesindeki bir hesaba, sonraki videoya geçer ve nedenini kaydeder; böylece yanlış bir atlama tek dokunuşla geri alınabilir. Ekrandaki metin telefonda kontrol edilir ve asla yüklenmez, hesap da gerekmez. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilmiştir.",
-        "priceValue": "Ücretsiz, reklamsız, uygulama içi satın alma yok.",
+        "priceValue": "Reklamsız, abonelik yok. Güncel fiyat Google Play'de gösterilir.",
         "assetScreenshots": "Telefon ekran görüntüleri, PNG, İngilizce (dikey 1080 × 1920)"
       },
       "videosDescription": "SlopSwipe'ı gerçek bir telefonda gösteren kısa videolar: nasıl açılır, bir atlama nasıl görünür, yanlış bir atlama nasıl geri alınır, engel ve izin listeleri.",

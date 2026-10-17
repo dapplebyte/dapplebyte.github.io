@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "KI-Slop in Shorts, TikTok und Reels überspringen",
       "paragraphs": [
-        "KI-Slop flutet Kurzvideo-Feeds: Geschichten mit KI-Stimme, Fake-Tiere, synthetische „News“. SlopSwipe ist ein automatischer KI-Videofilter für Android. Du nutzt weiter die echten Apps YouTube Shorts, TikTok und Instagram Reels; trifft ein Video eine Regel, die du aktiviert hast, wischt SlopSwipe weiter und notiert den Grund, Fehler machst du leicht rückgängig. Nichts vom Bildschirm verlässt dein Handy, ein Konto ist nicht nötig."
+        "KI-Slop flutet Kurzvideo-Feeds: Geschichten mit KI-Stimme, Fake-Tiere, synthetische „News“. SlopSwipe ist ein automatischer KI-Videofilter für Android. Du nutzt weiter die echten Apps YouTube Shorts, TikTok und Instagram Reels; trifft ein Video eine Regel, die du aktiviert hast, wischt SlopSwipe weiter und notiert den Grund, Fehler machst du leicht rückgängig. Nichts vom Bildschirm verlässt dein Handy, ein Konto ist nicht nötig. Es braucht die Bedienungshilfen von Android, die du einmal in den Systemeinstellungen einschaltest."
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "Liest nur Bildschirmtext in Shorts, TikTok und Reels: Titel, Beschreibung, Kontoname, Hashtags, KI-Label",
         "Keine Bildschirmaufnahme, keine Screenshots, kein Upload von Bildschirminhalten, kein Login",
         "Die Seite „Was wir lesen“ zeigt genau, was zuletzt gelesen wurde; Absturzberichte und Statistiken sind optional",
-        "Kostenlos, ohne Werbung, ohne In-App-Käufe"
+        "Ohne Werbung, ohne Abo"
       ]
     },
     {
@@ -102,7 +102,7 @@
       "id": "support",
       "title": "Etwas funktioniert nicht?",
       "paragraphs": [
-        "Wurde ein Video nicht oder falsch übersprungen, schreib vor einer Bewertung an feedback@dapplebyte.com. Nenn uns Handymodell und Plattform; die meisten Probleme sind im nächsten Update behoben."
+        "Wurde ein Video nicht oder falsch übersprungen, schreib vor einer Bewertung an feedback@dapplebyte.com."
       ],
       "bullets": []
     }

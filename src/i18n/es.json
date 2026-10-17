@@ -657,7 +657,7 @@
       "heroPoints": [
         "Desliza fuera los videos de IA dentro de las apps oficiales de YouTube Shorts y TikTok, y en Instagram Reels cuando lo activas",
         "Cada salto muestra la regla que coincidió, como la etiqueta de IA de la plataforma, una palabra clave de IA o tu lista de bloqueados, y se deshace con un toque",
-        "El texto de la pantalla se revisa en tu teléfono y nunca se sube. Sin cuenta. Gratis, sin anuncios y sin compras dentro de la app"
+        "El texto de la pantalla se revisa en tu teléfono y nunca se sube. Sin cuenta. Sin anuncios y sin suscripciones"
       ],
       "faqDescription": "Respuestas sobre SlopSwipe: activar el servicio de accesibilidad, cómo funcionan los saltos y las reglas, listas y reportes, privacidad, horario, modo parental y bienestar, y teléfonos compatibles.",
       "faqNotFoundBody": "Escríbenos con el modelo de tu teléfono, la plataforma y lo que pasó; si se saltó algo por error, añade el nombre de la cuenta tal como aparece en el Historial. Cada mensaje lo lee una persona.",
@@ -675,12 +675,12 @@
           "account": "Si se saltó algo por error: nombre de la cuenta tal como aparece en el Historial:",
           "what": "Qué pasó, paso a paso:"
         },
-        "refundBody": "SlopSwipe es gratis, sin anuncios ni compras dentro de la app, así que no hay nada que comprar ni que reembolsar."
+        "refundBody": "Si pagaste por SlopSwipe y no funciona con tu configuración, escríbenos en los 7 días siguientes a la compra y te devolvemos el dinero. Cuéntanos qué probaste; nos ayuda a arreglarlo para la próxima persona."
       },
       "press": {
         "description": "Datos, recursos y una presentación para escribir sobre SlopSwipe, la app de Android que salta los videos generados por IA en los feeds de videos cortos.",
         "boilerplate": "SlopSwipe salta los videos generados por IA en Android, dentro de las apps oficiales de YouTube Shorts y TikTok y, si se activa, en Instagram Reels. Cuando un video coincide con una regla que el usuario activó, como la etiqueta de IA de la propia plataforma, una palabra clave de IA o una cuenta de su lista de bloqueados, pasa al siguiente video y registra el motivo, así que un salto equivocado se deshace con un toque. El texto de la pantalla se revisa en el teléfono y nunca se sube, y no hace falta cuenta. La desarrolla DappleByte, un estudio independiente.",
-        "priceValue": "Gratis, sin anuncios y sin compras dentro de la app.",
+        "priceValue": "Sin anuncios y sin suscripciones. El precio actual aparece en Google Play.",
         "assetScreenshots": "Capturas de pantalla del teléfono, PNG de 1080 × 1920, en inglés"
       },
       "videosDescription": "Videos cortos que muestran SlopSwipe en un teléfono real: cómo activarlo, cómo se ve un salto, cómo deshacer un salto equivocado y las listas de bloqueados y permitidos.",

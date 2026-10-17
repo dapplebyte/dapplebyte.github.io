@@ -657,7 +657,7 @@
       "heroPoints": [
         "Przewija filmy SI w oficjalnych aplikacjach YouTube Shorts i TikTok, a w Instagram Reels po włączeniu",
         "Przy każdym pominięciu widać regułę, która zadziałała, np. oznaczenie SI platformy, słowo kluczowe SI albo Twoją listę zablokowanych; cofasz jednym dotknięciem",
-        "Tekst z ekranu jest sprawdzany na telefonie i nigdy nie jest wysyłany. Bez konta. Za darmo, bez reklam i zakupów w aplikacji"
+        "Tekst z ekranu jest sprawdzany na telefonie i nigdy nie jest wysyłany. Bez konta. Bez reklam i subskrypcji"
       ],
       "faqDescription": "Odpowiedzi o SlopSwipe: włączanie usługi ułatwień dostępu, jak działa pomijanie i reguły, listy i zgłoszenia, prywatność, harmonogram, tryb rodzica i dobrostan oraz obsługiwane telefony.",
       "faqNotFoundBody": "Napisz do nas, podając model telefonu, platformę i co się stało; przy błędnym pominięciu dopisz nazwę konta tak, jak widać ją w Historii. Każdą wiadomość czyta człowiek.",
@@ -675,12 +675,12 @@
           "account": "Przy błędnym pominięciu: nazwa konta tak, jak widać ją w Historii:",
           "what": "Co się stało, krok po kroku:"
         },
-        "refundBody": "SlopSwipe jest darmowy, bez reklam i bez zakupów w aplikacji, więc nie ma czego kupować ani zwracać."
+        "refundBody": "Jeśli po zakupie SlopSwipe aplikacja nie działa z Twoim sprzętem, napisz do nas w ciągu 7 dni od zakupu, a zwrócimy pieniądze. Opisz, co już próbowano; to pomoże nam naprawić problem dla kolejnych osób."
       },
       "press": {
         "description": "Fakty, materiały i notka do tekstów o SlopSwipe, aplikacji na Androida, która pomija filmy wygenerowane przez SI w kanałach z krótkimi filmami.",
         "boilerplate": "SlopSwipe pomija filmy wygenerowane przez SI na Androidzie, w oficjalnych aplikacjach YouTube Shorts i TikTok, a po włączeniu także w Instagram Reels. Gdy film pasuje do reguły włączonej przez użytkownika, np. oznaczenia SI samej platformy, słowa kluczowego SI albo konta z jego listy zablokowanych, aplikacja przewija do następnego filmu i zapisuje powód, więc błędne pominięcie można cofnąć jednym dotknięciem. Tekst z ekranu jest sprawdzany na telefonie i nigdy nie jest wysyłany, a konto nie jest potrzebne. Tworzy ją DappleByte, niezależne studio.",
-        "priceValue": "Za darmo, bez reklam i bez zakupów w aplikacji.",
+        "priceValue": "Bez reklam i bez subskrypcji. Aktualna cena jest podana w Google Play.",
         "assetScreenshots": "Zrzuty ekranu z telefonu, PNG, po angielsku (1080 × 1920)"
       },
       "videosDescription": "Krótkie filmy pokazujące SlopSwipe na prawdziwym telefonie: włączanie, jak wygląda pominięcie, cofanie błędnego pominięcia, lista zablokowanych i lista dozwolonych.",

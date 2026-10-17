@@ -657,7 +657,7 @@
       "heroPoints": [
         "在官方 YouTube Shorts 和 TikTok App 里自动划走 AI 视频；Instagram Reels 开启后同样适用",
         "每次跳过都显示命中的规则，比如平台的 AI 标签、AI 关键词或你的黑名单，一键就能撤销",
-        "屏幕文字只在手机上比对，不会上传。无需账号。免费、无广告、无内购"
+        "屏幕文字只在手机上比对，不会上传。无需账号。无广告、无订阅"
       ],
       "faqDescription": "SlopSwipe 常见问题：开启无障碍服务、跳过与规则如何运作、名单与举报、隐私、定时、家长模式与健康刷，以及支持的手机。",
       "faqNotFoundBody": "给我们写信，附上手机型号、平台和发生了什么；反馈误判时，请附上“记录”里显示的账号名。每封信都有真人阅读。",
@@ -675,12 +675,12 @@
           "account": "反馈误判时：“记录”里显示的账号名：",
           "what": "发生了什么（按步骤写）："
         },
-        "refundBody": "SlopSwipe 免费，没有广告也没有内购，所以无需购买，也不涉及退款。"
+        "refundBody": "如果你付费购买了 SlopSwipe，但在你的设备环境下用不了，购买后 7 天内发邮件给我们，我们会退款。顺便说说你试过哪些办法，能帮我们为下一位用户修好它。"
       },
       "press": {
         "description": "撰写 SlopSwipe 相关报道用的事实、素材与简介。SlopSwipe 是一款在短视频信息流里跳过 AI 生成视频的 Android App。",
         "boilerplate": "SlopSwipe 是一款 Android App，在官方 YouTube Shorts 和 TikTok App 里（开启后也包括 Instagram Reels）跳过 AI 生成视频。视频命中用户开启的规则时，比如平台自己的 AI 标签、AI 关键词或用户黑名单里的账号，它就划到下一条并记下原因，跳错了一键就能撤销。屏幕文字只在手机上比对、不会上传，也无需账号。由独立工作室 DappleByte 开发。",
-        "priceValue": "免费，无广告，无内购。",
+        "priceValue": "无广告、无订阅。当前价格以 Google Play 为准。",
         "assetScreenshots": "手机截图，PNG，英文（竖屏 1080 × 1920）"
       },
       "videosDescription": "在真机上演示 SlopSwipe 的短视频：如何开启、跳过时是什么样、如何撤销误判，以及黑名单和白名单。",

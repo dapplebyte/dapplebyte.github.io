@@ -657,7 +657,7 @@
       "heroPoints": [
         "Menggeser video AI di dalam aplikasi resmi YouTube Shorts dan TikTok, juga Instagram Reels setelah kamu aktifkan",
         "Setiap lewatan menampilkan aturan yang cocok, seperti label AI dari platform, kata kunci AI, atau daftar blokirmu, dan bisa diurungkan sekali ketuk",
-        "Teks layar diperiksa di ponselmu dan tidak pernah diunggah. Tanpa akun. Gratis, tanpa iklan, tanpa pembelian dalam aplikasi"
+        "Teks layar diperiksa di ponselmu dan tidak pernah diunggah. Tanpa akun. Tanpa iklan, tanpa langganan"
       ],
       "faqDescription": "Jawaban seputar SlopSwipe: mengaktifkan layanan aksesibilitas, cara kerja lewatan dan aturan, daftar dan laporan, privasi, jadwal, mode orang tua dan kesejahteraan digital, serta ponsel yang didukung.",
       "faqNotFoundBody": "Kirim email berisi model ponsel, platform, dan apa yang terjadi; untuk video yang keliru dilewati, sertakan nama akunnya seperti yang tertera di Riwayat. Setiap pesan dibaca oleh manusia.",
@@ -675,12 +675,12 @@
           "account": "Untuk video yang keliru dilewati: nama akun seperti yang tertera di Riwayat:",
           "what": "Apa yang terjadi, langkah demi langkah:"
         },
-        "refundBody": "SlopSwipe gratis, tanpa iklan dan tanpa pembelian dalam aplikasi, jadi tidak ada yang perlu dibeli atau dikembalikan dananya."
+        "refundBody": "Jika Anda membayar SlopSwipe dan ternyata tidak berfungsi dengan perangkat Anda, kirim email ke kami dalam 7 hari sejak pembelian dan kami akan mengembalikan dananya. Ceritakan apa saja yang sudah Anda coba; itu membantu kami memperbaikinya untuk pengguna berikutnya."
       },
       "press": {
         "description": "Fakta, aset, dan deskripsi singkat untuk menulis tentang SlopSwipe, aplikasi Android yang melewati video buatan AI di feed video pendek.",
         "boilerplate": "SlopSwipe adalah aplikasi Android yang melewati video buatan AI di dalam aplikasi resmi YouTube Shorts dan TikTok, serta Instagram Reels setelah diaktifkan. Saat sebuah video cocok dengan aturan yang diaktifkan pengguna, seperti label AI dari platform itu sendiri, kata kunci AI, atau akun di daftar blokirnya, aplikasi ini menggeser ke video berikutnya dan mencatat alasannya, sehingga lewatan yang keliru bisa diurungkan dengan sekali ketuk. Teks layar diperiksa di ponsel dan tidak pernah diunggah, dan tidak perlu akun. Dibuat oleh DappleByte, studio independen.",
-        "priceValue": "Gratis, tanpa iklan, dan tanpa pembelian dalam aplikasi.",
+        "priceValue": "Tanpa iklan dan tanpa langganan. Harga terkini ditampilkan di Google Play.",
         "assetScreenshots": "Tangkapan layar ponsel, PNG 1080 × 1920, bahasa Inggris"
       },
       "videosDescription": "Video singkat yang memperlihatkan SlopSwipe di ponsel sungguhan: cara mengaktifkannya, seperti apa lewatan itu, mengurungkan lewatan yang keliru, serta daftar blokir dan daftar izin.",

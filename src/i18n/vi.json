@@ -657,7 +657,7 @@
       "heroPoints": [
         "Vuốt qua video AI ngay trong ứng dụng YouTube Shorts và TikTok chính thức, cả Instagram Reels khi bạn bật",
         "Mỗi lần bỏ qua đều hiện quy tắc đã khớp, như nhãn AI của nền tảng, từ khóa AI hay danh sách chặn của bạn, và hoàn tác bằng một chạm",
-        "Chữ trên màn hình được kiểm tra trên điện thoại, không bao giờ tải lên. Không cần tài khoản. Miễn phí, không quảng cáo, không mua trong ứng dụng"
+        "Chữ trên màn hình được kiểm tra trên điện thoại, không bao giờ tải lên. Không cần tài khoản. Không quảng cáo, không thuê bao"
       ],
       "faqDescription": "Giải đáp về SlopSwipe: bật dịch vụ trợ năng, cách bỏ qua và quy tắc hoạt động, danh sách và báo cáo, quyền riêng tư, lịch, chế độ phụ huynh và sức khỏe số, cùng các điện thoại được hỗ trợ.",
       "faqNotFoundBody": "Gửi email cho chúng tôi kèm mẫu điện thoại, nền tảng và chuyện đã xảy ra; nếu bị bỏ qua nhầm, ghi thêm tên tài khoản như hiển thị trong Lịch sử. Mỗi tin nhắn đều có người đọc.",
@@ -675,12 +675,12 @@
           "account": "Nếu bị bỏ qua nhầm: tên tài khoản như hiển thị trong Lịch sử:",
           "what": "Chuyện gì đã xảy ra, từng bước:"
         },
-        "refundBody": "SlopSwipe miễn phí, không quảng cáo và không mua trong ứng dụng, nên không có gì để mua và cũng không có gì để hoàn tiền."
+        "refundBody": "Nếu bạn đã trả tiền mua SlopSwipe mà nó không chạy được với thiết bị của bạn, hãy email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền. Hãy cho biết bạn đã thử những gì; điều đó giúp chúng tôi sửa lỗi cho người dùng sau."
       },
       "press": {
         "description": "Thông tin, tư liệu và đoạn giới thiệu để viết về SlopSwipe, ứng dụng Android bỏ qua video do AI tạo trong bảng tin video ngắn.",
         "boilerplate": "SlopSwipe là ứng dụng Android bỏ qua video do AI tạo ngay trong ứng dụng YouTube Shorts và TikTok chính thức, và cả Instagram Reels khi được bật. Khi một video khớp với quy tắc mà người dùng đã bật, như nhãn AI của chính nền tảng, một từ khóa AI hay một tài khoản trong danh sách chặn, ứng dụng vuốt sang video tiếp theo và ghi lại lý do, nên lần bỏ qua nhầm có thể hoàn tác bằng một chạm. Chữ trên màn hình được kiểm tra trên điện thoại, không bao giờ tải lên, và không cần tài khoản. Ứng dụng do DappleByte, một studio độc lập, phát triển.",
-        "priceValue": "Miễn phí, không quảng cáo, không mua trong ứng dụng.",
+        "priceValue": "Không quảng cáo, không thuê bao. Giá hiện tại hiển thị trên Google Play.",
         "assetScreenshots": "Ảnh chụp màn hình điện thoại, PNG, tiếng Anh (dọc 1080 × 1920)"
       },
       "videosDescription": "Video ngắn giới thiệu SlopSwipe trên điện thoại thật: cách bật, một lần bỏ qua trông thế nào, hoàn tác lần bỏ qua nhầm, danh sách chặn và danh sách cho phép.",

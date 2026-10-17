@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "Skip AI Slop in Shorts, TikTok and Reels",
       "paragraphs": [
-        "AI-generated slop is flooding short-video feeds: AI voiceover stories, fake animals, synthetic \"news\". SlopSwipe is an automatic AI video filter for Android. Keep using the real YouTube Shorts, TikTok and Instagram Reels apps; when a video matches a rule you turned on, SlopSwipe swipes to the next one and records why, so a wrong skip is easy to undo. Nothing from your screen leaves your phone, and no account is needed."
+        "AI-generated slop is flooding short-video feeds: AI voiceover stories, fake animals, synthetic \"news\". SlopSwipe is an automatic AI video filter for Android. Keep using the real YouTube Shorts, TikTok and Instagram Reels apps; when a video matches a rule you turned on, SlopSwipe swipes to the next one and records why, so a wrong skip is easy to undo. Nothing from your screen leaves your phone, and no account is needed. It needs Android's accessibility service, which you turn on once in system settings."
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "Reads only on-screen text in Shorts, TikTok and Reels: title, caption, account name, hashtags, AI label",
         "No screen recording, no screenshots, no upload of screen content, no login",
         "The \"What we read\" page shows exactly what was read last; crash reports and statistics are optional",
-        "Free, no ads, no in-app purchases"
+        "No ads, no subscriptions"
       ]
     },
     {

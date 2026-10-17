@@ -657,7 +657,7 @@
       "heroPoints": [
         "Fait défiler les vidéos IA dans les applications officielles YouTube Shorts et TikTok, et dans Instagram Reels une fois activé",
         "Chaque passage indique la règle appliquée, comme l'étiquette IA de la plateforme, un mot-clé IA ou votre liste de blocage, avec annulation d'un geste",
-        "Le texte à l'écran est vérifié sur votre téléphone et jamais envoyé. Pas de compte. Gratuit, sans publicité, sans achat intégré"
+        "Le texte à l'écran est vérifié sur votre téléphone et jamais envoyé. Pas de compte. Sans publicité, sans abonnement"
       ],
       "faqDescription": "Réponses sur SlopSwipe : activer le service d'accessibilité, fonctionnement des passages et des règles, listes et signalements, confidentialité, planning, mode parental et bien-être, téléphones compatibles.",
       "faqNotFoundBody": "Écrivez-nous avec le modèle de votre téléphone, la plateforme et ce qui s'est passé ; pour une vidéo passée à tort, ajoutez le nom du compte tel qu'il apparaît dans l'Historique. Chaque message est lu par une personne.",
@@ -675,12 +675,12 @@
           "account": "Pour une vidéo passée à tort : le nom du compte tel qu'il apparaît dans l'Historique :",
           "what": "Ce qui s'est passé, étape par étape :"
         },
-        "refundBody": "SlopSwipe est gratuit, sans publicité ni achat intégré : il n'y a rien à acheter, donc rien à rembourser."
+        "refundBody": "Si vous avez payé SlopSwipe et qu'il ne fonctionne pas avec votre configuration, écrivez-nous dans les 7 jours suivant l'achat et nous vous rembourserons. Dites-nous ce que vous avez essayé : cela nous aide à corriger le problème pour les prochains utilisateurs."
       },
       "press": {
         "description": "Faits, ressources et présentation pour écrire sur SlopSwipe, l'application Android qui passe les vidéos générées par IA dans les fils de vidéos courtes.",
         "boilerplate": "SlopSwipe passe les vidéos générées par IA sur Android, directement dans les applications officielles YouTube Shorts et TikTok et, une fois activé, dans Instagram Reels. Quand une vidéo correspond à une règle activée par l'utilisateur, comme l'étiquette IA de la plateforme, un mot-clé IA ou un compte de sa liste de blocage, l'application passe à la vidéo suivante et note pourquoi, si bien qu'un passage erroné s'annule d'un geste. Le texte à l'écran est vérifié sur le téléphone et jamais envoyé, et aucun compte n'est nécessaire. SlopSwipe est développé par DappleByte, un studio indépendant.",
-        "priceValue": "Gratuit, sans publicité ni achat intégré.",
+        "priceValue": "Sans publicité ni abonnement. Le prix actuel est indiqué sur Google Play.",
         "assetScreenshots": "Captures d'écran de téléphone, PNG 1080 × 1920, en anglais"
       },
       "videosDescription": "Courtes vidéos montrant SlopSwipe sur un vrai téléphone : l'activer, à quoi ressemble un passage, annuler un passage erroné, les listes de blocage et d'autorisation.",

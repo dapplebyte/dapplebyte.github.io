@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "Lewati AI Slop di Shorts, TikTok dan Reels",
       "paragraphs": [
-        "Konten sampah AI membanjiri feed video pendek: cerita bersuara AI, hewan palsu, \"berita\" sintetis. SlopSwipe adalah filter video AI otomatis untuk Android. Tetap pakai aplikasi asli YouTube Shorts, TikTok, dan Instagram Reels. Saat video cocok dengan aturan yang kamu aktifkan, SlopSwipe menggeser ke video berikutnya dan mencatat alasannya, jadi mudah diurungkan bila keliru. Isi layarmu tetap di ponsel, tanpa akun."
+        "Konten sampah AI membanjiri feed video pendek: cerita bersuara AI, hewan palsu, \"berita\" sintetis. SlopSwipe adalah filter video AI otomatis untuk Android. Tetap pakai aplikasi asli YouTube Shorts, TikTok, dan Instagram Reels. Saat video cocok dengan aturan yang kamu aktifkan, SlopSwipe menggeser ke video berikutnya dan mencatat alasannya, jadi mudah diurungkan bila keliru. Isi layarmu tetap di ponsel, tanpa akun. Perlu layanan aksesibilitas Android, yang cukup diaktifkan sekali di setelan sistem."
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "Hanya membaca teks di layar pada Shorts, TikTok, dan Reels: judul, keterangan, nama akun, tagar, label AI",
         "Tanpa rekam layar, tangkapan layar, unggahan, atau login",
         "Halaman \"Yang kami baca\" menampilkan persis apa yang terakhir dibaca; laporan error dan statistik opsional",
-        "Gratis, tanpa iklan, tanpa pembelian dalam aplikasi"
+        "Tanpa iklan, tanpa langganan"
       ]
     },
     {
@@ -102,7 +102,7 @@
       "id": "support",
       "title": "Ada yang tidak berfungsi?",
       "paragraphs": [
-        "Jika video tidak dilewati, atau yang salah terlewati, kirim email ke feedback@dapplebyte.com sebelum menulis ulasan. Sebutkan model ponsel dan platform; kebanyakan masalah diperbaiki di pembaruan berikutnya."
+        "Jika video tidak dilewati, atau yang salah terlewati, kirim email ke feedback@dapplebyte.com sebelum menulis ulasan."
       ],
       "bullets": []
     }

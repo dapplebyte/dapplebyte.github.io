@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "Shorts, TikTok ve Reels’te AI videolarını atlayın",
       "paragraphs": [
-        "Yapay zeka çöpü kısa video akışlarını dolduruyor: AI seslendirmeli hikâyeler, sahte hayvanlar, sentetik “haberler”. SlopSwipe, Android için otomatik bir AI video filtresidir. YouTube Shorts, TikTok ve Instagram Reels’i her zamanki gibi kullanın. Video açtığınız bir kurala uyunca SlopSwipe sonrakine kaydırır ve nedenini kaydeder; yanlış atlamayı kolayca geri alırsınız. Ekrandaki hiçbir şey telefondan çıkmaz, hesap gerekmez."
+        "Yapay zeka çöpü kısa video akışlarını dolduruyor: AI seslendirmeli hikâyeler, sahte hayvanlar, sentetik “haberler”. SlopSwipe, Android için otomatik bir AI video filtresidir. YouTube Shorts, TikTok ve Instagram Reels’i her zamanki gibi kullanın. Video açtığınız bir kurala uyunca SlopSwipe sonrakine kaydırır ve nedenini kaydeder; yanlış atlamayı kolayca geri alırsınız. Ekrandaki hiçbir şey telefondan çıkmaz, hesap gerekmez. Android erişilebilirlik hizmetini gerektirir; bunu sistem ayarlarından bir kez açmanız yeterlidir."
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "Shorts, TikTok ve Reels’te yalnızca ekrandaki metni okur: başlık, açıklama, hesap adı, hashtag’ler, AI etiketi",
         "Ekran kaydı ve ekran görüntüsü yok, ekran içeriği yüklenmez, giriş gerekmez",
         "“Neleri okuyoruz” sayfası en son neyin okunduğunu tam olarak gösterir; çökme raporları ve istatistikler isteğe bağlıdır",
-        "Ücretsiz, reklamsız, uygulama içi satın alma yok"
+        "Reklamsız, aboneliksiz"
       ]
     },
     {
@@ -102,7 +102,7 @@
       "id": "support",
       "title": "Bir şey çalışmıyor mu?",
       "paragraphs": [
-        "Bir video atlanmadıysa ya da yanlışı atlandıysa, yorumdan önce feedback@dapplebyte.com adresine yazın. Telefon modelinizi ve platformu belirtin; çoğu sorun bir sonraki güncellemede düzelir."
+        "Bir video atlanmadıysa ya da yanlışı atlandıysa, yorumdan önce feedback@dapplebyte.com adresine yazın."
       ],
       "bullets": []
     }

@@ -657,7 +657,7 @@
       "heroPoints": [
         "Pula vídeos de IA dentro dos apps oficiais do YouTube Shorts e do TikTok, e no Instagram Reels quando você ativa",
         "Cada pulo mostra a regra que bateu, como o rótulo de IA da plataforma, uma palavra-chave de IA ou sua lista de bloqueados, com desfazer em um toque",
-        "O texto da tela é verificado no seu celular e nunca enviado. Sem conta. Grátis, sem anúncios e sem compras no app"
+        "O texto da tela é verificado no seu celular e nunca enviado. Sem conta. Sem anúncios e sem assinatura"
       ],
       "faqDescription": "Respostas sobre o SlopSwipe: ativar o serviço de acessibilidade, como funcionam os pulos e as regras, listas e denúncias, privacidade, agenda, modo parental e bem-estar, e celulares compatíveis.",
       "faqNotFoundBody": "Escreva para nós com o modelo do celular, a plataforma e o que aconteceu; se algo foi pulado por engano, inclua o nome da conta como aparece no Histórico. Uma pessoa lê cada mensagem.",
@@ -675,12 +675,12 @@
           "account": "Se algo foi pulado por engano: nome da conta como aparece no Histórico:",
           "what": "O que aconteceu, passo a passo:"
         },
-        "refundBody": "O SlopSwipe é grátis, sem anúncios e sem compras no app, então não há nada para comprar nem para reembolsar."
+        "refundBody": "Se você pagou pelo SlopSwipe e ele não funcionar com a sua configuração, mande um e-mail em até 7 dias após a compra e devolvemos o valor. Conte o que você tentou; isso ajuda a gente a resolver para a próxima pessoa."
       },
       "press": {
         "description": "Fatos, materiais e um texto de apresentação para escrever sobre o SlopSwipe, o app Android que pula vídeos gerados por IA nos feeds de vídeos curtos.",
         "boilerplate": "O SlopSwipe pula vídeos gerados por IA no Android, dentro dos apps oficiais do YouTube Shorts e do TikTok e, quando ativado, no Instagram Reels. Quando um vídeo bate com uma regra que o usuário ativou, como o rótulo de IA da própria plataforma, uma palavra-chave de IA ou uma conta da lista de bloqueados, o app passa para o próximo vídeo e registra o motivo, então um pulo errado se desfaz com um toque. O texto da tela é verificado no celular e nunca enviado, e não é preciso criar conta. Feito pela DappleByte, um estúdio independente.",
-        "priceValue": "Grátis, sem anúncios e sem compras no app.",
+        "priceValue": "Sem anúncios e sem assinatura. O preço atual aparece no Google Play.",
         "assetScreenshots": "Capturas de tela do celular, PNG 1080 × 1920, em inglês"
       },
       "videosDescription": "Vídeos curtos mostrando o SlopSwipe num celular de verdade: como ativar, como é um pulo, como desfazer um pulo errado e as listas de bloqueados e permitidos.",

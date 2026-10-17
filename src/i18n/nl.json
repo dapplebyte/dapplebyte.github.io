@@ -657,7 +657,7 @@
       "heroPoints": [
         "Veegt AI-video's weg in de officiële apps van YouTube Shorts en TikTok, en in Instagram Reels zodra je het aanzet",
         "Bij elke overgeslagen video zie je welke regel raak was, zoals het AI-label van het platform, een AI-trefwoord of je blokkeerlijst, met terugdraaien in één tik",
-        "Schermtekst wordt op je telefoon gecontroleerd en nooit geüpload. Geen account. Gratis, zonder advertenties en zonder in-app-aankopen"
+        "Schermtekst wordt op je telefoon gecontroleerd en nooit geüpload. Geen account. Zonder advertenties en zonder abonnement"
       ],
       "faqDescription": "Antwoorden over SlopSwipe: de toegankelijkheidsservice aanzetten, hoe overslaan en de regels werken, lijsten en meldingen, privacy, schema, oudermodus en welzijn, en ondersteunde telefoons.",
       "faqNotFoundBody": "Mail ons je telefoonmodel, het platform en wat er gebeurde; bij een onterecht overgeslagen video ook de accountnaam zoals die in Geschiedenis staat. Elk bericht wordt door een mens gelezen.",
@@ -675,12 +675,12 @@
           "account": "Bij een onterecht overgeslagen video: de accountnaam zoals die in Geschiedenis staat:",
           "what": "Wat er gebeurde, stap voor stap:"
         },
-        "refundBody": "SlopSwipe is gratis, zonder advertenties en zonder in-app-aankopen. Er valt dus niets te kopen en niets terug te betalen."
+        "refundBody": "Heb je voor SlopSwipe betaald en werkt het niet met jouw opstelling, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen."
       },
       "press": {
         "description": "Feiten, materiaal en een korte beschrijving om over SlopSwipe te schrijven, de Android-app die door AI gemaakte video's in feeds met korte video's overslaat.",
         "boilerplate": "SlopSwipe slaat op Android door AI gemaakte video's over, in de officiële apps van YouTube Shorts en TikTok en, als je het aanzet, in Instagram Reels. Past een video bij een regel die de gebruiker heeft aangezet, zoals het AI-label van het platform, een AI-trefwoord of een account op de blokkeerlijst, dan veegt de app naar de volgende video en legt vast waarom, zodat een onterecht overgeslagen video met één tik terug is. Schermtekst wordt op de telefoon gecontroleerd en nooit geüpload, en een account is niet nodig. Gemaakt door DappleByte, een onafhankelijke studio.",
-        "priceValue": "Gratis, zonder advertenties en zonder in-app-aankopen.",
+        "priceValue": "Zonder advertenties en zonder abonnement. De actuele prijs staat op Google Play.",
         "assetScreenshots": "Telefoonscreenshots, PNG van 1080 × 1920, Engelstalig"
       },
       "videosDescription": "Korte video's van SlopSwipe op een echte telefoon: aanzetten, hoe overslaan eruitziet, een onterecht overgeslagen video terugdraaien, en de blokkeer- en toestaanlijst.",

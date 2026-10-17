@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "Salta la basura de IA en Shorts, TikTok y Reels",
       "paragraphs": [
-        "La basura de IA inunda los feeds de vídeos cortos: historias con voz IA, animales falsos, «noticias» sintéticas. SlopSwipe es un filtro automático de vídeos de IA para Android. Usa las apps reales de YouTube Shorts, TikTok e Instagram Reels: si un vídeo cumple una regla que activaste, SlopSwipe pasa al siguiente y anota por qué, así es fácil deshacer un error. Nada de tu pantalla sale del móvil y no hace falta cuenta."
+        "La basura de IA inunda los feeds de vídeos cortos: historias con voz IA, animales falsos, «noticias» sintéticas. SlopSwipe es un filtro automático de vídeos de IA para Android. Usa las apps reales de YouTube Shorts, TikTok e Instagram Reels: si un vídeo cumple una regla que activaste, SlopSwipe pasa al siguiente y anota por qué, así es fácil deshacer un error. Nada de tu pantalla sale del móvil y no hace falta cuenta. Necesita el servicio de accesibilidad de Android, que activas una sola vez en los ajustes del sistema."
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "Solo lee el texto visible en Shorts, TikTok y Reels: título, descripción, nombre de cuenta, hashtags, etiqueta de IA",
         "Sin grabar pantalla, sin capturas, sin subir su contenido, sin iniciar sesión",
         "La página «Qué leemos» muestra justo lo último leído; informes de errores y estadísticas son opcionales",
-        "Gratis, sin anuncios y sin compras en la app"
+        "Sin anuncios ni suscripciones"
       ]
     },
     {
@@ -94,7 +94,7 @@
       "bullets": [
         "SlopSwipe usa el servicio de accesibilidad de Android para leer el texto en pantalla y deslizar por ti. No es una herramienta de apoyo para personas con discapacidad; explica lo que hace antes de activarlo y solo funciona si aceptas.",
         "Instagram Reels viene desactivado en esta primera versión; actívalo en Ajustes → Dónde funciona.",
-        "La detección depende de etiquetas, texto y listas: un vídeo sin etiqueta puede colarse y alguno puede saltarse por error; Deshacer lo arregla. Si la plataforma cambia su diseño al actualizarse, SlopSwipe se detiene y te avisa. Requiere Android 8.0 o superior.",
+        "La detección depende de etiquetas, texto y listas: un vídeo sin etiqueta puede colarse y alguno puede saltarse por error; Deshacer lo arregla. Requiere Android 8.0 o superior.",
         "YouTube, TikTok e Instagram son marcas de sus propietarios. SlopSwipe no está afiliado ni respaldado por ellos."
       ]
     },
@@ -102,7 +102,7 @@
       "id": "support",
       "title": "¿Algo no funciona?",
       "paragraphs": [
-        "Si un vídeo no se saltó o se saltó el que no era, escribe a feedback@dapplebyte.com antes de dejar una reseña. Dinos el modelo de tu móvil y la plataforma; casi todo se arregla en la próxima versión."
+        "Si un vídeo no se saltó o se saltó el que no era, escribe a feedback@dapplebyte.com antes de dejar una reseña."
       ],
       "bullets": []
     }

@@ -657,7 +657,7 @@
       "heroPoints": [
         "Wischt KI-Videos in den offiziellen Apps von YouTube Shorts und TikTok weg, in Instagram Reels, sobald Sie es einschalten",
         "Jedes Überspringen zeigt die Regel, die gegriffen hat, etwa die KI-Kennzeichnung der Plattform, ein KI-Stichwort oder Ihre Sperrliste, mit Rückgängig per Tippen",
-        "Bildschirmtext wird auf dem Telefon geprüft und nie hochgeladen. Kein Konto. Kostenlos, ohne Werbung, ohne In-App-Käufe"
+        "Bildschirmtext wird auf dem Telefon geprüft und nie hochgeladen. Kein Konto. Ohne Werbung, ohne Abo"
       ],
       "faqDescription": "Antworten zu SlopSwipe: Bedienungshilfe einschalten, wie Überspringen und Regeln funktionieren, Listen und Meldungen, Datenschutz, Zeitplan, Elternmodus und Wohlbefinden sowie unterstützte Telefone.",
       "faqNotFoundBody": "Schreiben Sie uns mit Telefonmodell, Plattform und was passiert ist; bei einem falschen Überspringen bitte auch den Kontonamen, wie er im Verlauf steht. Jede Nachricht liest ein Mensch.",
@@ -675,12 +675,12 @@
           "account": "Bei falschem Überspringen: Kontoname, wie er im Verlauf steht:",
           "what": "Was ist passiert, Schritt für Schritt:"
         },
-        "refundBody": "SlopSwipe ist kostenlos, ohne Werbung und ohne In-App-Käufe. Es gibt also nichts zu kaufen und nichts zu erstatten."
+        "refundBody": "Wenn Sie für SlopSwipe bezahlt haben und es mit Ihrem Setup nicht funktioniert, schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf, und wir erstatten den Betrag. Erzählen Sie uns, was Sie versucht haben; das hilft uns, das Problem für die Nächsten zu beheben."
       },
       "press": {
         "description": "Fakten, Material und ein Kurzporträt für Beiträge über SlopSwipe, die Android-App, die KI-generierte Videos in Kurzvideo-Feeds überspringt.",
         "boilerplate": "SlopSwipe überspringt auf Android KI-generierte Videos, direkt in den offiziellen Apps von YouTube Shorts und TikTok und, sobald eingeschaltet, in Instagram Reels. Trifft ein Video eine Regel, die der Nutzer eingeschaltet hat, etwa die KI-Kennzeichnung der Plattform, ein KI-Stichwort oder ein Konto auf seiner Sperrliste, wischt die App zum nächsten Video und hält den Grund fest, sodass sich ein falsches Überspringen mit einem Tippen rückgängig machen lässt. Bildschirmtext wird auf dem Telefon geprüft und nie hochgeladen, ein Konto ist nicht nötig. Entwickelt von DappleByte, einem unabhängigen Studio.",
-        "priceValue": "Kostenlos, ohne Werbung und ohne In-App-Käufe.",
+        "priceValue": "Ohne Werbung und ohne Abo. Den aktuellen Preis finden Sie bei Google Play.",
         "assetScreenshots": "Smartphone-Screenshots, PNG, 1080 × 1920, Englisch"
       },
       "videosDescription": "Kurze Videos, die SlopSwipe auf einem echten Telefon zeigen: einschalten, wie ein Überspringen aussieht, ein falsches Überspringen rückgängig machen, Sperr- und Erlaubnisliste.",

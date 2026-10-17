@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "在 Shorts、TikTok 與 Reels 自動滑走 AI 垃圾影片",
       "paragraphs": [
-        "AI 生成的垃圾影片正在淹沒短影片動態：AI 配音故事、假動物、合成「新聞」。SlopSwipe 是 Android 上的 AI 影片過濾工具：你照常用原生的 YouTube Shorts、TikTok 與 Instagram Reels，影片命中你開啟的規則時，SlopSwipe 替你滑到下一支並記下原因，滑錯了也很容易還原。畫面內容不離開手機，也不需要帳號。"
+        "AI 生成的垃圾影片正在淹沒短影片動態：AI 配音故事、假動物、合成「新聞」。SlopSwipe 是 Android 上的 AI 影片過濾工具：你照常用原生的 YouTube Shorts、TikTok 與 Instagram Reels，影片命中你開啟的規則時，SlopSwipe 替你滑到下一支並記下原因，滑錯了也很容易還原。畫面內容不離開手機，也不需要帳號。需要開啟 Android 的無障礙服務，在系統設定開一次即可。"
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "只讀取 Shorts、TikTok 與 Reels 畫面上的文字：標題、說明、帳號名稱、hashtag、AI 標籤",
         "不錄影、不截圖、不上傳畫面內容、不用登入",
         "「我們讀取了什麼」頁面看得到最近一次讀到的內容；當機回報與統計都是選用",
-        "免費、無廣告、無應用程式內購"
+        "無廣告、無訂閱"
       ]
     },
     {

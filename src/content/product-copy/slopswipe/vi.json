@@ -9,7 +9,7 @@
       "id": "intro",
       "title": "Tự động bỏ qua video AI rác trên Shorts, TikTok và Reels",
       "paragraphs": [
-        "Video AI rác đang tràn ngập bảng tin video ngắn: truyện lồng tiếng AI, động vật giả, \"tin tức\" tổng hợp. SlopSwipe là bộ lọc video AI tự động trên Android. Bạn vẫn dùng ứng dụng YouTube Shorts, TikTok và Instagram Reels gốc. Khi video khớp quy tắc bạn đã bật, SlopSwipe tự vuốt sang video kế tiếp và ghi lại lý do, nên lỡ bỏ nhầm cũng dễ hoàn tác. Nội dung màn hình không rời khỏi điện thoại, cũng không cần tài khoản."
+        "Video AI rác đang tràn ngập bảng tin video ngắn: truyện lồng tiếng AI, động vật giả, \"tin tức\" tổng hợp. SlopSwipe là bộ lọc video AI tự động trên Android. Bạn vẫn dùng ứng dụng YouTube Shorts, TikTok và Instagram Reels gốc. Khi video khớp quy tắc bạn đã bật, SlopSwipe tự vuốt sang video kế tiếp và ghi lại lý do, nên lỡ bỏ nhầm cũng dễ hoàn tác. Nội dung màn hình không rời khỏi điện thoại, cũng không cần tài khoản. Ứng dụng cần dịch vụ hỗ trợ tiếp cận của Android, chỉ cần bật một lần trong cài đặt hệ thống."
       ],
       "bullets": []
     },
@@ -84,7 +84,7 @@
         "Chỉ đọc chữ trên màn hình trong Shorts, TikTok và Reels: tiêu đề, mô tả, tên tài khoản, hashtag, nhãn AI",
         "Không quay màn hình, không chụp ảnh màn hình, không tải nội dung màn hình lên, không đăng nhập",
         "Trang \"Những gì chúng tôi đọc\" cho thấy chính xác nội dung vừa đọc gần nhất; báo cáo lỗi và thống kê là tùy chọn",
-        "Miễn phí, không quảng cáo, không mua hàng trong ứng dụng"
+        "Không quảng cáo, không gói thuê bao"
       ]
     },
     {
@@ -102,7 +102,7 @@
       "id": "support",
       "title": "Có gì chưa ổn?",
       "paragraphs": [
-        "Nếu video không bị bỏ qua, hoặc bị bỏ qua nhầm, hãy gửi email đến feedback@dapplebyte.com trước khi đánh giá. Cho chúng tôi biết kiểu điện thoại và nền tảng; đa số lỗi được sửa ở bản cập nhật kế tiếp."
+        "Nếu video không bị bỏ qua, hoặc bị bỏ qua nhầm, hãy gửi email đến feedback@dapplebyte.com trước khi đánh giá."
       ],
       "bullets": []
     }
