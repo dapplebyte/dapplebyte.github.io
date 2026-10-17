@@ -13,6 +13,7 @@
 //   Apk Extractor is the plain `bold` shape with `taglineFromTitle`: 14 `<emoji> <b>Title</b>` headings, the last
 //   one (🎯) a closing line with a heading of its own and no body, kept as the `outro` section.
 //   Gamepad Tester Pro is the plain `bold` shape with `taglineFromTitle` (12 headings, no closing line).
+//   SlopSwipe is the plain `bold` shape with `taglineFromTitle` (10 headings; the last one is the support line).
 // Every email address in the copy is replaced with the product's `contactEmail` (products/<slug>.json):
 // a listing may still name the developer's own mailbox, and the site shows the studio address.
 // - `emoji` (Gamepad Pro): no <b> tags. The first three paragraphs are the intro (the first one starts
@@ -24,6 +25,12 @@ import { ROOT, LOCALES, localProducts, fastlaneLocale, writeJson, now } from './
 
 /** Position → section id. Must match the number of headings in full_description.txt. */
 const CONFIG = {
+  slopswipe: {
+    format: 'bold',
+    taglineFromTitle: true,
+    stripParagraphEmoji: true,
+    ids: ['intro', 'use-cases', 'detection', 'auto-swipe', 'schedule', 'wellbeing', 'guides', 'privacy', 'note', 'support'],
+  },
   'apk-extractor': {
     format: 'bold',
     taglineFromTitle: true,

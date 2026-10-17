@@ -21,6 +21,7 @@
   },
   "cta": {
     "getOnPlay": "到 Google Play 取得 {name}",
+    "comingSoon": "即將在 Google Play 上架",
     "readSource": "閱讀原始碼",
     "about": "認識 {name}",
     "learnMore": "了解更多"
@@ -47,7 +48,7 @@
   },
   "home": {
     "title": "DappleByte · 獨立開發的 Android app",
-    "description": "DappleByte 是一個獨立開發 Android app 的小工作室，產品有 Gamepad Pro：把手把變成觸控操作的按鍵映射工具；Relaypad：PS5 與 PS4 的 Remote Play 控制器與主機串流 app；WhenDo：結合 AI 的自動化與連點器 app；JoyLink：把手機變成藍牙手把、觸控板和電視遙控器；以及 Gamepad Tester Pro：檢查手把有沒有搖桿飄移、輸入延遲和失靈的按鍵。DappleByte 也做了 Apk Extractor：APK 提取、應用程式備份與 XAPK 安裝工具，還能幫你把應用程式搬到新手機。",
+    "description": "DappleByte 是一個獨立開發 Android app 的小工作室，產品有 Gamepad Pro：把手把變成觸控操作的按鍵映射工具；Relaypad：PS5 與 PS4 的 Remote Play 控制器與主機串流 app；WhenDo：結合 AI 的自動化與連點器 app；JoyLink：把手機變成藍牙手把、觸控板和電視遙控器；以及 Gamepad Tester Pro：檢查手把有沒有搖桿飄移、輸入延遲和失靈的按鍵。DappleByte 也做了 Apk Extractor：APK 提取、應用程式備份與 XAPK 安裝工具，還能幫你把應用程式搬到新手機。即將在 Google Play 上架的 SlopSwipe，會在 YouTube Shorts、TikTok 和 Instagram Reels 裡自動滑走 AI 生成影片，每次跳過都附上原因，一鍵就能還原。",
     "appsHeading": "產品",
     "principlesHeading": "我們怎麼做事",
     "principles": [
@@ -95,6 +96,7 @@
     "faqAll": "全部問題",
     "getHeading": "取得 {name}",
     "getBody": "在 Google Play 上架，Android 專用。",
+    "getBodySoon": "即將在 Google Play 上架，Android 專用。",
     "getBodySource": "原始碼以 {license} 公開。",
     "requiresLabel": "需要",
     "videoHeading": "看它實際運作",
@@ -227,7 +229,15 @@
       "batch-install": "批次安裝佇列",
       "version-history": "版本紀錄，可退回舊版本",
       "device-migration": "透過 Wi-Fi 把應用程式搬到新手機",
-      "wifi-transfer": "透過 Wi-Fi 或瀏覽器在裝置間傳輸應用程式"
+      "wifi-transfer": "透過 Wi-Fi 或瀏覽器在裝置間傳輸應用程式",
+      "official-apps": "直接在官方 YouTube、TikTok、Instagram App 裡運作",
+      "auto-skip-ai": "自動跳過 AI 生成影片",
+      "platform-ai-labels": "採用平台自己的 AI 標籤",
+      "ai-keywords": "AI 關鍵字與 hashtag 規則",
+      "block-allow-lists": "自己的黑名單與白名單",
+      "skip-reason-undo": "每次跳過都說明原因，一鍵還原",
+      "on-device": "畫面內容只在手機上比對，不上傳",
+      "screen-time-limits": "每日時間上限與睡前提醒"
     },
     "values": {
       "yes": "有",
@@ -247,7 +257,8 @@
     "description": "{name} Android 版每一個版本改了什麼，最新的在前。",
     "version": "版本 {version}",
     "build": "build {code}",
-    "feed": "Atom 訂閱"
+    "feed": "Atom 訂閱",
+    "empty": "還沒有任何版本。{name} 即將在 Google Play 上架，之後的版本紀錄會放在這裡。"
   },
   "press": {
     "title": "{name} 媒體資料",
@@ -285,7 +296,8 @@
   "trademarks": {
     "sony": "PlayStation、PS5 與 PS4 是 Sony Interactive Entertainment Inc. 的商標。{name} 與 Sony 無關聯，也未獲其背書。",
     "hosts": "Windows 與 Xbox 是 Microsoft 的商標；Mac、iPhone 與 iPad 是 Apple 的商標；PlayStation 是 Sony Interactive Entertainment 的商標；Nintendo Switch 是 Nintendo 的商標；Android、Android TV 與 Google TV 是 Google 的商標；Fire TV 是 Amazon 的商標；Steam 是 Valve 的商標；Raspberry Pi 是 Raspberry Pi Ltd 的商標。{name} 與上述公司均無關聯，也未獲其背書。",
-    "controllers": "Xbox 是 Microsoft 的商標；PlayStation、DualShock 與 DualSense 是 Sony Interactive Entertainment 的商標；Nintendo Switch 是 Nintendo 的商標。{name} 與上述公司均無關聯，也未獲其背書。"
+    "controllers": "Xbox 是 Microsoft 的商標；PlayStation、DualShock 與 DualSense 是 Sony Interactive Entertainment 的商標；Nintendo Switch 是 Nintendo 的商標。{name} 與上述公司均無關聯，也未獲其背書。",
+    "video-apps": "YouTube、TikTok 與 Instagram 是各自所有者的商標。{name} 與上述公司均無關聯，也未獲其背書。"
   },
   "videoItems": {
     "gamepad-pro": {
@@ -638,6 +650,45 @@
         "description": "Apk Extractor 與其他 Android APK 提取和應用程式備份 app 逐項比較，只列事實。",
         "vsDescription": "{name} 與 {other} 在 Android 上逐項比較：APK 提取、XAPK 安裝、批次安裝、版本紀錄、換機搬移、Wi-Fi 傳輸、root、廣告與收費方式。",
         "vsIntro": "兩者都能在 Android 上把已安裝的應用程式提取成 APK 檔。差別逐項列在下面。"
+      }
+    },
+    "slopswipe": {
+      "kicker": "AI 影片過濾 · 只在手機上判斷",
+      "heroPoints": [
+        "在官方 YouTube Shorts 和 TikTok App 裡自動滑走 AI 影片；Instagram Reels 開啟後也適用",
+        "每次跳過都顯示命中的規則，例如平台的 AI 標籤、AI 關鍵字或你的黑名單，一鍵就能還原",
+        "畫面文字只在手機上比對，不會上傳。不用帳號。免費、無廣告、無內購"
+      ],
+      "faqDescription": "SlopSwipe 常見問題：開啟無障礙服務、跳過與規則怎麼運作、名單與回報、隱私、排程、家長模式與健康刷，以及支援的手機。",
+      "faqNotFoundBody": "寫信給我們，附上手機型號、平台和發生了什麼事；回報誤判時，請附上「紀錄」裡顯示的帳號名。每封信都有真人看。",
+      "support": {
+        "beforeItems": [
+          "先看常見問題。開啟無障礙服務、跳過、名單和隱私的問題都在那裡有答案，措辭和 App 內一致。",
+          "如果完全沒有跳過，依序檢查：首頁顯示「運作中」；平台在「設定 → 偵測範圍」裡是開的（Instagram Reels 預設關閉）；你在 Shorts 播放頁或 TikTok 的「為你推薦」，不是首頁、搜尋或「追蹤中」。",
+          "到設定裡打開「我們讀取了什麼」，可以看到 SlopSwipe 最近一次讀到的內容。如果首頁說 Android 把服務關掉了，按「一鍵修復」，再把你手機品牌的「電池與背景」步驟做完。"
+        ],
+        "template": {
+          "phone": "手機型號：",
+          "android": "Android 版本：",
+          "platform": "平台（YouTube Shorts / TikTok / Instagram Reels）：",
+          "version": "SlopSwipe 版本：",
+          "account": "回報誤判時：「紀錄」裡顯示的帳號名：",
+          "what": "發生了什麼事，一步一步寫："
+        },
+        "refundBody": "SlopSwipe 免費，沒有廣告也沒有內購，所以不需要購買，也沒有退款問題。"
+      },
+      "press": {
+        "description": "撰寫 SlopSwipe 報導用的事實、素材與簡介。SlopSwipe 是一款在短影片動態裡跳過 AI 生成影片的 Android App。",
+        "boilerplate": "SlopSwipe 是一款 Android App，在官方 YouTube Shorts 和 TikTok App 裡（開啟後也包含 Instagram Reels）跳過 AI 生成影片。影片符合使用者開啟的規則時，例如平台自己的 AI 標籤、AI 關鍵字或使用者黑名單裡的帳號，它就滑到下一支並記下原因，跳錯了一鍵就能還原。畫面文字只在手機上比對、不會上傳，也不需要帳號。由獨立工作室 DappleByte 開發。",
+        "priceValue": "免費，無廣告，無內購。",
+        "assetScreenshots": "手機截圖，PNG，英文（直式 1080 × 1920）"
+      },
+      "videosDescription": "在真實手機上示範 SlopSwipe 的短片：怎麼開啟、跳過時長什麼樣子、怎麼還原誤判，以及黑名單和白名單。",
+      "privacyDescription": "SlopSwipe Android 版怎麼處理你的資料：無障礙服務讀取什麼、哪些只存在手機上、會送出什麼以及怎麼關閉；不需要帳號，也不讀取廣告 ID。",
+      "compare": {
+        "description": "SlopSwipe 和其他處理 AI 影片與短影片動態的 Android App 逐項比較，只列事實。",
+        "vsDescription": "{name} 與 {other} 的 Android 版逐項比較：是否在官方 App 裡運作、自動跳過、AI 標籤與關鍵字、名單、還原、隱私與價格。",
+        "vsIntro": "兩者都在處理你在 Android 短影片動態裡看到的內容。以下逐項列出差別。"
       }
     }
   }

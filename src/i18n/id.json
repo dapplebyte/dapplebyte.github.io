@@ -21,6 +21,7 @@
   },
   "cta": {
     "getOnPlay": "Dapatkan {name} di Google Play",
+    "comingSoon": "Segera hadir di Google Play",
     "readSource": "Lihat kode sumber",
     "about": "Tentang {name}",
     "learnMore": "Selengkapnya"
@@ -47,7 +48,7 @@
   },
   "home": {
     "title": "DappleByte · Aplikasi Android independen",
-    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: Gamepad Pro, aplikasi pemetaan tombol yang mengubah gamepad jadi kontrol sentuh; Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4; WhenDo, aplikasi otomatisasi AI dan klik otomatis; JoyLink, yang mengubah ponsel jadi gamepad Bluetooth, touchpad, dan remote TV; serta Gamepad Tester Pro, yang memeriksa kontroler dari drift stik, input lag, dan tombol mati. DappleByte juga membuat Apk Extractor, pengekstrak APK, alat pencadangan aplikasi, dan pemasang XAPK yang memindahkan aplikasi ke ponsel baru.",
+    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: Gamepad Pro, aplikasi pemetaan tombol yang mengubah gamepad jadi kontrol sentuh; Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4; WhenDo, aplikasi otomatisasi AI dan klik otomatis; JoyLink, yang mengubah ponsel jadi gamepad Bluetooth, touchpad, dan remote TV; serta Gamepad Tester Pro, yang memeriksa kontroler dari drift stik, input lag, dan tombol mati. DappleByte juga membuat Apk Extractor, pengekstrak APK, alat pencadangan aplikasi, dan pemasang XAPK yang memindahkan aplikasi ke ponsel baru. SlopSwipe, yang segera hadir di Google Play, menggeser video buatan AI di YouTube Shorts, TikTok, dan Instagram Reels, menampilkan alasan setiap lewatan, dan bisa diurungkan dengan sekali ketuk.",
     "appsHeading": "Aplikasi",
     "principlesHeading": "Cara kami bekerja",
     "principles": [
@@ -95,6 +96,7 @@
     "faqAll": "Semua pertanyaan",
     "getHeading": "Dapatkan {name}",
     "getBody": "Tersedia di Google Play untuk Android.",
+    "getBodySoon": "Segera hadir di Google Play untuk Android.",
     "getBodySource": "Kode sumbernya dipublikasikan dengan lisensi {license}.",
     "requiresLabel": "Persyaratan",
     "videoHeading": "Lihat cara kerjanya",
@@ -227,7 +229,15 @@
       "batch-install": "Antrean instal massal",
       "version-history": "Riwayat versi untuk kembali ke versi lama",
       "device-migration": "Memindahkan aplikasi ke ponsel baru lewat Wi-Fi",
-      "wifi-transfer": "Mentransfer aplikasi antarperangkat lewat Wi-Fi atau browser"
+      "wifi-transfer": "Mentransfer aplikasi antarperangkat lewat Wi-Fi atau browser",
+      "official-apps": "Bekerja di dalam aplikasi resmi YouTube, TikTok, dan Instagram",
+      "auto-skip-ai": "Melewati video buatan AI secara otomatis",
+      "platform-ai-labels": "Memakai label AI milik platform sendiri",
+      "ai-keywords": "Aturan kata kunci dan hashtag AI",
+      "block-allow-lists": "Daftar blokir dan daftar izin milikmu sendiri",
+      "skip-reason-undo": "Menampilkan alasan setiap video dilewati, bisa diurungkan sekali ketuk",
+      "on-device": "Isi layar diperiksa di ponsel, tidak pernah diunggah",
+      "screen-time-limits": "Batas waktu harian dan pengingat sebelum tidur"
     },
     "values": {
       "yes": "Ya",
@@ -247,7 +257,8 @@
     "description": "Setiap rilis {name} untuk Android beserta perubahannya, yang terbaru di atas.",
     "version": "Versi {version}",
     "build": "build {code}",
-    "feed": "Feed Atom"
+    "feed": "Feed Atom",
+    "empty": "Belum ada rilis. {name} segera hadir di Google Play, dan catatan rilisnya akan muncul di sini."
   },
   "press": {
     "title": "Kit pers {name}",
@@ -285,7 +296,8 @@
   "trademarks": {
     "sony": "PlayStation, PS5, dan PS4 adalah merek dagang Sony Interactive Entertainment Inc. {name} tidak berafiliasi dengan Sony dan tidak didukung oleh Sony.",
     "hosts": "Windows dan Xbox adalah merek dagang Microsoft; Mac, iPhone, dan iPad milik Apple; PlayStation milik Sony Interactive Entertainment; Nintendo Switch milik Nintendo; Android, Android TV, dan Google TV milik Google; Fire TV milik Amazon; Steam milik Valve; Raspberry Pi milik Raspberry Pi Ltd. {name} tidak berafiliasi dengan dan tidak didukung oleh satu pun dari mereka.",
-    "controllers": "Xbox adalah merek dagang Microsoft; PlayStation, DualShock, dan DualSense milik Sony Interactive Entertainment; Nintendo Switch milik Nintendo. {name} tidak berafiliasi dengan dan tidak didukung oleh satu pun dari mereka."
+    "controllers": "Xbox adalah merek dagang Microsoft; PlayStation, DualShock, dan DualSense milik Sony Interactive Entertainment; Nintendo Switch milik Nintendo. {name} tidak berafiliasi dengan dan tidak didukung oleh satu pun dari mereka.",
+    "video-apps": "YouTube, TikTok, dan Instagram adalah merek dagang dari pemiliknya masing-masing. {name} tidak berafiliasi dengan atau didukung oleh mereka."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -638,6 +650,45 @@
         "description": "Perbandingan Apk Extractor dengan aplikasi pengekstrak APK dan pencadangan aplikasi lain untuk Android, fitur demi fitur, hanya fakta.",
         "vsDescription": "Perbandingan {name} dan {other} di Android, fitur demi fitur: ekstrak APK, pemasangan XAPK, instal massal, riwayat versi, pindah ke ponsel baru, transfer Wi-Fi, root, iklan, dan harga.",
         "vsIntro": "Keduanya mengekstrak aplikasi terpasang jadi file APK di Android. Ini perbedaannya, fitur demi fitur."
+      }
+    },
+    "slopswipe": {
+      "kicker": "Filter video AI · Di perangkat",
+      "heroPoints": [
+        "Menggeser video AI di dalam aplikasi resmi YouTube Shorts dan TikTok, juga Instagram Reels setelah kamu aktifkan",
+        "Setiap lewatan menampilkan aturan yang cocok, seperti label AI dari platform, kata kunci AI, atau daftar blokirmu, dan bisa diurungkan sekali ketuk",
+        "Teks layar diperiksa di ponselmu dan tidak pernah diunggah. Tanpa akun. Gratis, tanpa iklan, tanpa pembelian dalam aplikasi"
+      ],
+      "faqDescription": "Jawaban seputar SlopSwipe: mengaktifkan layanan aksesibilitas, cara kerja lewatan dan aturan, daftar dan laporan, privasi, jadwal, mode orang tua dan kesejahteraan digital, serta ponsel yang didukung.",
+      "faqNotFoundBody": "Kirim email berisi model ponsel, platform, dan apa yang terjadi; untuk video yang keliru dilewati, sertakan nama akunnya seperti yang tertera di Riwayat. Setiap pesan dibaca oleh manusia.",
+      "support": {
+        "beforeItems": [
+          "Buka FAQ. Cara mengaktifkan layanan aksesibilitas, lewatan, daftar, dan privasi sudah terjawab di sana, dengan kata-kata yang sama seperti di aplikasi.",
+          "Kalau tidak ada yang dilewati, periksa berurutan: Beranda menampilkan Berjalan; platformnya aktif di Setelan → Tempat berlaku (Instagram Reels nonaktif secara default); kamu sedang di pemutar Shorts atau feed Untuk Anda di TikTok, bukan di halaman utama, pencarian, atau Mengikuti.",
+          "Buka Yang kami baca di Setelan untuk melihat persis apa yang terakhir dibaca SlopSwipe. Kalau Beranda bilang Android mematikan layanannya, ketuk Perbaiki lalu selesaikan langkah Baterai dan latar belakang untuk merek ponselmu."
+        ],
+        "template": {
+          "phone": "Model ponsel:",
+          "android": "Versi Android:",
+          "platform": "Platform (YouTube Shorts / TikTok / Instagram Reels):",
+          "version": "Versi SlopSwipe:",
+          "account": "Untuk video yang keliru dilewati: nama akun seperti yang tertera di Riwayat:",
+          "what": "Apa yang terjadi, langkah demi langkah:"
+        },
+        "refundBody": "SlopSwipe gratis, tanpa iklan dan tanpa pembelian dalam aplikasi, jadi tidak ada yang perlu dibeli atau dikembalikan dananya."
+      },
+      "press": {
+        "description": "Fakta, aset, dan deskripsi singkat untuk menulis tentang SlopSwipe, aplikasi Android yang melewati video buatan AI di feed video pendek.",
+        "boilerplate": "SlopSwipe adalah aplikasi Android yang melewati video buatan AI di dalam aplikasi resmi YouTube Shorts dan TikTok, serta Instagram Reels setelah diaktifkan. Saat sebuah video cocok dengan aturan yang diaktifkan pengguna, seperti label AI dari platform itu sendiri, kata kunci AI, atau akun di daftar blokirnya, aplikasi ini menggeser ke video berikutnya dan mencatat alasannya, sehingga lewatan yang keliru bisa diurungkan dengan sekali ketuk. Teks layar diperiksa di ponsel dan tidak pernah diunggah, dan tidak perlu akun. Dibuat oleh DappleByte, studio independen.",
+        "priceValue": "Gratis, tanpa iklan, dan tanpa pembelian dalam aplikasi.",
+        "assetScreenshots": "Tangkapan layar ponsel, PNG 1080 × 1920, bahasa Inggris"
+      },
+      "videosDescription": "Video singkat yang memperlihatkan SlopSwipe di ponsel sungguhan: cara mengaktifkannya, seperti apa lewatan itu, mengurungkan lewatan yang keliru, serta daftar blokir dan daftar izin.",
+      "privacyDescription": "Apa yang dilakukan SlopSwipe untuk Android dengan datamu: apa yang dibaca layanan aksesibilitas, apa yang tetap di ponsel, apa yang dikirim dan cara mematikannya; tanpa akun dan tanpa ID iklan.",
+      "compare": {
+        "description": "Perbandingan SlopSwipe dengan aplikasi Android lain seputar video AI dan feed video pendek, fitur demi fitur, hanya fakta.",
+        "vsDescription": "{name} dan {other} dibandingkan di Android, fitur demi fitur: aplikasi resmi, lewati otomatis, label dan kata kunci AI, daftar, urungkan, privasi, dan harga.",
+        "vsIntro": "Keduanya berurusan dengan apa yang kamu lihat di feed video pendek di Android. Berikut perbedaannya, fitur demi fitur."
       }
     }
   }

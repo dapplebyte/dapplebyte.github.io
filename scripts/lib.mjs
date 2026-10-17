@@ -40,6 +40,13 @@ export function localProducts() {
  * app has no translation for that locale (the locale is skipped, which is not an error).
  */
 const LOCALE_OVERRIDES = {
+  /**
+   * SlopSwipe: the app's Portuguese is `values-pt` (the site's pt-br) and its Simplified Chinese is `values-b+zh+Hans`
+   * (the site's zh-cn). Its fastlane folders use the default names (es-ES for the site's es, not es-419).
+   */
+  slopswipe: {
+    android: { 'pt-br': 'values-pt', 'zh-cn': 'values-b+zh+Hans' },
+  },
   /** Apk Extractor: the app's Portuguese is `values-pt` (the site's pt-br); every other locale uses the default folders. */
   'apk-extractor': {
     android: { 'pt-br': 'values-pt' },
@@ -65,9 +72,23 @@ export function androidValues(slug, locale) {
   return locale.slug in map ? map[locale.slug] : locale.android;
 }
 
+/**
+ * Write generated content as pretty JSON. When the file already exists and only its `extractedAt` would change,
+ * the old date is kept, so re-running the extract on another day leaves unchanged outputs untouched and
+ * "Last updated" on the site reflects a real change of the copy.
+ */
 export function writeJson(relPath, data) {
   const file = join(ROOT, relPath);
   mkdirSync(dirname(file), { recursive: true });
+  if (data && typeof data === 'object' && 'extractedAt' in data && existsSync(file)) {
+    try {
+      const old = JSON.parse(readFileSync(file, 'utf8'));
+      const same = JSON.stringify({ ...old, extractedAt: undefined }) === JSON.stringify({ ...data, extractedAt: undefined });
+      if (same && typeof old.extractedAt === 'string') data = { ...data, extractedAt: old.extractedAt };
+    } catch {
+      // Unreadable old file: overwrite it.
+    }
+  }
   writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
   return file;
 }

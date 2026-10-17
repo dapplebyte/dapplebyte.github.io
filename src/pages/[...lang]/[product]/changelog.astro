@@ -7,10 +7,13 @@ import { useT, formatDate } from '../../../i18n/t';
 import { getProduct, localesFor, liveProducts } from '../../../lib/content';
 import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../lib/jsonld';
 
+// A product with no published release yet (not on Google Play) has no changelog files: its page still exists, in the
+// locales of its store copy, so the footer and product links work, but it says so, is noindex and stays out of the sitemap.
 export async function getStaticPaths() {
   const out = [];
   for (const p of await liveProducts()) {
-    const alternates = await localesFor('changelog', p.slug);
+    const released = await localesFor('changelog', p.slug);
+    const alternates = released.length ? released : await localesFor('productCopy', p.slug);
     for (const locale of alternates) {
       out.push({ params: { lang: locale === DEFAULT_LOCALE ? undefined : locale, product: p.slug }, props: { locale, slug: p.slug, alternates } });
     }
@@ -22,7 +25,7 @@ const { locale, slug, alternates } = Astro.props;
 const { t } = useT(locale);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
-const log = (await getEntry('changelog', `${slug}/${locale}`))!.data;
+const entries = (await getEntry('changelog', `${slug}/${locale}`))?.data.entries ?? [];
 const path = `/${slug}/changelog/`;
 const url = new URL(localePath(locale, path), SITE).href;
 const title = t('changelog.title', { name: product.name });
@@ -30,7 +33,7 @@ const description = t('changelog.description', { name: product.name });
 const jsonLd = graph(
   organization(),
   website(loc.lang),
-  webPage(url, title, description, loc.lang, log.entries[0]?.date),
+  webPage(url, title, description, loc.lang, entries[0]?.date),
   breadcrumbs([
     { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
     { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
@@ -39,26 +42,32 @@ const jsonLd = graph(
 );
 ---
 
-<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} noindex={entries.length === 0} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
   <ProductNav locale={locale} product={product} current="changelog" />
   <section class="wrap section">
     <div class="mono mono-accent" style="margin-bottom:14px">{product.name}</div>
     <h1 class="h-page">{title}</h1>
-    <p class="lede" style="margin-top:16px">{description} <a href={`/${slug}/changelog.xml`} class="mono" style="text-decoration:none">{t('changelog.feed')}</a></p>
+    {entries.length > 0 ? (
+      <p class="lede" style="margin-top:16px">{description} <a href={`/${slug}/changelog.xml`} class="mono" style="text-decoration:none">{t('changelog.feed')}</a></p>
+    ) : (
+      <p class="lede" style="margin-top:16px">{t('changelog.empty', { name: product.name })}</p>
+    )}
   </section>
-  <section class="wrap section">
-    <div class="releases">
-      {log.entries.map((e) => (
-        <article class="release" id={`v${e.name.replace(/\./g, '-')}`}>
-          <div class="release-meta">
-            <h2 class="h-sub">{t('changelog.version', { version: e.name })}</h2>
-            <div class="mono">{e.date ? formatDate(locale, e.date, loc.lang) : ''} · {t('changelog.build', { code: e.code })}</div>
-          </div>
-          <ul>{e.items.map((i) => <li>{i}</li>)}</ul>
-        </article>
-      ))}
-    </div>
-  </section>
+  {entries.length > 0 && (
+    <section class="wrap section">
+      <div class="releases">
+        {entries.map((e) => (
+          <article class="release" id={`v${e.name.replace(/\./g, '-')}`}>
+            <div class="release-meta">
+              <h2 class="h-sub">{t('changelog.version', { version: e.name })}</h2>
+              <div class="mono">{e.date ? formatDate(locale, e.date, loc.lang) : ''} · {t('changelog.build', { code: e.code })}</div>
+            </div>
+            <ul>{e.items.map((i) => <li>{i}</li>)}</ul>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
 </Base>
 
 <style>

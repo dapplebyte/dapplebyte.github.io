@@ -1,11 +1,13 @@
-// English privacy policy HTML (in the product project) → src/content/privacy/<slug>/en.json
+// Privacy policy HTML (in the product project) → src/content/privacy/<slug>/<locale>.json
 // Keeps the body HTML (sections, tables, callout), drops the page header, table of contents
-// and "back to top" links, which the website renders in its own way.
+// and "back to top" links, which the website renders in its own way. Most policies are English only (en.json);
+// a `bilingual` policy also yields its translation (SlopSwipe: zh-tw.json).
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { ROOT, localProducts, slugify, writeJson } from './lib.mjs';
+import { ROOT, localProducts, parseStrings, slugify, writeJson } from './lib.mjs';
 
 const SOURCE = {
+  slopswipe: { file: 'backend/firebase/site/privacy/index.html', format: 'bilingual', firstLocale: 'zh-tw', appealUrlFrom: 'app/src/main/res/values/backend.xml' },
   'apk-extractor': { file: 'policy/AppExtractorPrivacyPolicyV915.html', format: 'wrap' },
   relaypad: { file: 'docs/privacy-policy.html', format: 'wrap' },
   'gamepad-pro': { file: 'docs/privacy/gamePadProV1007.html', format: 'main' },
@@ -99,6 +101,73 @@ function parseWrap(html, contactEmail) {
   return { effectiveDate, body };
 }
 
+const EMAIL = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g;
+
+/**
+ * SlopSwipe's policy: one page inside <main>, the translation first (Traditional Chinese) and then the English text from
+ * `<h1 id="en">`, after an <hr>. Each half loses its <h1> and its date line (`<p class="muted">`, which in the first half
+ * also links "English version below"). The <h2>s are numbered ("1. What the accessibility service reads"): the number is
+ * dropped, because the site's table of contents is an ordered list, and both halves get the ids of the English headings
+ * by position, so a section has the same anchor in every language. `.summary` becomes the site's callout, every table
+ * gets the scroll wrapper (the policy's own `.wrap` div is dropped), every email address becomes the product's
+ * `contactEmail`, and the relative link to the creator appeal page (`../appeal/`, relative to where the app hosts its policy) becomes
+ * `appealHref`.
+ */
+function parseBilingual(html, contactEmail, appealHref) {
+  const main = html.match(/<main[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? '';
+  const split = main.indexOf('<h1 id="en"');
+  if (split < 0) return { effectiveDate: '', parts: [] };
+  const halves = [main.slice(0, split), main.slice(split)];
+  const effective = halves[1].match(/<p class="muted">\s*Effective\s+([^<]+?)\s*<\/p>/)?.[1];
+  const date = effective ? new Date(`${effective} UTC`) : null;
+  const effectiveDate = date && !Number.isNaN(date.getTime()) ? date.toISOString().slice(0, 10) : '';
+  const headings = (h) => [...h.matchAll(/<h2>([\s\S]*?)<\/h2>/g)].map((m) => m[1].replace(/^\s*\d+\.\s*/, ''));
+  const used = new Set();
+  const ids = headings(halves[1]).map((title) => {
+    let id = slugify(title.replace(/<[^>]+>/g, '')) || 'section';
+    while (used.has(id)) id += '-2';
+    used.add(id);
+    return id;
+  });
+  const parts = halves.map((half) => {
+    let n = 0;
+    const body = half
+      .replace(/<h1[^>]*>[\s\S]*?<\/h1>/, '')
+      .replace(/<p class="muted">[\s\S]*?<\/p>/, '')
+      .replace(/<hr\s*\/?>/g, '')
+      .replace(/<h2>([\s\S]*?)<\/h2>/g, (_, inner) => `<h2 id="${ids[n++] ?? `section-${n}`}">${inner.replace(/^\s*\d+\.\s*/, '')}</h2>`)
+      .replace(/<div class="summary">/g, '<div class="callout">')
+      .replace(/<div class="wrap">\s*<table>/g, '<table>')
+      .replace(/<\/table>\s*<\/div>/g, '</table>')
+      .replace(/<table>/g, '<div class="table-scroll">\n<table>')
+      .replace(/<\/table>/g, '</table>\n</div>')
+      .replace(EMAIL, contactEmail)
+      .replace(/href="\.\.\/appeal\/"/g, `href="${appealHref}"`)
+      .replace(/^ {2}/gm, '')
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+    return { body, headingCount: n };
+  });
+  if (parts[0].headingCount !== ids.length) {
+    console.error(`[privacy] bilingual policy: ${parts[0].headingCount} headings in the translation, ${ids.length} in English; anchors would not line up`);
+    process.exitCode = 1;
+  }
+  return { effectiveDate, parts: parts.map((p) => p.body) };
+}
+
+/**
+ * The absolute address of the creator appeal page: `appeal_url` in the product's backend.xml. When that is missing or
+ * a placeholder value, appeals go to the contact address instead, with a subject line, and a warning is printed;
+ * re-running the extract once backend.xml has the real address switches the link over.
+ */
+function appealHref(slug, root, src, contactEmail) {
+  const file = join(root, src.appealUrlFrom);
+  const url = existsSync(file) ? parseStrings(readFileSync(file, 'utf8')).get('appeal_url') : undefined;
+  if (url && /^https:\/\//.test(url) && !/placeholder/i.test(url)) return url;
+  console.warn(`[privacy] ${slug}: appeal_url in ${src.appealUrlFrom} is ${url ? 'still a placeholder' : 'missing'}; the policy's appeal link points to ${contactEmail} for now`);
+  return `mailto:${contactEmail}?subject=SlopSwipe%20creator%20appeal`;
+}
+
 const products = localProducts();
 for (const [slug, root] of Object.entries(products)) {
   const src = SOURCE[slug];
@@ -114,6 +183,19 @@ for (const [slug, root] of Object.entries(products)) {
   if (!contactEmail) {
     console.error(`[privacy] ${slug}: contactEmail missing in src/content/products/${slug}.json`);
     process.exitCode = 1;
+    continue;
+  }
+  if (src.format === 'bilingual') {
+    const { effectiveDate, parts } = parseBilingual(html, contactEmail, appealHref(slug, root, src, contactEmail));
+    if (parts.length !== 2 || parts.some((p) => !p) || !effectiveDate) {
+      console.error(`[privacy] ${slug}: could not parse the two halves or the effective date`);
+      process.exitCode = 1;
+      continue;
+    }
+    const [translated, english] = parts;
+    writeJson(`src/content/privacy/${slug}/en.json`, { slug, locale: 'en', effectiveDate, governingLocale: 'en', html: english });
+    writeJson(`src/content/privacy/${slug}/${src.firstLocale}.json`, { slug, locale: src.firstLocale, effectiveDate, governingLocale: 'en', html: translated });
+    console.log(`[privacy] ${slug}: en + ${src.firstLocale}, effective ${effectiveDate}, ${english.length} + ${translated.length} chars`);
     continue;
   }
   const { effectiveDate, body } = src.format === 'main' ? parseMain(html, contactEmail) : src.format === 'body' ? parseBody(html, contactEmail) : parseWrap(html, contactEmail);

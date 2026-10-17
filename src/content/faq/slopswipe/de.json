@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "de",
+  "title": "Häufige Fragen",
+  "intro": "Die Fragen, die uns am häufigsten erreichen, und was du tun kannst. Tippe auf eine Frage, um sie aufzuklappen.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Einstieg und Berechtigungen",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "Warum braucht SlopSwipe die Bedienungshilfe?",
+          "a": [
+            "Nur so kann eine Android-App lesen, was auf dem Bildschirm steht, und für dich wischen. SlopSwipe liest in Shorts, TikTok und Reels nur Titel, Kontonamen und Labels, entscheidet auf deinem Handy und wischt nach oben, wenn eine deiner Regeln zutrifft. Es ist kein Hilfsmittel für Menschen mit Behinderung, und nichts von deinem Bildschirm wird hochgeladen."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "Der Schalter der Bedienungshilfe ist ausgegraut oder zeigt „Eingeschränkte Einstellung“.",
+          "a": [
+            "Das passiert ab Android 13, wenn die App als APK statt über Google Play installiert wurde. Öffne App-Info → ⋮ oben rechts → Eingeschränkte Einstellungen zulassen und schalte den Dienst danach erneut ein. Fehlt die Option, tippe zuerst einmal in der Liste der Bedienungshilfen auf SlopSwipe."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "Start meldet, dass Android die Bedienungshilfe deaktiviert hat, und das passiert immer wieder.",
+          "a": [
+            "Systemupdates, Akku-Aufräumen und Neustarts können sie ausschalten. Tippe im Tab Start auf „Beheben“ oder öffne Einstellungen → Aktiv bleiben → Bedienungshilfe. Damit es nicht wieder passiert, erledige die Schritte unter „Akku und Hintergrund“ für deine Handymarke."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "Wozu sind die Schritte unter „Akku und Hintergrund“?",
+          "a": [
+            "Manche Marken (Xiaomi und HyperOS, Samsung, OPPO, vivo, Huawei) beenden Hintergrunddienste, um Strom zu sparen, und die Bedienungshilfe gleich mit. Die Anleitung zeigt die Schritte für deine Marke: Akku-Optimierung, Autostart und die App in „Letzte Apps“ sperren. SlopSwipe fordert selbst nie die Berechtigung an, von der Akku-Optimierung ausgenommen zu werden."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "Es heißt, der Erweiterte Schutz hat den Zugriff auf die Bedienungshilfe entfernt.",
+          "a": [
+            "Der Erweiterte Schutz von Android entzieht Apps, die keine Hilfsmittel für Barrierefreiheit sind, den Zugriff auf die Bedienungshilfen. Solange er an ist, kann das automatische Überspringen nicht laufen. Du kannst ihn anlassen und stattdessen über den Tab Anleitungen die Einstellungen der Plattformen selbst nutzen, oder ihn in den Systemeinstellungen ausschalten. Wir empfehlen keins von beiden; das entscheidest du."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "Warum möchte die App Benachrichtigungen senden?",
+          "a": [
+            "Für die Status-Benachrichtigung mit den Pause-Buttons, den Hinweis, wenn der Dienst ausgeschaltet wurde, und die Wochenübersicht. Lehnst du ab, funktioniert alles andere trotzdem. Jede Benachrichtigung lässt sich außerdem einzeln unter Einstellungen → Aktiv bleiben ausschalten."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "Warum ist ständig eine SlopSwipe-Benachrichtigung da?",
+          "a": [
+            "Das ist die Status-Benachrichtigung: Sie ist lautlos und lässt dich aus der Benachrichtigungsleiste pausieren. Ausschalten kannst du sie unter Einstellungen → Aktiv bleiben → Status-Benachrichtigung. Der Dienst läuft auch ohne sie weiter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Überspringen und Regeln",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "Wie entscheidet SlopSwipe, dass ein Video KI ist?",
+          "a": [
+            "Mit festen Regeln, nicht mit einem KI-Modell: das KI-Label der Plattform, eindeutige KI-Keywords im Titel oder in Hashtags, deine Sperrliste, deine Keywords und die Liste aus Nutzermeldungen. Bei jedem Überspringen siehst du die Hauptregel, und im Verlauf stehen alle Regeln, die zugetroffen haben. Jede Regel kannst du unter Einstellungen → Regeln → Regeln einzeln schalten deaktivieren."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "Was ändern Streng, Normal und Locker?",
+          "a": [
+            "Nur, wie Treffer mit mittlerer und geringer Sicherheit behandelt werden, etwa ein einzelner vager Hashtag wie #ai. Streng überspringt sie alle, Normal überspringt mittlere und zeigt bei geringen nur einen Hinweis, Locker zeigt bei mittleren einen Hinweis und ignoriert geringe. Plattform-Labels und deine eigenen Listen werden auf jeder Stufe übersprungen."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "Was sind „Leichte KI-Inhalte“?",
+          "a": [
+            "Videos von Menschen, in denen etwas KI steckt, etwa eine KI-Sprecherstimme oder ein KI-gestützter Schnitt. Standardmäßig werden sie übersprungen. Unter Einstellungen → Regeln → Leichte KI-Inhalte kannst du Hinweis oder Ignorieren wählen. Die Empfindlichkeit wirkt sich auf diese Einstellung nicht aus."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "Eine Leiste zeigte „Möglicherweise ein KI-Video“, aber nichts wurde übersprungen.",
+          "a": [
+            "Das ist ein Hinweis: Bei weniger sicheren Treffern zeigt SlopSwipe die Leiste nur ein paar Sekunden lang und überspringt erst, wenn du auf „Überspringen“ tippst. Welche Treffer einen Hinweis statt eines Überspringens bekommen, hängt von deiner Empfindlichkeit ab; bei Streng werden sie automatisch übersprungen."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "Es hat ein Video übersprungen, das ich sehen wollte.",
+          "a": [
+            "Wisch einfach zurück; ein Video, zu dem du zurückkehrst, wird nicht noch einmal bewertet. Später kannst du im Verlauf auf den Eintrag tippen und „Als Fehler markieren“ oder „Zur Erlaubnisliste“ wählen. Konten auf der Erlaubnisliste werden nie übersprungen. Für einen „Rückgängig“-Button nach jedem Überspringen schalte unter Einstellungen → Hinweise und Button „Rückgängig-Button nach dem Überspringen“ ein."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "Es wird gar nichts übersprungen.",
+          "a": [
+            "Prüf der Reihe nach: Start zeigt „Aktiv“; die Plattform ist unter Einstellungen → Wo es wirkt eingeschaltet (Reels ist standardmäßig aus); du bist im Shorts-Player oder im TikTok-Feed „Für dich“, nicht auf der Startseite, in der Suche, bei „Folge ich“ oder in einem Livestream; und das Video trifft wirklich eine Regel, denn die meisten Videos sind keine KI. Unter „Was wir lesen“ siehst du genau, was zuletzt gelesen wurde."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "Überspringt es Werbung?",
+          "a": [
+            "Nein, mit Absicht. Werbung und gesponserte Videos werden nie angetastet oder mitgezählt, selbst wenn sie ein KI-Label tragen. Wisch selbst daran vorbei."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "Wo genau greift es ein?",
+          "a": [
+            "Nur im Shorts-Player, im TikTok-Feed „Für dich“ und, wenn eingeschaltet, in Reels. Startseite, Suchergebnisse, Kommentare, lange Videos, Livestreams und der TikTok-Feed „Folge ich“ bleiben unberührt, damit das bleibt, wonach du gesucht hast. Um „Folge ich“ einzubeziehen, schalte Einstellungen → Wo es wirkt → Auch bei Konten, denen ich folge ein."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "Kann es früher wischen oder etwas länger warten?",
+          "a": [
+            "Ja: Einstellungen → Regeln → Wegwisch-Tempo, von sofort bis 2 Sekunden. Durch die kurze Standardpause siehst du, was übersprungen wird."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "Start meldet, dass sich eine Plattform nach einem Update geändert hat und Aktionen gestoppt sind.",
+          "a": [
+            "Die Plattform-App hat ihr Layout geändert, und der aktuelle Regelsatz kann es nicht lesen. Deshalb hört SlopSwipe dort auf, statt blind zu wischen. Regelsätze werden beim App-Start und alle 6 Stunden aktualisiert; tippe auf „Nach Regel-Updates suchen“, um es sofort zu versuchen. Bis dahin funktionieren die Anleitungen weiter."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "Nach vielen Überspringen am Stück zeigt es nur noch Hinweise.",
+          "a": [
+            "Ein Sicherheitsstopp. Zehnmal am Stück übersprungen, ohne dass etwas 3 Sekunden lang angesehen wurde: Das heißt meist, dass eine Regel oder das Plattform-Layout nicht stimmt. Deshalb zeigt diese Plattform für den Rest der Sitzung nur noch Hinweise. Öffne die Plattform-App erneut, dann ist alles wieder normal. Mach Falsches rückgängig, damit es als Fehler zählt."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "Was macht der schwebende Button „Das ist KI“?",
+          "a": [
+            "Er überspringt das aktuelle Video sofort und setzt das Konto standardmäßig auf deine Sperrliste; „Rückgängig“ wischt zurück und entfernt den Eintrag wieder. Bei TikTok steht am Video ein Anzeigename, deshalb werden Konten mit demselben Namen ebenfalls gesperrt; schalte „Auch das Konto sperren“ aus, um nur das Video zu überspringen. Ausblenden, in der Größe ändern oder verschieben kannst du den Button unter Einstellungen → Hinweise und Button."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Listen, Keywords und Meldungen",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "Wie funktionieren Sperrliste und Erlaubnisliste?",
+          "a": [
+            "Sperrliste: wird immer übersprungen. Erlaubnisliste: wird nie übersprungen, auch wenn das Konto auf beiden steht. Konten fügst du über einen Eintrag im Verlauf, mit dem schwebenden Button oder durch Eintippen des Namens unter Einstellungen → Listen hinzu (bei TikTok der Anzeigename, bei YouTube und Instagram das @Handle). Mit „Listen exportieren“ und „Listen importieren“ nimmst du sie auf ein anderes Handy mit."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "Kann ich eigene Keywords hinzufügen?",
+          "a": [
+            "Ja. Einstellungen → Listen → Eigene Keywords; jedes Wort steht auf Überspringen oder Hinweis, und ein Wort mit # am Anfang trifft nur Hashtags. Auch die Regelvorschläge auf Start schlagen Wörter aus Videos vor, die du als KI markiert hast."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "Was sind Regelvorschläge?",
+          "a": [
+            "Einfaches Zählen auf deinem Handy, kein Lernen. Ein Hashtag, der 3-mal in Videos auftaucht, die du als KI markiert hast, wird zum Keyword-Vorschlag; ein Wort, bei dem du zweimal ein Überspringen rückgängig gemacht hast, wird zum Vorschlag, es zu ignorieren; viele Rückgängig-Aktionen führen zum Vorschlag einer lockereren Empfindlichkeit. Nichts ändert sich, bevor du zustimmst, und die Zählungen verlassen nie dein Handy."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "Was senden Anonyme Meldungen?",
+          "a": [
+            "Standardmäßig aus. Wenn sie an sind, sendet ein Tipp auf „Das ist KI“ die Plattform, den Kontonamen des Creators, den Grund und die zutreffenden Regeln, dazu eine zufällige Meldungs-ID, die auf deinem Handy erzeugt wird. Nichts über dein Konto oder den Bildschirm. Ein Mensch prüft jedes Konto, bevor es in die gemeinsame Liste kommt. Unter „Meine Meldungen“ verfolgst du jede Meldung und kannst sie dort jederzeit löschen."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "Was sind Regelpakete?",
+          "a": [
+            "Zusätzliche Regelsätze zu einem Thema, etwa KI-Zeichentrick für Kinder oder KI-Fake-News. Sie wirken erst, wenn du sie unter Einstellungen → Listen → Regelpakete abonnierst, werden zusammen mit den Regeln aktualisiert, und ihre Konten werden vorher von einem Menschen geprüft."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Datenschutz und Daten",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "Was genau liest es? Wird etwas hochgeladen?",
+          "a": [
+            "Nur Text auf dem Bildschirm in den drei Apps: Titel, Kontoname, Hashtags, Labels und ob die Seite Werbung ist. Jede Entscheidung fällt auf deinem Handy. Keine Bildschirmaufnahme, keine Screenshots, nichts von deinem Bildschirm wird hochgeladen, und du brauchst kein Konto. Unter „Was wir lesen“ siehst du, was zuletzt gelesen wurde."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "Was verlässt dann mein Handy?",
+          "a": [
+            "Nur Dinge, die du unter Einstellungen → Datenschutz ausschalten kannst: Anonyme Statistik (Nutzungsereignisse, kein Bildschirminhalt), Absturzberichte, Meldungen zu Erkennungsfehlern (nur die App-Version) und Anonyme Meldungen, falls du sie eingeschaltet hast. Downloads von Regelsätzen enthalten nichts über dich."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "Wie lange bleibt der Verlauf gespeichert? Wie lösche ich alles?",
+          "a": [
+            "Der Verlauf übersprungener Videos bleibt 30 Tage auf deinem Handy und wird dann gelöscht. Einstellungen → Datenschutz → Alle Daten löschen entfernt Verlauf, Statistik, beide Listen und die Zähler für Vorschläge; deine Einstellungen bleiben erhalten. Bereits gesendete Meldungen löschst du unter „Meine Meldungen“."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "Weitere Funktionen",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "Wie pausiere ich es für eine Weile?",
+          "a": [
+            "Tippe oben auf Start auf den Pause-Button, nutze die Status-Benachrichtigung oder füge die SlopSwipe-Kachel zu den Schnelleinstellungen hinzu. Wähle 30 Minuten, bis morgen oder bis du fortsetzt. Während der Pause wird nichts übersprungen und es gibt keine Hinweise."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "Kann es nachts strenger sein?",
+          "a": [
+            "Ja, mit dem Zeitplan: Unter Einstellungen → Regeln → Zeitplan legst du ein tägliches Zeitfenster mit eigener Empfindlichkeit fest, zum Beispiel 23:00 bis 07:00 auf Streng. Start zeigt an, wenn der Zeitplan aktiv ist."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "Was ist der Elternmodus? Ich habe die PIN vergessen.",
+          "a": [
+            "Eine PIN sperrt Einstellungen, Listen und Pausieren, die Empfindlichkeit bleibt auf Streng, und die Montagsübersicht ist der Bericht. Die PIN verlässt nie das Handy und wird nur als Hash gespeichert. PIN vergessen: Android-Einstellungen → Apps → SlopSwipe → Daten löschen schaltet den Elternmodus aus und löscht auch Verlauf und Listen."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "Was ist der Tab Wohlbefinden?",
+          "a": [
+            "Ein kleines optionales Modul: wie lange du auf jeder Plattform scrollst, ein tägliches Zeitlimit, eine Wisch-Erinnerung, eine Pause vor dem Öffnen, Schlafenszeit und Fokuszeit. Jedes Limit hat einen Button „Heute aus“. Ein- oder ausschalten kannst du das Modul unter Einstellungen → Wohlbefinden."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "Gibt es ein Widget oder eine Kachel für die Schnelleinstellungen?",
+          "a": [
+            "Beides. Das Widget zeigt, wie viel heute übersprungen wurde: Halte den Startbildschirm gedrückt, wähle „Widgets“ und such nach SlopSwipe. Die Kachel pausiert SlopSwipe: Bearbeite deine Schnelleinstellungen und füge die SlopSwipe-Kachel hinzu."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "Wofür ist der Tab Anleitungen? Braucht er die Berechtigung?",
+          "a": [
+            "Keine Berechtigung nötig. Die Anleitungen führen dich durch die Einstellungen der Plattformen selbst, etwa KI-Inhalte in TikTok reduzieren, Keywords filtern oder YouTube sagen, dass es einen Kanal nicht empfehlen soll, dazu Tipps, wie du KI-Videos erkennst. Sie wirken für sich allein und machen das automatische Überspringen weniger nötig."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Wie ändere ich die Sprache?",
+          "a": [
+            "Ab Android 13: Einstellungen → Darstellung → Sprache. Ältere Versionen folgen der Systemsprache. Es gibt 41 Sprachen, Englisch ist die Ausweichsprache. Die Übersetzungen hat Claude erstellt, Muttersprachler haben sie noch nicht geprüft. Melde uns bitte alles, was seltsam klingt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Kompatibilität und Support",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "Instagram Reels wird nicht übersprungen.",
+          "a": [
+            "Reels ist in dieser Version standardmäßig aus, weil die Texte für Werbung und Labels dort bisher nur auf Englisch geprüft wurden. Schalte es unter Einstellungen → Wo es wirkt ein, dann läuft es mit dem aktuellen Regelsatz."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "Welche Handys und Android-Versionen werden unterstützt?",
+          "a": [
+            "Android 8.0 und neuer, auf jedem Handy oder Tablet mit der offiziellen YouTube-, TikTok- oder Instagram-App. Modifizierte oder Lite-Versionen dieser Apps lassen sich eventuell nicht lesen, und bei manchen Marken braucht es die Schritte unter „Akku und Hintergrund“, damit der Dienst aktiv bleibt."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Wie melde ich ein Problem oder mache einen Vorschlag?",
+          "a": [
+            "Einstellungen → Hilfe und Feedback → Feedback senden, oder über den Button unten. Handymodell, App-Version, Dienststatus und Regelsatz-Version hängen automatisch dran. Bei einem falschen Überspringen gib den Kontonamen so an, wie er im Verlauf steht."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

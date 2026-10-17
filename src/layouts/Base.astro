@@ -257,6 +257,28 @@ const accentStyle = product || accent ? productStyle({ accent: accent ?? product
   .button-studio:hover {
     color: var(--bg);
   }
+  /* In the button's place for an app that is not on Google Play yet: a label, not a link. */
+  .soon {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 16px;
+    border: 1px dashed color-mix(in srgb, var(--product) 60%, transparent);
+    color: var(--product);
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: default;
+  }
+  .soon::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--product);
+    flex: 0 0 auto;
+  }
   .link-plain {
     color: var(--fg);
     text-decoration: none;

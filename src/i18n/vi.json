@@ -21,6 +21,7 @@
   },
   "cta": {
     "getOnPlay": "Tải {name} trên Google Play",
+    "comingSoon": "Sắp có trên Google Play",
     "readSource": "Xem mã nguồn",
     "about": "Về {name}",
     "learnMore": "Tìm hiểu thêm"
@@ -47,7 +48,7 @@
   },
   "home": {
     "title": "DappleByte · Ứng dụng Android độc lập",
-    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker; JoyLink, ứng dụng biến điện thoại thành tay cầm Bluetooth, bàn di chuột và điều khiển TV; và Gamepad Tester Pro, ứng dụng kiểm tra tay cầm xem có bị trôi cần, trễ đầu vào hay liệt nút không. DappleByte còn làm Apk Extractor, ứng dụng trích xuất APK, sao lưu ứng dụng và cài XAPK giúp chuyển ứng dụng sang điện thoại mới.",
+    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker; JoyLink, ứng dụng biến điện thoại thành tay cầm Bluetooth, bàn di chuột và điều khiển TV; và Gamepad Tester Pro, ứng dụng kiểm tra tay cầm xem có bị trôi cần, trễ đầu vào hay liệt nút không. DappleByte còn làm Apk Extractor, ứng dụng trích xuất APK, sao lưu ứng dụng và cài XAPK giúp chuyển ứng dụng sang điện thoại mới. SlopSwipe, sắp có trên Google Play, tự vuốt qua video do AI tạo trên YouTube Shorts, TikTok và Instagram Reels, cho biết lý do mỗi lần bỏ qua và hoàn tác chỉ với một chạm.",
     "appsHeading": "Ứng dụng",
     "principlesHeading": "Cách chúng tôi làm việc",
     "principles": [
@@ -95,6 +96,7 @@
     "faqAll": "Tất cả câu hỏi",
     "getHeading": "Tải {name}",
     "getBody": "Có trên Google Play cho Android.",
+    "getBodySoon": "Sắp có trên Google Play cho Android.",
     "getBodySource": "Mã nguồn được công khai theo {license}.",
     "requiresLabel": "Yêu cầu",
     "videoHeading": "Xem ứng dụng hoạt động",
@@ -227,7 +229,15 @@
       "batch-install": "Hàng đợi cài hàng loạt",
       "version-history": "Lịch sử phiên bản, quay về phiên bản cũ được",
       "device-migration": "Chuyển ứng dụng sang điện thoại mới qua Wi-Fi",
-      "wifi-transfer": "Truyền ứng dụng giữa các thiết bị qua Wi-Fi hoặc trình duyệt"
+      "wifi-transfer": "Truyền ứng dụng giữa các thiết bị qua Wi-Fi hoặc trình duyệt",
+      "official-apps": "Hoạt động ngay trong ứng dụng YouTube, TikTok và Instagram chính thức",
+      "auto-skip-ai": "Tự động bỏ qua video do AI tạo",
+      "platform-ai-labels": "Dùng nhãn AI của chính nền tảng",
+      "ai-keywords": "Quy tắc từ khóa và hashtag AI",
+      "block-allow-lists": "Danh sách chặn và danh sách cho phép của riêng bạn",
+      "skip-reason-undo": "Cho biết vì sao mỗi video bị bỏ qua, hoàn tác bằng một chạm",
+      "on-device": "Nội dung màn hình được kiểm tra trên điện thoại, không bao giờ tải lên",
+      "screen-time-limits": "Giới hạn thời gian mỗi ngày và nhắc trước giờ ngủ"
     },
     "values": {
       "yes": "Có",
@@ -247,7 +257,8 @@
     "description": "Mọi bản phát hành {name} cho Android kèm những thay đổi, mới nhất ở trên cùng.",
     "version": "Phiên bản {version}",
     "build": "bản dựng {code}",
-    "feed": "Nguồn cấp Atom"
+    "feed": "Nguồn cấp Atom",
+    "empty": "Chưa có phiên bản nào. {name} sắp có trên Google Play, và ghi chú phát hành sẽ xuất hiện ở đây."
   },
   "press": {
     "title": "Tài liệu báo chí về {name}",
@@ -285,7 +296,8 @@
   "trademarks": {
     "sony": "PlayStation, PS5 và PS4 là nhãn hiệu của Sony Interactive Entertainment Inc. {name} không liên kết với Sony và không được Sony chứng thực.",
     "hosts": "Windows và Xbox là nhãn hiệu của Microsoft; Mac, iPhone và iPad của Apple; PlayStation của Sony Interactive Entertainment; Nintendo Switch của Nintendo; Android, Android TV và Google TV của Google; Fire TV của Amazon; Steam của Valve; Raspberry Pi của Raspberry Pi Ltd. {name} không liên kết với và không được bất kỳ công ty nào trong số này chứng thực.",
-    "controllers": "Xbox là nhãn hiệu của Microsoft; PlayStation, DualShock và DualSense của Sony Interactive Entertainment; Nintendo Switch của Nintendo. {name} không liên kết với và không được bất kỳ công ty nào trong số này chứng thực."
+    "controllers": "Xbox là nhãn hiệu của Microsoft; PlayStation, DualShock và DualSense của Sony Interactive Entertainment; Nintendo Switch của Nintendo. {name} không liên kết với và không được bất kỳ công ty nào trong số này chứng thực.",
+    "video-apps": "YouTube, TikTok và Instagram là nhãn hiệu của chủ sở hữu tương ứng. {name} không liên kết với và không được các bên này xác nhận."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -638,6 +650,45 @@
         "description": "So sánh Apk Extractor với các ứng dụng trích xuất APK và sao lưu ứng dụng khác trên Android theo từng tính năng, chỉ nêu sự thật.",
         "vsDescription": "So sánh {name} và {other} trên Android theo từng tính năng: trích xuất APK, cài XAPK, cài hàng loạt, lịch sử phiên bản, chuyển ứng dụng sang điện thoại mới, truyền qua Wi-Fi, root, quảng cáo và giá.",
         "vsIntro": "Cả hai đều trích xuất ứng dụng đã cài thành tệp APK trên Android. Đây là những điểm khác nhau, từng tính năng một."
+      }
+    },
+    "slopswipe": {
+      "kicker": "Bộ lọc video AI · Trên thiết bị",
+      "heroPoints": [
+        "Vuốt qua video AI ngay trong ứng dụng YouTube Shorts và TikTok chính thức, cả Instagram Reels khi bạn bật",
+        "Mỗi lần bỏ qua đều hiện quy tắc đã khớp, như nhãn AI của nền tảng, từ khóa AI hay danh sách chặn của bạn, và hoàn tác bằng một chạm",
+        "Chữ trên màn hình được kiểm tra trên điện thoại, không bao giờ tải lên. Không cần tài khoản. Miễn phí, không quảng cáo, không mua trong ứng dụng"
+      ],
+      "faqDescription": "Giải đáp về SlopSwipe: bật dịch vụ trợ năng, cách bỏ qua và quy tắc hoạt động, danh sách và báo cáo, quyền riêng tư, lịch, chế độ phụ huynh và sức khỏe số, cùng các điện thoại được hỗ trợ.",
+      "faqNotFoundBody": "Gửi email cho chúng tôi kèm mẫu điện thoại, nền tảng và chuyện đã xảy ra; nếu bị bỏ qua nhầm, ghi thêm tên tài khoản như hiển thị trong Lịch sử. Mỗi tin nhắn đều có người đọc.",
+      "support": {
+        "beforeItems": [
+          "Mở FAQ trước. Cách bật dịch vụ trợ năng, bỏ qua, danh sách và quyền riêng tư đều đã có lời giải ở đó, dùng đúng từ ngữ như trong ứng dụng.",
+          "Nếu không có gì bị bỏ qua, kiểm tra theo thứ tự: Trang chủ hiện Đang chạy; nền tảng đã được bật trong Cài đặt → Phạm vi hoạt động (Instagram Reels mặc định tắt); bạn đang ở trình phát Shorts hoặc bảng tin Dành cho bạn của TikTok, không phải trang chủ, tìm kiếm hay Đã follow.",
+          "Mở Những gì chúng tôi đọc trong Cài đặt để xem chính xác nội dung SlopSwipe đọc gần nhất. Nếu Trang chủ báo Android đã tắt dịch vụ, chạm Sửa ngay rồi làm hết các bước Pin và chạy nền cho hãng điện thoại của bạn."
+        ],
+        "template": {
+          "phone": "Kiểu máy điện thoại:",
+          "android": "Phiên bản Android:",
+          "platform": "Nền tảng (YouTube Shorts / TikTok / Instagram Reels):",
+          "version": "Phiên bản SlopSwipe:",
+          "account": "Nếu bị bỏ qua nhầm: tên tài khoản như hiển thị trong Lịch sử:",
+          "what": "Chuyện gì đã xảy ra, từng bước:"
+        },
+        "refundBody": "SlopSwipe miễn phí, không quảng cáo và không mua trong ứng dụng, nên không có gì để mua và cũng không có gì để hoàn tiền."
+      },
+      "press": {
+        "description": "Thông tin, tư liệu và đoạn giới thiệu để viết về SlopSwipe, ứng dụng Android bỏ qua video do AI tạo trong bảng tin video ngắn.",
+        "boilerplate": "SlopSwipe là ứng dụng Android bỏ qua video do AI tạo ngay trong ứng dụng YouTube Shorts và TikTok chính thức, và cả Instagram Reels khi được bật. Khi một video khớp với quy tắc mà người dùng đã bật, như nhãn AI của chính nền tảng, một từ khóa AI hay một tài khoản trong danh sách chặn, ứng dụng vuốt sang video tiếp theo và ghi lại lý do, nên lần bỏ qua nhầm có thể hoàn tác bằng một chạm. Chữ trên màn hình được kiểm tra trên điện thoại, không bao giờ tải lên, và không cần tài khoản. Ứng dụng do DappleByte, một studio độc lập, phát triển.",
+        "priceValue": "Miễn phí, không quảng cáo, không mua trong ứng dụng.",
+        "assetScreenshots": "Ảnh chụp màn hình điện thoại, PNG, tiếng Anh (dọc 1080 × 1920)"
+      },
+      "videosDescription": "Video ngắn giới thiệu SlopSwipe trên điện thoại thật: cách bật, một lần bỏ qua trông thế nào, hoàn tác lần bỏ qua nhầm, danh sách chặn và danh sách cho phép.",
+      "privacyDescription": "SlopSwipe cho Android làm gì với dữ liệu của bạn: dịch vụ trợ năng đọc những gì, gì chỉ nằm trên điện thoại, gì được gửi đi và cách tắt; không cần tài khoản, không dùng mã nhận dạng quảng cáo.",
+      "compare": {
+        "description": "So sánh SlopSwipe với các ứng dụng Android khác liên quan đến video AI và bảng tin video ngắn, từng tính năng, chỉ nêu sự thật.",
+        "vsDescription": "So sánh {name} và {other} trên Android, từng tính năng: ứng dụng chính thức, tự động bỏ qua, nhãn và từ khóa AI, danh sách, hoàn tác, quyền riêng tư và giá.",
+        "vsIntro": "Cả hai đều xử lý những gì bạn thấy trong bảng tin video ngắn trên Android. Đây là điểm khác nhau, từng tính năng."
       }
     }
   }

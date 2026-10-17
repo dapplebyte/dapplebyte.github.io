@@ -28,6 +28,17 @@ function draftPaths() {
       if (!data.items || data.items.length === 0) out.push(`/${data.slug}/videos/`);
     }
   }
+  // Release notes of a product with no published release yet (no changelog entries): the page exists but is empty.
+  const productsDir = new URL('./src/content/products/', import.meta.url);
+  if (existsSync(productsDir)) {
+    for (const file of readdirSync(productsDir)) {
+      if (!file.endsWith('.json')) continue;
+      const { slug } = JSON.parse(readFileSync(new URL(file, productsDir), 'utf8'));
+      const log = new URL(`./src/content/changelog/${slug}/en.json`, import.meta.url);
+      const entries = existsSync(log) ? JSON.parse(readFileSync(log, 'utf8')).entries ?? [] : [];
+      if (entries.length === 0) out.push(`/${slug}/changelog/`);
+    }
+  }
   return out;
 }
 

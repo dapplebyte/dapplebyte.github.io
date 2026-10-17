@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "tr",
+  "title": "SSS",
+  "intro": "En sık sorulan sorular ve ne yapmanız gerektiği. Açmak için bir soruya dokunun.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Başlarken ve izinler",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "SlopSwipe neden erişilebilirlik hizmetine ihtiyaç duyuyor?",
+          "a": [
+            "Bir Android uygulamasının ekrandakileri okuyup sizin yerinize kaydırabilmesinin tek yolu bu. SlopSwipe, Shorts, TikTok ve Reels’teki yalnızca başlıkları, hesap adlarını ve etiketleri okur, kararı telefonunuzda verir ve kurallarınızdan biri eşleşince yukarı kaydırır. Engelliler için bir yardımcı araç değildir ve ekranınızdan hiçbir şey yüklenmez."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "Erişilebilirlik anahtarı gri görünüyor veya “Kısıtlanmış ayar” yazıyor.",
+          "a": [
+            "Bu, Android 13 ve sonrasında uygulama Google Play yerine bir APK’dan yüklendiğinde olur. Uygulama bilgileri → Sağ üstte ⋮ → Kısıtlanmış ayarlara izin ver adımlarını izleyin, ardından hizmeti yeniden açın. Seçenek görünmüyorsa önce Erişilebilirlik listesinde SlopSwipe’a bir kez dokunun."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "Ana sayfada Android’in erişilebilirlik hizmetini kapattığı yazıyor ve bu sürekli tekrarlanıyor.",
+          "a": [
+            "Sistem güncellemeleri, pil temizlikleri ve yeniden başlatmalar hizmeti kapatabilir. Ana sayfada Düzelt’e dokunun ya da Ayarlar → Sürekli çalışma → Erişilebilirlik hizmeti bölümüne gidin. Tekrar olmaması için telefon markanıza ait Pil ve arka plan adımlarını tamamlayın."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "Pil ve arka plan adımları ne işe yarıyor?",
+          "a": [
+            "Bazı markalar (Xiaomi ve HyperOS, Samsung, OPPO, vivo, Huawei) pil tasarrufu için arka plan hizmetlerini durdurur ve erişilebilirlik hizmeti de onlarla birlikte durur. Rehber, markanıza özel adımları gösterir: pil optimizasyonu, otomatik başlatma ve uygulamayı Son uygulamalarda kilitleme. SlopSwipe pil optimizasyonundan muafiyet iznini hiçbir zaman kendisi istemez."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "Gelişmiş Koruma’nın erişilebilirlik erişimini kaldırdığı yazıyor.",
+          "a": [
+            "Android’in Gelişmiş Koruma özelliği, yardımcı araç olmayan uygulamaların erişilebilirlik erişimini kaldırır; bu yüzden açıkken otomatik atlama çalışamaz. Açık bırakıp Rehberler sekmesinden platformların kendi ayarlarını kullanabilir ya da sistem ayarlarından kapatabilirsiniz. İkisinden birini önermiyoruz; karar sizin."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "Neden bildirim gönderme izni istiyor?",
+          "a": [
+            "Duraklatma düğmeli durum bildirimi, hizmet kapatıldığında gelen uyarı ve haftalık özet için. Hayır derseniz geri kalan her şey yine çalışır. Her bildirim Ayarlar → Sürekli çalışma bölümünden ayrı ayrı da kapatılabilir."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "Neden sürekli bir SlopSwipe bildirimi var?",
+          "a": [
+            "Bu, Durum bildirimi: sessizdir ve bildirim panelinden duraklatmanızı sağlar. Ayarlar → Sürekli çalışma → Durum bildirimi bölümünden kapatabilirsiniz. Hizmet onsuz da çalışmaya devam eder."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Atlama ve kurallar",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "SlopSwipe bir videonun AI olduğuna nasıl karar veriyor?",
+          "a": [
+            "Bir AI modeliyle değil, sabit kurallarla: platformun kendi AI etiketi, başlıkta veya hashtag’lerde açık AI anahtar kelimeleri, engel listeniz, anahtar kelimeleriniz ve kullanıcı raporları listesi. Her atlamada ana kural gösterilir, Geçmiş ise eşleşen tüm kuralları listeler. Herhangi bir kural Ayarlar → Kurallar → Kural bazında anahtarlar bölümünden kapatılabilir."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "Sıkı, Normal ve Esnek neyi değiştirir?",
+          "a": [
+            "Yalnızca orta ve düşük güvenli eşleşmelerin nasıl ele alındığını; örneğin #ai gibi tek başına belirsiz bir hashtag. Sıkı hepsini atlar, Normal ortaları atlar ve düşükler için yalnızca ipucu gösterir, Esnek ortalar için ipucu gösterir ve düşükleri yok sayar. Platform etiketleri ve kendi listeleriniz her seviyede atlanır."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "Hafif AI içeriği nedir?",
+          "a": [
+            "İnsanların çektiği ama içinde biraz AI bulunan videolar; örneğin AI seslendirme veya AI destekli kurgu. Varsayılan olarak atlanırlar. Ayarlar → Kurallar → Hafif AI içeriği bölümünden İpucu veya Yok say seçeneğini belirleyin. Hassasiyet bu ayarı etkilemez."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "“Muhtemelen bir AI videosu” çubuğu çıktı ama hiçbir şey atlanmadı.",
+          "a": [
+            "Bu bir ipucu: daha az kesin eşleşmelerde SlopSwipe çubuğu yalnızca birkaç saniye gösterir ve siz Atla’ya dokunursanız atlar. Hangi eşleşmelerin atlama yerine ipucu alacağı hassasiyetinize bağlıdır; Sıkı modunda bunlar otomatik atlanır."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "İzlemek istediğim bir videoyu atladı.",
+          "a": [
+            "Geri kaydırarak ona dönebilirsiniz; geri döndüğünüz video yeniden değerlendirilmez. Daha sonra Geçmiş’i açıp kayda dokunun ve Hata olarak işaretle ya da İzin listesine ekle’yi seçin. İzin listesindeki hesaplar asla atlanmaz. Her atlamadan sonra Geri al düğmesi isterseniz Ayarlar → İpuçları ve düğme → Atladıktan sonra Geri al düğmesi seçeneğini açın."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "Hiçbir şey atlanmıyor.",
+          "a": [
+            "Şu sırayla kontrol edin: Ana sayfada Çalışıyor yazıyor mu; platform Ayarlar → Çalıştığı yerler bölümünde açık mı (Reels varsayılan olarak kapalıdır); ana sayfada, aramada, Takip Edilenler’de veya canlı yayında değil de Shorts oynatıcısında ya da TikTok Sana Özel akışında mısınız; ve video gerçekten bir kurala uyuyor mu, çünkü videoların çoğu AI değildir. Neleri okuyoruz, en son tam olarak neyin okunduğunu gösterir."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "Reklamları atlıyor mu?",
+          "a": [
+            "Hayır, bilerek. Reklamlara ve sponsorlu videolara AI etiketi taşısalar bile asla dokunulmaz ve sayılmazlar. Onları kendiniz geçin."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "Tam olarak nerede çalışıyor?",
+          "a": [
+            "Yalnızca Shorts oynatıcısında, TikTok Sana Özel akışında ve açıksa Reels’te. Ana sayfa, arama sonuçları, yorumlar, uzun videolar, canlı yayınlar ve TikTok Takip Edilenler akışına dokunulmaz; böylece kendiniz aradığınız şeyler yerinde kalır. Takip Edilenler’i de dahil etmek için Ayarlar → Çalıştığı yerler → Takip ettiğim hesaplarda da çalışsın seçeneğini açın."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "Daha hızlı kaydırabilir mi, ya da biraz daha bekleyebilir mi?",
+          "a": [
+            "Evet: Ayarlar → Kurallar → Kaydırma hızı; Hemen ile 2 saniye arasında. Varsayılandaki kısa bekleme, neyin atlandığını görmenizi sağlar."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "Ana sayfada bir platformun güncellemeden sonra değiştiği ve işlemlerin durdurulduğu yazıyor.",
+          "a": [
+            "Platform uygulaması düzenini değiştirdi ve mevcut kural seti onu okuyamıyor; SlopSwipe da körlemesine kaydırmak yerine orada çalışmayı durdurur. Kural setleri uygulama açılırken ve 6 saatte bir güncellenir; hemen denemek için Kural güncellemelerini denetle’ye dokunun. O zamana kadar Rehberler çalışmaya devam eder."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "Art arda çok atlamadan sonra yalnızca ipucu göstermeye geçti.",
+          "a": [
+            "Bu bir güvenlik durdurması. Hiçbir video 3 saniye izlenmeden art arda on atlama, genellikle bir kuralın ya da platform düzeninin bozulduğu anlamına gelir; bu yüzden o platform oturumun geri kalanında yalnızca ipucuna geçer. Platform uygulamasını yeniden açınca her şey normale döner. Yanlış olanları geri alın ki hata olarak sayılsın."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "“Bu AI” kayan düğmesi ne işe yarıyor?",
+          "a": [
+            "Geçerli videoyu hemen atlar ve varsayılan olarak hesabı engel listenize ekler; Geri al videoya döner ve o kaydı kaldırır. TikTok’ta videodaki ad görünen addır, bu yüzden aynı adı kullanan hesaplar da engellenir; yalnızca o videoyu atlamak için Hesabı da engelle’yi kapatın. Düğmeyi gizlemek, boyutunu değiştirmek veya sürüklemek için Ayarlar → İpuçları ve düğme bölümüne gidin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Listeler, anahtar kelimeler ve raporlar",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "Engel listesi ve izin listesi nasıl çalışır?",
+          "a": [
+            "Engel listesi: her zaman atlanır. İzin listesi: hesap ikisinde de olsa asla atlanmaz. Hesapları Geçmiş’teki bir kayıttan, kayan düğmeyle ya da Ayarlar → Listeler bölümünde adını yazarak ekleyin (TikTok: görünen ad; YouTube ve Instagram: @kullanıcı adı). Listeleri dışa aktar ve Listeleri içe aktar ile başka bir telefona taşıyabilirsiniz."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "Kendi anahtar kelimelerimi ekleyebilir miyim?",
+          "a": [
+            "Evet. Ayarlar → Listeler → Özel anahtar kelimeler; her kelime Atla veya Yalnızca ipucu olarak ayarlanır, # ile başlayan bir kelime yalnızca hashtag’lerle eşleşir. Ana sayfadaki Kural önerileri de AI olarak işaretlediğiniz videolardan alınan kelimeler önerir."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "Kural önerileri nedir?",
+          "a": [
+            "Öğrenme değil, telefonunuzda yapılan basit bir sayım. AI olarak işaretlediğiniz videolarda 3 kez görünen bir hashtag anahtar kelime önerisi olur; iki kez geri aldığınız bir kelime yok sayılma önerisi olur; çok sayıda geri alma daha esnek bir hassasiyet önerir. Siz kabul edene kadar hiçbir şey değişmez ve sayımlar asla telefonunuzdan çıkmaz."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "Anonim raporlar ne gönderir?",
+          "a": [
+            "Varsayılan olarak kapalıdır. Açıksa “Bu AI” düğmesine dokunmak; platformu, içerik üreticisinin hesap adını, nedeni ve eşleşen kuralları, telefonunuzda oluşturulan rastgele bir rapor ID’siyle birlikte gönderir. Hesabınız veya ekranınız hakkında hiçbir şey gönderilmez. Her hesap, ortak listeye girmeden önce bir insan tarafından incelenir. Her raporu Raporlarım bölümünden takip edebilir ve istediğiniz zaman oradan silebilirsiniz."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "Kural paketleri nedir?",
+          "a": [
+            "Bir tema için ek kural setleri; örneğin AI çocuk çizgi filmleri veya AI sahte haberler. Yalnızca Ayarlar → Listeler → Kural paketleri bölümünden abone olduğunuzda çalışır, kurallarla birlikte güncellenir ve içindeki hesaplar önce bir insan tarafından incelenir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Gizlilik ve veriler",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "Tam olarak neyi okuyor? Bir şey yükleniyor mu?",
+          "a": [
+            "Yalnızca üç uygulamanın içindeki ekran metnini: başlık, hesap adı, hashtag’ler, etiketler ve sayfanın reklam olup olmadığı. Her karar telefonunuzda verilir. Ekran kaydı yok, ekran görüntüsü yok, ekranınızdan hiçbir şey yüklenmez ve hesap gerekmez. Neleri okuyoruz, en son okunan şeyi gösterir."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "Telefonumdan neler çıkıyor?",
+          "a": [
+            "Yalnızca Ayarlar → Gizlilik bölümünden kapatabileceğiniz şeyler: Anonim istatistikler (kullanım olayları, ekran içeriği yok), Çökme raporları, Bozuk algılama raporları (yalnızca uygulama sürümü) ve katılmayı seçtiyseniz Anonim raporlar. Kural seti indirmeleri sizinle ilgili hiçbir şey taşımaz."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "Geçmiş ne kadar süre saklanıyor? Her şeyi nasıl silerim?",
+          "a": [
+            "Atlama geçmişi telefonunuzda 30 gün kalır, sonra silinir. Ayarlar → Gizlilik → Tüm verileri sil; geçmişi, istatistikleri, iki listeyi ve öneri sayaçlarını kaldırır, ayarlarınız korunur. Önceden gönderilen raporlar Raporlarım bölümünden silinebilir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "Diğer özellikler",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "Bir süreliğine nasıl duraklatırım?",
+          "a": [
+            "Ana sayfanın üstündeki duraklat düğmesine dokunun, durum bildirimini kullanın ya da SlopSwipe kutucuğunu Hızlı Ayarlar’a ekleyin. 30 dakika, yarına kadar veya siz devam ettirene kadar seçebilirsiniz. Duraklatılmışken atlama ve ipucu olmaz."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "Geceleri daha sıkı olabilir mi?",
+          "a": [
+            "Evet, Zamanlama ile: Ayarlar → Kurallar → Zamanlama, kendi hassasiyeti olan günlük bir zaman aralığı belirler; örneğin 23:00 ile 07:00 arası Sıkı. Zamanlama etkinken Ana sayfada gösterilir."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "Ebeveyn modu nedir? PIN’i unuttum.",
+          "a": [
+            "PIN; ayarları, listeleri ve duraklatmayı kilitler, hassasiyet Sıkı’da kalır ve pazartesi özeti rapor işlevi görür. PIN telefondan asla çıkmaz ve yalnızca hash olarak saklanır. Unuttuysanız: Android Ayarlar → Uygulamalar → SlopSwipe → Verileri temizle ebeveyn modunu kapatır; geçmiş ve listeler de temizlenir."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "Denge sekmesi nedir?",
+          "a": [
+            "Küçük ve isteğe bağlı bir modül: her platformda ne kadar kaydırdığınız, günlük süre sınırı, kaydırma hatırlatıcısı, açmadan önce duraklama, uyku vakti ve odak zamanı. Her sınırın bir Bugünlük kapat düğmesi vardır. Modülü Ayarlar → Denge bölümünden açıp kapatabilirsiniz."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "Widget ya da Hızlı Ayarlar kutucuğu var mı?",
+          "a": [
+            "İkisi de var. Widget bugünkü atlamaları gösterir: ana ekranınıza uzun basın, Widget’lar seçeneğini belirleyin ve SlopSwipe’ı bulun. Kutucuk SlopSwipe’ı duraklatır: Hızlı Ayarlar’ı düzenleyin ve SlopSwipe kutucuğunu ekleyin."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "Rehberler sekmesi ne işe yarıyor? İzin gerektiriyor mu?",
+          "a": [
+            "İzin gerekmez. Rehberler, her platformun kendi ayarlarında adım adım yol gösterir; örneğin TikTok’ta AI içeriğini azaltma, anahtar kelimeleri filtreleme veya YouTube’a bir kanalı önermemesini söyleme, ayrıca AI videolarını tanıma ipuçları. Tek başlarına çalışırlar ve otomatik atlamaya olan ihtiyacı azaltırlar."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Dili nasıl değiştiririm?",
+          "a": [
+            "Android 13 ve sonrasında: Ayarlar → Görünüm → Dil. Daha eski sürümler sistem dilini kullanır. 41 dil vardır ve yedek dil İngilizcedir. Çeviriler Claude tarafından yapıldı ve henüz anadili konuşanlarca kontrol edilmedi; yanlış görünen bir şey olursa lütfen bize bildirin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Uyumluluk ve destek",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "Instagram Reels atlanmıyor.",
+          "a": [
+            "Bu sürümde Reels varsayılan olarak kapalıdır, çünkü reklam ve etiket ifadeleri yalnızca İngilizcede doğrulandı. Ayarlar → Çalıştığı yerler bölümünden açın; mevcut kural setiyle çalışır."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "Hangi telefonlar ve Android sürümleri destekleniyor?",
+          "a": [
+            "Android 8.0 ve sonrası; resmî YouTube, TikTok veya Instagram uygulaması yüklü her telefon ya da tablet. Bu uygulamaların değiştirilmiş veya lite sürümleri okunamayabilir ve bazı markalarda hizmetin açık kalması için Pil ve arka plan adımları gerekir."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Bir sorunu nasıl bildiririm veya öneride bulunurum?",
+          "a": [
+            "Ayarlar → Yardım ve geri bildirim → Geri bildirim gönder ya da aşağıdaki düğme. Telefon modeliniz, uygulama sürümü, hizmet durumu ve kural seti sürümü otomatik olarak eklenir. Yanlış bir atlama için hesap adını Geçmiş’te gösterildiği gibi ekleyin."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

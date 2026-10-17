@@ -1,0 +1,111 @@
+{
+  "slug": "slopswipe",
+  "locale": "it",
+  "title": "SlopSwipe: Filtro per video IA",
+  "shortDescription": "Salta da solo i contenuti spazzatura. Blocca account e annulla con un tocco.",
+  "tagline": "Salta i video IA spazzatura su Shorts, TikTok e Reels",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Salta i video IA spazzatura su Shorts, TikTok e Reels",
+      "paragraphs": [
+        "La spazzatura IA sta invadendo i feed di video brevi: storie con voce IA, animali finti, \"notizie\" sintetiche. SlopSwipe è un filtro automatico per video IA su Android. Usa le vere app di YouTube Shorts, TikTok e Instagram Reels: se un video rispetta una regola attiva, SlopSwipe passa al successivo e annota perché: un errore si annulla subito. Niente dello schermo lascia il telefono e non serve un account."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Come si usa SlopSwipe per ripulire il feed",
+      "paragraphs": [],
+      "bullets": [
+        "Ripulisci un feed invaso dalla spazzatura IA senza lasciare i video brevi",
+        "Blocca per nome content farm IA e account spam, per sempre",
+        "Dai a genitori o nonni un feed con meno video falsi"
+      ]
+    },
+    {
+      "id": "detection",
+      "title": "Rilevamento dei video IA con regole trasparenti",
+      "paragraphs": [],
+      "bullets": [
+        "Etichette IA della piattaforma: i video segnati come IA vengono saltati",
+        "Parole chiave IA: hashtag o frasi IA in titolo o didascalia",
+        "La tua Lista bloccati e una lista condivisa di account IA segnalati dagli utenti, verificati a mano",
+        "Ogni regola si vede e si disattiva nelle Impostazioni"
+      ]
+    },
+    {
+      "id": "auto-swipe",
+      "title": "Scorrimento automatico, barra avvisi e annullamento",
+      "paragraphs": [],
+      "bullets": [
+        "Passa da solo al video successivo se una regola corrisponde, ritardo regolabile",
+        "La Cronologia mostra il motivo di ogni salto: lì segni gli errori, o attivi il tasto Annulla dopo ogni salto",
+        "Lista consentiti per i creator di cui ti fidi, Lista bloccati per gli account che non vuoi più",
+        "Tre livelli di sensibilità: Rigorosa (predefinita), Normale, Tollerante; saltati anche i \"Contenuti con IA leggera\" (es. voce IA), o scegli Avviso o Ignora",
+        "Non agisce mai su annunci, commenti, messaggi o altre app"
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "Orari, Modalità genitori, widget e Pacchetti di regole",
+      "paragraphs": [],
+      "bullets": [
+        "Facoltativo: segnala in anonimo account IA; ogni segnalazione è verificata a mano",
+        "Filtro più rigoroso di notte o in orario di lavoro",
+        "La Modalità genitori blocca le impostazioni con un PIN",
+        "Widget Home con i salti di oggi, riquadro Impostazioni rapide (Quick Settings) per la pausa",
+        "Pacchetti di regole a tema; pausa di 30 minuti, fino a domani o finché non riprendi"
+      ]
+    },
+    {
+      "id": "wellbeing",
+      "title": "Tempo di utilizzo e Benessere digitale",
+      "paragraphs": [],
+      "bullets": [
+        "Quanto scorri e quanti video IA sono saltati, oggi e in settimana",
+        "Limite giornaliero, ora di dormire e tempo di concentrazione, con un promemoria gentile o il ritorno alla Home",
+        "Ogni limite ha \"Disattiva per oggi\"; niente è imposto"
+      ]
+    },
+    {
+      "id": "guides",
+      "title": "Guide che funzionano senza alcuna autorizzazione",
+      "paragraphs": [
+        "Le Guide spiegano come ridurre i video IA con le impostazioni di ogni piattaforma, come riconoscerli da solo e come tenere attivo il servizio con un risparmio energetico aggressivo."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy prima di tutto, solo sul dispositivo",
+      "paragraphs": [],
+      "bullets": [
+        "Legge solo il testo a schermo di Shorts, TikTok e Reels: titolo, didascalia, nome dell’account, hashtag, etichetta IA",
+        "Niente registrazione o screenshot, niente caricamento di ciò che è a schermo, niente login",
+        "La pagina \"Cosa leggiamo\" mostra l’ultima cosa letta; report sui crash e statistiche sono facoltativi",
+        "Gratis, senza pubblicità né acquisti in-app"
+      ]
+    },
+    {
+      "id": "note",
+      "title": "Da sapere",
+      "paragraphs": [],
+      "bullets": [
+        "SlopSwipe usa il servizio di accessibilità di Android per leggere il testo a schermo e scorrere al posto tuo. Non è uno strumento di assistenza per persone con disabilità; spiega cosa fa prima dell’attivazione e funziona solo col tuo consenso.",
+        "Nella prima versione Instagram Reels è spento di default; attivalo in Impostazioni → Dove funziona.",
+        "Il rilevamento si basa su etichette, testo e liste: un video senza etichetta può sfuggire e un altro essere saltato per errore; Annulla rimedia. Se la piattaforma cambia layout, SlopSwipe si ferma e ti avvisa. Richiede Android 8.0 o successivo.",
+        "YouTube, TikTok e Instagram sono marchi dei rispettivi proprietari. SlopSwipe non è affiliato né approvato da loro."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Qualcosa non va?",
+      "paragraphs": [
+        "Video non saltato, o saltato quello sbagliato? Scrivi a feedback@dapplebyte.com prima di lasciare una recensione. Indica modello di telefono e piattaforma: quasi tutto si risolve nella versione successiva."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

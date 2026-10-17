@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "vi",
+  "title": "Câu hỏi thường gặp",
+  "intro": "Những câu hỏi chúng tôi nhận được nhiều nhất và cách xử lý. Chạm vào một câu hỏi để mở ra.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Bắt đầu và cấp quyền",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "Vì sao SlopSwipe cần dịch vụ trợ năng?",
+          "a": [
+            "Đây là cách duy nhất để một ứng dụng Android đọc nội dung trên màn hình và vuốt giúp bạn. SlopSwipe chỉ đọc tiêu đề, tên tài khoản và nhãn trong Shorts, TikTok và Reels, phán đoán ngay trên điện thoại, rồi vuốt lên khi một quy tắc của bạn khớp. Đây không phải công cụ hỗ trợ người khuyết tật, và không có gì trên màn hình bị tải lên."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "Công tắc trợ năng bị xám hoặc hiện “Chế độ cài đặt bị hạn chế”.",
+          "a": [
+            "Điều này xảy ra trên Android 13 trở lên khi ứng dụng được cài từ APK thay vì Google Play. Mở Thông tin ứng dụng → ⋮ ở góc trên bên phải → Cho phép cài đặt bị hạn chế, rồi bật lại dịch vụ. Nếu không thấy tùy chọn này, trước tiên hãy chạm vào SlopSwipe một lần trong danh sách Hỗ trợ tiếp cận."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "Trang chủ báo Android đã tắt dịch vụ trợ năng, và chuyện này cứ lặp lại.",
+          "a": [
+            "Cập nhật hệ thống, dọn dẹp pin và khởi động lại đều có thể tắt dịch vụ. Chạm Sửa ngay trên Trang chủ, hoặc vào Cài đặt → Duy trì hoạt động → Dịch vụ trợ năng. Để không bị lặp lại, hãy làm hết các bước Pin và chạy nền cho hãng điện thoại của bạn."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "Các bước Pin và chạy nền dùng để làm gì?",
+          "a": [
+            "Một số hãng (Xiaomi và HyperOS, Samsung, OPPO, vivo, Huawei) dừng các dịch vụ chạy nền để tiết kiệm pin, và dịch vụ trợ năng cũng bị dừng theo. Hướng dẫn sẽ chỉ các bước cho hãng của bạn: tối ưu hóa pin, tự khởi động và khóa ứng dụng trong màn hình Gần đây. Bản thân SlopSwipe không bao giờ xin quyền miễn tối ưu hóa pin."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "Ứng dụng báo Bảo vệ nâng cao đã thu hồi quyền trợ năng.",
+          "a": [
+            "Bảo vệ nâng cao của Android thu hồi quyền trợ năng của những ứng dụng không phải công cụ hỗ trợ, nên tính năng tự động bỏ qua không chạy được khi chế độ này đang bật. Bạn có thể giữ nó bật và dùng cài đặt sẵn có của các nền tảng trong thẻ Hướng dẫn, hoặc tắt nó trong cài đặt hệ thống. Chúng tôi không khuyên cách nào hơn; tùy bạn quyết định."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "Vì sao ứng dụng xin quyền gửi thông báo?",
+          "a": [
+            "Để hiện thông báo trạng thái kèm nút tạm dừng, cảnh báo khi dịch vụ bị tắt, và bản tóm tắt hằng tuần. Nếu bạn từ chối, mọi thứ khác vẫn hoạt động. Từng loại thông báo cũng có thể tắt riêng trong Cài đặt → Duy trì hoạt động."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "Vì sao lúc nào cũng có thông báo của SlopSwipe?",
+          "a": [
+            "Đó là Thông báo trạng thái: không phát âm thanh và cho phép bạn tạm dừng ngay từ ngăn thông báo. Tắt nó trong Cài đặt → Duy trì hoạt động → Thông báo trạng thái. Dịch vụ vẫn chạy bình thường khi không có thông báo này."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Bỏ qua và quy tắc",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "SlopSwipe dựa vào đâu để quyết định một video là AI?",
+          "a": [
+            "Dựa vào các quy tắc cố định, không phải mô hình AI: nhãn AI của chính nền tảng, từ khóa AI rõ ràng trong tiêu đề hoặc hashtag, danh sách chặn của bạn, từ khóa của bạn và danh sách người dùng báo cáo. Mỗi lần bỏ qua đều hiện quy tắc chính, và Lịch sử liệt kê mọi quy tắc đã khớp. Có thể tắt bất kỳ quy tắc nào trong Cài đặt → Quy tắc → Bật/tắt từng quy tắc."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "Nghiêm, Thường và Nới lỏng khác nhau thế nào?",
+          "a": [
+            "Chỉ khác ở cách xử lý các kết quả khớp có độ tin cậy trung bình và thấp, ví dụ một hashtag mơ hồ như #ai. Nghiêm bỏ qua tất cả, Thường bỏ qua mức trung bình và chỉ gợi ý với mức thấp, Nới lỏng gợi ý với mức trung bình và không xử lý mức thấp. Nhãn của nền tảng và danh sách của chính bạn thì luôn bị bỏ qua ở mọi mức."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "Nội dung AI nhẹ là gì?",
+          "a": [
+            "Là video do người thật làm nhưng có dùng một ít AI, như lồng tiếng bằng AI hoặc chỉnh sửa có AI hỗ trợ. Mặc định các video này sẽ bị bỏ qua. Chọn Gợi ý hoặc Không xử lý trong Cài đặt → Quy tắc → Nội dung AI nhẹ. Độ nhạy không ảnh hưởng đến cài đặt này."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "Có thanh báo “Có thể là video AI” nhưng không có gì bị bỏ qua.",
+          "a": [
+            "Đó là gợi ý: với các kết quả khớp chưa chắc chắn, SlopSwipe chỉ hiện thanh này vài giây và chỉ bỏ qua nếu bạn chạm Bỏ qua. Kết quả nào chỉ được gợi ý thay vì bỏ qua tùy vào độ nhạy của bạn; ở mức Nghiêm thì chúng được bỏ qua tự động."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "Ứng dụng đã bỏ qua một video tôi muốn xem.",
+          "a": [
+            "Vuốt quay lại để trở về video đó; video bạn quay lại sẽ không bị đánh giá lại. Sau đó, mở Lịch sử, chạm vào mục đó và chọn Đánh dấu nhầm hoặc Thêm vào danh sách cho phép. Tài khoản trong danh sách cho phép sẽ không bao giờ bị bỏ qua. Nếu muốn có nút Hoàn tác sau mỗi lần bỏ qua, hãy bật Cài đặt → Gợi ý và nút → Nút Hoàn tác sau khi bỏ qua."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "Không có video nào bị bỏ qua.",
+          "a": [
+            "Kiểm tra theo thứ tự: Trang chủ hiện Đang chạy; nền tảng đã được bật trong Cài đặt → Phạm vi hoạt động (Reels mặc định tắt); bạn đang ở trình phát Shorts hoặc bảng tin Dành cho bạn của TikTok, không phải trang chủ, tìm kiếm, Đã follow hay phát trực tiếp; và video thực sự khớp với một quy tắc, vì phần lớn video không phải AI. Những gì chúng tôi đọc cho thấy chính xác nội dung được đọc gần nhất."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "Ứng dụng có bỏ qua quảng cáo không?",
+          "a": [
+            "Không, và đó là chủ ý. Quảng cáo và video được tài trợ không bao giờ bị xử lý hay tính vào thống kê, kể cả khi có nhãn AI. Bạn hãy tự vuốt qua."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "Chính xác thì ứng dụng hoạt động ở đâu?",
+          "a": [
+            "Chỉ ở trình phát Shorts, bảng tin Dành cho bạn của TikTok và Reels khi được bật. Trang chủ, kết quả tìm kiếm, bình luận, video dài, phát trực tiếp và bảng tin Đã follow của TikTok đều được để nguyên, để những gì bạn chủ động tìm vẫn còn đó. Muốn áp dụng cả Đã follow, hãy bật Cài đặt → Phạm vi hoạt động → Áp dụng cả tài khoản tôi theo dõi."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "Có thể vuốt sớm hơn, hoặc chờ lâu hơn một chút không?",
+          "a": [
+            "Có: Cài đặt → Quy tắc → Tốc độ lướt qua, từ ngay lập tức đến 2 giây. Khoảng dừng ngắn mặc định giúp bạn thấy video nào đang bị bỏ qua."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "Trang chủ báo một nền tảng đã thay đổi sau khi cập nhật và các thao tác bị dừng.",
+          "a": [
+            "Ứng dụng của nền tảng đã đổi bố cục và bộ quy tắc hiện tại không đọc được, nên SlopSwipe dừng thao tác ở đó thay vì vuốt mò. Bộ quy tắc được cập nhật khi mở ứng dụng và cứ mỗi 6 giờ; chạm Kiểm tra cập nhật quy tắc để thử ngay. Trong lúc chờ, phần Hướng dẫn vẫn dùng được."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "Ứng dụng chuyển sang chỉ gợi ý sau nhiều lần bỏ qua liên tiếp.",
+          "a": [
+            "Đây là cơ chế dừng an toàn. Mười lần bỏ qua liên tiếp mà không video nào được xem quá 3 giây thường có nghĩa là một quy tắc hoặc bố cục của nền tảng có vấn đề, nên nền tảng đó chuyển sang chỉ gợi ý trong phần còn lại của phiên. Mở lại ứng dụng của nền tảng là mọi thứ trở lại bình thường. Hãy hoàn tác những lần bỏ qua sai để chúng được tính là nhầm."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "Nút nổi “Đây là AI” dùng để làm gì?",
+          "a": [
+            "Nút này bỏ qua ngay video hiện tại và theo mặc định sẽ thêm tài khoản vào danh sách chặn của bạn; Hoàn tác sẽ vuốt quay lại và xóa mục đó. Trên TikTok, tên hiện trên video là tên hiển thị, nên các tài khoản trùng tên cũng bị chặn theo; tắt Chặn luôn tài khoản nếu chỉ muốn bỏ qua video đó. Ẩn, đổi kích thước hoặc kéo nút trong Cài đặt → Gợi ý và nút."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Danh sách, từ khóa và báo cáo",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "Danh sách chặn và danh sách cho phép hoạt động thế nào?",
+          "a": [
+            "Danh sách chặn: luôn bị bỏ qua. Danh sách cho phép: không bao giờ bị bỏ qua, kể cả khi tài khoản nằm trong cả hai. Thêm tài khoản từ một mục trong Lịch sử, bằng nút nổi, hoặc gõ tên trong Cài đặt → Danh sách (TikTok: tên hiển thị; YouTube và Instagram: @tên người dùng). Xuất danh sách và Nhập danh sách giúp chuyển chúng sang điện thoại khác."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "Tôi có thể thêm từ khóa riêng không?",
+          "a": [
+            "Có. Cài đặt → Danh sách → Từ khóa tùy chỉnh; mỗi từ được đặt là Bỏ qua hoặc Gợi ý, và từ bắt đầu bằng # chỉ khớp với hashtag. Gợi ý quy tắc trên Trang chủ cũng đề xuất các từ lấy từ những video bạn đã đánh dấu là AI."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "Gợi ý quy tắc là gì?",
+          "a": [
+            "Chỉ là phép đếm đơn giản trên điện thoại của bạn, không phải học máy. Hashtag xuất hiện 3 lần trong các video bạn đánh dấu là AI sẽ thành gợi ý từ khóa; từ mà bạn đã hoàn tác hai lần sẽ thành gợi ý bỏ qua từ đó; hoàn tác nhiều lần sẽ gợi ý độ nhạy nới lỏng hơn. Không có gì thay đổi cho đến khi bạn đồng ý, và các con số đếm không bao giờ rời khỏi điện thoại."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "Báo cáo ẩn danh gửi đi những gì?",
+          "a": [
+            "Mặc định tắt. Khi bật, mỗi lần chạm “Đây là AI” sẽ gửi nền tảng, tên tài khoản của nhà sáng tạo, lý do và các quy tắc đã khớp, kèm một mã báo cáo ngẫu nhiên tạo trên điện thoại của bạn. Không có gì về tài khoản của bạn hay nội dung màn hình. Mỗi tài khoản đều được người thật xem xét trước khi vào danh sách chung. Theo dõi từng báo cáo trong Báo cáo của tôi và xóa ở đó bất cứ lúc nào."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "Gói quy tắc là gì?",
+          "a": [
+            "Là các bộ quy tắc bổ sung theo chủ đề, ví dụ phim hoạt hình thiếu nhi làm bằng AI hoặc tin giả làm bằng AI. Gói chỉ hoạt động khi bạn đăng ký trong Cài đặt → Danh sách → Gói quy tắc, được cập nhật cùng với quy tắc, và các tài khoản trong gói đều được người thật xem xét trước."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Quyền riêng tư và dữ liệu",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "Chính xác thì ứng dụng đọc những gì? Có gì bị tải lên không?",
+          "a": [
+            "Chỉ chữ hiển thị trên màn hình bên trong ba ứng dụng đó: tiêu đề, tên tài khoản, hashtag, nhãn và việc trang đó có phải quảng cáo hay không. Mọi phán đoán đều diễn ra trên điện thoại của bạn. Không quay màn hình, không chụp màn hình, không tải lên bất cứ gì trên màn hình, và không cần tài khoản. Những gì chúng tôi đọc cho thấy nội dung được đọc gần nhất."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "Những gì thực sự rời khỏi điện thoại của tôi?",
+          "a": [
+            "Chỉ những thứ bạn có thể tắt trong Cài đặt → Quyền riêng tư: Thống kê ẩn danh (sự kiện sử dụng, không có nội dung màn hình), Báo cáo sự cố, Báo lỗi nhận diện (chỉ phiên bản ứng dụng), và Báo cáo ẩn danh nếu bạn chọn tham gia. Việc tải bộ quy tắc không mang theo thông tin gì về bạn."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "Lịch sử được lưu bao lâu? Làm sao để xóa hết?",
+          "a": [
+            "Lịch sử bỏ qua được lưu trên điện thoại của bạn trong 30 ngày rồi tự xóa. Cài đặt → Quyền riêng tư → Xóa toàn bộ dữ liệu sẽ xóa lịch sử, thống kê, cả hai danh sách và bộ đếm gợi ý; các cài đặt của bạn vẫn được giữ. Báo cáo đã gửi có thể xóa trong Báo cáo của tôi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "Tính năng khác",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "Làm sao để tạm dừng một lúc?",
+          "a": [
+            "Chạm nút tạm dừng ở đầu Trang chủ, dùng thông báo trạng thái, hoặc thêm ô SlopSwipe vào Cài đặt nhanh. Chọn 30 phút, đến ngày mai, hoặc cho đến khi bạn tiếp tục. Trong lúc tạm dừng sẽ không có bỏ qua và không có gợi ý."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "Có thể nghiêm hơn vào ban đêm không?",
+          "a": [
+            "Có, bằng Lịch trình: Cài đặt → Quy tắc → Lịch trình cho phép đặt một khung giờ mỗi ngày với độ nhạy riêng, ví dụ 23:00 đến 07:00 ở mức Nghiêm. Trang chủ sẽ hiện khi lịch trình đang có hiệu lực."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "Chế độ phụ huynh là gì? Tôi quên mã PIN.",
+          "a": [
+            "Mã PIN khóa phần cài đặt, danh sách và tạm dừng, độ nhạy luôn ở mức Nghiêm, và bản tóm tắt thứ Hai chính là báo cáo. Mã PIN không bao giờ rời khỏi điện thoại và chỉ được lưu dưới dạng hash. Nếu quên: vào Cài đặt Android → Ứng dụng → SlopSwipe → Xóa dữ liệu để tắt chế độ phụ huynh; thao tác này cũng xóa lịch sử và các danh sách."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "Thẻ Lướt lành mạnh là gì?",
+          "a": [
+            "Một mô-đun nhỏ, không bắt buộc: thời gian bạn lướt trên từng nền tảng, giới hạn thời gian mỗi ngày, nhắc theo số lần vuốt, tạm dừng trước khi mở, giờ đi ngủ và giờ tập trung. Mỗi giới hạn đều có nút Tắt hôm nay. Bật hoặc tắt mô-đun trong Cài đặt → Lướt lành mạnh."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "Có tiện ích hay ô Cài đặt nhanh không?",
+          "a": [
+            "Có cả hai. Tiện ích hiện số video đã bỏ qua hôm nay: nhấn giữ màn hình chính, chọn Tiện ích và tìm SlopSwipe. Ô Cài đặt nhanh dùng để tạm dừng SlopSwipe: chỉnh sửa Cài đặt nhanh và thêm ô SlopSwipe."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "Thẻ Hướng dẫn dùng để làm gì? Có cần cấp quyền không?",
+          "a": [
+            "Không cần cấp quyền. Phần hướng dẫn chỉ bạn từng bước dùng cài đặt sẵn có của mỗi nền tảng, như giảm nội dung AI trong TikTok, lọc từ khóa hoặc yêu cầu YouTube không đề xuất một kênh, kèm mẹo nhận biết video AI. Các hướng dẫn này dùng độc lập được và giúp bạn ít phải dựa vào tính năng tự động bỏ qua hơn."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Làm sao để đổi ngôn ngữ?",
+          "a": [
+            "Trên Android 13 trở lên: Cài đặt → Giao diện → Ngôn ngữ. Các phiên bản cũ hơn dùng theo ngôn ngữ hệ thống. Có 41 ngôn ngữ, với tiếng Anh làm ngôn ngữ dự phòng. Bản dịch do Claude thực hiện và chưa được người bản ngữ kiểm tra, nên nếu thấy chỗ nào đọc không ổn, hãy báo cho chúng tôi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Tương thích và hỗ trợ",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "Instagram Reels không bị bỏ qua.",
+          "a": [
+            "Ở phiên bản này, Reels mặc định tắt vì cách ghi quảng cáo và nhãn của nó mới chỉ được kiểm chứng bằng tiếng Anh. Bật nó trong Cài đặt → Phạm vi hoạt động là dùng được với bộ quy tắc hiện tại."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "Hỗ trợ những điện thoại và phiên bản Android nào?",
+          "a": [
+            "Android 8.0 trở lên, trên mọi điện thoại hoặc máy tính bảng có ứng dụng YouTube, TikTok hoặc Instagram chính thức. Các bản sửa đổi hoặc bản lite của những ứng dụng này có thể không đọc được, và một số hãng cần làm các bước Pin và chạy nền để dịch vụ không bị tắt."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Làm sao để báo lỗi hoặc góp ý?",
+          "a": [
+            "Cài đặt → Trợ giúp và phản hồi → Gửi phản hồi, hoặc dùng nút bên dưới. Mẫu điện thoại, phiên bản ứng dụng, trạng thái dịch vụ và phiên bản bộ quy tắc được đính kèm tự động. Nếu bị bỏ qua nhầm, hãy ghi thêm tên tài khoản như hiển thị trong Lịch sử."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

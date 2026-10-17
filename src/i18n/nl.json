@@ -21,6 +21,7 @@
   },
   "cta": {
     "getOnPlay": "Download {name} via Google Play",
+    "comingSoon": "Binnenkort op Google Play",
     "readSource": "Bekijk de broncode",
     "about": "Over {name}",
     "learnMore": "Meer informatie"
@@ -47,7 +48,7 @@
   },
   "home": {
     "title": "DappleByte · Onafhankelijke Android-apps",
-    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker); JoyLink, dat een telefoon verandert in een Bluetooth-gamepad, touchpad en tv-afstandsbediening; en Gamepad Tester Pro, dat een controller controleert op stick drift, input lag en dode knoppen. DappleByte maakt ook Apk Extractor, een APK-extractor, back-uptool voor apps en XAPK-installer die je apps overzet naar een nieuwe telefoon.",
+    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker); JoyLink, dat een telefoon verandert in een Bluetooth-gamepad, touchpad en tv-afstandsbediening; en Gamepad Tester Pro, dat een controller controleert op stick drift, input lag en dode knoppen. DappleByte maakt ook Apk Extractor, een APK-extractor, back-uptool voor apps en XAPK-installer die je apps overzet naar een nieuwe telefoon. SlopSwipe, binnenkort op Google Play, veegt door AI gemaakte video's weg in YouTube Shorts, TikTok en Instagram Reels, vertelt bij elke overgeslagen video waarom en draait het met één tik terug.",
     "appsHeading": "Apps",
     "principlesHeading": "Hoe we werken",
     "principles": [
@@ -95,6 +96,7 @@
     "faqAll": "Alle vragen",
     "getHeading": "Download {name}",
     "getBody": "Beschikbaar op Google Play voor Android.",
+    "getBodySoon": "Binnenkort op Google Play voor Android.",
     "getBodySource": "De broncode is gepubliceerd onder {license}.",
     "requiresLabel": "Vereist",
     "videoHeading": "Zie het in actie",
@@ -227,7 +229,15 @@
       "batch-install": "Wachtrij voor batch-installatie",
       "version-history": "Versiegeschiedenis met terugzetten naar een oudere versie",
       "device-migration": "Zet apps via Wi-Fi over naar een nieuwe telefoon",
-      "wifi-transfer": "Draagt apps over tussen apparaten via Wi-Fi of een browser"
+      "wifi-transfer": "Draagt apps over tussen apparaten via Wi-Fi of een browser",
+      "official-apps": "Werkt in de officiële apps van YouTube, TikTok en Instagram",
+      "auto-skip-ai": "Slaat door AI gemaakte video's automatisch over",
+      "platform-ai-labels": "Gebruikt de AI-labels van het platform zelf",
+      "ai-keywords": "Regels voor AI-trefwoorden en hashtags",
+      "block-allow-lists": "Eigen blokkeerlijst en toestaanlijst",
+      "skip-reason-undo": "Laat zien waarom een video is overgeslagen, met terugdraaien in één tik",
+      "on-device": "Scherminhoud wordt op de telefoon gecontroleerd, nooit geüpload",
+      "screen-time-limits": "Daglimiet en herinnering voor het slapengaan"
     },
     "values": {
       "yes": "Ja",
@@ -247,7 +257,8 @@
     "description": "Elke release van {name} voor Android met wat er veranderd is, nieuwste eerst.",
     "version": "Versie {version}",
     "build": "build {code}",
-    "feed": "Atom-feed"
+    "feed": "Atom-feed",
+    "empty": "Nog geen versies. {name} komt binnenkort op Google Play; de releaseopmerkingen verschijnen dan hier."
   },
   "press": {
     "title": "Persmap van {name}",
@@ -285,7 +296,8 @@
   "trademarks": {
     "sony": "PlayStation, PS5 en PS4 zijn handelsmerken van Sony Interactive Entertainment Inc. {name} is niet verbonden aan Sony en wordt niet door Sony onderschreven.",
     "hosts": "Windows en Xbox zijn handelsmerken van Microsoft; Mac, iPhone en iPad van Apple; PlayStation van Sony Interactive Entertainment; Nintendo Switch van Nintendo; Android, Android TV en Google TV van Google; Fire TV van Amazon; Steam van Valve; Raspberry Pi van Raspberry Pi Ltd. {name} is met geen van hen verbonden en wordt door geen van hen onderschreven.",
-    "controllers": "Xbox is een handelsmerk van Microsoft; PlayStation, DualShock en DualSense van Sony Interactive Entertainment; Nintendo Switch van Nintendo. {name} is met geen van hen verbonden en wordt door geen van hen onderschreven."
+    "controllers": "Xbox is een handelsmerk van Microsoft; PlayStation, DualShock en DualSense van Sony Interactive Entertainment; Nintendo Switch van Nintendo. {name} is met geen van hen verbonden en wordt door geen van hen onderschreven.",
+    "video-apps": "YouTube, TikTok en Instagram zijn handelsmerken van hun respectieve eigenaren. {name} is niet aan hen verbonden en wordt niet door hen onderschreven."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -638,6 +650,45 @@
         "description": "Hoe Apk Extractor zich verhoudt tot andere apps voor APK-extractie en app-back-up op Android, functie voor functie, alleen feiten.",
         "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: APK-extractie, XAPK installeren, batch-installatie, versiegeschiedenis, apps overzetten naar een nieuwe telefoon, overdracht via Wi-Fi, root, advertenties en prijs.",
         "vsIntro": "Beide extraheren geïnstalleerde apps als APK-bestand op Android. Hier zie je waarin ze verschillen, functie voor functie."
+      }
+    },
+    "slopswipe": {
+      "kicker": "AI-videofilter · Op het toestel",
+      "heroPoints": [
+        "Veegt AI-video's weg in de officiële apps van YouTube Shorts en TikTok, en in Instagram Reels zodra je het aanzet",
+        "Bij elke overgeslagen video zie je welke regel raak was, zoals het AI-label van het platform, een AI-trefwoord of je blokkeerlijst, met terugdraaien in één tik",
+        "Schermtekst wordt op je telefoon gecontroleerd en nooit geüpload. Geen account. Gratis, zonder advertenties en zonder in-app-aankopen"
+      ],
+      "faqDescription": "Antwoorden over SlopSwipe: de toegankelijkheidsservice aanzetten, hoe overslaan en de regels werken, lijsten en meldingen, privacy, schema, oudermodus en welzijn, en ondersteunde telefoons.",
+      "faqNotFoundBody": "Mail ons je telefoonmodel, het platform en wat er gebeurde; bij een onterecht overgeslagen video ook de accountnaam zoals die in Geschiedenis staat. Elk bericht wordt door een mens gelezen.",
+      "support": {
+        "beforeItems": [
+          "Open de FAQ. De toegankelijkheidsservice aanzetten, overslaan, lijsten en privacy worden daar beantwoord, in dezelfde woorden als in de app.",
+          "Wordt er niets overgeslagen? Controleer in deze volgorde: Home toont Actief; het platform staat aan onder Instellingen → Waar het werkt (Instagram Reels staat standaard uit); je zit in de Shorts-speler of de TikTok-feed Voor jou, niet op de startpagina, in zoeken of bij Volgend.",
+          "Open Wat we lezen in Instellingen om precies te zien wat SlopSwipe het laatst heeft gelezen. Zegt Home dat Android de service heeft uitgezet, tik dan op Oplossen en doorloop de stappen bij Batterij en achtergrond voor jouw merk telefoon."
+        ],
+        "template": {
+          "phone": "Telefoonmodel:",
+          "android": "Android-versie:",
+          "platform": "Platform (YouTube Shorts / TikTok / Instagram Reels):",
+          "version": "SlopSwipe-versie:",
+          "account": "Bij een onterecht overgeslagen video: de accountnaam zoals die in Geschiedenis staat:",
+          "what": "Wat er gebeurde, stap voor stap:"
+        },
+        "refundBody": "SlopSwipe is gratis, zonder advertenties en zonder in-app-aankopen. Er valt dus niets te kopen en niets terug te betalen."
+      },
+      "press": {
+        "description": "Feiten, materiaal en een korte beschrijving om over SlopSwipe te schrijven, de Android-app die door AI gemaakte video's in feeds met korte video's overslaat.",
+        "boilerplate": "SlopSwipe slaat op Android door AI gemaakte video's over, in de officiële apps van YouTube Shorts en TikTok en, als je het aanzet, in Instagram Reels. Past een video bij een regel die de gebruiker heeft aangezet, zoals het AI-label van het platform, een AI-trefwoord of een account op de blokkeerlijst, dan veegt de app naar de volgende video en legt vast waarom, zodat een onterecht overgeslagen video met één tik terug is. Schermtekst wordt op de telefoon gecontroleerd en nooit geüpload, en een account is niet nodig. Gemaakt door DappleByte, een onafhankelijke studio.",
+        "priceValue": "Gratis, zonder advertenties en zonder in-app-aankopen.",
+        "assetScreenshots": "Telefoonscreenshots, PNG van 1080 × 1920, Engelstalig"
+      },
+      "videosDescription": "Korte video's van SlopSwipe op een echte telefoon: aanzetten, hoe overslaan eruitziet, een onterecht overgeslagen video terugdraaien, en de blokkeer- en toestaanlijst.",
+      "privacyDescription": "Wat SlopSwipe voor Android met je gegevens doet: wat de toegankelijkheidsservice leest, wat op de telefoon blijft, wat er wordt verstuurd en hoe je dat uitzet. Geen account en geen advertentie-ID.",
+      "compare": {
+        "description": "Hoe SlopSwipe zich verhoudt tot andere Android-apps voor AI-video's en feeds met korte video's, functie voor functie, alleen feiten.",
+        "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: officiële apps, automatisch overslaan, AI-labels en trefwoorden, lijsten, terugdraaien, privacy en prijs.",
+        "vsIntro": "Beide gaan over wat je ziet in feeds met korte video's op Android. Dit zijn de verschillen, functie voor functie."
       }
     }
   }

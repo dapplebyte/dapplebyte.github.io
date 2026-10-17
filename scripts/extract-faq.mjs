@@ -1,7 +1,9 @@
 // App FAQ → src/content/faq/<slug>/<locale>.json
 //
-// `kotlin` products (Relaypad, JoyLink, Gamepad Tester Pro): FaqContent.kt holds the grouping, order and ids; strings_faq.xml holds
-// the text. The website always publishes the paid edition with nothing on sale:
+// `kotlin` products (Relaypad, JoyLink, Gamepad Tester Pro, SlopSwipe): FaqContent.kt holds the grouping, order and ids;
+// strings_faq.xml holds the text. SlopSwipe writes the constructors positionally (`FaqSection(R.string.title, listOf(
+// FaqEntry("id", R.string.q, R.string.a, action)))`) instead of with named arguments; both forms are read. Its ids are the
+// suffixes of its `faq_q_<id>` / `faq_a_<id>` keys and never change once released. The website always publishes the paid edition with nothing on sale:
 // `answer(proOffered, free, paid)` picks `paid`, and the purchase section is `faq_section_purchase_paid`.
 //
 // `arrays` products (Gamepad Pro): res/values*/arrays.xml holds `faq_questions` / `faq_answers`, aligned
@@ -21,6 +23,20 @@ import { join } from 'node:path';
 import { LOCALES, localProducts, parseStrings, unescapeAndroid, androidValues, writeJson, now } from './lib.mjs';
 
 const CONFIG = {
+  slopswipe: {
+    kotlin: 'app/src/main/java/app/slopswipe/ui/faq/FaqContent.kt',
+    stringsFile: 'strings_faq.xml',
+    /** Section title keys in the order FaqContent.Sections lists them (the same order as in strings_faq.xml). */
+    order: ['faq_section_start', 'faq_section_skip', 'faq_section_lists', 'faq_section_privacy', 'faq_section_more', 'faq_section_compat'],
+    slugs: {
+      faq_section_start: 'getting-started',
+      faq_section_skip: 'skipping-rules',
+      faq_section_lists: 'lists-keywords-reports',
+      faq_section_privacy: 'privacy-data',
+      faq_section_more: 'more-features',
+      faq_section_compat: 'compatibility-support',
+    },
+  },
   'apk-extractor': {
     kind: 'java',
     java: 'app/src/main/java/com/dylan/win11/apkextractor/activities/FaqActivity.java',
@@ -368,17 +384,20 @@ function parseKotlin(src) {
   let m;
   while ((m = re.exec(src))) {
     const body = balanced(src, m.index + 'FaqSection'.length);
-    const titleKey = body.match(/titleRes\s*=\s*R\.string\.(\w+)/)?.[1];
+    // Named (`titleRes = R.string.x`) or positional (`R.string.x` as the first argument).
+    const titleKey = body.match(/titleRes\s*=\s*R\.string\.(\w+)/)?.[1] ?? body.match(/^\s*R\.string\.(\w+)/)?.[1];
     if (!titleKey) continue;
     const entries = [];
     const er = /FaqEntry\(/g;
     let e;
     while ((e = er.exec(body))) {
       const eb = balanced(body, e.index + 'FaqEntry'.length);
-      const id = eb.match(/\bid\s*=\s*"([^"]+)"/)?.[1];
-      const qKey = eb.match(/questionRes\s*=\s*R\.string\.(\w+)/)?.[1];
+      // Positional form: `"id", R.string.q, R.string.a, …`.
+      const positional = eb.match(/^\s*"([^"]+)"\s*,\s*R\.string\.(\w+)\s*,\s*R\.string\.(\w+)/);
+      const id = eb.match(/\bid\s*=\s*"([^"]+)"/)?.[1] ?? positional?.[1];
+      const qKey = eb.match(/questionRes\s*=\s*R\.string\.(\w+)/)?.[1] ?? positional?.[2];
       const paid = eb.match(/answerRes\s*=\s*answer\(\s*proOffered\s*,\s*R\.string\.(\w+)\s*,\s*R\.string\.(\w+)\s*\)/);
-      const aKey = paid ? paid[2] : eb.match(/answerRes\s*=\s*R\.string\.(\w+)/)?.[1];
+      const aKey = paid ? paid[2] : (eb.match(/answerRes\s*=\s*R\.string\.(\w+)/)?.[1] ?? positional?.[3]);
       if (!id || !qKey || !aKey) {
         console.error(`[faq] could not parse an entry in ${titleKey}: ${eb.slice(0, 80)}`);
         process.exitCode = 1;

@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "es",
+  "title": "Preguntas frecuentes",
+  "intro": "Las preguntas que más nos hacen y qué hacer en cada caso. Toca una pregunta para desplegarla.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Primeros pasos y permisos",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "¿Por qué SlopSwipe necesita el servicio de accesibilidad?",
+          "a": [
+            "Es la única forma en que una app de Android puede leer lo que hay en pantalla y deslizar por ti. SlopSwipe solo lee los títulos, los nombres de cuenta y las etiquetas en Shorts, TikTok y Reels, decide en tu teléfono y desliza hacia arriba cuando coincide una de tus reglas. No es una herramienta de asistencia para personas con discapacidad, y no se sube nada de tu pantalla."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "El interruptor de accesibilidad aparece en gris o dice “Configuración restringida”.",
+          "a": [
+            "Pasa en Android 13 y versiones posteriores cuando la app se instaló desde un APK y no desde Google Play. Abre Info. de la app → ⋮ arriba a la derecha → Permitir configuración restringida y vuelve a activar el servicio. Si no ves la opción, primero toca SlopSwipe una vez en la lista de Accesibilidad."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "Inicio dice que Android desactivó el servicio de accesibilidad, y sigue pasando.",
+          "a": [
+            "Las actualizaciones del sistema, las limpiezas de batería y los reinicios pueden desactivarlo. Toca Arreglar en Inicio, o ve a Ajustes → Mantener activo → Servicio de accesibilidad. Para que no vuelva a pasar, completa los pasos de Batería y segundo plano para la marca de tu teléfono."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "¿Para qué sirven los pasos de Batería y segundo plano?",
+          "a": [
+            "Algunas marcas (Xiaomi y HyperOS, Samsung, OPPO, vivo, Huawei) detienen los servicios en segundo plano para ahorrar energía, y el servicio de accesibilidad se detiene con ellos. La guía muestra los pasos para tu marca: optimización de batería, inicio automático y bloquear la app en Recientes. SlopSwipe nunca pide por su cuenta el permiso para ignorar la optimización de batería."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "Dice que la Protección avanzada quitó el acceso de accesibilidad.",
+          "a": [
+            "La Protección avanzada de Android les quita la accesibilidad a las apps que no son herramientas de asistencia, así que el salto automático no puede funcionar mientras esté activada. Puedes dejarla activada y usar los ajustes propios de cada plataforma desde la pestaña Guías, o desactivarla en los ajustes del sistema. No recomendamos una opción sobre la otra; tú decides."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "¿Por qué pide permiso para enviar notificaciones?",
+          "a": [
+            "Para la notificación de estado con sus botones de pausa, el aviso cuando se desactiva el servicio y el resumen semanal. Si dices que no, todo lo demás sigue funcionando. Además, puedes desactivar cada notificación por separado en Ajustes → Mantener activo."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "¿Por qué siempre hay una notificación de SlopSwipe?",
+          "a": [
+            "Es la Notificación de estado: es silenciosa y te permite pausar desde el panel de notificaciones. Desactívala en Ajustes → Mantener activo → Notificación de estado. El servicio sigue funcionando sin ella."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Saltos y reglas",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "¿Cómo decide SlopSwipe que un video es de IA?",
+          "a": [
+            "Con reglas fijas, no con un modelo de IA: la etiqueta de IA de la propia plataforma, palabras clave claras de IA en el título o los hashtags, tu lista de bloqueados, tus palabras clave y la lista reportada por usuarios. Cada salto muestra la regla principal, y el Historial muestra todas las reglas que coincidieron. Puedes desactivar cualquier regla en Ajustes → Reglas → Interruptores por regla."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "¿Qué cambian Estricta, Normal y Relajada?",
+          "a": [
+            "Solo cómo se tratan las coincidencias de confianza media y baja, como un único hashtag ambiguo tipo #ai. Estricta las salta todas; Normal salta las medias y solo avisa en las bajas; Relajada avisa en las medias e ignora las bajas. Las etiquetas de la plataforma y tus propias listas se saltan en cualquier nivel."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "¿Qué es el Contenido con IA leve?",
+          "a": [
+            "Videos hechos por personas que llevan algo de IA, como una voz en off con IA o una edición asistida por IA. Se saltan de forma predeterminada. Elige Avisar o Ignorar en Ajustes → Reglas → Contenido con IA leve. La sensibilidad no afecta a este ajuste."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "Apareció una barra con “Posible video de IA”, pero no se saltó nada.",
+          "a": [
+            "Es un aviso: con las coincidencias menos seguras, SlopSwipe solo muestra la barra unos segundos y salta el video si tocas Saltar. Qué coincidencias reciben un aviso en lugar de un salto depende de tu sensibilidad; con Estricta se saltan automáticamente."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "Saltó un video que quería ver.",
+          "a": [
+            "Desliza hacia atrás para volver a él; un video al que vuelves no se vuelve a evaluar. Más tarde, abre el Historial, toca la entrada y elige Marcar como error o Añadir a permitidos. Las cuentas de la lista de permitidos nunca se saltan. Si quieres un botón Deshacer después de cada salto, activa Ajustes → Avisos y botón → Botón Deshacer al saltar."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "No se salta nada.",
+          "a": [
+            "Revisa en este orden: Inicio muestra En marcha; la plataforma está activada en Ajustes → Dónde funciona (Reels viene desactivado); estás en el reproductor de Shorts o en el feed Para ti de TikTok, no en la página principal, la búsqueda, Siguiendo ni una transmisión en vivo; y el video de verdad coincide con una regla, ya que la mayoría de los videos no son de IA. Qué leemos muestra exactamente lo último que se leyó."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "¿Salta los anuncios?",
+          "a": [
+            "No, a propósito. Los anuncios y los videos patrocinados nunca se tocan ni se cuentan, aunque lleven una etiqueta de IA. Deslízalos tú."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "¿Dónde actúa exactamente?",
+          "a": [
+            "Solo en el reproductor de Shorts, en el feed Para ti de TikTok y, si lo activas, en Reels. La página principal, los resultados de búsqueda, los comentarios, los videos largos, las transmisiones en vivo y el feed Siguiendo de TikTok no se tocan, así que lo que fuiste a buscar sigue ahí. Para incluir Siguiendo, activa Ajustes → Dónde funciona → Actuar también en cuentas que sigo."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "¿Puede deslizar antes, o esperar un poco más?",
+          "a": [
+            "Sí: Ajustes → Reglas → Velocidad de deslizamiento, desde Al instante hasta 2 segundos. La pequeña pausa predeterminada te deja ver qué se está saltando."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "Inicio dice que una plataforma cambió tras una actualización y las acciones están detenidas.",
+          "a": [
+            "La app de la plataforma cambió su diseño y el conjunto de reglas actual no puede leerlo, así que SlopSwipe deja de actuar ahí en vez de deslizar a ciegas. El conjunto de reglas se actualiza al abrir la app y cada 6 horas; toca Buscar actualizaciones de reglas para intentarlo ahora. Mientras tanto, las Guías siguen funcionando."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "Pasó a solo avisos después de muchos saltos seguidos.",
+          "a": [
+            "Es un freno de seguridad. Diez saltos seguidos sin que veas nada durante 3 segundos suelen indicar que una regla o el diseño de la plataforma está fallando, así que esa plataforma pasa a solo avisos durante el resto de la sesión. Vuelve a abrir la app de la plataforma y todo vuelve a la normalidad. Deshaz lo que haya estado mal para que cuente como error."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "¿Qué hace el botón flotante “Esto es IA”?",
+          "a": [
+            "Salta el video actual al instante y, de forma predeterminada, añade la cuenta a tu lista de bloqueados; Deshacer vuelve atrás y quita esa entrada. En TikTok, el nombre que aparece en el video es el nombre visible, así que también se bloquean las cuentas que lo comparten; desactiva Bloquear también la cuenta para saltar solo ese video. Oculta, cambia de tamaño o arrastra el botón en Ajustes → Avisos y botón."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Listas, palabras clave y reportes",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "¿Cómo funcionan la lista de bloqueados y la de permitidos?",
+          "a": [
+            "Lista de bloqueados: sus cuentas siempre se saltan. Lista de permitidos: sus cuentas nunca se saltan, aunque estén en las dos. Añade cuentas desde una entrada del Historial, con el botón flotante o escribiendo el nombre en Ajustes → Listas (TikTok: el nombre visible; YouTube e Instagram: el @usuario). Con Exportar listas e Importar listas las pasas a otro teléfono."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "¿Puedo añadir mis propias palabras clave?",
+          "a": [
+            "Sí. En Ajustes → Listas → Palabras clave propias, cada palabra se configura como Saltar o Solo aviso, y una palabra que empieza con # solo coincide con hashtags. Sugerencias de reglas, en Inicio, también propone palabras tomadas de los videos que marcaste como IA."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "¿Qué son las Sugerencias de reglas?",
+          "a": [
+            "Un simple conteo en tu teléfono, no aprendizaje automático. Un hashtag que aparece 3 veces en videos que marcaste como IA se convierte en una sugerencia de palabra clave; una palabra que deshiciste dos veces, en una sugerencia para ignorarla; y si deshaces muchos saltos, te sugiere una sensibilidad más relajada. Nada cambia hasta que aceptas, y los conteos nunca salen de tu teléfono."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "¿Qué envían los Reportes anónimos?",
+          "a": [
+            "Vienen desactivados. Si los activas, al tocar “Esto es IA” se envían la plataforma, el nombre de cuenta del creador, el motivo y las reglas que coincidieron, con un ID de reporte aleatorio generado en tu teléfono. Nada sobre tu cuenta ni tu pantalla. Una persona revisa cada cuenta antes de que entre en la lista compartida. Sigue cada reporte en Mis reportes y bórralo ahí cuando quieras."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "¿Qué son los Paquetes de reglas?",
+          "a": [
+            "Conjuntos de reglas adicionales sobre un tema, como caricaturas infantiles hechas con IA o noticias falsas con IA. Solo funcionan cuando te suscribes en Ajustes → Listas → Paquetes de reglas, se actualizan junto con las reglas y una persona revisa sus cuentas antes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Privacidad y datos",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "¿Qué lee exactamente? ¿Se sube algo?",
+          "a": [
+            "Solo el texto en pantalla dentro de las tres apps: el título, el nombre de cuenta, los hashtags, las etiquetas y si la página es un anuncio. Todas las decisiones se toman en tu teléfono. No graba la pantalla ni hace capturas, no sube nada de tu pantalla y no necesitas crear una cuenta. Qué leemos muestra lo último que se leyó."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "¿Qué sale de mi teléfono?",
+          "a": [
+            "Solo cosas que puedes desactivar en Ajustes → Privacidad: Estadísticas anónimas (eventos de uso, sin contenido de la pantalla), Reportes de errores, Reportes de fallos de detección (solo la versión de la app) y Reportes anónimos, si los activaste. Las descargas del conjunto de reglas no llevan nada sobre ti."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "¿Cuánto tiempo se guarda el Historial? ¿Cómo borro todo?",
+          "a": [
+            "El historial de saltos se queda en tu teléfono 30 días y después se borra. Ajustes → Privacidad → Borrar todos los datos elimina el historial, las estadísticas, las dos listas y los contadores de sugerencias; tus ajustes se conservan. Los reportes ya enviados se pueden borrar en Mis reportes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "Más funciones",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "¿Cómo lo pauso un rato?",
+          "a": [
+            "Toca el botón de pausa arriba en Inicio, usa la notificación de estado o añade el mosaico de SlopSwipe a la Configuración rápida. Elige 30 minutos, hasta mañana o hasta que lo reanudes. Mientras está en pausa no hay saltos ni avisos."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "¿Puede ser más estricto de noche?",
+          "a": [
+            "Sí, con Horario: Ajustes → Reglas → Horario define una franja diaria con su propia sensibilidad, por ejemplo de 23:00 a 07:00 en Estricta. Inicio muestra cuándo está activo el horario."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "¿Qué es el Modo parental? Olvidé el PIN.",
+          "a": [
+            "Un PIN bloquea los ajustes, las listas y la pausa, la sensibilidad se queda en Estricta y el resumen del lunes sirve como informe. El PIN nunca sale del teléfono y solo se guarda como hash. Si lo olvidaste: Ajustes de Android → Apps → SlopSwipe → Borrar datos desactiva el modo parental y también borra el historial y las listas."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "¿Qué es la pestaña Bienestar?",
+          "a": [
+            "Un pequeño módulo opcional: cuánto tiempo deslizas en cada plataforma, un límite de tiempo diario, un recordatorio por videos, una pausa antes de abrir, hora de dormir y tiempo de concentración. Cada límite tiene un botón Desactivar por hoy. Activa o desactiva el módulo en Ajustes → Bienestar."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "¿Hay un widget o un mosaico de Configuración rápida?",
+          "a": [
+            "Los dos. El widget muestra los saltos de hoy: mantén presionada la pantalla principal, elige Widgets y busca SlopSwipe. El mosaico pausa SlopSwipe: edita tu Configuración rápida y añade el mosaico de SlopSwipe."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "¿Para qué sirve la pestaña Guías? ¿Necesita el permiso?",
+          "a": [
+            "No necesita ningún permiso. Las guías te llevan paso a paso por los ajustes de cada plataforma, como reducir el contenido de IA en TikTok, filtrar palabras clave o pedirle a YouTube que no te recomiende un canal, y suman consejos para reconocer videos de IA. Funcionan por sí solas y hacen que el salto automático sea menos necesario."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "¿Cómo cambio el idioma?",
+          "a": [
+            "En Android 13 y versiones posteriores: Ajustes → Apariencia → Idioma. Las versiones anteriores usan el idioma del sistema. Hay 41 idiomas, con el inglés como respaldo. Las traducciones las hizo Claude y todavía no las han revisado hablantes nativos, así que avísanos si algo suena raro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Compatibilidad y soporte",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "No se salta nada en Instagram Reels.",
+          "a": [
+            "Reels viene desactivado en esta versión, porque sus textos de anuncios y etiquetas solo se han verificado en inglés. Actívalo en Ajustes → Dónde funciona y funcionará con el conjunto de reglas actual."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "¿Qué teléfonos y versiones de Android son compatibles?",
+          "a": [
+            "Android 8.0 y versiones posteriores, en cualquier teléfono o tablet con la app oficial de YouTube, TikTok o Instagram. Es posible que no se puedan leer las versiones modificadas o lite de esas apps, y algunas marcas necesitan los pasos de Batería y segundo plano para mantener vivo el servicio."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "¿Cómo reporto un problema o sugiero algo?",
+          "a": [
+            "Ajustes → Ayuda y comentarios → Enviar comentarios, o el botón de abajo. El modelo de tu teléfono, la versión de la app, el estado del servicio y la versión del conjunto de reglas se adjuntan automáticamente. Si se saltó algo por error, añade el nombre de la cuenta tal como aparece en el Historial."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

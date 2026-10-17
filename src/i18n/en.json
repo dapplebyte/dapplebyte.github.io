@@ -21,6 +21,7 @@
   },
   "cta": {
     "getOnPlay": "Get {name} on Google Play",
+    "comingSoon": "Coming soon to Google Play",
     "readSource": "Read the source",
     "about": "About {name}",
     "learnMore": "Learn more"
@@ -47,7 +48,7 @@
   },
   "home": {
     "title": "DappleByte · Independent Android apps",
-    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls; Relaypad, a Remote Play controller and console streaming app for PS5 and PS4; WhenDo, an AI automation and auto clicker app; JoyLink, which turns a phone into a Bluetooth gamepad, touchpad and TV remote; and Gamepad Tester Pro, which checks a controller for stick drift, input lag and dead buttons. DappleByte also makes Apk Extractor, an APK extractor, app backup tool and XAPK installer that moves apps to a new phone.",
+    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls; Relaypad, a Remote Play controller and console streaming app for PS5 and PS4; WhenDo, an AI automation and auto clicker app; JoyLink, which turns a phone into a Bluetooth gamepad, touchpad and TV remote; and Gamepad Tester Pro, which checks a controller for stick drift, input lag and dead buttons. DappleByte also makes Apk Extractor, an APK extractor, app backup tool and XAPK installer that moves apps to a new phone. SlopSwipe, coming soon to Google Play, swipes away AI-generated videos in YouTube Shorts, TikTok and Instagram Reels, with a reason for every skip and one-tap undo.",
     "appsHeading": "Apps",
     "principlesHeading": "How we work",
     "principles": [
@@ -95,6 +96,7 @@
     "faqAll": "All questions",
     "getHeading": "Get {name}",
     "getBody": "Available on Google Play for Android.",
+    "getBodySoon": "Coming soon to Google Play for Android.",
     "getBodySource": "The source code is published under {license}.",
     "requiresLabel": "Requires",
     "videoHeading": "See it in action",
@@ -227,7 +229,15 @@
       "batch-install": "Batch install queue",
       "version-history": "Version history with rollback to an older version",
       "device-migration": "Moves apps to a new phone over Wi-Fi",
-      "wifi-transfer": "Transfers apps between devices over Wi-Fi or a browser"
+      "wifi-transfer": "Transfers apps between devices over Wi-Fi or a browser",
+      "official-apps": "Works inside the official YouTube, TikTok and Instagram apps",
+      "auto-skip-ai": "Skips AI-generated videos automatically",
+      "platform-ai-labels": "Uses the platform's own AI labels",
+      "ai-keywords": "AI keyword and hashtag rules",
+      "block-allow-lists": "Your own block list and allow list",
+      "skip-reason-undo": "Shows why each video was skipped, with one-tap undo",
+      "on-device": "Screen content checked on the phone, never uploaded",
+      "screen-time-limits": "Daily time limit and bedtime reminders"
     },
     "values": {
       "yes": "Yes",
@@ -247,7 +257,8 @@
     "description": "Every {name} release for Android with what changed, newest first.",
     "version": "Version {version}",
     "build": "build {code}",
-    "feed": "Atom feed"
+    "feed": "Atom feed",
+    "empty": "No releases yet. {name} is coming soon to Google Play, and its release notes will appear here."
   },
   "press": {
     "title": "{name} press kit",
@@ -285,7 +296,8 @@
   "trademarks": {
     "sony": "PlayStation, PS5 and PS4 are trademarks of Sony Interactive Entertainment Inc. {name} is not affiliated with or endorsed by Sony.",
     "hosts": "Windows and Xbox are trademarks of Microsoft; Mac, iPhone and iPad of Apple; PlayStation of Sony Interactive Entertainment; Nintendo Switch of Nintendo; Android, Android TV and Google TV of Google; Fire TV of Amazon; Steam of Valve; Raspberry Pi of Raspberry Pi Ltd. {name} is not affiliated with or endorsed by any of them.",
-    "controllers": "Xbox is a trademark of Microsoft; PlayStation, DualShock and DualSense of Sony Interactive Entertainment; Nintendo Switch of Nintendo. {name} is not affiliated with or endorsed by any of them."
+    "controllers": "Xbox is a trademark of Microsoft; PlayStation, DualShock and DualSense of Sony Interactive Entertainment; Nintendo Switch of Nintendo. {name} is not affiliated with or endorsed by any of them.",
+    "video-apps": "YouTube, TikTok and Instagram are trademarks of their respective owners. {name} is not affiliated with or endorsed by them."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -638,6 +650,45 @@
         "description": "How Apk Extractor compares with other APK extractor and app backup apps for Android, feature by feature, facts only.",
         "vsDescription": "{name} and {other} compared on Android, feature by feature: APK extraction, XAPK installing, batch install, version history, moving apps to a new phone, Wi-Fi transfer, root, ads and pricing.",
         "vsIntro": "Both extract installed apps as APK files on Android. Here is where they differ, feature by feature."
+      }
+    },
+    "slopswipe": {
+      "kicker": "AI video filter · On-device",
+      "heroPoints": [
+        "Swipes past AI videos inside the official YouTube Shorts and TikTok apps, and Instagram Reels once you turn it on",
+        "Every skip shows the rule that matched, such as the platform's AI label, an AI keyword or your block list, with one-tap undo",
+        "Screen text is checked on your phone and never uploaded. No account. Free, no ads, no in-app purchases"
+      ],
+      "faqDescription": "Answers about SlopSwipe: turning on the accessibility service, how skipping and the rules work, lists and reports, privacy, the schedule, parent mode and wellbeing, and supported phones.",
+      "faqNotFoundBody": "Write to us with your phone model, the platform and what happened; for a wrong skip, add the account name shown in History. A person reads every message.",
+      "support": {
+        "beforeItems": [
+          "Open the FAQ. Turning on the accessibility service, skipping, lists and privacy are answered there, with the same wording as in the app.",
+          "If nothing is skipped, check in this order: Home shows Running; the platform is turned on under Settings → Where it works (Instagram Reels is off by default); you are in the Shorts player or the TikTok For You feed, not on the home page, in search or in Following.",
+          "Open What we read in Settings to see exactly what SlopSwipe read last. If Home says Android turned the service off, tap Fix it and finish the Battery and background steps for your phone brand."
+        ],
+        "template": {
+          "phone": "Phone model:",
+          "android": "Android version:",
+          "platform": "Platform (YouTube Shorts / TikTok / Instagram Reels):",
+          "version": "SlopSwipe version:",
+          "account": "For a wrong skip: the account name as shown in History:",
+          "what": "What happened, step by step:"
+        },
+        "refundBody": "SlopSwipe is free, with no ads and no in-app purchases, so there is nothing to buy and nothing to refund."
+      },
+      "press": {
+        "description": "Facts, assets and a boilerplate for writing about SlopSwipe, the Android app that skips AI-generated videos in short-video feeds.",
+        "boilerplate": "SlopSwipe skips AI-generated videos on Android, inside the official YouTube Shorts and TikTok apps and, once turned on, Instagram Reels. When a video matches a rule the user switched on, such as the platform's own AI label, an AI keyword or an account on the user's block list, it swipes to the next video and records why, so a wrong skip can be undone in one tap. Screen text is checked on the phone and never uploaded, and no account is needed. It is made by DappleByte, an independent studio.",
+        "priceValue": "Free, with no ads and no in-app purchases.",
+        "assetScreenshots": "Phone screenshots, 1080 × 1920 PNG, English"
+      },
+      "videosDescription": "Short videos showing SlopSwipe on a real phone: turning it on, what a skip looks like, undoing a wrong skip, and the block and allow lists.",
+      "privacyDescription": "What SlopSwipe for Android does with your data: what the accessibility service reads, what stays on the phone, what is sent and how to turn it off, with no account and no advertising ID.",
+      "compare": {
+        "description": "How SlopSwipe compares with other Android apps for AI videos and short-video feeds, feature by feature, facts only.",
+        "vsDescription": "{name} and {other} compared on Android, feature by feature: the official apps, automatic skipping, AI labels and keywords, lists, undo, privacy and pricing.",
+        "vsIntro": "Both deal with what you see in short-video feeds on Android. Here is where they differ, feature by feature."
       }
     }
   }

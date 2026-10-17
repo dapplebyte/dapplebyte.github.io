@@ -1,0 +1,111 @@
+{
+  "slug": "slopswipe",
+  "locale": "de",
+  "title": "SlopSwipe: KI-Videos & AI-Slop",
+  "shortDescription": "Wischt KI-Müll beim Scrollen automatisch weg. Filter, Sperrliste, Rückgängig.",
+  "tagline": "KI-Slop in Shorts, TikTok und Reels überspringen",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "KI-Slop in Shorts, TikTok und Reels überspringen",
+      "paragraphs": [
+        "KI-Slop flutet Kurzvideo-Feeds: Geschichten mit KI-Stimme, Fake-Tiere, synthetische „News“. SlopSwipe ist ein automatischer KI-Videofilter für Android. Du nutzt weiter die echten Apps YouTube Shorts, TikTok und Instagram Reels; trifft ein Video eine Regel, die du aktiviert hast, wischt SlopSwipe weiter und notiert den Grund, Fehler machst du leicht rückgängig. Nichts vom Bildschirm verlässt dein Handy, ein Konto ist nicht nötig."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "So räumen Nutzer KI-Slop mit SlopSwipe weg",
+      "paragraphs": [],
+      "bullets": [
+        "Einen von KI-Slop überrannten Feed aufräumen, ohne auf Kurzvideos zu verzichten",
+        "KI-Contentfarmen und Spam-Konten per Name sperren, damit sie nie wiederkommen",
+        "Eltern oder Großeltern einen Feed mit weniger Fake-Videos einrichten"
+      ]
+    },
+    {
+      "id": "detection",
+      "title": "KI-Videos erkennen mit transparenten Regeln",
+      "paragraphs": [],
+      "bullets": [
+        "KI-Labels der Plattform: als KI-generiert markierte Videos werden übersprungen",
+        "KI-Keywords: KI-Hashtags oder Begriffe in Titel oder Beschreibung",
+        "Deine Sperrliste plus eine geteilte Liste gemeldeter KI-Konten, von einem Menschen geprüft",
+        "Jede Regel ist in den Einstellungen sichtbar und abschaltbar"
+      ]
+    },
+    {
+      "id": "auto-swipe",
+      "title": "Auto-Swipe, Hinweisleiste und Rückgängig per Tipp",
+      "paragraphs": [],
+      "bullets": [
+        "Wischt bei einem Treffer zum nächsten Video, Verzögerung einstellbar",
+        "Im Verlauf steht, warum übersprungen wurde; Fehler dort markieren oder „Rückgängig-Button nach dem Überspringen“ aktivieren",
+        "Erlaubnisliste für Creator, denen du vertraust, Sperrliste für Konten, die du satt hast",
+        "Drei Stufen: Streng (Standard), Normal, Locker; auch leichte KI wie KI-Stimmen wird übersprungen, sonst Hinweis oder Ignorieren",
+        "Greift nie bei Werbung, Kommentaren, Nachrichten oder anderen Apps ein"
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "Zeitplan, Elternmodus, Widget und Regelpakete",
+      "paragraphs": [],
+      "bullets": [
+        "Optional: KI-Konten anonym melden; jede Meldung prüft ein Mensch",
+        "Nachts oder während der Arbeitszeit strenger filtern",
+        "Der Elternmodus sperrt die Einstellungen per PIN",
+        "Homescreen-Widget mit den heutigen Sprüngen, Quick Settings-Kachel zum Pausieren",
+        "Thematische Regelpakete; Pause für 30 Minuten, bis morgen oder bis du fortsetzt"
+      ]
+    },
+    {
+      "id": "wellbeing",
+      "title": "Bildschirmzeit und digitales Wohlbefinden",
+      "paragraphs": [],
+      "bullets": [
+        "Deine Scrollzeit und übersprungene KI-Videos, für heute und diese Woche",
+        "Tageslimit, Schlafens- und Fokuszeit mit sanfter Erinnerung oder Sprung zum Startbildschirm",
+        "Jedes Limit hat „Heute aus“; nichts wird erzwungen"
+      ]
+    },
+    {
+      "id": "guides",
+      "title": "Anleitungen gegen KI-Videos, ohne Berechtigung",
+      "paragraphs": [
+        "Die Anleitungen zeigen, wie du KI-Videos über die Einstellungen jeder Plattform reduzierst, sie selbst erkennst und den Dienst trotz aggressivem Akkusparen am Laufen hältst."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Datenschutz zuerst, nur auf dem Gerät",
+      "paragraphs": [],
+      "bullets": [
+        "Liest nur Bildschirmtext in Shorts, TikTok und Reels: Titel, Beschreibung, Kontoname, Hashtags, KI-Label",
+        "Keine Bildschirmaufnahme, keine Screenshots, kein Upload von Bildschirminhalten, kein Login",
+        "Die Seite „Was wir lesen“ zeigt genau, was zuletzt gelesen wurde; Absturzberichte und Statistiken sind optional",
+        "Kostenlos, ohne Werbung, ohne In-App-Käufe"
+      ]
+    },
+    {
+      "id": "note",
+      "title": "Bitte beachten",
+      "paragraphs": [],
+      "bullets": [
+        "SlopSwipe nutzt die Bedienungshilfen von Android, um Bildschirmtext zu lesen und für dich hochzuwischen. Es ist kein Hilfsmittel für Menschen mit Behinderung, erklärt vor dem Einschalten, was es tut, und arbeitet erst nach deiner Zustimmung.",
+        "Instagram Reels ist in der ersten Version standardmäßig aus; aktivierbar unter Einstellungen → Wo es wirkt.",
+        "Die Erkennung beruht auf Labels, Text und Listen: Videos ohne Label können durchrutschen, selten wird ein falsches übersprungen; „Rückgängig“ behebt das. Ändert ein Plattform-Update das Layout, stoppt SlopSwipe und sagt dir Bescheid. Benötigt Android 8.0+.",
+        "YouTube, TikTok und Instagram sind Marken ihrer Inhaber. SlopSwipe ist weder mit ihnen verbunden noch von ihnen unterstützt."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Etwas funktioniert nicht?",
+      "paragraphs": [
+        "Wurde ein Video nicht oder falsch übersprungen, schreib vor einer Bewertung an feedback@dapplebyte.com. Nenn uns Handymodell und Plattform; die meisten Probleme sind im nächsten Update behoben."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

@@ -1,4 +1,5 @@
 ---
+import PlayCta from '../../../components/PlayCta.astro';
 import { Image } from 'astro:assets';
 import Base from '../../../layouts/Base.astro';
 import ProductNav from '../../../components/ProductNav.astro';
@@ -154,9 +155,9 @@ const jsonLd = graph(
 
   <section class="wrap section">
     <h2 class="h-section" style="margin-bottom:12px">{t('product.getHeading', { name: product.name })}</h2>
-    <p class="lede" style="margin-bottom:20px">{t('product.getBody')}{product.sourceLicense && ` ${t('product.getBodySource', { license: product.sourceLicense })}`}</p>
+    <p class="lede" style="margin-bottom:20px">{product.playUrl ? t('product.getBody') : t('product.getBodySoon')}{product.sourceLicense && ` ${t('product.getBodySource', { license: product.sourceLicense })}`}</p>
     <div class="actions">
-      {product.playUrl && <a class="button" href={product.playUrl}>{t('cta.getOnPlay', { name: product.name })}</a>}
+      <PlayCta locale={locale} product={product} />
       {product.sourceUrl && <a class="link-plain" href={product.sourceUrl}>{t('cta.readSource')}</a>}
       <a class="link-plain" href={localePath(locale, `/${slug}/support/`)}>{t('labels.support')}</a>
     </div>

@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "it",
+  "title": "Domande frequenti",
+  "intro": "Le domande che riceviamo più spesso e cosa fare in ogni caso. Tocca una domanda per aprirla.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Primi passi e autorizzazioni",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "Perché SlopSwipe ha bisogno del servizio di accessibilità?",
+          "a": [
+            "È l’unico modo con cui un’app Android può leggere ciò che c’è sullo schermo e scorrere al posto tuo. SlopSwipe legge solo titoli, nomi degli account ed etichette in Shorts, TikTok e Reels, decide sul tuo telefono e scorre in alto quando una delle tue regole corrisponde. Non è uno strumento di assistenza per persone con disabilità e nulla del tuo schermo viene caricato."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "L’interruttore dell’accessibilità è grigio o compare “Impostazione con limitazioni”.",
+          "a": [
+            "Succede su Android 13 e versioni successive quando l’app è stata installata da un APK invece che da Google Play. Apri Info app → ⋮ in alto a destra → Consenti impostazioni con limitazioni, poi riattiva il servizio. Se l’opzione non c’è, tocca prima una volta SlopSwipe nell’elenco Accessibilità."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "La Home dice che Android ha disattivato il servizio di accessibilità, e continua a succedere.",
+          "a": [
+            "Aggiornamenti di sistema, pulizie della batteria e riavvii possono disattivarlo. Tocca Risolvi nella Home, oppure vai in Impostazioni → Restare attivo → Servizio di accessibilità. Perché non succeda più, completa i passaggi di Batteria e background per la marca del tuo telefono."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "A cosa servono i passaggi di Batteria e background?",
+          "a": [
+            "Alcune marche (Xiaomi e HyperOS, Samsung, OPPO, vivo, Huawei) chiudono i servizi in background per risparmiare energia, e con loro si ferma anche il servizio di accessibilità. La guida mostra i passaggi per la tua marca: ottimizzazione della batteria, avvio automatico e blocco dell’app tra le app recenti. SlopSwipe non chiede mai di sua iniziativa l’autorizzazione a ignorare l’ottimizzazione della batteria."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "Dice che la Protezione avanzata ha rimosso l’accesso all’accessibilità.",
+          "a": [
+            "La Protezione avanzata di Android toglie l’accessibilità alle app che non sono strumenti di assistenza, quindi il salto automatico non può funzionare finché è attiva. Puoi lasciarla attiva e usare le impostazioni delle piattaforme dalla scheda Guide, oppure disattivarla nelle impostazioni di sistema. Non consigliamo l’una o l’altra scelta: decidi tu."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "Perché chiede di inviare notifiche?",
+          "a": [
+            "Per la notifica di stato con i pulsanti di pausa, l’avviso quando il servizio viene disattivato e il riepilogo settimanale. Se rifiuti, tutto il resto funziona lo stesso. Puoi anche disattivare ogni notifica separatamente in Impostazioni → Restare attivo."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "Perché c’è sempre una notifica di SlopSwipe?",
+          "a": [
+            "È la Notifica di stato: è silenziosa e ti permette di mettere in pausa dall’area notifiche. Disattivala in Impostazioni → Restare attivo → Notifica di stato. Il servizio continua a funzionare anche senza."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Salti e regole",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "Come fa SlopSwipe a decidere che un video è IA?",
+          "a": [
+            "Con regole fisse, non con un modello di IA: l’etichetta IA della piattaforma stessa, parole chiave IA evidenti nel titolo o negli hashtag, la tua lista bloccati, le tue parole chiave e la lista segnalata dagli utenti. Ogni salto mostra la regola principale e la Cronologia elenca tutte le regole che hanno corrisposto. Puoi disattivare qualsiasi regola in Impostazioni → Regole → Interruttori per regola."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "Cosa cambiano Rigorosa, Normale e Tollerante?",
+          "a": [
+            "Solo come vengono trattati i riscontri di affidabilità media e bassa, come un singolo hashtag vago tipo #ai. Rigorosa li salta tutti, Normale salta quelli medi e per quelli bassi mostra solo un avviso, Tollerante mostra un avviso per quelli medi e ignora quelli bassi. Le etichette della piattaforma e le tue liste vengono saltate a qualsiasi livello."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "Cosa sono i Contenuti con IA leggera?",
+          "a": [
+            "Video fatti da persone con un po’ di IA dentro, come una voce fuori campo IA o un montaggio assistito dall’IA. Per impostazione predefinita vengono saltati. Scegli Avviso o Ignora in Impostazioni → Regole → Contenuti con IA leggera. La sensibilità non influisce su questa impostazione."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "Una barra diceva “Forse un video IA” ma non è stato saltato niente.",
+          "a": [
+            "È un avviso: per i riscontri meno sicuri SlopSwipe mostra solo la barra per qualche secondo e salta se tocchi Salta. Quali riscontri ricevono un avviso invece di un salto dipende dalla sensibilità; con Rigorosa vengono saltati in automatico."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "Ha saltato un video che volevo guardare.",
+          "a": [
+            "Scorri indietro per tornarci; un video a cui torni non viene più valutato. In seguito apri la Cronologia, tocca la voce e scegli Segna come errore o Aggiungi alla lista consentiti. Gli account nella lista consentiti non vengono mai saltati. Per avere un pulsante Annulla dopo ogni salto, attiva Impostazioni → Avvisi e pulsante → Pulsante Annulla dopo un salto."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "Non viene saltato niente.",
+          "a": [
+            "Controlla in quest’ordine: la Home mostra In funzione; la piattaforma è attiva in Impostazioni → Dove funziona (Reels è disattivato di default); sei nel player di Shorts o nel feed Per te di TikTok, non nella pagina principale, nella ricerca, in Seguiti o in una diretta; e il video corrisponde davvero a una regola, visto che la maggior parte dei video non è IA. Cosa leggiamo mostra esattamente l’ultima cosa letta."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "Salta le pubblicità?",
+          "a": [
+            "No, di proposito. Pubblicità e video sponsorizzati non vengono mai toccati né conteggiati, anche se hanno un’etichetta IA. Scorrili tu."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "Dove agisce esattamente?",
+          "a": [
+            "Solo nel player di Shorts, nel feed Per te di TikTok e, se attivato, in Reels. Pagina principale, risultati di ricerca, commenti, video lunghi, dirette e il feed Seguiti di TikTok restano intatti, così quello che stavi cercando non sparisce. Per includere Seguiti, attiva Impostazioni → Dove funziona → Agisci anche sugli account che seguo."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "Può scorrere prima, o aspettare un po’ di più?",
+          "a": [
+            "Sì: Impostazioni → Regole → Velocità di scorrimento, da Subito a 2 secondi. La breve pausa predefinita ti fa vedere cosa sta per essere saltato."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "La Home dice che una piattaforma è cambiata dopo un aggiornamento e le azioni sono sospese.",
+          "a": [
+            "L’app della piattaforma ha cambiato layout e il set di regole attuale non riesce a leggerlo, quindi SlopSwipe smette di agire lì invece di scorrere alla cieca. Il set di regole si aggiorna all’avvio dell’app e ogni 6 ore; tocca Cerca aggiornamenti delle regole per riprovare subito. Nel frattempo le Guide funzionano comunque."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "È passato ai soli avvisi dopo molti salti di fila.",
+          "a": [
+            "È un blocco di sicurezza. Dieci salti di fila senza guardare nulla per 3 secondi di solito significano che una regola o il layout della piattaforma non va, quindi quella piattaforma passa ai soli avvisi per il resto della sessione. Riapri l’app della piattaforma e tutto torna normale. Annulla ciò che era sbagliato, così conta come errore."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "Cosa fa il pulsante flottante “È IA”?",
+          "a": [
+            "Salta subito il video corrente e, per impostazione predefinita, mette l’account nella tua lista bloccati; Annulla torna indietro e rimuove quella voce. Su TikTok il nome sul video è il nome visualizzato, quindi vengono bloccati anche gli account che lo condividono; disattiva Blocca anche l’account per saltare solo quel video. Nascondi, ridimensiona o trascina il pulsante in Impostazioni → Avvisi e pulsante."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Liste, parole chiave e segnalazioni",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "Come funzionano la lista bloccati e la lista consentiti?",
+          "a": [
+            "Lista bloccati: gli account vengono sempre saltati. Lista consentiti: non vengono mai saltati, anche se l’account è in entrambe. Aggiungi account da una voce della Cronologia, con il pulsante flottante o scrivendo il nome in Impostazioni → Liste (TikTok: il nome visualizzato; YouTube e Instagram: il @nomeutente). Con Esporta liste e Importa liste le sposti su un altro telefono."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "Posso aggiungere parole chiave mie?",
+          "a": [
+            "Sì. In Impostazioni → Liste → Parole chiave personalizzate ogni parola si imposta su Salta o Solo avviso, e una parola che inizia con # corrisponde solo agli hashtag. Anche Suggerimenti sulle regole nella Home propone parole prese dai video che hai segnato come IA."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "Cosa sono i Suggerimenti sulle regole?",
+          "a": [
+            "Un semplice conteggio sul tuo telefono, non apprendimento automatico. Un hashtag che compare 3 volte nei video che hai segnato come IA diventa un suggerimento di parola chiave; una parola che hai annullato due volte diventa un suggerimento per ignorarla; molti annullamenti suggeriscono una sensibilità più tollerante. Non cambia nulla finché non accetti, e i conteggi non lasciano mai il telefono."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "Cosa inviano le Segnalazioni anonime?",
+          "a": [
+            "Sono disattivate di default. Se le attivi, toccando “È IA” vengono inviati la piattaforma, il nome dell’account del creator, il motivo e le regole che hanno corrisposto, con un ID segnalazione casuale generato sul tuo telefono. Niente sul tuo account o sullo schermo. Una persona controlla ogni account prima che entri nella lista condivisa. Segui ogni segnalazione in Le mie segnalazioni ed eliminala da lì quando vuoi."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "Cosa sono i Pacchetti di regole?",
+          "a": [
+            "Set di regole aggiuntivi su un tema, come cartoni per bambini fatti con l’IA o fake news create con l’IA. Funzionano solo dopo che ti iscrivi in Impostazioni → Liste → Pacchetti di regole, si aggiornano insieme alle regole e i loro account vengono prima controllati da una persona."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Privacy e dati",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "Cosa legge esattamente? Viene caricato qualcosa?",
+          "a": [
+            "Solo il testo sullo schermo all’interno delle tre app: titolo, nome dell’account, hashtag, etichette e se la pagina è una pubblicità. Ogni decisione viene presa sul tuo telefono. Niente registrazione dello schermo, niente screenshot, nulla del tuo schermo viene caricato e non serve alcun account. Cosa leggiamo mostra l’ultima cosa letta."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "Cosa esce dal mio telefono?",
+          "a": [
+            "Solo cose che puoi disattivare in Impostazioni → Privacy: Statistiche anonime (eventi d’uso, nessun contenuto dello schermo), Report sugli arresti anomali, Report sui rilevamenti guasti (solo la versione dell’app) e Segnalazioni anonime, se le hai attivate. I download del set di regole non contengono nulla su di te."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "Per quanto tempo viene conservata la Cronologia? Come cancello tutto?",
+          "a": [
+            "La cronologia dei salti resta sul telefono per 30 giorni e poi viene eliminata. Impostazioni → Privacy → Elimina tutti i dati rimuove cronologia, statistiche, entrambe le liste e i contatori dei suggerimenti; le impostazioni restano. Le segnalazioni già inviate si possono eliminare in Le mie segnalazioni."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "Altre funzioni",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "Come lo metto in pausa per un po’?",
+          "a": [
+            "Tocca il pulsante di pausa in alto nella Home, usa la notifica di stato o aggiungi il riquadro di SlopSwipe alle Impostazioni rapide. Scegli 30 minuti, fino a domani o finché non riprendi. In pausa non ci sono né salti né avvisi."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "Può essere più rigoroso di notte?",
+          "a": [
+            "Sì, con la Programmazione: Impostazioni → Regole → Programmazione imposta una fascia giornaliera con una sensibilità propria, per esempio dalle 23:00 alle 07:00 su Rigorosa. La Home mostra quando la programmazione è attiva."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "Cos’è la Modalità genitori? Ho dimenticato il PIN.",
+          "a": [
+            "Un PIN blocca impostazioni, liste e pausa, la sensibilità resta su Rigorosa e il riepilogo del lunedì fa da resoconto. Il PIN non lascia mai il telefono ed è salvato solo come hash. Se l’hai dimenticato: Impostazioni di Android → App → SlopSwipe → Cancella dati disattiva la modalità genitori e cancella anche cronologia e liste."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "Cos’è la scheda Benessere?",
+          "a": [
+            "Un piccolo modulo facoltativo: quanto tempo scorri su ogni piattaforma, un limite di tempo giornaliero, un promemoria sugli scorrimenti, una pausa prima dell’apertura, Riposo e Concentrazione. Ogni limite ha un pulsante Disattiva per oggi. Attiva o disattiva il modulo in Impostazioni → Benessere."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "C’è un widget o un riquadro delle Impostazioni rapide?",
+          "a": [
+            "Entrambi. Il widget mostra i salti di oggi: tieni premuto sulla schermata Home, scegli Widget e cerca SlopSwipe. Il riquadro mette in pausa SlopSwipe: modifica le Impostazioni rapide e aggiungi il riquadro di SlopSwipe."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "A cosa serve la scheda Guide? Serve l’autorizzazione?",
+          "a": [
+            "Non serve nessuna autorizzazione. Le guide ti accompagnano nelle impostazioni di ogni piattaforma, come ridurre i contenuti IA su TikTok, filtrare parole chiave o dire a YouTube di non consigliare un canale, oltre a consigli per riconoscere i video IA. Funzionano da sole e rendono meno necessario il salto automatico."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Come cambio la lingua?",
+          "a": [
+            "Su Android 13 e versioni successive: Impostazioni → Aspetto → Lingua. Le versioni precedenti seguono la lingua di sistema. Ci sono 41 lingue, con l’inglese come riserva. Le traduzioni sono state fatte da Claude e non sono ancora state controllate da madrelingua, quindi segnalaci qualsiasi cosa suoni strana."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Compatibilità e supporto",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "Su Instagram Reels non viene saltato niente.",
+          "a": [
+            "In questa versione Reels è disattivato di default, perché i testi di pubblicità ed etichette sono stati verificati solo in inglese. Attivalo in Impostazioni → Dove funziona e funziona con il set di regole attuale."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "Quali telefoni e versioni di Android sono supportati?",
+          "a": [
+            "Android 8.0 e versioni successive, su qualsiasi telefono o tablet con l’app ufficiale di YouTube, TikTok o Instagram. Le versioni modificate o lite di queste app potrebbero non essere leggibili, e alcune marche richiedono i passaggi di Batteria e background per tenere attivo il servizio."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Come segnalo un problema o propongo un’idea?",
+          "a": [
+            "Impostazioni → Assistenza e feedback → Invia feedback, oppure il pulsante qui sotto. Modello del telefono, versione dell’app, stato del servizio e versione del set di regole vengono allegati in automatico. Per un salto sbagliato, aggiungi il nome dell’account così come appare nella Cronologia."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

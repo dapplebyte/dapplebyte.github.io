@@ -18,7 +18,7 @@ export const GET: APIRoute = async () => {
     const log = (await getEntry('changelog', `${p.slug}/en`))?.data;
     out.push(`# ${p.name}`, '', `${copy.tagline}`, '');
     out.push(`- Website: ${SITE}/${p.slug}/`);
-    if (p.playUrl) out.push(`- Google Play: ${p.playUrl}`);
+    out.push(p.playUrl ? `- Google Play: ${p.playUrl}` : '- Google Play: coming soon (not released yet)');
     if (p.sourceUrl) out.push(`- Source code (${p.sourceLicense}): ${p.sourceUrl}`);
     if (p.minOs) out.push(`- Requires: ${p.minOs} or later. ${copy.requires ?? ''}`.trim());
     if (p.versions.length) out.push(`- Current version: ${p.versions.at(-1)!.name}`);
@@ -40,7 +40,7 @@ export const GET: APIRoute = async () => {
         }
       }
     }
-    if (log) {
+    if (log?.entries.length) {
       out.push(`# ${p.name} release notes`, '');
       for (const e of log.entries) {
         out.push(`## Version ${e.name}${e.date ? ` (${e.date})` : ''}`, '', ...e.items.map((i) => `- ${i}`), '');

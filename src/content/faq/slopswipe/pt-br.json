@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "pt-br",
+  "title": "Perguntas frequentes",
+  "intro": "As perguntas que mais recebemos e o que fazer em cada caso. Toque em uma pergunta para abrir.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Primeiros passos e permissões",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "Por que o SlopSwipe precisa do serviço de acessibilidade?",
+          "a": [
+            "É a única forma de um app Android ler o que está na tela e deslizar por você. O SlopSwipe lê só os títulos, os nomes de conta e os rótulos no Shorts, no TikTok e no Reels, decide no seu celular e desliza para cima quando uma das suas regras corresponde. Não é uma ferramenta de assistência para pessoas com deficiência, e nada da sua tela é enviado."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "A chave de acessibilidade está cinza ou aparece “Configuração restrita”.",
+          "a": [
+            "Isso acontece no Android 13 ou mais recente quando o app foi instalado por um APK em vez do Google Play. Abra Informações do app → ⋮ no canto superior direito → Permitir configurações restritas e ative o serviço de novo. Se a opção não aparecer, toque uma vez no SlopSwipe na lista de Acessibilidade primeiro."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "O Início diz que o Android desativou o serviço de acessibilidade, e isso continua acontecendo.",
+          "a": [
+            "Atualizações do sistema, limpezas de bateria e reinicializações podem desativá-lo. Toque em Corrigir no Início ou vá em Ajustes → Manter ativo → Serviço de acessibilidade. Para não acontecer de novo, conclua as etapas de Bateria e segundo plano da marca do seu celular."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "Para que servem as etapas de Bateria e segundo plano?",
+          "a": [
+            "Algumas marcas (Xiaomi e HyperOS, Samsung, OPPO, vivo, Huawei) encerram serviços em segundo plano para economizar bateria, e o serviço de acessibilidade vai junto. O guia mostra as etapas para a sua marca: otimização de bateria, inicialização automática e fixar o app em Recentes. O SlopSwipe nunca pede por conta própria a permissão para ignorar a otimização de bateria."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "Diz que a Proteção Avançada removeu o acesso de acessibilidade.",
+          "a": [
+            "A Proteção Avançada do Android tira a acessibilidade de apps que não são ferramentas de assistência, então o pulo automático não funciona enquanto ela estiver ativada. Você pode mantê-la ativada e usar as configurações das próprias plataformas pela aba Guias, ou desativá-la nas configurações do sistema. Não recomendamos uma opção em vez da outra; a decisão é sua."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "Por que ele pede para enviar notificações?",
+          "a": [
+            "Para a notificação de status com os botões de pausa, o alerta quando o serviço é desativado e o resumo semanal. Se você recusar, todo o resto continua funcionando. Cada notificação também pode ser desativada separadamente em Ajustes → Manter ativo."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "Por que sempre aparece uma notificação do SlopSwipe?",
+          "a": [
+            "É a Notificação de status: ela é silenciosa e permite pausar pela aba de notificações. Desative em Ajustes → Manter ativo → Notificação de status. O serviço continua funcionando sem ela."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Pulos e regras",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "Como o SlopSwipe decide que um vídeo é de IA?",
+          "a": [
+            "Com regras fixas, não com um modelo de IA: o rótulo de IA da própria plataforma, palavras-chave claras de IA no título ou nas hashtags, sua lista de bloqueados, suas palavras-chave e a lista de denúncias de usuários. Cada pulo mostra a regra principal, e o Histórico lista todas as regras que corresponderam. Qualquer regra pode ser desativada em Ajustes → Regras → Chaves por regra."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "O que muda entre Rígida, Normal e Leve?",
+          "a": [
+            "Só a forma de tratar correspondências de confiança média e baixa, como uma única hashtag vaga tipo #ai. Rígida pula todas; Normal pula as médias e só dá dica nas baixas; Leve dá dica nas médias e ignora as baixas. Rótulos da plataforma e suas próprias listas são pulados em qualquer nível."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "O que é Conteúdo com IA leve?",
+          "a": [
+            "Vídeos feitos por pessoas com um pouco de IA, como uma narração com IA ou uma edição assistida por IA. Por padrão, eles são pulados. Escolha Dica ou Ignorar em Ajustes → Regras → Conteúdo com IA leve. A sensibilidade não afeta essa configuração."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "Apareceu uma barra dizendo “Talvez seja um vídeo de IA”, mas nada foi pulado.",
+          "a": [
+            "Isso é uma dica: em correspondências menos certas, o SlopSwipe só mostra a barra por alguns segundos e pula se você tocar em Pular. Quais correspondências recebem uma dica em vez de um pulo depende da sua sensibilidade; na Rígida, elas são puladas automaticamente."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "Ele pulou um vídeo que eu queria ver.",
+          "a": [
+            "Deslize para trás para voltar a ele; um vídeo ao qual você volta não é avaliado de novo. Depois, abra o Histórico, toque no item e escolha Marcar como erro ou Adicionar à lista de permitidos. Contas na lista de permitidos nunca são puladas. Para ter um botão Desfazer após cada pulo, ative Ajustes → Dicas e botão → Botão Desfazer ao pular."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "Nada está sendo pulado.",
+          "a": [
+            "Confira nesta ordem: o Início mostra Ativo; a plataforma está ativada em Ajustes → Onde funciona (o Reels vem desativado); você está no player do Shorts ou no feed Para você do TikTok, e não na página inicial, na busca, em Seguindo ou numa live; e o vídeo realmente corresponde a uma regra, já que a maioria dos vídeos não é de IA. O que lemos mostra exatamente o que foi lido por último."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "Ele pula anúncios?",
+          "a": [
+            "Não, de propósito. Anúncios e vídeos patrocinados nunca são tocados nem contados, mesmo com rótulo de IA. Deslize por eles você mesmo."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "Onde exatamente ele age?",
+          "a": [
+            "Só no player do Shorts, no feed Para você do TikTok e, se ativado, no Reels. A página inicial, os resultados de busca, os comentários, os vídeos longos, as lives e o feed Seguindo do TikTok ficam de fora, para que o que você foi procurar continue lá. Para incluir Seguindo, ative Ajustes → Onde funciona → Agir também em contas que sigo."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "Dá para deslizar mais cedo ou esperar um pouco mais?",
+          "a": [
+            "Sim: Ajustes → Regras → Velocidade para pular, de Imediato até 2 segundos. A pequena pausa padrão deixa você ver o que está sendo pulado."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "O Início diz que uma plataforma mudou após uma atualização e que as ações estão paradas.",
+          "a": [
+            "O app da plataforma mudou o layout e a base de regras atual não consegue lê-lo, então o SlopSwipe para de agir ali em vez de deslizar às cegas. A base de regras é atualizada quando o app abre e a cada 6 horas; toque em Verificar atualizações de regras para tentar agora. Enquanto isso, os Guias continuam funcionando."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "Ele passou a só dar dicas depois de muitos pulos seguidos.",
+          "a": [
+            "É uma trava de segurança. Dez pulos seguidos sem nada assistido por 3 segundos costumam indicar que uma regra ou o layout da plataforma está com problema, então essa plataforma passa a só dar dicas pelo resto da sessão. Abra o app da plataforma de novo e tudo volta ao normal. Desfaça o que tiver sido pulado por engano, para contar como erro."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "O que faz o botão flutuante “Isto é IA”?",
+          "a": [
+            "Ele pula o vídeo atual na hora e, por padrão, coloca a conta na sua lista de bloqueados; Desfazer volta e remove esse item. No TikTok, o nome no vídeo é um nome de exibição, então contas com o mesmo nome também são bloqueadas; desative Bloquear a conta também para pular só aquele vídeo. Oculte, redimensione ou arraste o botão em Ajustes → Dicas e botão."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Listas, palavras-chave e denúncias",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "Como funcionam a lista de bloqueados e a de permitidos?",
+          "a": [
+            "Lista de bloqueados: as contas são sempre puladas. Lista de permitidos: as contas nunca são puladas, mesmo que estejam nas duas. Adicione contas a partir de um item do Histórico, com o botão flutuante ou digitando o nome em Ajustes → Listas (TikTok: o nome de exibição; YouTube e Instagram: o @usuário). Exportar listas e Importar listas levam tudo para outro celular."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "Posso adicionar minhas próprias palavras-chave?",
+          "a": [
+            "Sim. Em Ajustes → Listas → Palavras-chave próprias, cada palavra é definida como Pular ou Só dica, e uma palavra que começa com # só corresponde a hashtags. As Sugestões de regras no Início também propõem palavras tiradas dos vídeos que você marcou como IA."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "O que são as Sugestões de regras?",
+          "a": [
+            "Uma contagem simples no seu celular, não aprendizado de máquina. Uma hashtag que aparece 3 vezes em vídeos que você marcou como IA vira sugestão de palavra-chave; uma palavra que você desfez duas vezes vira sugestão para ignorá-la; muitos pulos desfeitos sugerem uma sensibilidade mais leve. Nada muda até você aceitar, e as contagens nunca saem do seu celular."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "O que as Denúncias anônimas enviam?",
+          "a": [
+            "Vêm desativadas por padrão. Quando ativadas, tocar em “Isto é IA” envia a plataforma, o nome da conta do criador, o motivo e as regras que corresponderam, com um ID de denúncia aleatório gerado no seu celular. Nada sobre a sua conta ou a tela. Uma pessoa revisa cada conta antes de ela entrar na lista compartilhada. Acompanhe cada denúncia em Minhas denúncias e apague quando quiser."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "O que são Pacotes de regras?",
+          "a": [
+            "Conjuntos extras de regras sobre um tema, como desenhos infantis feitos com IA ou notícias falsas com IA. Eles só funcionam depois que você se inscreve em Ajustes → Listas → Pacotes de regras, são atualizados junto com as regras, e as contas deles passam antes pela revisão de uma pessoa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Privacidade e dados",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "O que exatamente ele lê? Algo é enviado?",
+          "a": [
+            "Só o texto na tela dentro dos três apps: o título, o nome da conta, as hashtags, os rótulos e se a página é um anúncio. Todas as decisões são tomadas no seu celular. Não há gravação de tela nem capturas de tela, nada da sua tela é enviado e não é preciso criar conta. O que lemos mostra a última coisa que foi lida."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "O que sai do meu celular?",
+          "a": [
+            "Só o que você pode desativar em Ajustes → Privacidade: Estatísticas anônimas (eventos de uso, sem conteúdo da tela), Relatórios de falhas, Relatórios de detecção com defeito (só a versão do app) e Denúncias anônimas, se você ativou. Os downloads da base de regras não levam nada sobre você."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "Por quanto tempo o Histórico é guardado? Como apago tudo?",
+          "a": [
+            "O histórico de pulos fica no seu celular por 30 dias e depois é apagado. Ajustes → Privacidade → Apagar todos os dados remove o histórico, as estatísticas, as duas listas e os contadores de sugestões; suas configurações são mantidas. Denúncias já enviadas podem ser apagadas em Minhas denúncias."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "Mais recursos",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "Como pauso por um tempo?",
+          "a": [
+            "Toque no botão de pausa no topo do Início, use a notificação de status ou adicione o bloco do SlopSwipe às Configurações rápidas. Escolha 30 minutos, até amanhã ou até você retomar. Enquanto estiver pausado, não há pulos nem dicas."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "Dá para ser mais rígido à noite?",
+          "a": [
+            "Sim, com o Horário: Ajustes → Regras → Horário define uma janela diária com sensibilidade própria, por exemplo das 23:00 às 07:00 na Rígida. O Início mostra quando o horário está ativo."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "O que é o Modo parental? Esqueci o PIN.",
+          "a": [
+            "Um PIN bloqueia as configurações, as listas e a pausa, a sensibilidade fica na Rígida e o resumo de segunda-feira serve como relatório. O PIN nunca sai do celular e é guardado só como hash. Esqueceu: Configurações do Android → Apps → SlopSwipe → Limpar dados desativa o modo parental e também apaga o histórico e as listas."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "O que é a aba Bem-estar?",
+          "a": [
+            "Um pequeno módulo opcional: quanto tempo você rola em cada plataforma, um limite diário de tempo, um lembrete de deslizes, uma pausa antes de abrir, hora de dormir e tempo de foco. Todo limite tem um botão Desativar hoje. Ative ou desative o módulo em Ajustes → Bem-estar."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "Tem widget ou bloco nas Configurações rápidas?",
+          "a": [
+            "Os dois. O widget mostra os pulos de hoje: toque e segure a tela inicial, escolha Widgets e procure o SlopSwipe. O bloco pausa o SlopSwipe: edite as Configurações rápidas e adicione o bloco do SlopSwipe."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "Para que serve a aba Guias? Ela precisa da permissão?",
+          "a": [
+            "Não precisa de permissão. Os guias mostram passo a passo as configurações de cada plataforma, como reduzir o conteúdo de IA no TikTok, filtrar palavras-chave ou pedir ao YouTube para não recomendar um canal, além de dicas para reconhecer vídeos de IA. Eles funcionam sozinhos e deixam o pulo automático menos necessário."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Como mudo o idioma?",
+          "a": [
+            "No Android 13 ou mais recente: Ajustes → Aparência → Idioma. Versões anteriores seguem o idioma do sistema. São 41 idiomas, com o inglês como alternativa. As traduções foram feitas pelo Claude e ainda não foram revisadas por falantes nativos, então avise se algo soar estranho."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Compatibilidade e suporte",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "Nada é pulado no Instagram Reels.",
+          "a": [
+            "O Reels vem desativado nesta versão, porque os textos de anúncios e rótulos dele só foram verificados em inglês. Ative em Ajustes → Onde funciona e ele funciona com a base de regras atual."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "Quais celulares e versões do Android são compatíveis?",
+          "a": [
+            "Android 8.0 ou mais recente, em qualquer celular ou tablet com o app oficial do YouTube, TikTok ou Instagram. Versões modificadas ou lite desses apps podem não ser lidas, e algumas marcas precisam das etapas de Bateria e segundo plano para manter o serviço ativo."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Como relato um problema ou dou uma sugestão?",
+          "a": [
+            "Ajustes → Ajuda e feedback → Enviar feedback, ou o botão abaixo. O modelo do celular, a versão do app, o status do serviço e a versão da base de regras são anexados automaticamente. Se algo foi pulado por engano, inclua o nome da conta como aparece no Histórico."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

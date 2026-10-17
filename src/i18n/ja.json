@@ -21,6 +21,7 @@
   },
   "cta": {
     "getOnPlay": "Google Play で {name} を入手",
+    "comingSoon": "Google Play で近日公開",
     "readSource": "ソースコードを見る",
     "about": "{name} について",
     "learnMore": "詳しく見る"
@@ -47,7 +48,7 @@
   },
   "home": {
     "title": "DappleByte · 独立系スタジオの Android アプリ",
-    "description": "DappleByte は Android アプリをつくっている独立系スタジオです。コントローラーをタッチ操作に変えるキーマッピングアプリ Gamepad Pro、PS5・PS4 向けのリモートプレイ用コントローラー兼ゲーム機ストリーミングアプリ Relaypad、AI 自動化と連続クリック（オートクリッカー）のアプリ WhenDo、スマホを Bluetooth ゲームパッド・タッチパッド・テレビリモコンに変える JoyLink、そしてコントローラーのスティックドリフト・入力遅延・反応しないボタンをチェックする Gamepad Tester Pro を開発しています。このほか、APK の取り出し、アプリのバックアップ、XAPK のインストールができ、新しいスマホへのアプリ移行にも使える Apk Extractor も開発しています。",
+    "description": "DappleByte は Android アプリをつくっている独立系スタジオです。コントローラーをタッチ操作に変えるキーマッピングアプリ Gamepad Pro、PS5・PS4 向けのリモートプレイ用コントローラー兼ゲーム機ストリーミングアプリ Relaypad、AI 自動化と連続クリック（オートクリッカー）のアプリ WhenDo、スマホを Bluetooth ゲームパッド・タッチパッド・テレビリモコンに変える JoyLink、そしてコントローラーのスティックドリフト・入力遅延・反応しないボタンをチェックする Gamepad Tester Pro を開発しています。このほか、APK の取り出し、アプリのバックアップ、XAPK のインストールができ、新しいスマホへのアプリ移行にも使える Apk Extractor も開発しています。近日 Google Play で公開予定の SlopSwipe は、YouTube Shorts、TikTok、Instagram Reels で AI 生成動画を自動でスワイプして飛ばし、スキップごとに理由を表示、ワンタップで元に戻せます。",
     "appsHeading": "アプリ",
     "principlesHeading": "大切にしていること",
     "principles": [
@@ -95,6 +96,7 @@
     "faqAll": "すべての質問",
     "getHeading": "{name} を入手",
     "getBody": "Android 向けに Google Play で配信中です。",
+    "getBodySoon": "Android 向けに Google Play で近日公開予定です。",
     "getBodySource": "ソースコードは {license} で公開しています。",
     "requiresLabel": "動作環境",
     "videoHeading": "実際の動きを見る",
@@ -227,7 +229,15 @@
       "batch-install": "一括インストールのキュー",
       "version-history": "バージョン履歴から古いバージョンに戻せる",
       "device-migration": "Wi-Fi で新しいスマホにアプリを移行",
-      "wifi-transfer": "Wi-Fi やブラウザで端末間のアプリ転送"
+      "wifi-transfer": "Wi-Fi やブラウザで端末間のアプリ転送",
+      "official-apps": "公式の YouTube、TikTok、Instagram アプリの中で動作",
+      "auto-skip-ai": "AI 生成動画を自動でスキップ",
+      "platform-ai-labels": "プラットフォーム自身の AI ラベルを利用",
+      "ai-keywords": "AI キーワードとハッシュタグのルール",
+      "block-allow-lists": "自分で管理するブロックリストと許可リスト",
+      "skip-reason-undo": "スキップの理由を表示し、ワンタップで元に戻せる",
+      "on-device": "画面の内容は端末上で照合し、アップロードしない",
+      "screen-time-limits": "1 日の利用上限と就寝前のリマインダー"
     },
     "values": {
       "yes": "あり",
@@ -247,7 +257,8 @@
     "description": "Android 版 {name} のすべてのリリースと変更点を、新しい順に掲載しています。",
     "version": "バージョン {version}",
     "build": "ビルド {code}",
-    "feed": "Atom フィード"
+    "feed": "Atom フィード",
+    "empty": "まだリリースはありません。{name} は Google Play で近日公開予定で、リリースノートはここに掲載します。"
   },
   "press": {
     "title": "{name} プレスキット",
@@ -285,7 +296,8 @@
   "trademarks": {
     "sony": "PlayStation、PS5、PS4 は Sony Interactive Entertainment Inc. の商標です。{name} は Sony と提携しておらず、Sony の承認を受けたものでもありません。",
     "hosts": "Windows と Xbox は Microsoft の、Mac、iPhone、iPad は Apple の、PlayStation は Sony Interactive Entertainment の、Nintendo Switch は Nintendo の、Android、Android TV、Google TV は Google の、Fire TV は Amazon の、Steam は Valve の、Raspberry Pi は Raspberry Pi Ltd の商標です。{name} はこれらのいずれの企業とも提携しておらず、承認を受けたものでもありません。",
-    "controllers": "Xbox は Microsoft の、PlayStation、DualShock、DualSense は Sony Interactive Entertainment の、Nintendo Switch は Nintendo の商標です。{name} はこれらのいずれの企業とも提携しておらず、承認を受けたものでもありません。"
+    "controllers": "Xbox は Microsoft の、PlayStation、DualShock、DualSense は Sony Interactive Entertainment の、Nintendo Switch は Nintendo の商標です。{name} はこれらのいずれの企業とも提携しておらず、承認を受けたものでもありません。",
+    "video-apps": "YouTube、TikTok、Instagram はそれぞれの所有者の商標です。{name} はこれらのいずれとも提携しておらず、承認を受けたものでもありません。"
   },
   "videoItems": {
     "gamepad-pro": {
@@ -638,6 +650,45 @@
         "description": "Apk Extractor を、Android 向けのほかの APK 抽出・アプリバックアップアプリと機能ごとに比較しました。事実だけをまとめています。",
         "vsDescription": "Android の {name} と {other} を機能ごとに比較：APK の取り出し、XAPK のインストール、一括インストール、バージョン履歴、新しいスマホへの移行、Wi-Fi 転送、root、広告、料金。",
         "vsIntro": "どちらも Android でインストール済みのアプリを APK ファイルとして取り出せるアプリです。違いを機能ごとにまとめました。"
+      }
+    },
+    "slopswipe": {
+      "kicker": "AI 動画フィルター · 端末内で判定",
+      "heroPoints": [
+        "公式の YouTube Shorts と TikTok アプリの中で AI 動画を自動でスワイプ。Instagram Reels もオンにすれば対象に",
+        "スキップのたびに一致したルールを表示。プラットフォームの AI ラベル、AI キーワード、ブロックリストなど。ワンタップで元に戻せます",
+        "画面のテキストは端末上で照合し、アップロードしません。アカウント不要。無料、広告なし、アプリ内課金なし"
+      ],
+      "faqDescription": "SlopSwipe のよくある質問：ユーザー補助サービスのオン、スキップとルールの仕組み、リストと報告、プライバシー、スケジュール、ペアレントモードとウェルビーイング、対応端末。",
+      "faqNotFoundBody": "スマートフォンの機種、プラットフォーム、何が起きたかを書いてメールしてください。間違ったスキップの場合は、履歴に表示されているアカウント名も添えてください。すべてのメールに人が目を通します。",
+      "support": {
+        "beforeItems": [
+          "まずよくある質問を開いてください。ユーザー補助サービスのオン、スキップ、リスト、プライバシーについては、アプリ内と同じ文面でそこに回答があります。",
+          "何もスキップされない場合は、次の順に確認してください。ホームに「動作中」と表示されているか。設定 → 動作する場所 でそのプラットフォームがオンになっているか（Instagram Reels は初期設定でオフ）。ホーム、検索、フォロー中ではなく、Shorts のプレーヤーか TikTok のおすすめフィードを見ているか。",
+          "設定の「読み取る内容」で、SlopSwipe が最後に読み取った内容をそのまま確認できます。Android がサービスをオフにしたとホームに表示された場合は「修正する」をタップし、お使いのメーカーの「バッテリーとバックグラウンド」の手順を最後まで済ませてください。"
+        ],
+        "template": {
+          "phone": "スマートフォンの機種：",
+          "android": "Android のバージョン：",
+          "platform": "プラットフォーム（YouTube Shorts / TikTok / Instagram Reels）：",
+          "version": "SlopSwipe のバージョン：",
+          "account": "間違ったスキップの場合：履歴に表示されているアカウント名：",
+          "what": "何が起きたか（手順を順番に）："
+        },
+        "refundBody": "SlopSwipe は無料で、広告もアプリ内課金もありません。購入するものがないため、返金の対象もありません。"
+      },
+      "press": {
+        "description": "SlopSwipe について書くための事実、素材、紹介文。SlopSwipe は、ショート動画のフィードで AI 生成動画をスキップする Android アプリです。",
+        "boilerplate": "SlopSwipe は、公式の YouTube Shorts と TikTok アプリの中で（オンにすれば Instagram Reels でも）AI 生成動画をスキップする Android アプリです。プラットフォーム自身の AI ラベル、AI キーワード、ブロックリストのアカウントなど、ユーザーがオンにしたルールに動画が一致すると次の動画へスワイプし、理由を記録するので、間違ったスキップはワンタップで元に戻せます。画面のテキストは端末上で照合してアップロードせず、アカウントも不要です。開発は独立系スタジオの DappleByte です。",
+        "priceValue": "無料。広告なし、アプリ内課金なし。",
+        "assetScreenshots": "スマートフォンのスクリーンショット、PNG、英語（縦 1080 × 1920）"
+      },
+      "videosDescription": "実機で SlopSwipe を紹介する短い動画：オンにする方法、スキップの様子、間違ったスキップを元に戻す方法、ブロックリストと許可リスト。",
+      "privacyDescription": "Android 版 SlopSwipe がデータをどう扱うか：ユーザー補助サービスが読み取る内容、端末内だけに残るもの、送信されるものとそのオフの方法。アカウントは不要で、広告 ID も使いません。",
+      "compare": {
+        "description": "AI 動画やショート動画のフィードを扱うほかの Android アプリと SlopSwipe を、機能ごとに事実だけで比較します。",
+        "vsDescription": "Android 版 {name} と {other} を機能ごとに比較：公式アプリ内での動作、自動スキップ、AI ラベルとキーワード、リスト、元に戻す機能、プライバシー、料金。",
+        "vsIntro": "どちらも Android のショート動画フィードで目にするものを扱うアプリです。違いを機能ごとにまとめました。"
       }
     }
   }

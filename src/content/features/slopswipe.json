@@ -1,0 +1,11 @@
+{
+  "slug": "slopswipe",
+  "items": [
+    { "id": "detection", "sectionId": "detection", "screenshots": [4, 3], "faq": ["how_it_decides", "sensitivity", "light_ai", "hint_only", "ads", "degraded"] },
+    { "id": "auto-swipe", "sectionId": "auto-swipe", "screenshots": [3, 6], "faq": ["undo", "not_skipping", "where_active", "skip_delay", "fab", "lists"] },
+    { "id": "schedule", "sectionId": "schedule", "screenshots": [], "faq": ["schedule", "parent_mode", "pause", "widget_tile", "rule_packs", "anon_reports"] },
+    { "id": "wellbeing", "sectionId": "wellbeing", "screenshots": [2, 5], "faq": ["wellbeing", "records_retention"] },
+    { "id": "guides", "sectionId": "guides", "screenshots": [], "faq": ["tutorials", "battery", "advanced_protection"] },
+    { "id": "privacy", "sectionId": "privacy", "screenshots": [7], "faq": ["what_is_read", "data_sent", "records_retention", "why_accessibility"] }
+  ]
+}

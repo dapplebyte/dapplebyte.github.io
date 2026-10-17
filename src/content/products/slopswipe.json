@@ -1,0 +1,25 @@
+{
+  "slug": "slopswipe",
+  "name": "SlopSwipe",
+  "order": 7,
+  "status": "live",
+  "platform": "Android",
+  "applicationId": "com.shots.app.slopswipe",
+  "category": "UtilitiesApplication",
+  "minOs": "Android 8.0",
+  "versions": [],
+  "contactEmail": "feedback@dapplebyte.com",
+  "accent": { "solid": "#2E9E68", "bright": "#3DD68C", "ink": "#0E1013" },
+  "displayFont": "IBM Plex Sans",
+  "screenshotCount": 7,
+  "screenshotOrientation": "portrait",
+  "featuredFaq": ["why_accessibility", "how_it_decides", "undo", "not_skipping", "what_is_read", "instagram"],
+  "trademark": "video-apps",
+  "languages": 41,
+  "overview": {
+    "useCases": "use-cases",
+    "cells": ["privacy", "note"],
+    "privacyLinkIn": "privacy",
+    "fine": "support"
+  }
+}

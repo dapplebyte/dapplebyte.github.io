@@ -1,0 +1,111 @@
+{
+  "slug": "slopswipe",
+  "locale": "vi",
+  "title": "SlopSwipe: Bỏ qua video AI rác",
+  "shortDescription": "Tự động vuốt qua nội dung AI khi cuộn. Bộ lọc, danh sách chặn, hoàn tác một chạm",
+  "tagline": "Tự động bỏ qua video AI rác trên Shorts, TikTok và Reels",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Tự động bỏ qua video AI rác trên Shorts, TikTok và Reels",
+      "paragraphs": [
+        "Video AI rác đang tràn ngập bảng tin video ngắn: truyện lồng tiếng AI, động vật giả, \"tin tức\" tổng hợp. SlopSwipe là bộ lọc video AI tự động trên Android. Bạn vẫn dùng ứng dụng YouTube Shorts, TikTok và Instagram Reels gốc. Khi video khớp quy tắc bạn đã bật, SlopSwipe tự vuốt sang video kế tiếp và ghi lại lý do, nên lỡ bỏ nhầm cũng dễ hoàn tác. Nội dung màn hình không rời khỏi điện thoại, cũng không cần tài khoản."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Những cách dùng SlopSwipe phổ biến",
+      "paragraphs": [],
+      "bullets": [
+        "Dọn bảng tin ngập video AI rác mà không phải bỏ xem video ngắn",
+        "Chặn các kênh nội dung AI hàng loạt và tài khoản spam theo tên, để chúng không quay lại",
+        "Giúp ba mẹ, ông bà có bảng tin ít video giả hơn"
+      ]
+    },
+    {
+      "id": "detection",
+      "title": "Phát hiện video AI bằng quy tắc minh bạch",
+      "paragraphs": [],
+      "bullets": [
+        "Nhãn AI của nền tảng: video được gắn nhãn do AI tạo sẽ bị bỏ qua",
+        "Từ khóa AI: hashtag hoặc cụm từ AI trong tiêu đề hay mô tả",
+        "Danh sách chặn của riêng bạn, cùng danh sách chung các tài khoản AI do người dùng báo cáo và có người kiểm duyệt",
+        "Mọi quy tắc đều xem được trong Cài đặt và có thể tắt"
+      ]
+    },
+    {
+      "id": "auto-swipe",
+      "title": "Tự động vuốt, thanh gợi ý và hoàn tác một chạm",
+      "paragraphs": [],
+      "bullets": [
+        "Tự vuốt sang video kế tiếp khi khớp quy tắc, độ trễ chỉnh được",
+        "Lịch sử cho biết lý do từng video bị bỏ qua; đánh dấu nhầm ngay tại đó, hoặc bật \"Nút Hoàn tác sau khi bỏ qua\"",
+        "Danh sách cho phép cho người sáng tạo bạn tin tưởng, danh sách chặn cho tài khoản bạn không muốn xem nữa",
+        "Ba mức độ nhạy: Nghiêm (mặc định), Thường, Nới lỏng; nội dung AI nhẹ như lồng tiếng AI cũng bị bỏ qua, hoặc chọn \"Gợi ý\" hay \"Không xử lý\"",
+        "Không bao giờ tác động lên quảng cáo, bình luận, tin nhắn hay ứng dụng khác"
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "Lịch, chế độ phụ huynh, widget và gói quy tắc",
+      "paragraphs": [],
+      "bullets": [
+        "Tùy chọn: báo cáo ẩn danh tài khoản AI; mọi báo cáo đều có người xem xét",
+        "Lên lịch lọc nghiêm hơn vào ban đêm hoặc giờ làm việc",
+        "Chế độ phụ huynh khóa phần cài đặt bằng PIN",
+        "Widget màn hình chính cho biết hôm nay đã bỏ qua mấy video, ô Quick Settings (Cài đặt nhanh) để tạm dừng",
+        "Gói quy tắc theo chủ đề; tạm dừng 30 phút, đến ngày mai hoặc đến khi bạn bật lại"
+      ]
+    },
+    {
+      "id": "wellbeing",
+      "title": "Thời gian màn hình và lướt lành mạnh",
+      "paragraphs": [],
+      "bullets": [
+        "Xem bạn lướt bao lâu và đã bỏ qua bao nhiêu video AI hôm nay, tuần này",
+        "Giới hạn hằng ngày, giờ đi ngủ và giờ tập trung, kèm nhắc nhẹ hoặc đưa về màn hình chính",
+        "Giới hạn nào cũng có \"Tắt hôm nay\"; không ép buộc bạn điều gì"
+      ]
+    },
+    {
+      "id": "guides",
+      "title": "Hướng dẫn dùng được mà không cần cấp quyền",
+      "paragraphs": [
+        "Hướng dẫn chỉ cách giảm video AI bằng cài đặt riêng của từng nền tảng, cách tự nhận ra video AI, và cách giữ dịch vụ chạy ổn trên điện thoại có tính năng tiết kiệm pin quá mạnh."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Riêng tư là ưu tiên, xử lý ngay trên máy",
+      "paragraphs": [],
+      "bullets": [
+        "Chỉ đọc chữ trên màn hình trong Shorts, TikTok và Reels: tiêu đề, mô tả, tên tài khoản, hashtag, nhãn AI",
+        "Không quay màn hình, không chụp ảnh màn hình, không tải nội dung màn hình lên, không đăng nhập",
+        "Trang \"Những gì chúng tôi đọc\" cho thấy chính xác nội dung vừa đọc gần nhất; báo cáo lỗi và thống kê là tùy chọn",
+        "Miễn phí, không quảng cáo, không mua hàng trong ứng dụng"
+      ]
+    },
+    {
+      "id": "note",
+      "title": "Lưu ý",
+      "paragraphs": [],
+      "bullets": [
+        "SlopSwipe dùng dịch vụ hỗ trợ tiếp cận của Android để đọc chữ trên màn hình và vuốt lên giúp bạn. Đây không phải công cụ hỗ trợ người khuyết tật. Ứng dụng giải thích rõ trước khi bạn bật và chỉ hoạt động khi bạn đồng ý.",
+        "Instagram Reels mặc định tắt trong phiên bản đầu tiên này; bật lên trong Cài đặt → Phạm vi hoạt động.",
+        "Việc nhận diện dựa vào nhãn, chữ và danh sách: video không có nhãn có thể lọt qua, thỉnh thoảng một video có thể bị bỏ qua nhầm; Hoàn tác sẽ sửa lại. Nếu nền tảng cập nhật làm đổi giao diện, SlopSwipe ngừng tác động và báo cho bạn. Yêu cầu Android 8.0 trở lên.",
+        "YouTube, TikTok và Instagram là nhãn hiệu của chủ sở hữu tương ứng. SlopSwipe không liên kết với và không được các bên này bảo trợ."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Có gì chưa ổn?",
+      "paragraphs": [
+        "Nếu video không bị bỏ qua, hoặc bị bỏ qua nhầm, hãy gửi email đến feedback@dapplebyte.com trước khi đánh giá. Cho chúng tôi biết kiểu điện thoại và nền tảng; đa số lỗi được sửa ở bản cập nhật kế tiếp."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

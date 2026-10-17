@@ -1,4 +1,5 @@
 ---
+import PlayCta from '../../../../components/PlayCta.astro';
 import { Image } from 'astro:assets';
 import { getEntry } from 'astro:content';
 import Base from '../../../../layouts/Base.astro';
@@ -106,7 +107,7 @@ const jsonLd = graph(
 
   <section class="wrap section">
     <div class="actions">
-      {product.playUrl && <a class="button" href={product.playUrl}>{t('cta.getOnPlay', { name: product.name })}</a>}
+      <PlayCta locale={locale} product={product} />
       <a class="link-plain" href={localePath(locale, `/${slug}/`)}>{t('features.backToProduct', { name: product.name })}</a>
       <a class="link-plain" href={localePath(locale, `/${slug}/features/`)}>{t('features.allFeatures', { name: product.name })}</a>
     </div>

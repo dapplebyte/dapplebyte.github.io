@@ -21,6 +21,7 @@
   },
   "cta": {
     "getOnPlay": "Consigue {name} en Google Play",
+    "comingSoon": "Próximamente en Google Play",
     "readSource": "Ver el código fuente",
     "about": "Sobre {name}",
     "learnMore": "Más información"
@@ -47,7 +48,7 @@
   },
   "home": {
     "title": "DappleByte · Apps independientes para Android",
-    "description": "DappleByte es un estudio independiente que hace apps para Android: Gamepad Pro, un mapeador de botones que convierte un control en controles táctiles; Relaypad, una app de control por Remote Play y transmisión de la consola para PS5 y PS4; WhenDo, una app de automatización con IA y clic automático; JoyLink, que convierte un teléfono en un mando Bluetooth, panel táctil y mando de TV; y Gamepad Tester Pro, que revisa un mando en busca de deriva del stick, input lag y botones que no responden. DappleByte también hace Apk Extractor, un extractor de APK, herramienta de copia de seguridad de apps e instalador de XAPK que pasa tus apps a un teléfono nuevo.",
+    "description": "DappleByte es un estudio independiente que hace apps para Android: Gamepad Pro, un mapeador de botones que convierte un control en controles táctiles; Relaypad, una app de control por Remote Play y transmisión de la consola para PS5 y PS4; WhenDo, una app de automatización con IA y clic automático; JoyLink, que convierte un teléfono en un mando Bluetooth, panel táctil y mando de TV; y Gamepad Tester Pro, que revisa un mando en busca de deriva del stick, input lag y botones que no responden. DappleByte también hace Apk Extractor, un extractor de APK, herramienta de copia de seguridad de apps e instalador de XAPK que pasa tus apps a un teléfono nuevo. SlopSwipe, que llegará pronto a Google Play, desliza fuera los videos generados por IA en YouTube Shorts, TikTok e Instagram Reels, te dice por qué saltó cada uno y lo deshaces con un toque.",
     "appsHeading": "Apps",
     "principlesHeading": "Cómo trabajamos",
     "principles": [
@@ -95,6 +96,7 @@
     "faqAll": "Todas las preguntas",
     "getHeading": "Consigue {name}",
     "getBody": "Disponible en Google Play para Android.",
+    "getBodySoon": "Próximamente en Google Play para Android.",
     "getBodySource": "El código fuente se publica bajo {license}.",
     "requiresLabel": "Requisitos",
     "videoHeading": "Míralo en acción",
@@ -227,7 +229,15 @@
       "batch-install": "Cola de instalación por lotes",
       "version-history": "Historial de versiones para volver a una versión anterior",
       "device-migration": "Pasa las apps a un teléfono nuevo por Wi-Fi",
-      "wifi-transfer": "Transfiere apps entre dispositivos por Wi-Fi o desde el navegador"
+      "wifi-transfer": "Transfiere apps entre dispositivos por Wi-Fi o desde el navegador",
+      "official-apps": "Funciona dentro de las apps oficiales de YouTube, TikTok e Instagram",
+      "auto-skip-ai": "Salta automáticamente los videos generados por IA",
+      "platform-ai-labels": "Usa las etiquetas de IA de la propia plataforma",
+      "ai-keywords": "Reglas de palabras clave y hashtags de IA",
+      "block-allow-lists": "Tu propia lista de bloqueados y de permitidos",
+      "skip-reason-undo": "Muestra por qué se saltó cada video, y se deshace con un toque",
+      "on-device": "El contenido de la pantalla se revisa en el teléfono y nunca se sube",
+      "screen-time-limits": "Límite diario de tiempo y aviso antes de dormir"
     },
     "values": {
       "yes": "Sí",
@@ -247,7 +257,8 @@
     "description": "Todas las versiones de {name} para Android y sus cambios, de la más reciente a la más antigua.",
     "version": "Versión {version}",
     "build": "compilación {code}",
-    "feed": "Feed Atom"
+    "feed": "Feed Atom",
+    "empty": "Todavía no hay versiones. {name} llegará pronto a Google Play y sus notas de versión aparecerán aquí."
   },
   "press": {
     "title": "Kit de prensa de {name}",
@@ -285,7 +296,8 @@
   "trademarks": {
     "sony": "PlayStation, PS5 y PS4 son marcas comerciales de Sony Interactive Entertainment Inc. {name} no está afiliada a Sony ni cuenta con su respaldo.",
     "hosts": "Windows y Xbox son marcas comerciales de Microsoft; Mac, iPhone y iPad, de Apple; PlayStation, de Sony Interactive Entertainment; Nintendo Switch, de Nintendo; Android, Android TV y Google TV, de Google; Fire TV, de Amazon; Steam, de Valve; Raspberry Pi, de Raspberry Pi Ltd. {name} no está afiliada a ninguna de ellas ni cuenta con su respaldo.",
-    "controllers": "Xbox es una marca comercial de Microsoft; PlayStation, DualShock y DualSense, de Sony Interactive Entertainment; Nintendo Switch, de Nintendo. {name} no está afiliada a ninguna de ellas ni cuenta con su respaldo."
+    "controllers": "Xbox es una marca comercial de Microsoft; PlayStation, DualShock y DualSense, de Sony Interactive Entertainment; Nintendo Switch, de Nintendo. {name} no está afiliada a ninguna de ellas ni cuenta con su respaldo.",
+    "video-apps": "YouTube, TikTok e Instagram son marcas comerciales de sus respectivos propietarios. {name} no está afiliada a ellos ni cuenta con su respaldo."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -638,6 +650,45 @@
         "description": "Cómo se compara Apk Extractor con otras apps para extraer APK y hacer copias de seguridad de apps en Android, función por función, solo datos.",
         "vsDescription": "{name} y {other} comparadas en Android, función por función: extracción de APK, instalación de XAPK, instalación por lotes, historial de versiones, pasar apps a un teléfono nuevo, transferencia por Wi-Fi, root, anuncios y precio.",
         "vsIntro": "Las dos extraen las apps instaladas como archivos APK en Android. Aquí ves en qué se diferencian, función por función."
+      }
+    },
+    "slopswipe": {
+      "kicker": "Filtro de videos de IA · En el dispositivo",
+      "heroPoints": [
+        "Desliza fuera los videos de IA dentro de las apps oficiales de YouTube Shorts y TikTok, y en Instagram Reels cuando lo activas",
+        "Cada salto muestra la regla que coincidió, como la etiqueta de IA de la plataforma, una palabra clave de IA o tu lista de bloqueados, y se deshace con un toque",
+        "El texto de la pantalla se revisa en tu teléfono y nunca se sube. Sin cuenta. Gratis, sin anuncios y sin compras dentro de la app"
+      ],
+      "faqDescription": "Respuestas sobre SlopSwipe: activar el servicio de accesibilidad, cómo funcionan los saltos y las reglas, listas y reportes, privacidad, horario, modo parental y bienestar, y teléfonos compatibles.",
+      "faqNotFoundBody": "Escríbenos con el modelo de tu teléfono, la plataforma y lo que pasó; si se saltó algo por error, añade el nombre de la cuenta tal como aparece en el Historial. Cada mensaje lo lee una persona.",
+      "support": {
+        "beforeItems": [
+          "Abre las preguntas frecuentes. Ahí se responde cómo activar el servicio de accesibilidad y las dudas sobre saltos, listas y privacidad, con las mismas palabras que en la app.",
+          "Si no se salta nada, revisa en este orden: Inicio muestra En marcha; la plataforma está activada en Ajustes → Dónde funciona (Instagram Reels viene desactivado); estás en el reproductor de Shorts o en el feed Para ti de TikTok, no en la página principal, la búsqueda ni Siguiendo.",
+          "Abre Qué leemos en Ajustes para ver exactamente lo último que leyó SlopSwipe. Si Inicio dice que Android desactivó el servicio, toca Arreglar y completa los pasos de Batería y segundo plano para la marca de tu teléfono."
+        ],
+        "template": {
+          "phone": "Modelo del teléfono:",
+          "android": "Versión de Android:",
+          "platform": "Plataforma (YouTube Shorts / TikTok / Instagram Reels):",
+          "version": "Versión de SlopSwipe:",
+          "account": "Si se saltó algo por error: nombre de la cuenta tal como aparece en el Historial:",
+          "what": "Qué pasó, paso a paso:"
+        },
+        "refundBody": "SlopSwipe es gratis, sin anuncios ni compras dentro de la app, así que no hay nada que comprar ni que reembolsar."
+      },
+      "press": {
+        "description": "Datos, recursos y una presentación para escribir sobre SlopSwipe, la app de Android que salta los videos generados por IA en los feeds de videos cortos.",
+        "boilerplate": "SlopSwipe salta los videos generados por IA en Android, dentro de las apps oficiales de YouTube Shorts y TikTok y, si se activa, en Instagram Reels. Cuando un video coincide con una regla que el usuario activó, como la etiqueta de IA de la propia plataforma, una palabra clave de IA o una cuenta de su lista de bloqueados, pasa al siguiente video y registra el motivo, así que un salto equivocado se deshace con un toque. El texto de la pantalla se revisa en el teléfono y nunca se sube, y no hace falta cuenta. La desarrolla DappleByte, un estudio independiente.",
+        "priceValue": "Gratis, sin anuncios y sin compras dentro de la app.",
+        "assetScreenshots": "Capturas de pantalla del teléfono, PNG de 1080 × 1920, en inglés"
+      },
+      "videosDescription": "Videos cortos que muestran SlopSwipe en un teléfono real: cómo activarlo, cómo se ve un salto, cómo deshacer un salto equivocado y las listas de bloqueados y permitidos.",
+      "privacyDescription": "Qué hace SlopSwipe para Android con tus datos: qué lee el servicio de accesibilidad, qué se queda en el teléfono, qué se envía y cómo desactivarlo. Sin cuenta y sin ID de publicidad.",
+      "compare": {
+        "description": "Cómo se compara SlopSwipe con otras apps de Android para videos de IA y feeds de videos cortos, función por función, solo datos.",
+        "vsDescription": "{name} y {other} comparadas en Android, función por función: apps oficiales, salto automático, etiquetas y palabras clave de IA, listas, deshacer, privacidad y precio.",
+        "vsIntro": "Las dos se ocupan de lo que ves en los feeds de videos cortos en Android. Estas son sus diferencias, función por función."
       }
     }
   }

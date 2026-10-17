@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "id",
+  "title": "Tanya jawab",
+  "intro": "Pertanyaan yang paling sering kami terima, beserta cara mengatasinya. Ketuk pertanyaan untuk membukanya.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Memulai dan izin",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "Kenapa SlopSwipe butuh layanan aksesibilitas?",
+          "a": [
+            "Hanya dengan cara ini aplikasi Android bisa membaca isi layar dan menggeser untukmu. SlopSwipe hanya membaca judul, nama akun, dan label di Shorts, TikTok, dan Reels, memutuskannya di ponselmu, lalu menggeser ke atas saat salah satu aturanmu cocok. SlopSwipe bukan alat bantu disabilitas, dan tidak ada isi layar yang diunggah."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "Tombol aksesibilitas berwarna abu-abu atau bertuliskan “Setelan terbatas”.",
+          "a": [
+            "Ini terjadi di Android 13 ke atas jika aplikasi dipasang dari APK, bukan dari Google Play. Buka Info aplikasi → ⋮ di kanan atas → Izinkan setelan terbatas, lalu aktifkan lagi layanannya. Jika opsi itu tidak ada, ketuk SlopSwipe sekali dulu di daftar Aksesibilitas."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "Beranda bilang Android mematikan layanan aksesibilitas, dan ini terus terjadi.",
+          "a": [
+            "Update sistem, pembersihan baterai, dan restart bisa mematikannya. Ketuk Perbaiki di Beranda, atau buka Setelan → Tetap aktif → Layanan aksesibilitas. Agar tidak terulang, selesaikan langkah Baterai dan latar belakang untuk merek ponselmu."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "Untuk apa langkah Baterai dan latar belakang?",
+          "a": [
+            "Beberapa merek (Xiaomi dan HyperOS, Samsung, OPPO, vivo, Huawei) menghentikan layanan latar belakang untuk menghemat daya, dan layanan aksesibilitas ikut berhenti. Panduannya menunjukkan langkah untuk merekmu: pengoptimalan baterai, mulai otomatis, dan mengunci aplikasi di daftar aplikasi terbaru. SlopSwipe sendiri tidak pernah meminta izin pengecualian baterai."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "Muncul pesan bahwa Perlindungan Lanjutan telah mencabut akses aksesibilitas.",
+          "a": [
+            "Perlindungan Lanjutan di Android mencabut akses aksesibilitas dari aplikasi yang bukan alat bantu, jadi lewati otomatis tidak bisa berjalan selama fitur itu aktif. Kamu bisa tetap mengaktifkannya dan memakai setelan bawaan platform dari tab Panduan, atau mematikannya di setelan sistem. Kami tidak menyarankan salah satunya; keputusannya ada di tanganmu."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "Kenapa SlopSwipe minta izin mengirim notifikasi?",
+          "a": [
+            "Untuk notifikasi status beserta tombol jedanya, peringatan saat layanan dimatikan, dan ringkasan mingguan. Kalau kamu menolak, semua fitur lain tetap berfungsi. Setiap notifikasi juga bisa dimatikan satu per satu di Setelan → Tetap aktif."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "Kenapa selalu ada notifikasi SlopSwipe?",
+          "a": [
+            "Itu Notifikasi status: tanpa suara, dan kamu bisa menjeda langsung dari panel notifikasi. Matikan di Setelan → Tetap aktif → Notifikasi status. Layanannya tetap berjalan tanpa notifikasi ini."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Melewati video dan aturan",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "Bagaimana SlopSwipe menentukan bahwa sebuah video adalah AI?",
+          "a": [
+            "Dengan aturan tetap, bukan model AI: label AI dari platform itu sendiri, kata kunci AI yang jelas di judul atau hashtag, daftar blokirmu, kata kuncimu, dan daftar laporan pengguna. Setiap kali melewati video, SlopSwipe menampilkan aturan utamanya, dan Riwayat mencantumkan semua aturan yang cocok. Aturan mana pun bisa dimatikan di Setelan → Aturan → Tombol per aturan."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "Apa bedanya Ketat, Normal, dan Longgar?",
+          "a": [
+            "Hanya cara menangani kecocokan dengan tingkat keyakinan sedang dan rendah, misalnya satu hashtag samar seperti #ai. Ketat melewati semuanya, Normal melewati yang sedang dan hanya memberi petunjuk untuk yang rendah, Longgar memberi petunjuk untuk yang sedang dan mengabaikan yang rendah. Label platform dan daftarmu sendiri selalu dilewati di semua tingkat."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "Apa itu Konten AI ringan?",
+          "a": [
+            "Video buatan manusia yang mengandung sedikit AI, misalnya sulih suara AI atau penyuntingan dengan bantuan AI. Secara default dilewati. Pilih Petunjuk atau Abaikan di Setelan → Aturan → Konten AI ringan. Sensitivitas tidak memengaruhi setelan ini."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "Muncul bilah “Mungkin video AI”, tapi tidak ada yang dilewati.",
+          "a": [
+            "Itu petunjuk: untuk kecocokan yang kurang pasti, SlopSwipe hanya menampilkan bilah selama beberapa detik dan baru melewati jika kamu mengetuk Lewati. Kecocokan mana yang mendapat petunjuk alih-alih dilewati tergantung sensitivitasmu; Ketat melewatinya secara otomatis."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "SlopSwipe melewati video yang ingin kutonton.",
+          "a": [
+            "Geser kembali ke video itu; video yang Anda datangi kembali tidak akan dinilai lagi. Nanti, buka Riwayat, ketuk entrinya, lalu pilih Tandai keliru atau Tambah ke daftar izin. Akun di daftar izin tidak pernah dilewati. Jika ingin tombol Urungkan setiap kali video dilewati, aktifkan Setelan → Petunjuk dan tombol → Tombol Urungkan setelah dilewati."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "Tidak ada yang dilewati.",
+          "a": [
+            "Periksa berurutan: Beranda menampilkan Berjalan; platformnya aktif di Setelan → Tempat berlaku (Reels nonaktif secara default); kamu sedang di pemutar Shorts atau feed Untuk Anda di TikTok, bukan di halaman utama, pencarian, Mengikuti, atau siaran langsung; dan videonya memang cocok dengan suatu aturan, karena sebagian besar video bukan AI. Yang kami baca menunjukkan persis apa yang terakhir dibaca."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "Apakah iklan juga dilewati?",
+          "a": [
+            "Tidak, dan itu disengaja. Iklan dan video bersponsor tidak pernah ditindak atau dihitung, meskipun berlabel AI. Geser sendiri untuk melewatinya."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "Di mana tepatnya SlopSwipe bekerja?",
+          "a": [
+            "Hanya di pemutar Shorts, feed Untuk Anda di TikTok, dan Reels jika diaktifkan. Halaman utama, hasil pencarian, komentar, video panjang, siaran langsung, dan feed Mengikuti di TikTok dibiarkan, jadi apa yang sengaja kamu cari tetap ada. Untuk menyertakan Mengikuti, aktifkan Setelan → Tempat berlaku → Juga berlaku untuk akun yang kuikuti."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "Bisakah menggeser lebih cepat, atau menunggu sedikit lebih lama?",
+          "a": [
+            "Bisa: Setelan → Aturan → Kecepatan geser, dari langsung hingga 2 detik. Jeda kecil bawaan memberimu waktu untuk melihat apa yang dilewati."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "Beranda bilang sebuah platform berubah setelah update dan tindakan dihentikan.",
+          "a": [
+            "Aplikasi platform itu mengubah tata letaknya dan set aturan saat ini tidak bisa membacanya, jadi SlopSwipe berhenti bertindak di sana daripada menggeser asal-asalan. Set aturan diperbarui saat aplikasi dibuka dan setiap 6 jam; ketuk Cek update aturan untuk mencoba sekarang. Sementara itu, Panduan tetap bisa dipakai."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "SlopSwipe beralih ke petunjuk saja setelah banyak video dilewati berturut-turut.",
+          "a": [
+            "Ini rem pengaman. Sepuluh kali lewati berturut-turut tanpa ada video yang ditonton selama 3 detik biasanya berarti ada aturan atau tata letak platform yang tidak beres, jadi platform itu hanya diberi petunjuk sampai sesi berakhir. Buka lagi aplikasi platformnya dan semuanya kembali normal. Urungkan yang keliru agar tercatat sebagai kesalahan."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "Apa fungsi tombol mengambang “Ini AI”?",
+          "a": [
+            "Tombol ini langsung melewati video saat ini dan, secara default, memasukkan akunnya ke daftar blokirmu; Urungkan akan menggeser kembali dan menghapus entri itu. Di TikTok, nama di video adalah nama tampilan, jadi akun lain dengan nama yang sama ikut terblokir; matikan Blokir juga akunnya untuk melewati video itu saja. Sembunyikan, ubah ukuran, atau geser tombolnya di Setelan → Petunjuk dan tombol."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Daftar, kata kunci, dan laporan",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "Bagaimana cara kerja daftar blokir dan daftar izin?",
+          "a": [
+            "Daftar blokir: selalu dilewati. Daftar izin: tidak pernah dilewati, meskipun akunnya ada di kedua daftar. Tambahkan akun dari entri Riwayat, lewat tombol mengambang, atau dengan mengetik namanya di Setelan → Daftar (TikTok: nama tampilan; YouTube dan Instagram: @nama pengguna). Ekspor daftar dan Impor daftar memindahkannya ke ponsel lain."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "Bisakah aku menambahkan kata kunci sendiri?",
+          "a": [
+            "Bisa. Setelan → Daftar → Kata kunci kustom; setiap kata diatur ke Lewati atau Petunjuk, dan kata yang diawali # hanya cocok dengan hashtag. Saran aturan di Beranda juga mengusulkan kata dari video yang kamu tandai sebagai AI."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "Apa itu Saran aturan?",
+          "a": [
+            "Penghitungan sederhana di ponselmu, bukan pembelajaran mesin. Hashtag yang muncul 3 kali di video yang kamu tandai sebagai AI menjadi saran kata kunci; kata yang dua kali kamu urungkan menjadi saran untuk diabaikan; banyak urungan menyarankan sensitivitas yang lebih longgar. Tidak ada yang berubah sebelum kamu setujui, dan hitungannya tidak pernah keluar dari ponselmu."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "Apa yang dikirim oleh Laporan anonim?",
+          "a": [
+            "Nonaktif secara default. Jika aktif, mengetuk “Ini AI” akan mengirim platform, nama akun kreator, alasannya, dan aturan yang cocok, beserta ID laporan acak yang dibuat di ponselmu. Tidak ada apa pun tentang akunmu atau layarmu. Setiap akun ditinjau oleh manusia sebelum masuk ke daftar bersama. Pantau setiap laporan di Laporanku dan hapus di sana kapan saja."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "Apa itu Paket aturan?",
+          "a": [
+            "Set aturan tambahan untuk tema tertentu, misalnya kartun anak buatan AI atau berita palsu buatan AI. Paket ini baru berfungsi setelah kamu berlangganan di Setelan → Daftar → Paket aturan, diperbarui bersama aturan, dan akun-akunnya ditinjau manusia lebih dulu."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Privasi dan data",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "Apa tepatnya yang dibaca? Apakah ada yang diunggah?",
+          "a": [
+            "Hanya teks di layar dalam ketiga aplikasi itu: judul, nama akun, hashtag, label, dan apakah halamannya iklan. Semua keputusan dibuat di ponselmu. Tidak ada rekaman layar, tidak ada screenshot, tidak ada isi layar yang diunggah, dan tidak perlu akun. Yang kami baca menampilkan hal terakhir yang dibaca."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "Apa saja yang keluar dari ponselku?",
+          "a": [
+            "Hanya hal-hal yang bisa kamu matikan di Setelan → Privasi: Statistik anonim (peristiwa penggunaan, tanpa isi layar), Laporan crash, Laporan deteksi rusak (hanya versi aplikasi), dan Laporan anonim jika kamu ikut serta. Unduhan set aturan tidak membawa apa pun tentang dirimu."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "Berapa lama Riwayat disimpan? Bagaimana cara menghapus semuanya?",
+          "a": [
+            "Riwayat video yang dilewati disimpan di ponselmu selama 30 hari, lalu dihapus. Setelan → Privasi → Hapus semua data menghapus riwayat, statistik, kedua daftar, dan penghitung saran; setelanmu tetap disimpan. Laporan yang sudah terkirim bisa dihapus di Laporanku."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "Fitur lainnya",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "Bagaimana cara menjedanya sebentar?",
+          "a": [
+            "Ketuk tombol jeda di bagian atas Beranda, pakai notifikasi status, atau tambahkan kartu SlopSwipe ke Setelan Cepat. Pilih 30 menit, sampai besok, atau sampai kamu melanjutkannya. Selama dijeda, tidak ada video yang dilewati dan tidak ada petunjuk."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "Bisakah lebih ketat di malam hari?",
+          "a": [
+            "Bisa, dengan Jadwal: Setelan → Aturan → Jadwal mengatur satu rentang waktu harian dengan sensitivitasnya sendiri, misalnya 23:00 sampai 07:00 dengan Ketat. Beranda menunjukkan saat jadwal sedang aktif."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "Apa itu Mode orang tua? Aku lupa PIN-nya.",
+          "a": [
+            "PIN mengunci setelan, daftar, dan jeda, sensitivitas tetap di Ketat, dan ringkasan hari Senin menjadi laporannya. PIN tidak pernah keluar dari ponsel dan hanya disimpan sebagai hash. Kalau lupa: Setelan Android → Aplikasi → SlopSwipe → Hapus data akan mematikan mode orang tua, sekaligus menghapus riwayat dan daftar."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "Apa itu tab Kesehatan?",
+          "a": [
+            "Modul kecil opsional: berapa lama kamu menggulir di tiap platform, batas waktu harian, pengingat geser, jeda sebelum membuka, waktu tidur, dan waktu fokus. Setiap batas punya tombol Matikan hari ini. Aktifkan atau matikan modulnya di Setelan → Kesehatan Digital."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "Apakah ada widget atau kartu Setelan Cepat?",
+          "a": [
+            "Ada keduanya. Widget menampilkan jumlah video yang dilewati hari ini: tekan lama layar utama, pilih Widget, lalu cari SlopSwipe. Kartunya untuk menjeda SlopSwipe: edit Setelan Cepat dan tambahkan kartu SlopSwipe."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "Untuk apa tab Panduan? Apakah perlu izin?",
+          "a": [
+            "Tidak perlu izin. Panduan memandumu lewat setelan bawaan tiap platform, misalnya mengurangi konten AI di TikTok, memfilter kata kunci, atau meminta YouTube untuk tidak merekomendasikan channel, plus tips mengenali video AI. Panduan berfungsi sendiri dan membuat lewati otomatis tidak terlalu diperlukan."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Bagaimana cara mengganti bahasa?",
+          "a": [
+            "Di Android 13 ke atas: Setelan → Tampilan → Bahasa. Versi yang lebih lama mengikuti bahasa sistem. Tersedia 41 bahasa, dengan bahasa Inggris sebagai cadangan. Terjemahannya dibuat oleh Claude dan belum diperiksa oleh penutur asli, jadi tolong laporkan jika ada yang terasa janggal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Kompatibilitas dan dukungan",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "Instagram Reels tidak dilewati.",
+          "a": [
+            "Reels nonaktif secara default di versi ini, karena kata-kata iklan dan labelnya baru diverifikasi dalam bahasa Inggris. Aktifkan di Setelan → Tempat berlaku, dan Reels akan berfungsi dengan set aturan saat ini."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "Ponsel dan versi Android apa saja yang didukung?",
+          "a": [
+            "Android 8.0 ke atas, di ponsel atau tablet apa pun dengan aplikasi resmi YouTube, TikTok, atau Instagram. Versi modifikasi atau lite dari aplikasi tersebut mungkin tidak terbaca, dan beberapa merek perlu langkah Baterai dan latar belakang agar layanan tetap hidup."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Bagaimana cara melaporkan masalah atau memberi saran?",
+          "a": [
+            "Setelan → Bantuan dan masukan → Kirim masukan, atau tombol di bawah. Model ponsel, versi aplikasi, status layanan, dan versi set aturan ikut terlampir otomatis. Untuk video yang keliru dilewati, sertakan nama akunnya seperti yang tertera di Riwayat."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

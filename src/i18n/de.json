@@ -21,6 +21,7 @@
   },
   "cta": {
     "getOnPlay": "{name} bei Google Play laden",
+    "comingSoon": "Bald bei Google Play",
     "readSource": "Quellcode ansehen",
     "about": "Über {name}",
     "learnMore": "Mehr erfahren"
@@ -47,7 +48,7 @@
   },
   "home": {
     "title": "DappleByte · Unabhängige Android-Apps",
-    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht; Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4; WhenDo, eine App für KI-Automatisierung mit Auto-Klicker; JoyLink, das ein Smartphone zu Bluetooth-Gamepad, Touchpad und TV-Fernbedienung macht; und Gamepad Tester Pro, das einen Controller auf Stick-Drift, Input-Lag und tote Tasten prüft. Außerdem entwickelt DappleByte Apk Extractor, einen APK-Extraktor, ein App-Backup und einen XAPK-Installer, der Apps auf ein neues Smartphone überträgt.",
+    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht; Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4; WhenDo, eine App für KI-Automatisierung mit Auto-Klicker; JoyLink, das ein Smartphone zu Bluetooth-Gamepad, Touchpad und TV-Fernbedienung macht; und Gamepad Tester Pro, das einen Controller auf Stick-Drift, Input-Lag und tote Tasten prüft. Außerdem entwickelt DappleByte Apk Extractor, einen APK-Extraktor, ein App-Backup und einen XAPK-Installer, der Apps auf ein neues Smartphone überträgt. SlopSwipe, bald bei Google Play, wischt KI-generierte Videos in YouTube Shorts, TikTok und Instagram Reels weg, nennt zu jedem Überspringen den Grund und macht es mit einem Tippen rückgängig.",
     "appsHeading": "Apps",
     "principlesHeading": "So arbeiten wir",
     "principles": [
@@ -95,6 +96,7 @@
     "faqAll": "Alle Fragen",
     "getHeading": "{name} herunterladen",
     "getBody": "Erhältlich bei Google Play für Android.",
+    "getBodySoon": "Bald bei Google Play für Android erhältlich.",
     "getBodySource": "Der Quellcode ist unter {license} veröffentlicht.",
     "requiresLabel": "Voraussetzung",
     "videoHeading": "So sieht es in Aktion aus",
@@ -227,7 +229,15 @@
       "batch-install": "Warteschlange für die Stapelinstallation",
       "version-history": "Versionsverlauf mit Rückkehr zu einer älteren Version",
       "device-migration": "Bringt Apps per Wi-Fi auf ein neues Smartphone",
-      "wifi-transfer": "Überträgt Apps zwischen Geräten per Wi-Fi oder Browser"
+      "wifi-transfer": "Überträgt Apps zwischen Geräten per Wi-Fi oder Browser",
+      "official-apps": "Läuft in den offiziellen Apps von YouTube, TikTok und Instagram",
+      "auto-skip-ai": "Überspringt KI-generierte Videos automatisch",
+      "platform-ai-labels": "Nutzt die KI-Kennzeichnungen der Plattform",
+      "ai-keywords": "Regeln für KI-Stichwörter und Hashtags",
+      "block-allow-lists": "Eigene Sperrliste und Erlaubnisliste",
+      "skip-reason-undo": "Zeigt, warum ein Video übersprungen wurde, mit Rückgängig per Tippen",
+      "on-device": "Bildschirminhalt wird auf dem Telefon geprüft, nie hochgeladen",
+      "screen-time-limits": "Tageslimit und Erinnerung vor dem Schlafengehen"
     },
     "values": {
       "yes": "Ja",
@@ -247,7 +257,8 @@
     "description": "Alle Versionen von {name} für Android mit ihren Änderungen, die neueste zuerst.",
     "version": "Version {version}",
     "build": "Build {code}",
-    "feed": "Atom-Feed"
+    "feed": "Atom-Feed",
+    "empty": "Noch keine Versionen. {name} erscheint bald bei Google Play; die Versionshinweise stehen dann hier."
   },
   "press": {
     "title": "Pressekit zu {name}",
@@ -285,7 +296,8 @@
   "trademarks": {
     "sony": "PlayStation, PS5 und PS4 sind Marken von Sony Interactive Entertainment Inc. {name} steht in keiner Verbindung zu Sony und wird von Sony weder unterstützt noch gebilligt.",
     "hosts": "Windows und Xbox sind Marken von Microsoft; Mac, iPhone und iPad von Apple; PlayStation von Sony Interactive Entertainment; Nintendo Switch von Nintendo; Android, Android TV und Google TV von Google; Fire TV von Amazon; Steam von Valve; Raspberry Pi von Raspberry Pi Ltd. {name} steht mit keinem dieser Unternehmen in Verbindung und wird von keinem von ihnen unterstützt oder gebilligt.",
-    "controllers": "Xbox ist eine Marke von Microsoft; PlayStation, DualShock und DualSense von Sony Interactive Entertainment; Nintendo Switch von Nintendo. {name} steht mit keinem dieser Unternehmen in Verbindung und wird von keinem von ihnen unterstützt oder gebilligt."
+    "controllers": "Xbox ist eine Marke von Microsoft; PlayStation, DualShock und DualSense von Sony Interactive Entertainment; Nintendo Switch von Nintendo. {name} steht mit keinem dieser Unternehmen in Verbindung und wird von keinem von ihnen unterstützt oder gebilligt.",
+    "video-apps": "YouTube, TikTok und Instagram sind Marken ihrer jeweiligen Inhaber. {name} steht mit keinem von ihnen in Verbindung und wird von keinem von ihnen unterstützt oder gebilligt."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -638,6 +650,45 @@
         "description": "Apk Extractor im Vergleich mit anderen Apps zum Extrahieren von APKs und Sichern von Apps auf Android: Funktion für Funktion, nur Fakten.",
         "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: APK-Extraktion, XAPK-Installation, Stapelinstallation, Versionsverlauf, Umzug auf ein neues Smartphone, Übertragung per Wi-Fi, Root, Werbung und Preis.",
         "vsIntro": "Beide extrahieren installierte Apps auf Android als APK-Dateien. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
+      }
+    },
+    "slopswipe": {
+      "kicker": "KI-Videofilter · Auf dem Gerät",
+      "heroPoints": [
+        "Wischt KI-Videos in den offiziellen Apps von YouTube Shorts und TikTok weg, in Instagram Reels, sobald Sie es einschalten",
+        "Jedes Überspringen zeigt die Regel, die gegriffen hat, etwa die KI-Kennzeichnung der Plattform, ein KI-Stichwort oder Ihre Sperrliste, mit Rückgängig per Tippen",
+        "Bildschirmtext wird auf dem Telefon geprüft und nie hochgeladen. Kein Konto. Kostenlos, ohne Werbung, ohne In-App-Käufe"
+      ],
+      "faqDescription": "Antworten zu SlopSwipe: Bedienungshilfe einschalten, wie Überspringen und Regeln funktionieren, Listen und Meldungen, Datenschutz, Zeitplan, Elternmodus und Wohlbefinden sowie unterstützte Telefone.",
+      "faqNotFoundBody": "Schreiben Sie uns mit Telefonmodell, Plattform und was passiert ist; bei einem falschen Überspringen bitte auch den Kontonamen, wie er im Verlauf steht. Jede Nachricht liest ein Mensch.",
+      "support": {
+        "beforeItems": [
+          "Öffnen Sie die FAQ. Fragen zum Einschalten der Bedienungshilfe, zum Überspringen, zu den Listen und zum Datenschutz sind dort beantwortet, im selben Wortlaut wie in der App.",
+          "Wenn gar nichts übersprungen wird, prüfen Sie der Reihe nach: Start zeigt „Aktiv“; die Plattform ist unter Einstellungen → Wo es wirkt eingeschaltet (Instagram Reels ist standardmäßig aus); Sie sind im Shorts-Player oder im TikTok-Feed „Für dich“, nicht auf der Startseite, in der Suche oder bei „Folge ich“.",
+          "Unter „Was wir lesen“ in den Einstellungen sehen Sie genau, was SlopSwipe zuletzt gelesen hat. Meldet Start, dass Android den Dienst ausgeschaltet hat, tippen Sie auf „Beheben“ und erledigen Sie die Schritte unter „Akku und Hintergrund“ für Ihre Telefonmarke."
+        ],
+        "template": {
+          "phone": "Telefonmodell:",
+          "android": "Android-Version:",
+          "platform": "Plattform (YouTube Shorts / TikTok / Instagram Reels):",
+          "version": "SlopSwipe-Version:",
+          "account": "Bei falschem Überspringen: Kontoname, wie er im Verlauf steht:",
+          "what": "Was ist passiert, Schritt für Schritt:"
+        },
+        "refundBody": "SlopSwipe ist kostenlos, ohne Werbung und ohne In-App-Käufe. Es gibt also nichts zu kaufen und nichts zu erstatten."
+      },
+      "press": {
+        "description": "Fakten, Material und ein Kurzporträt für Beiträge über SlopSwipe, die Android-App, die KI-generierte Videos in Kurzvideo-Feeds überspringt.",
+        "boilerplate": "SlopSwipe überspringt auf Android KI-generierte Videos, direkt in den offiziellen Apps von YouTube Shorts und TikTok und, sobald eingeschaltet, in Instagram Reels. Trifft ein Video eine Regel, die der Nutzer eingeschaltet hat, etwa die KI-Kennzeichnung der Plattform, ein KI-Stichwort oder ein Konto auf seiner Sperrliste, wischt die App zum nächsten Video und hält den Grund fest, sodass sich ein falsches Überspringen mit einem Tippen rückgängig machen lässt. Bildschirmtext wird auf dem Telefon geprüft und nie hochgeladen, ein Konto ist nicht nötig. Entwickelt von DappleByte, einem unabhängigen Studio.",
+        "priceValue": "Kostenlos, ohne Werbung und ohne In-App-Käufe.",
+        "assetScreenshots": "Smartphone-Screenshots, PNG, 1080 × 1920, Englisch"
+      },
+      "videosDescription": "Kurze Videos, die SlopSwipe auf einem echten Telefon zeigen: einschalten, wie ein Überspringen aussieht, ein falsches Überspringen rückgängig machen, Sperr- und Erlaubnisliste.",
+      "privacyDescription": "Was SlopSwipe für Android mit Ihren Daten macht: was die Bedienungshilfe liest, was auf dem Telefon bleibt, was gesendet wird und wie Sie es abschalten. Kein Konto, keine Werbe-ID.",
+      "compare": {
+        "description": "SlopSwipe im Vergleich mit anderen Android-Apps rund um KI-Videos und Kurzvideo-Feeds, Funktion für Funktion, nur Fakten.",
+        "vsDescription": "{name} und {other} für Android im Vergleich, Funktion für Funktion: offizielle Apps, automatisches Überspringen, KI-Kennzeichnungen und Stichwörter, Listen, Rückgängig, Datenschutz und Preis.",
+        "vsIntro": "Beide befassen sich damit, was Sie in Kurzvideo-Feeds auf Android sehen. Hier die Unterschiede, Funktion für Funktion."
       }
     }
   }

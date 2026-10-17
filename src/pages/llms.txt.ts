@@ -18,7 +18,9 @@ export const GET: APIRoute = async () => {
     const compare = (await getEntry('compare', p.slug))?.data;
     const videos = (await getEntry('videos', p.slug))?.data.items ?? [];
     const features = (await getEntry('features', p.slug))?.data.items ?? [];
+    const log = (await getEntry('changelog', `${p.slug}/en`))?.data;
     lines.push(`## ${p.name}`, '', `> ${copy.tagline}`, '');
+    if (!p.playUrl) lines.push(`${p.name} is not released yet; it is coming soon to Google Play.`, '');
     if (copy.requires) lines.push(copy.requires, '');
     lines.push(`Pricing: ${tp(p.slug, 'press.priceValue', { name: p.name })}`, '');
     lines.push(`- [${p.name} overview](${SITE}/${p.slug}/): features, screenshots, requirements, pricing model`);
@@ -33,7 +35,7 @@ export const GET: APIRoute = async () => {
     }
     lines.push(`- [Support](${SITE}/${p.slug}/support/): how to get help, what to include, refunds`);
     lines.push(`- [Privacy policy](${SITE}/${p.slug}/privacy/)`);
-    lines.push(`- [Release notes](${SITE}/${p.slug}/changelog/)`);
+    if (log?.entries.length) lines.push(`- [Release notes](${SITE}/${p.slug}/changelog/)`);
     lines.push(`- [Press kit](${SITE}/${p.slug}/press/): fact sheet, boilerplate, assets`);
     if (videos.length) lines.push(`- [Videos](${SITE}/${p.slug}/videos/)`);
     if (compare && !compare.draft) lines.push(`- [Compared with other apps](${SITE}/${p.slug}/compare/)`);

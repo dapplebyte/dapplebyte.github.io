@@ -31,7 +31,8 @@ const facts: [string, string | undefined, string?][] = [
   // License and source rows only exist for apps whose source is published.
   [t('press.facts.license'), product.sourceUrl ? product.sourceLicense : undefined],
   [t('press.facts.website'), `dapplebyte.com/${slug}/`, new URL(`/${slug}/`, SITE).href],
-  [t('press.facts.store'), product.playUrl?.replace('https://', ''), product.playUrl],
+  // Not on Google Play yet: the row says so, without a link.
+  [t('press.facts.store'), product.playUrl ? product.playUrl.replace('https://', '') : t('cta.comingSoon'), product.playUrl],
   [t('press.facts.source'), product.sourceUrl?.replace('https://', ''), product.sourceUrl],
   [t('press.facts.contact'), email, `mailto:${email}`],
 ];

@@ -1,0 +1,21 @@
+---
+import { useT } from '../i18n/t';
+import type { Product } from '../lib/content';
+
+/**
+ * The Google Play call to action. A live product that has no store listing yet gets a "Coming soon to Google Play"
+ * label instead: plain text in the button's place, not a link.
+ */
+interface Props {
+  locale: string;
+  product: Product;
+}
+const { locale, product } = Astro.props;
+const { t } = useT(locale);
+---
+
+{product.playUrl ? (
+  <a class="button" href={product.playUrl}>{t('cta.getOnPlay', { name: product.name })}</a>
+) : (
+  product.status === 'live' && <span class="soon">{t('cta.comingSoon')}</span>
+)}

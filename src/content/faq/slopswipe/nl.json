@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "nl",
+  "title": "Veelgestelde vragen",
+  "intro": "De vragen die we het vaakst krijgen, en wat je eraan kunt doen. Tik op een vraag om hem uit te klappen.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Aan de slag en rechten",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "Waarom heeft SlopSwipe de toegankelijkheidsservice nodig?",
+          "a": [
+            "Alleen zo kan een Android-app lezen wat er op het scherm staat en voor je swipen. SlopSwipe leest in Shorts, TikTok en Reels alleen titels, accountnamen en labels, beslist op je telefoon en swipet omhoog als een van je regels overeenkomt. Het is geen hulpmiddel voor mensen met een beperking, en niets van je scherm wordt geüpload."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "De schakelaar voor toegankelijkheid is grijs of toont “Beperkte instelling”.",
+          "a": [
+            "Dat gebeurt op Android 13 en nieuwer als de app via een APK is geïnstalleerd in plaats van via Google Play. Open App-info → ⋮ rechtsboven → Beperkte instellingen toestaan en zet de service daarna opnieuw aan. Zie je die optie niet, tik dan eerst één keer op SlopSwipe in de lijst bij Toegankelijkheid."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "Home meldt dat Android de toegankelijkheidsservice heeft uitgezet, en dat blijft gebeuren.",
+          "a": [
+            "Systeemupdates, batterijopschoning en herstarts kunnen hem uitzetten. Tik op Oplossen op Home, of ga naar Instellingen → Actief blijven → Toegankelijkheidsservice. Doorloop de stappen bij Batterij en achtergrond voor jouw merk telefoon, dan gebeurt het niet meer."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "Waar zijn de stappen bij Batterij en achtergrond voor?",
+          "a": [
+            "Sommige merken (Xiaomi en HyperOS, Samsung, OPPO, vivo, Huawei) stoppen achtergrondservices om stroom te besparen, en de toegankelijkheidsservice gaat dan mee. De gids toont de stappen voor jouw merk: batterijoptimalisatie, autostart en de app vergrendelen in Recent. SlopSwipe vraagt zelf nooit om uitgezonderd te worden van batterijoptimalisatie."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "Er staat dat Geavanceerde beveiliging de toegang tot toegankelijkheid heeft ingetrokken.",
+          "a": [
+            "Geavanceerde beveiliging van Android trekt de toegang tot toegankelijkheid in bij apps die geen hulpmiddel zijn, dus automatisch overslaan kan niet werken zolang die aanstaat. Je kunt hem aan laten en via het tabblad Gidsen de eigen instellingen van de platforms gebruiken, of hem uitzetten in de systeeminstellingen. We raden geen van beide aan; jij beslist."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "Waarom vraagt de app om meldingen te sturen?",
+          "a": [
+            "Voor de statusmelding met de pauzeknoppen, de waarschuwing als de service is uitgezet, en het weekoverzicht. Zeg je nee, dan werkt de rest gewoon. Elke melding kun je ook apart uitzetten onder Instellingen → Actief blijven."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "Waarom staat er altijd een melding van SlopSwipe?",
+          "a": [
+            "Dat is de Statusmelding: die is stil en laat je pauzeren vanuit het meldingenpaneel. Zet hem uit onder Instellingen → Actief blijven → Statusmelding. De service blijft ook zonder melding werken."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Overslaan en regels",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "Hoe beslist SlopSwipe dat een video AI is?",
+          "a": [
+            "Met vaste regels, niet met een AI-model: het eigen AI-label van het platform, duidelijke AI-trefwoorden in de titel of hashtags, je blokkeerlijst, je trefwoorden en de lijst met door gebruikers gerapporteerde accounts. Bij elke keer overslaan zie je de belangrijkste regel, en Geschiedenis toont alle regels die overeenkwamen. Elke regel kun je uitzetten onder Instellingen → Regels → Schakelaars per regel."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "Wat veranderen Streng, Normaal en Soepel?",
+          "a": [
+            "Alleen hoe treffers met middelmatige en lage zekerheid worden behandeld, zoals één vage hashtag als #ai. Streng slaat ze allemaal over, Normaal slaat middelmatige over en geeft bij lage alleen een hint, Soepel geeft bij middelmatige een hint en negeert lage. Platformlabels en je eigen lijsten worden op elk niveau overgeslagen."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "Wat is Lichte AI-content?",
+          "a": [
+            "Video's die door mensen zijn gemaakt maar waar wat AI in zit, zoals een AI-voice-over of montage met hulp van AI. Standaard worden ze overgeslagen. Kies Hint of Negeren onder Instellingen → Regels → Lichte AI-content. De gevoeligheid heeft geen invloed op deze instelling."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "Er stond een balk “Mogelijk een AI-video”, maar er werd niets overgeslagen.",
+          "a": [
+            "Dat is een hint: bij minder zekere treffers toont SlopSwipe de balk maar een paar seconden en slaat alleen over als je op Overslaan tikt. Welke treffers een hint krijgen in plaats van overgeslagen te worden, hangt af van je gevoeligheid; bij Streng worden ze automatisch overgeslagen."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "Er is een video overgeslagen die ik wilde zien.",
+          "a": [
+            "Swipe terug om ernaar terug te gaan; een video waar je naar terugkeert, wordt niet opnieuw beoordeeld. Open later Geschiedenis, tik op het item en kies Als fout markeren of Aan toestaanlijst toevoegen. Accounts op de toestaanlijst worden nooit overgeslagen. Wil je na elke overgeslagen video een knop Terugdraaien? Zet Instellingen → Hints en knop → Knop Terugdraaien na overslaan aan."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "Er wordt niets overgeslagen.",
+          "a": [
+            "Controleer in deze volgorde: Home toont Actief; het platform staat aan onder Instellingen → Waar het werkt (Reels staat standaard uit); je zit in de Shorts-speler of de TikTok-feed Voor jou, niet op de startpagina, in zoeken, bij Volgend of in een livestream; en de video komt echt overeen met een regel, want de meeste video's zijn geen AI. Wat we lezen laat precies zien wat het laatst is gelezen."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "Slaat het advertenties over?",
+          "a": [
+            "Nee, met opzet. Advertenties en gesponsorde video's worden nooit aangeraakt of meegeteld, ook niet als ze een AI-label hebben. Swipe er zelf langs."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "Waar werkt het precies?",
+          "a": [
+            "Alleen in de Shorts-speler, de TikTok-feed Voor jou en, als je het aanzet, Reels. De startpagina, zoekresultaten, reacties, lange video's, livestreams en de TikTok-feed Volgend blijven ongemoeid, zodat wat je zelf zocht blijft staan. Wil je Volgend erbij, zet dan Instellingen → Waar het werkt → Ook bij accounts die ik volg aan."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "Kan het sneller swipen, of iets langer wachten?",
+          "a": [
+            "Ja: Instellingen → Regels → Wegveegsnelheid, van direct tot 2 seconden. Door de korte standaardpauze zie je wat er wordt overgeslagen."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "Home meldt dat een platform na een update is veranderd en dat acties zijn gestopt.",
+          "a": [
+            "De app van het platform heeft zijn indeling veranderd en de huidige regelset kan die niet lezen, dus SlopSwipe stopt daar liever dan blind te swipen. Regelsets worden bijgewerkt als de app start en elke 6 uur; tik op Regelupdates zoeken om het nu te proberen. Tot dan werken de Gidsen gewoon."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "Na veel keer overslaan achter elkaar geeft het alleen nog hints.",
+          "a": [
+            "Een veiligheidsstop. Tien keer achter elkaar overslaan zonder dat er iets 3 seconden is bekeken, betekent meestal dat een regel of de indeling van het platform niet klopt. Daarom geeft dat platform de rest van de sessie alleen hints. Open de app van het platform opnieuw en alles werkt weer normaal. Draai terug wat fout was, zodat het als fout telt."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "Wat doet de zwevende knop “Dit is AI”?",
+          "a": [
+            "Die slaat de huidige video meteen over en zet het account standaard op je blokkeerlijst; Terugdraaien swipet terug en haalt dat item weer weg. Op TikTok staat bij de video een weergavenaam, dus accounts met dezelfde naam worden ook geblokkeerd; zet Ook het account blokkeren uit om alleen die video over te slaan. Verberg, vergroot of verklein of versleep de knop onder Instellingen → Hints en knop."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Lijsten, trefwoorden en rapporten",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "Hoe werken de blokkeerlijst en de toestaanlijst?",
+          "a": [
+            "Blokkeerlijst: altijd overgeslagen. Toestaanlijst: nooit overgeslagen, ook als het account op allebei staat. Voeg accounts toe vanuit een item in Geschiedenis, met de zwevende knop, of door de naam te typen onder Instellingen → Lijsten (TikTok: de weergavenaam; YouTube en Instagram: de @handle). Met Lijsten exporteren en Lijsten importeren zet je ze over naar een andere telefoon."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "Kan ik eigen trefwoorden toevoegen?",
+          "a": [
+            "Ja. Instellingen → Lijsten → Eigen trefwoorden; elk woord staat op Overslaan of Hint, en een woord dat met # begint, vindt alleen hashtags. Regelsuggesties op Home stelt ook woorden voor uit de video's die je als AI hebt gemarkeerd."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "Wat zijn Regelsuggesties?",
+          "a": [
+            "Gewoon tellen op je telefoon, geen leren. Een hashtag die 3 keer voorkomt in video's die je als AI hebt gemarkeerd, wordt een suggestie voor een trefwoord; een woord waarbij je twee keer iets hebt teruggedraaid, wordt een suggestie om het te negeren; veel keer terugdraaien levert een suggestie voor een soepelere gevoeligheid op. Er verandert niets tot je accepteert, en de tellingen verlaten je telefoon nooit."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "Wat sturen Anonieme rapporten?",
+          "a": [
+            "Standaard uit. Als het aanstaat, stuurt een tik op “Dit is AI” het platform, de accountnaam van de maker, de reden en de regels die overeenkwamen, met een willekeurige rapport-ID die op je telefoon wordt aangemaakt. Niets over jouw account of het scherm. Een mens beoordeelt elk account voordat het op de gedeelde lijst komt. Volg elk rapport onder Mijn rapporten en verwijder het daar wanneer je wilt."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "Wat zijn Regelpakketten?",
+          "a": [
+            "Extra regelsets rond een thema, zoals AI-tekenfilms voor kinderen of AI-nepnieuws. Ze werken pas als je je abonneert onder Instellingen → Lijsten → Regelpakketten, worden samen met de regels bijgewerkt, en hun accounts worden eerst door een mens beoordeeld."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Privacy en gegevens",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "Wat leest het precies? Wordt er iets geüpload?",
+          "a": [
+            "Alleen tekst op het scherm in de drie apps: de titel, accountnaam, hashtags, labels en of de pagina een advertentie is. Elke beslissing valt op je telefoon. Geen schermopnames, geen screenshots, niets van je scherm wordt geüpload, en je hebt geen account nodig. Wat we lezen laat zien wat het laatst is gelezen."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "Wat gaat er wel van mijn telefoon af?",
+          "a": [
+            "Alleen dingen die je kunt uitzetten onder Instellingen → Privacy: Anonieme statistieken (gebruiksgebeurtenissen, geen scherminhoud), Crashrapporten, Rapporten over foute herkenning (alleen de app-versie) en Anonieme rapporten als je die hebt aangezet. Bij het downloaden van regelsets gaat er niets over jou mee."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "Hoelang wordt Geschiedenis bewaard? Hoe wis ik alles?",
+          "a": [
+            "De geschiedenis van overgeslagen video's blijft 30 dagen op je telefoon en wordt daarna gewist. Instellingen → Privacy → Alle gegevens wissen verwijdert geschiedenis, statistieken, beide lijsten en de tellers voor suggesties; je instellingen blijven bewaard. Al verstuurde rapporten verwijder je onder Mijn rapporten."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "Meer functies",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "Hoe pauzeer ik het even?",
+          "a": [
+            "Tik op de pauzeknop boven aan Home, gebruik de statusmelding, of voeg de SlopSwipe-tegel toe aan Snelle instellingen. Kies 30 minuten, tot morgen, of tot je weer verdergaat. Tijdens de pauze wordt niets overgeslagen en komen er geen hints."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "Kan het 's nachts strenger zijn?",
+          "a": [
+            "Ja, met Schema: onder Instellingen → Regels → Schema stel je één dagelijks tijdvak in met een eigen gevoeligheid, bijvoorbeeld 23:00 tot 07:00 op Streng. Home laat zien wanneer het schema actief is."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "Wat is Oudermodus? Ik ben de PIN vergeten.",
+          "a": [
+            "Een PIN vergrendelt instellingen, lijsten en pauzeren, de gevoeligheid blijft op Streng, en het maandagoverzicht is het rapport. De PIN verlaat de telefoon nooit en wordt alleen als hash opgeslagen. PIN vergeten: Android-instellingen → Apps → SlopSwipe → Gegevens wissen zet oudermodus uit en wist ook geschiedenis en lijsten."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "Wat is het tabblad Welzijn?",
+          "a": [
+            "Een kleine, optionele module: hoelang je op elk platform scrolt, een dagelijkse tijdslimiet, een swipeherinnering, een pauze voor het openen, bedtijd en focustijd. Elke limiet heeft een knop Vandaag uit. Zet de module aan of uit onder Instellingen → Welzijn."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "Is er een widget of een tegel voor Snelle instellingen?",
+          "a": [
+            "Allebei. De widget toont hoeveel er vandaag is overgeslagen: houd je startscherm ingedrukt, kies Widgets en zoek SlopSwipe. De tegel pauzeert SlopSwipe: bewerk je Snelle instellingen en voeg de SlopSwipe-tegel toe."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "Waar is het tabblad Gidsen voor? Is daar het recht voor nodig?",
+          "a": [
+            "Geen recht nodig. De gidsen helpen je stap voor stap met de eigen instellingen van elk platform, zoals AI-content lager zetten in TikTok, trefwoorden filteren of YouTube vertellen een kanaal niet aan te bevelen, plus tips om AI-video's te herkennen. Ze werken op zichzelf en maken automatisch overslaan minder nodig."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Hoe verander ik de taal?",
+          "a": [
+            "Op Android 13 en nieuwer: Instellingen → Weergave → Taal. Oudere versies volgen de systeemtaal. Er zijn 41 talen, met Engels als terugval. De vertalingen zijn gemaakt door Claude en nog niet nagekeken door moedertaalsprekers, dus laat het ons weten als iets vreemd klinkt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Compatibiliteit en support",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "Instagram Reels wordt niet overgeslagen.",
+          "a": [
+            "Reels staat in deze versie standaard uit, omdat de teksten voor advertenties en labels daar alleen in het Engels zijn gecontroleerd. Zet het aan onder Instellingen → Waar het werkt en het werkt met de huidige regelset."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "Welke telefoons en Android-versies worden ondersteund?",
+          "a": [
+            "Android 8.0 en nieuwer, op elke telefoon of tablet met de officiële app van YouTube, TikTok of Instagram. Aangepaste of lite-versies van die apps zijn mogelijk niet leesbaar, en bij sommige merken zijn de stappen bij Batterij en achtergrond nodig om de service actief te houden."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Hoe meld ik een probleem of doe ik een suggestie?",
+          "a": [
+            "Instellingen → Hulp en feedback → Feedback sturen, of de knop hieronder. Je telefoonmodel, app-versie, servicestatus en regelsetversie gaan automatisch mee. Bij een onterecht overgeslagen video: vermeld de accountnaam zoals die in Geschiedenis staat."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

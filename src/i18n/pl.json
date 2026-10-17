@@ -21,6 +21,7 @@
   },
   "cta": {
     "getOnPlay": "Pobierz {name} z Google Play",
+    "comingSoon": "Wkrótce w Google Play",
     "readSource": "Zobacz kod źródłowy",
     "about": "O aplikacji {name}",
     "learnMore": "Dowiedz się więcej"
@@ -47,7 +48,7 @@
   },
   "home": {
     "title": "DappleByte · Niezależne aplikacje na Androida",
-    "description": "DappleByte to niezależne studio, które tworzy aplikacje na Androida: Gamepad Pro, maper przycisków, który zamienia pada w sterowanie dotykowe; Relaypad, kontroler Remote Play i aplikację do strumieniowania obrazu z PS5 i PS4; WhenDo, aplikację do automatyzacji z AI i klikaczem (auto clicker); JoyLink, który zamienia telefon w pada Bluetooth, gładzik i pilot do TV; oraz Gamepad Tester Pro, który sprawdza, czy kontroler nie ma driftu gałek, input laga albo martwych przycisków. DappleByte tworzy też Apk Extractor: ekstraktor APK, narzędzie do kopii zapasowych aplikacji i instalator XAPK, który przenosi aplikacje na nowy telefon.",
+    "description": "DappleByte to niezależne studio, które tworzy aplikacje na Androida: Gamepad Pro, maper przycisków, który zamienia pada w sterowanie dotykowe; Relaypad, kontroler Remote Play i aplikację do strumieniowania obrazu z PS5 i PS4; WhenDo, aplikację do automatyzacji z AI i klikaczem (auto clicker); JoyLink, który zamienia telefon w pada Bluetooth, gładzik i pilot do TV; oraz Gamepad Tester Pro, który sprawdza, czy kontroler nie ma driftu gałek, input laga albo martwych przycisków. DappleByte tworzy też Apk Extractor: ekstraktor APK, narzędzie do kopii zapasowych aplikacji i instalator XAPK, który przenosi aplikacje na nowy telefon. SlopSwipe, który wkrótce pojawi się w Google Play, przewija filmy wygenerowane przez SI w YouTube Shorts, TikToku i Instagram Reels, przy każdym pominięciu podaje powód i pozwala je cofnąć jednym dotknięciem.",
     "appsHeading": "Aplikacje",
     "principlesHeading": "Jak pracujemy",
     "principles": [
@@ -95,6 +96,7 @@
     "faqAll": "Wszystkie pytania",
     "getHeading": "Pobierz {name}",
     "getBody": "Do pobrania z Google Play na Androida.",
+    "getBodySoon": "Wkrótce w Google Play na Androida.",
     "getBodySource": "Kod źródłowy jest opublikowany na licencji {license}.",
     "requiresLabel": "Wymagania",
     "videoHeading": "Zobacz w akcji",
@@ -227,7 +229,15 @@
       "batch-install": "Kolejka instalacji zbiorczej",
       "version-history": "Historia wersji z powrotem do starszej wersji",
       "device-migration": "Przenosi aplikacje na nowy telefon przez Wi-Fi",
-      "wifi-transfer": "Przesyła aplikacje między urządzeniami przez Wi-Fi lub przeglądarkę"
+      "wifi-transfer": "Przesyła aplikacje między urządzeniami przez Wi-Fi lub przeglądarkę",
+      "official-apps": "Działa w oficjalnych aplikacjach YouTube, TikTok i Instagram",
+      "auto-skip-ai": "Automatycznie pomija filmy wygenerowane przez SI",
+      "platform-ai-labels": "Korzysta z oznaczeń SI samej platformy",
+      "ai-keywords": "Reguły słów kluczowych i hashtagów SI",
+      "block-allow-lists": "Własna lista zablokowanych i lista dozwolonych",
+      "skip-reason-undo": "Pokazuje, dlaczego film został pominięty, z cofnięciem jednym dotknięciem",
+      "on-device": "Zawartość ekranu sprawdzana na telefonie, nigdy nie wysyłana",
+      "screen-time-limits": "Dzienny limit czasu i przypomnienie przed snem"
     },
     "values": {
       "yes": "Tak",
@@ -247,7 +257,8 @@
     "description": "Wszystkie wydania aplikacji {name} na Androida wraz ze zmianami, od najnowszego.",
     "version": "Wersja {version}",
     "build": "kompilacja {code}",
-    "feed": "Kanał Atom"
+    "feed": "Kanał Atom",
+    "empty": "Nie ma jeszcze żadnych wersji. {name} wkrótce pojawi się w Google Play, a informacje o wersjach znajdą się tutaj."
   },
   "press": {
     "title": "{name}: materiały prasowe",
@@ -285,7 +296,8 @@
   "trademarks": {
     "sony": "PlayStation, PS5 i PS4 są znakami towarowymi Sony Interactive Entertainment Inc. Aplikacja {name} nie jest powiązana z Sony ani przez Sony popierana.",
     "hosts": "Windows i Xbox są znakami towarowymi Microsoft; Mac, iPhone i iPad — Apple; PlayStation — Sony Interactive Entertainment; Nintendo Switch — Nintendo; Android, Android TV i Google TV — Google; Fire TV — Amazon; Steam — Valve; Raspberry Pi — Raspberry Pi Ltd. Aplikacja {name} nie jest powiązana z żadną z tych firm ani przez nie popierana.",
-    "controllers": "Xbox jest znakiem towarowym Microsoft; PlayStation, DualShock i DualSense — Sony Interactive Entertainment; Nintendo Switch — Nintendo. Aplikacja {name} nie jest powiązana z żadną z tych firm ani przez nie popierana."
+    "controllers": "Xbox jest znakiem towarowym Microsoft; PlayStation, DualShock i DualSense — Sony Interactive Entertainment; Nintendo Switch — Nintendo. Aplikacja {name} nie jest powiązana z żadną z tych firm ani przez nie popierana.",
+    "video-apps": "YouTube, TikTok i Instagram są znakami towarowymi ich właścicieli. {name} nie jest z nimi powiązany ani przez nie wspierany."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -638,6 +650,45 @@
         "description": "Jak Apk Extractor wypada na tle innych aplikacji do wyodrębniania APK i kopii zapasowych aplikacji na Androida, funkcja po funkcji, same fakty.",
         "vsDescription": "{name} i {other} na Androidzie, porównanie funkcja po funkcji: wyodrębnianie APK, instalacja XAPK, instalacja zbiorcza, historia wersji, przenoszenie aplikacji na nowy telefon, przesyłanie przez Wi-Fi, root, reklamy i ceny.",
         "vsIntro": "Obie wyodrębniają zainstalowane aplikacje do plików APK na Androidzie. Oto czym się różnią, funkcja po funkcji."
+      }
+    },
+    "slopswipe": {
+      "kicker": "Filtr filmów SI · Na urządzeniu",
+      "heroPoints": [
+        "Przewija filmy SI w oficjalnych aplikacjach YouTube Shorts i TikTok, a w Instagram Reels po włączeniu",
+        "Przy każdym pominięciu widać regułę, która zadziałała, np. oznaczenie SI platformy, słowo kluczowe SI albo Twoją listę zablokowanych; cofasz jednym dotknięciem",
+        "Tekst z ekranu jest sprawdzany na telefonie i nigdy nie jest wysyłany. Bez konta. Za darmo, bez reklam i zakupów w aplikacji"
+      ],
+      "faqDescription": "Odpowiedzi o SlopSwipe: włączanie usługi ułatwień dostępu, jak działa pomijanie i reguły, listy i zgłoszenia, prywatność, harmonogram, tryb rodzica i dobrostan oraz obsługiwane telefony.",
+      "faqNotFoundBody": "Napisz do nas, podając model telefonu, platformę i co się stało; przy błędnym pominięciu dopisz nazwę konta tak, jak widać ją w Historii. Każdą wiadomość czyta człowiek.",
+      "support": {
+        "beforeItems": [
+          "Otwórz FAQ. Włączanie usługi ułatwień dostępu, pomijanie, listy i prywatność mają tam odpowiedź, w tych samych słowach co w aplikacji.",
+          "Jeśli nic nie jest pomijane, sprawdź po kolei: ekran Start pokazuje Działa; platforma jest włączona w Ustawienia → Gdzie działa (Instagram Reels jest domyślnie wyłączone); jesteś w odtwarzaczu Shorts albo w zakładce Dla Ciebie w TikTok, a nie na stronie głównej, w wyszukiwaniu czy w zakładce Obserwowani.",
+          "Otwórz Co odczytujemy w Ustawieniach, żeby zobaczyć dokładnie, co SlopSwipe odczytał ostatnio. Jeśli Start informuje, że Android wyłączył usługę, dotknij Napraw i wykonaj kroki z sekcji Bateria i działanie w tle dla marki swojego telefonu."
+        ],
+        "template": {
+          "phone": "Model telefonu:",
+          "android": "Wersja Androida:",
+          "platform": "Platforma (YouTube Shorts / TikTok / Instagram Reels):",
+          "version": "Wersja SlopSwipe:",
+          "account": "Przy błędnym pominięciu: nazwa konta tak, jak widać ją w Historii:",
+          "what": "Co się stało, krok po kroku:"
+        },
+        "refundBody": "SlopSwipe jest darmowy, bez reklam i bez zakupów w aplikacji, więc nie ma czego kupować ani zwracać."
+      },
+      "press": {
+        "description": "Fakty, materiały i notka do tekstów o SlopSwipe, aplikacji na Androida, która pomija filmy wygenerowane przez SI w kanałach z krótkimi filmami.",
+        "boilerplate": "SlopSwipe pomija filmy wygenerowane przez SI na Androidzie, w oficjalnych aplikacjach YouTube Shorts i TikTok, a po włączeniu także w Instagram Reels. Gdy film pasuje do reguły włączonej przez użytkownika, np. oznaczenia SI samej platformy, słowa kluczowego SI albo konta z jego listy zablokowanych, aplikacja przewija do następnego filmu i zapisuje powód, więc błędne pominięcie można cofnąć jednym dotknięciem. Tekst z ekranu jest sprawdzany na telefonie i nigdy nie jest wysyłany, a konto nie jest potrzebne. Tworzy ją DappleByte, niezależne studio.",
+        "priceValue": "Za darmo, bez reklam i bez zakupów w aplikacji.",
+        "assetScreenshots": "Zrzuty ekranu z telefonu, PNG, po angielsku (1080 × 1920)"
+      },
+      "videosDescription": "Krótkie filmy pokazujące SlopSwipe na prawdziwym telefonie: włączanie, jak wygląda pominięcie, cofanie błędnego pominięcia, lista zablokowanych i lista dozwolonych.",
+      "privacyDescription": "Co SlopSwipe na Androida robi z Twoimi danymi: co odczytuje usługa ułatwień dostępu, co zostaje na telefonie, co jest wysyłane i jak to wyłączyć. Bez konta i bez identyfikatora reklamowego.",
+      "compare": {
+        "description": "SlopSwipe w porównaniu z innymi aplikacjami na Androida do filmów SI i kanałów z krótkimi filmami, funkcja po funkcji, same fakty.",
+        "vsDescription": "{name} i {other} na Androidzie, funkcja po funkcji: oficjalne aplikacje, automatyczne pomijanie, oznaczenia i słowa kluczowe SI, listy, cofanie, prywatność i cena.",
+        "vsIntro": "Obie zajmują się tym, co widzisz w kanałach z krótkimi filmami na Androidzie. Oto różnice, funkcja po funkcji."
       }
     }
   }

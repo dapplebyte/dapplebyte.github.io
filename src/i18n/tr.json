@@ -21,6 +21,7 @@
   },
   "cta": {
     "getOnPlay": "{name} uygulamasını Google Play'den indirin",
+    "comingSoon": "Yakında Google Play'de",
     "readSource": "Kaynak kodu inceleyin",
     "about": "{name} hakkında",
     "learnMore": "Daha fazla bilgi"
@@ -47,7 +48,7 @@
   },
   "home": {
     "title": "DappleByte · Bağımsız Android uygulamaları",
-    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo, telefonu Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çeviren JoyLink, bir de oyun kolunda çubuk kayması, giriş gecikmesi ve çalışmayan tuş olup olmadığını kontrol eden Gamepad Tester Pro var. DappleByte ayrıca uygulamaları yeni telefona taşıyan APK çıkarıcı, uygulama yedekleme aracı ve XAPK yükleyici Apk Extractor'ı geliştiriyor.",
+    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo, telefonu Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çeviren JoyLink, bir de oyun kolunda çubuk kayması, giriş gecikmesi ve çalışmayan tuş olup olmadığını kontrol eden Gamepad Tester Pro var. DappleByte ayrıca uygulamaları yeni telefona taşıyan APK çıkarıcı, uygulama yedekleme aracı ve XAPK yükleyici Apk Extractor'ı geliştiriyor. Yakında Google Play'e gelecek olan SlopSwipe ise YouTube Shorts, TikTok ve Instagram Reels'te yapay zekâyla üretilmiş videoları kaydırıp geçer, her atlamanın nedenini gösterir ve tek dokunuşla geri alınır.",
     "appsHeading": "Uygulamalar",
     "principlesHeading": "Nasıl çalışıyoruz",
     "principles": [
@@ -95,6 +96,7 @@
     "faqAll": "Tüm sorular",
     "getHeading": "{name} uygulamasını edinin",
     "getBody": "Android için Google Play'de.",
+    "getBodySoon": "Android için yakında Google Play'de.",
     "getBodySource": "Kaynak kodu {license} lisansıyla yayımlanır.",
     "requiresLabel": "Gereksinimler",
     "videoHeading": "Nasıl çalıştığını görün",
@@ -227,7 +229,15 @@
       "batch-install": "Toplu yükleme kuyruğu",
       "version-history": "Eski bir sürüme dönebilen sürüm geçmişi",
       "device-migration": "Uygulamaları Wi-Fi üzerinden yeni telefona taşır",
-      "wifi-transfer": "Uygulamaları cihazlar arasında Wi-Fi veya tarayıcı üzerinden aktarır"
+      "wifi-transfer": "Uygulamaları cihazlar arasında Wi-Fi veya tarayıcı üzerinden aktarır",
+      "official-apps": "Resmi YouTube, TikTok ve Instagram uygulamalarının içinde çalışır",
+      "auto-skip-ai": "Yapay zekâyla üretilmiş videoları otomatik atlar",
+      "platform-ai-labels": "Platformun kendi AI etiketlerini kullanır",
+      "ai-keywords": "AI anahtar kelime ve hashtag kuralları",
+      "block-allow-lists": "Kendi engel listeniz ve izin listeniz",
+      "skip-reason-undo": "Her videonun neden atlandığını gösterir, tek dokunuşla geri alınır",
+      "on-device": "Ekran içeriği telefonda kontrol edilir, asla yüklenmez",
+      "screen-time-limits": "Günlük süre sınırı ve yatmadan önce hatırlatma"
     },
     "values": {
       "yes": "Evet",
@@ -247,7 +257,8 @@
     "description": "Android için tüm {name} sürümleri ve değişiklikleri, en yenisi en üstte.",
     "version": "Sürüm {version}",
     "build": "derleme {code}",
-    "feed": "Atom akışı"
+    "feed": "Atom akışı",
+    "empty": "Henüz sürüm yok. {name} yakında Google Play'de olacak; sürüm notları burada görünecek."
   },
   "press": {
     "title": "{name} basın kiti",
@@ -285,7 +296,8 @@
   "trademarks": {
     "sony": "PlayStation, PS5 ve PS4, Sony Interactive Entertainment Inc. şirketinin ticari markalarıdır. {name}, Sony ile bağlantılı değildir ve Sony tarafından onaylanmamıştır.",
     "hosts": "Windows ve Xbox, Microsoft'un; Mac, iPhone ve iPad, Apple'ın; PlayStation, Sony Interactive Entertainment'ın; Nintendo Switch, Nintendo'nun; Android, Android TV ve Google TV, Google'ın; Fire TV, Amazon'un; Steam, Valve'ın; Raspberry Pi, Raspberry Pi Ltd.'nin ticari markalarıdır. {name}, bu şirketlerin hiçbiriyle bağlantılı değildir ve hiçbiri tarafından onaylanmamıştır.",
-    "controllers": "Xbox, Microsoft'un; PlayStation, DualShock ve DualSense, Sony Interactive Entertainment'ın; Nintendo Switch, Nintendo'nun ticari markalarıdır. {name}, bu şirketlerin hiçbiriyle bağlantılı değildir ve hiçbiri tarafından onaylanmamıştır."
+    "controllers": "Xbox, Microsoft'un; PlayStation, DualShock ve DualSense, Sony Interactive Entertainment'ın; Nintendo Switch, Nintendo'nun ticari markalarıdır. {name}, bu şirketlerin hiçbiriyle bağlantılı değildir ve hiçbiri tarafından onaylanmamıştır.",
+    "video-apps": "YouTube, TikTok ve Instagram ilgili sahiplerinin ticari markalarıdır. {name} bunların hiçbiriyle bağlantılı değildir ve onlar tarafından onaylanmamıştır."
   },
   "videoItems": {
     "gamepad-pro": {
@@ -638,6 +650,45 @@
         "description": "Apk Extractor'ın Android'deki diğer APK çıkarma ve uygulama yedekleme uygulamalarıyla özellik özellik karşılaştırması, yalnızca gerçekler.",
         "vsDescription": "Android'de {name} ve {other} özellik özellik karşılaştırması: APK çıkarma, XAPK yükleme, toplu yükleme, sürüm geçmişi, uygulamaları yeni telefona taşıma, Wi-Fi aktarımı, root, reklamlar ve fiyat.",
         "vsIntro": "İkisi de Android'de yüklü uygulamaları APK dosyası olarak çıkarır. Farkları özellik özellik burada."
+      }
+    },
+    "slopswipe": {
+      "kicker": "AI video filtresi · Cihazda",
+      "heroPoints": [
+        "Resmi YouTube Shorts ve TikTok uygulamalarının içinde AI videolarını kaydırıp geçer; Instagram Reels'te de siz açınca",
+        "Her atlamada eşleşen kural görünür: platformun AI etiketi, bir AI anahtar kelimesi ya da engel listeniz. Tek dokunuşla geri alınır",
+        "Ekrandaki metin telefonunuzda kontrol edilir, asla yüklenmez. Hesap yok. Ücretsiz, reklamsız, uygulama içi satın alma yok"
+      ],
+      "faqDescription": "SlopSwipe hakkında yanıtlar: erişilebilirlik hizmetini açma, atlamanın ve kuralların nasıl çalıştığı, listeler ve bildirimler, gizlilik, zamanlama, ebeveyn modu ve dijital denge, desteklenen telefonlar.",
+      "faqNotFoundBody": "Telefon modelinizi, platformu ve ne olduğunu yazarak bize e-posta gönderin; yanlış bir atlama için hesap adını Geçmiş'te gösterildiği gibi ekleyin. Her mesajı bir insan okur.",
+      "support": {
+        "beforeItems": [
+          "Önce SSS'ye bakın. Erişilebilirlik hizmetini açma, atlama, listeler ve gizlilikle ilgili soruların yanıtı orada, uygulamadaki ifadelerle.",
+          "Hiçbir şey atlanmıyorsa şu sırayla kontrol edin: Ana sayfada Çalışıyor yazıyor mu; platform Ayarlar → Çalıştığı yerler bölümünde açık mı (Instagram Reels varsayılan olarak kapalıdır); ana sayfada, aramada veya Takip Edilenler'de değil de Shorts oynatıcısında ya da TikTok Sana Özel akışında mısınız.",
+          "SlopSwipe'ın en son tam olarak neyi okuduğunu görmek için Ayarlar'da Neleri okuyoruz'u açın. Ana sayfa Android'in hizmeti kapattığını söylüyorsa Düzelt'e dokunun ve telefon markanıza ait Pil ve arka plan adımlarını tamamlayın."
+        ],
+        "template": {
+          "phone": "Telefon modeli:",
+          "android": "Android sürümü:",
+          "platform": "Platform (YouTube Shorts / TikTok / Instagram Reels):",
+          "version": "SlopSwipe sürümü:",
+          "account": "Yanlış atlama için: Geçmiş'te gösterilen hesap adı:",
+          "what": "Ne oldu, adım adım:"
+        },
+        "refundBody": "SlopSwipe ücretsizdir; reklam ve uygulama içi satın alma yoktur. Yani satın alınacak ya da iade edilecek bir şey yok."
+      },
+      "press": {
+        "description": "Kısa video akışlarında yapay zekâyla üretilmiş videoları atlayan Android uygulaması SlopSwipe hakkında yazmak için bilgiler, materyaller ve tanıtım metni.",
+        "boilerplate": "SlopSwipe, resmi YouTube Shorts ve TikTok uygulamalarının içinde, açıldığında Instagram Reels'te de, yapay zekâyla üretilmiş videoları atlayan bir Android uygulamasıdır. Bir video kullanıcının açtığı bir kurala uyduğunda, örneğin platformun kendi AI etiketine, bir AI anahtar kelimesine ya da engel listesindeki bir hesaba, sonraki videoya geçer ve nedenini kaydeder; böylece yanlış bir atlama tek dokunuşla geri alınabilir. Ekrandaki metin telefonda kontrol edilir ve asla yüklenmez, hesap da gerekmez. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilmiştir.",
+        "priceValue": "Ücretsiz, reklamsız, uygulama içi satın alma yok.",
+        "assetScreenshots": "Telefon ekran görüntüleri, PNG, İngilizce (dikey 1080 × 1920)"
+      },
+      "videosDescription": "SlopSwipe'ı gerçek bir telefonda gösteren kısa videolar: nasıl açılır, bir atlama nasıl görünür, yanlış bir atlama nasıl geri alınır, engel ve izin listeleri.",
+      "privacyDescription": "Android için SlopSwipe verilerinizle ne yapar: erişilebilirlik hizmeti neyi okur, ne telefonda kalır, ne gönderilir ve nasıl kapatılır; hesap yok, reklam kimliği yok.",
+      "compare": {
+        "description": "SlopSwipe'ın AI videoları ve kısa video akışlarıyla ilgili diğer Android uygulamalarıyla özellik özellik karşılaştırması, yalnızca gerçekler.",
+        "vsDescription": "Android'de {name} ve {other} özellik özellik karşılaştırması: resmi uygulamalar, otomatik atlama, AI etiketleri ve anahtar kelimeler, listeler, geri alma, gizlilik ve fiyat.",
+        "vsIntro": "İkisi de Android'de kısa video akışlarında gördüklerinizle ilgilenir. Farkları özellik özellik burada."
       }
     }
   }

@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "fr",
+  "title": "FAQ",
+  "intro": "Les questions qu’on nous pose le plus souvent, et quoi faire dans chaque cas. Touchez une question pour la déplier.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Prise en main et autorisations",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "Pourquoi SlopSwipe a-t-il besoin du service d’accessibilité ?",
+          "a": [
+            "C’est le seul moyen pour une appli Android de lire ce qui s’affiche à l’écran et de balayer à votre place. SlopSwipe lit uniquement les titres, les noms de compte et les étiquettes dans Shorts, TikTok et Reels, décide sur votre téléphone et balaie vers le haut quand une de vos règles correspond. Ce n’est pas un outil d’assistance pour les personnes handicapées, et rien de votre écran n’est envoyé."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "Le bouton d’accessibilité est grisé ou affiche « Paramètre restreint ».",
+          "a": [
+            "Cela arrive sous Android 13 et versions ultérieures quand l’appli a été installée depuis un APK plutôt que depuis Google Play. Ouvrez Infos sur l’appli → ⋮ en haut à droite → Autoriser les paramètres restreints, puis réactivez le service. Si l’option n’apparaît pas, touchez d’abord une fois SlopSwipe dans la liste Accessibilité."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "L’Accueil indique qu’Android a désactivé le service d’accessibilité, et ça recommence.",
+          "a": [
+            "Les mises à jour système, les nettoyages de batterie et les redémarrages peuvent le désactiver. Touchez Corriger sur l’Accueil, ou allez dans Paramètres → Rester actif → Service d’accessibilité. Pour que ça ne se reproduise plus, terminez les étapes Batterie et arrière-plan pour la marque de votre téléphone."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "À quoi servent les étapes Batterie et arrière-plan ?",
+          "a": [
+            "Certaines marques (Xiaomi et HyperOS, Samsung, OPPO, vivo, Huawei) arrêtent les services en arrière-plan pour économiser la batterie, et le service d’accessibilité s’arrête avec eux. Le guide montre les étapes pour votre marque : optimisation de la batterie, démarrage automatique et verrouillage de l’appli dans les applis récentes. SlopSwipe ne demande jamais de lui-même l’autorisation d’ignorer l’optimisation de la batterie."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "Il est indiqué que la Protection avancée a retiré l’accès à l’accessibilité.",
+          "a": [
+            "La Protection avancée d’Android retire l’accessibilité aux applis qui ne sont pas des outils d’assistance : le passage automatique ne peut donc pas fonctionner tant qu’elle est activée. Vous pouvez la garder et utiliser les paramètres propres à chaque plateforme depuis l’onglet Guides, ou la désactiver dans les paramètres système. Nous ne recommandons ni l’un ni l’autre : c’est à vous de choisir."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "Pourquoi demande-t-il à envoyer des notifications ?",
+          "a": [
+            "Pour la notification d’état et ses boutons de pause, l’alerte quand le service est désactivé, et le résumé hebdomadaire. Si vous refusez, tout le reste fonctionne quand même. Chaque notification peut aussi être désactivée séparément dans Paramètres → Rester actif."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "Pourquoi y a-t-il toujours une notification SlopSwipe ?",
+          "a": [
+            "C’est la Notification d’état : elle est silencieuse et vous permet de mettre en pause depuis le volet des notifications. Désactivez-la dans Paramètres → Rester actif → Notification d’état. Le service continue de fonctionner sans elle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Vidéos passées et règles",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "Comment SlopSwipe décide-t-il qu’une vidéo est de l’IA ?",
+          "a": [
+            "Avec des règles fixes, pas avec un modèle d’IA : l’étiquette IA de la plateforme elle-même, des mots-clés IA explicites dans le titre ou les hashtags, votre liste de blocage, vos mots-clés et la liste signalée par les utilisateurs. Chaque vidéo passée affiche la règle principale, et l’Historique liste toutes les règles qui ont correspondu. Chaque règle peut être désactivée dans Paramètres → Règles → Activation par règle."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "Que changent Stricte, Normale et Souple ?",
+          "a": [
+            "Seulement la façon de traiter les détections de confiance moyenne et faible, comme un seul hashtag vague du type #ai. Stricte les passe toutes ; Normale passe les moyennes et se contente d’une suggestion pour les faibles ; Souple fait une suggestion pour les moyennes et ignore les faibles. Les étiquettes de la plateforme et vos propres listes sont passées quel que soit le niveau."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "Qu’est-ce que le Contenu d’IA légère ?",
+          "a": [
+            "Des vidéos faites par des personnes avec un peu d’IA dedans, comme une voix off IA ou un montage assisté par IA. Par défaut, SlopSwipe les passe aussi. Choisissez Suggérer ou Ignorer dans Paramètres → Règles → Contenu d’IA légère. La sensibilité n’a pas d’effet sur ce réglage."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "Une barre a affiché « Peut-être une vidéo IA », mais rien n’a été passé.",
+          "a": [
+            "C’est une suggestion : pour les détections moins sûres, SlopSwipe affiche seulement la barre quelques secondes et passe la vidéo si vous touchez Passer. Les détections qui donnent une suggestion plutôt qu’un passage dépendent de votre sensibilité ; en Stricte, elles sont passées automatiquement."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "Il a passé une vidéo que je voulais regarder.",
+          "a": [
+            "Revenez-y en balayant vers l’arrière ; une vidéo vers laquelle vous revenez n’est pas jugée à nouveau. Plus tard, ouvrez l’Historique, touchez l’entrée et choisissez Marquer comme erreur ou Ajouter à la liste d’autorisation. Les comptes de la liste d’autorisation ne sont jamais passés. Pour avoir un bouton Annuler après chaque vidéo passée, activez Paramètres → Suggestions et bouton → Bouton Annuler après une vidéo passée."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "Rien n’est passé.",
+          "a": [
+            "Vérifiez dans cet ordre : l’Accueil affiche Actif ; la plateforme est activée dans Paramètres → Où il agit (Reels est désactivé par défaut) ; vous êtes dans le lecteur Shorts ou le fil Pour toi de TikTok, et non sur la page d’accueil, la recherche, Abonnements ou un live ; et la vidéo correspond vraiment à une règle, car la plupart des vidéos ne sont pas de l’IA. Ce que nous lisons montre exactement ce qui a été lu en dernier."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "Est-ce qu’il passe les pubs ?",
+          "a": [
+            "Non, c’est voulu. Les publicités et les vidéos sponsorisées ne sont jamais touchées ni comptées, même si elles portent une étiquette IA. Faites-les défiler vous-même."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "Où agit-il exactement ?",
+          "a": [
+            "Uniquement dans le lecteur Shorts, le fil Pour toi de TikTok et, si vous l’activez, Reels. La page d’accueil, les résultats de recherche, les commentaires, les vidéos longues, les lives et le fil Abonnements de TikTok ne sont pas touchés : ce que vous êtes venu chercher reste là. Pour inclure Abonnements, activez Paramètres → Où il agit → Agir aussi sur les comptes que je suis."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "Peut-il balayer plus tôt, ou attendre un peu plus ?",
+          "a": [
+            "Oui : Paramètres → Règles → Vitesse de défilement, entre Immédiat et 2 secondes. La petite pause par défaut vous laisse voir ce qui va être passé."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "L’Accueil indique qu’une plateforme a changé après une mise à jour et que les actions sont suspendues.",
+          "a": [
+            "L’appli de la plateforme a changé sa mise en page et le jeu de règles actuel ne peut plus la lire : SlopSwipe arrête donc d’agir là plutôt que de balayer à l’aveugle. Le jeu de règles se met à jour au lancement de l’appli et toutes les 6 heures ; touchez Rechercher des mises à jour des règles pour essayer maintenant. En attendant, les Guides fonctionnent toujours."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "Il est passé aux suggestions seules après beaucoup de vidéos passées d’affilée.",
+          "a": [
+            "C’est une sécurité. Dix vidéos passées d’affilée sans que rien ne soit regardé pendant 3 secondes signifient généralement qu’une règle ou la mise en page de la plateforme pose problème : cette plateforme passe donc aux suggestions seules pour le reste de la session. Rouvrez l’appli de la plateforme et tout redevient normal. Annulez ce qui a été passé à tort pour que ce soit compté comme une erreur."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "À quoi sert le bouton flottant « C’est de l’IA » ?",
+          "a": [
+            "Il passe immédiatement la vidéo en cours et, par défaut, ajoute le compte à votre liste de blocage ; Annuler revient en arrière et retire cette entrée. Sur TikTok, le nom sur la vidéo est le nom affiché, donc les comptes qui portent le même nom sont aussi bloqués ; désactivez Bloquer aussi le compte pour passer seulement cette vidéo. Masquez, redimensionnez ou déplacez le bouton dans Paramètres → Suggestions et bouton."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Listes, mots-clés et signalements",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "Comment fonctionnent la liste de blocage et la liste d’autorisation ?",
+          "a": [
+            "Liste de blocage : ses comptes sont toujours passés. Liste d’autorisation : ses comptes ne sont jamais passés, même s’ils figurent dans les deux. Ajoutez des comptes depuis une entrée de l’Historique, avec le bouton flottant, ou en tapant le nom dans Paramètres → Listes (TikTok : le nom affiché ; YouTube et Instagram : le @pseudo). Exporter des listes et Importer des listes permettent de les transférer sur un autre téléphone."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "Puis-je ajouter mes propres mots-clés ?",
+          "a": [
+            "Oui. Dans Paramètres → Listes → Mots-clés personnalisés, chaque mot est réglé sur Passer ou Suggestion seule, et un mot qui commence par # ne correspond qu’aux hashtags. Suggestions de règles, sur l’Accueil, propose aussi des mots tirés des vidéos que vous avez marquées comme IA."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "Que sont les Suggestions de règles ?",
+          "a": [
+            "Un simple comptage sur votre téléphone, pas de l’apprentissage automatique. Un hashtag qui apparaît 3 fois dans des vidéos que vous avez marquées comme IA devient une suggestion de mot-clé ; un mot dont vous avez annulé le passage deux fois devient une suggestion de l’ignorer ; beaucoup d’annulations suggèrent une sensibilité plus souple. Rien ne change tant que vous n’acceptez pas, et les compteurs ne quittent jamais votre téléphone."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "Qu’envoient les Signalements anonymes ?",
+          "a": [
+            "Ils sont désactivés par défaut. S’ils sont activés, toucher « C’est de l’IA » envoie la plateforme, le nom du compte du créateur, la raison et les règles qui ont correspondu, avec un identifiant de signalement aléatoire créé sur votre téléphone. Rien sur votre compte ni sur l’écran. Une personne examine chaque compte avant qu’il rejoigne la liste partagée. Suivez chaque signalement dans Mes signalements et supprimez-le à tout moment."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "Que sont les Packs de règles ?",
+          "a": [
+            "Des jeux de règles supplémentaires autour d’un thème, comme les dessins animés pour enfants faits par IA ou les fausses infos générées par IA. Ils ne fonctionnent qu’une fois que vous vous y abonnez dans Paramètres → Listes → Packs de règles, se mettent à jour avec les règles, et leurs comptes sont d’abord vérifiés par une personne."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Confidentialité et données",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "Que lit-il exactement ? Est-ce que quelque chose est envoyé ?",
+          "a": [
+            "Seulement le texte affiché à l’écran dans les trois applis : le titre, le nom du compte, les hashtags, les étiquettes et le fait que la page soit une pub ou non. Chaque décision est prise sur votre téléphone. Aucun enregistrement d’écran, aucune capture, rien de votre écran n’est envoyé, et aucun compte n’est nécessaire. Ce que nous lisons montre la dernière chose lue."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "Qu’est-ce qui quitte mon téléphone ?",
+          "a": [
+            "Uniquement ce que vous pouvez désactiver dans Paramètres → Confidentialité : Statistiques anonymes (événements d’utilisation, aucun contenu de l’écran), Rapports de plantage, Rapports de détection défaillante (seulement la version de l’appli), et Signalements anonymes si vous les avez activés. Les téléchargements du jeu de règles ne transmettent rien sur vous."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "Combien de temps l’Historique est-il conservé ? Comment tout supprimer ?",
+          "a": [
+            "L’historique des vidéos passées reste sur votre téléphone pendant 30 jours, puis il est supprimé. Paramètres → Confidentialité → Supprimer toutes les données efface l’historique, les statistiques, les deux listes et les compteurs de suggestions ; vos paramètres sont conservés. Les signalements déjà envoyés peuvent être supprimés dans Mes signalements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "Autres fonctionnalités",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "Comment le mettre en pause un moment ?",
+          "a": [
+            "Touchez le bouton de pause en haut de l’Accueil, utilisez la notification d’état, ou ajoutez la vignette SlopSwipe aux Réglages rapides. Choisissez 30 minutes, jusqu’à demain, ou jusqu’à ce que vous repreniez. Pendant la pause, aucune vidéo n’est passée et aucune suggestion n’apparaît."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "Peut-il être plus strict la nuit ?",
+          "a": [
+            "Oui, avec Planning : Paramètres → Règles → Planning définit une plage quotidienne avec sa propre sensibilité, par exemple de 23:00 à 07:00 en Stricte. L’Accueil indique quand le planning est actif."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "Qu’est-ce que le Mode parental ? J’ai oublié le PIN.",
+          "a": [
+            "Un PIN verrouille les paramètres, les listes et la pause, la sensibilité reste sur Stricte, et le résumé du lundi sert de rapport. Le PIN ne quitte jamais le téléphone et n’est stocké que sous forme de hash. En cas d’oubli : Paramètres Android → Applications → SlopSwipe → Effacer les données désactive le mode parental, et efface aussi l’historique et les listes."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "À quoi sert l’onglet Bien-être ?",
+          "a": [
+            "C’est un petit module facultatif : le temps passé à faire défiler chaque plateforme, une limite de temps quotidienne, un rappel de défilement, une pause avant ouverture, l’heure du coucher et le temps de concentration. Chaque limite a un bouton Pas aujourd’hui. Activez ou désactivez le module dans Paramètres → Bien-être."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "Y a-t-il un widget ou une vignette de Réglages rapides ?",
+          "a": [
+            "Les deux. Le widget affiche les vidéos passées du jour : appuyez de manière prolongée sur l’écran d’accueil, choisissez Widgets et cherchez SlopSwipe. La vignette met SlopSwipe en pause : modifiez vos Réglages rapides et ajoutez la vignette SlopSwipe."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "À quoi sert l’onglet Guides ? A-t-il besoin de l’autorisation ?",
+          "a": [
+            "Aucune autorisation n’est nécessaire. Les guides vous accompagnent dans les paramètres propres à chaque plateforme, comme réduire le contenu IA dans TikTok, filtrer des mots-clés ou demander à YouTube de ne pas recommander une chaîne, avec en plus des astuces pour repérer les vidéos IA. Ils fonctionnent seuls et rendent le passage automatique moins nécessaire."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Comment changer de langue ?",
+          "a": [
+            "Sous Android 13 et versions ultérieures : Paramètres → Apparence → Langue. Les versions plus anciennes suivent la langue du système. Il y a 41 langues, avec l’anglais en secours. Les traductions ont été faites par Claude et n’ont pas encore été relues par des locuteurs natifs : signalez-nous tout ce qui sonne faux."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Compatibilité et assistance",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "Rien n’est passé sur Instagram Reels.",
+          "a": [
+            "Reels est désactivé par défaut dans cette version, car ses libellés de publicité et d’étiquette n’ont été vérifiés qu’en anglais. Activez-le dans Paramètres → Où il agit : il fonctionne avec le jeu de règles actuel."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "Quels téléphones et quelles versions d’Android sont compatibles ?",
+          "a": [
+            "Android 8.0 et versions ultérieures, sur tout téléphone ou tablette avec l’appli officielle YouTube, TikTok ou Instagram. Les versions modifiées ou « lite » de ces applis peuvent ne pas être lisibles, et certaines marques demandent les étapes Batterie et arrière-plan pour garder le service actif."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Comment signaler un problème ou faire une suggestion ?",
+          "a": [
+            "Paramètres → Aide et commentaires → Envoyer un commentaire, ou le bouton ci-dessous. Le modèle de votre téléphone, la version de l’appli, l’état du service et la version du jeu de règles sont joints automatiquement. Pour une vidéo passée à tort, ajoutez le nom du compte tel qu’il apparaît dans l’Historique."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

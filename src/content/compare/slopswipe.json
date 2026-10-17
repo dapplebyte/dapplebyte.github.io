@@ -1,0 +1,26 @@
+{
+  "slug": "slopswipe",
+  "draft": true,
+  "verifiedOn": null,
+  "competitors": [
+    { "id": "decaf", "name": "Decaf", "url": "https://play.google.com/store/apps/details?id=app.decaf.social" },
+    { "id": "humanmeter", "name": "HumanMeter", "url": "https://play.google.com/store/apps/details?id=com.flip.humanmeter" },
+    { "id": "auto-scroll-tt", "name": "Auto Scroll TT: Smart Swipe", "url": "https://play.google.com/store/apps/details?id=com.sirenity.auto_scroll_tt" }
+  ],
+  "rows": [
+    { "id": "platform", "values": { "slopswipe": "Android 8.0+", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "official-apps", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "auto-skip-ai", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "platform-ai-labels", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "ai-keywords", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "block-allow-lists", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "skip-reason-undo", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "on-device", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "screen-time-limits", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "no-account", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "no-ads", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "free-install", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "no-subscription", "values": { "slopswipe": "yes", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } },
+    { "id": "pricing-model", "values": { "slopswipe": "free", "decaf": "unknown", "humanmeter": "unknown", "auto-scroll-tt": "unknown" } }
+  ]
+}

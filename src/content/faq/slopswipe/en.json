@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "en",
+  "title": "FAQ",
+  "intro": "The questions we get asked most, and what to do about them. Tap a question to expand it.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Getting started and permissions",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "Why does SlopSwipe need the accessibility service?",
+          "a": [
+            "It is the only way an Android app can read what is on screen and swipe for you. SlopSwipe reads only the titles, account names and labels in Shorts, TikTok and Reels, decides on your phone, and swipes up when one of your rules matches. It is not an assistive tool for disabilities, and nothing from your screen is uploaded."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "The accessibility switch is greyed out or says \"Restricted setting\".",
+          "a": [
+            "That happens on Android 13 and newer when the app was installed from an APK instead of Google Play. Open App info → ⋮ at top right → Allow restricted settings, then turn the service on again. If the option is missing, tap SlopSwipe once in the Accessibility list first."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "Home says Android turned off the accessibility service, and it keeps happening.",
+          "a": [
+            "System updates, battery clean-ups and restarts can switch it off. Tap Fix it on Home, or Settings → Staying on → Accessibility service. To stop it happening again, finish the Battery and background steps for your phone brand."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "What are the Battery and background steps for?",
+          "a": [
+            "Some brands (Xiaomi and HyperOS, Samsung, OPPO, vivo, Huawei) stop background services to save power, and the accessibility service goes with them. The guide shows the steps for your brand: battery optimisation, auto-start and locking the app in Recents. SlopSwipe never asks for the battery-exemption permission itself."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "It says Advanced Protection has removed accessibility access.",
+          "a": [
+            "Android's Advanced Protection takes accessibility away from apps that are not assistive tools, so automatic skipping cannot run while it is on. You can keep it on and use the platforms' own settings from the Guides tab, or turn it off in system settings. We do not recommend one over the other; it is your call."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "Why does it ask to send notifications?",
+          "a": [
+            "For the status notification with its pause buttons, the alert when the service is switched off, and the weekly summary. Say no and everything else still works. Each notification can also be turned off separately under Settings → Staying on."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "Why is there always a SlopSwipe notification?",
+          "a": [
+            "That is the Status notification: it is silent and lets you pause from the notification shade. Turn it off under Settings → Staying on → Status notification. The service keeps running without it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Skipping and rules",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "How does SlopSwipe decide that a video is AI?",
+          "a": [
+            "With fixed rules, not an AI model: the platform's own AI label, clear AI keywords in the title or hashtags, your block list, your keywords, and the user-reported list. Every skip shows the main rule, and History lists all the rules that matched. Any rule can be turned off under Settings → Rules → Per-rule switches."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "What do Strict, Normal and Relaxed change?",
+          "a": [
+            "Only how medium- and low-confidence hits are treated, such as a single vague hashtag like #ai. Strict skips them all, Normal skips medium ones and only hints for low ones, Relaxed hints for medium ones and ignores low ones. Platform labels and your own lists are skipped at every level."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "What is Light AI content?",
+          "a": [
+            "Videos made by people with some AI in them, such as an AI voiceover or AI-assisted editing. They are skipped by default. Choose Hint or Ignore under Settings → Rules → Light AI content. Sensitivity does not affect this setting."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "A bar said \"Possibly an AI video\" but nothing was skipped.",
+          "a": [
+            "That is a hint: for less certain hits SlopSwipe only shows the bar for a few seconds and skips if you tap Skip. Which hits get a hint instead of a skip depends on your sensitivity; Strict skips them automatically."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "It skipped a video I wanted to watch.",
+          "a": [
+            "Swipe back to it; a video you go back to is not judged again. Later, open History, tap the entry and choose Mark as mistake or Add to allow list. Accounts on the allow list are never skipped. For an Undo button after every skip, turn on Settings → Hints and button → Show Undo after a skip."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "Nothing is being skipped.",
+          "a": [
+            "Check in this order: Home shows Running; the platform is on under Settings → Where it works (Reels is off by default); you are in the Shorts player or the TikTok For You feed, not the home page, search, Following or a live stream; and the video actually matches a rule, as most videos are not AI. What we read shows exactly what was last read."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "Does it skip ads?",
+          "a": [
+            "No, on purpose. Ads and sponsored videos are never acted on or counted, even when they carry an AI label. Swipe past them yourself."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "Where exactly does it act?",
+          "a": [
+            "Only in the Shorts player, the TikTok For You feed and, when turned on, Reels. The home page, search results, comments, long videos, live streams and the TikTok Following feed are left alone, so what you went looking for stays. To include Following, turn on Settings → Where it works → Also act on accounts I follow."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "Can it swipe sooner, or wait a bit longer?",
+          "a": [
+            "Yes: Settings → Rules → Swipe-away speed, from at once to 2 seconds. The small default pause lets you see what is being skipped."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "Home says a platform changed after an update and actions are stopped.",
+          "a": [
+            "The platform app changed its layout and the current rule set cannot read it, so SlopSwipe stops acting there rather than swipe blindly. Rule sets update when the app starts and every 6 hours; tap Check for rule updates to try now. Until then the Guides still work."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "It switched to hints only after many skips in a row.",
+          "a": [
+            "A safety stop. Ten skips in a row with nothing watched for 3 seconds usually means a rule or the platform layout is off, so that platform goes to hints only for the rest of the session. Open the platform app again and it goes back to normal. Undo anything that was wrong so it counts as a mistake."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "What does the \"This is AI\" floating button do?",
+          "a": [
+            "It skips the current video at once and, by default, puts the account on your block list; Undo swipes back and removes that entry. On TikTok the name on the video is a display name, so accounts sharing it are blocked too; turn off Also block the account to skip only that video. Hide, resize or drag the button under Settings → Hints and button."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Lists, keywords and reports",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "How do the block list and allow list work?",
+          "a": [
+            "Block list: always skipped. Allow list: never skipped, even if the account is on both. Add accounts from a History entry, with the floating button, or by typing the name under Settings → Lists (TikTok: the display name; YouTube and Instagram: the @handle). Export lists and Import lists move them to another phone."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "Can I add my own keywords?",
+          "a": [
+            "Yes. Settings → Lists → Custom keywords; each word is set to Skip or Hint, and a word starting with # matches hashtags only. Rule suggestions on Home also proposes words taken from the videos you marked as AI."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "What are Rule suggestions?",
+          "a": [
+            "Simple counting on your phone, not learning. A hashtag that shows up 3 times in videos you marked as AI becomes a keyword suggestion; a word you undid twice becomes a suggestion to ignore it; many undos suggest a more relaxed sensitivity. Nothing changes until you accept, and the counts never leave your phone."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "What do Anonymous reports send?",
+          "a": [
+            "Off by default. When on, tapping \"This is AI\" sends the platform, the creator's account name, the reason and the rules that matched, with a random report ID made on your phone. Nothing about your account or the screen. A person reviews every account before it joins the shared list. Follow each report under My reports and delete it there at any time."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "What are Rule packs?",
+          "a": [
+            "Extra rule sets for a theme, such as AI kids' cartoons or AI fake news. They only work once you subscribe under Settings → Lists → Rule packs, update together with the rules, and their accounts are reviewed by a person first."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Privacy and data",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "What exactly does it read? Is anything uploaded?",
+          "a": [
+            "Only on-screen text inside the three apps: the title, account name, hashtags, labels and whether the page is an ad. Every decision is made on your phone. There is no screen recording, no screenshots, nothing from your screen is uploaded, and no account is needed. What we read shows the last thing that was read."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "What does leave my phone?",
+          "a": [
+            "Only things you can switch off under Settings → Privacy: Anonymous stats (usage events, no screen content), Crash reports, Broken-detection reports (the app version only), and Anonymous reports if you opted in. Rule set downloads carry nothing about you."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "How long is History kept? How do I delete everything?",
+          "a": [
+            "Skip history stays on your phone for 30 days and is then deleted. Settings → Privacy → Delete all data removes history, stats, both lists and the suggestion counters; your settings are kept. Reports already sent can be deleted under My reports."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "More features",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "How do I pause it for a while?",
+          "a": [
+            "Tap the pause button at the top of Home, use the status notification, or add the SlopSwipe tile to Quick Settings. Choose 30 minutes, until tomorrow, or until you resume. While paused there are no skips and no hints."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "Can it be stricter at night?",
+          "a": [
+            "Yes, with Schedule: Settings → Rules → Schedule sets one daily window with its own sensitivity, for example 23:00 to 07:00 on Strict. Home shows when the schedule is active."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "What is Parent mode? I forgot the PIN.",
+          "a": [
+            "A PIN locks settings, lists and pausing, sensitivity stays on Strict, and the Monday summary is the report. The PIN never leaves the phone and is stored only as a hash. Forgot it: Android Settings → Apps → SlopSwipe → Clear data turns parent mode off, and also clears history and lists."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "What is the Wellbeing tab?",
+          "a": [
+            "A small optional module: how long you scroll on each platform, a daily time limit, a swipe reminder, a pause before opening, bedtime and focus time. Every limit has an Off for today button. Turn the module on or off under Settings → Wellbeing."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "Is there a widget or a Quick Settings tile?",
+          "a": [
+            "Both. The widget shows today's skips: long-press your home screen, choose Widgets and look for SlopSwipe. The tile pauses SlopSwipe: edit your Quick Settings and add the SlopSwipe tile."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "What is the Guides tab for? Does it need the permission?",
+          "a": [
+            "No permission needed. The guides walk you through each platform's own settings, such as turning down AI content in TikTok, filtering keywords, or telling YouTube not to recommend a channel, plus tips on spotting AI videos. They work on their own and make automatic skipping less necessary."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "How do I change the language?",
+          "a": [
+            "On Android 13 and newer: Settings → Appearance → Language. Older versions follow the system language. There are 41 languages, with English as the fallback. The translations were made by Claude and have not been checked by native speakers yet, so please report anything that reads wrong."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Compatibility and support",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "Instagram Reels is not being skipped.",
+          "a": [
+            "Reels is off by default in this version, because its ad and label wording has only been verified in English. Turn it on under Settings → Where it works and it works with the current rule set."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "Which phones and Android versions are supported?",
+          "a": [
+            "Android 8.0 and newer, on any phone or tablet with the official YouTube, TikTok or Instagram app. Modified or lite versions of those apps may not be readable, and some brands need the Battery and background steps to keep the service alive."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "How do I report a problem or suggest something?",
+          "a": [
+            "Settings → Help and feedback → Send feedback, or the button below. Your phone model, app version, service status and rule set version are attached automatically. For a wrong skip, add the account name as shown in History."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

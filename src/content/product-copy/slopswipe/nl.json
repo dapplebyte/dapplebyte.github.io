@@ -1,0 +1,111 @@
+{
+  "slug": "slopswipe",
+  "locale": "nl",
+  "title": "SlopSwipe: AI-video's skippen",
+  "shortDescription": "Veegt AI-rommel vanzelf weg bij scrollen: filter, blokkeerlijst, terugdraaien",
+  "tagline": "AI-slop overslaan in Shorts, TikTok en Reels",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "AI-slop overslaan in Shorts, TikTok en Reels",
+      "paragraphs": [
+        "AI-slop overspoelt korte-videofeeds: verhalen met AI-stem, nepdieren, synthetisch “nieuws”. SlopSwipe is een automatisch AI-videofilter voor Android. Je blijft de echte apps YouTube Shorts, TikTok en Instagram Reels gebruiken; past een video op een regel die je hebt aangezet, dan veegt SlopSwipe door naar de volgende en legt vast waarom, zodat je een foute skip makkelijk terugdraait. Niets van je scherm verlaat je telefoon en je hebt geen account nodig."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "use-cases",
+      "title": "Zo gebruiken mensen SlopSwipe tegen AI-slop",
+      "paragraphs": [],
+      "bullets": [
+        "Een feed vol AI-slop opschonen zonder met korte video's te stoppen",
+        "AI-contentfarms en spamaccounts op naam blokkeren, zodat ze nooit terugkomen",
+        "Ouders of grootouders een feed geven met minder nepvideo's"
+      ]
+    },
+    {
+      "id": "detection",
+      "title": "AI-video's herkennen met transparante regels",
+      "paragraphs": [],
+      "bullets": [
+        "AI-labels van het platform: als AI-gegenereerd gemarkeerde video's worden overgeslagen",
+        "AI-trefwoorden: AI-hashtags of zinnen in titel of bijschrift",
+        "Je eigen blokkeerlijst, plus een gedeelde lijst met AI-accounts die gebruikers melden en een mens nakijkt",
+        "Elke regel staat zichtbaar in de instellingen en kan uit"
+      ]
+    },
+    {
+      "id": "auto-swipe",
+      "title": "Auto-swipe, hintbalk en terugdraaien met één tik",
+      "paragraphs": [],
+      "bullets": [
+        "Veegt bij een match door naar de volgende video, met instelbare vertraging",
+        "In Geschiedenis zie je waarom elke video is overgeslagen; markeer daar een fout, of zet na elke skip een knop “Terugdraaien” aan",
+        "Toestaanlijst voor makers die je vertrouwt, blokkeerlijst voor accounts waar je klaar mee bent",
+        "Drie niveaus: Streng (standaard), Normaal, Soepel; lichte AI zoals een AI-stem wordt ook overgeslagen, of kies Hint of Negeren",
+        "Doet nooit iets met advertenties, reacties, berichten of andere apps"
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "Planning, oudermodus, widget en regelpakketten",
+      "paragraphs": [],
+      "bullets": [
+        "Optioneel: meld AI-accounts anoniem; een mens bekijkt elke melding",
+        "Filter 's nachts of tijdens werktijd strenger",
+        "Oudermodus vergrendelt de instellingen met een PIN",
+        "Widget op het startscherm met de skips van vandaag, Quick Settings-tegel om te pauzeren",
+        "Regelpakketten per thema; pauzeer 30 minuten, tot morgen of tot je hervat"
+      ]
+    },
+    {
+      "id": "wellbeing",
+      "title": "Schermtijd en digitaal welzijn",
+      "paragraphs": [],
+      "bullets": [
+        "Je scrolltijd en overgeslagen AI-video's, voor vandaag en deze week",
+        "Daglimiet, bedtijd en focustijd met een zachte herinnering of terug naar het startscherm",
+        "Elke limiet heeft “Vandaag uit”; niets wordt je opgelegd"
+      ]
+    },
+    {
+      "id": "guides",
+      "title": "Gidsen tegen AI-video's, zonder toestemming",
+      "paragraphs": [
+        "De gidsen tonen hoe je AI-video's vermindert via de instellingen van elk platform, ze zelf herkent en de service draaiende houdt bij agressieve batterijbesparing."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy eerst, alleen op je toestel",
+      "paragraphs": [],
+      "bullets": [
+        "Leest alleen tekst op het scherm in Shorts, TikTok en Reels: titel, bijschrift, accountnaam, hashtags, AI-label",
+        "Geen schermopname, geen screenshots, geen upload van scherminhoud, geen login",
+        "De pagina “Wat we lezen” toont precies wat het laatst is gelezen; crashrapporten en statistieken zijn optioneel",
+        "Gratis, geen advertenties, geen in-app-aankopen"
+      ]
+    },
+    {
+      "id": "note",
+      "title": "Let op",
+      "paragraphs": [],
+      "bullets": [
+        "SlopSwipe gebruikt de toegankelijkheidsservice van Android om schermtekst te lezen en voor je omhoog te vegen. Het is geen hulpmiddel voor mensen met een beperking, legt vooraf uit wat het doet en werkt pas nadat je akkoord gaat.",
+        "Instagram Reels staat in deze eerste versie standaard uit; zet het aan via Instellingen → Waar het werkt.",
+        "Herkenning steunt op labels, tekst en lijsten: video's zonder label kunnen erdoor glippen en soms wordt een verkeerde overgeslagen; “Terugdraaien” lost dat op. Verandert een platformupdate de lay-out, dan stopt SlopSwipe en laat het je weten. Vereist Android 8.0+.",
+        "YouTube, TikTok en Instagram zijn handelsmerken van hun eigenaars. SlopSwipe is niet aan hen gelieerd of door hen goedgekeurd."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Werkt er iets niet?",
+      "paragraphs": [
+        "Werd een video niet of verkeerd overgeslagen, mail dan feedback@dapplebyte.com voordat je een review schrijft. Vermeld je telefoonmodel en het platform; de meeste problemen zijn in de volgende update opgelost."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}

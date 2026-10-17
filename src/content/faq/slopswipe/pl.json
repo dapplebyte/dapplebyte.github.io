@@ -1,0 +1,304 @@
+{
+  "slug": "slopswipe",
+  "locale": "pl",
+  "title": "Najczęstsze pytania",
+  "intro": "Pytania, które dostajemy najczęściej, i co z nimi zrobić. Dotknij pytania, aby je rozwinąć.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Pierwsze kroki i uprawnienia",
+      "entries": [
+        {
+          "id": "why_accessibility",
+          "q": "Dlaczego SlopSwipe potrzebuje usługi ułatwień dostępu?",
+          "a": [
+            "Tylko w ten sposób aplikacja na Androida może odczytać, co jest na ekranie, i przewinąć za ciebie. SlopSwipe odczytuje wyłącznie tytuły, nazwy kont i etykiety w Shorts, TikTok i Reels, decyduje na twoim telefonie i przewija w górę, gdy pasuje któraś z twoich reguł. To nie jest narzędzie wspomagające dla osób z niepełnosprawnościami i nic z ekranu nie jest wysyłane."
+          ]
+        },
+        {
+          "id": "switch_greyed",
+          "q": "Przełącznik ułatwień dostępu jest wyszarzony albo widać „Ustawienie z ograniczonym dostępem”.",
+          "a": [
+            "Tak bywa na Androidzie 13 i nowszym, gdy aplikacja jest zainstalowana z pliku APK, a nie z Google Play. Otwórz Informacje o aplikacji → ⋮ u góry po prawej → Zezwól na ustawienia z ograniczonym dostępem i ponownie włącz usługę. Jeśli tej opcji nie ma, najpierw dotknij raz SlopSwipe na liście Ułatwienia dostępu."
+          ]
+        },
+        {
+          "id": "service_turned_off",
+          "q": "Ekran Start informuje, że Android wyłączył usługę ułatwień dostępu, i to się powtarza.",
+          "a": [
+            "Aktualizacje systemu, czyszczenie baterii i restarty mogą ją wyłączać. Dotknij Napraw na ekranie Start albo wejdź w Ustawienia → Ciągłe działanie → Usługa ułatwień dostępu. Żeby to się nie powtarzało, wykonaj kroki z sekcji Bateria i działanie w tle dla marki swojego telefonu."
+          ]
+        },
+        {
+          "id": "battery",
+          "q": "Do czego służą kroki z sekcji Bateria i działanie w tle?",
+          "a": [
+            "Niektóre marki (Xiaomi i HyperOS, Samsung, OPPO, vivo, Huawei) zatrzymują usługi w tle, żeby oszczędzać energię, a razem z nimi wyłącza się usługa ułatwień dostępu. Poradnik pokazuje kroki dla twojej marki: optymalizację baterii, autostart i zablokowanie aplikacji w Ostatnich. SlopSwipe nigdy sam nie prosi o uprawnienie do pominięcia optymalizacji baterii."
+          ]
+        },
+        {
+          "id": "advanced_protection",
+          "q": "Pojawia się komunikat, że Ochrona zaawansowana odebrała dostęp do ułatwień dostępu.",
+          "a": [
+            "Ochrona zaawansowana w Androidzie odbiera dostęp do ułatwień dostępu aplikacjom, które nie są narzędziami wspomagającymi, więc automatyczne pomijanie nie działa, gdy jest włączona. Możesz ją zostawić i korzystać z ustawień samych platform z karty Poradniki albo wyłączyć ją w ustawieniach systemu. Nie polecamy żadnej z tych opcji; wybór należy do ciebie."
+          ]
+        },
+        {
+          "id": "notification_permission",
+          "q": "Dlaczego aplikacja prosi o zgodę na powiadomienia?",
+          "a": [
+            "Dla powiadomienia o stanie z przyciskami wstrzymania, dla alertu, gdy usługa zostanie wyłączona, i dla podsumowania tygodnia. Jeśli odmówisz, cała reszta i tak działa. Każde powiadomienie można też wyłączyć osobno w Ustawienia → Ciągłe działanie."
+          ]
+        },
+        {
+          "id": "status_notification",
+          "q": "Dlaczego powiadomienie SlopSwipe jest cały czas widoczne?",
+          "a": [
+            "To Powiadomienie o stanie: jest ciche i pozwala wstrzymać działanie z obszaru powiadomień. Wyłączysz je w Ustawienia → Ciągłe działanie → Powiadomienie o stanie. Usługa działa dalej także bez niego."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skipping-rules",
+      "title": "Pomijanie i reguły",
+      "entries": [
+        {
+          "id": "how_it_decides",
+          "q": "Jak SlopSwipe rozpoznaje, że film jest zrobiony przez SI?",
+          "a": [
+            "Za pomocą stałych reguł, a nie modelu SI: etykiety SI samej platformy, wyraźnych słów kluczowych o SI w tytule lub hashtagach, twojej listy zablokowanych, twoich słów kluczowych i listy ze zgłoszeń użytkowników. Przy każdym pominięciu widać główną regułę, a w Historii są wszystkie reguły, które pasowały. Każdą regułę można wyłączyć w Ustawienia → Reguły → Przełączniki reguł."
+          ]
+        },
+        {
+          "id": "sensitivity",
+          "q": "Co zmieniają poziomy Ścisła, Zwykła i Luźna?",
+          "a": [
+            "Tylko to, co dzieje się z trafieniami o średniej i niskiej pewności, np. z pojedynczym niejasnym hashtagiem w rodzaju #ai. Ścisła pomija je wszystkie, Zwykła pomija średnie, a przy niskich tylko pokazuje podpowiedź, Luźna przy średnich pokazuje podpowiedź, a niskie ignoruje. Etykiety platform i twoje własne listy prowadzą do pominięcia na każdym poziomie."
+          ]
+        },
+        {
+          "id": "light_ai",
+          "q": "Czym są Treści z lekką SI?",
+          "a": [
+            "To filmy robione przez ludzi z odrobiną SI, np. z lektorem SI albo montażem wspomaganym przez SI. Domyślnie są pomijane. Wybierz Podpowiedź lub Ignoruj w Ustawienia → Reguły → Treści z lekką SI. Czułość nie wpływa na to ustawienie."
+          ]
+        },
+        {
+          "id": "hint_only",
+          "q": "Pojawił się pasek „Możliwe, że to film SI”, ale nic nie zostało pominięte.",
+          "a": [
+            "To podpowiedź: przy mniej pewnych trafieniach SlopSwipe tylko na kilka sekund pokazuje pasek i pomija film, jeśli dotkniesz Pomiń. To, które trafienia dostają podpowiedź zamiast pominięcia, zależy od czułości; przy Ścisłej są pomijane automatycznie."
+          ]
+        },
+        {
+          "id": "undo",
+          "q": "Pominięto film, który mnie interesował.",
+          "a": [
+            "Przewiń wstecz, aby do niego wrócić; film, do którego wracasz, nie będzie oceniany ponownie. Później otwórz Historię, dotknij wpisu i wybierz Oznacz jako pomyłkę albo Dodaj do listy dozwolonych. Konta z listy dozwolonych nigdy nie są pomijane. Jeśli chcesz mieć przycisk Cofnij po każdym pominięciu, włącz Ustawienia → Podpowiedzi i przycisk → Przycisk Cofnij po pominięciu."
+          ]
+        },
+        {
+          "id": "not_skipping",
+          "q": "Nic nie jest pomijane.",
+          "a": [
+            "Sprawdź po kolei: ekran Start pokazuje Działa; platforma jest włączona w Ustawienia → Gdzie działa (Reels jest domyślnie wyłączone); jesteś w odtwarzaczu Shorts albo w zakładce Dla Ciebie w TikTok, a nie na stronie głównej, w wyszukiwaniu, w zakładce Obserwowani czy na transmisji na żywo; film naprawdę pasuje do jakiejś reguły, bo większość filmów nie jest zrobiona przez SI. Co odczytujemy pokazuje dokładnie, co zostało ostatnio odczytane."
+          ]
+        },
+        {
+          "id": "ads",
+          "q": "Czy pomija reklamy?",
+          "a": [
+            "Nie, celowo. Reklamy i filmy sponsorowane nigdy nie są ruszane ani liczone, nawet jeśli mają etykietę SI. Przewiń je samodzielnie."
+          ]
+        },
+        {
+          "id": "where_active",
+          "q": "Gdzie dokładnie działa?",
+          "a": [
+            "Tylko w odtwarzaczu Shorts, w zakładce Dla Ciebie w TikTok i, jeśli są włączone, w Reels. Strona główna, wyniki wyszukiwania, komentarze, długie filmy, transmisje na żywo i zakładka Obserwowani w TikTok zostają nietknięte, więc to, czego szukasz, zostaje na miejscu. Aby objąć też Obserwowanych, włącz Ustawienia → Gdzie działa → Działaj też na obserwowanych kontach."
+          ]
+        },
+        {
+          "id": "skip_delay",
+          "q": "Czy może przewijać szybciej albo poczekać trochę dłużej?",
+          "a": [
+            "Tak: Ustawienia → Reguły → Szybkość przewijania, od Natychmiast do 2 sekund. Krótka domyślna przerwa pozwala zobaczyć, co jest pomijane."
+          ]
+        },
+        {
+          "id": "degraded",
+          "q": "Ekran Start informuje, że platforma zmieniła się po aktualizacji i działania są wstrzymane.",
+          "a": [
+            "Aplikacja platformy zmieniła układ i obecny zestaw reguł nie potrafi go odczytać, więc SlopSwipe przestaje tam działać, zamiast przewijać na ślepo. Zestawy reguł aktualizują się przy uruchomieniu aplikacji i co 6 godzin; dotknij Sprawdź aktualizacje reguł, by spróbować od razu. Do tego czasu Poradniki działają normalnie."
+          ]
+        },
+        {
+          "id": "consecutive_cap",
+          "q": "Po wielu pominięciach z rzędu włączyły się same podpowiedzi.",
+          "a": [
+            "To blokada bezpieczeństwa. Dziesięć pominięć z rzędu bez żadnego filmu oglądanego przez 3 sekundy zwykle oznacza, że coś jest nie tak z regułą albo układem platformy, więc ta platforma do końca sesji przechodzi na same podpowiedzi. Otwórz ponownie aplikację platformy, a wszystko wróci do normy. Cofnij każde błędne pominięcie, żeby zostało policzone jako pomyłka."
+          ]
+        },
+        {
+          "id": "fab",
+          "q": "Co robi pływający przycisk „To SI”?",
+          "a": [
+            "Od razu pomija bieżący film i domyślnie dodaje konto do twojej listy zablokowanych; Cofnij przewija z powrotem i usuwa ten wpis. Na TikToku nazwa przy filmie to nazwa wyświetlana, więc blokowane są też konta o tej samej nazwie; wyłącz Blokuj też konto, aby pominąć tylko ten film. Przycisk ukryjesz, zmienisz jego rozmiar lub przesuniesz w Ustawienia → Podpowiedzi i przycisk."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lists-keywords-reports",
+      "title": "Listy, słowa kluczowe i zgłoszenia",
+      "entries": [
+        {
+          "id": "lists",
+          "q": "Jak działają lista zablokowanych i lista dozwolonych?",
+          "a": [
+            "Lista zablokowanych: zawsze pomijane. Lista dozwolonych: nigdy nie pomijane, nawet jeśli konto jest na obu. Konta dodasz z wpisu w Historii, pływającym przyciskiem albo wpisując nazwę w Ustawienia → Listy (TikTok: nazwa wyświetlana; YouTube i Instagram: @nazwa użytkownika). Eksportuj listy i Importuj listy przenoszą je na inny telefon."
+          ]
+        },
+        {
+          "id": "keywords",
+          "q": "Czy mogę dodać własne słowa kluczowe?",
+          "a": [
+            "Tak. Ustawienia → Listy → Własne słowa kluczowe; każde słowo ma ustawione Pomiń albo Podpowiedź, a słowo zaczynające się od # pasuje tylko do hashtagów. Propozycje reguł na ekranie Start podsuwają też słowa z filmów oznaczonych przez ciebie jako SI."
+          ]
+        },
+        {
+          "id": "suggestions",
+          "q": "Czym są Propozycje reguł?",
+          "a": [
+            "To proste liczenie na twoim telefonie, a nie uczenie maszynowe. Hashtag, który pojawi się 3 razy w filmach oznaczonych przez ciebie jako SI, staje się propozycją słowa kluczowego; słowo cofnięte dwa razy staje się propozycją, by je ignorować; wiele cofnięć podpowiada luźniejszą czułość. Nic się nie zmienia, dopóki nie zaakceptujesz, a liczniki nigdy nie opuszczają telefonu."
+          ]
+        },
+        {
+          "id": "anon_reports",
+          "q": "Co wysyłają Anonimowe zgłoszenia?",
+          "a": [
+            "Domyślnie są wyłączone. Po ich włączeniu dotknięcie „To SI” wysyła platformę, nazwę konta twórcy, powód i pasujące reguły, razem z losowym identyfikatorem zgłoszenia utworzonym na twoim telefonie. Nic o twoim koncie ani o ekranie. Każde konto sprawdza człowiek, zanim trafi na wspólną listę. Każde zgłoszenie możesz śledzić w Moje zgłoszenia i w każdej chwili je tam usunąć."
+          ]
+        },
+        {
+          "id": "rule_packs",
+          "q": "Czym są Pakiety reguł?",
+          "a": [
+            "To dodatkowe zestawy reguł na dany temat, np. kreskówki SI dla dzieci albo fałszywe wiadomości tworzone przez SI. Działają dopiero po subskrypcji w Ustawienia → Listy → Pakiety reguł, aktualizują się razem z regułami, a ich konta najpierw sprawdza człowiek."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-data",
+      "title": "Prywatność i dane",
+      "entries": [
+        {
+          "id": "what_is_read",
+          "q": "Co dokładnie odczytuje? Czy coś jest wysyłane?",
+          "a": [
+            "Tylko tekst na ekranie w tych trzech aplikacjach: tytuł, nazwę konta, hashtagi, etykiety i to, czy strona jest reklamą. Każda decyzja zapada na twoim telefonie. Nie ma nagrywania ekranu ani zrzutów ekranu, nic z ekranu nie jest wysyłane i nie potrzebujesz konta. Co odczytujemy pokazuje ostatnio odczytaną treść."
+          ]
+        },
+        {
+          "id": "data_sent",
+          "q": "Co w takim razie opuszcza mój telefon?",
+          "a": [
+            "Tylko to, co możesz wyłączyć w Ustawienia → Prywatność: Anonimowe statystyki (zdarzenia użycia, bez treści ekranu), Raporty awarii, Raporty o błędach wykrywania (tylko wersja aplikacji) oraz Anonimowe zgłoszenia, jeśli są włączone. Pobieranie zestawu reguł nie przesyła nic o tobie."
+          ]
+        },
+        {
+          "id": "records_retention",
+          "q": "Jak długo przechowywana jest Historia? Jak usunąć wszystko?",
+          "a": [
+            "Historia pominięć zostaje na telefonie przez 30 dni, a potem jest usuwana. Ustawienia → Prywatność → Usuń wszystkie dane usuwa historię, statystyki, obie listy i liczniki propozycji; twoje ustawienia zostają. Wysłane już zgłoszenia możesz usunąć w Moje zgłoszenia."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-features",
+      "title": "Więcej funkcji",
+      "entries": [
+        {
+          "id": "pause",
+          "q": "Jak na chwilę wstrzymać działanie?",
+          "a": [
+            "Dotknij przycisku pauzy u góry ekranu Start, użyj powiadomienia o stanie albo dodaj kafelek SlopSwipe do Szybkich ustawień. Wybierz 30 minut, do jutra albo do wznowienia. Podczas wstrzymania nie ma pominięć ani podpowiedzi."
+          ]
+        },
+        {
+          "id": "schedule",
+          "q": "Czy w nocy może działać ostrzej?",
+          "a": [
+            "Tak, dzięki funkcji Harmonogram: Ustawienia → Reguły → Harmonogram ustala jedno codzienne okno z własną czułością, np. od 23:00 do 07:00 na poziomie Ścisła. Ekran Start pokazuje, kiedy harmonogram jest aktywny."
+          ]
+        },
+        {
+          "id": "parent_mode",
+          "q": "Czym jest Tryb rodzica? Nie pamiętam kodu PIN.",
+          "a": [
+            "PIN blokuje ustawienia, listy i wstrzymywanie, czułość pozostaje Ścisła, a raportem jest poniedziałkowe podsumowanie. PIN nigdy nie opuszcza telefonu i jest zapisany tylko jako hash. Jeśli go nie pamiętasz: Ustawienia Androida → Aplikacje → SlopSwipe → Wyczyść dane wyłącza tryb rodzica i czyści też historię oraz listy."
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "q": "Czym jest karta Równowaga?",
+          "a": [
+            "To mały, opcjonalny moduł: ile czasu przewijasz na każdej platformie, dzienny limit czasu, przypomnienie o przewijaniu, pauza przed otwarciem, pora snu i czas skupienia. Każdy limit ma przycisk Wyłącz na dziś. Moduł włączysz lub wyłączysz w Ustawienia → Równowaga."
+          ]
+        },
+        {
+          "id": "widget_tile",
+          "q": "Czy jest widżet albo kafelek w Szybkich ustawieniach?",
+          "a": [
+            "Jedno i drugie. Widżet pokazuje dzisiejsze pominięcia: przytrzymaj ekran główny, wybierz Widżety i znajdź SlopSwipe. Kafelek wstrzymuje SlopSwipe: edytuj Szybkie ustawienia i dodaj kafelek SlopSwipe."
+          ]
+        },
+        {
+          "id": "tutorials",
+          "q": "Do czego służy karta Poradniki? Czy potrzebuje uprawnienia?",
+          "a": [
+            "Nie potrzeba żadnego uprawnienia. Poradniki prowadzą przez ustawienia samych platform, np. ograniczanie treści SI w TikTok, filtrowanie słów kluczowych czy opcję „Nie polecaj kanału” w YouTube, i podpowiadają, jak rozpoznawać filmy SI. Działają samodzielnie i sprawiają, że automatyczne pomijanie jest mniej potrzebne."
+          ]
+        },
+        {
+          "id": "language",
+          "q": "Jak zmienić język?",
+          "a": [
+            "Na Androidzie 13 i nowszym: Ustawienia → Wygląd → Język. Starsze wersje używają języka systemu. Dostępnych jest 41 języków, a zapasowym jest angielski. Tłumaczenia wykonał Claude i nie zostały jeszcze sprawdzone przez rodzimych użytkowników języka, więc zgłoś nam wszystko, co brzmi nienaturalnie."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compatibility-support",
+      "title": "Zgodność i wsparcie",
+      "entries": [
+        {
+          "id": "instagram",
+          "q": "Filmy w Instagram Reels nie są pomijane.",
+          "a": [
+            "W tej wersji Reels jest domyślnie wyłączone, bo jego teksty reklam i etykiet zostały sprawdzone tylko po angielsku. Włącz je w Ustawienia → Gdzie działa, a zadziała z obecnym zestawem reguł."
+          ]
+        },
+        {
+          "id": "android_version",
+          "q": "Jakie telefony i wersje Androida są obsługiwane?",
+          "a": [
+            "Android 8.0 i nowszy, na każdym telefonie lub tablecie z oficjalną aplikacją YouTube, TikTok lub Instagram. Zmodyfikowane lub odchudzone (lite) wersje tych aplikacji mogą być nieczytelne, a niektóre marki wymagają kroków z sekcji Bateria i działanie w tle, żeby usługa nie była wyłączana."
+          ]
+        },
+        {
+          "id": "feedback",
+          "q": "Jak zgłosić problem albo coś zaproponować?",
+          "a": [
+            "Ustawienia → Pomoc i opinie → Wyślij opinię albo przycisk poniżej. Model telefonu, wersja aplikacji, stan usługi i wersja zestawu reguł dołączają się automatycznie. Przy błędnym pominięciu dopisz nazwę konta tak, jak widać ją w Historii."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-17"
+}
