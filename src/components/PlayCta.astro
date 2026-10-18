@@ -12,10 +12,15 @@ interface Props {
 }
 const { locale, product } = Astro.props;
 const { t } = useT(locale);
+
+// Tag the store link so Play Console's acquisition report can tell website traffic apart from
+// in-app cross-promotion and other referrers. The referrer value is itself URL-encoded.
+const referrer = encodeURIComponent('utm_source=dapplebyte&utm_medium=web&utm_campaign=product_page');
+const playHref = product.playUrl ? `${product.playUrl}&referrer=${referrer}` : undefined;
 ---
 
-{product.playUrl ? (
-  <a class="button" href={product.playUrl}>{t('cta.getOnPlay', { name: product.name })}</a>
+{playHref ? (
+  <a class="button" href={playHref}>{t('cta.getOnPlay', { name: product.name })}</a>
 ) : (
   product.status === 'live' && <span class="soon">{t('cta.comingSoon')}</span>
 )}
