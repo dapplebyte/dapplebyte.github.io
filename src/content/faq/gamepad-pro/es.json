@@ -103,7 +103,7 @@
           "id": "q08",
           "q": "¿Cómo elimino una asignación o un botón predefinido?",
           "a": [
-            "Toca el botón en la pantalla y aparece un pequeño menú con Copiar y Eliminar. Toca Eliminar para quitarlo. Así también quitas los botones predefinidos que no necesites."
+            "Toca el botón en la pantalla y aparece un pequeño menú con Duplicar y Eliminar. Toca Eliminar para quitarlo. Así también quitas los botones predefinidos que no necesites."
           ]
         },
         {
@@ -221,6 +221,13 @@
           "a": [
             "Algunos juegos y launchers son compatibles con mando de serie y convierten el stick izquierdo en un puntero. Si el juego ya funciona con tu mando, abre su perfil y desactiva la asignación para ese juego, o elimina la asignación del stick izquierdo. Si prefieres que lo gestione Gamepad Pro, abre el esquema, toca la tecla del stick izquierdo y elige Disco de movimiento."
           ]
+        },
+        {
+          "id": "q28",
+          "q": "¿Puedo jugar a mis juegos de PS5 o PS4 en este móvil?",
+          "a": [
+            "Con Gamepad Pro, no: asigna un mando físico a juegos táctiles y no puede transmitir una consola. Para eso hicimos una app aparte, Relaypad. Transmite tu PS5 o PS4 a este móvil, tablet o TV, en casa o con datos móviles, y juegas con el mando en pantalla o con un mando Bluetooth o USB reenviado a la consola. Necesitas tu propia consola con el Uso a distancia activado en sus ajustes. Relaypad se descarga gratis, sin anuncios ni suscripciones."
+          ]
         }
       ]
     },
@@ -246,11 +253,11 @@
           "id": "q20",
           "q": "¿Cómo hago copia de seguridad y restauro mis asignaciones?",
           "a": [
-            "Abre el menú y elige Copia de seguridad para guardar todas tus asignaciones en un archivo, o Restaurar para cargarlas de nuevo: útil al cambiar de teléfono o antes de reinstalar."
+            "Abre Ajustes y elige Hacer copia de todos los mapeos para guardar todas tus asignaciones en un archivo, o Restaurar desde copia para cargarlas de nuevo: útil al cambiar de teléfono o antes de reinstalar."
           ]
         }
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

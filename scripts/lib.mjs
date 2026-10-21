@@ -51,9 +51,10 @@ const LOCALE_OVERRIDES = {
   'apk-extractor': {
     android: { 'pt-br': 'values-pt' },
   },
+  /** Gamepad Pro: 32 app languages since 1.9.6 (2026-10-19), Indonesian and Vietnamese included; its Portuguese is `values-pt`. */
   'gamepad-pro': {
     fastlane: { es: 'es-419' },
-    android: { 'pt-br': 'values-pt', id: null, vi: null },
+    android: { 'pt-br': 'values-pt' },
   },
   /** The app has no Dutch or Polish; the store listing has both, so only the FAQ falls back to English. */
   'gamepad-tester': {

@@ -2,22 +2,21 @@
   "slug": "gamepad-pro",
   "locale": "id",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Pemetaan tombol gamepad ke sentuhan: stik, trigger, makro, turbo — tanpa root.",
-  "tagline": "Gamepad Pro adalah pemetaan tombol kontroler untuk Android: ubah gamepad yang sudah kamu punya jadi kontrol sentuh dan mainkan game touch-only pakai tombol asli. Tanpa root.",
+  "shortDescription": "Mapping gamepad ke sentuhan: main game pakai stik. Trigger, makro, tanpa root.",
+  "tagline": "Gamepad Pro adalah aplikasi mapping kontroler untuk Android: petakan gamepad ke kontrol sentuh dan mainkan game touch-only pakai tombol asli. Tanpa root, tanpa clone game.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro adalah pemetaan tombol kontroler untuk Android: ubah gamepad yang sudah kamu punya jadi kontrol sentuh dan mainkan game touch-only pakai tombol asli. Tanpa root.",
-        "Petakan tombol, kedua stik analog, dan trigger L2/R2 jadi tap, tahan, dan swipe. Buat layout per game, ganti layout di tengah match, lalu tambahkan makro, turbo, dan kombo.",
-        "Tanpa cloning, tanpa ADB untuk setup inti. Petakan kontrolmu, langsung main."
+        "Gamepad Pro adalah aplikasi mapping kontroler untuk Android: petakan gamepad ke kontrol sentuh dan mainkan game touch-only pakai tombol asli. Tanpa root, tanpa clone game.",
+        "Bisa dipakai dengan kontroler Bluetooth atau USB apa pun yang dikenali Android. Petakan tombol, kedua stik analog, dan trigger L2/R2 jadi tap, tahan, dan swipe; buat mapping tombol per game, ganti layout di tengah match, lalu tambahkan makro, turbo, dan kombo."
       ],
       "bullets": []
     },
     {
       "id": "drag-map-play",
-      "title": "Seret. Petakan. Main.",
+      "title": "Mapping gamepad ke sentuhan dalam hitungan menit",
       "paragraphs": [
         "Tambahkan game, buka editor pemetaan, lalu seret tiap kontrol ke titik yang pas di layar. Simpan, lalu jalankan game langsung dari Gamepad Pro."
       ],
@@ -59,7 +58,7 @@
       "id": "phase-switch",
       "title": "Ganti phase saat main",
       "paragraphs": [
-        "Pilih Phase lain dari tombol melayang tanpa keluar dari game, atau set satu tombol untuk memutar layout seketika."
+        "Pilih Phase lain dari tombol melayang tanpa keluar dari game, atau set satu tombol untuk memutar layout."
       ],
       "bullets": []
     },
@@ -83,7 +82,7 @@
       "id": "turbo",
       "title": "Aksi turbo",
       "paragraphs": [
-        "Tahan tombol untuk mengulang aksi sentuh otomatis, dengan kecepatan ulang yang kamu atur per aksi."
+        "Tahan tombol untuk mengulang aksi sentuh yang dipetakan, dengan kecepatan ulang yang kamu atur per aksi."
       ],
       "bullets": []
     },
@@ -97,9 +96,9 @@
     },
     {
       "id": "any-game",
-      "title": "Cocok untuk semua jenis game",
+      "title": "Untuk game layar sentuh: Mobile Legends, Free Fire, Genshin & lainnya",
       "paragraphs": [
-        "Shooter dan battle royale, MOBA dan MMORPG, balapan, action RPG, open world, fighting, survival, idle dan clicker, plus emulator retro — selama game-nya menerima input sentuh, kamu bisa memetakan kontroler ke sana."
+        "Dibuat untuk game yang menerima input sentuh tapi tidak mendukung kontroler: Mobile Legends, Free Fire, PUBG Mobile / BGMI, Genshin Impact, League of Legends: Wild Rift, plus shooter, MOBA, balapan, RPG, dan emulator retro — selama game-nya menerima input sentuh, kamu bisa memetakan gamepad ke sana."
       ],
       "bullets": []
     },
@@ -113,9 +112,9 @@
     },
     {
       "id": "controllers",
-      "title": "Kompatibilitas kontroler luas",
+      "title": "Layout Xbox, PlayStation & Nintendo",
       "paragraphs": [
-        "Gamepad Pro bekerja dengan banyak kontroler kabel dan nirkabel yang didukung Android, dan label tombolnya bisa menyesuaikan layout kontroler populer."
+        "Gamepad kabel atau nirkabel apa pun yang didukung Android bisa dipakai, lewat Bluetooth atau USB. Label tombol bisa diganti ke layout Xbox, PlayStation, atau Nintendo sesuai kontrolermu."
       ],
       "bullets": []
     },
@@ -165,5 +164,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

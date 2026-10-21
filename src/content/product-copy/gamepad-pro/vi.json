@@ -2,22 +2,21 @@
   "slug": "gamepad-pro",
   "locale": "vi",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Ánh xạ phím tay cầm sang cảm ứng: cần analog, cò, macro, turbo — không root.",
-  "tagline": "Gamepad Pro là ứng dụng ánh xạ phím tay cầm cho Android: biến chiếc gamepad bạn đang có thành thao tác chạm và chơi game chỉ hỗ trợ cảm ứng bằng nút bấm thật. Không cần root.",
+  "shortDescription": "Ánh xạ tay cầm sang cảm ứng: chơi game cảm ứng bằng gamepad. Cò, macro, turbo.",
+  "tagline": "Gamepad Pro là ứng dụng ánh xạ phím tay cầm cho Android: ánh xạ gamepad sang thao tác chạm và chơi game chỉ hỗ trợ cảm ứng bằng nút bấm thật. Không cần root, không clone game.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro là ứng dụng ánh xạ phím tay cầm cho Android: biến chiếc gamepad bạn đang có thành thao tác chạm và chơi game chỉ hỗ trợ cảm ứng bằng nút bấm thật. Không cần root.",
-        "Ánh xạ nút, hai cần analog và cò L2/R2 thành chạm, giữ và vuốt. Tạo layout riêng cho từng game, đổi layout ngay giữa trận, thêm macro, turbo và tổ hợp phím.",
-        "Không clone app, không cần ADB cho thiết lập cơ bản. Ánh xạ xong là chơi."
+        "Gamepad Pro là ứng dụng ánh xạ phím tay cầm cho Android: ánh xạ gamepad sang thao tác chạm và chơi game chỉ hỗ trợ cảm ứng bằng nút bấm thật. Không cần root, không clone game.",
+        "Dùng được với mọi tay cầm Bluetooth hoặc USB mà Android nhận diện. Map nút, hai cần analog và cò L2/R2 thành chạm, giữ và vuốt; tạo bộ ánh xạ phím riêng cho từng game, đổi layout ngay giữa trận, thêm macro, turbo và tổ hợp phím."
       ],
       "bullets": []
     },
     {
       "id": "drag-map-play",
-      "title": "Kéo. Ánh xạ. Chơi.",
+      "title": "Ánh xạ tay cầm sang cảm ứng chỉ trong vài phút",
       "paragraphs": [
         "Thêm game, mở trình chỉnh sửa ánh xạ và kéo từng nút vào đúng vị trí trên màn hình. Lưu lại rồi mở game ngay từ Gamepad Pro."
       ],
@@ -59,7 +58,7 @@
       "id": "phase-switch",
       "title": "Đổi phase ngay trong game",
       "paragraphs": [
-        "Chọn Phase khác từ nút nổi mà không cần thoát game, hoặc gán một nút để chuyển vòng qua các layout ngay lập tức."
+        "Chọn Phase khác từ nút nổi mà không cần thoát game, hoặc gán một nút để chuyển vòng qua các layout."
       ],
       "bullets": []
     },
@@ -83,7 +82,7 @@
       "id": "turbo",
       "title": "Turbo",
       "paragraphs": [
-        "Giữ nút để tự động lặp lại thao tác chạm đã ánh xạ, tốc độ lặp chỉnh riêng cho từng thao tác."
+        "Giữ nút để lặp lại thao tác chạm đã ánh xạ, tốc độ lặp chỉnh riêng cho từng thao tác."
       ],
       "bullets": []
     },
@@ -97,9 +96,9 @@
     },
     {
       "id": "any-game",
-      "title": "Hợp với mọi thể loại game",
+      "title": "Dành cho game cảm ứng: Free Fire, PUBG Mobile, Genshin & nhiều game khác",
       "paragraphs": [
-        "Bắn súng và battle royale, MOBA và MMORPG, đua xe, action RPG, thế giới mở, đối kháng, sinh tồn, game idle và clicker, cùng các giả lập retro — game nào nhận thao tác chạm là ánh xạ tay cầm được."
+        "Làm cho những game nhận thao tác chạm nhưng không hỗ trợ tay cầm: Free Fire, PUBG Mobile / BGMI, Genshin Impact, Mobile Legends, Liên Minh Huyền Thoại: Tốc Chiến (Wild Rift), cùng game bắn súng, MOBA, đua xe, RPG và giả lập retro — game nào nhận thao tác chạm là ánh xạ gamepad được."
       ],
       "bullets": []
     },
@@ -113,9 +112,9 @@
     },
     {
       "id": "controllers",
-      "title": "Tương thích nhiều tay cầm",
+      "title": "Layout Xbox, PlayStation & Nintendo",
       "paragraphs": [
-        "Gamepad Pro hoạt động với nhiều tay cầm có dây và không dây được Android hỗ trợ, nhãn nút cũng đổi theo các layout tay cầm phổ biến."
+        "Mọi tay cầm có dây hoặc không dây được Android hỗ trợ đều dùng được, qua Bluetooth hoặc USB. Nhãn nút chuyển sang layout Xbox, PlayStation hoặc Nintendo cho khớp với tay cầm của bạn."
       ],
       "bullets": []
     },
@@ -165,5 +164,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

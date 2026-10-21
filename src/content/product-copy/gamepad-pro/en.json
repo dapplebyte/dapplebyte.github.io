@@ -2,22 +2,21 @@
   "slug": "gamepad-pro",
   "locale": "en",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Map controller keys to touch. Sticks, triggers, macros, turbo — no root.",
-  "tagline": "Gamepad Pro is a controller key mapper for Android: turn the gamepad you already own into touch controls and play touch-only games with real buttons. No root.",
+  "shortDescription": "Play touch-only games with a gamepad: sticks, triggers, macros, turbo. No root.",
+  "tagline": "Gamepad Pro is a controller mapper for Android: map your gamepad to touch and play touch-only games with real buttons. No root, no cloned game.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro is a controller key mapper for Android: turn the gamepad you already own into touch controls and play touch-only games with real buttons. No root.",
-        "Map buttons, analog sticks and L2/R2 triggers to taps, holds and swipes. Build a layout per game, switch layouts mid-match, and add macros, turbo and combos.",
-        "No cloning, no ADB for the core setup. Map your controls and start playing."
+        "Gamepad Pro is a controller mapper for Android: map your gamepad to touch and play touch-only games with real buttons. No root, no cloned game.",
+        "Works with any Bluetooth or USB controller Android recognises. Map buttons, both analog sticks and L2/R2 triggers to taps, holds and swipes; build a button mapping per game, switch layouts mid-match, and add macros, turbo and combos."
       ],
       "bullets": []
     },
     {
       "id": "drag-map-play",
-      "title": "Drag. Map. Play.",
+      "title": "Map your gamepad to touch in minutes",
       "paragraphs": [
         "Add a game, open the mapping editor, and drag each control onto the matching spot on screen. Save it and launch the game from Gamepad Pro."
       ],
@@ -43,7 +42,7 @@
       "id": "profiles",
       "title": "A profile for every game",
       "paragraphs": [
-        "Save an independent mapping per game, so you always come back to the right layout."
+        "Save an independent mapping per game and always come back to the right layout."
       ],
       "bullets": []
     },
@@ -59,7 +58,7 @@
       "id": "phase-switch",
       "title": "Switch phases while you play",
       "paragraphs": [
-        "Pick another Phase from the floating control without leaving the game, or assign a button to cycle through layouts instantly."
+        "Pick another Phase from the floating control without leaving the game, or assign a button to cycle through layouts."
       ],
       "bullets": []
     },
@@ -75,7 +74,7 @@
       "id": "macros",
       "title": "One-trigger macros",
       "paragraphs": [
-        "Build a sequence of touch actions and run the whole thing from one controller input — ideal for repeated routines."
+        "Build a sequence of touch actions and run it from one controller input — ideal for repeated routines."
       ],
       "bullets": []
     },
@@ -83,7 +82,7 @@
       "id": "turbo",
       "title": "Turbo actions",
       "paragraphs": [
-        "Hold a button to repeat a mapped touch action automatically, at a repeat rate you set per action."
+        "Hold a button to repeat a mapped touch action at a rate you set per action."
       ],
       "bullets": []
     },
@@ -97,9 +96,9 @@
     },
     {
       "id": "any-game",
-      "title": "Built for every kind of game",
+      "title": "Built for touch-only games: BGMI, Free Fire, Genshin & more",
       "paragraphs": [
-        "Shooters and battle royale, MOBA and MMORPG, racing, action RPG, open world, fighting, survival, idle and clicker games, plus retro emulators — if it takes touch input, you can map a controller to it."
+        "Made for games that take touch input but have no controller support: BGMI / PUBG Mobile, Free Fire, Genshin Impact, Mobile Legends, League of Legends: Wild Rift, plus shooters, MOBA, racing, RPG and retro emulators — if it takes touch input, you can map a gamepad to it."
       ],
       "bullets": []
     },
@@ -113,9 +112,9 @@
     },
     {
       "id": "controllers",
-      "title": "Great controller compatibility",
+      "title": "Xbox, PlayStation & Nintendo layouts",
       "paragraphs": [
-        "Gamepad Pro works with many wired and wireless controllers supported by Android, and button labels can adapt to popular controller layouts."
+        "Any wired or wireless gamepad Android supports works, over Bluetooth or USB. Button labels switch to the Xbox, PlayStation or Nintendo layout to match your controller."
       ],
       "bullets": []
     },
@@ -165,5 +164,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

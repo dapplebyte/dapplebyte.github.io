@@ -103,7 +103,7 @@
           "id": "q08",
           "q": "Bir tuş eşlemesini veya hazır düğmeyi nasıl silerim?",
           "a": [
-            "Ekrandaki düğmeye dokunun; Kopyala ve Sil seçenekleri olan küçük bir menü açılır. Kaldırmak için Sil'e dokunun. İhtiyacınız olmayan hazır düğmeleri de böyle kaldırırsınız."
+            "Ekrandaki düğmeye dokunun; Çoğalt ve Sil seçenekleri olan küçük bir menü açılır. Kaldırmak için Sil'e dokunun. İhtiyacınız olmayan hazır düğmeleri de böyle kaldırırsınız."
           ]
         },
         {
@@ -221,6 +221,13 @@
           "a": [
             "Bazı oyunlar ve başlatıcılar yerleşik kumanda desteğine sahiptir ve sol çubuğu bir işaretçiye dönüştürür. Oyun kumandanızla zaten çalışıyorsa profilini açıp o oyun için eşlemeyi kapatın ya da sol çubuk eşlemesini silin. Bunu Gamepad Pro'nun yapmasını istiyorsanız düzeni açın, sol çubuk tuşuna dokunun ve Hareket diski'ni seçin."
           ]
+        },
+        {
+          "id": "q28",
+          "q": "PS5 veya PS4 oyunlarımı bu telefonda oynayabilir miyim?",
+          "a": [
+            "Gamepad Pro bunu yapamaz: fiziksel bir kumandayı dokunmatik oyunlara eşler, konsol görüntüsünü aktaramaz. Bunun için ayrı bir uygulama yaptık: Relaypad. PS5'inizi veya PS4'ünüzü evde ya da mobil veriyle bu telefona, tablete veya TV'ye aktarır; ekrandaki sanal kumandayla ya da konsola aktarılan bir Bluetooth veya USB kumandayla oynarsınız. Ayarlarında Uzaktan Oynatma açık olan kendi konsolunuz olmalı. Relaypad ücretsiz indirilir; reklam ve abonelik içermez."
+          ]
         }
       ]
     },
@@ -246,11 +253,11 @@
           "id": "q20",
           "q": "Eşlemelerimi nasıl yedekler ve geri yüklerim?",
           "a": [
-            "Menüyü açın ve tüm eşlemeleri bir dosyaya kaydetmek için Yedekle'yi, yeniden yüklemek için Geri Yükle'yi seçin – telefon değiştirirken veya yeniden yüklemeden önce kullanışlıdır."
+            "Ayarlar'ı açın ve tüm eşlemeleri bir dosyaya kaydetmek için Tüm eşlemeleri yedekle'yi, yeniden yüklemek için Yedekten geri yükle'yi seçin – telefon değiştirirken veya yeniden yüklemeden önce kullanışlıdır."
           ]
         }
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

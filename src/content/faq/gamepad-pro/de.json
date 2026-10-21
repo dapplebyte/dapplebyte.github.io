@@ -103,7 +103,7 @@
           "id": "q08",
           "q": "Wie lösche ich eine Tastenzuordnung oder eine voreingestellte Taste?",
           "a": [
-            "Tippe auf die Taste auf dem Bildschirm und es erscheint ein kleines Menü mit Kopieren und Löschen. Tippe auf Löschen, um sie zu entfernen. So entfernst du auch die voreingestellten Tasten, die du nicht brauchst."
+            "Tippe auf die Taste auf dem Bildschirm und es erscheint ein kleines Menü mit Duplikat und Löschen. Tippe auf Löschen, um sie zu entfernen. So entfernst du auch die voreingestellten Tasten, die du nicht brauchst."
           ]
         },
         {
@@ -221,6 +221,13 @@
           "a": [
             "Manche Spiele und Launcher haben eine eingebaute Controller-Unterstützung und machen aus dem linken Stick einen Mauszeiger. Funktioniert das Spiel bereits mit deinem Controller, öffne sein Profil und schalte die Zuordnung für dieses Spiel aus oder lösche die Zuordnung des linken Sticks. Soll stattdessen Gamepad Pro das übernehmen, öffne das Layout, tippe auf die Tastenkappe des linken Sticks und wähle Bewegungsfeld."
           ]
+        },
+        {
+          "id": "q28",
+          "q": "Kann ich meine PS5- oder PS4-Spiele auf diesem Handy spielen?",
+          "a": [
+            "Nicht mit Gamepad Pro: Es legt einen echten Controller auf Touch-Spiele, eine Konsole streamen kann es damit nicht. Dafür haben wir eine eigene App gemacht: Relaypad. Sie streamt deine PS5 oder PS4 auf dieses Handy, ein Tablet oder einen Fernseher – zu Hause oder über mobile Daten –, und du spielst mit dem Gamepad auf dem Bildschirm oder mit einem Bluetooth- oder USB-Controller, den du an die Konsole weiterleitest. Du brauchst eine eigene Konsole, auf der Remote Play in den Einstellungen aktiviert ist. Relaypad gibt es als kostenlosen Download, ohne Werbung und ohne Abo."
+          ]
         }
       ]
     },
@@ -246,11 +253,11 @@
           "id": "q20",
           "q": "Wie sichere und stelle ich meine Zuordnungen wieder her?",
           "a": [
-            "Öffne das Menü und wähle Sichern, um alle Zuordnungen in einer Datei zu speichern, oder Wiederherstellen, um sie erneut zu laden – praktisch beim Wechsel des Telefons oder vor einer Neuinstallation."
+            "Öffne die Einstellungen und wähle „Alle Mappings sichern“, um alle Zuordnungen in einer Datei zu speichern, oder „Aus Sicherung wiederherstellen“, um sie erneut zu laden – praktisch beim Wechsel des Telefons oder vor einer Neuinstallation."
           ]
         }
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

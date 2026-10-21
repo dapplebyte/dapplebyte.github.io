@@ -3,6 +3,18 @@
   "locale": "en",
   "entries": [
     {
+      "code": 196,
+      "name": "1.9.6",
+      "date": "2026-10-19",
+      "items": [
+        "All-new design on every screen, with landscape and tablet layouts.",
+        "Now in 32 languages. Pick the app language in Settings.",
+        "Editor: toolbar folds away, profiles can be portrait or landscape, long-press a key in-game to fine-tune it.",
+        "Pro stays unlocked with several Google accounts. Restore purchase added in Settings.",
+        "Fixed the floating ball reappearing after closing, and the keyboard stuck on the Gamepad Pro keyboard after the service is off."
+      ]
+    },
+    {
       "code": 195,
       "name": "1.9.5",
       "date": "2026-10-10",
@@ -63,5 +75,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

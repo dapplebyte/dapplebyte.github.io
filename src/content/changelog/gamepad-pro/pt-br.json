@@ -3,6 +3,18 @@
   "locale": "pt-br",
   "entries": [
     {
+      "code": 196,
+      "name": "1.9.6",
+      "date": "2026-10-19",
+      "items": [
+        "Visual novo em todas as telas, com layouts para paisagem e tablet.",
+        "Agora em 32 idiomas. Escolha o idioma do app em Configurações.",
+        "Editor: barra de ferramentas recolhível, esquemas em retrato ou paisagem e toque longo numa tecla durante o jogo para ajustá-la.",
+        "O Pro continua ativo com várias contas Google. Restaurar compra agora em Configurações.",
+        "Corrigido: seletor flutuante voltando após fechar e teclado preso no Gamepad Pro com o serviço desligado."
+      ]
+    },
+    {
       "code": 195,
       "name": "1.9.5",
       "date": "2026-10-10",
@@ -63,5 +75,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

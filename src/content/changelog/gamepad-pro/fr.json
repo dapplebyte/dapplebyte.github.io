@@ -3,6 +3,18 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 196,
+      "name": "1.9.6",
+      "date": "2026-10-19",
+      "items": [
+        "Nouvelle interface partout, avec mise en page paysage et tablette.",
+        "En 32 langues : choisissez la langue de l'app dans Paramètres.",
+        "Éditeur : barre d'outils repliable, Phases en portrait ou paysage, appui long sur une touche en jeu pour l'ajuster.",
+        "Pro reste activé avec plusieurs comptes Google. Nouveau : « Restaurer l'achat » dans Paramètres.",
+        "Corrigé : la bulle flottante qui revenait après fermeture, et le clavier bloqué sur Gamepad Pro après l'arrêt du service."
+      ]
+    },
+    {
       "code": 195,
       "name": "1.9.5",
       "date": "2026-10-10",
@@ -63,5 +75,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

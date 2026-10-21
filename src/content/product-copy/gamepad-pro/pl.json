@@ -2,22 +2,21 @@
   "slug": "gamepad-pro",
   "locale": "pl",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Mapowanie przycisków pada na dotyk: drążki, spusty, makra, turbo, bez roota.",
-  "tagline": "Gamepad Pro to maper przycisków kontrolera na Androida: zmień pada, którego już masz, w sterowanie dotykowe i graj w gry tylko dotykowe na prawdziwych przyciskach. Bez roota.",
+  "shortDescription": "Graj w gry dotykowe na padzie: mapuj drążki, spusty, makra i turbo. Bez roota.",
+  "tagline": "Gamepad Pro to maper kontrolera na Androida: zmapuj pada na dotyk i graj w gry tylko dotykowe na prawdziwych przyciskach. Bez roota, bez klonowania gry.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro to maper przycisków kontrolera na Androida: zmień pada, którego już masz, w sterowanie dotykowe i graj w gry tylko dotykowe na prawdziwych przyciskach. Bez roota.",
-        "Mapuj przyciski, oba drążki analogowe i spusty L2/R2 na dotknięcia, przytrzymania i przeciągnięcia. Twórz układ do każdej gry, zmieniaj układy w trakcie meczu, dodawaj makra, turbo i kombinacje.",
-        "Bez klonowania aplikacji i bez ADB w podstawowej konfiguracji. Zmapuj sterowanie i graj."
+        "Gamepad Pro to maper kontrolera na Androida: zmapuj pada na dotyk i graj w gry tylko dotykowe na prawdziwych przyciskach. Bez roota, bez klonowania gry.",
+        "Działa z każdym kontrolerem Bluetooth lub USB, który rozpoznaje Android. Mapuj przyciski, oba drążki analogowe i spusty L2/R2 na dotknięcia, przytrzymania i przeciągnięcia; twórz mapowanie przycisków do każdej gry, zmieniaj układy w trakcie meczu, dodawaj makra, turbo i kombinacje."
       ],
       "bullets": []
     },
     {
       "id": "drag-map-play",
-      "title": "Przeciągnij. Zmapuj. Graj.",
+      "title": "Mapowanie pada na dotyk w kilka minut",
       "paragraphs": [
         "Dodaj grę, otwórz edytor mapowania i przeciągnij każdy element sterujący na właściwe miejsce na ekranie. Zapisz układ i uruchom grę z Gamepad Pro."
       ],
@@ -59,7 +58,7 @@
       "id": "phase-switch",
       "title": "Zmiana układów w trakcie gry",
       "paragraphs": [
-        "Wybierz inny Układ z pływającego panelu bez wychodzenia z gry albo przypisz przycisk do błyskawicznego przełączania układów."
+        "Wybierz inny Układ z pływającego panelu bez wychodzenia z gry albo przypisz przycisk do przełączania kolejnych układów."
       ],
       "bullets": []
     },
@@ -67,7 +66,7 @@
       "id": "combos",
       "title": "Kombinacje przycisków",
       "paragraphs": [
-        "Użyj kombinacji przycisków kontrolera jako jednego wyzwalacza — masz więcej skrótów bez rezygnacji z obecnego sterowania."
+        "Kilka przycisków naraz działa jak jeden wyzwalacz — więcej skrótów bez rezygnacji z obecnego sterowania."
       ],
       "bullets": []
     },
@@ -75,7 +74,7 @@
       "id": "macros",
       "title": "Makra na jeden sygnał",
       "paragraphs": [
-        "Ułóż sekwencję działań dotykowych i odpal całość jednym sygnałem z kontrolera — idealne przy powtarzalnych czynnościach."
+        "Ułóż sekwencję działań dotykowych i odpal ją jednym sygnałem z kontrolera — idealne przy powtarzalnych czynnościach."
       ],
       "bullets": []
     },
@@ -83,7 +82,7 @@
       "id": "turbo",
       "title": "Działania turbo",
       "paragraphs": [
-        "Przytrzymaj przycisk, aby automatycznie powtarzać zmapowane dotknięcie, z częstotliwością ustawianą osobno dla każdego działania."
+        "Przytrzymaj przycisk, aby powtarzać zmapowane dotknięcie z częstotliwością ustawioną dla danego działania."
       ],
       "bullets": []
     },
@@ -97,9 +96,9 @@
     },
     {
       "id": "any-game",
-      "title": "Do każdego rodzaju gier",
+      "title": "Do gier tylko dotykowych: BGMI, Free Fire, Genshin i inne",
       "paragraphs": [
-        "Strzelanki i battle royale, MOBA i MMORPG, wyścigi, action RPG, otwarty świat, bijatyki, survival, gry idle i clickery, a do tego retro emulatory — jeśli gra przyjmuje dotyk, zmapujesz do niej kontroler."
+        "Stworzony do gier, które obsługują dotyk, ale nie kontrolery: BGMI / PUBG Mobile, Free Fire, Genshin Impact, Mobile Legends, League of Legends: Wild Rift, a także strzelanki, MOBA, wyścigi, RPG i retro emulatory — jeśli gra przyjmuje dotyk, zmapujesz do niej pada."
       ],
       "bullets": []
     },
@@ -113,9 +112,9 @@
     },
     {
       "id": "controllers",
-      "title": "Szeroka zgodność z kontrolerami",
+      "title": "Układ przycisków Xbox, PlayStation i Nintendo",
       "paragraphs": [
-        "Gamepad Pro działa z wieloma przewodowymi i bezprzewodowymi kontrolerami obsługiwanymi przez Androida, a etykiety przycisków dopasują się do popularnych układów padów."
+        "Działa każdy przewodowy lub bezprzewodowy pad obsługiwany przez Androida, przez Bluetooth lub USB. Etykiety przycisków przełączają się na układ Xbox, PlayStation lub Nintendo, zgodnie z Twoim kontrolerem."
       ],
       "bullets": []
     },
@@ -136,7 +135,7 @@
       "title": "Uprawnienia",
       "paragraphs": [
         "Usługa ułatwień dostępu:",
-        "Gamepad Pro używa interfejsu AccessibilityService API Androida, aby zamieniać skonfigurowane działania kontrolera w dotknięcia i przeciągnięcia. Jest wymagana, by mapowanie działało poza aplikacją, wykonuje wyłącznie utworzone przez Ciebie działania i nigdy nie zbiera ani nie przesyła Twoich danych osobowych."
+        "Gamepad Pro używa AccessibilityService API Androida, aby zamieniać skonfigurowane działania kontrolera w dotknięcia i przeciągnięcia. Jest wymagana, by mapowanie działało poza aplikacją, wykonuje wyłącznie utworzone przez Ciebie działania i nigdy nie zbiera ani nie przesyła Twoich danych osobowych."
       ],
       "bullets": []
     },
@@ -144,7 +143,7 @@
       "id": "keyboard",
       "title": "Klawiatura Gamepad Pro",
       "paragraphs": [
-        "Usługa ułatwień dostępu Androida nie odczytuje wychyleń drążków ani wartości spustów L2/R2. Metoda wprowadzania Gamepad Pro przechwytuje te sygnały, aby dało się je poprawnie zmapować, i może też służyć do wpisywania tekstu."
+        "Usługa ułatwień dostępu nie odczytuje wychyleń drążków ani spustów L2/R2. Metoda wprowadzania Gamepad Pro przechwytuje te sygnały do poprawnego mapowania i może też służyć do wpisywania tekstu."
       ],
       "bullets": []
     },
@@ -160,10 +159,10 @@
       "id": "help",
       "title": "Potrzebujesz pomocy?",
       "paragraphs": [
-        "Opinie w Play Store nie zawierają szczegółów wystarczających do zbadania problemów technicznych. Jeśli coś nie działa, otwórz Gamepad Pro i wybierz Ustawienia > Prześlij opinię."
+        "Opinie w Play Store nie dają nam dość szczegółów, by zbadać problemy techniczne. Jeśli coś nie działa, otwórz Gamepad Pro i wybierz Ustawienia > Prześlij opinię."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

@@ -1,0 +1,263 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "vi",
+  "title": "FAQ và trợ giúp",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Thiết lập",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Gamepad Pro dùng để làm gì?",
+          "a": [
+            "Gamepad Pro ánh xạ tay cầm, bàn phím hoặc bất kỳ nút ngoài nào thành thao tác chạm và vuốt trên màn hình, để bạn chơi game cảm ứng và điều khiển ứng dụng bằng nút bấm thật."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Vì sao cần quyền Trợ năng? Có an toàn không?",
+          "a": [
+            "Dịch vụ Trợ năng cho phép Gamepad Pro biến thao tác bấm nút của bạn thành chạm và vuốt, kể cả bên ngoài ứng dụng. Ánh xạ phím chỉ hoạt động sau khi bật dịch vụ này. Gamepad Pro chỉ dùng nó để thực hiện đúng thao tác bạn đã cài — không thu thập hay tải lên dữ liệu cá nhân của bạn."
+          ],
+          "video": "xbevEmk-T1Q",
+          "tiktok": "7695321646764231966"
+        },
+        {
+          "id": "q04",
+          "q": "Chạy nền một lúc thì ngừng hoạt động. Khắc phục thế nào?",
+          "a": [
+            "Android có thể đóng ứng dụng chạy nền để tiết kiệm pin. Hãy cho phép Gamepad Pro chạy nền bằng cách tắt tối ưu hóa pin. Một số hãng (như MIUI hay Samsung) có thêm quy tắc tiết kiệm pin riêng — hướng dẫn trên dontkillmyapp.com chỉ cách tắt chúng cho máy của bạn."
+          ],
+          "video": "8hZqhdyWx_Y",
+          "tiktok": "7695320574507191582"
+        },
+        {
+          "id": "q07",
+          "q": "Vì sao phải bật bàn phím Gamepad Pro?",
+          "a": [
+            "Chủ yếu để ánh xạ được cần analog và cò L2/R2 của tay cầm. Dịch vụ Trợ năng của Android đọc được thao tác bấm nút thông thường, nhưng không đọc được chuyển động của cần analog hay cò — chỉ bàn phím Gamepad Pro mới thu được các tín hiệu này. Nó cũng cần cho những thao tác như nhập văn bản. Khi được nhắc, hãy bật và chuyển sang bàn phím này để các ánh xạ và thao tác đó hoạt động."
+          ],
+          "video": "bkJYiGawnnc",
+          "tiktok": "7695321963761323294"
+        },
+        {
+          "id": "q11",
+          "q": "Gamepad Pro có cần root không?",
+          "a": [
+            "Không. Gamepad Pro hoạt động qua Dịch vụ Trợ năng và không cần root. Root hoặc Shizuku chỉ cần cho vài tính năng nâng cao tùy chọn."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Có dùng được với mọi game không?",
+          "a": [
+            "Gamepad Pro dùng được với hầu hết game cảm ứng. Một số game chặn thao tác chạm giả lập hoặc có hệ thống chống gian lận gây cản trở, nên không thể đảm bảo với mọi game. Nếu game không phản hồi, hãy báo cho chúng tôi qua Phản hồi."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Bàn phím Gamepad Pro chiếm mất bàn phím. Giờ gõ chữ thế nào?",
+          "a": [
+            "Bàn phím Gamepad Pro không có giao diện gõ chữ — nó chỉ đọc cần analog và cò, nên chạm vào ô nhập chữ sẽ không thấy gì hiện ra. Chạm vào biểu tượng quả địa cầu ở góc dưới bên phải để chuyển về bàn phím của bạn. Tốt hơn nữa, hãy bật \"Tự động chuyển phương thức nhập\" — khi đó Gamepad Pro chỉ dùng bàn phím của nó khi ánh xạ đang chạy, sau đó trả lại bàn phím của bạn."
+          ],
+          "video": "AAa5IUf8mPo",
+          "tiktok": "7695322404259679518"
+        },
+        {
+          "id": "q25",
+          "q": "Vì sao Android cảnh báo Gamepad Pro có thể đọc mật khẩu?",
+          "a": [
+            "Android hiện cùng một cảnh báo cho mọi ứng dụng Trợ năng. Gamepad Pro chỉ dùng nó để đọc tay cầm và ứng dụng đang mở phía trước, và để thực hiện thao tác chạm. Ứng dụng không bao giờ đọc, lưu hay tải lên nội dung trên màn hình hoặc những gì bạn gõ."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Ánh xạ",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Ánh xạ phím không hoạt động. Tôi nên kiểm tra gì?",
+          "a": [
+            "1. Kiểm tra Dịch vụ Trợ năng đã bật (Cài đặt → Trợ năng → Gamepad Pro).",
+            "2. Kiểm tra ánh xạ đang bật (không bị tạm dừng).",
+            "3. Với thao tác nhập văn bản, hãy chuyển sang bàn phím Gamepad Pro.",
+            "4. Nếu trước đó chạy được rồi bỗng ngừng, hãy kiểm tra cài đặt pin / chạy nền (xem câu hỏi tiếp theo)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Làm sao để tạo ánh xạ phím?",
+          "a": [
+            "1. Chọn một game hoặc ứng dụng trong danh sách.",
+            "2. Chạm để thêm nút, rồi bấm nút tay cầm bạn muốn dùng.",
+            "3. Kéo nút đến chỗ cần chạm trên màn hình.",
+            "4. Lưu lại, bật ánh xạ và chơi."
+          ],
+          "video": "j2qYLNqHtA4",
+          "tiktok": "7695319170019298591"
+        },
+        {
+          "id": "q08",
+          "q": "Làm sao để xóa một ánh xạ phím hoặc nút dựng sẵn?",
+          "a": [
+            "Chạm vào nút trên màn hình, một menu nhỏ hiện ra với Nhân bản và Xóa. Chạm Xóa để gỡ nút. Đây cũng là cách gỡ các nút dựng sẵn mà bạn không cần."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Làm sao để đặt ảnh chụp màn hình game làm nền?",
+          "a": [
+            "Trong trình chỉnh sửa, chạm vào nút hình ảnh (góc dưới bên phải) và chọn một ảnh chụp màn hình trong thư viện. Ảnh sẽ thành nền để bạn đặt từng nút đúng vào chỗ cần chạm."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Làm sao để ánh xạ cần analog hoặc cò L2/R2?",
+          "a": [
+            "Bạn không cần ghi chúng — cả hai cần analog và hai cò đã có sẵn trong mọi layout mới. Chỉ cần kéo chúng đến chỗ cần điều khiển, rồi chạm vào một nút để mở cài đặt: cần phải có thể là Vuốt góc nhìn (mặc định) hoặc Vòng di chuyển, độ nhạy và đường cong phản hồi cũng chỉnh ở đó. Chúng cần bật bàn phím Gamepad Pro, vì Dịch vụ Trợ năng của Android không đọc được chuyển động của cần analog hay cò."
+          ],
+          "video": "rEvNu-S6_CY",
+          "tiktok": "7695320133933354271"
+        },
+        {
+          "id": "q12",
+          "q": "Làm sao để ánh xạ nhiều nút bấm cùng lúc (tổ hợp)?",
+          "a": [
+            "Bắt đầu ghi, rồi bấm các nút cùng lúc. Chúng được lưu thành một tổ hợp, nên thao tác chỉ kích hoạt khi bạn bấm chúng cùng lúc. Tổ hợp cũng có thể dùng như phím bổ trợ: ánh xạ LB+A và riêng LB, rồi giữ LB và bấm A để kích hoạt tổ hợp. Khi đang giữ tổ hợp, thao tác riêng của A sẽ không chạy, còn thao tác riêng của LB chờ khoảng 0,2 giây để ứng dụng phân biệt hai trường hợp."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Điều gì xảy ra khi tôi giữ một nút tay cầm?",
+          "a": [
+            "Mặc định, giữ nút sẽ giữ chạm màn hình tại vị trí đó và chỉ nhả khi bạn buông tay — bấm nhanh là chạm nhanh, giữ lâu là nhấn giữ. Cách này hợp với ngắm bắn, chạy nhanh và tụ lực. Muốn đổi, hãy chạm vào nút trong trình chỉnh sửa và mở biểu tượng bánh răng."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Chạm bị lệch chỗ. Làm sao để đặt nút chính xác?",
+          "a": [
+            "Đặt ảnh chụp màn hình game làm nền, rồi kéo từng nút đúng vào chỗ cần chạm. Bạn có thể kéo lại bất cứ lúc nào để tinh chỉnh vị trí."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Làm sao để tạm dừng hoặc tiếp tục ánh xạ?",
+          "a": [
+            "Dùng công tắc Dịch vụ ánh xạ ở đầu màn hình chính để tạm dừng hoặc tiếp tục mọi ánh xạ cùng lúc. Nếu không quay lại ứng dụng được, hãy thêm công tắc này vào Cài đặt nhanh để bật tắt từ bất cứ đâu. Tạm dừng chỉ dừng ánh xạ — Dịch vụ Trợ năng vẫn bật."
+          ],
+          "video": "FMxFD5nLdnw",
+          "tiktok": "7695320891034520863"
+        },
+        {
+          "id": "q21",
+          "q": "Tôi không thể vừa di chuyển vừa bắn. Phải làm sao?",
+          "a": [
+            "Đó là do lần chạm thứ hai bị mất. Trước tiên hãy cập nhật lên phiên bản mới nhất — các bản mới đã tự giữ được cả hai lần chạm. Nếu vẫn bị mất, hãy mở Cài đặt › Đa chạm nâng cao và làm theo ba bước ở đó; trang sẽ cho bạn biết còn thiếu bước nào. Đây là tùy chọn, ánh xạ thông thường vẫn chạy khi không có nó."
+          ],
+          "video": "cOnoseRHaUM",
+          "tiktok": "7695322720493473054"
+        },
+        {
+          "id": "q22",
+          "q": "Một nút bị đặt sai chỗ. Sửa được mà không cần thoát game không?",
+          "a": [
+            "Được. Chạm vào nút nổi khi đang chơi, layout của bạn sẽ hiện lên trên game — kéo nút đến đúng chỗ rồi chạm nút nổi lần nữa để áp dụng. Nhấn giữ nút nổi để chuyển sang layout khác mà không cần thoát game (bạn cần có ít nhất hai layout đã lưu)."
+          ],
+          "video": "nz4xZcZ95hY",
+          "tiktok": "7695321174254882079"
+        },
+        {
+          "id": "q24",
+          "q": "Một nút tay cầm làm được những gì?",
+          "a": [
+            "Gì cũng được. Một nút có thể là một lần chạm, giữ chạm màn hình, turbo chạm liên tục khi bạn giữ, hoặc macro chạm lần lượt nhiều vị trí. Cần analog có thể là Vòng di chuyển hoặc Vuốt góc nhìn. Chạm vào một nút trong trình chỉnh sửa và mở biểu tượng bánh răng để chọn."
+          ],
+          "video": "bs5oMvTess8",
+          "tiktok": "7695299425039584543"
+        },
+        {
+          "id": "q27",
+          "q": "Phase hoạt động thế nào?",
+          "a": [
+            "Mỗi game có thể có nhiều Phase: một cho chiến đấu, một cho lái xe, một cho menu, v.v. Phase 1 được dùng khi mở game. Chuyển Phase trong game bằng tổ hợp chuyển vòng bạn đặt trong hồ sơ, hoặc bằng nút nổi chuyển Phase."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Shizuku là gì, tôi có cần không?",
+          "a": [
+            "Shizuku là một tùy chọn nâng cao không bắt buộc. Nó cho phép Gamepad Pro tiêm sự kiện đa chạm trực tiếp hơn, độ trễ thấp hơn và bám mượt hơn so với đường Trợ năng — thấy rõ nhất khi dùng hai cần analog hoặc nhiều đường chạm cùng lúc. Nó không thay thế Dịch vụ Trợ năng, và mọi ánh xạ vẫn chạy được khi không có nó. Từ Android 11 trở lên có thể khởi động Shizuku bằng gỡ lỗi không dây, nhưng thường phải khởi động lại sau mỗi lần khởi động lại máy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Tay cầm",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "Một nút trên tay cầm không được nhận. Tôi phải làm gì?",
+          "a": [
+            "Mỗi phiên bản Android và mỗi thiết bị một khác, nên trên một số phần cứng có vài nút không được nhận. Hãy thử nút khác, kết nối lại thiết bị, hoặc báo cho chúng tôi qua Phản hồi để chúng tôi kiểm tra."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Tay cầm hoàn toàn không được nhận. Tôi nên kiểm tra gì?",
+          "a": [
+            "Kiểm tra tay cầm đã kết nối đúng qua Bluetooth hoặc USB và đã ghép nối trong cài đặt Android. Thử kết nối lại và xem tay cầm có chạy trong ứng dụng khác không. Một số tay cầm phải bật ở một chế độ nhất định."
+          ],
+          "video": "t0HAKJXgRCU",
+          "tiktok": "7695323165261630750"
+        },
+        {
+          "id": "q26",
+          "q": "Cần trái điều khiển một con trỏ chuột vô hình. Tắt thế nào?",
+          "a": [
+            "Một số game và launcher có hỗ trợ tay cầm sẵn và biến cần trái thành con trỏ. Nếu game đã chạy được với tay cầm của bạn, hãy mở hồ sơ của game và tắt ánh xạ cho game đó, hoặc xóa ánh xạ cần trái. Nếu muốn Gamepad Pro xử lý thay, hãy mở Phase, chạm vào nhãn nút cần trái và chọn Vòng di chuyển."
+          ]
+        },
+        {
+          "id": "q28",
+          "q": "Tôi có thể chơi game PS5 hoặc PS4 trên điện thoại này không?",
+          "a": [
+            "Gamepad Pro không làm được việc này: ứng dụng ánh xạ tay cầm thật sang game cảm ứng, nên không stream được máy chơi game. Để làm việc đó, chúng tôi có một ứng dụng riêng là Relaypad. Relaypad stream PS5 hoặc PS4 của bạn lên điện thoại này, máy tính bảng hoặc TV, ở nhà hay dùng dữ liệu di động đều được, và bạn chơi bằng tay cầm ảo trên màn hình hoặc bằng tay cầm Bluetooth hay USB được chuyển tiếp sang máy chơi game. Bạn cần có máy chơi game của riêng mình và đã bật Remote Play trong phần cài đặt của máy. Relaypad tải miễn phí, không quảng cáo, không thuê bao."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Làm sao để một nút tự chạm liên tục (turbo)?",
+          "a": [
+            "Chạm vào nút trong trình chỉnh sửa, mở biểu tượng bánh răng và chọn Turbo. Khi bạn giữ nút tay cầm, vị trí đó sẽ được chạm liên tục theo khoảng cách bạn đặt; buông ra để dừng. Nút Turbo có chữ T nhỏ màu tím cạnh tên phím."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Làm sao để một nút chạm lần lượt nhiều vị trí (macro)?",
+          "a": [
+            "Chạm vào nút trong trình chỉnh sửa và chọn + để thêm bước macro. Mỗi bước là một nhãn đánh số (1, 2, 3…) mà bạn có thể kéo đến vị trí riêng. Sau đó chỉ cần bấm một lần là chạm lần lượt mọi bước; khoảng cách giữa các bước chỉnh được qua biểu tượng bánh răng. Khi macro đang chạy, các lần bấm thêm sẽ bị bỏ qua cho đến khi chạy xong."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Làm sao để sao lưu và khôi phục ánh xạ?",
+          "a": [
+            "Mở Cài đặt và chọn Sao lưu mọi ánh xạ để lưu mọi ánh xạ vào một tệp, hoặc Khôi phục từ bản sao lưu để tải lại — tiện khi đổi điện thoại hoặc trước khi cài lại ứng dụng."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-21"
+}

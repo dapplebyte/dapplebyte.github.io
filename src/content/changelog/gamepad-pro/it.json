@@ -3,6 +3,18 @@
   "locale": "it",
   "entries": [
     {
+      "code": 196,
+      "name": "1.9.6",
+      "date": "2026-10-19",
+      "items": [
+        "Nuova grafica in ogni schermata, con layout orizzontale e per tablet.",
+        "Ora in 32 lingue: scegli la lingua dell'app in Impostazioni.",
+        "Editor: barra strumenti a scomparsa, schemi in verticale o orizzontale, tieni premuto un tasto in gioco per regolarlo.",
+        "Pro resta sbloccato anche con più account Google. In Impostazioni ora c'è \"Ripristina acquisto\".",
+        "Risolto: la bolla flottante che ricompariva dopo la chiusura e la tastiera bloccata su Gamepad Pro a servizio spento."
+      ]
+    },
+    {
       "code": 195,
       "name": "1.9.5",
       "date": "2026-10-10",
@@ -63,5 +75,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

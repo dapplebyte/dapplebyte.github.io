@@ -33,6 +33,11 @@
       "code": 195,
       "name": "1.9.5",
       "date": "2026-10-10"
+    },
+    {
+      "code": 196,
+      "name": "1.9.6",
+      "date": "2026-10-19"
     }
   ],
   "contactEmail": "feedback@dapplebyte.com",
@@ -52,7 +57,7 @@
     "q21",
     "q11"
   ],
-  "languages": 17,
+  "languages": 32,
   "youtubePlaylist": "PLVe1RTcdv9MI",
   "tiktokProfile": "https://www.tiktok.com/@mujahid.hamad",
   "overview": {

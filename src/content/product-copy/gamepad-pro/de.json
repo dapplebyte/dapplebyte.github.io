@@ -2,24 +2,23 @@
   "slug": "gamepad-pro",
   "locale": "de",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Tastenbelegung für Controller: Sticks, Trigger, Makros, Turbo – ohne root.",
-  "tagline": "Gamepad Pro ist die Tastenbelegung für Android: Mach deinen vorhandenen Controller zur Touch-Steuerung und spiele reine Touch-Games mit echten Tasten. Ohne root.",
+  "shortDescription": "Touch-Spiele mit dem Gamepad spielen: Sticks, Trigger, Makros, Turbo. Ohne root.",
+  "tagline": "Gamepad Pro ist ein Controller-Mapper für Android: Belege dein Gamepad auf Touch und spiele reine Touch-Games mit echten Tasten. Ohne root, ohne geklontes Spiel.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro ist die Tastenbelegung für Android: Mach deinen vorhandenen Controller zur Touch-Steuerung und spiele reine Touch-Games mit echten Tasten. Ohne root.",
-        "Belege Tasten, Analogsticks und L2/R2-Trigger mit Tippen, Halten und Wischen. Erstelle pro Spiel ein Layout, wechsle mitten in der Runde und ergänze Makros, Turbo und Tastenkombinationen.",
-        "Kein Klonen, kein ADB für die Grundeinrichtung. Steuerung belegen und losspielen."
+        "Gamepad Pro ist ein Controller-Mapper für Android: Belege dein Gamepad auf Touch und spiele reine Touch-Games mit echten Tasten. Ohne root, ohne geklontes Spiel.",
+        "Läuft mit jedem Bluetooth- oder USB-Controller, den Android erkennt. Belege Tasten, Analogsticks und L2/R2-Trigger mit Tippen, Halten und Wischen, erstelle pro Spiel eine Tastenbelegung, wechsle Layouts mitten in der Runde und ergänze Makros, Turbo und Kombos."
       ],
       "bullets": []
     },
     {
       "id": "drag-map-play",
-      "title": "ZIEHEN. BELEGEN. SPIELEN.",
+      "title": "GAMEPAD IN MINUTEN AUF TOUCH BELEGEN",
       "paragraphs": [
-        "Spiel hinzufügen, Mapping-Editor öffnen und jedes Steuerelement an die passende Stelle ziehen. Speichern und das Spiel direkt aus Gamepad Pro starten."
+        "Spiel hinzufügen, Mapping-Editor öffnen, jedes Steuerelement an die passende Stelle ziehen. Speichern und das Spiel aus Gamepad Pro starten."
       ],
       "bullets": []
     },
@@ -27,7 +26,7 @@
       "id": "mapping",
       "title": "TASTEN, STICKS UND TRIGGER BELEGEN",
       "paragraphs": [
-        "Belege Controller-Tasten, beide Analogsticks, das Steuerkreuz und die analogen Trigger mit Tippen, Halten und Wischen – die Stick-Empfindlichkeit stellst du selbst ein."
+        "Belege Tasten, beide Analogsticks, das Steuerkreuz und die analogen Trigger mit Tippen, Halten und Wischen, mit einstellbarer Stick-Empfindlichkeit."
       ],
       "bullets": []
     },
@@ -35,7 +34,7 @@
       "id": "multi-button",
       "title": "MEHRERE TASTEN GLEICHZEITIG",
       "paragraphs": [
-        "Bewegen, zielen und angreifen zur selben Zeit – gemacht für Spiele, die mehrere Eingaben parallel brauchen."
+        "Bewegen, zielen und angreifen zur selben Zeit – für Spiele, die mehrere Eingaben parallel brauchen."
       ],
       "bullets": []
     },
@@ -43,7 +42,7 @@
       "id": "profiles",
       "title": "EIN PROFIL FÜR JEDES SPIEL",
       "paragraphs": [
-        "Speichere pro Spiel eine eigene Belegung, damit du immer im richtigen Layout landest."
+        "Speichere pro Spiel eine eigene Belegung und lande immer im richtigen Layout."
       ],
       "bullets": []
     },
@@ -59,7 +58,7 @@
       "id": "phase-switch",
       "title": "LAYOUTS IM SPIEL WECHSELN",
       "paragraphs": [
-        "Wähle über das schwebende Steuerelement ein anderes Layout, ohne das Spiel zu verlassen, oder schalte per Taste sofort durch deine Layouts."
+        "Wähle über das schwebende Steuerelement ein anderes Layout, ohne das Spiel zu verlassen, oder schalte per Taste zum nächsten Layout."
       ],
       "bullets": []
     },
@@ -67,7 +66,7 @@
       "id": "combos",
       "title": "TASTENKOMBINATIONEN",
       "paragraphs": [
-        "Nutze eine Tastenkombination als einzelnen Auslöser – mehr Kurzbefehle, ohne vorhandene Belegungen aufzugeben."
+        "Mehrere Tasten zusammen als ein Auslöser – mehr Kurzbefehle, ohne bestehende Belegungen aufzugeben."
       ],
       "bullets": []
     },
@@ -75,7 +74,7 @@
       "id": "macros",
       "title": "MAKROS MIT EINEM AUSLÖSER",
       "paragraphs": [
-        "Baue eine Folge von Touch-Aktionen und starte das Ganze mit einer einzigen Controller-Eingabe – ideal für wiederkehrende Abläufe."
+        "Baue eine Folge von Touch-Aktionen und starte sie mit einer Controller-Eingabe – ideal für Routinen."
       ],
       "bullets": []
     },
@@ -83,7 +82,7 @@
       "id": "turbo",
       "title": "TURBO-AKTIONEN",
       "paragraphs": [
-        "Halte eine Taste gedrückt, um eine belegte Touch-Aktion automatisch zu wiederholen – mit frei wählbarer Wiederholrate je Aktion."
+        "Halte eine Taste, um eine belegte Touch-Aktion zu wiederholen – die Rate legst du je Aktion fest."
       ],
       "bullets": []
     },
@@ -91,15 +90,15 @@
       "id": "vibration",
       "title": "VIBRATIONS-FEEDBACK",
       "paragraphs": [
-        "Spüre bei jeder ausgelösten Belegung eine Rückmeldung, in leicht, mittel oder stark."
+        "Haptische Rückmeldung bei jeder ausgelösten Belegung – leicht, mittel oder stark."
       ],
       "bullets": []
     },
     {
       "id": "any-game",
-      "title": "FÜR JEDES GENRE GEMACHT",
+      "title": "FÜR REINE TOUCH-SPIELE: BGMI, FREE FIRE, GENSHIN & MEHR",
       "paragraphs": [
-        "Shooter und Battle Royale, MOBA und MMORPG, Rennspiele, Action-RPG, Open World, Prügelspiele, Survival, Idle- und Clicker-Games sowie Retro-Emulatoren – wo Touch funktioniert, funktioniert auch dein Controller."
+        "Für Spiele mit Touch-Steuerung, aber ohne Controller-Support: BGMI / PUBG Mobile, Free Fire, Genshin Impact, Mobile Legends, League of Legends: Wild Rift sowie Shooter, MOBA, Rennspiele, RPG und Retro-Emulatoren – was Touch versteht, steuerst du mit dem Gamepad."
       ],
       "bullets": []
     },
@@ -107,15 +106,15 @@
       "id": "no-root",
       "title": "OHNE KLONEN, OHNE root, OHNE ADB",
       "paragraphs": [
-        "Gamepad Pro übersetzt Controller-Eingaben direkt in Bildschirmaktionen: keine geklonte Kopie deines Spiels, kein root und kein ADB für die Grundeinrichtung. Wenige erweiterte Optionen können Shizuku nutzen, das Mapping selbst nicht."
+        "Gamepad Pro übersetzt Controller-Eingaben direkt in Bildschirmaktionen: keine geklonte Spielkopie, kein root und kein ADB für die Grundeinrichtung. Einige erweiterte Optionen können Shizuku nutzen, das Mapping selbst nicht."
       ],
       "bullets": []
     },
     {
       "id": "controllers",
-      "title": "BREITE CONTROLLER-KOMPATIBILITÄT",
+      "title": "XBOX-, PLAYSTATION- & NINTENDO-LAYOUTS",
       "paragraphs": [
-        "Gamepad Pro funktioniert mit vielen kabelgebundenen und kabellosen Controllern; die Tastenbeschriftungen passen sich verbreiteten Layouts an."
+        "Jedes kabelgebundene oder kabellose Gamepad, das Android unterstützt, läuft per Bluetooth oder USB. Die Tastenbeschriftungen wechseln passend zum Controller auf Xbox-, PlayStation- oder Nintendo-Layout."
       ],
       "bullets": []
     },
@@ -136,7 +135,7 @@
       "title": "BERECHTIGUNGEN",
       "paragraphs": [
         "Bedienungshilfendienst:",
-        "Gamepad Pro nutzt die AccessibilityService API von Android, um deine konfigurierten Controller-Aktionen in Tippen und Wischen umzuwandeln. Sie ist nötig, damit die Belegung außerhalb der App funktioniert, führt nur deine Aktionen aus und erfasst oder überträgt niemals persönliche Daten."
+        "Gamepad Pro nutzt die AccessibilityService API von Android, um deine Controller-Aktionen in Tippen und Wischen umzuwandeln. Sie ist nötig, damit die Belegung außerhalb der App funktioniert, führt nur deine Aktionen aus und erfasst oder überträgt keine persönlichen Daten."
       ],
       "bullets": []
     },
@@ -144,7 +143,7 @@
       "id": "keyboard",
       "title": "Gamepad Pro Keyboard",
       "paragraphs": [
-        "Der Bedienungshilfendienst von Android kann Analogstick- und L2/R2-Trigger-Werte nicht lesen. Die Eingabemethode von Gamepad Pro erfasst diese Eingaben für die korrekte Belegung und lässt sich auch für Texteingaben nutzen."
+        "Der Bedienungshilfendienst kann Analogstick- und L2/R2-Trigger-Werte nicht lesen. Die Eingabemethode von Gamepad Pro erfasst sie für die korrekte Belegung und dient auch zur Texteingabe."
       ],
       "bullets": []
     },
@@ -152,7 +151,7 @@
       "id": "compatibility",
       "title": "KOMPATIBILITÄT",
       "paragraphs": [
-        "Die Kompatibilität kann je nach Gerät, Android-Version, Controller und Umgang des Spiels mit Touch-Eingaben oder Overlays variieren."
+        "Die Kompatibilität kann je nach Gerät, Android-Version, Controller und Umgang des Spiels mit Touch oder Overlays variieren."
       ],
       "bullets": []
     },
@@ -160,10 +159,10 @@
       "id": "help",
       "title": "BRAUCHST DU HILFE?",
       "paragraphs": [
-        "Rezensionen im Play Store liefern uns zu wenig Details für die Fehlersuche. Falls etwas nicht funktioniert, öffne Gamepad Pro und gehe zu Einstellungen > Feedback."
+        "Play-Store-Rezensionen liefern zu wenig Details für die Fehlersuche. Falls etwas nicht funktioniert, öffne Gamepad Pro und gehe zu Einstellungen > Feedback."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

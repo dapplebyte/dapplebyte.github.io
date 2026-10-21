@@ -1,0 +1,263 @@
+{
+  "slug": "gamepad-pro",
+  "locale": "id",
+  "title": "FAQ dan Bantuan",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Setup",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Gamepad Pro itu untuk apa?",
+          "a": [
+            "Gamepad Pro memetakan kontroler, keyboard, atau tombol eksternal apa pun ke tap dan swipe di layar, jadi kamu bisa main game sentuh dan mengontrol aplikasi pakai tombol fisik."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Kenapa butuh izin Aksesibilitas? Apakah aman?",
+          "a": [
+            "Layanan Aksesibilitas memungkinkan Gamepad Pro mengubah tekanan tombol jadi tap dan swipe, bahkan di luar aplikasi. Pemetaan tombolmu baru jalan setelah layanan ini diaktifkan. Gamepad Pro hanya memakainya untuk menjalankan aksi yang kamu atur — tidak mengumpulkan atau mengunggah data pribadimu."
+          ],
+          "video": "xbevEmk-T1Q",
+          "tiktok": "7695321646764231966"
+        },
+        {
+          "id": "q04",
+          "q": "Berhenti jalan setelah beberapa saat di latar belakang. Bagaimana cara memperbaikinya?",
+          "a": [
+            "Android bisa menutup aplikasi di latar belakang untuk menghemat daya. Izinkan Gamepad Pro berjalan di latar belakang dengan mematikan optimalisasi baterai. Beberapa merek (misalnya MIUI atau Samsung) punya aturan hemat daya tambahan — panduan di dontkillmyapp.com menjelaskan cara mematikannya untuk perangkatmu."
+          ],
+          "video": "8hZqhdyWx_Y",
+          "tiktok": "7695320574507191582"
+        },
+        {
+          "id": "q07",
+          "q": "Kenapa aku harus mengaktifkan keyboard Gamepad Pro?",
+          "a": [
+            "Terutama supaya stik analog dan trigger L2/R2 kontrolermu bisa dipetakan. Layanan Aksesibilitas Android bisa membaca tekanan tombol biasa, tapi tidak bisa membaca gerakan stik analog atau trigger — hanya keyboard Gamepad Pro yang bisa menangkapnya. Keyboard ini juga dibutuhkan untuk aksi seperti mengetik teks. Aktifkan dan ganti ke keyboard ini saat diminta agar pemetaan dan aksi tersebut bisa jalan."
+          ],
+          "video": "bkJYiGawnnc",
+          "tiktok": "7695321963761323294"
+        },
+        {
+          "id": "q11",
+          "q": "Apakah Gamepad Pro butuh akses root?",
+          "a": [
+            "Tidak. Gamepad Pro bekerja lewat Layanan Aksesibilitas dan tidak butuh root. Root atau Shizuku hanya diperlukan untuk beberapa fitur lanjutan yang opsional."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Apakah bisa dipakai di semua game?",
+          "a": [
+            "Bisa di sebagian besar game sentuh. Beberapa game memblokir tap simulasi atau memakai anti-cheat yang bisa mengganggu, jadi tidak bisa dijamin untuk semua game. Kalau ada game yang tidak merespons, kabari kami lewat Masukan."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Keyboard Gamepad Pro mengambil alih. Bagaimana cara mengetik sekarang?",
+          "a": [
+            "Keyboard Gamepad Pro tidak punya tampilan untuk mengetik — keyboard ini hanya membaca stik dan trigger, jadi tidak ada yang muncul saat kamu mengetuk kolom teks. Ketuk ikon globe di kanan bawah untuk kembali ke keyboard-mu sendiri. Lebih praktis lagi, nyalakan \"Ganti metode input otomatis\" — Gamepad Pro hanya memakai keyboard-nya sendiri saat pemetaan berjalan, lalu mengembalikan keyboard-mu setelahnya."
+          ],
+          "video": "AAa5IUf8mPo",
+          "tiktok": "7695322404259679518"
+        },
+        {
+          "id": "q25",
+          "q": "Kenapa Android memperingatkan bahwa Gamepad Pro bisa membaca sandi?",
+          "a": [
+            "Android menampilkan peringatan yang sama untuk setiap aplikasi aksesibilitas. Gamepad Pro hanya memakainya untuk membaca kontrolermu dan aplikasi yang sedang dibuka, serta untuk menempatkan sentuhan. Gamepad Pro tidak pernah membaca, menyimpan, atau mengunggah isi layarmu atau apa yang kamu ketik."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Pemetaan",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Pemetaan tombolku tidak jalan. Apa yang perlu dicek?",
+          "a": [
+            "1. Pastikan Layanan Aksesibilitas aktif (Setelan → Aksesibilitas → Gamepad Pro).",
+            "2. Pastikan pemetaan menyala (tidak dijeda).",
+            "3. Untuk aksi teks, ganti ke keyboard Gamepad Pro.",
+            "4. Kalau sebelumnya jalan lalu berhenti, cek setelan baterai / latar belakang (lihat pertanyaan berikutnya)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Bagaimana cara membuat pemetaan tombol?",
+          "a": [
+            "1. Pilih game atau aplikasi dari daftar.",
+            "2. Ketuk untuk menambah tombol, lalu tekan tombol kontroler yang mau dipakai.",
+            "3. Seret ke titik di layar yang mau diketuk.",
+            "4. Simpan, lalu nyalakan pemetaan dan main."
+          ],
+          "video": "j2qYLNqHtA4",
+          "tiktok": "7695319170019298591"
+        },
+        {
+          "id": "q08",
+          "q": "Bagaimana cara menghapus pemetaan atau tombol bawaan?",
+          "a": [
+            "Ketuk tombol di layar, lalu muncul menu kecil berisi Duplikat dan Hapus. Ketuk Hapus untuk membuangnya. Cara ini juga dipakai untuk menghapus tombol bawaan yang tidak kamu perlukan."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Bagaimana cara memasang screenshot game sebagai latar?",
+          "a": [
+            "Di editor, ketuk tombol gambar (kanan bawah) lalu pilih screenshot dari galeri. Screenshot itu jadi latar, jadi kamu bisa menaruh tiap tombol tepat di titik yang harus diketuk."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Bagaimana cara memetakan stik analog atau trigger L2/R2?",
+          "a": [
+            "Kamu tidak perlu merekamnya — kedua stik dan kedua trigger sudah ada di setiap layout baru. Tinggal seret ke titik yang mau dikontrol, lalu ketuk salah satunya untuk membuka setelannya: stik kanan bisa jadi swipe kamera (default) atau dial gerak, dan sensitivitas serta kurva respons juga diatur di sana. Keyboard Gamepad Pro tetap perlu diaktifkan, karena Layanan Aksesibilitas Android tidak bisa membaca gerakan stik analog atau trigger."
+          ],
+          "video": "rEvNu-S6_CY",
+          "tiktok": "7695320133933354271"
+        },
+        {
+          "id": "q12",
+          "q": "Bagaimana cara memetakan beberapa tombol yang ditekan bersamaan (kombo)?",
+          "a": [
+            "Mulai rekam, lalu tekan tombol-tombolnya bersamaan. Tombol itu disimpan sebagai satu kombo, jadi aksinya hanya terpicu kalau kamu menekannya bersamaan. Kombo juga bisa berfungsi seperti modifier: petakan LB+A dan LB sendiri, lalu tahan LB dan tekan A untuk menjalankan kombo. Selama kombo ditahan, aksi A sendiri tidak jalan, dan aksi LB sendiri menunggu sekitar 0,2 dtk supaya aplikasi bisa membedakan keduanya."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Apa yang terjadi kalau aku menahan tombol kontroler?",
+          "a": [
+            "Secara default, menahan tombol akan menahan sentuhan di titik itu dan baru dilepas saat kamu melepas tombol — tekan cepat jadi tap cepat, tahan lama jadi tekan lama. Cocok untuk membidik, lari, dan serangan yang perlu di-charge. Untuk mengubahnya, ketuk tombol di editor lalu buka ikon roda gigi."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Ketukannya meleset dari posisi. Bagaimana cara menempatkan tombol dengan tepat?",
+          "a": [
+            "Pasang screenshot game sebagai latar, lalu seret tiap tombol ke titik persis yang harus diketuk. Kamu bisa menyeretnya lagi kapan saja untuk menyesuaikan posisinya."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Bagaimana cara menjeda atau melanjutkan pemetaan?",
+          "a": [
+            "Pakai sakelar Layanan pemetaan di bagian atas Beranda untuk menjeda atau melanjutkan semua pemetaan sekaligus. Kalau tidak bisa kembali ke aplikasi, tambahkan sakelar yang sama ke Setelan Cepat agar bisa diakses dari mana saja. Menjeda hanya menghentikan pemetaan — Layanan Aksesibilitas tetap aktif."
+          ],
+          "video": "FMxFD5nLdnw",
+          "tiktok": "7695320891034520863"
+        },
+        {
+          "id": "q21",
+          "q": "Aku tidak bisa bergerak sambil menembak. Apa yang bisa kulakukan?",
+          "a": [
+            "Itu tandanya sentuhan kedua terputus. Perbarui dulu ke versi terbaru — versi baru sudah bisa menjaga kedua sentuhan tetap aktif sendiri. Kalau masih ada yang terputus, buka Setelan › Multi-sentuh lanjutan dan ikuti tiga langkah di sana; halaman itu menunjukkan langkah mana yang belum selesai. Ini opsional, dan pemetaan biasa tetap jalan tanpanya."
+          ],
+          "video": "cOnoseRHaUM",
+          "tiktok": "7695322720493473054"
+        },
+        {
+          "id": "q22",
+          "q": "Ada tombol yang posisinya salah. Bisakah diperbaiki tanpa keluar dari game?",
+          "a": [
+            "Bisa. Ketuk tombol melayang saat main, dan layout-mu muncul di atas game — seret tombol ke posisi yang benar, lalu ketuk tombol melayang lagi untuk menerapkannya. Tekan lama tombol melayang untuk ganti ke layout lain tanpa keluar dari game (butuh minimal dua layout tersimpan)."
+          ],
+          "video": "nz4xZcZ95hY",
+          "tiktok": "7695321174254882079"
+        },
+        {
+          "id": "q24",
+          "q": "Apa saja yang bisa dilakukan satu tombol kontroler?",
+          "a": [
+            "Apa saja. Satu tombol bisa jadi tap tunggal, tahan yang terus menekan layar, turbo yang mengetuk berulang selama ditahan, atau makro yang mengetuk beberapa titik secara berurutan. Stik analog bisa jadi dial gerak atau swipe kamera. Ketuk tombol di editor lalu buka ikon roda gigi untuk memilih."
+          ],
+          "video": "bs5oMvTess8",
+          "tiktok": "7695299425039584543"
+        },
+        {
+          "id": "q27",
+          "q": "Bagaimana cara kerja Phase?",
+          "a": [
+            "Setiap game bisa punya beberapa Phase: satu untuk tempur, satu untuk menyetir, satu untuk menu, dan seterusnya. Phase 1 dipakai saat game dijalankan. Ganti Phase di dalam game dengan kombo pengganti yang kamu atur di profil, atau lewat pil pengalih melayang."
+          ]
+        },
+        {
+          "id": "shizuku",
+          "q": "Apa itu Shizuku, dan apakah aku butuh?",
+          "a": [
+            "Shizuku adalah peningkatan lanjutan yang opsional. Dengan Shizuku, Gamepad Pro bisa menyuntikkan event multi-sentuh lebih langsung, dengan latensi lebih rendah dan pelacakan lebih mulus dibanding jalur aksesibilitas — paling terasa saat memakai dua joystick atau beberapa jalur sentuh sekaligus. Shizuku tidak menggantikan Layanan Aksesibilitas, dan semua pemetaan tetap jalan tanpanya. Di Android 11 ke atas, Shizuku bisa dijalankan lewat debugging nirkabel, tapi biasanya perlu dijalankan ulang setelah perangkat di-reboot."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "title": "Kontroler",
+      "entries": [
+        {
+          "id": "q06",
+          "q": "Ada tombol kontroler yang tidak terdeteksi. Apa yang bisa kulakukan?",
+          "a": [
+            "Versi Android dan perangkat berbeda-beda, jadi beberapa tombol mungkin tidak terdeteksi di hardware tertentu. Coba tombol lain, hubungkan ulang perangkat, atau kabari kami lewat Masukan supaya bisa kami cek."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Kontrolerku sama sekali tidak terdeteksi. Apa yang perlu dicek?",
+          "a": [
+            "Pastikan kontroler terhubung dengan benar lewat Bluetooth atau USB dan sudah dipasangkan di setelan Android. Coba hubungkan ulang dan cek apakah kontroler berfungsi di aplikasi lain. Beberapa kontroler harus dinyalakan dalam mode tertentu."
+          ],
+          "video": "t0HAKJXgRCU",
+          "tiktok": "7695323165261630750"
+        },
+        {
+          "id": "q26",
+          "q": "Stik kiriku menggerakkan mouse yang tidak kelihatan. Bagaimana cara menghentikannya?",
+          "a": [
+            "Beberapa game dan launcher punya dukungan kontroler bawaan dan mengubah stik kiri jadi pointer. Kalau game-nya sudah bisa dipakai dengan kontrolermu, buka profilnya dan matikan pemetaan untuk game itu, atau hapus pemetaan stik kiri. Kalau mau Gamepad Pro yang menanganinya, buka Phase-nya, ketuk keycap stik kiri, lalu pilih Dial gerak."
+          ]
+        },
+        {
+          "id": "q28",
+          "q": "Bisakah aku main game PS5 atau PS4-ku di HP ini?",
+          "a": [
+            "Gamepad Pro tidak bisa melakukannya: aplikasi ini memetakan kontroler fisik ke game layar sentuh, jadi tidak bisa streaming konsol. Untuk itu kami membuat aplikasi terpisah, Relaypad. Relaypad melakukan streaming PS5 atau PS4-mu ke HP ini, tablet, atau TV, di rumah maupun lewat data seluler, dan kamu main pakai gamepad virtual di layar atau kontroler Bluetooth atau USB yang diteruskan ke konsol. Kamu perlu punya konsol sendiri dengan Remote Play yang sudah diaktifkan di pengaturannya. Relaypad gratis diunduh, tanpa iklan, dan tanpa langganan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Bagaimana cara membuat tombol mengetuk otomatis berulang kali (turbo)?",
+          "a": [
+            "Ketuk tombol di editor, buka ikon roda gigi, lalu pilih Turbo. Selama tombol kontroler ditahan, titik itu diketuk terus-menerus sesuai interval yang kamu atur; lepas untuk berhenti. Tombol turbo menampilkan huruf T kecil berwarna ungu di samping nama tombol."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Bagaimana cara membuat satu tombol mengetuk beberapa titik secara berurutan (makro)?",
+          "a": [
+            "Ketuk tombol di editor lalu pilih + untuk menambah langkah makro. Setiap langkah jadi stiker bernomor (1, 2, 3…) yang bisa kamu seret ke titiknya masing-masing. Sekali tekan, semua langkah diketuk secara berurutan; jeda antarlangkah bisa diatur lewat ikon roda gigi. Selama makro berjalan, tekanan tambahan diabaikan sampai makro selesai."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Bagaimana cara mencadangkan dan memulihkan pemetaan?",
+          "a": [
+            "Buka Setelan lalu pilih Cadangkan semua pemetaan untuk menyimpan semua pemetaan ke satu file, atau Pulihkan dari cadangan untuk memuatnya lagi — praktis saat ganti HP atau sebelum instal ulang."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-21"
+}

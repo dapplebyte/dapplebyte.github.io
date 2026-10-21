@@ -103,7 +103,7 @@
           "id": "q08",
           "q": "Come elimino una mappatura o un pulsante predefinito?",
           "a": [
-            "Tocca il pulsante sullo schermo e compare un piccolo menu con Copia ed Elimina. Tocca Elimina per rimuoverlo. Così rimuovi anche i pulsanti predefiniti che non ti servono."
+            "Tocca il pulsante sullo schermo e compare un piccolo menu con Duplicare ed Elimina. Tocca Elimina per rimuoverlo. Così rimuovi anche i pulsanti predefiniti che non ti servono."
           ]
         },
         {
@@ -221,6 +221,13 @@
           "a": [
             "Alcuni giochi e launcher supportano già i controller e trasformano lo stick sinistro in un puntatore. Se il gioco funziona già con il tuo controller, apri il suo profilo e disattiva la mappatura per quel gioco, oppure elimina la mappatura dello stick sinistro. Se preferisci che sia Gamepad Pro a gestirlo, apri lo schema, tocca il tasto dello stick sinistro e scegli Disco di movimento."
           ]
+        },
+        {
+          "id": "q28",
+          "q": "Posso giocare ai miei giochi PS5 o PS4 su questo telefono?",
+          "a": [
+            "Non con Gamepad Pro: associa un controller fisico ai giochi touch e non può trasmettere una console. Per questo abbiamo fatto un'app a parte, Relaypad. Trasmette la tua PS5 o PS4 su questo telefono, tablet o TV, a casa o con i dati mobili, e giochi con il pad a schermo oppure con un gamepad Bluetooth o USB inoltrato alla console. Ti serve una console tua con la Riproduzione remota attivata nelle impostazioni. Relaypad si scarica gratis, senza pubblicità né abbonamenti."
+          ]
         }
       ]
     },
@@ -246,11 +253,11 @@
           "id": "q20",
           "q": "Come eseguo backup e ripristino delle mappature?",
           "a": [
-            "Apri il menu e scegli Backup per salvare tutte le mappature in un file, o Ripristina per ricaricarle – utile quando cambi telefono o prima di reinstallare."
+            "Apri le Impostazioni e scegli Backup di tutte le mappature per salvare tutte le mappature in un file, o Ripristina da backup per ricaricarle – utile quando cambi telefono o prima di reinstallare."
           ]
         }
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

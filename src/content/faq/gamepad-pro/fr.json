@@ -103,7 +103,7 @@
           "id": "q08",
           "q": "Comment supprimer un mappage ou un bouton prédéfini ?",
           "a": [
-            "Appuie sur le bouton à l'écran et un petit menu apparaît avec Copier et Supprimer. Appuie sur Supprimer pour l'enlever. C'est aussi ainsi qu'on retire les boutons prédéfinis dont on n'a pas besoin."
+            "Appuie sur le bouton à l'écran et un petit menu apparaît avec Dupliquer et Supprimer. Appuie sur Supprimer pour l'enlever. C'est aussi ainsi qu'on retire les boutons prédéfinis dont on n'a pas besoin."
           ]
         },
         {
@@ -221,6 +221,13 @@
           "a": [
             "Certains jeux et lanceurs gèrent nativement les manettes et transforment le stick gauche en pointeur. Si le jeu fonctionne déjà avec votre manette, ouvrez son profil et désactivez le mappage pour ce jeu, ou supprimez le mappage du stick gauche. Si vous préférez que Gamepad Pro s'en charge, ouvrez la phase, touchez la touche du stick gauche et choisissez Disque de déplacement."
           ]
+        },
+        {
+          "id": "q28",
+          "q": "Puis-je jouer à mes jeux PS5 ou PS4 sur ce téléphone ?",
+          "a": [
+            "Pas avec Gamepad Pro : il associe une manette physique à des jeux tactiles et ne peut pas diffuser une console en streaming. Pour cela, nous avons fait une application à part, Relaypad. Elle diffuse votre PS5 ou PS4 sur ce téléphone, une tablette ou une TV, à la maison ou en données mobiles, et vous jouez avec la manette virtuelle à l'écran ou avec une manette Bluetooth ou USB transmise à la console. Il vous faut votre propre console, avec la Lecture à distance activée dans ses paramètres. Relaypad se télécharge gratuitement, sans publicité ni abonnement."
+          ]
         }
       ]
     },
@@ -246,11 +253,11 @@
           "id": "q20",
           "q": "Comment sauvegarder et restaurer mes mappages ?",
           "a": [
-            "Ouvre le menu et choisis Sauvegarder pour enregistrer tous tes mappages dans un fichier, ou Restaurer pour les recharger – pratique en changeant de téléphone ou avant une réinstallation."
+            "Ouvre les Paramètres et choisis Sauvegarder tous les mappages pour enregistrer tous tes mappages dans un fichier, ou Restaurer une sauvegarde pour les recharger – pratique en changeant de téléphone ou avant une réinstallation."
           ]
         }
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

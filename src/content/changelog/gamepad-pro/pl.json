@@ -3,6 +3,18 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 196,
+      "name": "1.9.6",
+      "date": "2026-10-19",
+      "items": [
+        "Nowy wygląd wszystkich ekranów oraz układy poziome i na tablety.",
+        "32 języki. Język aplikacji wybierzesz w Ustawieniach.",
+        "Edytor: zwijany pasek narzędzi, układy pionowe lub poziome, przytrzymaj klawisz w grze, by go dostroić.",
+        "Pro nie znika przy kilku kontach Google. W Ustawieniach dodano „Przywróć zakup”.",
+        "Naprawiono powracanie pływającego przełącznika po zamknięciu i klawiaturę Gamepad Pro, która zostawała po wyłączeniu usługi."
+      ]
+    },
+    {
       "code": 195,
       "name": "1.9.5",
       "date": "2026-10-10",
@@ -63,5 +75,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

@@ -3,6 +3,18 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 196,
+      "name": "1.9.6",
+      "date": "2026-10-19",
+      "items": [
+        "Tüm ekranlar yenilendi; yatay ve tablet düzenleri eklendi.",
+        "Artık 32 dilde. Uygulama dilini Ayarlar'dan seçin.",
+        "Düzenleyici: araç çubuğu gizlenebiliyor, düzenler dikey ya da yatay olabiliyor, oyunda tuşa uzun basıp ince ayar yapılabiliyor.",
+        "Birden fazla Google hesabında da Pro açık kalıyor. Ayarlar'a \"Satın alımı geri yükle\" eklendi.",
+        "Yüzen düzen seçicinin kapatıldıktan sonra geri gelmesi ve hizmet kapanınca klavyenin Gamepad Pro'da takılı kalması düzeltildi."
+      ]
+    },
+    {
       "code": 195,
       "name": "1.9.5",
       "date": "2026-10-10",
@@ -63,5 +75,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

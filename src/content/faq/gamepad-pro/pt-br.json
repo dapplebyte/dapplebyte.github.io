@@ -103,7 +103,7 @@
           "id": "q08",
           "q": "Como excluo um mapeamento ou um botão predefinido?",
           "a": [
-            "Toque no botão na tela e aparece um pequeno menu com Copiar e Excluir. Toque em Excluir para removê-lo. É assim também que você remove os botões predefinidos que não precisa."
+            "Toque no botão na tela e aparece um pequeno menu com Duplicado e Excluir. Toque em Excluir para removê-lo. É assim também que você remove os botões predefinidos que não precisa."
           ]
         },
         {
@@ -221,6 +221,13 @@
           "a": [
             "Alguns jogos e launchers têm suporte nativo a controle e transformam o analógico esquerdo em um ponteiro. Se o jogo já funciona com o seu controle, abra o perfil dele e desative o mapeamento para esse jogo, ou exclua o mapeamento do analógico esquerdo. Se preferir que o Gamepad Pro cuide disso, abra o esquema, toque na tecla do analógico esquerdo e escolha Disco de movimento."
           ]
+        },
+        {
+          "id": "q28",
+          "q": "Posso jogar meus jogos de PS5 ou PS4 neste telefone?",
+          "a": [
+            "Com o Gamepad Pro, não: ele mapeia um controle físico para jogos de toque e não consegue transmitir um console. Para isso fizemos um app separado, o Relaypad. Ele transmite seu PS5 ou PS4 para este telefone, tablet ou TV, em casa ou pelos dados móveis, e você joga com o controle na tela ou com um controle Bluetooth ou USB repassado ao console. Você precisa ter seu próprio console com a Reprodução Remota ativada nas configurações. O Relaypad tem download gratuito, sem anúncios nem assinatura."
+          ]
         }
       ]
     },
@@ -246,11 +253,11 @@
           "id": "q20",
           "q": "Como faço backup e restauro meus mapeamentos?",
           "a": [
-            "Abra o menu e escolha Backup para salvar todos os mapeamentos em um arquivo, ou Restaurar para carregá-los de novo — útil ao trocar de telefone ou antes de reinstalar."
+            "Abra as Configurações e escolha Fazer backup de todos os mapeamentos para salvar todos os mapeamentos em um arquivo, ou Restaurar do backup para carregá-los de novo — útil ao trocar de telefone ou antes de reinstalar."
           ]
         }
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

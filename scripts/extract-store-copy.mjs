@@ -16,7 +16,7 @@
 //   SlopSwipe is the plain `bold` shape with `taglineFromTitle` (10 headings; the last one is the support line).
 // Every email address in the copy is replaced with the product's `contactEmail` (products/<slug>.json):
 // a listing may still name the developer's own mailbox, and the site shows the studio address.
-// - `emoji` (Gamepad Pro): no <b> tags. The first three paragraphs are the intro (the first one starts
+// - `emoji` (Gamepad Pro): no <b> tags. The first `introParagraphs` paragraphs are the intro (the first one starts
 //   with 👍); after that every block starts with an `<emoji> Title` line, followed by paragraphs,
 //   `•` bullets or a `1.` numbered list (kept as bullets).
 import { existsSync, readFileSync } from 'node:fs';
@@ -117,7 +117,8 @@ const CONFIG = {
   },
   'gamepad-pro': {
     format: 'emoji',
-    introParagraphs: 3,
+    /** Two intro paragraphs since the 2026-10-18 ASO rewrite (three before). */
+    introParagraphs: 2,
     ids: [
       'intro',
       'drag-map-play',
@@ -155,9 +156,14 @@ const STARTS_WITH_QUOTE = /^[“"«„‚‘'「『‹]/u;
 const stripEmoji = (s) => s.replace(LEADING_EMOJI, '').replace(TRAILING_EMOJI, '').trim();
 
 /** Words whose spelling must survive the sentence-case conversion. Matched case-insensitively. */
-const KEEP = ['Gamepad Pro', 'Android', 'Shizuku', 'ADB', 'L2/R2', 'D-pad', 'USB', 'MOBA', 'MMORPG', 'RPG'];
+const KEEP = [
+  'Gamepad Pro', 'Android', 'Shizuku', 'ADB', 'L2/R2', 'D-pad', 'USB', 'MOBA', 'MMORPG', 'RPG',
+  // Brands and game names in the 2026-10-18 Gamepad Pro headings
+  'Xbox', 'PlayStation', 'Nintendo', 'BGMI', 'PUBG Mobile', 'PUBG', 'Free Fire', 'Genshin Impact', 'Genshin', 'Mobile Legends', 'Wild Rift', 'Bluetooth',
+];
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&');
-const KEEP_RE = new RegExp(`(?<![\\p{L}\\p{N}])(?:${KEEP.map(escapeRe).join('|')})(?![\\p{L}\\p{N}])`, 'giu');
+// Longest first, so "PUBG Mobile" wins over "PUBG" and "Genshin Impact" over "Genshin".
+const KEEP_RE = new RegExp(`(?<![\\p{L}\\p{N}])(?:${[...KEEP].sort((a, b) => b.length - a.length).map(escapeRe).join('|')})(?![\\p{L}\\p{N}])`, 'giu');
 const canonical = (m) => KEEP.find((k) => k.toLowerCase() === m.toLowerCase()) ?? m;
 
 /**
@@ -170,10 +176,13 @@ function sentenceCase(title, lang) {
   if (lang === 'de') return title;
   const rest = title.replace(KEEP_RE, '').replace(/\broot\b/g, '');
   if (!/\p{Lu}/u.test(rest) || /\p{Ll}/u.test(rest)) return title;
-  let out = title.toLocaleLowerCase(lang);
+  // Take the protected words out before lower-casing: Turkish lower-cases "I" to dotless "ı", after which
+  // "PLAYSTATION" would no longer match "PlayStation" and come back as "playstatıon".
+  const kept = [];
+  let out = title.replace(KEEP_RE, (m) => `\u0000${kept.push(canonical(m)) - 1}\u0000`).toLocaleLowerCase(lang);
   // Capitalise the first letter of the line and of each sentence ("Drag. Map. Play.").
-  out = out.replace(/(^|[.!?]\s+)([^\p{L}]*)(\p{L})/gu, (_, a, b, c) => a + b + c.toLocaleUpperCase(lang));
-  return out.replace(KEEP_RE, canonical);
+  out = out.replace(/(^|[.!?]\s+)([^\p{L}\u0000]*)(\p{L})/gu, (_, a, b, c) => a + b + c.toLocaleUpperCase(lang));
+  return out.replace(/\u0000(\d+)\u0000/g, (_, i) => kept[Number(i)]);
 }
 
 function parseBold(text, ids, cfg = {}) {

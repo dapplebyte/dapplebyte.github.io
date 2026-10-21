@@ -103,7 +103,7 @@
           "id": "q08",
           "q": "How do I delete a key mapping or a preset button?",
           "a": [
-            "Tap the button on the screen and a small menu appears with Copy and Delete. Tap Delete to remove it. This is also how you remove the preset buttons you don't need."
+            "Tap the button on the screen and a small menu appears with Duplicate and Delete. Tap Delete to remove it. This is also how you remove the preset buttons you don't need."
           ]
         },
         {
@@ -221,6 +221,13 @@
           "a": [
             "Some games and launchers have built-in controller support and turn the left stick into a pointer. If the game already works with your controller, open its profile and turn mapping off for that game, or delete the left-stick mapping. If you want Gamepad Pro to handle it instead, open the phase, tap the left stick keycap and choose Movement dial."
           ]
+        },
+        {
+          "id": "q28",
+          "q": "Can I play my PS5 or PS4 games on this phone?",
+          "a": [
+            "Not with Gamepad Pro: it maps a physical controller to touch-screen games and can't stream a console. For that we made a separate app, Relaypad. It streams your PS5 or PS4 to this phone, tablet or TV, at home or over mobile data, and you play with the on-screen pad or with a Bluetooth or USB controller forwarded to the console. You need your own console with Remote Play turned on in its settings. Relaypad is free to download, with no ads and no subscription."
+          ]
         }
       ]
     },
@@ -246,11 +253,11 @@
           "id": "q20",
           "q": "How do I back up and restore my mappings?",
           "a": [
-            "Open the menu and choose Back up to save all your mappings to a file, or Restore to load them again — handy when switching phones or before reinstalling."
+            "Open Settings and choose Back up all mappings to save every game's phases to one file, or Restore from backup to load them again — handy when switching phones or before reinstalling."
           ]
         }
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

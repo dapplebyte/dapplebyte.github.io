@@ -3,6 +3,18 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 196,
+      "name": "1.9.6",
+      "date": "2026-10-19",
+      "items": [
+        "Elk scherm opnieuw ontworpen, met indelingen voor liggend en tablet.",
+        "Nu in 32 talen. Kies de app-taal in Instellingen.",
+        "Editor: werkbalk is in te klappen, indelingen kunnen staand of liggend, houd in de game een toets vast om hem bij te stellen.",
+        "Pro blijft ontgrendeld met meerdere Google-accounts. Aankoop herstellen staat nu in Instellingen.",
+        "Opgelost: zwevende wisselaar kwam terug na sluiten, en het toetsenbord bleef op Gamepad Pro hangen als de service uit was."
+      ]
+    },
+    {
       "code": 195,
       "name": "1.9.5",
       "date": "2026-10-10",
@@ -63,5 +75,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

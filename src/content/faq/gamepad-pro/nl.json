@@ -103,7 +103,7 @@
           "id": "q08",
           "q": "Hoe verwijder ik een toewijzing of een vooraf ingestelde knop?",
           "a": [
-            "Tik op de knop op het scherm en er verschijnt een klein menu met Kopiëren en Verwijderen. Tik op Verwijderen om hem te wissen. Zo verwijder je ook de vooraf ingestelde knoppen die je niet nodig hebt."
+            "Tik op de knop op het scherm en er verschijnt een klein menu met Dupliceren en Verwijderen. Tik op Verwijderen om hem te wissen. Zo verwijder je ook de vooraf ingestelde knoppen die je niet nodig hebt."
           ]
         },
         {
@@ -221,6 +221,13 @@
           "a": [
             "Sommige games en launchers hebben ingebouwde controllerondersteuning en maken van de linkerstick een aanwijzer. Werkt de game al met je controller, open dan het profiel en zet de toewijzing voor die game uit, of verwijder de toewijzing van de linkerstick. Wil je dat Gamepad Pro het overneemt, open dan de indeling, tik op de toetskap van de linkerstick en kies Bewegingsschijf."
           ]
+        },
+        {
+          "id": "q28",
+          "q": "Kan ik mijn PS5- of PS4-games op deze telefoon spelen?",
+          "a": [
+            "Niet met Gamepad Pro: het koppelt een fysieke controller aan touchgames, dus een console streamen kan het niet. Daarvoor maakten we een aparte app: Relaypad. Die streamt je PS5 of PS4 naar deze telefoon, een tablet of tv, thuis of via mobiele data, en je speelt met de gamepad op het scherm of met een Bluetooth- of USB-controller die je doorstuurt naar de console. Je hebt een eigen console nodig waarop Remote Play is ingeschakeld in de instellingen. Relaypad is gratis te downloaden, zonder advertenties en zonder abonnement."
+          ]
         }
       ]
     },
@@ -246,11 +253,11 @@
           "id": "q20",
           "q": "Hoe maak ik een back-up van mijn toewijzingen en zet ik ze terug?",
           "a": [
-            "Open het menu en kies Back-up om al je toewijzingen in een bestand op te slaan, of Herstellen om ze opnieuw te laden – handig bij het wisselen van telefoon of vóór een herinstallatie."
+            "Open Instellingen en kies Alle mappings back-uppen om al je toewijzingen in een bestand op te slaan, of Herstellen vanuit back-up om ze opnieuw te laden – handig bij het wisselen van telefoon of vóór een herinstallatie."
           ]
         }
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

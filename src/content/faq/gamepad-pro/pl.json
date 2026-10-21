@@ -103,7 +103,7 @@
           "id": "q08",
           "q": "Jak usunąć mapowanie lub gotowy przycisk?",
           "a": [
-            "Dotknij przycisku na ekranie, a pojawi się małe menu z opcjami Kopiuj i Usuń. Dotknij Usuń, aby go usunąć. Tak też usuwasz gotowe przyciski, których nie potrzebujesz."
+            "Dotknij przycisku na ekranie, a pojawi się małe menu z opcjami Duplikuj i Usuń. Dotknij Usuń, aby go usunąć. Tak też usuwasz gotowe przyciski, których nie potrzebujesz."
           ]
         },
         {
@@ -221,6 +221,13 @@
           "a": [
             "Niektóre gry i launchery mają wbudowaną obsługę kontrolerów i zamieniają lewy drążek we wskaźnik. Jeśli gra już działa z Twoim kontrolerem, otwórz jej profil i wyłącz mapowanie dla tej gry albo usuń mapowanie lewego drążka. Jeśli wolisz, żeby obsługiwał to Gamepad Pro, otwórz układ, dotknij przycisku lewego drążka i wybierz Tarcza ruchu."
           ]
+        },
+        {
+          "id": "q28",
+          "q": "Czy mogę grać w gry z PS5 lub PS4 na tym telefonie?",
+          "a": [
+            "Nie z Gamepad Pro: ta aplikacja mapuje fizyczny kontroler na gry dotykowe, więc nie streamuje obrazu z konsoli. Do tego zrobiliśmy osobną aplikację: Relaypad. Przesyła obraz z Twojej PS5 lub PS4 na ten telefon, tablet lub telewizor, w domu lub przez dane mobilne, a grasz na wirtualnym padzie na ekranie albo kontrolerem Bluetooth lub USB przekazywanym do konsoli. Potrzebujesz własnej konsoli z włączoną w ustawieniach funkcją Remote Play. Relaypad można pobrać za darmo, bez reklam i bez subskrypcji."
+          ]
         }
       ]
     },
@@ -246,11 +253,11 @@
           "id": "q20",
           "q": "Jak utworzyć kopię zapasową i przywrócić mapowania?",
           "a": [
-            "Otwórz menu i wybierz Kopia zapasowa, aby zapisać wszystkie mapowania do pliku, lub Przywróć, aby wczytać je ponownie – przydatne przy zmianie telefonu lub przed ponowną instalacją."
+            "Otwórz Ustawienia i wybierz Kopia zapasowa wszystkich mapowań, aby zapisać wszystkie mapowania do pliku, lub Przywróć z kopii zapasowej, aby wczytać je ponownie – przydatne przy zmianie telefonu lub przed ponowną instalacją."
           ]
         }
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }
