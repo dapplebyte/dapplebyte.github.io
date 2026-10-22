@@ -23,6 +23,13 @@
           ]
         },
         {
+          "id": "phone_as_controller",
+          "q": "Tôi không có tay cầm. Có dùng điện thoại làm tay cầm được không?",
+          "a": [
+            "Ứng dụng này thì không — Gamepad Tester chỉ kiểm tra tay cầm thật. Ứng dụng JoyLink riêng của chúng tôi biến điện thoại thành tay cầm Bluetooth, bàn di và điều khiển TV cho Windows, Mac, Linux, Android TV và các thiết bị Android khác, bên kia không cần cài gì cả."
+          ]
+        },
+        {
           "id": "unknown_name",
           "q": "Tay cầm hiện là “Thiết bị không xác định” hoặc một mã model khó hiểu",
           "a": [
@@ -290,6 +297,13 @@
           ]
         },
         {
+          "id": "play_console_on_phone",
+          "q": "Tôi có chơi PS5 hoặc PS4 trên điện thoại này được không?",
+          "a": [
+            "Ứng dụng này thì không. Ứng dụng Relaypad riêng của chúng tôi truyền hình ảnh PS5 hoặc PS4 của bạn lên điện thoại này, ở nhà hay bằng dữ liệu di động đều được, dùng nút ảo trên màn hình hoặc tay cầm Bluetooth hay USB của bạn. Bạn cần có máy chơi game của riêng mình và đã bật Remote Play."
+          ]
+        },
+        {
           "id": "tool_unsupported",
           "q": "Vì sao vài công cụ báo là không hỗ trợ trên điện thoại của tôi?",
           "a": [
@@ -306,5 +320,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

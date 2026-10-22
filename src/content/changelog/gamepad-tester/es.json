@@ -3,6 +3,18 @@
   "locale": "es",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Nuevo diseño con la pantalla de inicio renovada y un nuevo icono",
+        "Novedad: elige un color de énfasis en Ajustes",
+        "Toca la tarjeta del mando en la pantalla de inicio para ver sus detalles",
+        "La prueba de distribución de botones ahora dibuja el contorno del mando e incluye la distribución de Switch",
+        "Mejor diseño en tablets y en horizontal, y arranque más rápido"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

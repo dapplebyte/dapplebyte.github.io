@@ -12,11 +12,12 @@
     { "code": 122, "name": "1.2.2", "date": "2026-09-07" },
     { "code": 123, "name": "1.2.3", "date": "2026-09-13" },
     { "code": 124, "name": "1.2.4", "date": "2026-09-18" },
-    { "code": 125, "name": "1.2.5", "date": "2026-10-13" }
+    { "code": 125, "name": "1.2.5", "date": "2026-10-13" },
+    { "code": 126, "name": "1.2.6", "date": "2026-10-22" }
   ],
   "contactEmail": "feedback@dapplebyte.com",
   "accent": { "solid": "#1CCB95", "bright": "#3DDFA8", "ink": "#05110D" },
-  "screenshotCount": 5,
+  "screenshotCount": 6,
   "screenshotOrientation": "portrait",
   "featuredFaq": ["no_device_detected", "how_drift_measured", "drift_threshold", "what_latency_measures", "no_vibration", "pro_subscription"],
   "trademark": "controllers",

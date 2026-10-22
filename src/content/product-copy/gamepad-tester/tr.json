@@ -2,14 +2,14 @@
   "slug": "gamepad-tester",
   "locale": "tr",
   "title": "Gamepad Tester Pro: Oyun Kolu",
-  "shortDescription": "Oyun kolu ve joystick testi: stick drift, tuş, input lag, titreşim, ölü bölge",
-  "tagline": "Android için oyun kolu, joystick ve stick drift testi",
+  "shortDescription": "Kontrolcü ve joystick testi: tuş, stick drift, tetik ve titreşim çalışıyor mu?",
+  "tagline": "Android için oyun kolu ve kontrolcü testi",
   "sections": [
     {
       "id": "intro",
-      "title": "Android için oyun kolu, joystick ve stick drift testi",
+      "title": "Android için oyun kolu ve kontrolcü testi",
       "paragraphs": [
-        "Bluetooth, USB veya OTG ile bağlı her oyun kolunu Android telefon veya tabletinizde saniyeler içinde test edin. Gamepad Tester Pro eksiksiz bir kontrolcü ve joystick test aracıdır: tuşlar, analog çubuklar, stick drift, ölü bölge, tetikler, titreşim, giriş gecikmesi (input lag) ve polling rate. Sonunda sağlık puanı ve paylaşılabilir bir rapor alırsınız. Xbox, PlayStation (DualShock 4, DualSense), Switch Pro ve genel gamepad'lerle çalışır."
+        "Oyun kolunuz çalışıyor mu? Xbox, PlayStation (DualShock 4, DualSense), Switch Pro veya herhangi bir gamepad'i Bluetooth, USB ya da OTG ile eşleştirin veya takın; her tuşun, çubuğun ve tetiğin tepkisini saniyeler içinde ekranda görün. Ardından Gamepad Tester Pro stick drift, ölü bölge, titreşim, giriş gecikmesi (input lag) ve polling rate'i kontrol eder, sağlık puanı verir ve paylaşılabilir rapor hazırlar."
       ],
       "bullets": []
     },
@@ -18,10 +18,12 @@
       "title": "Uygulama en çok ne için açılıyor",
       "paragraphs": [],
       "bullets": [
-        "İkinci el oyun kolu almadan ya da satmadan önce stick drift ve ölü bölge kontrolü",
+        "İkinci el kol almadan ya da satmadan önce stick drift ve ölü bölge kontrolü",
         "Yeni gamepad'i iade veya garanti süresi dolmadan doğrulama",
         "Kaçan girdi, çift basma, takılan tuş ya da ölü tetik teşhisi",
-        "Dereceli maç öncesi Bluetooth ile USB polling rate ve input lag karşılaştırması"
+        "Dereceli maç öncesi Bluetooth ile USB polling rate ve input lag karşılaştırması",
+        "Kol çalışmıyor veya algılanmıyor mu? Oyunu suçlamadan önce Android'in girdi alıp almadığını görün",
+        "Emülatör veya remote play kurarken tuş kodlu canlı gamepad görüntüleyici"
       ]
     },
     {
@@ -29,9 +31,9 @@
       "title": "Tam oyun kolu testi ve sağlık puanı",
       "paragraphs": [],
       "bullets": [
-        "Tuşlar, D-pad, analog çubuklar, L2/R2 tetikleri, drift ve titreşim için tek yönlendirmeli test",
-        "Madde madde sonuç veren genel sağlık puanı, Test Geçmişi'ne otomatik kaydedilir",
-        "Destek, onarım veya satış ilanı için görsel test raporunu paylaşın"
+        "Tuşlar, D-pad, analog çubuklar, L2/R2 tetikleri, stick drift ve titreşim için tek yönlendirmeli test",
+        "Madde madde sağlık puanı, Test Geçmişi'ne otomatik kaydedilir",
+        "Destek, onarım veya satış ilanı için görsel test raporunu dışa aktarın"
       ]
     },
     {
@@ -39,8 +41,8 @@
       "title": "Gerçek zamanlı tuş testi ve joystick testi",
       "paragraphs": [],
       "bullets": [
-        "Her basma, bırakma ve Android tuş kodu anında ekranda",
-        "İki analog çubuk, eksenler, D-pad ve analog tetik basıncı tek bakışta",
+        "Her basma, bırakma ve Android tuş kodu anında, tuş geçmişiyle",
+        "İki analog çubuk, eksenler, D-pad ve analog tetik basıncı canlı",
         "Xbox, PlayStation, genel gamepad ve TV kumandası düzenleri"
       ]
     },
@@ -50,7 +52,7 @@
       "paragraphs": [],
       "bullets": [
         "Canlı çubuk konumu, boştaki sapma ve ölü bölge kılavuzu",
-        "Gelişmiş çubuk analizi: kapsama, dairesellik hatası, yarıçap aralığı ve ölü bölge tahmini"
+        "Gelişmiş analiz: kapsama, dairesellik hatası, yarıçap aralığı, ölü bölge tahmini"
       ]
     },
     {
@@ -58,8 +60,8 @@
       "title": "Giriş gecikmesi (input lag) ve polling rate testi",
       "paragraphs": [],
       "bullets": [
-        "Hz cinsinden tahmini polling rate; ortalama, en düşük ve en yüksek girdi aralığı",
-        "Gelişmiş örnekleme: jitter, aralık histogramı, Bluetooth–USB oturum karşılaştırması, CSV dışa aktarma"
+        "Hz cinsinden polling rate; ortalama, en düşük, en yüksek girdi aralığı",
+        "Gelişmiş örnekleme: jitter, aralık histogramı, Bluetooth–USB karşılaştırması, CSV dışa aktarma"
       ]
     },
     {
@@ -67,8 +69,8 @@
       "title": "Titreşim testi ve titreşim stüdyosu",
       "paragraphs": [],
       "bullets": [
-        "Sol ve sağ titreşim motorunun gücünü ayrı ayrı test edin",
-        "Titreşim stüdyosu: çok bölümlü çift motor desenleri kurun, döngüye alın ve kaydedin"
+        "Sol ve sağ titreşim motorunu ayrı ayrı test edin",
+        "Titreşim Stüdyosu: çok bölümlü çift motor desenleri kurun, döngüye alın, kaydedin"
       ]
     },
     {
@@ -76,9 +78,9 @@
       "title": "LED Işık Testi (Bluetooth ile PlayStation)",
       "paragraphs": [],
       "bullets": [
-        "Işık çubuğunun rengini ayarlayın, sonra düz renk, renk geçişi ve nefes testlerini çalıştırın",
+        "Işık çubuğu rengini ayarlayın, sonra düz renk, renk geçişi ve nefes testi yapın",
         "Sönük noktaları, renk kaymasını, sıçramaları veya titremeyi görün",
-        "Bluetooth ile DualShock 4 ya da DualSense ve Android 12+ gerekir. Kabloyla PS, Xbox ve çoğu kolda Android ışığı açmaz: uygulama tepkisiz bir renk seçici göstermek yerine nedenini anlatır."
+        "Bluetooth ile DualShock 4 ya da DualSense ve Android 12+ gerekir. Kabloyla PS, Xbox ve diğer kollarda Android ışığa erişim vermez; uygulama nedenini açıklar."
       ]
     },
     {
@@ -86,15 +88,15 @@
       "title": "Jiroskop, dokunmatik yüzey ve iki kolu karşılaştırma",
       "paragraphs": [],
       "bullets": [
-        "DualShock 4, DualSense ve Switch Pro için jiroskop, ivmeölçer ve eğim düzeyi (Android 12+)",
-        "Çoklu dokunma izleri ve basma sayacıyla dokunmatik yüzey testi"
+        "DualShock 4, DualSense ve Switch Pro için jiroskop, ivmeölçer ve eğim (Android 12+)",
+        "Çoklu dokunma izleriyle dokunmatik yüzey testi"
       ]
     },
     {
       "id": "controller-info",
       "title": "Oyun kolu bilgileri ve sağlık eğilimi",
       "paragraphs": [
-        "Marka, cihaz adı, Vendor ID, Product ID, bağlantı türü, eksenler, tuş sayısı, titreşim desteği ve bildiriliyorsa pil düzeyi görüntülenir. Test Geçmişi her oyun kolu için sağlık puanını ve drift eğilimini izler, bozulmaya başlayan çubuğu erkenden fark edersiniz."
+        "Marka, cihaz adı, Vendor ID, Product ID, bağlantı türü, eksenler, tuş sayısı, titreşim ve bildiriliyorsa pil düzeyi gösterilir. Test Geçmişi her kolun puanını ve drift eğilimini izler, bozulmaya başlayan çubuğu erkenden fark edersiniz."
       ],
       "bullets": []
     },
@@ -103,20 +105,20 @@
       "title": "Lütfen dikkat",
       "paragraphs": [],
       "bullets": [
-        "Özellikler oyun kolu modeline, bağlantı türüne, Android sürümüne ve telefon markasına göre değişir. Bazı kollar pil, titreşim, hareket sensörü veya dokunmatik yüzey bilgisini Android'e bildirmez.",
+        "Özellikler kol modeline, bağlantıya, Android sürümüne ve telefona göre değişir. Bazı kollar pil, titreşim, sensör veya dokunmatik yüzey bilgisi vermez.",
         "Uygulama yalnızca girdi okur; tuş ataması değiştiremez, yazılım güncelleyemez, donanım onaramaz.",
         "Temel testler reklamlıdır ve ödeme gerektirmez. Pro tek seferlik bir satın almadır: reklamları kaldırır; gelişmiş tanılama, sağlık eğilimi, CSV dışa aktarma ve kayıtlı titreşim desenlerini açar.",
-        "Xbox, PlayStation, DualShock, DualSense ve Nintendo Switch sahiplerinin ticari markalarıdır. Bu uygulamanın Microsoft, Sony veya Nintendo ile bir bağlantısı yoktur."
+        "Xbox, PlayStation, DualShock, DualSense ve Nintendo Switch sahiplerinin ticari markalarıdır. Uygulamanın Microsoft, Sony veya Nintendo ile bağlantısı yoktur."
       ]
     },
     {
       "id": "support",
       "title": "Bir şey çalışmıyor mu?",
       "paragraphs": [
-        "Oyun kolunuz algılanmıyorsa veya bir sonuç yanlış görünüyorsa, yorum bırakmadan önce feedback@dapplebyte.com adresine yazın. Oyun kolu ve telefon modelinizi belirtin, yardımcı olalım. Sorunların çoğunu bir sonraki güncellemede çözüyoruz."
+        "Kolunuz algılanmıyorsa veya bir sonuç yanlış görünüyorsa, yorum bırakmadan önce feedback@dapplebyte.com adresine yazın. Kol ve telefon modelinizi belirtin, yardımcı olalım."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

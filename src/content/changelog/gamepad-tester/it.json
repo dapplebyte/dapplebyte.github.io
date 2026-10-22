@@ -3,6 +3,18 @@
   "locale": "it",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Nuovo design con schermata iniziale rinnovata e nuova icona",
+        "Novità: scegli il colore d'accento nelle Impostazioni",
+        "Tocca la scheda del controller nella schermata iniziale per vederne i dettagli",
+        "Il test layout pulsanti ora disegna il profilo del controller e include il layout Switch",
+        "Layout migliori su tablet e in orizzontale, avvio più rapido"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

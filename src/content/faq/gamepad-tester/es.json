@@ -23,6 +23,13 @@
           ]
         },
         {
+          "id": "phone_as_controller",
+          "q": "No tengo mando. ¿Puedo usar mi teléfono como mando?",
+          "a": [
+            "Con esta app no: Gamepad Tester solo comprueba mandos físicos. Nuestra otra app, JoyLink, convierte el teléfono en un mando Bluetooth, panel táctil y mando a distancia de TV para Windows, Mac, Linux, Android TV y otros dispositivos Android, sin instalar nada en el otro equipo."
+          ]
+        },
+        {
           "id": "unknown_name",
           "q": "El mando aparece como «Dispositivos desconocidos» o como un código de modelo",
           "a": [
@@ -290,6 +297,13 @@
           ]
         },
         {
+          "id": "play_console_on_phone",
+          "q": "¿Puedo jugar a mi PS5 o PS4 en este teléfono?",
+          "a": [
+            "Con esta app no. Nuestra otra app, Relaypad, transmite tu PS5 o PS4 a este teléfono, en casa o con datos móviles, con controles en pantalla o con tu mando Bluetooth o USB. Necesitas tu propia consola con Remote Play activado."
+          ]
+        },
+        {
           "id": "tool_unsupported",
           "q": "¿Por qué algunas herramientas dicen que no son compatibles con mi teléfono?",
           "a": [
@@ -306,5 +320,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

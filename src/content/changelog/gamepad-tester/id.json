@@ -3,6 +3,18 @@
   "locale": "id",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Desain baru dengan layar utama yang diperbarui dan ikon aplikasi baru",
+        "Baru: pilih warna aksen di Pengaturan",
+        "Ketuk kartu kontroler di layar utama untuk melihat detailnya",
+        "Tes Tata Letak Tombol kini menggambar garis kontroler dengan jelas, plus tata letak Switch",
+        "Tampilan lebih baik di tablet dan mode lanskap, serta pembukaan lebih cepat"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

@@ -23,6 +23,13 @@
           ]
         },
         {
+          "id": "phone_as_controller",
+          "q": "Oyun kolum yok. Telefonumu oyun kolu olarak kullanabilir miyim?",
+          "a": [
+            "Bu uygulamayla olmaz; Gamepad Tester yalnızca fiziksel bir oyun kolunu test eder. Ayrı uygulamamız JoyLink, telefonu Windows, Mac, Linux, Android TV ve diğer Android cihazlar için Bluetooth oyun kolu, dokunmatik yüzey ve TV kumandasına dönüştürür; karşı tarafa hiçbir şey kurmanız gerekmez."
+          ]
+        },
+        {
           "id": "unknown_name",
           "q": "Oyun kolu “Bilinmeyen cihazlar” ya da ham bir model kodu olarak görünüyor",
           "a": [
@@ -290,6 +297,13 @@
           ]
         },
         {
+          "id": "play_console_on_phone",
+          "q": "PS5 veya PS4 oyunlarımı bu telefonda oynayabilir miyim?",
+          "a": [
+            "Bu uygulamayla olmaz. Ayrı uygulamamız Relaypad, PS5 veya PS4'ünüzü bu telefona aktarır; evde ya da mobil veriyle, ekran kontrolleriyle veya Bluetooth ya da USB oyun kolunuzla oynayabilirsiniz. Remote Play özelliği açık, size ait bir konsol gerekir."
+          ]
+        },
+        {
           "id": "tool_unsupported",
           "q": "Bazı araçlar telefonumda neden desteklenmediklerini söylüyor?",
           "a": [
@@ -306,5 +320,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

@@ -3,6 +3,18 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Thiết kế mới với màn hình chính được làm lại và biểu tượng ứng dụng mới",
+        "Mới: chọn màu nhấn trong Cài đặt",
+        "Chạm vào thẻ tay cầm ở màn hình chính để xem chi tiết",
+        "Kiểm tra bố cục nút nay vẽ đường nét tay cầm rõ ràng, có thêm bố cục Switch",
+        "Bố cục tốt hơn trên máy tính bảng và màn hình ngang, mở ứng dụng nhanh hơn"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

@@ -23,6 +23,13 @@
           ]
         },
         {
+          "id": "phone_as_controller",
+          "q": "我没有手柄，可以把手机当手柄用吗？",
+          "a": [
+            "这个 App 不行，Gamepad Tester 只检测实体手柄。我们另一个 App JoyLink 能把手机变成 Windows、Mac、Linux、Android TV 和其他 Android 设备的蓝牙手柄、触控板和电视遥控器，对方什么都不用装。"
+          ]
+        },
+        {
           "id": "unknown_name",
           "q": "手柄显示成“未知设备”或一串型号代码",
           "a": [
@@ -290,6 +297,13 @@
           ]
         },
         {
+          "id": "play_console_on_phone",
+          "q": "可以在这台手机上玩 PS5 或 PS4 吗？",
+          "a": [
+            "这个 App 不行。我们另一个 App Relaypad 能把你的 PS5 或 PS4 串流到这台手机，在家或用移动数据都行，可以用屏幕按键，也可以用蓝牙或 USB 手柄。你需要有自己的主机并开启 Remote Play。"
+          ]
+        },
+        {
           "id": "tool_unsupported",
           "q": "为什么有些工具在我的手机上显示不支持？",
           "a": [
@@ -306,5 +320,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

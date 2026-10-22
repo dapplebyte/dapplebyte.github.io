@@ -2,14 +2,14 @@
   "slug": "gamepad-tester",
   "locale": "pt-br",
   "title": "Gamepad Tester Pro: Controle",
-  "shortDescription": "Teste de controle e joystick: drift, botões, input lag, vibração, zona morta",
-  "tagline": "Teste de controle, joystick e drift do analógico no Android",
+  "shortDescription": "Seu joystick funciona? Teste botões, analógico, drift, gatilhos e vibração",
+  "tagline": "Teste de gamepad e controle para Android",
   "sections": [
     {
       "id": "intro",
-      "title": "Teste de controle, joystick e drift do analógico no Android",
+      "title": "Teste de gamepad e controle para Android",
       "paragraphs": [
-        "Teste qualquer gamepad Bluetooth, USB ou OTG no seu celular Android. O Gamepad Tester Pro é um testador de controle completo: botões, analógicos, drift, zona morta, gatilhos, vibração, input lag e taxa de polling, com nota de integridade e relatório para compartilhar. Funciona com controles Xbox, PlayStation (DualShock 4, DualSense), Switch Pro e genéricos."
+        "Seu controle está funcionando? Conecte um controle Xbox, PlayStation (DualShock 4, DualSense), Switch Pro ou genérico por Bluetooth, USB ou OTG e veja em segundos cada botão, analógico e gatilho respondendo na tela. Depois, o Gamepad Tester Pro verifica drift, zona morta, vibração, input lag e taxa de polling, dá uma nota ao controle e gera um relatório para compartilhar."
       ],
       "bullets": []
     },
@@ -19,9 +19,11 @@
       "paragraphs": [],
       "bullets": [
         "Veja se tem drift e zona morta antes de comprar ou vender um controle usado",
-        "Confira o controle novo antes de acabar o prazo de troca ou garantia",
-        "Investigue comandos perdidos, clique duplo, botão travado ou gatilho morto",
-        "Compare taxa de polling e input lag no Bluetooth e no USB antes de uma ranqueada"
+        "Confira o controle novo dentro do prazo de troca ou garantia",
+        "Ache comandos perdidos, clique duplo, botão travado ou gatilho morto",
+        "Compare taxa de polling e input lag no Bluetooth e no USB antes da ranqueada",
+        "Controle não funciona ou não é reconhecido? Veja se o Android recebe algum comando antes de culpar o jogo",
+        "Visualizador do controle ao vivo com códigos de tecla para configurar emulador ou jogo remoto"
       ]
     },
     {
@@ -30,8 +32,8 @@
       "paragraphs": [],
       "bullets": [
         "Teste guiado de botões, direcional, analógicos, gatilhos L2/R2, drift e vibração",
-        "Nota geral com o resultado de cada item, salva no histórico",
-        "Exporte e compartilhe um relatório visual para suporte, conserto ou venda"
+        "Nota com o resultado de cada item, salva no Histórico de testes",
+        "Relatório visual para suporte, conserto ou venda"
       ]
     },
     {
@@ -39,9 +41,9 @@
       "title": "Teste de botões e teste de joystick em tempo real",
       "paragraphs": [],
       "bullets": [
-        "Veja na hora cada toque, cada soltura e o código de tecla",
-        "Visualize os dois analógicos, os eixos, o direcional e a pressão dos gatilhos",
-        "Layouts para controles Xbox, PlayStation, gamepads genéricos e de TV"
+        "Cada toque, soltura e código de tecla na hora, com histórico",
+        "Os dois analógicos, eixos, direcional e pressão dos gatilhos, ao vivo",
+        "Layouts para Xbox, PlayStation, gamepads genéricos e controles de TV"
       ]
     },
     {
@@ -49,8 +51,8 @@
       "title": "Teste de drift do analógico, zona morta e circularidade",
       "paragraphs": [],
       "bullets": [
-        "Posição do analógico ao vivo, desvio em repouso e guia de zona morta",
-        "Análise avançada: cobertura, erro de circularidade, faixa de raio e zona morta estimada"
+        "Posição do analógico ao vivo, desvio em repouso e zona morta",
+        "Análise avançada: cobertura, erro de circularidade, faixa de raio, zona morta estimada"
       ]
     },
     {
@@ -58,8 +60,8 @@
       "title": "Teste de input lag, latência e taxa de polling",
       "paragraphs": [],
       "bullets": [
-        "Taxa de polling estimada em Hz e intervalo de entrada médio, mínimo e máximo",
-        "Amostragem avançada: jitter, histograma de intervalos, Bluetooth contra USB, exporte em CSV"
+        "Taxa de polling em Hz com intervalo de entrada médio, mínimo e máximo",
+        "Amostragem avançada: jitter, histograma de intervalos, Bluetooth contra USB, exportação CSV"
       ]
     },
     {
@@ -67,8 +69,8 @@
       "title": "Teste de vibração e estúdio de rumble",
       "paragraphs": [],
       "bullets": [
-        "Teste separadamente a força do motor esquerdo e do direito",
-        "Estúdio de vibração: monte padrões de vários trechos com os dois motores, em loop"
+        "Teste a força de cada motor separadamente",
+        "Estúdio de vibração: padrões de vários trechos com os dois motores, em loop e salvos"
       ]
     },
     {
@@ -76,9 +78,9 @@
       "title": "Teste de LED (PlayStation por Bluetooth)",
       "paragraphs": [],
       "bullets": [
-        "Defina a cor da barra de luz e rode os testes de cor sólida, degradê e respiração",
+        "Defina a cor da barra de luz e teste cor sólida, degradê e respiração",
         "Veja pontos apagados, cor puxada, saltos ou cintilação",
-        "Precisa de DualShock 4 ou DualSense por Bluetooth, Android 12+. No PS com cabo, no Xbox e na maioria dos controles o Android não abre a luz: o app explica o motivo em vez de mostrar um seletor que não funciona."
+        "Precisa de DualShock 4 ou DualSense por Bluetooth no Android 12+. PS com cabo, Xbox e outros controles não liberam a luz para o Android; o app explica o motivo."
       ]
     },
     {
@@ -87,14 +89,14 @@
       "paragraphs": [],
       "bullets": [
         "Giroscópio, acelerômetro e nível de inclinação no DualShock 4, DualSense e Switch Pro (Android 12+)",
-        "Teste de touchpad com rastros multitoque e contador de toques"
+        "Teste de touchpad com rastros multitoque"
       ]
     },
     {
       "id": "controller-info",
       "title": "Dados do controle e evolução da integridade",
       "paragraphs": [
-        "Veja marca, nome do aparelho, Vendor ID, Product ID, conexão, eixos, número de botões, vibração e bateria quando o controle informar. O histórico acompanha a nota e o drift de cada controle, então você pega cedo um analógico que começa a falhar."
+        "Veja marca, nome, Vendor ID, Product ID, conexão, eixos, botões, vibração e bateria quando o controle informar. O Histórico de testes acompanha a nota e o drift de cada controle, e você pega cedo um analógico que começa a falhar."
       ],
       "bullets": []
     },
@@ -103,9 +105,9 @@
       "title": "Atenção",
       "paragraphs": [],
       "bullets": [
-        "Os recursos dependem do controle, da conexão, da versão do Android e da marca do celular. Alguns controles não informam ao Android bateria, vibração, sensores nem touchpad.",
-        "O app apenas lê a entrada. Ele não remapeia botões, não atualiza firmware e não conserta hardware.",
-        "Os testes principais são gratuitos e com anúncios. O Pro é uma compra única: sem anúncios, com diagnósticos avançados, evolução da integridade, exportação CSV e padrões de vibração salvos.",
+        "Os recursos dependem do controle, da conexão, da versão do Android e do celular. Alguns controles não informam bateria, vibração, sensores nem touchpad.",
+        "O app só lê a entrada: não remapeia botões, não atualiza firmware e não conserta hardware.",
+        "Os testes principais não custam nada e têm anúncios. O Pro é uma compra única: sem anúncios, com diagnósticos avançados, evolução da nota, exportação CSV e padrões de vibração salvos.",
         "Xbox, PlayStation, DualShock, DualSense e Nintendo Switch são marcas de seus donos. Este app não tem vínculo com Microsoft, Sony ou Nintendo."
       ]
     },
@@ -113,10 +115,10 @@
       "id": "support",
       "title": "Algo não está funcionando?",
       "paragraphs": [
-        "Se o seu controle não for detectado ou algum resultado parecer errado, escreva para feedback@dapplebyte.com antes de deixar uma avaliação. Conte qual é o seu controle e o modelo do celular, e a gente ajuda. Quase tudo dá para resolver na próxima atualização."
+        "Se o controle não for detectado ou algum resultado parecer errado, escreva para feedback@dapplebyte.com antes de avaliar. Diga qual é o controle e o celular, e a gente ajuda."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

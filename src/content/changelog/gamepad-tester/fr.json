@@ -3,6 +3,18 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Nouveau design avec un écran d'accueil repensé et une nouvelle icône",
+        "Nouveau : choisissez une couleur d'accent dans les Paramètres",
+        "Touchez la carte de la manette sur l'écran d'accueil pour voir ses détails",
+        "Le test de disposition des touches affiche un tracé clair de la manette, avec la disposition Switch en plus",
+        "Meilleur affichage sur tablette et en paysage, démarrage plus rapide"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

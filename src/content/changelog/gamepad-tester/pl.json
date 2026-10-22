@@ -3,6 +3,18 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Nowy wygląd: odświeżony ekran główny i nowa ikona aplikacji",
+        "Nowość: wybierz kolor akcentu w Ustawieniach",
+        "Dotknij karty kontrolera na ekranie głównym, aby zobaczyć szczegóły",
+        "Test układu przycisków rysuje teraz wyraźny zarys kontrolera i ma układ Switch",
+        "Lepszy wygląd na tabletach i w poziomie oraz szybsze uruchamianie"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

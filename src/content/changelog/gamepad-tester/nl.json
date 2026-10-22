@@ -3,6 +3,18 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Nieuw ontwerp met een vernieuwd startscherm en een nieuw app-pictogram",
+        "Nieuw: kies een accentkleur in Instellingen",
+        "Tik op de controllerkaart op het startscherm om de details te zien",
+        "De knoppenindelingstest tekent nu een duidelijke omtrek van je controller, met een Switch-indeling erbij",
+        "Betere weergave op tablets en in liggende stand, en sneller opstarten"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

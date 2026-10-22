@@ -1,15 +1,15 @@
 {
   "slug": "gamepad-tester",
   "locale": "de",
-  "title": "Gamepad Tester Pro: Controller",
-  "shortDescription": "Controller-Test: Stick-Drift, Deadzone, Tasten, Input-Lag, Vibration prüfen",
-  "tagline": "Controller-, Joystick- und Stick-Drift-Test für Android",
+  "title": "Gamepad Tester Pro",
+  "shortDescription": "Controller testen: Tasten, Joystick, Stick-Drift, Trigger und Vibration prüfen",
+  "tagline": "Gamepad- und Controller-Test für Android",
   "sections": [
     {
       "id": "intro",
-      "title": "Controller-, Joystick- und Stick-Drift-Test für Android",
+      "title": "Gamepad- und Controller-Test für Android",
       "paragraphs": [
-        "Teste jedes Bluetooth-, USB- oder OTG-Gamepad in Sekunden auf Handy oder Tablet. Gamepad Tester Pro ist ein kompletter Controller Tester und Joystick-Test: Tasten, Analogsticks, Stick Drift, Deadzone, Trigger, Vibration, Input-Lag und Polling-Rate, dazu Zustandsnote und teilbarer Bericht. Für Xbox, PlayStation (DualShock 4, DualSense), Switch Pro und generische Controller."
+        "Funktioniert dein Controller? Verbinde ein Xbox-, PlayStation- (DualShock 4, DualSense), Switch Pro- oder anderes Gamepad per Bluetooth, USB oder OTG und sieh in Sekunden, wie jede Taste, jeder Stick und Trigger reagiert. Danach prüft Gamepad Tester Pro Stick Drift, Deadzone, Vibration, Input-Lag und Polling-Rate, benotet den Zustand und erstellt einen Bericht zum Teilen."
       ],
       "bullets": []
     },
@@ -18,10 +18,12 @@
       "title": "Dafür nutzen Spieler die App am häufigsten",
       "paragraphs": [],
       "bullets": [
-        "Stick Drift und Deadzone prüfen vor dem Kauf oder Verkauf eines gebrauchten Controllers",
-        "Ein neues Gamepad prüfen, solange Rückgabefrist oder Garantie laufen",
-        "Verschluckte Eingaben, Doppelklicks, klemmende Tasten oder toten Trigger eingrenzen",
-        "Polling-Rate und Input-Lag von Bluetooth und USB vor dem Ranked-Match vergleichen"
+        "Stick Drift und Deadzone vor Kauf oder Verkauf eines gebrauchten Controllers prüfen",
+        "Neues Gamepad testen, bevor Rückgabe- oder Garantiefrist endet",
+        "Verschluckte Eingaben, Doppelklicks, klemmende Tasten oder toten Trigger finden",
+        "Polling-Rate und Input-Lag per Bluetooth und USB vor dem Ranked-Match vergleichen",
+        "Controller geht nicht oder wird nicht erkannt? Sehen, ob Android überhaupt Eingaben bekommt, bevor du das Spiel verdächtigst",
+        "Live-Gamepad-Anzeige mit Key-Codes beim Einrichten von Emulator oder Remote Play"
       ]
     },
     {
@@ -29,9 +31,9 @@
       "title": "Kompletter Controller-Test mit Zustandsnote",
       "paragraphs": [],
       "bullets": [
-        "Geführter Test für Tasten, Steuerkreuz, Analogsticks, L2/R2-Trigger, Stick Drift, Vibration",
-        "Gesamtnote mit Einzelergebnissen, automatisch im Testverlauf gespeichert",
-        "Testbericht exportieren und teilen: Support, Reparatur oder Verkaufsanzeige"
+        "Geführter Test für Tasten, Steuerkreuz, Analogsticks, L2/R2-Trigger, Stick Drift und Vibration",
+        "Zustandsnote pro Prüfpunkt, automatisch im „Testverlauf“ gespeichert",
+        "Testbericht exportieren für Support, Reparatur oder Verkaufsanzeige"
       ]
     },
     {
@@ -39,8 +41,8 @@
       "title": "Tastentest und Joystick-Test in Echtzeit",
       "paragraphs": [],
       "bullets": [
-        "Jeden Druck, jedes Loslassen und den Android-Key-Code sofort sehen",
-        "Beide Analogsticks, Achsen, Steuerkreuz und analogen Triggerdruck visualisieren",
+        "Jeden Druck, jedes Loslassen und Android-Key-Code sofort sehen, mit Tastenverlauf",
+        "Beide Analogsticks, Achsen, Steuerkreuz und analoger Triggerdruck live",
         "Layouts für Xbox, PlayStation, generische Gamepads und TV-Fernbedienungen"
       ]
     },
@@ -50,7 +52,7 @@
       "paragraphs": [],
       "bullets": [
         "Live-Stickposition, Abweichung in Ruhelage und Deadzone-Anzeige",
-        "Erweiterte Stick-Analyse: Abdeckung, Kreisförmigkeitsfehler, Radius, Deadzone-Schätzung"
+        "Erweiterte Analyse: Abdeckung, Kreisförmigkeitsfehler, Radiusbereich, Deadzone-Schätzung"
       ]
     },
     {
@@ -58,8 +60,8 @@
       "title": "Input-Lag, Latenz und Polling-Rate messen",
       "paragraphs": [],
       "bullets": [
-        "Geschätzte Polling-Rate in Hz, mittleres, minimales und maximales Eingabeintervall",
-        "Erweiterte Messung: Jitter, Intervall-Histogramm, Bluetooth gegen USB, CSV-Export"
+        "Polling-Rate in Hz mit mittlerem, minimalem und maximalem Eingabeintervall",
+        "„Erweiterte Messung“: Jitter, Intervall-Histogramm, Bluetooth gegen USB, CSV-Export"
       ]
     },
     {
@@ -67,8 +69,8 @@
       "title": "Vibrationstest und Rumble-Studio",
       "paragraphs": [],
       "bullets": [
-        "Stärke von linkem und rechtem Rumble-Motor getrennt testen",
-        "Vibrations-Studio: mehrstufige Muster für beide Motoren bauen, loopen, speichern"
+        "Linken und rechten Rumble-Motor getrennt testen",
+        "„Vibrationsstudio“: mehrstufige Muster für beide Motoren bauen, loopen und speichern"
       ]
     },
     {
@@ -76,9 +78,9 @@
       "title": "LED-Lichttest (PlayStation über Bluetooth)",
       "paragraphs": [],
       "bullets": [
-        "Farbe der Lightbar einstellen, dann Vollton-, Farbverlauf- und Atem-Check",
+        "Lightbar-Farbe wählen, dann Vollton-, Farbverlauf- und Atem-Check",
         "Dunkle Stellen, Farbstich, Sprünge oder Flackern erkennen",
-        "Erfordert DualShock 4 oder DualSense über Bluetooth, Android 12+. Bei PS per Kabel, Xbox und anderen Pads gibt Android das Licht nicht frei – die App erklärt warum, statt einen toten Farbwähler zu zeigen."
+        "Nur DualShock 4 oder DualSense über Bluetooth ab Android 12. Bei PS per Kabel, Xbox und anderen Pads gibt Android das Licht nicht frei, die App sagt dir warum."
       ]
     },
     {
@@ -87,14 +89,14 @@
       "paragraphs": [],
       "bullets": [
         "Gyroskop, Beschleunigungssensor und Neigung für DualShock 4, DualSense, Switch Pro (ab Android 12)",
-        "Touchpad-Test mit Multi-Touch-Spuren und Druckzähler"
+        "Touchpad-Test mit Multi-Touch-Spuren"
       ]
     },
     {
       "id": "controller-info",
       "title": "Controller-Infos und Zustandsverlauf",
       "paragraphs": [
-        "Zeigt Marke, Gerätename, Vendor ID, Product ID, Verbindung, Achsen, Tastenanzahl, Vibration und Akku, sofern übermittelt. Der Testverlauf verfolgt Note und Drift je Controller, damit du einen schwächelnden Stick früh siehst."
+        "Zeigt Marke, Gerätename, Vendor ID, Product ID, Verbindung, Achsen, Tastenanzahl, Vibration und Akku, sofern übermittelt. Der Testverlauf zeigt Note und Drift je Controller, so erkennst du einen schwächelnden Stick früh."
       ],
       "bullets": []
     },
@@ -103,20 +105,20 @@
       "title": "Bitte beachten",
       "paragraphs": [],
       "bullets": [
-        "Der Funktionsumfang hängt von Controller-Modell, Verbindung, Android-Version und Hersteller ab. Manche Controller melden Akku, Vibration, Sensoren oder Touchpad nicht an Android.",
-        "Die App liest nur Eingaben. Sie kann keine Tasten belegen, keine Firmware aktualisieren und keine Hardware reparieren.",
-        "Die Kerntests laufen mit Werbung ohne Bezahlung. Pro ist ein einmaliger Kauf: ohne Werbung, mit erweiterten Diagnosen, Zustandsverlauf, CSV-Export und Vibrationsmustern.",
-        "Xbox, PlayStation, DualShock, DualSense und Nintendo Switch sind Marken der jeweiligen Inhaber. Diese App ist nicht mit Microsoft, Sony oder Nintendo verbunden."
+        "Der Umfang hängt von Controller, Verbindung, Android-Version und Handy ab. Manche Controller melden Akku, Vibration, Sensoren oder Touchpad nicht.",
+        "Die App liest nur Eingaben: keine Tastenbelegung, kein Firmware-Update, keine Reparatur.",
+        "Die Kerntests laufen mit Werbung, ohne Bezahlung. Pro ist ein Einmalkauf: ohne Werbung, dazu erweiterte Diagnosen, Zustandsverlauf, CSV-Export und gespeicherte Vibrationsmuster.",
+        "Xbox, PlayStation, DualShock, DualSense und Nintendo Switch sind Marken ihrer Inhaber. Keine Verbindung zu Microsoft, Sony oder Nintendo."
       ]
     },
     {
       "id": "support",
       "title": "Etwas funktioniert nicht?",
       "paragraphs": [
-        "Wird dein Controller nicht erkannt oder ein Ergebnis falsch angezeigt, schreib uns bitte an feedback@dapplebyte.com, bevor du eine Bewertung abgibst. Nenne Controller- und Handymodell, dann helfen wir weiter. Vieles lässt sich im nächsten Update beheben."
+        "Controller nicht erkannt oder Ergebnis falsch? Schreib an feedback@dapplebyte.com, bevor du bewertest. Nenne Controller- und Handymodell, dann helfen wir dir."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

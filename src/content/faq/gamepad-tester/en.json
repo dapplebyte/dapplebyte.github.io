@@ -19,7 +19,14 @@
           "id": "supported_pads",
           "q": "Which controllers are supported?",
           "a": [
-            "Anything Android recognises as a gamepad: Xbox Wireless and Series controllers, DualShock 4 and DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, telescopic phone controllers and generic HID pads. How much can be tested depends on what your controller reports — a pad with no motor has no vibration test, one with no touchpad has no touchpad test. Device Info lists exactly what yours exposes."
+            "Anything Android recognises as a game controller: Xbox Wireless and Series controllers, DualShock 4 and DualSense, Switch Pro, 8BitDo, GameSir, Flydigi, telescopic phone controllers and generic HID pads. How much can be tested depends on what your controller reports — a pad with no motor has no vibration test, one with no touchpad has no touchpad test. Device Info lists exactly what yours exposes."
+          ]
+        },
+        {
+          "id": "phone_as_controller",
+          "q": "I don't have a controller. Can I use my phone as one?",
+          "a": [
+            "Not with this app — Gamepad Tester only checks a physical controller. Our separate app JoyLink turns the phone into a Bluetooth gamepad, touchpad and TV remote for Windows, Mac, Linux, Android TV and other Android devices, with nothing to install on the other side."
           ]
         },
         {
@@ -60,7 +67,7 @@
           "id": "why_layout_choice",
           "q": "Why do I have to pick Xbox, PlayStation or Others first?",
           "a": [
-            "It only changes how the buttons are drawn and labelled on screen — the key codes underneath are identical. Pick whichever matches the pad in your hands so the labels line up; if none of them does, Others Gamepad works for every controller."
+            "It only changes how the buttons are drawn and labelled on screen — the key codes underneath are identical. Pick whichever matches the pad in your hands so the labels line up; if none of them does, Other Controllers works for every pad."
           ]
         },
         {
@@ -290,6 +297,13 @@
           ]
         },
         {
+          "id": "play_console_on_phone",
+          "q": "Can I play my PS5 or PS4 on this phone?",
+          "a": [
+            "Not with this app. Our separate app Relaypad streams your PS5 or PS4 to this phone, at home or over mobile data, with on-screen controls or your Bluetooth or USB controller. You need your own console with Remote Play turned on."
+          ]
+        },
+        {
           "id": "tool_unsupported",
           "q": "Why do some tools say they are not supported on my phone?",
           "a": [
@@ -306,5 +320,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

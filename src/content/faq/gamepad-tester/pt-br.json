@@ -23,6 +23,13 @@
           ]
         },
         {
+          "id": "phone_as_controller",
+          "q": "Não tenho controle. Posso usar meu celular como um?",
+          "a": [
+            "Não com este app — o Gamepad Tester só testa controles físicos. Nosso app separado, o JoyLink, transforma o celular em controle Bluetooth, touchpad e controle remoto de TV para Windows, Mac, Linux, Android TV e outros dispositivos Android, sem instalar nada do outro lado."
+          ]
+        },
+        {
           "id": "unknown_name",
           "q": "O controle aparece como “Dispositivos desconhecidos” ou como um código de modelo",
           "a": [
@@ -290,6 +297,13 @@
           ]
         },
         {
+          "id": "play_console_on_phone",
+          "q": "Posso jogar meu PS5 ou PS4 neste celular?",
+          "a": [
+            "Não com este app. Nosso app separado, o Relaypad, transmite seu PS5 ou PS4 para este celular, em casa ou nos dados móveis, com controles na tela ou com seu controle Bluetooth ou USB. Você precisa ter seu próprio console com o Remote Play ativado."
+          ]
+        },
+        {
           "id": "tool_unsupported",
           "q": "Por que algumas ferramentas dizem que não são compatíveis com meu celular?",
           "a": [
@@ -306,5 +320,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

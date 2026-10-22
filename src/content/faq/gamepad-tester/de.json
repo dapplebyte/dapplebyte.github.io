@@ -23,6 +23,13 @@
           ]
         },
         {
+          "id": "phone_as_controller",
+          "q": "Ich habe keinen Controller. Kann ich mein Handy als Controller nutzen?",
+          "a": [
+            "Nicht mit dieser App – Gamepad Tester prüft nur echte Controller. Unsere separate App JoyLink macht das Handy zum Bluetooth-Gamepad, Touchpad und zur TV-Fernbedienung für Windows, Mac, Linux, Android TV und andere Android-Geräte, ohne dass auf der Gegenseite etwas installiert werden muss."
+          ]
+        },
+        {
           "id": "unknown_name",
           "q": "Der Controller erscheint als „Unbekannte Geräte“ oder als kryptischer Modellcode",
           "a": [
@@ -290,6 +297,13 @@
           ]
         },
         {
+          "id": "play_console_on_phone",
+          "q": "Kann ich meine PS5 oder PS4 auf diesem Handy spielen?",
+          "a": [
+            "Nicht mit dieser App. Unsere separate App Relaypad streamt deine PS5 oder PS4 auf dieses Handy, zu Hause oder über mobile Daten, mit Touch-Steuerung auf dem Bildschirm oder deinem Bluetooth- oder USB-Controller. Du brauchst eine eigene Konsole mit aktiviertem Remote Play."
+          ]
+        },
+        {
           "id": "tool_unsupported",
           "q": "Warum sagen manche Test-Tools, sie würden auf meinem Handy nicht unterstützt?",
           "a": [
@@ -306,5 +320,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

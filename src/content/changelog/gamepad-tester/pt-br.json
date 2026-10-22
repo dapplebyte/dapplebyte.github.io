@@ -3,6 +3,18 @@
   "locale": "pt-br",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Visual novo, com tela inicial redesenhada e novo ícone",
+        "Novo: escolha a cor de destaque em Configurações",
+        "Toque no card do controle na tela inicial para ver os detalhes",
+        "O teste de layout dos botões agora desenha o contorno do controle e ganhou o layout do Switch",
+        "Layouts melhores em tablets e na horizontal, e abertura mais rápida"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

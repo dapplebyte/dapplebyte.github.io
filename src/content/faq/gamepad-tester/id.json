@@ -23,6 +23,13 @@
           ]
         },
         {
+          "id": "phone_as_controller",
+          "q": "Saya tidak punya kontroler. Bisakah ponsel dipakai sebagai kontroler?",
+          "a": [
+            "Tidak dengan aplikasi ini — Gamepad Tester hanya memeriksa kontroler fisik. Aplikasi terpisah kami, JoyLink, mengubah ponsel Anda menjadi gamepad Bluetooth, touchpad, dan remote TV untuk Windows, Mac, Linux, Android TV, dan perangkat Android lainnya, tanpa perlu memasang apa pun di perangkat tujuan."
+          ]
+        },
+        {
           "id": "unknown_name",
           "q": "Kontroler muncul sebagai “Perangkat tak dikenal” atau kode model mentah",
           "a": [
@@ -290,6 +297,13 @@
           ]
         },
         {
+          "id": "play_console_on_phone",
+          "q": "Bisakah saya main PS5 atau PS4 di ponsel ini?",
+          "a": [
+            "Tidak dengan aplikasi ini. Aplikasi terpisah kami, Relaypad, men-streaming PS5 atau PS4 Anda ke ponsel ini, di rumah atau lewat data seluler, dengan kontrol di layar atau gamepad Bluetooth maupun USB Anda. Anda perlu konsol sendiri dengan Remote Play diaktifkan."
+          ]
+        },
+        {
           "id": "tool_unsupported",
           "q": "Kenapa beberapa alat menyatakan tidak didukung di ponsel saya?",
           "a": [
@@ -306,5 +320,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

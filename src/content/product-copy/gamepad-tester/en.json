@@ -1,15 +1,15 @@
 {
   "slug": "gamepad-tester",
   "locale": "en",
-  "title": "Gamepad Tester Pro: Controller",
-  "shortDescription": "Controller & joystick test: stick drift, buttons, input lag, vibration, deadzone",
-  "tagline": "Controller, Joystick & Stick Drift Tester for Android",
+  "title": "Gamepad Tester Pro",
+  "shortDescription": "Check if your controller works: buttons, joystick, stick drift, triggers, rumble",
+  "tagline": "Gamepad & Controller Tester for Android",
   "sections": [
     {
       "id": "intro",
-      "title": "Controller, Joystick & Stick Drift Tester for Android",
+      "title": "Gamepad & Controller Tester for Android",
       "paragraphs": [
-        "Test any Bluetooth, USB or OTG gamepad on your Android phone or tablet in seconds. Gamepad Tester Pro is a complete controller tester and joystick checker: check buttons, analog sticks, stick drift, dead zone, triggers, vibration, input lag and polling rate, then get a health score and a shareable report. Works with Xbox, PlayStation (DualShock 4, DualSense), Switch Pro and generic controllers."
+        "Is your controller working? Pair or plug in any Xbox, PlayStation (DualShock 4, DualSense), Switch Pro or generic gamepad over Bluetooth, USB or OTG and see every button, stick and trigger respond on screen in seconds. Gamepad Tester Pro then checks stick drift, dead zone, vibration, input lag and polling rate, scores the controller's health and gives you a report you can share."
       ],
       "bullets": []
     },
@@ -21,7 +21,9 @@
         "Check stick drift and dead zone before buying or selling a used controller",
         "Confirm a new gamepad works before the return or warranty window closes",
         "Diagnose missed inputs, double presses, sticky buttons or a dead trigger",
-        "Compare Bluetooth vs USB polling rate and input lag before a ranked match"
+        "Compare Bluetooth vs USB polling rate and input lag before a ranked match",
+        "Controller not working or not detected? See whether Android receives any input before you blame the game",
+        "Use it as a live gamepad viewer with key codes when setting up an emulator or remote play"
       ]
     },
     {
@@ -30,8 +32,8 @@
       "paragraphs": [],
       "bullets": [
         "One guided test for buttons, D-pad, analog sticks, L2/R2 triggers, stick drift and vibration",
-        "Overall health score with per-item results, saved to Test History automatically",
-        "Export and share a visual test report for support, repairs or resale listings"
+        "Health score with per-item results, saved to Test History automatically",
+        "Export a visual test report for support, repairs or resale listings"
       ]
     },
     {
@@ -39,8 +41,8 @@
       "title": "Button Test & Joystick Test in Real Time",
       "paragraphs": [],
       "bullets": [
-        "See every press, release and Android key code instantly",
-        "Visualize both analog sticks, axes, D-pad and analog trigger pressure",
+        "See every press, release and Android key code instantly, with key history",
+        "Both analog sticks, axes, D-pad and analog trigger pressure, live",
         "Layouts for Xbox, PlayStation, generic gamepads and TV remotes"
       ]
     },
@@ -50,7 +52,7 @@
       "paragraphs": [],
       "bullets": [
         "Live stick position, resting offset and a dead-zone guide",
-        "Advanced stick analysis: coverage, circularity error, radius range and dead-zone estimation"
+        "Advanced analysis: coverage, circularity error, radius range, dead-zone estimate"
       ]
     },
     {
@@ -58,8 +60,8 @@
       "title": "Input Lag, Latency & Polling Rate Test",
       "paragraphs": [],
       "bullets": [
-        "Estimated polling rate in Hz, average, minimum and maximum input interval",
-        "Advanced sampling: jitter, interval histogram, Bluetooth vs USB session comparison, CSV export"
+        "Polling rate in Hz with average, minimum and maximum input interval",
+        "Advanced sampling: jitter, interval histogram, Bluetooth vs USB comparison, CSV export"
       ]
     },
     {
@@ -78,7 +80,7 @@
       "bullets": [
         "Set the light bar color, then run solid-color, hue sweep and breathing checks",
         "Spot dead spots, color tint, jumps or flicker",
-        "Needs DualShock 4 or DualSense over Bluetooth, Android 12+. Wired PS, Xbox and other pads keep their light closed to Android, so the app says why instead of showing a dead color picker."
+        "Needs DualShock 4 or DualSense over Bluetooth on Android 12+. Wired PS, Xbox and other pads do not expose their light to Android, and the app tells you why."
       ]
     },
     {
@@ -87,14 +89,14 @@
       "paragraphs": [],
       "bullets": [
         "Gyroscope, accelerometer and tilt level for DualShock 4, DualSense and Switch Pro (Android 12+)",
-        "Touchpad test with multi-touch trails and press counter"
+        "Touchpad test with multi-touch trails"
       ]
     },
     {
       "id": "controller-info",
       "title": "Controller Info & Health Trends",
       "paragraphs": [
-        "View brand, device name, Vendor ID, Product ID, connection type, axes, button count, vibration support and battery level when exposed. Test History tracks health score and drift trends per controller, so you catch a failing stick early."
+        "See brand, device name, Vendor ID, Product ID, connection type, axes, button count, vibration support and battery level when exposed. Test History tracks health score and drift trends per controller, so you catch a failing stick early."
       ],
       "bullets": []
     },
@@ -103,20 +105,20 @@
       "title": "Please note",
       "paragraphs": [],
       "bullets": [
-        "Features depend on the controller model, connection type, Android version and phone maker. Some controllers do not report battery, vibration, motion sensors or a touchpad to Android.",
+        "Features depend on the controller model, connection type, Android version and phone maker. Some controllers do not report battery, vibration, motion sensors or a touchpad.",
         "The app reads input only. It cannot remap buttons, update firmware or repair hardware.",
         "Core tests are free with ads. Pro is a one-time purchase that removes ads and unlocks advanced diagnostics, health trends, CSV export and saved vibration patterns.",
-        "Xbox, PlayStation, DualShock, DualSense and Nintendo Switch are trademarks of their respective owners. This app is not affiliated with Microsoft, Sony or Nintendo."
+        "Xbox, PlayStation, DualShock, DualSense and Nintendo Switch are trademarks of their owners. This app is not affiliated with Microsoft, Sony or Nintendo."
       ]
     },
     {
       "id": "support",
       "title": "Something not working?",
       "paragraphs": [
-        "If your controller is not detected or a result looks wrong, please email feedback@dapplebyte.com before leaving a review. Tell us your controller and phone model and we will help. Most issues can be fixed in the next update."
+        "If your controller is not detected or a result looks wrong, email feedback@dapplebyte.com before leaving a review. Tell us your controller and phone model and we will help."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

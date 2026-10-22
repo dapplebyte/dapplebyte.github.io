@@ -2,14 +2,14 @@
   "slug": "gamepad-tester",
   "locale": "vi",
   "title": "Gamepad Tester Pro: Tay cầm",
-  "shortDescription": "Kiểm tra tay cầm, joystick: trôi cần, nút, input lag, rung, vùng chết",
-  "tagline": "Ứng dụng test tay cầm, joystick và trôi cần (stick drift) cho Android",
+  "shortDescription": "Joystick có chạy không? Kiểm tra nút, cần analog, trôi cần, cò và rung",
+  "tagline": "Ứng dụng test gamepad và tay cầm cho Android",
   "sections": [
     {
       "id": "intro",
-      "title": "Ứng dụng test tay cầm, joystick và trôi cần (stick drift) cho Android",
+      "title": "Ứng dụng test gamepad và tay cầm cho Android",
       "paragraphs": [
-        "Kiểm tra mọi gamepad Bluetooth, USB hay OTG trên điện thoại và máy tính bảng Android chỉ trong vài giây. Gamepad Tester Pro là bộ công cụ test tay cầm đầy đủ: kiểm tra nút, cần analog, trôi cần, vùng chết (dead zone), cò, độ rung, độ trễ đầu vào (input lag) và polling rate, rồi nhận điểm sức khỏe cùng báo cáo có thể chia sẻ. Hỗ trợ Xbox, PlayStation (DualShock 4, DualSense), Switch Pro và gamepad phổ thông."
+        "Tay cầm của bạn có hoạt động không? Kết nối hoặc cắm bất kỳ tay cầm Xbox, PlayStation (DualShock 4, DualSense), Switch Pro hay gamepad phổ thông qua Bluetooth, USB hoặc OTG và xem từng nút, cần analog, cò phản hồi trên màn hình chỉ trong vài giây. Sau đó Gamepad Tester Pro kiểm tra trôi cần, vùng chết (dead zone), độ rung, độ trễ đầu vào (input lag) và polling rate, chấm điểm sức khỏe tay cầm và xuất báo cáo có thể chia sẻ."
       ],
       "bullets": []
     },
@@ -21,7 +21,9 @@
         "Kiểm tra trôi cần và vùng chết trước khi mua hoặc bán tay cầm cũ",
         "Xác nhận tay cầm mới chạy tốt trước khi hết hạn đổi trả hoặc bảo hành",
         "Truy lỗi mất tín hiệu, nhấn đúp, nút bị kẹt hoặc cò không ăn",
-        "So sánh polling rate và input lag giữa Bluetooth và USB trước trận rank"
+        "So sánh polling rate và input lag giữa Bluetooth và USB trước trận rank",
+        "Tay cầm không nhận, bấm không ăn? Xem Android có nhận tín hiệu không trước khi đổ lỗi cho game",
+        "Dùng làm màn hình xem phím gamepad trực tiếp kèm mã phím khi cài giả lập hoặc chơi từ xa (remote play)"
       ]
     },
     {
@@ -30,8 +32,8 @@
       "paragraphs": [],
       "bullets": [
         "Một bài test có hướng dẫn cho nút, D-pad, cần analog, cò L2/R2, trôi cần và rung",
-        "Điểm sức khỏe tổng thể kèm kết quả từng mục, tự lưu vào Lịch sử kiểm tra",
-        "Xuất và chia sẻ báo cáo trực quan để bảo hành, sửa chữa hoặc đăng tin bán lại"
+        "Điểm sức khỏe kèm kết quả từng mục, tự lưu vào Lịch sử kiểm tra",
+        "Xuất báo cáo trực quan để bảo hành, sửa chữa hoặc đăng bán lại"
       ]
     },
     {
@@ -39,9 +41,9 @@
       "title": "Test nút và test joystick theo thời gian thực",
       "paragraphs": [],
       "bullets": [
-        "Thấy ngay từng lần nhấn, thả và mã phím (key code) Android",
-        "Hiển thị cả hai cần analog, các trục, D-pad và lực nhấn cò analog",
-        "Bố cục riêng cho Xbox, PlayStation, gamepad phổ thông và điều khiển TV"
+        "Thấy ngay từng lần nhấn, thả và mã phím (key code) Android, kèm lịch sử phím",
+        "Cả hai cần analog, các trục, D-pad và lực nhấn cò analog theo thời gian thực",
+        "Bố cục cho Xbox, PlayStation, gamepad phổ thông và điều khiển TV"
       ]
     },
     {
@@ -49,8 +51,8 @@
       "title": "Test trôi cần, vùng chết và độ tròn của cần",
       "paragraphs": [],
       "bullets": [
-        "Vị trí cần theo thời gian thực, độ lệch khi nghỉ và vạch hướng dẫn vùng chết",
-        "Phân tích cần nâng cao: độ phủ, sai số độ tròn, dải bán kính và ước lượng vùng chết"
+        "Vị trí cần trực tiếp, độ lệch khi nghỉ và vạch hướng dẫn vùng chết",
+        "Phân tích nâng cao: độ phủ, sai số độ tròn, dải bán kính, ước lượng vùng chết"
       ]
     },
     {
@@ -58,8 +60,8 @@
       "title": "Test input lag, độ trễ và polling rate",
       "paragraphs": [],
       "bullets": [
-        "Polling rate ước tính theo Hz, khoảng tín hiệu trung bình, nhỏ nhất và lớn nhất",
-        "Lấy mẫu nâng cao: jitter, biểu đồ khoảng tín hiệu, so sánh phiên Bluetooth và USB, xuất CSV"
+        "Polling rate theo Hz, khoảng tín hiệu trung bình, nhỏ nhất và lớn nhất",
+        "Lấy mẫu nâng cao: jitter, biểu đồ khoảng tín hiệu, so sánh Bluetooth và USB, xuất CSV"
       ]
     },
     {
@@ -68,7 +70,7 @@
       "paragraphs": [],
       "bullets": [
         "Thử riêng cường độ mô-tơ rung trái và phải",
-        "Vibration Studio: tạo hiệu ứng rung hai mô-tơ nhiều đoạn, lặp lại và lưu lại"
+        "Xưởng rung: tạo hiệu ứng rung hai mô-tơ nhiều đoạn, lặp lại và lưu lại"
       ]
     },
     {
@@ -78,7 +80,7 @@
       "bullets": [
         "Đổi màu dải đèn, rồi chạy kiểm tra màu đơn, chuyển sắc và nhịp thở",
         "Phát hiện điểm tối, lệch màu, giật hoặc nhấp nháy",
-        "Cần DualShock 4 hoặc DualSense qua Bluetooth, Android 12 trở lên. Với PS có dây, Xbox và hầu hết tay cầm khác, Android không mở đèn: ứng dụng giải thích lý do thay vì hiện bảng màu vô tác dụng."
+        "Cần DualShock 4 hoặc DualSense qua Bluetooth, Android 12 trở lên. PS có dây, Xbox và các tay cầm khác không mở đèn cho Android, app sẽ giải thích lý do."
       ]
     },
     {
@@ -87,14 +89,14 @@
       "paragraphs": [],
       "bullets": [
         "Con quay hồi chuyển, gia tốc kế và mức nghiêng cho DualShock 4, DualSense, Switch Pro (Android 12+)",
-        "Test touchpad với vệt chạm đa điểm và bộ đếm số lần nhấn"
+        "Test touchpad với vệt chạm đa điểm"
       ]
     },
     {
       "id": "controller-info",
       "title": "Thông tin tay cầm và xu hướng sức khỏe",
       "paragraphs": [
-        "Xem thương hiệu, tên thiết bị, Vendor ID, Product ID, kiểu kết nối, số trục, số nút, khả năng rung và mức pin khi thiết bị cung cấp. Lịch sử kiểm tra theo dõi điểm sức khỏe và xu hướng trôi cần của từng tay cầm, giúp bạn phát hiện sớm cần analog sắp hỏng."
+        "Xem thương hiệu, tên thiết bị, Vendor ID, Product ID, kiểu kết nối, số trục, số nút, khả năng rung và mức pin khi thiết bị cung cấp. Lịch sử kiểm tra theo dõi điểm sức khỏe và xu hướng trôi cần của từng tay cầm, giúp phát hiện sớm cần sắp hỏng."
       ],
       "bullets": []
     },
@@ -103,20 +105,20 @@
       "title": "Lưu ý",
       "paragraphs": [],
       "bullets": [
-        "Tính năng phụ thuộc vào mẫu tay cầm, kiểu kết nối, phiên bản Android và hãng điện thoại. Một số tay cầm không báo pin, rung, cảm biến chuyển động hay touchpad cho Android.",
-        "Ứng dụng chỉ đọc tín hiệu vào. App không thể đổi phím, cập nhật firmware hay sửa phần cứng.",
+        "Tính năng phụ thuộc vào mẫu tay cầm, kiểu kết nối, phiên bản Android và hãng điện thoại. Một số tay cầm không báo pin, rung, cảm biến chuyển động hay touchpad.",
+        "Ứng dụng chỉ đọc tín hiệu vào, không thể đổi phím, cập nhật firmware hay sửa phần cứng.",
         "Các bài test cơ bản miễn phí kèm quảng cáo. Pro là gói mua một lần, gỡ quảng cáo và mở khóa chẩn đoán nâng cao, xu hướng sức khỏe, xuất CSV và các mẫu rung đã lưu.",
-        "Xbox, PlayStation, DualShock, DualSense và Nintendo Switch là thương hiệu của các chủ sở hữu tương ứng. Ứng dụng không liên kết với Microsoft, Sony hay Nintendo."
+        "Xbox, PlayStation, DualShock, DualSense và Nintendo Switch là thương hiệu của chủ sở hữu tương ứng. Ứng dụng không liên kết với Microsoft, Sony hay Nintendo."
       ]
     },
     {
       "id": "support",
       "title": "Có gì đó chưa chạy đúng?",
       "paragraphs": [
-        "Nếu tay cầm không được nhận hoặc kết quả trông không hợp lý, bạn hãy gửi email tới feedback@dapplebyte.com trước khi để lại đánh giá. Cho chúng tôi biết mẫu tay cầm và mẫu điện thoại, chúng tôi sẽ hỗ trợ. Phần lớn vấn đề đều có thể xử lý ở bản cập nhật kế tiếp."
+        "Nếu tay cầm không được nhận hoặc kết quả trông không hợp lý, hãy gửi email tới feedback@dapplebyte.com trước khi để lại đánh giá. Cho chúng tôi biết mẫu tay cầm và mẫu điện thoại, chúng tôi sẽ hỗ trợ."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

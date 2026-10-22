@@ -3,6 +3,18 @@
   "locale": "de",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Neues Design mit überarbeitetem Startbildschirm und neuem App-Symbol",
+        "Neu: Akzentfarbe in den Einstellungen wählen",
+        "Tippe auf die Controller-Karte auf dem Startbildschirm, um die Details zu sehen",
+        "Tastenlayout-Test mit klarer Controller-Zeichnung neu gestaltet, jetzt auch mit Switch-Layout",
+        "Bessere Layouts auf Tablets und im Querformat, schnellerer Start"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

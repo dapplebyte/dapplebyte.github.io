@@ -2,14 +2,14 @@
   "slug": "gamepad-tester",
   "locale": "pl",
   "title": "Gamepad Tester Pro: Pad",
-  "shortDescription": "Test pada i kontrolera: drift gałek, przyciski, input lag, wibracje, dead zone",
-  "tagline": "Tester kontrolera, joysticka i driftu gałek na Androida",
+  "shortDescription": "Sprawdź, czy kontroler działa: przyciski, gałki, drift, triggery i wibracje",
+  "tagline": "Tester pada i kontrolera na Androida",
   "sections": [
     {
       "id": "intro",
-      "title": "Tester kontrolera, joysticka i driftu gałek na Androida",
+      "title": "Tester pada i kontrolera na Androida",
       "paragraphs": [
-        "Przetestuj w kilka sekund dowolnego pada Bluetooth, USB lub OTG na telefonie albo tablecie z Androidem. Gamepad Tester Pro to kompletny tester kontrolera i joysticka: przyciski, gałki, drift, dead zone, triggery, wibracje, input lag i polling rate, a do tego ocena kondycji i raport do udostępnienia. Obsługuje pady Xbox, PlayStation (DualShock 4, DualSense), Switch Pro i inne."
+        "Czy twój kontroler działa? Sparuj lub podłącz dowolnego pada Xbox, PlayStation (DualShock 4, DualSense), Switch Pro lub innego przez Bluetooth, USB albo OTG i w kilka sekund zobacz reakcję każdego przycisku, gałki i triggera. Potem Gamepad Tester Pro sprawdza drift gałek, dead zone, wibracje, input lag i polling rate, ocenia kondycję pada i daje raport do udostępnienia."
       ],
       "bullets": []
     },
@@ -19,9 +19,11 @@
       "paragraphs": [],
       "bullets": [
         "Sprawdzenie driftu i dead zone przed kupnem lub sprzedażą używanego pada",
-        "Sprawdzenie nowego pada, zanim minie termin zwrotu lub gwarancji",
+        "Test nowego pada przed końcem terminu zwrotu lub gwarancji",
         "Diagnoza gubionych i podwójnych wciśnięć, zacinających się przycisków lub martwego triggera",
-        "Porównanie polling rate i input laga przez Bluetooth i USB przed meczem rankingowym"
+        "Porównanie polling rate i input laga przez Bluetooth i USB przed meczem rankingowym",
+        "Pad nie działa albo nie jest wykrywany? Sprawdź, czy Android w ogóle widzi sygnał, zanim obwinisz grę",
+        "Podgląd pada na żywo z kodami klawiszy przy konfiguracji emulatora lub remote play"
       ]
     },
     {
@@ -29,9 +31,9 @@
       "title": "Pełny test kontrolera i ocena kondycji",
       "paragraphs": [],
       "bullets": [
-        "Jeden prowadzony test: przyciski, D-pad, gałki analogowe, triggery L2/R2, drift i wibracje",
-        "Ogólna ocena z wynikami dla każdego elementu, zapisywana w historii testów",
-        "Raport graficzny do udostępnienia: serwis, naprawa lub ogłoszenie sprzedaży"
+        "Jeden prowadzony test: przyciski, D-pad, gałki, triggery L2/R2, drift i wibracje",
+        "Ocena kondycji z wynikiem każdego elementu, zapisywana w historii testów",
+        "Raport graficzny do eksportu: serwis, naprawa lub ogłoszenie sprzedaży"
       ]
     },
     {
@@ -39,8 +41,8 @@
       "title": "Test przycisków i test joysticka w czasie rzeczywistym",
       "paragraphs": [],
       "bullets": [
-        "Każde wciśnięcie, puszczenie i kod klawisza Android widoczne od razu",
-        "Podgląd obu gałek, osi, D-pada i nacisku triggerów",
+        "Każde wciśnięcie, puszczenie i kod klawisza Android od razu, z historią przycisków",
+        "Obie gałki, osie, D-pad i nacisk triggerów na żywo",
         "Układy dla Xbox, PlayStation, innych padów i pilotów TV"
       ]
     },
@@ -50,7 +52,7 @@
       "paragraphs": [],
       "bullets": [
         "Pozycja gałki na żywo, odchylenie w spoczynku i podgląd dead zone",
-        "Zaawansowana analiza: pokrycie, błąd okrągłości, zakres promienia, szacowanie dead zone"
+        "Zaawansowana analiza: pokrycie, błąd okrągłości, zakres promienia, szacunek dead zone"
       ]
     },
     {
@@ -58,7 +60,7 @@
       "title": "Test input laga, opóźnienia i polling rate",
       "paragraphs": [],
       "bullets": [
-        "Szacowany polling rate w Hz, średni, minimalny i maksymalny interwał",
+        "Polling rate w Hz ze średnim, minimalnym i maksymalnym interwałem",
         "Zaawansowany pomiar: jitter, histogram interwałów, Bluetooth kontra USB, eksport CSV"
       ]
     },
@@ -78,7 +80,7 @@
       "bullets": [
         "Ustaw kolor paska świetlnego i sprawdź jednolity kolor, przejście barw i oddychanie",
         "Wyłap martwe punkty, przebarwienia, skoki lub migotanie",
-        "Wymaga DualShock 4 lub DualSense przez Bluetooth, Android 12+. Przy PS na kablu, Xbox i innych padach Android nie ma dostępu do podświetlenia – aplikacja to wyjaśnia, zamiast pokazywać martwy wybór koloru."
+        "Wymaga DualShock 4 lub DualSense przez Bluetooth, Android 12+. Przy PS na kablu, Xbox i innych padach Android nie ma dostępu do podświetlenia, a aplikacja wyjaśnia dlaczego."
       ]
     },
     {
@@ -86,15 +88,15 @@
       "title": "Żyroskop, touchpad i porównanie dwóch kontrolerów",
       "paragraphs": [],
       "bullets": [
-        "Żyroskop, akcelerometr i przechylenie dla DualShock 4, DualSense i Switch Pro (Android 12+)",
-        "Test touchpada ze śladami multi-touch i licznikiem kliknięć"
+        "Żyroskop, akcelerometr i przechylenie dla DualShock 4, DualSense, Switch Pro (Android 12+)",
+        "Test touchpada ze śladami multi-touch"
       ]
     },
     {
       "id": "controller-info",
       "title": "Informacje o kontrolerze i trendy kondycji",
       "paragraphs": [
-        "Pokazuje markę, nazwę urządzenia, Vendor ID, Product ID, typ połączenia, osie, liczbę przycisków, wibracje i baterię, jeśli są dostępne. Historia testów śledzi ocenę i drift każdego kontrolera, więc wcześnie wyłapiesz psującą się gałkę."
+        "Pokazuje markę, nazwę urządzenia, Vendor ID, Product ID, połączenie, osie, liczbę przycisków, wibracje i baterię, jeśli są przekazywane. Historia testów śledzi ocenę i drift każdego kontrolera, więc wcześnie wyłapiesz psującą się gałkę."
       ],
       "bullets": []
     },
@@ -103,20 +105,20 @@
       "title": "Warto wiedzieć",
       "paragraphs": [],
       "bullets": [
-        "Funkcje zależą od modelu kontrolera, połączenia, wersji Androida i telefonu. Niektóre kontrolery nie przekazują Androidowi baterii, wibracji, czujników ruchu ani touchpada.",
+        "Funkcje zależą od modelu kontrolera, połączenia, wersji Androida i telefonu. Niektóre kontrolery nie przekazują baterii, wibracji, czujników ruchu ani touchpada.",
         "Aplikacja tylko odczytuje sygnały: nie przemapuje przycisków, nie zaktualizuje firmware'u ani nie naprawi sprzętu.",
-        "Podstawowe testy są darmowe, z reklamami. Pro to jednorazowy zakup: bez reklam, z zaawansowaną diagnostyką, trendami kondycji, eksportem CSV i zapisem wzorców wibracji.",
-        "Xbox, PlayStation, DualShock, DualSense i Nintendo Switch są znakami towarowymi ich właścicieli. Ta aplikacja nie jest powiązana z Microsoft, Sony ani Nintendo."
+        "Podstawowe testy działają z reklamami, bez opłat. Pro to jednorazowy zakup: usuwa reklamy i odblokowuje zaawansowaną diagnostykę, trendy kondycji, eksport CSV i zapis wzorców wibracji.",
+        "Xbox, PlayStation, DualShock, DualSense i Nintendo Switch są znakami towarowymi ich właścicieli. Aplikacja nie jest powiązana z Microsoft, Sony ani Nintendo."
       ]
     },
     {
       "id": "support",
       "title": "Coś nie działa?",
       "paragraphs": [
-        "Kontroler nie jest wykrywany albo wynik wygląda źle? Napisz na feedback@dapplebyte.com, zanim wystawisz opinię. Podaj model kontrolera i telefonu, a pomożemy. Większość problemów naprawimy w kolejnej aktualizacji."
+        "Kontroler nie jest wykrywany albo wynik wygląda źle? Napisz na feedback@dapplebyte.com, zanim wystawisz opinię. Podaj model kontrolera i telefonu, a pomożemy."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

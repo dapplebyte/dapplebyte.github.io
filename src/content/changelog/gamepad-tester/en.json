@@ -3,6 +3,18 @@
   "locale": "en",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Fresh new design with a redesigned home screen and a new app icon",
+        "New: pick an accent color in Settings",
+        "Tap the controller card on the home screen to see its details",
+        "Button Layout Test redrawn with a clear controller outline, now with a Switch layout",
+        "Better layouts on tablets and in landscape, and faster startup"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

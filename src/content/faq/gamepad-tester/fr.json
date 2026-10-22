@@ -23,6 +23,13 @@
           ]
         },
         {
+          "id": "phone_as_controller",
+          "q": "Je n'ai pas de manette. Puis-je utiliser mon téléphone comme manette ?",
+          "a": [
+            "Pas avec cette app — Gamepad Tester vérifie uniquement une manette physique. Notre autre app, JoyLink, fait du téléphone une manette Bluetooth, un pavé tactile et une télécommande TV pour Windows, Mac, Linux, Android TV et d'autres appareils Android, sans rien installer de l'autre côté."
+          ]
+        },
+        {
           "id": "unknown_name",
           "q": "La manette apparaît comme « Appareils inconnus » ou sous un code modèle brut",
           "a": [
@@ -290,6 +297,13 @@
           ]
         },
         {
+          "id": "play_console_on_phone",
+          "q": "Puis-je jouer à ma PS5 ou PS4 sur ce téléphone ?",
+          "a": [
+            "Pas avec cette app. Notre autre app, Relaypad, diffuse votre PS5 ou PS4 sur ce téléphone, à la maison ou en données mobiles, avec des commandes à l'écran ou votre manette Bluetooth ou USB. Il vous faut votre propre console, avec Remote Play activé."
+          ]
+        },
+        {
           "id": "tool_unsupported",
           "q": "Pourquoi certains outils indiquent-ils qu'ils ne sont pas pris en charge sur mon téléphone ?",
           "a": [
@@ -306,5 +320,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

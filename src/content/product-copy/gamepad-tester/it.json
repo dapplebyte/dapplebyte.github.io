@@ -1,15 +1,15 @@
 {
   "slug": "gamepad-tester",
   "locale": "it",
-  "title": "Gamepad Tester Pro: Controller",
-  "shortDescription": "Test controller: drift stick, zona morta, tasti, input lag, vibrazione",
-  "tagline": "Test controller, joystick e drift degli stick per Android",
+  "title": "Gamepad Tester Pro",
+  "shortDescription": "Il controller funziona? Prova tasti, joystick, drift, grilletti e vibrazione",
+  "tagline": "Test gamepad e controller per Android",
   "sections": [
     {
       "id": "intro",
-      "title": "Test controller, joystick e drift degli stick per Android",
+      "title": "Test gamepad e controller per Android",
       "paragraphs": [
-        "Prova qualsiasi gamepad Bluetooth, USB o OTG da telefono o tablet Android in pochi secondi. Gamepad Tester Pro è un tester per controller completo: pulsanti, stick analogici, drift degli stick, zona morta, grilletti, vibrazione, input lag e polling rate, con punteggio di salute e report condivisibile. Funziona con Xbox, PlayStation (DualShock 4, DualSense), Switch Pro e controller generici."
+        "Il tuo controller funziona? Collega un controller Xbox, PlayStation (DualShock 4, DualSense), Switch Pro o gamepad generico via Bluetooth, USB o OTG e guarda in pochi secondi ogni tasto, stick e grilletto rispondere a schermo. Poi Gamepad Tester Pro controlla drift, zona morta, vibrazione, input lag e polling rate, dà un voto allo stato del controller e ti prepara un report da condividere."
       ],
       "bullets": []
     },
@@ -20,8 +20,10 @@
       "bullets": [
         "Controllare drift e zona morta prima di comprare o vendere un controller usato",
         "Verificare un gamepad nuovo prima che scadano reso o garanzia",
-        "Individuare input persi, doppie pressioni, tasti bloccati o un grilletto morto",
-        "Confrontare polling rate e input lag tra Bluetooth e USB prima di una ranked"
+        "Trovare input persi, doppie pressioni, tasti bloccati o un grilletto morto",
+        "Confrontare polling rate e input lag tra Bluetooth e USB prima di una ranked",
+        "Controller che non funziona o non viene rilevato? Vedere se Android riceve input prima di incolpare il gioco",
+        "Visualizzatore del gamepad in tempo reale con key code, per configurare emulatori o il remote play"
       ]
     },
     {
@@ -29,9 +31,9 @@
       "title": "Test completo del controller e punteggio di salute",
       "paragraphs": [],
       "bullets": [
-        "Test guidato di pulsanti, D-pad, stick analogici, grilletti L2/R2, drift e vibrazione",
-        "Punteggio complessivo con esito per voce, salvato nella cronologia dei test",
-        "Report visivo da esportare e condividere per assistenza, riparazione o vendita"
+        "Test guidato di pulsanti, D-pad, stick, grilletti L2/R2, drift e vibrazione",
+        "Punteggio per voce, salvato nella Cronologia test",
+        "Report visivo per assistenza, riparazione o vendita"
       ]
     },
     {
@@ -39,8 +41,8 @@
       "title": "Test dei pulsanti e test del joystick in tempo reale",
       "paragraphs": [],
       "bullets": [
-        "Ogni pressione, rilascio e key code Android visibili all'istante",
-        "Entrambi gli stick, assi, D-pad e pressione analogica dei grilletti a schermo",
+        "Ogni pressione, rilascio e key code all'istante, con cronologia",
+        "Entrambi gli stick, assi, D-pad e pressione dei grilletti, in diretta",
         "Layout per Xbox, PlayStation, gamepad generici e telecomandi TV"
       ]
     },
@@ -58,8 +60,8 @@
       "title": "Input lag, latenza e polling rate",
       "paragraphs": [],
       "bullets": [
-        "Polling rate stimato in Hz, intervallo di input medio, minimo e massimo",
-        "Campionamento avanzato: jitter, istogramma intervalli, Bluetooth e USB, export CSV"
+        "Polling rate in Hz con intervallo di input medio, minimo e massimo",
+        "Campionamento avanzato: jitter, istogramma intervalli, Bluetooth contro USB, export CSV"
       ]
     },
     {
@@ -67,8 +69,8 @@
       "title": "Test di vibrazione e studio del rumble",
       "paragraphs": [],
       "bullets": [
-        "Prova separatamente l'intensità dei motori sinistro e destro",
-        "Studio della vibrazione: crea schemi multi-segmento per i due motori, in loop e salvabili"
+        "Prova l'intensità di ogni motore separatamente",
+        "Studio vibrazione: schemi multi-segmento per i due motori, in loop e salvabili"
       ]
     },
     {
@@ -76,9 +78,9 @@
       "title": "Test LED (PlayStation via Bluetooth)",
       "paragraphs": [],
       "bullets": [
-        "Imposta il colore della light bar, poi avvia i test a tinta unita, sfumatura e respiro",
+        "Imposta il colore della light bar e prova tinta unita, sfumatura e respiro",
         "Individua zone spente, dominanti di colore, scatti o sfarfallio",
-        "Richiede DualShock 4 o DualSense via Bluetooth, Android 12+. Con PS via cavo, Xbox e altri controller Android non apre la luce: l'app spiega il motivo invece di mostrare un selettore che non fa nulla."
+        "Richiede DualShock 4 o DualSense via Bluetooth su Android 12+. Con PS via cavo, Xbox e altri controller Android non accede alla luce; l'app ti spiega il motivo."
       ]
     },
     {
@@ -87,14 +89,14 @@
       "paragraphs": [],
       "bullets": [
         "Giroscopio, accelerometro e livella per DualShock 4, DualSense, Switch Pro (Android 12+)",
-        "Test del touchpad con tracce multi-touch e contatore pressioni"
+        "Test del touchpad con tracce multi-touch"
       ]
     },
     {
       "id": "controller-info",
       "title": "Info controller e andamento dello stato",
       "paragraphs": [
-        "Mostra marca, nome, Vendor ID, Product ID, connessione, assi, numero di pulsanti, vibrazione e batteria quando vengono comunicati. La cronologia segue punteggio e drift di ogni controller: noti in anticipo uno stick che cede."
+        "Mostra marca, nome, Vendor ID, Product ID, connessione, assi, pulsanti, vibrazione e batteria se il controller li comunica. La Cronologia test segue punteggio e drift di ogni controller: noti in anticipo uno stick che cede."
       ],
       "bullets": []
     },
@@ -103,20 +105,20 @@
       "title": "Da sapere",
       "paragraphs": [],
       "bullets": [
-        "Le funzioni dipendono dal modello di controller, dalla connessione, dalla versione di Android e dal telefono. Alcuni controller non comunicano ad Android batteria, vibrazione, sensori o touchpad.",
-        "L'app legge solo gli input. Non può rimappare i pulsanti, aggiornare il firmware o riparare l'hardware.",
-        "I test principali si usano senza pagare, con pubblicità. Pro è un acquisto una tantum: niente pubblicità, più diagnostica avanzata, andamento dello stato, export CSV e schemi di vibrazione salvati.",
-        "Xbox, PlayStation, DualShock, DualSense e Nintendo Switch sono marchi dei rispettivi proprietari. Questa app non è affiliata a Microsoft, Sony o Nintendo."
+        "Le funzioni dipendono dal controller, dalla connessione, dalla versione di Android e dal telefono. Alcuni controller non comunicano batteria, vibrazione, sensori o touchpad.",
+        "L'app legge solo gli input: non rimappa i tasti, non aggiorna il firmware e non ripara l'hardware.",
+        "I test principali si usano senza pagare, con pubblicità. Pro è un acquisto una tantum: niente pubblicità, più diagnostica avanzata, andamento dello stato, export CSV e schemi salvati.",
+        "Xbox, PlayStation, DualShock, DualSense e Nintendo Switch sono marchi dei rispettivi proprietari. App non affiliata a Microsoft, Sony o Nintendo."
       ]
     },
     {
       "id": "support",
       "title": "Qualcosa non funziona?",
       "paragraphs": [
-        "Se il controller non viene rilevato o un risultato sembra sbagliato, scrivici a feedback@dapplebyte.com prima di lasciare una recensione. Indicaci modello di controller e telefono e ti aiutiamo. Quasi tutto si risolve con il prossimo aggiornamento."
+        "Se il controller non viene rilevato o un risultato sembra sbagliato, scrivici a feedback@dapplebyte.com prima di recensire. Indicaci modello di controller e telefono e ti aiutiamo."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-21"
 }

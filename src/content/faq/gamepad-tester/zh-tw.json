@@ -23,6 +23,13 @@
           ]
         },
         {
+          "id": "phone_as_controller",
+          "q": "我沒有手把，可以把手機當手把嗎？",
+          "a": [
+            "這個 app 不行，Gamepad Tester 只檢測實體手把。我們另一個 app JoyLink 能把手機變成 Windows、Mac、Linux、Android TV 和其他 Android 裝置的藍牙手把、觸控板與電視遙控器，對方什麼都不用裝。"
+          ]
+        },
+        {
           "id": "unknown_name",
           "q": "手把顯示成「未知裝置」或一串型號代碼",
           "a": [
@@ -290,6 +297,13 @@
           ]
         },
         {
+          "id": "play_console_on_phone",
+          "q": "可以在這支手機上玩 PS5 或 PS4 嗎？",
+          "a": [
+            "這個 app 不行。我們另一個 app Relaypad 能把你的 PS5 或 PS4 串流到這支手機，在家或用行動網路都行，可以用螢幕按鍵，也可以用藍牙或 USB 手把。你需要自己的主機並開啟 Remote Play。"
+          ]
+        },
+        {
           "id": "tool_unsupported",
           "q": "為什麼有些工具在我的手機上顯示不支援？",
           "a": [
@@ -306,5 +320,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }

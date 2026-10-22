@@ -3,6 +3,18 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 126,
+      "name": "1.2.6",
+      "date": "2026-10-22",
+      "items": [
+        "Yeni tasarım: yenilenen ana ekran ve yeni uygulama simgesi",
+        "Yeni: Ayarlar'dan vurgu rengi seçebilirsiniz",
+        "Ayrıntıları görmek için ana ekrandaki oyun kolu kartına dokunun",
+        "Tuş düzeni testi artık net bir oyun kolu çizimi kullanıyor, Switch düzeni de eklendi",
+        "Tablette ve yatay ekranda daha iyi düzen, daha hızlı açılış"
+      ]
+    },
+    {
       "code": 125,
       "name": "1.2.5",
       "date": "2026-10-13",
@@ -43,5 +55,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-22"
 }
