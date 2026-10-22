@@ -13,7 +13,8 @@ export async function getStaticPaths() {
   const out = [];
   for (const p of await productLangPaths()) {
     const compare = (await getEntry('compare', p.props.slug))?.data;
-    for (const c of compare?.competitors ?? []) {
+    if (!compare || (compare.draft && !import.meta.env.DEV)) continue;
+    for (const c of compare.competitors) {
       out.push({ params: { ...p.params, competitor: c.id }, props: { ...p.props, competitorId: c.id } });
     }
   }

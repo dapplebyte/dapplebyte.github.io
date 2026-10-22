@@ -9,7 +9,14 @@ import { getProduct, getCopy, getFaqOrEnglish, faqEntryById, formatDuration } fr
 import { productLangPaths } from '../../../lib/routes';
 import { graph, organization, website, webPage, breadcrumbs, videoObject, SITE } from '../../../lib/jsonld';
 
-export const getStaticPaths = productLangPaths;
+// Products without videos get no page at all, instead of an empty noindex one.
+export async function getStaticPaths() {
+  const out = [];
+  for (const p of await productLangPaths()) {
+    if ((await getEntry('videos', p.props.slug))?.data.items.length || import.meta.env.DEV) out.push(p);
+  }
+  return out;
+}
 
 const { locale, slug, alternates } = Astro.props;
 const { t, tp } = useT(locale);

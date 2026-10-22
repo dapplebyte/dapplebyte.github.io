@@ -12,7 +12,9 @@ import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../
 export async function getStaticPaths() {
   const out = [];
   for (const p of await productLangPaths()) {
-    if (await getEntry('compare', p.props.slug)) out.push(p);
+    // Draft tables are only built in dev, so unverified pages never go live (not even as noindex).
+    const compare = (await getEntry('compare', p.props.slug))?.data;
+    if (compare && (!compare.draft || import.meta.env.DEV)) out.push(p);
   }
   return out;
 }
