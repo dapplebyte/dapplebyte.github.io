@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "Czym jest karta Równowaga?",
           "a": [
-            "To mały, opcjonalny moduł: ile czasu przewijasz na każdej platformie, dzienny limit czasu, przypomnienie o przewijaniu, pauza przed otwarciem, pora snu i czas skupienia. Każdy limit ma przycisk Wyłącz na dziś. Moduł włączysz lub wyłączysz w Ustawienia → Równowaga."
+            "To mały, opcjonalny moduł: ile czasu przewijasz na każdej platformie, dzienny limit czasu, przypomnienie o przewijaniu, pauza przed otwarciem, pora snu i czas skupienia. Każdy limit ma przycisk Wyłącz na dziś. Moduł otworzysz w Ustawienia → Równowaga."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "Jak zmienić język?",
           "a": [
             "Na Androidzie 13 i nowszym: Ustawienia → Wygląd → Język. Starsze wersje używają języka systemu. Dostępnych jest 41 języków, a zapasowym jest angielski. Tłumaczenia wykonał Claude i nie zostały jeszcze sprawdzone przez rodzimych użytkowników języka, więc zgłoś nam wszystko, co brzmi nienaturalnie."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "Czy muszę płacić? Czym będzie Pro?",
+          "a": [
+            "Każdy, kto zainstaluje SlopSwipe w okresie premiery, zachowuje wszystkie funkcje na zawsze, dopóki aplikacja jest zainstalowana; w Ustawienia → Pro widać „Wczesny użytkownik”. Później Pro będzie jednorazowym zakupem dla osób, które zainstalują aplikację po tym okresie: Tryb rodzica, Harmonogram, Pakiety reguł, limity Równowagi i import list. Podstawa pozostaje bezpłatna dla wszystkich: pomijanie, powody, cofanie, listy, słowa kluczowe, historia i wszystkie trzy platformy. Bez reklam, bez subskrypcji."
           ]
         }
       ]

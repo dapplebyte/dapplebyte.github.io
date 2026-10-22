@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "What is the Wellbeing tab?",
           "a": [
-            "A small optional module: how long you scroll on each platform, a daily time limit, a swipe reminder, a pause before opening, bedtime and focus time. Every limit has an Off for today button. Turn the module on or off under Settings → Wellbeing."
+            "A small optional module: how long you scroll on each platform, a daily time limit, a swipe reminder, a pause before opening, bedtime and focus time. Every limit has an Off for today button. Open it under Settings → Wellbeing."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "How do I change the language?",
           "a": [
             "On Android 13 and newer: Settings → Appearance → Language. Older versions follow the system language. There are 41 languages, with English as the fallback. The translations were made by Claude and have not been checked by native speakers yet, so please report anything that reads wrong."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "Do I have to pay? What will Pro be?",
+          "a": [
+            "Everyone who installs SlopSwipe during its launch period keeps every feature for good, as long as the app stays installed; Settings → Pro shows \"Founding user\". Later, Pro will be a one-time purchase for people who install after that: Parent mode, Schedule, Rule packs, Wellbeing limits and list import. The core stays free for everyone: skipping, reasons, undo, lists, keywords, history and all three platforms. No ads, no subscriptions."
           ]
         }
       ]

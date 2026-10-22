@@ -1,89 +1,89 @@
 {
   "slug": "slopswipe",
   "locale": "id",
-  "title": "SlopSwipe: Lewati Video AI",
-  "shortDescription": "Geser otomatis konten sampah AI. Filter, daftar blokir, urungkan sekali ketuk.",
-  "tagline": "Lewati AI Slop di Shorts, TikTok dan Reels",
+  "title": "SlopSwipe: Video Sampah AI",
+  "shortDescription": "Auto geser konten AI di feed klip pendek. Filter kata kunci, blokir, urungkan.",
+  "tagline": "Lewati Video Sampah AI di Shorts, TikTok dan Reels",
   "sections": [
     {
       "id": "intro",
-      "title": "Lewati AI Slop di Shorts, TikTok dan Reels",
+      "title": "Lewati Video Sampah AI di Shorts, TikTok dan Reels",
       "paragraphs": [
-        "Konten sampah AI membanjiri feed video pendek: cerita bersuara AI, hewan palsu, \"berita\" sintetis. SlopSwipe adalah filter video AI otomatis untuk Android. Tetap pakai aplikasi asli YouTube Shorts, TikTok, dan Instagram Reels. Saat video cocok dengan aturan yang kamu aktifkan, SlopSwipe menggeser ke video berikutnya dan mencatat alasannya, jadi mudah diurungkan bila keliru. Isi layarmu tetap di ponsel, tanpa akun. Perlu layanan aksesibilitas Android, yang cukup diaktifkan sekali di setelan sistem."
+        "Video sampah AI (AI slop) membanjiri feed video pendek: cerita bersuara AI, hewan palsu, \"berita\" sintetis. SlopSwipe adalah pemblokir AI slop untuk Android. Kamu tetap pakai YouTube Shorts, TikTok dan Reels yang asli; saat video cocok dengan aturanmu, SlopSwipe menggeser ke video berikutnya dan mencatat alasannya, jadi salah lewat mudah diurungkan. Isi layar tidak keluar dari ponselmu; tanpa akun."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "Cara Populer Memakai SlopSwipe",
+      "title": "Sembunyikan Konten AI, Blokir Akun Spam, Kontrol Orang Tua",
       "paragraphs": [],
       "bullets": [
-        "Bersihkan feed penuh AI slop tanpa berhenti nonton video pendek",
-        "Blokir akun content farm AI dan spam berdasarkan nama agar tidak muncul lagi",
-        "Beri orang tua atau kakek-nenek feed dengan lebih sedikit video palsu"
+        "Sembunyikan sampah AI dari feed video pendek tanpa berhenti nonton video pendek",
+        "Blokir peternakan konten AI dan akun spam lewat nama, selamanya",
+        "Kontrol orang tua: lebih sedikit video AI palsu untuk anak, orang tua atau kakek-nenek"
       ]
     },
     {
       "id": "detection",
-      "title": "Deteksi Video AI dengan Aturan yang Transparan",
+      "title": "Deteksi Konten AI dengan Aturan Transparan",
       "paragraphs": [],
       "bullets": [
-        "Label AI dari platform: video yang ditandai buatan AI akan dilewati",
-        "Kata kunci AI: tagar atau frasa AI di judul atau keterangan",
-        "Daftar blokir milikmu, plus daftar bersama akun AI yang dilaporkan pengguna dan ditinjau manusia",
+        "Label AI platform: video bertanda AI langsung dilewati",
+        "Filter kata kunci dan hashtag: hashtag AI atau frasa seperti \"AI story\" di judul atau keterangan",
+        "Daftar blokirmu, plus daftar bersama akun AI yang dilaporkan dan ditinjau manusia",
         "Semua aturan terlihat di Setelan dan bisa dimatikan"
       ]
     },
     {
       "id": "auto-swipe",
-      "title": "Geser Otomatis, Bilah Petunjuk, dan Urungkan Sekali Ketuk",
+      "title": "Geser Otomatis, Pemblokir Sampah AI dan Urungkan Sekali Ketuk",
       "paragraphs": [],
       "bullets": [
-        "Geser otomatis ke video berikutnya saat aturan cocok, jeda bisa diatur",
-        "Riwayat menunjukkan alasan tiap video dilewati; tandai yang keliru di sana, atau nyalakan tombol Urungkan setelah dilewati",
-        "Daftar izin untuk kreator tepercaya, daftar blokir untuk akun yang tak ingin kamu lihat lagi",
-        "Tiga tingkat sensitivitas: Ketat (default), Normal, Longgar; konten AI ringan seperti suara AI juga dilewati, atau setel ke Petunjuk atau Abaikan",
-        "Tidak menyentuh iklan, komentar, pesan, atau aplikasi lain"
+        "Otomatis geser ke video berikutnya saat aturan cocok, jeda bisa diatur",
+        "\"Riwayat\" menunjukkan alasan tiap video dilewati; tandai salah di sana atau tampilkan tombol \"Urungkan\" tiap kali lewat",
+        "Daftar izin untuk kreator tepercaya, daftar blokir untuk akun yang bikin muak; ekspor dan impor daftar",
+        "Sensitivitas: Ketat, Normal atau Longgar; AI ringan seperti suara AI bisa jadi Lewati, Hanya petunjuk atau Abaikan",
+        "Tidak pernah menyentuh iklan, komentar, pesan atau aplikasi lain"
       ]
     },
     {
       "id": "schedule",
-      "title": "Jadwal, Mode Orang Tua, Widget, dan Paket Aturan",
+      "title": "Jadwal, Mode Orang Tua, Widget dan Paket Aturan",
       "paragraphs": [],
       "bullets": [
-        "Opsional: laporkan akun AI secara anonim; setiap laporan ditinjau oleh manusia",
-        "Jadwalkan penyaringan lebih ketat di malam hari atau jam kerja",
-        "Mode orang tua mengunci pengaturan dengan PIN",
-        "Widget layar utama dengan jumlah video dilewati hari ini, tile Quick Settings (Pengaturan Cepat) untuk jeda",
-        "Paket aturan bertema; jeda 30 menit, sampai besok, atau sampai kamu lanjutkan"
+        "\"Jadwal\": penyaringan lebih ketat saat malam atau jam kerja",
+        "\"Mode orang tua\" mengunci setelan dengan PIN",
+        "Widget layar utama berisi lewatan hari ini, ubin Setelan Cepat untuk jeda",
+        "\"Paket aturan\" bertema; jeda 30 menit, sampai besok atau sampai kamu lanjutkan"
       ]
     },
     {
       "id": "wellbeing",
-      "title": "Waktu Layar dan Kesehatan Digital",
+      "title": "Batasi Screen Time, Stop Doomscrolling, Kesejahteraan Digital",
       "paragraphs": [],
       "bullets": [
-        "Lihat durasi scroll dan jumlah video AI yang dilewati hari ini dan minggu ini",
-        "Batas harian, waktu tidur, dan waktu fokus dengan pengingat lembut atau kembali ke layar utama",
-        "Setiap batas punya \"Matikan hari ini\"; tidak ada yang dipaksakan"
+        "Berapa lama kamu scroll dan berapa video AI dilewati hari ini dan minggu ini",
+        "Batas harian, \"Waktu tidur\" dan \"Waktu fokus\": pengingat lembut atau kembali ke layar utama",
+        "\"Runtunan feed bersih\" dengan \"Kartu bagikan\" yang hanya berisi angka",
+        "Setiap batas punya \"Matikan hari ini\"; tidak ada paksaan"
       ]
     },
     {
       "id": "guides",
-      "title": "Panduan yang Berjalan Tanpa Izin Apa Pun",
+      "title": "Panduan Matikan Konten AI, Tanpa Izin Apa Pun",
       "paragraphs": [
-        "Panduan menunjukkan cara mengurangi video AI lewat pengaturan tiap platform, cara mengenali video AI sendiri, dan cara menjaga layanan tetap aktif di ponsel dengan penghemat baterai agresif."
+        "Panduan langkah demi langkah untuk setelan AI tiap platform, cara mengenali video AI sendiri, dan menjaga layanan tetap jalan di ponsel dengan penghemat baterai agresif."
       ],
       "bullets": []
     },
     {
       "id": "privacy",
-      "title": "Privasi Utama, Hanya di Perangkat",
+      "title": "Privasi Utama, Semua di Perangkat",
       "paragraphs": [],
       "bullets": [
-        "Hanya membaca teks di layar pada Shorts, TikTok, dan Reels: judul, keterangan, nama akun, tagar, label AI",
-        "Tanpa rekam layar, tangkapan layar, unggahan, atau login",
-        "Halaman \"Yang kami baca\" menampilkan persis apa yang terakhir dibaca; laporan error dan statistik opsional",
+        "Hanya membaca teks di layar Shorts, TikTok dan Reels: judul, keterangan, nama akun, hashtag, label AI",
+        "Tanpa rekam layar, screenshot, unggah isi layar, maupun login",
+        "\"Yang kami baca\" menampilkan teks terakhir yang dibaca; laporan error dan statistik opsional",
         "Tanpa iklan, tanpa langganan"
       ]
     },
@@ -92,17 +92,17 @@
       "title": "Harap diperhatikan",
       "paragraphs": [],
       "bullets": [
-        "SlopSwipe memakai layanan aksesibilitas Android untuk membaca teks di layar dan menggeser ke atas untukmu. Ini bukan alat bantu untuk penyandang disabilitas; cara kerjanya dijelaskan sebelum diaktifkan, dan baru berjalan setelah kamu setuju.",
-        "Instagram Reels nonaktif secara default di versi pertama ini; aktifkan di Setelan → Tempat berlaku.",
-        "Deteksi bergantung pada label, teks, dan daftar: video tanpa label bisa lolos dan kadang video yang salah terlewati; Urungkan memperbaikinya. Jika pembaruan platform mengubah tata letak, SlopSwipe berhenti dan memberi tahu kamu. Perlu Android 8.0+.",
-        "YouTube, TikTok, dan Instagram adalah merek dagang pemiliknya. SlopSwipe tidak berafiliasi dengan atau didukung oleh mereka."
+        "SlopSwipe memakai layanan aksesibilitas Android untuk membaca teks di layar dan menggeser ke atas untukmu. Ini bukan alat bantu disabilitas dan hanya berjalan setelah kamu membaca cara kerjanya dan setuju.",
+        "Instagram Reels nonaktif secara default; aktifkan di Setelan → Tempat berlaku.",
+        "Video tanpa label bisa lolos dan sesekali video yang salah terlewati; \"Urungkan\" memperbaikinya. Jika tampilan platform berubah, SlopSwipe berhenti dan memberi tahu kamu. Android 8.0+.",
+        "YouTube, TikTok dan Instagram adalah merek dagang pemiliknya; SlopSwipe tidak berafiliasi dengan maupun didukung mereka."
       ]
     },
     {
       "id": "support",
       "title": "Ada yang tidak berfungsi?",
       "paragraphs": [
-        "Jika video tidak dilewati, atau yang salah terlewati, kirim email ke feedback@dapplebyte.com sebelum menulis ulasan."
+        "Video salah dilewati, atau tak ada yang dilewati? Email ke feedback@dapplebyte.com dengan model ponsel dan platform sebelum menulis ulasan; kebanyakan masalah beres di update berikutnya."
       ],
       "bullets": []
     }

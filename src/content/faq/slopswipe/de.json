@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "Was ist der Tab Wohlbefinden?",
           "a": [
-            "Ein kleines optionales Modul: wie lange du auf jeder Plattform scrollst, ein tägliches Zeitlimit, eine Wisch-Erinnerung, eine Pause vor dem Öffnen, Schlafenszeit und Fokuszeit. Jedes Limit hat einen Button „Heute aus“. Ein- oder ausschalten kannst du das Modul unter Einstellungen → Wohlbefinden."
+            "Ein kleines optionales Modul: wie lange du auf jeder Plattform scrollst, ein tägliches Zeitlimit, eine Wisch-Erinnerung, eine Pause vor dem Öffnen, Schlafenszeit und Fokuszeit. Jedes Limit hat einen Button „Heute aus“. Du findest das Modul unter Einstellungen → Wohlbefinden."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "Wie ändere ich die Sprache?",
           "a": [
             "Ab Android 13: Einstellungen → Darstellung → Sprache. Ältere Versionen folgen der Systemsprache. Es gibt 41 Sprachen, Englisch ist die Ausweichsprache. Die Übersetzungen hat Claude erstellt, Muttersprachler haben sie noch nicht geprüft. Melde uns bitte alles, was seltsam klingt."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "Muss ich bezahlen? Was wird Pro?",
+          "a": [
+            "Alle, die SlopSwipe in der Startphase installieren, behalten alle Funktionen für immer, solange die App installiert bleibt; unter Einstellungen → Pro steht dann „Nutzer der ersten Stunde“. Später wird Pro ein Einmalkauf für alle, die danach installieren: Elternmodus, Zeitplan, Regelpakete, Wohlbefinden-Limits und Listenimport. Der Kern bleibt für alle kostenlos: Überspringen, Gründe, Rückgängig, Listen, Keywords, Verlauf und alle drei Plattformen. Keine Werbung, keine Abos."
           ]
         }
       ]

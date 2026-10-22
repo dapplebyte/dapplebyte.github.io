@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "Cos’è la scheda Benessere?",
           "a": [
-            "Un piccolo modulo facoltativo: quanto tempo scorri su ogni piattaforma, un limite di tempo giornaliero, un promemoria sugli scorrimenti, una pausa prima dell’apertura, Riposo e Concentrazione. Ogni limite ha un pulsante Disattiva per oggi. Attiva o disattiva il modulo in Impostazioni → Benessere."
+            "Un piccolo modulo facoltativo: quanto tempo scorri su ogni piattaforma, un limite di tempo giornaliero, un promemoria sugli scorrimenti, una pausa prima dell’apertura, Riposo e Concentrazione. Ogni limite ha un pulsante Disattiva per oggi. Aprilo da Impostazioni → Benessere."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "Come cambio la lingua?",
           "a": [
             "Su Android 13 e versioni successive: Impostazioni → Aspetto → Lingua. Le versioni precedenti seguono la lingua di sistema. Ci sono 41 lingue, con l’inglese come riserva. Le traduzioni sono state fatte da Claude e non sono ancora state controllate da madrelingua, quindi segnalaci qualsiasi cosa suoni strana."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "Devo pagare? Cosa sarà Pro?",
+          "a": [
+            "Chi installa SlopSwipe durante il periodo di lancio mantiene tutte le funzioni per sempre, finché l’app resta installata; Impostazioni → Pro mostra “Utente fondatore”. In seguito Pro sarà un acquisto una tantum per chi installa dopo: Modalità genitori, Programmazione, Pacchetti di regole, limiti di Benessere e importazione delle liste. Le funzioni di base restano gratuite per tutti: salti, motivi, annullamento, liste, parole chiave, cronologia e tutte e tre le piattaforme. Niente pubblicità, niente abbonamenti."
           ]
         }
       ]

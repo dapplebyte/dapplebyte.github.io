@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "O que é a aba Bem-estar?",
           "a": [
-            "Um pequeno módulo opcional: quanto tempo você rola em cada plataforma, um limite diário de tempo, um lembrete de deslizes, uma pausa antes de abrir, hora de dormir e tempo de foco. Todo limite tem um botão Desativar hoje. Ative ou desative o módulo em Ajustes → Bem-estar."
+            "Um pequeno módulo opcional: quanto tempo você rola em cada plataforma, um limite diário de tempo, um lembrete de deslizes, uma pausa antes de abrir, hora de dormir e tempo de foco. Todo limite tem um botão Desativar hoje. Abra em Ajustes → Bem-estar."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "Como mudo o idioma?",
           "a": [
             "No Android 13 ou mais recente: Ajustes → Aparência → Idioma. Versões anteriores seguem o idioma do sistema. São 41 idiomas, com o inglês como alternativa. As traduções foram feitas pelo Claude e ainda não foram revisadas por falantes nativos, então avise se algo soar estranho."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "Preciso pagar? Como vai ser o Pro?",
+          "a": [
+            "Todo mundo que instalar o SlopSwipe durante o período de lançamento mantém todos os recursos para sempre, enquanto o app continuar instalado; Ajustes → Pro mostra “Usuário fundador”. Mais tarde, o Pro vai ser uma compra única para quem instalar depois disso: Modo parental, Horário, Pacotes de regras, limites de Bem-estar e importação de listas. O essencial continua grátis para todos: pular, motivos, desfazer, listas, palavras-chave, histórico e as três plataformas. Sem anúncios, sem assinaturas."
           ]
         }
       ]

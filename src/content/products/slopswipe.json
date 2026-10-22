@@ -5,9 +5,12 @@
   "status": "live",
   "platform": "Android",
   "applicationId": "com.shots.app.slopswipe",
+  "playUrl": "https://play.google.com/store/apps/details?id=com.shots.app.slopswipe",
   "category": "UtilitiesApplication",
   "minOs": "Android 8.0",
-  "versions": [],
+  "versions": [
+    { "code": 2, "name": "1.0.0", "date": "2026-10-17" }
+  ],
   "contactEmail": "feedback@dapplebyte.com",
   "accent": { "solid": "#2E9E68", "bright": "#3DD68C", "ink": "#0E1013" },
   "displayFont": "IBM Plex Sans",

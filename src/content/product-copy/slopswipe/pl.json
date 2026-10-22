@@ -1,26 +1,26 @@
 {
   "slug": "slopswipe",
   "locale": "pl",
-  "title": "SlopSwipe: Pomijaj filmiki AI",
-  "shortDescription": "Sam przewija śmieci AI podczas scrollowania. Filtr treści, czarna lista, cofnij.",
+  "title": "SlopSwipe: Pomijaj AI Slop",
+  "shortDescription": "Sam przewija śmieci AI w krótkich filmach. Filtr słów, czarna lista, cofnij",
   "tagline": "Pomijaj AI slop w Shorts, TikToku i Reels",
   "sections": [
     {
       "id": "intro",
       "title": "Pomijaj AI slop w Shorts, TikToku i Reels",
       "paragraphs": [
-        "AI slop zalewa feedy z krótkimi filmami: historie z głosem AI, fałszywe zwierzęta, syntetyczne „newsy”. SlopSwipe to automatyczny filtr filmów AI na Androida. Dalej korzystasz z prawdziwych aplikacji YouTube Shorts, TikTok i Instagram Reels; gdy film pasuje do włączonej przez ciebie reguły, SlopSwipe przewija do następnego i zapisuje powód, więc pomyłkę łatwo cofnąć. Nic z ekranu nie opuszcza telefonu, konto nie jest potrzebne. Wymaga usługi ułatwień dostępu Androida, którą włączasz raz w ustawieniach systemu."
+        "AI slop zalewa feedy z krótkimi filmami: historie czytane głosem AI, fałszywe zwierzęta, syntetyczne „newsy”. SlopSwipe to bloker AI slop na Androida. Dalej korzystasz z prawdziwych aplikacji YouTube Shorts, TikTok i Reels; gdy film pasuje do włączonej reguły, SlopSwipe przewija do następnego i zapisuje powód, więc błędne pominięcie łatwo cofnąć. Nic z ekranu nie opuszcza telefonu; konto nie jest potrzebne."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "Jak ludzie usuwają AI slop dzięki SlopSwipe",
+      "title": "Jak ludzie używają SlopSwipe przeciw śmieciom AI",
       "paragraphs": [],
       "bullets": [
-        "Oczyść feed zalany przez AI slop bez rezygnacji z krótkich filmów",
-        "Blokuj farmy treści AI i konta spamowe po nazwie, żeby nigdy nie wróciły",
-        "Daj rodzicom lub dziadkom feed z mniejszą liczbą fałszywych filmów"
+        "Ukryj śmieci AI w feedzie krótkich filmów bez rezygnacji z krótkich filmów",
+        "Zablokuj farmy treści AI i konta spamowe po nazwie, na dobre",
+        "Kontrola rodzicielska: mniej fałszywych filmów AI dla dziecka, rodzica lub dziadków"
       ]
     },
     {
@@ -29,50 +29,50 @@
       "paragraphs": [],
       "bullets": [
         "Etykiety AI platformy: filmy oznaczone jako wygenerowane przez AI są pomijane",
-        "Słowa kluczowe AI: hashtagi lub frazy AI w tytule albo opisie",
-        "Twoja lista zablokowanych i wspólna lista kont AI zgłoszonych przez użytkowników i sprawdzonych ręcznie",
-        "Każda reguła jest widoczna w ustawieniach i można ją wyłączyć"
+        "Filtr słów kluczowych i hashtagów: hashtagi AI lub frazy typu „AI story” w tytule lub opisie",
+        "Twoja czarna lista plus wspólna, sprawdzana przez ludzi lista zgłoszonych kont AI",
+        "Każda reguła jest widoczna w Ustawieniach i da się ją wyłączyć"
       ]
     },
     {
       "id": "auto-swipe",
-      "title": "Auto przewijanie, pasek podpowiedzi i cofnij jednym dotknięciem",
+      "title": "Automatyczne przewijanie, bloker AI slop i cofanie jednym dotknięciem",
       "paragraphs": [],
       "bullets": [
         "Przewija do następnego filmu, gdy reguła pasuje, z regulowanym opóźnieniem",
-        "„Historia” pokazuje powód każdego pominięcia; tam oznaczysz pomyłkę albo włączysz przycisk „Cofnij” po pominięciu",
-        "Lista dozwolonych dla zaufanych twórców, lista zablokowanych dla kont, których masz dość",
-        "Trzy poziomy: Ścisła (domyślna), Zwykła, Luźna; treści z lekką SI, np. lektor AI, też są pomijane, albo ustaw Podpowiedź lub Ignoruj",
-        "Nigdy nie działa na reklamy, komentarze, wiadomości ani inne aplikacje"
+        "„Historia” pokazuje, dlaczego film pominięto; oznacz tam pomyłkę lub pokazuj przycisk „Cofnij” po każdym pominięciu",
+        "Lista dozwolonych dla zaufanych twórców, lista zablokowanych dla kont, których masz dość; eksport i import list",
+        "Czułość: Ścisła, Zwykła lub Luźna; lekkie AI, np. lektor AI: Pomiń, Tylko podpowiedź lub Ignoruj",
+        "Nigdy nie rusza reklam, komentarzy, wiadomości ani innych aplikacji"
       ]
     },
     {
       "id": "schedule",
-      "title": "Harmonogram, tryb rodzica, widżet i pakiety reguł",
+      "title": "Harmonogram, Tryb rodzica, widżet i pakiety reguł",
       "paragraphs": [],
       "bullets": [
-        "Opcjonalnie: anonimowe zgłaszanie kont AI; każde zgłoszenie sprawdza człowiek",
-        "Ostrzejsze filtrowanie w nocy lub w godzinach pracy",
+        "Harmonogram: ostrzejsze filtrowanie w nocy lub w godzinach pracy",
         "Tryb rodzica blokuje ustawienia kodem PIN",
-        "Widżet na ekranie głównym z dzisiejszymi pominięciami, kafelek Quick Settings do pauzy",
+        "Widżet z dzisiejszymi pominięciami, kafelek szybkich ustawień do pauzy",
         "Tematyczne pakiety reguł; pauza na 30 minut, do jutra lub do wznowienia"
       ]
     },
     {
       "id": "wellbeing",
-      "title": "Czas przed ekranem i cyfrowa równowaga",
+      "title": "Czas przed ekranem, limity doomscrollingu i cyfrowy dobrostan",
       "paragraphs": [],
       "bullets": [
-        "Zobacz, ile scrollujesz i ile filmów AI pominięto dziś i w tym tygodniu",
-        "Dzienny limit, pora snu i czas skupienia z delikatnym przypomnieniem lub powrotem na ekran główny",
+        "Czas przewijania i pominięte filmy AI, dziś i w tym tygodniu",
+        "Dzienny limit, pora snu i czas skupienia: delikatne przypomnienie lub powrót do ekranu głównego",
+        "„Seria czystego feedu” i karta do udostępnienia z samymi liczbami",
         "Każdy limit ma „Wyłącz na dziś”; nic nie jest narzucane"
       ]
     },
     {
       "id": "guides",
-      "title": "Poradniki przeciw filmom AI bez uprawnień",
+      "title": "Poradniki, które działają bez uprawnień",
       "paragraphs": [
-        "Poradniki pokazują, jak ograniczyć filmy AI ustawieniami każdej platformy, jak samemu rozpoznać filmy AI i jak utrzymać usługę na telefonach z agresywnym oszczędzaniem baterii."
+        "Krok po kroku: ustawienia AI każdej platformy, samodzielne rozpoznawanie filmów AI i utrzymanie usługi mimo agresywnego oszczędzania baterii."
       ],
       "bullets": []
     },
@@ -83,26 +83,26 @@
       "bullets": [
         "Czyta tylko tekst na ekranie w Shorts, TikToku i Reels: tytuł, opis, nazwę konta, hashtagi, etykietę AI",
         "Bez nagrywania ekranu, bez zrzutów ekranu, bez wysyłania treści ekranu, bez logowania",
-        "Strona „Co odczytujemy” pokazuje dokładnie, co odczytano ostatnio; raporty awarii i statystyki są opcjonalne",
+        "„Co odczytujemy” pokazuje ostatnio odczytany tekst; raporty awarii i statystyki są opcjonalne",
         "Bez reklam, bez subskrypcji"
       ]
     },
     {
       "id": "note",
-      "title": "Ważne informacje",
+      "title": "Warto wiedzieć",
       "paragraphs": [],
       "bullets": [
-        "SlopSwipe używa usługi ułatwień dostępu Androida, by czytać tekst na ekranie i przewijać za ciebie. Nie jest narzędziem dla osób z niepełnosprawnościami, przed włączeniem wyjaśnia, co robi, i działa dopiero po twojej zgodzie.",
-        "W pierwszej wersji Instagram Reels jest domyślnie wyłączony; włączysz go w „Ustawienia → Gdzie działa”.",
-        "Wykrywanie opiera się na etykietach, tekście i listach: filmy bez etykiety mogą się prześlizgnąć, a czasem pominięty zostanie zły; „Cofnij” to naprawia. Gdy aktualizacja platformy zmieni układ, SlopSwipe przestaje działać i informuje cię o tym. Wymaga Androida 8.0+.",
-        "YouTube, TikTok i Instagram są znakami towarowymi ich właścicieli. SlopSwipe nie jest z nimi powiązany ani przez nie wspierany."
+        "SlopSwipe używa usługi ułatwień dostępu Androida, aby czytać tekst na ekranie i przewijać za ciebie w górę. Nie jest narzędziem dla osób z niepełnosprawnościami i działa dopiero, gdy przeczytasz, co robi, i się zgodzisz.",
+        "Instagram Reels jest domyślnie wyłączony; włącz go w Ustawienia → Gdzie działa.",
+        "Filmy bez etykiety mogą się prześlizgnąć, a czasem pominięty zostanie niewłaściwy; Cofnij to naprawia. Gdy platforma zmieni układ, SlopSwipe zatrzyma się i da znać. Android 8.0+.",
+        "YouTube, TikTok i Instagram są znakami towarowymi ich właścicieli; SlopSwipe nie jest z nimi powiązany ani przez nie wspierany."
       ]
     },
     {
       "id": "support",
       "title": "Coś nie działa?",
       "paragraphs": [
-        "Jeśli film nie został pominięty albo pominięto zły, napisz na feedback@dapplebyte.com, zanim wystawisz opinię."
+        "Pominięty zły film albo żaden? Zanim wystawisz opinię, napisz na feedback@dapplebyte.com, podając model telefonu i platformę; większość błędów naprawia kolejna aktualizacja."
       ],
       "bullets": []
     }

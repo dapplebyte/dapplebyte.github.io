@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "Denge sekmesi nedir?",
           "a": [
-            "Küçük ve isteğe bağlı bir modül: her platformda ne kadar kaydırdığınız, günlük süre sınırı, kaydırma hatırlatıcısı, açmadan önce duraklama, uyku vakti ve odak zamanı. Her sınırın bir Bugünlük kapat düğmesi vardır. Modülü Ayarlar → Denge bölümünden açıp kapatabilirsiniz."
+            "Küçük ve isteğe bağlı bir modül: her platformda ne kadar kaydırdığınız, günlük süre sınırı, kaydırma hatırlatıcısı, açmadan önce duraklama, uyku vakti ve odak zamanı. Her sınırın bir Bugünlük kapat düğmesi vardır. Ayarlar → Denge bölümünden açabilirsiniz."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "Dili nasıl değiştiririm?",
           "a": [
             "Android 13 ve sonrasında: Ayarlar → Görünüm → Dil. Daha eski sürümler sistem dilini kullanır. 41 dil vardır ve yedek dil İngilizcedir. Çeviriler Claude tarafından yapıldı ve henüz anadili konuşanlarca kontrol edilmedi; yanlış görünen bir şey olursa lütfen bize bildirin."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "Ücret ödemem gerekiyor mu? Pro neleri içerecek?",
+          "a": [
+            "SlopSwipe’ı çıkış döneminde yükleyen herkes, uygulama yüklü kaldığı sürece tüm özellikleri kalıcı olarak kullanır; Ayarlar → Pro bölümünde “Kurucu kullanıcı” yazar. Daha sonra Pro, o dönemden sonra yükleyenler için tek seferlik bir satın alım olacak: Ebeveyn modu, Zamanlama, Kural paketleri, Denge sınırları ve liste içe aktarma. Temel özellikler herkes için ücretsiz kalır: atlama, nedenler, geri alma, listeler, anahtar kelimeler, geçmiş ve üç platformun tamamı. Reklam yok, abonelik yok."
           ]
         }
       ]

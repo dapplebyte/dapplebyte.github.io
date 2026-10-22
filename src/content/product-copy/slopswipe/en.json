@@ -2,14 +2,14 @@
   "slug": "slopswipe",
   "locale": "en",
   "title": "SlopSwipe: Skip AI Slop Videos",
-  "shortDescription": "Auto-swipe past AI junk as you scroll. Content filter, block list, one-tap undo.",
+  "shortDescription": "Auto swipe AI junk off your short video feed. Keyword filter, block list, undo.",
   "tagline": "Skip AI Slop in Shorts, TikTok and Reels",
   "sections": [
     {
       "id": "intro",
       "title": "Skip AI Slop in Shorts, TikTok and Reels",
       "paragraphs": [
-        "AI-generated slop is flooding short-video feeds: AI voiceover stories, fake animals, synthetic \"news\". SlopSwipe is an automatic AI video filter for Android. Keep using the real YouTube Shorts, TikTok and Instagram Reels apps; when a video matches a rule you turned on, SlopSwipe swipes to the next one and records why, so a wrong skip is easy to undo. Nothing from your screen leaves your phone, and no account is needed. It needs Android's accessibility service, which you turn on once in system settings."
+        "AI slop is flooding short-form video feeds: AI voiceover stories, fake animals, synthetic \"news\". SlopSwipe is an AI slop blocker for Android. Keep using the real YouTube Shorts, TikTok and Reels apps; when a video matches a rule you turned on, SlopSwipe swipes to the next one and records why, so a wrong skip is easy to undo. Nothing from your screen leaves your phone; no account needed."
       ],
       "bullets": []
     },
@@ -18,9 +18,9 @@
       "title": "Popular Ways People Use SlopSwipe",
       "paragraphs": [],
       "bullets": [
-        "Clean up a feed overrun by AI slop without quitting short videos",
-        "Block AI content farms and spam accounts by name so they never come back",
-        "Give a parent or grandparent a feed with fewer fake videos"
+        "Hide AI slop from your short video feed without quitting short videos",
+        "Block AI content farms and spam accounts by name, for good",
+        "Parental use: fewer fake AI videos for a child, parent or grandparent"
       ]
     },
     {
@@ -29,20 +29,20 @@
       "paragraphs": [],
       "bullets": [
         "Platform AI labels: videos marked as AI-generated are skipped",
-        "AI keywords: AI hashtags or phrases in the title or caption",
-        "Your own block list, plus a shared list of AI accounts that users report and a person reviews",
-        "Every rule is visible in Settings and can be switched off"
+        "Keyword and hashtag filter: AI hashtags or phrases like \"AI story\" in title or caption",
+        "Your own block list, plus a shared list of reported AI accounts that a person reviews",
+        "Every rule is visible in Settings and can be turned off"
       ]
     },
     {
       "id": "auto-swipe",
-      "title": "Auto Swipe, Hint Bar and One-Tap Undo",
+      "title": "Auto Swipe, AI Slop Blocker and One-Tap Undo",
       "paragraphs": [],
       "bullets": [
         "Auto-swipes to the next video when a rule matches, with a tunable delay",
-        "History shows why each video was skipped; mark a mistake there, or turn on an Undo button after every skip",
-        "Allow list for creators you trust, block list for accounts you are done with",
-        "Three sensitivity levels: Strict (default), Normal, Relaxed; light AI like AI voiceover is skipped too, or set it to Hint or Ignore",
+        "History shows why each video was skipped; mark a mistake there or add an Undo button after every skip",
+        "Allow list for creators you trust, block list for accounts you are done with; export and import lists",
+        "Sensitivity: Strict, Normal or Relaxed; light AI such as AI voiceover can be Skip, Hint or Ignore",
         "Never acts on ads, comments, messages or any other app"
       ]
     },
@@ -51,7 +51,6 @@
       "title": "Schedule, Parent Mode, Widget and Rule Packs",
       "paragraphs": [],
       "bullets": [
-        "Optional: report AI accounts anonymously; a person reviews every report",
         "Schedule stricter filtering at night or during work hours",
         "Parent mode locks the settings behind a PIN",
         "Home-screen widget with today's skips, Quick Settings tile to pause",
@@ -60,11 +59,12 @@
     },
     {
       "id": "wellbeing",
-      "title": "Screen Time and Digital Wellbeing",
+      "title": "Screen Time, Doomscrolling Limits and Digital Wellbeing",
       "paragraphs": [],
       "bullets": [
-        "See how long you scroll and how many AI videos were skipped today and this week",
-        "Daily limit, bedtime and focus time with a gentle reminder or a trip to the home screen",
+        "How long you scrolled and how many AI videos were skipped today and this week",
+        "Daily limit, bedtime and focus time: a gentle reminder or a trip to the home screen",
+        "Clean feed streak with a share card that holds only numbers",
         "Every limit has \"Off for today\"; nothing is forced on you"
       ]
     },
@@ -72,7 +72,7 @@
       "id": "guides",
       "title": "Guides That Work Without Any Permission",
       "paragraphs": [
-        "Guides show how to reduce AI videos with each platform's own settings, how to spot AI videos yourself, and how to keep the service alive on phones with aggressive battery savers."
+        "Step-by-step guides for each platform's own AI settings, spotting AI videos yourself, and keeping the service alive on phones with aggressive battery savers."
       ],
       "bullets": []
     },
@@ -83,7 +83,7 @@
       "bullets": [
         "Reads only on-screen text in Shorts, TikTok and Reels: title, caption, account name, hashtags, AI label",
         "No screen recording, no screenshots, no upload of screen content, no login",
-        "The \"What we read\" page shows exactly what was read last; crash reports and statistics are optional",
+        "\"What we read\" shows the last text read; crash reports and statistics are optional",
         "No ads, no subscriptions"
       ]
     },
@@ -92,17 +92,17 @@
       "title": "Please note",
       "paragraphs": [],
       "bullets": [
-        "SlopSwipe uses Android's accessibility service to read on-screen text and swipe up for you. It is not an assistive tool for people with disabilities, explains what it does before you turn it on, and works only after you agree.",
-        "Instagram Reels is off by default in this first version; turn it on under Settings → Where it works.",
-        "Detection relies on labels, text and lists: unlabelled videos may slip through and a wrong one may occasionally be skipped; Undo fixes that. If a platform update changes the layout, SlopSwipe stops acting and tells you. Requires Android 8.0+.",
-        "YouTube, TikTok and Instagram are trademarks of their owners. SlopSwipe is not affiliated with or endorsed by them."
+        "SlopSwipe uses Android's accessibility service to read on-screen text and swipe up for you. It is not an assistive tool for people with disabilities and runs only after you read what it does and agree.",
+        "Instagram Reels is off by default; turn it on under Settings → Where it works.",
+        "Unlabelled videos may slip through and a wrong one may occasionally be skipped; Undo fixes that. If a platform changes its layout, SlopSwipe stops and tells you. Android 8.0+.",
+        "YouTube, TikTok and Instagram are trademarks of their owners; SlopSwipe is not affiliated with or endorsed by them."
       ]
     },
     {
       "id": "support",
       "title": "Something not working?",
       "paragraphs": [
-        "If a video was not skipped, or the wrong one was, email feedback@dapplebyte.com before leaving a review. Tell us your phone model and the platform; most issues are fixed in the next update."
+        "Wrong video skipped, or none at all? Email feedback@dapplebyte.com with your phone model and platform before leaving a review; most issues are fixed in the next update."
       ],
       "bullets": []
     }

@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "¿Qué es la pestaña Bienestar?",
           "a": [
-            "Un pequeño módulo opcional: cuánto tiempo deslizas en cada plataforma, un límite de tiempo diario, un recordatorio por videos, una pausa antes de abrir, hora de dormir y tiempo de concentración. Cada límite tiene un botón Desactivar por hoy. Activa o desactiva el módulo en Ajustes → Bienestar."
+            "Un pequeño módulo opcional: cuánto tiempo deslizas en cada plataforma, un límite de tiempo diario, un recordatorio por videos, una pausa antes de abrir, hora de dormir y tiempo de concentración. Cada límite tiene un botón Desactivar por hoy. Ábrelo en Ajustes → Bienestar."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "¿Cómo cambio el idioma?",
           "a": [
             "En Android 13 y versiones posteriores: Ajustes → Apariencia → Idioma. Las versiones anteriores usan el idioma del sistema. Hay 41 idiomas, con el inglés como respaldo. Las traducciones las hizo Claude y todavía no las han revisado hablantes nativos, así que avísanos si algo suena raro."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "¿Tengo que pagar? ¿Qué será Pro?",
+          "a": [
+            "Quien instale SlopSwipe durante el periodo de lanzamiento conserva todas las funciones para siempre, mientras la app siga instalada; en Ajustes → Pro aparece “Usuario fundador”. Más adelante, Pro será un pago único para quienes instalen después: Modo parental, Horario, Paquetes de reglas, límites de Bienestar e importación de listas. Lo esencial sigue gratis para todos: saltar videos, motivos, deshacer, listas, palabras clave, historial y las tres plataformas. Sin anuncios ni suscripciones."
           ]
         }
       ]

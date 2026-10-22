@@ -1,0 +1,15 @@
+{
+  "slug": "slopswipe",
+  "locale": "en",
+  "entries": [
+    {
+      "code": 2,
+      "name": "1.0.0",
+      "date": "2026-10-17",
+      "items": [
+        "First release of SlopSwipe."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-22"
+}

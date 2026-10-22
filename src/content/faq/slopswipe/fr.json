@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "À quoi sert l’onglet Bien-être ?",
           "a": [
-            "C’est un petit module facultatif : le temps passé à faire défiler chaque plateforme, une limite de temps quotidienne, un rappel de défilement, une pause avant ouverture, l’heure du coucher et le temps de concentration. Chaque limite a un bouton Pas aujourd’hui. Activez ou désactivez le module dans Paramètres → Bien-être."
+            "C’est un petit module facultatif : le temps passé à faire défiler chaque plateforme, une limite de temps quotidienne, un rappel de défilement, une pause avant ouverture, l’heure du coucher et le temps de concentration. Chaque limite a un bouton Pas aujourd’hui. Ouvrez-le dans Paramètres → Bien-être."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "Comment changer de langue ?",
           "a": [
             "Sous Android 13 et versions ultérieures : Paramètres → Apparence → Langue. Les versions plus anciennes suivent la langue du système. Il y a 41 langues, avec l’anglais en secours. Les traductions ont été faites par Claude et n’ont pas encore été relues par des locuteurs natifs : signalez-nous tout ce qui sonne faux."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "Est-ce payant ? Que sera Pro ?",
+          "a": [
+            "Toute personne qui installe SlopSwipe pendant la période de lancement garde toutes les fonctions pour de bon, tant que l’appli reste installée ; Paramètres → Pro affiche « Membre fondateur ». Plus tard, Pro sera un achat unique pour ceux qui l’installent après cette période : Mode parental, Planning, Packs de règles, limites Bien-être et import de listes. L’essentiel reste gratuit pour tous : le passage des vidéos, les raisons, l’annulation, les listes, les mots-clés, l’historique et les trois plateformes. Pas de publicité, pas d’abonnement."
           ]
         }
       ]

@@ -1,26 +1,26 @@
 {
   "slug": "slopswipe",
   "locale": "pt-br",
-  "title": "SlopSwipe: Filtro de vídeos IA",
-  "shortDescription": "Pula sozinho o lixo gerado no feed: bloqueio de contas e desfazer em um toque.",
+  "title": "SlopSwipe: Pula o lixo de IA",
+  "shortDescription": "Passa sozinho o slop de IA dos vídeos curtos. Palavras-chave, bloqueio, desfazer",
   "tagline": "Pule o lixo de IA no Shorts, TikTok e Reels",
   "sections": [
     {
       "id": "intro",
       "title": "Pule o lixo de IA no Shorts, TikTok e Reels",
       "paragraphs": [
-        "O lixo de IA está inundando os feeds de vídeos curtos: histórias com voz de IA, animais falsos, \"notícias\" sintéticas. O SlopSwipe é um filtro automático de vídeos de IA para Android. Continue usando os apps reais do YouTube Shorts, TikTok e Instagram Reels: quando um vídeo bate com uma regra que você ativou, o SlopSwipe passa para o próximo e registra o motivo, então desfazer um erro é fácil. Nada da sua tela sai do celular, e não precisa de conta. Ele precisa do serviço de acessibilidade do Android, que você ativa uma vez nas configurações do sistema."
+        "O lixo de IA (AI slop) está inundando os vídeos curtos: histórias com voz de IA, animais falsos, \"notícias\" sintéticas. O SlopSwipe é um bloqueador de lixo de IA para Android. Continue usando os apps reais do YouTube Shorts, TikTok e Reels: quando um vídeo bate com uma regra que você ativou, o SlopSwipe passa para o próximo e registra o motivo, então é fácil desfazer um erro. Nada da sua tela sai do celular; não precisa de conta."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "Como usar o SlopSwipe para limpar o feed",
+      "title": "Usos mais comuns: esconder lixo de IA e controle parental",
       "paragraphs": [],
       "bullets": [
-        "Limpe um feed tomado por lixo de IA sem largar os vídeos curtos",
-        "Bloqueie pelo nome fazendas de conteúdo de IA e contas de spam de vez",
-        "Deixe o feed dos seus pais ou avós com menos vídeos falsos"
+        "Esconda o lixo de IA do seu feed de vídeos curtos sem abrir mão deles",
+        "Bloqueie pelo nome fazendas de conteúdo de IA e contas de spam, de vez",
+        "Uso parental: menos vídeos falsos de IA para filhos, pais ou avós"
       ]
     },
     {
@@ -28,51 +28,51 @@
       "title": "Detecção de vídeos de IA com regras transparentes",
       "paragraphs": [],
       "bullets": [
-        "Selos de IA da plataforma: vídeos marcados como gerados por IA são pulados",
-        "Palavras-chave de IA: hashtags ou frases de IA no título ou na legenda",
-        "Sua Lista de bloqueados, mais uma lista coletiva de contas de IA denunciadas por usuários e revisadas por uma pessoa",
-        "Toda regra aparece nos Ajustes e pode ser desligada"
+        "Selos de IA da plataforma: vídeos marcados como IA são pulados",
+        "Filtro de palavras-chave e hashtags: hashtags de IA ou frases como \"história IA\" no título ou na legenda",
+        "Sua lista negra e uma lista compartilhada de contas de IA denunciadas, revisada por uma pessoa",
+        "Toda regra aparece nos Ajustes e pode ser desativada"
       ]
     },
     {
       "id": "auto-swipe",
-      "title": "Rolagem automática, barra de aviso e desfazer",
+      "title": "Rolagem automática, bloqueador de slop de IA e desfazer",
       "paragraphs": [],
       "bullets": [
-        "Pula para o próximo vídeo quando uma regra bate, com atraso ajustável",
-        "O Histórico mostra por que cada vídeo foi pulado; marque o erro ali ou ative o botão Desfazer após cada pulo",
-        "Lista de permitidos para criadores de confiança, Lista de bloqueados para contas que você cansou de ver",
-        "Três níveis de sensibilidade: Rígida (padrão), Normal, Leve; o \"Conteúdo com IA leve\", como narração de IA, também é pulado, ou escolha Dica ou Ignorar",
+        "Passa sozinho para o próximo vídeo quando uma regra bate, com atraso ajustável",
+        "O \"Histórico\" mostra por que cada vídeo foi pulado; marque um erro ali ou adicione um botão \"Desfazer\" após cada pulo",
+        "Lista de permitidos para criadores de confiança, de bloqueados para contas que você cansou de ver; exporte e importe listas",
+        "Sensibilidade \"Rígida\", \"Normal\" ou \"Leve\"; IA leve, como narração de IA, pode ser \"Pular\", \"Dica\" ou \"Ignorar\"",
         "Nunca age em anúncios, comentários, mensagens ou outros apps"
       ]
     },
     {
       "id": "schedule",
-      "title": "Agenda, Modo parental, widget e Pacotes de regras",
+      "title": "Horário, Modo parental, widget e pacotes de regras",
       "paragraphs": [],
       "bullets": [
-        "Opcional: denunciar contas de IA de forma anônima; uma pessoa revisa cada denúncia",
-        "Filtro mais rígido à noite ou no horário de trabalho",
-        "O Modo parental tranca os ajustes com um PIN",
-        "Widget na tela inicial com os pulos do dia e bloco nas Configurações rápidas (Quick Settings) para pausar",
-        "Pacotes de regras temáticos; pause por 30 minutos, até amanhã ou até você retomar"
+        "\"Horário\" mais rígido à noite ou no expediente",
+        "O \"Modo parental\" bloqueia os ajustes com um PIN",
+        "Widget com os pulos de hoje e bloco nas Configurações rápidas para pausar",
+        "\"Pacotes de regras\" temáticos; pause por 30 minutos, até amanhã ou até retomar"
       ]
     },
     {
       "id": "wellbeing",
-      "title": "Tempo de tela e Bem-estar digital",
+      "title": "Tempo de tela, rolagem infinita e bem-estar digital",
       "paragraphs": [],
       "bullets": [
-        "Veja quanto tempo você rola e quantos vídeos de IA foram pulados hoje e na semana",
-        "Limite diário, hora de dormir e tempo de foco, com um lembrete leve ou volta à tela inicial",
-        "Todo limite tem \"Desativar hoje\"; nada é imposto"
+        "Quanto tempo você rolou e quantos vídeos de IA foram pulados hoje e na semana",
+        "Limite diário, \"Hora de dormir\" e \"Tempo de foco\": um aviso leve ou volta à tela inicial",
+        "\"Sequência de feed limpo\" com um \"Cartão de compartilhamento\" só com números",
+        "Todo limite tem \"Desativar hoje\"; nada é obrigatório"
       ]
     },
     {
       "id": "guides",
       "title": "Guias que funcionam sem nenhuma permissão",
       "paragraphs": [
-        "Os Guias mostram como reduzir vídeos de IA nas configurações de cada plataforma, como reconhecer um sozinho e como manter o serviço ativo em celulares com economia de bateria agressiva."
+        "Guias passo a passo: ajustes de IA de cada plataforma, como reconhecer vídeos de IA e como manter o serviço ativo em celulares com economia de bateria agressiva."
       ],
       "bullets": []
     },
@@ -82,9 +82,9 @@
       "paragraphs": [],
       "bullets": [
         "Lê só o texto na tela do Shorts, TikTok e Reels: título, legenda, nome da conta, hashtags, selo de IA",
-        "Sem gravar a tela, sem capturas, sem enviar o conteúdo da tela, sem login",
-        "A página \"O que lemos\" mostra exatamente o que foi lido por último; relatórios de falhas e estatísticas são opcionais",
-        "Sem anúncios e sem assinaturas"
+        "Sem gravar a tela, sem capturas, sem enviar conteúdo da tela, sem login",
+        "\"O que lemos\" mostra o último texto lido; relatórios de erro e estatísticas são opcionais",
+        "Sem anúncios, sem assinaturas"
       ]
     },
     {
@@ -92,17 +92,17 @@
       "title": "Importante",
       "paragraphs": [],
       "bullets": [
-        "O SlopSwipe usa o serviço de acessibilidade do Android para ler o texto da tela e deslizar por você. Não é uma ferramenta assistiva para pessoas com deficiência; explica o que faz antes de você ativar e só funciona depois que você concorda.",
-        "Nesta primeira versão, o Instagram Reels vem desligado; ative em Ajustes → Onde funciona.",
-        "A detecção depende de selos, texto e listas: vídeos sem selo podem passar e, às vezes, um vídeo certo pode ser pulado; Desfazer resolve. Se a plataforma mudar o layout, o SlopSwipe para de agir e avisa você. Requer Android 8.0 ou superior.",
-        "YouTube, TikTok e Instagram são marcas de seus donos. O SlopSwipe não tem vínculo nem aval deles."
+        "O SlopSwipe usa o serviço de acessibilidade do Android para ler o texto na tela e deslizar por você. Não é uma ferramenta assistiva para pessoas com deficiência e só funciona depois que você lê o que ele faz e aceita.",
+        "O Instagram Reels vem desativado; ative em Ajustes → Onde funciona.",
+        "Vídeos sem selo podem passar e um vídeo certo pode ser pulado às vezes; \"Desfazer\" resolve. Se uma plataforma mudar o layout, o SlopSwipe para e avisa você. Android 8.0+.",
+        "YouTube, TikTok e Instagram são marcas de seus donos; o SlopSwipe não é afiliado nem endossado por eles."
       ]
     },
     {
       "id": "support",
-      "title": "Algo não funcionou?",
+      "title": "Algo não funciona?",
       "paragraphs": [
-        "Se um vídeo não foi pulado, ou o errado foi, escreva para feedback@dapplebyte.com antes de avaliar."
+        "Pulou o vídeo errado ou nenhum? Antes de avaliar, mande um e-mail para feedback@dapplebyte.com com o modelo do celular e a plataforma; quase tudo é corrigido na próxima versão."
       ],
       "bullets": []
     }

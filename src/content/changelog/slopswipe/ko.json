@@ -1,0 +1,15 @@
+{
+  "slug": "slopswipe",
+  "locale": "ko",
+  "entries": [
+    {
+      "code": 2,
+      "name": "1.0.0",
+      "date": "2026-10-17",
+      "items": [
+        "SlopSwipe 첫 출시 버전입니다."
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-22"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "slopswipe",
+  "locale": "zh-cn",
+  "entries": [
+    {
+      "code": 2,
+      "name": "1.0.0",
+      "date": "2026-10-17",
+      "items": [
+        "SlopSwipe 首个版本。"
+      ]
+    }
+  ],
+  "extractedAt": "2026-10-22"
+}

@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "Wat is het tabblad Welzijn?",
           "a": [
-            "Een kleine, optionele module: hoelang je op elk platform scrolt, een dagelijkse tijdslimiet, een swipeherinnering, een pauze voor het openen, bedtijd en focustijd. Elke limiet heeft een knop Vandaag uit. Zet de module aan of uit onder Instellingen → Welzijn."
+            "Een kleine, optionele module: hoelang je op elk platform scrolt, een dagelijkse tijdslimiet, een swipeherinnering, een pauze voor het openen, bedtijd en focustijd. Elke limiet heeft een knop Vandaag uit. Je vindt de module onder Instellingen → Welzijn."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "Hoe verander ik de taal?",
           "a": [
             "Op Android 13 en nieuwer: Instellingen → Weergave → Taal. Oudere versies volgen de systeemtaal. Er zijn 41 talen, met Engels als terugval. De vertalingen zijn gemaakt door Claude en nog niet nagekeken door moedertaalsprekers, dus laat het ons weten als iets vreemd klinkt."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "Moet ik betalen? Wat wordt Pro?",
+          "a": [
+            "Iedereen die SlopSwipe tijdens de lanceringsperiode installeert, houdt alle functies voorgoed, zolang de app geïnstalleerd blijft; Instellingen → Pro toont “Gebruiker van het eerste uur”. Later wordt Pro een eenmalige aankoop voor wie daarna installeert: Oudermodus, Schema, Regelpakketten, Welzijnslimieten en lijsten importeren. De kern blijft voor iedereen gratis: overslaan, redenen, terugdraaien, lijsten, trefwoorden, geschiedenis en alle drie de platforms. Geen advertenties, geen abonnementen."
           ]
         }
       ]

@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "Thẻ Lướt lành mạnh là gì?",
           "a": [
-            "Một mô-đun nhỏ, không bắt buộc: thời gian bạn lướt trên từng nền tảng, giới hạn thời gian mỗi ngày, nhắc theo số lần vuốt, tạm dừng trước khi mở, giờ đi ngủ và giờ tập trung. Mỗi giới hạn đều có nút Tắt hôm nay. Bật hoặc tắt mô-đun trong Cài đặt → Lướt lành mạnh."
+            "Một mô-đun nhỏ, không bắt buộc: thời gian bạn lướt trên từng nền tảng, giới hạn thời gian mỗi ngày, nhắc theo số lần vuốt, tạm dừng trước khi mở, giờ đi ngủ và giờ tập trung. Mỗi giới hạn đều có nút Tắt hôm nay. Mở mô-đun trong Cài đặt → Lướt lành mạnh."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "Làm sao để đổi ngôn ngữ?",
           "a": [
             "Trên Android 13 trở lên: Cài đặt → Giao diện → Ngôn ngữ. Các phiên bản cũ hơn dùng theo ngôn ngữ hệ thống. Có 41 ngôn ngữ, với tiếng Anh làm ngôn ngữ dự phòng. Bản dịch do Claude thực hiện và chưa được người bản ngữ kiểm tra, nên nếu thấy chỗ nào đọc không ổn, hãy báo cho chúng tôi."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "Tôi có phải trả tiền không? Pro sẽ gồm những gì?",
+          "a": [
+            "Tất cả những ai cài SlopSwipe trong giai đoạn ra mắt sẽ giữ mọi tính năng mãi mãi, miễn là ứng dụng vẫn còn được cài; Cài đặt → Pro sẽ hiển thị “Người dùng sáng lập”. Sau đó, Pro sẽ là gói mua một lần dành cho những người cài sau giai đoạn này: Chế độ phụ huynh, Lịch trình, Gói quy tắc, giới hạn Lướt lành mạnh và nhập danh sách. Phần cốt lõi vẫn miễn phí cho mọi người: bỏ qua, lý do, hoàn tác, danh sách, từ khóa, lịch sử và cả ba nền tảng. Không quảng cáo, không đăng ký định kỳ."
           ]
         }
       ]

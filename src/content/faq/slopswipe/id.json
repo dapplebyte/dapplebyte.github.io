@@ -246,7 +246,7 @@
           "id": "wellbeing",
           "q": "Apa itu tab Kesehatan?",
           "a": [
-            "Modul kecil opsional: berapa lama kamu menggulir di tiap platform, batas waktu harian, pengingat geser, jeda sebelum membuka, waktu tidur, dan waktu fokus. Setiap batas punya tombol Matikan hari ini. Aktifkan atau matikan modulnya di Setelan → Kesehatan Digital."
+            "Modul kecil opsional: berapa lama kamu menggulir di tiap platform, batas waktu harian, pengingat geser, jeda sebelum membuka, waktu tidur, dan waktu fokus. Setiap batas punya tombol Matikan hari ini. Buka modulnya di Setelan → Kesehatan Digital."
           ]
         },
         {
@@ -268,6 +268,13 @@
           "q": "Bagaimana cara mengganti bahasa?",
           "a": [
             "Di Android 13 ke atas: Setelan → Tampilan → Bahasa. Versi yang lebih lama mengikuti bahasa sistem. Tersedia 41 bahasa, dengan bahasa Inggris sebagai cadangan. Terjemahannya dibuat oleh Claude dan belum diperiksa oleh penutur asli, jadi tolong laporkan jika ada yang terasa janggal."
+          ]
+        },
+        {
+          "id": "pricing",
+          "q": "Apakah harus bayar? Pro nanti berisi apa?",
+          "a": [
+            "Siapa pun yang memasang SlopSwipe selama masa peluncuran tetap memiliki semua fitur selamanya, selama aplikasinya tidak dicopot; Setelan → Pro akan menampilkan “Pengguna perintis”. Nantinya, Pro akan menjadi pembelian sekali bayar untuk orang yang memasang setelah itu: Mode orang tua, Jadwal, Paket aturan, batas Kesehatan Digital, dan impor daftar. Fitur inti tetap gratis untuk semua orang: melewati video, alasan, urungkan, daftar, kata kunci, riwayat, dan ketiga platform. Tanpa iklan, tanpa langganan."
           ]
         }
       ]

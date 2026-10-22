@@ -1,90 +1,90 @@
 {
   "slug": "slopswipe",
   "locale": "tr",
-  "title": "SlopSwipe: AI videolarını atla",
-  "shortDescription": "Yapay zeka çöpünü otomatik kaydırır. İçerik filtresi, engel listesi, geri alma",
-  "tagline": "Shorts, TikTok ve Reels’te AI videolarını atlayın",
+  "title": "SlopSwipe: AI çöp videoya son",
+  "shortDescription": "Kısa videolarda AI içeriğini otomatik geç. Kelime filtresi, engelleme, geri al.",
+  "tagline": "Shorts, TikTok ve Reels'te AI Çöp Videoları Atla",
   "sections": [
     {
       "id": "intro",
-      "title": "Shorts, TikTok ve Reels’te AI videolarını atlayın",
+      "title": "Shorts, TikTok ve Reels'te AI Çöp Videoları Atla",
       "paragraphs": [
-        "Yapay zeka çöpü kısa video akışlarını dolduruyor: AI seslendirmeli hikâyeler, sahte hayvanlar, sentetik “haberler”. SlopSwipe, Android için otomatik bir AI video filtresidir. YouTube Shorts, TikTok ve Instagram Reels’i her zamanki gibi kullanın. Video açtığınız bir kurala uyunca SlopSwipe sonrakine kaydırır ve nedenini kaydeder; yanlış atlamayı kolayca geri alırsınız. Ekrandaki hiçbir şey telefondan çıkmaz, hesap gerekmez. Android erişilebilirlik hizmetini gerektirir; bunu sistem ayarlarından bir kez açmanız yeterlidir."
+        "AI çöpü (AI slop) kısa video akışlarını sarıyor: AI seslendirmeli hikâyeler, sahte hayvanlar, sentetik \"haberler\". SlopSwipe, Android için bir AI slop engelleyicidir. Gerçek YouTube Shorts, TikTok ve Reels'i kullanmaya devam edin; video açtığınız bir kurala uyunca SlopSwipe sonrakine kaydırır ve nedenini kaydeder, yanlış atlama kolayca geri alınır. Ekrandaki hiçbir şey telefonunuzdan çıkmaz; hesap gerekmez."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "SlopSwipe ile akışı yapay zeka çöpünden temizleyin",
+      "title": "AI İçeriği Gizle, Spam Hesapları Engelle, Ebeveyn Denetimi",
       "paragraphs": [],
       "bullets": [
-        "Kısa videoları bırakmadan AI çöpüyle dolmuş akışı temizleyin",
-        "AI içerik çiftliklerini ve spam hesapları adıyla engelleyin, bir daha çıkmasın",
-        "Anne babanıza ya da büyüklerinize daha az sahte videolu bir akış kurun"
+        "Kısa videoyu bırakmadan AI çöpünü kısa video akışınızdan gizleyin",
+        "AI içerik çiftliklerini ve spam hesapları adıyla kalıcı engelleyin",
+        "Ebeveyn kullanımı: çocuk, anne baba ya da büyükler için daha az sahte AI videosu"
       ]
     },
     {
       "id": "detection",
-      "title": "Şeffaf kurallarla yapay zeka video tespiti",
+      "title": "Şeffaf Kurallarla AI Video Tespiti",
       "paragraphs": [],
       "bullets": [
-        "Platform AI etiketleri: AI ile üretildiği belirtilen videolar atlanır",
-        "AI anahtar kelimeleri: başlık ya da açıklamada AI hashtag’leri veya ifadeleri",
-        "“Engel listesi”niz ve kullanıcıların bildirip bir kişinin incelediği ortak AI hesap listesi",
-        "Her kural Ayarlar’da görünür ve kapatılabilir"
+        "Platform AI etiketleri: AI etiketli videolar atlanır",
+        "Anahtar kelime ve hashtag filtresi: başlık ya da açıklamada AI hashtag'leri veya \"AI story\" gibi ifadeler",
+        "Kendi engel listeniz, artı insan denetiminden geçen, bildirilmiş AI hesapları listesi",
+        "Her kural Ayarlar'da görünür ve kapatılabilir"
       ]
     },
     {
       "id": "auto-swipe",
-      "title": "Otomatik kaydırma, ipucu çubuğu ve tek dokunuşla geri alma",
+      "title": "Otomatik Kaydırma, AI Çöpü Engelleyici ve Tek Dokunuşla Geri Al",
       "paragraphs": [],
       "bullets": [
-        "Kural eşleşince sonraki videoya kendisi kaydırır, gecikme ayarlanabilir",
-        "Geçmiş’te her atlamanın nedeni görünür; hatayı orada işaretleyin ya da “Atladıktan sonra Geri al düğmesi”ni açın",
-        "Güvendiğiniz içerik üreticileri için “İzin listesi”, bıktığınız hesaplar için “Engel listesi”",
-        "Üç hassasiyet seviyesi: “Sıkı” (varsayılan), “Normal”, “Esnek”; AI seslendirme gibi “Hafif AI içeriği” de atlanır ya da “İpucu” veya “Yok say” seçilebilir",
-        "Reklamlara, yorumlara, mesajlara ve diğer uygulamalara asla dokunmaz"
+        "Bir kural eşleşince ayarlanabilir gecikmeyle sonraki videoya otomatik kaydırır",
+        "\"Geçmiş\" her videonun neden atlandığını gösterir; hatayı orada işaretleyin ya da her atlamadan sonra \"Geri al\" düğmesi ekleyin",
+        "Güvendiğiniz üreticiler için izin listesi, bıktığınız hesaplar için engel listesi; listeleri dışa ve içe aktarın",
+        "Hassasiyet: Sıkı, Normal veya Esnek; AI seslendirme gibi hafif AI için Atla, Yalnızca ipucu veya Yok say",
+        "Reklamlara, yorumlara, mesajlara ya da başka uygulamalara asla dokunmaz"
       ]
     },
     {
       "id": "schedule",
-      "title": "Zamanlama, ebeveyn modu, widget ve kural paketleri",
+      "title": "Zamanlama, Ebeveyn Modu, Widget ve Kural Paketleri",
       "paragraphs": [],
       "bullets": [
-        "İsteğe bağlı: AI hesaplarını anonim bildirin; her bildirimi bir kişi inceler",
-        "Gece ya da mesai saatinde daha sıkı filtre zamanlaması",
-        "“Ebeveyn modu” ayarları PIN ile kilitler",
-        "Bugünkü atlamaları gösteren ana ekran widget’ı, duraklatmak için Quick Settings (Hızlı Ayarlar) kutucuğu",
-        "Temalı “Kural paketleri”; 30 dakika, yarına kadar ya da siz sürdürene kadar duraklatma"
+        "\"Zamanlama\": gece ya da mesai saatlerinde daha sıkı ayıklama",
+        "\"Ebeveyn modu\" ayarları PIN ile kilitler",
+        "Bugünkü atlamaları gösteren ana ekran widget'ı, duraklatmak için Hızlı Ayarlar kutucuğu",
+        "Temalı \"Kural paketleri\"; 30 dakika, yarına kadar ya da siz sürdürene kadar duraklatma"
       ]
     },
     {
       "id": "wellbeing",
-      "title": "Ekran süresi ve dijital denge",
+      "title": "Ekran Süresi, Sonsuz Kaydırma Sınırı ve Dijital Denge",
       "paragraphs": [],
       "bullets": [
-        "Bugün ve bu hafta ne kadar kaydırdığınızı ve kaç AI videosunun atlandığını görün",
-        "Günlük sınır, uyku ve odak saati; nazik bir hatırlatma ya da ana ekrana dönüş",
-        "Her sınırda “Bugünlük kapat” var; hiçbir şey size dayatılmaz"
+        "Bugün ve bu hafta ne kadar kaydırdığınız ve kaç AI videosunun atlandığı",
+        "Günlük sınır, \"Uyku vakti\" ve \"Odak zamanı\": nazik hatırlatma ya da ana ekrana dönüş",
+        "Yalnızca sayıların yer aldığı \"Paylaşım kartı\" ile \"Temiz akış serisi\"",
+        "Her sınırda \"Bugünlük kapat\" var; hiçbir şey dayatılmaz"
       ]
     },
     {
       "id": "guides",
-      "title": "İzin gerektirmeyen AI video rehberleri",
+      "title": "İzin Gerektirmeyen AI Ayarları Rehberleri",
       "paragraphs": [
-        "“Rehberler”; her platformun kendi ayarlarıyla AI videolarını azaltmayı, AI videoyu kendiniz ayırt etmeyi ve agresif pil tasarruflu telefonlarda hizmeti açık tutmayı gösterir."
+        "Her platformun AI ayarları, AI videolarını kendiniz tanıma ve agresif pil tasarruflu telefonlarda hizmeti açık tutma için adım adım rehberler."
       ],
       "bullets": []
     },
     {
       "id": "privacy",
-      "title": "Önce gizlilik, yalnızca cihazda",
+      "title": "Önce Gizlilik, Yalnızca Cihazda",
       "paragraphs": [],
       "bullets": [
-        "Shorts, TikTok ve Reels’te yalnızca ekrandaki metni okur: başlık, açıklama, hesap adı, hashtag’ler, AI etiketi",
-        "Ekran kaydı ve ekran görüntüsü yok, ekran içeriği yüklenmez, giriş gerekmez",
-        "“Neleri okuyoruz” sayfası en son neyin okunduğunu tam olarak gösterir; çökme raporları ve istatistikler isteğe bağlıdır",
-        "Reklamsız, aboneliksiz"
+        "Shorts, TikTok ve Reels'te yalnızca ekrandaki metni okur: başlık, açıklama, hesap adı, hashtag'ler, AI etiketi",
+        "Ekran kaydı, ekran görüntüsü, ekran içeriği yükleme ve giriş yok",
+        "\"Neleri okuyoruz\" son okunan metni gösterir; hata raporları ve istatistikler isteğe bağlıdır",
+        "Reklam yok, abonelik yok"
       ]
     },
     {
@@ -92,17 +92,17 @@
       "title": "Lütfen dikkat",
       "paragraphs": [],
       "bullets": [
-        "SlopSwipe, ekrandaki metni okumak ve sizin yerinize yukarı kaydırmak için Android erişilebilirlik hizmetini kullanır. Engelliler için yardımcı araç değildir. Açmadan önce ne yaptığını anlatır, yalnızca onayınızla çalışır.",
-        "Instagram Reels ilk sürümde varsayılan olarak kapalı; Ayarlar → Çalıştığı yerler’den açın.",
-        "Tespit etiketlere, metne ve listelere dayanır: etiketsiz videolar kaçabilir, ara sıra yanlış video atlanabilir; “Geri al” bunu düzeltir. Platform güncellemesi düzeni değiştirirse SlopSwipe durur ve size haber verir. Android 8.0+ gerekir.",
-        "YouTube, TikTok ve Instagram sahiplerinin ticari markalarıdır. SlopSwipe bunlarla bağlantılı değildir, onlarca onaylanmamıştır."
+        "SlopSwipe, ekrandaki metni okumak ve sizin yerinize yukarı kaydırmak için Android'in erişilebilirlik hizmetini kullanır. Engelliler için yardımcı araç değildir ve yalnızca ne yaptığını okuyup onayladıktan sonra çalışır.",
+        "Instagram Reels varsayılan olarak kapalıdır; Ayarlar → Çalıştığı yerler bölümünden açın.",
+        "Etiketsiz videolar gözden kaçabilir ve ara sıra yanlış bir video atlanabilir; \"Geri al\" bunu düzeltir. Platform düzenini değiştirirse SlopSwipe durur ve size haber verir. Android 8.0+.",
+        "YouTube, TikTok ve Instagram, sahiplerinin ticari markalarıdır; SlopSwipe bunlarla bağlantılı değildir ve onaylanmamıştır."
       ]
     },
     {
       "id": "support",
       "title": "Bir şey çalışmıyor mu?",
       "paragraphs": [
-        "Bir video atlanmadıysa ya da yanlışı atlandıysa, yorumdan önce feedback@dapplebyte.com adresine yazın."
+        "Yanlış video mu atlandı, hiç mi atlanmadı? Yorum yazmadan önce telefon modeli ve platformla birlikte feedback@dapplebyte.com adresine yazın; çoğu sorun sonraki güncellemede düzelir."
       ],
       "bullets": []
     }
