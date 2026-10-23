@@ -1,0 +1,15 @@
+{
+  "modes": { "youtube": "normal", "tiktok": "normal", "instagram": "normal" },
+  "safety": {
+    "minSkipIntervalMs": 0,
+    "manyAiStreak": 5,
+    "skipCap": 10,
+    "skipCapWatchedMs": 3000,
+    "maxFailedSkips": 3,
+    "dailySkipLimit": null,
+    "notInterestedDailyCap": 50
+  },
+  "timing": { "settleMs": 100, "confirmReadMs": 400, "rereadWindowMs": 1500, "contentReadThrottleMs": 100 },
+  "notInterested": { "youtube": false, "tiktok": false, "instagram": false },
+  "updateIntervalHours": 6
+}

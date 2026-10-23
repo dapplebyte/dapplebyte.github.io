@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "2026.10.22.1",
+  "version": "2026.10.22.2",
   "published": "2026-10-22",
-  "zip": "2026.10.22.1/slopswipe-rules-2026.10.22.1.zip",
-  "zipSize": 147082,
-  "zipSha256": "0d27e3bdfecfe7eecc352ad42f333e32fed662bb18d1a9c3d9978fba120f1f70",
+  "zip": "2026.10.22.2/slopswipe-rules-2026.10.22.2.zip",
+  "zipSize": 147081,
+  "zipSha256": "758fe282437034e5b54219673f01789dea3dfdbb310e120fdb8e16983c22d4fd",
   "platforms": [
     {
       "platform": "instagram",

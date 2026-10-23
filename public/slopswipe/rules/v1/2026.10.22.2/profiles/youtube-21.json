@@ -1,0 +1,1692 @@
+{
+  "schema": 1,
+  "platform": "youtube",
+  "packages": [
+    "com.google.android.youtube"
+  ],
+  "appVersion": {
+    "min": "21.0.0",
+    "max": "21.99.999"
+  },
+  "page": {
+    "all": [
+      {
+        "viewIdSuffix": "id/reel_watch_player"
+      },
+      {
+        "viewIdSuffix": "id/reel_recycler"
+      }
+    ]
+  },
+  "fields": {
+    "account": [
+      {
+        "match": {
+          "textPattern": "^@\\S",
+          "region": {
+            "left": 0.0,
+            "top": 0.55,
+            "right": 0.8,
+            "bottom": 0.93
+          }
+        },
+        "pattern": "^@(\\S+)"
+      }
+    ],
+    "title": [
+      {
+        "match": {
+          "className": "android.view.ViewGroup",
+          "clickable": true,
+          "region": {
+            "left": 0.0,
+            "top": 0.7,
+            "right": 0.85,
+            "bottom": 0.92
+          }
+        }
+      }
+    ],
+    "description": [
+      {
+        "match": {
+          "descPattern": "\\n",
+          "clickable": true,
+          "region": {
+            "left": 0.0,
+            "top": 0.6,
+            "right": 0.85,
+            "bottom": 0.93
+          }
+        },
+        "take": "desc"
+      }
+    ]
+  },
+  "required": [
+    "account"
+  ],
+  "aiLabel": [
+    {
+      "kind": "ai_generated",
+      "match": {
+        "any": [
+          {
+            "descPattern": "^AI[:：]",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.8,
+              "bottom": 0.93
+            }
+          },
+          {
+            "text": "AI",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.5,
+              "bottom": 0.93
+            }
+          },
+          {
+            "all": [
+              {
+                "textAny": [
+                  "IA",
+                  "KI",
+                  "ИИ",
+                  "ШІ",
+                  "ΤΝ",
+                  "YZ",
+                  "MI",
+                  "SI",
+                  "UI",
+                  "এআই",
+                  "एआई",
+                  "ஏஐ",
+                  "ఏఐ",
+                  "Tekoäly",
+                  "Yapay zeka",
+                  "هوش مصنوعی",
+                  "الذكاء الاصطناعي",
+                  "בינה מלאכותית",
+                  "اے آئی"
+                ],
+                "region": {
+                  "left": 0.0,
+                  "top": 0.55,
+                  "right": 0.5,
+                  "bottom": 0.93
+                }
+              },
+              {
+                "descPattern": "^(?:IA|KI|ИИ|ШІ|ΤΝ|YZ|MI|SI|UI|এআই|एआई|ஏஐ|ఏఐ|Tekoäly|Yapay zeka|Yapay Zeka|هوش مصنوعی)\\s?[:：]",
+                "region": {
+                  "left": 0.0,
+                  "top": 0.55,
+                  "right": 0.8,
+                  "bottom": 0.93
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "textAny": [
+                  "IA",
+                  "KI",
+                  "ИИ",
+                  "ШІ",
+                  "ΤΝ",
+                  "YZ",
+                  "MI",
+                  "SI",
+                  "UI",
+                  "এআই",
+                  "एआई",
+                  "ஏஐ",
+                  "ఏఐ",
+                  "Tekoäly",
+                  "Yapay zeka",
+                  "هوش مصنوعی",
+                  "الذكاء الاصطناعي",
+                  "בינה מלאכותית",
+                  "اے آئی"
+                ],
+                "region": {
+                  "left": 0.0,
+                  "top": 0.55,
+                  "right": 0.5,
+                  "bottom": 0.93
+                }
+              },
+              {
+                "descPattern": "^(?:الذكاء الاصطناعي|בינה מלאכותית|اے آئی)\\s?[:：]",
+                "region": {
+                  "left": 0.0,
+                  "top": 0.55,
+                  "right": 0.8,
+                  "bottom": 0.93
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "level": "sure_ai"
+    },
+    {
+      "kind": "altered_synthetic",
+      "match": {
+        "any": [
+          {
+            "textPattern": "(?i)altered or synthetic|變造或合成|修改或合成|更改或合成",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?i)altered or synthetic|變造或合成|修改或合成|更改或合成",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)alterad[oa]s? (?:o|ou) sintétic|modifiée?s? ou synthétique|altérée?s? ou synthétique",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)alterad[oa]s? (?:o|ou) sintétic|modifiée?s? ou synthétique|altérée?s? ou synthétique",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)veränderte? oder synthetisch|(?:alterat|modificat)[io] o sintetic",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)veränderte? oder synthetisch|(?:alterat|modificat)[io] o sintetic",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)(?:modificat|alterat)e? sau sintetic",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)(?:modificat|alterat)e? sau sintetic",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)(?:gewijzigde|bewerkte|aangepaste) of synthetische|(?:zmienione|zmodyfikowane) lub syntetyczn",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)(?:gewijzigde|bewerkte|aangepaste) of synthetische|(?:zmienione|zmodyfikowane) lub syntetyczn",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)(?:upraven|pozměněn|pozmenen)[ýáé] (?:nebo|alebo) syntetick|módosított vagy szintetikus",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)(?:upraven|pozměněn|pozmenen)[ýáé] (?:nebo|alebo) syntetick|módosított vagy szintetikus",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)(?:ändrat|manipulerat) eller syntetisk|(?:ændret|endret) eller syntetisk",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)(?:ändrat|manipulerat) eller syntetisk|(?:ændret|endret) eller syntetisk",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)(?:muokattu|muutettu) tai synteett|binago o (?:synthetic|sintetiko)",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)(?:muokattu|muutettu) tai synteett|binago o (?:synthetic|sintetiko)",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)değiştirilmiş (?:veya|ya da) (?:sentetik|yapay)|diubah atau (?:sintetis|sintetik)",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)değiştirilmiş (?:veya|ya da) (?:sentetik|yapay)|diubah atau (?:sintetis|sintetik)",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)измен[её]нн?[ыоа][йея] или синтетическ|змінен[ийі] або синтетичн|променен[оиа]? или синтетичн",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)измен[её]нн?[ыоа][йея] или синтетическ|змінен[ийі] або синтетичн|променен[оиа]? или синтетичн",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)(?:αλλοιωμέν|τροποποιημέν|αλλαγμέν)[οα] ή συνθετικ",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)(?:αλλοιωμέν|τροποποιημέν|αλλαγμέν)[οα] ή συνθετικ",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?:改変|加工|変更)(?:また|もしく)は合成|(?:변경|변형|수정|조작)되거나 합성|(?:變更|变更|改動|改动|篡改|竄改)或合成",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?:改変|加工|変更)(?:また|もしく)は合成|(?:변경|변형|수정|조작)되거나 합성|(?:變更|变更|改動|改动|篡改|竄改)或合成",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?iu)(?:thay đổi|chỉnh sửa) hoặc (?:là nội dung )?tổng hợp",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?iu)(?:thay đổi|chỉnh sửa) hoặc (?:là nội dung )?tổng hợp",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?:ดัดแปลง|แก้ไข|เปลี่ยนแปลง)\\s?หรือ\\s?สังเคราะห์",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?:ดัดแปลง|แก้ไข|เปลี่ยนแปลง)\\s?หรือ\\s?สังเคราะห์",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?:बदला|बदलाव|संशोधित).{0,20}या (?:सिंथेटिक|कृत्रिम)|बदललेला किंवा (?:सिंथेटिक|कृत्रिम)",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?:बदला|बदलाव|संशोधित).{0,20}या (?:सिंथेटिक|कृत्रिम)|बदललेला किंवा (?:सिंथेटिक|कृत्रिम)",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "معد[َّ]*ل أو (?:اصطناعي|مصطنع)|(?:שונה|משונה|ערוך|מעובד) או סינתטי|تبدیل شدہ یا مصنوعی",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "معد[َّ]*ل أو (?:اصطناعي|مصطنع)|(?:שונה|משונה|ערוך|מעובד) או סינתטי|تبدیل شدہ یا مصنوعی",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?:تغییر|دستکاری)\\S{0,8} یا (?:مصنوعی|ساختگی)|পরিবর্তিত বা (?:কৃত্রিম|সিন্থেটিক)",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?:تغییر|دستکاری)\\S{0,8} یا (?:مصنوعی|ساختگی)|পরিবর্তিত বা (?:কৃত্রিম|সিন্থেটিক)",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "மாற்றப்பட்ட அல்லது செயற்கை",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "மாற்றப்பட்ட அல்லது செயற்கை",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "textPattern": "(?:మార్చబడిన|మార్చిన) లేదా (?:సింథటిక్|కృత్రిమ)|iliyobadilishwa au (?:bandia|ya sintetiki)",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          },
+          {
+            "descPattern": "(?:మార్చబడిన|మార్చిన) లేదా (?:సింథటిక్|కృత్రిమ)|iliyobadilishwa au (?:bandia|ya sintetiki)",
+            "region": {
+              "left": 0.0,
+              "top": 0.55,
+              "right": 0.85,
+              "bottom": 0.93
+            }
+          }
+        ]
+      },
+      "level": "sure_ai"
+    }
+  ],
+  "ad": [
+    {
+      "viewIdSuffix": "id/reel_player_delegated_overlay"
+    },
+    {
+      "viewIdSuffix": "id/non_video_page_element_container"
+    },
+    {
+      "viewIdSuffix": "id/reel_progress_bar"
+    },
+    {
+      "textAny": [
+        "Sponsored",
+        "贊助商廣告",
+        "赞助商广告"
+      ]
+    },
+    {
+      "descAny": [
+        "Sponsored",
+        "Ad",
+        "贊助商廣告",
+        "赞助商广告",
+        "廣告",
+        "广告"
+      ]
+    },
+    {
+      "descPattern": "\\n(Ad|廣告|广告)(\\n|$)"
+    },
+    {
+      "textPattern": "(?i)paid promotion|paid partnership|付費宣傳|付费宣传"
+    },
+    {
+      "descPattern": "(?i)paid promotion|paid partnership|付費宣傳|付费宣传"
+    },
+    {
+      "textAny": [
+        "مُموَّل",
+        "ممول",
+        "مموّل",
+        "مُموّل",
+        "إعلان ممول",
+        "إعلان مموّل",
+        "محتوى مموّل",
+        "محتوى ممول",
+        "برعاية",
+        "Спонсорирано",
+        "Спонсорирана",
+        "Спонсориран",
+        "Спонсорирано съдържание",
+        "স্পনসর্ড",
+        "স্পন্সর্ড",
+        "স্পনসর করা",
+        "স্পন্সর করা",
+        "স্পনসর করা হয়েছে",
+        "স্পনসর করা কন্টেন্ট",
+        "Sponzorováno",
+        "Sponzorované",
+        "Sponzorovaný obsah",
+        "Sponzorovaný příspěvek",
+        "Sponsoreret",
+        "Sponsoreret indhold",
+        "Gesponsert",
+        "Gesponserter Inhalt",
+        "Gesponserte Inhalte",
+        "Χορηγούμενη",
+        "Χορηγούμενο",
+        "Χορηγούμενη δημοσίευση",
+        "Χορηγούμενο περιεχόμενο",
+        "Patrocinado",
+        "Patrocinada",
+        "Publicidad",
+        "Contenido patrocinado",
+        "حمایت‌شده",
+        "حمایت شده",
+        "اسپانسرشده",
+        "اسپانسر شده",
+        "دارای حامی مالی",
+        "تبلیغ‌شده",
+        "Sponsoroitu",
+        "Sponsoroitu sisältö",
+        "Ini-sponsor",
+        "Inisponsor",
+        "May sponsor",
+        "Naka-sponsor",
+        "Sponsorisé",
+        "Sponsorisée",
+        "Contenu sponsorisé",
+        "Commandité",
+        "Tallafi",
+        "Daukar nauyi",
+        "Ɗaukar nauyi",
+        "An dauki nauyi",
+        "An ɗauki nauyi",
+        "प्रायोजित",
+        "स्पॉन्सर्ड",
+        "स्पॉन्सर किया गया",
+        "Szponzorált",
+        "Hirdetés",
+        "Támogatott tartalom",
+        "Bersponsor",
+        "Disponsori",
+        "Konten bersponsor",
+        "Sponsorizzato",
+        "Sponsorizzata",
+        "Contenuto sponsorizzato",
+        "ממומן",
+        "ממומנת",
+        "תוכן ממומן",
+        "広告",
+        "スポンサー",
+        "スポンサード",
+        "スポンサー広告",
+        "광고",
+        "스폰서",
+        "스폰서 광고",
+        "협찬",
+        "후원",
+        "Ditaja",
+        "Bertaja",
+        "Kandungan ditaja",
+        "Sponset",
+        "Sponset innhold",
+        "Sponsede",
+        "Gesponsord",
+        "Gesponsorde inhoud",
+        "Sponsorowane",
+        "Sponsorowany",
+        "Treść sponsorowana",
+        "Conteúdo patrocinado",
+        "Sponsorizat",
+        "Sponsorizată",
+        "Conținut sponsorizat",
+        "Conţinut sponsorizat",
+        "Реклама",
+        "Спонсорский контент",
+        "Спонсировано",
+        "Спонсорская реклама",
+        "Sponsrad",
+        "Sponsrat",
+        "Sponsrat innehåll",
+        "Imedhaminiwa",
+        "Iliyofadhiliwa",
+        "Imefadhiliwa",
+        "Inayofadhiliwa",
+        "விளம்பரம்",
+        "ஸ்பான்சர் செய்யப்பட்டது",
+        "ஸ்பான்சர்டு",
+        "ஸ்பான்சர் செய்தது",
+        "స్పాన్సర్ చేసినది",
+        "స్పాన్సర్ చేయబడింది",
+        "స్పాన్సర్డ్",
+        "ప్రాయోజితం",
+        "ได้รับการสนับสนุน",
+        "ผู้สนับสนุน",
+        "สปอนเซอร์",
+        "โฆษณาที่ได้รับการสนับสนุน",
+        "Sponsorlu",
+        "Sponsorlu içerik",
+        "Спонсоровано",
+        "Спонсорський вміст",
+        "Спонсорований вміст",
+        "سپانسر شدہ",
+        "سپانسرڈ",
+        "اسپانسر شدہ",
+        "سپانسر کردہ",
+        "Được tài trợ",
+        "Nội dung được tài trợ",
+        "赞助",
+        "赞助内容",
+        "赞助商广告",
+        "推广",
+        "贊助",
+        "贊助內容",
+        "贊助商廣告",
+        "إعلان",
+        "বিজ্ঞাপন",
+        "Reklama",
+        "Annonce",
+        "Reklame",
+        "Anzeige",
+        "Werbung",
+        "Διαφήμιση",
+        "Anuncio",
+        "آگهی",
+        "تبلیغ",
+        "Mainos",
+        "Patalastas",
+        "Publicité",
+        "Pub",
+        "Talla",
+        "विज्ञापन",
+        "Iklan",
+        "Annuncio",
+        "Pubblicità",
+        "מודעה",
+        "פרסומת",
+        "जाहिरात",
+        "Annonse",
+        "Advertentie",
+        "Anúncio",
+        "Publicidade",
+        "Anunț",
+        "Anunţ",
+        "Reclamă",
+        "Annons",
+        "Reklam",
+        "Tangazo",
+        "ప్రకటన",
+        "โฆษณา",
+        "اشتہار",
+        "Quảng cáo",
+        "广告",
+        "廣告",
+        "شراكة مدفوعة",
+        "شراكة مدفوعة الأجر",
+        "Платено партньорство",
+        "পেইড পার্টনারশিপ",
+        "অর্থপ্রদত্ত অংশীদারিত্ব",
+        "Placené partnerství",
+        "Betalt partnerskab",
+        "Bezahlte Partnerschaft",
+        "Πληρωμένη συνεργασία",
+        "Συνεργασία επί πληρωμή",
+        "Colaboración pagada",
+        "Asociación pagada",
+        "همکاری پولی",
+        "مشارکت پولی",
+        "همکاری تجاری",
+        "Maksettu kumppanuus",
+        "Maksullinen kumppanuus",
+        "Maksettu yhteistyö",
+        "Bayad na partnership",
+        "Partenariat rémunéré",
+        "सशुल्क पार्टनरशिप",
+        "पेड पार्टनरशिप",
+        "सशुल्क साझेदारी",
+        "Fizetett partnerség",
+        "Fizetett együttműködés",
+        "Kemitraan berbayar",
+        "Partnership retribuita",
+        "Partnership pagata",
+        "Collaborazione retribuita",
+        "שותפות בתשלום",
+        "タイアップ",
+        "タイアップ投稿",
+        "有料パートナーシップ",
+        "유료 파트너십",
+        "유료 광고 포함",
+        "सशुल्क भागीदारी",
+        "Perkongsian berbayar",
+        "Kerjasama berbayar",
+        "Betalt partnerskap",
+        "Betaald partnerschap",
+        "Płatna współpraca",
+        "Płatne partnerstwo",
+        "Parceria paga",
+        "Parteneriat plătit",
+        "Платное партнерство",
+        "Платное партнёрство",
+        "Platené partnerstvo",
+        "Betalt samarbete",
+        "Ushirikiano wa kulipwa",
+        "Ushirikiano unaolipiwa",
+        "கட்டண கூட்டாண்மை",
+        "చెల్లింపు భాగస్వామ్యం",
+        "พาร์ทเนอร์แบบชำระเงิน",
+        "การเป็นพาร์ทเนอร์แบบชำระเงิน",
+        "ความร่วมมือแบบชำระเงิน",
+        "Ücretli ortaklık",
+        "Ücretli iş birliği",
+        "Платне партнерство",
+        "معاوضہ شراکت داری",
+        "ادا شدہ شراکت داری",
+        "Quan hệ đối tác có trả phí",
+        "Hợp tác có trả phí",
+        "付费合作",
+        "付费合作伙伴",
+        "付費合作",
+        "付費合作夥伴",
+        "May Sponsor",
+        "Sponsored",
+        "Sponsoriz.",
+        "دعائية",
+        "スポンサー提供",
+        "Ad",
+        "Adv.",
+        "యాడ్"
+      ],
+      "region": {
+        "left": 0.0,
+        "top": 0.15,
+        "right": 1.0,
+        "bottom": 0.97
+      }
+    },
+    {
+      "descAny": [
+        "مُموَّل",
+        "ممول",
+        "مموّل",
+        "مُموّل",
+        "إعلان ممول",
+        "إعلان مموّل",
+        "محتوى مموّل",
+        "محتوى ممول",
+        "برعاية",
+        "Спонсорирано",
+        "Спонсорирана",
+        "Спонсориран",
+        "Спонсорирано съдържание",
+        "স্পনসর্ড",
+        "স্পন্সর্ড",
+        "স্পনসর করা",
+        "স্পন্সর করা",
+        "স্পনসর করা হয়েছে",
+        "স্পনসর করা কন্টেন্ট",
+        "Sponzorováno",
+        "Sponzorované",
+        "Sponzorovaný obsah",
+        "Sponzorovaný příspěvek",
+        "Sponsoreret",
+        "Sponsoreret indhold",
+        "Gesponsert",
+        "Gesponserter Inhalt",
+        "Gesponserte Inhalte",
+        "Χορηγούμενη",
+        "Χορηγούμενο",
+        "Χορηγούμενη δημοσίευση",
+        "Χορηγούμενο περιεχόμενο",
+        "Patrocinado",
+        "Patrocinada",
+        "Publicidad",
+        "Contenido patrocinado",
+        "حمایت‌شده",
+        "حمایت شده",
+        "اسپانسرشده",
+        "اسپانسر شده",
+        "دارای حامی مالی",
+        "تبلیغ‌شده",
+        "Sponsoroitu",
+        "Sponsoroitu sisältö",
+        "Ini-sponsor",
+        "Inisponsor",
+        "May sponsor",
+        "Naka-sponsor",
+        "Sponsorisé",
+        "Sponsorisée",
+        "Contenu sponsorisé",
+        "Commandité",
+        "Tallafi",
+        "Daukar nauyi",
+        "Ɗaukar nauyi",
+        "An dauki nauyi",
+        "An ɗauki nauyi",
+        "प्रायोजित",
+        "स्पॉन्सर्ड",
+        "स्पॉन्सर किया गया",
+        "Szponzorált",
+        "Hirdetés",
+        "Támogatott tartalom",
+        "Bersponsor",
+        "Disponsori",
+        "Konten bersponsor",
+        "Sponsorizzato",
+        "Sponsorizzata",
+        "Contenuto sponsorizzato",
+        "ממומן",
+        "ממומנת",
+        "תוכן ממומן",
+        "広告",
+        "スポンサー",
+        "スポンサード",
+        "スポンサー広告",
+        "광고",
+        "스폰서",
+        "스폰서 광고",
+        "협찬",
+        "후원",
+        "Ditaja",
+        "Bertaja",
+        "Kandungan ditaja",
+        "Sponset",
+        "Sponset innhold",
+        "Sponsede",
+        "Gesponsord",
+        "Gesponsorde inhoud",
+        "Sponsorowane",
+        "Sponsorowany",
+        "Treść sponsorowana",
+        "Conteúdo patrocinado",
+        "Sponsorizat",
+        "Sponsorizată",
+        "Conținut sponsorizat",
+        "Conţinut sponsorizat",
+        "Реклама",
+        "Спонсорский контент",
+        "Спонсировано",
+        "Спонсорская реклама",
+        "Sponsrad",
+        "Sponsrat",
+        "Sponsrat innehåll",
+        "Imedhaminiwa",
+        "Iliyofadhiliwa",
+        "Imefadhiliwa",
+        "Inayofadhiliwa",
+        "விளம்பரம்",
+        "ஸ்பான்சர் செய்யப்பட்டது",
+        "ஸ்பான்சர்டு",
+        "ஸ்பான்சர் செய்தது",
+        "స్పాన్సర్ చేసినది",
+        "స్పాన్సర్ చేయబడింది",
+        "స్పాన్సర్డ్",
+        "ప్రాయోజితం",
+        "ได้รับการสนับสนุน",
+        "ผู้สนับสนุน",
+        "สปอนเซอร์",
+        "โฆษณาที่ได้รับการสนับสนุน",
+        "Sponsorlu",
+        "Sponsorlu içerik",
+        "Спонсоровано",
+        "Спонсорський вміст",
+        "Спонсорований вміст",
+        "سپانسر شدہ",
+        "سپانسرڈ",
+        "اسپانسر شدہ",
+        "سپانسر کردہ",
+        "Được tài trợ",
+        "Nội dung được tài trợ",
+        "赞助",
+        "赞助内容",
+        "赞助商广告",
+        "推广",
+        "贊助",
+        "贊助內容",
+        "贊助商廣告",
+        "إعلان",
+        "বিজ্ঞাপন",
+        "Reklama",
+        "Annonce",
+        "Reklame",
+        "Anzeige",
+        "Werbung",
+        "Διαφήμιση",
+        "Anuncio",
+        "آگهی",
+        "تبلیغ",
+        "Mainos",
+        "Patalastas",
+        "Publicité",
+        "Pub",
+        "Talla",
+        "विज्ञापन",
+        "Iklan",
+        "Annuncio",
+        "Pubblicità",
+        "מודעה",
+        "פרסומת",
+        "जाहिरात",
+        "Annonse",
+        "Advertentie",
+        "Anúncio",
+        "Publicidade",
+        "Anunț",
+        "Anunţ",
+        "Reclamă",
+        "Annons",
+        "Reklam",
+        "Tangazo",
+        "ప్రకటన",
+        "โฆษณา",
+        "اشتہار",
+        "Quảng cáo",
+        "广告",
+        "廣告",
+        "شراكة مدفوعة",
+        "شراكة مدفوعة الأجر",
+        "Платено партньорство",
+        "পেইড পার্টনারশিপ",
+        "অর্থপ্রদত্ত অংশীদারিত্ব",
+        "Placené partnerství",
+        "Betalt partnerskab",
+        "Bezahlte Partnerschaft",
+        "Πληρωμένη συνεργασία",
+        "Συνεργασία επί πληρωμή",
+        "Colaboración pagada",
+        "Asociación pagada",
+        "همکاری پولی",
+        "مشارکت پولی",
+        "همکاری تجاری",
+        "Maksettu kumppanuus",
+        "Maksullinen kumppanuus",
+        "Maksettu yhteistyö",
+        "Bayad na partnership",
+        "Partenariat rémunéré",
+        "सशुल्क पार्टनरशिप",
+        "पेड पार्टनरशिप",
+        "सशुल्क साझेदारी",
+        "Fizetett partnerség",
+        "Fizetett együttműködés",
+        "Kemitraan berbayar",
+        "Partnership retribuita",
+        "Partnership pagata",
+        "Collaborazione retribuita",
+        "שותפות בתשלום",
+        "タイアップ",
+        "タイアップ投稿",
+        "有料パートナーシップ",
+        "유료 파트너십",
+        "유료 광고 포함",
+        "सशुल्क भागीदारी",
+        "Perkongsian berbayar",
+        "Kerjasama berbayar",
+        "Betalt partnerskap",
+        "Betaald partnerschap",
+        "Płatna współpraca",
+        "Płatne partnerstwo",
+        "Parceria paga",
+        "Parteneriat plătit",
+        "Платное партнерство",
+        "Платное партнёрство",
+        "Platené partnerstvo",
+        "Betalt samarbete",
+        "Ushirikiano wa kulipwa",
+        "Ushirikiano unaolipiwa",
+        "கட்டண கூட்டாண்மை",
+        "చెల్లింపు భాగస్వామ్యం",
+        "พาร์ทเนอร์แบบชำระเงิน",
+        "การเป็นพาร์ทเนอร์แบบชำระเงิน",
+        "ความร่วมมือแบบชำระเงิน",
+        "Ücretli ortaklık",
+        "Ücretli iş birliği",
+        "Платне партнерство",
+        "معاوضہ شراکت داری",
+        "ادا شدہ شراکت داری",
+        "Quan hệ đối tác có trả phí",
+        "Hợp tác có trả phí",
+        "付费合作",
+        "付费合作伙伴",
+        "付費合作",
+        "付費合作夥伴",
+        "May Sponsor",
+        "Sponsored",
+        "Sponsoriz.",
+        "دعائية",
+        "スポンサー提供",
+        "Ad",
+        "Adv.",
+        "యాడ్"
+      ],
+      "region": {
+        "left": 0.0,
+        "top": 0.15,
+        "right": 1.0,
+        "bottom": 0.97
+      }
+    },
+    {
+      "descPattern": "(?iu)\\n(?:إعلان|Реклама|বিজ্ঞাপন|Reklama|Annonce|Reklame|Anzeige|Werbung|Διαφήμιση|Anuncio)(?:\\n|$)"
+    },
+    {
+      "descPattern": "(?iu)\\n(?:آگهی|تبلیغ|Mainos|Patalastas|Publicité|Pub|Talla|विज्ञापन|Hirdetés|Iklan|Annuncio)(?:\\n|$)"
+    },
+    {
+      "descPattern": "(?iu)\\n(?:Pubblicità|מודעה|פרסומת|広告|광고|जाहिरात|Annonse|Advertentie|Anúncio|Publicidade)(?:\\n|$)"
+    },
+    {
+      "descPattern": "(?iu)\\n(?:Anunț|Anunţ|Reclamă|Annons|Reklam|Tangazo|விளம்பரம்|ప్రకటన|โฆษณา|اشتہار|Quảng cáo)(?:\\n|$)"
+    },
+    {
+      "descPattern": "(?iu)\\n(?:广告|廣告)(?:\\n|$)"
+    },
+    {
+      "textPattern": "(?iu)(?:promoción pagada|promoção paga|communication commerciale|bezahlte werbung)"
+    },
+    {
+      "descPattern": "(?iu)(?:promoción pagada|promoção paga|communication commerciale|bezahlte werbung)"
+    },
+    {
+      "textPattern": "(?iu)(?:promozione a pagamento|promozioni a pagamento|betaalde promotie|płatną promocję)"
+    },
+    {
+      "descPattern": "(?iu)(?:promozione a pagamento|promozioni a pagamento|betaalde promotie|płatną promocję)"
+    },
+    {
+      "textPattern": "(?iu)(?:płatna promocja|ücretli tanıtım|quảng cáo trả phí|promosi berbayar|betald marknadsföring)"
+    },
+    {
+      "descPattern": "(?iu)(?:płatna promocja|ücretli tanıtım|quảng cáo trả phí|promosi berbayar|betald marknadsföring)"
+    },
+    {
+      "textPattern": "(?iu)(?:betalt promovering|betalt markedsføring|maksettua mainontaa|placenou propagaci)"
+    },
+    {
+      "descPattern": "(?iu)(?:betalt promovering|betalt markedsføring|maksettua mainontaa|placenou propagaci)"
+    },
+    {
+      "textPattern": "(?iu)(?:platenú propagáciu|fizetett promóció|promovare plătită|platné partnerství)"
+    },
+    {
+      "descPattern": "(?iu)(?:platenú propagáciu|fizetett promóció|promovare plătită|platné partnerství)"
+    },
+    {
+      "textPattern": "(?iu)(?:платное продвижение|платную рекламу|платна реклама|платну рекламу|платена промоция)"
+    },
+    {
+      "descPattern": "(?iu)(?:платное продвижение|платную рекламу|платна реклама|платну рекламу|платена промоция)"
+    },
+    {
+      "textPattern": "(?iu)(?:προώθηση επί πληρωμή|ترويجًا مدفوعًا|ترويج مدفوع|קידום בתשלום|تبلیغ پولی|पेड प्रमोशन)"
+    },
+    {
+      "descPattern": "(?iu)(?:προώθηση επί πληρωμή|ترويجًا مدفوعًا|ترويج مدفوع|קידום בתשלום|تبلیغ پولی|पेड प्रमोशन)"
+    },
+    {
+      "textPattern": "(?iu)(?:सशुल्क प्रमोशन|プロモーションを含みます|有料プロモーション|유료 광고|유료 프로모션|มีการโปรโมทแบบชำระเงิน)"
+    },
+    {
+      "descPattern": "(?iu)(?:सशुल्क प्रमोशन|プロモーションを含みます|有料プロモーション|유료 광고|유료 프로모션|มีการโปรโมทแบบชำระเงิน)"
+    },
+    {
+      "textPattern": "(?iu)(?:โปรโมชันแบบชำระเงิน|পেইড প্রমোশন|معاوضہ پروموشن|付費宣傳|付费宣传|付費推廣|付费推广|شراكة مدفوعة)"
+    },
+    {
+      "descPattern": "(?iu)(?:โปรโมชันแบบชำระเงิน|পেইড প্রমোশন|معاوضہ پروموشن|付費宣傳|付费宣传|付費推廣|付费推广|شراكة مدفوعة)"
+    },
+    {
+      "textPattern": "(?iu)(?:شراكة مدفوعة الأجر|Платено партньорство|পেইড পার্টনারশিপ|অর্থপ্রদত্ত অংশীদারিত্ব)"
+    },
+    {
+      "descPattern": "(?iu)(?:شراكة مدفوعة الأجر|Платено партньорство|পেইড পার্টনারশিপ|অর্থপ্রদত্ত অংশীদারিত্ব)"
+    },
+    {
+      "textPattern": "(?iu)(?:Placené partnerství|Betalt partnerskab|Bezahlte Partnerschaft|Πληρωμένη συνεργασία)"
+    },
+    {
+      "descPattern": "(?iu)(?:Placené partnerství|Betalt partnerskab|Bezahlte Partnerschaft|Πληρωμένη συνεργασία)"
+    },
+    {
+      "textPattern": "(?iu)(?:Συνεργασία επί πληρωμή|Colaboración pagada|Asociación pagada|همکاری پولی|مشارکت پولی)"
+    },
+    {
+      "descPattern": "(?iu)(?:Συνεργασία επί πληρωμή|Colaboración pagada|Asociación pagada|همکاری پولی|مشارکت پولی)"
+    },
+    {
+      "textPattern": "(?iu)(?:همکاری تجاری|Maksettu kumppanuus|Maksullinen kumppanuus|Maksettu yhteistyö)"
+    },
+    {
+      "descPattern": "(?iu)(?:همکاری تجاری|Maksettu kumppanuus|Maksullinen kumppanuus|Maksettu yhteistyö)"
+    },
+    {
+      "textPattern": "(?iu)(?:Bayad na partnership|Partenariat rémunéré|सशुल्क पार्टनरशिप|पेड पार्टनरशिप|सशुल्क साझेदारी)"
+    },
+    {
+      "descPattern": "(?iu)(?:Bayad na partnership|Partenariat rémunéré|सशुल्क पार्टनरशिप|पेड पार्टनरशिप|सशुल्क साझेदारी)"
+    },
+    {
+      "textPattern": "(?iu)(?:Fizetett partnerség|Fizetett együttműködés|Kemitraan berbayar|Partnership retribuita)"
+    },
+    {
+      "descPattern": "(?iu)(?:Fizetett partnerség|Fizetett együttműködés|Kemitraan berbayar|Partnership retribuita)"
+    },
+    {
+      "textPattern": "(?iu)(?:Partnership pagata|Collaborazione retribuita|שותפות בתשלום|タイアップ|タイアップ投稿|有料パートナーシップ|유료 파트너십)"
+    },
+    {
+      "descPattern": "(?iu)(?:Partnership pagata|Collaborazione retribuita|שותפות בתשלום|タイアップ|タイアップ投稿|有料パートナーシップ|유료 파트너십)"
+    },
+    {
+      "textPattern": "(?iu)(?:유료 광고 포함|सशुल्क भागीदारी|Perkongsian berbayar|Kerjasama berbayar|Betalt partnerskap)"
+    },
+    {
+      "descPattern": "(?iu)(?:유료 광고 포함|सशुल्क भागीदारी|Perkongsian berbayar|Kerjasama berbayar|Betalt partnerskap)"
+    },
+    {
+      "textPattern": "(?iu)(?:Betaald partnerschap|Płatna współpraca|Płatne partnerstwo|Parceria paga|Parteneriat plătit)"
+    },
+    {
+      "descPattern": "(?iu)(?:Betaald partnerschap|Płatna współpraca|Płatne partnerstwo|Parceria paga|Parteneriat plătit)"
+    },
+    {
+      "textPattern": "(?iu)(?:Платное партнерство|Платное партнёрство|Platené partnerstvo|Betalt samarbete)"
+    },
+    {
+      "descPattern": "(?iu)(?:Платное партнерство|Платное партнёрство|Platené partnerstvo|Betalt samarbete)"
+    },
+    {
+      "textPattern": "(?iu)(?:Ushirikiano wa kulipwa|Ushirikiano unaolipiwa|கட்டண கூட்டாண்மை|చెల్లింపు భాగస్వామ్యం)"
+    },
+    {
+      "descPattern": "(?iu)(?:Ushirikiano wa kulipwa|Ushirikiano unaolipiwa|கட்டண கூட்டாண்மை|చెల్లింపు భాగస్వామ్యం)"
+    },
+    {
+      "textPattern": "(?iu)(?:พาร์ทเนอร์แบบชำระเงิน|การเป็นพาร์ทเนอร์แบบชำระเงิน|ความร่วมมือแบบชำระเงิน|Ücretli ortaklık)"
+    },
+    {
+      "descPattern": "(?iu)(?:พาร์ทเนอร์แบบชำระเงิน|การเป็นพาร์ทเนอร์แบบชำระเงิน|ความร่วมมือแบบชำระเงิน|Ücretli ortaklık)"
+    },
+    {
+      "textPattern": "(?iu)(?:Ücretli iş birliği|Платне партнерство|معاوضہ شراکت داری|ادا شدہ شراکت داری)"
+    },
+    {
+      "descPattern": "(?iu)(?:Ücretli iş birliği|Платне партнерство|معاوضہ شراکت داری|ادا شدہ شراکت داری)"
+    },
+    {
+      "textPattern": "(?iu)(?:Quan hệ đối tác có trả phí|Hợp tác có trả phí|付费合作|付费合作伙伴|付費合作|付費合作夥伴)"
+    },
+    {
+      "descPattern": "(?iu)(?:Quan hệ đối tác có trả phí|Hợp tác có trả phí|付费合作|付费合作伙伴|付費合作|付費合作夥伴)"
+    },
+    {
+      "descPattern": "(?iu)\\n(?:Adv\\.|యాడ్)(?:\\n|$)"
+    }
+  ],
+  "adUncertainWhen": [
+    {
+      "fieldMissing": "account"
+    },
+    {
+      "condition": {
+        "textAny": [
+          "Earns commission",
+          "Gana comisiones",
+          "Gana una comisión",
+          "Obtiene comisiones",
+          "Ganha comissão",
+          "Recebe comissão",
+          "Perçoit une commission",
+          "Touche une commission",
+          "Erhält Provision",
+          "Verdient Provision",
+          "Guadagna commissioni",
+          "Riceve una commissione",
+          "手数料を獲得",
+          "手数料が発生",
+          "수수료 수익 발생",
+          "수수료 받음",
+          "Получает комиссию",
+          "Отримує комісію",
+          "Komisyon kazanır",
+          "Nhận hoa hồng",
+          "Mendapatkan komisi",
+          "Mendapat komisi",
+          "Mendapat komisen",
+          "ได้รับค่าคอมมิชชัน",
+          "Verdient commissie",
+          "Ontvangt commissie",
+          "Otrzymuje prowizję",
+          "Tjänar provision",
+          "Tjener provision",
+          "Tjener provisjon",
+          "Saa palkkion",
+          "Získává provizi",
+          "Získava províziu",
+          "Jutalékot kap",
+          "Câștigă comision",
+          "Κερδίζει προμήθεια",
+          "Получава комисионна",
+          "يحصل على عمولة",
+          "מרוויח עמלה",
+          "कमीशन मिलता है",
+          "賺取佣金",
+          "赚取佣金"
+        ]
+      }
+    }
+  ],
+  "blockers": {
+    "live": [
+      {
+        "textAny": [
+          "LIVE",
+          "直播",
+          "EN VIVO",
+          "EN DIRECTO",
+          "AO VIVO",
+          "EM DIRETO",
+          "EN DIRECT",
+          "IN DIRETTA",
+          "ライブ",
+          "ライブ配信中",
+          "실시간",
+          "В ЭФИРЕ",
+          "ПРЯМОЙ ЭФИР",
+          "НАЖИВО",
+          "ПРЯМИЙ ЕФІР",
+          "CANLI",
+          "TRỰC TIẾP",
+          "LANGSUNG",
+          "SIARAN LANGSUNG",
+          "สด",
+          "ถ่ายทอดสด",
+          "NA ŻYWO",
+          "ŽIVĚ",
+          "NAŽIVO",
+          "ÉLŐ",
+          "ÎN DIRECT",
+          "ΖΩΝΤΑΝΑ",
+          "НА ЖИВО",
+          "مباشر",
+          "بث مباشر",
+          "בשידור חי",
+          "שידור חי",
+          "زنده",
+          "लाइव",
+          "লাইভ",
+          "நேரலை",
+          "లైవ్",
+          "लाइव्ह",
+          "لائیو",
+          "براہ راست",
+          "MOJA KWA MOJA",
+          "KAI TSAYE",
+          "SUORA",
+          "DIREKTE",
+          "直播中",
+          "Aktivní",
+          "Ao vivo",
+          "Canlı",
+          "DAL VIVO",
+          "DIRECT",
+          "DIRETO",
+          "Dal vivo",
+          "Direct",
+          "Direkte",
+          "Em direto",
+          "En direct",
+          "En directo",
+          "En vivo",
+          "Langsung",
+          "Live",
+          "MUBASHARA",
+          "Mubashara",
+          "Na żywo",
+          "Naživo",
+          "Trực tiếp",
+          "Élő",
+          "Ζωντανά",
+          "В эфире",
+          "На живо",
+          "Наживо",
+          "ЭФИР",
+          "थेट",
+          "लाइव है",
+          "ప్రసారం",
+          "ไลฟ์สด",
+          "即時放送",
+          "現場直播",
+          "라이브"
+        ],
+        "region": {
+          "left": 0.0,
+          "top": 0.1,
+          "right": 1.0,
+          "bottom": 0.75
+        }
+      }
+    ],
+    "comments": [
+      {
+        "viewIdSuffix": "id/engagement_panel_wrapper"
+      },
+      {
+        "textAny": [
+          "Comments",
+          "留言",
+          "评论",
+          "Description",
+          "說明",
+          "说明",
+          "Comentarios",
+          "Comentários",
+          "Commentaires",
+          "Kommentare",
+          "Commenti",
+          "コメント",
+          "댓글",
+          "Комментарии",
+          "Коментарі",
+          "Yorumlar",
+          "Bình luận",
+          "Komentar",
+          "Komen",
+          "ความคิดเห็น",
+          "टिप्पणियां",
+          "टिप्पणियाँ",
+          "कमेंट",
+          "التعليقات",
+          "תגובות",
+          "نظرات",
+          "Reacties",
+          "Opmerkingen",
+          "Komentarze",
+          "Kommentarer",
+          "Kommentit",
+          "Komentáře",
+          "Komentáre",
+          "Hozzászólások",
+          "Megjegyzések",
+          "Comentarii",
+          "Σχόλια",
+          "Коментари",
+          "মন্তব্য",
+          "কমেন্ট",
+          "கருத்துகள்",
+          "కామెంట్‌లు",
+          "వ్యాఖ్యలు",
+          "टिप्पण्या",
+          "कमेंट्स",
+          "تبصرے",
+          "Mga Komento",
+          "Maoni",
+          "Sharhi",
+          "Ulasan",
+          "Descripción",
+          "Descrição",
+          "Beschreibung",
+          "Descrizione",
+          "説明",
+          "설명",
+          "Описание",
+          "Опис",
+          "Açıklama",
+          "Mô tả",
+          "Deskripsi",
+          "คำอธิบาย",
+          "जानकारी",
+          "विवरण",
+          "الوصف",
+          "תיאור",
+          "توضیحات",
+          "Beschrijving",
+          "Opis",
+          "Beskrivning",
+          "Beskrivelse",
+          "Kuvaus",
+          "Popis",
+          "Leírás",
+          "Descriere",
+          "Περιγραφή",
+          "বিবরণ",
+          "விளக்கம்",
+          "వివరణ",
+          "वर्णन",
+          "تفصیل",
+          "Penerangan",
+          "Keterangan",
+          "Paglalarawan",
+          "Maelezo",
+          "Bayani",
+          "Bayanin",
+          "評論",
+          "描述",
+          "Nội dung mô tả",
+          "Perihalan",
+          "توضیح",
+          "شرح",
+          "ब्यौरा",
+          "বর্ণনা"
+        ],
+        "region": {
+          "left": 0.0,
+          "top": 0.15,
+          "right": 1.0,
+          "bottom": 0.65
+        }
+      },
+      {
+        "textPattern": "^(Add a comment|新增留言|添加评论)"
+      },
+      {
+        "textPattern": "^(?:Agrega un comentario|Añade un comentario|Agregar un comentario|Añadir un comentario)"
+      },
+      {
+        "textPattern": "^(?:Adicione um comentário|Adicionar um comentário|Adicionar comentário|Ajoutez un commentaire)"
+      },
+      {
+        "textPattern": "^(?:Ajouter un commentaire|Kommentar hinzufügen|Aggiungi un commento|Voeg een reactie toe)"
+      },
+      {
+        "textPattern": "^(?:Reactie toevoegen|Dodaj komentarz|Lägg till en kommentar|Lägg till kommentar)"
+      },
+      {
+        "textPattern": "^(?:Tilføj en kommentar|Legg til en kommentar|Lisää kommentti|Přidejte komentář|Přidat komentář)"
+      },
+      {
+        "textPattern": "^(?:Pridajte komentár|Pridať komentár|Írj hozzászólást|Hozzászólás írása|Adaugă un comentariu)"
+      },
+      {
+        "textPattern": "^(?:Προσθέστε ένα σχόλιο|Προσθήκη σχολίου|Добавете коментар|Добавьте комментарий)"
+      },
+      {
+        "textPattern": "^(?:Оставьте комментарий|Введите комментарий|Додайте коментар|Залиште коментар|Yorum ekleyin)"
+      },
+      {
+        "textPattern": "^(?:Yorum ekle|Viết bình luận|Thêm bình luận|Tambahkan komentar|Tambah komentar|Tambah ulasan)"
+      },
+      {
+        "textPattern": "^(?:เพิ่มความคิดเห็น|コメントを追加|コメントする|댓글 추가|댓글 달기|टिप्पणी जोड़ें|कमेंट जोड़ें|أضف تعليقًا|إضافة تعليق)"
+      },
+      {
+        "textPattern": "^(?:הוספת תגובה|הוסף תגובה|افزودن نظر|نظر اضافه کنید|মন্তব্য যোগ করুন|কমেন্ট যোগ করুন)"
+      },
+      {
+        "textPattern": "^(?:கருத்தைச் சேர்|కామెంట్‌ను జోడించండి|వ్యాఖ్యను జోడించండి|टिप्पणी जोडा|تبصرہ شامل کریں)"
+      },
+      {
+        "textPattern": "^(?:Magdagdag ng komento|Ongeza maoni|Ƙara sharhi)"
+      }
+    ],
+    "menu": [
+      {
+        "viewIdSuffix": "id/design_bottom_sheet"
+      }
+    ]
+  },
+  "skip": {
+    "method": "gesture",
+    "container": {
+      "viewIdSuffix": "id/reel_recycler"
+    },
+    "fallbackGesture": {
+      "from": [
+        0.5,
+        0.75
+      ],
+      "to": [
+        0.5,
+        0.25
+      ],
+      "durationMs": 150
+    }
+  },
+  "notInterested": {
+    "open": {
+      "descAny": [
+        "Altre azioni",
+        "Autres actions",
+        "Další akce",
+        "Diğer işlemler",
+        "Fler aktiviteter",
+        "Fler åtgärder",
+        "Flere handlinger",
+        "Higit pang mga pagkilos",
+        "Higit pang pagkilos",
+        "Lagi tindakan",
+        "Lisää toimintoja",
+        "Mai multe acțiuni",
+        "Mais ações",
+        "Meer acties",
+        "More actions",
+        "Más acciones",
+        "Thao tác khác",
+        "Tindakan lainnya",
+        "További műveletek",
+        "Tuỳ chọn khác",
+        "Vitendo zaidi",
+        "Weitere Aktionen",
+        "Więcej czynności",
+        "Więcej działań",
+        "Ďalšie akcie",
+        "Περισσότερες ενέργειες",
+        "Інші дії",
+        "Більше дій",
+        "Дополнительные действия",
+        "Другие действия",
+        "Още действия",
+        "עוד פעולות",
+        "פעולות נוספות",
+        "المزيد من الإجراءات",
+        "مزيد من الإجراءات",
+        "مزید کارروائیاں",
+        "کنش‌های بیشتر",
+        "کنش‌های دیگر",
+        "अधिक क्रिया",
+        "अन्य कार्रवाइयां",
+        "आणखी कृती",
+        "ज़्यादा कार्रवाइयां",
+        "আরও বিকল্প",
+        "আরো ক্রিয়া",
+        "கூடுதல் செயல்கள்",
+        "மேலும் செயல்கள்",
+        "మరిన్ని చర్యలు",
+        "การดำเนินการอื่นๆ",
+        "การทำงานเพิ่มเติม",
+        "その他の操作",
+        "更多動作",
+        "更多操作",
+        "더보기",
+        "추가 작업"
+      ],
+      "clickable": true,
+      "region": {
+        "left": 0.8,
+        "top": 0.0,
+        "right": 1.0,
+        "bottom": 0.15
+      }
+    },
+    "openBy": "click",
+    "item": {
+      "textAny": [
+        "Not interested",
+        "不感興趣",
+        "不感兴趣",
+        "No me interesa",
+        "Não tenho interesse",
+        "Não me interessa",
+        "Pas intéressé",
+        "Pas intéressé(e)",
+        "Kein Interesse",
+        "Non mi interessa",
+        "興味なし",
+        "관심 없음",
+        "Не интересует",
+        "Не цікавить",
+        "İlgilenmiyorum",
+        "Không quan tâm",
+        "Tidak tertarik",
+        "Tidak berminat",
+        "ไม่สนใจ",
+        "Niet geïnteresseerd",
+        "Nie interesuje mnie to",
+        "Nie interesuje mnie",
+        "Inte intresserad",
+        "Ikke interesseret",
+        "Ikke interessert",
+        "Ei kiinnosta",
+        "Nemám zájem",
+        "Nemám záujem",
+        "Nem érdekel",
+        "Nu mă interesează",
+        "Δεν με ενδιαφέρει",
+        "Не ме интересува",
+        "غير مهتم",
+        "لا يهمني",
+        "לא מעניין אותי",
+        "علاقه‌ای ندارم",
+        "علاقه ندارم",
+        "दिलचस्पी नहीं है",
+        "आग्रह नहीं",
+        "আগ্রহী নই",
+        "আগ্রহ নেই",
+        "ஆர்வமில்லை",
+        "ఆసక్తి లేదు",
+        "स्वारस्य नाही",
+        "دلچسپی نہیں ہے",
+        "Hindi interesado",
+        "Sivutiwi",
+        "Ba na sha'awa",
+        "Ba na sha’awa"
+      ],
+      "region": {
+        "left": 0.0,
+        "top": 0.4,
+        "right": 1.0,
+        "bottom": 1.0
+      }
+    }
+  }
+}
