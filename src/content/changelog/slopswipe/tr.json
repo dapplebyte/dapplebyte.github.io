@@ -3,6 +3,15 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.1",
+      "date": "2026-10-23",
+      "items": [
+        "“Ayarlar”da yeni “Kural seti” sayfası: kullanılan kuralları ve hangi uygulama sürümlerini desteklediklerini görün, güncellemeleri denetleyin, kuralların otomatik güncellenmesini açıp kapatın, dosyadan içe aktarın veya yerleşik sürümü geri yükleyin.",
+        "Instagram Reels: kurallar en yeni Instagram için güncellendi. SlopSwipe, Reels sekmesinde çalışır ve yeni kurulumlarda Reels artık varsayılan olarak açık."
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.0",
       "date": "2026-10-17",
@@ -11,5 +20,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-22"
+  "extractedAt": "2026-10-23"
 }

@@ -3,6 +3,15 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.1",
+      "date": "2026-10-23",
+      "items": [
+        "Nieuwe pagina “Regelset” in “Instellingen”: bekijk welke regels actief zijn en welke app-versies ze ondersteunen, zoek naar updates, zet het automatisch bijwerken van regels aan of uit, importeer uit een bestand of herstel de ingebouwde versie.",
+        "Instagram Reels: regels bijgewerkt voor de nieuwste Instagram. SlopSwipe werkt op het tabblad Reels, en Reels staat bij nieuwe installaties nu standaard aan."
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.0",
       "date": "2026-10-17",
@@ -11,5 +20,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-22"
+  "extractedAt": "2026-10-23"
 }

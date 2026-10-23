@@ -3,6 +3,15 @@
   "locale": "pt-br",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.1",
+      "date": "2026-10-23",
+      "items": [
+        "Nova página “Base de regras” em “Ajustes”: veja as regras em uso e quais versões dos apps elas suportam, verifique atualizações, ative ou desative a atualização automática de regras, importe de arquivo ou restaure a versão integrada.",
+        "Instagram Reels: regras atualizadas para o Instagram mais recente. O SlopSwipe atua na aba Reels, e agora o Reels vem ativado por padrão em novas instalações."
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.0",
       "date": "2026-10-17",
@@ -11,5 +20,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-22"
+  "extractedAt": "2026-10-23"
 }

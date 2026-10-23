@@ -3,6 +3,15 @@
   "locale": "id",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.1",
+      "date": "2026-10-23",
+      "items": [
+        "Halaman baru \"Set aturan\" di \"Setelan\": lihat aturan yang dipakai dan versi aplikasi yang didukung, cek update, nyalakan atau matikan update aturan otomatis, impor dari file, atau pulihkan versi bawaan.",
+        "Instagram Reels: aturan diperbarui untuk Instagram terbaru. SlopSwipe bekerja di tab Reels, dan Reels kini aktif secara default untuk instalasi baru."
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.0",
       "date": "2026-10-17",
@@ -11,5 +20,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-22"
+  "extractedAt": "2026-10-23"
 }

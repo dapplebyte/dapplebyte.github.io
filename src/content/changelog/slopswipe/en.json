@@ -3,6 +3,15 @@
   "locale": "en",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.1",
+      "date": "2026-10-23",
+      "items": [
+        "New Rule set page in Settings: see the rules in use and which app versions they support, check for updates, turn automatic updates on or off, import from file, or restore the built-in version.",
+        "Instagram Reels: rules updated for the latest Instagram. SlopSwipe acts in the Reels tab, and Reels is now on by default for new installs."
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.0",
       "date": "2026-10-17",
@@ -11,5 +20,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-22"
+  "extractedAt": "2026-10-23"
 }

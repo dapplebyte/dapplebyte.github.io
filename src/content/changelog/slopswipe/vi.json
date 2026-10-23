@@ -3,6 +3,15 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.1",
+      "date": "2026-10-23",
+      "items": [
+        "Trang “Bộ quy tắc” mới trong “Cài đặt”: xem các quy tắc đang dùng và những phiên bản ứng dụng được hỗ trợ, kiểm tra cập nhật, bật hoặc tắt tự động cập nhật quy tắc, nhập từ tệp hoặc khôi phục phiên bản tích hợp sẵn.",
+        "Instagram Reels: đã cập nhật quy tắc cho Instagram mới nhất. SlopSwipe hoạt động trong thẻ Reels, và Reels giờ được bật mặc định với các lượt cài đặt mới."
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.0",
       "date": "2026-10-17",
@@ -11,5 +20,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-22"
+  "extractedAt": "2026-10-23"
 }

@@ -3,6 +3,15 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.1",
+      "date": "2026-10-23",
+      "items": [
+        "Nouvelle page « Jeu de règles » dans « Paramètres » : consultez les règles utilisées et les versions d’applis qu’elles prennent en charge, recherchez des mises à jour, activez ou désactivez la mise à jour automatique des règles, importez depuis un fichier ou restaurez la version intégrée.",
+        "Instagram Reels : règles mises à jour pour le dernier Instagram. SlopSwipe agit dans l’onglet Reels, et Reels est désormais activé par défaut sur les nouvelles installations."
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.0",
       "date": "2026-10-17",
@@ -11,5 +20,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-22"
+  "extractedAt": "2026-10-23"
 }
