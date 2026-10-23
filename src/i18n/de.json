@@ -38,6 +38,7 @@
     "support": "Support",
     "privacy": "Datenschutz",
     "changelog": "Versionshinweise",
+    "rules": "Regelsatz",
     "press": "Pressekit"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "Build {code}",
     "feed": "Atom-Feed",
     "empty": "Noch keine Versionen. {name} erscheint bald bei Google Play; die Versionshinweise stehen dann hier."
+  },
+  "rules": {
+    "title": "{name}-Regelsatz",
+    "description": "Laden Sie den aktuellen {name}-Regelsatz für Android herunter, sehen Sie, welche App-Versionen er unterstützt, und importieren Sie ihn manuell.",
+    "lede": "{name} hält seine Regeln von selbst aktuell. Diese Seite ist für alle, die lieber manuell aktualisieren möchten oder bei denen automatische Updates auf dem Smartphone nicht durchkommen.",
+    "currentHeading": "Aktuelle Version",
+    "published": "Veröffentlicht am {date}",
+    "download": "Regeldatei herunterladen",
+    "versionsHeading": "Unterstützte App-Versionen",
+    "versionsBody": "Die Regeln sind auf diese App-Versionen abgestimmt. Ist Ihre App neuer als dieser Bereich, erkennt {name} sie unter Umständen erst nach dem nächsten Regel-Update.",
+    "colApp": "App",
+    "colVersions": "Versionen",
+    "importHeading": "Manuell importieren",
+    "step1": "Laden Sie oben die Regeldatei herunter. Lassen Sie sie als .zip, entpacken ist nicht nötig.",
+    "step2": "Öffnen Sie in {name} Einstellungen → Regelsatz → Aus Datei importieren.",
+    "step3": "Wählen Sie die heruntergeladene .zip-Datei aus. {name} prüft sie und verwendet sie sofort.",
+    "noImport": "Kein „Aus Datei importieren“ zu sehen? Aktualisieren Sie {name} zuerst auf die neueste Version.",
+    "safetyHeading": "So werden Dateien geprüft",
+    "safetyBody": "Jede Regeldatei ist von DappleByte digital signiert. {name} prüft die Signatur auf Ihrem Smartphone und akzeptiert nur Dateien, die wir signiert haben und die neuer sind als die vorhandenen Regeln. Eine veränderte oder ältere Datei wird abgelehnt, und Ihre aktuellen Regeln bleiben unverändert."
   },
   "press": {
     "title": "Pressekit zu {name}",

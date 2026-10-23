@@ -38,6 +38,7 @@
     "support": "Assistance",
     "privacy": "Confidentialité",
     "changelog": "Notes de version",
+    "rules": "Jeu de règles",
     "press": "Kit presse"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "build {code}",
     "feed": "Flux Atom",
     "empty": "Aucune version pour l'instant. {name} arrive bientôt sur Google Play ; ses notes de version apparaîtront ici."
+  },
+  "rules": {
+    "title": "Jeu de règles de {name}",
+    "description": "Téléchargez le jeu de règles actuel de {name} pour Android, voyez quelles versions d'applications il prend en charge et importez-le manuellement.",
+    "lede": "{name} met ses règles à jour tout seul. Cette page est utile si vous préférez faire la mise à jour vous-même, ou si les mises à jour automatiques ne passent pas sur votre téléphone.",
+    "currentHeading": "Version actuelle",
+    "published": "Publié le {date}",
+    "download": "Télécharger le fichier de règles",
+    "versionsHeading": "Versions d'applications prises en charge",
+    "versionsBody": "Les règles sont prévues pour ces versions d'applications. Si votre application est plus récente, {name} risque de ne pas la reconnaître tant que les règles n'ont pas été mises à jour.",
+    "colApp": "Application",
+    "colVersions": "Versions",
+    "importHeading": "Importer manuellement",
+    "step1": "Téléchargez le fichier de règles ci-dessus. Gardez-le en .zip, inutile de le décompresser.",
+    "step2": "Dans {name}, allez dans Paramètres → Jeu de règles → Importer depuis un fichier.",
+    "step3": "Choisissez le .zip téléchargé. {name} le vérifie et l'utilise aussitôt.",
+    "noImport": "Vous ne voyez pas « Importer depuis un fichier » ? Mettez d'abord {name} à jour vers la dernière version.",
+    "safetyHeading": "Comment les fichiers sont vérifiés",
+    "safetyBody": "Chaque fichier de règles porte la signature numérique de DappleByte. {name} vérifie la signature sur votre téléphone et n'accepte que les fichiers signés par nous et plus récents que les règles déjà installées. Un fichier modifié ou plus ancien est refusé, et vos règles actuelles restent en place."
   },
   "press": {
     "title": "Kit presse {name}",

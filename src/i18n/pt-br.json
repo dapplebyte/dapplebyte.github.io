@@ -38,6 +38,7 @@
     "support": "Suporte",
     "privacy": "Privacidade",
     "changelog": "Notas da versão",
+    "rules": "Base de regras",
     "press": "Kit de imprensa"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "build {code}",
     "feed": "Feed Atom",
     "empty": "Ainda não há versões. O {name} chega em breve ao Google Play, e as notas de versão vão aparecer aqui."
+  },
+  "rules": {
+    "title": "Base de regras do {name}",
+    "description": "Baixe a base de regras atual do {name} para Android, veja quais versões dos apps ela suporta e importe manualmente.",
+    "lede": "O {name} atualiza as regras sozinho. Esta página é para quando você prefere atualizar manualmente ou quando as atualizações automáticas não chegam ao seu celular.",
+    "currentHeading": "Versão atual",
+    "published": "Publicada em {date}",
+    "download": "Baixar arquivo de regras",
+    "versionsHeading": "Versões de apps compatíveis",
+    "versionsBody": "As regras foram feitas para estas versões dos apps. Se o seu app for mais novo que essa faixa, o {name} pode não reconhecê-lo até as regras serem atualizadas.",
+    "colApp": "App",
+    "colVersions": "Versões",
+    "importHeading": "Importar manualmente",
+    "step1": "Baixe o arquivo de regras acima. Deixe como .zip, não precisa descompactar.",
+    "step2": "No {name}, vá em Ajustes → Base de regras → Importar de arquivo.",
+    "step3": "Escolha o .zip que você baixou. O {name} confere o arquivo e passa a usá-lo na hora.",
+    "noImport": "Não encontrou Importar de arquivo? Atualize o {name} para a versão mais recente primeiro.",
+    "safetyHeading": "Como os arquivos são verificados",
+    "safetyBody": "Todo arquivo de regras tem a assinatura digital da DappleByte. O {name} verifica a assinatura no seu celular e só aceita arquivos assinados por nós e mais novos que as regras que ele já tem. Um arquivo alterado, ou mais antigo, é recusado, e suas regras atuais continuam como estão."
   },
   "press": {
     "title": "Kit de imprensa do {name}",

@@ -38,6 +38,7 @@
     "support": "Soporte",
     "privacy": "Privacidad",
     "changelog": "Notas de la versión",
+    "rules": "Conjunto de reglas",
     "press": "Kit de prensa"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "compilación {code}",
     "feed": "Feed Atom",
     "empty": "Todavía no hay versiones. {name} llegará pronto a Google Play y sus notas de versión aparecerán aquí."
+  },
+  "rules": {
+    "title": "Conjunto de reglas de {name}",
+    "description": "Descarga el conjunto de reglas actual de {name} para Android, consulta qué versiones de las apps admite e impórtalo a mano.",
+    "lede": "{name} mantiene sus reglas al día por su cuenta. Esta página es para cuando prefieres actualizar a mano o cuando las actualizaciones automáticas no llegan a tu teléfono.",
+    "currentHeading": "Versión actual",
+    "published": "Publicado el {date}",
+    "download": "Descargar archivo de reglas",
+    "versionsHeading": "Versiones de apps compatibles",
+    "versionsBody": "Las reglas están hechas para estas versiones de las apps. Si tu app es más reciente que el rango, puede que {name} no la reconozca hasta que se actualicen las reglas.",
+    "colApp": "App",
+    "colVersions": "Versiones",
+    "importHeading": "Importar a mano",
+    "step1": "Descarga el archivo de reglas de arriba. Déjalo como .zip, no hace falta descomprimirlo.",
+    "step2": "En {name}, ve a Ajustes → Conjunto de reglas → Importar desde archivo.",
+    "step3": "Elige el .zip que descargaste. {name} lo comprueba y empieza a usarlo al instante.",
+    "noImport": "¿No ves Importar desde archivo? Primero actualiza {name} a la última versión.",
+    "safetyHeading": "Cómo se comprueban los archivos",
+    "safetyBody": "Cada archivo de reglas lleva la firma digital de DappleByte. {name} verifica la firma en tu teléfono y solo acepta archivos firmados por nosotros que sean más recientes que las reglas que ya tiene. Un archivo modificado, o uno más antiguo, se rechaza y tus reglas actuales se quedan como están."
   },
   "press": {
     "title": "Kit de prensa de {name}",

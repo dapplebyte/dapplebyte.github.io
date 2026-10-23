@@ -38,6 +38,7 @@
     "support": "Hỗ trợ",
     "privacy": "Quyền riêng tư",
     "changelog": "Ghi chú phát hành",
+    "rules": "Bộ quy tắc",
     "press": "Tài liệu báo chí"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "bản dựng {code}",
     "feed": "Nguồn cấp Atom",
     "empty": "Chưa có phiên bản nào. {name} sắp có trên Google Play, và ghi chú phát hành sẽ xuất hiện ở đây."
+  },
+  "rules": {
+    "title": "Bộ quy tắc {name}",
+    "description": "Tải bộ quy tắc {name} mới nhất cho Android, xem các phiên bản ứng dụng được hỗ trợ và nhập thủ công.",
+    "lede": "{name} tự cập nhật quy tắc. Trang này dành cho khi bạn muốn tự cập nhật, hoặc khi bản cập nhật tự động không tới được điện thoại của bạn.",
+    "currentHeading": "Phiên bản hiện tại",
+    "published": "Phát hành ngày {date}",
+    "download": "Tải tệp quy tắc",
+    "versionsHeading": "Phiên bản ứng dụng được hỗ trợ",
+    "versionsBody": "Bộ quy tắc được viết cho các phiên bản ứng dụng này. Nếu ứng dụng của bạn mới hơn khoảng này, {name} có thể chưa nhận ra cho tới khi quy tắc được cập nhật.",
+    "colApp": "Ứng dụng",
+    "colVersions": "Phiên bản",
+    "importHeading": "Nhập thủ công",
+    "step1": "Tải tệp quy tắc ở trên. Cứ để nguyên dạng .zip, không cần giải nén.",
+    "step2": "Trong {name}, vào Cài đặt → Bộ quy tắc → Nhập từ tệp.",
+    "step3": "Chọn tệp .zip vừa tải. {name} sẽ kiểm tra rồi dùng ngay.",
+    "noImport": "Không thấy Nhập từ tệp? Hãy cập nhật {name} lên phiên bản mới nhất trước.",
+    "safetyHeading": "Tệp được kiểm tra thế nào",
+    "safetyBody": "Mọi tệp quy tắc đều có chữ ký số của DappleByte. {name} xác minh chữ ký ngay trên điện thoại của bạn và chỉ nhận tệp do chúng tôi ký, mới hơn bộ quy tắc đang có. Tệp bị sửa đổi hoặc cũ hơn sẽ bị từ chối, và quy tắc hiện tại của bạn vẫn giữ nguyên."
   },
   "press": {
     "title": "Tài liệu báo chí về {name}",

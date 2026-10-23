@@ -38,6 +38,7 @@
     "support": "支持",
     "privacy": "隐私",
     "changelog": "更新日志",
+    "rules": "规则库",
     "press": "媒体资料包"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "构建 {code}",
     "feed": "Atom 订阅源",
     "empty": "还没有发布任何版本。{name} 即将在 Google Play 上架，之后的更新记录会放在这里。"
+  },
+  "rules": {
+    "title": "{name} 规则库",
+    "description": "下载最新的 {name} Android 规则库，查看支持哪些 App 版本，并手动导入。",
+    "lede": "{name} 会自动更新规则。这个页面适合想手动更新，或者手机上自动更新连不上的情况。",
+    "currentHeading": "当前版本",
+    "published": "{date} 发布",
+    "download": "下载规则文件",
+    "versionsHeading": "支持的 App 版本",
+    "versionsBody": "这套规则是按下面这些 App 版本适配的。如果你的 App 比这个范围更新，{name} 可能暂时识别不了，等规则更新跟上就行。",
+    "colApp": "App",
+    "colVersions": "版本",
+    "importHeading": "手动导入",
+    "step1": "下载上面的规则文件。保持 .zip 格式即可，不用解压。",
+    "step2": "在 {name} 里打开“设置 → 规则库 → 从文件导入”。",
+    "step3": "选择刚下载的 .zip。{name} 校验通过后会立即启用新规则。",
+    "noImport": "找不到“从文件导入”？先把 {name} 更新到最新版本。",
+    "safetyHeading": "文件如何校验",
+    "safetyBody": "每份规则文件都带有 DappleByte 的数字签名。{name} 会在你的手机上校验签名，只接受我们签过、并且比当前规则更新的文件。被改动过的文件或旧版本文件都会被拒绝，当前规则保持不变。"
   },
   "press": {
     "title": "{name} 媒体资料包",

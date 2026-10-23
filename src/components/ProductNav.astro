@@ -3,18 +3,21 @@ import { getEntry } from 'astro:content';
 import { localePath } from '../i18n/locales';
 import { useT } from '../i18n/t';
 import type { Product } from '../lib/content';
+import { hasRules } from '../lib/rules';
 
 interface Props {
   locale: string;
   product: Product;
-  current: 'overview' | 'features' | 'faq' | 'videos' | 'compare' | 'support' | 'privacy' | 'changelog' | 'press';
-  /** Defaults: Videos when the product has any, Compare when its comparison is no longer a draft. */
+  current: 'overview' | 'features' | 'faq' | 'videos' | 'compare' | 'support' | 'privacy' | 'changelog' | 'rules' | 'press';
+  /** Defaults: Videos when the product has any, Compare when its comparison is no longer a draft, Rules when it publishes a rule library. */
   showVideos?: boolean;
   showCompare?: boolean;
+  showRules?: boolean;
 }
 const { locale, product, current } = Astro.props;
 const showVideos = Astro.props.showVideos ?? ((await getEntry('videos', product.slug))?.data.items.length ?? 0) > 0;
 const showCompare = Astro.props.showCompare ?? (((await getEntry('compare', product.slug))?.data.draft ?? true) === false);
+const showRules = Astro.props.showRules ?? hasRules(product.slug);
 const { t } = useT(locale);
 const base = `/${product.slug}`;
 const items: { key: Props['current']; path: string }[] = [
@@ -26,6 +29,7 @@ const items: { key: Props['current']; path: string }[] = [
   { key: 'support', path: `${base}/support/` },
   { key: 'privacy', path: `${base}/privacy/` },
   { key: 'changelog', path: `${base}/changelog/` },
+  ...(showRules ? [{ key: 'rules' as const, path: `${base}/rules/` }] : []),
 ];
 ---
 

@@ -38,6 +38,7 @@
     "support": "Dukungan",
     "privacy": "Privasi",
     "changelog": "Catatan rilis",
+    "rules": "Set aturan",
     "press": "Kit pers"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "build {code}",
     "feed": "Feed Atom",
     "empty": "Belum ada rilis. {name} segera hadir di Google Play, dan catatan rilisnya akan muncul di sini."
+  },
+  "rules": {
+    "title": "Set aturan {name}",
+    "description": "Unduh set aturan {name} terbaru untuk Android, lihat versi aplikasi apa saja yang didukung, dan impor secara manual.",
+    "lede": "{name} memperbarui aturannya sendiri. Halaman ini untuk Anda yang ingin memperbarui secara manual, atau jika pembaruan otomatis tidak sampai ke ponsel Anda.",
+    "currentHeading": "Versi saat ini",
+    "published": "Dirilis {date}",
+    "download": "Unduh file aturan",
+    "versionsHeading": "Versi aplikasi yang didukung",
+    "versionsBody": "Aturan ini dibuat untuk versi aplikasi berikut. Jika aplikasi Anda lebih baru dari rentang ini, {name} mungkin belum mengenalinya sampai aturan diperbarui.",
+    "colApp": "Aplikasi",
+    "colVersions": "Versi",
+    "importHeading": "Impor manual",
+    "step1": "Unduh file aturan di atas. Biarkan tetap .zip, tidak perlu diekstrak.",
+    "step2": "Di {name}, buka Setelan → Set aturan → Impor dari file.",
+    "step3": "Pilih file .zip yang sudah diunduh. {name} akan memeriksanya dan langsung memakainya.",
+    "noImport": "Tidak melihat Impor dari file? Perbarui {name} ke versi terbaru terlebih dahulu.",
+    "safetyHeading": "Cara file diperiksa",
+    "safetyBody": "Setiap file aturan ditandatangani secara digital oleh DappleByte. {name} memverifikasi tanda tangan di ponsel Anda dan hanya menerima file yang kami tandatangani dan lebih baru dari aturan yang sudah ada. File yang diubah, atau yang lebih lama, akan ditolak dan aturan Anda saat ini tetap seperti semula."
   },
   "press": {
     "title": "Kit pers {name}",

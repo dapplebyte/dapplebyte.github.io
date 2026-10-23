@@ -1,0 +1,12 @@
+{
+  "id": "ai-fake-news",
+  "title": { "zh-TW": "AI 假新聞包", "en": "AI fake news" },
+  "description": {
+    "zh-TW": "擋自稱是 AI 產生的「新聞」與名人深偽影片。先從明講是 AI 或深偽的主題標籤開始，帳號名單經人工審核後才會加入。",
+    "en": "Blocks self-declared AI-made \"news\" and celebrity deepfakes. Starts with hashtags that say AI or deepfake outright; accounts are added only after human review."
+  },
+  "maintainer": "SlopSwipe",
+  "strongHashtags": ["ainews", "aigeneratednews", "deepfake", "deepfakes", "aideepfake"],
+  "strongPhrases": ["AI generated news", "AI 新聞主播", "深偽影片"],
+  "accounts": []
+}

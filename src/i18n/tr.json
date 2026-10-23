@@ -38,6 +38,7 @@
     "support": "Destek",
     "privacy": "Gizlilik",
     "changelog": "Sürüm notları",
+    "rules": "Kural seti",
     "press": "Basın kiti"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "derleme {code}",
     "feed": "Atom akışı",
     "empty": "Henüz sürüm yok. {name} yakında Google Play'de olacak; sürüm notları burada görünecek."
+  },
+  "rules": {
+    "title": "{name} kural seti",
+    "description": "Android için güncel {name} kural setini indirin, hangi uygulama sürümlerini desteklediğine bakın ve elle içe aktarın.",
+    "lede": "{name} kurallarını kendisi günceller. Bu sayfa, güncellemeyi elle yapmak isteyenler veya otomatik güncellemelerin telefonlarına ulaşamadığı durumlar için.",
+    "currentHeading": "Güncel sürüm",
+    "published": "Yayınlanma: {date}",
+    "download": "Kural dosyasını indir",
+    "versionsHeading": "Desteklenen uygulama sürümleri",
+    "versionsBody": "Kurallar bu uygulama sürümlerine göre hazırlanmıştır. Uygulamanız bu aralıktan yeniyse, kurallar güncellenene kadar {name} onu tanımayabilir.",
+    "colApp": "Uygulama",
+    "colVersions": "Sürümler",
+    "importHeading": "Elle içe aktarma",
+    "step1": "Yukarıdaki kural dosyasını indirin. .zip olarak bırakın, açmanıza gerek yok.",
+    "step2": "{name} uygulamasında Ayarlar → Kural seti → Dosyadan içe aktar yolunu izleyin.",
+    "step3": "İndirdiğiniz .zip dosyasını seçin. {name} dosyayı kontrol eder ve hemen kullanmaya başlar.",
+    "noImport": "Dosyadan içe aktar seçeneğini görmüyor musunuz? Önce {name} uygulamasını en son sürüme güncelleyin.",
+    "safetyHeading": "Dosyalar nasıl kontrol edilir",
+    "safetyBody": "Her kural dosyası DappleByte tarafından dijital olarak imzalanır. {name} imzayı telefonunuzda doğrular ve yalnızca bizim imzaladığımız, mevcut kurallardan daha yeni dosyaları kabul eder. Değiştirilmiş ya da daha eski bir dosya reddedilir ve mevcut kurallarınız olduğu gibi kalır."
   },
   "press": {
     "title": "{name} basın kiti",

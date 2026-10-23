@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "version": "2026.10.22.1",
+  "published": "2026-10-22",
+  "zip": "2026.10.22.1/slopswipe-rules-2026.10.22.1.zip",
+  "zipSize": 147082,
+  "zipSha256": "0d27e3bdfecfe7eecc352ad42f333e32fed662bb18d1a9c3d9978fba120f1f70",
+  "platforms": [
+    {
+      "platform": "instagram",
+      "packages": [
+        "com.instagram.android"
+      ],
+      "min": "450.0.0",
+      "max": "452.99.99"
+    },
+    {
+      "platform": "tiktok",
+      "packages": [
+        "com.zhiliaoapp.musically",
+        "com.ss.android.ugc.trill"
+      ],
+      "min": "46.0.0",
+      "max": "46.99.99"
+    },
+    {
+      "platform": "youtube",
+      "packages": [
+        "com.google.android.youtube"
+      ],
+      "min": "21.0.0",
+      "max": "21.99.999"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ProductNav from '../../../components/ProductNav.astro';
+import { getLocale, localePath, DEFAULT_LOCALE } from '../../../i18n/locales';
+import { useT, formatDate } from '../../../i18n/t';
+import { getProduct, localesFor, liveProducts } from '../../../lib/content';
+import { rulesLatest, rulesZipPath, platformName, formatSize, type RulesLatest } from '../../../lib/rules';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../lib/jsonld';
+
+// Only products that publish a rule library (public/<slug>/rules/v1/latest.json) get this page,
+// in the locales of their store copy.
+export async function getStaticPaths() {
+  const out = [];
+  for (const p of await liveProducts()) {
+    const latest = rulesLatest(p.slug);
+    if (!latest) continue;
+    const alternates = await localesFor('productCopy', p.slug);
+    for (const locale of alternates) {
+      out.push({ params: { lang: locale === DEFAULT_LOCALE ? undefined : locale, product: p.slug }, props: { locale, slug: p.slug, alternates, latest } });
+    }
+  }
+  return out;
+}
+
+const { locale, slug, alternates, latest } = Astro.props as { locale: string; slug: string; alternates: string[]; latest: RulesLatest };
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const name = product.name;
+const path = `/${slug}/rules/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = t('rules.title', { name });
+const description = t('rules.description', { name });
+const zipHref = rulesZipPath(slug, latest);
+const zipName = latest.zip.split('/').pop();
+const size = formatSize(latest.zipSize, loc.lang);
+const platforms = [...latest.platforms].sort((a, b) => platformName(a.platform).localeCompare(platformName(b.platform)));
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang, latest.published),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('labels.rules'), url },
+  ]),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="rules" />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">{name}</div>
+    <h1 class="h-page">{title}</h1>
+    <p class="lede" style="margin-top:16px">{t('rules.lede', { name })}</p>
+  </section>
+
+  <section class="wrap section">
+    <div class="current">
+      <div class="panel release">
+        <div class="mono">{t('rules.currentHeading')}</div>
+        <div class="version">{latest.version}</div>
+        <div class="muted">{t('rules.published', { date: formatDate(locale, latest.published, loc.lang) })}</div>
+        <div class="actions" style="margin-top:20px">
+          <a class="button" href={zipHref} download={zipName}>{t('rules.download')}</a>
+          <span class="mono">ZIP · {size}</span>
+        </div>
+        <div class="hash">
+          <span class="mono">SHA-256</span>
+          <code>{latest.zipSha256}</code>
+        </div>
+      </div>
+      <div>
+        <h2 class="h-sub" style="margin-bottom:8px">{t('rules.versionsHeading')}</h2>
+        <p class="muted" style="margin-bottom:16px">{t('rules.versionsBody', { name })}</p>
+        <div class="table-scroll">
+          <table class="versions">
+            <thead>
+              <tr>
+                <th scope="col">{t('rules.colApp')}</th>
+                <th scope="col">{t('rules.colVersions')}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {platforms.map((p) => (
+                <tr>
+                  <td>{platformName(p.platform)}</td>
+                  <td><code dir="ltr">{p.min} – {p.max}</code></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <h2 class="h-section" style="margin-bottom:16px">{t('rules.importHeading')}</h2>
+    <ol class="steps">
+      <li>{t('rules.step1')}</li>
+      <li>{t('rules.step2', { name })}</li>
+      <li>{t('rules.step3', { name })}</li>
+    </ol>
+    <p class="muted" style="margin-top:16px">{t('rules.noImport', { name })}</p>
+  </section>
+
+  <section class="wrap section">
+    <h2 class="h-section" style="margin-bottom:16px">{t('rules.safetyHeading')}</h2>
+    <p class="lede">{t('rules.safetyBody', { name })}</p>
+  </section>
+</Base>
+
+<style>
+  .current {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    align-items: start;
+  }
+  .release {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .version {
+    font-family: var(--font-mono);
+    font-size: clamp(28px, 4vw, 40px);
+    line-height: 1.1;
+    color: var(--fg);
+    overflow-wrap: anywhere;
+  }
+  .hash {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .hash code {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--fg-2);
+    word-break: break-all;
+  }
+  .versions {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+  }
+  .versions th,
+  .versions td {
+    text-align: start;
+    vertical-align: top;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+  }
+  .versions th {
+    background: var(--surface);
+    font-weight: 600;
+  }
+  .versions code {
+    font-family: var(--font-mono);
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  .steps {
+    margin: 0;
+    padding-inline-start: 1.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--fg-2);
+    max-width: 64ch;
+  }
+  .muted {
+    color: var(--fg-2);
+  }
+  @media (max-width: 860px) {
+    .current {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

@@ -38,6 +38,7 @@
     "support": "Support",
     "privacy": "Privacy",
     "changelog": "Versiegeschiedenis",
+    "rules": "Regelset",
     "press": "Persmap"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "build {code}",
     "feed": "Atom-feed",
     "empty": "Nog geen versies. {name} komt binnenkort op Google Play; de releaseopmerkingen verschijnen dan hier."
+  },
+  "rules": {
+    "title": "{name}-regelset",
+    "description": "Download de nieuwste {name}-regelset voor Android, bekijk welke app-versies hij ondersteunt en importeer hem handmatig.",
+    "lede": "{name} houdt zijn regels zelf bij. Deze pagina is voor als je liever zelf bijwerkt, of als automatische updates op je telefoon niet doorkomen.",
+    "currentHeading": "Huidige versie",
+    "published": "Gepubliceerd op {date}",
+    "download": "Regelbestand downloaden",
+    "versionsHeading": "Ondersteunde app-versies",
+    "versionsBody": "De regels zijn gemaakt voor deze app-versies. Is je app nieuwer, dan herkent {name} hem misschien pas na de volgende regelupdate.",
+    "colApp": "App",
+    "colVersions": "Versies",
+    "importHeading": "Handmatig importeren",
+    "step1": "Download hierboven het regelbestand. Laat het als .zip staan, uitpakken is niet nodig.",
+    "step2": "Ga in {name} naar Instellingen → Regelset → Importeren uit bestand.",
+    "step3": "Kies de gedownloade .zip. {name} controleert hem en gebruikt hem meteen.",
+    "noImport": "Zie je Importeren uit bestand niet? Werk {name} dan eerst bij naar de nieuwste versie.",
+    "safetyHeading": "Zo worden bestanden gecontroleerd",
+    "safetyBody": "Elk regelbestand is digitaal ondertekend door DappleByte. {name} controleert de handtekening op je telefoon en accepteert alleen bestanden die wij hebben ondertekend en die nieuwer zijn dan de regels die er al staan. Een aangepast of ouder bestand wordt geweigerd en je huidige regels blijven zoals ze zijn."
   },
   "press": {
     "title": "Persmap van {name}",

@@ -38,6 +38,7 @@
     "support": "Pomoc",
     "privacy": "Prywatność",
     "changelog": "Informacje o wersjach",
+    "rules": "Zestaw reguł",
     "press": "Materiały prasowe"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "kompilacja {code}",
     "feed": "Kanał Atom",
     "empty": "Nie ma jeszcze żadnych wersji. {name} wkrótce pojawi się w Google Play, a informacje o wersjach znajdą się tutaj."
+  },
+  "rules": {
+    "title": "Zestaw reguł {name}",
+    "description": "Pobierz aktualny zestaw reguł {name} na Androida, sprawdź, które wersje aplikacji obsługuje, i zaimportuj go ręcznie.",
+    "lede": "{name} sam aktualizuje swoje reguły. Ta strona przyda się, jeśli wolisz zaktualizować je ręcznie albo automatyczne aktualizacje nie docierają na Twój telefon.",
+    "currentHeading": "Aktualna wersja",
+    "published": "Opublikowano {date}",
+    "download": "Pobierz plik reguł",
+    "versionsHeading": "Obsługiwane wersje aplikacji",
+    "versionsBody": "Reguły są przygotowane dla tych wersji aplikacji. Jeśli Twoja aplikacja jest nowsza, {name} może jej nie rozpoznawać, dopóki reguły nie zostaną zaktualizowane.",
+    "colApp": "Aplikacja",
+    "colVersions": "Wersje",
+    "importHeading": "Import ręczny",
+    "step1": "Pobierz plik reguł powyżej. Zostaw go jako .zip, nie trzeba go rozpakowywać.",
+    "step2": "W {name} otwórz Ustawienia → Zestaw reguł → Importuj z pliku.",
+    "step3": "Wybierz pobrany plik .zip. {name} sprawdzi go i od razu zacznie z niego korzystać.",
+    "noImport": "Nie widzisz opcji Importuj z pliku? Najpierw zaktualizuj {name} do najnowszej wersji.",
+    "safetyHeading": "Jak sprawdzamy pliki",
+    "safetyBody": "Każdy plik reguł ma podpis cyfrowy DappleByte. {name} weryfikuje podpis na Twoim telefonie i przyjmuje tylko pliki podpisane przez nas i nowsze niż reguły, które już ma. Zmieniony lub starszy plik zostanie odrzucony, a obecne reguły pozostaną bez zmian."
   },
   "press": {
     "title": "{name}: materiały prasowe",

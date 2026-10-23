@@ -38,6 +38,7 @@
     "support": "支援",
     "privacy": "隱私",
     "changelog": "版本紀錄",
+    "rules": "規則庫",
     "press": "媒體資料"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "build {code}",
     "feed": "Atom 訂閱",
     "empty": "還沒有任何版本。{name} 即將在 Google Play 上架，之後的版本紀錄會放在這裡。"
+  },
+  "rules": {
+    "title": "{name} 規則庫",
+    "description": "下載最新的 {name} Android 規則庫，看看支援哪些 App 版本，並手動匯入。",
+    "lede": "{name} 會自己更新規則。這一頁是給想手動更新，或手機上自動更新連不上的人。",
+    "currentHeading": "目前版本",
+    "published": "{date} 發布",
+    "download": "下載規則檔",
+    "versionsHeading": "支援的 App 版本",
+    "versionsBody": "這份規則是照下面這些 App 版本寫的。如果你的 App 比這個範圍還新，{name} 可能會暫時認不出來，等規則跟上就好。",
+    "colApp": "App",
+    "colVersions": "版本",
+    "importHeading": "手動匯入",
+    "step1": "下載上面的規則檔。維持 .zip 就好，不用解壓縮。",
+    "step2": "在 {name} 打開「設定 → 規則庫 → 從檔案匯入」。",
+    "step3": "選擇剛下載的 .zip。{name} 檢查過後就會馬上改用新規則。",
+    "noImport": "找不到「從檔案匯入」？先把 {name} 更新到最新版。",
+    "safetyHeading": "檔案怎麼驗證",
+    "safetyBody": "每份規則檔都經過 DappleByte 數位簽章。{name} 會在你的手機上驗證簽章，只接受我們簽過、而且比目前規則更新的檔案。被改過的檔案或舊版檔案都會被拒絕，目前的規則維持不變。"
   },
   "press": {
     "title": "{name} 媒體資料",

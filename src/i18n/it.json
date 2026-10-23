@@ -38,6 +38,7 @@
     "support": "Assistenza",
     "privacy": "Privacy",
     "changelog": "Note di rilascio",
+    "rules": "Set di regole",
     "press": "Cartella stampa"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "build {code}",
     "feed": "Feed Atom",
     "empty": "Nessuna versione per ora. {name} arriverà presto su Google Play e le note di versione compariranno qui."
+  },
+  "rules": {
+    "title": "Set di regole di {name}",
+    "description": "Scarica il set di regole aggiornato di {name} per Android, controlla quali versioni delle app supporta e importalo a mano.",
+    "lede": "{name} aggiorna le sue regole da solo. Questa pagina serve se preferisci aggiornare a mano, o se sul tuo telefono gli aggiornamenti automatici non arrivano.",
+    "currentHeading": "Versione attuale",
+    "published": "Pubblicato il {date}",
+    "download": "Scarica il file delle regole",
+    "versionsHeading": "Versioni delle app supportate",
+    "versionsBody": "Le regole sono pensate per queste versioni delle app. Se la tua app è più recente, {name} potrebbe non riconoscerla finché le regole non vengono aggiornate.",
+    "colApp": "App",
+    "colVersions": "Versioni",
+    "importHeading": "Importa a mano",
+    "step1": "Scarica il file delle regole qui sopra. Lascialo in formato .zip, non serve estrarlo.",
+    "step2": "In {name}, vai su Impostazioni → Set di regole → Importa da file.",
+    "step3": "Scegli il .zip che hai scaricato. {name} lo controlla e inizia subito a usarlo.",
+    "noImport": "Non vedi Importa da file? Prima aggiorna {name} all'ultima versione.",
+    "safetyHeading": "Come vengono controllati i file",
+    "safetyBody": "Ogni file di regole è firmato digitalmente da DappleByte. {name} verifica la firma sul tuo telefono e accetta solo file firmati da noi e più recenti delle regole che ha già. Un file modificato, o uno più vecchio, viene rifiutato e le tue regole attuali restano come sono."
   },
   "press": {
     "title": "Cartella stampa di {name}",

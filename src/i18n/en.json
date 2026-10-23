@@ -38,6 +38,7 @@
     "support": "Support",
     "privacy": "Privacy",
     "changelog": "Release notes",
+    "rules": "Rule set",
     "press": "Press kit"
   },
   "facts": {
@@ -259,6 +260,25 @@
     "build": "build {code}",
     "feed": "Atom feed",
     "empty": "No releases yet. {name} is coming soon to Google Play, and its release notes will appear here."
+  },
+  "rules": {
+    "title": "{name} rule set",
+    "description": "Download the current {name} rule set for Android, see which app versions it supports, and import it by hand.",
+    "lede": "{name} keeps its rules up to date on its own. This page is for when you'd rather update by hand, or when automatic updates can't get through on your phone.",
+    "currentHeading": "Current version",
+    "published": "Published {date}",
+    "download": "Download rule file",
+    "versionsHeading": "Supported app versions",
+    "versionsBody": "The rules are written for these app versions. If your app is newer than the range, {name} may not recognize it until the rules catch up.",
+    "colApp": "App",
+    "colVersions": "Versions",
+    "importHeading": "Import by hand",
+    "step1": "Download the rule file above. Leave it as a .zip, there's no need to unzip it.",
+    "step2": "In {name}, go to Settings → Rule set → Import from file.",
+    "step3": "Pick the .zip you downloaded. {name} checks it and starts using it right away.",
+    "noImport": "Don't see Import from file? Update {name} to the latest version first.",
+    "safetyHeading": "How files are checked",
+    "safetyBody": "Every rule file is digitally signed by DappleByte. {name} verifies the signature on your phone and only accepts files we signed that are newer than the rules it already has. A file that was altered, or an older one, is turned down and your current rules stay as they are."
   },
   "press": {
     "title": "{name} press kit",
