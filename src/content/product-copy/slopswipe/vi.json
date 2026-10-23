@@ -93,7 +93,6 @@
       "paragraphs": [],
       "bullets": [
         "SlopSwipe dùng dịch vụ hỗ trợ tiếp cận của Android để đọc chữ trên màn hình và vuốt lên thay bạn. Đây không phải công cụ hỗ trợ người khuyết tật và chỉ chạy sau khi bạn đã đọc nó làm gì và đồng ý.",
-        "Instagram Reels tắt theo mặc định; bật trong Cài đặt → Phạm vi hoạt động.",
         "Video không gắn nhãn có thể lọt qua và đôi khi một video bị bỏ qua nhầm; \"Hoàn tác\" sẽ sửa lại. Nếu nền tảng đổi giao diện, SlopSwipe sẽ dừng và báo cho bạn. Android 8.0+.",
         "YouTube, TikTok và Instagram là nhãn hiệu của chủ sở hữu tương ứng; SlopSwipe không liên kết và không được họ bảo trợ."
       ]
@@ -107,5 +106,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

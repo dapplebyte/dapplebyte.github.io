@@ -102,7 +102,7 @@
           "id": "not_skipping",
           "q": "Es wird gar nichts übersprungen.",
           "a": [
-            "Prüf der Reihe nach: Start zeigt „Aktiv“; die Plattform ist unter Einstellungen → Wo es wirkt eingeschaltet (Reels ist standardmäßig aus); du bist im Shorts-Player oder im TikTok-Feed „Für dich“, nicht auf der Startseite, in der Suche, bei „Folge ich“ oder in einem Livestream; und das Video trifft wirklich eine Regel, denn die meisten Videos sind keine KI. Unter „Was wir lesen“ siehst du genau, was zuletzt gelesen wurde."
+            "Prüf der Reihe nach: Start zeigt „Aktiv“; die Plattform ist unter Einstellungen → Wo es wirkt eingeschaltet; du bist im Shorts-Player, im TikTok-Feed „Für dich“ oder im Reels-Tab, nicht auf der Startseite, in der Suche, bei „Folge ich“ oder in einem Livestream; und das Video trifft wirklich eine Regel, denn die meisten Videos sind keine KI. Unter „Was wir lesen“ siehst du genau, was zuletzt gelesen wurde."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "id": "where_active",
           "q": "Wo genau greift es ein?",
           "a": [
-            "Nur im Shorts-Player, im TikTok-Feed „Für dich“ und, wenn eingeschaltet, in Reels. Startseite, Suchergebnisse, Kommentare, lange Videos, Livestreams und der TikTok-Feed „Folge ich“ bleiben unberührt, damit das bleibt, wonach du gesucht hast. Um „Folge ich“ einzubeziehen, schalte Einstellungen → Wo es wirkt → Auch bei Konten, denen ich folge ein."
+            "Nur im Shorts-Player, im TikTok-Feed „Für dich“ und im Reels-Tab von Instagram. Startseite, Suchergebnisse, Kommentare, lange Videos, Livestreams und der TikTok-Feed „Folge ich“ bleiben unberührt, damit das bleibt, wonach du gesucht hast. Um „Folge ich“ einzubeziehen, schalte Einstellungen → Wo es wirkt → Auch bei Konten, denen ich folge ein."
           ]
         },
         {
@@ -287,7 +287,7 @@
           "id": "instagram",
           "q": "Instagram Reels wird nicht übersprungen.",
           "a": [
-            "Reels ist in dieser Version standardmäßig aus, weil die Texte für Werbung und Labels dort bisher nur auf Englisch geprüft wurden. Schalte es unter Einstellungen → Wo es wirkt ein, dann läuft es mit dem aktuellen Regelsatz."
+            "SlopSwipe wirkt nur im Reels-Tab unten in Instagram, nicht bei Reels, die du über die Suche öffnest. Prüf außerdem, ob Instagram Reels unter Einstellungen → Wo es wirkt eingeschaltet ist: Bei neuen Installationen ist es an, aber wenn du eine frühere Version installiert hattest, kann es noch aus sein. Werbung und Labels in Reels werden zuerst auf Englisch geprüft; wenn SlopSwipe nicht erkennen kann, ob ein Reel Werbung ist, bleibt es unberührt."
           ]
         },
         {
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

@@ -93,7 +93,6 @@
       "paragraphs": [],
       "bullets": [
         "SlopSwipe, ekrandaki metni okumak ve sizin yerinize yukarı kaydırmak için Android'in erişilebilirlik hizmetini kullanır. Engelliler için yardımcı araç değildir ve yalnızca ne yaptığını okuyup onayladıktan sonra çalışır.",
-        "Instagram Reels varsayılan olarak kapalıdır; Ayarlar → Çalıştığı yerler bölümünden açın.",
         "Etiketsiz videolar gözden kaçabilir ve ara sıra yanlış bir video atlanabilir; \"Geri al\" bunu düzeltir. Platform düzenini değiştirirse SlopSwipe durur ve size haber verir. Android 8.0+.",
         "YouTube, TikTok ve Instagram, sahiplerinin ticari markalarıdır; SlopSwipe bunlarla bağlantılı değildir ve onaylanmamıştır."
       ]
@@ -107,5 +106,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

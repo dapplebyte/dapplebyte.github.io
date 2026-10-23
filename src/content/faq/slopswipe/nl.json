@@ -102,7 +102,7 @@
           "id": "not_skipping",
           "q": "Er wordt niets overgeslagen.",
           "a": [
-            "Controleer in deze volgorde: Home toont Actief; het platform staat aan onder Instellingen → Waar het werkt (Reels staat standaard uit); je zit in de Shorts-speler of de TikTok-feed Voor jou, niet op de startpagina, in zoeken, bij Volgend of in een livestream; en de video komt echt overeen met een regel, want de meeste video's zijn geen AI. Wat we lezen laat precies zien wat het laatst is gelezen."
+            "Controleer in deze volgorde: Home toont Actief; het platform staat aan onder Instellingen → Waar het werkt; je zit in de Shorts-speler, de TikTok-feed Voor jou of het Reels-tabblad, niet op de startpagina, in zoeken, bij Volgend of in een livestream; en de video komt echt overeen met een regel, want de meeste video's zijn geen AI. Wat we lezen laat precies zien wat het laatst is gelezen."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "id": "where_active",
           "q": "Waar werkt het precies?",
           "a": [
-            "Alleen in de Shorts-speler, de TikTok-feed Voor jou en, als je het aanzet, Reels. De startpagina, zoekresultaten, reacties, lange video's, livestreams en de TikTok-feed Volgend blijven ongemoeid, zodat wat je zelf zocht blijft staan. Wil je Volgend erbij, zet dan Instellingen → Waar het werkt → Ook bij accounts die ik volg aan."
+            "Alleen in de Shorts-speler, de TikTok-feed Voor jou en het Reels-tabblad van Instagram. De startpagina, zoekresultaten, reacties, lange video's, livestreams en de TikTok-feed Volgend blijven ongemoeid, zodat wat je zelf zocht blijft staan. Wil je Volgend erbij, zet dan Instellingen → Waar het werkt → Ook bij accounts die ik volg aan."
           ]
         },
         {
@@ -287,7 +287,7 @@
           "id": "instagram",
           "q": "Instagram Reels wordt niet overgeslagen.",
           "a": [
-            "Reels staat in deze versie standaard uit, omdat de teksten voor advertenties en labels daar alleen in het Engels zijn gecontroleerd. Zet het aan onder Instellingen → Waar het werkt en het werkt met de huidige regelset."
+            "SlopSwipe werkt alleen in het Reels-tabblad onderaan in Instagram, niet bij Reels die je via Zoeken opent. Controleer ook of Instagram Reels aanstaat onder Instellingen → Waar het werkt: bij nieuwe installaties staat het aan, maar als je een eerdere versie had geïnstalleerd, kan het nog uitstaan. Advertenties en labels in Reels worden eerst in het Engels gecontroleerd; als SlopSwipe niet kan zien of een Reel een advertentie is, laat het die met rust."
           ]
         },
         {
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

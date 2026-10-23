@@ -102,7 +102,7 @@
           "id": "not_skipping",
           "q": "Nic nie jest pomijane.",
           "a": [
-            "Sprawdź po kolei: ekran Start pokazuje Działa; platforma jest włączona w Ustawienia → Gdzie działa (Reels jest domyślnie wyłączone); jesteś w odtwarzaczu Shorts albo w zakładce Dla Ciebie w TikTok, a nie na stronie głównej, w wyszukiwaniu, w zakładce Obserwowani czy na transmisji na żywo; film naprawdę pasuje do jakiejś reguły, bo większość filmów nie jest zrobiona przez SI. Co odczytujemy pokazuje dokładnie, co zostało ostatnio odczytane."
+            "Sprawdź po kolei: ekran Start pokazuje Działa; platforma jest włączona w Ustawienia → Gdzie działa; jesteś w odtwarzaczu Shorts, w zakładce Dla Ciebie w TikTok albo w zakładce Reels, a nie na stronie głównej, w wyszukiwaniu, w zakładce Obserwowani czy na transmisji na żywo; film naprawdę pasuje do jakiejś reguły, bo większość filmów nie jest zrobiona przez SI. Co odczytujemy pokazuje dokładnie, co zostało ostatnio odczytane."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "id": "where_active",
           "q": "Gdzie dokładnie działa?",
           "a": [
-            "Tylko w odtwarzaczu Shorts, w zakładce Dla Ciebie w TikTok i, jeśli są włączone, w Reels. Strona główna, wyniki wyszukiwania, komentarze, długie filmy, transmisje na żywo i zakładka Obserwowani w TikTok zostają nietknięte, więc to, czego szukasz, zostaje na miejscu. Aby objąć też Obserwowanych, włącz Ustawienia → Gdzie działa → Działaj też na obserwowanych kontach."
+            "Tylko w odtwarzaczu Shorts, w zakładce Dla Ciebie w TikTok i w zakładce Reels na Instagramie. Strona główna, wyniki wyszukiwania, komentarze, długie filmy, transmisje na żywo i zakładka Obserwowani w TikTok zostają nietknięte, więc to, czego szukasz, zostaje na miejscu. Aby objąć też Obserwowanych, włącz Ustawienia → Gdzie działa → Działaj też na obserwowanych kontach."
           ]
         },
         {
@@ -287,7 +287,7 @@
           "id": "instagram",
           "q": "Filmy w Instagram Reels nie są pomijane.",
           "a": [
-            "W tej wersji Reels jest domyślnie wyłączone, bo jego teksty reklam i etykiet zostały sprawdzone tylko po angielsku. Włącz je w Ustawienia → Gdzie działa, a zadziała z obecnym zestawem reguł."
+            "SlopSwipe działa tylko w zakładce Reels na dole Instagrama, a nie w rolkach otwartych z wyszukiwania. Sprawdź też, czy Instagram Reels jest włączone w Ustawienia → Gdzie działa: przy nowych instalacjach jest domyślnie włączone, ale po aktualizacji z wcześniejszej wersji może nadal być wyłączone. Reklamy i etykiety w Reels są sprawdzane najpierw po angielsku; gdy SlopSwipe nie potrafi stwierdzić, czy dana rolka jest reklamą, zostawia ją w spokoju."
           ]
         },
         {
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

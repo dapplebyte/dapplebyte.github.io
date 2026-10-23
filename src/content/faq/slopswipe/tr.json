@@ -102,7 +102,7 @@
           "id": "not_skipping",
           "q": "Hiçbir şey atlanmıyor.",
           "a": [
-            "Şu sırayla kontrol edin: Ana sayfada Çalışıyor yazıyor mu; platform Ayarlar → Çalıştığı yerler bölümünde açık mı (Reels varsayılan olarak kapalıdır); ana sayfada, aramada, Takip Edilenler’de veya canlı yayında değil de Shorts oynatıcısında ya da TikTok Sana Özel akışında mısınız; ve video gerçekten bir kurala uyuyor mu, çünkü videoların çoğu AI değildir. Neleri okuyoruz, en son tam olarak neyin okunduğunu gösterir."
+            "Şu sırayla kontrol edin: Ana sayfada Çalışıyor yazıyor mu; platform Ayarlar → Çalıştığı yerler bölümünde açık mı; ana sayfada, aramada, Takip Edilenler’de veya canlı yayında değil de Shorts oynatıcısında, TikTok Sana Özel akışında ya da Reels sekmesinde misiniz; ve video gerçekten bir kurala uyuyor mu, çünkü videoların çoğu AI değildir. Neleri okuyoruz, en son tam olarak neyin okunduğunu gösterir."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "id": "where_active",
           "q": "Tam olarak nerede çalışıyor?",
           "a": [
-            "Yalnızca Shorts oynatıcısında, TikTok Sana Özel akışında ve açıksa Reels’te. Ana sayfa, arama sonuçları, yorumlar, uzun videolar, canlı yayınlar ve TikTok Takip Edilenler akışına dokunulmaz; böylece kendiniz aradığınız şeyler yerinde kalır. Takip Edilenler’i de dahil etmek için Ayarlar → Çalıştığı yerler → Takip ettiğim hesaplarda da çalışsın seçeneğini açın."
+            "Yalnızca Shorts oynatıcısında, TikTok Sana Özel akışında ve Instagram Reels sekmesinde. Ana sayfa, arama sonuçları, yorumlar, uzun videolar, canlı yayınlar ve TikTok Takip Edilenler akışına dokunulmaz; böylece kendiniz aradığınız şeyler yerinde kalır. Takip Edilenler’i de dahil etmek için Ayarlar → Çalıştığı yerler → Takip ettiğim hesaplarda da çalışsın seçeneğini açın."
           ]
         },
         {
@@ -287,7 +287,7 @@
           "id": "instagram",
           "q": "Instagram Reels atlanmıyor.",
           "a": [
-            "Bu sürümde Reels varsayılan olarak kapalıdır, çünkü reklam ve etiket ifadeleri yalnızca İngilizcede doğrulandı. Ayarlar → Çalıştığı yerler bölümünden açın; mevcut kural setiyle çalışır."
+            "SlopSwipe yalnızca Instagram’ın alt kısmındaki Reels sekmesinde çalışır; aramadan açılan Reels videolarında çalışmaz. Ayrıca Ayarlar → Çalıştığı yerler bölümünde Instagram Reels’in açık olduğunu kontrol edin: yeni kurulumlarda açıktır, ancak daha önceki bir sürümü yüklediyseniz hâlâ kapalı olabilir. Reels’teki reklamlar ve etiketler önce İngilizcede doğrulanır; SlopSwipe bir Reels videosunun reklam olup olmadığını anlayamadığında ona dokunmaz."
           ]
         },
         {
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

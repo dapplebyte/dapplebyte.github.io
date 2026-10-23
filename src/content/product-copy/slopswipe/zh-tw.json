@@ -93,7 +93,6 @@
       "paragraphs": [],
       "bullets": [
         "SlopSwipe 使用 Android 無障礙服務讀取畫面文字並替你上滑。這不是身障輔助工具；你看完它做什麼並同意後才會運作。",
-        "Instagram Reels 預設關閉，到「設定 → 偵測範圍」打開即可。",
         "沒有標籤的影片可能漏掉，偶爾也可能滑錯一支，「還原」就能修正。平台改版改變畫面結構時，SlopSwipe 會先停下來並通知你。需要 Android 8.0 以上。",
         "YouTube、TikTok 與 Instagram 為各自所有者的商標；SlopSwipe 與這些公司沒有關聯，也未獲其背書。"
       ]
@@ -107,5 +106,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

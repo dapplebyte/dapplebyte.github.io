@@ -102,7 +102,7 @@
           "id": "not_skipping",
           "q": "Rien n’est passé.",
           "a": [
-            "Vérifiez dans cet ordre : l’Accueil affiche Actif ; la plateforme est activée dans Paramètres → Où il agit (Reels est désactivé par défaut) ; vous êtes dans le lecteur Shorts ou le fil Pour toi de TikTok, et non sur la page d’accueil, la recherche, Abonnements ou un live ; et la vidéo correspond vraiment à une règle, car la plupart des vidéos ne sont pas de l’IA. Ce que nous lisons montre exactement ce qui a été lu en dernier."
+            "Vérifiez dans cet ordre : l’Accueil affiche Actif ; la plateforme est activée dans Paramètres → Où il agit ; vous êtes dans le lecteur Shorts, le fil Pour toi de TikTok ou l’onglet Reels, et non sur la page d’accueil, la recherche, Abonnements ou un live ; et la vidéo correspond vraiment à une règle, car la plupart des vidéos ne sont pas de l’IA. Ce que nous lisons montre exactement ce qui a été lu en dernier."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "id": "where_active",
           "q": "Où agit-il exactement ?",
           "a": [
-            "Uniquement dans le lecteur Shorts, le fil Pour toi de TikTok et, si vous l’activez, Reels. La page d’accueil, les résultats de recherche, les commentaires, les vidéos longues, les lives et le fil Abonnements de TikTok ne sont pas touchés : ce que vous êtes venu chercher reste là. Pour inclure Abonnements, activez Paramètres → Où il agit → Agir aussi sur les comptes que je suis."
+            "Uniquement dans le lecteur Shorts, le fil Pour toi de TikTok et l’onglet Reels d’Instagram. La page d’accueil, les résultats de recherche, les commentaires, les vidéos longues, les lives et le fil Abonnements de TikTok ne sont pas touchés : ce que vous êtes venu chercher reste là. Pour inclure Abonnements, activez Paramètres → Où il agit → Agir aussi sur les comptes que je suis."
           ]
         },
         {
@@ -287,7 +287,7 @@
           "id": "instagram",
           "q": "Rien n’est passé sur Instagram Reels.",
           "a": [
-            "Reels est désactivé par défaut dans cette version, car ses libellés de publicité et d’étiquette n’ont été vérifiés qu’en anglais. Activez-le dans Paramètres → Où il agit : il fonctionne avec le jeu de règles actuel."
+            "SlopSwipe agit uniquement dans l’onglet Reels en bas d’Instagram, pas dans les Reels ouverts depuis la recherche. Vérifiez aussi qu’Instagram Reels est activé dans Paramètres → Où il agit : il l’est par défaut sur les nouvelles installations, mais si vous aviez installé une version antérieure, il est peut-être encore désactivé. Les pubs et étiquettes de Reels sont d’abord vérifiées en anglais ; quand SlopSwipe ne peut pas savoir si un Reel est une pub, il n’y touche pas."
           ]
         },
         {
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

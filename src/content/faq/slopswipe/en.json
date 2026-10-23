@@ -102,7 +102,7 @@
           "id": "not_skipping",
           "q": "Nothing is being skipped.",
           "a": [
-            "Check in this order: Home shows Running; the platform is on under Settings → Where it works (Reels is off by default); you are in the Shorts player or the TikTok For You feed, not the home page, search, Following or a live stream; and the video actually matches a rule, as most videos are not AI. What we read shows exactly what was last read."
+            "Check in this order: Home shows Running; the platform is on under Settings → Where it works; you are in the Shorts player, the TikTok For You feed or the Reels tab, not the home page, search, Following or a live stream; and the video actually matches a rule, as most videos are not AI. What we read shows exactly what was last read."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "id": "where_active",
           "q": "Where exactly does it act?",
           "a": [
-            "Only in the Shorts player, the TikTok For You feed and, when turned on, Reels. The home page, search results, comments, long videos, live streams and the TikTok Following feed are left alone, so what you went looking for stays. To include Following, turn on Settings → Where it works → Also act on accounts I follow."
+            "Only in the Shorts player, the TikTok For You feed and the Instagram Reels tab. The home page, search results, comments, long videos, live streams and the TikTok Following feed are left alone, so what you went looking for stays. To include Following, turn on Settings → Where it works → Also act on accounts I follow."
           ]
         },
         {
@@ -287,7 +287,7 @@
           "id": "instagram",
           "q": "Instagram Reels is not being skipped.",
           "a": [
-            "Reels is off by default in this version, because its ad and label wording has only been verified in English. Turn it on under Settings → Where it works and it works with the current rule set."
+            "SlopSwipe acts only in the Reels tab at the bottom of Instagram, not in Reels opened from Search. Also check that Instagram Reels is on under Settings → Where it works: it is on for new installs, but if you installed an earlier version it may still be off. Ads and labels on Reels are verified in English first; when SlopSwipe cannot tell whether a Reel is an ad, it leaves it alone."
           ]
         },
         {
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

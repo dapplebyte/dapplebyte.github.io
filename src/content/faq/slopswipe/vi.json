@@ -102,7 +102,7 @@
           "id": "not_skipping",
           "q": "Không có video nào bị bỏ qua.",
           "a": [
-            "Kiểm tra theo thứ tự: Trang chủ hiện Đang chạy; nền tảng đã được bật trong Cài đặt → Phạm vi hoạt động (Reels mặc định tắt); bạn đang ở trình phát Shorts hoặc bảng tin Dành cho bạn của TikTok, không phải trang chủ, tìm kiếm, Đã follow hay phát trực tiếp; và video thực sự khớp với một quy tắc, vì phần lớn video không phải AI. Những gì chúng tôi đọc cho thấy chính xác nội dung được đọc gần nhất."
+            "Kiểm tra theo thứ tự: Trang chủ hiện Đang chạy; nền tảng đã được bật trong Cài đặt → Phạm vi hoạt động; bạn đang ở trình phát Shorts, bảng tin Dành cho bạn của TikTok hoặc tab Reels, không phải trang chủ, tìm kiếm, Đã follow hay phát trực tiếp; và video thực sự khớp với một quy tắc, vì phần lớn video không phải AI. Những gì chúng tôi đọc cho thấy chính xác nội dung được đọc gần nhất."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "id": "where_active",
           "q": "Chính xác thì ứng dụng hoạt động ở đâu?",
           "a": [
-            "Chỉ ở trình phát Shorts, bảng tin Dành cho bạn của TikTok và Reels khi được bật. Trang chủ, kết quả tìm kiếm, bình luận, video dài, phát trực tiếp và bảng tin Đã follow của TikTok đều được để nguyên, để những gì bạn chủ động tìm vẫn còn đó. Muốn áp dụng cả Đã follow, hãy bật Cài đặt → Phạm vi hoạt động → Áp dụng cả tài khoản tôi theo dõi."
+            "Chỉ ở trình phát Shorts, bảng tin Dành cho bạn của TikTok và tab Reels của Instagram. Trang chủ, kết quả tìm kiếm, bình luận, video dài, phát trực tiếp và bảng tin Đã follow của TikTok đều được để nguyên, để những gì bạn chủ động tìm vẫn còn đó. Muốn áp dụng cả Đã follow, hãy bật Cài đặt → Phạm vi hoạt động → Áp dụng cả tài khoản tôi theo dõi."
           ]
         },
         {
@@ -287,7 +287,7 @@
           "id": "instagram",
           "q": "Instagram Reels không bị bỏ qua.",
           "a": [
-            "Ở phiên bản này, Reels mặc định tắt vì cách ghi quảng cáo và nhãn của nó mới chỉ được kiểm chứng bằng tiếng Anh. Bật nó trong Cài đặt → Phạm vi hoạt động là dùng được với bộ quy tắc hiện tại."
+            "SlopSwipe chỉ hoạt động ở tab Reels dưới cùng của Instagram, không áp dụng cho Reels mở từ Tìm kiếm. Hãy kiểm tra thêm xem Instagram Reels đã được bật trong Cài đặt → Phạm vi hoạt động chưa: bản cài mới bật sẵn, nhưng nếu bạn từng cài phiên bản trước thì có thể vẫn đang tắt. Quảng cáo và nhãn trên Reels được kiểm chứng bằng tiếng Anh trước; khi SlopSwipe không chắc một Reel có phải quảng cáo hay không, nó sẽ để nguyên."
           ]
         },
         {
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

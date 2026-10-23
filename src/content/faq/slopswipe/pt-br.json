@@ -102,7 +102,7 @@
           "id": "not_skipping",
           "q": "Nada está sendo pulado.",
           "a": [
-            "Confira nesta ordem: o Início mostra Ativo; a plataforma está ativada em Ajustes → Onde funciona (o Reels vem desativado); você está no player do Shorts ou no feed Para você do TikTok, e não na página inicial, na busca, em Seguindo ou numa live; e o vídeo realmente corresponde a uma regra, já que a maioria dos vídeos não é de IA. O que lemos mostra exatamente o que foi lido por último."
+            "Confira nesta ordem: o Início mostra Ativo; a plataforma está ativada em Ajustes → Onde funciona; você está no player do Shorts, no feed Para você do TikTok ou na aba Reels, e não na página inicial, na busca, em Seguindo ou numa live; e o vídeo realmente corresponde a uma regra, já que a maioria dos vídeos não é de IA. O que lemos mostra exatamente o que foi lido por último."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "id": "where_active",
           "q": "Onde exatamente ele age?",
           "a": [
-            "Só no player do Shorts, no feed Para você do TikTok e, se ativado, no Reels. A página inicial, os resultados de busca, os comentários, os vídeos longos, as lives e o feed Seguindo do TikTok ficam de fora, para que o que você foi procurar continue lá. Para incluir Seguindo, ative Ajustes → Onde funciona → Agir também em contas que sigo."
+            "Só no player do Shorts, no feed Para você do TikTok e na aba Reels do Instagram. A página inicial, os resultados de busca, os comentários, os vídeos longos, as lives e o feed Seguindo do TikTok ficam de fora, para que o que você foi procurar continue lá. Para incluir Seguindo, ative Ajustes → Onde funciona → Agir também em contas que sigo."
           ]
         },
         {
@@ -287,7 +287,7 @@
           "id": "instagram",
           "q": "Nada é pulado no Instagram Reels.",
           "a": [
-            "O Reels vem desativado nesta versão, porque os textos de anúncios e rótulos dele só foram verificados em inglês. Ative em Ajustes → Onde funciona e ele funciona com a base de regras atual."
+            "O SlopSwipe só age na aba Reels, na parte de baixo do Instagram, e não nos Reels abertos pela busca. Confira também se o Instagram Reels está ativado em Ajustes → Onde funciona: ele vem ativado em instalações novas, mas, se você instalou uma versão anterior, pode continuar desativado. Anúncios e rótulos do Reels são verificados primeiro em inglês; quando o SlopSwipe não consegue saber se um Reel é anúncio, ele não mexe nele."
           ]
         },
         {
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

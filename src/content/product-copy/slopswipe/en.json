@@ -93,7 +93,6 @@
       "paragraphs": [],
       "bullets": [
         "SlopSwipe uses Android's accessibility service to read on-screen text and swipe up for you. It is not an assistive tool for people with disabilities and runs only after you read what it does and agree.",
-        "Instagram Reels is off by default; turn it on under Settings → Where it works.",
         "Unlabelled videos may slip through and a wrong one may occasionally be skipped; Undo fixes that. If a platform changes its layout, SlopSwipe stops and tells you. Android 8.0+.",
         "YouTube, TikTok and Instagram are trademarks of their owners; SlopSwipe is not affiliated with or endorsed by them."
       ]
@@ -107,5 +106,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

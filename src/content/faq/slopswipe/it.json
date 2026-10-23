@@ -102,7 +102,7 @@
           "id": "not_skipping",
           "q": "Non viene saltato niente.",
           "a": [
-            "Controlla in quest’ordine: la Home mostra In funzione; la piattaforma è attiva in Impostazioni → Dove funziona (Reels è disattivato di default); sei nel player di Shorts o nel feed Per te di TikTok, non nella pagina principale, nella ricerca, in Seguiti o in una diretta; e il video corrisponde davvero a una regola, visto che la maggior parte dei video non è IA. Cosa leggiamo mostra esattamente l’ultima cosa letta."
+            "Controlla in quest’ordine: la Home mostra In funzione; la piattaforma è attiva in Impostazioni → Dove funziona; sei nel player di Shorts, nel feed Per te di TikTok o nella scheda Reels, non nella pagina principale, nella ricerca, in Seguiti o in una diretta; e il video corrisponde davvero a una regola, visto che la maggior parte dei video non è IA. Cosa leggiamo mostra esattamente l’ultima cosa letta."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "id": "where_active",
           "q": "Dove agisce esattamente?",
           "a": [
-            "Solo nel player di Shorts, nel feed Per te di TikTok e, se attivato, in Reels. Pagina principale, risultati di ricerca, commenti, video lunghi, dirette e il feed Seguiti di TikTok restano intatti, così quello che stavi cercando non sparisce. Per includere Seguiti, attiva Impostazioni → Dove funziona → Agisci anche sugli account che seguo."
+            "Solo nel player di Shorts, nel feed Per te di TikTok e nella scheda Reels di Instagram. Pagina principale, risultati di ricerca, commenti, video lunghi, dirette e il feed Seguiti di TikTok restano intatti, così quello che stavi cercando non sparisce. Per includere Seguiti, attiva Impostazioni → Dove funziona → Agisci anche sugli account che seguo."
           ]
         },
         {
@@ -287,7 +287,7 @@
           "id": "instagram",
           "q": "Su Instagram Reels non viene saltato niente.",
           "a": [
-            "In questa versione Reels è disattivato di default, perché i testi di pubblicità ed etichette sono stati verificati solo in inglese. Attivalo in Impostazioni → Dove funziona e funziona con il set di regole attuale."
+            "SlopSwipe agisce solo nella scheda Reels in basso su Instagram, non sui Reels aperti dalla ricerca. Controlla anche che Instagram Reels sia attivo in Impostazioni → Dove funziona: è attivo nelle nuove installazioni, ma se avevi installato una versione precedente potrebbe essere ancora disattivato. Pubblicità ed etichette di Reels vengono verificate prima in inglese; quando SlopSwipe non riesce a capire se un Reel è una pubblicità, lo lascia stare."
           ]
         },
         {
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

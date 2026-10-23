@@ -102,7 +102,7 @@
           "id": "not_skipping",
           "q": "Tidak ada yang dilewati.",
           "a": [
-            "Periksa berurutan: Beranda menampilkan Berjalan; platformnya aktif di Setelan → Tempat berlaku (Reels nonaktif secara default); kamu sedang di pemutar Shorts atau feed Untuk Anda di TikTok, bukan di halaman utama, pencarian, Mengikuti, atau siaran langsung; dan videonya memang cocok dengan suatu aturan, karena sebagian besar video bukan AI. Yang kami baca menunjukkan persis apa yang terakhir dibaca."
+            "Periksa berurutan: Beranda menampilkan Berjalan; platformnya aktif di Setelan → Tempat berlaku; kamu sedang di pemutar Shorts, feed Untuk Anda di TikTok, atau tab Reels, bukan di halaman utama, pencarian, Mengikuti, atau siaran langsung; dan videonya memang cocok dengan suatu aturan, karena sebagian besar video bukan AI. Yang kami baca menunjukkan persis apa yang terakhir dibaca."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "id": "where_active",
           "q": "Di mana tepatnya SlopSwipe bekerja?",
           "a": [
-            "Hanya di pemutar Shorts, feed Untuk Anda di TikTok, dan Reels jika diaktifkan. Halaman utama, hasil pencarian, komentar, video panjang, siaran langsung, dan feed Mengikuti di TikTok dibiarkan, jadi apa yang sengaja kamu cari tetap ada. Untuk menyertakan Mengikuti, aktifkan Setelan → Tempat berlaku → Juga berlaku untuk akun yang kuikuti."
+            "Hanya di pemutar Shorts, feed Untuk Anda di TikTok, dan tab Reels di Instagram. Halaman utama, hasil pencarian, komentar, video panjang, siaran langsung, dan feed Mengikuti di TikTok dibiarkan, jadi apa yang sengaja kamu cari tetap ada. Untuk menyertakan Mengikuti, aktifkan Setelan → Tempat berlaku → Juga berlaku untuk akun yang kuikuti."
           ]
         },
         {
@@ -287,7 +287,7 @@
           "id": "instagram",
           "q": "Instagram Reels tidak dilewati.",
           "a": [
-            "Reels nonaktif secara default di versi ini, karena kata-kata iklan dan labelnya baru diverifikasi dalam bahasa Inggris. Aktifkan di Setelan → Tempat berlaku, dan Reels akan berfungsi dengan set aturan saat ini."
+            "SlopSwipe hanya bekerja di tab Reels di bagian bawah Instagram, bukan di Reels yang dibuka dari Pencarian. Pastikan juga Instagram Reels aktif di Setelan → Tempat berlaku: untuk instalasi baru sudah aktif, tetapi kalau kamu memasang versi sebelumnya, mungkin masih nonaktif. Iklan dan label di Reels diverifikasi dalam bahasa Inggris lebih dulu; kalau SlopSwipe tidak bisa memastikan apakah sebuah Reel itu iklan, Reel itu dibiarkan."
           ]
         },
         {
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

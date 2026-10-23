@@ -93,7 +93,6 @@
       "paragraphs": [],
       "bullets": [
         "O SlopSwipe usa o serviço de acessibilidade do Android para ler o texto na tela e deslizar por você. Não é uma ferramenta assistiva para pessoas com deficiência e só funciona depois que você lê o que ele faz e aceita.",
-        "O Instagram Reels vem desativado; ative em Ajustes → Onde funciona.",
         "Vídeos sem selo podem passar e um vídeo certo pode ser pulado às vezes; \"Desfazer\" resolve. Se uma plataforma mudar o layout, o SlopSwipe para e avisa você. Android 8.0+.",
         "YouTube, TikTok e Instagram são marcas de seus donos; o SlopSwipe não é afiliado nem endossado por eles."
       ]
@@ -107,5 +106,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }

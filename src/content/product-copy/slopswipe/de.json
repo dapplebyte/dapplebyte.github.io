@@ -93,7 +93,6 @@
       "paragraphs": [],
       "bullets": [
         "SlopSwipe nutzt die Bedienungshilfen von Android, um Bildschirmtext zu lesen und für dich weiterzuwischen. Es ist kein Hilfsmittel für Menschen mit Behinderung und läuft erst, wenn du gelesen hast, was es tut, und zustimmst.",
-        "Instagram Reels ist standardmäßig aus; einschalten unter Einstellungen → Wo es wirkt.",
         "Videos ohne Label können durchrutschen, selten wird ein falsches übersprungen; „Rückgängig“ behebt das. Ändert eine Plattform ihr Layout, stoppt SlopSwipe und sagt Bescheid. Android 8.0+.",
         "YouTube, TikTok und Instagram sind Marken ihrer Inhaber; SlopSwipe ist weder mit ihnen verbunden noch von ihnen unterstützt."
       ]
@@ -107,5 +106,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-17"
+  "extractedAt": "2026-10-23"
 }
