@@ -38,6 +38,11 @@
       "code": 196,
       "name": "1.9.6",
       "date": "2026-10-19"
+    },
+    {
+      "code": 197,
+      "name": "1.9.7",
+      "date": "2026-10-25"
     }
   ],
   "contactEmail": "feedback@dapplebyte.com",

@@ -3,6 +3,18 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 197,
+      "name": "1.9.7",
+      "date": "2026-10-25",
+      "items": [
+        "Thiết kế mới cho mọi màn hình, kèm bố cục ngang và cho máy tính bảng.",
+        "Hỗ trợ 32 ngôn ngữ.",
+        "Trình chỉnh sửa: thu gọn được thanh công cụ, Phase có thể đặt dọc hoặc ngang, nhấn giữ một phím trong game để tinh chỉnh.",
+        "Pro không còn bị mất khi máy có nhiều tài khoản Google. Đã thêm \"Khôi phục giao dịch mua\" trong Cài đặt.",
+        "Sửa lỗi văng ứng dụng ở ô Cài đặt nhanh và bảng tinh chỉnh phím trong game, nút nổi hiện lại và bàn phím bị kẹt ở Gamepad Pro."
+      ]
+    },
+    {
       "code": 196,
       "name": "1.9.6",
       "date": "2026-10-19",
@@ -75,5 +87,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-26"
 }

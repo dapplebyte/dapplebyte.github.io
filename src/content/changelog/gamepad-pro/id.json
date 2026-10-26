@@ -3,6 +3,18 @@
   "locale": "id",
   "entries": [
     {
+      "code": 197,
+      "name": "1.9.7",
+      "date": "2026-10-25",
+      "items": [
+        "Desain baru di semua layar, plus tata letak lanskap dan tablet.",
+        "Kini tersedia dalam 32 bahasa.",
+        "Editor: toolbar bisa dilipat, Phase bisa potret atau lanskap, tekan lama tombol saat main untuk menyetelnya.",
+        "Pro tetap aktif meski ada beberapa akun Google. Kini ada Pulihkan pembelian di Setelan.",
+        "Perbaikan: crash pada tile Setelan Cepat dan panel setelan tombol saat main, bola melayang yang muncul lagi, dan keyboard yang tertahan di Gamepad Pro."
+      ]
+    },
+    {
       "code": 196,
       "name": "1.9.6",
       "date": "2026-10-19",
@@ -75,5 +87,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-26"
 }

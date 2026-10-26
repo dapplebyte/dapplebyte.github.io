@@ -3,6 +3,18 @@
   "locale": "es",
   "entries": [
     {
+      "code": 197,
+      "name": "1.9.7",
+      "date": "2026-10-25",
+      "items": [
+        "Diseño renovado en cada pantalla, con vista horizontal y para tablet.",
+        "Ahora en 32 idiomas.",
+        "Editor: barra de herramientas plegable, esquemas verticales u horizontales y, en el juego, mantén presionada una tecla y ajústala.",
+        "Pro ya no se pierde con varias cuentas de Google. Se agregó «Restaurar compra» en Ajustes.",
+        "Corregido: fallos del mosaico de Ajustes rápidos y del panel de ajuste de teclas en el juego, la burbuja flotante que volvía y el teclado que seguía en Gamepad Pro."
+      ]
+    },
+    {
       "code": 196,
       "name": "1.9.6",
       "date": "2026-10-19",
@@ -75,5 +87,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-26"
 }

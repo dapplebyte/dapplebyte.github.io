@@ -3,6 +3,18 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 197,
+      "name": "1.9.7",
+      "date": "2026-10-25",
+      "items": [
+        "Nowy wygląd wszystkich ekranów oraz układy poziome i na tablety.",
+        "Teraz w 32 językach.",
+        "Edytor: zwijany pasek narzędzi, układy pionowe lub poziome, przytrzymaj klawisz w grze, by go dostroić.",
+        "Pro nie znika przy kilku kontach Google. W Ustawieniach dodano „Przywróć zakup”.",
+        "Naprawiono awarie kafelka w Szybkich ustawieniach i panelu ustawień klawiszy w grze, powracanie pływającego przełącznika i klawiaturę Gamepad Pro, która zostawała aktywna."
+      ]
+    },
+    {
       "code": 196,
       "name": "1.9.6",
       "date": "2026-10-19",
@@ -75,5 +87,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-26"
 }

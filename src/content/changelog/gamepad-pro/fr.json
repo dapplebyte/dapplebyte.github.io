@@ -3,6 +3,18 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 197,
+      "name": "1.9.7",
+      "date": "2026-10-25",
+      "items": [
+        "Nouvelle interface partout, avec mise en page paysage et tablette.",
+        "Désormais en 32 langues.",
+        "Éditeur : barre d'outils repliable, Phases en portrait ou paysage, appui long sur une touche en jeu pour l'ajuster.",
+        "Pro reste activé avec plusieurs comptes Google. Nouveau : « Restaurer l'achat » dans Paramètres.",
+        "Corrigé : plantages de la tuile Réglages rapides et du panneau de réglage des touches en jeu, la bulle flottante qui revenait et le clavier bloqué sur Gamepad Pro."
+      ]
+    },
+    {
       "code": 196,
       "name": "1.9.6",
       "date": "2026-10-19",
@@ -75,5 +87,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-26"
 }

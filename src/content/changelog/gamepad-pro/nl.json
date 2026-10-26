@@ -3,6 +3,18 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 197,
+      "name": "1.9.7",
+      "date": "2026-10-25",
+      "items": [
+        "Elk scherm opnieuw ontworpen, met indelingen voor liggend en tablet.",
+        "Nu in 32 talen.",
+        "Editor: werkbalk is in te klappen, indelingen kunnen staand of liggend, houd in de game een toets vast om hem bij te stellen.",
+        "Pro blijft ontgrendeld met meerdere Google-accounts. Aankoop herstellen staat nu in Instellingen.",
+        "Opgelost: crashes van de Snelle instellingen-tegel en het toetspaneel in de game, de zwevende wisselaar die terugkwam en het toetsenbord dat op Gamepad Pro bleef hangen."
+      ]
+    },
+    {
       "code": 196,
       "name": "1.9.6",
       "date": "2026-10-19",
@@ -75,5 +87,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-26"
 }

@@ -3,6 +3,18 @@
   "locale": "de",
   "entries": [
     {
+      "code": 197,
+      "name": "1.9.7",
+      "date": "2026-10-25",
+      "items": [
+        "Komplett neues Design überall, mit Quer- und Tablet-Ansicht.",
+        "Jetzt in 32 Sprachen.",
+        "Editor: Werkzeugleiste einklappbar, Layouts im Hoch- oder Querformat, im Spiel Tasten per langem Drücken feinjustieren.",
+        "Pro bleibt mit mehreren Google-Konten aktiv. Neu in den Einstellungen: „Kauf wiederherstellen“.",
+        "Behoben: Abstürze der Schnelleinstellungen-Kachel und der Tasteneinstellungen im Spiel, die zurückkehrende schwebende Kugel und die Tastatur, die auf Gamepad Pro blieb."
+      ]
+    },
+    {
       "code": 196,
       "name": "1.9.6",
       "date": "2026-10-19",
@@ -75,5 +87,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-26"
 }
