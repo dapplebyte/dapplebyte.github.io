@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "He cambiado de teléfono. ¿Cómo recupero Pro?",
           "a": [
-            "Abre Mejorar a Pro y toca Restaurar compra. Inicia sesión con la misma cuenta de Google con la que compraste; no se te cobrará otra vez."
+            "Abre Mejorar a Pro y toca Restaurar compra. Inicia sesión con la misma cuenta de Google con la que compraste; no se te cobrará otra vez. Si sigue diciendo que no se encontró ninguna compra, desinstala la app en el teléfono nuevo, vuelve a instalarla desde Google Play y toca Restaurar compra otra vez."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }

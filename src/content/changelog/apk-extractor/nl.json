@@ -3,6 +3,28 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 614,
+      "name": "6.1.4",
+      "date": "2026-10-27",
+      "items": [
+        "Exportresultaten tonen nu waar je bestanden zijn opgeslagen, met een knop Wijzigen om een andere map te kiezen",
+        "Bij het exporteren of delen van XAPK-/APKS-bestanden zie je een herinnering dat de andere telefoon Apk Extractor nodig heeft om ze te installeren; deel de app met één tik",
+        "Overdrachten via lokaal netwerk stoppen niet meer bij het draaien van het scherm of in gesplitst scherm"
+      ]
+    },
+    {
+      "code": 613,
+      "name": "6.1.3",
+      "date": "2026-10-18",
+      "items": [
+        "Gesplitste apps exporteren als XAPK of APKS (kies in Instellingen)",
+        "Installeer of deel bestanden direct uit de exportresultaten, of deel ze allemaal tegelijk",
+        "Mislukte exports melden nu waarom (weinig opslag, maptoegang kwijt…) met een knop om het op te lossen; kies een nieuwe map en ze worden automatisch opnieuw geprobeerd",
+        ".apks-bestanden werken in het tabblad APK's, bij weboverdracht en Apparaatmigratie",
+        "Lege of onvolledige app-lijst op sommige apparaten opgelost"
+      ]
+    },
+    {
       "code": 612,
       "name": "6.1.2",
       "date": "2026-09-20",
@@ -38,5 +60,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-27"
 }

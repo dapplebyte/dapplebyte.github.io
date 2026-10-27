@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "Telefon değiştirdim, Pro'yu nasıl geri alırım?",
           "a": [
-            "Pro'ya yükselt sayfasını açıp Satın alımı geri yükle'ye dokunun. Satın alırken kullandığınız Google hesabıyla oturum açın; tekrar ücret alınmaz."
+            "Pro'ya yükselt sayfasını açıp Satın alımı geri yükle'ye dokunun. Satın alırken kullandığınız Google hesabıyla oturum açın; tekrar ücret alınmaz. Hâlâ satın alım bulunamadı diyorsa yeni telefonda uygulamayı kaldırın, Google Play'den yeniden yükleyin ve Satın alımı geri yükle'ye tekrar dokunun."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }

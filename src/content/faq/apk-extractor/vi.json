@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "Tôi đổi điện thoại, làm sao lấy lại Pro?",
           "a": [
-            "Mở Nâng cấp lên Pro rồi chạm Khôi phục giao dịch mua. Đăng nhập bằng đúng tài khoản Google đã dùng để mua, bạn sẽ không bị tính tiền lần nữa."
+            "Mở Nâng cấp lên Pro rồi chạm Khôi phục giao dịch mua. Đăng nhập bằng đúng tài khoản Google đã dùng để mua, bạn sẽ không bị tính tiền lần nữa. Nếu vẫn báo không tìm thấy giao dịch mua, hãy gỡ ứng dụng trên điện thoại mới, cài lại từ Google Play rồi chạm Khôi phục giao dịch mua một lần nữa."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }

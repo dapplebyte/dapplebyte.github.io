@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "Saya ganti ponsel. Bagaimana cara mendapatkan Pro kembali?",
           "a": [
-            "Buka Tingkatkan ke Pro lalu ketuk Pulihkan pembelian. Masuk dengan akun Google yang sama seperti saat membeli; Anda tidak akan ditagih lagi."
+            "Buka Tingkatkan ke Pro lalu ketuk Pulihkan pembelian. Masuk dengan akun Google yang sama seperti saat membeli; Anda tidak akan ditagih lagi. Jika masih tertulis pembelian tidak ditemukan, hapus aplikasi di ponsel baru, pasang lagi dari Google Play, lalu ketuk Pulihkan pembelian sekali lagi."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }

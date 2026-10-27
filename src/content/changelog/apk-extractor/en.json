@@ -3,6 +3,28 @@
   "locale": "en",
   "entries": [
     {
+      "code": 614,
+      "name": "6.1.4",
+      "date": "2026-10-27",
+      "items": [
+        "Export results now show where your files are saved, with a Change button to pick another folder",
+        "Exporting or sharing XAPK / APKS files? A reminder now tells you the other phone needs Apk Extractor to install them, with one tap to share the app",
+        "Fixed local network transfers stopping when you rotate the screen or use split screen"
+      ]
+    },
+    {
+      "code": 613,
+      "name": "6.1.3",
+      "date": "2026-10-18",
+      "items": [
+        "Export split apps as XAPK or APKS (choose in Settings)",
+        "Install or share files right from the export results, or share them all at once",
+        "Failed exports now explain why (low storage, lost folder access…) with a fix button; pick a new folder and failed apps retry automatically",
+        ".apks files now work in the Apks tab, web transfer and Device Migration",
+        "Fixed an empty or incomplete app list on some devices"
+      ]
+    },
+    {
       "code": 612,
       "name": "6.1.2",
       "date": "2026-09-20",
@@ -38,5 +60,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-27"
 }

@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "Ik heb een nieuwe telefoon. Hoe krijg ik Pro terug?",
           "a": [
-            "Open Upgraden naar Pro en tik op Aankoop herstellen. Meld je aan met hetzelfde Google-account waarmee je hebt betaald; je betaalt niet opnieuw."
+            "Open Upgraden naar Pro en tik op Aankoop herstellen. Meld je aan met hetzelfde Google-account waarmee je hebt betaald; je betaalt niet opnieuw. Blijft de melding dat er geen aankoop is gevonden, verwijder dan de app op de nieuwe telefoon, installeer hem opnieuw via Google Play en tik nogmaals op Aankoop herstellen."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }

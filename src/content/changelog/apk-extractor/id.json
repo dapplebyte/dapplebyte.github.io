@@ -3,6 +3,28 @@
   "locale": "id",
   "entries": [
     {
+      "code": 614,
+      "name": "6.1.4",
+      "date": "2026-10-27",
+      "items": [
+        "Hasil ekspor kini menampilkan lokasi penyimpanan berkas, dengan tombol Ubah untuk memilih folder lain",
+        "Saat mengekspor atau membagikan berkas XAPK / APKS, ada pengingat bahwa ponsel lain perlu Apk Extractor untuk memasangnya, dan Anda bisa membagikan aplikasi dengan sekali ketuk",
+        "Memperbaiki transfer melalui jaringan lokal yang terhenti saat layar diputar atau memakai layar terpisah"
+      ]
+    },
+    {
+      "code": 613,
+      "name": "6.1.3",
+      "date": "2026-10-18",
+      "items": [
+        "Ekspor aplikasi split sebagai XAPK atau APKS (pilih di Pengaturan)",
+        "Pasang atau bagikan berkas langsung dari hasil ekspor, atau bagikan semuanya sekaligus",
+        "Ekspor yang gagal kini menampilkan penyebab (penyimpanan penuh, akses folder hilang…) dan tombol perbaikan; pilih folder baru, ekspor yang gagal diulang otomatis",
+        "Berkas .apks kini bisa dipakai di tab APK, Transfer Web, dan Migrasi Perangkat",
+        "Perbaikan daftar aplikasi kosong atau tidak lengkap di beberapa perangkat"
+      ]
+    },
+    {
       "code": 612,
       "name": "6.1.2",
       "date": "2026-09-20",
@@ -38,5 +60,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-27"
 }

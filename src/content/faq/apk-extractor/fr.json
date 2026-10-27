@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "J'ai changé de téléphone. Comment récupérer Pro ?",
           "a": [
-            "Ouvrez Passer à Pro et touchez Restaurer l'achat. Connectez-vous avec le compte Google utilisé lors de l'achat ; rien ne vous sera facturé une seconde fois."
+            "Ouvrez Passer à Pro et touchez Restaurer l'achat. Connectez-vous avec le compte Google utilisé lors de l'achat ; rien ne vous sera facturé une seconde fois. Si l'application indique toujours qu'aucun achat n'a été trouvé, désinstallez-la sur le nouveau téléphone, réinstallez-la depuis Google Play, puis touchez à nouveau Restaurer l'achat."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }

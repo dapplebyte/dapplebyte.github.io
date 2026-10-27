@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "Troquei de celular. Como recupero o Pro?",
           "a": [
-            "Abra Atualizar para o Pro e toque em Restaurar compra. Entre com a mesma conta do Google usada na compra; você não será cobrado de novo."
+            "Abra Atualizar para o Pro e toque em Restaurar compra. Entre com a mesma conta do Google usada na compra; você não será cobrado de novo. Se continuar dizendo que nenhuma compra foi encontrada, desinstale o app no celular novo, instale de novo pela Google Play e toque em Restaurar compra outra vez."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }

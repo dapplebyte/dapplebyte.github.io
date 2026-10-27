@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "Zmieniłem telefon. Jak odzyskać Pro?",
           "a": [
-            "Otwórz Przejdź na Pro i dotknij Przywróć zakup. Zaloguj się na to samo konto Google, z którego dokonano zakupu — nie zapłacisz ponownie."
+            "Otwórz Przejdź na Pro i dotknij Przywróć zakup. Zaloguj się na to samo konto Google, z którego dokonano zakupu — nie zapłacisz ponownie. Jeśli nadal pojawia się informacja, że nie znaleziono zakupu, odinstaluj aplikację na nowym telefonie, zainstaluj ją ponownie z Google Play i jeszcze raz dotknij Przywróć zakup."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }

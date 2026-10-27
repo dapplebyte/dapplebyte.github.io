@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "Ich habe das Handy gewechselt. Wie hole ich Pro zurück?",
           "a": [
-            "Öffnen Sie Auf Pro upgraden und tippen Sie auf Kauf wiederherstellen. Melden Sie sich mit demselben Google-Konto an, mit dem Sie gekauft haben; es wird nichts erneut berechnet."
+            "Öffnen Sie Auf Pro upgraden und tippen Sie auf Kauf wiederherstellen. Melden Sie sich mit demselben Google-Konto an, mit dem Sie gekauft haben; es wird nichts erneut berechnet. Wird weiterhin kein Kauf gefunden, deinstallieren Sie die App auf dem neuen Handy, installieren Sie sie erneut aus Google Play und tippen Sie dann noch einmal auf Kauf wiederherstellen."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }

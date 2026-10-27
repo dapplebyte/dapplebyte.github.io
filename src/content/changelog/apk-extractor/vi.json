@@ -3,6 +3,28 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 614,
+      "name": "6.1.4",
+      "date": "2026-10-27",
+      "items": [
+        "Kết quả xuất giờ hiển thị nơi lưu tệp, kèm nút Thay đổi để chọn thư mục khác",
+        "Khi xuất hoặc chia sẻ tệp XAPK / APKS, ứng dụng nhắc rằng điện thoại kia cần Apk Extractor để cài đặt, và bạn có thể chia sẻ ứng dụng chỉ với một chạm",
+        "Sửa lỗi truyền qua mạng cục bộ bị dừng khi xoay màn hình hoặc dùng chia đôi màn hình"
+      ]
+    },
+    {
+      "code": 613,
+      "name": "6.1.3",
+      "date": "2026-10-18",
+      "items": [
+        "Xuất ứng dụng split dưới dạng XAPK hoặc APKS (chọn trong Cài đặt)",
+        "Cài đặt hoặc chia sẻ tệp ngay từ kết quả xuất, hoặc chia sẻ tất cả cùng lúc",
+        "Khi xuất thất bại, ứng dụng sẽ cho biết lý do (thiếu dung lượng, mất quyền truy cập thư mục…) kèm nút khắc phục; chọn thư mục mới là các ứng dụng lỗi được tự động thử lại",
+        "Tệp .apks giờ dùng được trong thẻ APK, Truyền qua web và Chuyển máy",
+        "Sửa lỗi danh sách ứng dụng trống hoặc thiếu thông tin trên một số thiết bị"
+      ]
+    },
+    {
       "code": 612,
       "name": "6.1.2",
       "date": "2026-09-20",
@@ -38,5 +60,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-27"
 }

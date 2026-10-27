@@ -3,6 +3,28 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 614,
+      "name": "6.1.4",
+      "date": "2026-10-27",
+      "items": [
+        "Les résultats d'export indiquent maintenant où les fichiers sont enregistrés, avec un bouton Modifier pour choisir un autre dossier",
+        "En exportant ou partageant des fichiers XAPK / APKS, un rappel indique que l'autre téléphone a besoin d'Apk Extractor pour les installer ; partagez l'app d'un geste",
+        "Correction des transferts via réseau local interrompus lors d'une rotation ou en écran partagé"
+      ]
+    },
+    {
+      "code": 613,
+      "name": "6.1.3",
+      "date": "2026-10-18",
+      "items": [
+        "Exportez les applis fractionnées en XAPK ou APKS (dans les Paramètres)",
+        "Installez ou partagez les fichiers depuis les résultats d'export, ou tous d'un coup",
+        "Les échecs d'export indiquent la cause (stockage plein, dossier inaccessible…) avec un bouton pour corriger ; choisissez un autre dossier et ils sont relancés",
+        "Les .apks fonctionnent dans l'onglet APKs, le transfert web et la Migration d'appareil",
+        "Liste d'applis vide ou incomplète corrigée sur certains appareils"
+      ]
+    },
+    {
       "code": 612,
       "name": "6.1.2",
       "date": "2026-09-20",
@@ -38,5 +60,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-27"
 }

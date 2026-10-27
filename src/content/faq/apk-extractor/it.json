@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "Ho cambiato telefono. Come recupero Pro?",
           "a": [
-            "Apri Passa a Pro e tocca Ripristina acquisto. Accedi con lo stesso account Google usato per l'acquisto: non ti verrà addebitato nulla di nuovo."
+            "Apri Passa a Pro e tocca Ripristina acquisto. Accedi con lo stesso account Google usato per l'acquisto: non ti verrà addebitato nulla di nuovo. Se continua a dire che non è stato trovato alcun acquisto, disinstalla l'app sul nuovo telefono, reinstallala da Google Play e tocca di nuovo Ripristina acquisto."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }

@@ -188,7 +188,7 @@
           "id": "q22",
           "q": "I changed phone. How do I get Pro back?",
           "a": [
-            "Open Upgrade to Pro and tap Restore purchase. Sign in with the same Google account you used for the purchase; you will not be charged again."
+            "Open Upgrade to Pro and tap Restore purchase. Sign in with the same Google account you used for the purchase; you will not be charged again. If it still says no purchase was found, uninstall the app on the new phone and reinstall it from Google Play, then tap Restore purchase again."
           ]
         },
         {
@@ -228,5 +228,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-10-23"
 }
