@@ -3,13 +3,14 @@
   "locale": "id",
   "entries": [
     {
-      "code": 614,
-      "name": "6.1.4",
-      "date": "2026-10-27",
+      "code": 615,
+      "name": "6.1.5",
+      "date": "2026-10-28",
       "items": [
         "Hasil ekspor kini menampilkan lokasi penyimpanan berkas, dengan tombol Ubah untuk memilih folder lain",
         "Saat mengekspor atau membagikan berkas XAPK / APKS, ada pengingat bahwa ponsel lain perlu Apk Extractor untuk memasangnya, dan Anda bisa membagikan aplikasi dengan sekali ketuk",
-        "Memperbaiki transfer melalui jaringan lokal yang terhenti saat layar diputar atau memakai layar terpisah"
+        "Memperbaiki transfer melalui jaringan lokal yang terhenti saat layar diputar atau memakai layar terpisah",
+        "Lebih jarang macet dan lebih stabil"
       ]
     },
     {
@@ -60,5 +61,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-27"
+  "extractedAt": "2026-10-28"
 }

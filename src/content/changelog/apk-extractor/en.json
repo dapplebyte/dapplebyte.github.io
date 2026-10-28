@@ -3,13 +3,14 @@
   "locale": "en",
   "entries": [
     {
-      "code": 614,
-      "name": "6.1.4",
-      "date": "2026-10-27",
+      "code": 615,
+      "name": "6.1.5",
+      "date": "2026-10-28",
       "items": [
         "Export results now show where your files are saved, with a Change button to pick another folder",
         "Exporting or sharing XAPK / APKS files? A reminder now tells you the other phone needs Apk Extractor to install them, with one tap to share the app",
-        "Fixed local network transfers stopping when you rotate the screen or use split screen"
+        "Fixed local network transfers stopping when you rotate the screen or use split screen",
+        "Fewer freezes and better overall stability"
       ]
     },
     {
@@ -60,5 +61,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-27"
+  "extractedAt": "2026-10-28"
 }

@@ -3,13 +3,14 @@
   "locale": "pt-br",
   "entries": [
     {
-      "code": 614,
-      "name": "6.1.4",
-      "date": "2026-10-27",
+      "code": 615,
+      "name": "6.1.5",
+      "date": "2026-10-28",
       "items": [
         "Os resultados da exportação agora mostram onde os arquivos foram salvos, com o botão Alterar para escolher outra pasta",
         "Ao exportar ou compartilhar arquivos XAPK / APKS, um aviso lembra que o outro celular precisa do Apk Extractor para instalá-los; compartilhe o app com um toque",
-        "Corrigida a interrupção das transferências pela rede local ao girar a tela ou usar a tela dividida"
+        "Corrigida a interrupção das transferências pela rede local ao girar a tela ou usar a tela dividida",
+        "Menos travamentos e mais estabilidade"
       ]
     },
     {
@@ -60,5 +61,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-27"
+  "extractedAt": "2026-10-28"
 }

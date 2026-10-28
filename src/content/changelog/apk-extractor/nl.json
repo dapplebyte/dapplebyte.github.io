@@ -3,13 +3,14 @@
   "locale": "nl",
   "entries": [
     {
-      "code": 614,
-      "name": "6.1.4",
-      "date": "2026-10-27",
+      "code": 615,
+      "name": "6.1.5",
+      "date": "2026-10-28",
       "items": [
         "Exportresultaten tonen nu waar je bestanden zijn opgeslagen, met een knop Wijzigen om een andere map te kiezen",
         "Bij het exporteren of delen van XAPK-/APKS-bestanden zie je een herinnering dat de andere telefoon Apk Extractor nodig heeft om ze te installeren; deel de app met één tik",
-        "Overdrachten via lokaal netwerk stoppen niet meer bij het draaien van het scherm of in gesplitst scherm"
+        "Overdrachten via lokaal netwerk stoppen niet meer bij het draaien van het scherm of in gesplitst scherm",
+        "Minder vastlopers en een stabielere app"
       ]
     },
     {
@@ -60,5 +61,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-27"
+  "extractedAt": "2026-10-28"
 }

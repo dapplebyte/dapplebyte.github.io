@@ -3,13 +3,14 @@
   "locale": "tr",
   "entries": [
     {
-      "code": 614,
-      "name": "6.1.4",
-      "date": "2026-10-27",
+      "code": 615,
+      "name": "6.1.5",
+      "date": "2026-10-28",
       "items": [
         "Dışa aktarma sonuçları artık dosyaların nereye kaydedildiğini gösteriyor; başka klasör seçmek için Değiştir düğmesi var",
         "XAPK / APKS dosyalarını dışa aktarırken veya paylaşırken, diğer telefonun bunları kurmak için Apk Extractor'a ihtiyaç duyduğu hatırlatılır; uygulamayı tek dokunuşla paylaşın",
-        "Ekran döndürüldüğünde veya bölünmüş ekranda yerel ağ aktarımlarının durması düzeltildi"
+        "Ekran döndürüldüğünde veya bölünmüş ekranda yerel ağ aktarımlarının durması düzeltildi",
+        "Daha az donma ve daha iyi kararlılık"
       ]
     },
     {
@@ -60,5 +61,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-27"
+  "extractedAt": "2026-10-28"
 }

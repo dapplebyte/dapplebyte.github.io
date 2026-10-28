@@ -3,13 +3,14 @@
   "locale": "vi",
   "entries": [
     {
-      "code": 614,
-      "name": "6.1.4",
-      "date": "2026-10-27",
+      "code": 615,
+      "name": "6.1.5",
+      "date": "2026-10-28",
       "items": [
         "Kết quả xuất giờ hiển thị nơi lưu tệp, kèm nút Thay đổi để chọn thư mục khác",
         "Khi xuất hoặc chia sẻ tệp XAPK / APKS, ứng dụng nhắc rằng điện thoại kia cần Apk Extractor để cài đặt, và bạn có thể chia sẻ ứng dụng chỉ với một chạm",
-        "Sửa lỗi truyền qua mạng cục bộ bị dừng khi xoay màn hình hoặc dùng chia đôi màn hình"
+        "Sửa lỗi truyền qua mạng cục bộ bị dừng khi xoay màn hình hoặc dùng chia đôi màn hình",
+        "Giảm tình trạng treo máy và tăng độ ổn định"
       ]
     },
     {
@@ -60,5 +61,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-27"
+  "extractedAt": "2026-10-28"
 }

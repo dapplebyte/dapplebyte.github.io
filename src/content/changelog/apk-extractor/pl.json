@@ -3,13 +3,14 @@
   "locale": "pl",
   "entries": [
     {
-      "code": 614,
-      "name": "6.1.4",
-      "date": "2026-10-27",
+      "code": 615,
+      "name": "6.1.5",
+      "date": "2026-10-28",
       "items": [
         "Wyniki eksportu pokazują teraz, gdzie zapisano pliki, a przycisk Zmień pozwala wybrać inny folder",
         "Przy eksporcie lub udostępnianiu plików XAPK / APKS pojawia się przypomnienie, że drugi telefon potrzebuje Apk Extractor do ich instalacji; udostępnij aplikację jednym dotknięciem",
-        "Naprawiono przerywanie przesyłania przez sieć lokalną po obróceniu ekranu lub w trybie podzielonego ekranu"
+        "Naprawiono przerywanie przesyłania przez sieć lokalną po obróceniu ekranu lub w trybie podzielonego ekranu",
+        "Mniej zawieszeń i lepsza stabilność"
       ]
     },
     {
@@ -60,5 +61,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-27"
+  "extractedAt": "2026-10-28"
 }

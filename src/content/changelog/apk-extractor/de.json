@@ -3,13 +3,14 @@
   "locale": "de",
   "entries": [
     {
-      "code": 614,
-      "name": "6.1.4",
-      "date": "2026-10-27",
+      "code": 615,
+      "name": "6.1.5",
+      "date": "2026-10-28",
       "items": [
         "Die Exportergebnisse zeigen jetzt den Speicherort an, mit „Ändern“ für einen anderen Ordner",
         "Beim Exportieren oder Teilen von XAPK-/APKS-Dateien weist ein Hinweis darauf hin, dass das andere Handy Apk Extractor zum Installieren braucht – mit einem Tipp teilst du die App",
-        "Übertragungen über das lokale Netzwerk brechen beim Drehen des Bildschirms oder im Splitscreen nicht mehr ab"
+        "Übertragungen über das lokale Netzwerk brechen beim Drehen des Bildschirms oder im Splitscreen nicht mehr ab",
+        "Weniger Hänger und insgesamt stabiler"
       ]
     },
     {
@@ -60,5 +61,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-27"
+  "extractedAt": "2026-10-28"
 }
