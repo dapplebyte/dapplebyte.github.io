@@ -6,8 +6,6 @@
   "platform": "Android",
   "applicationId": "com.dylan.win11.app.extractor",
   "playUrl": "https://play.google.com/store/apps/details?id=com.dylan.win11.app.extractor",
-  "sourceUrl": "https://github.com/DavidInChina/apkextractor",
-  "sourceLicense": "GPL-3.0",
   "category": "UtilitiesApplication",
   "minOs": "Android 7.0",
   "versions": [

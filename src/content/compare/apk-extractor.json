@@ -16,7 +16,6 @@
     { "id": "wifi-transfer", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
     { "id": "no-root", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
     { "id": "no-account", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
-    { "id": "open-source", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
     { "id": "free-install", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
     { "id": "no-ads", "values": { "apk-extractor": "no", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
     { "id": "no-subscription", "values": { "apk-extractor": "yes", "ml-manager": "unknown", "apk-extractor-meher": "unknown" } },
