@@ -70,6 +70,13 @@
           "a": [
             "O Android mostra o mesmo aviso para todo app de acessibilidade. O Gamepad Pro só usa a acessibilidade para ler seu controle e o app em primeiro plano, e para posicionar os toques. Ele nunca lê, armazena nem envia o que está na sua tela ou o que você digita."
           ]
+        },
+        {
+          "id": "q29",
+          "q": "Por que não vejo a notificação para pausar e retomar?",
+          "a": [
+            "O Gamepad Pro nunca pede a permissão de notificação por conta própria. Para ter a notificação para pausar e retomar, ative \"Notificação de status\" em Configurações → Mapeamento ou toque no botão abaixo. No Android 13 ou mais recente, a permissão de notificação será pedida nesse momento; se você recusou antes, as configurações de notificação do sistema serão abertas para você permitir por lá. Se achar a notificação desnecessária, é só desativar a opção de novo. Todo o resto funciona sem ela."
+          ]
         }
       ]
     },
@@ -156,7 +163,7 @@
           "id": "q21",
           "q": "Não consigo me mover e atirar ao mesmo tempo. O que posso fazer?",
           "a": [
-            "É o segundo toque sendo descartado. Primeiro atualize para a versão mais recente — as versões novas já mantêm os dois toques ativos sozinhas. Se um ainda cair, abra Configurações › Multitoque avançado e siga os três passos de lá; a página mostra qual está faltando. É opcional, e os mapeamentos comuns funcionam sem isso."
+            "É o segundo toque sendo descartado. Primeiro atualize para a versão mais recente — as versões novas já mantêm os dois toques ativos sozinhas. Se um ainda cair, abra Configurações › Toque de baixa latência com Shizuku e siga os três passos de lá; a página mostra qual está faltando. É opcional, e os mapeamentos comuns funcionam sem isso."
           ],
           "video": "cOnoseRHaUM",
           "tiktok": "7695322720493473054"
@@ -187,10 +194,17 @@
           ]
         },
         {
+          "id": "q30",
+          "q": "O Tasker ou outro app de automação pode pausar e retomar o mapeamento?",
+          "a": [
+            "Sim. Primeiro ative \"Permitir que apps de automação controlem o mapeamento\" em Configurações → Mapeamento. Depois faça seu app de automação enviar um broadcast para o pacote com.dylan.gamepad.pro com uma destas ações: com.dylan.gamepad.pro.ACTION_PAUSE_MAPPINGS, com.dylan.gamepad.pro.ACTION_RESUME_MAPPINGS ou com.dylan.gamepad.pro.ACTION_TOGGLE_MAPPINGS. No Tasker, use a ação Send Intent com Target definido como Broadcast Receiver e Package como com.dylan.gamepad.pro. Os broadcasts são ignorados enquanto a opção estiver desativada."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "O que é o Shizuku e eu preciso dele?",
           "a": [
-            "O Shizuku é um aprimoramento avançado opcional. Ele permite que o Gamepad Pro injete eventos multitoque de forma mais direta, com menor latência e rastreamento mais fluido do que a via de acessibilidade — mais perceptível com dois analógicos ou vários trajetos de toque simultâneos. Ele não substitui o serviço de acessibilidade e todos os mapeamentos também funcionam sem ele. No Android 11 ou superior, pode ser iniciado pela depuração sem fio, mas normalmente precisa ser iniciado de novo após reiniciar o aparelho."
+            "O Shizuku é um aprimoramento opcional. Ele permite que o Gamepad Pro injete toques de forma mais direta do que a via de acessibilidade: a latência de entrada é menor e, quando você mesmo toca na tela, os botões mapeados não são mais interrompidos, então a tela sensível ao toque e o controle podem ser usados juntos. O multitoque em si funciona sem ele. Ele não substitui o serviço de acessibilidade. No Android 11 ou superior, pode ser iniciado pela depuração sem fio, mas normalmente precisa ser iniciado de novo após reiniciar o aparelho."
           ]
         }
       ]
@@ -259,5 +273,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-30"
 }

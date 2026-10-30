@@ -3,6 +3,19 @@
   "locale": "es",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "Nuevo: empieza un esquema en blanco o con la distribución de mando estándar.",
+        "Nueva página Comprobación de conexión del mando, para cuando no se detecta.",
+        "Macros: nuevo modo Un paso por pulsación.",
+        "Los sticks flotantes ya no vuelven al centro tras un empujón leve ni al presionar otras teclas.",
+        "Android 14+: ya no se necesita el teclado Gamepad Pro.",
+        "Se corrigieron esquemas importados de una tableta en horizontal que quedaban desplazados."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }

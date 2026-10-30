@@ -70,6 +70,13 @@
           "a": [
             "Android menampilkan peringatan yang sama untuk setiap aplikasi aksesibilitas. Gamepad Pro hanya memakainya untuk membaca kontrolermu dan aplikasi yang sedang dibuka, serta untuk menempatkan sentuhan. Gamepad Pro tidak pernah membaca, menyimpan, atau mengunggah isi layarmu atau apa yang kamu ketik."
           ]
+        },
+        {
+          "id": "q29",
+          "q": "Kenapa notifikasi jeda / lanjutkan tidak muncul?",
+          "a": [
+            "Gamepad Pro tidak pernah meminta izin notifikasi dengan sendirinya. Untuk mendapatkan notifikasi jeda / lanjutkan, nyalakan \"Notifikasi status\" di Setelan → Pemetaan, atau ketuk tombol di bawah. Di Android 13 ke atas, langkah ini akan meminta izin notifikasi; kalau sebelumnya kamu menolak, setelan notifikasi sistem akan terbuka agar kamu bisa mengizinkannya di sana. Kalau notifikasinya terasa tidak perlu, cukup matikan lagi setelannya. Semua fitur lain tetap jalan tanpanya."
+          ]
         }
       ]
     },
@@ -156,7 +163,7 @@
           "id": "q21",
           "q": "Aku tidak bisa bergerak sambil menembak. Apa yang bisa kulakukan?",
           "a": [
-            "Itu tandanya sentuhan kedua terputus. Perbarui dulu ke versi terbaru — versi baru sudah bisa menjaga kedua sentuhan tetap aktif sendiri. Kalau masih ada yang terputus, buka Setelan › Multi-sentuh lanjutan dan ikuti tiga langkah di sana; halaman itu menunjukkan langkah mana yang belum selesai. Ini opsional, dan pemetaan biasa tetap jalan tanpanya."
+            "Itu tandanya sentuhan kedua terputus. Perbarui dulu ke versi terbaru — versi baru sudah bisa menjaga kedua sentuhan tetap aktif sendiri. Kalau masih ada yang terputus, buka Setelan › Sentuhan latensi rendah Shizuku dan ikuti tiga langkah di sana; halaman itu menunjukkan langkah mana yang belum selesai. Ini opsional, dan pemetaan biasa tetap jalan tanpanya."
           ],
           "video": "cOnoseRHaUM",
           "tiktok": "7695322720493473054"
@@ -187,10 +194,17 @@
           ]
         },
         {
+          "id": "q30",
+          "q": "Bisakah Tasker atau aplikasi otomatisasi lain menjeda dan melanjutkan pemetaan?",
+          "a": [
+            "Bisa. Pertama, nyalakan \"Izinkan aplikasi otomatisasi mengontrol pemetaan\" di Setelan → Pemetaan. Lalu atur aplikasi otomatisasimu agar mengirim broadcast ke paket com.dylan.gamepad.pro dengan salah satu aksi berikut: com.dylan.gamepad.pro.ACTION_PAUSE_MAPPINGS, com.dylan.gamepad.pro.ACTION_RESUME_MAPPINGS, atau com.dylan.gamepad.pro.ACTION_TOGGLE_MAPPINGS. Di Tasker, pakai aksi Send Intent, setel Target ke Broadcast Receiver dan Package ke com.dylan.gamepad.pro. Selama setelan ini mati, broadcast akan diabaikan."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Apa itu Shizuku, dan apakah aku butuh?",
           "a": [
-            "Shizuku adalah peningkatan lanjutan yang opsional. Dengan Shizuku, Gamepad Pro bisa menyuntikkan event multi-sentuh lebih langsung, dengan latensi lebih rendah dan pelacakan lebih mulus dibanding jalur aksesibilitas — paling terasa saat memakai dua joystick atau beberapa jalur sentuh sekaligus. Shizuku tidak menggantikan Layanan Aksesibilitas, dan semua pemetaan tetap jalan tanpanya. Di Android 11 ke atas, Shizuku bisa dijalankan lewat debugging nirkabel, tapi biasanya perlu dijalankan ulang setelah perangkat di-reboot."
+            "Shizuku adalah peningkatan opsional. Dengan Shizuku, Gamepad Pro bisa menyuntikkan sentuhan lebih langsung dibanding jalur aksesibilitas: latensi input lebih rendah, dan saat kamu sendiri menyentuh layar, kontrol yang dipetakan tidak lagi terganggu, jadi layar sentuh dan kontroler bisa dipakai bersamaan. Multi-sentuh sendiri tetap jalan tanpanya. Shizuku tidak menggantikan Layanan Aksesibilitas. Di Android 11 ke atas, Shizuku bisa dijalankan lewat debugging nirkabel, tapi biasanya perlu dijalankan ulang setelah perangkat di-reboot."
           ]
         }
       ]
@@ -259,5 +273,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-30"
 }

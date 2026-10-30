@@ -3,6 +3,19 @@
   "locale": "pt-br",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "Novo: comece um esquema em branco ou com o layout de controle padrão.",
+        "Nova página Verificação de conexão do controle, para quando ele não é detectado.",
+        "Macros: novo modo Uma etapa por aperto.",
+        "Analógicos flutuantes não voltam mais ao centro após um leve toque nem ao apertar outras teclas.",
+        "Android 14+: o teclado Gamepad Pro não é mais necessário.",
+        "Corrigidos esquemas importados de tablet na horizontal que ficavam deslocados."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }

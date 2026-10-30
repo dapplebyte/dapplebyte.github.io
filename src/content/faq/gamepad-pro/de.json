@@ -70,6 +70,13 @@
           "a": [
             "Android zeigt dieselbe Warnung bei jeder Bedienungshilfen-App. Gamepad Pro nutzt sie nur, um deinen Controller und die App im Vordergrund zu lesen und Berührungen zu setzen. Es liest, speichert oder lädt niemals hoch, was auf deinem Bildschirm zu sehen ist oder was du tippst."
           ]
+        },
+        {
+          "id": "q29",
+          "q": "Warum sehe ich die Benachrichtigung zum Pausieren und Fortsetzen nicht?",
+          "a": [
+            "Gamepad Pro fragt nie von sich aus nach der Benachrichtigungsberechtigung. Für die Benachrichtigung zum Pausieren und Fortsetzen schalte unter Einstellungen → Zuordnung „Statusbenachrichtigung“ ein oder tippe unten auf die Schaltfläche. Ab Android 13 wirst du dann nach der Benachrichtigungsberechtigung gefragt; hast du sie früher abgelehnt, öffnen sich stattdessen die Benachrichtigungseinstellungen des Systems, damit du sie dort erlauben kannst. Brauchst du die Benachrichtigung nicht, schalte die Einstellung einfach wieder aus. Alles andere funktioniert auch ohne sie."
+          ]
         }
       ]
     },
@@ -156,7 +163,7 @@
           "id": "q21",
           "q": "Ich kann mich nicht bewegen und gleichzeitig schießen. Was kann ich tun?",
           "a": [
-            "Dabei geht die zweite Berührung verloren. Aktualisiere zuerst auf die neueste Version — neuere Builds halten beide Berührungen bereits von selbst aufrecht. Geht trotzdem eine verloren, öffne Einstellungen › Erweiterte Multi-Touch-Steuerung und folge dort den drei Schritten; die Seite zeigt dir, welcher davon noch fehlt. Das ist optional, gewöhnliche Zuordnungen funktionieren auch ohne."
+            "Dabei geht die zweite Berührung verloren. Aktualisiere zuerst auf die neueste Version — neuere Builds halten beide Berührungen bereits von selbst aufrecht. Geht trotzdem eine verloren, öffne Einstellungen › Shizuku-Touch mit geringer Latenz und folge dort den drei Schritten; die Seite zeigt dir, welcher davon noch fehlt. Das ist optional, gewöhnliche Zuordnungen funktionieren auch ohne."
           ],
           "video": "cOnoseRHaUM",
           "tiktok": "7695322720493473054"
@@ -187,10 +194,17 @@
           ]
         },
         {
+          "id": "q30",
+          "q": "Können Tasker oder andere Automatisierungs-Apps die Zuordnung pausieren und fortsetzen?",
+          "a": [
+            "Ja. Schalte zuerst unter Einstellungen → Zuordnung „Automatisierungs-Apps die Zuordnung steuern lassen“ ein. Lass deine Automatisierungs-App dann einen Broadcast an das Paket com.dylan.gamepad.pro senden, mit einer dieser Aktionen: com.dylan.gamepad.pro.ACTION_PAUSE_MAPPINGS, com.dylan.gamepad.pro.ACTION_RESUME_MAPPINGS oder com.dylan.gamepad.pro.ACTION_TOGGLE_MAPPINGS. In Tasker nimmst du die Aktion Send Intent, setzt Target auf Broadcast Receiver und Package auf com.dylan.gamepad.pro. Solange die Einstellung aus ist, werden Broadcasts ignoriert."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Was ist Shizuku und brauche ich es?",
           "a": [
-            "Shizuku ist eine optionale erweiterte Verbesserung. Damit injiziert Gamepad Pro Multitouch-Ereignisse direkter – mit geringerer Latenz und flüssigerem Tracking als über den Bedienungshilfen-Pfad, am deutlichsten bei zwei Sticks oder mehreren gleichzeitigen Touch-Pfaden. Es ersetzt den Bedienungshilfen-Dienst nicht, und alle Zuordnungen funktionieren auch ohne. Ab Android 11 lässt es sich per WLAN-Debugging starten, muss nach einem Geräteneustart aber meist erneut gestartet werden."
+            "Shizuku ist eine optionale Erweiterung. Damit speist Gamepad Pro Berührungen direkter ein als über den Bedienungshilfen-Pfad: Die Eingabelatenz ist geringer, und wenn du selbst den Bildschirm berührst, werden die zugeordneten Tasten nicht mehr unterbrochen – Touchscreen und Controller lassen sich also gleichzeitig nutzen. Multi-Touch an sich funktioniert auch ohne. Es ersetzt den Bedienungshilfen-Dienst nicht. Ab Android 11 lässt es sich per WLAN-Debugging starten, muss nach einem Geräteneustart aber meist erneut gestartet werden."
           ]
         }
       ]
@@ -259,5 +273,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-30"
 }

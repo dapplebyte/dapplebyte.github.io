@@ -70,6 +70,13 @@
           "a": [
             "Android her erişilebilirlik uygulaması için aynı uyarıyı gösterir. Gamepad Pro bunu yalnızca kumandanızı ve ön plandaki uygulamayı okumak ve dokunuşları yerleştirmek için kullanır. Ekranınızdakileri veya yazdıklarınızı asla okumaz, saklamaz ya da yüklemez."
           ]
+        },
+        {
+          "id": "q29",
+          "q": "Duraklatma / sürdürme bildirimini neden göremiyorum?",
+          "a": [
+            "Gamepad Pro bildirim iznini hiçbir zaman kendiliğinden istemez. Duraklatma / sürdürme bildirimini almak için Ayarlar → Eşleme bölümünde \"Durum bildirimi\" seçeneğini açın ya da aşağıdaki düğmeye dokunun. Android 13 ve sonrasında bu adımda bildirim izni istenir; daha önce reddettiyseniz bunun yerine sistemin bildirim ayarları açılır, izni oradan verebilirsiniz. Bildirimi gereksiz bulursanız ayarı yeniden kapatmanız yeterli. Diğer her şey onsuz da çalışır."
+          ]
         }
       ]
     },
@@ -156,7 +163,7 @@
           "id": "q21",
           "q": "Aynı anda hareket edip ateş edemiyorum. Ne yapabilirim?",
           "a": [
-            "Bu, ikinci dokunuşun düşmesinden kaynaklanır. Önce en son sürüme güncelleyin — yeni sürümler iki dokunuşu da kendiliğinden canlı tutuyor. Yine de biri düşüyorsa Ayarlar › Gelişmiş çoklu dokunma bölümünü açıp oradaki üç adımı uygulayın; sayfa hangi adımın eksik olduğunu söyler. Bu isteğe bağlıdır, sıradan eşlemeler onsuz da çalışır."
+            "Bu, ikinci dokunuşun düşmesinden kaynaklanır. Önce en son sürüme güncelleyin — yeni sürümler iki dokunuşu da kendiliğinden canlı tutuyor. Yine de biri düşüyorsa Ayarlar › Shizuku düşük gecikmeli dokunma bölümünü açıp oradaki üç adımı uygulayın; sayfa hangi adımın eksik olduğunu söyler. Bu isteğe bağlıdır, sıradan eşlemeler onsuz da çalışır."
           ],
           "video": "cOnoseRHaUM",
           "tiktok": "7695322720493473054"
@@ -187,10 +194,17 @@
           ]
         },
         {
+          "id": "q30",
+          "q": "Tasker veya başka bir otomasyon uygulaması eşlemeyi duraklatıp sürdürebilir mi?",
+          "a": [
+            "Evet. Önce Ayarlar → Eşleme bölümünde \"Otomasyon uygulamalarının eşlemeyi kontrol etmesine izin ver\" seçeneğini açın. Ardından otomasyon uygulamanızın com.dylan.gamepad.pro paketine şu eylemlerden biriyle yayın (broadcast) göndermesini sağlayın: com.dylan.gamepad.pro.ACTION_PAUSE_MAPPINGS, com.dylan.gamepad.pro.ACTION_RESUME_MAPPINGS veya com.dylan.gamepad.pro.ACTION_TOGGLE_MAPPINGS. Tasker'da \"Send Intent\" eylemini kullanın; Target olarak Broadcast Receiver seçin, Package alanına com.dylan.gamepad.pro yazın. Bu ayar kapalıyken yayınlar yok sayılır."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Shizuku nedir ve gerekli mi?",
           "a": [
-            "Shizuku isteğe bağlı gelişmiş bir iyileştirmedir. Gamepad Pro'nun çoklu dokunma olaylarını daha doğrudan iletmesini sağlar; erişilebilirlik yoluna göre gecikme daha düşük, takip daha akıcıdır — en çok çift analog veya birden fazla eşzamanlı dokunma yolunda hissedilir. Erişilebilirlik hizmetinin yerini almaz ve tüm eşlemeler onsuz da çalışır. Android 11 ve üzeri sürümlerde kablosuz hata ayıklama ile başlatılabilir, ancak cihaz yeniden başlatıldıktan sonra genellikle yeniden başlatılması gerekir."
+            "Shizuku isteğe bağlı bir iyileştirmedir. Gamepad Pro'nun dokunmaları erişilebilirlik yolundan daha doğrudan iletmesini sağlar: giriş gecikmesi daha düşüktür ve ekrana kendiniz dokunduğunuzda eşlenen kontroller artık kesintiye uğramaz; böylece dokunmatik ekranı ve kumandayı birlikte kullanabilirsiniz. Çoklu dokunmanın kendisi onsuz da çalışır. Erişilebilirlik hizmetinin yerini almaz. Android 11 ve üzeri sürümlerde kablosuz hata ayıklama ile başlatılabilir, ancak cihaz yeniden başlatıldıktan sonra genellikle yeniden başlatılması gerekir."
           ]
         }
       ]
@@ -259,5 +273,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-30"
 }

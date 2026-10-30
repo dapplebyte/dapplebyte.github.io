@@ -3,6 +3,19 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "Nouveau : démarrez une phase vierge ou avec une disposition de manette standard.",
+        "Nouvelle page Vérification de la connexion de la manette, si elle n’est pas détectée.",
+        "Macros : nouveau mode Une étape par appui.",
+        "Les sticks flottants ne reviennent plus au centre après une légère poussée ni quand vous appuyez sur d’autres touches.",
+        "Android 14+ : le clavier Gamepad Pro n’est plus nécessaire.",
+        "Correction des phases importées d’une tablette en paysage qui étaient décalées."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }

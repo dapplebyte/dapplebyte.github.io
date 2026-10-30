@@ -70,6 +70,13 @@
           "a": [
             "Android shows the same warning for every accessibility app. Gamepad Pro only uses it to read your controller and the app in front, and to place touches. It never reads, stores or uploads what is on your screen or what you type."
           ]
+        },
+        {
+          "id": "q29",
+          "q": "Why don't I see the pause / resume notification?",
+          "a": [
+            "Gamepad Pro never asks for notification permission on its own. To get the pause / resume notification, turn on \"Status notification\" under Settings → Mapping, or tap the button below. On Android 13 and newer this asks for notification permission; if you declined it before, your system notification settings open instead so you can allow it there. If you find the notification unnecessary, just turn the setting off again. Everything else works without it."
+          ]
         }
       ]
     },
@@ -156,7 +163,7 @@
           "id": "q21",
           "q": "I can't move and shoot at the same time. What can I do?",
           "a": [
-            "That is a second touch being dropped. Update to the latest version first — newer builds already keep both touches alive on their own. If one still gets dropped, open Settings › Advanced multi-touch and follow the three steps there; the page tells you which one is missing. It is optional, and ordinary mappings work without it."
+            "That is a second touch being dropped. Update to the latest version first — newer builds already keep both touches alive on their own. If one still gets dropped, open Settings › Shizuku low-latency touch and follow the three steps there; the page tells you which one is missing. It is optional, and ordinary mappings work without it."
           ],
           "video": "cOnoseRHaUM",
           "tiktok": "7695322720493473054"
@@ -187,10 +194,17 @@
           ]
         },
         {
+          "id": "q30",
+          "q": "Can Tasker or another automation app pause and resume mapping?",
+          "a": [
+            "Yes. First turn on \"Let automation apps control mapping\" under Settings → Mapping. Then have your automation app send a broadcast to the package com.dylan.gamepad.pro with one of these actions: com.dylan.gamepad.pro.ACTION_PAUSE_MAPPINGS, com.dylan.gamepad.pro.ACTION_RESUME_MAPPINGS or com.dylan.gamepad.pro.ACTION_TOGGLE_MAPPINGS. In Tasker, use the Send Intent action with Target set to Broadcast Receiver and Package set to com.dylan.gamepad.pro. Broadcasts are ignored while the setting is off."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "What is Shizuku, and do I need it?",
           "a": [
-            "Shizuku is an optional advanced enhancement. It lets Gamepad Pro inject multi-touch events more directly, with lower latency and smoother tracking than the accessibility path — most noticeable with two joysticks or several simultaneous touch paths. It does not replace the Accessibility service, and every mapping also works without it. On Android 11 and later it can be started with wireless debugging, but usually needs to be started again after a device reboot."
+            "Shizuku is an optional enhancement. It lets Gamepad Pro inject touches more directly than the accessibility path: input latency is lower, and touching the screen yourself no longer interrupts the mapped controls, so the touchscreen and the controller can be used together. Multi-touch itself works without it. It does not replace the Accessibility service. On Android 11 and later it can be started with wireless debugging, but usually needs to be started again after a device reboot."
           ]
         }
       ]
@@ -259,5 +273,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-30"
 }

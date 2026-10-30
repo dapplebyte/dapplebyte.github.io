@@ -70,6 +70,13 @@
           "a": [
             "Android affiche le même avertissement pour toutes les apps d'accessibilité. Gamepad Pro s'en sert uniquement pour lire votre manette et l'app au premier plan, et pour placer les touchers. Il ne lit, ne stocke et n'envoie jamais ce qui s'affiche à l'écran ni ce que vous saisissez."
           ]
+        },
+        {
+          "id": "q29",
+          "q": "Pourquoi la notification de pause et de reprise ne s'affiche-t-elle pas ?",
+          "a": [
+            "Gamepad Pro ne demande jamais l'autorisation de notification de lui-même. Pour obtenir la notification de pause et de reprise, activez « Notification d'état » dans Paramètres → Mappage, ou appuyez sur le bouton ci-dessous. Sous Android 13 et versions ultérieures, l'autorisation de notification vous est alors demandée ; si vous l'avez refusée auparavant, ce sont les paramètres de notification du système qui s'ouvrent, pour que vous puissiez l'y autoriser. Si cette notification vous semble inutile, désactivez simplement le paramètre. Tout le reste fonctionne sans elle."
+          ]
         }
       ]
     },
@@ -156,7 +163,7 @@
           "id": "q21",
           "q": "Je ne peux pas me déplacer et tirer en même temps. Que faire ?",
           "a": [
-            "C'est un deuxième toucher qui se perd. Mettez d'abord à jour vers la dernière version : les versions récentes maintiennent déjà les deux touchers actifs toutes seules. Si un toucher se perd encore, ouvrez Paramètres › Multi-touch avancé et suivez les trois étapes indiquées ; la page vous dit laquelle manque. C'est facultatif : les mappages ordinaires fonctionnent sans."
+            "C'est un deuxième toucher qui se perd. Mettez d'abord à jour vers la dernière version : les versions récentes maintiennent déjà les deux touchers actifs toutes seules. Si un toucher se perd encore, ouvrez Paramètres › Tactile Shizuku basse latence et suivez les trois étapes indiquées ; la page vous dit laquelle manque. C'est facultatif : les mappages ordinaires fonctionnent sans."
           ],
           "video": "cOnoseRHaUM",
           "tiktok": "7695322720493473054"
@@ -187,10 +194,17 @@
           ]
         },
         {
+          "id": "q30",
+          "q": "Tasker ou une autre app d'automatisation peut-elle mettre en pause et reprendre le mappage ?",
+          "a": [
+            "Oui. Activez d'abord « Autoriser les apps d'automatisation à contrôler le mappage » dans Paramètres → Mappage. Ensuite, faites envoyer par votre app d'automatisation un broadcast au package com.dylan.gamepad.pro avec l'une de ces actions : com.dylan.gamepad.pro.ACTION_PAUSE_MAPPINGS, com.dylan.gamepad.pro.ACTION_RESUME_MAPPINGS ou com.dylan.gamepad.pro.ACTION_TOGGLE_MAPPINGS. Dans Tasker, utilisez l'action Send Intent avec Target sur Broadcast Receiver et Package sur com.dylan.gamepad.pro. Les broadcasts sont ignorés tant que le paramètre est désactivé."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Qu’est-ce que Shizuku et en ai-je besoin ?",
           "a": [
-            "Shizuku est une amélioration avancée facultative. Il permet à Gamepad Pro d'injecter les événements multi-touch plus directement, avec une latence réduite et un suivi plus fluide que la voie d'accessibilité — surtout visible avec deux joysticks ou plusieurs trajets tactiles simultanés. Il ne remplace pas le service d'accessibilité et tous les mappages fonctionnent aussi sans lui. Sur Android 11 et plus, il peut être lancé via le débogage sans fil, mais doit généralement être relancé après un redémarrage de l'appareil."
+            "Shizuku est une amélioration facultative. Il permet à Gamepad Pro d'injecter les touchers plus directement que la voie d'accessibilité : la latence d'entrée est plus faible, et le fait de toucher l'écran n'interrompt plus les commandes mappées, ce qui permet d'utiliser l'écran tactile et la manette en même temps. Le multi-touch lui-même fonctionne sans lui. Il ne remplace pas le service d'accessibilité. Sur Android 11 et plus, il peut être lancé via le débogage sans fil, mais doit généralement être relancé après un redémarrage de l'appareil."
           ]
         }
       ]
@@ -259,5 +273,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-30"
 }

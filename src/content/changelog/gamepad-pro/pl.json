@@ -3,6 +3,19 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "Nowość: zacznij pusty układ lub od standardowego rozmieszczenia przycisków kontrolera.",
+        "Nowa strona Sprawdzanie połączenia kontrolera, gdy kontroler nie jest wykrywany.",
+        "Makra: nowy tryb Krok na naciśnięcie.",
+        "Pływające gałki nie wracają już do środka po lekkim pchnięciu ani po naciśnięciu innych klawiszy.",
+        "Android 14+: klawiatura Gamepad Pro nie jest już potrzebna.",
+        "Naprawiono przesunięte układy importowane z tabletu w poziomie."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }

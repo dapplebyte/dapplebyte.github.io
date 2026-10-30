@@ -3,6 +3,19 @@
   "locale": "it",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "Novità: crea uno schema vuoto o partendo dal layout standard del controller.",
+        "Nuova pagina Verifica connessione controller, per quando il controller non viene rilevato.",
+        "Macro: nuova modalità Un passaggio per pressione.",
+        "Gli stick mobili non tornano più al centro dopo una leggera spinta o premendo altri tasti.",
+        "Android 14+: la tastiera Gamepad Pro non serve più.",
+        "Corretti gli schemi importati da tablet in orizzontale che risultavano spostati."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }

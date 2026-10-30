@@ -3,6 +3,19 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "Mới: khi thêm phase, bắt đầu từ Phase trống hoặc bố cục tay cầm tiêu chuẩn.",
+        "Trang mới Kiểm tra kết nối tay cầm giúp tìm lý do tay cầm không được nhận.",
+        "Macro: thêm chế độ Mỗi lần bấm một bước.",
+        "Cần analog: cần nổi không còn tự về giữa sau khi đẩy nhẹ, và bấm phím khác không còn làm reset cần đang giữ.",
+        "Android 14+: không cần bàn phím Gamepad Pro nữa.",
+        "Sửa lỗi phase nhập từ máy tính bảng ở chế độ ngang bị lệch hoặc chuyển sang dọc."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }

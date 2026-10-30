@@ -3,6 +3,19 @@
   "locale": "id",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "Baru: mulai phase kosong atau dari tata letak kontroler standar.",
+        "Halaman baru Cek koneksi kontroler, saat kontroler tidak terdeteksi.",
+        "Makro: mode baru Satu langkah tiap tekan.",
+        "Stik mengambang tidak lagi kembali ke tengah setelah didorong sedikit atau saat tombol lain ditekan.",
+        "Android 14+: keyboard Gamepad Pro tidak diperlukan lagi.",
+        "Memperbaiki phase yang diimpor dari tablet lanskap jadi bergeser."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }

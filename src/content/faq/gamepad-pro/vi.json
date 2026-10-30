@@ -70,6 +70,13 @@
           "a": [
             "Android hiện cùng một cảnh báo cho mọi ứng dụng Trợ năng. Gamepad Pro chỉ dùng nó để đọc tay cầm và ứng dụng đang mở phía trước, và để thực hiện thao tác chạm. Ứng dụng không bao giờ đọc, lưu hay tải lên nội dung trên màn hình hoặc những gì bạn gõ."
           ]
+        },
+        {
+          "id": "q29",
+          "q": "Vì sao tôi không thấy thông báo tạm dừng / tiếp tục?",
+          "a": [
+            "Gamepad Pro không bao giờ tự xin quyền thông báo. Để nhận thông báo tạm dừng / tiếp tục, hãy bật \"Thông báo trạng thái\" trong Cài đặt → Ánh xạ, hoặc chạm vào nút bên dưới. Từ Android 13 trở lên, lúc này hệ thống sẽ hỏi quyền thông báo; nếu trước đó bạn đã từ chối, cài đặt thông báo của hệ thống sẽ mở ra để bạn cho phép ở đó. Nếu thấy thông báo này không cần thiết, chỉ cần tắt lại cài đặt. Mọi tính năng khác vẫn chạy bình thường khi không có nó."
+          ]
         }
       ]
     },
@@ -156,7 +163,7 @@
           "id": "q21",
           "q": "Tôi không thể vừa di chuyển vừa bắn. Phải làm sao?",
           "a": [
-            "Đó là do lần chạm thứ hai bị mất. Trước tiên hãy cập nhật lên phiên bản mới nhất — các bản mới đã tự giữ được cả hai lần chạm. Nếu vẫn bị mất, hãy mở Cài đặt › Đa chạm nâng cao và làm theo ba bước ở đó; trang sẽ cho bạn biết còn thiếu bước nào. Đây là tùy chọn, ánh xạ thông thường vẫn chạy khi không có nó."
+            "Đó là do lần chạm thứ hai bị mất. Trước tiên hãy cập nhật lên phiên bản mới nhất — các bản mới đã tự giữ được cả hai lần chạm. Nếu vẫn bị mất, hãy mở Cài đặt › Chạm độ trễ thấp qua Shizuku và làm theo ba bước ở đó; trang sẽ cho bạn biết còn thiếu bước nào. Đây là tùy chọn, ánh xạ thông thường vẫn chạy khi không có nó."
           ],
           "video": "cOnoseRHaUM",
           "tiktok": "7695322720493473054"
@@ -187,10 +194,17 @@
           ]
         },
         {
+          "id": "q30",
+          "q": "Tasker hoặc ứng dụng tự động hóa khác có tạm dừng và tiếp tục ánh xạ được không?",
+          "a": [
+            "Được. Trước tiên, bật \"Cho ứng dụng tự động hóa điều khiển ánh xạ\" trong Cài đặt → Ánh xạ. Sau đó cho ứng dụng tự động hóa gửi broadcast đến gói com.dylan.gamepad.pro với một trong các action sau: com.dylan.gamepad.pro.ACTION_PAUSE_MAPPINGS, com.dylan.gamepad.pro.ACTION_RESUME_MAPPINGS hoặc com.dylan.gamepad.pro.ACTION_TOGGLE_MAPPINGS. Trong Tasker, dùng action Send Intent, đặt Target là Broadcast Receiver và Package là com.dylan.gamepad.pro. Khi cài đặt này tắt, broadcast sẽ bị bỏ qua."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Shizuku là gì, tôi có cần không?",
           "a": [
-            "Shizuku là một tùy chọn nâng cao không bắt buộc. Nó cho phép Gamepad Pro tiêm sự kiện đa chạm trực tiếp hơn, độ trễ thấp hơn và bám mượt hơn so với đường Trợ năng — thấy rõ nhất khi dùng hai cần analog hoặc nhiều đường chạm cùng lúc. Nó không thay thế Dịch vụ Trợ năng, và mọi ánh xạ vẫn chạy được khi không có nó. Từ Android 11 trở lên có thể khởi động Shizuku bằng gỡ lỗi không dây, nhưng thường phải khởi động lại sau mỗi lần khởi động lại máy."
+            "Shizuku là một tính năng tăng cường không bắt buộc. Nó cho phép Gamepad Pro gửi thao tác chạm trực tiếp hơn so với đường Trợ năng: độ trễ đầu vào thấp hơn, và khi bạn tự chạm vào màn hình, các nút đã ánh xạ không còn bị gián đoạn, nên bạn có thể dùng màn hình cảm ứng và tay cầm cùng lúc. Bản thân đa chạm vẫn hoạt động khi không có nó. Nó không thay thế Dịch vụ Trợ năng. Từ Android 11 trở lên có thể khởi động Shizuku bằng gỡ lỗi không dây, nhưng thường phải khởi động lại Shizuku sau mỗi lần máy khởi động lại."
           ]
         }
       ]
@@ -259,5 +273,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-30"
 }

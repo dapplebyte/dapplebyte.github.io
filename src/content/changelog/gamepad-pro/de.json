@@ -3,6 +3,19 @@
   "locale": "de",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "Neu: Layouts leer oder mit der Standard-Tastenanordnung beginnen.",
+        "Neue Seite „Controller-Verbindung prüfen“, wenn ein Controller nicht erkannt wird.",
+        "Makros: neuer Modus „Ein Schritt pro Druck“.",
+        "Schwebende Sticks springen nach leichtem Schieben oder beim Drücken anderer Tasten nicht mehr zurück.",
+        "Ab Android 14 ist die Gamepad Pro-Tastatur nicht mehr nötig.",
+        "Behoben: Vom Tablet im Querformat importierte Layouts waren verschoben."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }

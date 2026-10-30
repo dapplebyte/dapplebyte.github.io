@@ -3,6 +3,19 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "Nieuw: begin een indeling leeg of met de standaard controllerknopposities.",
+        "Nieuwe pagina Controllerverbinding controleren, als een controller niet wordt herkend.",
+        "Macro's: nieuwe modus Eén stap per druk.",
+        "Zwevende sticks springen niet meer terug na een kleine duw of als je andere knoppen indrukt.",
+        "Android 14+: het Gamepad Pro-toetsenbord is niet meer nodig.",
+        "Opgelost: indelingen van een liggende tablet stonden na import verschoven."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }

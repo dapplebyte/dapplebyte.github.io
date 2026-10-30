@@ -70,6 +70,13 @@
           "a": [
             "Android pokazuje to samo ostrzeżenie przy każdej aplikacji ułatwień dostępu. Gamepad Pro używa go tylko do odczytu kontrolera i aplikacji na pierwszym planie oraz do umieszczania dotknięć. Nigdy nie odczytuje, nie zapisuje ani nie przesyła tego, co jest na ekranie, ani tego, co wpisujesz."
           ]
+        },
+        {
+          "id": "q29",
+          "q": "Dlaczego nie widzę powiadomienia o wstrzymaniu i wznowieniu mapowania?",
+          "a": [
+            "Gamepad Pro nigdy sam nie prosi o zgodę na powiadomienia. Aby dostawać powiadomienie o wstrzymaniu i wznowieniu mapowania, otwórz Ustawienia → Mapowanie i włącz \"Powiadomienie o stanie\" albo stuknij przycisk poniżej. Od Androida 13 pojawi się wtedy prośba o zgodę na powiadomienia; jeśli wcześniej została odrzucona, zamiast tego otworzą się systemowe ustawienia powiadomień, gdzie możesz na nie zezwolić. Jeśli powiadomienie jest Ci niepotrzebne, po prostu wyłącz to ustawienie. Wszystko inne działa bez niego."
+          ]
         }
       ]
     },
@@ -156,7 +163,7 @@
           "id": "q21",
           "q": "Nie mogę jednocześnie biegać i strzelać. Co mogę zrobić?",
           "a": [
-            "To drugie dotknięcie, które jest gubione. Najpierw zaktualizuj aplikację do najnowszej wersji — nowsze wydania same utrzymują oba dotknięcia. Jeśli jedno nadal znika, otwórz Ustawienia › Zaawansowany wielodotyk i wykonaj trzy kroki z tej strony; sama pokaże, którego brakuje. To opcjonalne — zwykłe mapowania działają bez tego."
+            "To drugie dotknięcie, które jest gubione. Najpierw zaktualizuj aplikację do najnowszej wersji — nowsze wydania same utrzymują oba dotknięcia. Jeśli jedno nadal znika, otwórz Ustawienia › Dotyk Shizuku z niskim opóźnieniem i wykonaj trzy kroki z tej strony; sama pokaże, którego brakuje. To opcjonalne — zwykłe mapowania działają bez tego."
           ],
           "video": "cOnoseRHaUM",
           "tiktok": "7695322720493473054"
@@ -187,10 +194,17 @@
           ]
         },
         {
+          "id": "q30",
+          "q": "Czy Tasker lub inna aplikacja do automatyzacji może wstrzymywać i wznawiać mapowanie?",
+          "a": [
+            "Tak. Najpierw otwórz Ustawienia → Mapowanie i włącz \"Pozwól aplikacjom do automatyzacji sterować mapowaniem\". Następnie ustaw w aplikacji do automatyzacji wysyłanie broadcastu do pakietu com.dylan.gamepad.pro z jedną z tych akcji: com.dylan.gamepad.pro.ACTION_PAUSE_MAPPINGS, com.dylan.gamepad.pro.ACTION_RESUME_MAPPINGS lub com.dylan.gamepad.pro.ACTION_TOGGLE_MAPPINGS. W Taskerze użyj akcji Send Intent, ustaw Target na Broadcast Receiver, a Package na com.dylan.gamepad.pro. Gdy to ustawienie jest wyłączone, broadcasty są ignorowane."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Czym jest Shizuku i czy go potrzebuję?",
           "a": [
-            "Shizuku to opcjonalne zaawansowane ulepszenie. Pozwala Gamepad Pro wstrzykiwać zdarzenia multi-touch bardziej bezpośrednio, z mniejszym opóźnieniem i płynniejszym śledzeniem niż ścieżka ułatwień dostępu — najbardziej widoczne przy dwóch drążkach lub kilku równoczesnych ścieżkach dotyku. Nie zastępuje usługi ułatwień dostępu, a wszystkie mapowania działają też bez niego. Na Androidzie 11 i nowszych można go uruchomić przez debugowanie bezprzewodowe, ale po ponownym uruchomieniu urządzenia zwykle trzeba go włączyć ponownie."
+            "Shizuku to opcjonalne ulepszenie. Pozwala Gamepad Pro wstrzykiwać dotyk bardziej bezpośrednio niż ścieżka ułatwień dostępu: opóźnienie wejścia jest mniejsze, a dotykanie ekranu palcem nie przerywa już zmapowanych przycisków, więc ekranu dotykowego i kontrolera można używać jednocześnie. Sam wielodotyk działa bez niego. Nie zastępuje usługi ułatwień dostępu. Na Androidzie 11 i nowszych można go uruchomić przez debugowanie bezprzewodowe, ale po ponownym uruchomieniu urządzenia zwykle trzeba go włączyć ponownie."
           ]
         }
       ]
@@ -259,5 +273,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-30"
 }

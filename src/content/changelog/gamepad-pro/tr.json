@@ -3,6 +3,19 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "Yeni: boş düzenle ya da standart kumanda yerleşimiyle başlayın.",
+        "Yeni Kumanda bağlantı kontrolü sayfası, kumanda algılanmadığında yardım eder.",
+        "Makrolar: yeni Her basışta bir adım modu.",
+        "Kayan çubuklar hafif itişten veya başka tuşlara basınca artık merkeze dönmüyor.",
+        "Android 14+: Gamepad Pro klavyesine artık gerek yok.",
+        "Yatay tabletten içe aktarılan düzenlerin kayması düzeltildi."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }

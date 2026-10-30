@@ -70,6 +70,13 @@
           "a": [
             "Android muestra la misma advertencia con todas las apps de accesibilidad. Gamepad Pro solo la usa para leer tu mando y la app en primer plano, y para colocar los toques. Nunca lee, guarda ni sube lo que hay en tu pantalla ni lo que escribes."
           ]
+        },
+        {
+          "id": "q29",
+          "q": "¿Por qué no veo la notificación para pausar y reanudar?",
+          "a": [
+            "Gamepad Pro nunca pide el permiso de notificaciones por su cuenta. Para tener la notificación para pausar y reanudar, activa «Notificación de estado» en Ajustes → Asignación o toca el botón de abajo. En Android 13 y versiones posteriores, se te pedirá el permiso de notificaciones; si lo rechazaste antes, se abrirán los ajustes de notificaciones del sistema para que lo permitas ahí. Si la notificación te parece innecesaria, simplemente vuelve a desactivar el ajuste. Todo lo demás funciona sin ella."
+          ]
         }
       ]
     },
@@ -156,7 +163,7 @@
           "id": "q21",
           "q": "No puedo moverme y disparar a la vez. ¿Qué puedo hacer?",
           "a": [
-            "Es un segundo toque que se pierde. Actualiza primero a la última versión: las versiones nuevas ya mantienen vivos los dos toques por sí solas. Si aun así se pierde uno, abre Ajustes › Multitáctil avanzado y sigue los tres pasos que aparecen ahí; la página te indica cuál falta. Es opcional, y las asignaciones normales funcionan sin él."
+            "Es un segundo toque que se pierde. Actualiza primero a la última versión: las versiones nuevas ya mantienen vivos los dos toques por sí solas. Si aun así se pierde uno, abre Ajustes › Toque de baja latencia con Shizuku y sigue los tres pasos que aparecen ahí; la página te indica cuál falta. Es opcional, y las asignaciones normales funcionan sin él."
           ],
           "video": "cOnoseRHaUM",
           "tiktok": "7695322720493473054"
@@ -187,10 +194,17 @@
           ]
         },
         {
+          "id": "q30",
+          "q": "¿Pueden Tasker u otras apps de automatización pausar y reanudar la asignación?",
+          "a": [
+            "Sí. Primero activa «Permitir que las apps de automatización controlen la asignación» en Ajustes → Asignación. Después haz que tu app de automatización envíe un broadcast al paquete com.dylan.gamepad.pro con una de estas acciones: com.dylan.gamepad.pro.ACTION_PAUSE_MAPPINGS, com.dylan.gamepad.pro.ACTION_RESUME_MAPPINGS o com.dylan.gamepad.pro.ACTION_TOGGLE_MAPPINGS. En Tasker, usa la acción Send Intent con Target en Broadcast Receiver y Package en com.dylan.gamepad.pro. Los broadcasts se ignoran mientras el ajuste esté desactivado."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "¿Qué es Shizuku y lo necesito?",
           "a": [
-            "Shizuku es una mejora avanzada opcional. Permite que Gamepad Pro inyecte eventos multitáctiles de forma más directa, con menor latencia y un seguimiento más fluido que la vía de accesibilidad; se nota sobre todo con dos joysticks o varias rutas táctiles simultáneas. No sustituye al servicio de accesibilidad y todas las asignaciones funcionan también sin él. En Android 11 o superior puede iniciarse con la depuración inalámbrica, pero normalmente hay que volver a iniciarlo tras reiniciar el dispositivo."
+            "Shizuku es una mejora opcional. Permite que Gamepad Pro inyecte los toques de forma más directa que la vía de accesibilidad: la latencia de entrada es menor y, si tocas tú la pantalla, los botones asignados ya no se interrumpen, así que puedes usar la pantalla táctil y el mando a la vez. El multitáctil en sí funciona sin él. No sustituye al servicio de accesibilidad. En Android 11 o superior puede iniciarse con la depuración inalámbrica, pero normalmente hay que volver a iniciarlo tras reiniciar el dispositivo."
           ]
         }
       ]
@@ -259,5 +273,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-30"
 }

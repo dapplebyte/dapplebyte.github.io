@@ -70,6 +70,13 @@
           "a": [
             "Android toont dezelfde waarschuwing voor elke toegankelijkheidsapp. Gamepad Pro gebruikt het alleen om je controller en de app op de voorgrond te lezen en om aanrakingen te plaatsen. Het leest, bewaart of uploadt nooit wat er op je scherm staat of wat je typt."
           ]
+        },
+        {
+          "id": "q29",
+          "q": "Waarom zie ik de melding om te pauzeren en te hervatten niet?",
+          "a": [
+            "Gamepad Pro vraagt nooit uit zichzelf om toestemming voor meldingen. Wil je de melding om te pauzeren en te hervatten, zet dan \"Statusmelding\" aan onder Instellingen → Toewijzing, of tik op de knop hieronder. Op Android 13 en nieuwer wordt dan om toestemming voor meldingen gevraagd; heb je die eerder geweigerd, dan openen in plaats daarvan de meldingsinstellingen van het systeem, zodat je het daar kunt toestaan. Vind je de melding overbodig, zet de instelling dan gewoon weer uit. Al het andere werkt ook zonder."
+          ]
         }
       ]
     },
@@ -156,7 +163,7 @@
           "id": "q21",
           "q": "Ik kan niet tegelijk bewegen en schieten. Wat kan ik doen?",
           "a": [
-            "Dan valt de tweede aanraking weg. Werk eerst bij naar de nieuwste versie — nieuwere versies houden beide aanrakingen al vanzelf in stand. Valt er daarna nog steeds één weg, open dan Instellingen › Geavanceerde multi-touch en doorloop de drie stappen daar; de pagina laat zien welke stap nog ontbreekt. Het is optioneel: gewone toewijzingen werken ook zonder."
+            "Dan valt de tweede aanraking weg. Werk eerst bij naar de nieuwste versie — nieuwere versies houden beide aanrakingen al vanzelf in stand. Valt er daarna nog steeds één weg, open dan Instellingen › Shizuku-aanraking met lage latentie en doorloop de drie stappen daar; de pagina laat zien welke stap nog ontbreekt. Het is optioneel: gewone toewijzingen werken ook zonder."
           ],
           "video": "cOnoseRHaUM",
           "tiktok": "7695322720493473054"
@@ -187,10 +194,17 @@
           ]
         },
         {
+          "id": "q30",
+          "q": "Kan Tasker of een andere automatiseringsapp de toewijzing pauzeren en hervatten?",
+          "a": [
+            "Ja. Zet eerst \"Automatiseringsapps de toewijzing laten bedienen\" aan onder Instellingen → Toewijzing. Laat je automatiseringsapp daarna een broadcast sturen naar het pakket com.dylan.gamepad.pro met een van deze acties: com.dylan.gamepad.pro.ACTION_PAUSE_MAPPINGS, com.dylan.gamepad.pro.ACTION_RESUME_MAPPINGS of com.dylan.gamepad.pro.ACTION_TOGGLE_MAPPINGS. In Tasker gebruik je de actie Send Intent, met Target ingesteld op Broadcast Receiver en Package op com.dylan.gamepad.pro. Zolang de instelling uit staat, worden broadcasts genegeerd."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Wat is Shizuku en heb ik het nodig?",
           "a": [
-            "Shizuku is een optionele geavanceerde verbetering. Hiermee injecteert Gamepad Pro multitouch-gebeurtenissen directer, met lagere latentie en vloeiender tracking dan via toegankelijkheid — vooral merkbaar met twee sticks of meerdere gelijktijdige aanraakpaden. Het vervangt de toegankelijkheidsservice niet en alle toewijzingen werken ook zonder. Op Android 11 en hoger kan het worden gestart via draadloze foutopsporing, maar na een herstart van het apparaat moet het meestal opnieuw worden gestart."
+            "Shizuku is een optionele verbetering. Hiermee injecteert Gamepad Pro aanrakingen directer dan via toegankelijkheid: de invoerlatentie is lager en als je zelf het scherm aanraakt, worden de toegewezen knoppen niet meer onderbroken, zodat je het touchscreen en de controller samen kunt gebruiken. Multi-touch zelf werkt ook zonder. Het vervangt de toegankelijkheidsservice niet. Op Android 11 en hoger kan het worden gestart via draadloze foutopsporing, maar na een herstart van het apparaat moet het meestal opnieuw worden gestart."
           ]
         }
       ]
@@ -259,5 +273,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-10-30"
 }

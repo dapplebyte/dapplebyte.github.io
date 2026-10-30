@@ -3,6 +3,19 @@
   "locale": "en",
   "entries": [
     {
+      "code": 198,
+      "name": "1.9.8",
+      "date": "2026-10-30",
+      "items": [
+        "New: start a new phase blank or from a standard controller layout.",
+        "New Controller connection check page, for when a controller isn't detected.",
+        "Macros: new One step per press mode.",
+        "Floating joysticks no longer snap back after a small push, or reset when you press other keys.",
+        "Android 14+: the Gamepad Pro keyboard is no longer needed.",
+        "Fixed phases imported from a landscape tablet ending up shifted."
+      ]
+    },
+    {
       "code": 197,
       "name": "1.9.7",
       "date": "2026-10-25",
@@ -87,5 +100,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-26"
+  "extractedAt": "2026-10-30"
 }
