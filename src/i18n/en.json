@@ -39,6 +39,7 @@
     "privacy": "Privacy",
     "changelog": "Release notes",
     "rules": "Rule set",
+    "presets": "Presets",
     "press": "Press kit"
   },
   "facts": {
@@ -279,6 +280,36 @@
     "noImport": "Don't see Import from file? Update {name} to the latest version first.",
     "safetyHeading": "How files are checked",
     "safetyBody": "Every rule file is digitally signed by DappleByte. {name} verifies the signature on your phone and only accepts files we signed that are newer than the rules it already has. A file that was altered, or an older one, is turned down and your current rules stay as they are."
+  },
+  "presets": {
+    "title": "{name} game presets",
+    "description": "Download the current {name} preset library: official key layouts for supported games and genre templates, with steps to import it by hand.",
+    "lede": "{name} downloads new presets on its own. This page shows what the current library includes, and lets you download it if automatic updates can't get through on your phone.",
+    "currentHeading": "Current version",
+    "published": "Published {date}",
+    "download": "Download preset library",
+    "gamesHeading": "Game presets",
+    "gamesBody": "Key layouts made for each game's default on-screen controls, with a phase for each situation, such as on foot or driving.",
+    "colGame": "Game",
+    "colPhases": "Phases",
+    "beta": "Beta",
+    "betaNote": "Beta presets are tuned on common screens, so a few buttons may sit slightly off on yours. Drag any key that doesn't line up.",
+    "templatesHeading": "Genre templates",
+    "templatesBody": "Starting points for games without their own preset. Keys sit where this type of game usually puts its buttons.",
+    "genre": {
+      "shooter": "Shooter",
+      "football": "Football",
+      "twinstick": "Twin-stick"
+    },
+    "importHeading": "Import by hand",
+    "step1": "Download the preset library above. Leave it as a .zip, there's no need to unzip it.",
+    "step2": "In {name}, go to Settings → Preset library → Import from file.",
+    "step3": "Pick the .zip you downloaded. {name} checks it and starts using it right away.",
+    "noImport": "Don't see Preset library in Settings? Update {name} to the latest version first.",
+    "updatesHeading": "When presets update",
+    "updatesBody": "{name} checks for a new library about once a day. Phases you added from a preset and haven't changed switch to the new version on their own. Phases you've edited are never overwritten: the game's page shows Update available, and you can add the new version next to yours.",
+    "safetyHeading": "How files are checked",
+    "safetyBody": "Every preset library is digitally signed by DappleByte. {name} verifies the signature on your phone and only accepts files we signed that are newer than the library it already has. A file that was altered, or an older one, is turned down and your current presets stay as they are."
   },
   "press": {
     "title": "{name} press kit",

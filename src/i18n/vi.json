@@ -39,6 +39,7 @@
     "privacy": "Quyền riêng tư",
     "changelog": "Ghi chú phát hành",
     "rules": "Bộ quy tắc",
+    "presets": "Phương án có sẵn",
     "press": "Tài liệu báo chí"
   },
   "facts": {
@@ -279,6 +280,36 @@
     "noImport": "Không thấy Nhập từ tệp? Hãy cập nhật {name} lên phiên bản mới nhất trước.",
     "safetyHeading": "Tệp được kiểm tra thế nào",
     "safetyBody": "Mọi tệp quy tắc đều có chữ ký số của DappleByte. {name} xác minh chữ ký ngay trên điện thoại của bạn và chỉ nhận tệp do chúng tôi ký, mới hơn bộ quy tắc đang có. Tệp bị sửa đổi hoặc cũ hơn sẽ bị từ chối, và quy tắc hiện tại của bạn vẫn giữ nguyên."
+  },
+  "presets": {
+    "title": "Phương án game có sẵn của {name}",
+    "description": "Tải thư viện phương án có sẵn hiện tại của {name}: bố cục phím chính thức cho các game được hỗ trợ và mẫu theo thể loại, kèm hướng dẫn nhập thủ công.",
+    "lede": "{name} tự tải các phương án có sẵn mới. Trang này cho biết thư viện hiện tại gồm những gì, và để bạn tự tải về nếu bản cập nhật tự động không tới được điện thoại của bạn.",
+    "currentHeading": "Phiên bản hiện tại",
+    "published": "Phát hành ngày {date}",
+    "download": "Tải thư viện phương án có sẵn",
+    "gamesHeading": "Phương án game có sẵn",
+    "gamesBody": "Bố cục phím làm theo các nút cảm ứng mặc định của từng game, mỗi tình huống có một Phase riêng, như đi bộ hay lái xe.",
+    "colGame": "Game",
+    "colPhases": "Phase",
+    "beta": "Beta",
+    "betaNote": "Phương án Beta được chỉnh trên các màn hình phổ biến, nên trên máy của bạn có thể vài nút hơi lệch. Phím nào không khớp thì bạn chỉ cần kéo lại.",
+    "templatesHeading": "Mẫu theo thể loại",
+    "templatesBody": "Điểm khởi đầu cho những game chưa có phương án riêng. Phím được đặt ở vị trí mà thể loại game này thường để nút.",
+    "genre": {
+      "shooter": "Bắn súng",
+      "football": "Bóng đá",
+      "twinstick": "Hai cần"
+    },
+    "importHeading": "Nhập thủ công",
+    "step1": "Tải thư viện phương án có sẵn ở trên. Cứ để nguyên dạng .zip, không cần giải nén.",
+    "step2": "Trong {name}, vào Cài đặt → Thư viện phương án có sẵn → Nhập từ tệp.",
+    "step3": "Chọn tệp .zip vừa tải. {name} sẽ kiểm tra rồi dùng ngay.",
+    "noImport": "Không thấy Thư viện phương án có sẵn trong Cài đặt? Hãy cập nhật {name} lên phiên bản mới nhất trước.",
+    "updatesHeading": "Khi nào phương án có sẵn được cập nhật",
+    "updatesBody": "{name} kiểm tra thư viện mới khoảng mỗi ngày một lần. Các Phase bạn thêm từ phương án có sẵn mà chưa chỉnh sẽ tự chuyển sang phiên bản mới. Phase bạn đã chỉnh sửa không bao giờ bị ghi đè: trang của game sẽ hiện Có bản cập nhật, và bạn có thể thêm phiên bản mới bên cạnh Phase của mình.",
+    "safetyHeading": "Tệp được kiểm tra thế nào",
+    "safetyBody": "Mọi thư viện phương án có sẵn đều có chữ ký số của DappleByte. {name} xác minh chữ ký ngay trên điện thoại của bạn và chỉ nhận tệp do chúng tôi ký, mới hơn thư viện đang có. Tệp bị sửa đổi hoặc cũ hơn sẽ bị từ chối, và các phương án có sẵn hiện tại của bạn vẫn giữ nguyên."
   },
   "press": {
     "title": "Tài liệu báo chí về {name}",

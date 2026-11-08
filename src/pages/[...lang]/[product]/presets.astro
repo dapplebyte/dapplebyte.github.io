@@ -1,0 +1,241 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ProductNav from '../../../components/ProductNav.astro';
+import { getLocale, localePath, DEFAULT_LOCALE } from '../../../i18n/locales';
+import { useT, formatDate } from '../../../i18n/t';
+import { getProduct, localesFor, liveProducts } from '../../../lib/content';
+import { presetLibrary, presetsZipPath, schemeName, type PresetLibrary } from '../../../lib/presets';
+import { formatSize } from '../../../lib/rules';
+import { graph, organization, website, webPage, breadcrumbs, SITE } from '../../../lib/jsonld';
+
+// Only products that publish a preset library (public/<slug>/presets/v1/latest.json) get this page,
+// in the locales of their store copy.
+export async function getStaticPaths() {
+  const out = [];
+  for (const p of await liveProducts()) {
+    const library = presetLibrary(p.slug);
+    if (!library) continue;
+    const alternates = await localesFor('productCopy', p.slug);
+    for (const locale of alternates) {
+      out.push({ params: { lang: locale === DEFAULT_LOCALE ? undefined : locale, product: p.slug }, props: { locale, slug: p.slug, alternates, library } });
+    }
+  }
+  return out;
+}
+
+const { locale, slug, alternates, library } = Astro.props as { locale: string; slug: string; alternates: string[]; library: PresetLibrary };
+const { t } = useT(locale);
+const loc = getLocale(locale);
+const product = await getProduct(slug);
+const name = product.name;
+const latest = library.latest;
+const path = `/${slug}/presets/`;
+const url = new URL(localePath(locale, path), SITE).href;
+const title = t('presets.title', { name });
+const description = t('presets.description', { name });
+const zipHref = presetsZipPath(slug, latest);
+const zipName = latest.zip.split('/').pop();
+const size = formatSize(latest.zipSize, loc.lang);
+const anyBeta = library.games.some((g) => g.beta);
+const jsonLd = graph(
+  organization(),
+  website(loc.lang),
+  webPage(url, title, description, loc.lang, latest.published),
+  breadcrumbs([
+    { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
+    { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
+    { name: t('labels.presets'), url },
+  ]),
+);
+---
+
+<Base locale={locale} path={path} title={`${title} · ${t('site.name')}`} description={description} alternates={alternates} jsonLd={jsonLd} accent={product.accent} productSlug={slug} ogImage={`/og/${slug}.png`}>
+  <ProductNav locale={locale} product={product} current="presets" />
+  <section class="wrap section">
+    <div class="mono mono-accent" style="margin-bottom:14px">{name}</div>
+    <h1 class="h-page">{title}</h1>
+    <p class="lede" style="margin-top:16px">{t('presets.lede', { name })}</p>
+  </section>
+
+  <section class="wrap section">
+    <div class="current">
+      <div class="panel release">
+        <div class="mono">{t('presets.currentHeading')}</div>
+        <div class="version">{latest.version}</div>
+        <div class="muted">{t('presets.published', { date: formatDate(locale, latest.published, loc.lang) })}</div>
+        <div class="actions" style="margin-top:20px">
+          <a class="button" href={zipHref} download={zipName}>{t('presets.download')}</a>
+          <span class="mono">ZIP · {size}</span>
+        </div>
+        <div class="hash">
+          <span class="mono">SHA-256</span>
+          <code>{latest.zipSha256}</code>
+        </div>
+      </div>
+      <div class="contents">
+        {library.games.length > 0 && (
+          <div>
+            <h2 class="h-sub" style="margin-bottom:8px">{t('presets.gamesHeading')}</h2>
+            <p class="muted" style="margin-bottom:16px">{t('presets.gamesBody')}</p>
+            <div class="table-scroll">
+              <table class="games">
+                <thead>
+                  <tr>
+                    <th scope="col">{t('presets.colGame')}</th>
+                    <th scope="col">{t('presets.colPhases')}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {library.games.map((g) => (
+                    <tr>
+                      <td>
+                        <span class="game">{g.name}</span>
+                        {g.beta && <span class="badge mono">{t('presets.beta')}</span>}
+                      </td>
+                      <td>{g.schemes.map((s) => schemeName(s, locale)).join(' · ')}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            {anyBeta && <p class="muted fine-note">{t('presets.betaNote')}</p>}
+          </div>
+        )}
+        {library.genres.length > 0 && (
+          <div>
+            <h2 class="h-sub" style="margin-bottom:8px">{t('presets.templatesHeading')}</h2>
+            <p class="muted" style="margin-bottom:12px">{t('presets.templatesBody')}</p>
+            <ul class="chips">
+              {library.genres.map((id) => <li class="mono">{t(`presets.genre.${id}`)}</li>)}
+            </ul>
+          </div>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <h2 class="h-section" style="margin-bottom:16px">{t('presets.importHeading')}</h2>
+    <ol class="steps">
+      <li>{t('presets.step1')}</li>
+      <li>{t('presets.step2', { name })}</li>
+      <li>{t('presets.step3', { name })}</li>
+    </ol>
+    <p class="muted" style="margin-top:16px">{t('presets.noImport', { name })}</p>
+  </section>
+
+  <section class="wrap section">
+    <h2 class="h-section" style="margin-bottom:16px">{t('presets.updatesHeading')}</h2>
+    <p class="lede">{t('presets.updatesBody', { name })}</p>
+  </section>
+
+  <section class="wrap section">
+    <h2 class="h-section" style="margin-bottom:16px">{t('presets.safetyHeading')}</h2>
+    <p class="lede">{t('presets.safetyBody', { name })}</p>
+  </section>
+</Base>
+
+<style>
+  .current {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    align-items: start;
+  }
+  .release {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .version {
+    font-family: var(--font-mono);
+    font-size: clamp(28px, 4vw, 40px);
+    line-height: 1.1;
+    color: var(--fg);
+    overflow-wrap: anywhere;
+  }
+  .hash {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .hash code {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--fg-2);
+    word-break: break-all;
+  }
+  .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .games {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+  }
+  .games th,
+  .games td {
+    text-align: start;
+    vertical-align: top;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+  }
+  .games th {
+    background: var(--surface);
+    font-weight: 600;
+  }
+  .game {
+    font-weight: 600;
+    color: var(--fg);
+  }
+  .badge {
+    display: inline-block;
+    margin-inline-start: 8px;
+    padding: 1px 6px;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    font-size: 11px;
+    vertical-align: middle;
+  }
+  .fine-note {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  .chips {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .chips li {
+    padding: 6px 12px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface);
+    font-size: 13px;
+    color: var(--fg);
+  }
+  .steps {
+    margin: 0;
+    padding-inline-start: 1.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--fg-2);
+    max-width: 64ch;
+  }
+  .muted {
+    color: var(--fg-2);
+  }
+  @media (max-width: 860px) {
+    .current {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

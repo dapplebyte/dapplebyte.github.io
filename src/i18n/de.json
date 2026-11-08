@@ -39,6 +39,7 @@
     "privacy": "Datenschutz",
     "changelog": "Versionshinweise",
     "rules": "Regelsatz",
+    "presets": "Presets",
     "press": "Pressekit"
   },
   "facts": {
@@ -279,6 +280,36 @@
     "noImport": "Kein „Aus Datei importieren“ zu sehen? Aktualisieren Sie {name} zuerst auf die neueste Version.",
     "safetyHeading": "So werden Dateien geprüft",
     "safetyBody": "Jede Regeldatei ist von DappleByte digital signiert. {name} prüft die Signatur auf Ihrem Smartphone und akzeptiert nur Dateien, die wir signiert haben und die neuer sind als die vorhandenen Regeln. Eine veränderte oder ältere Datei wird abgelehnt, und Ihre aktuellen Regeln bleiben unverändert."
+  },
+  "presets": {
+    "title": "Spiel-Presets für {name}",
+    "description": "Laden Sie die aktuelle Preset-Bibliothek von {name} herunter: offizielle Tastenbelegungen für unterstützte Spiele und Genre-Vorlagen, mit einer Anleitung zum manuellen Import.",
+    "lede": "{name} lädt neue Presets von selbst herunter. Diese Seite zeigt, was die aktuelle Bibliothek enthält, und Sie können sie hier herunterladen, falls automatische Updates auf Ihrem Smartphone nicht durchkommen.",
+    "currentHeading": "Aktuelle Version",
+    "published": "Veröffentlicht am {date}",
+    "download": "Preset-Bibliothek herunterladen",
+    "gamesHeading": "Spiel-Presets",
+    "gamesBody": "Tastenbelegungen, abgestimmt auf die Standard-Touch-Steuerung des jeweiligen Spiels, mit einem eigenen Layout für jede Situation, etwa zu Fuß oder beim Fahren.",
+    "colGame": "Spiel",
+    "colPhases": "Layouts",
+    "beta": "Beta",
+    "betaNote": "Beta-Presets sind auf gängigen Bildschirmen abgestimmt, daher können einzelne Tasten auf Ihrem Gerät leicht versetzt sitzen. Ziehen Sie einfach jede Taste zurecht, die nicht passt.",
+    "templatesHeading": "Genre-Vorlagen",
+    "templatesBody": "Ein Ausgangspunkt für Spiele ohne eigenes Preset. Die Tasten liegen dort, wo diese Art von Spiel ihre Buttons meistens hat.",
+    "genre": {
+      "shooter": "Shooter",
+      "football": "Fußball",
+      "twinstick": "Twin-Stick"
+    },
+    "importHeading": "Manuell importieren",
+    "step1": "Laden Sie oben die Preset-Bibliothek herunter. Lassen Sie sie als .zip, entpacken ist nicht nötig.",
+    "step2": "Öffnen Sie in {name} Einstellungen → Preset-Bibliothek → Aus Datei importieren.",
+    "step3": "Wählen Sie die heruntergeladene .zip-Datei aus. {name} prüft sie und verwendet sie sofort.",
+    "noImport": "Keine „Preset-Bibliothek“ in den Einstellungen? Aktualisieren Sie {name} zuerst auf die neueste Version.",
+    "updatesHeading": "Wann Presets aktualisiert werden",
+    "updatesBody": "{name} sucht etwa einmal am Tag nach einer neuen Bibliothek. Layouts, die Sie aus einem Preset hinzugefügt und nicht verändert haben, wechseln von selbst auf die neue Version. Von Ihnen bearbeitete Layouts werden nie überschrieben: Auf der Seite des Spiels erscheint „Update verfügbar“, und Sie können die neue Version neben Ihrer eigenen hinzufügen.",
+    "safetyHeading": "So werden Dateien geprüft",
+    "safetyBody": "Jede Preset-Bibliothek ist von DappleByte digital signiert. {name} prüft die Signatur auf Ihrem Smartphone und akzeptiert nur Dateien, die wir signiert haben und die neuer sind als die vorhandene Bibliothek. Eine veränderte oder ältere Datei wird abgelehnt, und Ihre aktuellen Presets bleiben unverändert."
   },
   "press": {
     "title": "Pressekit zu {name}",

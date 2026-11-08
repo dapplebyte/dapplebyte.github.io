@@ -39,6 +39,7 @@
     "privacy": "Gizlilik",
     "changelog": "Sürüm notları",
     "rules": "Kural seti",
+    "presets": "Hazır düzenler",
     "press": "Basın kiti"
   },
   "facts": {
@@ -279,6 +280,36 @@
     "noImport": "Dosyadan içe aktar seçeneğini görmüyor musunuz? Önce {name} uygulamasını en son sürüme güncelleyin.",
     "safetyHeading": "Dosyalar nasıl kontrol edilir",
     "safetyBody": "Her kural dosyası DappleByte tarafından dijital olarak imzalanır. {name} imzayı telefonunuzda doğrular ve yalnızca bizim imzaladığımız, mevcut kurallardan daha yeni dosyaları kabul eder. Değiştirilmiş ya da daha eski bir dosya reddedilir ve mevcut kurallarınız olduğu gibi kalır."
+  },
+  "presets": {
+    "title": "{name} hazır oyun düzenleri",
+    "description": "Güncel {name} hazır düzen kütüphanesini indirin: desteklenen oyunlar için resmi tuş yerleşimleri ve oyun türü şablonları, elle içe aktarma adımlarıyla birlikte.",
+    "lede": "{name} yeni hazır düzenleri kendisi indirir. Bu sayfada güncel kütüphanede neler olduğunu görebilir, otomatik güncellemeler telefonunuza ulaşamıyorsa kütüphaneyi buradan indirebilirsiniz.",
+    "currentHeading": "Güncel sürüm",
+    "published": "Yayınlanma: {date}",
+    "download": "Hazır düzen kütüphanesini indir",
+    "gamesHeading": "Hazır oyun düzenleri",
+    "gamesBody": "Her oyunun varsayılan ekran kontrollerine göre hazırlanmış tuş yerleşimleri; yürürken ya da araç kullanırken gibi her durum için ayrı bir düzen.",
+    "colGame": "Oyun",
+    "colPhases": "Düzenler",
+    "beta": "Beta",
+    "betaNote": "Beta hazır düzenler yaygın ekranlara göre ayarlandı, bu yüzden sizin ekranınızda birkaç tuş biraz kayık durabilir. Yerine oturmayan tuşu sürükleyip düzeltin.",
+    "templatesHeading": "Oyun türü şablonları",
+    "templatesBody": "Kendine ait hazır düzeni olmayan oyunlar için bir başlangıç noktası. Tuşlar, bu tür oyunların düğmelerini genelde koyduğu yerlerde durur.",
+    "genre": {
+      "shooter": "Nişancı",
+      "football": "Futbol",
+      "twinstick": "Çift analog"
+    },
+    "importHeading": "Elle içe aktarma",
+    "step1": "Yukarıdaki hazır düzen kütüphanesini indirin. .zip olarak bırakın, açmanıza gerek yok.",
+    "step2": "{name} uygulamasında Ayarlar → Hazır düzen kütüphanesi → Dosyadan içe aktar yolunu izleyin.",
+    "step3": "İndirdiğiniz .zip dosyasını seçin. {name} dosyayı kontrol eder ve hemen kullanmaya başlar.",
+    "noImport": "Ayarlar'da Hazır düzen kütüphanesi seçeneği yok mu? Önce {name} uygulamasını en son sürüme güncelleyin.",
+    "updatesHeading": "Hazır düzenler ne zaman güncellenir",
+    "updatesBody": "{name} yeni bir kütüphane olup olmadığını günde yaklaşık bir kez kontrol eder. Hazır bir düzenden eklediğiniz ve değiştirmediğiniz düzenler kendiliğinden yeni sürüme geçer. Değiştirdiğiniz düzenlerin üzerine ise asla yazılmaz: oyunun sayfasında Güncelleme var yazısı görünür ve yeni sürümü kendi düzeninizin yanına ekleyebilirsiniz.",
+    "safetyHeading": "Dosyalar nasıl kontrol edilir",
+    "safetyBody": "Her hazır düzen kütüphanesi DappleByte tarafından dijital olarak imzalanır. {name} imzayı telefonunuzda doğrular ve yalnızca bizim imzaladığımız, mevcut kütüphaneden daha yeni dosyaları kabul eder. Değiştirilmiş ya da daha eski bir dosya reddedilir ve mevcut hazır düzenleriniz olduğu gibi kalır."
   },
   "press": {
     "title": "{name} basın kiti",

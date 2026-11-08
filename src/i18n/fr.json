@@ -39,6 +39,7 @@
     "privacy": "Confidentialité",
     "changelog": "Notes de version",
     "rules": "Jeu de règles",
+    "presets": "Configurations prédéfinies",
     "press": "Kit presse"
   },
   "facts": {
@@ -279,6 +280,36 @@
     "noImport": "Vous ne voyez pas « Importer depuis un fichier » ? Mettez d'abord {name} à jour vers la dernière version.",
     "safetyHeading": "Comment les fichiers sont vérifiés",
     "safetyBody": "Chaque fichier de règles porte la signature numérique de DappleByte. {name} vérifie la signature sur votre téléphone et n'accepte que les fichiers signés par nous et plus récents que les règles déjà installées. Un fichier modifié ou plus ancien est refusé, et vos règles actuelles restent en place."
+  },
+  "presets": {
+    "title": "Configurations prédéfinies de jeux pour {name}",
+    "description": "Téléchargez la bibliothèque actuelle de configurations prédéfinies de {name} : dispositions officielles des touches pour les jeux pris en charge et modèles par genre, avec la marche à suivre pour l'importer manuellement.",
+    "lede": "{name} télécharge tout seul les nouvelles configurations prédéfinies. Cette page montre le contenu de la bibliothèque actuelle et vous permet de la télécharger si les mises à jour automatiques ne passent pas sur votre téléphone.",
+    "currentHeading": "Version actuelle",
+    "published": "Publié le {date}",
+    "download": "Télécharger la bibliothèque de configurations",
+    "gamesHeading": "Configurations prédéfinies de jeux",
+    "gamesBody": "Des dispositions de touches calées sur les commandes tactiles par défaut de chaque jeu, avec une phase pour chaque situation, par exemple à pied ou en voiture.",
+    "colGame": "Jeu",
+    "colPhases": "Phases",
+    "beta": "Beta",
+    "betaNote": "Les configurations Beta sont réglées sur les écrans les plus courants : quelques boutons peuvent donc être légèrement décalés sur le vôtre. Faites glisser ceux qui ne tombent pas juste.",
+    "templatesHeading": "Modèles par genre",
+    "templatesBody": "Un point de départ pour les jeux qui n'ont pas leur propre configuration. Les touches sont placées là où ce type de jeu met habituellement ses boutons.",
+    "genre": {
+      "shooter": "Tir",
+      "football": "Football",
+      "twinstick": "Double stick"
+    },
+    "importHeading": "Importer manuellement",
+    "step1": "Téléchargez la bibliothèque ci-dessus. Gardez-la en .zip, inutile de la décompresser.",
+    "step2": "Dans {name}, allez dans Paramètres → Bibliothèque de configurations prédéfinies → Importer depuis un fichier.",
+    "step3": "Choisissez le .zip téléchargé. {name} le vérifie et l'utilise aussitôt.",
+    "noImport": "Vous ne voyez pas « Bibliothèque de configurations prédéfinies » dans les Paramètres ? Mettez d'abord {name} à jour vers la dernière version.",
+    "updatesHeading": "Quand les configurations sont mises à jour",
+    "updatesBody": "{name} vérifie environ une fois par jour s'il existe une nouvelle bibliothèque. Les phases ajoutées depuis une configuration prédéfinie et que vous n'avez pas modifiées passent toutes seules à la nouvelle version. Celles que vous avez modifiées ne sont jamais écrasées : la page du jeu affiche « Mise à jour disponible », et vous pouvez ajouter la nouvelle version à côté de la vôtre.",
+    "safetyHeading": "Comment les fichiers sont vérifiés",
+    "safetyBody": "Chaque bibliothèque de configurations prédéfinies porte la signature numérique de DappleByte. {name} vérifie la signature sur votre téléphone et n'accepte que les fichiers signés par nous et plus récents que la bibliothèque déjà installée. Un fichier modifié ou plus ancien est refusé, et vos configurations actuelles restent en place."
   },
   "press": {
     "title": "Kit presse {name}",

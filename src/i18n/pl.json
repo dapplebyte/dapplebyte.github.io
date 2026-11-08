@@ -39,6 +39,7 @@
     "privacy": "Prywatność",
     "changelog": "Informacje o wersjach",
     "rules": "Zestaw reguł",
+    "presets": "Gotowe układy",
     "press": "Materiały prasowe"
   },
   "facts": {
@@ -279,6 +280,36 @@
     "noImport": "Nie widzisz opcji Importuj z pliku? Najpierw zaktualizuj {name} do najnowszej wersji.",
     "safetyHeading": "Jak sprawdzamy pliki",
     "safetyBody": "Każdy plik reguł ma podpis cyfrowy DappleByte. {name} weryfikuje podpis na Twoim telefonie i przyjmuje tylko pliki podpisane przez nas i nowsze niż reguły, które już ma. Zmieniony lub starszy plik zostanie odrzucony, a obecne reguły pozostaną bez zmian."
+  },
+  "presets": {
+    "title": "Gotowe układy do gier w {name}",
+    "description": "Pobierz aktualną bibliotekę gotowych układów {name}: oficjalne układy przycisków do obsługiwanych gier i szablony gatunków, z instrukcją ręcznego importu.",
+    "lede": "{name} sam pobiera nowe gotowe układy. Ta strona pokazuje, co zawiera aktualna biblioteka, i pozwala ją pobrać, jeśli automatyczne aktualizacje nie docierają na Twój telefon.",
+    "currentHeading": "Aktualna wersja",
+    "published": "Opublikowano {date}",
+    "download": "Pobierz bibliotekę gotowych układów",
+    "gamesHeading": "Gotowe układy do gier",
+    "gamesBody": "Układy przycisków dopasowane do domyślnego sterowania dotykowego każdej gry, z osobnym układem do każdej sytuacji, np. pieszo albo w pojeździe.",
+    "colGame": "Gra",
+    "colPhases": "Układy",
+    "beta": "Beta",
+    "betaNote": "Gotowe układy w wersji Beta są dostrojone na typowych ekranach, więc na Twoim urządzeniu kilka przycisków może być lekko przesuniętych. Przeciągnij każdy przycisk, który nie pasuje.",
+    "templatesHeading": "Szablony gatunków",
+    "templatesBody": "Punkt wyjścia dla gier bez własnego gotowego układu. Przyciski są tam, gdzie gry tego rodzaju zwykle je mają.",
+    "genre": {
+      "shooter": "Strzelanka",
+      "football": "Piłka nożna",
+      "twinstick": "Dwa drążki"
+    },
+    "importHeading": "Import ręczny",
+    "step1": "Pobierz bibliotekę powyżej. Zostaw ją jako .zip, nie trzeba jej rozpakowywać.",
+    "step2": "W {name} otwórz Ustawienia → Biblioteka gotowych układów → Importuj z pliku.",
+    "step3": "Wybierz pobrany plik .zip. {name} sprawdzi go i od razu zacznie z niego korzystać.",
+    "noImport": "Nie widzisz opcji „Biblioteka gotowych układów” w Ustawieniach? Najpierw zaktualizuj {name} do najnowszej wersji.",
+    "updatesHeading": "Kiedy gotowe układy się aktualizują",
+    "updatesBody": "{name} mniej więcej raz dziennie sprawdza, czy jest nowa biblioteka. Układy dodane z gotowych układów i niezmienione przez Ciebie same przechodzą na nową wersję. Układów, które edytujesz, nic nie nadpisze: na stronie gry pojawi się „Dostępna aktualizacja”, a nową wersję możesz dodać obok swojej.",
+    "safetyHeading": "Jak sprawdzamy pliki",
+    "safetyBody": "Każda biblioteka gotowych układów ma podpis cyfrowy DappleByte. {name} weryfikuje podpis na Twoim telefonie i przyjmuje tylko pliki podpisane przez nas i nowsze niż biblioteka, którą już ma. Zmieniony lub starszy plik zostanie odrzucony, a obecne gotowe układy pozostaną bez zmian."
   },
   "press": {
     "title": "{name}: materiały prasowe",

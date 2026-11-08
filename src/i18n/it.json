@@ -39,6 +39,7 @@
     "privacy": "Privacy",
     "changelog": "Note di rilascio",
     "rules": "Set di regole",
+    "presets": "Schemi predefiniti",
     "press": "Cartella stampa"
   },
   "facts": {
@@ -279,6 +280,36 @@
     "noImport": "Non vedi Importa da file? Prima aggiorna {name} all'ultima versione.",
     "safetyHeading": "Come vengono controllati i file",
     "safetyBody": "Ogni file di regole è firmato digitalmente da DappleByte. {name} verifica la firma sul tuo telefono e accetta solo file firmati da noi e più recenti delle regole che ha già. Un file modificato, o uno più vecchio, viene rifiutato e le tue regole attuali restano come sono."
+  },
+  "presets": {
+    "title": "Schemi predefiniti di {name} per i giochi",
+    "description": "Scarica la libreria degli schemi predefiniti aggiornata di {name}: layout dei pulsanti ufficiali per i giochi supportati e modelli per tipo di gioco, con i passaggi per importarla a mano.",
+    "lede": "{name} scarica i nuovi schemi da solo. Questa pagina mostra cosa include la libreria attuale e ti permette di scaricarla se sul tuo telefono gli aggiornamenti automatici non arrivano.",
+    "currentHeading": "Versione attuale",
+    "published": "Pubblicata il {date}",
+    "download": "Scarica la libreria degli schemi predefiniti",
+    "gamesHeading": "Schemi predefiniti per i giochi",
+    "gamesBody": "Layout dei pulsanti pensati per i controlli touch predefiniti di ogni gioco, con uno schema per ogni situazione, ad esempio a piedi o alla guida.",
+    "colGame": "Gioco",
+    "colPhases": "Schemi",
+    "beta": "Beta",
+    "betaNote": "Gli schemi Beta sono regolati su schermi comuni, quindi sul tuo alcuni pulsanti potrebbero risultare leggermente spostati. Trascina i pulsanti che non sono allineati.",
+    "templatesHeading": "Modelli per tipo di gioco",
+    "templatesBody": "Punti di partenza per i giochi che non hanno uno schema dedicato. I pulsanti stanno dove questo tipo di gioco li mette di solito.",
+    "genre": {
+      "shooter": "Sparatutto",
+      "football": "Calcio",
+      "twinstick": "Doppio stick"
+    },
+    "importHeading": "Importa a mano",
+    "step1": "Scarica la libreria degli schemi predefiniti qui sopra. Lasciala in formato .zip, non serve estrarla.",
+    "step2": "In {name}, vai su Impostazioni → Libreria degli schemi predefiniti → Importa da file.",
+    "step3": "Scegli il .zip che hai scaricato. {name} lo controlla e inizia subito a usarlo.",
+    "noImport": "Non vedi Libreria degli schemi predefiniti nelle Impostazioni? Prima aggiorna {name} all'ultima versione.",
+    "updatesHeading": "Quando si aggiornano gli schemi",
+    "updatesBody": "{name} controlla se c'è una nuova libreria circa una volta al giorno. Gli schemi che hai aggiunto da un predefinito e non hai modificato passano da soli alla nuova versione. Quelli che hai modificato non vengono mai sovrascritti: nella pagina del gioco compare Aggiornamento disponibile e puoi aggiungere la nuova versione accanto alla tua.",
+    "safetyHeading": "Come vengono controllati i file",
+    "safetyBody": "Ogni libreria di schemi predefiniti è firmata digitalmente da DappleByte. {name} verifica la firma sul tuo telefono e accetta solo file firmati da noi e più recenti della libreria che ha già. Un file modificato, o uno più vecchio, viene rifiutato e i tuoi schemi predefiniti attuali restano come sono."
   },
   "press": {
     "title": "Cartella stampa di {name}",

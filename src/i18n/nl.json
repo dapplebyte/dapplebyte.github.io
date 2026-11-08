@@ -39,6 +39,7 @@
     "privacy": "Privacy",
     "changelog": "Versiegeschiedenis",
     "rules": "Regelset",
+    "presets": "Presets",
     "press": "Persmap"
   },
   "facts": {
@@ -279,6 +280,36 @@
     "noImport": "Zie je Importeren uit bestand niet? Werk {name} dan eerst bij naar de nieuwste versie.",
     "safetyHeading": "Zo worden bestanden gecontroleerd",
     "safetyBody": "Elk regelbestand is digitaal ondertekend door DappleByte. {name} controleert de handtekening op je telefoon en accepteert alleen bestanden die wij hebben ondertekend en die nieuwer zijn dan de regels die er al staan. Een aangepast of ouder bestand wordt geweigerd en je huidige regels blijven zoals ze zijn."
+  },
+  "presets": {
+    "title": "Game-presets voor {name}",
+    "description": "Download de nieuwste presetbibliotheek van {name}: officiële knopindelingen voor ondersteunde games en sjablonen per genre, met uitleg om hem handmatig te importeren.",
+    "lede": "{name} downloadt nieuwe presets zelf. Op deze pagina zie je wat er in de huidige bibliotheek zit, en je kunt hem hier downloaden als automatische updates op je telefoon niet doorkomen.",
+    "currentHeading": "Huidige versie",
+    "published": "Gepubliceerd op {date}",
+    "download": "Presetbibliotheek downloaden",
+    "gamesHeading": "Game-presets",
+    "gamesBody": "Knopindelingen die zijn afgestemd op de standaard touchbediening van elke game, met een indeling voor elke situatie, zoals te voet of in een voertuig.",
+    "colGame": "Game",
+    "colPhases": "Indelingen",
+    "beta": "Beta",
+    "betaNote": "Beta-presets zijn afgestemd op gangbare schermen, dus een paar knoppen kunnen op jouw toestel iets verschoven zitten. Sleep een knop die niet goed zit gewoon op zijn plek.",
+    "templatesHeading": "Genresjablonen",
+    "templatesBody": "Een startpunt voor games zonder eigen preset. De knoppen staan waar dit soort games ze meestal heeft.",
+    "genre": {
+      "shooter": "Shooter",
+      "football": "Voetbal",
+      "twinstick": "Twin-stick"
+    },
+    "importHeading": "Handmatig importeren",
+    "step1": "Download hierboven de presetbibliotheek. Laat hem als .zip staan, uitpakken is niet nodig.",
+    "step2": "Ga in {name} naar Instellingen → Presetbibliotheek → Importeren uit bestand.",
+    "step3": "Kies de gedownloade .zip. {name} controleert hem en gebruikt hem meteen.",
+    "noImport": "Zie je Presetbibliotheek niet bij Instellingen? Werk {name} dan eerst bij naar de nieuwste versie.",
+    "updatesHeading": "Wanneer presets worden bijgewerkt",
+    "updatesBody": "{name} kijkt ongeveer één keer per dag of er een nieuwe bibliotheek is. Indelingen die je uit een preset hebt toegevoegd en niet hebt aangepast, gaan vanzelf over op de nieuwe versie. Indelingen die je zelf hebt bewerkt, worden nooit overschreven: op de pagina van de game staat dan Update beschikbaar, en je kunt de nieuwe versie naast je eigen indeling toevoegen.",
+    "safetyHeading": "Zo worden bestanden gecontroleerd",
+    "safetyBody": "Elke presetbibliotheek is digitaal ondertekend door DappleByte. {name} controleert de handtekening op je telefoon en accepteert alleen bestanden die wij hebben ondertekend en die nieuwer zijn dan de bibliotheek die er al staat. Een aangepast of ouder bestand wordt geweigerd en je huidige presets blijven zoals ze zijn."
   },
   "press": {
     "title": "Persmap van {name}",

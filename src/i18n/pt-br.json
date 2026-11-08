@@ -39,6 +39,7 @@
     "privacy": "Privacidade",
     "changelog": "Notas da versão",
     "rules": "Base de regras",
+    "presets": "Esquemas predefinidos",
     "press": "Kit de imprensa"
   },
   "facts": {
@@ -279,6 +280,36 @@
     "noImport": "Não encontrou Importar de arquivo? Atualize o {name} para a versão mais recente primeiro.",
     "safetyHeading": "Como os arquivos são verificados",
     "safetyBody": "Todo arquivo de regras tem a assinatura digital da DappleByte. O {name} verifica a assinatura no seu celular e só aceita arquivos assinados por nós e mais novos que as regras que ele já tem. Um arquivo alterado, ou mais antigo, é recusado, e suas regras atuais continuam como estão."
+  },
+  "presets": {
+    "title": "Esquemas predefinidos do {name} para jogos",
+    "description": "Baixe a biblioteca de esquemas predefinidos atual do {name}: layouts de botões oficiais para os jogos compatíveis e modelos por tipo de jogo, com o passo a passo para importar manualmente.",
+    "lede": "O {name} baixa os esquemas novos sozinho. Esta página mostra o que a biblioteca atual inclui e permite baixá-la se as atualizações automáticas não chegarem ao seu celular.",
+    "currentHeading": "Versão atual",
+    "published": "Publicada em {date}",
+    "download": "Baixar biblioteca de esquemas predefinidos",
+    "gamesHeading": "Esquemas predefinidos para jogos",
+    "gamesBody": "Layouts de botões feitos para os controles na tela padrão de cada jogo, com um esquema para cada situação, como a pé ou dirigindo.",
+    "colGame": "Jogo",
+    "colPhases": "Esquemas",
+    "beta": "Beta",
+    "betaNote": "Os esquemas Beta são ajustados em telas comuns, então na sua alguns botões podem ficar um pouco fora do lugar. Arraste qualquer botão que estiver fora do lugar.",
+    "templatesHeading": "Modelos por tipo de jogo",
+    "templatesBody": "Pontos de partida para jogos que ainda não têm esquema próprio. Os botões ficam onde esse tipo de jogo costuma colocá-los.",
+    "genre": {
+      "shooter": "Tiro",
+      "football": "Futebol",
+      "twinstick": "Dois analógicos"
+    },
+    "importHeading": "Importar manualmente",
+    "step1": "Baixe a biblioteca de esquemas predefinidos acima. Deixe como .zip, não precisa descompactar.",
+    "step2": "No {name}, vá em Configurações → Biblioteca de esquemas predefinidos → Importar de arquivo.",
+    "step3": "Escolha o .zip que você baixou. O {name} confere o arquivo e passa a usá-lo na hora.",
+    "noImport": "Não encontrou Biblioteca de esquemas predefinidos nas Configurações? Atualize o {name} para a versão mais recente primeiro.",
+    "updatesHeading": "Quando os esquemas são atualizados",
+    "updatesBody": "O {name} procura uma biblioteca nova mais ou menos uma vez por dia. Os esquemas que você adicionou a partir de um predefinido e não alterou passam para a nova versão sozinhos. Os que você editou nunca são substituídos: a página do jogo mostra Atualização disponível, e você pode adicionar a nova versão ao lado da sua.",
+    "safetyHeading": "Como os arquivos são verificados",
+    "safetyBody": "Toda biblioteca de esquemas predefinidos tem a assinatura digital da DappleByte. O {name} verifica a assinatura no seu celular e só aceita arquivos assinados por nós e mais novos que a biblioteca que ele já tem. Um arquivo alterado, ou mais antigo, é recusado, e seus esquemas predefinidos atuais continuam como estão."
   },
   "press": {
     "title": "Kit de imprensa do {name}",
