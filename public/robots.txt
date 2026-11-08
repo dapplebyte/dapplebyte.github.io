@@ -4,114 +4,95 @@ User-agent: *
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: GPTBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: Claude-SearchBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: Claude-User
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: Perplexity-User
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: Applebot-Extended
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: Bytespider
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: PetalBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: Amazonbot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: Meta-ExternalAgent
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: DuckAssistBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: YouBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: cohere-ai
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 User-agent: MistralAI-User
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
-Disallow: /gamepad-pro/presets/test/
 
 Sitemap: https://dapplebyte.com/sitemap-index.xml
