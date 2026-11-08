@@ -3,6 +3,20 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 199,
+      "name": "1.9.9",
+      "date": "2026-11-08",
+      "items": [
+        "Yeni: Free Fire için hazır düzen; düzen eklerken Nişancı, Futbol ve Çift analog şablonları.",
+        "Hazır düzenler Beta aşamasında: tuşlar kaymışsa \"Bu düzeni değerlendir\"i kullanın.",
+        "Ayarlar'da: güncelleme veya içe aktarma için Hazır düzen kütüphanesi.",
+        "Yeni Açık tema: Ayarlar > Tema.",
+        "Çubuklar: saldırı çubukları için \"Bırakınca saldır\" seçeneği.",
+        "Telegram topluluğu: Ayarlar ve SSS'de bağlantı.",
+        "Çökme ve donma sorunları giderildi."
+      ]
+    },
+    {
       "code": 198,
       "name": "1.9.8",
       "date": "2026-10-30",
@@ -100,5 +114,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

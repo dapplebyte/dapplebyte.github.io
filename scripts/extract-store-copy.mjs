@@ -117,11 +117,12 @@ const CONFIG = {
   },
   'gamepad-pro': {
     format: 'emoji',
-    /** Two intro paragraphs since the 2026-10-18 ASO rewrite (three before). */
+    /** Two intro paragraphs since the 2026-10-18 ASO rewrite (three before). 1.9.9: no-root moved up to 2nd, keyboard section dropped. */
     introParagraphs: 2,
     ids: [
       'intro',
       'drag-map-play',
+      'no-root',
       'mapping',
       'multi-button',
       'profiles',
@@ -132,11 +133,9 @@ const CONFIG = {
       'turbo',
       'vibration',
       'any-game',
-      'no-root',
       'controllers',
       'get-started',
       'permissions',
-      'keyboard',
       'compatibility',
       'help',
     ],

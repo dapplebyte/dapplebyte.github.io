@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "Non riesco a scrivere in un gioco mentre la mappatura è attiva. Cosa posso fare?",
+          "a": [
+            "Su questo telefono, mentre la mappatura è attiva, Gamepad Pro tiene il focus di input del gioco, così può leggere levette e grilletti senza tastiera. Quando tocchi un campo di testo nel gioco, restituisce il focus per permettere alla tastiera di aprirsi; se la tastiera non compare, tocca di nuovo il campo di testo. Non riesci ancora a scrivere? Tocca il pulsante di pausa sul pulsante flottante («Metti in pausa la mappatura»), scrivi il messaggio e poi toccalo di nuovo per riprendere."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Cos’è Shizuku e mi serve?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

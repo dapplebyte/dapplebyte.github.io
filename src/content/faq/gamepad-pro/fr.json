@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "Je ne peux pas écrire dans un jeu quand le mappage est actif. Que faire ?",
+          "a": [
+            "Sur ce téléphone, Gamepad Pro garde le focus de saisie du jeu pendant que le mappage est actif : il peut ainsi lire vos sticks et vos gâchettes sans passer par un clavier. Quand vous touchez un champ de texte dans le jeu, il rend le focus pour que votre clavier puisse s'ouvrir — si le clavier n'apparaît pas, touchez à nouveau le champ de texte. Vous ne pouvez toujours pas écrire ? Touchez le bouton pause du bouton flottant (« Suspendre le mappage »), écrivez votre message, puis touchez-le à nouveau pour reprendre."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Qu’est-ce que Shizuku et en ai-je besoin ?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

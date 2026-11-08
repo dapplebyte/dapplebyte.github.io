@@ -2,14 +2,14 @@
   "slug": "gamepad-pro",
   "locale": "zh-cn",
   "title": "Gamepad Pro: 手柄按键映射",
-  "shortDescription": "用游戏控制器玩触屏手游：摇杆、L2/R2 扳机、宏、连发、组合键全支持，免 root。",
-  "tagline": "Gamepad Pro 是 Android 上的手柄按键映射工具：把手柄映射成触屏操作，用实体按键玩只支持触控的游戏。免 root，也不用克隆游戏。",
+  "shortDescription": "用游戏控制器玩触屏手游，免 root、免 ADB、免电脑，Shizuku 可选。摇杆、扳机、宏全支持。",
+  "tagline": "Gamepad Pro 是 Android 上的手柄按键映射工具：把手柄映射成触屏操作，用实体按键玩只支持触控的游戏。免 root、免 ADB、免电脑，也不用克隆游戏，Shizuku 可选。",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: 手柄按键映射",
       "paragraphs": [
-        "Gamepad Pro 是 Android 上的手柄按键映射工具：把手柄映射成触屏操作，用实体按键玩只支持触控的游戏。免 root，也不用克隆游戏。",
+        "Gamepad Pro 是 Android 上的手柄按键映射工具：把手柄映射成触屏操作，用实体按键玩只支持触控的游戏。免 root、免 ADB、免电脑，也不用克隆游戏，Shizuku 可选。",
         "支持 Android 能识别的任何 蓝牙 或 USB 手柄。把按键、两根模拟摇杆和 L2/R2 扳机映射成点击、长按和滑动；为每款游戏单独建一套按键映射，对局中随时切换方案，还能加上宏、连发和组合键。"
       ],
       "bullets": []
@@ -19,6 +19,14 @@
       "title": "几分钟把手柄映射成触屏操作",
       "paragraphs": [
         "添加游戏，打开映射编辑器，把每个控件拖到屏幕上对应的位置。保存后，直接从 Gamepad Pro 启动游戏。"
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "免 root、免 ADB、免电脑——Shizuku 可选",
+      "paragraphs": [
+        "所有设置都在手机上完成：不用 root、不用敲 ADB 命令、不用连电脑，也不会创建游戏的克隆版本。无障碍服务开启后，重启手机也不用重新激活。Shizuku 只是降低触控延迟的可选增强，所有映射不装它也能用。"
       ],
       "bullets": []
     },
@@ -103,14 +111,6 @@
       "bullets": []
     },
     {
-      "id": "no-root",
-      "title": "不用分身、不用 root、不用 ADB",
-      "paragraphs": [
-        "Gamepad Pro 直接把手柄输入映射成屏幕操作：不会创建游戏的克隆副本，不用 root，核心设置也不用 ADB。少数进阶选项可以配合 Shizuku，但映射本身并不需要。"
-      ],
-      "bullets": []
-    },
-    {
       "id": "controllers",
       "title": "Xbox、PlayStation、Nintendo 按键布局",
       "paragraphs": [
@@ -125,7 +125,6 @@
       "bullets": [
         "打开 Gamepad Pro，按照引导完成设置。",
         "开启无障碍服务并连接你的手柄。",
-        "要映射摇杆或 L2/R2 扳机时，启用 Gamepad Pro 键盘。",
         "点击“添加”选择游戏，把控件拖到位置上。",
         "保存布局、启动游戏，开始畅玩。"
       ]
@@ -136,14 +135,6 @@
       "paragraphs": [
         "无障碍服务：",
         "Gamepad Pro 使用 Android 的 AccessibilityService API，把你配置好的手柄操作转换成屏幕上的点击和滑动。映射要在应用之外生效就必须开启此服务；它只会执行你创建的操作，绝不会收集或上传你的个人数据。"
-      ],
-      "bullets": []
-    },
-    {
-      "id": "keyboard",
-      "title": "Gamepad Pro 键盘",
-      "paragraphs": [
-        "Android 的无障碍服务读不到模拟摇杆的行程和 L2/R2 扳机的数值。Gamepad Pro 输入法会捕获这些输入，让它们能被正确映射，也可能用于文字输入操作。"
       ],
       "bullets": []
     },
@@ -164,5 +155,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-11-08"
 }

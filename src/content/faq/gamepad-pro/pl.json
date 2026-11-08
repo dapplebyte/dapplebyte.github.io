@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "Nie mogę pisać w grze, gdy mapowanie jest włączone. Co zrobić?",
+          "a": [
+            "Na tym telefonie podczas mapowania Gamepad Pro przejmuje fokus wprowadzania w grze, dzięki czemu odczytuje drążki i spusty bez klawiatury. Gdy stukniesz pole tekstowe w grze, oddaje fokus, aby mogła otworzyć się Twoja klawiatura — jeśli klawiatura się nie pojawi, stuknij pole tekstowe jeszcze raz. Nadal nie da się pisać? Stuknij przycisk pauzy na pływającym przycisku (\"Wstrzymaj mapowanie\"), napisz wiadomość, a potem stuknij go ponownie, aby wznowić."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Czym jest Shizuku i czy go potrzebuję?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

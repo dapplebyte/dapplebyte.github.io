@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "Não consigo digitar no jogo enquanto o mapeamento está ativo. O que posso fazer?",
+          "a": [
+            "Neste telefone, o Gamepad Pro mantém o foco de entrada do jogo enquanto o mapeamento está ativo, para conseguir ler seus analógicos e gatilhos sem teclado. Quando você toca em um campo de texto no jogo, ele devolve o foco para que seu teclado possa abrir — se o teclado não aparecer, toque no campo de texto mais uma vez. Ainda não consegue digitar? Toque no botão de pausa do botão flutuante (\"Pausar mapeamento\"), digite sua mensagem e toque nele de novo para retomar."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "O que é o Shizuku e eu preciso dele?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

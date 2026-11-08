@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "Aku tidak bisa mengetik di game saat pemetaan aktif. Harus bagaimana?",
+          "a": [
+            "Di ponsel ini, Gamepad Pro memegang fokus input game selama pemetaan berjalan, jadi stik dan trigger-mu bisa dibaca tanpa keyboard. Saat kamu mengetuk kotak teks di game, fokusnya dikembalikan supaya keyboard-mu bisa muncul — kalau keyboard tidak muncul, ketuk kotak teksnya sekali lagi. Masih tidak bisa mengetik? Ketuk tombol jeda di tombol melayang (\"Jeda pemetaan\"), ketik pesanmu, lalu ketuk lagi untuk melanjutkan."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Apa itu Shizuku, dan apakah aku butuh?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

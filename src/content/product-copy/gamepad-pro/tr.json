@@ -2,14 +2,14 @@
   "slug": "gamepad-pro",
   "locale": "tr",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Gamepad tuş atama: dokunmatik oyunları kumandayla oyna. Tetik, makro, turbo.",
-  "tagline": "Gamepad Pro, Android için bir kumanda tuş eşleme uygulamasıdır: gamepad tuş atama ile kumandanızı dokunmaya eşleyin ve yalnızca dokunmatik oyunları gerçek tuşlarla oynayın. Klon yok, root yok.",
+  "shortDescription": "Gamepad tuş atama: kumandayla oyna. Root, ADB, PC yok; Shizuku isteğe bağlı.",
+  "tagline": "Gamepad Pro, Android için bir kumanda tuş eşleme uygulamasıdır: gamepad tuş atama ile kumandanızı dokunmaya eşleyin ve yalnızca dokunmatik oyunları gerçek tuşlarla oynayın. Root yok, ADB yok, PC yok, klon yok — Shizuku isteğe bağlı.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro, Android için bir kumanda tuş eşleme uygulamasıdır: gamepad tuş atama ile kumandanızı dokunmaya eşleyin ve yalnızca dokunmatik oyunları gerçek tuşlarla oynayın. Klon yok, root yok.",
+        "Gamepad Pro, Android için bir kumanda tuş eşleme uygulamasıdır: gamepad tuş atama ile kumandanızı dokunmaya eşleyin ve yalnızca dokunmatik oyunları gerçek tuşlarla oynayın. Root yok, ADB yok, PC yok, klon yok — Shizuku isteğe bağlı.",
         "Android'in tanıdığı her Bluetooth veya USB kumandayla çalışır. Tuşları, iki analog çubuğu ve L2/R2 tetiklerini dokunma, basılı tutma ve kaydırmaya atayın; her oyuna ayrı bir tuş eşleme kurun, maç ortasında Düzen değiştirin; makro, turbo ve kombinasyon ekleyin."
       ],
       "bullets": []
@@ -19,6 +19,14 @@
       "title": "Dakikalar içinde gamepad tuş atama",
       "paragraphs": [
         "Bir oyun ekleyin, eşleme düzenleyicisini açın ve her kontrolü ekrandaki doğru noktaya sürükleyin. Kaydedin ve oyunu Gamepad Pro'dan başlatın."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Root yok, ADB yok, pc yok — Shizuku isteğe bağlı",
+      "paragraphs": [
+        "Her şey doğrudan telefonda kurulur: root yok, ADB komutu yok, bilgisayar yok, oyunun klon kopyası yok. Erişilebilirlik Hizmeti'ni bir kez açtıktan sonra, cihaz yeniden başladığında hiçbir şeyi tekrar etkinleştirmeniz gerekmez. Shizuku, daha düşük gecikmeli dokunma için isteğe bağlı bir ektir; tüm eşlemeler onsuz da çalışır."
       ],
       "bullets": []
     },
@@ -103,14 +111,6 @@
       "bullets": []
     },
     {
-      "id": "no-root",
-      "title": "Klonlama yok, root yok, ADB yok",
-      "paragraphs": [
-        "Gamepad Pro, kumanda girişlerini doğrudan ekran eylemlerine eşler: oyunun klon kopyası yok, root yok, temel kurulumda ADB yok. Birkaç gelişmiş seçenek Shizuku kullanabilir; eşlemenin kendisi kullanmaz."
-      ],
-      "bullets": []
-    },
-    {
       "id": "controllers",
       "title": "Xbox, PlayStation ve Nintendo tuş dizilimleri",
       "paragraphs": [
@@ -125,7 +125,6 @@
       "bullets": [
         "Gamepad Pro'yu açın ve rehberli kurulumu izleyin.",
         "Erişilebilirlik Hizmeti'ni etkinleştirin ve kumandanızı bağlayın.",
-        "Çubuklar ve L2/R2 tetikleri için Gamepad Pro klavyesini etkinleştirin.",
         "Ekle'ye dokunun, oyununuzu seçin, kontrolleri yerine sürükleyin.",
         "Kaydedin, oyunu başlatın ve oynayın."
       ]
@@ -136,14 +135,6 @@
       "paragraphs": [
         "Erişilebilirlik Hizmeti:",
         "Gamepad Pro, yapılandırdığınız kumanda eylemlerini ekranda dokunma ve kaydırmaya dönüştürmek için Android'in AccessibilityService API'sini kullanır. Eşlemenin uygulama dışında çalışması için gereklidir; yalnızca oluşturduğunuz eylemleri yapar, kişisel verilerinizi asla toplamaz veya yüklemez."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "keyboard",
-      "title": "Gamepad Pro Klavyesi",
-      "paragraphs": [
-        "Android'in Erişilebilirlik Hizmeti, analog çubuk veya L2/R2 tetik değerlerini okuyamaz. Gamepad Pro giriş yöntemi bu girişleri doğru eşlemek için yakalar; metin girişi için de kullanılabilir."
       ],
       "bullets": []
     },
@@ -164,5 +155,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-11-08"
 }

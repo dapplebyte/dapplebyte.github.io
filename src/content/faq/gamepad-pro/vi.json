@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "Đang bật ánh xạ thì không gõ chữ được trong game. Phải làm sao?",
+          "a": [
+            "Trên điện thoại này, khi ánh xạ đang chạy, Gamepad Pro giữ tiêu điểm nhập của game để đọc được cần analog và cò mà không cần bàn phím. Khi bạn chạm vào ô nhập chữ trong game, nó sẽ trả lại tiêu điểm để bàn phím của bạn hiện lên — nếu bàn phím không hiện, hãy chạm vào ô nhập chữ thêm lần nữa. Vẫn không gõ được? Chạm nút tạm dừng trên nút nổi (\"Tạm dừng ánh xạ\"), gõ tin nhắn, rồi chạm lại để tiếp tục."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Shizuku là gì, tôi có cần không?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

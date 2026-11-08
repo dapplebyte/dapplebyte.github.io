@@ -2,14 +2,14 @@
   "slug": "gamepad-pro",
   "locale": "nl",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Speel touchgames met een gamepad: sticks, triggers, macro’s, turbo. Geen root.",
-  "tagline": "Gamepad Pro is een controller-mapper voor Android: wijs je gamepad toe aan touch en speel touchgames met echte knoppen. Geen root, geen gekloonde game.",
+  "shortDescription": "Speel touchgames met een gamepad. Zonder root, ADB of pc. Shizuku optioneel.",
+  "tagline": "Gamepad Pro is een controller-mapper voor Android: wijs je gamepad toe aan touch en speel touchgames met echte knoppen. Geen root, geen ADB, geen pc, geen gekloonde game — Shizuku is optioneel.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro is een controller-mapper voor Android: wijs je gamepad toe aan touch en speel touchgames met echte knoppen. Geen root, geen gekloonde game.",
+        "Gamepad Pro is een controller-mapper voor Android: wijs je gamepad toe aan touch en speel touchgames met echte knoppen. Geen root, geen ADB, geen pc, geen gekloonde game — Shizuku is optioneel.",
         "Werkt met elke Bluetooth- of USB-controller die Android herkent. Wijs knoppen, analoge sticks en L2/R2-triggers toe aan tikken, vasthouden en vegen, maak per game een knoptoewijzing, wissel midden in een match van indeling en voeg macro’s, turbo en combinaties toe."
       ],
       "bullets": []
@@ -19,6 +19,14 @@
       "title": "Wijs je gamepad in minuten toe aan touch",
       "paragraphs": [
         "Voeg een game toe, open de mapping-editor en sleep elke knop naar de juiste plek op het scherm. Sla op en start de game vanuit Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Geen root, geen ADB, geen pc — Shizuku optioneel",
+      "paragraphs": [
+        "Alles stel je in op de telefoon zelf: geen root, geen ADB-commando’s, geen computer en geen gekloonde kopie van je game. Staat de toegankelijkheidsservice eenmaal aan, dan hoef je na een herstart niets opnieuw te activeren. Shizuku is een optionele extra voor touch met minder vertraging; elke toewijzing werkt ook zonder."
       ],
       "bullets": []
     },
@@ -103,14 +111,6 @@
       "bullets": []
     },
     {
-      "id": "no-root",
-      "title": "Geen klonen, geen root, geen ADB",
-      "paragraphs": [
-        "Gamepad Pro zet controllerinvoer rechtstreeks om in schermacties: geen gekloonde kopie van je game, geen root en geen ADB voor de basisinstellingen. Enkele geavanceerde opties kunnen Shizuku gebruiken; het toewijzen zelf niet."
-      ],
-      "bullets": []
-    },
-    {
       "id": "controllers",
       "title": "Xbox-, PlayStation- en Nintendo-layouts",
       "paragraphs": [
@@ -125,7 +125,6 @@
       "bullets": [
         "Open Gamepad Pro en volg de begeleide installatie.",
         "Schakel de toegankelijkheidsservice in en koppel je controller.",
-        "Schakel het Gamepad Pro-toetsenbord in voor sticks en L2/R2-triggers.",
         "Tik op Toevoegen, kies je game en sleep de bediening op zijn plek.",
         "Sla op, start de game en speel."
       ]
@@ -136,14 +135,6 @@
       "paragraphs": [
         "Toegankelijkheidsservice:",
         "Gamepad Pro gebruikt de AccessibilityService-API van Android om je controlleracties om te zetten in tikken en vegen. De service is nodig om buiten de app te kunnen toewijzen, voert alleen jouw acties uit en verzamelt of uploadt nooit je persoonlijke gegevens."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "keyboard",
-      "title": "Gamepad Pro-toetsenbord",
-      "paragraphs": [
-        "De toegankelijkheidsservice kan analoge sticks en L2/R2-triggers niet uitlezen. De invoermethode van Gamepad Pro vangt die invoer op zodat hij correct wordt toegewezen, en werkt ook voor tekstinvoer."
       ],
       "bullets": []
     },
@@ -164,5 +155,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-11-08"
 }

@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "I can't type in a game while mapping is on. What can I do?",
+          "a": [
+            "On this phone, Gamepad Pro holds the game's input focus while mapping runs, so it can read your sticks and triggers without a keyboard. When you tap a text box in the game, it hands the focus back so your keyboard can open — if the keyboard doesn't show up, tap the text box once more. Still can't type? Tap the pause button on the floating button (\"Pause mapping\"), type your message, then tap it again to resume."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "What is Shizuku, and do I need it?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

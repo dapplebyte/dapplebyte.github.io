@@ -2,14 +2,14 @@
   "slug": "gamepad-pro",
   "locale": "vi",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Ánh xạ tay cầm sang cảm ứng: chơi game cảm ứng bằng gamepad. Cò, macro, turbo.",
-  "tagline": "Gamepad Pro là ứng dụng ánh xạ phím tay cầm cho Android: ánh xạ gamepad sang thao tác chạm và chơi game chỉ hỗ trợ cảm ứng bằng nút bấm thật. Không cần root, không clone game.",
+  "shortDescription": "Ánh xạ tay cầm sang cảm ứng: không root, không ADB, không PC. Shizuku tùy chọn.",
+  "tagline": "Gamepad Pro là ứng dụng ánh xạ phím tay cầm cho Android: ánh xạ gamepad sang thao tác chạm và chơi game chỉ hỗ trợ cảm ứng bằng nút bấm thật. Không root, không ADB, không cần PC, không clone game — Shizuku là tùy chọn.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro là ứng dụng ánh xạ phím tay cầm cho Android: ánh xạ gamepad sang thao tác chạm và chơi game chỉ hỗ trợ cảm ứng bằng nút bấm thật. Không cần root, không clone game.",
+        "Gamepad Pro là ứng dụng ánh xạ phím tay cầm cho Android: ánh xạ gamepad sang thao tác chạm và chơi game chỉ hỗ trợ cảm ứng bằng nút bấm thật. Không root, không ADB, không cần PC, không clone game — Shizuku là tùy chọn.",
         "Dùng được với mọi tay cầm Bluetooth hoặc USB mà Android nhận diện. Map nút, hai cần analog và cò L2/R2 thành chạm, giữ và vuốt; tạo bộ ánh xạ phím riêng cho từng game, đổi layout ngay giữa trận, thêm macro, turbo và tổ hợp phím."
       ],
       "bullets": []
@@ -19,6 +19,14 @@
       "title": "Ánh xạ tay cầm sang cảm ứng chỉ trong vài phút",
       "paragraphs": [
         "Thêm game, mở trình chỉnh sửa ánh xạ và kéo từng nút vào đúng vị trí trên màn hình. Lưu lại rồi mở game ngay từ Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Không root, không ADB, không cần pc — Shizuku tùy chọn",
+      "paragraphs": [
+        "Mọi thứ đều thiết lập ngay trên điện thoại: không root, không gõ lệnh ADB, không cần máy tính và không tạo bản sao game. Chỉ cần bật Dịch vụ Trợ năng một lần, khởi động lại máy cũng không phải kích hoạt lại. Shizuku chỉ là tùy chọn thêm để giảm độ trễ cảm ứng; mọi ánh xạ vẫn chạy bình thường khi không có Shizuku."
       ],
       "bullets": []
     },
@@ -103,14 +111,6 @@
       "bullets": []
     },
     {
-      "id": "no-root",
-      "title": "Không clone, không root, không ADB",
-      "paragraphs": [
-        "Gamepad Pro ánh xạ tín hiệu tay cầm thẳng thành thao tác trên màn hình: không tạo bản sao của game, không cần root, không cần ADB cho thiết lập cơ bản. Vài tùy chọn nâng cao có thể dùng Shizuku; riêng phần ánh xạ thì không."
-      ],
-      "bullets": []
-    },
-    {
       "id": "controllers",
       "title": "Layout Xbox, PlayStation & Nintendo",
       "paragraphs": [
@@ -125,7 +125,6 @@
       "bullets": [
         "Mở Gamepad Pro và làm theo hướng dẫn thiết lập.",
         "Bật Dịch vụ Trợ năng và kết nối tay cầm.",
-        "Bật bàn phím Gamepad Pro để dùng cần analog và cò L2/R2.",
         "Nhấn Thêm, chọn game, kéo các nút vào vị trí.",
         "Lưu lại, mở game và chơi."
       ]
@@ -136,14 +135,6 @@
       "paragraphs": [
         "Dịch vụ Trợ năng:",
         "Gamepad Pro dùng AccessibilityService API của Android để biến thao tác tay cầm bạn đã cài thành chạm và vuốt trên màn hình. Quyền này bắt buộc để ánh xạ chạy được bên ngoài ứng dụng; app chỉ thực hiện đúng thao tác bạn tạo, không bao giờ thu thập hay tải lên dữ liệu cá nhân của bạn."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "keyboard",
-      "title": "Gamepad Pro Keyboard",
-      "paragraphs": [
-        "Dịch vụ Trợ năng của Android không đọc được giá trị cần analog và cò L2/R2. Bộ gõ Gamepad Pro thu các tín hiệu này để ánh xạ cho đúng, và cũng có thể dùng để nhập văn bản."
       ],
       "bullets": []
     },
@@ -164,5 +155,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-11-08"
 }

@@ -2,14 +2,14 @@
   "slug": "gamepad-pro",
   "locale": "en",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Play touch-only games with a gamepad: sticks, triggers, macros, turbo. No root.",
-  "tagline": "Gamepad Pro is a controller mapper for Android: map your gamepad to touch and play touch-only games with real buttons. No root, no cloned game.",
+  "shortDescription": "Play touch-only games with a gamepad. No root, no ADB, no PC. Shizuku optional.",
+  "tagline": "Gamepad Pro is a controller mapper for Android: map your gamepad to touch and play touch-only games with real buttons. No root, no ADB, no PC, no cloned game — Shizuku is optional.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro is a controller mapper for Android: map your gamepad to touch and play touch-only games with real buttons. No root, no cloned game.",
+        "Gamepad Pro is a controller mapper for Android: map your gamepad to touch and play touch-only games with real buttons. No root, no ADB, no PC, no cloned game — Shizuku is optional.",
         "Works with any Bluetooth or USB controller Android recognises. Map buttons, both analog sticks and L2/R2 triggers to taps, holds and swipes; build a button mapping per game, switch layouts mid-match, and add macros, turbo and combos."
       ],
       "bullets": []
@@ -19,6 +19,14 @@
       "title": "Map your gamepad to touch in minutes",
       "paragraphs": [
         "Add a game, open the mapping editor, and drag each control onto the matching spot on screen. Save it and launch the game from Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "No root, no ADB, no pc — Shizuku optional",
+      "paragraphs": [
+        "Everything is set up on the phone itself: no root, no ADB commands, no computer, and no cloned copy of your game. Once the Accessibility Service is on there is nothing to re-activate after a reboot. Shizuku is an optional extra for lower-latency touch; every mapping works without it."
       ],
       "bullets": []
     },
@@ -103,14 +111,6 @@
       "bullets": []
     },
     {
-      "id": "no-root",
-      "title": "No cloning, no root, no ADB",
-      "paragraphs": [
-        "Gamepad Pro maps controller input straight to screen actions: no cloned copy of your game, no root, and no ADB for the core setup. A few advanced options can use Shizuku; mapping itself does not."
-      ],
-      "bullets": []
-    },
-    {
       "id": "controllers",
       "title": "Xbox, PlayStation & Nintendo layouts",
       "paragraphs": [
@@ -125,7 +125,6 @@
       "bullets": [
         "Open Gamepad Pro and follow the guided setup.",
         "Enable the Accessibility Service and connect your controller.",
-        "Enable the Gamepad Pro keyboard for sticks and L2/R2 triggers.",
         "Tap Add, pick your game, drag the controls into position.",
         "Save, launch the game, and play."
       ]
@@ -136,14 +135,6 @@
       "paragraphs": [
         "Accessibility Service:",
         "Gamepad Pro uses Android’s AccessibilityService API to turn your configured controller actions into taps and swipes. It is required for mapping to work outside the app, only performs the actions you create, and never collects or uploads your personal data."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "keyboard",
-      "title": "Gamepad Pro Keyboard",
-      "paragraphs": [
-        "Android’s Accessibility Service cannot read analog stick or L2/R2 trigger values. The Gamepad Pro input method captures these inputs so they can be mapped correctly, and may also be used for text input."
       ],
       "bullets": []
     },
@@ -164,5 +155,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-11-08"
 }

@@ -3,6 +3,20 @@
   "locale": "pt-br",
   "entries": [
     {
+      "code": 199,
+      "name": "1.9.9",
+      "date": "2026-11-08",
+      "items": [
+        "Novo: esquema predefinido do Free Fire; modelos Tiro, Futebol e Dois analógicos em novos esquemas.",
+        "Predefinidos em beta: botões fora do lugar? Use \"Avaliar este esquema\".",
+        "Em Configurações: Biblioteca de esquemas predefinidos (atualizar ou importar).",
+        "Novo tema Claro: Configurações > Tema.",
+        "Analógicos: opção \"Disparar ao soltar\" para analógicos de ataque.",
+        "Comunidade no Telegram: link em Configurações e Perguntas frequentes.",
+        "Corrigidos travamentos e congelamentos."
+      ]
+    },
+    {
       "code": 198,
       "name": "1.9.8",
       "date": "2026-10-30",
@@ -100,5 +114,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

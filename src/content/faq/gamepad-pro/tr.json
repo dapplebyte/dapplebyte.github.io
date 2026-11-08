@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "Eşleme açıkken oyunda yazı yazamıyorum. Ne yapabilirim?",
+          "a": [
+            "Bu telefonda Gamepad Pro, eşleme çalışırken oyunun giriş odağını elinde tutar; böylece çubuklarınızı ve tetiklerinizi klavyeye gerek kalmadan okuyabilir. Oyunda bir metin kutusuna dokunduğunuzda odağı geri bırakır ve klavyeniz açılabilir — klavye görünmezse metin kutusuna bir kez daha dokunun. Hâlâ yazamıyor musunuz? Yüzen düğmedeki duraklatma düğmesine (\"Eşlemeyi duraklat\") dokunun, mesajınızı yazın, ardından devam etmek için ona tekrar dokunun."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Shizuku nedir ve gerekli mi?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

@@ -2,14 +2,14 @@
   "slug": "gamepad-pro",
   "locale": "de",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Touch-Spiele mit dem Gamepad spielen: Sticks, Trigger, Makros, Turbo. Ohne root.",
-  "tagline": "Gamepad Pro ist ein Controller-Mapper für Android: Belege dein Gamepad auf Touch und spiele reine Touch-Games mit echten Tasten. Ohne root, ohne geklontes Spiel.",
+  "shortDescription": "Touch-Spiele mit dem Gamepad spielen – ohne root, ADB oder PC. Shizuku optional.",
+  "tagline": "Gamepad Pro ist ein Controller-Mapper für Android: Belege dein Gamepad auf Touch und spiele reine Touch-Games mit echten Tasten. Ohne root, ohne ADB, ohne PC, ohne geklontes Spiel – Shizuku ist optional.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro ist ein Controller-Mapper für Android: Belege dein Gamepad auf Touch und spiele reine Touch-Games mit echten Tasten. Ohne root, ohne geklontes Spiel.",
+        "Gamepad Pro ist ein Controller-Mapper für Android: Belege dein Gamepad auf Touch und spiele reine Touch-Games mit echten Tasten. Ohne root, ohne ADB, ohne PC, ohne geklontes Spiel – Shizuku ist optional.",
         "Läuft mit jedem Bluetooth- oder USB-Controller, den Android erkennt. Belege Tasten, Analogsticks und L2/R2-Trigger mit Tippen, Halten und Wischen, erstelle pro Spiel eine Tastenbelegung, wechsle Layouts mitten in der Runde und ergänze Makros, Turbo und Kombos."
       ],
       "bullets": []
@@ -19,6 +19,14 @@
       "title": "GAMEPAD IN MINUTEN AUF TOUCH BELEGEN",
       "paragraphs": [
         "Spiel hinzufügen, Mapping-Editor öffnen, jedes Steuerelement an die passende Stelle ziehen. Speichern und das Spiel aus Gamepad Pro starten."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "OHNE root, OHNE ADB, OHNE PC – SHIZUKU OPTIONAL",
+      "paragraphs": [
+        "Alles wird direkt auf dem Handy eingerichtet: kein root, keine ADB-Befehle, kein Computer und keine geklonte Kopie deines Spiels. Ist der Bedienungshilfendienst einmal aktiv, musst du nach einem Neustart nichts erneut aktivieren. Shizuku ist ein optionales Extra für geringere Touch-Latenz – jede Belegung funktioniert auch ohne."
       ],
       "bullets": []
     },
@@ -103,14 +111,6 @@
       "bullets": []
     },
     {
-      "id": "no-root",
-      "title": "OHNE KLONEN, OHNE root, OHNE ADB",
-      "paragraphs": [
-        "Gamepad Pro übersetzt Controller-Eingaben direkt in Bildschirmaktionen: keine geklonte Spielkopie, kein root und kein ADB für die Grundeinrichtung. Einige erweiterte Optionen können Shizuku nutzen, das Mapping selbst nicht."
-      ],
-      "bullets": []
-    },
-    {
       "id": "controllers",
       "title": "XBOX-, PLAYSTATION- & NINTENDO-LAYOUTS",
       "paragraphs": [
@@ -125,7 +125,6 @@
       "bullets": [
         "Gamepad Pro öffnen und der geführten Einrichtung folgen.",
         "Bedienungshilfendienst aktivieren und Controller verbinden.",
-        "Gamepad Pro-Tastatur für Sticks und L2/R2-Trigger aktivieren.",
         "Auf „Hinzufügen“ tippen, Spiel wählen, Steuerelemente positionieren.",
         "Speichern, Spiel starten, losspielen."
       ]
@@ -136,14 +135,6 @@
       "paragraphs": [
         "Bedienungshilfendienst:",
         "Gamepad Pro nutzt die AccessibilityService API von Android, um deine Controller-Aktionen in Tippen und Wischen umzuwandeln. Sie ist nötig, damit die Belegung außerhalb der App funktioniert, führt nur deine Aktionen aus und erfasst oder überträgt keine persönlichen Daten."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "keyboard",
-      "title": "Gamepad Pro Keyboard",
-      "paragraphs": [
-        "Der Bedienungshilfendienst kann Analogstick- und L2/R2-Trigger-Werte nicht lesen. Die Eingabemethode von Gamepad Pro erfasst sie für die korrekte Belegung und dient auch zur Texteingabe."
       ],
       "bullets": []
     },
@@ -164,5 +155,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-11-08"
 }

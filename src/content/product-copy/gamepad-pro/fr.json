@@ -2,14 +2,14 @@
   "slug": "gamepad-pro",
   "locale": "fr",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Mappez la manette en tactile et jouez : sticks, gâchettes, macros. Sans root.",
-  "tagline": "Gamepad Pro est un mappeur de manette pour Android : mappez votre manette en tactile et jouez aux jeux tactiles avec de vrais boutons. Sans root, sans cloner le jeu.",
+  "shortDescription": "Mappez la manette en tactile et jouez. Sans root, ADB ni PC. Shizuku en option.",
+  "tagline": "Gamepad Pro est un mappeur de manette pour Android : mappez votre manette en tactile et jouez aux jeux tactiles avec de vrais boutons. Sans root, sans ADB, sans PC, sans cloner le jeu — Shizuku est en option.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro est un mappeur de manette pour Android : mappez votre manette en tactile et jouez aux jeux tactiles avec de vrais boutons. Sans root, sans cloner le jeu.",
+        "Gamepad Pro est un mappeur de manette pour Android : mappez votre manette en tactile et jouez aux jeux tactiles avec de vrais boutons. Sans root, sans ADB, sans PC, sans cloner le jeu — Shizuku est en option.",
         "Compatible avec toute manette Bluetooth ou USB reconnue par Android. Mappez boutons, sticks analogiques et gâchettes L2/R2 sur des appuis, appuis longs et balayages ; créez un mappage par jeu, changez de profil en pleine partie, ajoutez macros, turbo et combinaisons."
       ],
       "bullets": []
@@ -19,6 +19,14 @@
       "title": "Mappez votre manette en tactile en quelques minutes",
       "paragraphs": [
         "Ajoutez un jeu, ouvrez l’éditeur de mappage et placez chaque commande au bon endroit à l’écran. Enregistrez et lancez le jeu depuis Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Sans root, sans ADB, sans pc — Shizuku en option",
+      "paragraphs": [
+        "Tout se configure directement sur le téléphone : ni root, ni commandes ADB, ni ordinateur, ni clone de votre jeu. Une fois le service d’accessibilité activé, il n’y a plus rien à réactiver après un redémarrage. Shizuku est un bonus facultatif pour un tactile à plus faible latence ; tous les mappages fonctionnent sans lui."
       ],
       "bullets": []
     },
@@ -103,14 +111,6 @@
       "bullets": []
     },
     {
-      "id": "no-root",
-      "title": "Sans clonage, sans root, sans ADB",
-      "paragraphs": [
-        "Gamepad Pro convertit les entrées manette en actions à l’écran : pas de clone du jeu, ni root, ni ADB pour la configuration de base. Quelques options avancées peuvent utiliser Shizuku ; le mappage, non."
-      ],
-      "bullets": []
-    },
-    {
       "id": "controllers",
       "title": "Dispositions Xbox, PlayStation et Nintendo",
       "paragraphs": [
@@ -125,7 +125,6 @@
       "bullets": [
         "Ouvrez Gamepad Pro et suivez la configuration guidée.",
         "Activez le service d’accessibilité et connectez votre manette.",
-        "Activez le clavier Gamepad Pro pour les sticks et gâchettes L2/R2.",
         "Touchez Ajouter, choisissez votre jeu, placez les commandes.",
         "Enregistrez, lancez le jeu et jouez."
       ]
@@ -136,14 +135,6 @@
       "paragraphs": [
         "Service d’accessibilité :",
         "Gamepad Pro utilise l’API AccessibilityService d’Android pour convertir vos actions configurées en appuis et balayages. Il est nécessaire au mappage hors de l’application, n’exécute que vos actions et ne collecte ni n’envoie vos données personnelles."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "keyboard",
-      "title": "Clavier Gamepad Pro",
-      "paragraphs": [
-        "Le service d’accessibilité d’Android ne peut pas lire les sticks ni les gâchettes L2/R2. La méthode de saisie Gamepad Pro capte ces entrées pour les mapper et sert aussi à écrire du texte."
       ],
       "bullets": []
     },
@@ -164,5 +155,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-11-08"
 }

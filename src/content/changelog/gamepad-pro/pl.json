@@ -3,6 +3,20 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 199,
+      "name": "1.9.9",
+      "date": "2026-11-08",
+      "items": [
+        "Nowość: gotowy układ do Free Fire oraz szablony Strzelanka, Piłka nożna i Dwa drążki przy dodawaniu układu.",
+        "Gotowe układy są w Beta: przyciski nie pasują? Użyj „Oceń ten układ”.",
+        "W Ustawieniach: Biblioteka gotowych układów – aktualizacje lub import.",
+        "Nowy jasny motyw: Ustawienia > Motyw.",
+        "Gałki: opcja „Atak po puszczeniu” dla gałek ataku.",
+        "Społeczność na Telegramie: link w Ustawieniach i FAQ.",
+        "Naprawiono awarie i zawieszenia."
+      ]
+    },
+    {
       "code": 198,
       "name": "1.9.8",
       "date": "2026-10-30",
@@ -100,5 +114,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

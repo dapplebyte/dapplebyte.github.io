@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "Ich kann im Spiel nichts schreiben, solange die Zuordnung aktiv ist. Was kann ich tun?",
+          "a": [
+            "Auf diesem Handy hält Gamepad Pro während der Zuordnung den Eingabefokus des Spiels, damit es deine Sticks und Trigger ohne Tastatur lesen kann. Wenn du im Spiel auf ein Textfeld tippst, gibt es den Fokus zurück, damit sich deine Tastatur öffnen kann — erscheint die Tastatur nicht, tippe einfach noch einmal auf das Textfeld. Klappt das Schreiben immer noch nicht? Tippe auf der schwebenden Schaltfläche auf die Pause-Taste („Zuordnung pausieren“), schreib deine Nachricht und tippe dann erneut darauf, um fortzufahren."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Was ist Shizuku und brauche ich es?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

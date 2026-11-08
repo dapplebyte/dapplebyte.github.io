@@ -3,6 +3,20 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 199,
+      "name": "1.9.9",
+      "date": "2026-11-08",
+      "items": [
+        "Mới: phương án có sẵn cho Free Fire, cùng mẫu Bắn súng, Bóng đá và Hai cần khi thêm phase.",
+        "Phương án có sẵn đang ở bản Beta: nút bị lệch thì hãy dùng \"Đánh giá Phase này\".",
+        "Trong Cài đặt: Thư viện phương án có sẵn để kiểm tra cập nhật hoặc nhập.",
+        "Chủ đề Sáng mới: Cài đặt > Chủ đề.",
+        "Cần analog: tùy chọn \"Thả để tấn công\" cho cần tấn công.",
+        "Cộng đồng Telegram: liên kết trong Cài đặt và FAQ.",
+        "Sửa lỗi văng ứng dụng và treo máy."
+      ]
+    },
+    {
       "code": 198,
       "name": "1.9.8",
       "date": "2026-10-30",
@@ -100,5 +114,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

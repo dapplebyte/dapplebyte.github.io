@@ -2,14 +2,14 @@
   "slug": "gamepad-pro",
   "locale": "id",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Mapping gamepad ke sentuhan: main game pakai stik. Trigger, makro, tanpa root.",
-  "tagline": "Gamepad Pro adalah aplikasi mapping kontroler untuk Android: petakan gamepad ke kontrol sentuh dan mainkan game touch-only pakai tombol asli. Tanpa root, tanpa clone game.",
+  "shortDescription": "Mapping gamepad ke sentuhan: tanpa root, tanpa ADB, tanpa PC. Shizuku opsional.",
+  "tagline": "Gamepad Pro adalah aplikasi mapping kontroler untuk Android: petakan gamepad ke kontrol sentuh dan mainkan game touch-only pakai tombol asli. Tanpa root, tanpa ADB, tanpa PC, tanpa clone game — Shizuku opsional.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro adalah aplikasi mapping kontroler untuk Android: petakan gamepad ke kontrol sentuh dan mainkan game touch-only pakai tombol asli. Tanpa root, tanpa clone game.",
+        "Gamepad Pro adalah aplikasi mapping kontroler untuk Android: petakan gamepad ke kontrol sentuh dan mainkan game touch-only pakai tombol asli. Tanpa root, tanpa ADB, tanpa PC, tanpa clone game — Shizuku opsional.",
         "Bisa dipakai dengan kontroler Bluetooth atau USB apa pun yang dikenali Android. Petakan tombol, kedua stik analog, dan trigger L2/R2 jadi tap, tahan, dan swipe; buat mapping tombol per game, ganti layout di tengah match, lalu tambahkan makro, turbo, dan kombo."
       ],
       "bullets": []
@@ -19,6 +19,14 @@
       "title": "Mapping gamepad ke sentuhan dalam hitungan menit",
       "paragraphs": [
         "Tambahkan game, buka editor pemetaan, lalu seret tiap kontrol ke titik yang pas di layar. Simpan, lalu jalankan game langsung dari Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Tanpa root, tanpa ADB, tanpa pc — Shizuku opsional",
+      "paragraphs": [
+        "Semua diatur langsung di ponsel: tanpa root, tanpa perintah ADB, tanpa komputer, dan tanpa salinan clone game. Setelah Layanan Aksesibilitas aktif, kamu tidak perlu mengaktifkannya lagi setiap kali ponsel di-restart. Shizuku hanya opsi tambahan agar sentuhan lebih responsif; semua pemetaan tetap jalan tanpa Shizuku."
       ],
       "bullets": []
     },
@@ -103,14 +111,6 @@
       "bullets": []
     },
     {
-      "id": "no-root",
-      "title": "Tanpa cloning, tanpa root, tanpa ADB",
-      "paragraphs": [
-        "Gamepad Pro memetakan input kontroler langsung ke aksi layar: tanpa salinan game, tanpa root, dan tanpa ADB untuk setup inti. Beberapa opsi lanjutan bisa memakai Shizuku; pemetaannya sendiri tidak."
-      ],
-      "bullets": []
-    },
-    {
       "id": "controllers",
       "title": "Layout Xbox, PlayStation & Nintendo",
       "paragraphs": [
@@ -125,7 +125,6 @@
       "bullets": [
         "Buka Gamepad Pro dan ikuti panduan setup.",
         "Aktifkan Layanan Aksesibilitas dan hubungkan kontrolermu.",
-        "Aktifkan keyboard Gamepad Pro untuk stik dan trigger L2/R2.",
         "Ketuk Tambah, pilih game, seret kontrol ke posisinya.",
         "Simpan, jalankan game, dan main."
       ]
@@ -136,14 +135,6 @@
       "paragraphs": [
         "Layanan Aksesibilitas:",
         "Gamepad Pro memakai AccessibilityService API milik Android untuk mengubah aksi kontroler yang kamu atur jadi tap dan swipe. Izin ini wajib agar pemetaan jalan di luar aplikasi, hanya menjalankan aksi yang kamu buat, dan tidak pernah mengumpulkan atau mengunggah data pribadimu."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "keyboard",
-      "title": "Gamepad Pro Keyboard",
-      "paragraphs": [
-        "Layanan Aksesibilitas Android tidak bisa membaca nilai stik analog atau trigger L2/R2. Metode input Gamepad Pro menangkap input ini agar bisa dipetakan dengan benar, dan bisa juga dipakai untuk mengetik."
       ],
       "bullets": []
     },
@@ -164,5 +155,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-11-08"
 }

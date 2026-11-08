@@ -2,14 +2,14 @@
   "slug": "gamepad-pro",
   "locale": "pt-br",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Mapear controle no celular: jogue jogos de toque com gamepad. Gatilhos e macros.",
-  "tagline": "O Gamepad Pro é um mapeador de controle para Android: mapeie seu controle em toques e jogue games só de touch com botões de verdade. Sem root e sem clonar o jogo.",
+  "shortDescription": "Mapear controle no celular: jogue sem root, ADB ou PC. Shizuku é opcional.",
+  "tagline": "O Gamepad Pro é um mapeador de controle para Android: mapeie seu controle em toques e jogue games só de touch com botões de verdade. Sem root, sem ADB, sem PC e sem clonar o jogo — o Shizuku é opcional.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "O Gamepad Pro é um mapeador de controle para Android: mapeie seu controle em toques e jogue games só de touch com botões de verdade. Sem root e sem clonar o jogo.",
+        "O Gamepad Pro é um mapeador de controle para Android: mapeie seu controle em toques e jogue games só de touch com botões de verdade. Sem root, sem ADB, sem PC e sem clonar o jogo — o Shizuku é opcional.",
         "Funciona com qualquer controle Bluetooth ou USB que o Android reconheça. Mapeie botões, os dois analógicos e os gatilhos L2/R2 para toques, pressionamentos e deslizes; crie um mapeamento de botões para cada jogo, troque de layout no meio da partida e adicione macros, turbo e combos."
       ],
       "bullets": []
@@ -19,6 +19,14 @@
       "title": "Mapeie seu controle em toques em minutos",
       "paragraphs": [
         "Adicione um jogo, abra o editor de mapeamento e arraste cada comando até o ponto certo da tela. Salve e inicie o jogo pelo Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Sem root, sem ADB, sem pc — Shizuku opcional",
+      "paragraphs": [
+        "Tudo é configurado no próprio celular: sem root, sem comandos ADB, sem computador e sem cópia clonada do jogo. Com o Serviço de Acessibilidade ativado, não há nada para reativar depois de reiniciar o aparelho. O Shizuku é um extra opcional para toques com menos latência; todo mapeamento funciona sem ele."
       ],
       "bullets": []
     },
@@ -103,14 +111,6 @@
       "bullets": []
     },
     {
-      "id": "no-root",
-      "title": "Sem clonagem, sem root, sem ADB",
-      "paragraphs": [
-        "O Gamepad Pro mapeia os comandos do controle direto para ações na tela: sem cópia clonada do jogo, sem root e sem ADB na configuração básica. Alguns recursos avançados podem usar o Shizuku; o mapeamento em si, não."
-      ],
-      "bullets": []
-    },
-    {
       "id": "controllers",
       "title": "Layouts Xbox, PlayStation e Nintendo",
       "paragraphs": [
@@ -125,7 +125,6 @@
       "bullets": [
         "Abra o Gamepad Pro e siga a configuração guiada.",
         "Ative o Serviço de Acessibilidade e conecte o controle.",
-        "Ative o teclado do Gamepad Pro para analógicos e gatilhos L2/R2.",
         "Toque em Adicionar, escolha o jogo e arraste os comandos para o lugar.",
         "Salve, inicie o jogo e jogue."
       ]
@@ -136,14 +135,6 @@
       "paragraphs": [
         "Serviço de Acessibilidade:",
         "O Gamepad Pro usa a AccessibilityService API do Android para transformar as ações configuradas em toques e deslizes. É necessário para o mapeamento funcionar fora do app, executa só as ações que você cria e nunca coleta nem envia seus dados pessoais."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "keyboard",
-      "title": "Teclado do Gamepad Pro",
-      "paragraphs": [
-        "O Serviço de Acessibilidade do Android não consegue ler os valores dos analógicos nem dos gatilhos L2/R2. O método de entrada do Gamepad Pro captura esses comandos para mapeá-los corretamente e também serve para digitar."
       ],
       "bullets": []
     },
@@ -164,5 +155,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-11-08"
 }

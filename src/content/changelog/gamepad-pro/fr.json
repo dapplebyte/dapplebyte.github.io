@@ -3,6 +3,20 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 199,
+      "name": "1.9.9",
+      "date": "2026-11-08",
+      "items": [
+        "Nouveau : configuration Free Fire, et modèles Tir, Football et Double stick à l’ajout d’une phase.",
+        "Configurations prédéfinies en Beta : boutons décalés ? Utilisez « Noter cette phase ».",
+        "Dans Paramètres : Bibliothèque de configurations prédéfinies (mises à jour, import).",
+        "Nouveau thème Clair : Paramètres > Thème.",
+        "Sticks : option « Tir au relâchement » pour les sticks d’attaque.",
+        "Communauté Telegram : lien dans Paramètres et la FAQ.",
+        "Correction de plantages et blocages."
+      ]
+    },
+    {
       "code": 198,
       "name": "1.9.8",
       "date": "2026-10-30",
@@ -100,5 +114,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

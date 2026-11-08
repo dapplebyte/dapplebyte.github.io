@@ -2,14 +2,14 @@
   "slug": "gamepad-pro",
   "locale": "it",
   "title": "Gamepad Pro: Controller Mapper",
-  "shortDescription": "Gioca ai giochi touch col gamepad: stick, grilletti, macro, turbo. Senza root.",
-  "tagline": "Gamepad Pro è un mappatore per controller su Android: mappa il tuo gamepad sul touch e gioca con pulsanti veri ai giochi solo touch. Senza root e senza clonare il gioco.",
+  "shortDescription": "Gioca ai giochi touch col gamepad. Senza root, ADB o PC. Shizuku opzionale.",
+  "tagline": "Gamepad Pro è un mappatore per controller su Android: mappa il tuo gamepad sul touch e gioca con pulsanti veri ai giochi solo touch. Senza root, senza ADB, senza PC e senza clonare il gioco; Shizuku è opzionale.",
   "sections": [
     {
       "id": "intro",
       "title": "Gamepad Pro: Controller Mapper",
       "paragraphs": [
-        "Gamepad Pro è un mappatore per controller su Android: mappa il tuo gamepad sul touch e gioca con pulsanti veri ai giochi solo touch. Senza root e senza clonare il gioco.",
+        "Gamepad Pro è un mappatore per controller su Android: mappa il tuo gamepad sul touch e gioca con pulsanti veri ai giochi solo touch. Senza root, senza ADB, senza PC e senza clonare il gioco; Shizuku è opzionale.",
         "Funziona con qualsiasi controller Bluetooth o USB riconosciuto da Android. Mappa pulsanti, entrambi gli stick analogici e i grilletti L2/R2 su tocchi, pressioni prolungate e scorrimenti; crea una mappatura dei tasti per ogni gioco, cambia layout durante la partita e aggiungi macro, turbo e combinazioni."
       ],
       "bullets": []
@@ -19,6 +19,14 @@
       "title": "Mappa il gamepad sul touch in pochi minuti",
       "paragraphs": [
         "Aggiungi un gioco, apri l’editor di mappatura e trascina ogni comando nel punto giusto. Salva e avvia il gioco da Gamepad Pro."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Niente root, niente ADB, niente pc — Shizuku opzionale",
+      "paragraphs": [
+        "Si configura tutto direttamente sul telefono: niente root, niente comandi ADB, niente computer e nessun clone del gioco. Una volta attivato il Servizio di accessibilità, dopo un riavvio non c’è nulla da riattivare. Shizuku è un extra facoltativo per un touch a latenza più bassa; ogni mappatura funziona anche senza."
       ],
       "bullets": []
     },
@@ -103,14 +111,6 @@
       "bullets": []
     },
     {
-      "id": "no-root",
-      "title": "Niente cloni, niente root, niente ADB",
-      "paragraphs": [
-        "Gamepad Pro mappa gli input del controller direttamente sullo schermo: nessun clone del gioco, nessun root e nessun ADB per la configurazione di base. Qualche opzione avanzata può usare Shizuku; la mappatura no."
-      ],
-      "bullets": []
-    },
-    {
       "id": "controllers",
       "title": "Layout Xbox, PlayStation e Nintendo",
       "paragraphs": [
@@ -125,7 +125,6 @@
       "bullets": [
         "Apri Gamepad Pro e segui la configurazione guidata.",
         "Abilita il Servizio di accessibilità e collega il controller.",
-        "Abilita la tastiera Gamepad Pro per stick e grilletti L2/R2.",
         "Tocca Aggiungi, scegli il gioco e trascina i comandi in posizione.",
         "Salva, avvia il gioco e gioca."
       ]
@@ -136,14 +135,6 @@
       "paragraphs": [
         "Servizio di accessibilità:",
         "Gamepad Pro usa l’API AccessibilityService di Android per trasformare in tocchi e scorrimenti le azioni configurate. Serve perché la mappatura funzioni fuori dall’app, esegue solo le azioni che crei e non raccoglie né invia i tuoi dati personali."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "keyboard",
-      "title": "Tastiera Gamepad Pro",
-      "paragraphs": [
-        "Il Servizio di accessibilità di Android non può leggere stick e grilletti L2/R2. Il metodo di input di Gamepad Pro acquisisce questi segnali per mapparli correttamente e serve anche a scrivere testo."
       ],
       "bullets": []
     },
@@ -164,5 +155,5 @@
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-21"
+  "extractedAt": "2026-11-08"
 }

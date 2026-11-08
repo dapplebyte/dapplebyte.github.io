@@ -3,6 +3,20 @@
   "locale": "de",
   "entries": [
     {
+      "code": 199,
+      "name": "1.9.9",
+      "date": "2026-11-08",
+      "items": [
+        "Neu: Preset für Free Fire sowie Vorlagen Shooter, Fußball und Twin-Stick beim Hinzufügen eines Layouts.",
+        "Presets sind in der Beta: Tasten verrutscht? Nutze „Dieses Layout bewerten“.",
+        "In den Einstellungen: Preset-Bibliothek für Updates oder Import.",
+        "Neues helles Design: Einstellungen > Design.",
+        "Sticks: Option „Beim Loslassen auslösen“ für Angriffssticks.",
+        "Telegram-Community: Link in Einstellungen und FAQ.",
+        "Abstürze und Hänger behoben."
+      ]
+    },
+    {
       "code": 198,
       "name": "1.9.8",
       "date": "2026-10-30",
@@ -100,5 +114,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

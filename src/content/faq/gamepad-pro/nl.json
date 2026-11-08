@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "Ik kan niet typen in een spel terwijl de toewijzing aanstaat. Wat kan ik doen?",
+          "a": [
+            "Op deze telefoon houdt Gamepad Pro tijdens het toewijzen de invoerfocus van het spel vast, zodat het je sticks en triggers zonder toetsenbord kan uitlezen. Tik je in het spel op een tekstveld, dan geeft het de focus terug zodat je toetsenbord kan openen — verschijnt het toetsenbord niet, tik dan nog een keer op het tekstveld. Kun je nog steeds niet typen? Tik op de pauzeknop op de zwevende knop (\"Toewijzing pauzeren\"), typ je bericht en tik er daarna opnieuw op om verder te gaan."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "Wat is Shizuku en heb ik het nodig?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }

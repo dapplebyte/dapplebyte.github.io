@@ -201,6 +201,13 @@
           ]
         },
         {
+          "id": "q31",
+          "q": "No puedo escribir en un juego mientras la asignación está activa. ¿Qué puedo hacer?",
+          "a": [
+            "En este teléfono, Gamepad Pro mantiene el foco de entrada del juego mientras la asignación está en marcha, para poder leer tus sticks y gatillos sin teclado. Cuando tocas un campo de texto en el juego, devuelve el foco para que se abra tu teclado; si el teclado no aparece, vuelve a tocar el campo de texto. ¿Sigues sin poder escribir? Toca el botón de pausa del botón flotante («Pausar asignación»), escribe tu mensaje y vuelve a tocarlo para reanudar."
+          ]
+        },
+        {
           "id": "shizuku",
           "q": "¿Qué es Shizuku y lo necesito?",
           "a": [
@@ -273,5 +280,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-30"
+  "extractedAt": "2026-11-08"
 }
