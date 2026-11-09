@@ -4,95 +4,114 @@ User-agent: *
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: GPTBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: Claude-SearchBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: Claude-User
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: Perplexity-User
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: Applebot-Extended
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: Bytespider
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: PetalBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: Amazonbot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: Meta-ExternalAgent
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: DuckAssistBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: YouBot
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: cohere-ai
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 User-agent: MistralAI-User
 Allow: /
 Disallow: /slopswipe/rules/v1/
 Disallow: /gamepad-pro/presets/v1/
+Disallow: /wasdo/presets/v1/
 
 Sitemap: https://dapplebyte.com/sitemap-index.xml
