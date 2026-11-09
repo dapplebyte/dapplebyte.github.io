@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Shooter",
       "football": "Voetbal",
-      "twinstick": "Twin-stick"
+      "twinstick": "Twin-stick",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Openwereld-actie",
+      "general": "Algemeen"
     },
     "importHeading": "Handmatig importeren",
     "step1": "Download hierboven de presetbibliotheek. Laat hem als .zip staan, uitpakken is niet nodig.",
@@ -740,6 +744,28 @@
         "description": "Hoe SlopSwipe zich verhoudt tot andere Android-apps voor AI-video's en feeds met korte video's, functie voor functie, alleen feiten.",
         "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: officiële apps, automatisch overslaan, AI-labels en trefwoorden, lijsten, terugdraaien, privacy en prijs.",
         "vsIntro": "Beide gaan over wat je ziet in feeds met korte video's op Android. Dit zijn de verschillen, functie voor functie."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Presets"
+      },
+      "presets": {
+        "title": "Game-presets voor {name}",
+        "description": "Download de nieuwste presetbibliotheek van {name}: officiële knopindelingen voor ondersteunde games en sjablonen per genre, met uitleg om hem handmatig te importeren.",
+        "lede": "{name} downloadt nieuwe presets zelf. Op deze pagina zie je wat er in de huidige bibliotheek zit, en je kunt hem hier downloaden als automatische updates op je telefoon niet doorkomen.",
+        "download": "Presetbibliotheek downloaden",
+        "gamesHeading": "Game-presets",
+        "gamesBody": "Knopindelingen die zijn afgestemd op de standaard touchbediening van elke game, met een indeling voor elke situatie, zoals te voet of in een voertuig.",
+        "colPhases": "Indelingen",
+        "betaNote": "Beta-presets zijn afgestemd op gangbare schermen, dus een paar knoppen kunnen op jouw toestel iets verschoven zitten. Sleep een knop die niet goed zit gewoon op zijn plek.",
+        "templatesBody": "Een startpunt voor games zonder eigen preset. De knoppen staan waar dit soort games ze meestal heeft.",
+        "step1": "Download hierboven de presetbibliotheek. Laat hem als .zip staan, uitpakken is niet nodig.",
+        "step2": "Ga in {name} naar Instellingen → Presetbibliotheek → Importeren uit bestand.",
+        "noImport": "Zie je Presetbibliotheek niet bij Instellingen? Werk {name} dan eerst bij naar de nieuwste versie.",
+        "updatesHeading": "Wanneer presets worden bijgewerkt",
+        "updatesBody": "{name} kijkt ongeveer één keer per dag of er een nieuwe bibliotheek is. Indelingen die je uit een preset hebt toegevoegd en niet hebt aangepast, gaan vanzelf over op de nieuwe versie. Indelingen die je zelf hebt bewerkt, worden nooit overschreven: op de pagina van de game staat dan Bijgewerkte indeling beschikbaar, en met Nieuwe versie toevoegen zet je de nieuwe versie naast je eigen indeling.",
+        "safetyBody": "Elke presetbibliotheek is digitaal ondertekend door DappleByte. {name} controleert de handtekening op je telefoon en accepteert alleen bestanden die wij hebben ondertekend en die nieuwer zijn dan de bibliotheek die er al staat. Een aangepast of ouder bestand wordt geweigerd en je huidige presets blijven zoals ze zijn."
       }
     }
   }

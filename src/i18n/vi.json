@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Bắn súng",
       "football": "Bóng đá",
-      "twinstick": "Hai cần"
+      "twinstick": "Hai cần",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Hành động thế giới mở",
+      "general": "Chung"
     },
     "importHeading": "Nhập thủ công",
     "step1": "Tải thư viện phương án có sẵn ở trên. Cứ để nguyên dạng .zip, không cần giải nén.",
@@ -740,6 +744,28 @@
         "description": "So sánh SlopSwipe với các ứng dụng Android khác liên quan đến video AI và bảng tin video ngắn, từng tính năng, chỉ nêu sự thật.",
         "vsDescription": "So sánh {name} và {other} trên Android, từng tính năng: ứng dụng chính thức, tự động bỏ qua, nhãn và từ khóa AI, danh sách, hoàn tác, quyền riêng tư và giá.",
         "vsIntro": "Cả hai đều xử lý những gì bạn thấy trong bảng tin video ngắn trên Android. Đây là điểm khác nhau, từng tính năng."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Layout có sẵn"
+      },
+      "presets": {
+        "title": "Layout game có sẵn của {name}",
+        "description": "Tải thư viện layout có sẵn hiện tại của {name}: bố cục phím chính thức cho các game được hỗ trợ và mẫu theo thể loại, kèm hướng dẫn nhập thủ công.",
+        "lede": "{name} tự tải các layout có sẵn mới. Trang này cho biết thư viện hiện tại gồm những gì, và để bạn tự tải về nếu bản cập nhật tự động không tới được điện thoại của bạn.",
+        "download": "Tải thư viện layout có sẵn",
+        "gamesHeading": "Layout có sẵn cho game",
+        "gamesBody": "Bố cục phím làm theo các nút cảm ứng mặc định của từng game, mỗi tình huống có một layout riêng, như đi bộ hay lái xe.",
+        "colPhases": "Layout",
+        "betaNote": "Layout Beta được chỉnh trên các màn hình phổ biến, nên trên máy của bạn có thể vài nút hơi lệch. Phím nào không khớp thì bạn chỉ cần kéo lại.",
+        "templatesBody": "Điểm khởi đầu cho những game chưa có layout riêng. Phím được đặt ở vị trí mà thể loại game này thường để nút.",
+        "step1": "Tải thư viện layout có sẵn ở trên. Cứ để nguyên dạng .zip, không cần giải nén.",
+        "step2": "Trong {name}, vào Cài đặt → Thư viện layout có sẵn → Nhập từ tệp.",
+        "noImport": "Không thấy Thư viện layout có sẵn trong Cài đặt? Hãy cập nhật {name} lên phiên bản mới nhất trước.",
+        "updatesHeading": "Khi nào layout có sẵn được cập nhật",
+        "updatesBody": "{name} kiểm tra thư viện mới khoảng mỗi ngày một lần. Các layout bạn thêm từ layout có sẵn mà chưa chỉnh sẽ tự chuyển sang phiên bản mới. Layout bạn đã chỉnh sửa không bao giờ bị ghi đè: trang của game sẽ hiện Đã có layout cập nhật, và nút Thêm bản mới sẽ thêm bản mới bên cạnh layout của bạn.",
+        "safetyBody": "Mọi thư viện layout có sẵn đều có chữ ký số của DappleByte. {name} xác minh chữ ký ngay trên điện thoại của bạn và chỉ nhận tệp do chúng tôi ký, mới hơn thư viện đang có. Tệp bị sửa đổi hoặc cũ hơn sẽ bị từ chối, và các layout có sẵn hiện tại của bạn vẫn giữ nguyên."
       }
     }
   }

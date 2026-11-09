@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Disparos",
       "football": "Fútbol",
-      "twinstick": "Doble stick"
+      "twinstick": "Doble stick",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Acción de mundo abierto",
+      "general": "General"
     },
     "importHeading": "Importar a mano",
     "step1": "Descarga la biblioteca de esquemas predefinidos de arriba. Déjala como .zip, no hace falta descomprimirla.",
@@ -740,6 +744,28 @@
         "description": "Cómo se compara SlopSwipe con otras apps de Android para videos de IA y feeds de videos cortos, función por función, solo datos.",
         "vsDescription": "{name} y {other} comparadas en Android, función por función: apps oficiales, salto automático, etiquetas y palabras clave de IA, listas, deshacer, privacidad y precio.",
         "vsIntro": "Las dos se ocupan de lo que ves en los feeds de videos cortos en Android. Estas son sus diferencias, función por función."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Esquemas predefinidos"
+      },
+      "presets": {
+        "title": "Esquemas predefinidos de {name} para juegos",
+        "description": "Descarga la biblioteca de esquemas predefinidos actual de {name}: distribuciones de botones oficiales para los juegos compatibles y plantillas por tipo de juego, con los pasos para importarla a mano.",
+        "lede": "{name} descarga los esquemas nuevos por su cuenta. Esta página muestra qué incluye la biblioteca actual y te permite descargarla si las actualizaciones automáticas no llegan a tu teléfono.",
+        "download": "Descargar biblioteca de esquemas predefinidos",
+        "gamesHeading": "Esquemas predefinidos para juegos",
+        "gamesBody": "Distribuciones de botones pensadas para los controles táctiles predeterminados de cada juego, con un esquema para cada situación, como a pie o conduciendo.",
+        "colPhases": "Esquemas",
+        "betaNote": "Los esquemas Beta están ajustados en pantallas habituales, así que en la tuya algunos botones pueden quedar un poco desplazados. Arrastra cualquier botón que no coincida.",
+        "templatesBody": "Un punto de partida para los juegos que no tienen esquema propio. Los botones están donde este tipo de juego suele ponerlos.",
+        "step1": "Descarga la biblioteca de esquemas predefinidos de arriba. Déjala como .zip, no hace falta descomprimirla.",
+        "step2": "En {name}, ve a Ajustes → Biblioteca de esquemas predefinidos → Importar desde archivo.",
+        "noImport": "¿No ves Biblioteca de esquemas predefinidos en Ajustes? Primero actualiza {name} a la última versión.",
+        "updatesHeading": "Cuándo se actualizan los esquemas",
+        "updatesBody": "{name} busca una biblioteca nueva más o menos una vez al día. Los esquemas que añadiste desde un predefinido y no has modificado pasan solos a la versión nueva. Los que has editado nunca se sobrescriben: en la página del juego aparece Hay un esquema actualizado y, con Añadir versión nueva, puedes poner la nueva junto a la tuya.",
+        "safetyBody": "Cada biblioteca de esquemas predefinidos lleva la firma digital de DappleByte. {name} verifica la firma en tu teléfono y solo acepta archivos firmados por nosotros que sean más recientes que la biblioteca que ya tiene. Un archivo modificado, o uno más antiguo, se rechaza y tus esquemas predefinidos actuales se quedan como están."
       }
     }
   }

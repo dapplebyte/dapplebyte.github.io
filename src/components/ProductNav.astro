@@ -21,7 +21,7 @@ const showVideos = Astro.props.showVideos ?? ((await getEntry('videos', product.
 const showCompare = Astro.props.showCompare ?? (((await getEntry('compare', product.slug))?.data.draft ?? true) === false);
 const showRules = Astro.props.showRules ?? hasRules(product.slug);
 const showPresets = Astro.props.showPresets ?? hasPresets(product.slug);
-const { t } = useT(locale);
+const { tpOr } = useT(locale);
 const base = `/${product.slug}`;
 const items: { key: Props['current']; path: string }[] = [
   { key: 'overview', path: `${base}/` },
@@ -42,7 +42,7 @@ const items: { key: Props['current']; path: string }[] = [
     <nav class="subnav" aria-label={product.name}>
       {items.map((i) => (
         <a href={localePath(locale, i.path)} aria-current={i.key === current ? 'page' : undefined}>
-          {t(`labels.${i.key}`)}
+          {tpOr(product.slug, `labels.${i.key}`)}
         </a>
       ))}
     </nav>

@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Shooter",
       "football": "Football",
-      "twinstick": "Twin-stick"
+      "twinstick": "Twin-stick",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Open-world action",
+      "general": "General"
     },
     "importHeading": "Import by hand",
     "step1": "Download the preset library above. Leave it as a .zip, there's no need to unzip it.",
@@ -740,6 +744,28 @@
         "description": "How SlopSwipe compares with other Android apps for AI videos and short-video feeds, feature by feature, facts only.",
         "vsDescription": "{name} and {other} compared on Android, feature by feature: the official apps, automatic skipping, AI labels and keywords, lists, undo, privacy and pricing.",
         "vsIntro": "Both deal with what you see in short-video feeds on Android. Here is where they differ, feature by feature."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Presets"
+      },
+      "presets": {
+        "title": "{name} game presets",
+        "description": "Download the current {name} preset library: official key layouts for supported games and genre templates, with steps to import it by hand.",
+        "lede": "{name} downloads new presets on its own. This page shows what the current library includes, and lets you download it if automatic updates can't get through on your phone.",
+        "download": "Download preset library",
+        "gamesHeading": "Game presets",
+        "gamesBody": "Key layouts made for each game's default on-screen controls, with a separate layout for each situation, such as on foot or driving.",
+        "colPhases": "Layouts",
+        "betaNote": "Beta presets are tuned on common screens, so a few buttons may sit slightly off on yours. Drag any key that doesn't line up.",
+        "templatesBody": "Starting points for games without their own preset. Keys sit where this type of game usually puts its buttons.",
+        "step1": "Download the preset library above. Leave it as a .zip, there's no need to unzip it.",
+        "step2": "In {name}, go to Settings → Preset library → Import from file.",
+        "noImport": "Don't see Preset library in Settings? Update {name} to the latest version first.",
+        "updatesHeading": "When presets update",
+        "updatesBody": "{name} checks for a new library about once a day. Layouts you added from a preset and haven't changed switch to the new version on their own. Layouts you've edited are never overwritten: the game's page shows Updated layout available, and Add updated version puts the new one next to yours.",
+        "safetyBody": "Every preset library is digitally signed by DappleByte. {name} verifies the signature on your phone and only accepts files we signed that are newer than the library it already has. A file that was altered, or an older one, is turned down and your current presets stay as they are."
       }
     }
   }

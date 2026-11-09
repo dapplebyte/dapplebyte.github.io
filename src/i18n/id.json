@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Shooter",
       "football": "Sepak bola",
-      "twinstick": "Dua stik"
+      "twinstick": "Dua stik",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Aksi open world",
+      "general": "Umum"
     },
     "importHeading": "Impor manual",
     "step1": "Unduh pustaka preset di atas. Biarkan tetap .zip, tidak perlu diekstrak.",
@@ -740,6 +744,28 @@
         "description": "Perbandingan SlopSwipe dengan aplikasi Android lain seputar video AI dan feed video pendek, fitur demi fitur, hanya fakta.",
         "vsDescription": "{name} dan {other} dibandingkan di Android, fitur demi fitur: aplikasi resmi, lewati otomatis, label dan kata kunci AI, daftar, urungkan, privasi, dan harga.",
         "vsIntro": "Keduanya berurusan dengan apa yang kamu lihat di feed video pendek di Android. Berikut perbedaannya, fitur demi fitur."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Preset"
+      },
+      "presets": {
+        "title": "Preset game {name}",
+        "description": "Unduh pustaka preset {name} terbaru: tata letak tombol resmi untuk game yang didukung dan template per jenis game, lengkap dengan langkah impor manual.",
+        "lede": "{name} mengunduh preset baru dengan sendirinya. Halaman ini menampilkan isi pustaka saat ini, dan Anda bisa mengunduhnya di sini jika pembaruan otomatis tidak sampai ke ponsel Anda.",
+        "download": "Unduh pustaka preset",
+        "gamesHeading": "Preset game",
+        "gamesBody": "Tata letak tombol yang disesuaikan dengan kontrol layar bawaan tiap game, dengan satu layout untuk tiap situasi, misalnya berjalan kaki atau berkendara.",
+        "colPhases": "Layout",
+        "betaNote": "Preset Beta disetel untuk layar yang umum, jadi beberapa tombol mungkin agak meleset di perangkat Anda. Geser saja tombol yang belum pas.",
+        "templatesBody": "Titik awal untuk game yang belum punya preset sendiri. Tombol diletakkan di posisi yang biasa dipakai game jenis ini.",
+        "step1": "Unduh pustaka preset di atas. Biarkan tetap .zip, tidak perlu diekstrak.",
+        "step2": "Di {name}, buka Setelan → Pustaka preset → Impor dari file.",
+        "noImport": "Tidak melihat Pustaka preset di Setelan? Perbarui {name} ke versi terbaru terlebih dahulu.",
+        "updatesHeading": "Kapan preset diperbarui",
+        "updatesBody": "{name} memeriksa pustaka baru kira-kira sekali sehari. Layout yang Anda tambahkan dari preset dan belum diubah akan beralih ke versi baru dengan sendirinya. Layout yang sudah Anda ubah tidak akan pernah ditimpa: halaman game akan menampilkan Ada layout versi baru, dan dengan Tambahkan versi baru Anda bisa menaruh versi baru di samping milik Anda.",
+        "safetyBody": "Setiap pustaka preset ditandatangani secara digital oleh DappleByte. {name} memverifikasi tanda tangan di ponsel Anda dan hanya menerima file yang kami tandatangani dan lebih baru dari pustaka yang sudah ada. File yang diubah, atau yang lebih lama, akan ditolak dan preset Anda saat ini tetap seperti semula."
       }
     }
   }

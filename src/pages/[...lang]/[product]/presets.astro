@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import ProductNav from '../../../components/ProductNav.astro';
 import { getLocale, localePath, DEFAULT_LOCALE } from '../../../i18n/locales';
-import { useT, formatDate } from '../../../i18n/t';
+import { useT, formatDate, type Vars } from '../../../i18n/t';
 import { getProduct, localesFor, liveProducts } from '../../../lib/content';
 import { presetLibrary, presetsZipPath, schemeName, type PresetLibrary } from '../../../lib/presets';
 import { formatSize } from '../../../lib/rules';
@@ -24,15 +24,17 @@ export async function getStaticPaths() {
 }
 
 const { locale, slug, alternates, library } = Astro.props as { locale: string; slug: string; alternates: string[]; library: PresetLibrary };
-const { t } = useT(locale);
+const { t, tpOr } = useT(locale);
+// Shared copy, unless this product words it its own way under `products.<slug>.` (Wasdo says layouts, not phases).
+const tx = (key: string, vars: Vars = {}) => tpOr(slug, key, vars);
 const loc = getLocale(locale);
 const product = await getProduct(slug);
 const name = product.name;
 const latest = library.latest;
 const path = `/${slug}/presets/`;
 const url = new URL(localePath(locale, path), SITE).href;
-const title = t('presets.title', { name });
-const description = t('presets.description', { name });
+const title = tx('presets.title', { name });
+const description = tx('presets.description', { name });
 const zipHref = presetsZipPath(slug, latest);
 const zipName = latest.zip.split('/').pop();
 const size = formatSize(latest.zipSize, loc.lang);
@@ -44,7 +46,7 @@ const jsonLd = graph(
   breadcrumbs([
     { name: t('nav.home'), url: new URL(localePath(locale, '/'), SITE).href },
     { name: product.name, url: new URL(localePath(locale, `/${slug}/`), SITE).href },
-    { name: t('labels.presets'), url },
+    { name: tx('labels.presets'), url },
   ]),
 );
 ---
@@ -54,17 +56,17 @@ const jsonLd = graph(
   <section class="wrap section">
     <div class="mono mono-accent" style="margin-bottom:14px">{name}</div>
     <h1 class="h-page">{title}</h1>
-    <p class="lede" style="margin-top:16px">{t('presets.lede', { name })}</p>
+    <p class="lede" style="margin-top:16px">{tx('presets.lede', { name })}</p>
   </section>
 
   <section class="wrap section">
     <div class="current">
       <div class="panel release">
-        <div class="mono">{t('presets.currentHeading')}</div>
+        <div class="mono">{tx('presets.currentHeading')}</div>
         <div class="version">{latest.version}</div>
-        <div class="muted">{t('presets.published', { date: formatDate(locale, latest.published, loc.lang) })}</div>
+        <div class="muted">{tx('presets.published', { date: formatDate(locale, latest.published, loc.lang) })}</div>
         <div class="actions" style="margin-top:20px">
-          <a class="button" href={zipHref} download={zipName}>{t('presets.download')}</a>
+          <a class="button" href={zipHref} download={zipName}>{tx('presets.download')}</a>
           <span class="mono">ZIP · {size}</span>
         </div>
         <div class="hash">
@@ -75,14 +77,14 @@ const jsonLd = graph(
       <div class="contents">
         {library.games.length > 0 && (
           <div>
-            <h2 class="h-sub" style="margin-bottom:8px">{t('presets.gamesHeading')}</h2>
-            <p class="muted" style="margin-bottom:16px">{t('presets.gamesBody')}</p>
+            <h2 class="h-sub" style="margin-bottom:8px">{tx('presets.gamesHeading')}</h2>
+            <p class="muted" style="margin-bottom:16px">{tx('presets.gamesBody')}</p>
             <div class="table-scroll">
               <table class="games">
                 <thead>
                   <tr>
-                    <th scope="col">{t('presets.colGame')}</th>
-                    <th scope="col">{t('presets.colPhases')}</th>
+                    <th scope="col">{tx('presets.colGame')}</th>
+                    <th scope="col">{tx('presets.colPhases')}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -90,7 +92,7 @@ const jsonLd = graph(
                     <tr>
                       <td>
                         <span class="game">{g.name}</span>
-                        {g.beta && <span class="badge mono">{t('presets.beta')}</span>}
+                        {g.beta && <span class="badge mono">{tx('presets.beta')}</span>}
                       </td>
                       <td>{g.schemes.map((s) => schemeName(s, locale)).join(' · ')}</td>
                     </tr>
@@ -98,13 +100,13 @@ const jsonLd = graph(
                 </tbody>
               </table>
             </div>
-            {anyBeta && <p class="muted fine-note">{t('presets.betaNote')}</p>}
+            {anyBeta && <p class="muted fine-note">{tx('presets.betaNote')}</p>}
           </div>
         )}
         {library.genres.length > 0 && (
           <div>
-            <h2 class="h-sub" style="margin-bottom:8px">{t('presets.templatesHeading')}</h2>
-            <p class="muted" style="margin-bottom:12px">{t('presets.templatesBody')}</p>
+            <h2 class="h-sub" style="margin-bottom:8px">{tx('presets.templatesHeading')}</h2>
+            <p class="muted" style="margin-bottom:12px">{tx('presets.templatesBody')}</p>
             <ul class="chips">
               {library.genres.map((id) => <li class="mono">{t(`presets.genre.${id}`)}</li>)}
             </ul>
@@ -115,23 +117,23 @@ const jsonLd = graph(
   </section>
 
   <section class="wrap section">
-    <h2 class="h-section" style="margin-bottom:16px">{t('presets.importHeading')}</h2>
+    <h2 class="h-section" style="margin-bottom:16px">{tx('presets.importHeading')}</h2>
     <ol class="steps">
-      <li>{t('presets.step1')}</li>
-      <li>{t('presets.step2', { name })}</li>
-      <li>{t('presets.step3', { name })}</li>
+      <li>{tx('presets.step1')}</li>
+      <li>{tx('presets.step2', { name })}</li>
+      <li>{tx('presets.step3', { name })}</li>
     </ol>
-    <p class="muted" style="margin-top:16px">{t('presets.noImport', { name })}</p>
+    <p class="muted" style="margin-top:16px">{tx('presets.noImport', { name })}</p>
   </section>
 
   <section class="wrap section">
-    <h2 class="h-section" style="margin-bottom:16px">{t('presets.updatesHeading')}</h2>
-    <p class="lede">{t('presets.updatesBody', { name })}</p>
+    <h2 class="h-section" style="margin-bottom:16px">{tx('presets.updatesHeading')}</h2>
+    <p class="lede">{tx('presets.updatesBody', { name })}</p>
   </section>
 
   <section class="wrap section">
-    <h2 class="h-section" style="margin-bottom:16px">{t('presets.safetyHeading')}</h2>
-    <p class="lede">{t('presets.safetyBody', { name })}</p>
+    <h2 class="h-section" style="margin-bottom:16px">{tx('presets.safetyHeading')}</h2>
+    <p class="lede">{tx('presets.safetyBody', { name })}</p>
   </section>
 </Base>
 

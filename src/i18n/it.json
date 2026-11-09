@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Sparatutto",
       "football": "Calcio",
-      "twinstick": "Doppio stick"
+      "twinstick": "Doppio stick",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Azione open world",
+      "general": "Generale"
     },
     "importHeading": "Importa a mano",
     "step1": "Scarica la libreria degli schemi predefiniti qui sopra. Lasciala in formato .zip, non serve estrarla.",
@@ -740,6 +744,28 @@
         "description": "Come si confronta SlopSwipe con altre app Android per i video IA e i feed di video brevi, funzione per funzione, solo fatti.",
         "vsDescription": "{name} e {other} a confronto su Android, funzione per funzione: app ufficiali, salto automatico, etichette e parole chiave IA, liste, annullamento, privacy e prezzo.",
         "vsIntro": "Entrambe si occupano di ciò che vedi nei feed di video brevi su Android. Ecco dove si differenziano, funzione per funzione."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Schemi predefiniti"
+      },
+      "presets": {
+        "title": "Schemi predefiniti di {name} per i giochi",
+        "description": "Scarica la libreria degli schemi predefiniti aggiornata di {name}: layout dei pulsanti ufficiali per i giochi supportati e modelli per tipo di gioco, con i passaggi per importarla a mano.",
+        "lede": "{name} scarica i nuovi schemi da solo. Questa pagina mostra cosa include la libreria attuale e ti permette di scaricarla se sul tuo telefono gli aggiornamenti automatici non arrivano.",
+        "download": "Scarica la libreria degli schemi predefiniti",
+        "gamesHeading": "Schemi predefiniti per i giochi",
+        "gamesBody": "Layout dei pulsanti pensati per i controlli touch predefiniti di ogni gioco, con uno schema per ogni situazione, ad esempio a piedi o alla guida.",
+        "colPhases": "Schemi",
+        "betaNote": "Gli schemi Beta sono regolati su schermi comuni, quindi sul tuo alcuni pulsanti potrebbero risultare leggermente spostati. Trascina i pulsanti che non sono allineati.",
+        "templatesBody": "Punti di partenza per i giochi che non hanno uno schema dedicato. I pulsanti stanno dove questo tipo di gioco li mette di solito.",
+        "step1": "Scarica la libreria degli schemi predefiniti qui sopra. Lasciala in formato .zip, non serve estrarla.",
+        "step2": "In {name}, vai su Impostazioni → Libreria degli schemi predefiniti → Importa da file.",
+        "noImport": "Non vedi Libreria degli schemi predefiniti nelle Impostazioni? Prima aggiorna {name} all'ultima versione.",
+        "updatesHeading": "Quando si aggiornano gli schemi",
+        "updatesBody": "{name} controlla se c'è una nuova libreria circa una volta al giorno. Gli schemi che hai aggiunto da un predefinito e non hai modificato passano da soli alla nuova versione. Quelli che hai modificato non vengono mai sovrascritti: nella pagina del gioco compare Schema aggiornato disponibile e, con Aggiungi la nuova versione, puoi affiancare la nuova alla tua.",
+        "safetyBody": "Ogni libreria di schemi predefiniti è firmata digitalmente da DappleByte. {name} verifica la firma sul tuo telefono e accetta solo file firmati da noi e più recenti della libreria che ha già. Un file modificato, o uno più vecchio, viene rifiutato e i tuoi schemi predefiniti attuali restano come sono."
       }
     }
   }

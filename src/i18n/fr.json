@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Tir",
       "football": "Football",
-      "twinstick": "Double stick"
+      "twinstick": "Double stick",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Action en monde ouvert",
+      "general": "Général"
     },
     "importHeading": "Importer manuellement",
     "step1": "Téléchargez la bibliothèque ci-dessus. Gardez-la en .zip, inutile de la décompresser.",
@@ -740,6 +744,28 @@
         "description": "SlopSwipe comparé à d'autres applications Android autour des vidéos IA et des fils de vidéos courtes, fonction par fonction, faits uniquement.",
         "vsDescription": "{name} et {other} comparés sur Android, fonction par fonction : applications officielles, passage automatique, étiquettes et mots-clés IA, listes, annulation, confidentialité et prix.",
         "vsIntro": "Les deux s'occupent de ce que vous voyez dans les fils de vidéos courtes sur Android. Voici leurs différences, fonction par fonction."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Dispositions prédéfinies"
+      },
+      "presets": {
+        "title": "Dispositions prédéfinies de jeux pour {name}",
+        "description": "Téléchargez la bibliothèque actuelle de dispositions prédéfinies de {name} : placements de touches officiels pour les jeux pris en charge et modèles par genre, avec la marche à suivre pour l'importer manuellement.",
+        "lede": "{name} télécharge tout seul les nouvelles dispositions prédéfinies. Cette page montre le contenu de la bibliothèque actuelle et vous permet de la télécharger si les mises à jour automatiques ne passent pas sur votre téléphone.",
+        "download": "Télécharger la bibliothèque de dispositions",
+        "gamesHeading": "Dispositions prédéfinies pour les jeux",
+        "gamesBody": "Des touches calées sur les commandes tactiles par défaut de chaque jeu, avec une disposition pour chaque situation, par exemple à pied ou en voiture.",
+        "colPhases": "Dispositions",
+        "betaNote": "Les dispositions Beta sont réglées sur les écrans les plus courants : quelques touches peuvent donc être légèrement décalées sur le vôtre. Faites glisser celles qui ne tombent pas juste.",
+        "templatesBody": "Un point de départ pour les jeux qui n'ont pas leur propre disposition. Les touches sont placées là où ce type de jeu met habituellement ses boutons.",
+        "step1": "Téléchargez la bibliothèque ci-dessus. Gardez-la en .zip, inutile de la décompresser.",
+        "step2": "Dans {name}, allez dans Paramètres → Bibliothèque de dispositions prédéfinies → Importer depuis un fichier.",
+        "noImport": "Vous ne voyez pas « Bibliothèque de dispositions prédéfinies » dans les Paramètres ? Mettez d'abord {name} à jour vers la dernière version.",
+        "updatesHeading": "Quand les dispositions sont mises à jour",
+        "updatesBody": "{name} vérifie environ une fois par jour s'il existe une nouvelle bibliothèque. Les dispositions prédéfinies que vous avez ajoutées sans les modifier passent toutes seules à la nouvelle version. Celles que vous avez modifiées ne sont jamais écrasées : la page du jeu affiche « Disposition mise à jour disponible », et « Ajouter la nouvelle version » ajoute la nouvelle à côté de la vôtre.",
+        "safetyBody": "Chaque bibliothèque de dispositions prédéfinies porte la signature numérique de DappleByte. {name} vérifie la signature sur votre téléphone et n'accepte que les fichiers signés par nous et plus récents que la bibliothèque déjà installée. Un fichier modifié ou plus ancien est refusé, et vos dispositions actuelles restent en place."
       }
     }
   }

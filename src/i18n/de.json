@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Shooter",
       "football": "Fußball",
-      "twinstick": "Twin-Stick"
+      "twinstick": "Twin-Stick",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Open-World-Action",
+      "general": "Allgemein"
     },
     "importHeading": "Manuell importieren",
     "step1": "Laden Sie oben die Preset-Bibliothek herunter. Lassen Sie sie als .zip, entpacken ist nicht nötig.",
@@ -740,6 +744,28 @@
         "description": "SlopSwipe im Vergleich mit anderen Android-Apps rund um KI-Videos und Kurzvideo-Feeds, Funktion für Funktion, nur Fakten.",
         "vsDescription": "{name} und {other} für Android im Vergleich, Funktion für Funktion: offizielle Apps, automatisches Überspringen, KI-Kennzeichnungen und Stichwörter, Listen, Rückgängig, Datenschutz und Preis.",
         "vsIntro": "Beide befassen sich damit, was Sie in Kurzvideo-Feeds auf Android sehen. Hier die Unterschiede, Funktion für Funktion."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Presets"
+      },
+      "presets": {
+        "title": "Spiel-Presets für {name}",
+        "description": "Laden Sie die aktuelle Preset-Bibliothek von {name} herunter: offizielle Tastenbelegungen für unterstützte Spiele und Genre-Vorlagen, mit einer Anleitung zum manuellen Import.",
+        "lede": "{name} lädt neue Presets von selbst herunter. Diese Seite zeigt, was die aktuelle Bibliothek enthält, und Sie können sie hier herunterladen, falls automatische Updates auf Ihrem Smartphone nicht durchkommen.",
+        "download": "Preset-Bibliothek herunterladen",
+        "gamesHeading": "Spiel-Presets",
+        "gamesBody": "Tastenbelegungen, abgestimmt auf die Standard-Touch-Steuerung des jeweiligen Spiels, mit einem eigenen Layout für jede Situation, etwa zu Fuß oder beim Fahren.",
+        "colPhases": "Layouts",
+        "betaNote": "Beta-Presets sind auf gängigen Bildschirmen abgestimmt, daher können einzelne Tasten auf Ihrem Gerät leicht versetzt sitzen. Ziehen Sie einfach jede Taste zurecht, die nicht passt.",
+        "templatesBody": "Ein Ausgangspunkt für Spiele ohne eigenes Preset. Die Tasten liegen dort, wo diese Art von Spiel ihre Buttons meistens hat.",
+        "step1": "Laden Sie oben die Preset-Bibliothek herunter. Lassen Sie sie als .zip, entpacken ist nicht nötig.",
+        "step2": "Öffnen Sie in {name} Einstellungen → Preset-Bibliothek → Aus Datei importieren.",
+        "noImport": "Keine „Preset-Bibliothek“ in den Einstellungen? Aktualisieren Sie {name} zuerst auf die neueste Version.",
+        "updatesHeading": "Wann Presets aktualisiert werden",
+        "updatesBody": "{name} sucht etwa einmal am Tag nach einer neuen Bibliothek. Layouts, die Sie aus einem Preset hinzugefügt und nicht verändert haben, wechseln von selbst auf die neue Version. Von Ihnen bearbeitete Layouts werden nie überschrieben: Auf der Seite des Spiels erscheint „Aktualisiertes Layout verfügbar“, und mit „Neue Version hinzufügen“ legen Sie die neue Version neben Ihrer eigenen an.",
+        "safetyBody": "Jede Preset-Bibliothek ist von DappleByte digital signiert. {name} prüft die Signatur auf Ihrem Smartphone und akzeptiert nur Dateien, die wir signiert haben und die neuer sind als die vorhandene Bibliothek. Eine veränderte oder ältere Datei wird abgelehnt, und Ihre aktuellen Presets bleiben unverändert."
       }
     }
   }

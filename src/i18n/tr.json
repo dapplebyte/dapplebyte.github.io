@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Nişancı",
       "football": "Futbol",
-      "twinstick": "Çift analog"
+      "twinstick": "Çift analog",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Açık dünya aksiyon",
+      "general": "Genel"
     },
     "importHeading": "Elle içe aktarma",
     "step1": "Yukarıdaki hazır düzen kütüphanesini indirin. .zip olarak bırakın, açmanıza gerek yok.",
@@ -740,6 +744,28 @@
         "description": "SlopSwipe'ın AI videoları ve kısa video akışlarıyla ilgili diğer Android uygulamalarıyla özellik özellik karşılaştırması, yalnızca gerçekler.",
         "vsDescription": "Android'de {name} ve {other} özellik özellik karşılaştırması: resmi uygulamalar, otomatik atlama, AI etiketleri ve anahtar kelimeler, listeler, geri alma, gizlilik ve fiyat.",
         "vsIntro": "İkisi de Android'de kısa video akışlarında gördüklerinizle ilgilenir. Farkları özellik özellik burada."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Hazır düzenler"
+      },
+      "presets": {
+        "title": "{name} hazır oyun düzenleri",
+        "description": "Güncel {name} hazır düzen kütüphanesini indirin: desteklenen oyunlar için resmi tuş yerleşimleri ve oyun türü şablonları, elle içe aktarma adımlarıyla birlikte.",
+        "lede": "{name} yeni hazır düzenleri kendisi indirir. Bu sayfada güncel kütüphanede neler olduğunu görebilir, otomatik güncellemeler telefonunuza ulaşamıyorsa kütüphaneyi buradan indirebilirsiniz.",
+        "download": "Hazır düzen kütüphanesini indir",
+        "gamesHeading": "Hazır oyun düzenleri",
+        "gamesBody": "Her oyunun varsayılan ekran kontrollerine göre hazırlanmış tuş yerleşimleri; yürürken ya da araç kullanırken gibi her durum için ayrı bir düzen.",
+        "colPhases": "Düzenler",
+        "betaNote": "Beta hazır düzenler yaygın ekranlara göre ayarlandı, bu yüzden sizin ekranınızda birkaç tuş biraz kayık durabilir. Yerine oturmayan tuşu sürükleyip düzeltin.",
+        "templatesBody": "Kendine ait hazır düzeni olmayan oyunlar için bir başlangıç noktası. Tuşlar, bu tür oyunların düğmelerini genelde koyduğu yerlerde durur.",
+        "step1": "Yukarıdaki hazır düzen kütüphanesini indirin. .zip olarak bırakın, açmanıza gerek yok.",
+        "step2": "{name} uygulamasında Ayarlar → Hazır düzen kütüphanesi → Dosyadan içe aktar yolunu izleyin.",
+        "noImport": "Ayarlar'da Hazır düzen kütüphanesi seçeneği yok mu? Önce {name} uygulamasını en son sürüme güncelleyin.",
+        "updatesHeading": "Hazır düzenler ne zaman güncellenir",
+        "updatesBody": "{name} yeni bir kütüphane olup olmadığını günde yaklaşık bir kez kontrol eder. Hazır bir düzenden eklediğiniz ve değiştirmediğiniz düzenler kendiliğinden yeni sürüme geçer. Değiştirdiğiniz düzenlerin üzerine ise asla yazılmaz: oyunun sayfasında Güncellenmiş düzen var yazısı görünür ve Yeni sürümü ekle ile yeni sürümü kendi düzeninizin yanına ekleyebilirsiniz.",
+        "safetyBody": "Her hazır düzen kütüphanesi DappleByte tarafından dijital olarak imzalanır. {name} imzayı telefonunuzda doğrular ve yalnızca bizim imzaladığımız, mevcut kütüphaneden daha yeni dosyaları kabul eder. Değiştirilmiş ya da daha eski bir dosya reddedilir ve mevcut hazır düzenleriniz olduğu gibi kalır."
       }
     }
   }

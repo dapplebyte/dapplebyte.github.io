@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Tiro",
       "football": "Futebol",
-      "twinstick": "Dois analógicos"
+      "twinstick": "Dois analógicos",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Ação em mundo aberto",
+      "general": "Geral"
     },
     "importHeading": "Importar manualmente",
     "step1": "Baixe a biblioteca de esquemas predefinidos acima. Deixe como .zip, não precisa descompactar.",
@@ -740,6 +744,28 @@
         "description": "Como o SlopSwipe se compara a outros apps Android para vídeos de IA e feeds de vídeos curtos, recurso por recurso, só fatos.",
         "vsDescription": "{name} e {other} comparados no Android, recurso por recurso: apps oficiais, pulo automático, rótulos e palavras-chave de IA, listas, desfazer, privacidade e preço.",
         "vsIntro": "Os dois lidam com o que você vê nos feeds de vídeos curtos no Android. Veja onde eles diferem, recurso por recurso."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Esquemas predefinidos"
+      },
+      "presets": {
+        "title": "Esquemas predefinidos do {name} para jogos",
+        "description": "Baixe a biblioteca de esquemas predefinidos atual do {name}: layouts de botões oficiais para os jogos compatíveis e modelos por tipo de jogo, com o passo a passo para importar manualmente.",
+        "lede": "O {name} baixa os esquemas novos sozinho. Esta página mostra o que a biblioteca atual inclui e permite baixá-la se as atualizações automáticas não chegarem ao seu celular.",
+        "download": "Baixar biblioteca de esquemas predefinidos",
+        "gamesHeading": "Esquemas predefinidos para jogos",
+        "gamesBody": "Layouts de botões feitos para os controles na tela padrão de cada jogo, com um esquema para cada situação, como a pé ou dirigindo.",
+        "colPhases": "Esquemas",
+        "betaNote": "Os esquemas Beta são ajustados em telas comuns, então na sua alguns botões podem ficar um pouco fora do lugar. Arraste qualquer botão que estiver fora do lugar.",
+        "templatesBody": "Pontos de partida para jogos que ainda não têm esquema próprio. Os botões ficam onde esse tipo de jogo costuma colocá-los.",
+        "step1": "Baixe a biblioteca de esquemas predefinidos acima. Deixe como .zip, não precisa descompactar.",
+        "step2": "No {name}, vá em Configurações → Biblioteca de esquemas predefinidos → Importar de arquivo.",
+        "noImport": "Não encontrou Biblioteca de esquemas predefinidos nas Configurações? Atualize o {name} para a versão mais recente primeiro.",
+        "updatesHeading": "Quando os esquemas são atualizados",
+        "updatesBody": "O {name} procura uma biblioteca nova mais ou menos uma vez por dia. Os esquemas que você adicionou a partir de um predefinido e não alterou passam para a nova versão sozinhos. Os que você editou nunca são substituídos: a página do jogo mostra Esquema atualizado disponível, e Adicionar nova versão coloca a nova ao lado da sua.",
+        "safetyBody": "Toda biblioteca de esquemas predefinidos tem a assinatura digital da DappleByte. O {name} verifica a assinatura no seu celular e só aceita arquivos assinados por nós e mais novos que a biblioteca que ele já tem. Um arquivo alterado, ou mais antigo, é recusado, e seus esquemas predefinidos atuais continuam como estão."
       }
     }
   }

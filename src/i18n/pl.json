@@ -299,7 +299,11 @@
     "genre": {
       "shooter": "Strzelanka",
       "football": "Piłka nożna",
-      "twinstick": "Dwa drążki"
+      "twinstick": "Dwa drążki",
+      "fps": "FPS",
+      "moba": "MOBA",
+      "arpg": "Akcja z otwartym światem",
+      "general": "Ogólny"
     },
     "importHeading": "Import ręczny",
     "step1": "Pobierz bibliotekę powyżej. Zostaw ją jako .zip, nie trzeba jej rozpakowywać.",
@@ -740,6 +744,28 @@
         "description": "SlopSwipe w porównaniu z innymi aplikacjami na Androida do filmów SI i kanałów z krótkimi filmami, funkcja po funkcji, same fakty.",
         "vsDescription": "{name} i {other} na Androidzie, funkcja po funkcji: oficjalne aplikacje, automatyczne pomijanie, oznaczenia i słowa kluczowe SI, listy, cofanie, prywatność i cena.",
         "vsIntro": "Obie zajmują się tym, co widzisz w kanałach z krótkimi filmami na Androidzie. Oto różnice, funkcja po funkcji."
+      }
+    },
+    "wasdo": {
+      "labels": {
+        "presets": "Gotowe układy"
+      },
+      "presets": {
+        "title": "Gotowe układy do gier w {name}",
+        "description": "Pobierz aktualną bibliotekę gotowych układów {name}: oficjalne układy przycisków do obsługiwanych gier i szablony gatunków, z instrukcją ręcznego importu.",
+        "lede": "{name} sam pobiera nowe gotowe układy. Ta strona pokazuje, co zawiera aktualna biblioteka, i pozwala ją pobrać, jeśli automatyczne aktualizacje nie docierają na Twój telefon.",
+        "download": "Pobierz bibliotekę gotowych układów",
+        "gamesHeading": "Gotowe układy do gier",
+        "gamesBody": "Układy przycisków dopasowane do domyślnego sterowania dotykowego każdej gry, z osobnym układem do każdej sytuacji, np. pieszo albo w pojeździe.",
+        "colPhases": "Układy",
+        "betaNote": "Gotowe układy w wersji Beta są dostrojone na typowych ekranach, więc na Twoim urządzeniu kilka przycisków może być lekko przesuniętych. Przeciągnij każdy przycisk, który nie pasuje.",
+        "templatesBody": "Punkt wyjścia dla gier bez własnego gotowego układu. Przyciski są tam, gdzie gry tego rodzaju zwykle je mają.",
+        "step1": "Pobierz bibliotekę powyżej. Zostaw ją jako .zip, nie trzeba jej rozpakowywać.",
+        "step2": "W {name} otwórz Ustawienia → Biblioteka gotowych układów → Importuj z pliku.",
+        "noImport": "Nie widzisz opcji „Biblioteka gotowych układów” w Ustawieniach? Najpierw zaktualizuj {name} do najnowszej wersji.",
+        "updatesHeading": "Kiedy gotowe układy się aktualizują",
+        "updatesBody": "{name} mniej więcej raz dziennie sprawdza, czy jest nowa biblioteka. Układy dodane z gotowych układów i niezmienione przez Ciebie same przechodzą na nową wersję. Układów, które edytujesz, nic nie nadpisze: na stronie gry pojawi się „Dostępny zaktualizowany układ”, a przyciskiem „Dodaj nową wersję” dodasz nową wersję obok swojej.",
+        "safetyBody": "Każda biblioteka gotowych układów ma podpis cyfrowy DappleByte. {name} weryfikuje podpis na Twoim telefonie i przyjmuje tylko pliki podpisane przez nas i nowsze niż biblioteka, którą już ma. Zmieniony lub starszy plik zostanie odrzucony, a obecne gotowe układy pozostaną bez zmian."
       }
     }
   }
