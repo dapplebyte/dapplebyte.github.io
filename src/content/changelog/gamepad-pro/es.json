@@ -3,6 +3,20 @@
   "locale": "es",
   "entries": [
     {
+      "code": 1991,
+      "name": "1.9.9.1",
+      "date": "2026-11-10",
+      "items": [
+        "Nuevo: esquema predefinido de Free Fire; plantillas Disparos, Fútbol y Doble stick en esquemas nuevos.",
+        "Predefinidos en beta: si los botones no coinciden, usa \"Valorar este esquema\".",
+        "En Ajustes: Biblioteca de esquemas predefinidos (actualizar o importar).",
+        "Nuevo tema Claro en Ajustes > Tema.",
+        "Sticks: opción \"Disparar al soltar\" para sticks de ataque.",
+        "Android 14/15: los botones mantenidos ya no se cortan al mover los sticks.",
+        "Corregimos varios cierres y bloqueos."
+      ]
+    },
+    {
       "code": 199,
       "name": "1.9.9",
       "date": "2026-11-08",
@@ -114,5 +128,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-08"
+  "extractedAt": "2026-11-10"
 }

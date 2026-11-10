@@ -3,6 +3,20 @@
   "locale": "it",
   "entries": [
     {
+      "code": 1991,
+      "name": "1.9.9.1",
+      "date": "2026-11-10",
+      "items": [
+        "Novità: schema predefinito Free Fire e modelli Sparatutto, Calcio e Doppio stick per i nuovi schemi.",
+        "Schemi predefiniti in beta: tasti fuori posto? Usa \"Valuta questo schema\".",
+        "In Impostazioni: Libreria degli schemi predefiniti, per aggiornare o importare.",
+        "Nuovo tema Chiaro: Impostazioni > Tema.",
+        "Stick: opzione \"Fuoco al rilascio\" per gli stick d'attacco.",
+        "Android 14/15: i tasti tenuti premuti non si interrompono più muovendo gli stick.",
+        "Corretti arresti anomali e blocchi."
+      ]
+    },
+    {
       "code": 199,
       "name": "1.9.9",
       "date": "2026-11-08",
@@ -114,5 +128,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-08"
+  "extractedAt": "2026-11-10"
 }

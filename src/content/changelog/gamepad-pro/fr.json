@@ -3,6 +3,19 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 1991,
+      "name": "1.9.9.1",
+      "date": "2026-11-10",
+      "items": [
+        "Nouveau : configuration Free Fire, et modèles Tir, Football et Double stick à l’ajout d’une phase.",
+        "Configurations prédéfinies en Beta : boutons décalés ? Utilisez « Noter cette phase ».",
+        "Dans Paramètres : Bibliothèque de configurations prédéfinies (mises à jour, import).",
+        "Nouveau thème Clair : Paramètres > Thème.",
+        "Sticks : option « Tir au relâchement » pour les sticks d’attaque.",
+        "Correction de plantages, de blocages et des boutons maintenus coupés par les sticks (Android 14/15)."
+      ]
+    },
+    {
       "code": 199,
       "name": "1.9.9",
       "date": "2026-11-08",
@@ -114,5 +127,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-08"
+  "extractedAt": "2026-11-10"
 }

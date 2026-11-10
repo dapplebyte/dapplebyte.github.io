@@ -3,6 +3,20 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 1991,
+      "name": "1.9.9.1",
+      "date": "2026-11-10",
+      "items": [
+        "Nieuw: preset voor Free Fire, plus sjablonen Shooter, Voetbal en Twin-stick bij het toevoegen van een indeling.",
+        "Presets zijn in Beta: knoppen verschoven? Gebruik 'Deze indeling beoordelen'.",
+        "In Instellingen: Presetbibliotheek voor updates of importeren.",
+        "Nieuw licht thema: Instellingen > Thema.",
+        "Sticks: optie 'Afvuren bij loslaten' voor aanvalssticks.",
+        "Android 14/15: ingedrukte knoppen vallen niet meer weg tijdens het bewegen van de sticks.",
+        "Crashes en vastlopers opgelost."
+      ]
+    },
+    {
       "code": 199,
       "name": "1.9.9",
       "date": "2026-11-08",
@@ -114,5 +128,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-08"
+  "extractedAt": "2026-11-10"
 }

@@ -3,6 +3,20 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 1991,
+      "name": "1.9.9.1",
+      "date": "2026-11-10",
+      "items": [
+        "Nowość: gotowy układ do Free Fire oraz szablony Strzelanka, Piłka nożna i Dwa drążki przy dodawaniu układu.",
+        "Gotowe układy są w Beta: przyciski nie pasują? Użyj „Oceń ten układ”.",
+        "W Ustawieniach: Biblioteka gotowych układów – aktualizacje lub import.",
+        "Nowy jasny motyw: Ustawienia > Motyw.",
+        "Gałki: opcja „Atak po puszczeniu” dla gałek ataku.",
+        "Android 14/15: przytrzymane przyciski nie przerywają się już podczas ruchu gałek.",
+        "Naprawiono awarie i zawieszenia."
+      ]
+    },
+    {
       "code": 199,
       "name": "1.9.9",
       "date": "2026-11-08",
@@ -114,5 +128,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-08"
+  "extractedAt": "2026-11-10"
 }

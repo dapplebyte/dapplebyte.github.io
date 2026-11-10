@@ -3,6 +3,20 @@
   "locale": "en",
   "entries": [
     {
+      "code": 1991,
+      "name": "1.9.9.1",
+      "date": "2026-11-10",
+      "items": [
+        "New: Free Fire preset, plus Shooter, Football and Twin-stick templates when adding a phase.",
+        "Presets are in beta: use \"Rate this phase\" if buttons are off.",
+        "New Preset library in Settings: check for updates or import.",
+        "New Light theme in Settings > Theme.",
+        "Joystick: new \"Fire on release\" option for attack sticks.",
+        "Android 14/15: held buttons no longer cut out while moving the sticks.",
+        "Fixed several crashes and freezes."
+      ]
+    },
+    {
       "code": 199,
       "name": "1.9.9",
       "date": "2026-11-08",
@@ -114,5 +128,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-08"
+  "extractedAt": "2026-11-10"
 }

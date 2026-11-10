@@ -3,6 +3,20 @@
   "locale": "id",
   "entries": [
     {
+      "code": 1991,
+      "name": "1.9.9.1",
+      "date": "2026-11-10",
+      "items": [
+        "Baru: preset Free Fire, plus template Shooter, Sepak bola, dan Dua stik saat menambah phase.",
+        "Preset masih Beta: kalau posisi tombol meleset, pakai \"Nilai Phase ini\".",
+        "Baru di Setelan: Pustaka preset untuk cek update atau impor.",
+        "Tema Terang baru di Setelan > Tema.",
+        "Stik: opsi baru \"Serang saat dilepas\" untuk stik serangan.",
+        "Android 14/15: tombol yang ditahan tidak lagi terputus saat menggerakkan stik.",
+        "Memperbaiki beberapa crash dan macet."
+      ]
+    },
+    {
       "code": 199,
       "name": "1.9.9",
       "date": "2026-11-08",
@@ -114,5 +128,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-08"
+  "extractedAt": "2026-11-10"
 }

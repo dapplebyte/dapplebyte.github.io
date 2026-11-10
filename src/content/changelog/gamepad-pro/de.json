@@ -3,6 +3,20 @@
   "locale": "de",
   "entries": [
     {
+      "code": 1991,
+      "name": "1.9.9.1",
+      "date": "2026-11-10",
+      "items": [
+        "Neu: Preset für Free Fire sowie Vorlagen Shooter, Fußball und Twin-Stick beim Hinzufügen eines Layouts.",
+        "Presets sind in der Beta: Tasten verrutscht? Nutze „Dieses Layout bewerten“.",
+        "In den Einstellungen: Preset-Bibliothek für Updates oder Import.",
+        "Neues helles Design: Einstellungen > Design.",
+        "Sticks: Option „Beim Loslassen auslösen“ für Angriffssticks.",
+        "Android 14/15: Gehaltene Tasten brechen beim Bewegen der Sticks nicht mehr ab.",
+        "Abstürze und Hänger behoben."
+      ]
+    },
+    {
       "code": 199,
       "name": "1.9.9",
       "date": "2026-11-08",
@@ -114,5 +128,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-08"
+  "extractedAt": "2026-11-10"
 }

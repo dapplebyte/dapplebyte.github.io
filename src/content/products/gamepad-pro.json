@@ -53,6 +53,11 @@
       "code": 199,
       "name": "1.9.9",
       "date": "2026-11-08"
+    },
+    {
+      "code": 1991,
+      "name": "1.9.9.1",
+      "date": "2026-11-10"
     }
   ],
   "contactEmail": "feedback@dapplebyte.com",
