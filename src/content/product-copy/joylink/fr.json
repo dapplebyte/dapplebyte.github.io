@@ -1,21 +1,21 @@
 {
   "slug": "joylink",
   "locale": "fr",
-  "title": "JoyLink : Manette Bluetooth PC",
-  "shortDescription": "Téléphone en contrôleur de jeu pour Windows, Mac et Android TV, rien à installer",
-  "tagline": "Manette Bluetooth pour PC, Mac, Linux et Android TV : rien à installer en face",
+  "title": "JoyLink : téléphone en manette",
+  "shortDescription": "Manette Bluetooth, pavé tactile et télécommande TV pour PC, Mac et Android TV",
+  "tagline": "Votre téléphone devient une vraie manette Bluetooth : sans appli en face, sans dongle, sans root",
   "sections": [
     {
       "id": "intro",
-      "title": "Manette Bluetooth pour PC, Mac, Linux et Android TV : rien à installer en face",
+      "title": "Votre téléphone devient une vraie manette Bluetooth : sans appli en face, sans dongle, sans root",
       "paragraphs": [
-        "Votre téléphone Android est reconnu comme manette de jeu Bluetooth standard, pavé tactile et télécommande TV. Associez-le une fois à un PC Windows, un Mac, un Linux, une Android TV ou un autre téléphone, et il fonctionne comme n’importe quelle manette sans fil : sans appli en face, sans dongle, sans root."
+        "JoyLink fait reconnaître votre téléphone Android comme manette de jeu Bluetooth standard, pavé tactile et télécommande TV. Associez-le une fois à un PC Windows, un Mac, un Linux, une Android TV ou un autre Android : rien à installer en face."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "Les usages courants de JoyLink",
+      "title": "Les usages courants",
       "paragraphs": [],
       "bullets": [
         "Émulateurs et jeux Steam sur un portable sans manette",
@@ -31,9 +31,9 @@
       "paragraphs": [],
       "bullets": [
         "Disposition façon Xbox : deux sticks analogiques, D-pad, A B X Y, LB/RB, LT/RT, Start et Select",
-        "Manette standard (DirectInput) pour Steam, les émulateurs et tout jeu qui gère les pads génériques ; Steam Input couvre les titres XInput uniquement",
-        "Latence comparable à une manette Bluetooth classique ; reconnexion automatique, écran gardé allumé, sortie par appui long",
-        "Vibration et testeur de boutons intégré qui montre ce que reçoit l’appareil hôte"
+        "Manette standard (DirectInput) pour Steam, les émulateurs et tout pad générique ; Steam Input couvre les titres XInput",
+        "Vibration, plein écran paysage, sortie par appui long : rien ne vous éjecte",
+        "Testeur de boutons intégré : voyez ce qu’envoie chaque commande"
       ]
     },
     {
@@ -51,9 +51,9 @@
       "title": "Télécommande TV pour Android TV, Google TV et Fire TV",
       "paragraphs": [],
       "bullets": [
-        "Navigation D-pad, Retour, Accueil, Menu et extinction",
+        "Navigation D-pad, Retour, Accueil, Menu et Marche/Arrêt",
         "Volume, sourdine, lecture/pause, piste suivante, chaînes +/−",
-        "Pavé numérique et saisie de texte pour les champs de recherche"
+        "Pavé numérique et saisie de texte pour les recherches"
       ]
     },
     {
@@ -61,7 +61,7 @@
       "title": "Dispositions perso, Turbo et macros",
       "paragraphs": [],
       "bullets": [
-        "Déplacez, redimensionnez, estompez chaque commande ; jusqu’à 8 dispositions selon les jeux",
+        "Déplacez, redimensionnez, estompez chaque commande ; jusqu’à 8 dispositions",
         "Turbo (tir rapide) sur tout bouton ; un combo enregistré une fois se rejoue d’une touche macro"
       ]
     },
@@ -70,15 +70,33 @@
       "title": "Volant pour PC, TV et émulateurs : dirigez en inclinant",
       "paragraphs": [],
       "bullets": [
-        "Téléphone à l’horizontale, inclinez pour tourner : pour les appareils dont l’écran ne s’incline pas",
+        "Téléphone à l’horizontale, inclinez pour tourner, pour les écrans qui ne s’inclinent pas",
         "Pédales sur LT/RT d’origine ; préréglages analogique, stick gauche et rétro pour simus et émulateurs"
+      ]
+    },
+    {
+      "id": "themes",
+      "title": "Trois thèmes complets",
+      "paragraphs": [
+        "HUD (vert lime esport), Aurora (verre et halo cyan) et Industrial (touches et orange) : trois univers complets, pas un accent."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "long-sessions",
+      "title": "Pensé pour les longues sessions",
+      "paragraphs": [],
+      "bullets": [
+        "Latence du même ordre qu’une manette Bluetooth classique",
+        "Reconnexion automatique, écran gardé allumé en jeu",
+        "19 langues et une FAQ intégrée"
       ]
     },
     {
       "id": "pricing",
       "title": "Gratuit à vie, Pro en achat unique",
       "paragraphs": [
-        "Connexion, association et manette standard sont gratuites, sans limite de temps ni publicité. Pro ajoute pavé tactile, télécommande TV, volant, dispositions perso, Turbo, macros et deux thèmes supplémentaires : achat unique, pas d’abonnement. Chaque fonction Pro s’essaie une fois avant l’achat."
+        "Connexion, association et manette standard sont gratuites, sans limite ni publicité. Pro ajoute pavé tactile, télécommande TV, volant, dispositions perso, Turbo, macros et deux thèmes : achat unique, pas d’abonnement. Chaque fonction Pro s’essaie une fois gratuitement."
       ],
       "bullets": []
     },
@@ -86,7 +104,7 @@
       "id": "privacy",
       "title": "La vie privée d’abord",
       "paragraphs": [
-        "JoyLink demande seulement l’autorisation « Appareils à proximité » (Bluetooth) et une notification d’état. Ni compte ni connexion : vos appuis passent en Bluetooth vers l’appareil piloté, nulle part ailleurs."
+        "JoyLink demande seulement l’autorisation « Appareils à proximité » (Bluetooth) et une notification d’état. Ni compte ni connexion : vos appuis vont vers l’appareil piloté, nulle part ailleurs."
       ],
       "bullets": []
     },
@@ -94,16 +112,16 @@
       "id": "before-you-install",
       "title": "À lire avant d’installer",
       "paragraphs": [
-        "Un souci ? Un avis sur Play ne nous permet ni de vous demander des détails ni de vous envoyer un correctif. Écrivez à feedback@dapplebyte.com (Réglages → À propos → Envoyer un commentaire joint votre modèle et la version de l’app) et nous vous répondrons."
+        "Un souci ? Un avis sur Play ne nous permet pas de vous répondre. Écrivez à feedback@dapplebyte.com : Réglages → À propos → Envoyer un commentaire joint votre modèle et la version de l’app."
       ],
       "bullets": [
-        "PlayStation, Xbox et Nintendo Switch n’acceptent que leurs propres manettes : JoyLink ne se connecte pas aux consoles",
-        "Les jeux iOS ne lisent pas les manettes Bluetooth génériques : sur iPhone et iPad, JoyLink reste souris et clavier",
-        "Certains constructeurs désactivent le mode manette Bluetooth dans le firmware et aucune appli ne peut le rétablir ; JoyLink le vérifie au premier lancement",
-        "Chaque appareil associe les boutons à sa façon ; le testeur de boutons et la FAQ couvrent les cas courants",
-        "Le volant vise le PC, les box TV et les émulateurs : la plupart des jeux de course mobiles n’acceptent pas de manette"
+        "PlayStation, Xbox et Nintendo Switch n’acceptent que leurs manettes : pas de connexion aux consoles",
+        "Les jeux iOS ne lisent pas les manettes génériques : sur iPhone et iPad, JoyLink reste souris et clavier",
+        "Android sait faire manette Bluetooth, mais certains constructeurs le désactivent dans le firmware ; aucune appli ne le rétablit, JoyLink le vérifie au lancement",
+        "Chaque appareil associe les boutons à sa façon ; le testeur et la FAQ aident",
+        "Le volant vise le PC, les box TV et les émulateurs : la plupart des jeux mobiles ignorent les manettes, et le téléphone de jeu incline déjà tout seul"
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-10-15"
 }
