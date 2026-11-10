@@ -3,6 +3,18 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-11-10",
+      "items": [
+        "Nowość: Test połączenia – lista sprawdzana na bieżąco, od Bluetooth po testowe wejście. W Ustawienia → Połączenie lub przyciskiem Rozwiąż problem na ekranie głównym",
+        "Po powrocie do aplikacji rejestruje się ponownie i sama łączy z ostatnim urządzeniem",
+        "Nowy przewodnik na ekranie pada dla PC, TV i innych",
+        "Czytelniejsze błędy połączenia z przyczyną i postępem prób",
+        "Naprawiono „nieobsługiwane” po chwilowym błędzie Bluetooth"
+      ]
+    },
+    {
       "code": 120,
       "name": "1.2.0",
       "date": "2026-09-15",
@@ -12,5 +24,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

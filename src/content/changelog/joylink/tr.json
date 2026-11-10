@@ -3,6 +3,18 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-11-10",
+      "items": [
+        "Yeni: Bağlantı kontrolü; Bluetooth'tan test girişine kadar anlık kontrol listesi. Ayarlar → Bağlantı'dan veya ana ekrandaki Sorun gider ile açın",
+        "Uygulamaya dönünce yeniden kaydolur ve son cihaza kendiliğinden bağlanır",
+        "Oyun kumandası ekranında PC, TV ve daha fazlası için yeni rehber",
+        "Nedenini ve deneme ilerlemesini gösteren daha net bağlantı hataları",
+        "Geçici Bluetooth hatasından sonra \"desteklenmiyor\" görünmesi düzeltildi"
+      ]
+    },
+    {
       "code": 120,
       "name": "1.2.0",
       "date": "2026-09-15",
@@ -12,5 +24,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

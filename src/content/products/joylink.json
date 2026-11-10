@@ -9,7 +9,8 @@
   "category": "UtilitiesApplication",
   "minOs": "Android 9",
   "versions": [
-    { "code": 120, "name": "1.2.0", "date": "2026-09-15" }
+    { "code": 120, "name": "1.2.0", "date": "2026-09-15" },
+    { "code": 122, "name": "1.2.2", "date": "2026-11-10" }
   ],
   "contactEmail": "feedback@dapplebyte.com",
   "accent": { "solid": "#D9FF3D", "bright": "#E6FF66", "ink": "#0A0F00" },

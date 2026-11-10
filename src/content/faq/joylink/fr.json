@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "L'appairage a réussi, mais ça reste sur « Connexion… » ou ça ne se connecte jamais.",
           "a": [
-            "Vérifiez que le Bluetooth est activé en face, que l'appareil est à portée et qu'il n'est pas déjà occupé par une autre manette. Essayez de lancer la connexion depuis l'autre appareil, en touchant le nom du téléphone. Sinon, coupez puis réactivez le Bluetooth des deux côtés. Si l'appareil voit bien le téléphone mais que rien ne se passe quand vous appuyez, voyez « L'appareil connecté ne reconnaît pas JoyLink »."
+            "Vérifiez que le Bluetooth est activé en face, que l'appareil est à portée et qu'il n'est pas déjà occupé par une autre manette. Essayez de lancer la connexion depuis l'autre appareil, en touchant le nom du téléphone. Sinon, coupez puis réactivez le Bluetooth des deux côtés. Si l'appareil voit bien le téléphone mais que rien ne se passe quand vous appuyez, voyez « L'appareil connecté ne reconnaît pas JoyLink ». Ou lancez « Test de connexion » dans Réglages → Connexion pour voir quelle étape échoue."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "Est-ce que ça se reconnecte après une coupure ?",
           "a": [
-            "Oui. Trois tentatives au maximum, avec des pauses de plus en plus longues, puis un message sur l'écran d'accueil si ça échoue. Vous pouvez désactiver ce comportement dans Réglages → Connexion → Reconnexion automatique."
+            "Oui. Trois tentatives au maximum, avec des pauses de plus en plus longues, puis un message expliquant pourquoi sur l'écran d'accueil si ça échoue. Vous pouvez désactiver ce comportement dans Réglages → Connexion → Reconnexion automatique."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "Le message « Impossible de s'enregistrer comme manette » apparaît.",
           "a": [
-            "Android n'autorise qu'une seule application à la fois à être un périphérique d'entrée Bluetooth : une autre application de manette, de clavier ou de souris occupe probablement la place. Fermez-la puis relancez la vérification."
+            "C'est généralement temporaire, et ce n'est pas une limite matérielle de votre téléphone. Commencez par désactiver et réactiver le Bluetooth, puis revenez dans JoyLink. Si cela ne suffit pas, fermez toute autre application qui transforme ce téléphone en manette, clavier, souris ou télécommande — Android n'en autorise qu'une à la fois. Si l'échec persiste, redémarrez le téléphone et relancez la vérification."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

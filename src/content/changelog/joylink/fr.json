@@ -3,6 +3,18 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-11-10",
+      "items": [
+        "Nouveau : Test de connexion, une liste en direct du Bluetooth jusqu'à une entrée de test. Dans Réglages → Connexion ou via Dépanner sur l'accueil",
+        "De retour dans l'appli, elle se réenregistre et se reconnecte seule au dernier appareil",
+        "Nouveau guide sur l'écran manette pour PC, TV et plus",
+        "Erreurs de connexion plus claires, avec la cause et les tentatives",
+        "Corrigé : « non pris en charge » après une erreur Bluetooth passagère"
+      ]
+    },
+    {
       "code": 120,
       "name": "1.2.0",
       "date": "2026-09-15",
@@ -12,5 +24,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

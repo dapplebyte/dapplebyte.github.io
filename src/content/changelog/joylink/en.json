@@ -3,6 +3,18 @@
   "locale": "en",
   "entries": [
     {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-11-10",
+      "items": [
+        "New Connection check: a live checklist from Bluetooth to a test input. Find it in Settings → Connection or tap Troubleshoot on the home screen",
+        "Back in the app, it re-registers and reconnects to your last device automatically",
+        "New setup guide on the gamepad screen with steps for PC, TV and more",
+        "Clearer connection errors with the cause and retry progress",
+        "Fixed \"not supported\" after a temporary Bluetooth error"
+      ]
+    },
+    {
       "code": 120,
       "name": "1.2.0",
       "date": "2026-09-15",
@@ -12,5 +24,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

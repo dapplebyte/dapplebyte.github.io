@@ -3,6 +3,18 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-11-10",
+      "items": [
+        "Mới: Kiểm tra kết nối – danh sách kiểm tra trực tiếp quyền, Bluetooth, ghép nối và nút bấm thử. Mở từ Cài đặt → Kết nối hoặc nút Khắc phục sự cố ở màn hình chính",
+        "Khi quay lại ứng dụng, ứng dụng tự đăng ký lại và kết nối lại thiết bị gần nhất",
+        "Thêm hướng dẫn trên màn hình tay cầm, có các bước cho PC, TV và thiết bị khác",
+        "Lỗi kết nối rõ ràng hơn, cho biết nguyên nhân và tiến độ thử lại",
+        "Sửa lỗi hiện \"không hỗ trợ\" sau sự cố Bluetooth tạm thời"
+      ]
+    },
+    {
       "code": 120,
       "name": "1.2.0",
       "date": "2026-09-15",
@@ -12,5 +24,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

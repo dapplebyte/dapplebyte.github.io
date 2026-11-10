@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "Pairing worked, but it stays on “Connecting…” or never connects.",
           "a": [
-            "Check that the host has Bluetooth on, is in range, and isn't busy with another controller. Try starting the connection from the host side by tapping the phone's name there. If that fails, turn Bluetooth off and on again on both devices. If the host does see the device but nothing happens when you press buttons, see “The host doesn't recognise JoyLink”."
+            "Check that the host has Bluetooth on, is in range, and isn't busy with another controller. Try starting the connection from the host side by tapping the phone's name there. If that fails, turn Bluetooth off and on again on both devices. If the host does see the device but nothing happens when you press buttons, see “The host doesn't recognise JoyLink”. Or run Connection check under Settings → Connection to see which step is failing."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "Does it reconnect after a dropout?",
           "a": [
-            "Yes. It retries up to three times with growing pauses, and tells you on the home screen if that fails. You can switch this off under Settings → Connection → Auto reconnect."
+            "Yes. It retries up to three times with growing pauses, and tells you why on the home screen if that fails. You can switch this off under Settings → Connection → Auto reconnect."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "It says “Can't register as a gamepad”.",
           "a": [
-            "Android lets only one app at a time act as a Bluetooth input device, so another gamepad, keyboard or mouse app is most likely holding that slot. Close it and check again."
+            "This is usually temporary, not a hardware limitation of your phone. First turn Bluetooth off and on again, then come back to JoyLink. If that doesn't help, close any other app that turns this phone into a controller, keyboard, mouse or remote — Android allows only one at a time. If it still fails, restart the phone and check again."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

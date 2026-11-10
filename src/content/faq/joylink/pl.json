@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "Parowanie się udało, ale wszystko stoi na „Łączenie…” albo połączenia nie ma.",
           "a": [
-            "Sprawdź, czy w drugim urządzeniu Bluetooth jest włączony, czy jest w zasięgu i czy nie jest zajęte innym padem. Spróbuj zainicjować połączenie z jego strony, dotykając tam nazwy telefonu. Jeśli to nie pomoże, wyłącz i włącz Bluetooth po obu stronach. A jeśli urządzenie widać, ale naciskanie przycisków nic nie daje, zajrzyj do „Drugie urządzenie nie rozpoznaje JoyLink”."
+            "Sprawdź, czy w drugim urządzeniu Bluetooth jest włączony, czy jest w zasięgu i czy nie jest zajęte innym padem. Spróbuj zainicjować połączenie z jego strony, dotykając tam nazwy telefonu. Jeśli to nie pomoże, wyłącz i włącz Bluetooth po obu stronach. A jeśli urządzenie widać, ale naciskanie przycisków nic nie daje, zajrzyj do „Drugie urządzenie nie rozpoznaje JoyLink”. Możesz też otworzyć Ustawienia → Połączenie → Test połączenia i sprawdzić, który krok zawodzi."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "Czy połączy się ponownie po zerwaniu?",
           "a": [
-            "Tak. Próbuje do trzech razy z coraz dłuższymi przerwami, a gdy się nie uda, informuje o tym na ekranie głównym. Możesz to wyłączyć w Ustawienia → Połączenie → Automatyczne łączenie."
+            "Tak. Próbuje do trzech razy z coraz dłuższymi przerwami, a gdy się nie uda, wyjaśnia na ekranie głównym dlaczego. Możesz to wyłączyć w Ustawienia → Połączenie → Automatyczne łączenie."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "Pojawia się „Nie udało się zarejestrować jako pad”.",
           "a": [
-            "Android pozwala tylko jednej aplikacji naraz być urządzeniem wejściowym Bluetooth, więc najpewniej inna aplikacja pada, klawiatury lub myszy zajmuje to miejsce. Zamknij ją i sprawdź ponownie."
+            "Zwykle to chwilowy problem, a nie ograniczenie sprzętowe telefonu. Najpierw wyłącz i ponownie włącz Bluetooth, a potem wróć do JoyLink. Jeśli to nie pomoże, zamknij inne aplikacje, które zmieniają ten telefon w kontroler, klawiaturę, mysz lub pilot — Android pozwala na działanie tylko jednej naraz. Jeśli nadal się nie udaje, uruchom telefon ponownie i sprawdź jeszcze raz."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

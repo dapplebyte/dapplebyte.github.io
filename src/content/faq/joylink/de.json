@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "Gekoppelt ist es, aber es bleibt bei „Verbindung wird hergestellt…“ oder verbindet nie.",
           "a": [
-            "Prüf, ob am anderen Gerät Bluetooth an ist, ob es in Reichweite ist und ob es nicht schon mit einem anderen Controller beschäftigt ist. Starte die Verbindung testweise von dort aus, indem du dort auf den Namen des Handys tippst. Hilft das nicht, schalte auf beiden Seiten Bluetooth aus und wieder ein. Wird das Gerät zwar erkannt, passiert beim Tastendruck aber nichts, sieh dir „Die Gegenstelle erkennt JoyLink nicht“ an."
+            "Prüf, ob am anderen Gerät Bluetooth an ist, ob es in Reichweite ist und ob es nicht schon mit einem anderen Controller beschäftigt ist. Starte die Verbindung testweise von dort aus, indem du dort auf den Namen des Handys tippst. Hilft das nicht, schalte auf beiden Seiten Bluetooth aus und wieder ein. Wird das Gerät zwar erkannt, passiert beim Tastendruck aber nichts, sieh dir „Die Gegenstelle erkennt JoyLink nicht“ an. Oder öffne Einstellungen → Verbindung → Verbindungsprüfung, um zu sehen, an welchem Schritt es hakt."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "Verbindet es sich nach einem Abbruch von selbst neu?",
           "a": [
-            "Ja. Es versucht es bis zu dreimal mit wachsenden Pausen und meldet sich auf dem Startbildschirm, wenn es nicht klappt. Abschalten kannst du das unter Einstellungen → Verbindung → Automatisch neu verbinden."
+            "Ja. Es versucht es bis zu dreimal mit wachsenden Pausen und nennt dir auf dem Startbildschirm den Grund, wenn es nicht klappt. Abschalten kannst du das unter Einstellungen → Verbindung → Automatisch neu verbinden."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "Es erscheint „Anmeldung als Gamepad fehlgeschlagen“.",
           "a": [
-            "Android erlaubt immer nur einer App, ein Bluetooth-Eingabegerät zu sein – wahrscheinlich belegt eine andere Gamepad-, Tastatur- oder Maus-App den Platz. Beende sie und prüfe erneut."
+            "Das ist meist nur vorübergehend und keine Hardware-Einschränkung deines Handys. Schalte zuerst Bluetooth aus und wieder ein und kehre dann zu JoyLink zurück. Hilft das nicht, beende alle anderen Apps, die dieses Handy zu einem Controller, einer Tastatur, Maus oder Fernbedienung machen – Android lässt immer nur eine gleichzeitig zu. Klappt es dann immer noch nicht, starte das Handy neu und prüfe erneut."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "Koppelen lukte, maar hij blijft op ‘Verbinden…’ staan of verbindt nooit.",
           "a": [
-            "Controleer of Bluetooth op de host aanstaat, of hij binnen bereik is en niet al bezet is door een andere controller. Start de verbinding eens vanaf de host door daar op de naam van de telefoon te tikken. Lukt dat niet, zet Bluetooth dan aan beide kanten uit en weer aan. Ziet de host het apparaat wel, maar gebeurt er niets als je op knoppen drukt, kijk dan bij ‘De host herkent JoyLink niet’."
+            "Controleer of Bluetooth op de host aanstaat, of hij binnen bereik is en niet al bezet is door een andere controller. Start de verbinding eens vanaf de host door daar op de naam van de telefoon te tikken. Lukt dat niet, zet Bluetooth dan aan beide kanten uit en weer aan. Ziet de host het apparaat wel, maar gebeurt er niets als je op knoppen drukt, kijk dan bij ‘De host herkent JoyLink niet’. Of open Instellingen → Verbinding → Verbindingscheck om te zien welke stap misgaat."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "Verbindt hij na een onderbreking vanzelf opnieuw?",
           "a": [
-            "Ja. Hij probeert het tot drie keer met steeds langere pauzes en meldt het op het startscherm als het niet lukt. Je kunt dit uitzetten bij Instellingen → Verbinding → Automatisch opnieuw verbinden."
+            "Ja. Hij probeert het tot drie keer met steeds langere pauzes en legt op het startscherm uit waarom, als het niet lukt. Je kunt dit uitzetten bij Instellingen → Verbinding → Automatisch opnieuw verbinden."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "Er staat ‘Aanmelden als gamepad mislukt’.",
           "a": [
-            "Android laat maar één app tegelijk een Bluetooth-invoerapparaat zijn, dus waarschijnlijk bezet een andere gamepad-, toetsenbord- of muis-app die plek. Sluit die app en controleer opnieuw."
+            "Dit is meestal tijdelijk en geen hardwarebeperking van je telefoon. Zet eerst Bluetooth uit en weer aan en ga daarna terug naar JoyLink. Helpt dat niet, sluit dan andere apps die deze telefoon in een controller, toetsenbord, muis of afstandsbediening veranderen — Android staat er maar één tegelijk toe. Lukt het nog steeds niet, start de telefoon dan opnieuw op en controleer het nog een keer."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

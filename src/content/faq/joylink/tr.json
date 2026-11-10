@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "Eşleştirme oldu ama “Bağlanıyor…” yazısında kalıyor ya da hiç bağlanmıyor.",
           "a": [
-            "Karşı cihazın Bluetooth'unun açık, menzilde ve başka bir kumandayla meşgul olmadığından emin olun. Bağlantıyı karşı taraftan başlatmayı deneyin: oradaki listede telefonun adına dokunun. Olmazsa iki cihazda da Bluetooth'u kapatıp açın. Cihaz telefonu görüyor ama tuşlara basınca hiçbir şey olmuyorsa “Karşı cihaz JoyLink'i tanımıyor” bölümüne bakın."
+            "Karşı cihazın Bluetooth'unun açık, menzilde ve başka bir kumandayla meşgul olmadığından emin olun. Bağlantıyı karşı taraftan başlatmayı deneyin: oradaki listede telefonun adına dokunun. Olmazsa iki cihazda da Bluetooth'u kapatıp açın. Cihaz telefonu görüyor ama tuşlara basınca hiçbir şey olmuyorsa “Karşı cihaz JoyLink'i tanımıyor” bölümüne bakın. Ya da hangi adımın başarısız olduğunu görmek için Ayarlar → Bağlantı → Bağlantı kontrolü bölümünü açın."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "Bağlantı koptuğunda kendi kendine geri gelir mi?",
           "a": [
-            "Evet. Araları giderek uzayan en fazla üç deneme yapar, başaramazsa ana ekranda size bildirir. Ayarlar → Bağlantı → Otomatik yeniden bağlan bölümünden kapatabilirsiniz."
+            "Evet. Araları giderek uzayan en fazla üç deneme yapar, başaramazsa nedenini ana ekranda size bildirir. Ayarlar → Bağlantı → Otomatik yeniden bağlan bölümünden kapatabilirsiniz."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "“Oyun kumandası olarak kaydedilemedi” diyor.",
           "a": [
-            "Android aynı anda yalnızca tek bir uygulamanın Bluetooth giriş aygıtı olmasına izin verir; yeri büyük olasılıkla başka bir kumanda, klavye veya fare uygulaması tutuyor. Onu kapatıp yeniden kontrol edin."
+            "Bu genellikle geçicidir; telefonunuzun donanımından kaynaklanan bir sınır değildir. Önce Bluetooth'u kapatıp yeniden açın, sonra JoyLink'e dönün. İşe yaramazsa, bu telefonu oyun kumandasına, klavyeye, fareye veya uzaktan kumandaya dönüştüren diğer uygulamaları kapatın — Android aynı anda yalnızca birine izin verir. Hâlâ olmuyorsa telefonu yeniden başlatıp tekrar kontrol edin."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

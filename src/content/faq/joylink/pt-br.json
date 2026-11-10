@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "Pareou, mas fica em “Conectando…” ou nunca conecta.",
           "a": [
-            "Confira se o outro aparelho está com o Bluetooth ligado, por perto e sem outro controle ocupando a vez. Tente iniciar a conexão pelo lado dele, tocando ali no nome do celular. Se não der, desligue e ligue o Bluetooth nos dois. Se o aparelho até vê o dispositivo mas nada acontece ao apertar os botões, veja “O aparelho não reconhece o JoyLink”."
+            "Confira se o outro aparelho está com o Bluetooth ligado, por perto e sem outro controle ocupando a vez. Tente iniciar a conexão pelo lado dele, tocando ali no nome do celular. Se não der, desligue e ligue o Bluetooth nos dois. Se o aparelho até vê o dispositivo mas nada acontece ao apertar os botões, veja “O aparelho não reconhece o JoyLink”. Ou abra Verificação de conexão em Configurações → Conexão para ver qual etapa está falhando."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "Ele reconecta sozinho depois de uma queda?",
           "a": [
-            "Sim. Tenta até três vezes, com pausas cada vez maiores, e avisa na tela inicial se não conseguir. Dá para desligar em Configurações → Conexão → Reconectar automaticamente."
+            "Sim. Tenta até três vezes, com pausas cada vez maiores, e explica o motivo na tela inicial se não conseguir. Dá para desligar em Configurações → Conexão → Reconectar automaticamente."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "Aparece “Não foi possível registrar como controle”.",
           "a": [
-            "O Android permite que apenas um app por vez seja um dispositivo de entrada Bluetooth, então provavelmente outro app de controle, teclado ou mouse está ocupando essa vaga. Feche-o e verifique de novo."
+            "Isso costuma ser temporário, não uma limitação de hardware do seu celular. Primeiro desligue e ligue o Bluetooth de novo e depois volte para o JoyLink. Se não resolver, feche qualquer outro app que transforme este celular em controle de jogo, teclado, mouse ou controle remoto — o Android só permite um por vez. Se ainda falhar, reinicie o celular e verifique de novo."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

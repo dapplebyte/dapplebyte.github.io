@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "Se ha emparejado, pero se queda en «Conectando…» o no llega a conectar.",
           "a": [
-            "Comprueba que el otro equipo tenga el Bluetooth activado, esté cerca y no esté ocupado con otro mando. Prueba a iniciar la conexión desde ese lado, tocando ahí el nombre del teléfono. Si no va, apaga y enciende el Bluetooth en los dos dispositivos. Si el equipo sí ve el dispositivo pero no pasa nada al pulsar botones, mira «El equipo no reconoce JoyLink»."
+            "Comprueba que el otro equipo tenga el Bluetooth activado, esté cerca y no esté ocupado con otro mando. Prueba a iniciar la conexión desde ese lado, tocando ahí el nombre del teléfono. Si no va, apaga y enciende el Bluetooth en los dos dispositivos. Si el equipo sí ve el dispositivo pero no pasa nada al pulsar botones, mira «El equipo no reconoce JoyLink». O abre Comprobación de conexión en Ajustes → Conexión para ver qué paso falla."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "¿Se reconecta solo si se corta?",
           "a": [
-            "Sí. Lo reintenta hasta tres veces con pausas cada vez más largas y te avisa en la pantalla de inicio si no lo consigue. Puedes desactivarlo en Ajustes → Conexión → Reconexión automática."
+            "Sí. Lo reintenta hasta tres veces con pausas cada vez más largas y te explica el motivo en la pantalla de inicio si no lo consigue. Puedes desactivarlo en Ajustes → Conexión → Reconexión automática."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "Dice «No se pudo registrar como mando».",
           "a": [
-            "Android solo permite que una app sea dispositivo de entrada Bluetooth a la vez, así que lo más probable es que otra app de mando, teclado o ratón esté ocupando ese sitio. Ciérrala y vuelve a comprobarlo."
+            "Suele ser algo temporal, no una limitación del hardware de tu teléfono. Primero apaga y enciende de nuevo el Bluetooth y después regresa a JoyLink. Si no sirve, cierra cualquier otra app que convierta este teléfono en mando, teclado, ratón o mando de TV: Android solo permite una a la vez. Si sigue fallando, reinicia el teléfono y vuelve a comprobarlo."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

@@ -1,15 +1,15 @@
 {
   "slug": "joylink",
   "locale": "tr",
-  "title": "JoyLink: Telefonu Gamepad Yap",
-  "shortDescription": "Bluetooth oyun kolu, gamepad, touchpad ve TV kumandası: PC, Mac, Android TV",
-  "tagline": "Telefonun gerçek bir Bluetooth oyun kolu olsun — alıcı uygulama, dongle ve root yok",
+  "title": "JoyLink: Bluetooth Gamepad PC",
+  "shortDescription": "Telefonun Windows, Mac ve Android TV için oyun kolu olsun; karşıya kurulum yok",
+  "tagline": "PC, Mac, Linux ve Android TV için Bluetooth gamepad — karşı tarafa hiçbir şey kurulmaz",
   "sections": [
     {
       "id": "intro",
-      "title": "Telefonun gerçek bir Bluetooth oyun kolu olsun — alıcı uygulama, dongle ve root yok",
+      "title": "PC, Mac, Linux ve Android TV için Bluetooth gamepad — karşı tarafa hiçbir şey kurulmaz",
       "paragraphs": [
-        "JoyLink, Android telefonunu standart bir Bluetooth oyun kolu, dokunmatik yüzey ve TV kumandası olarak tanıtır. Windows PC, Mac, Linux, Android TV ya da başka bir telefonla bir kez eşleştir; sonrası kablosuz bir gamepad gibi çalışır, karşıya hiçbir şey kurulmaz."
+        "JoyLink, Android telefonunu standart bir Bluetooth oyun kolu (gamepad), dokunmatik yüzey ve TV kumandası olarak tanıtır. Windows PC, Mac, Linux, Android TV ya da başka bir telefonla bir kez eşleştir; sonrası herhangi bir kablosuz oyun kolu gibi çalışır: alıcı uygulama yok, dongle yok, root yok."
       ],
       "bullets": []
     },
@@ -32,8 +32,8 @@
       "bullets": [
         "Xbox tarzı yerleşim: çift analog çubuk, D-pad, A B X Y, LB/RB, LT/RT, Start ve Select",
         "Steam, emülatörler ve genel kol destekleyen oyunlar için standart (DirectInput) kumanda; XInput isteyenleri Steam Input halleder",
-        "Titreşim, tam ekran yatay mod, uzun basmadan çıkış yok — oyun ortasında kopmazsın",
-        "Yerleşik tuş testi, her tuşun karşı cihaza ne gönderdiğini gösterir"
+        "Gecikme sıradan bir Bluetooth kumandayla aynı seviyede; otomatik yeniden bağlanma, ekran açık kalsın, uzun basarak çıkış",
+        "Titreşim ve her tuşun karşı cihaza ne gönderdiğini gösteren yerleşik tuş testi"
       ]
     },
     {
@@ -75,28 +75,10 @@
       ]
     },
     {
-      "id": "themes",
-      "title": "Üç eksiksiz tema",
-      "paragraphs": [
-        "HUD (e-spor, misket yeşili), Aurora (cam ve camgöbeği parıltı), Industrial (tuş kapakları ve uyarı turuncusu) — üç eksiksiz görünüm."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "long-sessions",
-      "title": "Uzun oturumlar için",
-      "paragraphs": [],
-      "bullets": [
-        "Gecikme, sıradan bir Bluetooth kumandayla aynı seviyede",
-        "Bağlantı düşerse otomatik yeniden bağlan, oynarken ekran açık kalsın",
-        "19 dil ve uygulama içi sık sorulan sorular"
-      ]
-    },
-    {
       "id": "pricing",
       "title": "Hep ücretsiz, Pro tek seferlik",
       "paragraphs": [
-        "Bağlantı, eşleştirme ve standart oyun kolu ücretsiz: süre sınırı yok, reklam yok. Pro; dokunmatik yüzeyi, TV kumandasını, direksiyonu, özel yerleşimleri, Turbo ile makroları ve iki temayı tek ödemeyle açar — abonelik değil. Her Pro özelliğini önce bir kez deneyebilirsin."
+        "Bağlantı, eşleştirme ve standart oyun kolu ücretsiz: süre sınırı yok, reklam yok. Pro; dokunmatik yüzeyi, TV kumandasını, direksiyonu, özel yerleşimleri, Turbo ile makroları ve iki ek temayı tek ödemeyle açar — abonelik değil. Her Pro özelliğini önce bir kez deneyebilirsin."
       ],
       "bullets": []
     },
@@ -117,11 +99,11 @@
       "bullets": [
         "PlayStation, Xbox ve Nintendo Switch yalnızca kendi kumandalarını kabul eder; JoyLink konsollara bağlanamaz",
         "iOS oyunları genel Bluetooth kumandaları okumaz; iPhone ve iPad'de JoyLink yalnızca fare ve klavyedir",
-        "Bluetooth oyun kolu olmak Android'in kendi yeteneği, ama bazı üreticiler yazılımda kapatır; hiçbir uygulama geri açamaz, JoyLink ilk açılışta kontrol eder",
+        "Bazı üreticiler Bluetooth oyun kolu özelliğini yazılımda kapatır ve hiçbir uygulama geri açamaz; JoyLink ilk açılışta kontrol eder",
         "Her cihaz tuşları kendince eşler; tuş testi ve SSS yaygın durumları kapsar",
-        "Direksiyon PC, medya kutuları ve emülatörler içindir: mobil yarış oyunlarının çoğu kumanda kabul etmez, oynadığın telefonda zaten eğme vardır"
+        "Direksiyon PC, medya kutuları ve emülatörler içindir; mobil yarış oyunlarının çoğu kumanda kabul etmez"
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

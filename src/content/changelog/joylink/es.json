@@ -3,6 +3,18 @@
   "locale": "es",
   "entries": [
     {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-11-10",
+      "items": [
+        "Novedad: Comprobación de conexión, una lista en directo desde el Bluetooth hasta una entrada de prueba. En Ajustes → Conexión o con Solucionar problemas en el inicio",
+        "Al volver a la app, se registra y se reconecta sola al último dispositivo",
+        "Nueva guía en la pantalla del mando para PC, TV y más",
+        "Errores de conexión más claros, con la causa y los reintentos",
+        "Corregido: «no compatible» tras un fallo puntual de Bluetooth"
+      ]
+    },
+    {
       "code": 120,
       "name": "1.2.0",
       "date": "2026-09-15",
@@ -12,5 +24,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

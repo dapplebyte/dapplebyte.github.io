@@ -3,6 +3,18 @@
   "locale": "it",
   "entries": [
     {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-11-10",
+      "items": [
+        "Novità: Controllo connessione, una checklist in tempo reale dal Bluetooth a un input di prova. In Impostazioni → Connessione o con Risolvi i problemi nella home",
+        "Tornando nell'app, si registra e si ricollega da sola all'ultimo dispositivo",
+        "Nuova guida nella schermata del controller per PC, TV e altro",
+        "Errori di connessione più chiari, con causa e tentativi",
+        "Corretto: \"non supportato\" dopo un errore Bluetooth temporaneo"
+      ]
+    },
+    {
       "code": 120,
       "name": "1.2.0",
       "date": "2026-09-15",
@@ -12,5 +24,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

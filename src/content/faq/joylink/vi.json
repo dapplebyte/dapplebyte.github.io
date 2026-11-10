@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "Ghép đôi xong rồi nhưng cứ đứng ở “Đang kết nối…” hoặc không nối được.",
           "a": [
-            "Kiểm tra máy bên kia đã bật Bluetooth, còn trong tầm và không đang bận với một tay cầm khác. Thử kết nối từ phía máy đó bằng cách chạm vào tên điện thoại trong danh sách. Nếu vẫn không được, tắt rồi bật lại Bluetooth ở cả hai máy. Nếu máy kia thấy thiết bị mà bấm nút vẫn không có phản ứng, xem mục “Máy bên kia không nhận ra JoyLink”."
+            "Kiểm tra máy bên kia đã bật Bluetooth, còn trong tầm và không đang bận với một tay cầm khác. Thử kết nối từ phía máy đó bằng cách chạm vào tên điện thoại trong danh sách. Nếu vẫn không được, tắt rồi bật lại Bluetooth ở cả hai máy. Nếu máy kia thấy thiết bị mà bấm nút vẫn không có phản ứng, xem mục “Máy bên kia không nhận ra JoyLink”. Hoặc mở Kiểm tra kết nối trong Cài đặt → Kết nối để xem bước nào đang gặp lỗi."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "Rớt kết nối rồi có tự nối lại không?",
           "a": [
-            "Có. Ứng dụng thử lại tối đa ba lần với khoảng chờ tăng dần, và báo trên màn hình chính nếu vẫn không xong. Bạn có thể tắt ở Cài đặt → Kết nối → Tự kết nối lại."
+            "Có. Ứng dụng thử lại tối đa ba lần với khoảng chờ tăng dần, và cho biết lý do trên màn hình chính nếu vẫn không xong. Bạn có thể tắt ở Cài đặt → Kết nối → Tự kết nối lại."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "Ứng dụng báo “Không đăng ký được làm tay cầm”.",
           "a": [
-            "Android chỉ cho phép một ứng dụng làm thiết bị nhập Bluetooth tại một thời điểm, nên nhiều khả năng một ứng dụng tay cầm, bàn phím hoặc chuột khác đang giữ chỗ. Hãy tắt ứng dụng đó rồi kiểm tra lại."
+            "Tình trạng này thường chỉ là tạm thời, không phải giới hạn phần cứng của máy bạn. Trước hết, hãy tắt rồi bật lại Bluetooth, sau đó quay lại JoyLink. Nếu vẫn không được, hãy đóng mọi ứng dụng khác biến điện thoại này thành tay cầm, bàn phím, chuột hoặc điều khiển từ xa — Android chỉ cho phép một ứng dụng như vậy tại một thời điểm. Nếu vẫn thất bại, hãy khởi động lại điện thoại rồi kiểm tra lại."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

@@ -89,8 +89,6 @@ const CONFIG = {
       'tv-remote',
       'layouts-macros',
       'racing-wheel',
-      'themes',
-      'long-sessions',
       'pricing',
       'privacy',
       'before-you-install',

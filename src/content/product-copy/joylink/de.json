@@ -1,15 +1,15 @@
 {
   "slug": "joylink",
   "locale": "de",
-  "title": "JoyLink: Handy als Gamepad",
-  "shortDescription": "Bluetooth-Gamepad, Touchpad und TV-Fernbedienung für PC, Mac und Android TV",
-  "tagline": "Dein Handy wird zum echten Bluetooth-Gamepad – ohne Empfänger-App, ohne Dongle, ohne Root",
+  "title": "JoyLink: Bluetooth Gamepad PC",
+  "shortDescription": "Handy als Controller für Windows, Mac & Android TV – Zielgerät braucht keine App",
+  "tagline": "Bluetooth-Gamepad für PC, Mac, Linux und Android TV – auf der Gegenseite nichts installieren",
   "sections": [
     {
       "id": "intro",
-      "title": "Dein Handy wird zum echten Bluetooth-Gamepad – ohne Empfänger-App, ohne Dongle, ohne Root",
+      "title": "Bluetooth-Gamepad für PC, Mac, Linux und Android TV – auf der Gegenseite nichts installieren",
       "paragraphs": [
-        "JoyLink meldet dein Android-Handy als normales Bluetooth-Gamepad, Touchpad und TV-Fernbedienung an. Einmal mit Windows-PC, Mac, Linux-Rechner, Android TV oder einem zweiten Handy koppeln – auf der Gegenseite ist nichts zu installieren."
+        "Dein Android-Handy meldet sich als normales Bluetooth-Gamepad (Game-Controller), Touchpad und TV-Fernbedienung an. Einmal mit Windows-PC, Mac, Linux-Rechner, Android TV oder einem zweiten Handy koppeln, dann funktioniert es wie jeder kabellose Controller: ohne Empfänger-App, ohne Dongle, ohne Root."
       ],
       "bullets": []
     },
@@ -31,9 +31,9 @@
       "paragraphs": [],
       "bullets": [
         "Layout im Xbox-Stil: zwei Analogsticks, D-pad, A B X Y, LB/RB, LT/RT, Start und Select",
-        "Standard-Controller (DirectInput) für Steam, Emulatoren und generische Pads; Steam Input deckt XInput-Titel ab",
-        "Vibration, Vollbild im Querformat, Beenden nur per langem Druck",
-        "Eingebauter Tastentest: du siehst, was jede Taste sendet"
+        "Standard-Controller (DirectInput) für Steam, Emulatoren und alle Spiele mit generischen Pads; Steam Input deckt reine XInput-Titel ab",
+        "Latenz wie bei einem normalen Bluetooth-Controller; automatisch neu verbinden, Bildschirm bleibt an, Beenden nur per langem Druck",
+        "Vibration und eingebauter Tastentest, der zeigt, was beim Host ankommt"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "title": "TV-Fernbedienung für Android TV, Google TV und Fire TV",
       "paragraphs": [],
       "bullets": [
-        "D-pad-Navigation, Zurück, Startseite, Menü und Ein/Aus",
+        "D-pad-Navigation, Zurück, Startseite, Menü und Ausschalten",
         "Lautstärke, Stumm, Wiedergabe/Pause, Titelsprung, Kanal auf und ab",
         "Zifferntasten und Textfeld für Suchmasken"
       ]
@@ -61,7 +61,7 @@
       "title": "Eigene Layouts, Turbo und Makros",
       "paragraphs": [],
       "bullets": [
-        "Jedes Bedienelement verschieben, skalieren und ausblenden; bis zu 8 Layouts",
+        "Jedes Bedienelement verschieben, skalieren und ausblenden; bis zu 8 Layouts für verschiedene Spiele",
         "Turbo (Dauerfeuer) auf jeder Taste; Combo einmal aufnehmen, per Makrotaste abspielen"
       ]
     },
@@ -75,28 +75,10 @@
       ]
     },
     {
-      "id": "themes",
-      "title": "Drei komplette Designs",
-      "paragraphs": [
-        "HUD (Esports, Neongrün), Aurora (Glas, türkiser Schimmer) und Industrial (Tastenkappen, Signalorange) – ganze Looks, nicht nur ein Akzent."
-      ],
-      "bullets": []
-    },
-    {
-      "id": "long-sessions",
-      "title": "Für lange Sessions gebaut",
-      "paragraphs": [],
-      "bullets": [
-        "Latenz im Bereich eines normalen Bluetooth-Controllers",
-        "Automatisch neu verbinden, Bildschirm bleibt beim Spielen an",
-        "19 Sprachen und eine eingebaute FAQ"
-      ]
-    },
-    {
       "id": "pricing",
       "title": "Dauerhaft kostenlos, Pro als Einmalkauf",
       "paragraphs": [
-        "Verbinden, Koppeln und das Standard-Gamepad sind kostenlos, ohne Zeitlimit und Werbung. Pro ergänzt Touchpad, TV-Fernbedienung, Lenkrad, eigene Layouts, Turbo, Makros und zwei weitere Designs – einmaliger Preis statt Abo. Jede Pro-Funktion lässt sich vorher einmal gratis testen."
+        "Verbinden, Koppeln und das Standard-Gamepad sind kostenlos, ohne Zeitlimit und ohne Werbung. Pro ergänzt Touchpad, TV-Fernbedienung, Lenkrad, eigene Layouts, Turbo, Makros und zwei weitere Designs – einmaliger Preis statt Abo. Jede Pro-Funktion lässt sich vor dem Kauf einmal testen."
       ],
       "bullets": []
     },
@@ -112,16 +94,16 @@
       "id": "before-you-install",
       "title": "Vor der Installation",
       "paragraphs": [
-        "Etwas geht nicht? Über eine Play-Rezension können wir nicht nachfragen. Schreib an feedback@dapplebyte.com: Einstellungen → Über → Feedback senden hängt Handymodell und App-Version an."
+        "Etwas geht nicht? Über eine Play-Rezension können wir weder nachfragen noch einen Fix schicken. Schreib an feedback@dapplebyte.com (Einstellungen → Über → Feedback senden hängt Handymodell und App-Version an), wir melden uns."
       ],
       "bullets": [
-        "PlayStation, Xbox und Nintendo Switch akzeptieren nur eigene Controller, Konsolen gehen nicht",
-        "iOS-Spiele lesen keine generischen Bluetooth-Gamepads; auf iPhone und iPad bleibt JoyLink Maus und Tastatur",
-        "Android kann als Bluetooth-Gamepad auftreten, manche Hersteller schalten das aber in der Firmware ab; keine App holt es zurück, JoyLink prüft das beim ersten Start",
-        "Jeder Host belegt die Tasten anders; Tastentest und FAQ helfen",
-        "Das Lenkrad ist für PC, TV-Boxen und Emulatoren gedacht: Handyspiele nehmen meist keine Controller an, und das Spiel-Handy neigt sich ohnehin selbst"
+        "PlayStation, Xbox und Nintendo Switch akzeptieren nur eigene Controller – JoyLink verbindet sich nicht mit Konsolen",
+        "iOS-Spiele lesen keine generischen Bluetooth-Gamepads: auf iPhone und iPad ist JoyLink nur Maus und Tastatur",
+        "Manche Hersteller schalten die Bluetooth-Gamepad-Funktion in der Firmware ab, und keine App holt sie zurück; JoyLink prüft das beim ersten Start",
+        "Jeder Host belegt die Tasten anders; Tastentest und FAQ decken die häufigen Fälle ab",
+        "Das Lenkrad ist für PC, TV-Boxen und Emulatoren gedacht – die meisten Handy-Rennspiele nehmen keine Controller an"
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

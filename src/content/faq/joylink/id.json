@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "Penyandingan berhasil, tetapi berhenti di “Menghubungkan…” atau tidak pernah tersambung.",
           "a": [
-            "Pastikan Bluetooth di perangkat tujuan menyala, jaraknya dekat, dan tidak sedang dipakai gamepad lain. Coba mulai sambungan dari sisi perangkat itu dengan mengetuk nama ponselmu di sana. Kalau masih gagal, matikan lalu nyalakan lagi Bluetooth di kedua perangkat. Kalau perangkat itu menemukannya tetapi tombol tidak berefek, lihat “Perangkat tujuan tidak mengenali JoyLink”."
+            "Pastikan Bluetooth di perangkat tujuan menyala, jaraknya dekat, dan tidak sedang dipakai gamepad lain. Coba mulai sambungan dari sisi perangkat itu dengan mengetuk nama ponselmu di sana. Kalau masih gagal, matikan lalu nyalakan lagi Bluetooth di kedua perangkat. Kalau perangkat itu menemukannya tetapi tombol tidak berefek, lihat “Perangkat tujuan tidak mengenali JoyLink”. Atau jalankan Cek koneksi di Setelan → Koneksi untuk melihat langkah mana yang gagal."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "Apakah sambungan pulih sendiri setelah putus?",
           "a": [
-            "Ya. Aplikasi mencoba sampai tiga kali dengan jeda yang makin panjang, dan memberi tahu di layar utama kalau tetap gagal. Kamu bisa mematikannya di Setelan → Koneksi → Sambung ulang otomatis."
+            "Ya. Aplikasi mencoba sampai tiga kali dengan jeda yang makin panjang, dan memberi tahu alasannya di layar utama kalau tetap gagal. Kamu bisa mematikannya di Setelan → Koneksi → Sambung ulang otomatis."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "Muncul pesan “Gagal terdaftar sebagai gamepad”.",
           "a": [
-            "Android hanya mengizinkan satu aplikasi menjadi perangkat masukan Bluetooth dalam satu waktu, jadi kemungkinan besar aplikasi gamepad, keyboard, atau mouse lain sedang memakai slot itu. Tutup aplikasi tersebut lalu periksa lagi."
+            "Biasanya ini hanya sementara, bukan keterbatasan perangkat keras ponselmu. Pertama, matikan lalu nyalakan lagi Bluetooth, kemudian kembali ke JoyLink. Kalau tidak membantu, tutup aplikasi lain yang menjadikan ponsel ini kontroler, keyboard, mouse, atau remote — Android hanya mengizinkan satu aplikasi seperti itu dalam satu waktu. Kalau masih gagal, mulai ulang ponsel lalu periksa lagi."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

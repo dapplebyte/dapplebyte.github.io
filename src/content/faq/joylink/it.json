@@ -33,7 +33,7 @@
           "id": "stuck_connecting",
           "q": "L'abbinamento è riuscito, ma resta su «Connessione…» o non si collega mai.",
           "a": [
-            "Controlla che l'altro dispositivo abbia il Bluetooth attivo, sia vicino e non sia già occupato da un altro controller. Prova ad avviare la connessione dall'altra parte, toccando lì il nome del telefono. Se non basta, spegni e riaccendi il Bluetooth su entrambi. Se il dispositivo lo vede ma non succede nulla quando premi i tasti, leggi «Il dispositivo non riconosce JoyLink»."
+            "Controlla che l'altro dispositivo abbia il Bluetooth attivo, sia vicino e non sia già occupato da un altro controller. Prova ad avviare la connessione dall'altra parte, toccando lì il nome del telefono. Se non basta, spegni e riaccendi il Bluetooth su entrambi. Se il dispositivo lo vede ma non succede nulla quando premi i tasti, leggi «Il dispositivo non riconosce JoyLink». Oppure apri Controllo connessione in Impostazioni → Connessione per vedere quale passaggio non va."
           ]
         },
         {
@@ -47,7 +47,7 @@
           "id": "auto_reconnect",
           "q": "Si riconnette dopo una caduta?",
           "a": [
-            "Sì. Riprova fino a tre volte con pause via via più lunghe e, se non ci riesce, te lo segnala nella schermata iniziale. Puoi disattivarlo in Impostazioni → Connessione → Riconnessione automatica."
+            "Sì. Riprova fino a tre volte con pause via via più lunghe e, se non ci riesce, te ne spiega il motivo nella schermata iniziale. Puoi disattivarlo in Impostazioni → Connessione → Riconnessione automatica."
           ]
         },
         {
@@ -280,7 +280,7 @@
           "id": "register_blocked",
           "q": "Compare «Registrazione come gamepad non riuscita».",
           "a": [
-            "Android consente a una sola app alla volta di essere un dispositivo di input Bluetooth: molto probabilmente un'altra app di gamepad, tastiera o mouse sta occupando quel posto. Chiudila e riprova la verifica."
+            "Di solito è un problema temporaneo, non un limite hardware del telefono. Per prima cosa spegni e riaccendi il Bluetooth, poi torna in JoyLink. Se non basta, chiudi le altre app che trasformano questo telefono in gamepad, tastiera, mouse o telecomando: Android ne consente solo una alla volta. Se continua a non funzionare, riavvia il telefono e riprova la verifica."
           ]
         },
         {
@@ -293,5 +293,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }

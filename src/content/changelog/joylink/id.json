@@ -3,6 +3,18 @@
   "locale": "id",
   "entries": [
     {
+      "code": 122,
+      "name": "1.2.2",
+      "date": "2026-11-10",
+      "items": [
+        "Baru: Cek koneksi, daftar periksa langsung dari Bluetooth sampai input uji. Buka dari Setelan → Koneksi atau tombol Atasi masalah di beranda",
+        "Saat kembali ke aplikasi, aplikasi mendaftar ulang dan tersambung lagi ke perangkat terakhir",
+        "Panduan baru di layar gamepad untuk PC, TV, dan lainnya",
+        "Error koneksi lebih jelas, dengan penyebab dan progres percobaan ulang",
+        "Memperbaiki \"tidak didukung\" setelah error Bluetooth sementara"
+      ]
+    },
+    {
       "code": 120,
       "name": "1.2.0",
       "date": "2026-09-15",
@@ -12,5 +24,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-10"
 }
