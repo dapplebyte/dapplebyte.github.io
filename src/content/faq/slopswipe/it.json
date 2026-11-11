@@ -128,23 +128,23 @@
         },
         {
           "id": "degraded",
-          "q": "La Home dice che una piattaforma è cambiata dopo un aggiornamento e le azioni sono sospese.",
+          "q": "La Home dice che non riesce a leggere i video su una piattaforma e che le azioni sono in pausa.",
           "a": [
-            "L’app della piattaforma ha cambiato layout e il set di regole attuale non riesce a leggerlo, quindi SlopSwipe smette di agire lì invece di scorrere alla cieca. Il set di regole si aggiorna all’avvio dell’app e ogni 6 ore; tocca Cerca aggiornamenti delle regole per riprovare subito. Nel frattempo le Guide funzionano comunque."
+            "SlopSwipe non è riuscito a leggere gli ultimi video lì, quindi smette di agire invece di scorrere alla cieca. Riprende da solo appena riesce a leggere un video. Se resta in pausa, probabilmente l’app della piattaforma ha cambiato layout: il set di regole si aggiorna all’avvio dell’app e ogni 6 ore, e Cerca aggiornamenti delle regole riprova subito. Nel frattempo le Guide funzionano comunque."
           ]
         },
         {
           "id": "consecutive_cap",
           "q": "È passato ai soli avvisi dopo molti salti di fila.",
           "a": [
-            "È un blocco di sicurezza. Dieci salti di fila senza guardare nulla per 3 secondi di solito significano che una regola o il layout della piattaforma non va, quindi quella piattaforma passa ai soli avvisi per il resto della sessione. Riapri l’app della piattaforma e tutto torna normale. Annulla ciò che era sbagliato, così conta come errore."
+            "È un blocco di sicurezza. Dieci salti di fila senza guardare nulla per 3 secondi di solito significano che una regola o il layout della piattaforma non va, quindi quella piattaforma passa ai soli avvisi per il resto della sessione. Tutto torna normale dopo una pausa di circa dieci minuti, oppure tocca Riprendi i salti nella Home. Annulla ciò che era sbagliato, così conta come errore."
           ]
         },
         {
           "id": "fab",
           "q": "Cosa fa il pulsante flottante “È IA”?",
           "a": [
-            "Salta subito il video corrente e, per impostazione predefinita, mette l’account nella tua lista bloccati; Annulla torna indietro e rimuove quella voce. Su TikTok il nome sul video è il nome visualizzato, quindi vengono bloccati anche gli account che lo condividono; disattiva Blocca anche l’account per saltare solo quel video. Nascondi, ridimensiona o trascina il pulsante in Impostazioni → Avvisi e pulsante."
+            "Salta subito il video corrente. La prima volta che lo tocchi, ti chiede se vuoi bloccare anche l’account; se scegli di sì, l’account finisce nella tua lista bloccati, e Annulla torna indietro e rimuove quella voce. Su TikTok il nome sul video è il nome visualizzato, quindi vengono bloccati anche gli account che lo condividono. Cambia la tua scelta con Blocca anche l’account, e nascondi, ridimensiona o trascina il pulsante, in Impostazioni → Avvisi e pulsante."
           ]
         }
       ]
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

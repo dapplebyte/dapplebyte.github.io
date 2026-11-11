@@ -128,23 +128,23 @@
         },
         {
           "id": "degraded",
-          "q": "Inicio dice que una plataforma cambió tras una actualización y las acciones están detenidas.",
+          "q": "Inicio dice que no puede leer videos en una plataforma y que las acciones están en pausa.",
           "a": [
-            "La app de la plataforma cambió su diseño y el conjunto de reglas actual no puede leerlo, así que SlopSwipe deja de actuar ahí en vez de deslizar a ciegas. El conjunto de reglas se actualiza al abrir la app y cada 6 horas; toca Buscar actualizaciones de reglas para intentarlo ahora. Mientras tanto, las Guías siguen funcionando."
+            "SlopSwipe no pudo leer los últimos videos ahí, así que deja de actuar en vez de deslizar a ciegas. Vuelve a funcionar solo en cuanto puede leer un video. Si sigue en pausa, probablemente la app de la plataforma cambió su diseño: el conjunto de reglas se actualiza al abrir la app y cada 6 horas, y Buscar actualizaciones de reglas lo intenta ahora. Mientras tanto, las Guías siguen funcionando."
           ]
         },
         {
           "id": "consecutive_cap",
           "q": "Pasó a solo avisos después de muchos saltos seguidos.",
           "a": [
-            "Es un freno de seguridad. Diez saltos seguidos sin que veas nada durante 3 segundos suelen indicar que una regla o el diseño de la plataforma está fallando, así que esa plataforma pasa a solo avisos durante el resto de la sesión. Vuelve a abrir la app de la plataforma y todo vuelve a la normalidad. Deshaz lo que haya estado mal para que cuente como error."
+            "Es un freno de seguridad. Diez saltos seguidos sin que veas nada durante 3 segundos suelen indicar que una regla o el diseño de la plataforma está fallando, así que esa plataforma pasa a solo avisos durante el resto de la sesión. Todo vuelve a la normalidad tras una pausa de unos diez minutos, o toca Reanudar saltos en Inicio. Deshaz lo que haya estado mal para que cuente como error."
           ]
         },
         {
           "id": "fab",
           "q": "¿Qué hace el botón flotante “Esto es IA”?",
           "a": [
-            "Salta el video actual al instante y, de forma predeterminada, añade la cuenta a tu lista de bloqueados; Deshacer vuelve atrás y quita esa entrada. En TikTok, el nombre que aparece en el video es el nombre visible, así que también se bloquean las cuentas que lo comparten; desactiva Bloquear también la cuenta para saltar solo ese video. Oculta, cambia de tamaño o arrastra el botón en Ajustes → Avisos y botón."
+            "Salta el video actual al instante. La primera vez que lo tocas, te pregunta si también quieres bloquear la cuenta; si eliges que sí, la cuenta se añade a tu lista de bloqueados, y Deshacer vuelve atrás y quita esa entrada. En TikTok, el nombre que aparece en el video es el nombre visible, así que también se bloquean las cuentas que lo comparten. Cambia tu elección con Bloquear también la cuenta, y oculta, cambia de tamaño o arrastra el botón, en Ajustes → Avisos y botón."
           ]
         }
       ]
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

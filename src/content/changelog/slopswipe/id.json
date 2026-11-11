@@ -3,6 +3,18 @@
   "locale": "id",
   "entries": [
     {
+      "code": 4,
+      "name": "1.0.2",
+      "date": "2026-11-10",
+      "items": [
+        "\"Coba\" kini membuka aplikasi yang kamu punya, seperti YouTube Shorts, bukan cuma TikTok.",
+        "Gambar langkah demi langkah untuk menyalakan SlopSwipe, dan kartu \"Tidak menemukan tombolnya?\" di \"Beranda\".",
+        "Ketukan pertama pada tombol AI akan bertanya: lewati video ini saja, atau sekalian blokir akunnya.",
+        "Mendukung YouTube terbaru (21.44).",
+        "Lewati lebih stabil: scroll komentar tidak lagi dianggap video baru, dan tidak ada lagi error urungkan yang keliru."
+      ]
+    },
+    {
       "code": 3,
       "name": "1.0.1",
       "date": "2026-10-23",
@@ -20,5 +32,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

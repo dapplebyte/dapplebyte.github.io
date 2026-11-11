@@ -128,23 +128,23 @@
         },
         {
           "id": "degraded",
-          "q": "Start meldet, dass sich eine Plattform nach einem Update geändert hat und Aktionen gestoppt sind.",
+          "q": "Start meldet, dass Videos auf einer Plattform nicht gelesen werden können und Aktionen pausiert sind.",
           "a": [
-            "Die Plattform-App hat ihr Layout geändert, und der aktuelle Regelsatz kann es nicht lesen. Deshalb hört SlopSwipe dort auf, statt blind zu wischen. Regelsätze werden beim App-Start und alle 6 Stunden aktualisiert; tippe auf „Nach Regel-Updates suchen“, um es sofort zu versuchen. Bis dahin funktionieren die Anleitungen weiter."
+            "SlopSwipe konnte die letzten Videos dort nicht lesen und hört deshalb auf, statt blind zu wischen. Sobald es wieder ein Video lesen kann, macht es von selbst weiter. Bleibt es pausiert, hat die Plattform-App wahrscheinlich ihr Layout geändert: Regelsätze werden beim App-Start und alle 6 Stunden aktualisiert, und „Nach Regel-Updates suchen“ prüft sofort. Bis dahin funktionieren die Anleitungen weiter."
           ]
         },
         {
           "id": "consecutive_cap",
           "q": "Nach vielen Überspringen am Stück zeigt es nur noch Hinweise.",
           "a": [
-            "Ein Sicherheitsstopp. Zehnmal am Stück übersprungen, ohne dass etwas 3 Sekunden lang angesehen wurde: Das heißt meist, dass eine Regel oder das Plattform-Layout nicht stimmt. Deshalb zeigt diese Plattform für den Rest der Sitzung nur noch Hinweise. Öffne die Plattform-App erneut, dann ist alles wieder normal. Mach Falsches rückgängig, damit es als Fehler zählt."
+            "Ein Sicherheitsstopp. Zehnmal am Stück übersprungen, ohne dass etwas 3 Sekunden lang angesehen wurde: Das heißt meist, dass eine Regel oder das Plattform-Layout nicht stimmt. Deshalb zeigt diese Plattform für den Rest der Sitzung nur noch Hinweise. Nach einer Pause von etwa zehn Minuten ist alles wieder normal, oder tippe unter Start auf „Weiter überspringen“. Mach Falsches rückgängig, damit es als Fehler zählt."
           ]
         },
         {
           "id": "fab",
           "q": "Was macht der schwebende Button „Das ist KI“?",
           "a": [
-            "Er überspringt das aktuelle Video sofort und setzt das Konto standardmäßig auf deine Sperrliste; „Rückgängig“ wischt zurück und entfernt den Eintrag wieder. Bei TikTok steht am Video ein Anzeigename, deshalb werden Konten mit demselben Namen ebenfalls gesperrt; schalte „Auch das Konto sperren“ aus, um nur das Video zu überspringen. Ausblenden, in der Größe ändern oder verschieben kannst du den Button unter Einstellungen → Hinweise und Button."
+            "Er überspringt das aktuelle Video sofort. Beim ersten Tippen fragt er, ob du auch das Konto sperren willst; wenn du das wählst, kommt das Konto auf deine Sperrliste, und „Rückgängig“ wischt zurück und entfernt den Eintrag wieder. Bei TikTok steht am Video ein Anzeigename, deshalb werden Konten mit demselben Namen ebenfalls gesperrt. Deine Wahl änderst du unter Einstellungen → Hinweise und Button mit „Auch das Konto sperren“; dort kannst du den Button auch ausblenden, in der Größe ändern oder verschieben."
           ]
         }
       ]
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

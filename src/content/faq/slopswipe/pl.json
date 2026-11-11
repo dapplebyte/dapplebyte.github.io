@@ -128,23 +128,23 @@
         },
         {
           "id": "degraded",
-          "q": "Ekran Start informuje, że platforma zmieniła się po aktualizacji i działania są wstrzymane.",
+          "q": "Ekran Start informuje, że nie można odczytać filmów na platformie i działania są wstrzymane.",
           "a": [
-            "Aplikacja platformy zmieniła układ i obecny zestaw reguł nie potrafi go odczytać, więc SlopSwipe przestaje tam działać, zamiast przewijać na ślepo. Zestawy reguł aktualizują się przy uruchomieniu aplikacji i co 6 godzin; dotknij Sprawdź aktualizacje reguł, by spróbować od razu. Do tego czasu Poradniki działają normalnie."
+            "Ostatnich filmów nie udało się tam odczytać, więc SlopSwipe przestaje działać, zamiast przewijać na ślepo. Wznowi działanie automatycznie, gdy tylko da się odczytać film. Jeśli wstrzymanie się utrzymuje, aplikacja platformy prawdopodobnie zmieniła układ: zestawy reguł aktualizują się przy uruchomieniu aplikacji i co 6 godzin, a Sprawdź aktualizacje reguł sprawdza od razu. Do tego czasu Poradniki działają normalnie."
           ]
         },
         {
           "id": "consecutive_cap",
           "q": "Po wielu pominięciach z rzędu włączyły się same podpowiedzi.",
           "a": [
-            "To blokada bezpieczeństwa. Dziesięć pominięć z rzędu bez żadnego filmu oglądanego przez 3 sekundy zwykle oznacza, że coś jest nie tak z regułą albo układem platformy, więc ta platforma do końca sesji przechodzi na same podpowiedzi. Otwórz ponownie aplikację platformy, a wszystko wróci do normy. Cofnij każde błędne pominięcie, żeby zostało policzone jako pomyłka."
+            "To blokada bezpieczeństwa. Dziesięć pominięć z rzędu bez żadnego filmu oglądanego przez 3 sekundy zwykle oznacza, że coś jest nie tak z regułą albo układem platformy, więc ta platforma do końca sesji przechodzi na same podpowiedzi. Po około dziesięciu minutach przerwy wszystko wraca do normy; możesz też dotknąć Wznów pomijanie na ekranie Start. Cofnij każde błędne pominięcie, żeby zostało policzone jako pomyłka."
           ]
         },
         {
           "id": "fab",
           "q": "Co robi pływający przycisk „To SI”?",
           "a": [
-            "Od razu pomija bieżący film i domyślnie dodaje konto do twojej listy zablokowanych; Cofnij przewija z powrotem i usuwa ten wpis. Na TikToku nazwa przy filmie to nazwa wyświetlana, więc blokowane są też konta o tej samej nazwie; wyłącz Blokuj też konto, aby pominąć tylko ten film. Przycisk ukryjesz, zmienisz jego rozmiar lub przesuniesz w Ustawienia → Podpowiedzi i przycisk."
+            "Od razu pomija bieżący film. Przy pierwszym dotknięciu pyta, czy zablokować też konto; jeśli to wybierzesz, konto trafi na twoją listę zablokowanych, a Cofnij przewija z powrotem i usuwa ten wpis. Na TikToku nazwa przy filmie to nazwa wyświetlana, więc blokowane są też konta o tej samej nazwie. Wybór zmienisz opcją Blokuj też konto, a przycisk ukryjesz, zmienisz jego rozmiar lub przesuniesz w Ustawienia → Podpowiedzi i przycisk."
           ]
         }
       ]
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

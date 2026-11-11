@@ -10,7 +10,8 @@
   "minOs": "Android 8.0",
   "versions": [
     { "code": 2, "name": "1.0.0", "date": "2026-10-17" },
-    { "code": 3, "name": "1.0.1", "date": "2026-10-23" }
+    { "code": 3, "name": "1.0.1", "date": "2026-10-23" },
+    { "code": 4, "name": "1.0.2", "date": "2026-11-10" }
   ],
   "contactEmail": "feedback@dapplebyte.com",
   "accent": { "solid": "#2E9E68", "bright": "#3DD68C", "ink": "#0E1013" },

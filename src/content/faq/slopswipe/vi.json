@@ -128,23 +128,23 @@
         },
         {
           "id": "degraded",
-          "q": "Trang chủ báo một nền tảng đã thay đổi sau khi cập nhật và các thao tác bị dừng.",
+          "q": "Trang chủ báo không đọc được video trên một nền tảng và các thao tác đang tạm dừng.",
           "a": [
-            "Ứng dụng của nền tảng đã đổi bố cục và bộ quy tắc hiện tại không đọc được, nên SlopSwipe dừng thao tác ở đó thay vì vuốt mò. Bộ quy tắc được cập nhật khi mở ứng dụng và cứ mỗi 6 giờ; chạm Kiểm tra cập nhật quy tắc để thử ngay. Trong lúc chờ, phần Hướng dẫn vẫn dùng được."
+            "SlopSwipe không đọc được những video gần nhất ở đó, nên dừng thao tác thay vì vuốt mò. Ứng dụng sẽ tự chạy lại ngay khi đọc được video. Nếu vẫn dừng mãi, có lẽ ứng dụng của nền tảng đã đổi bố cục: bộ quy tắc được cập nhật khi mở ứng dụng và cứ mỗi 6 giờ, còn Kiểm tra cập nhật quy tắc sẽ thử ngay. Trong lúc chờ, phần Hướng dẫn vẫn dùng được."
           ]
         },
         {
           "id": "consecutive_cap",
           "q": "Ứng dụng chuyển sang chỉ gợi ý sau nhiều lần bỏ qua liên tiếp.",
           "a": [
-            "Đây là cơ chế dừng an toàn. Mười lần bỏ qua liên tiếp mà không video nào được xem quá 3 giây thường có nghĩa là một quy tắc hoặc bố cục của nền tảng có vấn đề, nên nền tảng đó chuyển sang chỉ gợi ý trong phần còn lại của phiên. Mở lại ứng dụng của nền tảng là mọi thứ trở lại bình thường. Hãy hoàn tác những lần bỏ qua sai để chúng được tính là nhầm."
+            "Đây là cơ chế dừng an toàn. Mười lần bỏ qua liên tiếp mà không video nào được xem quá 3 giây thường có nghĩa là một quy tắc hoặc bố cục của nền tảng có vấn đề, nên nền tảng đó chuyển sang chỉ gợi ý trong phần còn lại của phiên. Sau khoảng mười phút nghỉ, mọi thứ sẽ trở lại bình thường, hoặc bạn có thể chạm Tiếp tục bỏ qua ở Trang chủ. Hãy hoàn tác những lần bỏ qua sai để chúng được tính là nhầm."
           ]
         },
         {
           "id": "fab",
           "q": "Nút nổi “Đây là AI” dùng để làm gì?",
           "a": [
-            "Nút này bỏ qua ngay video hiện tại và theo mặc định sẽ thêm tài khoản vào danh sách chặn của bạn; Hoàn tác sẽ vuốt quay lại và xóa mục đó. Trên TikTok, tên hiện trên video là tên hiển thị, nên các tài khoản trùng tên cũng bị chặn theo; tắt Chặn luôn tài khoản nếu chỉ muốn bỏ qua video đó. Ẩn, đổi kích thước hoặc kéo nút trong Cài đặt → Gợi ý và nút."
+            "Nút này bỏ qua ngay video hiện tại. Lần đầu bạn nhấn, nút sẽ hỏi có muốn chặn luôn tài khoản không; nếu bạn chọn, tài khoản sẽ được thêm vào danh sách chặn của bạn, và Hoàn tác sẽ vuốt quay lại và xóa mục đó. Trên TikTok, tên hiện trên video là tên hiển thị, nên các tài khoản trùng tên cũng bị chặn theo. Đổi lựa chọn bằng Chặn luôn tài khoản, cũng như ẩn, đổi kích thước hoặc kéo nút, trong Cài đặt → Gợi ý và nút."
           ]
         }
       ]
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

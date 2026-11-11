@@ -128,23 +128,23 @@
         },
         {
           "id": "degraded",
-          "q": "Ana sayfada bir platformun güncellemeden sonra değiştiği ve işlemlerin durdurulduğu yazıyor.",
+          "q": "Ana sayfada bir platformdaki videoların okunamadığı ve işlemlerin duraklatıldığı yazıyor.",
           "a": [
-            "Platform uygulaması düzenini değiştirdi ve mevcut kural seti onu okuyamıyor; SlopSwipe da körlemesine kaydırmak yerine orada çalışmayı durdurur. Kural setleri uygulama açılırken ve 6 saatte bir güncellenir; hemen denemek için Kural güncellemelerini denetle’ye dokunun. O zamana kadar Rehberler çalışmaya devam eder."
+            "SlopSwipe oradaki son videoları okuyamadı; bu yüzden körlemesine kaydırmak yerine orada çalışmayı durdurur. Bir video okunabildiği anda kendiliğinden yeniden başlar. Duraklatılmış kalırsa platform uygulaması büyük olasılıkla düzenini değiştirmiştir: kural setleri uygulama açılırken ve 6 saatte bir güncellenir; hemen denemek için Kural güncellemelerini denetle’ye dokunun. O zamana kadar Rehberler çalışmaya devam eder."
           ]
         },
         {
           "id": "consecutive_cap",
           "q": "Art arda çok atlamadan sonra yalnızca ipucu göstermeye geçti.",
           "a": [
-            "Bu bir güvenlik durdurması. Hiçbir video 3 saniye izlenmeden art arda on atlama, genellikle bir kuralın ya da platform düzeninin bozulduğu anlamına gelir; bu yüzden o platform oturumun geri kalanında yalnızca ipucuna geçer. Platform uygulamasını yeniden açınca her şey normale döner. Yanlış olanları geri alın ki hata olarak sayılsın."
+            "Bu bir güvenlik durdurması. Hiçbir video 3 saniye izlenmeden art arda on atlama, genellikle bir kuralın ya da platform düzeninin bozulduğu anlamına gelir; bu yüzden o platform oturumun geri kalanında yalnızca ipucuna geçer. Yaklaşık on dakikalık bir aradan sonra normale döner; beklemek istemezseniz Ana sayfada Atlamaya devam et’e dokunun. Yanlış olanları geri alın ki hata olarak sayılsın."
           ]
         },
         {
           "id": "fab",
           "q": "“Bu AI” kayan düğmesi ne işe yarıyor?",
           "a": [
-            "Geçerli videoyu hemen atlar ve varsayılan olarak hesabı engel listenize ekler; Geri al videoya döner ve o kaydı kaldırır. TikTok’ta videodaki ad görünen addır, bu yüzden aynı adı kullanan hesaplar da engellenir; yalnızca o videoyu atlamak için Hesabı da engelle’yi kapatın. Düğmeyi gizlemek, boyutunu değiştirmek veya sürüklemek için Ayarlar → İpuçları ve düğme bölümüne gidin."
+            "Geçerli videoyu hemen atlar. İlk dokunuşunuzda hesabı da engellemek isteyip istemediğinizi sorar; bunu seçerseniz hesap engel listenize eklenir, Geri al da videoya döner ve o kaydı kaldırır. TikTok’ta videodaki ad görünen addır, bu yüzden aynı adı kullanan hesaplar da engellenir. Seçiminizi Hesabı da engelle seçeneğiyle değiştirebilir, düğmeyi gizleyebilir, boyutunu değiştirebilir veya sürükleyebilirsiniz: Ayarlar → İpuçları ve düğme."
           ]
         }
       ]
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

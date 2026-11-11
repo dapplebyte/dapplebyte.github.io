@@ -3,6 +3,18 @@
   "locale": "en",
   "entries": [
     {
+      "code": 4,
+      "name": "1.0.2",
+      "date": "2026-11-10",
+      "items": [
+        "\"Try it\" opens an app you have, like YouTube Shorts, not only TikTok.",
+        "Step-by-step pictures for turning SlopSwipe on, and a \"Couldn't find the switch?\" card on Home.",
+        "First tap on the AI button asks: skip this video, or also block the account.",
+        "Supports the latest YouTube (21.44).",
+        "Steadier skipping: scrolling comments no longer counts as a new video, and no more false undo errors."
+      ]
+    },
+    {
       "code": 3,
       "name": "1.0.1",
       "date": "2026-10-23",
@@ -20,5 +32,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

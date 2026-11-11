@@ -3,6 +3,18 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 4,
+      "name": "1.0.2",
+      "date": "2026-11-10",
+      "items": [
+        "Nút “Thử” giờ mở ứng dụng bạn có, như YouTube Shorts, không chỉ TikTok.",
+        "Hướng dẫn từng bước bằng hình để bật SlopSwipe, và thẻ “Không tìm thấy công tắc?” ở Trang chủ.",
+        "Lần đầu chạm nút AI, bạn được hỏi: chỉ bỏ qua video này, hay chặn luôn tài khoản.",
+        "Hỗ trợ YouTube (21.44) mới nhất.",
+        "Bỏ qua ổn định hơn: cuộn bình luận không còn bị tính là video mới, và hết báo lỗi sai khi hoàn tác."
+      ]
+    },
+    {
       "code": 3,
       "name": "1.0.1",
       "date": "2026-10-23",
@@ -20,5 +32,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

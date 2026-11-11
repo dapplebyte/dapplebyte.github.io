@@ -128,23 +128,23 @@
         },
         {
           "id": "degraded",
-          "q": "Home meldt dat een platform na een update is veranderd en dat acties zijn gestopt.",
+          "q": "Home meldt dat video's op een platform niet te lezen zijn en dat acties zijn gepauzeerd.",
           "a": [
-            "De app van het platform heeft zijn indeling veranderd en de huidige regelset kan die niet lezen, dus SlopSwipe stopt daar liever dan blind te swipen. Regelsets worden bijgewerkt als de app start en elke 6 uur; tik op Regelupdates zoeken om het nu te proberen. Tot dan werken de Gidsen gewoon."
+            "SlopSwipe kon de laatste video's daar niet lezen, dus stopt het daar liever dan blind te swipen. Zodra het weer een video kan lezen, gaat het vanzelf verder. Blijft het gepauzeerd, dan heeft de app van het platform waarschijnlijk zijn indeling veranderd: regelsets worden bijgewerkt als de app start en elke 6 uur, en Regelupdates zoeken probeert het meteen. Tot dan werken de Gidsen gewoon."
           ]
         },
         {
           "id": "consecutive_cap",
           "q": "Na veel keer overslaan achter elkaar geeft het alleen nog hints.",
           "a": [
-            "Een veiligheidsstop. Tien keer achter elkaar overslaan zonder dat er iets 3 seconden is bekeken, betekent meestal dat een regel of de indeling van het platform niet klopt. Daarom geeft dat platform de rest van de sessie alleen hints. Open de app van het platform opnieuw en alles werkt weer normaal. Draai terug wat fout was, zodat het als fout telt."
+            "Een veiligheidsstop. Tien keer achter elkaar overslaan zonder dat er iets 3 seconden is bekeken, betekent meestal dat een regel of de indeling van het platform niet klopt. Daarom geeft dat platform de rest van de sessie alleen hints. Na een pauze van ongeveer tien minuten werkt alles weer normaal, of tik in Home op Overslaan hervatten. Draai terug wat fout was, zodat het als fout telt."
           ]
         },
         {
           "id": "fab",
           "q": "Wat doet de zwevende knop “Dit is AI”?",
           "a": [
-            "Die slaat de huidige video meteen over en zet het account standaard op je blokkeerlijst; Terugdraaien swipet terug en haalt dat item weer weg. Op TikTok staat bij de video een weergavenaam, dus accounts met dezelfde naam worden ook geblokkeerd; zet Ook het account blokkeren uit om alleen die video over te slaan. Verberg, vergroot of verklein of versleep de knop onder Instellingen → Hints en knop."
+            "Die slaat de huidige video meteen over. De eerste keer dat je erop tikt, vraagt hij of je het account ook wilt blokkeren; kies je dat, dan komt het account op je blokkeerlijst, en Terugdraaien swipet terug en haalt dat item weer weg. Op TikTok staat bij de video een weergavenaam, dus accounts met dezelfde naam worden ook geblokkeerd. Je keuze wijzigen met Ook het account blokkeren, en de knop verbergen, vergroten, verkleinen of verslepen, doe je onder Instellingen → Hints en knop."
           ]
         }
       ]
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

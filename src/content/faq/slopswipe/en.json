@@ -128,23 +128,23 @@
         },
         {
           "id": "degraded",
-          "q": "Home says a platform changed after an update and actions are stopped.",
+          "q": "Home says it can't read videos on a platform and actions are paused.",
           "a": [
-            "The platform app changed its layout and the current rule set cannot read it, so SlopSwipe stops acting there rather than swipe blindly. Rule sets update when the app starts and every 6 hours; tap Check for rule updates to try now. Until then the Guides still work."
+            "SlopSwipe could not read the last videos there, so it stops acting rather than swipe blindly. It starts again by itself as soon as it can read a video. If it stays paused, the platform app probably changed its layout: rule sets update when the app starts and every 6 hours, and Check for rule updates tries now. Until then the Guides still work."
           ]
         },
         {
           "id": "consecutive_cap",
           "q": "It switched to hints only after many skips in a row.",
           "a": [
-            "A safety stop. Ten skips in a row with nothing watched for 3 seconds usually means a rule or the platform layout is off, so that platform goes to hints only for the rest of the session. Open the platform app again and it goes back to normal. Undo anything that was wrong so it counts as a mistake."
+            "A safety stop. Ten skips in a row with nothing watched for 3 seconds usually means a rule or the platform layout is off, so that platform goes to hints only for the rest of the session. It goes back to normal after a break of about ten minutes, or tap Resume skipping on Home. Undo anything that was wrong so it counts as a mistake."
           ]
         },
         {
           "id": "fab",
           "q": "What does the \"This is AI\" floating button do?",
           "a": [
-            "It skips the current video at once and, by default, puts the account on your block list; Undo swipes back and removes that entry. On TikTok the name on the video is a display name, so accounts sharing it are blocked too; turn off Also block the account to skip only that video. Hide, resize or drag the button under Settings → Hints and button."
+            "It skips the current video at once. The first time you tap it, it asks whether to block the account as well; if you choose that, the account goes on your block list, and Undo swipes back and removes that entry. On TikTok the name on the video is a display name, so accounts sharing it are blocked too. Change your choice with Also block the account, and hide, resize or drag the button, under Settings → Hints and button."
           ]
         }
       ]
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

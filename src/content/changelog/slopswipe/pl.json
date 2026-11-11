@@ -3,6 +3,18 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 4,
+      "name": "1.0.2",
+      "date": "2026-11-10",
+      "items": [
+        "Przycisk „Wypróbuj” otwiera teraz aplikację, którą masz, np. YouTube Shorts, a nie tylko TikTok.",
+        "Obrazkowa instrukcja włączania SlopSwipe krok po kroku i karta „Nie możesz znaleźć przełącznika?” na ekranie Start.",
+        "Pierwsze dotknięcie przycisku SI pyta: pominąć tylko ten film czy też zablokować konto.",
+        "Obsługa najnowszego YouTube (21.44).",
+        "Stabilniejsze pomijanie: przewijanie komentarzy nie liczy się już jako nowy film, koniec z fałszywymi błędami cofania."
+      ]
+    },
+    {
       "code": 3,
       "name": "1.0.1",
       "date": "2026-10-23",
@@ -20,5 +32,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

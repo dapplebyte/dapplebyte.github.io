@@ -3,6 +3,18 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 4,
+      "name": "1.0.2",
+      "date": "2026-11-10",
+      "items": [
+        "De knop “Probeer” opent nu een app die je hebt, zoals YouTube Shorts, niet alleen TikTok.",
+        "Stapsgewijze plaatjes om SlopSwipe aan te zetten, en een kaart “Schakelaar niet gevonden?” op Home.",
+        "Bij de eerste tik op de AI-knop kies je: alleen deze video overslaan, of ook het account blokkeren.",
+        "Ondersteunt de nieuwste YouTube (21.44).",
+        "Stabieler overslaan: scrollen door reacties telt niet meer als nieuwe video, en geen onterechte fouten meer bij ongedaan maken."
+      ]
+    },
+    {
       "code": 3,
       "name": "1.0.1",
       "date": "2026-10-23",
@@ -20,5 +32,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

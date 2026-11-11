@@ -3,6 +3,18 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 4,
+      "name": "1.0.2",
+      "date": "2026-11-10",
+      "items": [
+        "« Essayer » ouvre désormais une appli installée, comme YouTube Shorts, pas seulement TikTok.",
+        "Tutoriel illustré pour activer SlopSwipe et carte « Vous ne trouvez pas l’interrupteur ? » dans « Accueil ».",
+        "Premier appui sur le bouton IA : passer la vidéo seulement ou bloquer aussi le compte.",
+        "Compatible avec le dernier YouTube (21.44).",
+        "Saut plus fiable : défiler les commentaires ne compte plus comme nouvelle vidéo, fini les fausses erreurs d’annulation."
+      ]
+    },
+    {
       "code": 3,
       "name": "1.0.1",
       "date": "2026-10-23",
@@ -20,5 +32,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

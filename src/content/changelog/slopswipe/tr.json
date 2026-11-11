@@ -3,6 +3,18 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 4,
+      "name": "1.0.2",
+      "date": "2026-11-10",
+      "items": [
+        "“Deneyin” düğmesi artık yalnızca TikTok’u değil, YouTube Shorts gibi sahip olduğunuz bir uygulamayı açıyor.",
+        "SlopSwipe’ı açmak için resimli adım adım anlatım ve Ana sayfa’da “Anahtarı bulamadınız mı?” kartı.",
+        "AI düğmesine ilk dokunuşta seçersiniz: yalnızca bu videoyu atlamak mı, hesabı da engellemek mi.",
+        "En yeni YouTube (21.44) desteği.",
+        "Daha kararlı atlama: yorumları kaydırmak artık yeni video sayılmıyor, geri alırken yersiz hata uyarıları da yok."
+      ]
+    },
+    {
       "code": 3,
       "name": "1.0.1",
       "date": "2026-10-23",
@@ -20,5 +32,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

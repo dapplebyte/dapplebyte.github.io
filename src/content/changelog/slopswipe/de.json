@@ -3,6 +3,18 @@
   "locale": "de",
   "entries": [
     {
+      "code": 4,
+      "name": "1.0.2",
+      "date": "2026-11-10",
+      "items": [
+        "„In … testen“ öffnet jetzt eine installierte App wie YouTube Shorts, nicht nur TikTok.",
+        "Bebilderte Anleitung zum Einschalten von SlopSwipe und die Karte „Schalter nicht gefunden?“ unter „Start“.",
+        "Der KI-Button fragt beim ersten Tippen: „Nur überspringen“ oder „Auch Konto sperren“.",
+        "Unterstützt das neueste YouTube (21.44).",
+        "Zuverlässigeres Überspringen: Scrollen in Kommentaren zählt nicht mehr als neues Video, und keine falschen Rückgängig-Fehler mehr."
+      ]
+    },
+    {
       "code": 3,
       "name": "1.0.1",
       "date": "2026-10-23",
@@ -20,5 +32,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

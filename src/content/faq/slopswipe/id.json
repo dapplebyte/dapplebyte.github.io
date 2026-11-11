@@ -128,23 +128,23 @@
         },
         {
           "id": "degraded",
-          "q": "Beranda bilang sebuah platform berubah setelah update dan tindakan dihentikan.",
+          "q": "Beranda bilang tidak bisa membaca video di sebuah platform dan tindakan dijeda.",
           "a": [
-            "Aplikasi platform itu mengubah tata letaknya dan set aturan saat ini tidak bisa membacanya, jadi SlopSwipe berhenti bertindak di sana daripada menggeser asal-asalan. Set aturan diperbarui saat aplikasi dibuka dan setiap 6 jam; ketuk Cek update aturan untuk mencoba sekarang. Sementara itu, Panduan tetap bisa dipakai."
+            "SlopSwipe tidak bisa membaca video-video terakhir di sana, jadi SlopSwipe berhenti bertindak daripada menggeser asal-asalan. SlopSwipe akan aktif lagi dengan sendirinya begitu bisa membaca video. Jika tetap dijeda, kemungkinan aplikasi platform itu mengubah tata letaknya: set aturan diperbarui saat aplikasi dibuka dan setiap 6 jam, dan Cek update aturan langsung mencobanya sekarang. Sementara itu, Panduan tetap bisa dipakai."
           ]
         },
         {
           "id": "consecutive_cap",
           "q": "SlopSwipe beralih ke petunjuk saja setelah banyak video dilewati berturut-turut.",
           "a": [
-            "Ini rem pengaman. Sepuluh kali lewati berturut-turut tanpa ada video yang ditonton selama 3 detik biasanya berarti ada aturan atau tata letak platform yang tidak beres, jadi platform itu hanya diberi petunjuk sampai sesi berakhir. Buka lagi aplikasi platformnya dan semuanya kembali normal. Urungkan yang keliru agar tercatat sebagai kesalahan."
+            "Ini rem pengaman. Sepuluh kali lewati berturut-turut tanpa ada video yang ditonton selama 3 detik biasanya berarti ada aturan atau tata letak platform yang tidak beres, jadi platform itu hanya diberi petunjuk sampai sesi berakhir. Semuanya kembali normal setelah jeda sekitar sepuluh menit, atau ketuk Lanjutkan melewati di Beranda. Urungkan yang keliru agar tercatat sebagai kesalahan."
           ]
         },
         {
           "id": "fab",
           "q": "Apa fungsi tombol mengambang “Ini AI”?",
           "a": [
-            "Tombol ini langsung melewati video saat ini dan, secara default, memasukkan akunnya ke daftar blokirmu; Urungkan akan menggeser kembali dan menghapus entri itu. Di TikTok, nama di video adalah nama tampilan, jadi akun lain dengan nama yang sama ikut terblokir; matikan Blokir juga akunnya untuk melewati video itu saja. Sembunyikan, ubah ukuran, atau geser tombolnya di Setelan → Petunjuk dan tombol."
+            "Tombol ini langsung melewati video saat ini. Saat pertama kali kamu mengetuknya, SlopSwipe akan bertanya apakah akunnya juga mau diblokir; jika kamu memilih itu, akunnya masuk ke daftar blokirmu, dan Urungkan akan menggeser kembali serta menghapus entri itu. Di TikTok, nama di video adalah nama tampilan, jadi akun lain dengan nama yang sama ikut terblokir. Ubah pilihanmu lewat Blokir juga akunnya, serta sembunyikan, ubah ukuran, atau geser tombolnya, di Setelan → Petunjuk dan tombol."
           ]
         }
       ]
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

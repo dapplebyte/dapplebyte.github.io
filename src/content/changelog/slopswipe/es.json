@@ -3,6 +3,18 @@
   "locale": "es",
   "entries": [
     {
+      "code": 4,
+      "name": "1.0.2",
+      "date": "2026-11-10",
+      "items": [
+        "«Pruébalo» ahora abre una app que ya tienes, como YouTube Shorts, no solo TikTok.",
+        "Imágenes paso a paso para activar SlopSwipe y una tarjeta «¿No encuentras el interruptor?» en «Inicio».",
+        "El primer toque en el botón de IA pregunta: saltar solo el vídeo o bloquear también la cuenta.",
+        "Compatible con el último YouTube (21.44).",
+        "Saltos más fiables: desplazarte por los comentarios ya no cuenta como vídeo nuevo y adiós a los falsos errores al deshacer."
+      ]
+    },
+    {
       "code": 3,
       "name": "1.0.1",
       "date": "2026-10-23",
@@ -20,5 +32,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }

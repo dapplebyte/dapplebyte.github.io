@@ -128,23 +128,23 @@
         },
         {
           "id": "degraded",
-          "q": "L’Accueil indique qu’une plateforme a changé après une mise à jour et que les actions sont suspendues.",
+          "q": "L’Accueil indique qu’il ne peut pas lire les vidéos d’une plateforme et que les actions sont en pause.",
           "a": [
-            "L’appli de la plateforme a changé sa mise en page et le jeu de règles actuel ne peut plus la lire : SlopSwipe arrête donc d’agir là plutôt que de balayer à l’aveugle. Le jeu de règles se met à jour au lancement de l’appli et toutes les 6 heures ; touchez Rechercher des mises à jour des règles pour essayer maintenant. En attendant, les Guides fonctionnent toujours."
+            "SlopSwipe n’a pas pu lire les dernières vidéos sur cette plateforme : il arrête donc d’agir là plutôt que de balayer à l’aveugle. Il reprend tout seul dès qu’il peut lire une vidéo. Si la pause dure, l’appli de la plateforme a probablement changé sa mise en page : le jeu de règles se met à jour au lancement de l’appli et toutes les 6 heures, et Rechercher des mises à jour des règles lance la vérification tout de suite. En attendant, les Guides fonctionnent toujours."
           ]
         },
         {
           "id": "consecutive_cap",
           "q": "Il est passé aux suggestions seules après beaucoup de vidéos passées d’affilée.",
           "a": [
-            "C’est une sécurité. Dix vidéos passées d’affilée sans que rien ne soit regardé pendant 3 secondes signifient généralement qu’une règle ou la mise en page de la plateforme pose problème : cette plateforme passe donc aux suggestions seules pour le reste de la session. Rouvrez l’appli de la plateforme et tout redevient normal. Annulez ce qui a été passé à tort pour que ce soit compté comme une erreur."
+            "C’est une sécurité. Dix vidéos passées d’affilée sans que rien ne soit regardé pendant 3 secondes signifient généralement qu’une règle ou la mise en page de la plateforme pose problème : cette plateforme passe donc aux suggestions seules pour le reste de la session. Tout redevient normal après une pause d’environ dix minutes, ou touchez Reprendre le passage dans l’Accueil. Annulez ce qui a été passé à tort pour que ce soit compté comme une erreur."
           ]
         },
         {
           "id": "fab",
           "q": "À quoi sert le bouton flottant « C’est de l’IA » ?",
           "a": [
-            "Il passe immédiatement la vidéo en cours et, par défaut, ajoute le compte à votre liste de blocage ; Annuler revient en arrière et retire cette entrée. Sur TikTok, le nom sur la vidéo est le nom affiché, donc les comptes qui portent le même nom sont aussi bloqués ; désactivez Bloquer aussi le compte pour passer seulement cette vidéo. Masquez, redimensionnez ou déplacez le bouton dans Paramètres → Suggestions et bouton."
+            "Il passe immédiatement la vidéo en cours. La première fois que vous le touchez, il vous demande s’il faut aussi bloquer le compte ; si vous acceptez, le compte est ajouté à votre liste de blocage, et Annuler revient en arrière et retire cette entrée. Sur TikTok, le nom sur la vidéo est le nom affiché, donc les comptes qui portent le même nom sont aussi bloqués. Modifiez ce choix avec Bloquer aussi le compte, et masquez, redimensionnez ou déplacez le bouton, dans Paramètres → Suggestions et bouton."
           ]
         }
       ]
@@ -307,5 +307,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-23"
+  "extractedAt": "2026-11-11"
 }
