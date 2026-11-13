@@ -779,11 +779,6 @@
       },
       "videosDescription": "Brevi video che mostrano Wasdo su un telefono e un tablet veri: collegare tastiera e mouse, creare una mappatura, la camera con il mouse e i problemi più comuni.",
       "privacyDescription": "Cosa fa Wasdo per Android con i tuoi dati: nessun account, a cosa serve il Servizio di accessibilità, cosa raccolgono gli SDK di analisi e di segnalazione degli arresti anomali e come disattivare la raccolta facoltativa.",
-      "compare": {
-        "description": "Wasdo a confronto con altri mappatori tastiera e mouse su Android, funzione per funzione, solo fatti.",
-        "vsDescription": "{name} e {other} a confronto su Android, funzione per funzione: root, ADB e attivazione, camera con il mouse, configurazioni predefinite, macro e prezzo.",
-        "vsIntro": "Entrambe permettono di giocare ai giochi touch per Android con tastiera e mouse. Ecco dove si differenziano, funzione per funzione."
-      },
       "labels": {
         "presets": "Schemi predefiniti"
       },

@@ -779,11 +779,6 @@
       },
       "videosDescription": "Wasdo'yu gerçek bir telefon ve tablette gösteren kısa videolar: klavye ve fareyi bağlama, tuş eşleme oluşturma, fareyle kamera ve en sık karşılaşılan sorunlar.",
       "privacyDescription": "Android için Wasdo verilerinizle ne yapar: hesap yok, Erişilebilirlik Hizmeti ne için kullanılır, analiz ve çökme raporlama SDK'ları neler toplar ve isteğe bağlı veri toplama nasıl kapatılır.",
-      "compare": {
-        "description": "Wasdo'nun Android'deki diğer klavye ve fare eşleme uygulamalarıyla özellik özellik karşılaştırması; yalnızca gerçekler.",
-        "vsDescription": "{name} ve {other}, Android'de özellik özellik karşılaştırılıyor: root, ADB ve etkinleştirme, fareyle kamera, hazır düzenler, makrolar ve fiyatlandırma.",
-        "vsIntro": "İkisi de Android dokunmatik oyunlarını klavye ve fareyle oynamanızı sağlar. Aralarındaki farklar, özellik özellik."
-      },
       "labels": {
         "presets": "Hazır düzenler"
       },

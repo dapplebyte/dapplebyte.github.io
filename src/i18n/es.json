@@ -779,11 +779,6 @@
       },
       "videosDescription": "Videos cortos de Wasdo en un teléfono y una tablet reales: cómo conectar teclado y mouse, cómo crear un mapeo, la cámara con el mouse y los problemas más comunes.",
       "privacyDescription": "Qué hace Wasdo para Android con tus datos: sin cuenta, para qué se usa el Servicio de Accesibilidad, qué recopilan los SDK de análisis y de informes de fallos, y cómo desactivar la recopilación opcional.",
-      "compare": {
-        "description": "Cómo se compara Wasdo con otros mapeadores de teclado y mouse en Android, función por función, solo datos.",
-        "vsDescription": "{name} y {other} comparadas en Android, función por función: root, ADB y activación, cámara con el mouse, predefinidos, macros y precio.",
-        "vsIntro": "Las dos te permiten jugar juegos táctiles de Android con teclado y mouse. Aquí ves en qué se diferencian, función por función."
-      },
       "labels": {
         "presets": "Esquemas predefinidos"
       },

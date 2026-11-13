@@ -779,11 +779,6 @@
       },
       "videosDescription": "在真实手机和平板上演示 Wasdo 的短视频：连接键盘鼠标、创建按键映射、鼠标视角，以及最常见的问题。",
       "privacyDescription": "Android 版 Wasdo 如何处理你的数据：无需账号、无障碍服务用来做什么、统计和崩溃报告 SDK 会收集什么，以及如何关闭可选的数据收集。",
-      "compare": {
-        "description": "在 Android 上逐项对比 Wasdo 与其他键鼠映射工具的功能，只讲事实。",
-        "vsDescription": "在 Android 上逐项对比 {name} 与 {other}：root、ADB 与激活、鼠标视角、预置方案、宏与收费方式。",
-        "vsIntro": "两者都能让你在 Android 上用键盘鼠标玩触屏游戏。下面逐项列出它们的不同之处。"
-      },
       "labels": {
         "presets": "预置方案"
       },

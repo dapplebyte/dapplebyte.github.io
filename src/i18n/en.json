@@ -779,11 +779,6 @@
       },
       "videosDescription": "Short videos showing Wasdo on a real phone and tablet: connecting a keyboard and mouse, building a key mapping, mouse look and the most common problems.",
       "privacyDescription": "What Wasdo for Android does with your data: no account, what the Accessibility service is used for, what the analytics and crash reporting SDKs collect, and how to turn optional collection off.",
-      "compare": {
-        "description": "How Wasdo compares with other keyboard and mouse mappers on Android, feature by feature, facts only.",
-        "vsDescription": "{name} and {other} compared on Android, feature by feature: root, ADB and activation, mouse look, presets, macros and pricing.",
-        "vsIntro": "Both let you play Android touch games with a keyboard and mouse. Here is where they differ, feature by feature."
-      },
       "labels": {
         "presets": "Presets"
       },

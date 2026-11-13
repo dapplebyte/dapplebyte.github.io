@@ -779,11 +779,6 @@
       },
       "videosDescription": "Korte video's van Wasdo op een echte telefoon en tablet: toetsenbord en muis koppelen, een mapping maken, de muiscamera en de meest voorkomende problemen.",
       "privacyDescription": "Wat Wasdo voor Android met je gegevens doet: geen account, waarvoor de toegankelijkheidsservice dient, wat de analyse- en crashrapportage-SDK's verzamelen en hoe je optionele gegevensverzameling uitzet.",
-      "compare": {
-        "description": "Hoe Wasdo zich verhoudt tot andere toetsenbord- en muis-mappers op Android, functie voor functie, alleen feiten.",
-        "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: root, ADB en activering, muiscamera, presets, macro's en prijs.",
-        "vsIntro": "Met beide speel je touchgames op Android met toetsenbord en muis. Hier zie je waarin ze verschillen, functie voor functie."
-      },
       "labels": {
         "presets": "Presets"
       },

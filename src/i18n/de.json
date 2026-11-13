@@ -779,11 +779,6 @@
       },
       "videosDescription": "Kurze Videos, die Wasdo auf einem echten Telefon und Tablet zeigen: Tastatur und Maus verbinden, Tastenbelegung erstellen, Maus-Kamera und die häufigsten Probleme.",
       "privacyDescription": "Was Wasdo für Android mit Ihren Daten macht: kein Konto, wofür der Bedienungshilfendienst genutzt wird, was die Analyse- und Absturzbericht-SDKs erfassen und wie Sie die optionale Erfassung abschalten.",
-      "compare": {
-        "description": "Wasdo im Vergleich mit anderen Tastatur- und Maus-Mappern für Android: Funktion für Funktion, nur Fakten.",
-        "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Root, ADB und Aktivierung, Maus-Kamera, Presets, Makros und Preis.",
-        "vsIntro": "Mit beiden spielen Sie Touch-Spiele auf Android mit Tastatur und Maus. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
-      },
       "labels": {
         "presets": "Presets"
       },

@@ -779,11 +779,6 @@
       },
       "videosDescription": "Krótkie filmy pokazujące Wasdo na prawdziwym telefonie i tablecie: podłączanie klawiatury i myszy, tworzenie mapowania, kamera myszą i najczęstsze problemy.",
       "privacyDescription": "Co Wasdo na Androida robi z Twoimi danymi: bez konta, do czego służy usługa ułatwień dostępu, co zbierają SDK analityki i raportów o awariach oraz jak wyłączyć opcjonalne zbieranie danych.",
-      "compare": {
-        "description": "Porównanie Wasdo z innymi maperami klawiatury i myszy na Androidzie: funkcja po funkcji, same fakty.",
-        "vsDescription": "Porównanie {name} i {other} na Androidzie, funkcja po funkcji: root, ADB i aktywacja, kamera myszą, gotowe układy, makra i cena.",
-        "vsIntro": "Obie aplikacje pozwalają grać w dotykowe gry na Androida klawiaturą i myszą. Oto czym się różnią, funkcja po funkcji."
-      },
       "labels": {
         "presets": "Gotowe układy"
       },

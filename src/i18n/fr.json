@@ -779,11 +779,6 @@
       },
       "videosDescription": "De courtes vidéos de Wasdo sur un vrai téléphone et une vraie tablette : connecter un clavier et une souris, créer un mappage, la caméra à la souris, et les problèmes les plus courants.",
       "privacyDescription": "Ce que Wasdo pour Android fait de vos données : pas de compte, à quoi sert le service d'accessibilité, ce que collectent les SDK d'analyse et de rapports de plantage, et comment désactiver la collecte facultative.",
-      "compare": {
-        "description": "Wasdo comparé aux autres mappeurs clavier souris sur Android, fonctionnalité par fonctionnalité, uniquement des faits.",
-        "vsDescription": "{name} et {other} comparés sur Android, fonctionnalité par fonctionnalité : root, ADB et activation, caméra à la souris, configurations prédéfinies, macros et prix.",
-        "vsIntro": "Les deux permettent de jouer aux jeux tactiles Android au clavier et à la souris. Voici en quoi ils diffèrent, fonctionnalité par fonctionnalité."
-      },
       "labels": {
         "presets": "Dispositions prédéfinies"
       },

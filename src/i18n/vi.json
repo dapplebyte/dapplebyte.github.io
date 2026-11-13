@@ -779,11 +779,6 @@
       },
       "videosDescription": "Video ngắn quay Wasdo trên điện thoại và máy tính bảng thật: kết nối bàn phím và chuột, tạo ánh xạ phím, góc nhìn bằng chuột và các sự cố hay gặp nhất.",
       "privacyDescription": "Wasdo cho Android làm gì với dữ liệu của bạn: không cần tài khoản, Dịch vụ Trợ năng dùng để làm gì, SDK phân tích và báo cáo sự cố thu thập những gì, và cách tắt phần thu thập không bắt buộc.",
-      "compare": {
-        "description": "Wasdo so với các ứng dụng ánh xạ bàn phím và chuột khác trên Android, từng tính năng một, chỉ có dữ kiện.",
-        "vsDescription": "So sánh {name} và {other} trên Android, từng tính năng một: root, ADB và kích hoạt, góc nhìn bằng chuột, cấu hình có sẵn, macro và giá.",
-        "vsIntro": "Cả hai đều cho phép chơi game cảm ứng trên Android bằng bàn phím và chuột. Đây là những điểm khác nhau, từng tính năng một."
-      },
       "labels": {
         "presets": "Layout có sẵn"
       },

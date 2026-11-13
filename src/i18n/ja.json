@@ -779,11 +779,6 @@
       },
       "videosDescription": "実際のスマートフォンとタブレットで Wasdo を使う短い動画：キーボードとマウスの接続、キーマッピングの作成、マウス視点、よくあるトラブル。",
       "privacyDescription": "Android 版 Wasdo がデータをどう扱うか：アカウント不要、ユーザー補助サービスの用途、分析・クラッシュレポート SDK が収集する情報、任意の収集をオフにする方法。",
-      "compare": {
-        "description": "Android での Wasdo とほかのキーボード・マウス マッピングアプリを機能ごとに比べました。事実だけを載せています。",
-        "vsDescription": "Android での {name} と {other} を機能ごとに比較：root、ADB と有効化、マウス視点、プリセット、マクロ、料金。",
-        "vsIntro": "どちらも Android のタッチ操作ゲームをキーボードとマウスで遊べるアプリです。違いを機能ごとにまとめました。"
-      },
       "labels": {
         "presets": "プリセット"
       },

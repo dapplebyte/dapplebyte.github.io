@@ -779,11 +779,6 @@
       },
       "videosDescription": "在真實手機和平板上示範 Wasdo 的短片：連接鍵盤滑鼠、建立按鍵映射、滑鼠視角，以及最常見的問題。",
       "privacyDescription": "Wasdo Android 版怎麼處理你的資料：沒有帳號、無障礙服務拿來做什麼、分析與當機回報 SDK 會收集什麼，以及怎麼關閉選用的資料收集。",
-      "compare": {
-        "description": "Wasdo 與 Android 上其他鍵鼠映射工具逐項比較，只列事實。",
-        "vsDescription": "{name} 與 {other} 在 Android 上逐項比較：root、ADB 與啟動、滑鼠視角、預置方案、巨集與收費方式。",
-        "vsIntro": "兩者都能讓你在 Android 上用鍵盤滑鼠玩觸控遊戲。差別逐項列在下面。"
-      },
       "labels": {
         "presets": "預置方案"
       },

@@ -779,11 +779,6 @@
       },
       "videosDescription": "Video singkat yang menunjukkan Wasdo di ponsel dan tablet sungguhan: menyambungkan keyboard dan mouse, membuat pemetaan tombol, kamera mouse, dan masalah yang paling sering muncul.",
       "privacyDescription": "Apa yang dilakukan Wasdo untuk Android dengan data Anda: tanpa akun, untuk apa Layanan Aksesibilitas dipakai, apa yang dikumpulkan SDK analitik dan laporan error, dan cara mematikan pengumpulan data opsional.",
-      "compare": {
-        "description": "Perbandingan Wasdo dengan aplikasi pemetaan keyboard dan mouse lain di Android, fitur demi fitur, hanya fakta.",
-        "vsDescription": "Perbandingan {name} dan {other} di Android, fitur demi fitur: root, ADB dan aktivasi, kamera mouse, preset, makro, dan harga.",
-        "vsIntro": "Keduanya memungkinkan Anda memainkan game sentuh Android dengan keyboard dan mouse. Ini perbedaannya, fitur demi fitur."
-      },
       "labels": {
         "presets": "Preset"
       },
