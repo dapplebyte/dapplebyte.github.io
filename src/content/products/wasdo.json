@@ -1,0 +1,25 @@
+{
+  "slug": "wasdo",
+  "name": "Wasdo",
+  "order": 8,
+  "status": "live",
+  "platform": "Android",
+  "applicationId": "com.dapplebyte.wasdo",
+  "category": "GameApplication",
+  "minOs": "Android 9",
+  "versions": [],
+  "contactEmail": "feedback@dapplebyte.com",
+  "accent": { "solid": "#FF6B2C", "bright": "#FF8A55", "ink": "#0B0B0C" },
+  "displayFont": "Saira",
+  "screenshotCount": 6,
+  "screenshotOrientation": "landscape",
+  "heroShot": 1,
+  "featuredFaq": ["q02", "q06", "q08", "q07", "q11", "q14"],
+  "languages": 32,
+  "overview": {
+    "useCases": "use-cases",
+    "cells": ["no-root", "privacy", "please-note"],
+    "privacyLinkIn": "privacy",
+    "fine": "support"
+  }
+}

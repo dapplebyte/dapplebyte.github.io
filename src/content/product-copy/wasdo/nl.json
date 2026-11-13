@@ -1,0 +1,124 @@
+{
+  "slug": "wasdo",
+  "locale": "nl",
+  "title": "Wasdo: Keyboard Mouse Mapper",
+  "shortDescription": "Mobiele games met toetsenbord en muis: WASD, toetstoewijzing. Zonder root of ADB",
+  "tagline": "Mobiele games spelen met toetsenbord en muis: zonder root, zonder ADB",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Mobiele games spelen met toetsenbord en muis: zonder root, zonder ADB",
+      "paragraphs": [
+        "Met de keyboard-mouse-mapper Wasdo speel je op je Android-telefoon of -tablet met toetsenbord en muis. Sluit een USB- of Bluetooth-toetsenbord en -muis aan, leg toetsen op de gameknoppen en speel zoals op de pc: WASD om te lopen, de muis voor de camera, toetsen voor skills en wapens. Zonder root, ADB of pc en zonder koppelen via draadloze foutopsporing. Zet één toegankelijkheidsmachtiging aan en speel."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Zonder root, zonder ADB, zonder activatie",
+      "paragraphs": [
+        "Veel vergelijkbare apps vragen draadloze foutopsporing, ADB vanaf een computer of opnieuw activeren na elke herstart. Wasdo niet."
+      ],
+      "bullets": [
+        "Alleen de toegankelijkheidsdienst, geen Shizuku of hulp-app",
+        "Geen koppelcodes, geen USB-foutopsporing, geen pc",
+        "Na een herstart niets opnieuw activeren",
+        "Werkt op Android-telefoons en -tablets"
+      ]
+    },
+    {
+      "id": "use-cases",
+      "title": "Zo spelen anderen met Wasdo",
+      "paragraphs": [],
+      "bullets": [
+        "Shooters op een tablet: WASD, rondkijken met de muis, toetsen voor herladen en bukken",
+        "MOBA-games met skilltoetsen en Smart Cast",
+        "Action-RPG's met ontwijken en skillcombo's op het toetsenbord",
+        "Tablet met toetsenbordhoes, of telefoon aan een USB-hub"
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Toetstoewijzing: tikken, vasthouden, snelvuur en vegen",
+      "paragraphs": [],
+      "bullets": [
+        "Als toetsenbordmapper: elke toets wordt tikken, vasthouden, snelvuur of vegen",
+        "Activeren bij indrukken, lang indrukken, dubbeltikken of loslaten",
+        "WASD-joystick met acht richtingen en sprinttoets",
+        "Linker-, rechter-, middelste en zijknoppen van de muis toewijzen",
+        "Klik onder de cursor voor menu's, kaart en inventaris"
+      ]
+    },
+    {
+      "id": "mouse-look",
+      "title": "Camera draaien met de muis, net als op de pc",
+      "paragraphs": [],
+      "bullets": [
+        "Cameramodus vergrendelt de muis en draait het beeld, net als op de pc",
+        "Esc wisselt tussen cameramodus en cursormodus",
+        "Gevoeligheid in een potje wijzigen met schuif of sneltoets",
+        "Y-as omkeren, viziertoets en optioneel richtkruis"
+      ]
+    },
+    {
+      "id": "presets",
+      "title": "Presets en sjablonen voor FPS, MOBA en RPG",
+      "paragraphs": [],
+      "bullets": [
+        "Kant-en-klare presets voor populaire games, op maat van je scherm",
+        "Sjablonen: FPS, MOBA, Openwereld-actie en Algemeen",
+        "Editor met slepen en neerzetten, toetsgrootte en transparantie naar keuze",
+        "Meerdere indelingen per game",
+        "Exporteren, back-ups en deelcodes zijn gratis"
+      ]
+    },
+    {
+      "id": "typing-overlay",
+      "title": "Typmodus, zwevende wisselaar en streammodus",
+      "paragraphs": [],
+      "bullets": [
+        "Typmodus (Enter) stuurt je toetsenbord naar de gamechat",
+        "Zwevende wisselaar: indeling, gevoeligheid en toetsen aanpassen in de game",
+        "Streammodus verbergt de overlay tijdens het opnemen"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Wasdo Pro: geavanceerde muisbesturing en macro's",
+      "paragraphs": [
+        "Gratis om te beginnen, geen advertenties. Wasdo Pro voegt onbeperkt games en indelingen toe, combinaties met modificatietoetsen (Shift, Ctrl of Alt + toets), gevoeligheidscurves met aparte X- en Y-as, afvlakking en vizierzoom, scrollwieltoetsen, macro's met één toets, scènewissel, toggle- en reekstoetsen, en Smart Cast voor MOBA. Opgeslagen indelingen blijven werken."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy en de toegankelijkheidsmachtiging",
+      "paragraphs": [
+        "Wasdo gebruikt de toegankelijkheidsdienst alleen om tijdens een actieve toewijzing toetsenbord en muis te lezen en aanrakingen in de game te plaatsen. Je scherm wordt niet gelezen, opgeslagen of geüpload."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Let op",
+      "paragraphs": [],
+      "bullets": [
+        "Sommige games detecteren een extern toetsenbord en muis en kunnen accounts beperken. Wasdo verbergt zich niet en omzeilt dit niet. Games die spelers hebben gemeld, zijn in de app gemarkeerd.",
+        "Geen terugslagcompensatie of richthulp: Wasdo zet alleen je eigen invoer om in aanrakingen.",
+        "Een touchpad kan de camera niet draaien. Gebruik een gewone muis.",
+        "Externe schermen: spiegelmodus, niet de desktopmodus van Samsung DeX.",
+        "Voor controllers: onze zusterapp Gamepad Pro.",
+        "Gamenamen zijn van hun rechthebbenden. Wasdo is niet verbonden aan een uitgever."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Werkt er iets niet?",
+      "paragraphs": [
+        "Start eerst Instellingen → Zelftest toetsenbord en muis. Lukt het nog niet? Mail vóór een review naar feedback@dapplebyte.com, met je telefoonmodel en de game. We lezen elk bericht."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

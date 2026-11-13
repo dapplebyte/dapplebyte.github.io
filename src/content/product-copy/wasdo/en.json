@@ -1,0 +1,124 @@
+{
+  "slug": "wasdo",
+  "locale": "en",
+  "title": "Wasdo: Keyboard Mouse Mapper",
+  "shortDescription": "Play mobile games PC-style: WASD, key mapping, presets. No root, no ADB, no PC",
+  "tagline": "Keyboard Mouse Mapper for Mobile Games: No Root, No ADB",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Keyboard Mouse Mapper for Mobile Games: No Root, No ADB",
+      "paragraphs": [
+        "Wasdo is a keyboard mouse mapper that lets you play with keyboard and mouse on Android phones and tablets. Connect a USB or Bluetooth keyboard and mouse, place keys over the game's buttons and play touch games the PC way: WASD to move, the mouse to turn the camera, keys for skills and weapons. No root, no ADB, no PC and no wireless debugging pairing. Turn on one Accessibility permission and play."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "No Root, No ADB, No Activation",
+      "paragraphs": [
+        "Many keyboard and mouse apps make you pair wireless debugging, run ADB from a computer or activate again after every restart. Wasdo doesn't."
+      ],
+      "bullets": [
+        "Only the Accessibility service, no Shizuku or helper app",
+        "No pairing codes, no USB debugging, no PC",
+        "Nothing to activate again after a reboot",
+        "Works on Android phones and tablets"
+      ]
+    },
+    {
+      "id": "use-cases",
+      "title": "Popular Ways People Use Wasdo",
+      "paragraphs": [],
+      "bullets": [
+        "Shooters on a tablet: WASD movement, mouse look, keys to reload and crouch",
+        "MOBA games with skill keys and smart cast",
+        "Action RPGs with dodge and skill combos on the keyboard",
+        "A tablet with a keyboard case, or a phone on a USB hub"
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Key Mapping: Tap, Hold, Turbo and Swipe",
+      "paragraphs": [],
+      "bullets": [
+        "Use it as a keyboard mapper: map any key to a tap, hold, turbo or swipe",
+        "Trigger on press, long press, double tap or release",
+        "WASD joystick with eight directions and a sprint key",
+        "Map left, right, middle and side mouse buttons",
+        "Click at the cursor for menus, maps and inventory"
+      ]
+    },
+    {
+      "id": "mouse-look",
+      "title": "Mouse Look and Camera Control",
+      "paragraphs": [],
+      "bullets": [
+        "Camera mode locks the mouse and turns the view, like a PC game",
+        "Press Esc to switch between camera and cursor mode",
+        "Change sensitivity mid-match with a slider or hotkeys",
+        "Invert Y, scope key and an optional crosshair"
+      ]
+    },
+    {
+      "id": "presets",
+      "title": "Presets and Templates for FPS, MOBA and RPG",
+      "paragraphs": [],
+      "bullets": [
+        "Ready-made presets for popular games, fitted to your screen shape",
+        "FPS, MOBA, open-world action and General templates",
+        "Drag-and-drop editor, adjustable key size and opacity",
+        "Several layouts per game",
+        "Export, backup and share codes are free"
+      ]
+    },
+    {
+      "id": "typing-overlay",
+      "title": "Typing Mode, Floating Pill and Stream Mode",
+      "paragraphs": [],
+      "bullets": [
+        "Typing mode (Enter) sends your keyboard to the game chat",
+        "Floating pill: switch layouts, tune sensitivity, edit keys in game",
+        "Stream mode hides the overlay while you record"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Wasdo Pro: Advanced Mouse and Macro Controls",
+      "paragraphs": [
+        "Free to start, no ads. Wasdo Pro adds unlimited games and layouts, modifier combos (Shift, Ctrl or Alt + key), sensitivity curves with separate X and Y, smoothing and scope zoom, scroll wheel keys, one-key macros, scene switching, toggle and sequence keys, and MOBA smart cast. Layouts you've saved keep working."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy and the Accessibility Permission",
+      "paragraphs": [
+        "Wasdo uses the Accessibility service only to read your keyboard and mouse while a mapping runs and to place touches on the game. It doesn't read, store or upload your screen."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Please Note",
+      "paragraphs": [],
+      "bullets": [
+        "Some games detect external keyboards and mice and may restrict accounts. Wasdo doesn't hide itself or bypass this. Games reported by players are tagged in the app.",
+        "No recoil control or aim assist. Wasdo only turns your own input into touches.",
+        "Touchpads can't turn the camera. Use a regular mouse.",
+        "External displays work in mirroring mode, not Samsung DeX desktop mode.",
+        "For controllers, try our sister app Gamepad Pro.",
+        "Game names belong to their owners. Wasdo isn't affiliated with any publisher."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Something Not Working?",
+      "paragraphs": [
+        "Run Settings → Keyboard & mouse self-check first. Still stuck? Email feedback@dapplebyte.com with your phone model and game before leaving a review. We read every message."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

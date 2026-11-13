@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · Ứng dụng Android độc lập",
-    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker; JoyLink, ứng dụng biến điện thoại thành tay cầm Bluetooth, bàn di chuột và điều khiển TV; và Gamepad Tester Pro, ứng dụng kiểm tra tay cầm xem có bị trôi cần, trễ đầu vào hay liệt nút không. DappleByte còn làm Apk Extractor, ứng dụng trích xuất APK, sao lưu ứng dụng và cài XAPK giúp chuyển ứng dụng sang điện thoại mới. Ứng dụng mới nhất, SlopSwipe, tự vuốt qua video do AI tạo trên YouTube Shorts, TikTok và Instagram Reels, cho biết lý do mỗi lần bỏ qua và hoàn tác chỉ với một chạm.",
+    "description": "DappleByte là một studio độc lập chuyên làm ứng dụng Android: Gamepad Pro, ứng dụng ánh xạ phím biến tay cầm thành thao tác chạm; Relaypad, ứng dụng tay cầm Remote Play và stream máy chơi game dành cho PS5 và PS4; WhenDo, ứng dụng tự động hóa bằng AI kiêm auto clicker; JoyLink, ứng dụng biến điện thoại thành tay cầm Bluetooth, bàn di chuột và điều khiển TV; và Gamepad Tester Pro, ứng dụng kiểm tra tay cầm xem có bị trôi cần, trễ đầu vào hay liệt nút không. DappleByte còn làm Apk Extractor, ứng dụng trích xuất APK, sao lưu ứng dụng và cài XAPK giúp chuyển ứng dụng sang điện thoại mới. Ứng dụng mới nhất, SlopSwipe, tự vuốt qua video do AI tạo trên YouTube Shorts, TikTok và Instagram Reels, cho biết lý do mỗi lần bỏ qua và hoàn tác chỉ với một chạm. Sắp ra mắt tiếp theo là Wasdo, ứng dụng ánh xạ bàn phím và chuột để chơi game cảm ứng trên Android bằng WASD và góc nhìn bằng chuột.",
     "appsHeading": "Ứng dụng",
     "principlesHeading": "Cách chúng tôi làm việc",
     "principles": [
@@ -747,6 +747,43 @@
       }
     },
     "wasdo": {
+      "kicker": "Ánh xạ bàn phím và chuột · Không root",
+      "heroPoints": [
+        "WASD để di chuyển, chuột để xoay góc nhìn, phím để tung kỹ năng và đổi vũ khí",
+        "Cấu hình có sẵn cho các game phổ biến, kèm mẫu cho FPS, MOBA và RPG",
+        "Chỉ cần quyền Trợ năng: không root, không ADB, không PC, không phải kích hoạt lại"
+      ],
+      "faqDescription": "Giải đáp về Wasdo: thiết lập và quyền Trợ năng, tạo ánh xạ phím, bàn phím và chuột, điều khiển góc nhìn và Wasdo Pro.",
+      "faqNotFoundBody": "Hãy viết cho chúng tôi, kèm kiểu máy điện thoại, bàn phím và chuột, game và chuyện đã xảy ra. Mọi tin nhắn đều do người thật đọc.",
+      "support": {
+        "beforeItems": [
+          "Trong Wasdo, mở Cài đặt → Trợ lý kết nối. Công cụ này kiểm tra xem bàn phím và chuột đã được nhận chưa, nếu chưa sẽ hướng dẫn bạn khắc phục từng bước.",
+          "Mở phần Câu hỏi thường gặp. Phần lớn thắc mắc về thiết lập, quyền và ánh xạ đã được giải đáp ở đó, với cách diễn đạt giống trong ứng dụng.",
+          "Ghi lại game nào, bàn phím và chuột nào và chuyện gì xảy ra trên màn hình khi bạn bấm phím. Đó chính là thứ chúng tôi cần để tái hiện lỗi."
+        ],
+        "template": {
+          "phone": "Kiểu máy điện thoại hoặc máy tính bảng:",
+          "android": "Phiên bản Android:",
+          "devices": "Bàn phím và chuột (mẫu, USB hay Bluetooth):",
+          "game": "Game hoặc ứng dụng:",
+          "what": "Chuyện gì đã xảy ra, từng bước:",
+          "pro": "Đã mua Pro: có / không"
+        },
+        "refundBody": "Wasdo cài đặt miễn phí. Nếu bạn đã mua Wasdo Pro mà nó không chạy được với thiết bị của bạn, hãy email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền. Hãy cho biết bạn đã thử những gì; điều đó giúp chúng tôi sửa lỗi cho người dùng sau."
+      },
+      "press": {
+        "description": "Dữ kiện, tư liệu và đoạn giới thiệu soạn sẵn để viết về Wasdo, ứng dụng ánh xạ bàn phím và chuột cho Android.",
+        "boilerplate": "Wasdo giúp người chơi chơi game cảm ứng trên Android bằng bàn phím và chuột USB hoặc Bluetooth: WASD để di chuyển, chuột để xoay góc nhìn và các phím đặt lên nút trong game, kèm cấu hình có sẵn cho các game phổ biến và mẫu cho FPS, MOBA và RPG. Ứng dụng chỉ cần quyền Trợ năng, không cần root, ADB hay PC. Ứng dụng do DappleByte, một studio độc lập, phát triển.",
+        "priceValue": "Cài đặt miễn phí, không quảng cáo. Wasdo Pro mở khóa các điều khiển chuột nâng cao và macro qua giao dịch mua trong ứng dụng. Giá hiện tại hiển thị trên Google Play.",
+        "assetScreenshots": "Ảnh chụp màn hình, 1920 × 1080 PNG, tiếng Anh"
+      },
+      "videosDescription": "Video ngắn quay Wasdo trên điện thoại và máy tính bảng thật: kết nối bàn phím và chuột, tạo ánh xạ phím, góc nhìn bằng chuột và các sự cố hay gặp nhất.",
+      "privacyDescription": "Wasdo cho Android làm gì với dữ liệu của bạn: không cần tài khoản, Dịch vụ Trợ năng dùng để làm gì, SDK phân tích và báo cáo sự cố thu thập những gì, và cách tắt phần thu thập không bắt buộc.",
+      "compare": {
+        "description": "Wasdo so với các ứng dụng ánh xạ bàn phím và chuột khác trên Android, từng tính năng một, chỉ có dữ kiện.",
+        "vsDescription": "So sánh {name} và {other} trên Android, từng tính năng một: root, ADB và kích hoạt, góc nhìn bằng chuột, cấu hình có sẵn, macro và giá.",
+        "vsIntro": "Cả hai đều cho phép chơi game cảm ứng trên Android bằng bàn phím và chuột. Đây là những điểm khác nhau, từng tính năng một."
+      },
       "labels": {
         "presets": "Layout có sẵn"
       },

@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · Unabhängige Android-Apps",
-    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht; Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4; WhenDo, eine App für KI-Automatisierung mit Auto-Klicker; JoyLink, das ein Smartphone zu Bluetooth-Gamepad, Touchpad und TV-Fernbedienung macht; und Gamepad Tester Pro, das einen Controller auf Stick-Drift, Input-Lag und tote Tasten prüft. Außerdem entwickelt DappleByte Apk Extractor, einen APK-Extraktor, ein App-Backup und einen XAPK-Installer, der Apps auf ein neues Smartphone überträgt. Die neueste App, SlopSwipe, wischt KI-generierte Videos in YouTube Shorts, TikTok und Instagram Reels weg, nennt zu jedem Überspringen den Grund und macht es mit einem Tippen rückgängig.",
+    "description": "DappleByte ist ein unabhängiges Studio für Android-Apps: Gamepad Pro, eine App zur Tastenbelegung, die einen Controller zur Touch-Steuerung macht; Relaypad, Controller und Konsolen-Streaming per Remote Play für PS5 und PS4; WhenDo, eine App für KI-Automatisierung mit Auto-Klicker; JoyLink, das ein Smartphone zu Bluetooth-Gamepad, Touchpad und TV-Fernbedienung macht; und Gamepad Tester Pro, das einen Controller auf Stick-Drift, Input-Lag und tote Tasten prüft. Außerdem entwickelt DappleByte Apk Extractor, einen APK-Extraktor, ein App-Backup und einen XAPK-Installer, der Apps auf ein neues Smartphone überträgt. Die neueste App, SlopSwipe, wischt KI-generierte Videos in YouTube Shorts, TikTok und Instagram Reels weg, nennt zu jedem Überspringen den Grund und macht es mit einem Tippen rückgängig. Als Nächstes erscheint Wasdo, ein Tastatur- und Maus-Mapper, mit dem sich Touch-Spiele auf Android mit WASD und Maus-Kamera spielen lassen.",
     "appsHeading": "Apps",
     "principlesHeading": "So arbeiten wir",
     "principles": [
@@ -747,6 +747,43 @@
       }
     },
     "wasdo": {
+      "kicker": "Tastatur- und Maus-Mapper · Ohne root",
+      "heroPoints": [
+        "WASD zum Laufen, die Maus für die Kamera, Tasten für Skills und Waffen",
+        "Fertige Presets für beliebte Spiele, dazu Vorlagen für FPS, MOBA und RPG",
+        "Nur die Bedienungshilfen-Berechtigung: kein root, kein ADB, kein PC, nichts neu zu aktivieren"
+      ],
+      "faqDescription": "Antworten zu Wasdo: Einrichtung und Bedienungshilfen-Berechtigung, Tastenbelegung erstellen, Tastatur und Maus, Kamerasteuerung und Wasdo Pro.",
+      "faqNotFoundBody": "Schreiben Sie uns, welches Telefon, welche Tastatur und Maus und welches Spiel Sie nutzen und was passiert ist. Jede Nachricht liest ein Mensch.",
+      "support": {
+        "beforeItems": [
+          "Öffnen Sie in Wasdo Einstellungen → Verbindungshilfe. Dort wird geprüft, ob Tastatur und Maus erkannt werden; falls nicht, führt sie Sie Schritt für Schritt zur Lösung.",
+          "Öffnen Sie die FAQ. Die meisten Fragen zu Einrichtung, Berechtigungen und Belegung sind dort beantwortet, im selben Wortlaut wie in der App.",
+          "Notieren Sie, um welches Spiel und welche Tastatur und Maus es geht und was auf dem Bildschirm passiert, wenn Sie eine Taste drücken. Genau das brauchen wir, um das Problem nachzustellen."
+        ],
+        "template": {
+          "phone": "Telefon- oder Tablet-Modell:",
+          "android": "Android-Version:",
+          "devices": "Tastatur und Maus (Modell, USB oder Bluetooth):",
+          "game": "Spiel oder App:",
+          "what": "Was ist passiert, Schritt für Schritt:",
+          "pro": "Pro gekauft: ja / nein"
+        },
+        "refundBody": "Wasdo ist kostenlos installierbar. Wenn Sie Wasdo Pro gekauft haben und es mit Ihrem Setup nicht funktioniert, schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf, und wir erstatten den Betrag. Erzählen Sie uns, was Sie versucht haben; das hilft uns, das Problem für die Nächsten zu beheben."
+      },
+      "press": {
+        "description": "Fakten, Material und ein Standardtext für Berichte über Wasdo, den Tastatur- und Maus-Mapper für Android.",
+        "boilerplate": "Mit Wasdo lassen sich Touch-Spiele auf Android mit einer USB- oder Bluetooth-Tastatur und -Maus spielen: WASD zum Laufen, die Maus für die Kamera und Tasten direkt auf den Buttons des Spiels, dazu fertige Presets für beliebte Spiele und Vorlagen für FPS, MOBA und RPG. Die App braucht nur die Bedienungshilfen-Berechtigung, ohne Root, ADB oder PC. Sie stammt von DappleByte, einem unabhängigen Studio.",
+        "priceValue": "Kostenlos installierbar, ohne Werbung. Wasdo Pro schaltet per In-App-Kauf erweiterte Maus- und Makrofunktionen frei. Den aktuellen Preis finden Sie bei Google Play.",
+        "assetScreenshots": "Screenshots, 1920 × 1080 PNG, Englisch"
+      },
+      "videosDescription": "Kurze Videos, die Wasdo auf einem echten Telefon und Tablet zeigen: Tastatur und Maus verbinden, Tastenbelegung erstellen, Maus-Kamera und die häufigsten Probleme.",
+      "privacyDescription": "Was Wasdo für Android mit Ihren Daten macht: kein Konto, wofür der Bedienungshilfendienst genutzt wird, was die Analyse- und Absturzbericht-SDKs erfassen und wie Sie die optionale Erfassung abschalten.",
+      "compare": {
+        "description": "Wasdo im Vergleich mit anderen Tastatur- und Maus-Mappern für Android: Funktion für Funktion, nur Fakten.",
+        "vsDescription": "{name} und {other} auf Android im Vergleich, Funktion für Funktion: Root, ADB und Aktivierung, Maus-Kamera, Presets, Makros und Preis.",
+        "vsIntro": "Mit beiden spielen Sie Touch-Spiele auf Android mit Tastatur und Maus. Hier sehen Sie, worin sie sich unterscheiden, Funktion für Funktion."
+      },
       "labels": {
         "presets": "Presets"
       },

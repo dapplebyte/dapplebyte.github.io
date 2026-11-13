@@ -1,0 +1,206 @@
+{
+  "slug": "wasdo",
+  "locale": "vi",
+  "title": "FAQ và trợ giúp",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Thiết lập",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Wasdo dùng để làm gì?",
+          "a": [
+            "Wasdo biến bàn phím và chuột USB hoặc Bluetooth thành thao tác chạm và vuốt trên màn hình, để bạn chơi game cảm ứng theo kiểu PC: dùng phím để di chuyển và hành động, dùng chuột để xoay góc nhìn."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Vì sao cần quyền Trợ năng? Có an toàn không?",
+          "a": [
+            "Dịch vụ Trợ năng cho phép Wasdo đọc bàn phím và chuột khi ánh xạ đang chạy và đặt thao tác chạm vào game đang mở, kể cả bên ngoài ứng dụng. Ánh xạ phím chỉ hoạt động sau khi bật dịch vụ này. Wasdo chỉ dùng nó để thực hiện đúng thao tác bạn đã cài — không đọc, lưu hay tải lên nội dung trên màn hình, những gì bạn gõ hay mật khẩu của bạn."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Chạy nền một lúc thì ngừng hoạt động. Khắc phục thế nào?",
+          "a": [
+            "Android có thể đóng ứng dụng chạy nền để tiết kiệm pin. Hãy cho phép Wasdo chạy nền bằng cách tắt tối ưu hóa pin. Một số hãng (như MIUI hay Samsung) có thêm quy tắc tiết kiệm pin riêng — hướng dẫn trên dontkillmyapp.com chỉ cách tắt chúng cho máy của bạn."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Wasdo có cần root không?",
+          "a": [
+            "Không. Wasdo hoạt động qua Dịch vụ Trợ năng và không cần root hay bất kỳ ứng dụng hỗ trợ nào khác."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Wasdo có hỗ trợ tay cầm không?",
+          "a": [
+            "Không. Wasdo chỉ được làm cho bàn phím và chuột. Với tay cầm, hãy dùng ứng dụng anh em Gamepad Pro của chúng tôi, được làm riêng cho tay cầm và chạy song song được với Wasdo: khi cài cả hai và Gamepad Pro đang chạy, tín hiệu từ tay cầm sẽ tự động chuyển cho Gamepad Pro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Ánh xạ",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Ánh xạ phím không hoạt động. Tôi nên kiểm tra gì?",
+          "a": [
+            "1. Kiểm tra Dịch vụ Trợ năng đã bật (Cài đặt → Trợ năng → Wasdo).",
+            "2. Kiểm tra ánh xạ đang bật (không bị tạm dừng).",
+            "3. Kiểm tra màn hình chính có hiện bàn phím đã kết nối.",
+            "4. Nếu trước đó chạy được rồi bỗng ngừng, hãy kiểm tra cài đặt pin / chạy nền (xem câu hỏi tiếp theo)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Làm sao để tạo ánh xạ phím?",
+          "a": [
+            "1. Thêm game từ danh sách, rồi chạm “Layout mới” trên trang của game đó.",
+            "2. Nếu game có layout dựng sẵn trong mục “Dành cho game này”, hãy chọn nó để có ngay layout đã được tinh chỉnh cho game đó. Nếu không, hãy bắt đầu từ mẫu theo thể loại (FPS, MOBA, Hành động thế giới mở hoặc Chung) hoặc một layout trống.",
+            "3. Kéo từng phím lên nút mà nó cần chạm. Muốn thêm phím, hãy chạm +, rồi bấm một phím trên bàn phím, nhấp một nút chuột hoặc lăn con lăn.",
+            "4. Lưu lại, rồi bấm Esc trong game để khóa chuột và bắt đầu chơi."
+          ]
+        },
+        {
+          "id": "q07",
+          "q": "Có dùng được với mọi game không?",
+          "a": [
+            "Ứng dụng dùng được với hầu hết game cảm ứng. Một số game phát hiện bàn phím và chuột gắn ngoài và có thể hạn chế tài khoản sử dụng chúng; Wasdo không cung cấp bất kỳ cách nào để lách việc đó. Một vài game cũng chặn thao tác chạm giả lập. Nếu game không phản hồi, hãy báo cho chúng tôi qua Phản hồi."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Bản cập nhật có xóa ánh xạ phím của tôi không?",
+          "a": [
+            "Không. Bản cập nhật vẫn giữ nguyên game, layout và phím của bạn. Chỉ khi gỡ cài đặt ứng dụng thì chúng mới bị xóa, nên nếu đổi điện thoại, hãy xuất bản sao lưu trước (Cài đặt → Sao lưu và khôi phục → Sao lưu mọi ánh xạ) rồi nhập vào máy mới. Tính năng sao lưu tự động của Android cũng sẽ khôi phục chúng khi bạn đăng nhập cùng tài khoản Google trên điện thoại mới."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Wasdo có giảm giật súng hay ngắm hộ tôi được không?",
+          "a": [
+            "Không, và sẽ không bao giờ có. Giảm giật, hỗ trợ ngắm và mọi tính năng tự thao tác game thay bạn đều bị hầu hết game coi là gian lận và có thể khiến tài khoản bị khóa. Wasdo chỉ biến chính những lần bấm phím và chuyển động chuột của bạn thành thao tác chạm và vuốt."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Làm sao để chia sẻ layout với bạn bè?",
+          "a": [
+            "Trên trang của game, mở menu chia sẻ và chọn Lấy mã chia sẻ. Bạn bè của bạn vào Cài đặt → Sao lưu và khôi phục → Nhập từ mã chia sẻ rồi gõ mã 8 ký tự. Mã có hiệu lực 90 ngày và chỉ chứa layout, không có bất kỳ thông tin nào về thiết bị của bạn. Chia sẻ miễn phí, nhập mã cũng miễn phí, trừ khi layout có dùng tính năng Pro: khi đó cần Pro hoặc một lượt dùng thử miễn phí."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keyboard-mouse",
+      "title": "Bàn phím và chuột",
+      "entries": [
+        {
+          "id": "q08",
+          "q": "Làm sao để kết nối bàn phím và chuột?",
+          "a": [
+            "Cắm qua USB (dùng bộ chuyển USB-C hoặc hub đều được) hoặc ghép nối qua Bluetooth trong cài đặt của điện thoại. Khi đã kết nối, màn hình chính sẽ hiện chúng. Bàn di chuột không dùng để xoay góc nhìn được (xem bên dưới), nên hãy dùng chuột thường để điều khiển góc nhìn."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Vì sao con trỏ chuột vẫn hiện trên màn hình?",
+          "a": [
+            "Bạn đang ở Chế độ con trỏ. Bấm Phím chuyển chế độ góc nhìn (mặc định là Esc) để khóa chuột: con trỏ biến mất và di chuyển chuột sẽ xoay góc nhìn, giống như khi bạn bấm vào cửa sổ game trên PC. Bấm lại lần nữa để thả con trỏ ra và dùng menu. Nếu con trỏ tự hiện lại, nghĩa là có thứ gì đó đã chiếm tiêu điểm (thanh thông báo hoặc hộp thoại hệ thống); hãy bấm phím chuyển thêm một lần để khóa chuột lại."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Làm sao để gõ chữ trong game?",
+          "a": [
+            "Bấm Enter để vào Chế độ gõ chữ: bàn phím sẽ đi thẳng vào game để bạn chat, còn chuột chuyển sang Chế độ con trỏ. Bấm Enter lần nữa để gửi và quay về ánh xạ, hoặc bấm Esc để quay về mà không gửi. Bạn cũng có thể bấm Phím chuyển chế độ gõ chữ (mặc định là Ctrl phải), hoặc chạm nút nổi rồi chọn Chế độ gõ chữ. Nếu một ánh xạ của bạn đã dùng Enter thì Enter vẫn hoạt động theo ánh xạ đó, lúc này hãy dùng Phím chuyển chế độ gõ chữ. Muốn tắt Enter hoặc đổi phím, hãy vào Cài đặt → Bàn phím và chuột."
+          ]
+        },
+        {
+          "id": "q11",
+          "q": "Những game nào có thể khóa tài khoản của tôi?",
+          "a": [
+            "Một số game phát hiện bàn phím và chuột gắn ngoài và có thể hạn chế hoặc khóa tài khoản sử dụng chúng. Wasdo không ẩn mình khỏi game và không cung cấp bất kỳ cách nào để lách việc này. Những game đã được người chơi báo cáo sẽ có nhãn đỏ “Có phát hiện thiết bị ngoại vi” trong danh sách game, ở trang chọn game và trên các layout có sẵn. Wasdo vẫn dùng được trong những game này, nhãn chỉ để nhắc bạn. Không có nhãn chỉ có nghĩa là chúng tôi chưa nhận được báo cáo nào, không có nghĩa game đó an toàn, nên hãy đọc kỹ quy định của game trước khi chơi xếp hạng."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Vì sao không dùng bàn di chuột để xoay góc nhìn được?",
+          "a": [
+            "Android coi bàn di chuột là một loại thiết bị khác với chuột, và phiên bản Wasdo này chưa hỗ trợ bàn di chuột để điều khiển góc nhìn. Hãy dùng chuột USB hoặc Bluetooth thông thường để xoay góc nhìn. Các phím trên bàn phím có bàn di chuột tích hợp vẫn dùng bình thường."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Làm sao để chuyển giữa chế độ góc nhìn và chế độ con trỏ?",
+          "a": [
+            "Bấm Esc khi đang chơi, giống như cách bạn thả chuột trong game trên PC. Ở Chế độ góc nhìn, chuột bị khóa và dùng để xoay góc nhìn, như trong game bắn súng trên PC. Ở Chế độ con trỏ, chuột di chuyển con trỏ để bạn bấm menu và nút. Nút nổi cho biết chế độ hiện tại: biểu tượng tâm ngắm là Chế độ góc nhìn, mũi tên là Chế độ con trỏ, còn bàn phím là Chế độ gõ chữ. Vì Esc dùng để chuyển chế độ nên phím này không được gửi vào game: để mở menu riêng của game, hãy chạm vào nút trên màn hình của game, hoặc chọn một Phím chuyển chế độ góc nhìn khác trong Cài đặt → Bàn phím và chuột, khi đó Esc sẽ lại được gửi vào game. Nếu layout hoàn toàn không dùng chuột, Esc sẽ được gửi thẳng vào game."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Wasdo có dùng được trên màn hình ngoài hoặc Samsung DeX không?",
+          "a": [
+            "Có, hãy dùng chế độ phản chiếu màn hình. Khi màn hình ngoài phản chiếu điện thoại hoặc máy tính bảng, Wasdo hoạt động y như trên thiết bị, kể cả chế độ góc nhìn. Trên Samsung, tắt DeX trong cài đặt nhanh để chuyển sang phản chiếu. Nếu âm thanh chuyển sang màn hình và bạn không nghe thấy gì, chạm vào “Đầu ra phương tiện” trong cài đặt nhanh rồi chọn thiết bị của bạn. Ở chế độ mở rộng (Samsung DeX, hoặc màn hình kết nối trên các điện thoại Pixel đời mới), phím vẫn hoạt động nếu cửa sổ game được phóng to, nhưng chế độ góc nhìn, nút nổi và gợi ý trên màn hình có thể không dùng được. Không hỗ trợ Chromebook."
+          ]
+        },
+        {
+          "id": "q21",
+          "q": "Làm sao để chỉnh độ nhạy chuột trong game?",
+          "a": [
+            "Trước tiên, hãy hiệu chỉnh chuột một lần (Cài đặt → Bàn phím và chuột → Độ nhạy chuột và tâm ngắm → Hiệu chỉnh chuột) để Wasdo biết chuột của bạn nhanh đến mức nào. Nếu trong game góc nhìn vẫn xoay quá nhanh hoặc quá chậm, hãy chạm nút nổi, chọn Độ nhạy chuột rồi chạm Chậm hơn hoặc Nhanh hơn. Cách này chỉ đổi game này, và trang cài đặt đó cũng hiện đúng giá trị này; tốc độ con trỏ cũng chỉnh được ở cả hai nơi. Muốn chỉnh mọi game cùng lúc, hãy dùng Hệ số tổng trong Nâng cao ở trang cài đặt đó; muốn đặt số chính xác, hãy mở Thông số trong bảng điều khiển hoặc gán Phím độ nhạy +5% và Phím độ nhạy −5%. Layout dựng sẵn được tinh chỉnh theo độ nhạy mặc định của từng game, nên nếu bạn đã đổi độ nhạy ngay trong game, hãy dùng Chậm hơn hoặc Nhanh hơn để bù lại."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Nút nổi làm được những gì?",
+          "a": [
+            "Nút nổi là trung tâm điều khiển của bạn trong game. Chạm vào nút để mở bảng điều khiển: đổi layout, chuyển giữa chế độ con trỏ, góc nhìn và gõ chữ, di chuyển phím ngay trên game bằng Sửa phím, tạm dừng ánh xạ, chỉnh độ nhạy hoặc bật Chế độ stream. Kéo nút đi bất cứ đâu; thả vào mép màn hình để thu gọn, hoặc thả vào dấu ✕ ở dưới cùng để ẩn cho đến khi bạn mở lại game. Muốn mở bảng điều khiển bằng bàn phím, hãy gán một phím trong Cài đặt → Bàn phím và chuột → Bảng điều khiển trong game."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Vì sao góc nhìn xoay quá nhanh hoặc quá chậm, hay cảm giác khác đi khi tôi đổi thiết bị?",
+          "a": [
+            "Mỗi con chuột có DPI riêng, mà Wasdo lại không đọc được, nên cùng một layout có thể nhanh hơn hoặc chậm hơn khi đổi sang chuột khác. Hãy hiệu chỉnh chuột một lần, rồi tinh chỉnh bằng Chậm hơn và Nhanh hơn. Nếu đã làm hết mà vẫn thấy chưa ổn, hãy gửi email cho chúng tôi: mẫu chuột và cài đặt của bạn sẽ được đính kèm tự động."
+          ]
+        },
+        {
+          "id": "q24",
+          "q": "Nếu tôi không biết DPI của chuột thì sao?",
+          "a": [
+            "Không sao. Trong Hiệu chỉnh chuột, chọn “Tôi không biết, đo giúp tôi”, căn mép trái của chuột thẳng với vạch thứ nhất trên màn hình rồi bấm, sau đó giữ chuột sát mặt bàn và đẩy cho đến khi chính mép trái đó chạm vạch thứ hai rồi bấm lần nữa. Làm như vậy ba lần. Nếu sau này bạn bấm nút DPI trên chuột, hãy đo lại."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Wasdo Pro gồm những gì?",
+          "a": [
+            "Pro mở khóa game và layout không giới hạn, layout dựng sẵn cho các game phổ biến, tổ hợp phím bổ trợ (Shift, Ctrl hoặc Alt cộng một phím), đường cong độ nhạy chuột với độ nhạy riêng cho trục X và Y, làm mượt và độ nhạy khi mở ống ngắm, phím con lăn chuột, macro một phím, chuyển cảnh, phím Toggle và phím chuỗi, cùng Smart Cast cho MOBA. Bạn có thể dùng thử trước: khi lưu hoặc nhập layout có dùng tính năng Pro, bạn có vài lượt dùng thử miễn phí trước khi cần đến Pro, và có thể thêm miễn phí một layout dựng sẵn cho game. Đây là giao dịch mua một lần qua Google Play: không gói đăng ký, không quảng cáo."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Tôi đã mua Pro trên điện thoại khác. Làm sao để khôi phục?",
+          "a": [
+            "Hãy đảm bảo Play Store trên điện thoại mới đăng nhập cùng tài khoản Google bạn đã dùng để mua Pro, rồi mở Wasdo và vào Cài đặt → Khôi phục giao dịch mua. Nếu bạn mua bằng tài khoản khác, hãy chuyển sang tài khoản đó trong Play Store trước. Ở những khu vực Google Play không bán Pro, bạn dùng được các tính năng Pro, và những gì đã lưu vẫn hoạt động bình thường kể cả khi sau này Pro được bán ở đó."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

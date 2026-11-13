@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · Independent Android apps",
-    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls; Relaypad, a Remote Play controller and console streaming app for PS5 and PS4; WhenDo, an AI automation and auto clicker app; JoyLink, which turns a phone into a Bluetooth gamepad, touchpad and TV remote; and Gamepad Tester Pro, which checks a controller for stick drift, input lag and dead buttons. DappleByte also makes Apk Extractor, an APK extractor, app backup tool and XAPK installer that moves apps to a new phone. Its newest app, SlopSwipe, swipes away AI-generated videos in YouTube Shorts, TikTok and Instagram Reels, with a reason for every skip and one-tap undo.",
+    "description": "DappleByte is an independent studio building Android apps: Gamepad Pro, a controller key mapper that turns a gamepad into touch controls; Relaypad, a Remote Play controller and console streaming app for PS5 and PS4; WhenDo, an AI automation and auto clicker app; JoyLink, which turns a phone into a Bluetooth gamepad, touchpad and TV remote; and Gamepad Tester Pro, which checks a controller for stick drift, input lag and dead buttons. DappleByte also makes Apk Extractor, an APK extractor, app backup tool and XAPK installer that moves apps to a new phone. Its newest app, SlopSwipe, swipes away AI-generated videos in YouTube Shorts, TikTok and Instagram Reels, with a reason for every skip and one-tap undo. Coming next is Wasdo, a keyboard and mouse mapper for playing Android touch games with WASD and mouse look.",
     "appsHeading": "Apps",
     "principlesHeading": "How we work",
     "principles": [
@@ -747,6 +747,43 @@
       }
     },
     "wasdo": {
+      "kicker": "Keyboard and mouse mapper · No root",
+      "heroPoints": [
+        "WASD to move, the mouse to turn the camera, keys for skills and weapons",
+        "Ready-made presets for popular games, plus FPS, MOBA and RPG templates",
+        "Only the Accessibility permission: no root, no ADB, no PC, nothing to reactivate"
+      ],
+      "faqDescription": "Answers about Wasdo: setup and the Accessibility permission, building a key mapping, keyboard and mouse, camera control and Wasdo Pro.",
+      "faqNotFoundBody": "Write to us with your phone model, your keyboard and mouse, the game and what happened. A person reads every message.",
+      "support": {
+        "beforeItems": [
+          "In Wasdo, open Settings → Connection helper. It checks that your keyboard and mouse are detected and walks you through fixing it if they aren't.",
+          "Open the FAQ. Most setup, permission and mapping questions are answered there, with the same wording as in the app.",
+          "Note which game, which keyboard and mouse, and what happens on screen when you press a key. That is what we need to reproduce it."
+        ],
+        "template": {
+          "phone": "Phone or tablet model:",
+          "android": "Android version:",
+          "devices": "Keyboard and mouse (model, USB or Bluetooth):",
+          "game": "Game or app:",
+          "what": "What happened, step by step:",
+          "pro": "Pro purchase: yes / no"
+        },
+        "refundBody": "Wasdo is free to install. If you bought Wasdo Pro and it doesn't work with your setup, email us within 7 days of the purchase and we'll refund it. Tell us what you tried; it helps us fix it for the next person."
+      },
+      "press": {
+        "description": "Facts, assets and a boilerplate for writing about Wasdo, the keyboard and mouse mapper for Android.",
+        "boilerplate": "Wasdo lets people play Android touch games with a USB or Bluetooth keyboard and mouse: WASD to move, mouse look to turn the camera, and keys placed over the game's buttons, with ready-made presets for popular games and templates for FPS, MOBA and RPG. It needs only the Accessibility permission, with no root, no ADB and no PC. It is made by DappleByte, an independent studio.",
+        "priceValue": "Free to install, no ads. Wasdo Pro unlocks advanced mouse and macro controls with an in-app purchase. The current price is shown on Google Play.",
+        "assetScreenshots": "Screenshots, 1920 × 1080 PNG, English"
+      },
+      "videosDescription": "Short videos showing Wasdo on a real phone and tablet: connecting a keyboard and mouse, building a key mapping, mouse look and the most common problems.",
+      "privacyDescription": "What Wasdo for Android does with your data: no account, what the Accessibility service is used for, what the analytics and crash reporting SDKs collect, and how to turn optional collection off.",
+      "compare": {
+        "description": "How Wasdo compares with other keyboard and mouse mappers on Android, feature by feature, facts only.",
+        "vsDescription": "{name} and {other} compared on Android, feature by feature: root, ADB and activation, mouse look, presets, macros and pricing.",
+        "vsIntro": "Both let you play Android touch games with a keyboard and mouse. Here is where they differ, feature by feature."
+      },
       "labels": {
         "presets": "Presets"
       },

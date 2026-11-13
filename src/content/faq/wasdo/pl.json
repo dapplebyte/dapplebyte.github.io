@@ -1,0 +1,206 @@
+{
+  "slug": "wasdo",
+  "locale": "pl",
+  "title": "FAQ i pomoc",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Konfiguracja",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Co robi Wasdo?",
+          "a": [
+            "Wasdo zamienia klawiaturę i mysz USB lub Bluetooth na dotknięcia i przesunięcia na ekranie, dzięki czemu grasz w gry dotykowe jak na PC: klawiszami poruszasz się i wykonujesz akcje, myszą się rozglądasz."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Dlaczego potrzebne jest uprawnienie ułatwień dostępu? Czy to bezpieczne?",
+          "a": [
+            "Usługa ułatwień dostępu pozwala Wasdo odczytywać klawiaturę i mysz w czasie działania mapowania i wykonywać dotknięcia w grze na pierwszym planie, także poza aplikacją. Mapowania działają dopiero po jej włączeniu. Wasdo używa jej tylko do wykonywania ustawionych przez Ciebie akcji — nie odczytuje, nie zapisuje ani nie wysyła zawartości ekranu, wpisywanego tekstu ani haseł."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Przestaje działać po chwili w tle. Jak to naprawić?",
+          "a": [
+            "Android może zamykać aplikacje w tle, aby oszczędzać energię. Zezwól Wasdo na działanie w tle, wyłączając optymalizację baterii. Niektóre marki (np. MIUI lub Samsung) dodają własne reguły oszczędzania energii — przewodnik na dontkillmyapp.com pokazuje, jak je wyłączyć na Twoim urządzeniu."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Czy Wasdo wymaga dostępu root?",
+          "a": [
+            "Nie. Wasdo działa przez usługę ułatwień dostępu i nie wymaga roota ani żadnej innej aplikacji pomocniczej."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Czy Wasdo obsługuje kontrolery?",
+          "a": [
+            "Nie. Wasdo jest przeznaczone wyłącznie do klawiatury i myszy. Do kontrolerów użyj naszej siostrzanej aplikacji Gamepad Pro, stworzonej właśnie do tego i działającej razem z Wasdo: gdy obie są zainstalowane, a Gamepad Pro działa, sygnał z kontrolera automatycznie trafia do Gamepad Pro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mapowanie",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Moje mapowanie nie działa. Co sprawdzić?",
+          "a": [
+            "1. Upewnij się, że usługa ułatwień dostępu jest włączona (Ustawienia → Ułatwienia dostępu → Wasdo).",
+            "2. Upewnij się, że mapowanie jest włączone (nie wstrzymane).",
+            "3. Sprawdź, czy na ekranie głównym klawiatura jest widoczna jako podłączona.",
+            "4. Jeśli wcześniej działało, a przestało, sprawdź ustawienia baterii/tła (zobacz następne pytanie)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Jak utworzyć mapowanie?",
+          "a": [
+            "1. Dodaj grę z listy, a potem na jej stronie dotknij „Nowy układ”.",
+            "2. Jeśli w sekcji „Dla tej gry” jest gotowy układ, wybierz go: jest już dopasowany do tej gry. Jeśli nie, zacznij od szablonu gatunku (FPS, MOBA, „Akcja z otwartym światem” lub „Ogólny”) albo od pustego układu.",
+            "3. Przeciągnij każdy klawisz na przycisk, który ma dotykać. Aby dodać klawisz, dotknij +, a potem naciśnij klawisz na klawiaturze, kliknij przyciskiem myszy lub przewiń kółkiem.",
+            "4. Zapisz, a potem naciśnij Esc w grze, aby zablokować mysz i grać."
+          ]
+        },
+        {
+          "id": "q07",
+          "q": "Czy działa z każdą grą?",
+          "a": [
+            "Działa z większością gier dotykowych. Niektóre gry wykrywają zewnętrzne klawiatury i myszy i mogą ograniczać konta, które z nich korzystają; Wasdo nie daje żadnego sposobu, aby to obejść. Kilka gier blokuje też symulowane dotknięcia. Jeśli gra nie reaguje, daj nam znać przez „Prześlij opinię”."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Czy aktualizacja usunie moje mapowania?",
+          "a": [
+            "Nie. Aktualizacje zachowują gry, układy i klawisze. Usuwa je tylko odinstalowanie aplikacji, więc przy zmianie telefonu najpierw wyeksportuj kopię zapasową (Ustawienia → Kopia zapasowa i przywracanie → Kopia zapasowa wszystkich mapowań) i zaimportuj ją na nowym urządzeniu. Automatyczna kopia zapasowa Androida też je przywróci, gdy zalogujesz się na nowym telefonie na to samo konto Google."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Czy Wasdo może kompensować odrzut albo celować za mnie?",
+          "a": [
+            "Nie i nigdy nie będzie. Kompensację odrzutu, wspomaganie celowania i wszystko, co wykonuje akcje w grze za Ciebie, większość gier traktuje jako oszukiwanie, co może skończyć się blokadą konta. Wasdo zamienia na dotknięcia i przesunięcia wyłącznie Twoje własne naciśnięcia klawiszy i ruchy myszy."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Jak udostępnić układ znajomemu?",
+          "a": [
+            "Na stronie gry otwórz menu udostępniania i wybierz „Uzyskaj kod udostępniania”. Znajomy przechodzi do Ustawienia → Kopia zapasowa i przywracanie → Importuj z kodu udostępniania i wpisuje 8-znakowy kod. Kody działają przez 90 dni i zawierają tylko układ, żadnych informacji o Twoim urządzeniu. Udostępnianie jest bezpłatne, importowanie też, chyba że układ korzysta z funkcji Pro: wtedy potrzebne jest Pro albo jedna z bezpłatnych prób."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keyboard-mouse",
+      "title": "Klawiatura i mysz",
+      "entries": [
+        {
+          "id": "q08",
+          "q": "Jak podłączyć klawiaturę i mysz?",
+          "a": [
+            "Podłącz je przez USB (zadziała też przejściówka USB-C lub hub) albo sparuj przez Bluetooth w ustawieniach telefonu. Po połączeniu pojawią się na ekranie głównym. Touchpada nie można używać do rozglądania się (zobacz niżej), więc do sterowania kamerą użyj zwykłej myszy."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Dlaczego kursor myszy nadal jest na ekranie?",
+          "a": [
+            "Jesteś w trybie kursora. Naciśnij klawisz trybu kamery (domyślnie Esc), aby zablokować mysz: kursor znika, a ruch myszą obraca widok, tak jak po kliknięciu w okno gry na PC. Naciśnij go ponownie, aby uwolnić kursor do obsługi menu. Jeśli kursor wraca sam, coś innego przejęło fokus (panel powiadomień lub okno systemowe); naciśnij klawisz jeszcze raz, aby znów zablokować mysz."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Jak pisać w grze?",
+          "a": [
+            "Naciśnij Enter, aby włączyć tryb pisania: klawiatura trafia wtedy prosto do gry, więc możesz pisać na czacie, a mysz przełącza się na tryb kursora. Naciśnij Enter ponownie, aby wysłać wiadomość i wrócić do mapowań, albo Esc, aby wrócić bez wysyłania. Możesz też nacisnąć „Klawisz trybu pisania” (domyślnie prawy Ctrl) albo dotknąć pływającego przełącznika i wybrać „Tryb pisania”. Jeśli któreś z Twoich mapowań używa już klawisza Enter, Enter działa zgodnie z tym mapowaniem, więc użyj wtedy klawisza trybu pisania. Aby wyłączyć Enter lub zmienić klawisz, otwórz Ustawienia → Klawiatura i mysz."
+          ]
+        },
+        {
+          "id": "q11",
+          "q": "Które gry mogą zablokować moje konto?",
+          "a": [
+            "Niektóre gry wykrywają zewnętrzną klawiaturę i mysz i mogą ograniczać lub blokować konta, które z nich korzystają. Wasdo nie ukrywa się przed grami i nie daje żadnego sposobu, aby to obejść. Gry zgłoszone przez graczy mają czerwoną etykietę „Wykrywa urządzenia zewnętrzne” na liście gier, przy wyborze gry i przy gotowych układach. Wasdo nadal działa w tych grach, a etykieta to tylko przypomnienie. Brak etykiety oznacza tylko, że nie mamy zgłoszeń, a nie że gra jest bezpieczna, więc przed meczami rankingowymi sprawdź regulamin gry."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Dlaczego nie mogę rozglądać się touchpadem?",
+          "a": [
+            "Android traktuje touchpad jako inny typ urządzenia niż mysz, a ta wersja Wasdo nie obsługuje go do sterowania kamerą. Do rozglądania się użyj zwykłej myszy USB lub Bluetooth. Klawisze klawiatury z wbudowanym touchpadem nadal działają."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Jak przełączać się między trybem kamery a trybem kursora?",
+          "a": [
+            "Podczas gry naciśnij Esc, tak jak zwalnia się mysz w grze na PC. W trybie kamery mysz jest zablokowana i obraca widok, jak w strzelankach na PC. W trybie kursora porusza wskaźnikiem, więc możesz klikać menu i przyciski. Pływający przełącznik pokazuje tryb: celownik oznacza tryb kamery, strzałka tryb kursora, a klawiatura tryb pisania. Ponieważ Esc przełącza tryby, nie trafia do gry: aby otworzyć menu gry, dotknij jej przycisku na ekranie albo wybierz inny klawisz trybu kamery w Ustawienia → Klawiatura i mysz, a Esc znów będzie trafiać do gry. Jeśli układ w ogóle nie używa myszy, Esc trafia prosto do gry."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Czy Wasdo działa na zewnętrznym wyświetlaczu lub z Samsung DeX?",
+          "a": [
+            "Tak, w trybie dublowania ekranu. Gdy zewnętrzny wyświetlacz dubluje ekran telefonu lub tabletu, Wasdo działa dokładnie tak jak na urządzeniu, łącznie z trybem kamery. Na Samsungu wyłącz DeX w szybkich ustawieniach, aby przełączyć się na dublowanie. Jeśli dźwięk trafia do wyświetlacza i nic nie słychać, dotknij „Wyjście multimediów” w szybkich ustawieniach i wybierz swoje urządzenie. W trybie rozszerzonym (Samsung DeX lub podłączony wyświetlacz w nowszych telefonach Pixel) klawisze działają, jeśli okno gry jest zmaksymalizowane, ale tryb kamery, pływający przełącznik i podpowiedzi na ekranie mogą być niedostępne. Chromebooki nie są obsługiwane."
+          ]
+        },
+        {
+          "id": "q21",
+          "q": "Jak zmienić czułość myszy w grze?",
+          "a": [
+            "Zacznij od jednorazowej kalibracji myszy (Ustawienia → Klawiatura i mysz → Czułość myszy i krzyżyk → Kalibracja myszy), żeby Wasdo wiedziało, jak szybka jest Twoja mysz. Jeśli kamera w grze nadal obraca się za szybko lub za wolno, dotknij pływającego przełącznika, wybierz Czułość myszy i dotknij Wolniej lub Szybciej. To zmienia tylko tę grę, a ta sama wartość widnieje na tej stronie ustawień; szybkość kursora też jest w obu miejscach. Aby zmienić wszystkie gry naraz, użyj opcji Mnożnik ogólny w sekcji Zaawansowane na tej samej stronie ustawień; dokładne wartości ustawisz w zakładce Wartości w panelu albo przypisując klawisze czułości +5% i −5%. Gotowe układy są dopasowane do domyślnej czułości każdej gry, więc jeśli czułość w samej grze jest zmieniona, wyrównaj to przyciskami Wolniej lub Szybciej."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Co potrafi pływający przełącznik?",
+          "a": [
+            "Przełącznik to Twoje centrum sterowania w grze. Dotknij go, aby otworzyć panel: przełączaj układy, przechodź między trybem kursora, kamery i pisania, przesuwaj klawisze nad grą za pomocą opcji „Edytuj klawisze”, wstrzymuj mapowanie, dostosowuj czułość lub włączaj tryb streamowania. Przeciągnij go w dowolne miejsce; upuść go przy krawędzi ekranu, aby go schować, albo na ✕ na dole, aby ukryć go do ponownego otwarcia gry. Aby otwierać panel z klawiatury, przypisz klawisz w sekcji Ustawienia → Klawiatura i mysz → Panel w grze."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Dlaczego kamera obraca się za szybko lub za wolno albo działa inaczej po zmianie urządzenia?",
+          "a": [
+            "Każda mysz ma własne DPI, a Wasdo nie potrafi go odczytać, więc ten sam układ może z inną myszą działać szybciej lub wolniej. Przeprowadź raz kalibrację myszy, a potem dopracuj ustawienie przyciskami Wolniej i Szybciej. Jeśli nadal coś jest nie tak, napisz do nas e-mail: model myszy i ustawienia zostaną dołączone automatycznie."
+          ]
+        },
+        {
+          "id": "q24",
+          "q": "Co zrobić, jeśli nie znam DPI swojej myszy?",
+          "a": [
+            "Nic nie szkodzi. W kalibracji myszy wybierz „Nie wiem, zmierz za mnie”, wyrównaj lewą krawędź myszy z pierwszą linią na ekranie i kliknij. Potem, nie odrywając myszy od biurka, przesuń ją, aż ta sama krawędź dojdzie do drugiej linii, i kliknij jeszcze raz. Zrób to trzy razy. Jeśli później naciśniesz przycisk DPI na myszy, zmierz ponownie."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Co zawiera Wasdo Pro?",
+          "a": [
+            "Pro odblokowuje nieograniczone gry i układy, gotowe układy do popularnych gier, kombinacje z modyfikatorami (Shift, Ctrl lub Alt plus klawisz), krzywe czułości myszy z osobną czułością X i Y, wygładzanie i czułość przy przybliżeniu celownika, klawisze kółka myszy, makra jednym klawiszem, przełączanie scen, klawisze przełączające i sekwencje oraz Smart Cast w grach MOBA. Możesz je najpierw wypróbować: gdy zapisujesz lub importujesz układ korzystający z funkcji Pro, dostajesz kilka bezpłatnych prób, zanim Pro będzie potrzebne, a jeden gotowy układ do gry możesz dodać za darmo. To jednorazowy zakup przez Google Play: bez subskrypcji i bez reklam."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Mam Pro kupione na innym telefonie. Jak je przywrócić?",
+          "a": [
+            "Upewnij się, że Sklep Google Play na nowym telefonie jest zalogowany na to samo konto Google, na którym kupiono Pro, a potem otwórz Wasdo i przejdź do Ustawienia → Przywróć zakup. Jeśli Pro kupiono na innym koncie, najpierw przełącz się na nie w Sklepie Google Play. W regionach, w których Google Play nie sprzedaje Pro, funkcje Pro są dla Ciebie dostępne, a wszystko, co już zapisano, będzie działać dalej, nawet jeśli Pro trafi tam później do sprzedaży."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

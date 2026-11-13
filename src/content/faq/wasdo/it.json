@@ -1,0 +1,206 @@
+{
+  "slug": "wasdo",
+  "locale": "it",
+  "title": "FAQ e aiuto",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Configurazione",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Cosa fa Wasdo?",
+          "a": [
+            "Wasdo trasforma una tastiera e un mouse USB o Bluetooth in tocchi e scorrimenti sullo schermo, così puoi giocare ai giochi touch come su PC: tasti per muoverti e agire, mouse per guardarti intorno."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Perché serve l'autorizzazione di accessibilità? È sicura?",
+          "a": [
+            "Il servizio di accessibilità permette a Wasdo di leggere tastiera e mouse mentre una mappatura è in esecuzione e di eseguire tocchi nel gioco che hai davanti, anche fuori dall'app. Le mappature funzionano solo dopo averlo attivato. Wasdo lo usa solo per eseguire le azioni che hai configurato — non legge, non memorizza e non invia ciò che vedi sullo schermo, ciò che digiti o le tue password."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Dopo un po' in background smette di funzionare. Come risolvo?",
+          "a": [
+            "Android può chiudere le app in background per risparmiare energia. Consenti a Wasdo di funzionare in background disattivando l'ottimizzazione della batteria. Alcune marche (come MIUI o Samsung) aggiungono regole extra di risparmio energetico — la guida su dontkillmyapp.com spiega come disattivarle sul tuo dispositivo."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Wasdo richiede l'accesso root?",
+          "a": [
+            "No. Wasdo funziona tramite il servizio di accessibilità e non richiede il root né altre app di supporto."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Wasdo supporta i controller?",
+          "a": [
+            "No. Wasdo è pensato solo per tastiera e mouse. Per i controller usa la nostra app gemella Gamepad Pro, creata apposta e compatibile con Wasdo: quando sono installate entrambe e Gamepad Pro è in esecuzione, l'input del controller passa automaticamente a Gamepad Pro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mappatura",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "La mia mappatura non funziona. Cosa devo controllare?",
+          "a": [
+            "1. Assicurati che il servizio di accessibilità sia attivo (Impostazioni → Accessibilità → Wasdo).",
+            "2. Assicurati che la mappatura sia attiva (non in pausa).",
+            "3. Verifica che la tastiera risulti connessa nella schermata Home.",
+            "4. Se prima funzionava e poi ha smesso, controlla le impostazioni di batteria / background (vedi la domanda successiva)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Come creo una mappatura?",
+          "a": [
+            "1. Aggiungi il tuo gioco dall'elenco, poi nella sua pagina tocca «Nuovo schema».",
+            "2. Se il gioco ha uno schema predefinito in «Per questo gioco», sceglilo per avere uno schema già calibrato su quel gioco. Altrimenti parti da un modello per genere (FPS, MOBA, Azione open world o Generale) o da uno schema vuoto.",
+            "3. Trascina ogni tasto sul pulsante che deve toccare. Per aggiungere un tasto, tocca +, poi premi un tasto della tastiera, clicca un pulsante del mouse o usa la rotellina.",
+            "4. Salva, poi nel gioco premi Esc per bloccare il mouse e gioca."
+          ]
+        },
+        {
+          "id": "q07",
+          "q": "Funziona con tutti i giochi?",
+          "a": [
+            "Funziona con la maggior parte dei giochi touch. Alcuni giochi rilevano tastiere e mouse esterni e possono limitare gli account che li usano; Wasdo non offre alcun modo per aggirare questo controllo. Alcuni giochi bloccano anche i tocchi simulati. Se un gioco non risponde, faccelo sapere tramite Feedback."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Un aggiornamento cancellerà le mie mappature?",
+          "a": [
+            "No. Gli aggiornamenti conservano giochi, schemi e tasti. Vengono eliminati solo disinstallando l'app, quindi se cambi telefono esporta prima un backup (Impostazioni → Backup e ripristino → Backup di tutte le mappature) e importalo sul nuovo dispositivo. Anche il backup automatico di Android li ripristina quando accedi con lo stesso account Google su un nuovo telefono."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Wasdo può ridurre il rinculo o mirare al posto mio?",
+          "a": [
+            "No, e non lo farà mai. Il controllo del rinculo, la mira assistita e qualsiasi cosa agisca nel gioco al posto tuo sono considerati cheat dalla maggior parte dei giochi e possono far bannare l'account. Wasdo si limita a trasformare i tasti che premi e i movimenti del tuo mouse in tocchi e scorrimenti."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Come condivido uno schema con un amico?",
+          "a": [
+            "Nella pagina del gioco, apri il menu di condivisione e scegli Ottieni un codice di condivisione. Il tuo amico va in Impostazioni → Backup e ripristino → Importa da un codice di condivisione e digita il codice di 8 caratteri. I codici valgono 90 giorni e contengono solo lo schema, niente sul tuo dispositivo. La condivisione è gratuita, e anche l'importazione, a meno che lo schema non usi funzioni Pro: in quel caso serve Pro o una delle tue prove gratuite."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keyboard-mouse",
+      "title": "Tastiera e mouse",
+      "entries": [
+        {
+          "id": "q08",
+          "q": "Come collego tastiera e mouse?",
+          "a": [
+            "Collegali via USB (va bene un adattatore o un hub USB-C) oppure associali via Bluetooth nelle impostazioni del telefono. Una volta connessi, compaiono nella schermata Home. Il touchpad non può essere usato per guardarsi intorno (vedi sotto), quindi per la camera usa un mouse normale."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Perché il cursore del mouse resta sullo schermo?",
+          "a": [
+            "Sei in modalità cursore. Premi il tasto modalità camera (Esc per impostazione predefinita) per bloccare il mouse: il cursore scompare e muovendo il mouse ruoti la visuale, proprio come quando clicchi dentro un gioco su PC. Premilo di nuovo per liberare il cursore e usare i menu. Se il cursore ricompare da solo, qualcosa ha preso il focus (la tendina delle notifiche o una finestra di sistema); premi il tasto ancora una volta per bloccare di nuovo il mouse."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Come scrivo in un gioco?",
+          "a": [
+            "Premi Enter per entrare in modalità digitazione: la tastiera passa direttamente al gioco così puoi scrivere in chat, e il mouse passa alla modalità cursore. Premi di nuovo Enter per inviare e tornare alle tue mappature, oppure Esc per tornare senza inviare. Puoi anche premere il tasto modalità digitazione (Ctrl destro per impostazione predefinita) o toccare il pulsante mobile e scegliere Modalità digitazione. Se una delle tue mappature usa già Enter, Enter continua a fare ciò che gli hai assegnato: in quel caso usa il tasto modalità digitazione. Per disattivare Enter o cambiare tasto, vai su Impostazioni → Tastiera e mouse."
+          ]
+        },
+        {
+          "id": "q11",
+          "q": "Quali giochi possono bannarmi?",
+          "a": [
+            "Alcuni giochi rilevano tastiera e mouse esterni e possono limitare o bannare gli account che li usano. Wasdo non si nasconde ai giochi e non offre alcun modo per aggirare questo controllo. I giochi segnalati dai giocatori mostrano l'etichetta rossa «Rileva le periferiche» nel tuo elenco di giochi, nella scelta del gioco e sugli schemi predefiniti. Wasdo funziona comunque in questi giochi: l'etichetta è solo un promemoria. L'assenza di etichetta significa solo che non abbiamo segnalazioni, non che il gioco sia sicuro, quindi controlla le regole del gioco prima di giocare partite classificate."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Perché non posso usare il touchpad per guardarmi intorno?",
+          "a": [
+            "Android considera il touchpad un tipo di dispositivo diverso dal mouse e questa versione di Wasdo non lo supporta per controllare la camera. Per guardarti intorno usa un normale mouse USB o Bluetooth. I tasti di una tastiera con touchpad integrato continuano a funzionare."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Come passo dalla modalità camera alla modalità cursore?",
+          "a": [
+            "Mentre giochi, premi Esc, come quando liberi il mouse in un gioco su PC. In modalità camera il mouse è bloccato e ruota la visuale, come in uno sparatutto su PC. In modalità cursore muove un puntatore, così puoi cliccare su menu e pulsanti. Il pulsante mobile indica la modalità: un mirino indica la modalità camera, una freccia la modalità cursore e una tastiera la modalità digitazione. Dato che Esc cambia modalità, non viene inviato al gioco: per aprire il menu del gioco stesso, tocca il suo pulsante sullo schermo, oppure scegli un altro tasto modalità camera in Impostazioni → Tastiera e mouse ed Esc tornerà ad arrivare al gioco. Se uno schema non usa affatto il mouse, Esc arriva direttamente al gioco."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Wasdo funziona su un display esterno o con Samsung DeX?",
+          "a": [
+            "Sì, con il mirroring dello schermo. Quando il display esterno replica il telefono o il tablet, Wasdo funziona esattamente come sul dispositivo, modalità camera inclusa. Sui Samsung, disattiva DeX nelle impostazioni rapide per passare al mirroring. Se l'audio va al display e non senti nulla, tocca «Uscita multimediale» nelle impostazioni rapide e scegli il tuo dispositivo. In modalità estesa (Samsung DeX o un display collegato ai Pixel più recenti) i tasti funzionano se la finestra del gioco è ingrandita, ma modalità camera, pulsante mobile e suggerimenti a schermo potrebbero non essere disponibili. I Chromebook non sono supportati."
+          ]
+        },
+        {
+          "id": "q21",
+          "q": "Come cambio la sensibilità del mouse in un gioco?",
+          "a": [
+            "Inizia con una calibrazione del mouse, basta farla una volta (Impostazioni → Tastiera e mouse → Sensibilità del mouse e mirino → Calibrazione del mouse), così Wasdo sa quanto è veloce il tuo mouse. Se nel gioco la camera gira ancora troppo veloce o troppo lenta, tocca il pulsante mobile, scegli Sensibilità del mouse e tocca Più lento o Più veloce. Così cambi solo questo gioco, e lo stesso valore compare in quella pagina delle impostazioni; anche la velocità del cursore si trova in entrambi i posti. Per cambiare tutti i giochi insieme, usa Moltiplicatore generale in Avanzate, nella stessa pagina delle impostazioni; per valori precisi, apri Valori nel pannello oppure assegna il tasto sensibilità +5% e quello −5%. Gli schemi predefiniti sono tarati sulla sensibilità predefinita di ogni gioco, quindi se hai cambiato la sensibilità nel gioco stesso, usa Più lento o Più veloce per compensare."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Cosa può fare il pulsante mobile?",
+          "a": [
+            "Il pulsante mobile è il tuo centro di controllo durante il gioco. Toccalo per aprire il pannello: cambia schema, passa tra le modalità cursore, camera e digitazione, sposta i tasti sopra il gioco con Modifica tasti, metti in pausa la mappatura, regola la sensibilità o attiva la modalità streaming. Trascinalo dove vuoi; rilascialo su un bordo dello schermo per ritirarlo a lato, oppure sulla ✕ in basso per nasconderlo finché non riapri il gioco. Per aprire il pannello dalla tastiera, assegna un tasto in Impostazioni → Tastiera e mouse → Pannello in gioco."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Perché la camera gira troppo veloce o troppo lenta, o cambia sensazione quando passo a un altro dispositivo?",
+          "a": [
+            "Ogni mouse ha i suoi DPI e Wasdo non può leggerli, quindi lo stesso schema può sembrare più veloce o più lento da un mouse all'altro. Fai la calibrazione del mouse una volta, poi regola con Più lento e Più veloce. Se dopo tutto questo non va ancora bene, scrivici un'email: il modello del mouse e le tue impostazioni vengono allegati automaticamente."
+          ]
+        },
+        {
+          "id": "q24",
+          "q": "E se non conosco i DPI del mio mouse?",
+          "a": [
+            "Nessun problema. In Calibrazione del mouse scegli «Non lo so, misuralo tu», allinea il bordo sinistro del mouse con la prima linea sullo schermo e fai clic, poi tienilo sulla scrivania e spingilo finché lo stesso bordo non arriva alla seconda linea e fai di nuovo clic. Ripeti tre volte. Se in seguito premi il pulsante DPI del mouse, misura di nuovo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Cosa include Wasdo Pro?",
+          "a": [
+            "Pro sblocca giochi e schemi illimitati, schemi pronti per i giochi più popolari, combinazioni con modificatori (Shift, Ctrl o Alt più un tasto), curve di sensibilità del mouse con sensibilità X e Y separate, smussatura e zoom del mirino, tasti della rotellina, macro a un tasto, cambio scena, tasti Toggle e sequenza, oltre a Smart Cast per MOBA. Puoi provarle prima: quando salvi o importi uno schema che usa una funzione Pro, hai qualche prova gratuita prima di aver bisogno di Pro, e puoi aggiungere gratis lo schema predefinito di un gioco. È un acquisto unico tramite Google Play: nessun abbonamento e nessuna pubblicità."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Ho acquistato Pro su un altro telefono. Come lo ripristino?",
+          "a": [
+            "Assicurati di aver effettuato l'accesso al Play Store del nuovo telefono con lo stesso account Google usato per acquistare Pro, poi apri Wasdo e vai su Impostazioni → Ripristina acquisto. Se l'hai acquistato con un altro account, passa prima a quell'account nel Play Store. Nelle regioni in cui Google Play non vende Pro, le funzioni Pro sono a tua disposizione, e tutto quello che hai già salvato continua a funzionare anche se in seguito Pro viene messo in vendita lì."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

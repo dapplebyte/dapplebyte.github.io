@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · Aplikasi Android independen",
-    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: Gamepad Pro, aplikasi pemetaan tombol yang mengubah gamepad jadi kontrol sentuh; Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4; WhenDo, aplikasi otomatisasi AI dan klik otomatis; JoyLink, yang mengubah ponsel jadi gamepad Bluetooth, touchpad, dan remote TV; serta Gamepad Tester Pro, yang memeriksa kontroler dari drift stik, input lag, dan tombol mati. DappleByte juga membuat Apk Extractor, pengekstrak APK, alat pencadangan aplikasi, dan pemasang XAPK yang memindahkan aplikasi ke ponsel baru. Aplikasi terbarunya, SlopSwipe, menggeser video buatan AI di YouTube Shorts, TikTok, dan Instagram Reels, menampilkan alasan setiap lewatan, dan bisa diurungkan dengan sekali ketuk.",
+    "description": "DappleByte adalah studio independen yang membuat aplikasi Android: Gamepad Pro, aplikasi pemetaan tombol yang mengubah gamepad jadi kontrol sentuh; Relaypad, aplikasi kontroler Remote Play dan streaming konsol untuk PS5 dan PS4; WhenDo, aplikasi otomatisasi AI dan klik otomatis; JoyLink, yang mengubah ponsel jadi gamepad Bluetooth, touchpad, dan remote TV; serta Gamepad Tester Pro, yang memeriksa kontroler dari drift stik, input lag, dan tombol mati. DappleByte juga membuat Apk Extractor, pengekstrak APK, alat pencadangan aplikasi, dan pemasang XAPK yang memindahkan aplikasi ke ponsel baru. Aplikasi terbarunya, SlopSwipe, menggeser video buatan AI di YouTube Shorts, TikTok, dan Instagram Reels, menampilkan alasan setiap lewatan, dan bisa diurungkan dengan sekali ketuk. Berikutnya akan hadir Wasdo, aplikasi pemetaan keyboard dan mouse untuk memainkan game sentuh Android dengan WASD dan kamera mouse.",
     "appsHeading": "Aplikasi",
     "principlesHeading": "Cara kami bekerja",
     "principles": [
@@ -747,6 +747,43 @@
       }
     },
     "wasdo": {
+      "kicker": "Pemetaan keyboard dan mouse · Tanpa root",
+      "heroPoints": [
+        "WASD untuk bergerak, mouse untuk memutar kamera, tombol untuk skill dan senjata",
+        "Preset siap pakai untuk game populer, plus template FPS, MOBA, dan RPG",
+        "Cukup izin Aksesibilitas: tanpa root, tanpa ADB, tanpa PC, tanpa perlu aktivasi ulang"
+      ],
+      "faqDescription": "Jawaban seputar Wasdo: setup dan izin Aksesibilitas, membuat pemetaan tombol, keyboard dan mouse, kontrol kamera, dan Wasdo Pro.",
+      "faqNotFoundBody": "Tulis ke kami dengan menyebutkan model ponsel, keyboard dan mouse, game, dan apa yang terjadi. Setiap pesan dibaca oleh manusia.",
+      "support": {
+        "beforeItems": [
+          "Di Wasdo, buka Setelan → Asisten koneksi. Fitur ini memeriksa apakah keyboard dan mouse terdeteksi, dan jika tidak, memandu Anda memperbaikinya langkah demi langkah.",
+          "Buka FAQ. Sebagian besar pertanyaan soal setup, izin, dan pemetaan sudah terjawab di sana, dengan kata-kata yang sama seperti di aplikasi.",
+          "Catat game apa, keyboard dan mouse apa, dan apa yang terjadi di layar saat Anda menekan tombol. Itulah yang kami butuhkan untuk mereproduksi masalahnya."
+        ],
+        "template": {
+          "phone": "Model ponsel atau tablet:",
+          "android": "Versi Android:",
+          "devices": "Keyboard dan mouse (model, USB atau Bluetooth):",
+          "game": "Game atau aplikasi:",
+          "what": "Apa yang terjadi, langkah demi langkah:",
+          "pro": "Sudah beli Pro: ya / tidak"
+        },
+        "refundBody": "Wasdo gratis dipasang. Jika Anda membeli Wasdo Pro dan ternyata tidak berfungsi dengan perangkat Anda, kirim email ke kami dalam 7 hari sejak pembelian dan kami akan mengembalikan dananya. Ceritakan apa saja yang sudah Anda coba; itu membantu kami memperbaikinya untuk pengguna berikutnya."
+      },
+      "press": {
+        "description": "Fakta, aset, dan teks deskripsi standar untuk menulis tentang Wasdo, aplikasi pemetaan keyboard dan mouse untuk Android.",
+        "boilerplate": "Wasdo memungkinkan orang memainkan game sentuh Android dengan keyboard dan mouse USB atau Bluetooth: WASD untuk bergerak, mouse untuk memutar kamera, dan tombol yang ditempatkan di atas tombol game, dengan preset siap pakai untuk game populer serta template FPS, MOBA, dan RPG. Aplikasi ini hanya butuh izin Aksesibilitas, tanpa root, tanpa ADB, dan tanpa PC. Aplikasi ini dibuat oleh DappleByte, sebuah studio independen.",
+        "priceValue": "Gratis dipasang, tanpa iklan. Wasdo Pro membuka kontrol mouse lanjutan dan makro lewat pembelian dalam aplikasi. Harga terkini ditampilkan di Google Play.",
+        "assetScreenshots": "Tangkapan layar, 1920 × 1080 PNG, bahasa Inggris"
+      },
+      "videosDescription": "Video singkat yang menunjukkan Wasdo di ponsel dan tablet sungguhan: menyambungkan keyboard dan mouse, membuat pemetaan tombol, kamera mouse, dan masalah yang paling sering muncul.",
+      "privacyDescription": "Apa yang dilakukan Wasdo untuk Android dengan data Anda: tanpa akun, untuk apa Layanan Aksesibilitas dipakai, apa yang dikumpulkan SDK analitik dan laporan error, dan cara mematikan pengumpulan data opsional.",
+      "compare": {
+        "description": "Perbandingan Wasdo dengan aplikasi pemetaan keyboard dan mouse lain di Android, fitur demi fitur, hanya fakta.",
+        "vsDescription": "Perbandingan {name} dan {other} di Android, fitur demi fitur: root, ADB dan aktivasi, kamera mouse, preset, makro, dan harga.",
+        "vsIntro": "Keduanya memungkinkan Anda memainkan game sentuh Android dengan keyboard dan mouse. Ini perbedaannya, fitur demi fitur."
+      },
       "labels": {
         "presets": "Preset"
       },

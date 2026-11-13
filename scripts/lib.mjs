@@ -56,6 +56,11 @@ const LOCALE_OVERRIDES = {
     fastlane: { es: 'es-419' },
     android: { 'pt-br': 'values-pt' },
   },
+  /** Wasdo: 32 app languages, Portuguese in `values-pt`; its store listing has es-419 and es-US, no es-ES. */
+  wasdo: {
+    fastlane: { es: 'es-419' },
+    android: { 'pt-br': 'values-pt' },
+  },
   /** The app has no Dutch or Polish; the store listing has both, so only the FAQ falls back to English. */
   'gamepad-tester': {
     android: { nl: null, pl: null },

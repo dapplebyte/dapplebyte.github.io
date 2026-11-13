@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · Niezależne aplikacje na Androida",
-    "description": "DappleByte to niezależne studio, które tworzy aplikacje na Androida: Gamepad Pro, maper przycisków, który zamienia pada w sterowanie dotykowe; Relaypad, kontroler Remote Play i aplikację do strumieniowania obrazu z PS5 i PS4; WhenDo, aplikację do automatyzacji z AI i klikaczem (auto clicker); JoyLink, który zamienia telefon w pada Bluetooth, gładzik i pilot do TV; oraz Gamepad Tester Pro, który sprawdza, czy kontroler nie ma driftu gałek, input laga albo martwych przycisków. DappleByte tworzy też Apk Extractor: ekstraktor APK, narzędzie do kopii zapasowych aplikacji i instalator XAPK, który przenosi aplikacje na nowy telefon. Najnowsza aplikacja, SlopSwipe, przewija filmy wygenerowane przez SI w YouTube Shorts, TikToku i Instagram Reels, przy każdym pominięciu podaje powód i pozwala je cofnąć jednym dotknięciem.",
+    "description": "DappleByte to niezależne studio, które tworzy aplikacje na Androida: Gamepad Pro, maper przycisków, który zamienia pada w sterowanie dotykowe; Relaypad, kontroler Remote Play i aplikację do strumieniowania obrazu z PS5 i PS4; WhenDo, aplikację do automatyzacji z AI i klikaczem (auto clicker); JoyLink, który zamienia telefon w pada Bluetooth, gładzik i pilot do TV; oraz Gamepad Tester Pro, który sprawdza, czy kontroler nie ma driftu gałek, input laga albo martwych przycisków. DappleByte tworzy też Apk Extractor: ekstraktor APK, narzędzie do kopii zapasowych aplikacji i instalator XAPK, który przenosi aplikacje na nowy telefon. Najnowsza aplikacja, SlopSwipe, przewija filmy wygenerowane przez SI w YouTube Shorts, TikToku i Instagram Reels, przy każdym pominięciu podaje powód i pozwala je cofnąć jednym dotknięciem. Wkrótce dołączy Wasdo, maper klawiatury i myszy do grania w dotykowe gry na Androida z WASD i kamerą myszą.",
     "appsHeading": "Aplikacje",
     "principlesHeading": "Jak pracujemy",
     "principles": [
@@ -747,6 +747,43 @@
       }
     },
     "wasdo": {
+      "kicker": "Maper klawiatury i myszy · Bez roota",
+      "heroPoints": [
+        "WASD do ruchu, mysz do obracania kamery, klawisze do umiejętności i broni",
+        "Gotowe układy do popularnych gier oraz szablony FPS, MOBA i RPG",
+        "Tylko uprawnienie ułatwień dostępu: bez roota, bez ADB, bez komputera, bez ponownej aktywacji"
+      ],
+      "faqDescription": "Odpowiedzi na pytania o Wasdo: konfiguracja i uprawnienie ułatwień dostępu, tworzenie mapowania, klawiatura i mysz, sterowanie kamerą i Wasdo Pro.",
+      "faqNotFoundBody": "Napisz do nas: podaj model telefonu, klawiaturę i mysz oraz grę i opisz, co się stało. Każdą wiadomość czyta człowiek.",
+      "support": {
+        "beforeItems": [
+          "W Wasdo otwórz Ustawienia → Pomocnik połączenia. Sprawdzi, czy klawiatura i mysz są wykrywane, a jeśli nie, krok po kroku pomoże to naprawić.",
+          "Otwórz FAQ. Większość pytań o konfigurację, uprawnienia i mapowanie ma tam odpowiedź, w tym samym brzmieniu co w aplikacji.",
+          "Zanotuj, w jakiej grze, z jaką klawiaturą i myszą i co dzieje się na ekranie po naciśnięciu klawisza. Właśnie tego potrzebujemy, żeby odtworzyć problem."
+        ],
+        "template": {
+          "phone": "Model telefonu lub tabletu:",
+          "android": "Wersja Androida:",
+          "devices": "Klawiatura i mysz (model, USB czy Bluetooth):",
+          "game": "Gra lub aplikacja:",
+          "what": "Co się stało, krok po kroku:",
+          "pro": "Zakup Pro: tak / nie"
+        },
+        "refundBody": "Wasdo instalujesz za darmo. Jeśli po zakupie Wasdo Pro aplikacja nie działa z Twoim sprzętem, napisz do nas w ciągu 7 dni od zakupu, a zwrócimy pieniądze. Opisz, co już próbowano; to pomoże nam naprawić problem dla kolejnych osób."
+      },
+      "press": {
+        "description": "Fakty, materiały i gotowy opis do tekstów o Wasdo, maperze klawiatury i myszy na Androida.",
+        "boilerplate": "Wasdo pozwala grać w dotykowe gry na Androida klawiaturą i myszą podłączonymi przez USB lub Bluetooth: WASD do ruchu, mysz do obracania kamery i klawisze ustawione na przyciskach gry. Do tego gotowe układy do popularnych gier i szablony FPS, MOBA i RPG. Wystarczy uprawnienie ułatwień dostępu, bez roota, ADB i komputera. Aplikację tworzy niezależne studio DappleByte.",
+        "priceValue": "Instalacja za darmo, bez reklam. Wasdo Pro odblokowuje zaawansowane sterowanie myszą i makra w ramach zakupu w aplikacji. Aktualna cena jest podana w Google Play.",
+        "assetScreenshots": "Zrzuty ekranu, 1920 × 1080 PNG, po angielsku"
+      },
+      "videosDescription": "Krótkie filmy pokazujące Wasdo na prawdziwym telefonie i tablecie: podłączanie klawiatury i myszy, tworzenie mapowania, kamera myszą i najczęstsze problemy.",
+      "privacyDescription": "Co Wasdo na Androida robi z Twoimi danymi: bez konta, do czego służy usługa ułatwień dostępu, co zbierają SDK analityki i raportów o awariach oraz jak wyłączyć opcjonalne zbieranie danych.",
+      "compare": {
+        "description": "Porównanie Wasdo z innymi maperami klawiatury i myszy na Androidzie: funkcja po funkcji, same fakty.",
+        "vsDescription": "Porównanie {name} i {other} na Androidzie, funkcja po funkcji: root, ADB i aktywacja, kamera myszą, gotowe układy, makra i cena.",
+        "vsIntro": "Obie aplikacje pozwalają grać w dotykowe gry na Androida klawiaturą i myszą. Oto czym się różnią, funkcja po funkcji."
+      },
       "labels": {
         "presets": "Gotowe układy"
       },

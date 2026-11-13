@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · Onafhankelijke Android-apps",
-    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker); JoyLink, dat een telefoon verandert in een Bluetooth-gamepad, touchpad en tv-afstandsbediening; en Gamepad Tester Pro, dat een controller controleert op stick drift, input lag en dode knoppen. DappleByte maakt ook Apk Extractor, een APK-extractor, back-uptool voor apps en XAPK-installer die je apps overzet naar een nieuwe telefoon. De nieuwste app, SlopSwipe, veegt door AI gemaakte video's weg in YouTube Shorts, TikTok en Instagram Reels, vertelt bij elke overgeslagen video waarom en draait het met één tik terug.",
+    "description": "DappleByte is een onafhankelijke studio die Android-apps maakt: Gamepad Pro, een controller-mapper die een gamepad omzet in touchbediening; Relaypad, een controller- en streaming-app voor PS5 en PS4 via Remote Play; WhenDo, een app voor automatisering met AI en een klikgenerator (auto clicker); JoyLink, dat een telefoon verandert in een Bluetooth-gamepad, touchpad en tv-afstandsbediening; en Gamepad Tester Pro, dat een controller controleert op stick drift, input lag en dode knoppen. DappleByte maakt ook Apk Extractor, een APK-extractor, back-uptool voor apps en XAPK-installer die je apps overzet naar een nieuwe telefoon. De nieuwste app, SlopSwipe, veegt door AI gemaakte video's weg in YouTube Shorts, TikTok en Instagram Reels, vertelt bij elke overgeslagen video waarom en draait het met één tik terug. Binnenkort volgt Wasdo, een toetsenbord- en muis-mapper om Android-touchgames te spelen met WASD en de muiscamera.",
     "appsHeading": "Apps",
     "principlesHeading": "Hoe we werken",
     "principles": [
@@ -747,6 +747,43 @@
       }
     },
     "wasdo": {
+      "kicker": "Toetsenbord- en muis-mapper · Zonder root",
+      "heroPoints": [
+        "WASD om te lopen, de muis om de camera te draaien, toetsen voor skills en wapens",
+        "Kant-en-klare presets voor populaire games, plus sjablonen voor FPS, MOBA en RPG",
+        "Alleen de toegankelijkheidsmachtiging: geen root, geen ADB, geen pc, niets opnieuw te activeren"
+      ],
+      "faqDescription": "Antwoorden over Wasdo: installatie en de toegankelijkheidsmachtiging, een mapping maken, toetsenbord en muis, camerabesturing en Wasdo Pro.",
+      "faqNotFoundBody": "Schrijf ons met je telefoonmodel, je toetsenbord en muis, de game en wat er gebeurde. Elk bericht wordt door een mens gelezen.",
+      "support": {
+        "beforeItems": [
+          "Open in Wasdo Instellingen → Verbindingshulp. Die controleert of je toetsenbord en muis worden herkend en helpt je stap voor stap als dat niet zo is.",
+          "Open de FAQ. De meeste vragen over installatie, machtigingen en toewijzen worden daar beantwoord, in dezelfde bewoording als in de app.",
+          "Noteer welke game, welk toetsenbord en welke muis en wat er op het scherm gebeurt als je op een toets drukt. Dat hebben we nodig om het na te bootsen."
+        ],
+        "template": {
+          "phone": "Model telefoon of tablet:",
+          "android": "Android-versie:",
+          "devices": "Toetsenbord en muis (model, USB of Bluetooth):",
+          "game": "Game of app:",
+          "what": "Wat er gebeurde, stap voor stap:",
+          "pro": "Pro gekocht: ja / nee"
+        },
+        "refundBody": "Wasdo installeer je gratis. Heb je Wasdo Pro gekocht en werkt het niet met jouw opstelling, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen."
+      },
+      "press": {
+        "description": "Feiten, beeldmateriaal en een standaardtekst om over Wasdo te schrijven, de toetsenbord- en muis-mapper voor Android.",
+        "boilerplate": "Met Wasdo speel je Android-touchgames met een USB- of Bluetooth-toetsenbord en -muis: WASD om te lopen, de muis om rond te kijken en toetsen op de knoppen van de game, met kant-en-klare presets voor populaire games en sjablonen voor FPS, MOBA en RPG. Alleen de toegankelijkheidsmachtiging is nodig, zonder root, ADB of pc. De app is gemaakt door DappleByte, een onafhankelijke studio.",
+        "priceValue": "Gratis te installeren, zonder advertenties. Wasdo Pro ontgrendelt geavanceerde muis- en macrofuncties met een in-app-aankoop. De actuele prijs staat op Google Play.",
+        "assetScreenshots": "Screenshots, 1920 × 1080 PNG, Engelstalig"
+      },
+      "videosDescription": "Korte video's van Wasdo op een echte telefoon en tablet: toetsenbord en muis koppelen, een mapping maken, de muiscamera en de meest voorkomende problemen.",
+      "privacyDescription": "Wat Wasdo voor Android met je gegevens doet: geen account, waarvoor de toegankelijkheidsservice dient, wat de analyse- en crashrapportage-SDK's verzamelen en hoe je optionele gegevensverzameling uitzet.",
+      "compare": {
+        "description": "Hoe Wasdo zich verhoudt tot andere toetsenbord- en muis-mappers op Android, functie voor functie, alleen feiten.",
+        "vsDescription": "{name} en {other} vergeleken op Android, functie voor functie: root, ADB en activering, muiscamera, presets, macro's en prijs.",
+        "vsIntro": "Met beide speel je touchgames op Android met toetsenbord en muis. Hier zie je waarin ze verschillen, functie voor functie."
+      },
       "labels": {
         "presets": "Presets"
       },

@@ -1,0 +1,206 @@
+{
+  "slug": "wasdo",
+  "locale": "nl",
+  "title": "FAQ en hulp",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Instellen",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Wat doet Wasdo?",
+          "a": [
+            "Wasdo zet een USB- of Bluetooth-toetsenbord en -muis om in tikken en vegen op het scherm, zodat je touchgames speelt zoals op een pc: toetsen om te bewegen en acties uit te voeren, de muis om rond te kijken."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Waarom is de toegankelijkheidsmachtiging nodig? Is het veilig?",
+          "a": [
+            "Met de toegankelijkheidsdienst kan Wasdo je toetsenbord en muis lezen terwijl een toewijzing actief is en aanrakingen plaatsen in de game op de voorgrond, ook buiten de app. Toewijzingen werken pas nadat je de dienst hebt ingeschakeld. Wasdo gebruikt hem alleen om de acties uit te voeren die jij hebt ingesteld — hij leest, bewaart of verstuurt niet wat er op je scherm staat, wat je typt of je wachtwoorden."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Het stopt na een tijdje op de achtergrond. Hoe los ik dit op?",
+          "a": [
+            "Android kan apps op de achtergrond sluiten om energie te besparen. Sta Wasdo toe op de achtergrond te draaien door de batterijoptimalisatie uit te zetten. Sommige merken (zoals MIUI of Samsung) voegen extra energiebesparingsregels toe — de gids op dontkillmyapp.com toont hoe je die voor jouw toestel uitzet."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Heeft Wasdo root-toegang nodig?",
+          "a": [
+            "Nee. Wasdo werkt via de toegankelijkheidsdienst en heeft geen root of andere hulp-app nodig."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Ondersteunt Wasdo controllers?",
+          "a": [
+            "Nee. Wasdo is alleen gemaakt voor toetsenbord en muis. Gebruik voor controllers onze zusterapp Gamepad Pro, die daar speciaal voor gemaakt is en samen met Wasdo werkt: als beide geïnstalleerd zijn en Gamepad Pro actief is, gaat controllerinvoer automatisch naar Gamepad Pro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Toewijzing",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Mijn toewijzing werkt niet. Wat moet ik controleren?",
+          "a": [
+            "1. Zorg dat de toegankelijkheidsdienst is ingeschakeld (Instellingen → Toegankelijkheid → Wasdo).",
+            "2. Zorg dat de toewijzing aan staat (niet gepauzeerd).",
+            "3. Controleer of het toetsenbord op het startscherm als verbonden wordt weergegeven.",
+            "4. Werkte het eerder en stopte het, controleer dan de batterij-/achtergrondinstellingen (zie de volgende vraag)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Hoe maak ik een toewijzing?",
+          "a": [
+            "1. Voeg je game toe vanuit de lijst en tik daarna op de pagina van de game op “Nieuwe indeling”.",
+            "2. Staat er onder “Voor deze game” een preset, kies die dan: je krijgt meteen een indeling die al op die game is afgestemd. Anders begin je met een genresjabloon (FPS, MOBA, Openwereld-actie of Algemeen) of een lege indeling.",
+            "3. Sleep elke toets naar de knop waarop hij moet tikken. Om een toets toe te voegen, tik je op + en druk je daarna op een toetsenbordtoets, klik je met een muisknop of draai je aan het scrollwiel.",
+            "4. Sla op en druk in de game op Esc om de muis te vergrendelen en te spelen."
+          ]
+        },
+        {
+          "id": "q07",
+          "q": "Werkt het met elke game?",
+          "a": [
+            "Het werkt met de meeste touchgames. Sommige games herkennen externe toetsenborden en muizen en kunnen accounts die ze gebruiken beperken; Wasdo biedt geen manier om dat te omzeilen. Een paar games blokkeren ook gesimuleerde tikken. Reageert een game niet, laat het ons dan weten via 'Feedback sturen'."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Wist een update mijn toewijzingen?",
+          "a": [
+            "Nee. Updates bewaren je games, indelingen en toetsen. Alleen als je de app verwijdert, ben je ze kwijt. Stap je over op een andere telefoon, exporteer dan eerst een back-up (Instellingen → Back-up en herstel → Alle mappings back-uppen) en importeer die op het nieuwe toestel. De automatische back-up van Android zet ze ook terug als je op een nieuwe telefoon inlogt met hetzelfde Google-account."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Kan Wasdo de terugslag verminderen of voor mij richten?",
+          "a": [
+            "Nee, en dat komt er ook nooit. Terugslagcompensatie, richthulp en alles wat in de game voor je handelt, wordt door de meeste games als valsspelen gezien en kan tot een ban van je account leiden. Wasdo zet alleen je eigen toetsaanslagen en muisbewegingen om in tikken en vegen."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Hoe deel ik een indeling met een vriend?",
+          "a": [
+            "Open op de pagina van de game het deelmenu en kies Deelcode maken. Je vriend gaat naar Instellingen → Back-up en herstel → Importeren met deelcode en typt de code van 8 tekens. Codes zijn 90 dagen geldig en bevatten alleen de indeling, niets over je apparaat. Delen is gratis, importeren ook, tenzij de indeling Pro-functies gebruikt: dan heb je Pro of een van je gratis pogingen nodig."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keyboard-mouse",
+      "title": "Toetsenbord en muis",
+      "entries": [
+        {
+          "id": "q08",
+          "q": "Hoe verbind ik een toetsenbord en muis?",
+          "a": [
+            "Sluit ze aan via USB (een USB-C-adapter of hub werkt ook) of koppel ze via Bluetooth in de instellingen van je telefoon. Zodra ze verbonden zijn, zie je ze op het startscherm. Met een touchpad kun je niet rondkijken (zie hieronder), dus gebruik voor de camera een gewone muis."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Waarom staat de muiscursor nog op het scherm?",
+          "a": [
+            "Je zit in cursormodus. Druk op de “Toets voor cameramodus” (standaard Esc) om de muis te vergrendelen: de cursor verdwijnt en als je de muis beweegt, draait het beeld, net als wanneer je in een pc-game klikt. Druk er nog een keer op om de cursor vrij te geven voor menu's. Komt de cursor vanzelf terug, dan heeft iets anders de focus overgenomen (het meldingenpaneel of een systeemvenster); druk dan nog een keer op de toets om de muis weer te vergrendelen."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Hoe typ ik in een game?",
+          "a": [
+            "Druk op Enter om naar typmodus te gaan: je toetsenbord gaat dan rechtstreeks naar de game zodat je kunt chatten, en de muis schakelt naar cursormodus. Druk nog een keer op Enter om te verzenden en terug te gaan naar je toewijzingen, of druk op Esc om terug te gaan zonder te verzenden. Je kunt ook op de “Toets voor typmodus” drukken (standaard de rechter Ctrl), of op de zwevende wisselaar tikken en “Typmodus” kiezen. Gebruikt een van je toewijzingen Enter al, dan blijft Enter doen wat je daar hebt ingesteld; gebruik in dat geval de toets voor typmodus. Wil je Enter uitzetten of een andere toets kiezen, ga dan naar Instellingen → Toetsenbord en muis."
+          ]
+        },
+        {
+          "id": "q11",
+          "q": "Welke games kunnen mijn account blokkeren?",
+          "a": [
+            "Sommige games detecteren een extern toetsenbord en muis en kunnen accounts die ze gebruiken beperken of blokkeren. Wasdo verbergt zich niet voor games en biedt geen manier om dat te omzeilen. Games waarover spelers meldingen hebben gedaan, krijgen in je gamelijst, bij het kiezen van een game en bij preset-indelingen een rood label “Detecteert randapparaten”. Wasdo werkt ook gewoon in deze games; het label is alleen een herinnering. Geen label betekent alleen dat we geen meldingen hebben, niet dat de game veilig is. Bekijk dus de regels van de game voordat je ranked speelt."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Waarom kan ik niet rondkijken met mijn touchpad?",
+          "a": [
+            "Android ziet een touchpad als een ander soort apparaat dan een muis, en deze versie van Wasdo ondersteunt het niet voor camerabesturing. Gebruik een gewone USB- of Bluetooth-muis om rond te kijken. De toetsen van een toetsenbord met ingebouwd touchpad werken gewoon."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Hoe wissel ik tussen camera- en cursormodus?",
+          "a": [
+            "Druk tijdens het spelen op Esc, net zoals je in een pc-game de muis loslaat. In cameramodus is de muis vergrendeld en draait hij het beeld, zoals in een shooter op de pc. In cursormodus beweegt hij een aanwijzer, zodat je op menu's en knoppen kunt klikken. De zwevende wisselaar toont de modus: een vizier betekent cameramodus, een pijl cursormodus en een toetsenbord typmodus. Omdat Esc van modus wisselt, gaat die toets niet naar de game: open het menu van de game met de knop op het scherm, of kies een andere “Toets voor cameramodus” via Instellingen → Toetsenbord en muis, dan gaat Esc weer naar de game. Gebruikt een indeling de muis helemaal niet, dan gaat Esc meteen naar de game."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Werkt Wasdo op een extern scherm of met Samsung DeX?",
+          "a": [
+            "Ja, met schermspiegeling. Als het externe scherm je telefoon of tablet spiegelt, werkt Wasdo precies zoals op het apparaat, cameramodus inbegrepen. Op Samsung zet je DeX uit in de snelle instellingen om naar spiegelen te gaan. Gaat het geluid naar het scherm en hoor je niets, tik dan in de snelle instellingen op ‘Media-uitvoer’ en kies je apparaat. In de uitgebreide modus (Samsung DeX, of een aangesloten scherm bij recente Pixel-telefoons) werken je toetsen als het gamevenster gemaximaliseerd is, maar cameramodus, de zwevende wisselaar en hints op het scherm zijn daar misschien niet beschikbaar. Chromebooks worden niet ondersteund."
+          ]
+        },
+        {
+          "id": "q21",
+          "q": "Hoe verander ik de muisgevoeligheid in een game?",
+          "a": [
+            "Begin met een eenmalige muiskalibratie (Instellingen → Toetsenbord en muis → Muisgevoeligheid en richtkruis → Muiskalibratie), zodat Wasdo weet hoe snel je muis is. Draait de camera in een game daarna nog steeds te snel of te langzaam, tik dan op de zwevende wisselaar, kies Muisgevoeligheid en tik op Langzamer of Sneller. Dat verandert alleen deze game, en dezelfde waarde zie je op die instellingenpagina; de cursorsnelheid staat ook op beide plekken. Wil je alle games tegelijk aanpassen, gebruik dan Totaalfactor onder Geavanceerd op diezelfde instellingenpagina; voor exacte waarden open je Waarden in het paneel of wijs je de toetsen voor gevoeligheid +5% en −5% toe. Presets zijn afgestemd op de standaardgevoeligheid van elke game, dus heb je de gevoeligheid in de game zelf veranderd, compenseer dat dan met Langzamer of Sneller."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Wat kan de zwevende wisselaar?",
+          "a": [
+            "De wisselaar is je bedieningscentrum in de game. Tik erop om het paneel te openen: wissel van indeling, schakel tussen cursor-, camera- en typmodus, verplaats toetsen boven de game met “Toetsen bewerken”, pauzeer de toewijzing, pas de gevoeligheid aan of zet de streammodus aan. Sleep hem waarheen je maar wilt; zet hem op een schermrand neer om hem weg te klappen, of op de ✕ onderaan om hem te verbergen tot je de game opnieuw opent. Wil je het paneel met je toetsenbord openen, wijs dan een toets toe in Instellingen → Toetsenbord en muis → Gamepaneel."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Waarom draait de camera te snel of te langzaam, of voelt het anders als ik van apparaat wissel?",
+          "a": [
+            "Elke muis heeft zijn eigen DPI en Wasdo kan die niet uitlezen, dus dezelfde indeling kan per muis sneller of langzamer aanvoelen. Doe één keer de muiskalibratie en stel daarna fijn af met Langzamer en Sneller. Voelt het daarna nog steeds niet goed, stuur ons dan een e-mail: je muismodel en instellingen worden automatisch meegestuurd."
+          ]
+        },
+        {
+          "id": "q24",
+          "q": "Wat als ik de DPI van mijn muis niet weet?",
+          "a": [
+            "Geen probleem. Kies in de muiskalibratie ‘Weet ik niet, meet het voor me’, lijn de linkerrand van je muis uit met de eerste lijn op het scherm en klik. Houd de muis daarna op het bureau en schuif tot dezelfde rand bij de tweede lijn is, en klik nog een keer. Doe dat drie keer. Druk je later op de DPI-knop van je muis, meet dan opnieuw."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Wat zit er in Wasdo Pro?",
+          "a": [
+            "Pro ontgrendelt onbeperkt games en indelingen, kant-en-klare presets voor populaire games, combinaties met modificatietoetsen (Shift, Ctrl of Alt plus een toets), muisgevoeligheidscurves met aparte X- en Y-gevoeligheid, afvlakking en vizierzoom, scrollwieltoetsen, macro's met één toets, scènewissel, toggle- en reekstoetsen, en Smart Cast voor MOBA. Je kunt ze eerst uitproberen: als je een indeling opslaat of importeert die een Pro-functie gebruikt, krijg je een paar gratis pogingen voordat je Pro nodig hebt, en kun je de preset van één game gratis toevoegen. Het is een eenmalige aankoop via Google Play: geen abonnement en geen advertenties."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Ik heb Pro op een andere telefoon gekocht. Hoe herstel ik het?",
+          "a": [
+            "Zorg dat je in de Play Store op de nieuwe telefoon bent ingelogd met hetzelfde Google-account waarmee je Pro hebt gekocht. Open daarna Wasdo en ga naar Instellingen → Aankoop herstellen. Heb je het met een ander account gekocht, schakel dan eerst in de Play Store over naar dat account. In regio's waar Google Play Pro niet verkoopt, zijn de Pro-functies voor je beschikbaar, en alles wat je al hebt opgeslagen blijft werken, ook als Pro daar later in de verkoop gaat."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

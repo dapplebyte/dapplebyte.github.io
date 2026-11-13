@@ -60,6 +60,7 @@ products = {
     'joylink': ('JoyLink', 'Your phone as a Bluetooth gamepad, touchpad and TV remote. Nothing to install on the other side.', os.path.join(ROOT, 'public/joylink/icon.png'), '#E6FF66'),
     'apk-extractor': ('Apk Extractor', 'Extract, back up, install and move Android apps as APK and XAPK files. No root.', os.path.join(ROOT, 'public/apk-extractor/icon.png'), '#5BE89A'),
     'slopswipe': ('SlopSwipe', 'Swipes away AI-generated videos in Shorts, TikTok and Reels, with a reason for every skip and one-tap undo.', os.path.join(ROOT, 'public/slopswipe/icon.png'), '#3DD68C'),
+    'wasdo': ('Wasdo', 'Play mobile games with a keyboard and mouse: WASD, mouse look, key mapping. No root, no ADB.', os.path.join(ROOT, 'public/wasdo/icon.png'), '#FF8A55'),
     'gamepad-tester': ('Gamepad Tester Pro', 'Test any controller on your phone: buttons, stick drift, input lag, vibration. No PC needed.', os.path.join(ROOT, 'public/gamepad-tester/icon.png'), '#3DDFA8'),
 }
 for slug, (name, tagline, icon, accent) in products.items():

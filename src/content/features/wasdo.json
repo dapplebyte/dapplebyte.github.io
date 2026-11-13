@@ -1,0 +1,11 @@
+{
+  "slug": "wasdo",
+  "items": [
+    { "id": "mapping", "sectionId": "mapping", "screenshots": [4], "faq": ["q05", "q03", "q07", "q16"] },
+    { "id": "mouse-look", "sectionId": "mouse-look", "screenshots": [3], "faq": ["q13", "q21", "q23", "q24", "q12", "q09"] },
+    { "id": "presets", "sectionId": "presets", "screenshots": [5, 2], "faq": ["q19", "q16"] },
+    { "id": "typing-overlay", "sectionId": "typing-overlay", "screenshots": [1], "faq": ["q10", "q22"] },
+    { "id": "pro", "sectionId": "pro", "screenshots": [6], "faq": ["q14", "q15"] },
+    { "id": "no-root", "sectionId": "no-root", "screenshots": [], "faq": ["q06", "q02", "q04", "q08"] }
+  ]
+}

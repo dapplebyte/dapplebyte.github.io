@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · 独立工作室的 Android 应用",
-    "description": "DappleByte 是一家做 Android app 的独立工作室，作品有 Gamepad Pro：把手柄变成触屏操作的按键映射工具；Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app；WhenDo：一款 AI 自动化与连点器 app；JoyLink：把手机变成蓝牙手柄、触控板和电视遥控器；还有 Gamepad Tester Pro：检查手柄有没有摇杆漂移、输入延迟和失灵的按键。DappleByte 还开发了 Apk Extractor：一款 APK 提取、应用备份与 XAPK 安装工具，也能帮你把应用搬到新手机。最新推出的 SlopSwipe，会在 YouTube Shorts、TikTok 和 Instagram Reels 里自动划走 AI 生成视频，每次跳过都说明原因，一键就能撤销。",
+    "description": "DappleByte 是一家做 Android app 的独立工作室，作品有 Gamepad Pro：把手柄变成触屏操作的按键映射工具；Relaypad：一款面向 PS5 和 PS4 的远程游玩手柄与主机串流 app；WhenDo：一款 AI 自动化与连点器 app；JoyLink：把手机变成蓝牙手柄、触控板和电视遥控器；还有 Gamepad Tester Pro：检查手柄有没有摇杆漂移、输入延迟和失灵的按键。DappleByte 还开发了 Apk Extractor：一款 APK 提取、应用备份与 XAPK 安装工具，也能帮你把应用搬到新手机。最新推出的 SlopSwipe，会在 YouTube Shorts、TikTok 和 Instagram Reels 里自动划走 AI 生成视频，每次跳过都说明原因，一键就能撤销。下一款即将推出的是 Wasdo：用 WASD 和鼠标视角玩 Android 触屏游戏的键鼠映射工具。",
     "appsHeading": "应用",
     "principlesHeading": "我们的做法",
     "principles": [
@@ -747,6 +747,43 @@
       }
     },
     "wasdo": {
+      "kicker": "键鼠映射 · 免 root",
+      "heroPoints": [
+        "WASD 走位、鼠标转视角，按键放技能、换武器",
+        "热门游戏有现成的预置方案，另有 FPS、MOBA、RPG 模板",
+        "只需要无障碍权限：免 root、免 ADB、免电脑，也不用重新激活"
+      ],
+      "faqDescription": "关于 Wasdo 的解答：设置与无障碍权限、创建按键映射、键盘与鼠标、视角控制，以及 Wasdo Pro。",
+      "faqNotFoundBody": "写信给我们，附上手机型号、键盘鼠标、游戏和具体情况。每条消息都有真人看。",
+      "support": {
+        "beforeItems": [
+          "在 Wasdo 里打开「设置 → 连接助手」。它会检查键盘和鼠标有没有被识别，没识别到的话会一步步带你排查。",
+          "先看常见问题。设置、权限和映射相关的问题大多在那里有答案，措辞和 app 里一样。",
+          "记下是哪款游戏、哪套键盘鼠标，以及按下按键时屏幕上发生了什么。我们需要这些信息来复现问题。"
+        ],
+        "template": {
+          "phone": "手机或平板型号：",
+          "android": "Android 版本：",
+          "devices": "键盘和鼠标（型号，USB 还是蓝牙）：",
+          "game": "游戏或 app：",
+          "what": "发生了什么（按步骤写）：",
+          "pro": "是否购买 Pro：是 / 否"
+        },
+        "refundBody": "Wasdo 可以免费安装。如果你买了 Wasdo Pro，但在你的设备环境下用不了，购买后 7 天内发邮件给我们，我们会退款。顺便说说你试过哪些办法，能帮我们为下一位用户修好它。"
+      },
+      "press": {
+        "description": "报道 Android 键鼠映射工具 Wasdo 所需的资料、素材和标准介绍。",
+        "boilerplate": "Wasdo 让玩家用 USB 或蓝牙键盘鼠标玩 Android 触屏游戏：WASD 走位、鼠标转视角，按键摆在游戏按钮上，热门游戏有现成的预置方案，另有 FPS、MOBA、RPG 模板。只需要无障碍权限，不需要 root、ADB 或电脑。它由独立工作室 DappleByte 开发。",
+        "priceValue": "免费安装，无广告。Wasdo Pro 通过应用内购买解锁高级鼠标和宏功能。当前价格以 Google Play 显示为准。",
+        "assetScreenshots": "截图，1920 × 1080 PNG，英文"
+      },
+      "videosDescription": "在真实手机和平板上演示 Wasdo 的短视频：连接键盘鼠标、创建按键映射、鼠标视角，以及最常见的问题。",
+      "privacyDescription": "Android 版 Wasdo 如何处理你的数据：无需账号、无障碍服务用来做什么、统计和崩溃报告 SDK 会收集什么，以及如何关闭可选的数据收集。",
+      "compare": {
+        "description": "在 Android 上逐项对比 Wasdo 与其他键鼠映射工具的功能，只讲事实。",
+        "vsDescription": "在 Android 上逐项对比 {name} 与 {other}：root、ADB 与激活、鼠标视角、预置方案、宏与收费方式。",
+        "vsIntro": "两者都能让你在 Android 上用键盘鼠标玩触屏游戏。下面逐项列出它们的不同之处。"
+      },
       "labels": {
         "presets": "预置方案"
       },

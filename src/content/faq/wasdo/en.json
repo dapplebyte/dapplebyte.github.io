@@ -1,0 +1,206 @@
+{
+  "slug": "wasdo",
+  "locale": "en",
+  "title": "FAQ & Help",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Setup",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "What does Wasdo do?",
+          "a": [
+            "Wasdo turns a USB or Bluetooth keyboard and mouse into taps and swipes on the screen, so you can play touch games the PC way: keys to move and act, mouse to look around."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Why does it need the Accessibility permission? Is it safe?",
+          "a": [
+            "The accessibility service lets Wasdo read your keyboard and mouse while a mapping is running and place touches in the game in front of you, even outside the app. Mappings only work after it is enabled. Wasdo only uses it to perform the actions you set up \\u2014 it does not read, store or upload what is on your screen, what you type or your passwords."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "It stops working after a while in the background. How do I fix it?",
+          "a": [
+            "Android may close apps in the background to save power. Allow Wasdo to run in the background by disabling battery optimisation. Some brands (such as MIUI or Samsung) add extra power-saving rules \\u2014 the guide at dontkillmyapp.com shows how to turn those off for your device."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Does Wasdo need root access?",
+          "a": [
+            "No. Wasdo works through the accessibility service and doesn't need root or any other helper app."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Does Wasdo support gamepads?",
+          "a": [
+            "No. Wasdo is built for keyboard and mouse only. For controllers, use our sister app Gamepad Pro, which is made for that and works alongside Wasdo: when both are installed and Gamepad Pro is running, controller input goes to Gamepad Pro automatically."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mapping",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "My mapping doesn't work. What should I check?",
+          "a": [
+            "1. Make sure the Accessibility service is enabled (Settings → Accessibility → Wasdo).",
+            "2. Make sure mapping is turned on (not paused).",
+            "3. Check that the keyboard shows as connected on the home screen.",
+            "4. If it worked before but stopped, check the battery / background settings (see the next question)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "How do I create a mapping?",
+          "a": [
+            "1. Add your game from the list, then tap New layout on its page.",
+            "2. If the game has a preset under Made for this game, pick it to get a layout already tuned for that game. Otherwise start from a genre template (FPS, MOBA, Open-world action or General) or a blank layout.",
+            "3. Drag each key onto the button it should tap. To add a key, tap +, then press a keyboard key, click a mouse button or scroll the wheel.",
+            "4. Save, then press Esc in the game to lock the mouse and play."
+          ]
+        },
+        {
+          "id": "q07",
+          "q": "Will it work with every game?",
+          "a": [
+            "It works with most touch games. Some games detect external keyboards and mice and may restrict accounts that use them; Wasdo does not provide any way around that. A few games also block simulated taps. If a game doesn't respond, let us know through Feedback."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Will an update erase my mappings?",
+          "a": [
+            "No. Updates keep your games, layouts and keys. Only uninstalling removes them, so if you're switching phones, export a backup first (Settings → Backup & restore → Back up all mappings) and import it on the new device. Android's automatic backup also restores them when you sign in with the same Google account on a new phone."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Can Wasdo reduce recoil or aim for me?",
+          "a": [
+            "No, and it never will. Recoil control, aim assist and anything that acts on the game for you are treated as cheating by most games and can get accounts banned. Wasdo only turns your own key presses and mouse movement into taps and swipes."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "How do I share a layout with a friend?",
+          "a": [
+            "On the game's page, open the share menu and choose Get a share code. Your friend goes to Settings → Backup & restore → Import from a share code and types the 8-character code. Codes work for 90 days and contain only the layout, nothing about your device. Sharing is free, and so is importing, unless the layout uses Pro features: then it takes Pro or one of your free tries."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keyboard-mouse",
+      "title": "Keyboard & mouse",
+      "entries": [
+        {
+          "id": "q08",
+          "q": "How do I connect a keyboard and mouse?",
+          "a": [
+            "Plug them in over USB (a USB-C adapter or hub works) or pair them over Bluetooth in your phone's settings. Once they're connected, the home screen shows them. A touchpad can't be used to look around (see below), so use a regular mouse for the camera."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Why is the mouse cursor still on screen?",
+          "a": [
+            "You're in cursor mode. Press the camera toggle key (Esc by default) to lock the mouse: the cursor disappears and moving the mouse turns the view, just like clicking into a PC game. Press it again to free the cursor for menus. If the cursor comes back on its own, something took the focus (a notification shade or a system dialog); press the toggle key once more to lock the mouse again."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "How do I type in a game?",
+          "a": [
+            "Press Enter to go into typing mode: your keyboard goes straight to the game so you can chat, and the mouse switches to cursor mode. Press Enter again to send and go back to your mappings, or press Esc to go back without sending. You can also press the typing toggle key (Right Ctrl by default), or tap the floating pill and choose Typing mode. If one of your mappings already uses Enter, Enter keeps doing that, so use the typing toggle key instead. To turn Enter off or change the toggle key, go to Settings → Keyboard & mouse."
+          ]
+        },
+        {
+          "id": "q11",
+          "q": "Which games may ban me?",
+          "a": [
+            "Some games detect an external keyboard and mouse and may restrict or ban accounts that use them. Wasdo does not hide itself from games and provides no way around this. Games that players have reported show a red “Detects peripherals” tag in your game list, in the game picker and on preset layouts. Wasdo still works in these games; the tag is only a reminder. No tag only means we have no reports, not that the game is safe, so check the game's rules before playing ranked matches."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Why can't I use my touchpad to look around?",
+          "a": [
+            "Android reports a touchpad as a different kind of device from a mouse, and this version of Wasdo doesn't support it for camera control. Use a regular USB or Bluetooth mouse to look around. The keys on a keyboard with a built-in touchpad still work."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "How do I switch between camera and cursor mode?",
+          "a": [
+            "Press Esc while you play, the same way you release the mouse in a PC game. In camera mode the mouse is locked and turns the view, like in a PC shooter. In cursor mode it moves a pointer so you can click menus and buttons. The floating pill shows the mode: a crosshair means camera mode, an arrow means cursor mode and a keyboard means typing mode. Because Esc switches modes, it isn't sent to the game: to open the game's own menu, tap its on-screen button, or pick another camera toggle key in Settings → Keyboard & mouse and Esc goes to the game again. If a layout doesn't use the mouse at all, Esc goes straight to the game."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Does Wasdo work on an external display or Samsung DeX?",
+          "a": [
+            "Yes, with screen mirroring. When the display mirrors your phone or tablet, Wasdo works just as it does on your device, camera mode included. On Samsung, turn off DeX in Quick settings to switch to mirroring. If the sound goes to the display and you can't hear it, tap Media output in Quick settings and pick your device. In extended mode (Samsung DeX, or a connected display on recent Pixel phones), your keys still work if the game window is maximized, but camera mode, the floating pill and on-screen hints may not be available. Chromebooks aren't supported."
+          ]
+        },
+        {
+          "id": "q21",
+          "q": "How do I change mouse sensitivity in a game?",
+          "a": [
+            "Start with a one-time mouse calibration (Settings → Keyboard & mouse → Mouse sensitivity & crosshair → Mouse calibration) so Wasdo knows how fast your mouse is. If the camera still turns too fast or too slow in a game, tap the floating pill, choose Mouse sensitivity and tap Slower or Faster. That changes this game only, and the same value shows on that settings page; cursor speed is in both places too. To change every game at once, use Overall multiplier under Advanced on that settings page; for exact numbers, open Numbers in the panel or bind the Sensitivity +5% and −5% keys. Preset layouts are tuned for each game's default sensitivity, so if you changed the sensitivity inside the game itself, use Slower or Faster to make up for it."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "What can the floating pill do?",
+          "a": [
+            "The pill is your in-game control center. Tap it to open the panel: switch layouts, switch between cursor, camera and typing mode, move keys over the game with Edit keys, pause mapping, adjust sensitivity or turn on stream mode. Drag it anywhere; drop it on a screen edge to tuck it away, or on the ✕ at the bottom to hide it until you reopen the game. To open the panel from your keyboard, bind a key in Settings → Keyboard & mouse → In-game panel."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Why does the camera turn too fast or too slow, or feel different when I switch devices?",
+          "a": [
+            "Every mouse has its own DPI, and Wasdo can't read it, so the same layout can feel faster or slower from one mouse to the next. Run the mouse calibration once, then fine-tune with Slower and Faster. If it still feels off after all that, email us: your mouse model and settings are attached automatically."
+          ]
+        },
+        {
+          "id": "q24",
+          "q": "What if I don't know my mouse's DPI?",
+          "a": [
+            "No problem. In the mouse calibration, choose Measure for me, line up the left edge of your mouse with the first line on screen and click, then keep it on the desk and push until that same edge reaches the second line and click again. Do it three times. If you press the DPI button on your mouse later, measure again."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "What does Wasdo Pro include?",
+          "a": [
+            "Pro unlocks unlimited games and layouts, ready-made presets for popular games, modifier combos (Shift, Ctrl or Alt plus a key), mouse sensitivity curves with separate X and Y sensitivity, smoothing and scope zoom, scroll wheel keys, one-key macros, scene switching, toggle and sequence keys, and MOBA smart cast. You can try them first: when you save or import a layout that uses a Pro feature, you get a few free tries before you need Pro, and you can add one game preset for free. It's a one-time purchase through Google Play: no subscription and no ads."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "I bought Pro on another phone. How do I restore it?",
+          "a": [
+            "Make sure the Play Store on the new phone is signed in with the same Google account you used to buy Pro, then open Wasdo and go to Settings → Restore purchase. If you bought it with another account, switch to that account in the Play Store first. In regions where Google Play doesn't sell Pro, Pro features are open to you, and anything you've already saved keeps working even if Pro goes on sale there later."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

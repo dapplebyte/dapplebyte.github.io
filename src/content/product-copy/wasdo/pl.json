@@ -1,0 +1,124 @@
+{
+  "slug": "wasdo",
+  "locale": "pl",
+  "title": "Wasdo: Keyboard Mouse Mapper",
+  "shortDescription": "Klawiatura i mysz do gier na telefonie: mapowanie klawiszy, WASD. Bez Root i ADB",
+  "tagline": "Mapowanie klawiszy: klawiatura i mysz do gier na telefonie bez Root i ADB",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Mapowanie klawiszy: klawiatura i mysz do gier na telefonie bez Root i ADB",
+      "paragraphs": [
+        "Wasdo to aplikacja do mapowania klawiszy: graj klawiaturą i myszą na telefonie i tablecie z Androidem. Podłącz klawiaturę i mysz przez USB lub Bluetooth, ustaw klawisze na przyciskach gry i graj jak na PC: WASD do ruchu, mysz do kamery, klawisze do umiejętności i broni. Bez Root, ADB, komputera i parowania debugowania bezprzewodowego. Włącz jedno uprawnienie w Ułatwieniach dostępu i graj."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Bez Root, ADB i aktywacji",
+      "paragraphs": [
+        "Wiele aplikacji do klawiatury i myszy wymaga parowania debugowania bezprzewodowego, ADB z komputera albo aktywacji po każdym restarcie. Wasdo nie."
+      ],
+      "bullets": [
+        "Tylko ułatwienia dostępu, bez Shizuku i aplikacji pomocniczych",
+        "Bez kodów parowania, debugowania USB i komputera",
+        "Po restarcie nic nie trzeba aktywować",
+        "Działa na telefonach i tabletach z Androidem"
+      ]
+    },
+    {
+      "id": "use-cases",
+      "title": "Jak gracze używają Wasdo",
+      "paragraphs": [],
+      "bullets": [
+        "Strzelanki na tablecie: WASD, rozglądanie myszą, klawisze przeładowania i kucania",
+        "Gry MOBA z klawiszami umiejętności i Smart Cast",
+        "RPG akcji z unikami i kombosami umiejętności na klawiaturze",
+        "Tablet w etui z klawiaturą albo telefon z hubem USB"
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mapowanie klawiszy: dotyk, przytrzymanie, szybkie klikanie i przesunięcie",
+      "paragraphs": [],
+      "bullets": [
+        "Mapowanie klawiatury: każdy klawisz jako dotyk, przytrzymanie, szybkie klikanie lub przesunięcie",
+        "Wyzwalanie przy naciśnięciu, długim lub podwójnym naciśnięciu albo puszczeniu",
+        "Joystick WASD w ośmiu kierunkach i klawisz sprintu",
+        "Lewy, prawy, środkowy i boczne przyciski myszy",
+        "Kliknięcie w miejscu kursora w menu, na mapie i w ekwipunku"
+      ]
+    },
+    {
+      "id": "mouse-look",
+      "title": "Rozglądanie się myszą i sterowanie kamerą",
+      "paragraphs": [],
+      "bullets": [
+        "Tryb kamery blokuje mysz i obraca widok, jak w grze na PC",
+        "Esc przełącza tryb kamery i tryb kursora",
+        "Zmiana czułości w meczu suwakiem lub skrótem klawiszowym",
+        "Odwrócenie osi Y, klawisz celownika i opcjonalny krzyżyk"
+      ]
+    },
+    {
+      "id": "presets",
+      "title": "Gotowe układy i szablony do FPS, MOBA i RPG",
+      "paragraphs": [],
+      "bullets": [
+        "Gotowe układy do popularnych gier, dopasowane do proporcji ekranu",
+        "Szablony FPS, MOBA, Akcja z otwartym światem i Ogólny",
+        "Edytor „przeciągnij i upuść”, rozmiar i przezroczystość klawiszy",
+        "Kilka układów dla jednej gry",
+        "Eksport, kopia zapasowa i kody udostępniania za darmo"
+      ]
+    },
+    {
+      "id": "typing-overlay",
+      "title": "Tryb pisania, pływający przełącznik i tryb streamowania",
+      "paragraphs": [],
+      "bullets": [
+        "Tryb pisania (Enter) przekazuje klawiaturę do czatu w grze",
+        "Pływający przełącznik: zmiana układów, czułości i edycja klawiszy w grze",
+        "Tryb streamowania ukrywa nakładkę podczas nagrywania"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Wasdo Pro: zaawansowane sterowanie myszą i makra",
+      "paragraphs": [
+        "Na start za darmo, bez reklam. Wasdo Pro dodaje nieograniczone gry i układy, kombinacje z modyfikatorami (Shift, Ctrl lub Alt + klawisz), krzywe czułości z osobną osią X i Y, wygładzanie i czułość przy zbliżeniu celownika, klawisze kółka myszy, makra jednym klawiszem, przełączanie scen, klawisze przełączające i sekwencje oraz Smart Cast w grach MOBA. Zapisane układy nadal działają."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Prywatność i ułatwienia dostępu",
+      "paragraphs": [
+        "Wasdo używa ułatwień dostępu tylko do odczytu klawiatury i myszy, gdy działa mapowanie, i do dotknięć w grze. Nie odczytuje, nie zapisuje ani nie wysyła zawartości ekranu."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Ważne",
+      "paragraphs": [],
+      "bullets": [
+        "Niektóre gry wykrywają zewnętrzną klawiaturę i mysz i mogą ograniczać konta. Wasdo nie ukrywa się przed grami i nie omija tego. Gry zgłoszone przez graczy są oznaczone w aplikacji.",
+        "Bez kontroli odrzutu i wspomagania celowania. Wasdo zamienia na dotknięcia tylko Twoje ruchy.",
+        "Touchpad nie obraca kamery. Użyj zwykłej myszy.",
+        "Zewnętrzny ekran działa w trybie dublowania, nie w trybie pulpitu Samsung DeX.",
+        "Do pada wypróbuj naszą siostrzaną aplikację Gamepad Pro.",
+        "Nazwy gier należą do ich właścicieli. Wasdo nie jest powiązane z żadnym wydawcą."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Coś nie działa?",
+      "paragraphs": [
+        "Najpierw uruchom Ustawienia → Autotest klawiatury i myszy. Nadal nic? Zanim wystawisz opinię, napisz na feedback@dapplebyte.com i podaj model telefonu oraz grę. Czytamy każdą wiadomość."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

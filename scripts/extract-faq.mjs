@@ -147,6 +147,18 @@ const CONFIG = {
     /** Single-string entries appended to the end of a section (app: FaqScreen adds Shizuku under Mapping). */
     extra: [{ id: 'shizuku', section: 'mapping', qKey: 'shizuku_faq_question', aKey: 'shizuku_faq_answer' }],
   },
+  /** Wasdo: the same five position-aligned arrays as Gamepad Pro; section 2 is keyboard and mouse (its title key is `faq_section_controller`). */
+  wasdo: {
+    kind: 'arrays',
+    res: 'app/src/main/res',
+    sections: [
+      { slug: 'setup', titleKey: 'faq_section_setup' },
+      { slug: 'mapping', titleKey: 'faq_section_mapping' },
+      { slug: 'keyboard-mouse', titleKey: 'faq_section_controller' },
+      { slug: 'pro', titleKey: 'faq_section_pro' },
+    ],
+    extra: [],
+  },
 };
 
 /** `<string-array>` / `<integer-array>` items by name, comments stripped. */

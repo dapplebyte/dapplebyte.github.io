@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · Bağımsız Android uygulamaları",
-    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo, telefonu Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çeviren JoyLink, bir de oyun kolunda çubuk kayması, giriş gecikmesi ve çalışmayan tuş olup olmadığını kontrol eden Gamepad Tester Pro var. DappleByte ayrıca uygulamaları yeni telefona taşıyan APK çıkarıcı, uygulama yedekleme aracı ve XAPK yükleyici Apk Extractor'ı geliştiriyor. En yeni uygulaması SlopSwipe ise YouTube Shorts, TikTok ve Instagram Reels'te yapay zekâyla üretilmiş videoları kaydırıp geçer, her atlamanın nedenini gösterir ve tek dokunuşla geri alınır.",
+    "description": "DappleByte, Android uygulamaları geliştiren bağımsız bir stüdyo. Uygulamaları arasında kumandayı dokunmatik kontrole çeviren tuş eşleme uygulaması Gamepad Pro, PS5 ile PS4 için Remote Play kumandası ve konsol akışı uygulaması Relaypad, AI destekli otomasyon ve otomatik tıklayıcı uygulaması WhenDo, telefonu Bluetooth oyun koluna, dokunmatik yüzeye ve TV kumandasına çeviren JoyLink, bir de oyun kolunda çubuk kayması, giriş gecikmesi ve çalışmayan tuş olup olmadığını kontrol eden Gamepad Tester Pro var. DappleByte ayrıca uygulamaları yeni telefona taşıyan APK çıkarıcı, uygulama yedekleme aracı ve XAPK yükleyici Apk Extractor'ı geliştiriyor. En yeni uygulaması SlopSwipe ise YouTube Shorts, TikTok ve Instagram Reels'te yapay zekâyla üretilmiş videoları kaydırıp geçer, her atlamanın nedenini gösterir ve tek dokunuşla geri alınır. Sırada Wasdo var: WASD ve fareyle kamera ile Android dokunmatik oyunlarını oynamak için bir klavye ve fare tuş eşleme uygulaması.",
     "appsHeading": "Uygulamalar",
     "principlesHeading": "Nasıl çalışıyoruz",
     "principles": [
@@ -747,6 +747,43 @@
       }
     },
     "wasdo": {
+      "kicker": "Klavye ve fare tuş eşleme · Root gerekmez",
+      "heroPoints": [
+        "WASD ile hareket, fareyle kamera, tuşlarla yetenek ve silah",
+        "Popüler oyunlar için hazır düzenler, ayrıca FPS, MOBA ve RPG şablonları",
+        "Yalnızca Erişilebilirlik izni: root yok, ADB yok, PC yok, yeniden etkinleştirme yok"
+      ],
+      "faqDescription": "Wasdo hakkında yanıtlar: kurulum ve Erişilebilirlik izni, tuş eşleme oluşturma, klavye ve fare, kamera kontrolü ve Wasdo Pro.",
+      "faqNotFoundBody": "Telefon modelinizi, klavye ve farenizi, oyunu ve ne olduğunu yazarak bize ulaşın. Her mesajı gerçek bir insan okur.",
+      "support": {
+        "beforeItems": [
+          "Wasdo'da Ayarlar → Bağlantı yardımcısı'nı açın. Klavye ve farenin algılanıp algılanmadığını kontrol eder, algılanmıyorsa düzeltmeniz için adım adım yol gösterir.",
+          "SSS'ye göz atın. Kurulum, izin ve eşlemeyle ilgili soruların çoğu, uygulamadakiyle aynı ifadelerle orada yanıtlanmıştır.",
+          "Hangi oyun, hangi klavye ve fare ve bir tuşa bastığınızda ekranda ne olduğunu not edin. Sorunu yeniden oluşturmak için tam olarak buna ihtiyacımız var."
+        ],
+        "template": {
+          "phone": "Telefon veya tablet modeli:",
+          "android": "Android sürümü:",
+          "devices": "Klavye ve fare (model, USB mi Bluetooth mu):",
+          "game": "Oyun veya uygulama:",
+          "what": "Ne oldu, adım adım:",
+          "pro": "Pro satın alındı mı: evet / hayır"
+        },
+        "refundBody": "Wasdo ücretsiz kurulur. Wasdo Pro satın aldıysanız ve sizin kurulumunuzla çalışmıyorsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi anlatın; sorunu bir sonraki kişi için düzeltmemize yardımcı olur."
+      },
+      "press": {
+        "description": "Android için klavye ve fare tuş eşleme uygulaması Wasdo hakkında yazmak için bilgiler, görseller ve hazır tanıtım metni.",
+        "boilerplate": "Wasdo, Android dokunmatik oyunlarını USB veya Bluetooth klavye ve fareyle oynamayı sağlar: WASD ile hareket, fareyle kamera kontrolü ve oyunun düğmelerinin üzerine yerleştirilen tuşlar; popüler oyunlar için hazır düzenler ile FPS, MOBA ve RPG şablonları da var. Yalnızca Erişilebilirlik izni gerekir; root, ADB ya da PC gerekmez. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilir.",
+        "priceValue": "Ücretsiz kurulur, reklam yoktur. Wasdo Pro, uygulama içi satın alımla gelişmiş fare ve makro kontrollerinin kilidini açar. Güncel fiyat Google Play'de gösterilir.",
+        "assetScreenshots": "Ekran görüntüleri, 1920 × 1080 PNG, İngilizce"
+      },
+      "videosDescription": "Wasdo'yu gerçek bir telefon ve tablette gösteren kısa videolar: klavye ve fareyi bağlama, tuş eşleme oluşturma, fareyle kamera ve en sık karşılaşılan sorunlar.",
+      "privacyDescription": "Android için Wasdo verilerinizle ne yapar: hesap yok, Erişilebilirlik Hizmeti ne için kullanılır, analiz ve çökme raporlama SDK'ları neler toplar ve isteğe bağlı veri toplama nasıl kapatılır.",
+      "compare": {
+        "description": "Wasdo'nun Android'deki diğer klavye ve fare eşleme uygulamalarıyla özellik özellik karşılaştırması; yalnızca gerçekler.",
+        "vsDescription": "{name} ve {other}, Android'de özellik özellik karşılaştırılıyor: root, ADB ve etkinleştirme, fareyle kamera, hazır düzenler, makrolar ve fiyatlandırma.",
+        "vsIntro": "İkisi de Android dokunmatik oyunlarını klavye ve fareyle oynamanızı sağlar. Aralarındaki farklar, özellik özellik."
+      },
       "labels": {
         "presets": "Hazır düzenler"
       },

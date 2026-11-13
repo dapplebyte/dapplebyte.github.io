@@ -1,0 +1,124 @@
+{
+  "slug": "wasdo",
+  "locale": "vi",
+  "title": "Wasdo: Keyboard Mouse Mapper",
+  "shortDescription": "Chơi game bằng bàn phím và chuột: WASD, gán phím, preset. Không cần root, ADB",
+  "tagline": "Chơi game bằng bàn phím và chuột trên điện thoại: không cần root, không cần ADB",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Chơi game bằng bàn phím và chuột trên điện thoại: không cần root, không cần ADB",
+      "paragraphs": [
+        "Wasdo là ứng dụng map bàn phím chuột giúp bạn chơi game bằng bàn phím và chuột trên điện thoại và máy tính bảng Android. Kết nối bàn phím và chuột USB hoặc Bluetooth, đặt phím lên các nút trong game và chơi như trên PC: WASD để di chuyển, chuột để xoay góc nhìn, phím để tung kỹ năng và đổi súng. Không cần root, không cần ADB, không cần PC và không cần ghép nối gỡ lỗi không dây. Chỉ cần bật một quyền Trợ năng là chơi được."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Không cần root, không cần ADB, không cần kích hoạt",
+      "paragraphs": [
+        "Nhiều app bàn phím chuột bắt bạn ghép nối gỡ lỗi không dây, chạy ADB từ máy tính hoặc kích hoạt lại sau mỗi lần khởi động lại máy. Wasdo thì không."
+      ],
+      "bullets": [
+        "Chỉ dùng Dịch vụ Trợ năng, không cần Shizuku hay app phụ trợ",
+        "Không mã ghép nối, không gỡ lỗi USB, không cần PC",
+        "Khởi động lại máy cũng không phải kích hoạt lại",
+        "Dùng được trên điện thoại và máy tính bảng Android"
+      ]
+    },
+    {
+      "id": "use-cases",
+      "title": "Mọi người thường dùng Wasdo thế nào",
+      "paragraphs": [],
+      "bullets": [
+        "Game bắn súng trên máy tính bảng: WASD di chuyển, chuột xoay góc nhìn, phím để nạp đạn và ngồi",
+        "Game MOBA với phím kỹ năng và Smart Cast",
+        "Game nhập vai hành động: né đòn và combo kỹ năng bằng bàn phím",
+        "Máy tính bảng có bao da bàn phím, hoặc điện thoại cắm hub USB"
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Gán phím: chạm, giữ, Turbo và vuốt",
+      "paragraphs": [],
+      "bullets": [
+        "Dùng như app map bàn phím: gán bất kỳ phím nào thành chạm, giữ, Turbo hoặc vuốt",
+        "Kích hoạt khi nhấn, nhấn giữ, nhấn đúp hoặc khi thả",
+        "Joystick WASD tám hướng kèm phím chạy nhanh",
+        "Gán chuột trái, chuột phải, chuột giữa và nút bên",
+        "Nhấp tại vị trí con trỏ để mở menu, bản đồ, túi đồ"
+      ]
+    },
+    {
+      "id": "mouse-look",
+      "title": "Xoay góc nhìn bằng chuột, điều khiển camera",
+      "paragraphs": [],
+      "bullets": [
+        "Chế độ góc nhìn khóa chuột để xoay góc nhìn, giống game trên PC",
+        "Bấm Esc để chuyển giữa Chế độ góc nhìn và Chế độ con trỏ",
+        "Đổi độ nhạy ngay trong trận bằng thanh trượt hoặc phím tắt",
+        "Đảo trục Y, phím mở ống ngắm và tâm ngắm tùy chọn"
+      ]
+    },
+    {
+      "id": "presets",
+      "title": "Layout có sẵn và mẫu cho FPS, MOBA, RPG",
+      "paragraphs": [],
+      "bullets": [
+        "Layout có sẵn cho các game phổ biến, tự khớp tỉ lệ màn hình của bạn",
+        "Mẫu theo thể loại: FPS, MOBA, Hành động thế giới mở và Chung",
+        "Trình chỉnh sửa kéo thả, chỉnh được cỡ phím và độ trong suốt",
+        "Mỗi game lưu được nhiều layout",
+        "Xuất, sao lưu và mã chia sẻ đều miễn phí"
+      ]
+    },
+    {
+      "id": "typing-overlay",
+      "title": "Chế độ gõ chữ, Nút nổi và Chế độ stream",
+      "paragraphs": [],
+      "bullets": [
+        "Chế độ gõ chữ (Enter) đưa bàn phím vào khung chat của game",
+        "Nút nổi: đổi layout, chỉnh độ nhạy, sửa phím ngay trong game",
+        "Chế độ stream ẩn lớp phủ khi bạn quay màn hình"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Wasdo Pro: tính năng chuột và macro nâng cao",
+      "paragraphs": [
+        "Bắt đầu miễn phí, không quảng cáo. Wasdo Pro mở thêm game và layout không giới hạn, tổ hợp phím bổ trợ (Shift, Ctrl hoặc Alt cộng một phím), đường cong độ nhạy chuột, độ nhạy riêng cho trục X và Y, làm mượt và độ nhạy khi mở ống ngắm, phím con lăn chuột, macro một phím, chuyển cảnh, phím Toggle và phím chuỗi, cùng Smart Cast cho MOBA. Các layout bạn đã lưu vẫn dùng bình thường."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Quyền riêng tư và quyền Trợ năng",
+      "paragraphs": [
+        "Wasdo chỉ dùng Dịch vụ Trợ năng để đọc bàn phím và chuột khi đang chạy ánh xạ và tạo thao tác chạm lên game. Wasdo không đọc, lưu hay tải lên nội dung màn hình của bạn."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Lưu ý",
+      "paragraphs": [],
+      "bullets": [
+        "Một số game phát hiện bàn phím và chuột gắn ngoài và có thể hạn chế tài khoản. Wasdo không ẩn mình và không lách việc này. Game đã được người chơi báo cáo sẽ có nhãn trong app.",
+        "Không có ghìm tâm hay hỗ trợ ngắm. Wasdo chỉ chuyển thao tác của chính bạn thành thao tác chạm.",
+        "Touchpad không xoay được góc nhìn. Hãy dùng chuột thường.",
+        "Màn hình ngoài dùng được ở chế độ phản chiếu, không hỗ trợ chế độ máy tính của Samsung DeX.",
+        "Nếu dùng tay cầm, hãy thử app chị em Gamepad Pro.",
+        "Tên game thuộc về chủ sở hữu tương ứng. Wasdo không liên kết với bất kỳ nhà phát hành nào."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Gặp sự cố?",
+      "paragraphs": [
+        "Hãy chạy Cài đặt → Tự kiểm tra bàn phím và chuột. Vẫn chưa được? Gửi email tới feedback@dapplebyte.com kèm dòng máy và tên game trước khi để lại đánh giá. Chúng tôi đọc mọi tin nhắn."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

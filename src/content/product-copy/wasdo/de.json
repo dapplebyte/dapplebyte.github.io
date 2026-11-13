@@ -1,0 +1,124 @@
+{
+  "slug": "wasdo",
+  "locale": "de",
+  "title": "Wasdo: Keyboard Mouse Mapper",
+  "shortDescription": "Handyspiele mit Tastatur und Maus spielen: WASD, Tastenbelegung, ohne Root & ADB",
+  "tagline": "Handyspiele mit Tastatur und Maus spielen: ohne Root, ohne ADB",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Handyspiele mit Tastatur und Maus spielen: ohne Root, ohne ADB",
+      "paragraphs": [
+        "Mit dem Keyboard-Mouse-Mapper Wasdo spielst du am Android-Handy oder -Tablet mit Tastatur und Maus. USB- oder Bluetooth-Tastatur und -Maus anschließen, Tasten auf die Spielbuttons legen und wie am PC steuern: WASD zum Laufen, die Maus für die Kamera, Tasten für Skills und Waffen. Ohne Root, ADB oder PC und ohne Kopplung per kabellosem Debugging. Eine Bedienungshilfe-Berechtigung einschalten, fertig."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Ohne Root, ohne ADB, ohne Aktivierung",
+      "paragraphs": [
+        "Viele Apps dieser Art verlangen kabelloses Debugging, ADB am Computer oder nach jedem Neustart eine neue Aktivierung. Wasdo nicht."
+      ],
+      "bullets": [
+        "Nur die Bedienungshilfe, kein Shizuku, keine Hilfs-App",
+        "Keine Kopplungscodes, kein USB-Debugging, kein PC",
+        "Nach einem Neustart nichts neu aktivieren",
+        "Läuft auf Android-Handys und -Tablets"
+      ]
+    },
+    {
+      "id": "use-cases",
+      "title": "So spielen andere mit Wasdo",
+      "paragraphs": [],
+      "bullets": [
+        "Shooter auf dem Tablet: WASD, Umsehen mit der Maus, Tasten zum Nachladen und Ducken",
+        "MOBA-Spiele mit Skill-Tasten und Smart Cast",
+        "Action-RPGs mit Ausweichen und Skill-Kombos auf der Tastatur",
+        "Tablet mit Tastatur-Hülle oder Handy am USB-Hub"
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Tastenbelegung: Tippen, Halten, Turbo und Wischen",
+      "paragraphs": [],
+      "bullets": [
+        "Als Tastatur-Mapper: jede Taste als Tippen, Halten, Turbo oder Wischen",
+        "Auslösen beim Drücken, langen Drücken, Doppeltippen oder Loslassen",
+        "WASD-Joystick mit acht Richtungen und Sprint-Taste",
+        "Linke, rechte, mittlere und Seitentasten der Maus belegen",
+        "Klick an der Cursorposition für Menüs, Karte und Inventar"
+      ]
+    },
+    {
+      "id": "mouse-look",
+      "title": "Maussteuerung: Kamera mit der Maus drehen",
+      "paragraphs": [],
+      "bullets": [
+        "Der Kameramodus fixiert die Maus und dreht die Ansicht wie am PC",
+        "Esc wechselt zwischen Kameramodus und Cursormodus",
+        "Empfindlichkeit mitten im Match per Regler oder Hotkey ändern",
+        "Y-Achse umkehren, Zielfernrohr-Taste, optionales Fadenkreuz"
+      ]
+    },
+    {
+      "id": "presets",
+      "title": "Presets und Vorlagen für FPS, MOBA und RPG",
+      "paragraphs": [],
+      "bullets": [
+        "Fertige Presets für beliebte Spiele, passend zu deinem Bildschirmformat",
+        "Vorlagen: FPS, MOBA, Open-World-Action und Allgemein",
+        "Drag-and-drop-Editor, Tastengröße und Deckkraft einstellbar",
+        "Mehrere Layouts pro Spiel",
+        "Export, Backup und Teilen per Code kostenlos"
+      ]
+    },
+    {
+      "id": "typing-overlay",
+      "title": "Schreibmodus, schwebender Umschalter und Streaming-Modus",
+      "paragraphs": [],
+      "bullets": [
+        "Schreibmodus (Enter) schickt deine Tastatur in den Spielchat",
+        "Schwebender Umschalter: Layout wechseln, Empfindlichkeit ändern, Tasten im Spiel anpassen",
+        "Streaming-Modus blendet das Overlay beim Aufnehmen aus"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Wasdo Pro: erweiterte Maussteuerung und Makros",
+      "paragraphs": [
+        "Kostenlos starten, keine Werbung. Wasdo Pro bringt unbegrenzte Spiele und Layouts, Modifikator-Kombis (Shift, Ctrl oder Alt + Taste), Empfindlichkeitskurven mit X und Y getrennt, Glättung und Zielfernrohr-Zoom, Mausrad-Tasten, Ein-Tasten-Makros, Szenenwechsel, Toggle- und Sequenztasten sowie MOBA-Smart-Cast. Gespeicherte Layouts funktionieren weiter."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Datenschutz und die Bedienungshilfe-Berechtigung",
+      "paragraphs": [
+        "Wasdo nutzt die Bedienungshilfe nur, um bei aktiver Belegung Tastatur und Maus zu lesen und Berührungen im Spiel auszulösen. Dein Bildschirm wird weder gelesen noch gespeichert oder hochgeladen."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Bitte beachten",
+      "paragraphs": [],
+      "bullets": [
+        "Manche Spiele erkennen externe Tastatur und Maus und können Konten einschränken. Wasdo versteckt sich nicht und umgeht das nicht. Von Spielern gemeldete Spiele sind in der App markiert.",
+        "Kein Rückstoßausgleich, keine Zielhilfe. Wasdo macht nur aus deinen Eingaben Berührungen.",
+        "Touchpads können die Kamera nicht drehen. Nimm eine normale Maus.",
+        "Externe Displays laufen im Spiegelungsmodus, nicht im Desktopmodus von Samsung DeX.",
+        "Für Controller: unsere Schwester-App Gamepad Pro.",
+        "Spielnamen gehören ihren Inhabern. Wasdo ist mit keinem Publisher verbunden."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Funktioniert etwas nicht?",
+      "paragraphs": [
+        "Starte zuerst Einstellungen → Tastatur- & Maus-Selbsttest. Klappt es nicht? Schreib vor einer Bewertung an feedback@dapplebyte.com, mit Handymodell und Spiel. Wir lesen jede Nachricht."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

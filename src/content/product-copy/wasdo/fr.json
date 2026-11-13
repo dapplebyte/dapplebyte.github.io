@@ -1,0 +1,124 @@
+{
+  "slug": "wasdo",
+  "locale": "fr",
+  "title": "Wasdo: Keyboard Mouse Mapper",
+  "shortDescription": "Clavier souris pour jeux mobiles : WASD, mappage des touches, sans root ni ADB",
+  "tagline": "Clavier souris pour jeux mobiles : sans root, sans ADB",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Clavier souris pour jeux mobiles : sans root, sans ADB",
+      "paragraphs": [
+        "Wasdo est un mappeur clavier souris pour jouer au clavier et à la souris sur téléphone et tablette Android. Branche un clavier et une souris USB ou Bluetooth, place des touches sur les boutons du jeu et joue comme sur PC : WASD pour bouger, la souris pour la caméra, des touches pour les compétences et les armes. Sans root, ADB ni PC, sans associer le débogage sans fil. Une seule autorisation d'accessibilité et c'est parti."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Sans root, sans ADB, sans activation",
+      "paragraphs": [
+        "Beaucoup d'applis exigent le débogage sans fil, ADB depuis un ordinateur ou une réactivation à chaque redémarrage. Pas Wasdo."
+      ],
+      "bullets": [
+        "Juste le service d'accessibilité, ni Shizuku ni appli tierce",
+        "Ni code d'association, ni débogage USB, ni PC",
+        "Rien à réactiver après un redémarrage",
+        "Sur téléphones et tablettes Android"
+      ]
+    },
+    {
+      "id": "use-cases",
+      "title": "Comment les joueurs utilisent Wasdo",
+      "paragraphs": [],
+      "bullets": [
+        "Jeux de tir sur tablette : WASD, caméra à la souris, touches pour recharger et s'accroupir",
+        "MOBA avec touches de compétences et Smart Cast",
+        "RPG d'action : esquives et combos au clavier",
+        "Tablette avec étui clavier, ou téléphone sur un hub USB"
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mappage des touches : appui, maintien, rafale et balayage",
+      "paragraphs": [],
+      "bullets": [
+        "Mappeur clavier : chaque touche devient appui, maintien, rafale ou balayage",
+        "Déclenchement à l'appui, appui long, double appui ou relâchement",
+        "Joystick WASD huit directions avec touche de sprint",
+        "Boutons gauche, droit, central et latéraux de la souris",
+        "Clic sous le curseur pour menus, carte et inventaire"
+      ]
+    },
+    {
+      "id": "mouse-look",
+      "title": "Caméra à la souris, comme sur PC",
+      "paragraphs": [],
+      "bullets": [
+        "Le mode caméra verrouille la souris et tourne la vue, comme sur PC",
+        "Esc bascule entre mode caméra et mode curseur",
+        "Sensibilité réglable en pleine partie, par curseur ou raccourcis",
+        "Axe Y inversé, touche de lunette, réticule en option"
+      ]
+    },
+    {
+      "id": "presets",
+      "title": "Dispositions prédéfinies et modèles FPS, MOBA, RPG",
+      "paragraphs": [],
+      "bullets": [
+        "Dispositions prédéfinies pour les jeux populaires, adaptées à ton écran",
+        "Modèles FPS, MOBA, Action en monde ouvert et Général",
+        "Éditeur glisser-déposer, taille et opacité des touches réglables",
+        "Plusieurs dispositions par jeu",
+        "Export, sauvegarde et codes de partage gratuits"
+      ]
+    },
+    {
+      "id": "typing-overlay",
+      "title": "Mode saisie, bulle flottante et mode streaming",
+      "paragraphs": [],
+      "bullets": [
+        "Le mode saisie (Enter) envoie ton clavier au chat du jeu",
+        "Bulle flottante : disposition, sensibilité et touches modifiables en jeu",
+        "Le mode streaming masque la superposition quand tu enregistres"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Wasdo Pro : souris avancée et macros",
+      "paragraphs": [
+        "Gratuit pour commencer, sans pub. Wasdo Pro ajoute jeux et dispositions illimités, combinaisons de touches (Shift, Ctrl ou Alt + touche), courbes de sensibilité X et Y séparées, lissage et sensibilité en visée, touches de molette, macros en une touche, changement de scène, touches bascule et séquence, et Smart Cast pour MOBA. Tes dispositions enregistrées restent utilisables."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Confidentialité et autorisation d'accessibilité",
+      "paragraphs": [
+        "Wasdo utilise l'accessibilité uniquement pour lire clavier et souris pendant un mappage et générer les appuis dans le jeu. Il ne lit, n'enregistre ni n'envoie ton écran."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "À savoir",
+      "paragraphs": [],
+      "bullets": [
+        "Certains jeux détectent clavier et souris externes et peuvent restreindre les comptes. Wasdo ne se cache pas et ne contourne rien. Les jeux signalés par des joueurs sont indiqués dans l'appli.",
+        "Ni contrôle du recul ni aide à la visée : Wasdo convertit seulement tes actions en appuis.",
+        "Un pavé tactile ne tourne pas la caméra. Prends une vraie souris.",
+        "Écran externe : mode recopie, pas le mode bureau Samsung DeX.",
+        "Pour les manettes, essaie notre appli sœur Gamepad Pro.",
+        "Les noms de jeux appartiennent à leurs propriétaires. Wasdo n'est affilié à aucun éditeur."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Un problème ?",
+      "paragraphs": [
+        "Lance d'abord Paramètres → Autotest clavier et souris. Toujours bloqué ? Avant de laisser un avis, écris à feedback@dapplebyte.com (modèle de téléphone et jeu). Nous lisons chaque message."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

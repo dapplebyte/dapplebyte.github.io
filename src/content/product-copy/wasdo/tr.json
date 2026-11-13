@@ -1,0 +1,124 @@
+{
+  "slug": "wasdo",
+  "locale": "tr",
+  "title": "Wasdo: Keyboard Mouse Mapper",
+  "shortDescription": "Tuş atama: klavye ve fareyle mobil oyun, WASD, hazır düzen. Root, ADB gerekmez",
+  "tagline": "Mobil Oyunlar için Klavye Mouse Tuş Atama: Root ve ADB Gerekmez",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Mobil Oyunlar için Klavye Mouse Tuş Atama: Root ve ADB Gerekmez",
+      "paragraphs": [
+        "Wasdo, Android telefon ve tabletlerde klavye ve fareyle oynamanızı sağlayan bir klavye mouse tuş atama uygulamasıdır. USB veya Bluetooth klavye ve fareyi bağlayın, tuşları oyun düğmelerinin üzerine yerleştirin ve dokunmatik oyunları PC'deki gibi oynayın: WASD ile hareket, fareyle kamera, tuşlarla yetenek ve silah. Root, ADB, bilgisayar ve kablosuz hata ayıklama eşleştirmesi gerekmez. Tek bir Erişilebilirlik iznini açın, oynayın."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Root, ADB ve Etkinleştirme Gerekmez",
+      "paragraphs": [
+        "Birçok klavye ve fare uygulaması kablosuz hata ayıklama eşleştirmesi, bilgisayardan ADB ya da her yeniden başlatmada tekrar etkinleştirme ister. Wasdo istemez."
+      ],
+      "bullets": [
+        "Yalnızca Erişilebilirlik hizmeti; Shizuku ya da yardımcı uygulama yok",
+        "Eşleştirme kodu, USB hata ayıklama, bilgisayar yok",
+        "Yeniden başlatınca tekrar etkinleştirmeye gerek yok",
+        "Android telefon ve tabletlerde çalışır"
+      ]
+    },
+    {
+      "id": "use-cases",
+      "title": "Oyuncular Wasdo'yu Nasıl Kullanıyor",
+      "paragraphs": [],
+      "bullets": [
+        "Tablette nişancı oyunları: WASD ile hareket, fareyle bakış, şarjör ve eğilme tuşları",
+        "Yetenek tuşları ve Smart Cast ile MOBA oyunları",
+        "Klavyeden kaçış ve yetenek kombolarıyla aksiyon RPG'ler",
+        "Klavyeli kılıflı bir tablet ya da USB hub'a bağlı bir telefon"
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Tuş Atama: Dokunma, Basılı Tutma, Seri Dokunma ve Kaydırma",
+      "paragraphs": [],
+      "bullets": [
+        "Klavye tuş atama: her tuşa dokunma, basılı tutma, seri dokunma veya kaydırma",
+        "Basma, uzun basma, çift basma veya bırakmada tetikleme",
+        "Sekiz yönlü WASD joystick ve koşma tuşu",
+        "Farenin sol, sağ, orta ve yan tuşlarını atayın",
+        "Menü, harita ve envanter için imlecin olduğu yere tıklama"
+      ]
+    },
+    {
+      "id": "mouse-look",
+      "title": "Fareyle Bakış ve Kamera Kontrolü",
+      "paragraphs": [],
+      "bullets": [
+        "Kamera modu fareyi kilitler ve görüş açısını PC oyunlarındaki gibi çevirir",
+        "Esc ile kamera modu ve imleç modu arasında geçiş yapın",
+        "Maç sırasında hassasiyeti kaydırıcı veya kısayol tuşuyla değiştirin",
+        "Y eksenini ters çevirme, dürbün tuşu ve isteğe bağlı nişangâh"
+      ]
+    },
+    {
+      "id": "presets",
+      "title": "FPS, MOBA ve RPG için Hazır Düzenler ve Şablonlar",
+      "paragraphs": [],
+      "bullets": [
+        "Popüler oyunlar için ekran oranınıza uyarlanan hazır düzenler",
+        "FPS, MOBA, Açık dünya aksiyon ve Genel şablonları",
+        "Sürükle-bırak düzenleyici, tuş boyutu ve opaklık ayarı",
+        "Her oyun için birden fazla düzen",
+        "Dışa aktarma, yedekleme ve paylaşım kodları ücretsiz"
+      ]
+    },
+    {
+      "id": "typing-overlay",
+      "title": "Yazma Modu, Yüzen Düğme ve Yayın Modu",
+      "paragraphs": [],
+      "bullets": [
+        "Yazma modu (Enter) klavyenizi oyun sohbetine aktarır",
+        "Yüzen düğme: oyun içinde düzen, hassasiyet ve tuş ayarı",
+        "Yayın modu kayıt sırasında katmanı gizler"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Wasdo Pro: Gelişmiş Fare ve Makro Kontrolleri",
+      "paragraphs": [
+        "Ücretsiz başlayın, reklam yok. Wasdo Pro; sınırsız oyun ve düzen, değiştirici tuş kombinasyonları (Shift, Ctrl veya Alt + tuş), ayrı X ve Y hassasiyet eğrileri, yumuşatma ve dürbün yakınlaştırma hassasiyeti, tekerlek tuşları, tek tuş makroları, sahne değiştirme, aç/kapat ve dizi tuşları ile MOBA için Smart Cast ekler. Kaydettiğiniz düzenler çalışmaya devam eder."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Gizlilik ve Erişilebilirlik İzni",
+      "paragraphs": [
+        "Wasdo, Erişilebilirlik hizmetini yalnızca eşleme çalışırken klavye ve fareyi okumak ve oyuna dokunuş göndermek için kullanır. Ekranınızı okumaz, saklamaz, yüklemez."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Lütfen Dikkat",
+      "paragraphs": [],
+      "bullets": [
+        "Bazı oyunlar harici klavye ve fareyi algılar ve hesapları kısıtlayabilir. Wasdo kendini gizlemez, bunu aşmanın yolunu da sunmaz. Oyuncuların bildirdiği oyunlar uygulamada etiketlenir.",
+        "Sekme kontrolü ve nişan yardımı yok. Wasdo yalnızca kendi girdinizi dokunuşa çevirir.",
+        "Touchpad kamerayı çeviremez. Normal bir fare kullanın.",
+        "Harici ekranlar Samsung DeX masaüstü modunda değil, ekran yansıtma modunda çalışır.",
+        "Oyun kumandası için kardeş uygulamamız Gamepad Pro'yu deneyin.",
+        "Oyun adları sahiplerine aittir. Wasdo hiçbir yayıncıyla bağlantılı değildir."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Bir Sorun mu Var?",
+      "paragraphs": [
+        "Önce Ayarlar → Klavye ve fare testi'ni çalıştırın. Sorun sürerse, yorum yazmadan önce telefon modeli ve oyunla birlikte feedback@dapplebyte.com adresine yazın. Her mesajı okuyoruz."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

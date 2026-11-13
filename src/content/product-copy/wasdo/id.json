@@ -1,0 +1,124 @@
+{
+  "slug": "wasdo",
+  "locale": "id",
+  "title": "Wasdo: Keyboard Mouse Mapper",
+  "shortDescription": "Mapping tombol game HP ala PC: WASD, putar kamera, preset. Tanpa root, ADB, PC",
+  "tagline": "Mapping Keyboard Mouse untuk Game HP: Tanpa Root, Tanpa ADB",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Mapping Keyboard Mouse untuk Game HP: Tanpa Root, Tanpa ADB",
+      "paragraphs": [
+        "Wasdo adalah aplikasi mapping keyboard mouse untuk main game pakai keyboard dan mouse di HP dan tablet Android. Sambungkan keyboard dan mouse USB atau Bluetooth, taruh tombol di atas tombol game, lalu main ala PC: WASD untuk jalan, mouse untuk putar kamera, tombol untuk skill dan senjata. Tanpa root, tanpa ADB, tanpa PC, dan tanpa pairing wireless debugging. Cukup aktifkan satu izin Aksesibilitas, langsung main."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Tanpa Root, Tanpa ADB, Tanpa Aktivasi",
+      "paragraphs": [
+        "Banyak aplikasi keyboard mouse minta pairing wireless debugging, ADB dari komputer, atau aktivasi ulang tiap HP restart. Wasdo tidak."
+      ],
+      "bullets": [
+        "Cuma Layanan Aksesibilitas, tanpa Shizuku atau aplikasi pendamping",
+        "Tanpa kode pairing, tanpa USB debugging, tanpa PC",
+        "Tidak perlu aktivasi ulang setelah restart",
+        "Bisa dipakai di HP dan tablet Android"
+      ]
+    },
+    {
+      "id": "use-cases",
+      "title": "Cara Populer Pakai Wasdo",
+      "paragraphs": [],
+      "bullets": [
+        "Game shooter di tablet: WASD jalan, mouse untuk kamera, tombol reload dan jongkok",
+        "Game MOBA dengan tombol skill dan Smart Cast",
+        "Game RPG aksi dengan dodge dan kombo skill di keyboard",
+        "Tablet dengan keyboard case, atau HP lewat USB hub"
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mapping Tombol: Tap, Tahan, Turbo, dan Swipe",
+      "paragraphs": [],
+      "bullets": [
+        "Pakai sebagai keyboard mapper: atur tombol apa pun jadi tap, tahan, turbo, atau swipe",
+        "Aktif saat ditekan, ditekan lama, diketuk dua kali, atau dilepas",
+        "Joystick WASD delapan arah dengan tombol sprint",
+        "Mapping tombol kiri, kanan, tengah, dan samping mouse",
+        "Klik di posisi kursor untuk menu, peta, dan inventaris"
+      ]
+    },
+    {
+      "id": "mouse-look",
+      "title": "Kontrol Kamera dengan Mouse",
+      "paragraphs": [],
+      "bullets": [
+        "Mode kamera mengunci mouse untuk memutar pandangan, seperti game PC",
+        "Tekan Esc untuk beralih antara Mode kamera dan Mode kursor",
+        "Atur sensitivitas saat match lewat slider atau hotkey",
+        "Balik sumbu Y, tombol scope, dan crosshair opsional"
+      ]
+    },
+    {
+      "id": "presets",
+      "title": "Preset dan Template untuk FPS, MOBA, dan RPG",
+      "paragraphs": [],
+      "bullets": [
+        "Preset siap pakai untuk game populer, pas dengan rasio layarmu",
+        "Template FPS, MOBA, Aksi open world, dan Umum",
+        "Editor drag-and-drop, ukuran dan transparansi tombol bisa diubah",
+        "Beberapa layout untuk tiap game",
+        "Ekspor, backup, dan kode berbagi gratis"
+      ]
+    },
+    {
+      "id": "typing-overlay",
+      "title": "Mode Mengetik, Pengalih Melayang, dan Mode Stream",
+      "paragraphs": [],
+      "bullets": [
+        "Mode mengetik (Enter) meneruskan keyboard ke chat game",
+        "Pengalih melayang: ganti layout, atur sensitivitas, edit tombol di game",
+        "Mode stream menyembunyikan overlay saat kamu merekam"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Wasdo Pro: Kontrol Mouse dan Makro Lanjutan",
+      "paragraphs": [
+        "Gratis untuk mulai, tanpa iklan. Wasdo Pro menambahkan game dan layout tanpa batas, kombo modifier (Shift, Ctrl, atau Alt + satu tombol), kurva sensitivitas mouse, sensitivitas X dan Y terpisah, penghalusan dan zoom scope, tombol roda scroll, makro satu tombol, ganti scene, tombol toggle dan sequence, serta Smart Cast untuk MOBA. Layout yang sudah kamu simpan tetap bisa dipakai."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privasi dan Izin Aksesibilitas",
+      "paragraphs": [
+        "Wasdo memakai Layanan Aksesibilitas hanya untuk membaca keyboard dan mouse saat mapping aktif dan membuat sentuhan di game, dan tidak membaca, menyimpan, atau mengunggah isi layarmu."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Perlu Diketahui",
+      "paragraphs": [],
+      "bullets": [
+        "Beberapa game mendeteksi keyboard dan mouse eksternal, dan bisa membatasi akun. Wasdo tidak menyembunyikan diri dan tidak mengakali deteksi ini. Game yang dilaporkan pemain diberi label di aplikasi.",
+        "Tidak ada kontrol recoil atau aim assist. Wasdo hanya mengubah input kamu sendiri jadi sentuhan.",
+        "Touchpad tidak bisa memutar kamera. Gunakan mouse biasa.",
+        "Layar eksternal bisa dipakai di mode mirroring, bukan mode desktop Samsung DeX.",
+        "Untuk controller, coba aplikasi saudara kami, Gamepad Pro.",
+        "Nama game milik pemiliknya masing-masing. Wasdo tidak berafiliasi dengan penerbit mana pun."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Ada yang Tidak Berfungsi?",
+      "paragraphs": [
+        "Jalankan dulu Setelan → Cek mandiri keyboard & mouse. Masih gagal? Kirim email ke feedback@dapplebyte.com dengan model HP dan nama game sebelum memberi ulasan. Kami membaca setiap pesan."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

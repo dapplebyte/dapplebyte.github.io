@@ -11,6 +11,7 @@ const SOURCE = {
   'apk-extractor': { file: 'policy/AppExtractorPrivacyPolicyV915.html', format: 'wrap' },
   relaypad: { file: 'docs/privacy-policy.html', format: 'wrap' },
   'gamepad-pro': { file: 'docs/privacy/gamePadProV1007.html', format: 'main' },
+  wasdo: { file: 'docs/privacy/index.html', format: 'main' },
   whendo: { file: 'app/src/main/assets/privacy-policy.html', format: 'body' },
   joylink: { file: 'app/src/main/assets/privacy-policy.html', format: 'body' },
   'gamepad-tester': { file: 'docs/GamepadTesterV915.html', format: 'wrap' },

@@ -1,0 +1,206 @@
+{
+  "slug": "wasdo",
+  "locale": "tr",
+  "title": "SSS ve Yardım",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Kurulum",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Wasdo ne yapar?",
+          "a": [
+            "Wasdo, USB veya Bluetooth klavye ve fareyi ekrandaki dokunuşlara ve kaydırmalara dönüştürür; böylece dokunmatik oyunları PC'deki gibi oynayabilirsiniz: tuşlarla hareket edip eylem yapar, fareyle etrafa bakarsınız."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Erişilebilirlik izni neden gerekli? Güvenli mi?",
+          "a": [
+            "Erişilebilirlik hizmeti, Wasdo'nun bir tuş eşlemesi çalışırken klavye ve farenizi okumasını ve ön plandaki oyunda dokunuşlar oluşturmasını sağlar – uygulama dışındayken bile. Eşlemeler yalnızca hizmeti etkinleştirdikten sonra çalışır. Wasdo bunu yalnızca ayarladığınız işlemleri gerçekleştirmek için kullanır; ekranınızdaki içeriği, yazdıklarınızı veya şifrelerinizi okumaz, saklamaz ya da yüklemez."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Arka planda bir süre sonra duruyor. Nasıl düzeltirim?",
+          "a": [
+            "Android, güç tasarrufu için arka plandaki uygulamaları kapatabilir. Pil optimizasyonunu kapatarak Wasdo'nun arka planda çalışmasına izin verin. Bazı markalar (MIUI veya Samsung gibi) ek güç tasarrufu kuralları ekler – dontkillmyapp.com'daki kılavuz bunları cihazınızda nasıl kapatacağınızı gösterir."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Wasdo root erişimi gerektirir mi?",
+          "a": [
+            "Hayır. Wasdo erişilebilirlik hizmeti üzerinden çalışır; root ya da başka bir yardımcı uygulama gerektirmez."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Wasdo oyun kumandalarını destekliyor mu?",
+          "a": [
+            "Hayır. Wasdo yalnızca klavye ve fare için tasarlandı. Oyun kumandaları için tam da bu iş için geliştirilen kardeş uygulamamız Gamepad Pro'yu kullanın; Wasdo ile birlikte çalışır: ikisi de yüklüyken ve Gamepad Pro çalışırken kumanda girişi otomatik olarak Gamepad Pro'ya gider."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Eşleme",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Tuş eşlemem çalışmıyor. Neyi kontrol etmeliyim?",
+          "a": [
+            "1. Erişilebilirlik hizmetinin açık olduğundan emin olun (Ayarlar → Erişilebilirlik → Wasdo).",
+            "2. Eşlemenin açık (duraklatılmamış) olduğundan emin olun.",
+            "3. Ana ekranda klavyenin bağlı göründüğünü kontrol edin.",
+            "4. Önce çalışıp sonra durduysa pil/arka plan ayarlarını kontrol edin (bir sonraki soruya bakın)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Tuş eşlemesi nasıl oluştururum?",
+          "a": [
+            "1. Oyununuzu listeden ekleyin, ardından oyunun sayfasında «Yeni düzen» seçeneğine dokunun.",
+            "2. Oyunun «Bu oyuna özel» bölümünde hazır bir düzeni varsa onu seçin; o oyun için önceden ayarlanmış bir düzenle başlarsınız. Yoksa bir tür şablonuyla (FPS, MOBA, Açık dünya aksiyon veya Genel) ya da boş bir düzenle başlayın.",
+            "3. Her tuşu dokunması gereken düğmenin üzerine sürükleyin. Tuş eklemek için + simgesine dokunun, ardından bir klavye tuşuna basın, bir fare düğmesine tıklayın veya tekerleği kaydırın.",
+            "4. Kaydedin, ardından oyunda Esc tuşuna basarak fareyi kilitleyin ve oynayın."
+          ]
+        },
+        {
+          "id": "q07",
+          "q": "Her oyunla çalışır mı?",
+          "a": [
+            "Çoğu dokunmatik oyunla çalışır. Bazı oyunlar harici klavye ve fareyi algılar ve bunları kullanan hesapları kısıtlayabilir; Wasdo bunu aşmak için hiçbir yol sunmaz. Birkaç oyun da taklit edilen dokunuşları engeller. Bir oyun tepki vermezse «Geri bildirim gönder» üzerinden bize bildirin."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Güncelleme eşlemelerimi siler mi?",
+          "a": [
+            "Hayır. Güncellemeler oyunlarınızı, düzenlerinizi ve tuşlarınızı korur. Bunlar yalnızca uygulamayı kaldırdığınızda silinir; telefon değiştiriyorsanız önce bir yedeği dışa aktarın (Ayarlar → Yedekleme ve geri yükleme → Tüm eşlemeleri yedekle) ve yeni cihazda içe aktarın. Yeni telefonda aynı Google hesabıyla oturum açtığınızda Android'in otomatik yedeklemesi de bunları geri yükler."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Wasdo sekmeyi azaltabilir veya benim yerime nişan alabilir mi?",
+          "a": [
+            "Hayır, hiçbir zaman da yapmayacak. Sekme kontrolü, nişan yardımı ve oyunda sizin yerinize işlem yapan her şey çoğu oyunda hile sayılır ve hesapların yasaklanmasına yol açabilir. Wasdo yalnızca kendi tuş basışlarınızı ve fare hareketlerinizi dokunuşlara ve kaydırmalara dönüştürür."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Bir düzeni arkadaşımla nasıl paylaşırım?",
+          "a": [
+            "Oyunun sayfasında paylaşım menüsünü açın ve «Paylaşım kodu al» seçeneğini belirleyin. Arkadaşınız Ayarlar → Yedekleme ve geri yükleme → Paylaşım koduyla içe aktar bölümüne gidip 8 karakterlik kodu girer. Kodlar 90 gün geçerlidir ve yalnızca düzeni içerir; cihazınızla ilgili hiçbir bilgi içermez. Paylaşma ücretsizdir, içe aktarma da öyle; ancak düzen Pro özellikleri kullanıyorsa içe aktarmak için Pro veya ücretsiz denemelerinizden biri gerekir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keyboard-mouse",
+      "title": "Klavye ve fare",
+      "entries": [
+        {
+          "id": "q08",
+          "q": "Klavye ve fareyi nasıl bağlarım?",
+          "a": [
+            "USB ile takın (USB-C adaptör veya hub da olur) ya da telefonunuzun ayarlarından Bluetooth ile eşleştirin. Bağlandıktan sonra ana ekranda görünürler. Dokunmatik yüzeyle etrafa bakılamaz (aşağıya bakın), bu yüzden kamera için normal bir fare kullanın."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Fare imleci neden hâlâ ekranda?",
+          "a": [
+            "İmleç modundasınız. Fareyi kilitlemek için kamera modu tuşuna (varsayılan olarak Esc) basın: imleç kaybolur ve fareyi hareket ettirdiğinizde görüş açısı döner; tıpkı PC'de bir oyunun içine tıkladığınızdaki gibi. Menüler için imleci serbest bırakmak üzere tuşa tekrar basın. İmleç kendiliğinden geri gelirse odağı başka bir şey almıştır (bildirim paneli veya bir sistem iletişim kutusu); fareyi yeniden kilitlemek için tuşa bir kez daha basın."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Oyunda nasıl yazı yazarım?",
+          "a": [
+            "Yazma moduna geçmek için Enter tuşuna basın: klavyeniz doğrudan oyuna gider, böylece sohbete yazabilirsiniz; fare de imleç moduna geçer. Göndermek ve eşlemelerinize dönmek için Enter tuşuna tekrar basın, göndermeden dönmek için Esc tuşuna basın. Yazma modu tuşuna (varsayılan olarak sağ Ctrl) da basabilir veya yüzen düğmeye dokunup «Yazma modu» seçeneğini seçebilirsiniz. Eşlemelerinizden biri Enter tuşunu zaten kullanıyorsa Enter o eşlemeye göre çalışmaya devam eder; bu durumda yazma modu tuşunu kullanın. Enter tuşunu kapatmak veya tuşu değiştirmek için Ayarlar → Klavye ve fare bölümüne gidin."
+          ]
+        },
+        {
+          "id": "q11",
+          "q": "Hangi oyunlar hesabımı yasaklayabilir?",
+          "a": [
+            "Bazı oyunlar harici klavye ve fareyi algılar ve bunları kullanan hesapları kısıtlayabilir veya yasaklayabilir. Wasdo kendini oyunlardan gizlemez ve bunu aşmak için hiçbir yol sunmaz. Oyuncuların bildirdiği oyunlar, oyun listenizde, oyun seçme ekranında ve hazır düzenlerde kırmızı «Çevre birimlerini algılar» etiketiyle gösterilir. Wasdo bu oyunlarda da çalışır, etiket yalnızca bir hatırlatmadır. Etiketin olmaması yalnızca henüz bildirim almadığımız anlamına gelir, oyunun güvenli olduğu anlamına gelmez; dereceli maçlara girmeden önce oyunun kurallarını kontrol edin."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Etrafa bakmak için neden dokunmatik yüzeyimi kullanamıyorum?",
+          "a": [
+            "Android, dokunmatik yüzeyi fareden farklı bir cihaz türü olarak bildirir ve Wasdo'nun bu sürümü kamera kontrolü için bunu desteklemez. Etrafa bakmak için normal bir USB veya Bluetooth fare kullanın. Dahili dokunmatik yüzeyi olan bir klavyenin tuşları yine çalışır."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Kamera modu ile imleç modu arasında nasıl geçiş yaparım?",
+          "a": [
+            "Oynarken Esc tuşuna basın; tıpkı PC'deki bir oyunda fareyi serbest bıraktığınız gibi. Kamera modunda fare kilitlidir ve PC'deki nişancı oyunlarında olduğu gibi görüş açısını çevirir. İmleç modunda bir imleç hareket ettirir, böylece menülere ve düğmelere tıklayabilirsiniz. Yüzen düğme modu gösterir: nişangâh kamera modu, ok imleç modu, klavye ise yazma modu demektir. Esc modlar arasında geçiş yaptığı için oyuna gönderilmez: oyunun kendi menüsünü açmak için ekrandaki düğmesine dokunun ya da Ayarlar → Klavye ve fare bölümünden başka bir kamera modu tuşu seçin; böylece Esc yeniden oyuna gider. Bir düzen fareyi hiç kullanmıyorsa Esc doğrudan oyuna gider."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Wasdo harici ekranda veya Samsung DeX'te çalışır mı?",
+          "a": [
+            "Evet, ekran yansıtma ile. Harici ekran telefonunuzu ya da tabletinizi yansıttığında Wasdo cihazdaki gibi çalışır, kamera modu dahil. Samsung'da yansıtmaya geçmek için hızlı ayarlardan DeX'i kapatın. Ses ekrana gidiyor ve hiçbir şey duymuyorsanız hızlı ayarlarda “Medya çıkışı”na dokunup cihazınızı seçin. Genişletilmiş modda (Samsung DeX veya yeni Pixel telefonlarda bağlı ekran) oyun penceresi tam ekransa tuşlar çalışır, ancak kamera modu, yüzen düğme ve ekrandaki ipuçları kullanılamayabilir. Chromebook desteklenmez."
+          ]
+        },
+        {
+          "id": "q21",
+          "q": "Oyunda fare hassasiyetini nasıl değiştiririm?",
+          "a": [
+            "Önce bir kez fare kalibrasyonu yapın (Ayarlar → Klavye ve fare → Fare hassasiyeti ve nişangâh → Fare kalibrasyonu); böylece Wasdo farenizin ne kadar hızlı olduğunu bilir. Oyunda kamera hâlâ çok hızlı ya da çok yavaş dönüyorsa yüzen düğmeye dokunun, «Fare hassasiyeti» seçeneğini seçin ve «Daha yavaş» veya «Daha hızlı» düğmesine dokunun. Bu yalnızca bu oyunu değiştirir ve aynı değer o ayarlar sayfasında da görünür; imleç hızı da her iki yerde bulunur. Tüm oyunları aynı anda değiştirmek için aynı ayarlar sayfasındaki «Gelişmiş» bölümünde yer alan «Genel çarpan» seçeneğini kullanın; tam değerler için paneldeki «Sayılar» bölümünü açın veya hassasiyeti yüzde 5 artırma ve azaltma tuşlarını atayın. Hazır düzenler her oyunun varsayılan hassasiyetine göre ayarlanmıştır; oyunun kendi içindeki hassasiyeti değiştirdiyseniz aradaki farkı «Daha yavaş» veya «Daha hızlı» ile kapatın."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Yüzen düğme neler yapabilir?",
+          "a": [
+            "Yüzen düğme, oyun içi kontrol merkezinizdir. Dokunduğunuzda panel açılır: düzen değiştirebilir, imleç, kamera ve yazma modları arasında geçiş yapabilir, «Tuşları düzenle» ile tuşları oyunun üzerinde taşıyabilir, eşlemeyi duraklatabilir, hassasiyeti ayarlayabilir veya yayın modunu açabilirsiniz. İstediğiniz yere sürükleyin; kenara saklamak için ekranın kenarına, oyunu yeniden açana kadar gizlemek için alttaki ✕ işaretinin üzerine bırakın. Paneli klavyeden açmak için Ayarlar → Klavye ve fare → Oyun içi panel bölümünden bir tuş atayın."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Kamera neden çok hızlı veya çok yavaş dönüyor ya da cihaz değiştirince neden farklı hissettiriyor?",
+          "a": [
+            "Her farenin kendi DPI değeri vardır ve Wasdo bunu okuyamaz; bu yüzden aynı düzen bir fareden diğerine daha hızlı ya da daha yavaş gelebilir. Bir kez fare kalibrasyonu yapın, sonra «Daha yavaş» ve «Daha hızlı» ile ince ayar yapın. Bunlardan sonra hâlâ bir terslik varsa bize e-posta gönderin: fare modeliniz ve ayarlarınız otomatik olarak eklenir."
+          ]
+        },
+        {
+          "id": "q24",
+          "q": "Faremin DPI değerini bilmiyorsam ne yapmalıyım?",
+          "a": [
+            "Sorun değil. Fare kalibrasyonunda «Bilmiyorum, benim için ölçün» seçeneğini seçin, farenizin sol kenarını ekrandaki ilk çizgiyle hizalayıp sol tıklayın, ardından fareyi masadan kaldırmadan aynı sol kenar ikinci çizgiye gelene kadar itip yeniden tıklayın. Bunu üç kez yapın. Daha sonra farenizdeki DPI düğmesine basarsanız yeniden ölçün."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Wasdo Pro neleri içerir?",
+          "a": [
+            "Pro; sınırsız oyun ve düzen, popüler oyunlar için hazır düzenler, değiştirici tuş kombinasyonları (Shift, Ctrl veya Alt artı bir tuş), ayrı X ve Y hassasiyetiyle fare hassasiyet eğrileri, yumuşatma ve dürbün yakınlaştırma hassasiyeti, kaydırma tekerleği tuşları, tek tuşla makrolar, sahne değiştirme, aç/kapat ve dizi tuşları ile MOBA için Smart Cast'in kilidini açar. Önce deneyebilirsiniz: Pro özelliği kullanan bir düzeni kaydettiğinizde veya içe aktardığınızda, Pro gerekmeden önce birkaç ücretsiz deneme hakkınız olur; ayrıca bir tane hazır düzeni de ücretsiz ekleyebilirsiniz. Google Play üzerinden tek seferlik bir satın alımdır: abonelik yok, reklam yok."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Pro'yu başka bir telefonda satın aldım. Nasıl geri yüklerim?",
+          "a": [
+            "Yeni telefondaki Play Store'da Pro'yu satın aldığınız Google hesabıyla oturum açtığınızdan emin olun, ardından Wasdo'yu açıp Ayarlar → Satın alımı geri yükle bölümüne gidin. Başka bir hesapla satın aldıysanız önce Play Store'da o hesaba geçin. Google Play'in Pro satmadığı bölgelerde Pro özellikleri sizin için açıktır ve Pro daha sonra orada satışa çıksa bile kaydettiğiniz her şey çalışmaya devam eder."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

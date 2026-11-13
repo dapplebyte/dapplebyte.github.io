@@ -1,0 +1,124 @@
+{
+  "slug": "wasdo",
+  "locale": "it",
+  "title": "Wasdo: Keyboard Mouse Mapper",
+  "shortDescription": "Giochi mobile con tastiera come su PC: WASD, mappatura tasti. Senza root né ADB",
+  "tagline": "Tastiera e mouse per giochi mobile: senza root, senza ADB",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Tastiera e mouse per giochi mobile: senza root, senza ADB",
+      "paragraphs": [
+        "Wasdo è un mapper tastiera e mouse per giocare con tastiera e mouse su smartphone e tablet Android. Collega tastiera e mouse USB o Bluetooth, metti i tasti sui pulsanti del gioco e gioca come su PC: WASD per muoverti, il mouse per la visuale, i tasti per abilità e armi. Senza root, ADB o PC e senza associare il debug wireless. Attivi un solo permesso di accessibilità e giochi."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Senza root, senza ADB, senza attivazione",
+      "paragraphs": [
+        "Molte app simili chiedono il debug wireless, ADB da un computer o una nuova attivazione dopo ogni riavvio. Wasdo no."
+      ],
+      "bullets": [
+        "Solo il servizio di accessibilità, niente Shizuku né app di supporto",
+        "Niente codici di associazione, debug USB o PC",
+        "Nulla da riattivare dopo un riavvio",
+        "Funziona su smartphone e tablet Android"
+      ]
+    },
+    {
+      "id": "use-cases",
+      "title": "Come usano Wasdo i giocatori",
+      "paragraphs": [],
+      "bullets": [
+        "Sparatutto su tablet: WASD, visuale col mouse, tasti per ricaricare e accovacciarsi",
+        "MOBA con tasti abilità e Smart Cast",
+        "RPG d'azione con schivate e combo sulla tastiera",
+        "Tablet con custodia tastiera, o smartphone su un hub USB"
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mappatura tasti: tocco, pressione, raffica e swipe",
+      "paragraphs": [],
+      "bullets": [
+        "Usalo come mapper per tastiera: ogni tasto diventa tocco, pressione prolungata, raffica o swipe",
+        "Attivazione alla pressione, pressione lunga, doppio tocco o rilascio",
+        "Joystick WASD a otto direzioni con tasto scatto",
+        "Mappa i tasti sinistro, destro, centrale e laterali del mouse",
+        "Clic sotto il cursore per menu, mappa e inventario"
+      ]
+    },
+    {
+      "id": "mouse-look",
+      "title": "Visuale col mouse, come su PC",
+      "paragraphs": [],
+      "bullets": [
+        "La modalità camera blocca il mouse e ruota la visuale, come su PC",
+        "Esc passa dalla modalità camera alla modalità cursore",
+        "Sensibilità regolabile in partita con cursore o tasti rapidi",
+        "Asse Y invertito, tasto per l'ottica e mirino opzionale"
+      ]
+    },
+    {
+      "id": "presets",
+      "title": "Schemi predefiniti e modelli per FPS, MOBA e RPG",
+      "paragraphs": [],
+      "bullets": [
+        "Schemi predefiniti per i giochi più popolari, adattati al tuo schermo",
+        "Modelli FPS, MOBA, Azione open world e Generale",
+        "Editor drag and drop, dimensione e opacità dei tasti regolabili",
+        "Più schemi per gioco",
+        "Esportazione, backup e codici di condivisione gratuiti"
+      ]
+    },
+    {
+      "id": "typing-overlay",
+      "title": "Modalità digitazione, pulsante mobile e modalità streaming",
+      "paragraphs": [],
+      "bullets": [
+        "La modalità digitazione (Enter) manda la tastiera alla chat del gioco",
+        "Pulsante mobile: cambia schema, regola la sensibilità, modifica i tasti in gioco",
+        "La modalità streaming nasconde l'overlay mentre registri"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Wasdo Pro: mouse avanzato e macro",
+      "paragraphs": [
+        "Gratis per iniziare, senza pubblicità. Wasdo Pro aggiunge giochi e schemi illimitati, combinazioni con modificatori (Shift, Ctrl o Alt + tasto), curve di sensibilità con X e Y separate, smussatura e zoom del mirino, tasti della rotellina, macro a un tasto, cambio scena, tasti Toggle e sequenza, e Smart Cast per MOBA. Gli schemi già salvati continuano a funzionare."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy e permesso di accessibilità",
+      "paragraphs": [
+        "Wasdo usa l'accessibilità solo per leggere tastiera e mouse mentre una mappatura è attiva e per generare i tocchi nel gioco. Non legge, non salva e non carica il tuo schermo."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Da sapere",
+      "paragraphs": [],
+      "bullets": [
+        "Alcuni giochi rilevano tastiera e mouse esterni e possono limitare gli account. Wasdo non si nasconde e non aggira il controllo. I giochi segnalati dai giocatori sono contrassegnati nell'app.",
+        "Niente controllo del rinculo né mira assistita: Wasdo trasforma solo i tuoi comandi in tocchi.",
+        "Il touchpad non ruota la visuale. Usa un mouse normale.",
+        "Display esterni: modalità mirroring, non la modalità desktop di Samsung DeX.",
+        "Per i controller, prova la nostra app gemella Gamepad Pro.",
+        "I nomi dei giochi appartengono ai rispettivi proprietari. Wasdo non è affiliato ad alcun publisher."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Qualcosa non funziona?",
+      "paragraphs": [
+        "Avvia prima Impostazioni → Verifica tastiera e mouse. Ancora problemi? Prima di recensire scrivi a feedback@dapplebyte.com con modello di telefono e gioco. Leggiamo ogni messaggio."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

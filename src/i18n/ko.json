@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · 독립 스튜디오의 Android 앱",
-    "description": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 게임패드를 터치 조작으로 바꿔 주는 컨트롤러 키매핑 앱 Gamepad Pro, PS5·PS4용 리모트 플레이 컨트롤러이자 콘솔 스트리밍 앱인 Relaypad, AI 자동화와 연속 클릭(오토 클리커) 앱인 WhenDo, 휴대폰을 블루투스 게임패드, 터치패드, TV 리모컨으로 바꿔 주는 JoyLink, 그리고 컨트롤러의 스틱 드리프트, 입력 지연, 반응 없는 버튼을 찾아 주는 Gamepad Tester Pro를 만들어요. 그 밖에 APK 추출, 앱 백업, XAPK 설치를 지원하고 새 휴대폰으로 앱을 옮겨 주는 Apk Extractor도 만들어요. 최신 앱 SlopSwipe는 YouTube Shorts, TikTok, Instagram Reels에서 AI로 만든 영상을 자동으로 넘기고, 건너뛸 때마다 이유를 보여 주며 한 번 탭으로 되돌릴 수 있어요.",
+    "description": "DappleByte는 Android 앱을 만드는 독립 스튜디오예요. 게임패드를 터치 조작으로 바꿔 주는 컨트롤러 키매핑 앱 Gamepad Pro, PS5·PS4용 리모트 플레이 컨트롤러이자 콘솔 스트리밍 앱인 Relaypad, AI 자동화와 연속 클릭(오토 클리커) 앱인 WhenDo, 휴대폰을 블루투스 게임패드, 터치패드, TV 리모컨으로 바꿔 주는 JoyLink, 그리고 컨트롤러의 스틱 드리프트, 입력 지연, 반응 없는 버튼을 찾아 주는 Gamepad Tester Pro를 만들어요. 그 밖에 APK 추출, 앱 백업, XAPK 설치를 지원하고 새 휴대폰으로 앱을 옮겨 주는 Apk Extractor도 만들어요. 최신 앱 SlopSwipe는 YouTube Shorts, TikTok, Instagram Reels에서 AI로 만든 영상을 자동으로 넘기고, 건너뛸 때마다 이유를 보여 주며 한 번 탭으로 되돌릴 수 있어요. 곧 나올 Wasdo는 WASD와 마우스 시점으로 Android 터치 게임을 플레이할 수 있는 키보드 마우스 매핑 앱이에요.",
     "appsHeading": "앱",
     "principlesHeading": "일하는 방식",
     "principles": [
@@ -747,6 +747,43 @@
       }
     },
     "wasdo": {
+      "kicker": "키보드 마우스 매핑 · root 불필요",
+      "heroPoints": [
+        "WASD로 이동, 마우스로 시점 회전, 키로 스킬과 무기",
+        "인기 게임용 프리셋, 그리고 FPS·MOBA·RPG 템플릿",
+        "접근성 권한 하나면 끝: root, ADB, PC 필요 없고 다시 활성화할 일도 없어요"
+      ],
+      "faqDescription": "Wasdo 관련 답변: 설정과 접근성 권한, 키매핑 만들기, 키보드와 마우스, 시점 조작, Wasdo Pro.",
+      "faqNotFoundBody": "휴대폰 모델, 키보드와 마우스, 게임, 어떤 일이 있었는지 적어서 보내 주세요. 모든 메시지를 사람이 직접 읽어요.",
+      "support": {
+        "beforeItems": [
+          "Wasdo에서 ‘설정 → 연결 도우미’를 여세요. 키보드와 마우스가 인식되는지 확인하고, 인식되지 않으면 해결 방법을 차례로 안내해요.",
+          "자주 묻는 질문을 열어 보세요. 설정, 권한, 매핑 관련 질문은 대부분 앱과 같은 문구로 답이 나와 있어요.",
+          "어떤 게임에서 어떤 키보드와 마우스를 썼는지, 키를 눌렀을 때 화면에서 무슨 일이 일어나는지 적어 두세요. 문제를 재현하려면 이 정보가 필요해요."
+        ],
+        "template": {
+          "phone": "휴대폰 또는 태블릿 모델:",
+          "android": "Android 버전:",
+          "devices": "키보드와 마우스(모델, USB 또는 Bluetooth):",
+          "game": "게임 또는 앱:",
+          "what": "어떤 일이 있었는지 순서대로:",
+          "pro": "Pro 구매: 예 / 아니요"
+        },
+        "refundBody": "Wasdo는 무료로 설치할 수 있어요. Wasdo Pro를 구매했는데 사용 중인 환경에서 작동하지 않으면 구매 후 7일 안에 메일을 보내 주세요. 환불해 드려요. 어떤 걸 시도해 봤는지도 알려 주시면 다음 분을 위해 고치는 데 도움이 돼요."
+      },
+      "press": {
+        "description": "Android용 키보드 마우스 매핑 앱 Wasdo 관련 기사를 쓸 때 필요한 정보, 자료, 소개 문구.",
+        "boilerplate": "Wasdo는 USB 또는 Bluetooth 키보드와 마우스로 Android 터치 게임을 할 수 있게 해 줍니다. WASD로 이동하고, 마우스로 시점을 돌리고, 게임 버튼 위에 키를 배치하며, 인기 게임용 프리셋과 FPS·MOBA·RPG 템플릿을 제공합니다. 접근성 권한만 있으면 되고 root, ADB, PC는 필요 없습니다. 독립 스튜디오 DappleByte가 만들었습니다.",
+        "priceValue": "무료로 설치할 수 있고 광고가 없어요. Wasdo Pro는 인앱 구매로 고급 마우스 기능과 매크로 기능을 열어 줘요. 현재 가격은 Google Play에서 확인할 수 있어요.",
+        "assetScreenshots": "스크린샷, 1920 × 1080 PNG, 영어"
+      },
+      "videosDescription": "실제 휴대폰과 태블릿에서 Wasdo를 보여 주는 짧은 영상: 키보드와 마우스 연결, 키매핑 만들기, 마우스 시점, 자주 생기는 문제.",
+      "privacyDescription": "Android용 Wasdo가 데이터를 어떻게 다루는지: 계정 없음, 접근성 서비스의 용도, 분석·비정상 종료 보고 SDK가 수집하는 정보, 선택 수집을 끄는 방법.",
+      "compare": {
+        "description": "Android에서 Wasdo를 다른 키보드 마우스 매핑 앱과 기능별로 비교했어요. 사실만 담았어요.",
+        "vsDescription": "Android에서 {name} vs {other} 기능별 비교: root, ADB와 활성화, 마우스 시점, 프리셋, 매크로, 가격.",
+        "vsIntro": "둘 다 Android 터치 게임을 키보드와 마우스로 플레이할 수 있게 해 줘요. 어디가 다른지 기능별로 정리했어요."
+      },
       "labels": {
         "presets": "프리셋"
       },

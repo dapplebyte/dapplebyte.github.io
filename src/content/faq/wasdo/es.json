@@ -1,0 +1,206 @@
+{
+  "slug": "wasdo",
+  "locale": "es",
+  "title": "Preguntas frecuentes y ayuda",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Configuración",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "¿Qué hace Wasdo?",
+          "a": [
+            "Wasdo convierte un teclado y un ratón USB o Bluetooth en toques y deslizamientos en la pantalla, para que juegues a juegos táctiles como en el PC: teclas para moverte y actuar, ratón para mirar alrededor."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "¿Por qué necesita el permiso de accesibilidad? ¿Es seguro?",
+          "a": [
+            "El servicio de accesibilidad permite que Wasdo lea tu teclado y ratón mientras se ejecuta una asignación y coloque toques en el juego que tienes delante, incluso fuera de la app. Las asignaciones solo funcionan cuando está activado. Wasdo solo lo usa para realizar las acciones que configuras — no lee, guarda ni sube lo que aparece en tu pantalla, lo que escribes ni tus contraseñas."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Deja de funcionar al rato en segundo plano. ¿Cómo lo soluciono?",
+          "a": [
+            "Android puede cerrar apps en segundo plano para ahorrar batería. Permite que Wasdo se ejecute en segundo plano desactivando la optimización de batería. Algunas marcas (como MIUI o Samsung) añaden reglas extra de ahorro de energía — la guía de dontkillmyapp.com explica cómo desactivarlas en tu dispositivo."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "¿Wasdo necesita acceso root?",
+          "a": [
+            "No. Wasdo funciona mediante el servicio de accesibilidad y no requiere root ni ninguna otra app auxiliar."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "¿Wasdo es compatible con mandos?",
+          "a": [
+            "No. Wasdo está pensado solo para teclado y ratón. Para los mandos, usa nuestra app hermana Gamepad Pro, creada para eso y que funciona junto con Wasdo: si tienes las dos instaladas y Gamepad Pro está activo, la entrada del mando pasa automáticamente a Gamepad Pro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Asignación",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Mi asignación no funciona. ¿Qué debo comprobar?",
+          "a": [
+            "1. Asegúrate de que el servicio de accesibilidad está activado (Ajustes → Accesibilidad → Wasdo).",
+            "2. Asegúrate de que la asignación está activada (no en pausa).",
+            "3. Comprueba que el teclado aparece como conectado en la pantalla de inicio.",
+            "4. Si antes funcionaba y dejó de hacerlo, revisa los ajustes de batería / segundo plano (consulta la siguiente pregunta)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "¿Cómo creo una asignación?",
+          "a": [
+            "1. Añade tu juego desde la lista y, en su página, toca «Nuevo esquema».",
+            "2. Si el juego tiene un esquema predefinido en «Para este juego», elígelo y tendrás un esquema ya ajustado para ese juego. Si no, empieza con una plantilla de género (FPS, MOBA, Acción de mundo abierto o General) o con un esquema en blanco.",
+            "3. Arrastra cada tecla sobre el botón que debe tocar. Para añadir una tecla, toca + y luego pulsa una tecla del teclado, haz clic con un botón del ratón o gira la rueda.",
+            "4. Guarda y, ya en el juego, pulsa Esc para bloquear el ratón y a jugar."
+          ]
+        },
+        {
+          "id": "q07",
+          "q": "¿Funciona con todos los juegos?",
+          "a": [
+            "Funciona con la mayoría de los juegos táctiles. Algunos juegos detectan teclados y ratones externos y pueden restringir las cuentas que los usan; Wasdo no ofrece ninguna forma de evitarlo. Algunos juegos también bloquean los toques simulados. Si un juego no responde, avísanos mediante Comentarios."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "¿Una actualización borrará mis asignaciones?",
+          "a": [
+            "No. Las actualizaciones conservan tus juegos, esquemas y teclas. Solo se borran al desinstalar la app, así que si vas a cambiar de teléfono, exporta primero una copia de seguridad (Ajustes → Copia de seguridad y restauración → Hacer copia de todos los mapeos) e impórtala en el dispositivo nuevo. La copia de seguridad automática de Android también los restaura cuando inicias sesión con la misma cuenta de Google en un teléfono nuevo."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "¿Wasdo puede reducir el retroceso o apuntar por mí?",
+          "a": [
+            "No, y nunca lo hará. El control del retroceso, la asistencia de apuntado y cualquier cosa que actúe en el juego por ti se consideran trampas en la mayoría de los juegos y pueden hacer que baneen tu cuenta. Wasdo solo convierte tus propias pulsaciones de teclas y movimientos del ratón en toques y deslizamientos."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "¿Cómo comparto un esquema con un amigo?",
+          "a": [
+            "En la página del juego, abre el menú de compartir y elige Obtener un código para compartir. Tu amigo va a Ajustes → Copia de seguridad y restauración → Importar con un código para compartir y escribe el código de 8 caracteres. Los códigos son válidos durante 90 días y solo contienen el esquema, nada sobre tu dispositivo. Compartir es gratis, e importar también, salvo que el esquema use funciones Pro: entonces necesitas Pro o una de tus pruebas gratis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keyboard-mouse",
+      "title": "Teclado y ratón",
+      "entries": [
+        {
+          "id": "q08",
+          "q": "¿Cómo conecto un teclado y un ratón?",
+          "a": [
+            "Conéctalos por USB (sirve un adaptador o un hub USB-C) o vincúlalos por Bluetooth en los ajustes del teléfono. Cuando estén conectados, aparecerán en la pantalla de inicio. El panel táctil no sirve para mirar alrededor (consulta más abajo), así que usa un ratón normal para la cámara."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "¿Por qué sigue apareciendo el cursor del ratón en la pantalla?",
+          "a": [
+            "Estás en el modo cursor. Pulsa la tecla del modo cámara (Esc por defecto) para bloquear el ratón: el cursor desaparece y al mover el ratón gira la vista, igual que al hacer clic dentro de un juego de PC. Vuelve a pulsarla para liberar el cursor y usar los menús. Si el cursor vuelve por sí solo, algo ha tomado el foco (el panel de notificaciones o un diálogo del sistema); pulsa la tecla una vez más para volver a bloquear el ratón."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "¿Cómo escribo dentro de un juego?",
+          "a": [
+            "Pulsa Enter para entrar en el modo escritura: el teclado pasa directamente al juego para que puedas escribir en el chat, y el ratón cambia al modo cursor. Vuelve a pulsar Enter para enviar y recuperar tus asignaciones, o pulsa Esc para volver sin enviar. También puedes pulsar la tecla del modo escritura (Ctrl derecho por defecto) o tocar el botón flotante y elegir Modo escritura. Si alguna de tus asignaciones ya usa Enter, Enter seguirá haciendo lo que le asignaste, así que usa la tecla del modo escritura. Para desactivar Enter o cambiar la tecla, ve a Ajustes → Teclado y ratón."
+          ]
+        },
+        {
+          "id": "q11",
+          "q": "¿Qué juegos pueden banearme?",
+          "a": [
+            "Algunos juegos detectan teclados y ratones externos y pueden restringir o banear las cuentas que los usan. Wasdo no se oculta de los juegos y no ofrece ninguna forma de evitarlo. Los juegos de los que han informado otros jugadores muestran la etiqueta roja «Detecta periféricos» en tu lista de juegos, al elegir un juego y en los esquemas predefinidos. Wasdo sigue funcionando en estos juegos; la etiqueta es solo un aviso. Que no haya etiqueta solo significa que no tenemos informes, no que el juego sea seguro, así que revisa las normas del juego antes de jugar partidas clasificatorias."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "¿Por qué no puedo usar el panel táctil para mirar alrededor?",
+          "a": [
+            "Android trata el panel táctil como un tipo de dispositivo distinto al ratón, y esta versión de Wasdo no lo admite para controlar la cámara. Usa un ratón USB o Bluetooth normal para mirar alrededor. Las teclas de un teclado con panel táctil integrado siguen funcionando."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "¿Cómo cambio entre el modo cámara y el modo cursor?",
+          "a": [
+            "Pulsa Esc mientras juegas, igual que cuando sueltas el ratón en un juego de PC. En el modo cámara, el ratón queda bloqueado y gira la vista, como en un shooter de PC. En el modo cursor, mueve un puntero para que puedas hacer clic en menús y botones. El botón flotante muestra el modo: una mira indica el modo cámara, una flecha indica el modo cursor y un teclado indica el modo escritura. Como Esc cambia de modo, no se envía al juego: para abrir el menú del propio juego, toca su botón en pantalla, o elige otra tecla del modo cámara en Ajustes → Teclado y ratón y Esc volverá a llegar al juego. Si un esquema no usa el ratón para nada, Esc llega directamente al juego."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "¿Wasdo funciona en una pantalla externa o con Samsung DeX?",
+          "a": [
+            "Sí, con la duplicación de pantalla. Cuando la pantalla externa duplica tu teléfono o tablet, Wasdo funciona igual que en el dispositivo, modo cámara incluido. En Samsung, desactiva DeX en los ajustes rápidos para pasar a la duplicación. Si el sonido sale por la pantalla y no lo oyes, toca «Salida multimedia» en los ajustes rápidos y elige tu dispositivo. En el modo extendido (Samsung DeX o una pantalla conectada en los Pixel recientes), tus teclas siguen funcionando si maximizas la ventana del juego, pero puede que el modo cámara, el botón flotante y los avisos en pantalla no estén disponibles. Los Chromebook no son compatibles."
+          ]
+        },
+        {
+          "id": "q21",
+          "q": "¿Cómo cambio la sensibilidad del ratón en un juego?",
+          "a": [
+            "Empieza con una calibración del ratón, que solo hay que hacer una vez (Ajustes → Teclado y ratón → Sensibilidad del ratón y punto de mira → Calibración del ratón), para que Wasdo sepa lo rápido que es tu ratón. Si en un juego la cámara sigue girando demasiado rápido o demasiado lento, toca el botón flotante, elige Sensibilidad del ratón y toca Más lento o Más rápido. Eso cambia solo este juego, y el mismo valor aparece en esa página de ajustes; la velocidad del cursor también está en los dos sitios. Para cambiar todos los juegos a la vez, usa Multiplicador general en Avanzado, en esa misma página de ajustes; para valores exactos, abre Valores en el panel o asigna la tecla de sensibilidad +5% y la de −5%. Los esquemas predefinidos están ajustados a la sensibilidad predeterminada de cada juego, así que si cambiaste la sensibilidad dentro del propio juego, usa Más lento o Más rápido para compensarlo."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "¿Qué puede hacer el botón flotante?",
+          "a": [
+            "El botón flotante es tu centro de control dentro del juego. Tócalo para abrir el panel: cambia de esquema, alterna entre los modos cursor, cámara y escritura, mueve las teclas sobre el juego con Editar teclas, pausa la asignación, ajusta la sensibilidad o activa el modo streaming. Arrástralo a donde quieras; suéltalo en un borde de la pantalla para recogerlo, o sobre la ✕ de abajo para ocultarlo hasta que vuelvas a abrir el juego. Para abrir el panel desde el teclado, asigna una tecla en Ajustes → Teclado y ratón → Panel en el juego."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "¿Por qué la cámara gira demasiado rápido o demasiado lento, o se nota distinta al cambiar de dispositivo?",
+          "a": [
+            "Cada ratón tiene sus propios DPI y Wasdo no puede leerlos, así que el mismo esquema puede ir más rápido o más lento de un ratón a otro. Haz la calibración del ratón una vez y luego afina con Más lento y Más rápido. Si después de todo eso sigue sin ir bien, escríbenos un correo: el modelo de tu ratón y tus ajustes se adjuntan automáticamente."
+          ]
+        },
+        {
+          "id": "q24",
+          "q": "¿Y si no sé cuántos DPI tiene mi ratón?",
+          "a": [
+            "No pasa nada. En Calibración del ratón, elige «No lo sé, mídelo por mí», alinea el borde izquierdo del ratón con la primera línea de la pantalla y haz clic; después, sin levantarlo de la mesa, empújalo hasta que ese mismo borde llegue a la segunda línea y vuelve a hacer clic. Hazlo tres veces. Si más adelante pulsas el botón de DPI del ratón, vuelve a medir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "¿Qué incluye Wasdo Pro?",
+          "a": [
+            "Pro desbloquea juegos y esquemas ilimitados, esquemas listos para juegos populares, combinaciones con modificadores (Shift, Ctrl o Alt más una tecla), curvas de sensibilidad del ratón con sensibilidad X e Y por separado, suavizado y sensibilidad con mira, teclas de la rueda del ratón, macros de una tecla, cambio de escena, teclas Toggle y de secuencia, y Smart Cast para MOBA. Puedes probarlas antes: al guardar o importar un esquema que usa una función Pro, tienes algunas pruebas gratis antes de necesitar Pro, y puedes añadir sin coste el esquema predefinido de un juego. Es una compra única a través de Google Play: sin suscripción y sin anuncios."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Compré Pro en otro teléfono. ¿Cómo lo restauro?",
+          "a": [
+            "Asegúrate de que la Play Store del teléfono nuevo tenga la sesión iniciada con la misma cuenta de Google con la que compraste Pro; luego abre Wasdo y ve a Ajustes → Restaurar compra. Si lo compraste con otra cuenta, cambia primero a esa cuenta en la Play Store. En las regiones donde Google Play no vende Pro, las funciones Pro están disponibles para ti, y lo que ya hayas guardado seguirá funcionando aunque Pro empiece a venderse allí más adelante."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

@@ -1,0 +1,206 @@
+{
+  "slug": "wasdo",
+  "locale": "id",
+  "title": "FAQ dan Bantuan",
+  "sections": [
+    {
+      "id": "setup",
+      "title": "Setup",
+      "entries": [
+        {
+          "id": "q01",
+          "q": "Wasdo itu untuk apa?",
+          "a": [
+            "Wasdo mengubah keyboard dan mouse USB atau Bluetooth jadi tap dan swipe di layar, jadi kamu bisa main game sentuh ala PC: tombol untuk bergerak dan beraksi, mouse untuk melihat sekeliling."
+          ]
+        },
+        {
+          "id": "q02",
+          "q": "Kenapa butuh izin Aksesibilitas? Apakah aman?",
+          "a": [
+            "Layanan Aksesibilitas memungkinkan Wasdo membaca keyboard dan mouse-mu selama pemetaan berjalan dan menaruh sentuhan di game yang sedang terbuka, bahkan di luar aplikasi. Pemetaan baru berfungsi setelah layanan ini diaktifkan. Wasdo hanya memakainya untuk menjalankan aksi yang kamu atur — tidak membaca, menyimpan, atau mengunggah isi layarmu, apa yang kamu ketik, atau sandimu."
+          ]
+        },
+        {
+          "id": "q04",
+          "q": "Berhenti jalan setelah beberapa saat di latar belakang. Bagaimana cara memperbaikinya?",
+          "a": [
+            "Android bisa menutup aplikasi di latar belakang untuk menghemat daya. Izinkan Wasdo berjalan di latar belakang dengan mematikan optimalisasi baterai. Beberapa merek (misalnya MIUI atau Samsung) punya aturan hemat daya tambahan — panduan di dontkillmyapp.com menjelaskan cara mematikannya untuk perangkatmu."
+          ]
+        },
+        {
+          "id": "q06",
+          "q": "Apakah Wasdo butuh akses root?",
+          "a": [
+            "Tidak. Wasdo bekerja lewat Layanan Aksesibilitas dan tidak butuh root atau aplikasi bantu lainnya."
+          ]
+        },
+        {
+          "id": "q18",
+          "q": "Apakah Wasdo mendukung kontroler?",
+          "a": [
+            "Tidak. Wasdo dibuat khusus untuk keyboard dan mouse. Untuk kontroler, pakai aplikasi saudara kami, Gamepad Pro, yang memang dibuat untuk itu dan bisa berjalan berdampingan dengan Wasdo: kalau keduanya terinstal dan Gamepad Pro sedang berjalan, input kontroler otomatis diteruskan ke Gamepad Pro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Pemetaan",
+      "entries": [
+        {
+          "id": "q03",
+          "q": "Pemetaan tombolku tidak jalan. Apa yang perlu dicek?",
+          "a": [
+            "1. Pastikan Layanan Aksesibilitas aktif (Setelan → Aksesibilitas → Wasdo).",
+            "2. Pastikan pemetaan menyala (tidak dijeda).",
+            "3. Cek apakah keyboard tampil sebagai terhubung di Beranda.",
+            "4. Kalau sebelumnya jalan lalu berhenti, cek setelan baterai / latar belakang (lihat pertanyaan berikutnya)."
+          ]
+        },
+        {
+          "id": "q05",
+          "q": "Bagaimana cara membuat pemetaan tombol?",
+          "a": [
+            "1. Tambahkan game-mu dari daftar, lalu ketuk “Layout baru” di halaman game itu.",
+            "2. Kalau game punya preset di bagian “Khusus game ini”, pilih preset itu untuk langsung dapat layout yang sudah disetel khusus untuk game tersebut. Kalau tidak ada, mulai dari template genre (FPS, MOBA, Aksi open world, atau Umum) atau layout kosong.",
+            "3. Seret setiap tombol ke tombol layar yang harus diketuknya. Untuk menambah tombol, ketuk +, lalu tekan tombol keyboard, klik tombol mouse, atau putar roda scroll.",
+            "4. Simpan, lalu tekan Esc di dalam game untuk mengunci mouse dan mulai main."
+          ]
+        },
+        {
+          "id": "q07",
+          "q": "Apakah bisa dipakai di semua game?",
+          "a": [
+            "Bisa di sebagian besar game sentuh. Beberapa game mendeteksi keyboard dan mouse eksternal dan bisa membatasi akun yang memakainya; Wasdo tidak menyediakan cara apa pun untuk mengakalinya. Beberapa game juga memblokir tap simulasi. Kalau game tidak merespons, beri tahu kami lewat Masukan."
+          ]
+        },
+        {
+          "id": "q16",
+          "q": "Apakah pembaruan akan menghapus pemetaan tombolku?",
+          "a": [
+            "Tidak. Pembaruan tetap menyimpan game, layout, dan tombolmu. Semua itu hanya terhapus kalau aplikasi di-uninstal, jadi kalau mau ganti HP, ekspor cadangan dulu (Setelan → Cadangkan dan pulihkan → Cadangkan semua pemetaan) lalu impor di perangkat baru. Pencadangan otomatis Android juga akan memulihkannya saat kamu masuk dengan akun Google yang sama di HP baru."
+          ]
+        },
+        {
+          "id": "q17",
+          "q": "Bisakah Wasdo mengurangi recoil atau membidik untukku?",
+          "a": [
+            "Tidak, dan tidak akan pernah. Kontrol recoil, aim assist, dan apa pun yang menjalankan aksi di game untukmu dianggap curang oleh sebagian besar game dan bisa membuat akun diblokir. Wasdo hanya mengubah tekanan tombol dan gerakan mouse-mu sendiri jadi tap dan swipe."
+          ]
+        },
+        {
+          "id": "q19",
+          "q": "Bagaimana cara membagikan layout ke teman?",
+          "a": [
+            "Di halaman game, buka menu berbagi lalu pilih Dapatkan kode berbagi. Temanmu membuka Setelan → Cadangkan dan pulihkan → Impor dari kode berbagi lalu mengetik kode 8 karakter itu. Kode berlaku 90 hari dan hanya berisi layout, tanpa info apa pun tentang perangkatmu. Berbagi gratis, mengimpor juga gratis, kecuali kalau layout-nya memakai fitur Pro: untuk itu perlu Pro atau satu jatah coba gratismu."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keyboard-mouse",
+      "title": "Keyboard & mouse",
+      "entries": [
+        {
+          "id": "q08",
+          "q": "Bagaimana cara menghubungkan keyboard dan mouse?",
+          "a": [
+            "Colok lewat USB (adaptor USB-C atau hub juga bisa) atau pasangkan lewat Bluetooth di setelan HP-mu. Setelah terhubung, Beranda akan menampilkannya. Touchpad tidak bisa dipakai untuk melihat sekeliling (lihat di bawah), jadi pakai mouse biasa untuk kamera."
+          ]
+        },
+        {
+          "id": "q09",
+          "q": "Kenapa kursor mouse masih ada di layar?",
+          "a": [
+            "Kamu sedang di Mode kursor. Tekan Tombol ganti mode kamera (default-nya Esc) untuk mengunci mouse: kursor menghilang dan gerakan mouse memutar pandangan, sama seperti saat kamu mengklik ke dalam game PC. Tekan sekali lagi untuk melepas kursor dan memakai menu. Kalau kursor muncul lagi dengan sendirinya, berarti ada yang mengambil fokus (panel notifikasi atau dialog sistem); tekan tombol ganti itu sekali lagi untuk mengunci mouse kembali."
+          ]
+        },
+        {
+          "id": "q10",
+          "q": "Bagaimana cara mengetik di dalam game?",
+          "a": [
+            "Tekan Enter untuk masuk ke Mode mengetik: keyboard langsung diteruskan ke game supaya kamu bisa chat, dan mouse beralih ke Mode kursor. Tekan Enter sekali lagi untuk mengirim dan kembali ke pemetaan, atau tekan Esc untuk kembali tanpa mengirim. Kamu juga bisa menekan Tombol ganti mode mengetik (default-nya Ctrl kanan), atau mengetuk pengalih melayang lalu memilih Mode mengetik. Kalau salah satu pemetaanmu sudah memakai Enter, Enter tetap bekerja sesuai pemetaan itu, jadi pakai Tombol ganti mode mengetik. Untuk mematikan Enter atau mengganti tombolnya, buka Setelan → Keyboard & mouse."
+          ]
+        },
+        {
+          "id": "q11",
+          "q": "Game apa saja yang bisa memblokir akunku?",
+          "a": [
+            "Beberapa game mendeteksi keyboard dan mouse eksternal dan bisa membatasi atau memblokir akun yang memakainya. Wasdo tidak menyembunyikan diri dari game dan tidak menyediakan cara apa pun untuk mengakalinya. Game yang sudah dilaporkan pemain menampilkan label merah “Mendeteksi periferal” di daftar game-mu, di halaman pilih game, dan di layout preset. Wasdo tetap bisa dipakai di game ini; label itu hanya pengingat. Kalau tidak ada label, itu hanya berarti kami belum menerima laporan, bukan berarti game itu aman, jadi cek aturan game sebelum main ranked."
+          ]
+        },
+        {
+          "id": "q12",
+          "q": "Kenapa touchpad tidak bisa dipakai untuk melihat sekeliling?",
+          "a": [
+            "Android menganggap touchpad sebagai jenis perangkat yang berbeda dari mouse, dan versi Wasdo ini belum mendukungnya untuk mengontrol kamera. Pakai mouse USB atau Bluetooth biasa untuk melihat sekeliling. Tombol di keyboard dengan touchpad bawaan tetap berfungsi."
+          ]
+        },
+        {
+          "id": "q13",
+          "q": "Bagaimana cara beralih antara mode kamera dan mode kursor?",
+          "a": [
+            "Tekan Esc saat bermain, sama seperti saat kamu melepas mouse di game PC. Di Mode kamera, mouse terkunci dan memutar pandangan, seperti di game tembak-tembakan PC. Di Mode kursor, mouse menggerakkan penunjuk supaya kamu bisa mengklik menu dan tombol. Pengalih melayang menunjukkan mode: crosshair berarti Mode kamera, panah berarti Mode kursor, dan keyboard berarti Mode mengetik. Karena Esc dipakai untuk ganti mode, tombol ini tidak diteruskan ke game: untuk membuka menu game itu sendiri, ketuk tombolnya di layar, atau pilih Tombol ganti mode kamera lain di Setelan → Keyboard & mouse, dan Esc akan diteruskan ke game lagi. Kalau layout sama sekali tidak memakai mouse, Esc langsung diteruskan ke game."
+          ]
+        },
+        {
+          "id": "q20",
+          "q": "Apakah Wasdo bisa dipakai di layar eksternal atau Samsung DeX?",
+          "a": [
+            "Bisa, pakai pencerminan layar. Saat layar eksternal mencerminkan HP atau tablet-mu, Wasdo berjalan persis seperti di perangkat, termasuk mode kamera. Di Samsung, matikan DeX di setelan cepat untuk beralih ke pencerminan. Kalau suaranya pindah ke layar dan tidak terdengar, ketuk “Output media” di setelan cepat lalu pilih perangkatmu. Di mode diperluas (Samsung DeX, atau layar yang tersambung di HP Pixel terbaru), tombol tetap berfungsi kalau jendela game dimaksimalkan, tapi mode kamera, pengalih melayang, dan petunjuk di layar mungkin tidak tersedia. Chromebook tidak didukung."
+          ]
+        },
+        {
+          "id": "q21",
+          "q": "Bagaimana cara mengubah sensitivitas mouse di dalam game?",
+          "a": [
+            "Mulailah dengan kalibrasi mouse sekali saja (Setelan → Keyboard & mouse → Sensitivitas mouse dan crosshair → Kalibrasi mouse) supaya Wasdo tahu seberapa cepat mouse-mu. Kalau kamera masih berputar terlalu cepat atau terlalu lambat di game, ketuk pengalih melayang, pilih Sensitivitas mouse, lalu ketuk Lebih lambat atau Lebih cepat. Ini hanya mengubah game ini, dan nilai yang sama tampil di halaman setelan itu; kecepatan kursor juga bisa diatur di kedua tempat. Untuk mengubah semua game sekaligus, pakai Pengali keseluruhan di bagian Lanjutan pada halaman setelan itu; untuk angka yang persis, buka Angka di panel atau pasang Tombol sensitivitas +5% dan Tombol sensitivitas −5%. Layout siap pakai disetel untuk sensitivitas default tiap game, jadi kalau kamu mengubah sensitivitas di dalam game itu sendiri, pakai Lebih lambat atau Lebih cepat untuk mengimbanginya."
+          ]
+        },
+        {
+          "id": "q22",
+          "q": "Apa saja yang bisa dilakukan pengalih melayang?",
+          "a": [
+            "Pengalih melayang adalah pusat kontrolmu di dalam game. Ketuk untuk membuka panel: ganti layout, beralih antara mode kursor, kamera, dan mengetik, pindahkan tombol di atas game dengan Edit tombol, jeda pemetaan, atur sensitivitas, atau nyalakan mode stream. Seret ke mana saja; lepaskan di tepi layar untuk menyelipkannya ke samping, atau di ✕ di bagian bawah untuk menyembunyikannya sampai kamu membuka game lagi. Untuk membuka panel dari keyboard, pasang tombol di Setelan → Keyboard & mouse → Panel dalam game."
+          ]
+        },
+        {
+          "id": "q23",
+          "q": "Kenapa kamera berputar terlalu cepat atau terlalu lambat, atau terasa beda saat aku ganti perangkat?",
+          "a": [
+            "Setiap mouse punya DPI sendiri, dan Wasdo tidak bisa membacanya, jadi layout yang sama bisa terasa lebih cepat atau lebih lambat di mouse yang berbeda. Jalankan kalibrasi mouse sekali, lalu sesuaikan dengan Lebih lambat dan Lebih cepat. Kalau setelah semua itu masih terasa kurang pas, kirim email ke kami: model dan setelan mouse-mu otomatis dilampirkan."
+          ]
+        },
+        {
+          "id": "q24",
+          "q": "Bagaimana kalau aku tidak tahu DPI mouse-ku?",
+          "a": [
+            "Tidak masalah. Di Kalibrasi mouse, pilih “Tidak tahu, tolong ukurkan”, sejajarkan tepi kiri mouse dengan garis pertama di layar lalu klik, kemudian tetap tempelkan mouse ke meja dan dorong sampai tepi kiri yang sama mencapai garis kedua, lalu klik lagi. Lakukan tiga kali. Kalau nanti kamu menekan tombol DPI di mouse, ukur lagi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "entries": [
+        {
+          "id": "q14",
+          "q": "Apa saja isi Wasdo Pro?",
+          "a": [
+            "Pro membuka game dan layout tanpa batas, layout siap pakai untuk game populer, kombo tombol modifier (Shift, Ctrl, atau Alt ditambah satu tombol), kurva sensitivitas mouse dengan sensitivitas X dan Y terpisah, penghalusan dan zoom scope, tombol roda scroll, makro satu tombol, ganti scene, tombol toggle dan sequence, serta Smart Cast untuk MOBA. Kamu bisa mencobanya dulu: saat menyimpan atau mengimpor layout yang memakai fitur Pro, kamu dapat beberapa jatah coba gratis sebelum perlu Pro, dan kamu bisa menambahkan satu preset game secara gratis. Cukup sekali beli lewat Google Play: tanpa langganan dan tanpa iklan."
+          ]
+        },
+        {
+          "id": "q15",
+          "q": "Aku sudah beli Pro di HP lain. Bagaimana cara memulihkannya?",
+          "a": [
+            "Pastikan Play Store di HP baru masuk dengan akun Google yang sama dengan yang kamu pakai untuk membeli Pro, lalu buka Wasdo dan pilih Setelan → Pulihkan pembelian. Kalau kamu membelinya dengan akun lain, ganti dulu ke akun itu di Play Store. Di wilayah tempat Google Play tidak menjual Pro, fitur Pro terbuka untukmu, dan semua yang sudah kamu simpan tetap berfungsi meski nanti Pro mulai dijual di sana."
+          ]
+        }
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}

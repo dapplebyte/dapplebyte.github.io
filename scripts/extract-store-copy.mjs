@@ -115,6 +115,13 @@ const CONFIG = {
       'support',
     ],
   },
+  /** Wasdo: `<emoji> <b>Title</b>` headings like the other bold listings; the first heading is the hero line. */
+  wasdo: {
+    format: 'bold',
+    taglineFromTitle: true,
+    stripParagraphEmoji: true,
+    ids: ['intro', 'no-root', 'use-cases', 'mapping', 'mouse-look', 'presets', 'typing-overlay', 'pro', 'privacy', 'please-note', 'support'],
+  },
   'gamepad-pro': {
     format: 'emoji',
     /** Two intro paragraphs since the 2026-10-18 ASO rewrite (three before). 1.9.9: no-root moved up to 2nd, keyboard section dropped. */

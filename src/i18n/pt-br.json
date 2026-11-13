@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · Apps independentes para Android",
-    "description": "A DappleByte é um estúdio independente que faz apps para Android: o Gamepad Pro, um mapeador de botões que transforma um controle em comandos de toque; o Relaypad, um controle de Remote Play e app de transmissão do console para PS5 e PS4; o WhenDo, um app de automação com AI e clique automático (auto clicker); o JoyLink, que transforma o celular em controle Bluetooth, touchpad e controle de TV; e o Gamepad Tester Pro, que verifica se o controle tem drift no analógico, input lag ou botões mortos. A DappleByte também faz o Apk Extractor, extrator de APK, ferramenta de backup de apps e instalador XAPK que leva seus apps para um celular novo. O app mais recente, SlopSwipe, pula os vídeos gerados por IA no YouTube Shorts, TikTok e Instagram Reels, mostra o motivo de cada pulo e desfaz com um toque.",
+    "description": "A DappleByte é um estúdio independente que faz apps para Android: o Gamepad Pro, um mapeador de botões que transforma um controle em comandos de toque; o Relaypad, um controle de Remote Play e app de transmissão do console para PS5 e PS4; o WhenDo, um app de automação com AI e clique automático (auto clicker); o JoyLink, que transforma o celular em controle Bluetooth, touchpad e controle de TV; e o Gamepad Tester Pro, que verifica se o controle tem drift no analógico, input lag ou botões mortos. A DappleByte também faz o Apk Extractor, extrator de APK, ferramenta de backup de apps e instalador XAPK que leva seus apps para um celular novo. O app mais recente, SlopSwipe, pula os vídeos gerados por IA no YouTube Shorts, TikTok e Instagram Reels, mostra o motivo de cada pulo e desfaz com um toque. O próximo será o Wasdo, um mapeador de teclado e mouse para jogar jogos de toque do Android com WASD e câmera com mouse.",
     "appsHeading": "Apps",
     "principlesHeading": "Como trabalhamos",
     "principles": [
@@ -747,6 +747,43 @@
       }
     },
     "wasdo": {
+      "kicker": "Mapeador de teclado e mouse · Sem root",
+      "heroPoints": [
+        "WASD para andar, o mouse para girar a câmera e teclas para habilidades e armas",
+        "Predefinições prontas para jogos populares, além de modelos para FPS, MOBA e RPG",
+        "Só a permissão de acessibilidade: sem root, sem ADB, sem PC e nada para reativar"
+      ],
+      "faqDescription": "Respostas sobre o Wasdo: configuração e permissão de acessibilidade, como criar um mapeamento, teclado e mouse, controle da câmera e Wasdo Pro.",
+      "faqNotFoundBody": "Escreva para a gente com o modelo do celular, o teclado e o mouse, o jogo e o que aconteceu. Toda mensagem é lida por uma pessoa.",
+      "support": {
+        "beforeItems": [
+          "No Wasdo, abra Configurações → Assistente de conexão. Ele verifica se o teclado e o mouse foram detectados e, se não foram, mostra o passo a passo para resolver.",
+          "Abra as perguntas frequentes. A maioria das dúvidas sobre configuração, permissões e mapeamento está respondida lá, com as mesmas palavras do app.",
+          "Anote o jogo, o teclado e o mouse e o que acontece na tela quando você aperta uma tecla. É disso que a gente precisa para reproduzir o problema."
+        ],
+        "template": {
+          "phone": "Modelo do celular ou tablet:",
+          "android": "Versão do Android:",
+          "devices": "Teclado e mouse (modelo, USB ou Bluetooth):",
+          "game": "Jogo ou app:",
+          "what": "O que aconteceu, passo a passo:",
+          "pro": "Comprou o Pro: sim / não"
+        },
+        "refundBody": "O Wasdo é grátis para instalar. Se você comprou o Wasdo Pro e ele não funcionar com a sua configuração, mande um e-mail em até 7 dias após a compra e devolvemos o valor. Conte o que você tentou; isso ajuda a gente a resolver para a próxima pessoa."
+      },
+      "press": {
+        "description": "Fatos, materiais e um texto padrão para quem for escrever sobre o Wasdo, o mapeador de teclado e mouse para Android.",
+        "boilerplate": "O Wasdo permite jogar jogos de toque do Android com teclado e mouse USB ou Bluetooth: WASD para andar, o mouse para girar a câmera e teclas posicionadas sobre os botões do jogo, com predefinições prontas para jogos populares e modelos para FPS, MOBA e RPG. Ele só precisa da permissão de acessibilidade, sem root, sem ADB e sem PC. É feito pela DappleByte, um estúdio independente.",
+        "priceValue": "Grátis para instalar, sem anúncios. O Wasdo Pro libera controles avançados de mouse e macros com uma compra no app. O preço atual aparece no Google Play.",
+        "assetScreenshots": "Capturas de tela, 1920 × 1080 PNG, em inglês"
+      },
+      "videosDescription": "Vídeos curtos mostrando o Wasdo num celular e num tablet de verdade: como conectar teclado e mouse, como criar um mapeamento, a câmera com mouse e os problemas mais comuns.",
+      "privacyDescription": "O que o Wasdo para Android faz com os seus dados: sem conta, para que serve o Serviço de Acessibilidade, o que os SDKs de análise e de relatórios de falhas coletam e como desativar a coleta opcional.",
+      "compare": {
+        "description": "Como o Wasdo se compara a outros mapeadores de teclado e mouse no Android, recurso por recurso, só fatos.",
+        "vsDescription": "{name} e {other} comparados no Android, recurso por recurso: root, ADB e ativação, câmera com mouse, predefinições, macros e preço.",
+        "vsIntro": "Os dois permitem jogar jogos de toque no Android com teclado e mouse. Veja onde eles diferem, recurso por recurso."
+      },
       "labels": {
         "presets": "Esquemas predefinidos"
       },

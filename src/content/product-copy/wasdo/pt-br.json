@@ -1,0 +1,124 @@
+{
+  "slug": "wasdo",
+  "locale": "pt-br",
+  "title": "Wasdo: Keyboard Mouse Mapper",
+  "shortDescription": "Mapeamento de teclas para jogos no celular: teclado, WASD. Sem root, ADB ou PC",
+  "tagline": "Mapeador de teclado e mouse para jogos no celular: sem root, sem ADB",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Mapeador de teclado e mouse para jogos no celular: sem root, sem ADB",
+      "paragraphs": [
+        "O Wasdo é um mapeador de teclado e mouse para jogar com teclado e mouse no celular e no tablet Android. Conecte teclado e mouse USB ou Bluetooth, posicione as teclas nos botões do jogo e jogue do jeito do PC: WASD para andar, o mouse para girar a câmera, teclas para habilidades e armas. Sem root, ADB ou PC e sem parear a depuração sem fio. Ative uma permissão de acessibilidade e pronto."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "no-root",
+      "title": "Sem root, sem ADB, sem ativação",
+      "paragraphs": [
+        "Muitos apps do tipo pedem depuração sem fio, ADB pelo computador ou nova ativação a cada reinício. O Wasdo não."
+      ],
+      "bullets": [
+        "Só o serviço de acessibilidade, sem Shizuku nem app auxiliar",
+        "Sem código de pareamento, sem depuração USB, sem PC",
+        "Nada para ativar de novo depois de reiniciar",
+        "Funciona em celulares e tablets Android"
+      ]
+    },
+    {
+      "id": "use-cases",
+      "title": "Como a galera usa o Wasdo",
+      "paragraphs": [],
+      "bullets": [
+        "Jogos de tiro no tablet: WASD, câmera no mouse, teclas para recarregar e agachar",
+        "Jogos MOBA com teclas de habilidade e Smart Cast",
+        "RPGs de ação com esquiva e combos no teclado",
+        "Tablet com capa teclado, ou celular num hub USB"
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Mapeamento de teclas: toque, segurar, toque rápido e deslizar",
+      "paragraphs": [],
+      "bullets": [
+        "Use como mapeador de teclado: qualquer tecla vira toque, segurar, toque rápido ou deslizar",
+        "Aciona ao pressionar, pressionar longo, toque duplo ou soltar",
+        "Joystick WASD com oito direções e tecla de corrida",
+        "Mapeie os botões esquerdo, direito, do meio e laterais do mouse",
+        "Clique na posição do cursor para menus, mapa e inventário"
+      ]
+    },
+    {
+      "id": "mouse-look",
+      "title": "Mouse para girar a câmera, como no PC",
+      "paragraphs": [],
+      "bullets": [
+        "O modo câmera trava o mouse e gira a visão, como no PC",
+        "Esc alterna entre o modo câmera e o modo cursor",
+        "Ajuste a sensibilidade no meio da partida por controle deslizante ou atalhos",
+        "Inverter eixo Y, tecla de luneta e mira na tela opcional"
+      ]
+    },
+    {
+      "id": "presets",
+      "title": "Esquemas predefinidos e modelos para FPS, MOBA e RPG",
+      "paragraphs": [],
+      "bullets": [
+        "Esquemas predefinidos para jogos populares, ajustados à sua tela",
+        "Modelos FPS, MOBA, Ação em mundo aberto e Geral",
+        "Editor de arrastar e soltar, tamanho e opacidade das teclas ajustáveis",
+        "Vários esquemas por jogo",
+        "Exportar, fazer backup e compartilhar por código é grátis"
+      ]
+    },
+    {
+      "id": "typing-overlay",
+      "title": "Modo digitação, botão flutuante e modo streaming",
+      "paragraphs": [],
+      "bullets": [
+        "O modo digitação (Enter) manda o teclado para o chat do jogo",
+        "Botão flutuante: troque de esquema, ajuste a sensibilidade, edite teclas no jogo",
+        "O modo streaming esconde a sobreposição enquanto você grava"
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Wasdo Pro: mouse avançado e macros",
+      "paragraphs": [
+        "Grátis para começar, sem anúncios. O Wasdo Pro adiciona jogos e esquemas ilimitados, combinações com modificadores (Shift, Ctrl ou Alt + tecla), curvas de sensibilidade com X e Y separados, suavização e zoom da mira, teclas da roda do mouse, macros de uma tecla, troca de cena, teclas Toggle e de sequência, e Smart Cast para MOBA. Esquemas já salvos seguem funcionando."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "privacy",
+      "title": "Privacidade e a permissão de acessibilidade",
+      "paragraphs": [
+        "O Wasdo usa a acessibilidade só para ler teclado e mouse enquanto um mapeamento está ativo e para gerar os toques no jogo. Ele não lê, não salva e não envia a sua tela."
+      ],
+      "bullets": []
+    },
+    {
+      "id": "please-note",
+      "title": "Importante",
+      "paragraphs": [],
+      "bullets": [
+        "Alguns jogos detectam teclado e mouse externos e podem restringir contas. O Wasdo não se esconde nem contorna isso. Os jogos relatados por jogadores aparecem marcados no app.",
+        "Sem controle de recuo nem mira assistida: o Wasdo só transforma os seus comandos em toques.",
+        "Touchpad não gira a câmera. Use um mouse comum.",
+        "Telas externas funcionam no modo espelhamento, não no modo desktop do Samsung DeX.",
+        "Para controles, experimente nosso app irmão Gamepad Pro.",
+        "Os nomes dos jogos pertencem aos seus donos. O Wasdo não tem vínculo com nenhuma publicadora."
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Algo não está funcionando?",
+      "paragraphs": [
+        "Rode primeiro Configurações → Autoteste de teclado e mouse. Ainda com problema? Antes de avaliar, mande um e-mail para feedback@dapplebyte.com com o modelo do celular e o jogo. Lemos todas as mensagens."
+      ],
+      "bullets": []
+    }
+  ],
+  "extractedAt": "2026-11-13"
+}
