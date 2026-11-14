@@ -3,6 +3,17 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Düzeltildi: Android 12–15'te kumanda oyun sırasında aniden yanıt vermeyi bırakabiliyordu. Artık kendiliğinden düzeliyor.",
+        "Düzeltildi: oyundan çıktıktan sonra tuşlar ana ekranda veya kilit ekranında çalışmaya devam ediyordu.",
+        "Düzeltildi: oyun sırasında bildirimlere yanıt verirken klavye açılmıyordu.",
+        "1.9.9'daki diğer yenilikler: Free Fire için hazır düzen, oyun türü şablonları, Ayarlar'da Hazır düzen kütüphanesi ve Açık tema."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -128,5 +139,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }

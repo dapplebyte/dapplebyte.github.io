@@ -3,6 +3,17 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Đã sửa: trên Android 12–15, tay cầm có thể đột nhiên không phản hồi giữa trận. Giờ tay cầm sẽ tự hoạt động lại.",
+        "Đã sửa: sau khi thoát game, nút vẫn còn tác dụng ở màn hình chính hoặc màn hình khóa.",
+        "Đã sửa: bàn phím không mở được khi trả lời thông báo lúc đang chơi.",
+        "Cũng có trong 1.9.9: phương án có sẵn cho Free Fire, mẫu theo thể loại game, Thư viện phương án có sẵn và Chủ đề Sáng trong Cài đặt."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -128,5 +139,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }

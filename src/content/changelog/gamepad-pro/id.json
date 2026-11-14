@@ -3,6 +3,17 @@
   "locale": "id",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Diperbaiki: di Android 12–15, kontroler kadang tiba-tiba tidak merespons saat main. Sekarang bisa pulih sendiri.",
+        "Diperbaiki: tombol masih berfungsi di layar utama atau layar kunci setelah keluar dari game.",
+        "Diperbaiki: keyboard tidak muncul saat membalas notifikasi sambil main game.",
+        "Juga baru di 1.9.9: preset Free Fire, template per jenis game, serta Pustaka preset dan Tema Terang di Setelan."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -128,5 +139,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }

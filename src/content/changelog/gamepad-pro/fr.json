@@ -3,6 +3,17 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Correction : sous Android 12–15, la manette pouvait ne plus répondre en pleine partie. Elle se rétablit désormais seule.",
+        "Correction : hors du jeu, les boutons restaient actifs sur l’écran d’accueil ou de verrouillage.",
+        "Correction : en jeu, le clavier ne s’ouvrait pas pour répondre à une notification.",
+        "Aussi dans la 1.9.9 : configuration Free Fire, modèles par type de jeu, Bibliothèque de configurations prédéfinies et thème Clair (Paramètres)."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -127,5 +138,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }

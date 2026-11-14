@@ -3,6 +3,17 @@
   "locale": "en",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Fixed: on Android 12–15 the controller could stop responding mid-game. It now recovers on its own.",
+        "Fixed: buttons kept acting on the home screen or lock screen after you left a game.",
+        "Fixed: the keyboard didn't open for notification replies while playing.",
+        "Also new in 1.9.9: Free Fire preset, game-type templates, Preset library and Light theme in Settings."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -128,5 +139,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }

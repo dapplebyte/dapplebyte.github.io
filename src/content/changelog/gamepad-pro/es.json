@@ -3,6 +3,17 @@
   "locale": "es",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Corregimos que, en Android 12–15, el mando dejara de responder en plena partida. Ahora se recupera solo.",
+        "Corregimos que los botones siguieran funcionando en la pantalla de inicio o de bloqueo al salir del juego.",
+        "Corregimos que el teclado no se abriera para responder notificaciones mientras juegas.",
+        "Novedades de 1.9.9: esquema predefinido de Free Fire, plantillas por tipo de juego, Biblioteca de esquemas predefinidos y tema Claro en Ajustes."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -128,5 +139,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }

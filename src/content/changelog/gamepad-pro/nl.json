@@ -3,6 +3,17 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Opgelost: op Android 12–15 kon de controller midden in een game stoppen met reageren. Hij herstelt zich nu vanzelf.",
+        "Opgelost: na het verlaten van een game bleven knoppen werken op het startscherm of vergrendelscherm.",
+        "Opgelost: tijdens het gamen ging het toetsenbord niet open om op meldingen te reageren.",
+        "Ook nieuw in 1.9.9: preset voor Free Fire, sjablonen per gametype, plus de Presetbibliotheek en het lichte thema in Instellingen."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -128,5 +139,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }

@@ -3,6 +3,17 @@
   "locale": "de",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Behoben: Unter Android 12–15 konnte der Controller mitten im Spiel nicht mehr reagieren. Jetzt fängt er sich von selbst.",
+        "Behoben: Tasten wirkten nach dem Verlassen des Spiels auf dem Start- oder Sperrbildschirm weiter.",
+        "Behoben: Beim Spielen ließ sich die Tastatur für Antworten auf Benachrichtigungen nicht öffnen.",
+        "Außerdem neu in 1.9.9: Preset für Free Fire, Vorlagen nach Spieltyp, Preset-Bibliothek und helles Design in den Einstellungen."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -128,5 +139,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }

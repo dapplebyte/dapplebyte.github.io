@@ -3,6 +3,17 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Naprawiono (Android 12–15): kontroler mógł nagle przestać reagować w trakcie gry. Teraz sam wraca do działania.",
+        "Naprawiono: po wyjściu z gry przyciski nadal działały na ekranie głównym lub ekranie blokady.",
+        "Naprawiono: w trakcie gry nie otwierała się klawiatura przy odpowiadaniu na powiadomienia.",
+        "Także w 1.9.9: gotowy układ do Free Fire, szablony typów gier, Biblioteka gotowych układów i jasny motyw w Ustawieniach."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -128,5 +139,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }

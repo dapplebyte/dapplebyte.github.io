@@ -3,6 +3,17 @@
   "locale": "it",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Risolto: su Android 12–15 il controller poteva smettere di rispondere durante la partita. Ora si ripristina da solo.",
+        "Risolto: dopo l'uscita dal gioco, i tasti continuavano a funzionare nella schermata Home o di blocco.",
+        "Risolto: durante il gioco la tastiera non si apriva per rispondere alle notifiche.",
+        "Novità della 1.9.9: schema predefinito Free Fire, modelli per tipo di gioco, Libreria degli schemi predefiniti e tema Chiaro in Impostazioni."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -128,5 +139,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }

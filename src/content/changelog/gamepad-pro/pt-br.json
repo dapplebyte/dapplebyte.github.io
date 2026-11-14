@@ -3,6 +3,17 @@
   "locale": "pt-br",
   "entries": [
     {
+      "code": 1992,
+      "name": "1.9.9.2",
+      "date": "2026-11-14",
+      "items": [
+        "Corrigido: no Android 12–15, o controle podia parar de responder no meio do jogo. Agora ele volta sozinho.",
+        "Corrigido: os botões continuavam funcionando na tela inicial ou de bloqueio depois de sair do jogo.",
+        "Corrigido: o teclado não abria para responder notificações durante o jogo.",
+        "Também na 1.9.9: esquema predefinido do Free Fire, modelos por tipo de jogo, Biblioteca de esquemas predefinidos e tema Claro em Configurações."
+      ]
+    },
+    {
       "code": 1991,
       "name": "1.9.9.1",
       "date": "2026-11-10",
@@ -128,5 +139,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-14"
 }
