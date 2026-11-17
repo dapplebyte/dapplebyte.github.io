@@ -1,0 +1,15 @@
+{
+  "slug": "wasdo",
+  "locale": "nl",
+  "entries": [
+    {
+      "code": 1,
+      "name": "1.0.0",
+      "date": "2026-11-17",
+      "items": [
+        "De eerste early access-versie van Wasdo. Speel Android-games die alleen aanraking ondersteunen met een USB- of Bluetooth-toetsenbord en -muis: WASD om te lopen, de muis om te richten en de camera te draaien, toetsen voor vaardigheden. Zonder root, zonder ADB. Werkt het niet op je apparaat of in je game? Stuur ons feedback via Instellingen, dat helpt echt."
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-17"
+}

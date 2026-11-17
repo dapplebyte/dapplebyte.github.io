@@ -1,0 +1,15 @@
+{
+  "slug": "wasdo",
+  "locale": "id",
+  "entries": [
+    {
+      "code": 1,
+      "name": "1.0.0",
+      "date": "2026-11-17",
+      "items": [
+        "Versi akses awal pertama Wasdo. Mainkan game Android yang hanya mendukung sentuhan dengan keyboard dan mouse USB atau Bluetooth: WASD untuk bergerak, mouse untuk membidik dan memutar kamera, tombol untuk skill. Tanpa root, tanpa ADB. Tidak jalan di perangkat atau game kamu? Kirim masukan lewat Setelan, itu sangat membantu."
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-17"
+}

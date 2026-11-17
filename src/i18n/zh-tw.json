@@ -50,7 +50,7 @@
   },
   "home": {
     "title": "DappleByte · 獨立開發的 Android app",
-    "description": "DappleByte 是一個獨立開發 Android app 的小工作室，產品有 Gamepad Pro：把手把變成觸控操作的按鍵映射工具；Relaypad：PS5 與 PS4 的 Remote Play 控制器與主機串流 app；WhenDo：結合 AI 的自動化與連點器 app；JoyLink：把手機變成藍牙手把、觸控板和電視遙控器；以及 Gamepad Tester Pro：檢查手把有沒有搖桿飄移、輸入延遲和失靈的按鍵。DappleByte 也做了 Apk Extractor：APK 提取、應用程式備份與 XAPK 安裝工具，還能幫你把應用程式搬到新手機。最新推出的 SlopSwipe，會在 YouTube Shorts、TikTok 和 Instagram Reels 裡自動滑走 AI 生成影片，每次跳過都附上原因，一鍵就能還原。下一款即將推出的是 Wasdo：用 WASD 和滑鼠視角玩 Android 觸控遊戲的鍵鼠映射工具。",
+    "description": "DappleByte 是一個獨立開發 Android app 的小工作室，產品有 Gamepad Pro：把手把變成觸控操作的按鍵映射工具；Relaypad：PS5 與 PS4 的 Remote Play 控制器與主機串流 app；WhenDo：結合 AI 的自動化與連點器 app；JoyLink：把手機變成藍牙手把、觸控板和電視遙控器；以及 Gamepad Tester Pro：檢查手把有沒有搖桿飄移、輸入延遲和失靈的按鍵。DappleByte 也做了 Apk Extractor：APK 提取、應用程式備份與 XAPK 安裝工具，還能幫你把應用程式搬到新手機。SlopSwipe 會在 YouTube Shorts、TikTok 和 Instagram Reels 裡自動滑走 AI 生成影片，每次跳過都附上原因，一鍵就能還原。最新的 Wasdo 是用 WASD 和滑鼠視角玩 Android 觸控遊戲的鍵鼠映射工具，已在 Google Play 開放搶先體驗。",
     "appsHeading": "產品",
     "principlesHeading": "我們怎麼做事",
     "principles": [

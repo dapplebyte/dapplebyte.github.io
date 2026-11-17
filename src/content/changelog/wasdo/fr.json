@@ -1,0 +1,15 @@
+{
+  "slug": "wasdo",
+  "locale": "fr",
+  "entries": [
+    {
+      "code": 1,
+      "name": "1.0.0",
+      "date": "2026-11-17",
+      "items": [
+        "La première version en accès anticipé de Wasdo. Jouez aux jeux Android tactiles avec un clavier et une souris USB ou Bluetooth : WASD pour vous déplacer, la souris pour viser et tourner la caméra, des touches pour les compétences. Sans root ni ADB. Ça ne marche pas sur votre appareil ou votre jeu ? Envoyez-nous un avis depuis les Paramètres, ça nous aide beaucoup."
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-17"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "wasdo",
+  "locale": "en",
+  "entries": [
+    {
+      "code": 1,
+      "name": "1.0.0",
+      "date": "2026-11-17",
+      "items": [
+        "Wasdo's first early access release. Play touch-only Android games with a USB or Bluetooth keyboard and mouse: WASD to move, the mouse to aim and turn the camera, keys for skills. No root, no ADB. Not working with your device or game? Send us feedback from Settings, it really helps."
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-17"
+}

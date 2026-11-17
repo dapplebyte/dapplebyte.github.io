@@ -1,0 +1,15 @@
+{
+  "slug": "wasdo",
+  "locale": "zh-tw",
+  "entries": [
+    {
+      "code": 1,
+      "name": "1.0.0",
+      "date": "2026-11-17",
+      "items": [
+        "Wasdo 首個搶先體驗版。接上 USB 或藍牙鍵盤滑鼠，就能玩只支援觸控的 Android 遊戲：WASD 移動、滑鼠瞄準轉視角、按鍵放技能，免 Root、免 ADB。哪台裝置或哪款遊戲不好用，歡迎從「設定」回饋給我們。"
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-17"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "wasdo",
+  "locale": "vi",
+  "entries": [
+    {
+      "code": 1,
+      "name": "1.0.0",
+      "date": "2026-11-17",
+      "items": [
+        "Phiên bản truy cập sớm đầu tiên của Wasdo. Chơi game Android chỉ hỗ trợ cảm ứng bằng bàn phím và chuột USB hoặc Bluetooth: WASD để di chuyển, chuột để ngắm và xoay camera, phím để dùng kỹ năng. Không cần root, không cần ADB. Không chạy được trên máy hay game của bạn? Gửi phản hồi cho chúng tôi trong phần Cài đặt, điều đó giúp ích rất nhiều."
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-17"
+}

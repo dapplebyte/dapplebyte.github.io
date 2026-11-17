@@ -1,0 +1,15 @@
+{
+  "slug": "wasdo",
+  "locale": "pt-br",
+  "entries": [
+    {
+      "code": 1,
+      "name": "1.0.0",
+      "date": "2026-11-17",
+      "items": [
+        "A primeira versão de acesso antecipado do Wasdo. Jogue games de Android só de toque com teclado e mouse USB ou Bluetooth: WASD para andar, o mouse para mirar e girar a câmera, teclas para habilidades. Sem root, sem ADB. Não funciona no seu aparelho ou jogo? Mande seu feedback pelas Configurações, ajuda muito."
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-17"
+}

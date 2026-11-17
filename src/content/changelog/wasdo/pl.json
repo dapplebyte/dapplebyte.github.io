@@ -1,0 +1,15 @@
+{
+  "slug": "wasdo",
+  "locale": "pl",
+  "entries": [
+    {
+      "code": 1,
+      "name": "1.0.0",
+      "date": "2026-11-17",
+      "items": [
+        "Pierwsza wersja Wasdo we wczesnym dostępie. Graj w dotykowe gry na Androida z klawiaturą i myszą USB lub Bluetooth: WASD do ruchu, mysz do celowania i obracania kamery, klawisze do umiejętności. Bez roota, bez ADB. Nie działa na Twoim urządzeniu lub w grze? Wyślij nam opinię z Ustawień, to bardzo pomaga."
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-17"
+}

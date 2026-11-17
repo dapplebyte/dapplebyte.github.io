@@ -1,0 +1,15 @@
+{
+  "slug": "wasdo",
+  "locale": "de",
+  "entries": [
+    {
+      "code": 1,
+      "name": "1.0.0",
+      "date": "2026-11-17",
+      "items": [
+        "Die erste Early-Access-Version von Wasdo. Spiele reine Touch-Spiele auf Android mit USB- oder Bluetooth-Tastatur und -Maus: WASD zum Laufen, die Maus zum Zielen und Drehen der Kamera, Tasten für Fähigkeiten. Ohne Root, ohne ADB. Klappt es auf deinem Gerät oder in deinem Spiel nicht? Schick uns Feedback über die Einstellungen, das hilft uns sehr."
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-17"
+}

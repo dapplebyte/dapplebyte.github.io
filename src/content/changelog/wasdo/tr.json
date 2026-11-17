@@ -1,0 +1,15 @@
+{
+  "slug": "wasdo",
+  "locale": "tr",
+  "entries": [
+    {
+      "code": 1,
+      "name": "1.0.0",
+      "date": "2026-11-17",
+      "items": [
+        "Wasdo'nun ilk erken erişim sürümü. Yalnızca dokunmatik Android oyunlarını USB veya Bluetooth klavye ve fareyle oynayın: hareket için WASD, nişan alma ve kamerayı çevirme için fare, yetenekler için tuşlar. Root yok, ADB yok. Cihazınızda veya oyununuzda çalışmıyor mu? Ayarlar'dan bize geri bildirim gönderin, çok işimize yarıyor."
+      ]
+    }
+  ],
+  "extractedAt": "2026-11-17"
+}
