@@ -1,0 +1,368 @@
+---
+// /key/: paste a stream server URL and key on a computer, get a QR code that Relaypad scans.
+// One page for every language: the strings of all 19 locales (`keyTool.*` in src/i18n) are embedded and
+// /key/key.js picks one from navigator.language, with a switcher. The key never leaves the tab: no
+// requests, no storage, no analytics, the QR library is served from this site (public/key/).
+import Base from '../layouts/Base.astro';
+import { LOCALES } from '../i18n/locales';
+import { useT } from '../i18n/t';
+import en from '../i18n/en.json';
+
+const KEYS = Object.keys(en.keyTool);
+const strings = Object.fromEntries(
+  LOCALES.map((l) => {
+    const { t } = useT(l.slug);
+    return [l.lang, Object.fromEntries(KEYS.map((k) => [k, t(`keyTool.${k}`)]))];
+  }),
+);
+const embedded = JSON.stringify({ locales: LOCALES.map(({ lang, dir, name }) => ({ lang, dir, name })), strings }).replace(/</g, '\\u003c');
+const s = strings.en as Record<string, string>;
+const [step2Before, step2After] = s.step2.split('{button}');
+const year = new Date().getUTCFullYear();
+
+// Enforced in production only (the dev server needs its own scripts and websocket).
+const CSP = [
+  "default-src 'none'",
+  "script-src 'self'",
+  "style-src 'self' 'unsafe-inline'",
+  "font-src 'self' data:",
+  "img-src 'self' data:",
+  "connect-src 'none'",
+  "form-action 'none'",
+  "base-uri 'none'",
+].join('; ');
+---
+
+<Base locale="en" path="/key/" title={`${s.title} · Relaypad · DappleByte`} description={s.description} alternates={['en']} noindex bare>
+  <Fragment slot="head">
+    <meta name="referrer" content="no-referrer" />
+    {import.meta.env.PROD && <meta http-equiv="Content-Security-Policy" content={CSP} />}
+  </Fragment>
+
+  <Fragment slot="header">
+    <label class="visually-hidden" for="key-lang" data-i18n="language">{s.language}</label>
+    <select id="key-lang" class="key-lang">
+      {LOCALES.map((l) => <option value={l.lang} lang={l.lang} selected={l.lang === 'en'}>{l.name}</option>)}
+    </select>
+  </Fragment>
+
+  <section class="wrap key-intro">
+    <div class="mono mono-accent" style="margin-bottom:14px">Relaypad · RTMP</div>
+    <h1 class="h-page" data-i18n="heading">{s.heading}</h1>
+    <p class="lede" style="margin-top:16px" data-i18n="lede">{s.lede}</p>
+  </section>
+
+  <section class="wrap key-tool">
+    <noscript><p class="key-noscript">{s.noscript}</p></noscript>
+    <div class="key-grid">
+      <div class="key-form">
+        <div class="field">
+          <label for="key-server" class="field-label">
+            <span data-i18n="serverLabel">{s.serverLabel}</span>
+            <span class="field-opt" data-i18n="optional">{s.optional}</span>
+          </label>
+          <input
+            id="key-server"
+            class="field-input"
+            type="text"
+            inputmode="url"
+            dir="ltr"
+            placeholder="rtmp://… / rtmps://…"
+            autocomplete="off"
+            autocapitalize="off"
+            autocorrect="off"
+            spellcheck="false"
+            aria-describedby="key-server-hint key-server-error"
+            data-1p-ignore
+            data-lpignore="true"
+            data-bwignore
+            data-form-type="other"
+          />
+          <p class="field-hint" id="key-server-hint" data-i18n="serverHint">{s.serverHint}</p>
+          <p class="field-error" id="key-server-error" aria-live="polite" hidden></p>
+        </div>
+
+        <div class="field">
+          <label for="key-key" class="field-label"><span data-i18n="keyLabel">{s.keyLabel}</span></label>
+          <div class="field-row">
+            <input
+              id="key-key"
+              class="field-input"
+              type="password"
+              dir="ltr"
+              autocomplete="off"
+              autocapitalize="off"
+              autocorrect="off"
+              spellcheck="false"
+              aria-describedby="key-key-error"
+              data-1p-ignore
+              data-lpignore="true"
+              data-bwignore
+              data-form-type="other"
+            />
+            <button type="button" id="key-toggle" class="key-btn" aria-controls="key-key" aria-label={s.showLabel}>{s.show}</button>
+          </div>
+          <p class="field-error" id="key-key-error" aria-live="polite" hidden></p>
+        </div>
+
+        <div class="actions">
+          <button type="button" id="key-clear" class="key-btn" data-i18n="clear">{s.clear}</button>
+        </div>
+
+        <div class="key-note">
+          <p data-i18n="privacy">{s.privacy}</p>
+          <p class="key-warn" data-i18n="warning">{s.warning}</p>
+        </div>
+      </div>
+
+      <div class="key-qr-col">
+        <div class="qr-frame" id="key-qr">
+          <p class="qr-empty">{s.qrEmpty}</p>
+        </div>
+        <p class="qr-status" id="key-qr-status" aria-live="polite">{s.qrEmpty}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <h2 class="h-section" data-i18n="stepsHeading">{s.stepsHeading}</h2>
+    <ol class="key-steps">
+      <li data-i18n="step1">{s.step1}</li>
+      <li id="key-step2">{step2Before}<strong>{s.scanButton}</strong>{step2After}</li>
+      <li data-i18n="step3">{s.step3}</li>
+    </ol>
+  </section>
+
+  <footer slot="footer" class="key-footer">
+    <div class="wrap">
+      <p class="fine">
+        © {year} <a href="/">DappleByte</a> · <a href="/relaypad/">Relaypad</a> · <a href="/privacy/">Privacy</a>
+      </p>
+      <p class="fine">
+        QR code generator: <a href="https://github.com/kazuhikoarase/qrcode-generator">qrcode-generator</a> by Kazuhiko Arase, <a href="/key/qrcode-generator.LICENSE.txt">MIT License</a>. QR Code is a registered trademark of DENSO WAVE INCORPORATED.
+      </p>
+    </div>
+  </footer>
+
+  <script type="application/json" id="key-strings" set:html={embedded} />
+  <script is:inline src="/key/qrcode-generator.js"></script>
+  <script is:inline src="/key/key.js"></script>
+</Base>
+
+<style>
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .key-lang {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--fg);
+    background: var(--surface);
+    border: 1px solid var(--line-2);
+    padding: 6px 10px;
+    max-width: 52vw;
+  }
+  .key-intro {
+    padding-block: clamp(36px, 5vw, 56px) clamp(20px, 3vw, 32px);
+  }
+  .key-tool {
+    padding-bottom: clamp(40px, 6vw, 72px);
+  }
+  .key-noscript {
+    border: 1px solid var(--accent);
+    padding: 14px 16px;
+    margin-bottom: 20px;
+  }
+  .key-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
+    gap: clamp(24px, 4vw, 56px);
+    align-items: start;
+  }
+  .key-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    min-width: 0;
+  }
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .field-label {
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  .field-opt {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .field-row {
+    display: flex;
+    gap: 8px;
+  }
+  .field-row .field-input {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  /* System monospace on purpose: a web font subset would be fetched for characters typed into the field. */
+  .field-input {
+    width: 100%;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+    font-size: 16px;
+    color: var(--fg);
+    background: var(--bg-deep);
+    border: 1px solid var(--line-2);
+    padding: 12px 14px;
+    text-align: left;
+  }
+  .field-input::placeholder {
+    color: var(--muted);
+    opacity: 0.8;
+  }
+  .field-input:focus-visible,
+  .key-btn:focus-visible,
+  .key-lang:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  .field-input[aria-invalid='true'] {
+    border-color: #ff8a7a;
+  }
+  .field-hint {
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .field-error {
+    font-size: 14px;
+    color: #ff8a7a;
+  }
+  .key-btn {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--fg);
+    background: transparent;
+    border: 1px solid var(--line-2);
+    padding: 10px 16px;
+    cursor: pointer;
+    flex: 0 0 auto;
+  }
+  .key-btn:hover {
+    border-color: var(--fg-2);
+  }
+  .key-note {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-inline-start: 3px solid var(--accent);
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 15px;
+    color: var(--fg-2);
+  }
+  .key-warn {
+    color: var(--fg);
+    font-weight: 500;
+  }
+  .key-qr-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .qr-frame {
+    width: min(100%, 360px);
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed var(--line-2);
+    background: var(--surface);
+    padding: 24px;
+    text-align: center;
+  }
+  /* The code itself always sits on white with its own 4-module quiet zone: a phone cannot read it on the dark page. */
+  .qr-frame.is-ready {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 0;
+  }
+  .qr-frame :global(svg) {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .qr-frame :global(.qr-empty) {
+    color: var(--muted);
+    font-size: 15px;
+    max-width: 24ch;
+  }
+  .qr-status {
+    min-height: 1.6em;
+    font-size: 15px;
+    color: var(--muted);
+    text-align: center;
+  }
+  .qr-status.is-ready {
+    color: var(--accent);
+  }
+  .key-steps {
+    margin: 20px 0 0;
+    padding-inline-start: 1.4em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 68ch;
+  }
+  .key-steps :global(strong) {
+    color: var(--fg);
+  }
+  .key-footer {
+    border-top: 1px solid var(--line);
+    padding-block: 28px 36px;
+  }
+  .key-footer .fine + .fine {
+    margin-top: 6px;
+  }
+  .key-footer a {
+    color: var(--muted);
+  }
+  .key-footer a:hover {
+    color: var(--fg);
+  }
+  /* Tracking breaks Arabic letter joining and crowds Devanagari and Thai marks. */
+  .key-btn:lang(ar),
+  .key-btn:lang(hi),
+  .key-btn:lang(th),
+  .field-opt:lang(ar),
+  .field-opt:lang(hi),
+  .field-opt:lang(th) {
+    letter-spacing: 0;
+  }
+  @media (max-width: 860px) {
+    .key-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

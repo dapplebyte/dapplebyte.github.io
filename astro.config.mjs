@@ -63,6 +63,8 @@ export default defineConfig({
       filter: (page) => {
         const path = new URL(page).pathname.replace(LOCALE_PREFIX, '');
         if (path === '/404/' || path.startsWith('/404')) return false;
+        // /key/ is a noindex tool page (stream key to QR for Relaypad), not content.
+        if (path === '/key/') return false;
         return !DRAFTS.some((d) => path.startsWith(d));
       },
     }),

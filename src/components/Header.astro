@@ -8,8 +8,10 @@ interface Props {
   path: string;
   alternates: string[];
   productSlug?: string;
+  /** No site nav: the default slot goes where the nav would be (a standalone tool page). */
+  minimal?: boolean;
 }
-const { locale, path, alternates } = Astro.props;
+const { locale, path, alternates, minimal = false } = Astro.props;
 const { t } = useT(locale);
 const loc = getLocale(locale);
 ---
@@ -20,11 +22,15 @@ const loc = getLocale(locale);
       <svg width="26" height="26" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="6" fill="#F2C14E"/><circle cx="10" cy="11" r="3.2" fill="#0C0E11"/><circle cx="18.5" cy="9.5" r="2.2" fill="#0C0E11"/><circle cx="17" cy="18" r="3.6" fill="#0C0E11"/><circle cx="9" cy="19.5" r="1.8" fill="#0C0E11"/></svg>
       <span>{t('site.name')}</span>
     </a>
-    <nav class="site-nav mono" aria-label="Site">
-      <a href={localePath(locale, '/') + '#apps'}>{t('nav.apps')}</a>
-      <a href={localePath(locale, '/about/')}>{t('nav.about')}</a>
-      <LangSwitcher locale={locale} path={path} alternates={alternates} current={loc} locales={LOCALES} label={t('nav.language')} />
-    </nav>
+    {minimal ? (
+      <div class="site-nav mono"><slot /></div>
+    ) : (
+      <nav class="site-nav mono" aria-label="Site">
+        <a href={localePath(locale, '/') + '#apps'}>{t('nav.apps')}</a>
+        <a href={localePath(locale, '/about/')}>{t('nav.about')}</a>
+        <LangSwitcher locale={locale} path={path} alternates={alternates} current={loc} locales={LOCALES} label={t('nav.language')} />
+      </nav>
+    )}
   </div>
 </header>
 

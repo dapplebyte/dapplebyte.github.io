@@ -31,9 +31,11 @@ interface Props {
   accent?: { bright: string; ink: string; solid: string };
   /** Pages under a product get its accent colours and display face. */
   productSlug?: string;
+  /** A standalone tool page: header without the site nav (its own `header` slot instead), its own `footer` slot. */
+  bare?: boolean;
 }
 
-const { locale, path, title, description, alternates = LOCALE_SLUGS, jsonLd, noindex = false, ogImage = '/og/dapplebyte.png', accent, productSlug } = Astro.props;
+const { locale, path, title, description, alternates = LOCALE_SLUGS, jsonLd, noindex = false, ogImage = '/og/dapplebyte.png', accent, productSlug, bare = false } = Astro.props;
 const loc = getLocale(locale);
 const { t } = useT(locale);
 const canonical = new URL(localePath(locale, path), SITE).href;
@@ -70,14 +72,19 @@ const accentStyle = product || accent ? productStyle({ accent: accent ?? product
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="generator" content={Astro.generator} />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    <slot name="head" />
   </head>
   <body style={accentStyle}>
     <a class="skip" href="#main">{t('nav.skip')}</a>
-    <Header locale={locale} path={path} alternates={alternates} productSlug={productSlug} />
+    {bare ? (
+      <Header locale={locale} path={path} alternates={alternates} minimal><slot name="header" /></Header>
+    ) : (
+      <Header locale={locale} path={path} alternates={alternates} productSlug={productSlug} />
+    )}
     <main id="main">
       <slot />
     </main>
-    <Footer locale={locale} />
+    {bare ? <slot name="footer" /> : <Footer locale={locale} />}
   </body>
 </html>
 
