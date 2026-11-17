@@ -12,14 +12,18 @@
           "q": "Wasdo dùng để làm gì?",
           "a": [
             "Wasdo biến bàn phím và chuột USB hoặc Bluetooth thành thao tác chạm và vuốt trên màn hình, để bạn chơi game cảm ứng theo kiểu PC: dùng phím để di chuyển và hành động, dùng chuột để xoay góc nhìn."
-          ]
+          ],
+          "video": "FqFcDntXnKI",
+          "tiktok": "7708357360162491679"
         },
         {
           "id": "q02",
           "q": "Vì sao cần quyền Trợ năng? Có an toàn không?",
           "a": [
             "Dịch vụ Trợ năng cho phép Wasdo đọc bàn phím và chuột khi ánh xạ đang chạy và đặt thao tác chạm vào game đang mở, kể cả bên ngoài ứng dụng. Ánh xạ phím chỉ hoạt động sau khi bật dịch vụ này. Wasdo chỉ dùng nó để thực hiện đúng thao tác bạn đã cài — không đọc, lưu hay tải lên nội dung trên màn hình, những gì bạn gõ hay mật khẩu của bạn."
-          ]
+          ],
+          "video": "cfunsz-mprQ",
+          "tiktok": "7708359131974929694"
         },
         {
           "id": "q04",
@@ -56,7 +60,9 @@
             "2. Kiểm tra ánh xạ đang bật (không bị tạm dừng).",
             "3. Kiểm tra màn hình chính có hiện bàn phím đã kết nối.",
             "4. Nếu trước đó chạy được rồi bỗng ngừng, hãy kiểm tra cài đặt pin / chạy nền (xem câu hỏi tiếp theo)."
-          ]
+          ],
+          "video": "wZu3W6-XkFk",
+          "tiktok": "7708358334658645279"
         },
         {
           "id": "q05",
@@ -66,7 +72,9 @@
             "2. Nếu game có layout dựng sẵn trong mục “Dành cho game này”, hãy chọn nó để có ngay layout đã được tinh chỉnh cho game đó. Nếu không, hãy bắt đầu từ mẫu theo thể loại (FPS, MOBA, Hành động thế giới mở hoặc Chung) hoặc một layout trống.",
             "3. Kéo từng phím lên nút mà nó cần chạm. Muốn thêm phím, hãy chạm +, rồi bấm một phím trên bàn phím, nhấp một nút chuột hoặc lăn con lăn.",
             "4. Lưu lại, rồi bấm Esc trong game để khóa chuột và bắt đầu chơi."
-          ]
+          ],
+          "video": "NvZoYVLzX6M",
+          "tiktok": "7708357524159843598"
         },
         {
           "id": "q07",
@@ -88,13 +96,6 @@
           "a": [
             "Không, và sẽ không bao giờ có. Giảm giật, hỗ trợ ngắm và mọi tính năng tự thao tác game thay bạn đều bị hầu hết game coi là gian lận và có thể khiến tài khoản bị khóa. Wasdo chỉ biến chính những lần bấm phím và chuyển động chuột của bạn thành thao tác chạm và vuốt."
           ]
-        },
-        {
-          "id": "q19",
-          "q": "Làm sao để chia sẻ layout với bạn bè?",
-          "a": [
-            "Trên trang của game, mở menu chia sẻ và chọn Lấy mã chia sẻ. Bạn bè của bạn vào Cài đặt → Sao lưu và khôi phục → Nhập từ mã chia sẻ rồi gõ mã 8 ký tự. Mã có hiệu lực 90 ngày và chỉ chứa layout, không có bất kỳ thông tin nào về thiết bị của bạn. Chia sẻ miễn phí, nhập mã cũng miễn phí, trừ khi layout có dùng tính năng Pro: khi đó cần Pro hoặc một lượt dùng thử miễn phí."
-          ]
         }
       ]
     },
@@ -114,14 +115,18 @@
           "q": "Vì sao con trỏ chuột vẫn hiện trên màn hình?",
           "a": [
             "Bạn đang ở Chế độ con trỏ. Bấm Phím chuyển chế độ góc nhìn (mặc định là Esc) để khóa chuột: con trỏ biến mất và di chuyển chuột sẽ xoay góc nhìn, giống như khi bạn bấm vào cửa sổ game trên PC. Bấm lại lần nữa để thả con trỏ ra và dùng menu. Nếu con trỏ tự hiện lại, nghĩa là có thứ gì đó đã chiếm tiêu điểm (thanh thông báo hoặc hộp thoại hệ thống); hãy bấm phím chuyển thêm một lần để khóa chuột lại."
-          ]
+          ],
+          "video": "8fgacglgLAg",
+          "tiktok": "7708357752610983198"
         },
         {
           "id": "q10",
           "q": "Làm sao để gõ chữ trong game?",
           "a": [
             "Bấm Enter để vào Chế độ gõ chữ: bàn phím sẽ đi thẳng vào game để bạn chat, còn chuột chuyển sang Chế độ con trỏ. Bấm Enter lần nữa để gửi và quay về ánh xạ, hoặc bấm Esc để quay về mà không gửi. Bạn cũng có thể bấm Phím chuyển chế độ gõ chữ (mặc định là Ctrl phải), hoặc chạm nút nổi rồi chọn Chế độ gõ chữ. Nếu một ánh xạ của bạn đã dùng Enter thì Enter vẫn hoạt động theo ánh xạ đó, lúc này hãy dùng Phím chuyển chế độ gõ chữ. Muốn tắt Enter hoặc đổi phím, hãy vào Cài đặt → Bàn phím và chuột."
-          ]
+          ],
+          "video": "ZtQ9YGi0tJI",
+          "tiktok": "7708358689702432031"
         },
         {
           "id": "q11",
@@ -142,38 +147,40 @@
           "q": "Làm sao để chuyển giữa chế độ góc nhìn và chế độ con trỏ?",
           "a": [
             "Bấm Esc khi đang chơi, giống như cách bạn thả chuột trong game trên PC. Ở Chế độ góc nhìn, chuột bị khóa và dùng để xoay góc nhìn, như trong game bắn súng trên PC. Ở Chế độ con trỏ, chuột di chuyển con trỏ để bạn bấm menu và nút. Nút nổi cho biết chế độ hiện tại: biểu tượng tâm ngắm là Chế độ góc nhìn, mũi tên là Chế độ con trỏ, còn bàn phím là Chế độ gõ chữ. Vì Esc dùng để chuyển chế độ nên phím này không được gửi vào game: để mở menu riêng của game, hãy chạm vào nút trên màn hình của game, hoặc chọn một Phím chuyển chế độ góc nhìn khác trong Cài đặt → Bàn phím và chuột, khi đó Esc sẽ lại được gửi vào game. Nếu layout hoàn toàn không dùng chuột, Esc sẽ được gửi thẳng vào game."
-          ]
+          ],
+          "video": "8fgacglgLAg",
+          "tiktok": "7708357752610983198"
         },
         {
-          "id": "q20",
+          "id": "q19",
           "q": "Wasdo có dùng được trên màn hình ngoài hoặc Samsung DeX không?",
           "a": [
             "Có, hãy dùng chế độ phản chiếu màn hình. Khi màn hình ngoài phản chiếu điện thoại hoặc máy tính bảng, Wasdo hoạt động y như trên thiết bị, kể cả chế độ góc nhìn. Trên Samsung, tắt DeX trong cài đặt nhanh để chuyển sang phản chiếu. Nếu âm thanh chuyển sang màn hình và bạn không nghe thấy gì, chạm vào “Đầu ra phương tiện” trong cài đặt nhanh rồi chọn thiết bị của bạn. Ở chế độ mở rộng (Samsung DeX, hoặc màn hình kết nối trên các điện thoại Pixel đời mới), phím vẫn hoạt động nếu cửa sổ game được phóng to, nhưng chế độ góc nhìn, nút nổi và gợi ý trên màn hình có thể không dùng được. Không hỗ trợ Chromebook."
           ]
         },
         {
-          "id": "q21",
+          "id": "q20",
           "q": "Làm sao để chỉnh độ nhạy chuột trong game?",
           "a": [
             "Trước tiên, hãy hiệu chỉnh chuột một lần (Cài đặt → Bàn phím và chuột → Độ nhạy chuột và tâm ngắm → Hiệu chỉnh chuột) để Wasdo biết chuột của bạn nhanh đến mức nào. Nếu trong game góc nhìn vẫn xoay quá nhanh hoặc quá chậm, hãy chạm nút nổi, chọn Độ nhạy chuột rồi chạm Chậm hơn hoặc Nhanh hơn. Cách này chỉ đổi game này, và trang cài đặt đó cũng hiện đúng giá trị này; tốc độ con trỏ cũng chỉnh được ở cả hai nơi. Muốn chỉnh mọi game cùng lúc, hãy dùng Hệ số tổng trong Nâng cao ở trang cài đặt đó; muốn đặt số chính xác, hãy mở Thông số trong bảng điều khiển hoặc gán Phím độ nhạy +5% và Phím độ nhạy −5%. Layout dựng sẵn được tinh chỉnh theo độ nhạy mặc định của từng game, nên nếu bạn đã đổi độ nhạy ngay trong game, hãy dùng Chậm hơn hoặc Nhanh hơn để bù lại."
           ]
         },
         {
-          "id": "q22",
+          "id": "q21",
           "q": "Nút nổi làm được những gì?",
           "a": [
             "Nút nổi là trung tâm điều khiển của bạn trong game. Chạm vào nút để mở bảng điều khiển: đổi layout, chuyển giữa chế độ con trỏ, góc nhìn và gõ chữ, di chuyển phím ngay trên game bằng Sửa phím, tạm dừng ánh xạ, chỉnh độ nhạy hoặc bật Chế độ stream. Kéo nút đi bất cứ đâu; thả vào mép màn hình để thu gọn, hoặc thả vào dấu ✕ ở dưới cùng để ẩn cho đến khi bạn mở lại game. Muốn mở bảng điều khiển bằng bàn phím, hãy gán một phím trong Cài đặt → Bàn phím và chuột → Bảng điều khiển trong game."
           ]
         },
         {
-          "id": "q23",
+          "id": "q22",
           "q": "Vì sao góc nhìn xoay quá nhanh hoặc quá chậm, hay cảm giác khác đi khi tôi đổi thiết bị?",
           "a": [
             "Mỗi con chuột có DPI riêng, mà Wasdo lại không đọc được, nên cùng một layout có thể nhanh hơn hoặc chậm hơn khi đổi sang chuột khác. Hãy hiệu chỉnh chuột một lần, rồi tinh chỉnh bằng Chậm hơn và Nhanh hơn. Nếu đã làm hết mà vẫn thấy chưa ổn, hãy gửi email cho chúng tôi: mẫu chuột và cài đặt của bạn sẽ được đính kèm tự động."
           ]
         },
         {
-          "id": "q24",
+          "id": "q23",
           "q": "Nếu tôi không biết DPI của chuột thì sao?",
           "a": [
             "Không sao. Trong Hiệu chỉnh chuột, chọn “Tôi không biết, đo giúp tôi”, căn mép trái của chuột thẳng với vạch thứ nhất trên màn hình rồi bấm, sau đó giữ chuột sát mặt bàn và đẩy cho đến khi chính mép trái đó chạm vạch thứ hai rồi bấm lần nữa. Làm như vậy ba lần. Nếu sau này bạn bấm nút DPI trên chuột, hãy đo lại."
@@ -202,5 +209,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

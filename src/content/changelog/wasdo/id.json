@@ -3,6 +3,14 @@
   "locale": "id",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Mainkan game Android yang hanya mendukung sentuhan dengan keyboard dan mouse USB atau Bluetooth: WASD untuk bergerak, mouse untuk memutar kamera, tombol keyboard dan tombol mouse untuk skill, plus Mode kursor dan Mode mengetik. Mulai dari template FPS atau MOBA, lalu atur tombol di editor drag-and-drop. Cukup satu izin Aksesibilitas, tanpa root, tanpa ADB, tanpa PC. Tidak jalan di perangkat atau game kamu? Kabari kami lewat Setelan."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

@@ -2,7 +2,7 @@
   "slug": "wasdo",
   "locale": "vi",
   "title": "Wasdo: Keyboard Mouse Mapper",
-  "shortDescription": "Chơi game bằng bàn phím và chuột: WASD, gán phím, preset. Không cần root, ADB",
+  "shortDescription": "Chơi game bằng bàn phím và chuột: WASD, gán phím, xoay view. Không cần root, ADB",
   "tagline": "Chơi game bằng bàn phím và chuột trên điện thoại: không cần root, không cần ADB",
   "sections": [
     {
@@ -22,8 +22,7 @@
       "bullets": [
         "Chỉ dùng Dịch vụ Trợ năng, không cần Shizuku hay app phụ trợ",
         "Không mã ghép nối, không gỡ lỗi USB, không cần PC",
-        "Khởi động lại máy cũng không phải kích hoạt lại",
-        "Dùng được trên điện thoại và máy tính bảng Android"
+        "Khởi động lại máy cũng không phải kích hoạt lại"
       ]
     },
     {
@@ -32,7 +31,7 @@
       "paragraphs": [],
       "bullets": [
         "Game bắn súng trên máy tính bảng: WASD di chuyển, chuột xoay góc nhìn, phím để nạp đạn và ngồi",
-        "Game MOBA với phím kỹ năng và Smart Cast",
+        "Game MOBA với phím kỹ năng, Smart Cast khi có Pro",
         "Game nhập vai hành động: né đòn và combo kỹ năng bằng bàn phím",
         "Máy tính bảng có bao da bàn phím, hoặc điện thoại cắm hub USB"
       ]
@@ -65,11 +64,11 @@
       "title": "Layout có sẵn và mẫu cho FPS, MOBA, RPG",
       "paragraphs": [],
       "bullets": [
-        "Layout có sẵn cho các game phổ biến, tự khớp tỉ lệ màn hình của bạn",
+        "Layout có sẵn cho game với Pro, tự khớp tỉ lệ màn hình của bạn",
         "Mẫu theo thể loại: FPS, MOBA, Hành động thế giới mở và Chung",
         "Trình chỉnh sửa kéo thả, chỉnh được cỡ phím và độ trong suốt",
-        "Mỗi game lưu được nhiều layout",
-        "Xuất, sao lưu và mã chia sẻ đều miễn phí"
+        "Một phím chạm nhiều điểm cùng lúc",
+        "Xuất và sao lưu miễn phí"
       ]
     },
     {
@@ -78,7 +77,7 @@
       "paragraphs": [],
       "bullets": [
         "Chế độ gõ chữ (Enter) đưa bàn phím vào khung chat của game",
-        "Nút nổi: đổi layout, chỉnh độ nhạy, sửa phím ngay trong game",
+        "Nút nổi: đổi chế độ, chỉnh độ nhạy, sửa phím trong game, tạm dừng ánh xạ",
         "Chế độ stream ẩn lớp phủ khi bạn quay màn hình"
       ]
     },
@@ -86,7 +85,7 @@
       "id": "pro",
       "title": "Wasdo Pro: tính năng chuột và macro nâng cao",
       "paragraphs": [
-        "Bắt đầu miễn phí, không quảng cáo. Wasdo Pro mở thêm game và layout không giới hạn, tổ hợp phím bổ trợ (Shift, Ctrl hoặc Alt cộng một phím), đường cong độ nhạy chuột, độ nhạy riêng cho trục X và Y, làm mượt và độ nhạy khi mở ống ngắm, phím con lăn chuột, macro một phím, chuyển cảnh, phím Toggle và phím chuỗi, cùng Smart Cast cho MOBA. Các layout bạn đã lưu vẫn dùng bình thường."
+        "Bắt đầu miễn phí, không quảng cáo. Wasdo Pro mở thêm game và layout không giới hạn, layout có sẵn, tổ hợp phím bổ trợ (Shift, Ctrl hoặc Alt cộng một phím), đường cong độ nhạy chuột, độ nhạy riêng cho trục X và Y, làm mượt và độ nhạy ống ngắm tùy chỉnh, phím con lăn chuột, macro một phím, chuyển cảnh, phím Toggle và phím chuỗi, cùng Smart Cast cho MOBA. Các layout bạn đã lưu vẫn dùng bình thường."
       ],
       "bullets": []
     },
@@ -94,7 +93,7 @@
       "id": "privacy",
       "title": "Quyền riêng tư và quyền Trợ năng",
       "paragraphs": [
-        "Wasdo chỉ dùng Dịch vụ Trợ năng để đọc bàn phím và chuột khi đang chạy ánh xạ và tạo thao tác chạm lên game. Wasdo không đọc, lưu hay tải lên nội dung màn hình của bạn."
+        "Wasdo dùng Dịch vụ Trợ năng để biết app nào đang mở trên màn hình, đọc bàn phím và chuột khi chạy ánh xạ và tạo thao tác chạm lên game. Khi điều khiển chuột, Wasdo chỉ kiểm tra bạn có nhấp vào ô nhập chữ hay không, không đọc nội dung. Wasdo không đọc, lưu hay tải lên nội dung màn hình."
       ],
       "bullets": []
     },
@@ -115,10 +114,10 @@
       "id": "support",
       "title": "Gặp sự cố?",
       "paragraphs": [
-        "Hãy mở Cài đặt → Trợ lý kết nối. Vẫn chưa được? Gửi email tới feedback@dapplebyte.com kèm dòng máy và tên game trước khi để lại đánh giá. Chúng tôi đọc mọi tin nhắn."
+        "Hãy mở Cài đặt → Trợ giúp và hỗ trợ → Trợ lý kết nối. Vẫn chưa được? Gửi email tới feedback@dapplebyte.com kèm dòng máy và tên game trước khi để lại đánh giá. Chúng tôi đọc mọi tin nhắn."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

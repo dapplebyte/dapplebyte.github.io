@@ -2,7 +2,7 @@
   "slug": "wasdo",
   "locale": "tr",
   "title": "Wasdo: Keyboard Mouse Mapper",
-  "shortDescription": "Tuş atama: klavye ve fareyle mobil oyun, WASD, hazır düzen. Root, ADB gerekmez",
+  "shortDescription": "Tuş atama: klavye ve fareyle mobil oyun, WASD, FPS şablonu. Root, ADB gerekmez",
   "tagline": "Mobil Oyunlar için Klavye Mouse Tuş Atama: Root ve ADB Gerekmez",
   "sections": [
     {
@@ -22,8 +22,7 @@
       "bullets": [
         "Yalnızca Erişilebilirlik hizmeti; Shizuku ya da yardımcı uygulama yok",
         "Eşleştirme kodu, USB hata ayıklama, bilgisayar yok",
-        "Yeniden başlatınca tekrar etkinleştirmeye gerek yok",
-        "Android telefon ve tabletlerde çalışır"
+        "Yeniden başlatınca tekrar etkinleştirmeye gerek yok"
       ]
     },
     {
@@ -32,7 +31,7 @@
       "paragraphs": [],
       "bullets": [
         "Tablette nişancı oyunları: WASD ile hareket, fareyle bakış, şarjör ve eğilme tuşları",
-        "Yetenek tuşları ve Smart Cast ile MOBA oyunları",
+        "Yetenek tuşlarıyla MOBA oyunları, Pro ile Smart Cast",
         "Klavyeden kaçış ve yetenek kombolarıyla aksiyon RPG'ler",
         "Klavyeli kılıflı bir tablet ya da USB hub'a bağlı bir telefon"
       ]
@@ -65,11 +64,11 @@
       "title": "FPS, MOBA ve RPG için Hazır Düzenler ve Şablonlar",
       "paragraphs": [],
       "bullets": [
-        "Popüler oyunlar için ekran oranınıza uyarlanan hazır düzenler",
+        "Pro ile ekran oranınıza uyarlanan hazır oyun düzenleri",
         "FPS, MOBA, Açık dünya aksiyon ve Genel şablonları",
         "Sürükle-bırak düzenleyici, tuş boyutu ve opaklık ayarı",
-        "Her oyun için birden fazla düzen",
-        "Dışa aktarma, yedekleme ve paylaşım kodları ücretsiz"
+        "Tek tuşla birkaç noktaya birden dokunma",
+        "Dışa aktarma ve yedekleme ücretsiz"
       ]
     },
     {
@@ -78,7 +77,7 @@
       "paragraphs": [],
       "bullets": [
         "Yazma modu (Enter) klavyenizi oyun sohbetine aktarır",
-        "Yüzen düğme: oyun içinde düzen, hassasiyet ve tuş ayarı",
+        "Yüzen düğme: oyun içinde mod değiştirme, hassasiyet ve tuş ayarı, eşlemeyi duraklatma",
         "Yayın modu kayıt sırasında katmanı gizler"
       ]
     },
@@ -86,7 +85,7 @@
       "id": "pro",
       "title": "Wasdo Pro: Gelişmiş Fare ve Makro Kontrolleri",
       "paragraphs": [
-        "Ücretsiz başlayın, reklam yok. Wasdo Pro; sınırsız oyun ve düzen, değiştirici tuş kombinasyonları (Shift, Ctrl veya Alt + tuş), ayrı X ve Y hassasiyet eğrileri, yumuşatma ve dürbün yakınlaştırma hassasiyeti, tekerlek tuşları, tek tuş makroları, sahne değiştirme, aç/kapat ve dizi tuşları ile MOBA için Smart Cast ekler. Kaydettiğiniz düzenler çalışmaya devam eder."
+        "Ücretsiz başlayın, reklam yok. Wasdo Pro; sınırsız oyun ve düzen, hazır düzenler, değiştirici tuş kombinasyonları (Shift, Ctrl veya Alt + tuş), ayrı X ve Y hassasiyet eğrileri, yumuşatma ve dürbün yakınlaştırma hassasiyeti, tekerlek tuşları, tek tuş makroları, sahne değiştirme, aç/kapat ve dizi tuşları ile MOBA için Smart Cast ekler. Kaydettiğiniz düzenler çalışmaya devam eder."
       ],
       "bullets": []
     },
@@ -94,7 +93,7 @@
       "id": "privacy",
       "title": "Gizlilik ve Erişilebilirlik İzni",
       "paragraphs": [
-        "Wasdo, Erişilebilirlik hizmetini yalnızca eşleme çalışırken klavye ve fareyi okumak ve oyuna dokunuş göndermek için kullanır. Ekranınızı okumaz, saklamaz, yüklemez."
+        "Wasdo, Erişilebilirlik hizmetini ön plandaki uygulamayı görmek, eşleme çalışırken klavye ve fareyi okumak ve oyuna dokunuş göndermek için kullanır. Fareyi yönetirken metin alanına tıkladığınızı fark eder, içeriğine bakmaz. Ekran içeriğinizi okumaz, saklamaz, yüklemez."
       ],
       "bullets": []
     },
@@ -115,10 +114,10 @@
       "id": "support",
       "title": "Bir Sorun mu Var?",
       "paragraphs": [
-        "Önce Ayarlar → Bağlantı yardımcısı'nı açın. Sorun sürerse, yorum yazmadan önce telefon modeli ve oyunla birlikte feedback@dapplebyte.com adresine yazın. Her mesajı okuyoruz."
+        "Önce Ayarlar → Yardım ve destek → Bağlantı yardımcısı'nı açın. Sorun sürerse, yorum yazmadan önce telefon modeli ve oyunla birlikte feedback@dapplebyte.com adresine yazın. Her mesajı okuyoruz."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

@@ -3,6 +3,14 @@
   "locale": "en",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Play touch-only Android games with a USB or Bluetooth keyboard and mouse: WASD to move, mouse look to turn the camera, keys and mouse buttons for skills, plus cursor and typing modes. Start from the FPS or MOBA template and fine-tune keys in the drag-and-drop editor. One accessibility permission, no root, no ADB, no PC. Not working on your device or game? Tell us from Settings."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

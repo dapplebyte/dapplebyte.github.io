@@ -22,8 +22,7 @@
       "bullets": [
         "Solo el servicio de accesibilidad, sin Shizuku ni app auxiliar",
         "Sin códigos de vinculación, depuración USB ni PC",
-        "Nada que volver a activar al reiniciar",
-        "Funciona en celulares y tablets Android"
+        "Nada que volver a activar al reiniciar"
       ]
     },
     {
@@ -32,7 +31,7 @@
       "paragraphs": [],
       "bullets": [
         "Juegos de disparos en tablet: WASD, cámara con el mouse, teclas para recargar y agacharte",
-        "MOBA con teclas de habilidades y Smart Cast",
+        "MOBA con teclas de habilidades y Smart Cast con Pro",
         "RPG de acción con esquivas y combos en el teclado",
         "Tablet con funda con teclado, o celular en un hub USB"
       ]
@@ -65,11 +64,11 @@
       "title": "Esquemas predefinidos y plantillas para FPS, MOBA y RPG",
       "paragraphs": [],
       "bullets": [
-        "Esquemas predefinidos para juegos populares, ajustados a tu pantalla",
+        "Esquemas predefinidos con Pro, ajustados a tu pantalla",
         "Plantillas FPS, MOBA, Acción de mundo abierto y General",
         "Editor de arrastrar y soltar, tamaño y opacidad de teclas ajustables",
-        "Varios esquemas por juego",
-        "Exportar, respaldar y compartir por código es gratis"
+        "Una tecla toca varios puntos a la vez",
+        "Exportar y respaldar es gratis"
       ]
     },
     {
@@ -78,7 +77,7 @@
       "paragraphs": [],
       "bullets": [
         "El modo escritura (Enter) manda tu teclado al chat del juego",
-        "Botón flotante: esquema, sensibilidad y teclas, sin salir del juego",
+        "Botón flotante: cambia de modo, ajusta sensibilidad y teclas en juego, pausa la asignación",
         "El modo streaming oculta la superposición mientras grabas"
       ]
     },
@@ -86,7 +85,7 @@
       "id": "pro",
       "title": "Wasdo Pro: mouse avanzado y macros",
       "paragraphs": [
-        "Gratis para empezar, sin anuncios. Wasdo Pro agrega juegos y esquemas ilimitados, combinaciones con modificadores (Shift, Ctrl o Alt + tecla), curvas de sensibilidad con X e Y por separado, suavizado y sensibilidad con mira, teclas de la rueda del mouse, macros de una tecla, cambio de escena, teclas Toggle y de secuencia, y Smart Cast para MOBA. Tus esquemas guardados siguen funcionando."
+        "Gratis para empezar, sin anuncios. Wasdo Pro agrega juegos y esquemas ilimitados, esquemas predefinidos, combinaciones con modificadores (Shift, Ctrl o Alt + tecla), curvas de sensibilidad con X e Y por separado, suavizado y sensibilidad con mira, teclas de la rueda del mouse, macros de una tecla, cambio de escena, teclas Toggle y de secuencia, y Smart Cast para MOBA. Tus esquemas guardados siguen funcionando."
       ],
       "bullets": []
     },
@@ -94,7 +93,7 @@
       "id": "privacy",
       "title": "Privacidad y el permiso de accesibilidad",
       "paragraphs": [
-        "Wasdo usa la accesibilidad solo para leer teclado y mouse durante un mapeo y generar los toques en el juego. No lee, no guarda ni sube tu pantalla."
+        "Wasdo usa la accesibilidad para detectar la app en primer plano, leer teclado y mouse durante un mapeo, generar toques en el juego y, si maneja el mouse, ver si tocas un campo de texto (nunca su contenido). No lee, no guarda ni sube tu pantalla."
       ],
       "bullets": []
     },
@@ -115,10 +114,10 @@
       "id": "support",
       "title": "¿Algo no funciona?",
       "paragraphs": [
-        "Primero abre Ajustes → Asistente de conexión. ¿Sigue igual? Antes de dejar una reseña, escribe a feedback@dapplebyte.com con tu modelo de celular y el juego. Leemos todos los mensajes."
+        "Primero abre Ajustes → Ayuda y soporte → Asistente de conexión. ¿Sigue igual? Antes de dejar una reseña, escribe a feedback@dapplebyte.com con tu modelo de celular y el juego. Leemos todos los mensajes."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

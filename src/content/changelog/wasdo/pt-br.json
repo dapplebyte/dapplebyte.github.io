@@ -3,6 +3,14 @@
   "locale": "pt-br",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Jogue games de Android só de toque com teclado e mouse USB ou Bluetooth: WASD para andar, o mouse para girar a câmera, teclas e botões do mouse para habilidades, além dos modos cursor e digitação. Comece pelo modelo FPS ou MOBA e ajuste as teclas no editor de arrastar e soltar. Uma só permissão de acessibilidade, sem root, sem ADB, sem PC. Não funciona no seu aparelho ou jogo? Fale com a gente pelas Configurações."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

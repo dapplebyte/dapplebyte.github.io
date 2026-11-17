@@ -3,6 +3,14 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Speel Android-games die alleen aanraking ondersteunen met een USB- of Bluetooth-toetsenbord en -muis: WASD om te lopen, de muis om de camera te draaien, toetsen en muisknoppen voor vaardigheden, plus cursormodus en typmodus. Begin met het FPS- of MOBA-sjabloon en stel de toetsen bij in de editor met slepen en neerzetten. Eén toegankelijkheidsmachtiging, zonder root, zonder ADB, zonder pc. Werkt het niet op je apparaat of in je game? Laat het ons weten via Instellingen."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

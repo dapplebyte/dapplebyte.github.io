@@ -3,6 +3,14 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Graj w dotykowe gry na Androida z klawiaturą i myszą USB lub Bluetooth: WASD do ruchu, mysz do obracania kamery, klawisze i przyciski myszy do umiejętności, a do tego tryb kursora i tryb pisania. Zacznij od szablonu FPS lub MOBA i dopracuj klawisze w edytorze „przeciągnij i upuść”. Wystarczy jedno uprawnienie ułatwień dostępu, bez roota, bez ADB, bez komputera. Nie działa na Twoim urządzeniu lub w grze? Daj nam znać w Ustawieniach."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

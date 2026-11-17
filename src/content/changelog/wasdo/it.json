@@ -3,6 +3,14 @@
   "locale": "it",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Gioca ai giochi Android solo touch con tastiera e mouse USB o Bluetooth: WASD per muoverti, il mouse per ruotare la visuale, tasti e pulsanti del mouse per le abilità, più le modalità cursore e digitazione. Parti dal modello FPS o MOBA e rifinisci i tasti nell'editor drag and drop. Un solo permesso di accessibilità, senza root, senza ADB, senza PC. Non funziona sul tuo dispositivo o nel tuo gioco? Faccelo sapere dalle Impostazioni."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

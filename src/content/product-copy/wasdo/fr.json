@@ -22,8 +22,7 @@
       "bullets": [
         "Juste le service d'accessibilité, ni Shizuku ni appli tierce",
         "Ni code d'association, ni débogage USB, ni PC",
-        "Rien à réactiver après un redémarrage",
-        "Sur téléphones et tablettes Android"
+        "Rien à réactiver après un redémarrage"
       ]
     },
     {
@@ -32,7 +31,7 @@
       "paragraphs": [],
       "bullets": [
         "Jeux de tir sur tablette : WASD, caméra à la souris, touches pour recharger et s'accroupir",
-        "MOBA avec touches de compétences et Smart Cast",
+        "MOBA avec touches de compétences, Smart Cast avec Pro",
         "RPG d'action : esquives et combos au clavier",
         "Tablette avec étui clavier, ou téléphone sur un hub USB"
       ]
@@ -65,11 +64,11 @@
       "title": "Dispositions prédéfinies et modèles FPS, MOBA, RPG",
       "paragraphs": [],
       "bullets": [
-        "Dispositions prédéfinies pour les jeux populaires, adaptées à ton écran",
+        "Dispositions prédéfinies avec Pro, adaptées à ton écran",
         "Modèles FPS, MOBA, Action en monde ouvert et Général",
         "Éditeur glisser-déposer, taille et opacité des touches réglables",
-        "Plusieurs dispositions par jeu",
-        "Export, sauvegarde et codes de partage gratuits"
+        "Une touche appuie sur plusieurs points d'un coup",
+        "Export et sauvegarde gratuits"
       ]
     },
     {
@@ -78,7 +77,7 @@
       "paragraphs": [],
       "bullets": [
         "Le mode saisie (Enter) envoie ton clavier au chat du jeu",
-        "Bulle flottante : disposition, sensibilité et touches modifiables en jeu",
+        "Bulle flottante : change de mode, règle sensibilité et touches en jeu, suspends le mappage",
         "Le mode streaming masque la superposition quand tu enregistres"
       ]
     },
@@ -86,7 +85,7 @@
       "id": "pro",
       "title": "Wasdo Pro : souris avancée et macros",
       "paragraphs": [
-        "Gratuit pour commencer, sans pub. Wasdo Pro ajoute jeux et dispositions illimités, combinaisons de touches (Shift, Ctrl ou Alt + touche), courbes de sensibilité X et Y séparées, lissage et sensibilité en visée, touches de molette, macros en une touche, changement de scène, touches bascule et séquence, et Smart Cast pour MOBA. Tes dispositions enregistrées restent utilisables."
+        "Gratuit pour commencer, sans pub. Wasdo Pro ajoute jeux et dispositions illimités, dispositions prédéfinies, combinaisons de touches (Shift, Ctrl ou Alt + touche), courbes de sensibilité X et Y séparées, lissage et sensibilité en visée, touches de molette, macros en une touche, changement de scène, touches bascule et séquence, et Smart Cast pour MOBA. Tes dispositions enregistrées restent utilisables."
       ],
       "bullets": []
     },
@@ -94,7 +93,7 @@
       "id": "privacy",
       "title": "Confidentialité et autorisation d'accessibilité",
       "paragraphs": [
-        "Wasdo utilise l'accessibilité uniquement pour lire clavier et souris pendant un mappage et générer les appuis dans le jeu. Il ne lit, n'enregistre ni n'envoie ton écran."
+        "Wasdo utilise l'accessibilité pour repérer l'app au premier plan, lire clavier et souris en mappage, générer les appuis en jeu et, s'il gère la souris, voir si tu touches un champ de texte (jamais son contenu). Il ne lit, n'enregistre ni n'envoie ton écran."
       ],
       "bullets": []
     },
@@ -115,10 +114,10 @@
       "id": "support",
       "title": "Un problème ?",
       "paragraphs": [
-        "Ouvre d'abord Paramètres → Assistant de connexion. Toujours bloqué ? Avant de laisser un avis, écris à feedback@dapplebyte.com (modèle de téléphone et jeu). Nous lisons chaque message."
+        "Ouvre d'abord Paramètres → Aide et assistance → Assistant de connexion. Toujours bloqué ? Avant de laisser un avis, écris à feedback@dapplebyte.com (modèle de téléphone et jeu). Nous lisons chaque message."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

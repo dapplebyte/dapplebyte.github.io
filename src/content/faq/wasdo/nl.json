@@ -12,14 +12,18 @@
           "q": "Wat doet Wasdo?",
           "a": [
             "Wasdo zet een USB- of Bluetooth-toetsenbord en -muis om in tikken en vegen op het scherm, zodat je touchgames speelt zoals op een pc: toetsen om te bewegen en acties uit te voeren, de muis om rond te kijken."
-          ]
+          ],
+          "video": "FqFcDntXnKI",
+          "tiktok": "7708357360162491679"
         },
         {
           "id": "q02",
           "q": "Waarom is de toegankelijkheidsmachtiging nodig? Is het veilig?",
           "a": [
             "Met de toegankelijkheidsdienst kan Wasdo je toetsenbord en muis lezen terwijl een toewijzing actief is en aanrakingen plaatsen in de game op de voorgrond, ook buiten de app. Toewijzingen werken pas nadat je de dienst hebt ingeschakeld. Wasdo gebruikt hem alleen om de acties uit te voeren die jij hebt ingesteld — hij leest, bewaart of verstuurt niet wat er op je scherm staat, wat je typt of je wachtwoorden."
-          ]
+          ],
+          "video": "cfunsz-mprQ",
+          "tiktok": "7708359131974929694"
         },
         {
           "id": "q04",
@@ -56,7 +60,9 @@
             "2. Zorg dat de toewijzing aan staat (niet gepauzeerd).",
             "3. Controleer of het toetsenbord op het startscherm als verbonden wordt weergegeven.",
             "4. Werkte het eerder en stopte het, controleer dan de batterij-/achtergrondinstellingen (zie de volgende vraag)."
-          ]
+          ],
+          "video": "wZu3W6-XkFk",
+          "tiktok": "7708358334658645279"
         },
         {
           "id": "q05",
@@ -66,7 +72,9 @@
             "2. Staat er onder “Voor deze game” een preset, kies die dan: je krijgt meteen een indeling die al op die game is afgestemd. Anders begin je met een genresjabloon (FPS, MOBA, Openwereld-actie of Algemeen) of een lege indeling.",
             "3. Sleep elke toets naar de knop waarop hij moet tikken. Om een toets toe te voegen, tik je op + en druk je daarna op een toetsenbordtoets, klik je met een muisknop of draai je aan het scrollwiel.",
             "4. Sla op en druk in de game op Esc om de muis te vergrendelen en te spelen."
-          ]
+          ],
+          "video": "NvZoYVLzX6M",
+          "tiktok": "7708357524159843598"
         },
         {
           "id": "q07",
@@ -88,13 +96,6 @@
           "a": [
             "Nee, en dat komt er ook nooit. Terugslagcompensatie, richthulp en alles wat in de game voor je handelt, wordt door de meeste games als valsspelen gezien en kan tot een ban van je account leiden. Wasdo zet alleen je eigen toetsaanslagen en muisbewegingen om in tikken en vegen."
           ]
-        },
-        {
-          "id": "q19",
-          "q": "Hoe deel ik een indeling met een vriend?",
-          "a": [
-            "Open op de pagina van de game het deelmenu en kies Deelcode maken. Je vriend gaat naar Instellingen → Back-up en herstel → Importeren met deelcode en typt de code van 8 tekens. Codes zijn 90 dagen geldig en bevatten alleen de indeling, niets over je apparaat. Delen is gratis, importeren ook, tenzij de indeling Pro-functies gebruikt: dan heb je Pro of een van je gratis pogingen nodig."
-          ]
         }
       ]
     },
@@ -114,14 +115,18 @@
           "q": "Waarom staat de muiscursor nog op het scherm?",
           "a": [
             "Je zit in cursormodus. Druk op de “Toets voor cameramodus” (standaard Esc) om de muis te vergrendelen: de cursor verdwijnt en als je de muis beweegt, draait het beeld, net als wanneer je in een pc-game klikt. Druk er nog een keer op om de cursor vrij te geven voor menu's. Komt de cursor vanzelf terug, dan heeft iets anders de focus overgenomen (het meldingenpaneel of een systeemvenster); druk dan nog een keer op de toets om de muis weer te vergrendelen."
-          ]
+          ],
+          "video": "8fgacglgLAg",
+          "tiktok": "7708357752610983198"
         },
         {
           "id": "q10",
           "q": "Hoe typ ik in een game?",
           "a": [
             "Druk op Enter om naar typmodus te gaan: je toetsenbord gaat dan rechtstreeks naar de game zodat je kunt chatten, en de muis schakelt naar cursormodus. Druk nog een keer op Enter om te verzenden en terug te gaan naar je toewijzingen, of druk op Esc om terug te gaan zonder te verzenden. Je kunt ook op de “Toets voor typmodus” drukken (standaard de rechter Ctrl), of op de zwevende wisselaar tikken en “Typmodus” kiezen. Gebruikt een van je toewijzingen Enter al, dan blijft Enter doen wat je daar hebt ingesteld; gebruik in dat geval de toets voor typmodus. Wil je Enter uitzetten of een andere toets kiezen, ga dan naar Instellingen → Toetsenbord en muis."
-          ]
+          ],
+          "video": "ZtQ9YGi0tJI",
+          "tiktok": "7708358689702432031"
         },
         {
           "id": "q11",
@@ -142,38 +147,40 @@
           "q": "Hoe wissel ik tussen camera- en cursormodus?",
           "a": [
             "Druk tijdens het spelen op Esc, net zoals je in een pc-game de muis loslaat. In cameramodus is de muis vergrendeld en draait hij het beeld, zoals in een shooter op de pc. In cursormodus beweegt hij een aanwijzer, zodat je op menu's en knoppen kunt klikken. De zwevende wisselaar toont de modus: een vizier betekent cameramodus, een pijl cursormodus en een toetsenbord typmodus. Omdat Esc van modus wisselt, gaat die toets niet naar de game: open het menu van de game met de knop op het scherm, of kies een andere “Toets voor cameramodus” via Instellingen → Toetsenbord en muis, dan gaat Esc weer naar de game. Gebruikt een indeling de muis helemaal niet, dan gaat Esc meteen naar de game."
-          ]
+          ],
+          "video": "8fgacglgLAg",
+          "tiktok": "7708357752610983198"
         },
         {
-          "id": "q20",
+          "id": "q19",
           "q": "Werkt Wasdo op een extern scherm of met Samsung DeX?",
           "a": [
             "Ja, met schermspiegeling. Als het externe scherm je telefoon of tablet spiegelt, werkt Wasdo precies zoals op het apparaat, cameramodus inbegrepen. Op Samsung zet je DeX uit in de snelle instellingen om naar spiegelen te gaan. Gaat het geluid naar het scherm en hoor je niets, tik dan in de snelle instellingen op ‘Media-uitvoer’ en kies je apparaat. In de uitgebreide modus (Samsung DeX, of een aangesloten scherm bij recente Pixel-telefoons) werken je toetsen als het gamevenster gemaximaliseerd is, maar cameramodus, de zwevende wisselaar en hints op het scherm zijn daar misschien niet beschikbaar. Chromebooks worden niet ondersteund."
           ]
         },
         {
-          "id": "q21",
+          "id": "q20",
           "q": "Hoe verander ik de muisgevoeligheid in een game?",
           "a": [
             "Begin met een eenmalige muiskalibratie (Instellingen → Toetsenbord en muis → Muisgevoeligheid en richtkruis → Muiskalibratie), zodat Wasdo weet hoe snel je muis is. Draait de camera in een game daarna nog steeds te snel of te langzaam, tik dan op de zwevende wisselaar, kies Muisgevoeligheid en tik op Langzamer of Sneller. Dat verandert alleen deze game, en dezelfde waarde zie je op die instellingenpagina; de cursorsnelheid staat ook op beide plekken. Wil je alle games tegelijk aanpassen, gebruik dan Totaalfactor onder Geavanceerd op diezelfde instellingenpagina; voor exacte waarden open je Waarden in het paneel of wijs je de toetsen voor gevoeligheid +5% en −5% toe. Presets zijn afgestemd op de standaardgevoeligheid van elke game, dus heb je de gevoeligheid in de game zelf veranderd, compenseer dat dan met Langzamer of Sneller."
           ]
         },
         {
-          "id": "q22",
+          "id": "q21",
           "q": "Wat kan de zwevende wisselaar?",
           "a": [
             "De wisselaar is je bedieningscentrum in de game. Tik erop om het paneel te openen: wissel van indeling, schakel tussen cursor-, camera- en typmodus, verplaats toetsen boven de game met “Toetsen bewerken”, pauzeer de toewijzing, pas de gevoeligheid aan of zet de streammodus aan. Sleep hem waarheen je maar wilt; zet hem op een schermrand neer om hem weg te klappen, of op de ✕ onderaan om hem te verbergen tot je de game opnieuw opent. Wil je het paneel met je toetsenbord openen, wijs dan een toets toe in Instellingen → Toetsenbord en muis → Gamepaneel."
           ]
         },
         {
-          "id": "q23",
+          "id": "q22",
           "q": "Waarom draait de camera te snel of te langzaam, of voelt het anders als ik van apparaat wissel?",
           "a": [
             "Elke muis heeft zijn eigen DPI en Wasdo kan die niet uitlezen, dus dezelfde indeling kan per muis sneller of langzamer aanvoelen. Doe één keer de muiskalibratie en stel daarna fijn af met Langzamer en Sneller. Voelt het daarna nog steeds niet goed, stuur ons dan een e-mail: je muismodel en instellingen worden automatisch meegestuurd."
           ]
         },
         {
-          "id": "q24",
+          "id": "q23",
           "q": "Wat als ik de DPI van mijn muis niet weet?",
           "a": [
             "Geen probleem. Kies in de muiskalibratie ‘Weet ik niet, meet het voor me’, lijn de linkerrand van je muis uit met de eerste lijn op het scherm en klik. Houd de muis daarna op het bureau en schuif tot dezelfde rand bij de tweede lijn is, en klik nog een keer. Doe dat drie keer. Druk je later op de DPI-knop van je muis, meet dan opnieuw."
@@ -202,5 +209,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

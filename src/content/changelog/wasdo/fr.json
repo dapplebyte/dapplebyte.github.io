@@ -3,6 +3,14 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Jouez aux jeux Android tactiles avec un clavier et une souris USB ou Bluetooth : WASD pour vous déplacer, la souris pour tourner la caméra, touches et boutons de souris pour les compétences, plus les modes curseur et saisie. Partez du modèle FPS ou MOBA et ajustez les touches dans l'éditeur glisser-déposer. Une seule autorisation d'accessibilité, sans root, sans ADB, sans PC. Ça ne marche pas sur votre appareil ou votre jeu ? Dites-le-nous depuis les Paramètres."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

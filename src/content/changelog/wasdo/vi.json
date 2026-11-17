@@ -3,6 +3,14 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Chơi game Android chỉ hỗ trợ cảm ứng bằng bàn phím và chuột USB hoặc Bluetooth: WASD để di chuyển, chuột để xoay góc nhìn, phím và nút chuột để dùng kỹ năng, kèm Chế độ con trỏ và Chế độ gõ chữ. Bắt đầu từ mẫu FPS hoặc MOBA rồi tinh chỉnh phím trong trình chỉnh sửa kéo thả. Chỉ cần một quyền Trợ năng, không cần root, không cần ADB, không cần PC. Không chạy được trên máy hay game của bạn? Báo cho chúng tôi trong phần Cài đặt."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

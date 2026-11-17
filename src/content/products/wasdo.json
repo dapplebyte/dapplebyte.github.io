@@ -9,7 +9,8 @@
   "category": "GameApplication",
   "minOs": "Android 9",
   "versions": [
-    { "code": 1, "name": "1.0.0", "date": "2026-11-17" }
+    { "code": 1, "name": "1.0.0", "date": "2026-11-17" },
+    { "code": 2, "name": "1.0.1", "date": "2026-11-17" }
   ],
   "contactEmail": "feedback@dapplebyte.com",
   "accent": { "solid": "#FF6B2C", "bright": "#FF8A55", "ink": "#0B0B0C" },

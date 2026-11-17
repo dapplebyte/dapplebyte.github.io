@@ -2,7 +2,7 @@
   "slug": "wasdo",
   "locale": "id",
   "title": "Wasdo: Keyboard Mouse Mapper",
-  "shortDescription": "Mapping tombol game HP ala PC: WASD, putar kamera, preset. Tanpa root, ADB, PC",
+  "shortDescription": "Mapping tombol game HP ala PC: WASD, putar kamera, template. Tanpa root, ADB, PC",
   "tagline": "Mapping Keyboard Mouse untuk Game HP: Tanpa Root, Tanpa ADB",
   "sections": [
     {
@@ -22,8 +22,7 @@
       "bullets": [
         "Cuma Layanan Aksesibilitas, tanpa Shizuku atau aplikasi pendamping",
         "Tanpa kode pairing, tanpa USB debugging, tanpa PC",
-        "Tidak perlu aktivasi ulang setelah restart",
-        "Bisa dipakai di HP dan tablet Android"
+        "Tidak perlu aktivasi ulang setelah restart"
       ]
     },
     {
@@ -32,7 +31,7 @@
       "paragraphs": [],
       "bullets": [
         "Game shooter di tablet: WASD jalan, mouse untuk kamera, tombol reload dan jongkok",
-        "Game MOBA dengan tombol skill dan Smart Cast",
+        "Game MOBA dengan tombol skill dan Smart Cast di Pro",
         "Game RPG aksi dengan dodge dan kombo skill di keyboard",
         "Tablet dengan keyboard case, atau HP lewat USB hub"
       ]
@@ -65,11 +64,11 @@
       "title": "Preset dan Template untuk FPS, MOBA, dan RPG",
       "paragraphs": [],
       "bullets": [
-        "Preset siap pakai untuk game populer, pas dengan rasio layarmu",
+        "Pro: preset siap pakai, pas dengan rasio layarmu",
         "Template FPS, MOBA, Aksi open world, dan Umum",
         "Editor drag-and-drop, ukuran dan transparansi tombol bisa diubah",
-        "Beberapa layout untuk tiap game",
-        "Ekspor, backup, dan kode berbagi gratis"
+        "Satu tombol tap beberapa titik sekaligus",
+        "Ekspor dan backup gratis"
       ]
     },
     {
@@ -78,7 +77,7 @@
       "paragraphs": [],
       "bullets": [
         "Mode mengetik (Enter) meneruskan keyboard ke chat game",
-        "Pengalih melayang: ganti layout, atur sensitivitas, edit tombol di game",
+        "Pengalih melayang: ganti mode, atur sensitivitas, edit tombol di game, jeda pemetaan",
         "Mode stream menyembunyikan overlay saat kamu merekam"
       ]
     },
@@ -86,7 +85,7 @@
       "id": "pro",
       "title": "Wasdo Pro: Kontrol Mouse dan Makro Lanjutan",
       "paragraphs": [
-        "Gratis untuk mulai, tanpa iklan. Wasdo Pro menambahkan game dan layout tanpa batas, kombo modifier (Shift, Ctrl, atau Alt + satu tombol), kurva sensitivitas mouse, sensitivitas X dan Y terpisah, penghalusan dan zoom scope, tombol roda scroll, makro satu tombol, ganti scene, tombol toggle dan sequence, serta Smart Cast untuk MOBA. Layout yang sudah kamu simpan tetap bisa dipakai."
+        "Gratis untuk mulai, tanpa iklan. Wasdo Pro menambahkan game dan layout tanpa batas, preset, kombo modifier (Shift, Ctrl, atau Alt + satu tombol), kurva sensitivitas mouse, sensitivitas X dan Y terpisah, penghalusan dan sensitivitas scope, tombol roda scroll, makro satu tombol, ganti scene, tombol toggle dan sequence, serta Smart Cast untuk MOBA. Layout yang sudah kamu simpan tetap bisa dipakai."
       ],
       "bullets": []
     },
@@ -94,7 +93,7 @@
       "id": "privacy",
       "title": "Privasi dan Izin Aksesibilitas",
       "paragraphs": [
-        "Wasdo memakai Layanan Aksesibilitas hanya untuk membaca keyboard dan mouse saat mapping aktif dan membuat sentuhan di game, dan tidak membaca, menyimpan, atau mengunggah isi layarmu."
+        "Wasdo memakai Layanan Aksesibilitas untuk melihat aplikasi aktif, membaca keyboard dan mouse saat mapping aktif, dan membuat sentuhan di game. Saat mengambil alih mouse, Wasdo mengecek apakah kamu mengklik kolom teks, tanpa melihat isinya. Isi layarmu tidak dibaca, disimpan, atau diunggah."
       ],
       "bullets": []
     },
@@ -115,10 +114,10 @@
       "id": "support",
       "title": "Ada yang Tidak Berfungsi?",
       "paragraphs": [
-        "Buka dulu Setelan → Asisten koneksi. Masih gagal? Kirim email ke feedback@dapplebyte.com dengan model HP dan nama game sebelum memberi ulasan. Kami membaca setiap pesan."
+        "Buka dulu Setelan → Bantuan dan dukungan → Asisten koneksi. Masih gagal? Kirim email ke feedback@dapplebyte.com dengan model HP dan nama game sebelum memberi ulasan. Kami membaca setiap pesan."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

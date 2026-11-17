@@ -3,6 +3,14 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Yalnızca dokunmatik Android oyunlarını USB veya Bluetooth klavye ve fareyle oynayın: hareket için WASD, kamerayı çevirmek için fare, yetenekler için tuşlar ve fare düğmeleri, ayrıca imleç modu ve yazma modu. FPS veya MOBA şablonuyla başlayın, tuşları sürükle-bırak düzenleyicide ince ayarlayın. Tek bir Erişilebilirlik izni yeter; root yok, ADB yok, bilgisayar yok. Cihazınızda veya oyununuzda çalışmıyor mu? Ayarlar'dan bize bildirin."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

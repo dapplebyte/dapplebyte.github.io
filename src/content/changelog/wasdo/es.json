@@ -3,6 +3,14 @@
   "locale": "es",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Juega títulos de Android solo táctiles con teclado y mouse USB o Bluetooth: WASD para moverte, el mouse para girar la cámara, teclas y botones del mouse para habilidades, además de los modos cursor y escritura. Empieza con la plantilla FPS o MOBA y ajusta las teclas en el editor de arrastrar y soltar. Un solo permiso de accesibilidad, sin root, sin ADB, sin PC. ¿No funciona en tu dispositivo o juego? Cuéntanos desde Ajustes."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

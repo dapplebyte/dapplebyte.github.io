@@ -22,8 +22,7 @@
       "bullets": [
         "Nur die Bedienungshilfe, kein Shizuku, keine Hilfs-App",
         "Keine Kopplungscodes, kein USB-Debugging, kein PC",
-        "Nach einem Neustart nichts neu aktivieren",
-        "Läuft auf Android-Handys und -Tablets"
+        "Nach einem Neustart nichts neu aktivieren"
       ]
     },
     {
@@ -32,7 +31,7 @@
       "paragraphs": [],
       "bullets": [
         "Shooter auf dem Tablet: WASD, Umsehen mit der Maus, Tasten zum Nachladen und Ducken",
-        "MOBA-Spiele mit Skill-Tasten und Smart Cast",
+        "MOBA-Spiele mit Skill-Tasten, Smart Cast mit Pro",
         "Action-RPGs mit Ausweichen und Skill-Kombos auf der Tastatur",
         "Tablet mit Tastatur-Hülle oder Handy am USB-Hub"
       ]
@@ -65,11 +64,11 @@
       "title": "Presets und Vorlagen für FPS, MOBA und RPG",
       "paragraphs": [],
       "bullets": [
-        "Fertige Presets für beliebte Spiele, passend zu deinem Bildschirmformat",
+        "Fertige Presets mit Pro, passend zum Bildschirmformat",
         "Vorlagen: FPS, MOBA, Open-World-Action und Allgemein",
         "Drag-and-drop-Editor, Tastengröße und Deckkraft einstellbar",
-        "Mehrere Layouts pro Spiel",
-        "Export, Backup und Teilen per Code kostenlos"
+        "Eine Taste tippt mehrere Stellen zugleich an",
+        "Export und Backup kostenlos"
       ]
     },
     {
@@ -78,7 +77,7 @@
       "paragraphs": [],
       "bullets": [
         "Schreibmodus (Enter) schickt deine Tastatur in den Spielchat",
-        "Schwebender Umschalter: Layout wechseln, Empfindlichkeit ändern, Tasten im Spiel anpassen",
+        "Schwebender Umschalter: Modus wechseln, Empfindlichkeit und Tasten im Spiel ändern, Zuordnung pausieren",
         "Streaming-Modus blendet das Overlay beim Aufnehmen aus"
       ]
     },
@@ -86,7 +85,7 @@
       "id": "pro",
       "title": "Wasdo Pro: erweiterte Maussteuerung und Makros",
       "paragraphs": [
-        "Kostenlos starten, keine Werbung. Wasdo Pro bringt unbegrenzte Spiele und Layouts, Modifikator-Kombis (Shift, Ctrl oder Alt + Taste), Empfindlichkeitskurven mit X und Y getrennt, Glättung und Zielfernrohr-Zoom, Mausrad-Tasten, Ein-Tasten-Makros, Szenenwechsel, Toggle- und Sequenztasten sowie MOBA-Smart-Cast. Gespeicherte Layouts funktionieren weiter."
+        "Kostenlos starten, keine Werbung. Wasdo Pro bringt unbegrenzte Spiele und Layouts, fertige Presets, Modifikator-Kombis (Shift, Ctrl oder Alt + Taste), Empfindlichkeitskurven mit X und Y getrennt, Glättung und Zielfernrohr-Empfindlichkeit, Mausrad-Tasten, Ein-Tasten-Makros, Szenenwechsel, Toggle- und Sequenztasten sowie MOBA-Smart-Cast. Gespeicherte Layouts funktionieren weiter."
       ],
       "bullets": []
     },
@@ -94,7 +93,7 @@
       "id": "privacy",
       "title": "Datenschutz und die Bedienungshilfe-Berechtigung",
       "paragraphs": [
-        "Wasdo nutzt die Bedienungshilfe nur, um bei aktiver Belegung Tastatur und Maus zu lesen und Berührungen im Spiel auszulösen. Dein Bildschirm wird weder gelesen noch gespeichert oder hochgeladen."
+        "Wasdo nutzt die Bedienungshilfe, um die Vordergrund-App zu erkennen, bei aktiver Belegung Tastatur und Maus zu lesen, Berührungen im Spiel auszulösen und bei Maussteuerung zu sehen, ob du ein Textfeld antippst (nie den Inhalt). Bildschirminhalte liest, speichert oder sendet es nie."
       ],
       "bullets": []
     },
@@ -115,10 +114,10 @@
       "id": "support",
       "title": "Funktioniert etwas nicht?",
       "paragraphs": [
-        "Öffne zuerst Einstellungen → Verbindungshilfe. Klappt es nicht? Schreib vor einer Bewertung an feedback@dapplebyte.com, mit Handymodell und Spiel. Wir lesen jede Nachricht."
+        "Öffne zuerst Einstellungen → Hilfe und Support → Verbindungshilfe. Klappt es nicht? Schreib vor einer Bewertung an feedback@dapplebyte.com, mit Handymodell und Spiel. Wir lesen jede Nachricht."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

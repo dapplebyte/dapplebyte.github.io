@@ -12,14 +12,18 @@
           "q": "Co robi Wasdo?",
           "a": [
             "Wasdo zamienia klawiaturę i mysz USB lub Bluetooth na dotknięcia i przesunięcia na ekranie, dzięki czemu grasz w gry dotykowe jak na PC: klawiszami poruszasz się i wykonujesz akcje, myszą się rozglądasz."
-          ]
+          ],
+          "video": "FqFcDntXnKI",
+          "tiktok": "7708357360162491679"
         },
         {
           "id": "q02",
           "q": "Dlaczego potrzebne jest uprawnienie ułatwień dostępu? Czy to bezpieczne?",
           "a": [
             "Usługa ułatwień dostępu pozwala Wasdo odczytywać klawiaturę i mysz w czasie działania mapowania i wykonywać dotknięcia w grze na pierwszym planie, także poza aplikacją. Mapowania działają dopiero po jej włączeniu. Wasdo używa jej tylko do wykonywania ustawionych przez Ciebie akcji — nie odczytuje, nie zapisuje ani nie wysyła zawartości ekranu, wpisywanego tekstu ani haseł."
-          ]
+          ],
+          "video": "cfunsz-mprQ",
+          "tiktok": "7708359131974929694"
         },
         {
           "id": "q04",
@@ -56,7 +60,9 @@
             "2. Upewnij się, że mapowanie jest włączone (nie wstrzymane).",
             "3. Sprawdź, czy na ekranie głównym klawiatura jest widoczna jako podłączona.",
             "4. Jeśli wcześniej działało, a przestało, sprawdź ustawienia baterii/tła (zobacz następne pytanie)."
-          ]
+          ],
+          "video": "wZu3W6-XkFk",
+          "tiktok": "7708358334658645279"
         },
         {
           "id": "q05",
@@ -66,7 +72,9 @@
             "2. Jeśli w sekcji „Dla tej gry” jest gotowy układ, wybierz go: jest już dopasowany do tej gry. Jeśli nie, zacznij od szablonu gatunku (FPS, MOBA, „Akcja z otwartym światem” lub „Ogólny”) albo od pustego układu.",
             "3. Przeciągnij każdy klawisz na przycisk, który ma dotykać. Aby dodać klawisz, dotknij +, a potem naciśnij klawisz na klawiaturze, kliknij przyciskiem myszy lub przewiń kółkiem.",
             "4. Zapisz, a potem naciśnij Esc w grze, aby zablokować mysz i grać."
-          ]
+          ],
+          "video": "NvZoYVLzX6M",
+          "tiktok": "7708357524159843598"
         },
         {
           "id": "q07",
@@ -88,13 +96,6 @@
           "a": [
             "Nie i nigdy nie będzie. Kompensację odrzutu, wspomaganie celowania i wszystko, co wykonuje akcje w grze za Ciebie, większość gier traktuje jako oszukiwanie, co może skończyć się blokadą konta. Wasdo zamienia na dotknięcia i przesunięcia wyłącznie Twoje własne naciśnięcia klawiszy i ruchy myszy."
           ]
-        },
-        {
-          "id": "q19",
-          "q": "Jak udostępnić układ znajomemu?",
-          "a": [
-            "Na stronie gry otwórz menu udostępniania i wybierz „Uzyskaj kod udostępniania”. Znajomy przechodzi do Ustawienia → Kopia zapasowa i przywracanie → Importuj z kodu udostępniania i wpisuje 8-znakowy kod. Kody działają przez 90 dni i zawierają tylko układ, żadnych informacji o Twoim urządzeniu. Udostępnianie jest bezpłatne, importowanie też, chyba że układ korzysta z funkcji Pro: wtedy potrzebne jest Pro albo jedna z bezpłatnych prób."
-          ]
         }
       ]
     },
@@ -114,14 +115,18 @@
           "q": "Dlaczego kursor myszy nadal jest na ekranie?",
           "a": [
             "Jesteś w trybie kursora. Naciśnij klawisz trybu kamery (domyślnie Esc), aby zablokować mysz: kursor znika, a ruch myszą obraca widok, tak jak po kliknięciu w okno gry na PC. Naciśnij go ponownie, aby uwolnić kursor do obsługi menu. Jeśli kursor wraca sam, coś innego przejęło fokus (panel powiadomień lub okno systemowe); naciśnij klawisz jeszcze raz, aby znów zablokować mysz."
-          ]
+          ],
+          "video": "8fgacglgLAg",
+          "tiktok": "7708357752610983198"
         },
         {
           "id": "q10",
           "q": "Jak pisać w grze?",
           "a": [
             "Naciśnij Enter, aby włączyć tryb pisania: klawiatura trafia wtedy prosto do gry, więc możesz pisać na czacie, a mysz przełącza się na tryb kursora. Naciśnij Enter ponownie, aby wysłać wiadomość i wrócić do mapowań, albo Esc, aby wrócić bez wysyłania. Możesz też nacisnąć „Klawisz trybu pisania” (domyślnie prawy Ctrl) albo dotknąć pływającego przełącznika i wybrać „Tryb pisania”. Jeśli któreś z Twoich mapowań używa już klawisza Enter, Enter działa zgodnie z tym mapowaniem, więc użyj wtedy klawisza trybu pisania. Aby wyłączyć Enter lub zmienić klawisz, otwórz Ustawienia → Klawiatura i mysz."
-          ]
+          ],
+          "video": "ZtQ9YGi0tJI",
+          "tiktok": "7708358689702432031"
         },
         {
           "id": "q11",
@@ -142,38 +147,40 @@
           "q": "Jak przełączać się między trybem kamery a trybem kursora?",
           "a": [
             "Podczas gry naciśnij Esc, tak jak zwalnia się mysz w grze na PC. W trybie kamery mysz jest zablokowana i obraca widok, jak w strzelankach na PC. W trybie kursora porusza wskaźnikiem, więc możesz klikać menu i przyciski. Pływający przełącznik pokazuje tryb: celownik oznacza tryb kamery, strzałka tryb kursora, a klawiatura tryb pisania. Ponieważ Esc przełącza tryby, nie trafia do gry: aby otworzyć menu gry, dotknij jej przycisku na ekranie albo wybierz inny klawisz trybu kamery w Ustawienia → Klawiatura i mysz, a Esc znów będzie trafiać do gry. Jeśli układ w ogóle nie używa myszy, Esc trafia prosto do gry."
-          ]
+          ],
+          "video": "8fgacglgLAg",
+          "tiktok": "7708357752610983198"
         },
         {
-          "id": "q20",
+          "id": "q19",
           "q": "Czy Wasdo działa na zewnętrznym wyświetlaczu lub z Samsung DeX?",
           "a": [
             "Tak, w trybie dublowania ekranu. Gdy zewnętrzny wyświetlacz dubluje ekran telefonu lub tabletu, Wasdo działa dokładnie tak jak na urządzeniu, łącznie z trybem kamery. Na Samsungu wyłącz DeX w szybkich ustawieniach, aby przełączyć się na dublowanie. Jeśli dźwięk trafia do wyświetlacza i nic nie słychać, dotknij „Wyjście multimediów” w szybkich ustawieniach i wybierz swoje urządzenie. W trybie rozszerzonym (Samsung DeX lub podłączony wyświetlacz w nowszych telefonach Pixel) klawisze działają, jeśli okno gry jest zmaksymalizowane, ale tryb kamery, pływający przełącznik i podpowiedzi na ekranie mogą być niedostępne. Chromebooki nie są obsługiwane."
           ]
         },
         {
-          "id": "q21",
+          "id": "q20",
           "q": "Jak zmienić czułość myszy w grze?",
           "a": [
             "Zacznij od jednorazowej kalibracji myszy (Ustawienia → Klawiatura i mysz → Czułość myszy i krzyżyk → Kalibracja myszy), żeby Wasdo wiedziało, jak szybka jest Twoja mysz. Jeśli kamera w grze nadal obraca się za szybko lub za wolno, dotknij pływającego przełącznika, wybierz Czułość myszy i dotknij Wolniej lub Szybciej. To zmienia tylko tę grę, a ta sama wartość widnieje na tej stronie ustawień; szybkość kursora też jest w obu miejscach. Aby zmienić wszystkie gry naraz, użyj opcji Mnożnik ogólny w sekcji Zaawansowane na tej samej stronie ustawień; dokładne wartości ustawisz w zakładce Wartości w panelu albo przypisując klawisze czułości +5% i −5%. Gotowe układy są dopasowane do domyślnej czułości każdej gry, więc jeśli czułość w samej grze jest zmieniona, wyrównaj to przyciskami Wolniej lub Szybciej."
           ]
         },
         {
-          "id": "q22",
+          "id": "q21",
           "q": "Co potrafi pływający przełącznik?",
           "a": [
             "Przełącznik to Twoje centrum sterowania w grze. Dotknij go, aby otworzyć panel: przełączaj układy, przechodź między trybem kursora, kamery i pisania, przesuwaj klawisze nad grą za pomocą opcji „Edytuj klawisze”, wstrzymuj mapowanie, dostosowuj czułość lub włączaj tryb streamowania. Przeciągnij go w dowolne miejsce; upuść go przy krawędzi ekranu, aby go schować, albo na ✕ na dole, aby ukryć go do ponownego otwarcia gry. Aby otwierać panel z klawiatury, przypisz klawisz w sekcji Ustawienia → Klawiatura i mysz → Panel w grze."
           ]
         },
         {
-          "id": "q23",
+          "id": "q22",
           "q": "Dlaczego kamera obraca się za szybko lub za wolno albo działa inaczej po zmianie urządzenia?",
           "a": [
             "Każda mysz ma własne DPI, a Wasdo nie potrafi go odczytać, więc ten sam układ może z inną myszą działać szybciej lub wolniej. Przeprowadź raz kalibrację myszy, a potem dopracuj ustawienie przyciskami Wolniej i Szybciej. Jeśli nadal coś jest nie tak, napisz do nas e-mail: model myszy i ustawienia zostaną dołączone automatycznie."
           ]
         },
         {
-          "id": "q24",
+          "id": "q23",
           "q": "Co zrobić, jeśli nie znam DPI swojej myszy?",
           "a": [
             "Nic nie szkodzi. W kalibracji myszy wybierz „Nie wiem, zmierz za mnie”, wyrównaj lewą krawędź myszy z pierwszą linią na ekranie i kliknij. Potem, nie odrywając myszy od biurka, przesuń ją, aż ta sama krawędź dojdzie do drugiej linii, i kliknij jeszcze raz. Zrób to trzy razy. Jeśli później naciśniesz przycisk DPI na myszy, zmierz ponownie."
@@ -202,5 +209,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

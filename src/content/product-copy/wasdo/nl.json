@@ -22,8 +22,7 @@
       "bullets": [
         "Alleen de toegankelijkheidsdienst, geen Shizuku of hulp-app",
         "Geen koppelcodes, geen USB-foutopsporing, geen pc",
-        "Na een herstart niets opnieuw activeren",
-        "Werkt op Android-telefoons en -tablets"
+        "Na een herstart niets opnieuw activeren"
       ]
     },
     {
@@ -32,7 +31,7 @@
       "paragraphs": [],
       "bullets": [
         "Shooters op een tablet: WASD, rondkijken met de muis, toetsen voor herladen en bukken",
-        "MOBA-games met skilltoetsen en Smart Cast",
+        "MOBA-games met skilltoetsen, Smart Cast met Pro",
         "Action-RPG's met ontwijken en skillcombo's op het toetsenbord",
         "Tablet met toetsenbordhoes, of telefoon aan een USB-hub"
       ]
@@ -65,11 +64,11 @@
       "title": "Presets en sjablonen voor FPS, MOBA en RPG",
       "paragraphs": [],
       "bullets": [
-        "Kant-en-klare presets voor populaire games, op maat van je scherm",
+        "Game-presets met Pro, op maat van je scherm",
         "Sjablonen: FPS, MOBA, Openwereld-actie en Algemeen",
         "Editor met slepen en neerzetten, toetsgrootte en transparantie naar keuze",
-        "Meerdere indelingen per game",
-        "Exporteren, back-ups en deelcodes zijn gratis"
+        "Eén toets tikt meerdere punten tegelijk aan",
+        "Gratis exporteren en back-uppen"
       ]
     },
     {
@@ -78,7 +77,7 @@
       "paragraphs": [],
       "bullets": [
         "Typmodus (Enter) stuurt je toetsenbord naar de gamechat",
-        "Zwevende wisselaar: indeling, gevoeligheid en toetsen aanpassen in de game",
+        "Zwevende wisselaar: modus wisselen, gevoeligheid en toetsen aanpassen in de game, toewijzing pauzeren",
         "Streammodus verbergt de overlay tijdens het opnemen"
       ]
     },
@@ -86,7 +85,7 @@
       "id": "pro",
       "title": "Wasdo Pro: geavanceerde muisbesturing en macro's",
       "paragraphs": [
-        "Gratis om te beginnen, geen advertenties. Wasdo Pro voegt onbeperkt games en indelingen toe, combinaties met modificatietoetsen (Shift, Ctrl of Alt + toets), gevoeligheidscurves met aparte X- en Y-as, afvlakking en vizierzoom, scrollwieltoetsen, macro's met één toets, scènewissel, toggle- en reekstoetsen, en Smart Cast voor MOBA. Opgeslagen indelingen blijven werken."
+        "Gratis om te beginnen, geen advertenties. Wasdo Pro voegt onbeperkt games en indelingen toe, presets, combinaties met modificatietoetsen (Shift, Ctrl of Alt + toets), gevoeligheidscurves met aparte X- en Y-as, afvlakking en viziergevoeligheid, scrollwieltoetsen, macro's met één toets, scènewissel, toggle- en reekstoetsen, en Smart Cast voor MOBA. Opgeslagen indelingen blijven werken."
       ],
       "bullets": []
     },
@@ -94,7 +93,7 @@
       "id": "privacy",
       "title": "Privacy en de toegankelijkheidsmachtiging",
       "paragraphs": [
-        "Wasdo gebruikt de toegankelijkheidsdienst alleen om tijdens een actieve toewijzing toetsenbord en muis te lezen en aanrakingen in de game te plaatsen. Je scherm wordt niet gelezen, opgeslagen of geüpload."
+        "Wasdo gebruikt de toegankelijkheidsdienst om de voorgrond-app te herkennen, tijdens een toewijzing toetsenbord en muis te lezen, aanrakingen in de game te plaatsen en bij muisbediening te zien of je een tekstveld aantikt (nooit de inhoud). Je scherm wordt niet gelezen, opgeslagen of geüpload."
       ],
       "bullets": []
     },
@@ -115,10 +114,10 @@
       "id": "support",
       "title": "Werkt er iets niet?",
       "paragraphs": [
-        "Open eerst Instellingen → Verbindingshulp. Lukt het nog niet? Mail vóór een review naar feedback@dapplebyte.com, met je telefoonmodel en de game. We lezen elk bericht."
+        "Open eerst Instellingen → Hulp en ondersteuning → Verbindingshulp. Lukt het nog niet? Mail vóór een review naar feedback@dapplebyte.com, met je telefoonmodel en de game. We lezen elk bericht."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

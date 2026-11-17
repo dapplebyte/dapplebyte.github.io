@@ -12,14 +12,18 @@
           "q": "Que fait Wasdo ?",
           "a": [
             "Wasdo transforme un clavier et une souris USB ou Bluetooth en appuis et balayages à l'écran, pour jouer aux jeux tactiles comme sur PC : les touches pour te déplacer et agir, la souris pour regarder autour de toi."
-          ]
+          ],
+          "video": "FqFcDntXnKI",
+          "tiktok": "7708357360162491679"
         },
         {
           "id": "q02",
           "q": "Pourquoi l'autorisation d'accessibilité est-elle nécessaire ? Est-ce sûr ?",
           "a": [
             "Le service d'accessibilité permet à Wasdo de lire ton clavier et ta souris pendant l'exécution d'un mappage et de placer des appuis dans le jeu affiché au premier plan, même hors de l'app. Les mappages ne fonctionnent qu'après son activation. Wasdo l'utilise uniquement pour exécuter les actions que tu as configurées — il ne lit, ne stocke et n'envoie ni le contenu de ton écran, ni ce que tu saisis, ni tes mots de passe."
-          ]
+          ],
+          "video": "cfunsz-mprQ",
+          "tiktok": "7708359131974929694"
         },
         {
           "id": "q04",
@@ -56,7 +60,9 @@
             "2. Vérifie que le mappage est activé (non en pause).",
             "3. Vérifie que le clavier apparaît comme connecté sur l'écran d'accueil.",
             "4. Si ça marchait avant et s'est arrêté, vérifie les réglages de batterie/arrière-plan (voir la question suivante)."
-          ]
+          ],
+          "video": "wZu3W6-XkFk",
+          "tiktok": "7708358334658645279"
         },
         {
           "id": "q05",
@@ -66,7 +72,9 @@
             "2. Si une disposition prédéfinie apparaît sous « Pour ce jeu », choisis-la : elle est déjà réglée pour ce jeu. Sinon, pars d'un modèle par genre (FPS, MOBA, Action en monde ouvert ou Général) ou d'une disposition vide.",
             "3. Fais glisser chaque touche sur le bouton du jeu qu'elle doit actionner. Pour ajouter une touche, appuie sur +, puis presse une touche du clavier, clique avec un bouton de la souris ou fais tourner la molette.",
             "4. Enregistre, puis appuie sur Esc dans le jeu pour verrouiller la souris et jouer."
-          ]
+          ],
+          "video": "NvZoYVLzX6M",
+          "tiktok": "7708357524159843598"
         },
         {
           "id": "q07",
@@ -88,13 +96,6 @@
           "a": [
             "Non, et ce ne sera jamais le cas. Le contrôle du recul, l'aide à la visée et tout ce qui agit dans le jeu à ta place sont considérés comme de la triche par la plupart des jeux et peuvent entraîner le bannissement des comptes. Wasdo se contente de transformer tes propres appuis sur les touches et mouvements de souris en appuis et balayages."
           ]
-        },
-        {
-          "id": "q19",
-          "q": "Comment partager une disposition avec un ami ?",
-          "a": [
-            "Sur la page du jeu, ouvre le menu de partage et choisis Obtenir un code de partage. Ton ami va dans Paramètres → Sauvegarde et restauration → Importer depuis un code de partage et saisit le code à 8 caractères. Les codes sont valables 90 jours et ne contiennent que la disposition, rien sur ton appareil. Le partage est gratuit, l'importation aussi, sauf si la disposition utilise des fonctions Pro : il faut alors Pro ou l'un de tes essais gratuits."
-          ]
         }
       ]
     },
@@ -114,14 +115,18 @@
           "q": "Pourquoi le curseur de la souris reste-t-il à l'écran ?",
           "a": [
             "Tu es en mode curseur. Appuie sur la touche du mode caméra (Esc par défaut) pour verrouiller la souris : le curseur disparaît et les mouvements de la souris font tourner la vue, comme quand tu cliques dans un jeu sur PC. Appuie de nouveau dessus pour libérer le curseur et utiliser les menus. Si le curseur revient tout seul, c'est que quelque chose a pris le focus (le volet des notifications ou une boîte de dialogue système) ; appuie encore une fois sur la touche pour verrouiller à nouveau la souris."
-          ]
+          ],
+          "video": "8fgacglgLAg",
+          "tiktok": "7708357752610983198"
         },
         {
           "id": "q10",
           "q": "Comment écrire dans un jeu ?",
           "a": [
             "Appuie sur Enter pour passer en mode saisie : ton clavier est envoyé directement au jeu pour que tu puisses discuter, et la souris passe en mode curseur. Appuie de nouveau sur Enter pour envoyer et revenir à tes mappages, ou sur Esc pour revenir sans envoyer. Tu peux aussi appuyer sur la touche du mode saisie (Ctrl droite par défaut), ou toucher la bulle flottante et choisir Mode saisie. Si un de tes mappages utilise déjà Enter, Enter continue de faire ce que tu lui as attribué : utilise alors la touche du mode saisie. Pour désactiver Enter ou changer de touche, va dans Paramètres → Clavier et souris."
-          ]
+          ],
+          "video": "ZtQ9YGi0tJI",
+          "tiktok": "7708358689702432031"
         },
         {
           "id": "q11",
@@ -142,38 +147,40 @@
           "q": "Comment basculer entre le mode caméra et le mode curseur ?",
           "a": [
             "Appuie sur Esc pendant que tu joues, comme quand tu libères la souris dans un jeu sur PC. En mode caméra, la souris est verrouillée et fait tourner la vue, comme dans un jeu de tir sur PC. En mode curseur, elle déplace un pointeur pour que tu puisses cliquer sur les menus et les boutons. La bulle flottante indique le mode : un viseur pour le mode caméra, une flèche pour le mode curseur et un clavier pour le mode saisie. Comme Esc sert à changer de mode, elle n'est pas envoyée au jeu : pour ouvrir le menu du jeu, touche son bouton à l'écran, ou choisis une autre touche du mode caméra dans Paramètres → Clavier et souris, et Esc sera de nouveau transmise au jeu. Si une disposition n'utilise pas du tout la souris, Esc est transmise directement au jeu."
-          ]
+          ],
+          "video": "8fgacglgLAg",
+          "tiktok": "7708357752610983198"
         },
         {
-          "id": "q20",
+          "id": "q19",
           "q": "Wasdo fonctionne-t-il sur un écran externe ou avec Samsung DeX ?",
           "a": [
             "Oui, en mode recopie d'écran. Quand l'écran externe recopie ton téléphone ou ta tablette, Wasdo fonctionne exactement comme sur l'appareil, mode caméra compris. Sur Samsung, désactive DeX dans les réglages rapides pour passer en recopie. Si le son part vers l'écran et que tu n'entends rien, touche « Sortie multimédia » dans les réglages rapides et choisis ton appareil. En mode étendu (Samsung DeX, ou un écran connecté aux Pixel récents), tes touches marchent si la fenêtre du jeu est agrandie, mais le mode caméra, la bulle flottante et les indications à l'écran peuvent ne pas être disponibles. Les Chromebook ne sont pas pris en charge."
           ]
         },
         {
-          "id": "q21",
+          "id": "q20",
           "q": "Comment changer la sensibilité de la souris dans un jeu ?",
           "a": [
             "Commence par un calibrage unique de la souris (Paramètres → Clavier et souris → Sensibilité de la souris et réticule → Calibrage de la souris) pour que Wasdo sache à quelle vitesse va ta souris. Si la caméra tourne encore trop vite ou trop lentement en jeu, touche la bulle flottante, choisis « Sensibilité de la souris » et touche « Plus lent » ou « Plus rapide ». Cela ne modifie que ce jeu, et la même valeur s'affiche sur cette page de paramètres ; la vitesse du curseur se règle aussi aux deux endroits. Pour changer tous les jeux à la fois, utilise « Multiplicateur général » dans « Avancé » sur cette page de paramètres ; pour des valeurs précises, ouvre « Valeurs » dans le panneau ou attribue les touches Sensibilité +5 % et −5 %. Les dispositions prédéfinies sont réglées sur la sensibilité par défaut de chaque jeu : si tu as modifié la sensibilité dans le jeu lui-même, utilise « Plus lent » ou « Plus rapide » pour compenser."
           ]
         },
         {
-          "id": "q22",
+          "id": "q21",
           "q": "Que peut faire la bulle flottante ?",
           "a": [
             "La bulle est ton centre de contrôle en jeu. Touche-la pour ouvrir le panneau : change de disposition, bascule entre les modes curseur, caméra et saisie, déplace les touches par-dessus le jeu avec « Modifier les touches », suspends le mappage, règle la sensibilité ou active le mode streaming. Fais-la glisser où tu veux ; dépose-la sur un bord de l'écran pour la ranger, ou sur le ✕ en bas pour la masquer jusqu'à ce que tu rouvres le jeu. Pour ouvrir le panneau depuis ton clavier, attribue une touche dans Paramètres → Clavier et souris → Panneau en jeu."
           ]
         },
         {
-          "id": "q23",
+          "id": "q22",
           "q": "Pourquoi la caméra tourne-t-elle trop vite ou trop lentement, ou différemment quand je change d'appareil ?",
           "a": [
             "Chaque souris a son propre DPI, et Wasdo ne peut pas le lire : une même disposition peut donc sembler plus rapide ou plus lente d'une souris à l'autre. Fais une fois le calibrage de la souris, puis affine avec « Plus lent » et « Plus rapide ». Si ça ne va toujours pas après tout ça, écris-nous : le modèle de ta souris et tes réglages sont joints automatiquement."
           ]
         },
         {
-          "id": "q24",
+          "id": "q23",
           "q": "Et si je ne connais pas le DPI de ma souris ?",
           "a": [
             "Pas de souci. Dans le calibrage de la souris, choisis « Je ne sais pas, mesurez pour moi », aligne le bord gauche de ta souris sur la première ligne à l'écran et fais un clic gauche, puis, sans la soulever du bureau, pousse-la jusqu'à ce que ce même bord gauche atteigne la deuxième ligne et clique à nouveau. Fais-le trois fois. Si tu appuies plus tard sur le bouton DPI de ta souris, refais la mesure."
@@ -202,5 +209,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

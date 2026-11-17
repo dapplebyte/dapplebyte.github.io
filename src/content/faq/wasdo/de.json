@@ -12,14 +12,18 @@
           "q": "Was macht Wasdo?",
           "a": [
             "Wasdo verwandelt eine USB- oder Bluetooth-Tastatur und -Maus in Tipp- und Wischgesten auf dem Bildschirm. So spielst du Touch-Spiele wie am PC: Tasten zum Bewegen und für Aktionen, die Maus zum Umsehen."
-          ]
+          ],
+          "video": "FqFcDntXnKI",
+          "tiktok": "7708357360162491679"
         },
         {
           "id": "q02",
           "q": "Warum wird die Bedienungshilfe-Berechtigung benötigt? Ist das sicher?",
           "a": [
             "Die Bedienungshilfe ermöglicht Wasdo, deine Tastatur und Maus zu lesen, während eine Zuordnung läuft, und Berührungen im Spiel im Vordergrund auszuführen – auch außerhalb der App. Zuordnungen funktionieren erst nach der Aktivierung. Wasdo nutzt sie nur, um die von dir eingerichteten Aktionen auszuführen – es liest, speichert und überträgt weder deine Bildschirminhalte noch das, was du tippst, oder deine Passwörter."
-          ]
+          ],
+          "video": "cfunsz-mprQ",
+          "tiktok": "7708359131974929694"
         },
         {
           "id": "q04",
@@ -56,7 +60,9 @@
             "2. Stelle sicher, dass die Zuordnung eingeschaltet (nicht pausiert) ist.",
             "3. Prüfe, ob die Tastatur auf dem Startbildschirm als verbunden angezeigt wird.",
             "4. Wenn es früher ging und nun stoppt, prüfe die Akku-/Hintergrundeinstellungen (siehe nächste Frage)."
-          ]
+          ],
+          "video": "wZu3W6-XkFk",
+          "tiktok": "7708358334658645279"
         },
         {
           "id": "q05",
@@ -66,7 +72,9 @@
             "2. Gibt es unter „Für dieses Spiel“ ein Preset, wähle es – so bekommst du ein Layout, das schon auf dieses Spiel abgestimmt ist. Ansonsten startest du mit einer Genre-Vorlage (FPS, MOBA, Open-World-Action oder Allgemein) oder einem leeren Layout.",
             "3. Ziehe jede Taste auf die Schaltfläche, die sie antippen soll. Um eine Taste hinzuzufügen, tippe auf + und drücke dann eine Tastaturtaste, klicke eine Maustaste oder dreh das Mausrad.",
             "4. Speichere und drücke dann im Spiel Esc, um die Maus zu fixieren und loszuspielen."
-          ]
+          ],
+          "video": "NvZoYVLzX6M",
+          "tiktok": "7708357524159843598"
         },
         {
           "id": "q07",
@@ -88,13 +96,6 @@
           "a": [
             "Nein, und das wird es auch nie. Rückstoßkontrolle, Zielhilfe und alles, was im Spiel für dich handelt, gilt in den meisten Spielen als Cheating und kann zur Sperrung deines Kontos führen. Wasdo setzt nur deine eigenen Tastendrücke und Mausbewegungen in Tipp- und Wischgesten um."
           ]
-        },
-        {
-          "id": "q19",
-          "q": "Wie teile ich ein Layout mit Freunden?",
-          "a": [
-            "Öffne auf der Seite des Spiels das Teilen-Menü und wähle „Freigabecode erstellen“. Deine Freunde gehen zu Einstellungen → Sichern und wiederherstellen → Mit Freigabecode importieren und geben den 8-stelligen Code ein. Codes gelten 90 Tage und enthalten nur das Layout, nichts über dein Gerät. Teilen ist kostenlos, Importieren auch, außer das Layout nutzt Pro-Funktionen: Dann brauchst du Pro oder einen deiner Gratis-Versuche."
-          ]
         }
       ]
     },
@@ -114,14 +115,18 @@
           "q": "Warum ist der Mauszeiger noch auf dem Bildschirm?",
           "a": [
             "Du bist im Cursormodus. Drücke die „Taste für Kameramodus“ (standardmäßig Esc), um die Maus zu fixieren: Der Cursor verschwindet und Mausbewegungen drehen die Ansicht, genau wie wenn du in ein PC-Spiel klickst. Drückst du sie erneut, wird der Cursor für Menüs freigegeben. Taucht der Cursor von selbst wieder auf, hat etwas anderes den Fokus übernommen (die Benachrichtigungsleiste oder ein Systemdialog); drücke die Taste noch einmal, um die Maus wieder zu fixieren."
-          ]
+          ],
+          "video": "8fgacglgLAg",
+          "tiktok": "7708357752610983198"
         },
         {
           "id": "q10",
           "q": "Wie schreibe ich in einem Spiel?",
           "a": [
             "Drücke Enter, um in den Schreibmodus zu wechseln: Deine Tastatur geht direkt an das Spiel, damit du chatten kannst, und die Maus wechselt in den Cursormodus. Drückst du Enter erneut, wird gesendet und deine Zuordnungen gelten wieder; mit Esc kehrst du zurück, ohne zu senden. Du kannst auch die „Taste für Schreibmodus“ drücken (standardmäßig die rechte Ctrl-Taste) oder auf den schwebenden Umschalter tippen und „Schreibmodus“ wählen. Wenn eine deiner Zuordnungen Enter bereits verwendet, gilt für Enter weiter diese Zuordnung; nimm dann die Taste für Schreibmodus. Enter ausschalten oder die Taste ändern kannst du unter Einstellungen → Tastatur & Maus."
-          ]
+          ],
+          "video": "ZtQ9YGi0tJI",
+          "tiktok": "7708358689702432031"
         },
         {
           "id": "q11",
@@ -142,38 +147,40 @@
           "q": "Wie wechsle ich zwischen Kamera- und Cursormodus?",
           "a": [
             "Drücke beim Spielen Esc, so wie du in einem PC-Spiel die Maus freigibst. Im Kameramodus ist die Maus fixiert und dreht die Ansicht, wie in einem PC-Shooter. Im Cursormodus bewegt sie einen Zeiger, damit du Menüs und Schaltflächen anklicken kannst. Der schwebende Umschalter zeigt den Modus an: Ein Fadenkreuz steht für den Kameramodus, ein Pfeil für den Cursormodus und eine Tastatur für den Schreibmodus. Da Esc den Modus wechselt, wird die Taste nicht an das Spiel gesendet: Um das Menü des Spiels zu öffnen, tippe auf dessen Schaltfläche auf dem Bildschirm, oder wähle unter Einstellungen → Tastatur & Maus eine andere „Taste für Kameramodus“, dann geht Esc wieder an das Spiel. Nutzt ein Layout die Maus gar nicht, geht Esc direkt an das Spiel."
-          ]
+          ],
+          "video": "8fgacglgLAg",
+          "tiktok": "7708357752610983198"
         },
         {
-          "id": "q20",
+          "id": "q19",
           "q": "Funktioniert Wasdo auf einem externen Display oder mit Samsung DeX?",
           "a": [
             "Ja, mit Bildschirmspiegelung. Spiegelt das Display dein Handy oder Tablet, funktioniert Wasdo genau wie auf dem Gerät, inklusive Kameramodus. Bei Samsung schaltest du dafür DeX in den Schnelleinstellungen aus. Kommt der Ton dann aus dem Display und du hörst nichts, tippe in den Schnelleinstellungen auf „Medienausgabe“ und wähle dein Gerät. Im erweiterten Modus (Samsung DeX oder ein angeschlossenes Display bei neueren Pixel-Handys) funktionieren deine Tasten, wenn das Spielfenster maximiert ist, aber Kameramodus, der schwebende Umschalter und Hinweise auf dem Bildschirm sind dort eventuell nicht verfügbar. Chromebooks werden nicht unterstützt."
           ]
         },
         {
-          "id": "q21",
+          "id": "q20",
           "q": "Wie ändere ich die Mausempfindlichkeit in einem Spiel?",
           "a": [
             "Fang mit einer einmaligen Mauskalibrierung an (Einstellungen → Tastatur & Maus → Mausempfindlichkeit und Fadenkreuz → Mauskalibrierung), damit Wasdo weiß, wie schnell deine Maus ist. Dreht die Kamera im Spiel dann immer noch zu schnell oder zu langsam, tippe auf den schwebenden Umschalter, wähle „Mausempfindlichkeit“ und tippe auf „Langsamer“ oder „Schneller“. Das ändert nur dieses Spiel, und derselbe Wert steht auch auf dieser Einstellungsseite; die Cursorgeschwindigkeit gibt es ebenfalls an beiden Stellen. Um alle Spiele auf einmal zu ändern, nutze „Gesamtfaktor“ unter „Erweitert“ auf derselben Einstellungsseite; für genaue Werte öffnest du „Werte“ im Panel oder belegst die Tasten für Empfindlichkeit +5% und −5%. Presets sind auf die Standardempfindlichkeit des jeweiligen Spiels abgestimmt: Hast du die Empfindlichkeit im Spiel selbst geändert, gleich das mit „Langsamer“ oder „Schneller“ aus."
           ]
         },
         {
-          "id": "q22",
+          "id": "q21",
           "q": "Was kann der schwebende Umschalter?",
           "a": [
             "Der Umschalter ist deine Steuerzentrale im Spiel. Tippe darauf, um das Panel zu öffnen: Wechsle zwischen Layouts, schalte zwischen Cursor-, Kamera- und Schreibmodus um, verschiebe mit „Tasten bearbeiten“ Tasten über dem Spiel, pausiere die Zuordnung, passe die Empfindlichkeit an oder aktiviere den Streaming-Modus. Zieh ihn an eine beliebige Stelle; leg ihn am Bildschirmrand ab, um ihn einzuklappen, oder auf dem ✕ unten, um ihn auszublenden, bis du das Spiel wieder öffnest. Um das Panel über die Tastatur zu öffnen, belege eine Taste unter Einstellungen → Tastatur & Maus → Ingame-Panel."
           ]
         },
         {
-          "id": "q23",
+          "id": "q22",
           "q": "Warum dreht die Kamera zu schnell oder zu langsam, oder fühlt sich auf einem anderen Gerät anders an?",
           "a": [
             "Jede Maus hat ihre eigene DPI, und Wasdo kann sie nicht auslesen. Deshalb kann sich dasselbe Layout von Maus zu Maus schneller oder langsamer anfühlen. Führ die Mauskalibrierung einmal durch und justiere dann mit „Langsamer“ und „Schneller“ nach. Fühlt es sich danach immer noch falsch an, schreib uns eine E-Mail: Mausmodell und Einstellungen werden automatisch angehängt."
           ]
         },
         {
-          "id": "q24",
+          "id": "q23",
           "q": "Was, wenn ich die DPI meiner Maus nicht kenne?",
           "a": [
             "Kein Problem. Wähle in der Mauskalibrierung „Weiß ich nicht, miss sie für mich“, richte die linke Kante deiner Maus an der ersten Linie auf dem Bildschirm aus und mach einen Linksklick. Lass die Maus dann auf dem Tisch und schieb sie, bis dieselbe Kante die zweite Linie erreicht, und klick noch einmal. Mach das dreimal. Wenn du später die DPI-Taste an deiner Maus drückst, miss einfach noch einmal."
@@ -202,5 +209,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }

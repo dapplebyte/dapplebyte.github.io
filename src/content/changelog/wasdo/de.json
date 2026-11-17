@@ -3,6 +3,14 @@
   "locale": "de",
   "entries": [
     {
+      "code": 2,
+      "name": "1.0.1",
+      "date": "2026-11-17",
+      "items": [
+        "Spiele reine Touch-Spiele auf Android mit USB- oder Bluetooth-Tastatur und -Maus: WASD zum Laufen, die Maus dreht die Kamera, Tasten und Maustasten für Skills, dazu Cursor- und Schreibmodus. Starte mit der FPS- oder MOBA-Vorlage und passe die Tasten im Drag-and-drop-Editor an. Eine Bedienungshilfe-Berechtigung, ohne Root, ohne ADB, ohne PC. Klappt es auf deinem Gerät oder in deinem Spiel nicht? Sag uns über die Einstellungen Bescheid."
+      ]
+    },
+    {
       "code": 1,
       "name": "1.0.0",
       "date": "2026-11-17",

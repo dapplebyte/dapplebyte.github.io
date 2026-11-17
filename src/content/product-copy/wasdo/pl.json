@@ -22,8 +22,7 @@
       "bullets": [
         "Tylko ułatwienia dostępu, bez Shizuku i aplikacji pomocniczych",
         "Bez kodów parowania, debugowania USB i komputera",
-        "Po restarcie nic nie trzeba aktywować",
-        "Działa na telefonach i tabletach z Androidem"
+        "Po restarcie nic nie trzeba aktywować"
       ]
     },
     {
@@ -32,7 +31,7 @@
       "paragraphs": [],
       "bullets": [
         "Strzelanki na tablecie: WASD, rozglądanie myszą, klawisze przeładowania i kucania",
-        "Gry MOBA z klawiszami umiejętności i Smart Cast",
+        "Gry MOBA z klawiszami umiejętności i Smart Cast w Pro",
         "RPG akcji z unikami i kombosami umiejętności na klawiaturze",
         "Tablet w etui z klawiaturą albo telefon z hubem USB"
       ]
@@ -65,11 +64,11 @@
       "title": "Gotowe układy i szablony do FPS, MOBA i RPG",
       "paragraphs": [],
       "bullets": [
-        "Gotowe układy do popularnych gier, dopasowane do proporcji ekranu",
+        "Pro: gotowe układy gier pod proporcje ekranu",
         "Szablony FPS, MOBA, Akcja z otwartym światem i Ogólny",
         "Edytor „przeciągnij i upuść”, rozmiar i przezroczystość klawiszy",
-        "Kilka układów dla jednej gry",
-        "Eksport, kopia zapasowa i kody udostępniania za darmo"
+        "Jeden klawisz dotyka naraz kilku punktów",
+        "Eksport i kopia zapasowa za darmo"
       ]
     },
     {
@@ -78,7 +77,7 @@
       "paragraphs": [],
       "bullets": [
         "Tryb pisania (Enter) przekazuje klawiaturę do czatu w grze",
-        "Pływający przełącznik: zmiana układów, czułości i edycja klawiszy w grze",
+        "Pływający przełącznik: zmiana trybów, czułości, edycja klawiszy w grze, pauza mapowania",
         "Tryb streamowania ukrywa nakładkę podczas nagrywania"
       ]
     },
@@ -86,7 +85,7 @@
       "id": "pro",
       "title": "Wasdo Pro: zaawansowane sterowanie myszą i makra",
       "paragraphs": [
-        "Na start za darmo, bez reklam. Wasdo Pro dodaje nieograniczone gry i układy, kombinacje z modyfikatorami (Shift, Ctrl lub Alt + klawisz), krzywe czułości z osobną osią X i Y, wygładzanie i czułość przy zbliżeniu celownika, klawisze kółka myszy, makra jednym klawiszem, przełączanie scen, klawisze przełączające i sekwencje oraz Smart Cast w grach MOBA. Zapisane układy nadal działają."
+        "Na start za darmo, bez reklam. Wasdo Pro dodaje nieograniczone gry i układy, gotowe układy, kombinacje z modyfikatorami (Shift, Ctrl lub Alt + klawisz), krzywe czułości z osobną osią X i Y, wygładzanie i czułość przy zbliżeniu celownika, klawisze kółka myszy, makra jednym klawiszem, przełączanie scen, klawisze przełączające i sekwencje oraz Smart Cast w grach MOBA. Zapisane układy nadal działają."
       ],
       "bullets": []
     },
@@ -94,7 +93,7 @@
       "id": "privacy",
       "title": "Prywatność i ułatwienia dostępu",
       "paragraphs": [
-        "Wasdo używa ułatwień dostępu tylko do odczytu klawiatury i myszy, gdy działa mapowanie, i do dotknięć w grze. Nie odczytuje, nie zapisuje ani nie wysyła zawartości ekranu."
+        "Wasdo używa ułatwień dostępu, by rozpoznawać aktywną aplikację, odczytywać klawiaturę i mysz, gdy działa mapowanie, i tworzyć dotknięcia w grze. Gdy przejmuje mysz, sprawdza tylko, czy kliknięto pole tekstowe, nie jego treść. Nie czyta, nie zapisuje ani nie wysyła treści ekranu."
       ],
       "bullets": []
     },
@@ -115,10 +114,10 @@
       "id": "support",
       "title": "Coś nie działa?",
       "paragraphs": [
-        "Najpierw otwórz Ustawienia → Pomocnik połączenia. Nadal nic? Zanim wystawisz opinię, napisz na feedback@dapplebyte.com i podaj model telefonu oraz grę. Czytamy każdą wiadomość."
+        "Najpierw otwórz Ustawienia → Pomoc i wsparcie → Pomocnik połączenia. Nadal nic? Zanim wystawisz opinię, napisz na feedback@dapplebyte.com i podaj model telefonu oraz grę. Czytamy każdą wiadomość."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-11-13"
+  "extractedAt": "2026-11-17"
 }
