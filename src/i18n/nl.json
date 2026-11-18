@@ -571,9 +571,9 @@
         "refundBody": "Werkt {name} niet met jouw opstelling, mail ons dan binnen 7 dagen na de aankoop en je krijgt je geld terug. Vertel wat je hebt geprobeerd; daarmee kunnen we het voor de volgende gebruiker oplossen."
       },
       "press": {
-        "description": "Feiten, beeldmateriaal en een standaardtekst om over {name} te schrijven, de Android-app die via Remote Play als controller werkt en het beeld van je console streamt.",
-        "boilerplate": "{name} maakt van een Android-telefoon een draadloze controller voor een PS5 of PS4, of streamt het beeld van de console naar de telefoon, een tablet of een tv, thuis of onderweg via mobiele data. De app is gemaakt door DappleByte, een onafhankelijke studio, en is als open source gepubliceerd onder de AGPL-3.0.",
-        "priceValue": "Betaalde app, eenmalige aankoop, geen abonnement, geen advertenties. De actuele prijs staat op Google Play.",
+        "description": "Feiten, beeldmateriaal en een standaardtekst om over {name} te schrijven, de Android-app om live te gaan vanaf een PS5 of PS4, als Remote Play-controller te spelen en het beeld van je console te streamen.",
+        "boilerplate": "Met {name} zet een Android-telefoon games van een PS5 of PS4 live op Twitch, YouTube, Kick, TikTok of elke RTMP-server, zonder computer of capturekaart. De app werkt ook als draadloze controller en streamt het beeld van de console naar de telefoon, een tablet of een tv, thuis of onderweg via mobiele data. De app is gemaakt door DappleByte, een onafhankelijke studio, en is als open source gepubliceerd onder de AGPL-3.0.",
+        "priceValue": "Gratis te downloaden, geen advertenties. Pro is een in-app-aankoop waarmee je het watermerk in de stream uitzet, en die het cameravenster, staande indelingen, tegelijk streamen naar twee platforms en directe herhaling toevoegt. De actuele prijs staat op Google Play.",
         "assetScreenshots": "Screenshots, PNG van 1920 × 1080, Engelstalig"
       },
       "videosDescription": "Korte video's van {name} op een echte telefoon: instellen, streamen, controllerindelingen en verbindingsproblemen oplossen.",

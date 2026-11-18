@@ -571,9 +571,9 @@
         "refundBody": "Wenn {name} mit Ihrem Setup nicht funktioniert, schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf, und wir erstatten den Betrag. Erzählen Sie uns, was Sie versucht haben; das hilft uns, das Problem für die Nächsten zu beheben."
       },
       "press": {
-        "description": "Fakten, Material und ein Standardtext für Berichte über {name}, die Android-App für Controller und Konsolen-Streaming per Remote Play.",
-        "boilerplate": "{name} macht ein Android-Telefon zum kabellosen Controller für eine PS5 oder PS4 oder streamt das Bild der Konsole auf das Telefon, ein Tablet oder einen Fernseher, zu Hause oder unterwegs über mobile Daten. Die App stammt von DappleByte, einem unabhängigen Studio, und ist als Open Source unter der AGPL-3.0 veröffentlicht.",
-        "priceValue": "Kostenpflichtige App, Einmalkauf, kein Abo, keine Werbung. Den aktuellen Preis finden Sie bei Google Play.",
+        "description": "Fakten, Material und ein Standardtext für Berichte über {name}, die Android-App für Livestreams von PS5 oder PS4, Remote-Play-Steuerung und Konsolen-Streaming.",
+        "boilerplate": "Mit {name} streamt ein Android-Telefon Spiele von einer PS5 oder PS4 live auf Twitch, YouTube, Kick, TikTok oder jeden RTMP-Server, ganz ohne Computer oder Capture-Karte. Außerdem dient es als kabelloser Controller und streamt das Bild der Konsole auf das Telefon, ein Tablet oder einen Fernseher, zu Hause oder unterwegs über mobile Daten. Die App stammt von DappleByte, einem unabhängigen Studio, und ist als Open Source unter der AGPL-3.0 veröffentlicht.",
+        "priceValue": "Kostenloser Download, keine Werbung. Pro ist ein In-App-Kauf: Damit lässt sich das Wasserzeichen im Stream ausschalten, dazu kommen Kamerafenster, Hochformat-Layouts, Streamen auf zwei Plattformen gleichzeitig und Sofortwiederholung. Den aktuellen Preis finden Sie bei Google Play.",
         "assetScreenshots": "Screenshots, PNG, 1920 × 1080, Englisch"
       },
       "videosDescription": "Kurze Videos, die {name} auf einem echten Telefon zeigen: Einrichtung, Streaming, Controller-Layouts und Lösungen für Verbindungsprobleme.",

@@ -268,6 +268,159 @@
       ]
     },
     {
+      "id": "live",
+      "title": "Canlı yayın",
+      "entries": [
+        {
+          "id": "live_what_needed",
+          "q": "Yayına başlamak için neye ihtiyacım var?",
+          "a": [
+            "Bu uygulamada kurulu kendi konsolunuz ve yayın yapmak istediğiniz platformda bir hesap. Bilgisayar ya da yakalama kartı gerekmez. Konsol kartındaki “Yayına başla” düğmesine dokunun ve adımları izleyin: nasıl oynayacağınız, nerede yayın yapacağınız, platformu bağlama ve son kontrol. Zaten oynuyorsanız hızlı paneli açıp oradaki “Yayına başla” düğmesine dokunun. Yayındayken yayın panelini açmak için köşedeki rozete dokunun."
+          ]
+        },
+        {
+          "id": "live_platforms",
+          "q": "Hangi platformlarda yayın yapabilirim?",
+          "a": [
+            "Twitch, YouTube ve Kick, ayrıca TikTok LIVE, Facebook, Instagram, X, Rumble, Telegram, Bilibili, Huya, Douyu, TwitCasting, niconico, SOOP, CHZZK ve VK Video Live. Restream ve Castr gibi çoklu yayın hizmetleri tek bir yayını çok daha fazla platforma aktarır; “Özel sunucu” ise herhangi bir RTMP veya RTMPS adresini kabul eder. “Koşullar” etiketli platformlar yalnızca bazı hesapların yayın yapmasına izin verir; ne istediğini görmek için platformu seçin."
+          ]
+        },
+        {
+          "id": "live_no_pc_quality",
+          "q": "Gerçekten bilgisayar ya da yakalama kartı olmadan çalışıyor mu? Görüntü nasıl?",
+          "a": [
+            "Evet. Telefon iki işi birden yapar: oyunu konsoldan alır, üstüne eklediklerinizi koyar ve sonucu platforma gönderir. Görüntü, Remote Play'in gönderdiği akıştan gelir; en fazla HDR'siz 1080p'dir ve konsol tarafından bir kez sıkıştırılmıştır, bu yüzden yakalama kartı daha net görünür. En iyi sonuç için konsol akışını ev Wi-Fi'ında 1080p ile yapın. Yayına başladığınızda konsol akışı HDR kullanıyorsa yayındaki renkler soluk görünebilir; “Ayarlar → Görüntü kalitesi” bölümünden HDR'yi kapatıp yeniden bağlanın."
+          ]
+        },
+        {
+          "id": "live_capture_mode",
+          "q": "Yayın modu nedir ve kumandayı nereye bağlarım?",
+          "a": [
+            "Telefon bir yakalama kartı gibi yayını yaparken TV'de oynamak içindir. İlk adımda “TV'de” seçeneğini seçin. Telefon bu durumda izleyicilerin gördüğünü gösterir; oyunu TV oynattığı için ekran kumandası ve oyun sesi olmaz. Kumandanızı telefona Bluetooth ya da USB ile bağlayın (en kararlısı USB) ve TV'ye bakarak oynayın. Doğrudan konsola bağlı bir kumanda aynı anda oynayamaz: konsol onu başka bir kullanıcı sayar ve ikisi sürekli kontrolü birbirinden alır. Kulaklık takmak veya telefonu TV hoparlörlerinden uzak tutmak TV sesinin mikrofonunuza karışmasını önler."
+          ]
+        },
+        {
+          "id": "live_stream_key",
+          "q": "Sunucu URL'sini ve yayın anahtarını nereden alırım?",
+          "a": [
+            "Bir platform seçtikten sonra bağlantı adımında “Yayın anahtarınızı nerede bulursunuz” bölümü vardır: o platformun talimatları için “Adımları göster” düğmesine, sayfasını açmak için altındaki düğmeye dokunun. Yayın anahtarını, platform veriyorsa sunucu URL'sini de kopyalayın. Panoda bir adres veya anahtar olduğunda uygulama onu kullanmayı önerir ve tam bir adresi iki kutuya ayırır. Twitch ve YouTube için bunun yerine “ile giriş yap” düğmesi sunulabilir; o zaman anahtar sizin için alınır. Anahtarlar bu telefonda şifreli olarak saklanır; “Ayarlar → Hedefler” bölümünden değiştirebilir veya silebilirsiniz."
+          ]
+        },
+        {
+          "id": "live_key_rejected",
+          "q": "Platformun yayın anahtarını reddettiği yazıyor.",
+          "a": [
+            "Anahtar yanlış yazılmış, süresi dolmuş veya daha yenisiyle değiştirilmiş olabilir ya da hesabın henüz yayın yapmasına izin verilmiyordur. Platformdan yeni bir anahtar kopyalayıp “Ayarlar → Hedefler → Anahtarı değiştir” bölümüne yapıştırın. Anahtar doğruysa platformun koşullarına bakın: Twitch anahtarı yalnızca iki faktörlü kimlik doğrulamayı açtıktan sonra gösterir, YouTube kanalının doğrulanmış olması gerekir ve ilk seferde 24 saati bulabilir, TikTok ve Facebook'un takipçi sınırları vardır. Platform zaten süren bir yayını kesiyorsa aynı anahtar başka bir yerde yayında olabilir."
+          ]
+        },
+        {
+          "id": "live_tiktok_key",
+          "q": "TikTok bana yayın anahtarı vermiyor. Ne yapmalıyım?",
+          "a": [
+            "Hangi hesapların anahtar alacağına TikTok karar verir: 18 yaşından büyük olmanız ve genellikle en az 1.000 takipçinizin olması gerekir; bu durumda bile garanti değildir. Hesabınıza açıldığında anahtar, başlık ve kategori belirledikten sonra bilgisayardaki TikTok LIVE Center'da bulunur. TikTok genellikle her yayın için yeni anahtar verir, bu yüzden uygulama her yayına başladığınızda yenisini yapıştırmanızı ister; Instagram, Bilibili ve Douyu da aynı şekilde çalışır. Instagram ayrıca herkese açık bir hesapta 1.000 takipçi, Bilibili ise gerçek ad doğrulamasıyla 5.000 takipçi ister."
+          ]
+        },
+        {
+          "id": "live_mic_voice",
+          "q": "İzleyiciler mikrofonumu ve takım arkadaşlarımı duyar mı?",
+          "a": [
+            "Mikrofonunuz yalnızca siz açtığınızda yayına gider: yayın panelinin üstündeki “Mikrofon” ya da “Ses” sekmesindeki “Mikrofon yayında” ile; başlangıçta kapalıdır. Bu, ekran kumandasındaki MIC tuşuyla yapılan konsol sesli sohbetinden ayrıdır; böylece izleyicilerle, takım arkadaşlarınızla, ikisiyle birden ya da hiçbiriyle konuşabilirsiniz. Takım arkadaşlarınız yalnızca konsol onların seslerini bu telefona gönderdiği oyun sesine karıştırıyorsa yayına çıkar: normal bir akış sırasında telefondan ne duyuyorsanız izleyiciler de onu duyar."
+          ]
+        },
+        {
+          "id": "live_viewers_see",
+          "q": "İzleyiciler bildirimlerimi veya ekrandaki düğmeleri görür mü?",
+          "a": [
+            "Hayır. Yayın, konsolun gönderdiği oyun görüntüsü ve sesinden, ayrıca açıksa kameranızdan, sahne kartlarından ve köşedeki küçük işaretten oluşur. Ekran kumandası, hızlı panel, yayın paneli ve rozeti, bildirimler ve telefonunuzdaki diğer her şey yayına asla çıkmaz. Oyunu kısa süreliğine kapatmak için, örneğin konsolda şifre girerken, yayın panelinin üstündeki “Gizle” düğmesine dokunun: siz yeniden dokunana kadar oyun görüntüsü ve sesi bir kartla değiştirilir."
+          ]
+        },
+        {
+          "id": "live_camera",
+          "q": "Kameramı nasıl eklerim?",
+          "a": [
+            "Yayın panelini açın ve “Sahne” sekmesinde “Kamera” altındaki “Kameramı göster” seçeneğini açın. “Köşede kamera” veya “Kenar çubuğu” gibi kameraya yer bırakan bir yerleşim seçin; “Tam ekran” yerleşiminde yer yoktur. Kamerayı taşımak için kutuyu sürükleyin, en yakın köşeye yerleşir; aynı sekmede ön veya arka kamera, ayna, şekil, çerçeve ve boyut ayarları da vardır. Uygulama ilk seferde kamera izni ister; izin vermezseniz geri kalan her şey çalışmaya devam eder."
+          ]
+        },
+        {
+          "id": "live_vertical",
+          "q": "Nasıl dikey yayın yaparım?",
+          "a": [
+            "Yayına başlamadan önceki son adımda “Biçim” ayarını “Dikey 9:16” yapın. “Sahne” sekmesindeki dikey yerleşimler şunlardır: oyunun bulanık bir arka planın ortasında durduğu “Ortada”, oyunun üstte, kamera için alanın altta olduğu “Üst üste” ve oyunun ekranı dolduracak şekilde kırpıldığı “Doldur”. TikTok veya Instagram gibi dikey izlenen bir platform seçtiğinizde mümkünse dikey biçime kendiliğinden geçilir."
+          ]
+        },
+        {
+          "id": "live_two_platforms",
+          "q": "Aynı anda iki platformda yayın yapabilir miyim?",
+          "a": [
+            "Evet. Aynı yayın iki platforma gidebilir; ayrıca diğer biçimde bir kopyayı üçüncü bir platforma gönderebilirsiniz, örneğin yatayı Twitch ve YouTube'a, dikeyi TikTok'a. Bunu yayına başlamadan önceki son adımda “Şuraya da yayın yap” bölümünden ayarlayın. Her yayın telefonunuzdan yüklenir, bu yüzden her biri yükleme hızından kendi payını ister; ikinci bir biçim de telefonu daha çok yorar. Bir hedef başarısız olursa diğerleri yayında kalır. Daha fazla platforma ulaşmak için Restream gibi bir çoklu yayın hizmetine tek bir yayın gönderin ve platformlarınızı orada bağlayın."
+          ]
+        },
+        {
+          "id": "live_stutter",
+          "q": "Yayın takılıyor veya sürekli kopuyor.",
+          "a": [
+            "Genellikle sebep yükleme hızıdır, çünkü yayın, oyunun geldiği Wi-Fi üzerinden dışarı çıkar. Yükleme zorlandığında uygulama önce bit hızını, sonra kare hızını düşürür ve bağlantı düzelince yeniden yükseltir; yayın sırasında çözünürlüğü değiştirmez. Bağlantı koparsa kendiliğinden yeniden bağlanır ve kayıt sürer. Ev Wi-Fi'ından, tercihen 5 GHz'te ve modeme yakın yayın yapın, yayına başlamadan önce daha düşük bir kalite seçin ve neler olduğunu görmek için yayın panelindeki “Durum” sekmesine bakın. Mobil veri ve evden uzakta oynamak da çalışır ama görüntü kötüleşir."
+          ]
+        },
+        {
+          "id": "live_phone_hot",
+          "q": "Yayındayken telefon ısınıyor.",
+          "a": [
+            "Oyunu almak, yayını oluşturmak ve aynı anda kodlamak bir telefon için ağır bir iştir. Isındıkça uygulama kendiliğinden yükü azaltır: önce kare hızı, sonra kamera 15 fps'ye, sonra kamera kapanır, varsa ardından ikinci yayın durur; “Durum” sekmesi nedenini söyler. Yayın sırasında çözünürlük aynı kalır; telefon ısınmaya devam ederse bir dahaki sefere 720p30 ile başlayın. Telefonu kılıfından çıkarıp açıkta tutun; Yayın modunda “Ekran karartma” da yardımcı olur."
+          ]
+        },
+        {
+          "id": "live_screen_off",
+          "q": "Yayındayken ekranı kapatabilir veya başka uygulamaya geçebilir miyim?",
+          "a": [
+            "Hayır. Yayın, akış sayfasında çalışır. Ayarlar'da “Pencere içinde pencere” açıksa uygulamadan çıkınca oyun küçük bir pencereye küçülür ve yayın sürer. Akış sayfası yaklaşık 15 saniyeden uzun süre ekranda olmazsa, örneğin başka bir uygulamanın arkasında kalırsa veya ekran kapanırsa yayın durur; akış sayfasından ayrılmak ise yayını hemen bitirir. Yayın modunda “Ekran karartma”, yayın sürerken ekranı karartır ve kısar; uyandırmak için herhangi bir yere dokunun."
+          ]
+        },
+        {
+          "id": "live_console_drop",
+          "q": "Yayındayken konsol bağlantısı kesilirse ne olur?",
+          "a": [
+            "Yayın sürer ve izleyiciler “Birazdan döneceğim” kartını görür. Konsol bağlantısı geri gelince oyun kendiliğinden döner; yaklaşık 3 dakika bağlantı olmazsa yayın biter. Bu yalnızca bağlantı kendiliğinden koptuğunda geçerlidir: oturumu kendiniz bitirirseniz yayın da biter. Kartı yayın panelinin üstündeki “Mola” ile kendiniz de gösterebilirsiniz."
+          ]
+        },
+        {
+          "id": "live_blocked_card",
+          "q": "İzleyiciler bu kısmın yayında gösterilemediğini söyleyen bir kart görüyor.",
+          "a": [
+            "Bazı oyunlar ve konsol ekranları uzaktan gösterime izin vermez, bu yüzden konsol onların görüntüsünü göndermeyi bırakır. İzleyiciler siyah ya da donmuş bir görüntü yerine bu kartı görür; konsol görüntüyü yeniden gönderir göndermez oyun kendiliğinden geri gelir. Bunu değiştiren bir ayar yoktur; oyuna bağlıdır."
+          ]
+        },
+        {
+          "id": "live_recordings",
+          "q": "Kayıtlarım nereye kaydediliyor?",
+          "a": [
+            "Yayına başlamadan önceki son adımda “Ayrıca bu telefona video kaydet” seçeneğini açın ya da “Sadece kaydet, yayın yapma” seçeneğini seçin. Android 10 ve sonrasında biten video Movies/Relaypad klasörüne gider, böylece galerinizde ve dosya yöneticinizde görünür. Daha eski sürümlerde uygulamanın kendi klasöründe, Android/data/com.relaypad.remoteplay.app/files/Movies içinde kalır ve uygulamayı kaldırdığınızda silinir. Yayından sonraki özet ekranında video için “Aç” ve “Paylaş” düğmeleri vardır."
+          ]
+        },
+        {
+          "id": "live_watermark",
+          "q": "Yayının köşesindeki işareti taşıyabilir veya kapatabilir miyim?",
+          "a": [
+            "Taşıyabilirsiniz ama kapatmak için Pro gerekir. İlk yayınınızdan itibaren her yayının köşesinde küçük bir Relaypad işareti bulunur. Yayın panelinin “Sahne” sekmesindeki “Filigran” bölümünden dört köşeden birini seçin; varsayılan köşe “Sağ üst”. Pro aldıktan sonra aynı yerde “Filigranı göster” seçeneğini kapatın."
+          ]
+        },
+        {
+          "id": "live_pro_trial",
+          "q": "Pro deneme yayınlarında neler var ve bittikten sonra ne olur?",
+          "a": [
+            "İlk birkaç yayınınızda kamera penceresi, dikey 9:16, ikinci platform ve anlık tekrarı kullanabilirsiniz; yayın paneli kaç deneme yayını kaldığını gösterir ve 5 dakikadan kısa bir yayın sayılmaz. Deneme, köşe filigranını kapatmayı kapsamaz. Sonrasında süre sınırı olmadan, tek platformda 1080p60'a kadar ve kayıtla birlikte ücretsiz yayın yapmaya devam edebilirsiniz; geri kalanı için Pro gerekir, liste “Pro neler katıyor?” altındadır. Kameranız, yerleşiminiz ve diğer ayarlarınız saklanır, bu yüzden Pro alınca hepsi hemen geri gelir."
+          ]
+        },
+        {
+          "id": "live_console_broadcast",
+          "q": "Konsolun kendi yayın özelliğini aynı anda kullanabilir miyim?",
+          "a": [
+            "Genellikle hayır: Remote Play oturumu sürerken konsol genelde yayın yapmaz ve bu uygulama o özelliğe hiç dokunmaz. Zaten buna ihtiyacınız yok, çünkü telefon kendi başına ve konsolun sunduğundan daha fazla platforma yayın yapar."
+          ]
+        }
+      ]
+    },
+    {
       "id": "quality",
       "title": "Akış ve görüntü",
       "entries": [
@@ -276,13 +429,6 @@
           "q": "Akış sırasında kontroller nerede?",
           "a": [
             "Üst çubuk birkaç saniye sonra kaybolur. Geri getirmek için görüntüde boş bir yere dokunun: kaydırıcı simgesi hızlı paneli açar, “Çıkmak için basılı tutun” da akışı sonlandırır. Boş bir yere uzun basmak da hızlı paneli açar."
-          ]
-        },
-        {
-          "id": "free_720p",
-          "q": "Ücretsiz sürümün sınırı nedir?",
-          "a": [
-            "Ev ağınızda H.264 ile en fazla 720p ve 30 fps akış; süre sınırı ve reklam yok. Sınır her oturum başladığında uygulanır. Kumanda modu tümüyle ücretsizdir ve hiçbir sınırı yoktur. Android TV'de akış için Pro gerekir."
           ]
         },
         {
@@ -346,6 +492,13 @@
           "q": "HEVC veya HDR seçilemiyor ya da akış bunun yerine H.264 kullanıyor.",
           "a": [
             "HEVC bu telefonda onu çözebilen bir kod çözücü, HDR ise bunu destekleyen bir ekran gerektirir; bir seçeneğin neden kullanılamadığını kalite sayfası söyler. Akış başlarken telefon biçimi çözemezse akış kendiliğinden H.264 ya da SDR'ye geçer ve size bildirir."
+          ]
+        },
+        {
+          "id": "ps4_hevc",
+          "q": "HEVC veya HDR PS4 ile çalışır mı?",
+          "a": [
+            "Hayır. Slim ve Pro dahil her PS4 yalnızca H.264 gönderir; HEVC ve HDR, PS5 özellikleridir. Kodek ayarı tüm konsollarınız için geçerlidir: PS5'te olduğu gibi kullanılır, PS4'e yapılan akış ise kendiliğinden H.264'e geçer ve size bildirir. Yani PS5'iniz de varsa HEVC'yi açık bırakabilirsiniz."
           ]
         },
         {
@@ -588,34 +741,48 @@
     },
     {
       "id": "purchase",
-      "title": "Satın alma ve iadeler",
+      "title": "Pro, satın almalar ve iadeler",
       "entries": [
         {
-          "id": "paid_not_subscription",
-          "q": "Bu bir abonelik mi?",
+          "id": "controller_free",
+          "q": "Telefonu kumanda olarak kullanmak için ödeme yapmam gerekiyor mu?",
           "a": [
-            "Hayır. Uygulamayı Google Play'de bir kez satın alırsınız, hepsi bu: abonelik yok, uygulama içi satın alma yok, reklam yok ve sonradan ikinci bir ödeme isteyen hiçbir özellik yok. Satın alma telefona değil, Google hesabınıza bağlıdır."
+            "Hayır. Kumanda modu süre sınırı ve reklam olmadan tümüyle ücretsizdir: ekran kumandası, yerleşim düzenleyici, fiziksel kumandalar, tuş eşlemesi, titreşim, hareket algılama, dokunmatik yüzey, mikrofon, konsolu uyandırma ve dinlenmeye alma, ayrıca istediğiniz kadar konsol ve hesap. Kumanda modunda hiçbir şey satın alma istemez."
           ]
         },
         {
-          "id": "paid_promo_forever",
-          "q": "Ücretsiz kampanya sırasında kurdum. Özellikler sonradan kilitlenir mi?",
+          "id": "pro_not_subscription",
+          "q": "Pro bir abonelik mi?",
           "a": [
-            "Hayır. Kampanya sırasında kurmak, uygulamayı o fiyattan satın almakla aynı şeydir; yani tüm özellikleriyle kalıcı olarak sizin olur. Kampanya bittikten sonra da böyle kalır ve aynı Google hesabı uygulamayı yeni bir telefona ücretsiz olarak yeniden kurabilir."
+            "Pro şu anda Google hesabınıza bağlı tek seferlik bir satın almadır. Satın aldığınız anda sunulan Pro özellikleri için bir kez ödersiniz, yayın başına ücret yoktur ve ödediğiniz tutar Google Play ödeme penceresinde gösterilen fiyattır. Bir satın alma iade edilirse Pro, uygulamanın Google Play ile yaptığı bir sonraki kontrolde kaldırılır."
           ]
         },
         {
-          "id": "paid_reinstall",
-          "q": "Yeni bir telefona nasıl kurarım?",
+          "id": "pro_contents",
+          "q": "Pro neler katıyor?",
           "a": [
-            "Satın alırken kullandığınız Google hesabıyla Google Play sayfasını açın; fiyat yerine “Yükle” görünür. Konsollar taşınmaz, bu yüzden her konsolu yeni telefonda yeniden eşleştirin; eşleştirme anahtarları oluşturuldukları telefonda kalır."
+            "Pro canlı yayına şunları ekler: kamera penceresi ve ona yer açan yerleşimler, dikey 9:16 yerleşimler, aynı anda iki platform artı üçüncüsüne diğer biçimde bir kopya, son 30 saniyenin anlık tekrarı ve köşe filigranını kapatma. İlk birkaç yayınınızda filigranı kapatma dışında hepsini deneyebilirsiniz. Geri kalan her şey ücretsizdir: Kumanda modunun tamamı, HEVC ve HDR ile 1080p ve 60 fps'ye kadar akış, ev ağınızın dışından oynama, Android TV, pencere içinde pencere, bağlantı doktoru ve tek platformda süre sınırı olmadan 1080p60'a kadar canlı yayın; elle bit hızı ve kayıt da buna dahildir."
           ]
         },
         {
-          "id": "paid_included",
-          "q": "Neler dahil?",
+          "id": "pro_restore",
+          "q": "Telefon değiştirdim ve Pro kayboldu.",
           "a": [
-            "İlk açılıştan itibaren her şey: 1080p ve 60 fps akış, elle bit hızı, HEVC ve HDR, FSR keskinleştirme ve performans bindirmesi, ev ağınızın dışından oynama, Android TV'de akış, pencere içinde pencere ve telefonunuz kumanda olurken oyunun TV'de görünmesi. Kumanda modu, bağlantı doktoru, “Konsol kısayolu” widget'ı ve istediğiniz kadar konsol ile hesap da bunlara dahil."
+            "Satın almalar telefonu değil Google hesabını izler. Uygulama açılırken Google Play ile kontrol eder ve bu telefondaki Google Play satın aldığınız hesabı kullandığı sürece Pro'nun kilidini kendiliğinden açar. Açmazsa “Ayarlar → Pro'ya yükseltin” bölümünü açıp “Satın almayı geri yükle” düğmesine dokunun. Google Play'e ulaşılamazsa uygulama bunu size bildirir; bağlantıyı ve Google Play'de giriş yapmış olduğunuzu kontrol edip tekrar deneyin."
+          ]
+        },
+        {
+          "id": "purchase_pending_failed",
+          "q": "Ödeme yaptım ama Pro'nun kilidi henüz açılmadı.",
+          "a": [
+            "Mağazada nakit ödeme gibi bazı ödeme yöntemleri, ödeme tamamlanana kadar beklemede kalır. Google Play onayladığı anda Pro'nun kilidi açılır: uygulama açıksa hemen, değilse bir sonraki açılışta. Satın alma başarısız olduysa Google Play'deki ödeme yöntemini kontrol edip daha sonra tekrar deneyin."
+          ]
+        },
+        {
+          "id": "legacy_paid_locked",
+          "q": "Uygulamayı ücretliyken satın almıştım, şimdi bazı özellikler kilitli.",
+          "a": [
+            "Sahip olduğunuz her şey sizde kalır. Bu genelde uygulamanın verilerini sildikten veya yeni bir telefona yeniden kurduktan sonra olur; uygulamanın sizi tanımak için kullandığı kurulum tarihi sıfırlanır. Google Play makbuzunda uygulamanın kendisine ait sipariş numarasını yazıp bize e-posta gönderin, biz de her şeyin kilidini yeniden açan bir promosyon kodu gönderelim."
           ]
         },
         {
@@ -623,13 +790,6 @@
           "q": "Nasıl iade alırım?",
           "a": [
             "Satın aldıktan sonraki 48 saat içinde iadeyi Google Play sipariş geçmişinizden kendiniz isteyin; en hızlı yol budur. Bundan sonra satın alma tarihinden itibaren 7 gün içinde bize e-posta gönderin, neden diye sormadan iade edelim. Satın almayı bulabilmemiz için Google Play makbuzundaki sipariş numarasını ekleyin."
-          ]
-        },
-        {
-          "id": "paid_bought_before_sale",
-          "q": "İndirim başlamadan hemen önce tam fiyat ödedim.",
-          "a": [
-            "Bize yazın. Satın aldıktan sonraki 48 saat içinde en hızlı yol, Google Play sipariş geçmişinizden iadeyi kendiniz almak ve indirimli fiyattan yeniden satın almaktır. Bundan sonra Google Play makbuzundaki sipariş numarasıyla bize e-posta gönderin, farkı iade edelim."
           ]
         }
       ]
@@ -649,7 +809,7 @@
           "id": "android_tv",
           "q": "Android TV sürümü var mı?",
           "a": [
-            "Evet, aynı uygulama Android TV ve Google TV'ye de kurulur. TV'de mağazayı satın alırken kullandığınız Google hesabıyla açın; ek ücret ödemeden kurulur. TV'de oynamak için Bluetooth veya USB bir kumanda gerekir; uzaktan kumanda yalnızca menülerde gezinmeye yarar. Akış sırasında hızlı paneli açmak için uzaktan kumandada OK ya da Menü tuşuna basın veya kumandada L1, R1, L3 ve R3'ü birlikte basılı tutun."
+            "Evet, aynı uygulama Android TV ve Google TV'ye de kurulur ve TV'de akış ücretsizdir. TV'de oynamak için Bluetooth veya USB bir kumanda gerekir; uzaktan kumanda yalnızca menülerde gezinmeye yarar. Akış sırasında hızlı paneli açmak için uzaktan kumandada OK ya da Menü tuşuna basın veya kumandada L1, R1, L3 ve R3'ü birlikte basılı tutun."
           ]
         },
         {
@@ -690,5 +850,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

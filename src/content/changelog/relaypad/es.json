@@ -3,6 +3,17 @@
   "locale": "es",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "Novedad: «En directo». Emite juegos de PS5 o PS4 en Twitch, YouTube, Kick, TikTok o cualquier servidor RTMP, sin PC ni capturadora",
+        "Modo directo: deja el móvil de pie junto a la tele y juega en la pantalla grande mientras emite",
+        "Nuevo Copiloto de IA (con tu clave de API): mantén pulsada la transmisión para guías, comandos de voz y descripción de la pantalla",
+        "Corregido el cierre al no poder transmitir la imagen de la consola y la pantalla negra con HEVC en PS4"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

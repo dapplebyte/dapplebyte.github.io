@@ -3,6 +3,17 @@
   "locale": "it",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "Novità: Diretta. Trasmetti giochi PS5 o PS4 su Twitch, YouTube, Kick, TikTok o qualsiasi server RTMP, senza PC né scheda di acquisizione",
+        "Modalità live: metti il telefono accanto alla TV e gioca sul grande schermo mentre trasmette",
+        "Nuovo Copilota IA (con la tua chiave API): tieni premuto sullo streaming per guide ai giochi, comandi vocali e descrizione dello schermo",
+        "Risolto il crash se l'immagine della console non si può trasmettere e lo schermo nero con HEVC su PS4"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

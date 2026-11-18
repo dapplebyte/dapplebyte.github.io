@@ -1,89 +1,86 @@
 {
   "slug": "relaypad",
   "locale": "nl",
-  "title": "Relaypad: Remote Play Gamepad",
-  "shortDescription": "Geen reclame of abonnement. Controller voor PS5 & PS4, streamen en tv-uitvoer.",
-  "requires": "Vereist een PS5 of PS4 met Remote Play ingeschakeld in de instellingen.",
-  "tagline": "Relaypad maakt van je Android-telefoon een draadloze controller voor je console, of streamt het consolebeeld naar je telefoon, tablet of tv, thuis of onderweg.",
+  "title": "Relaypad: Remote Play & Live",
+  "shortDescription": "PS5/PS4 streamen naar Twitch, YouTube, Kick, TikTok. Zonder pc of capturekaart.",
+  "requires": "Vereist een PS5 of PS4 met Remote Play ingeschakeld.",
+  "tagline": "Relaypad verbindt je Android-telefoon met je eigen console en zendt de game live uit naar Twitch, YouTube, Kick, TikTok of een willekeurige RTMP-server. Het is ook een Remote Play-client en controller, thuis of onderweg.",
   "sections": [
     {
       "id": "intro",
-      "title": "Remote Play-controller en console streamen voor PS5 en PS4",
+      "title": "PS5- en PS4-games livestreamen zonder pc en zonder capturekaart",
       "paragraphs": [
-        "Relaypad maakt van je Android-telefoon een draadloze controller voor je console, of streamt het consolebeeld naar je telefoon, tablet of tv, thuis of onderweg."
+        "Relaypad verbindt je Android-telefoon met je eigen console en zendt de game live uit naar Twitch, YouTube, Kick, TikTok of een willekeurige RTMP-server. Het is ook een Remote Play-client en controller, thuis of onderweg."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "Waar mensen Relaypad voor gebruiken",
+      "title": "Geen schermopname: alleen de game gaat live",
       "paragraphs": [],
       "bullets": [
-        "Doorspelen als de batterij van je controller net leeg is",
-        "Consolemenu's en video-apps bedienen met grote afstandsbedieningsknoppen",
-        "In bed of in een andere kamer spelen terwijl de console bij de tv blijft",
-        "Het beeld via HDMI op een hoteltv zetten, met je telefoon als controller"
+        "Kijkers zien en horen de game, nooit je schermknoppen, panelen of meldingen",
+        "Gamegeluid en microfoon apart gemixt; met één tik verberg je de game en gaat het geluid uit"
       ]
     },
     {
       "id": "virtual-gamepad",
-      "title": "Schermcontroller, indelingseditor en knoppentoewijzing",
+      "title": "Console streamen zonder pc, alleen met je telefoon",
       "paragraphs": [],
       "bullets": [
-        "Vijf indelingen: Standaard, Compact, Afstandsbediening, Vechten en Racen",
-        "Elke knop verslepen, vergroten of verbergen, en eigen indelingen ook tijdens het streamen",
-        "Touchpad, trillingen, microfoon en bewegingssensor",
-        "Een Bluetooth- of USB-controller doorsturen met automatische knoppentoewijzing",
-        "USB-controllers bij streamen: adaptieve triggers, lichtbalk en haptiek"
+        "Livemodus: de telefoon staat naast de tv en streamt terwijl jij op het grote scherm speelt",
+        "Verbind je controller via bluetooth of USB met de telefoon",
+        "Of speel op de telefoon en stream tegelijk"
       ]
     },
     {
       "id": "console-streaming",
-      "title": "Console streamen tot 1080p60 met HEVC en HDR",
+      "title": "Twitch, YouTube, Kick, TikTok: streamsleutel of eigen RTMP-server",
       "paragraphs": [],
       "bullets": [
-        "30 of 60 fps tot 1080p, handmatige bitrate, HEVC en HDR op geschikte telefoons",
-        "FSR-verscherping en een prestatie-overlay met fps, pakketverlies en totale vertraging",
-        "Tv-uitvoer via HDMI, scherm-in-scherm, gesplitste indeling op tablets en vouwbare telefoons",
-        "Minimale modus, Volledig beeld, Uitgerekt vullen of Ingezoomd vullen, automatisch opnieuw verbinden op Wi-Fi thuis",
-        "Databesparing: 720p/30fps op mobiele data"
+        "Twitch, YouTube, Kick, TikTok LIVE, Facebook en meer: plak een streamsleutel, met uitleg per platform",
+        "Sleutel op je computer? Scan hem als QR-code in plaats van overtypen",
+        "Tot 1080p60, met automatisch opnieuw verbinden, adaptieve bitrate en MP4-opname"
       ]
     },
     {
       "id": "remote-play-away",
-      "title": "Remote Play buitenshuis via mobiele data",
-      "paragraphs": [],
+      "title": "Relaypad Pro: facecam, staand 9:16 en multistream",
+      "paragraphs": [
+        "Gratis livestreams gaan naar één platform en tonen een klein Relaypad-watermerk. Pro voegt toe:"
+      ],
       "bullets": [
-        "Eén keer aanmelden, daarna verbinden via 5G, 4G of ander Wi-Fi, meestal zonder routerinstellingen",
-        "Automatische poorttoewijzing via UPnP; thuis-vpn's zoals Tailscale werken ook",
-        "Zegt het als het gedeelde adres van je provider (CGNAT) de verbinding blokkeert"
+        "Facecam in het cameravenster, met voor- of achtercamera",
+        "Staande 9:16-indelingen, automatisch gekozen voor staande platforms",
+        "Twee platforms tegelijk, of liggend en staand samen",
+        "Directe herhaling van de laatste 30 seconden",
+        "Geen watermerk"
       ]
     },
     {
       "id": "connection-doctor",
-      "title": "Verbindingsdokter: ontdek waarom het niet verbindt",
+      "title": "Gratis Remote Play-controller, tot 1080p60 op je telefoon",
       "paragraphs": [],
       "bullets": [
-        "13 controles: netwerk, console-standby, Remote Play-schakelaar, vertraging en jitter",
-        "Wi-Fi-band, VPN, Bluetooth-storing, UPnP, NAT-type en openbaar IPv4-adres",
-        "Kopieer het rapport of mail het ons met één tik"
+        "Op telefoon of tablet, met HEVC en HDR waar ondersteund",
+        "Buitenshuis via 5G, 4G of ander Wi-Fi, meestal zonder routerinstellingen",
+        "Schermcontroller met vijf indelingen, of stuur een Bluetooth- of USB-controller door",
+        "HDMI-uitvoer naar de tv, scherm-in-scherm en FSR-verscherping"
       ]
     },
     {
       "id": "guided-setup",
-      "title": "Begeleide installatie in vier stappen",
-      "paragraphs": [],
-      "bullets": [
-        "Meld je aan in de app of browser (passkeys werken), of vul je account-ID in",
-        "PS5: registreren zonder PIN, zelfs in de rustmodus, of koppelen met de 8-cijferige code",
-        "Meerdere consoles en accounts opslaan, altijd hernoemen of opnieuw koppelen"
-      ]
+      "title": "Remote Play werkt niet? De verbindingsdokter zoekt uit waarom",
+      "paragraphs": [
+        "18 controles voor netwerk, console-standby, Wi-Fi-band, vertraging en NAT-type; het rapport kun je ons mailen."
+      ],
+      "bullets": []
     },
     {
       "id": "pricing",
-      "title": "Geen reclame, geen abonnement",
+      "title": "Gratis te downloaden, geen reclame",
       "paragraphs": [
-        "Relaypad toont geen reclame en heeft geen abonnement. Op een nieuwe telefoon met hetzelfde Google-account installeer je opnieuw zonder extra kosten. Werkt het niet met jouw apparatuur, mail ons dan binnen 7 dagen na aankoop voor je geld terug."
+        "Remote Play, de controller en livestreamen tot 1080p60 kosten niets. Geen reclame, geen tijdslimiet."
       ],
       "bullets": []
     },
@@ -91,26 +88,28 @@
       "id": "privacy",
       "title": "Privacy",
       "paragraphs": [
-        "Geen Relaypad-account en geen Relaypad-server tussen jou en je console. Koppelsleutels en aanmeldtokens blijven op je apparaat, versleuteld met de Android Keystore. Anonieme statistieken kun je uitzetten."
+        "Geen Relaypad-account, geen server ertussen: de stream gaat rechtstreeks van je telefoon naar het platform dat je kiest. Streamsleutels en aanmeldtokens blijven versleuteld op je apparaat. Anonieme statistieken kun je uitzetten."
       ],
       "bullets": []
     },
     {
       "id": "before-you-buy",
-      "title": "Voordat je koopt",
+      "title": "Voordat je installeert",
       "paragraphs": [],
       "bullets": [
         "Je hebt je eigen console nodig; er zitten geen games of cloudgaming bij",
-        "Android 8.0 of hoger; 4 GB RAM en 5 GHz Wi-Fi aanbevolen",
-        "Je telefoon vervangt de controller en werkt niet tegelijk met een controller op de console",
-        "Na een systeemupdate van de console kan Relaypad een update nodig hebben om weer te verbinden"
+        "Het beeld komt via Remote Play (tot 1080p, geen HDR); een capturekaart (capture card) is scherper",
+        "Op de tv spelen en streamen: de controller gaat naar de telefoon, niet naar de console",
+        "De livestream stopt als je Relaypad verlaat of het scherm vergrendelt (scherm-in-scherm kan wel)",
+        "TikTok en sommige platforms geven alleen geschikte accounts een streamsleutel, elke stream een nieuwe",
+        "Android 8.0 of hoger; na een systeemupdate van de console kan Relaypad een update nodig hebben"
       ]
     },
     {
       "id": "support",
       "title": "Werkt er iets niet? Mail ons",
       "paragraphs": [
-        "Mail ons op feedback@dapplebyte.com voordat je een review schrijft, of gebruik Instellingen → Over → Feedback sturen, dan gaat je telefoonmodel automatisch mee. We lezen elk bericht."
+        "Mail naar feedback@dapplebyte.com voordat je een review schrijft, of gebruik Instellingen → Over → Feedback sturen."
       ],
       "bullets": []
     },
@@ -118,10 +117,10 @@
       "id": "trademark",
       "title": "Merkenverklaring",
       "paragraphs": [
-        "PlayStation®, PS4® en PS5® zijn handelsmerken van Sony Interactive Entertainment Inc. Relaypad is een onafhankelijke Remote Play-client, niet gelieerd aan Sony en niet door Sony geautoriseerd of goedgekeurd. De app werkt alleen met hardware en content die je zelf bezit, omzeilt geen kopieerbeveiliging en maakt piraterij niet mogelijk."
+        "PlayStation®, PS4® en PS5® zijn handelsmerken van Sony Interactive Entertainment Inc. Relaypad is een onafhankelijke Remote Play-client, niet gelieerd aan Sony en niet door Sony geautoriseerd of goedgekeurd. Twitch, YouTube, Kick en TikTok zijn handelsmerken van hun eigenaren; Relaypad is niet aan hen gelieerd. De app werkt alleen met hardware en content die je zelf bezit, omzeilt geen kopieerbeveiliging en maakt piraterij niet mogelijk."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

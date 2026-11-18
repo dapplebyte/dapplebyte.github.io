@@ -3,6 +3,17 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "Nowość: Nadawaj na żywo. Transmituj gry z PS5 lub PS4 na Twitch, YouTube, Kick, TikTok lub dowolny serwer RTMP, bez PC i karty przechwytującej",
+        "Tryb transmisji: postaw telefon przy telewizorze i graj na dużym ekranie, a telefon nadaje",
+        "Nowość: Drugi pilot AI (z własnym kluczem API): przytrzymaj ekran strumienia, by dostać poradniki, polecenia głosowe i opis ekranu",
+        "Naprawiono awarię, gdy obrazu z konsoli nie da się przesłać, oraz czarny ekran z HEVC na PS4"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

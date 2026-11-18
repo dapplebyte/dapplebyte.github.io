@@ -571,9 +571,9 @@
         "refundBody": "If {name} doesn't work with your setup, email us within 7 days of purchase and we'll refund it. Tell us what you tried; it helps us fix it for the next person."
       },
       "press": {
-        "description": "Facts, assets and a boilerplate for writing about {name}, the Remote Play controller and console streaming app for Android.",
-        "boilerplate": "{name} turns an Android phone into a wireless controller for a PS5 or PS4, or streams the console's picture to the phone, a tablet or a TV, at home or away over mobile data. It is made by DappleByte, an independent studio, and published as open source under the AGPL-3.0.",
-        "priceValue": "Paid app, one-time purchase, no subscription, no ads. The current price is shown on Google Play.",
+        "description": "Facts, assets and a boilerplate for writing about {name}, the Android app for going live from a PS5 or PS4, Remote Play control and console streaming.",
+        "boilerplate": "{name} lets an Android phone take a PS5 or PS4 game live on Twitch, YouTube, Kick, TikTok or any RTMP server, with no computer or capture card. It also works as a wireless controller and streams the console's picture to the phone, a tablet or a TV, at home or away over mobile data. It is made by DappleByte, an independent studio, and published as open source under the AGPL-3.0.",
+        "priceValue": "Free to download, no ads. Pro is an in-app purchase that turns off the stream watermark and adds a camera window, vertical layouts, streaming to two platforms at once and instant replay. The current price is shown on Google Play.",
         "assetScreenshots": "Screenshots, 1920 × 1080 PNG, English"
       },
       "videosDescription": "Short videos showing {name} on a real phone: setup, streaming, controller layouts and fixing connection problems.",

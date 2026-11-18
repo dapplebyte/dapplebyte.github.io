@@ -268,6 +268,159 @@
       ]
     },
     {
+      "id": "live",
+      "title": "Transmisja na żywo",
+      "entries": [
+        {
+          "id": "live_what_needed",
+          "q": "Czego potrzebuję, żeby nadawać na żywo?",
+          "a": [
+            "Własnej konsoli, już skonfigurowanej w tej aplikacji, i konta na platformie, na której chcesz nadawać. Bez komputera i bez karty przechwytywania. Dotknij „Nadawaj na żywo” na karcie konsoli i przejdź przez kroki: sposób gry, wybór platformy, połączenie z platformą i ostatnie sprawdzenie. Jeśli już grasz, otwórz panel podręczny i dotknij tam „Nadawaj na żywo”. Podczas transmisji dotknij znaczka w rogu, aby otworzyć panel transmisji."
+          ]
+        },
+        {
+          "id": "live_platforms",
+          "q": "Na jakie platformy mogę nadawać?",
+          "a": [
+            "Twitch, YouTube i Kick, a także TikTok LIVE, Facebook, Instagram, X, Rumble, Telegram, Bilibili, Huya, Douyu, TwitCasting, niconico, SOOP, CHZZK i VK Video Live. Usługi multistreamingu, takie jak Restream i Castr, przekazują jedną transmisję na wiele kolejnych platform, a „Własny serwer” przyjmuje dowolny adres RTMP lub RTMPS. Platformy oznaczone jako „Wymagania” pozwalają nadawać tylko niektórym kontom; wybierz jedną, aby zobaczyć, czego wymaga."
+          ]
+        },
+        {
+          "id": "live_no_pc_quality",
+          "q": "Czy to naprawdę działa bez komputera i karty przechwytywania? Jak to wygląda?",
+          "a": [
+            "Tak. Telefon robi obie rzeczy: odbiera grę z konsoli, dodaje to, co nałożysz, i wysyła wynik na platformę. Punktem wyjścia jest obraz z Remote Play, maksymalnie 1080p bez HDR i już raz skompresowany przez konsolę, więc karta przechwytywania da ostrzejszy obraz. Najlepszy efekt uzyskasz, strumieniując konsolę w 1080p przez domowe Wi-Fi. Jeśli strumień z konsoli używa HDR w chwili rozpoczęcia transmisji, kolory w transmisji mogą wyglądać na wyblakłe, więc wyłącz HDR w „Ustawienia → Jakość obrazu” i połącz się ponownie."
+          ]
+        },
+        {
+          "id": "live_capture_mode",
+          "q": "Czym jest tryb transmisji i gdzie podłączyć kontroler?",
+          "a": [
+            "Służy do gry na telewizorze, podczas gdy telefon prowadzi transmisję, jak karta przechwytywania. W pierwszym kroku wybierz „Na telewizorze”. Telefon pokazuje wtedy to, co widzą widzowie, bez pada ekranowego i bez dźwięku gry, bo ten odtwarza telewizor. Połącz kontroler z telefonem przez Bluetooth lub USB, przy czym USB jest najstabilniejsze, i graj, patrząc na telewizor. Kontroler połączony bezpośrednio z konsolą nie może grać w tym samym czasie: konsola traktuje go jako innego użytkownika i oba ciągle przejmują sterowanie od siebie nawzajem. Słuchawki albo odsunięcie telefonu od głośników telewizora sprawią, że dźwięk z telewizora nie trafi do mikrofonu."
+          ]
+        },
+        {
+          "id": "live_stream_key",
+          "q": "Skąd wziąć adres URL serwera i klucz strumienia?",
+          "a": [
+            "Po wybraniu platformy w kroku połączenia znajdziesz „Gdzie znaleźć klucz strumienia”: dotknij „Pokaż kroki”, aby zobaczyć instrukcję dla tej platformy, albo przycisku pod nimi, aby otworzyć jej stronę. Skopiuj klucz strumienia, a jeśli platforma go podaje, także adres URL serwera. Gdy w schowku jest adres lub klucz, aplikacja zaproponuje jego użycie i rozdzieli pełny adres na dwa pola. W przypadku Twitcha i YouTube może zamiast tego pojawić się przycisk „Zaloguj się przez”, a wtedy klucz zostanie pobrany automatycznie. Klucze są przechowywane w postaci zaszyfrowanej na tym telefonie; zmienisz je lub usuniesz w „Ustawienia → Miejsca docelowe”."
+          ]
+        },
+        {
+          "id": "live_key_rejected",
+          "q": "Pojawia się komunikat, że platforma odrzuciła klucz strumienia.",
+          "a": [
+            "Klucz może być źle wpisany, nieaktualny albo zastąpiony nowszym, albo konto nie może jeszcze nadawać. Skopiuj świeży klucz z platformy i wklej go w „Ustawienia → Miejsca docelowe → Zmień klucz”. Jeśli klucz jest prawidłowy, sprawdź wymagania platformy: Twitch pokazuje klucz dopiero po włączeniu uwierzytelniania dwuskładnikowego, kanał YouTube musi być zweryfikowany, a za pierwszym razem może to potrwać do 24 godzin, a TikTok i Facebook mają progi liczby obserwujących. Jeśli platforma zakończy transmisję, która już trwała, ten sam klucz może nadawać gdzie indziej."
+          ]
+        },
+        {
+          "id": "live_tiktok_key",
+          "q": "TikTok nie chce dać mi klucza strumienia. Co teraz?",
+          "a": [
+            "TikTok decyduje, które konta go dostają: musisz mieć co najmniej 18 lat i zwykle co najmniej 1000 obserwujących, a nawet wtedy nie ma gwarancji. Gdy konto ma już tę możliwość, klucz znajdziesz na komputerze w LIVE Center TikToka po ustawieniu tytułu i kategorii. TikTok zwykle daje nowy klucz do każdej transmisji, więc aplikacja prosi o wklejenie nowego przy każdym rozpoczęciu nadawania; tak samo działają Instagram, Bilibili i Douyu. Instagram wymaga też 1000 obserwujących na koncie publicznym, a Bilibili 5000 obserwujących i weryfikacji tożsamości."
+          ]
+        },
+        {
+          "id": "live_mic_voice",
+          "q": "Czy widzowie słyszą mój mikrofon i moich współgraczy?",
+          "a": [
+            "Mikrofon trafia do transmisji tylko wtedy, gdy go włączysz, przyciskiem „Mikrofon” u góry panelu transmisji albo opcją „Mikrofon w transmisji” na karcie „Dźwięk”; na starcie jest wyłączony. To coś innego niż czat głosowy z konsolą, czyli klawisz MIC na padzie ekranowym, więc możesz mówić do widzów, do współgraczy, do jednych i drugich albo do nikogo. Współgracze są w transmisji tylko wtedy, gdy konsola miesza ich głosy z dźwiękiem gry, który wysyła do tego telefonu: to, co słyszysz z telefonu podczas zwykłego strumieniowania, słyszą też widzowie."
+          ]
+        },
+        {
+          "id": "live_viewers_see",
+          "q": "Czy widzowie zobaczą moje powiadomienia albo przyciski na ekranie?",
+          "a": [
+            "Nie. Transmisja składa się z obrazu i dźwięku gry wysyłanych przez konsolę oraz, jeśli są włączone, z Twojej kamery, plansz sceny i małego znaku w rogu. Pad ekranowy, panel podręczny, panel transmisji i jego znaczek, powiadomienia ani nic innego z telefonu nigdy do niej nie trafiają. Aby na chwilę zasłonić grę, na przykład podczas wpisywania hasła na konsoli, dotknij „Ukryj” u góry panelu transmisji: obraz i dźwięk gry zostaną zastąpione planszą, dopóki nie dotkniesz ponownie."
+          ]
+        },
+        {
+          "id": "live_camera",
+          "q": "Jak dodać kamerę?",
+          "a": [
+            "Otwórz panel transmisji i na karcie „Scena” w sekcji „Kamera” włącz „Pokaż moją kamerę”. Wybierz układ z miejscem na nią, na przykład „Kamera w rogu” albo „Pasek boczny”; „Pełny ekran” go nie ma. Przeciągnij ramkę, aby przesunąć kamerę, a przyciągnie się do najbliższego rogu; na tej samej karcie znajdziesz kamerę przednią lub tylną, lustro, kształt, ramkę i rozmiar. Przy pierwszym użyciu aplikacja poprosi o dostęp do kamery, a jeśli odmówisz, cała reszta nadal działa."
+          ]
+        },
+        {
+          "id": "live_vertical",
+          "q": "Jak nadawać w pionie?",
+          "a": [
+            "W ostatnim kroku przed rozpoczęciem transmisji ustaw „Format” na „Pionowo 9:16”. Pionowe układy na karcie „Scena” to „Na środku”, z grą pośrodku na rozmytym tle, „Jeden pod drugim”, z grą u góry i miejscem na kamerę pod spodem, oraz „Wypełnij”, gdzie gra jest przycięta tak, by wypełnić ekran. Gdy wybierzesz platformę oglądaną w pionie, np. TikTok lub Instagram, aplikacja w miarę możliwości sama przełączy się na pion."
+          ]
+        },
+        {
+          "id": "live_two_platforms",
+          "q": "Czy mogę nadawać na dwie platformy naraz?",
+          "a": [
+            "Tak. Ta sama transmisja może trafić na dwie platformy, a dodatkowo możesz wysłać kopię w drugim formacie na trzecią, na przykład poziomą na Twitchu i YouTubie oraz pionową na TikToku. Skonfigurujesz to w sekcji „Nadawaj też na” w ostatnim kroku przed rozpoczęciem transmisji. Każdy strumień jest wysyłany z telefonu, więc każdy potrzebuje własnej części szybkości wysyłania, a drugi format dodatkowo obciąża telefon. Jeśli jedno miejsce docelowe przestanie działać, pozostałe nadal nadają. Aby dotrzeć na więcej platform, nadawaj raz przez usługę multistreamingu, taką jak Restream, i połącz platformy tam."
+          ]
+        },
+        {
+          "id": "live_stutter",
+          "q": "Transmisja się zacina albo ciągle zrywa.",
+          "a": [
+            "Najczęściej winna jest szybkość wysyłania, bo transmisja wychodzi przez to samo Wi-Fi, którym przychodzi gra. Gdy wysyłanie nie nadąża, aplikacja najpierw obniża bitrate, potem liczbę klatek, i podnosi je z powrotem, gdy sytuacja się poprawi; rozdzielczości w trakcie transmisji nie zmienia. Jeśli połączenie zostanie zerwane, aplikacja sama połączy się ponownie, a nagrywanie trwa dalej. Nadawaj przez domowe Wi-Fi, najlepiej 5 GHz i blisko routera, przed rozpoczęciem wybierz niższą jakość i sprawdzaj na karcie „Status” w panelu transmisji, co się dzieje. Dane komórkowe i gra poza domem działają, ale obraz na tym cierpi."
+          ]
+        },
+        {
+          "id": "live_phone_hot",
+          "q": "Telefon nagrzewa się podczas transmisji.",
+          "a": [
+            "Jednoczesne odbieranie gry, składanie transmisji i jej kodowanie to dla telefonu ciężka praca. Gdy się nagrzewa, aplikacja sama stopniowo odpuszcza: najpierw liczbę klatek, potem kamerę do 15 fps, potem wyłącza kamerę, a następnie drugą transmisję, jeśli jest, a karta „Status” mówi dlaczego. Rozdzielczość w trakcie transmisji się nie zmienia, więc jeśli telefon ciągle się przegrzewa, następnym razem zacznij od 720p30. Wyjmij telefon z etui i połóż go w przewiewnym miejscu; w trybie transmisji pomaga też „Wygaszacz ekranu”."
+          ]
+        },
+        {
+          "id": "live_screen_off",
+          "q": "Czy mogę wyłączyć ekran albo przełączyć się na inną aplikację podczas transmisji?",
+          "a": [
+            "Nie. Transmisja działa na stronie strumienia. Gdy w ustawieniach jest włączony „Obraz w obrazie”, wyjście z aplikacji zmniejsza grę do małego okienka, a transmisja trwa dalej. Jeśli strony strumienia nie ma na ekranie dłużej niż około 15 sekund, na przykład za inną aplikacją albo przy wyłączonym ekranie, transmisja się zatrzymuje, a wyjście ze strony strumienia od razu ją kończy. W trybie transmisji „Wygaszacz ekranu” zaciemnia i przygasza ekran, a transmisja trwa dalej; dotknij w dowolnym miejscu, aby go wybudzić."
+          ]
+        },
+        {
+          "id": "live_console_drop",
+          "q": "Co się stanie, gdy konsola rozłączy się podczas transmisji?",
+          "a": [
+            "Transmisja trwa dalej, a widzowie widzą planszę „Zaraz wracam”. Gdy połączenie z konsolą wróci, gra pojawi się sama; po około 3 minutach bez połączenia transmisja się kończy. Dotyczy to tylko sytuacji, gdy połączenie zerwie się samo: zakończenie sesji samodzielnie kończy też transmisję. Planszę możesz też pokazać samodzielnie przyciskiem „BRB” u góry panelu transmisji."
+          ]
+        },
+        {
+          "id": "live_blocked_card",
+          "q": "Widzowie widzą planszę z informacją, że tego fragmentu nie można pokazać na streamie.",
+          "a": [
+            "Niektóre gry i ekrany konsoli nie pozwalają na zdalne wyświetlanie, więc konsola przestaje wysyłać ich obraz. Zamiast czarnego lub zamrożonego obrazu widzowie dostają tę planszę, a gra wraca sama, gdy tylko konsola znowu zacznie ją wysyłać. Żadne ustawienie tego nie zmienia; zależy to od gry."
+          ]
+        },
+        {
+          "id": "live_recordings",
+          "q": "Gdzie są zapisywane nagrania?",
+          "a": [
+            "W ostatnim kroku przed rozpoczęciem transmisji włącz „Zapisz też wideo na tym telefonie” albo wybierz „Tylko nagrywaj, bez transmisji”. Na Androidzie 10 i nowszym gotowe wideo trafia do Movies/Relaypad, więc pojawia się w galerii i menedżerze plików. W starszych wersjach zostaje we własnym folderze aplikacji, Android/data/com.relaypad.remoteplay.app/files/Movies, i jest usuwane po odinstalowaniu aplikacji. Podsumowanie po transmisji ma przyciski „Otwórz” i „Udostępnij” dla wideo."
+          ]
+        },
+        {
+          "id": "live_watermark",
+          "q": "Czy mogę przesunąć albo wyłączyć znak w rogu transmisji?",
+          "a": [
+            "Przesunąć można, ale wyłączenie wymaga Pro. Każda transmisja, od pierwszej, ma mały znak Relaypad w rogu. Na karcie „Scena” w panelu transmisji, w sekcji „Znak wodny”, wybierzesz dowolny z czterech rogów; domyślnie jest to „Prawy górny”. Z Pro wyłączysz w tym samym miejscu „Pokaż znak wodny”."
+          ]
+        },
+        {
+          "id": "live_pro_trial",
+          "q": "Co obejmują próbne transmisje Pro i co dzieje się potem?",
+          "a": [
+            "Podczas pierwszych transmisji możesz korzystać z okna kamery, formatu pionowego 9:16, drugiej platformy i natychmiastowej powtórki, a panel transmisji pokazuje, ile próbnych transmisji zostało; transmisja krótsza niż 5 minut się nie liczy. Okres próbny nie obejmuje wyłączenia znaku wodnego w rogu. Potem możesz dalej nadawać za darmo i bez limitu czasu, na jedną platformę do 1080p60, z nagrywaniem; reszta wymaga Pro i jest opisana w pytaniu „Co daje Pro?”. Kamera, układ i inne ustawienia zostają zachowane, więc po zakupie Pro od razu wrócą."
+          ]
+        },
+        {
+          "id": "live_console_broadcast",
+          "q": "Czy mogę jednocześnie używać wbudowanej funkcji transmisji konsoli?",
+          "a": [
+            "Zwykle nie: konsola na ogół nie transmituje, gdy trwa sesja Remote Play, a ta aplikacja nigdy nie korzysta z tej funkcji. Nie jest ona jednak potrzebna, bo telefon nadaje sam, i to na więcej platform, niż oferuje konsola."
+          ]
+        }
+      ]
+    },
+    {
       "id": "quality",
       "title": "Strumieniowanie i obraz",
       "entries": [
@@ -276,13 +429,6 @@
           "q": "Gdzie są elementy sterowania podczas strumieniowania?",
           "a": [
             "Górny pasek znika po kilku sekundach. Dotknij pustego miejsca na obrazie, aby go przywrócić: ikona suwaków otwiera panel podręczny, a „Przytrzymaj, aby wyjść” kończy strumień. Panel podręczny otworzysz też, przytrzymując puste miejsce na obrazie."
-          ]
-        },
-        {
-          "id": "free_720p",
-          "q": "Co obejmuje wersja darmowa?",
-          "a": [
-            "Strumieniowanie w sieci domowej w jakości do 720p i 30 fps z H.264, bez limitu czasu i bez reklam. Limit jest nakładany przy każdym rozpoczęciu sesji. Tryb pada jest w całości darmowy, bez żadnych ograniczeń. Strumieniowanie na Android TV wymaga Pro."
           ]
         },
         {
@@ -346,6 +492,13 @@
           "q": "Nie da się wybrać HEVC ani HDR albo strumień używa zamiast nich H.264.",
           "a": [
             "HEVC wymaga dekodera tego formatu w telefonie, a HDR ekranu, który go obsługuje; strona jakości podaje, dlaczego dana opcja jest niedostępna. Jeśli przy starcie strumienia telefon nie potrafi zdekodować formatu, strumień sam przełączy się na H.264 albo SDR i Cię o tym poinformuje."
+          ]
+        },
+        {
+          "id": "ps4_hevc",
+          "q": "Czy HEVC lub HDR działa z PS4?",
+          "a": [
+            "Nie. Każde PS4, także Slim i Pro, wysyła wyłącznie H.264; HEVC i HDR to funkcje PS5. Ustawienie kodeka dotyczy wszystkich Twoich konsol: na PS5 jest używane bez zmian, a strumień do PS4 sam przełącza się na H.264 i o tym informuje. Możesz więc zostawić HEVC włączone, jeśli masz też PS5."
           ]
         },
         {
@@ -588,34 +741,48 @@
     },
     {
       "id": "purchase",
-      "title": "Zakup i zwroty",
+      "title": "Pro, zakupy i zwroty",
       "entries": [
         {
-          "id": "paid_not_subscription",
-          "q": "Czy to subskrypcja?",
+          "id": "controller_free",
+          "q": "Czy trzeba płacić za używanie telefonu jako kontrolera?",
           "a": [
-            "Nie. Kupujesz aplikację raz w Google Play i to wszystko: bez subskrypcji, bez zakupów w aplikacji, bez reklam i bez funkcji, która później poprosi o drugą płatność. Zakup jest przypisany do konta Google, nie do telefonu."
+            "Nie. Tryb pada jest w całości darmowy, bez limitu czasu i bez reklam: pad ekranowy, edytor układu, fizyczne kontrolery, mapowanie przycisków, wibracje, czujniki ruchu, touchpad, mikrofon, wybudzanie i usypianie konsoli oraz dowolna liczba konsol i kont. Nic w trybie pada nie prosi o zakup."
           ]
         },
         {
-          "id": "paid_promo_forever",
-          "q": "Mam aplikację z darmowej promocji. Czy funkcje zostaną później zablokowane?",
+          "id": "pro_not_subscription",
+          "q": "Czy Pro to subskrypcja?",
           "a": [
-            "Nie. Instalacja w czasie promocji liczy się jako zakup aplikacji w tej cenie, więc zostaje Twoja na stałe, ze wszystkimi funkcjami. Nie zmienia się to po zakończeniu promocji, a na tym samym koncie Google możesz ją bezpłatnie zainstalować ponownie na nowym telefonie."
+            "Pro to obecnie jednorazowy zakup powiązany z Twoim kontem Google. Płacisz raz za funkcje Pro dostępne w chwili zakupu, bez opłat za każdą transmisję, a kwota to cena widoczna w oknie płatności Google Play. Jeśli zakup zostanie zwrócony, Pro zostanie usunięte przy najbliższym sprawdzeniu w Google Play."
           ]
         },
         {
-          "id": "paid_reinstall",
-          "q": "Jak zainstalować ją na nowym telefonie?",
+          "id": "pro_contents",
+          "q": "Co daje Pro?",
           "a": [
-            "Otwórz stronę aplikacji w Google Play na tym samym koncie Google, z którego pochodzi zakup — zamiast ceny zobaczysz „Zainstaluj”. Konsole nie przenoszą się, więc sparuj każdą z nich na nowym telefonie od nowa; klucze parowania zostają na telefonie, na którym powstały."
+            "Pro rozszerza nadawanie na żywo o: okno kamery i układy, które robią na nie miejsce, pionowe układy 9:16, dwie platformy naraz plus kopię w drugim formacie na trzecią, natychmiastową powtórkę ostatnich 30 sekund oraz wyłączenie znaku wodnego w rogu. Podczas pierwszych transmisji możesz wypróbować to wszystko poza wyłączeniem znaku wodnego. Cała reszta jest darmowa: pełny tryb pada, strumieniowanie do 1080p i 60 fps z HEVC i HDR, gra spoza sieci domowej, Android TV, obraz w obrazie, diagnostyka połączenia i nadawanie na jedną platformę do 1080p60 bez limitu czasu, razem z ręcznym bitrate i nagrywaniem."
           ]
         },
         {
-          "id": "paid_included",
-          "q": "Co obejmuje zakup?",
+          "id": "pro_restore",
+          "q": "Po zmianie telefonu Pro zniknęło.",
           "a": [
-            "Wszystko, od pierwszego uruchomienia: strumieniowanie 1080p i 60 fps, ręczny bitrate, HEVC i HDR, wyostrzanie FSR i nakładka wydajności, gra spoza sieci domowej, strumieniowanie na Android TV, obraz w obrazie oraz gra na telewizorze z telefonem jako kontrolerem. Tryb pada, diagnostyka połączenia, widżet „Skrót do konsoli” i dowolna liczba konsol oraz kont też są na miejscu."
+            "Zakupy idą za kontem Google, nie za telefonem. Po uruchomieniu aplikacja sprawdza zakup w Google Play i sama odblokowuje Pro, o ile Google Play na tym telefonie korzysta z konta użytego do zakupu. Jeśli tak się nie stanie, otwórz „Ustawienia → Przejdź na Pro” i dotknij „Przywróć zakup”. Jeśli nie da się połączyć z Google Play, aplikacja od razu o tym poinformuje; sprawdź wtedy połączenie i czy Google Play jest zalogowane, a potem spróbuj ponownie."
+          ]
+        },
+        {
+          "id": "purchase_pending_failed",
+          "q": "Zakup jest opłacony, a Pro nadal nie jest odblokowane.",
+          "a": [
+            "Niektóre metody płatności, na przykład gotówką w sklepie, pozostają w toku, dopóki płatność nie zostanie rozliczona. Pro odblokuje się, gdy tylko Google Play to potwierdzi: od razu, jeśli aplikacja jest otwarta, albo przy następnym uruchomieniu. Jeśli zakup się nie udał, sprawdź metodę płatności w Google Play i spróbuj ponownie później."
+          ]
+        },
+        {
+          "id": "legacy_paid_locked",
+          "q": "Aplikacja pochodzi jeszcze z czasów, gdy była płatna, a teraz część funkcji jest zablokowana.",
+          "a": [
+            "Wszystko, co masz, zostaje Twoje. Zwykle zdarza się to po wyczyszczeniu danych aplikacji albo po ponownej instalacji na nowym telefonie, bo zeruje się wtedy data instalacji, po której aplikacja Cię rozpoznaje. Napisz do nas i dołącz numer zamówienia z potwierdzenia Google Play za samą aplikację, a odeślemy kod promocyjny, który znowu wszystko odblokuje."
           ]
         },
         {
@@ -623,13 +790,6 @@
           "q": "Jak uzyskać zwrot pieniędzy?",
           "a": [
             "W ciągu 48 godzin od zakupu poproś o zwrot samodzielnie w historii zamówień w Google Play; to najszybsza droga. Później napisz do nas w ciągu 7 dni od zakupu, a zwrócimy pieniądze bez pytania o powód. Dołącz numer zamówienia z potwierdzenia Google Play, żebyśmy mogli znaleźć zakup."
-          ]
-        },
-        {
-          "id": "paid_bought_before_sale",
-          "q": "Cena spadła zaraz po moim zakupie.",
-          "a": [
-            "Napisz do nas. W ciągu 48 godzin od zakupu najszybciej będzie poprosić o zwrot samodzielnie w historii zamówień w Google Play i kupić ponownie w cenie promocyjnej. Później napisz do nas z numerem zamówienia z potwierdzenia Google Play, a zwrócimy różnicę."
           ]
         }
       ]
@@ -649,7 +809,7 @@
           "id": "android_tv",
           "q": "Czy jest wersja na Android TV?",
           "a": [
-            "Tak, tę samą aplikację można zainstalować na Android TV i Google TV. Otwórz Google Play na telewizorze na tym samym koncie Google, z którego pochodzi zakup, a zainstaluje się bez dodatkowych opłat. Do gry telewizor potrzebuje kontrolera Bluetooth lub USB; pilot służy tylko do poruszania się po menu. Podczas strumieniowania naciśnij OK albo Menu na pilocie lub przytrzymaj jednocześnie L1, R1, L3 i R3 na kontrolerze, aby otworzyć panel podręczny."
+            "Tak, tę samą aplikację można zainstalować na Android TV i Google TV, a strumieniowanie na telewizorze jest darmowe. Do gry telewizor potrzebuje kontrolera Bluetooth lub USB; pilot służy tylko do poruszania się po menu. Podczas strumieniowania naciśnij OK albo Menu na pilocie lub przytrzymaj jednocześnie L1, R1, L3 i R3 na kontrolerze, aby otworzyć panel podręczny."
           ]
         },
         {
@@ -690,5 +850,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

@@ -268,6 +268,159 @@
       ]
     },
     {
+      "id": "live",
+      "title": "Live streaming",
+      "entries": [
+        {
+          "id": "live_what_needed",
+          "q": "What do I need to go live?",
+          "a": [
+            "Your own console, already set up in this app, and an account on the platform you want to stream to. No computer and no capture card. Tap Go live on the console card and follow the steps: how you play, where you stream, connecting the platform and a final check. If you are already playing, open the quick panel and tap Go live there. While you are live, tap the badge in the corner to open the live panel."
+          ]
+        },
+        {
+          "id": "live_platforms",
+          "q": "Which platforms can I stream to?",
+          "a": [
+            "Twitch, YouTube and Kick, plus TikTok LIVE, Facebook, Instagram, X, Rumble, Telegram, Bilibili, Huya, Douyu, TwitCasting, niconico, SOOP, CHZZK and VK Video Live. Multistream services such as Restream and Castr pass one stream on to many more platforms, and Custom server takes any RTMP or RTMPS address. Platforms tagged Requirements only let some accounts stream; pick one to see what it asks for."
+          ]
+        },
+        {
+          "id": "live_no_pc_quality",
+          "q": "Does it really work without a computer or capture card? How does it look?",
+          "a": [
+            "Yes. The phone does both jobs: it receives the game from the console, adds what you put on top and sends the result to the platform. The picture starts from what Remote Play sends, at most 1080p without HDR and already compressed once by the console, so a capture card will look sharper. For the best result, stream the console at 1080p over home Wi-Fi. If the console stream uses HDR when you go live, the colors on stream can look washed out, so turn off HDR under Settings, Video quality and reconnect."
+          ]
+        },
+        {
+          "id": "live_capture_mode",
+          "q": "What is Live mode, and where do I connect the controller?",
+          "a": [
+            "It is for playing on the TV while the phone does the streaming, like a capture card. Pick On the TV in the first step. The phone then shows what viewers see, with no on-screen pad and no game sound, since the TV plays it. Connect your controller to the phone over Bluetooth or USB, USB being the most stable, and play while you watch the TV. A controller connected straight to the console cannot play at the same time: the console treats it as a different user, and the two keep taking control from each other. Headphones, or keeping the phone away from the TV speakers, keep the TV sound out of your mic."
+          ]
+        },
+        {
+          "id": "live_stream_key",
+          "q": "Where do I get the server URL and stream key?",
+          "a": [
+            "After you pick a platform, the connect step has Where to find your stream key: tap Show steps for that platform's instructions, or the button below them to open its page. Copy the stream key, and the server URL too if the platform gives you one. When your clipboard holds an address or a key, the app offers to use it and splits a full address into the two boxes. For Twitch and YouTube, a Sign in with button may be offered instead, and then the key is fetched for you. Keys are stored encrypted on this phone; change or delete them under Settings, Destinations."
+          ]
+        },
+        {
+          "id": "live_key_rejected",
+          "q": "It says the platform rejected the stream key.",
+          "a": [
+            "The key may be mistyped, expired or replaced by a newer one, or the account is not allowed to stream yet. Copy a fresh key from the platform and paste it under Settings, Destinations, Change key. If the key is right, check the platform's requirements: Twitch only shows a key after you turn on two-factor authentication, a YouTube channel has to be verified and the first time can take up to 24 hours, and TikTok and Facebook have follower limits. If the platform ends a stream that was already running, the same key may be live somewhere else."
+          ]
+        },
+        {
+          "id": "live_tiktok_key",
+          "q": "TikTok will not give me a stream key. What now?",
+          "a": [
+            "TikTok decides which accounts get one: you need to be 18 or older and usually have at least 1,000 followers, and even then it is not guaranteed. Once your account has it, the key is in TikTok's LIVE Center on a computer, after you set a title and category. TikTok usually gives a new key for every stream, so the app asks you to paste the new one each time you go live; Instagram, Bilibili and Douyu work the same way. Instagram also needs 1,000 followers on a public account, and Bilibili 5,000 followers with real-name verification."
+          ]
+        },
+        {
+          "id": "live_mic_voice",
+          "q": "Can viewers hear my mic and my teammates?",
+          "a": [
+            "Your mic goes on stream only when you turn it on, with Mic at the top of the live panel or Mic on stream on the Audio tab; it starts off. That is separate from voice chat with the console, which is the MIC key on the on-screen pad, so you can talk to viewers, to teammates, to both or to neither. Teammates are on stream only if the console mixes their voices into the game sound it sends to this phone: whatever you hear from the phone during a normal stream is what viewers hear."
+          ]
+        },
+        {
+          "id": "live_viewers_see",
+          "q": "Will viewers see my notifications or on-screen buttons?",
+          "a": [
+            "No. The stream is built from the game picture and sound the console sends, plus your camera, the scene cards and the small corner mark when they are on. The on-screen pad, the quick panel, the live panel and its badge, notifications and everything else on your phone never reach it. To cover the game for a moment, for example while you type a password on the console, tap Hide at the top of the live panel: the game picture and sound are replaced by a card until you tap it again."
+          ]
+        },
+        {
+          "id": "live_camera",
+          "q": "How do I add my camera?",
+          "a": [
+            "Open the live panel and, on the Scene tab, turn on Show my camera under Camera. Pick a layout with room for it, such as Camera corner or Sidebar; Full screen has none. Drag the box to move the camera and it snaps to the nearest corner, and the same tab has front or back camera, mirror, shape, border and size. The app asks for camera access the first time, and everything else keeps working if you say no."
+          ]
+        },
+        {
+          "id": "live_vertical",
+          "q": "How do I stream vertically?",
+          "a": [
+            "In the last step before going live, set Shape to Portrait 9:16. The vertical layouts on the Scene tab are Centered, with the game in the middle on a blurred background, Stacked, with the game on top and room for the camera below, and Fill, with the game cropped to fill the screen. Picking a platform watched upright, such as TikTok or Instagram, switches to portrait for you when it can."
+          ]
+        },
+        {
+          "id": "live_two_platforms",
+          "q": "Can I stream to two platforms at once?",
+          "a": [
+            "Yes. The same stream can go to two platforms, and you can also send a copy in the other shape to a third, for example landscape to Twitch and YouTube plus vertical to TikTok. Set it up under Also stream to in the last step before going live. Every stream goes up from your phone, so each one needs its own share of upload speed, and a second shape also works the phone harder. If one destination fails, the others stay live. To reach more platforms, stream once to a multistream service such as Restream and connect your platforms there."
+          ]
+        },
+        {
+          "id": "live_stutter",
+          "q": "The stream stutters or keeps dropping.",
+          "a": [
+            "Upload speed is the usual cause, because the stream goes out over the same Wi-Fi the game comes in on. When the upload struggles, the app lowers the bitrate first and then the frame rate, and raises them again once it recovers; it does not change the resolution during a stream. If the connection drops, it reconnects by itself and a recording keeps going. Stream from home Wi-Fi, preferably 5 GHz and close to the router, pick a lower quality before you go live, and check the Status tab in the live panel to see what is happening. Mobile data and playing away from home work, but the picture suffers."
+          ]
+        },
+        {
+          "id": "live_phone_hot",
+          "q": "The phone gets hot while I am live.",
+          "a": [
+            "Receiving the game, building the stream and encoding it at the same time is hard work for a phone. As it heats up, the app steps down by itself: first the frame rate, then the camera to 15 fps, then the camera off, then the second stream if there is one, and the Status tab says why. The resolution stays the same during a stream, so if the phone keeps running hot, start at 720p30 next time. Take the phone out of its case and keep it in the open; in Live mode, Screen-off saver also helps."
+          ]
+        },
+        {
+          "id": "live_screen_off",
+          "q": "Can I turn the screen off or switch apps while I am live?",
+          "a": [
+            "No. The stream runs on the stream page. With Picture-in-picture on in Settings, leaving the app shrinks the game into a small window and the stream keeps going. If the stream page is off the screen for more than about 15 seconds, for example behind another app or with the screen off, the stream stops, and leaving the stream page ends it right away. In Live mode, Screen-off saver blacks out and dims the screen while the stream keeps going; tap anywhere to wake it."
+          ]
+        },
+        {
+          "id": "live_console_drop",
+          "q": "What happens if the console disconnects while I am live?",
+          "a": [
+            "The stream keeps going and viewers see the Be right back card. When the connection to the console comes back, the game returns by itself; after about 3 minutes without it, the stream ends. This only applies when the connection drops on its own: ending the session yourself ends the stream too. You can also show the card yourself with BRB at the top of the live panel."
+          ]
+        },
+        {
+          "id": "live_blocked_card",
+          "q": "Viewers see a card saying this part cannot be shown on stream.",
+          "a": [
+            "Some games and console screens do not allow remote display, so the console stops sending their picture. Instead of a black or frozen picture, viewers get that card, and the game comes back by itself as soon as the console sends it again. No setting changes this; it is up to the game."
+          ]
+        },
+        {
+          "id": "live_recordings",
+          "q": "Where are my recordings saved?",
+          "a": [
+            "Turn on Also save a video on this phone in the last step before going live, or pick Just record, don't stream. On Android 10 and later the finished video goes into Movies/Relaypad, so it shows up in your gallery and file manager. On older versions it stays in the app's own folder, Android/data/com.relaypad.remoteplay.app/files/Movies, and is removed when you uninstall the app. The summary after the stream has Open and Share for the video."
+          ]
+        },
+        {
+          "id": "live_watermark",
+          "q": "Can I move or turn off the mark in the corner of the stream?",
+          "a": [
+            "You can move it, but turning it off takes Pro. Every stream shows a small Relaypad mark in a corner, starting with your first one. Pick any of the four corners under Watermark on the Scene tab of the live panel; it starts at the top right. With Pro, turn off Show watermark in the same place."
+          ]
+        },
+        {
+          "id": "live_pro_trial",
+          "q": "What do the Pro trial streams include, and what happens after them?",
+          "a": [
+            "Your first few streams can use the camera window, vertical 9:16, a second platform and instant replay, and the live panel shows how many trial streams are left; a stream shorter than 5 minutes does not count. The trial does not turn off the corner watermark. After it you can keep streaming for free with no time limit, on one platform at up to 1080p60, with recording; the rest needs Pro, listed under What does Pro add?. Your camera, layout and other settings are kept, so buying Pro brings them straight back."
+          ]
+        },
+        {
+          "id": "live_console_broadcast",
+          "q": "Can I use the console's own broadcasting at the same time?",
+          "a": [
+            "Usually not: the console generally does not broadcast while a Remote Play session is running, and this app never touches that feature. You do not need it, though, because the phone streams on its own and to more platforms than the console offers."
+          ]
+        }
+      ]
+    },
+    {
       "id": "quality",
       "title": "Streaming and picture",
       "entries": [
@@ -276,13 +429,6 @@
           "q": "Where are the controls during a stream?",
           "a": [
             "The top bar fades out after a few seconds. Tap an empty spot on the picture to bring it back: the sliders icon opens the quick panel, and Hold to exit ends the stream. A long press on an empty spot also opens the quick panel."
-          ]
-        },
-        {
-          "id": "free_720p",
-          "q": "What is the free tier limited to?",
-          "a": [
-            "Streaming on your home network at up to 720p and 30 fps with H.264, with no time limit and no ads. The cap is applied every time a session starts. Pad mode is free in full with no cap. Streaming on Android TV needs Pro."
           ]
         },
         {
@@ -346,6 +492,13 @@
           "q": "HEVC or HDR cannot be selected, or the stream uses H.264 instead.",
           "a": [
             "HEVC needs a decoder for it on this phone, and HDR needs a screen that supports it; the quality page says why an option is unavailable. If the phone cannot decode the format when a stream starts, the stream switches to H.264 or SDR by itself and tells you."
+          ]
+        },
+        {
+          "id": "ps4_hevc",
+          "q": "Does HEVC or HDR work with a PS4?",
+          "a": [
+            "No. Every PS4, including the Slim and the Pro, only sends H.264; HEVC and HDR are PS5 features. The codec setting applies to all your consoles: it is used as is on a PS5, and a stream to a PS4 switches to H.264 by itself and tells you, so you can leave HEVC on if you also have a PS5."
           ]
         },
         {
@@ -588,34 +741,48 @@
     },
     {
       "id": "purchase",
-      "title": "Purchase and refunds",
+      "title": "Pro, purchases and refunds",
       "entries": [
         {
-          "id": "paid_not_subscription",
-          "q": "Is this a subscription?",
+          "id": "controller_free",
+          "q": "Do I have to pay to use the phone as a controller?",
           "a": [
-            "No. You buy the app once on Google Play and that is all: no subscription, no in-app purchases, no ads, and no feature that asks for a second payment later. The purchase is tied to your Google account, not to the phone."
+            "No. Pad mode is free in full, with no time limit and no ads: on-screen pad, layout editor, physical controllers, button mapping, haptics, motion sensing, touchpad, microphone, waking and resting the console, and as many consoles and accounts as you like. Nothing in Pad mode asks for a purchase."
           ]
         },
         {
-          "id": "paid_promo_forever",
-          "q": "I installed it during a free promotion. Will features get locked later?",
+          "id": "pro_not_subscription",
+          "q": "Is Pro a subscription?",
           "a": [
-            "No. Installing during a promotion counts as buying the app at that price, so it is yours for good with every feature. It stays that way after the promotion ends, and the same Google account can install it again on a new phone at no charge."
+            "Pro is currently a one-time purchase tied to your Google account. You pay once for the Pro features available when you buy, with no per-stream charge, and what you pay is the price shown in the Google Play payment window. If a purchase is refunded, Pro is removed the next time the app checks with Google Play."
           ]
         },
         {
-          "id": "paid_reinstall",
-          "q": "How do I install it on a new phone?",
+          "id": "pro_contents",
+          "q": "What does Pro add?",
           "a": [
-            "Open the store page with the same Google account you bought with and it shows Install instead of a price. Consoles are not carried over, so pair each console again on the new phone; the pairing keys stay on the phone they were made on."
+            "Pro adds to going live: the camera window and the layouts that make room for it, vertical 9:16 layouts, two platforms at once plus a copy in the other shape for a third, instant replay of the last 30 seconds, and turning off the corner watermark. Your first few streams let you try all of it except turning off the watermark. Everything else is free: Pad mode in full, streaming at up to 1080p and 60 fps with HEVC and HDR, playing from outside your home network, Android TV, picture-in-picture, the connection doctor, and going live on one platform at up to 1080p60 with no time limit, including manual bitrate and recording."
           ]
         },
         {
-          "id": "paid_included",
-          "q": "What's included?",
+          "id": "pro_restore",
+          "q": "I changed phone and Pro is gone.",
           "a": [
-            "Everything, from the first launch: streaming at 1080p and 60 fps, manual bitrate, HEVC and HDR, FSR sharpening and the performance overlay, playing from outside your home network, streaming on Android TV, picture-in-picture, and the game on a TV with your phone as the controller. Pad mode, the connection doctor, the console shortcut widget and as many consoles and accounts as you like are all there too."
+            "Purchases follow the Google account, not the phone. When the app starts it checks with Google Play and unlocks Pro by itself, as long as Google Play on this phone uses the account you bought with. If it does not, open Settings, Upgrade to Pro and tap Restore purchase. If Google Play cannot be reached, the app tells you so; check the connection and that Google Play is signed in, then try again."
+          ]
+        },
+        {
+          "id": "purchase_pending_failed",
+          "q": "I paid, but Pro is not unlocked yet.",
+          "a": [
+            "Some payment methods, such as paying cash at a store, stay pending until the payment clears. Pro unlocks as soon as Google Play confirms it: right away if the app is open, or the next time you start it. If the purchase failed, check the payment method in Google Play and try again later."
+          ]
+        },
+        {
+          "id": "legacy_paid_locked",
+          "q": "I bought the app back when it was paid, and now some features are locked.",
+          "a": [
+            "Everything you had stays yours. This usually happens after clearing the app's data or reinstalling on a new phone, which resets the install date the app uses to recognise you. Email us with the order number from your Google Play receipt for the app itself, and we send you a code that unlocks everything again."
           ]
         },
         {
@@ -623,13 +790,6 @@
           "q": "How do I get a refund?",
           "a": [
             "Within 48 hours of buying, request a refund yourself from your order history in Google Play, which is the fastest route. After that, email us within 7 days of the purchase and we refund it, no questions asked. Include the order number from the Google Play receipt so we can find the purchase."
-          ]
-        },
-        {
-          "id": "paid_bought_before_sale",
-          "q": "I paid full price right before a sale started.",
-          "a": [
-            "Write to us. Within 48 hours of buying, the fastest route is to refund the purchase yourself from your order history in Google Play and buy again at the sale price. After that, email us with the order number from the Google Play receipt and we refund the difference."
           ]
         }
       ]
@@ -649,7 +809,7 @@
           "id": "android_tv",
           "q": "Is there an Android TV version?",
           "a": [
-            "Yes, the same app installs on Android TV and Google TV. Open the store on the TV with the same Google account you bought with and it installs at no extra charge. The TV needs a Bluetooth or USB controller to play; the remote only moves around the menus. During a stream, press OK or Menu on the remote, or hold L1, R1, L3 and R3 together on the controller, to open the quick panel."
+            "Yes, the same app installs on Android TV and Google TV, and streaming on the TV is free. The TV needs a Bluetooth or USB controller to play; the remote only moves around the menus. During a stream, press OK or Menu on the remote, or hold L1, R1, L3 and R3 together on the controller, to open the quick panel."
           ]
         },
         {
@@ -690,5 +850,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

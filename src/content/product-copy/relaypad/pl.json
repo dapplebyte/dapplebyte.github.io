@@ -1,89 +1,86 @@
 {
   "slug": "relaypad",
   "locale": "pl",
-  "title": "Relaypad: Remote Play i pad",
-  "shortDescription": "Bez reklam i subskrypcji. Kontroler PS5 i PS4, strumieniowanie konsoli i HDMI.",
+  "title": "Relaypad: Remote Play & Live",
+  "shortDescription": "Streamuj PS5/PS4: Twitch, YouTube, Kick, TikTok. Bez PC i karty przechwytywania",
   "requires": "Wymaga konsoli PS5 lub PS4 z włączonym w ustawieniach Remote Play.",
-  "tagline": "Relaypad zmienia telefon z Androidem w bezprzewodowy kontroler konsoli albo przesyła obraz z konsoli na telefon, tablet lub telewizor, w domu i poza nim.",
+  "tagline": "Relaypad łączy telefon z Androidem z twoją konsolą i nadaje grę na żywo na platformy Twitch, YouTube, Kick i TikTok albo na dowolny serwer RTMP. To także klient Remote Play i pad, w domu i poza nim.",
   "sections": [
     {
       "id": "intro",
-      "title": "Kontroler Remote Play i strumieniowanie konsoli PS5 i PS4",
+      "title": "Transmisja na żywo z PS5 i PS4 bez komputera i karty przechwytywania",
       "paragraphs": [
-        "Relaypad zmienia telefon z Androidem w bezprzewodowy kontroler konsoli albo przesyła obraz z konsoli na telefon, tablet lub telewizor, w domu i poza nim."
+        "Relaypad łączy telefon z Androidem z twoją konsolą i nadaje grę na żywo na platformy Twitch, YouTube, Kick i TikTok albo na dowolny serwer RTMP. To także klient Remote Play i pad, w domu i poza nim."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "Do czego przydaje się Relaypad",
+      "title": "Bez nagrywania ekranu: na żywo idzie tylko gra",
       "paragraphs": [],
       "bullets": [
-        "Gra, gdy w kontrolerze właśnie padła bateria",
-        "Przeglądanie menu konsoli i aplikacji wideo dużymi klawiszami pilota",
-        "Gra w łóżku albo w innym pokoju, a konsola zostaje przy telewizorze",
-        "Obraz na telewizorze w hotelu przez HDMI, a telefon służy za pad"
+        "Widzowie widzą i słyszą grę, nigdy twoje przyciski ekranowe, panele ani powiadomienia",
+        "Dźwięk gry i mikrofon miksowane osobno; jednym dotknięciem ukryjesz i wyciszysz grę"
       ]
     },
     {
       "id": "virtual-gamepad",
-      "title": "Wirtualny pad, edytor układu i mapowanie przycisków",
+      "title": "Streamowanie gier z konsoli bez komputera: wystarczy telefon",
       "paragraphs": [],
       "bullets": [
-        "Pięć układów: standardowy, kompaktowy, pilot, bijatyka i wyścigi",
-        "Przesuwaj, skaluj i ukrywaj przyciski; własne układy działają też przy strumieniowaniu",
-        "Touchpad, wibracje, mikrofon i czujniki ruchu",
-        "Przekazywanie pada Bluetooth lub USB do konsoli z automatycznym mapowaniem przycisków",
-        "Pady USB podczas strumieniowania: adaptacyjne spusty, pasek świetlny i haptyka"
+        "Tryb transmisji: telefon stoi przy telewizorze i nadaje, a ty grasz na dużym ekranie",
+        "Kontroler łączysz z telefonem przez Bluetooth lub USB",
+        "Albo grasz na telefonie i jednocześnie nadajesz"
       ]
     },
     {
       "id": "console-streaming",
-      "title": "Strumieniowanie konsoli do 1080p60 z HEVC i HDR",
+      "title": "Twitch, YouTube, Kick, TikTok: klucz strumienia albo własny serwer RTMP",
       "paragraphs": [],
       "bullets": [
-        "30 lub 60 fps do 1080p, ręczny bitrate, HEVC i HDR na obsługiwanych telefonach",
-        "Wyostrzanie FSR i nakładka wydajności z fps, utratą pakietów i całkowitym opóźnieniem",
-        "Obraz na telewizorze przez HDMI, obraz w obrazie, podział ekranu na tabletach i składakach",
-        "Tryb minimalny, skalowanie: dopasuj do ekranu, rozciągnij lub powiększ na cały ekran; automatyczne ponowne łączenie w domowym Wi-Fi",
-        "Oszczędzanie danych: 720p/30fps na danych komórkowych"
+        "Twitch, YouTube, Kick, TikTok LIVE, Facebook i inne: wklej klucz strumienia, z instrukcją dla każdej platformy",
+        "Klucz na komputerze? Zeskanuj go jako kod QR zamiast przepisywać",
+        "Do 1080p60, automatyczne ponowne łączenie, adaptacyjny bitrate, nagrywanie MP4"
       ]
     },
     {
       "id": "remote-play-away",
-      "title": "Remote Play poza domem przez dane komórkowe",
-      "paragraphs": [],
+      "title": "Relaypad Pro: facecam, pion 9:16 i dwie platformy naraz",
+      "paragraphs": [
+        "Darmowe transmisje idą na jedną platformę i mają mały znak wodny Relaypad. Pro dodaje:"
+      ],
       "bullets": [
-        "Zaloguj się raz i łącz przez 5G, 4G lub inne Wi-Fi, zwykle bez ustawiania routera",
-        "Automatyczne przekierowanie portów przez UPnP; działają też domowe VPN-y, np. Tailscale",
-        "Powie, gdy połączenie blokuje współdzielony adres operatora (CGNAT)"
+        "Facecam w oknie kamery, z przedniego lub tylnego aparatu",
+        "Pionowe układy 9:16, wybierane automatycznie dla pionowych platform",
+        "Dwie platformy naraz albo format poziomy i pionowy jednocześnie",
+        "Natychmiastowa powtórka ostatnich 30 sekund",
+        "Bez znaku wodnego"
       ]
     },
     {
       "id": "connection-doctor",
-      "title": "Diagnostyka połączenia: sprawdź, dlaczego nie da się połączyć",
+      "title": "Darmowy pad Remote Play, do 1080p60 na telefonie",
       "paragraphs": [],
       "bullets": [
-        "13 testów: sieć, tryb spoczynku konsoli, przełącznik Remote Play, opóźnienie i jitter",
-        "Pasmo Wi-Fi, VPN, zakłócenia Bluetooth, UPnP, typ NAT i publiczny adres IPv4",
-        "Skopiuj raport albo wyślij go do nas jednym dotknięciem"
+        "Na telefonie lub tablecie, z HEVC i HDR tam, gdzie są obsługiwane",
+        "Poza domem przez 5G, 4G lub inne Wi-Fi, zwykle bez ustawiania routera",
+        "Wirtualny pad z pięcioma układami albo przekazywanie pada Bluetooth lub USB",
+        "Wyjście HDMI na telewizor, obraz w obrazie i wyostrzanie FSR"
       ]
     },
     {
       "id": "guided-setup",
-      "title": "Kreator konfiguracji w czterech krokach",
-      "paragraphs": [],
-      "bullets": [
-        "Zaloguj się w aplikacji lub w przeglądarce (działają klucze dostępu) albo wpisz ID konta",
-        "PS5: rejestracja bez PIN-u, nawet w trybie spoczynku, albo parowanie 8-cyfrowym kodem",
-        "Zapisz kilka konsol i kont, zmieniaj nazwy i paruj ponownie, kiedy chcesz"
-      ]
+      "title": "Remote Play nie działa? Diagnostyka połączenia powie ci, dlaczego",
+      "paragraphs": [
+        "18 testów: sieć, tryb spoczynku konsoli, pasmo Wi-Fi, opóźnienie i typ NAT; raport możesz wysłać nam mailem."
+      ],
+      "bullets": []
     },
     {
       "id": "pricing",
-      "title": "Bez reklam, bez subskrypcji",
+      "title": "Darmowe pobieranie, bez reklam",
       "paragraphs": [
-        "Relaypad nie wyświetla reklam i nie ma subskrypcji. Po instalacji na nowym telefonie z tym samym kontem Google nie płacisz ponownie. Jeśli aplikacja nie działa z Twoim sprzętem, napisz do nas w ciągu 7 dni od zakupu, a zwrócimy pieniądze."
+        "Remote Play, pad i transmisje do 1080p60 nic nie kosztują. Bez reklam i bez limitu czasu."
       ],
       "bullets": []
     },
@@ -91,26 +88,28 @@
       "id": "privacy",
       "title": "Prywatność",
       "paragraphs": [
-        "Bez konta Relaypad i bez serwera Relaypad między Tobą a konsolą. Klucze parowania i tokeny logowania zostają na urządzeniu, zaszyfrowane przez Android Keystore. Anonimowe statystyki można wyłączyć."
+        "Bez konta i serwera Relaypad po drodze: transmisja idzie prosto z telefonu na wybraną platformę. Klucze strumienia i tokeny logowania zostają zaszyfrowane na urządzeniu. Anonimowe statystyki można wyłączyć."
       ],
       "bullets": []
     },
     {
       "id": "before-you-buy",
-      "title": "Zanim kupisz",
+      "title": "Zanim zainstalujesz",
       "paragraphs": [],
       "bullets": [
         "Potrzebujesz własnej konsoli; aplikacja nie zawiera gier ani grania w chmurze",
-        "Android 8.0 lub nowszy; zalecane 4 GB RAM i Wi-Fi 5 GHz",
-        "Telefon zastępuje kontroler; nie działa równocześnie z kontrolerem konsoli",
-        "Po aktualizacji systemu konsoli Relaypad może potrzebować aktualizacji, zanim znów się połączy"
+        "Obraz pochodzi z Remote Play (do 1080p, bez HDR), więc karta przechwytywania (capture card) jest ostrzejsza",
+        "Żeby grać na telewizorze i nadawać, połącz kontroler z telefonem, nie z konsolą",
+        "Transmisja się zatrzyma, gdy wyjdziesz z Relaypad albo zablokujesz ekran (obraz w obrazie działa)",
+        "TikTok i niektóre platformy dają klucz strumienia tylko uprawnionym kontom, na każdą transmisję nowy",
+        "Android 8.0 lub nowszy; po aktualizacji systemu konsoli Relaypad może wymagać aktualizacji"
       ]
     },
     {
       "id": "support",
       "title": "Coś nie działa? Napisz do nas",
       "paragraphs": [
-        "Zanim wystawisz ocenę, napisz na feedback@dapplebyte.com albo wejdź w Ustawienia → O aplikacji → Wyślij opinię, a model telefonu dołączy się automatycznie. Czytamy każdą wiadomość."
+        "Zanim wystawisz ocenę, napisz na feedback@dapplebyte.com albo wejdź w Ustawienia → O aplikacji → Wyślij opinię."
       ],
       "bullets": []
     },
@@ -118,10 +117,10 @@
       "id": "trademark",
       "title": "Informacja o znakach towarowych",
       "paragraphs": [
-        "PlayStation®, PS4® i PS5® są znakami towarowymi Sony Interactive Entertainment Inc. Relaypad to niezależny klient Remote Play, niepowiązany z Sony, nieautoryzowany ani niezatwierdzony przez Sony. Aplikacja działa tylko z własnym sprzętem i własnymi treściami, nie omija zabezpieczeń przed kopiowaniem i nie umożliwia piractwa."
+        "PlayStation®, PS4® i PS5® są znakami towarowymi Sony Interactive Entertainment Inc. Relaypad to niezależny klient Remote Play, niepowiązany z Sony, nieautoryzowany ani niezatwierdzony przez Sony. Twitch, YouTube, Kick i TikTok są znakami towarowymi ich właścicieli; Relaypad nie jest z nimi powiązany. Aplikacja działa tylko z własnym sprzętem i własnymi treściami, nie omija zabezpieczeń przed kopiowaniem i nie umożliwia piractwa."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

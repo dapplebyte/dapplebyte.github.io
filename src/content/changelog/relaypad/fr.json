@@ -3,6 +3,17 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "Nouveau : « Passer en live ». Diffusez vos jeux PS5 ou PS4 sur Twitch, YouTube, Kick, TikTok ou tout serveur RTMP, sans PC ni carte d’acquisition",
+        "Mode live : posez le téléphone près de la télé et jouez sur grand écran pendant qu’il diffuse",
+        "Nouveau Copilote IA (votre clé API) : appui long sur le stream pour guides de jeu, commandes vocales et description de l’écran",
+        "Corrigé : plantage si l’image de la console ne peut pas être diffusée, et écran noir HEVC sur PS4"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

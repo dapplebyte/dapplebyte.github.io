@@ -571,9 +571,9 @@
         "refundBody": "Jeśli {name} nie działa z Twoim sprzętem, napisz do nas w ciągu 7 dni od zakupu, a zwrócimy pieniądze. Opisz, co już próbowano; to pomoże nam naprawić problem dla kolejnych osób."
       },
       "press": {
-        "description": "Fakty, materiały i gotowy opis do tekstów o {name}, kontrolerze Remote Play i aplikacji do strumieniowania obrazu z konsoli na Androida.",
-        "boilerplate": "{name} zamienia telefon z Androidem w bezprzewodowy kontroler do PS5 lub PS4 albo przesyła obraz z konsoli na telefon, tablet lub telewizor, w domu albo poza nim przez dane komórkowe. Aplikację tworzy DappleByte, niezależne studio, i publikuje ją jako open source na licencji AGPL-3.0.",
-        "priceValue": "Płatna aplikacja, jednorazowy zakup, bez subskrypcji i bez reklam. Aktualną cenę podaje Google Play.",
+        "description": "Fakty, materiały i gotowy opis do tekstów o {name}, aplikacji na Androida do transmisji na żywo z PS5 lub PS4, sterowania przez Remote Play i strumieniowania obrazu z konsoli.",
+        "boilerplate": "{name} pozwala nadawać na żywo gry z PS5 lub PS4 prosto z telefonu z Androidem na Twitch, YouTube, Kick, TikTok lub dowolny serwer RTMP, bez komputera i karty przechwytującej. Telefon może też służyć jako bezprzewodowy kontroler i wyświetlać obraz z konsoli na telefonie, tablecie lub telewizorze, w domu albo poza nim przez dane komórkowe. Aplikację tworzy DappleByte, niezależne studio, i publikuje ją jako open source na licencji AGPL-3.0.",
+        "priceValue": "Do pobrania za darmo, bez reklam. Pro to zakup w aplikacji, który pozwala wyłączyć znak wodny transmisji i dodaje okno kamery, układy pionowe, nadawanie na dwie platformy naraz oraz natychmiastową powtórkę. Aktualną cenę podaje Google Play.",
         "assetScreenshots": "Zrzuty ekranu, PNG 1920 × 1080, po angielsku"
       },
       "videosDescription": "Krótkie filmy pokazujące {name} na prawdziwym telefonie: konfiguracja, strumieniowanie, układy kontrolera i rozwiązywanie problemów z połączeniem.",

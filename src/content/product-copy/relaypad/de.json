@@ -1,89 +1,86 @@
 {
   "slug": "relaypad",
   "locale": "de",
-  "title": "Relaypad: Remote Play Gamepad",
-  "shortDescription": "Ohne Werbung, ohne Abo. PS5 & PS4 Controller, Konsolen-Streaming, TV per HDMI",
-  "requires": "Benötigt eine PS5 oder PS4; Remote Play muss in den Einstellungen aktiv sein.",
-  "tagline": "Relaypad macht Ihr Android-Telefon zum kabellosen Controller für Ihre Konsole oder streamt das Konsolenbild auf Telefon, Tablet oder Fernseher, zu Hause oder unterwegs.",
+  "title": "Relaypad: Remote Play & Live",
+  "shortDescription": "PS5 & PS4 streamen auf Twitch, YouTube, Kick, TikTok. Ohne PC und Capture-Karte.",
+  "requires": "Benötigt eine PS5 oder PS4 mit eingeschaltetem Remote Play.",
+  "tagline": "Relaypad verbindet Ihr Android-Handy mit Ihrer eigenen Konsole und streamt das Spiel live auf Twitch, YouTube, Kick, TikTok oder jeden RTMP-Server. Dazu ist es ein Remote-Play-Client und Controller, zu Hause und unterwegs.",
   "sections": [
     {
       "id": "intro",
-      "title": "Remote Play Controller und Konsolen-Streaming für PS5 und PS4",
+      "title": "PS5- und PS4-Spiele live streamen, ohne PC und ohne Capture-Karte",
       "paragraphs": [
-        "Relaypad macht Ihr Android-Telefon zum kabellosen Controller für Ihre Konsole oder streamt das Konsolenbild auf Telefon, Tablet oder Fernseher, zu Hause oder unterwegs."
+        "Relaypad verbindet Ihr Android-Handy mit Ihrer eigenen Konsole und streamt das Spiel live auf Twitch, YouTube, Kick, TikTok oder jeden RTMP-Server. Dazu ist es ein Remote-Play-Client und Controller, zu Hause und unterwegs."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "Wofür Relaypad genutzt wird",
+      "title": "Keine Bildschirmaufnahme: Nur das Spiel geht live",
       "paragraphs": [],
       "bullets": [
-        "Weiterspielen, wenn der Controller-Akku gerade leer ist",
-        "Konsolenmenüs und Video-Apps mit großen Fernbedienungstasten bedienen",
-        "Im Bett oder Nebenzimmer spielen, die Konsole bleibt am Fernseher",
-        "Bild per HDMI auf den Hotelfernseher, das Telefon als Pad"
+        "Zuschauer sehen und hören das Spiel, nie Ihre Bildschirmtasten, Menüs oder Benachrichtigungen",
+        "Spielton und Mikrofon getrennt gemischt; ein Tippen verdeckt das Spiel und schaltet es stumm"
       ]
     },
     {
       "id": "virtual-gamepad",
-      "title": "Bildschirm-Gamepad, Layout-Editor und Tastenbelegung",
+      "title": "Konsolen-Streaming ohne PC, nur mit dem Handy",
       "paragraphs": [],
       "bullets": [
-        "Fünf Layouts: Standard, Compact, Remote, Fighting und Racing",
-        "Jede Taste verschieben, skalieren oder ausblenden, eigene Layouts auch beim Streaming",
-        "Touchpad, Vibration, Mikrofon und Bewegungssensor",
-        "Bluetooth- oder USB-Gamepad durchreichen, Belegung automatisch",
-        "USB-Pads beim Streaming: adaptive Trigger, Lichtleiste und Haptik"
+        "Live-Modus: Das Handy steht neben dem Fernseher und streamt, Sie spielen auf dem großen Bildschirm",
+        "Controller per Bluetooth oder USB mit dem Handy verbinden",
+        "Oder auf dem Handy spielen und gleichzeitig streamen"
       ]
     },
     {
       "id": "console-streaming",
-      "title": "Konsolen-Streaming bis 1080p60 mit HEVC und HDR",
+      "title": "Twitch, YouTube, Kick, TikTok: Streamschlüssel oder eigener RTMP-Server",
       "paragraphs": [],
       "bullets": [
-        "30 oder 60 fps bis 1080p, manuelle Bitrate, HEVC und HDR auf unterstützten Telefonen",
-        "FSR-Schärfung und Performance-Overlay mit fps, Paketverlust und Gesamtlatenz",
-        "TV-Ausgabe per HDMI, Bild-in-Bild, geteiltes Layout auf Tablets und Foldables",
-        "Minimalmodus, Ganz anzeigen, Gestreckt oder Vergrößert füllen, automatisch neu verbinden im Heim-Wi-Fi",
-        "Datensparmodus: bei mobilen Daten 720p/30fps"
+        "Twitch, YouTube, Kick, TikTok LIVE, Facebook und mehr: Streamschlüssel einfügen, mit Anleitung pro Plattform",
+        "Schlüssel am PC? Einfach als QR-Code scannen statt abtippen",
+        "Bis 1080p60, automatisches Neuverbinden, adaptive Bitrate und MP4-Aufnahme"
       ]
     },
     {
       "id": "remote-play-away",
-      "title": "Remote Play unterwegs über mobile Daten",
-      "paragraphs": [],
+      "title": "Relaypad Pro: Facecam, Hochformat 9:16 und Multistream",
+      "paragraphs": [
+        "Kostenlos streamen Sie auf eine Plattform, mit kleinem Relaypad-Wasserzeichen. Pro bringt dazu:"
+      ],
       "bullets": [
-        "Einmal anmelden, dann über 5G, 4G oder ein anderes Wi-Fi verbinden, meist ohne Router-Einrichtung",
-        "Automatische Portweiterleitung per UPnP, auch Heim-VPNs wie Tailscale funktionieren",
-        "Meldet, wenn die geteilte Adresse Ihres Anbieters (CGNAT) die Verbindung blockiert"
+        "Facecam im Kamerafenster, mit Front- oder Rückkamera",
+        "Hochformat-Layouts 9:16, automatisch für Hochformat-Plattformen",
+        "Zwei Plattformen gleichzeitig, oder Quer- und Hochformat zusammen",
+        "Sofortwiederholung der letzten 30 Sekunden",
+        "Kein Wasserzeichen"
       ]
     },
     {
       "id": "connection-doctor",
-      "title": "Verbindungsdiagnose: Warum verbindet es nicht?",
+      "title": "Kostenloser Remote-Play-Controller, bis 1080p60 auf dem Handy",
       "paragraphs": [],
       "bullets": [
-        "13 Prüfungen: Netzwerk, Ruhemodus der Konsole, Remote-Play-Schalter, Latenz und Jitter",
-        "Wi-Fi-Band, VPN, Bluetooth-Störungen, UPnP, NAT-Typ und öffentliche IPv4",
-        "Bericht kopieren oder mit einem Tippen per E-Mail an uns senden"
+        "Handy oder Tablet, mit HEVC und HDR, wo unterstützt",
+        "Unterwegs über 5G, 4G oder anderes Wi-Fi, meist ohne Router-Einrichtung",
+        "Bildschirm-Gamepad mit fünf Layouts, oder Bluetooth- bzw. USB-Pad durchreichen",
+        "HDMI-Ausgabe auf den Fernseher, Bild-in-Bild und FSR-Schärfung"
       ]
     },
     {
       "id": "guided-setup",
-      "title": "Geführte Einrichtung in vier Schritten",
-      "paragraphs": [],
-      "bullets": [
-        "In der App oder im Browser anmelden (Passkeys funktionieren) oder die Account-ID eintippen",
-        "PS5: ohne PIN registrieren, sogar im Ruhemodus; oder mit dem 8-stelligen Code koppeln",
-        "Mehrere Konsolen und Konten speichern, jederzeit umbenennen oder neu koppeln"
-      ]
+      "title": "Remote Play funktioniert nicht? Die Verbindungsdiagnose findet den Grund",
+      "paragraphs": [
+        "18 Prüfungen für Netzwerk, Ruhemodus der Konsole, Wi-Fi-Band, Latenz und NAT-Typ; den Bericht können Sie uns mailen."
+      ],
+      "bullets": []
     },
     {
       "id": "pricing",
-      "title": "Keine Werbung, kein Abo",
+      "title": "Kostenloser Download, keine Werbung",
       "paragraphs": [
-        "Relaypad zeigt keine Werbung und hat kein Abo. Auf einem neuen Telefon mit demselben Google-Konto installieren Sie ohne Zusatzkosten neu. Klappt es bei Ihnen nicht, schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf für eine Erstattung."
+        "Remote Play, der Controller und Livestreams bis 1080p60 kosten nichts. Keine Werbung, kein Zeitlimit."
       ],
       "bullets": []
     },
@@ -91,26 +88,28 @@
       "id": "privacy",
       "title": "Datenschutz",
       "paragraphs": [
-        "Kein Relaypad-Konto und kein Relaypad-Server zwischen Ihnen und Ihrer Konsole. Kopplungsschlüssel und Anmelde-Tokens bleiben auf Ihrem Gerät, verschlüsselt mit dem Android Keystore. Die anonyme Statistik lässt sich abschalten."
+        "Kein Relaypad-Konto, kein Server dazwischen: Der Stream geht direkt vom Handy zur gewählten Plattform. Streamschlüssel und Anmelde-Tokens bleiben verschlüsselt auf Ihrem Gerät. Anonyme Statistik lässt sich abschalten."
       ],
       "bullets": []
     },
     {
       "id": "before-you-buy",
-      "title": "Vor dem Kauf",
+      "title": "Vor der Installation",
       "paragraphs": [],
       "bullets": [
         "Eigene Konsole nötig; keine Spiele und kein Cloud-Gaming enthalten",
-        "Android 8.0 oder neuer; empfohlen sind 4 GB RAM und 5 GHz Wi-Fi",
-        "Ihr Telefon ersetzt einen Controller, statt gleichzeitig mit ihm zu spielen",
-        "Nach einem Konsolen-Systemupdate braucht Relaypad eventuell ein Update, um wieder zu verbinden"
+        "Das Bild kommt per Remote Play (bis 1080p, ohne HDR); eine Capture-Karte ist schärfer",
+        "Am Fernseher spielen und streamen: Der Controller kommt ans Handy, nicht an die Konsole",
+        "Relaypad verlassen oder Bildschirm sperren beendet den Livestream (Bild-in-Bild geht)",
+        "TikTok und manche Plattformen geben Streamschlüssel nur berechtigten Konten, für jeden Stream neu",
+        "Android 8.0 oder neuer; nach Konsolen-Systemupdates ist eventuell ein Relaypad-Update nötig"
       ]
     },
     {
       "id": "support",
       "title": "Etwas funktioniert nicht? Schreiben Sie uns",
       "paragraphs": [
-        "Bevor Sie eine Bewertung schreiben, mailen Sie an feedback@dapplebyte.com oder nutzen Sie Einstellungen → Über → Feedback senden, damit Ihr Telefonmodell automatisch mitkommt. Wir lesen jede Nachricht."
+        "Vor einer Bewertung: Mail an feedback@dapplebyte.com oder Einstellungen → Über → Feedback senden."
       ],
       "bullets": []
     },
@@ -118,10 +117,10 @@
       "id": "trademark",
       "title": "Markenhinweis",
       "paragraphs": [
-        "PlayStation®, PS4® und PS5® sind Marken von Sony Interactive Entertainment Inc. Relaypad ist ein unabhängiger Remote-Play-Client, nicht mit Sony verbunden und weder von Sony autorisiert noch unterstützt. Die App funktioniert nur mit eigener Hardware und eigenen Inhalten, umgeht keinen Kopierschutz und ermöglicht keine Piraterie."
+        "PlayStation®, PS4® und PS5® sind Marken von Sony Interactive Entertainment Inc. Relaypad ist ein unabhängiger Remote-Play-Client, nicht mit Sony verbunden und weder von Sony autorisiert noch unterstützt. Twitch, YouTube, Kick und TikTok sind Marken ihrer Inhaber; Relaypad ist nicht mit ihnen verbunden. Die App funktioniert nur mit eigener Hardware und eigenen Inhalten, umgeht keinen Kopierschutz und ermöglicht keine Piraterie."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

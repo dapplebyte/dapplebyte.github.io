@@ -571,9 +571,9 @@
         "refundBody": "Se o {name} não funcionar com a sua configuração, mande um e-mail em até 7 dias após a compra e devolvemos o valor. Conte o que você tentou; isso ajuda a gente a resolver para a próxima pessoa."
       },
       "press": {
-        "description": "Fatos, materiais e um texto padrão para quem for escrever sobre o {name}, o app de controle de Remote Play e transmissão do console para Android.",
-        "boilerplate": "O {name} transforma um celular Android em um controle sem fio para PS5 ou PS4, ou transmite a imagem do console para o celular, um tablet ou uma TV, em casa ou fora dela pelos dados móveis. É feito pela DappleByte, um estúdio independente, e publicado como código aberto sob a AGPL-3.0.",
-        "priceValue": "App pago, compra única, sem assinatura e sem anúncios. O preço atual aparece no Google Play.",
+        "description": "Fatos, materiais e um texto padrão para quem for escrever sobre o {name}, o app para Android que faz lives do PS5 ou PS4, vira controle de Remote Play e transmite o console.",
+        "boilerplate": "O {name} deixa um celular Android fazer live dos jogos de um PS5 ou PS4 na Twitch, no YouTube, no Kick, no TikTok ou em qualquer servidor RTMP, sem computador nem placa de captura. Ele também funciona como controle sem fio e transmite a imagem do console para o celular, um tablet ou uma TV, em casa ou fora dela pelos dados móveis. É feito pela DappleByte, um estúdio independente, e publicado como código aberto sob a AGPL-3.0.",
+        "priceValue": "Download gratuito, sem anúncios. O Pro é uma compra no app que desliga a marca d'água da live e adiciona janela da câmera, layouts verticais, live em duas plataformas ao mesmo tempo e replay instantâneo. O preço atual aparece no Google Play.",
         "assetScreenshots": "Capturas de tela, PNG de 1920 × 1080, em inglês"
       },
       "videosDescription": "Vídeos curtos do {name} em um celular de verdade: configuração, transmissão, layouts do controle e como resolver problemas de conexão.",

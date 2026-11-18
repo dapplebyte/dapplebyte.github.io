@@ -3,6 +3,17 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "Nieuw: Live gaan. Stream PS5- of PS4-games naar Twitch, YouTube, Kick, TikTok of elke RTMP-server, zonder pc of capturekaart",
+        "Livemodus: zet de telefoon naast de tv en speel op het grote scherm terwijl hij streamt",
+        "Nieuw: AI-copiloot (met je eigen API-sleutel): houd het streamscherm ingedrukt voor gameguides, spraakopdrachten en schermbeschrijvingen",
+        "Opgelost: crash als het consolebeeld niet gestreamd kan worden, en zwart scherm met HEVC op PS4"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

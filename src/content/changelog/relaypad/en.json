@@ -3,6 +3,17 @@
   "locale": "en",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "New: Go Live. Stream PS5 or PS4 games to Twitch, YouTube, Kick, TikTok or any RTMP server, no PC or capture card",
+        "Live mode: stand the phone by the TV and play on the big screen while it streams",
+        "New AI copilot (your own API key): long-press the stream for game guides, voice commands and screen descriptions",
+        "Fixed a crash when the console picture can't stream, and the HEVC black screen on PS4"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

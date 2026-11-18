@@ -268,6 +268,159 @@
       ]
     },
     {
+      "id": "live",
+      "title": "Dirette",
+      "entries": [
+        {
+          "id": "live_what_needed",
+          "q": "Che cosa mi serve per andare in diretta?",
+          "a": [
+            "La tua console, già configurata in questa app, e un account sulla piattaforma su cui vuoi trasmettere. Niente computer e niente scheda di acquisizione. Tocca «Vai in diretta» nella scheda della console e segui i passaggi: come giochi, dove trasmetti, collegamento della piattaforma e un controllo finale. Se stai già giocando, apri il pannello rapido e tocca «Vai in diretta» da lì. Mentre sei in diretta, tocca l'indicatore nell'angolo per aprire il pannello della diretta."
+          ]
+        },
+        {
+          "id": "live_platforms",
+          "q": "Su quali piattaforme posso trasmettere?",
+          "a": [
+            "Twitch, YouTube e Kick, più TikTok LIVE, Facebook, Instagram, X, Rumble, Telegram, Bilibili, Huya, Douyu, TwitCasting, niconico, SOOP, CHZZK e VK Video Live. I servizi di multistreaming come Restream e Castr inoltrano una sola diretta a molte altre piattaforme, e «Server personalizzato» accetta qualsiasi indirizzo RTMP o RTMPS. Le piattaforme con l'etichetta «Requisiti» consentono di trasmettere solo ad alcuni account; scegline una per vedere che cosa chiede."
+          ]
+        },
+        {
+          "id": "live_no_pc_quality",
+          "q": "Funziona davvero senza computer né scheda di acquisizione? Come si vede?",
+          "a": [
+            "Sì. Il telefono fa entrambi i lavori: riceve il gioco dalla console, aggiunge quello che ci metti sopra e invia il risultato alla piattaforma. L'immagine parte da quello che invia Remote Play, al massimo 1080p senza HDR e già compressa una volta dalla console, quindi con una scheda di acquisizione si vede più nitida. Per il risultato migliore, trasmetti la console a 1080p sul Wi-Fi di casa. Se lo streaming della console usa l'HDR quando vai in diretta, i colori della diretta possono sembrare sbiaditi, quindi disattiva l'HDR in Impostazioni → Qualità video e riconnettiti."
+          ]
+        },
+        {
+          "id": "live_capture_mode",
+          "q": "Che cos'è la «Modalità live» e dove collego il controller?",
+          "a": [
+            "Serve per giocare sulla TV mentre il telefono si occupa della diretta, come una scheda di acquisizione. Scegli «Sulla TV» nel primo passaggio. Il telefono mostra allora quello che vedono gli spettatori, senza pad su schermo e senza l'audio del gioco, perché lo riproduce la TV. Collega il controller al telefono via Bluetooth o USB, che è la soluzione più stabile, e gioca guardando la TV. Un controller collegato direttamente alla console non può giocare nello stesso momento: la console lo tratta come un altro utente e i due continuano a togliersi il controllo a vicenda. Con le cuffie, o tenendo il telefono lontano dagli altoparlanti della TV, l'audio della TV non entra nel tuo microfono."
+          ]
+        },
+        {
+          "id": "live_stream_key",
+          "q": "Dove trovo l'URL del server e la chiave stream?",
+          "a": [
+            "Dopo aver scelto una piattaforma, il passaggio di collegamento ha «Dove trovare la chiave stream»: tocca «Mostra i passaggi» per le istruzioni di quella piattaforma, oppure il pulsante sotto per aprire la sua pagina. Copia la chiave stream, e anche l'URL del server se la piattaforma te ne dà uno. Quando negli appunti c'è un indirizzo o una chiave, l'app ti propone di usarli e divide un indirizzo completo nelle due caselle. Per Twitch e YouTube può comparire invece un pulsante «Accedi con», e in quel caso la chiave viene recuperata per te. Le chiavi sono salvate crittografate su questo telefono; puoi cambiarle o eliminarle in Impostazioni → Destinazioni."
+          ]
+        },
+        {
+          "id": "live_key_rejected",
+          "q": "Dice che la piattaforma ha rifiutato la chiave stream.",
+          "a": [
+            "La chiave potrebbe essere scritta male, scaduta o sostituita da una più recente, oppure l'account non ha ancora il permesso di trasmettere. Copia una chiave nuova dalla piattaforma e incollala in Impostazioni → Destinazioni → «Cambia chiave». Se la chiave è giusta, controlla i requisiti della piattaforma: Twitch mostra la chiave solo dopo che hai attivato l'autenticazione a due fattori, un canale YouTube deve essere verificato e la prima volta possono servire fino a 24 ore, e TikTok e Facebook hanno un minimo di follower. Se la piattaforma chiude una diretta già in corso, la stessa chiave potrebbe essere in diretta altrove."
+          ]
+        },
+        {
+          "id": "live_tiktok_key",
+          "q": "TikTok non mi dà una chiave stream. E adesso?",
+          "a": [
+            "È TikTok a decidere quali account la ricevono: devi avere almeno 18 anni e di solito almeno 1.000 follower, e anche così non è garantito. Quando il tuo account ce l'ha, la chiave si trova nel LIVE Center di TikTok da computer, dopo aver impostato un titolo e una categoria. TikTok di solito dà una nuova chiave per ogni diretta, quindi l'app ti chiede di incollare quella nuova ogni volta che vai in diretta; Instagram, Bilibili e Douyu funzionano allo stesso modo. Instagram richiede anche 1.000 follower su un account pubblico, e Bilibili 5.000 follower con la verifica dell'identità."
+          ]
+        },
+        {
+          "id": "live_mic_voice",
+          "q": "Gli spettatori sentono il mio microfono e i miei compagni di squadra?",
+          "a": [
+            "Il tuo microfono va in diretta solo quando lo attivi, con «Mic» in cima al pannello della diretta o con «Microfono in diretta» nella scheda «Audio»; parte disattivato. È una cosa separata dalla chat vocale con la console, che è il tasto MIC del pad su schermo, quindi puoi parlare con gli spettatori, con i compagni, con entrambi o con nessuno. I compagni finiscono in diretta solo se la console mescola le loro voci nell'audio del gioco che invia a questo telefono: quello che senti dal telefono durante un normale streaming è quello che sentono gli spettatori."
+          ]
+        },
+        {
+          "id": "live_viewers_see",
+          "q": "Gli spettatori vedranno le mie notifiche o i pulsanti sullo schermo?",
+          "a": [
+            "No. La diretta è composta dall'immagine e dall'audio del gioco che invia la console, più la tua fotocamera, le schermate di scena e il piccolo marchio nell'angolo quando sono attivi. Il pad su schermo, il pannello rapido, il pannello della diretta e il suo indicatore, le notifiche e tutto il resto del telefono non arrivano mai nella diretta. Per coprire il gioco per un attimo, per esempio mentre digiti una password sulla console, tocca «Nascondi» in cima al pannello della diretta: immagine e audio del gioco vengono sostituiti da una schermata finché non lo tocchi di nuovo."
+          ]
+        },
+        {
+          "id": "live_camera",
+          "q": "Come aggiungo la mia fotocamera?",
+          "a": [
+            "Apri il pannello della diretta e, nella scheda «Scena», attiva «Mostra la mia fotocamera» in «Fotocamera». Scegli un layout che le lasci spazio, come «Fotocamera nell'angolo» o «Barra laterale»; «Schermo intero» non ne ha. Trascina il riquadro per spostare la fotocamera e si aggancerà all'angolo più vicino; nella stessa scheda trovi fotocamera anteriore o posteriore, specchio, forma, bordo e dimensione. L'app chiede l'accesso alla fotocamera la prima volta, e tutto il resto continua a funzionare se rifiuti."
+          ]
+        },
+        {
+          "id": "live_vertical",
+          "q": "Come faccio una diretta in verticale?",
+          "a": [
+            "Nell'ultimo passaggio prima di andare in diretta, imposta «Formato» su «Verticale 9:16». I layout verticali della scheda «Scena» sono «Centrato», con il gioco al centro su uno sfondo sfocato; «Impilato», con il gioco in alto e spazio per la fotocamera sotto; e «Riempi», con il gioco ritagliato per riempire lo schermo. Se scegli una piattaforma che si guarda in verticale, come TikTok o Instagram, il formato passa in verticale da solo quando è possibile."
+          ]
+        },
+        {
+          "id": "live_two_platforms",
+          "q": "Posso trasmettere su due piattaforme insieme?",
+          "a": [
+            "Sì. La stessa diretta può andare su due piattaforme, e puoi anche inviare una copia nell'altro formato a una terza, per esempio in orizzontale su Twitch e YouTube e in verticale su TikTok. Configuralo in «Trasmetti anche su», nell'ultimo passaggio prima di andare in diretta. Ogni trasmissione parte dal tuo telefono, quindi ognuna richiede la sua parte di velocità di upload, e un secondo formato fa anche lavorare di più il telefono. Se una destinazione non funziona, le altre restano in diretta. Per raggiungere più piattaforme, trasmetti una sola volta verso un servizio di multistreaming come Restream e collega lì le tue piattaforme."
+          ]
+        },
+        {
+          "id": "live_stutter",
+          "q": "La diretta va a scatti o continua a cadere.",
+          "a": [
+            "Di solito la causa è la velocità di upload, perché la diretta esce dallo stesso Wi-Fi da cui arriva il gioco. Quando l'upload fa fatica, l'app abbassa prima il bitrate e poi il frame rate, e li rialza quando la connessione si riprende; durante una diretta non cambia la risoluzione. Se la connessione cade, si ricollega da sola e la registrazione continua. Trasmetti dal Wi-Fi di casa, meglio a 5 GHz e vicino al router, scegli una qualità più bassa prima di andare in diretta e guarda la scheda «Stato» nel pannello della diretta per capire cosa succede. Con i dati mobili o giocando fuori casa funziona, ma l'immagine ne risente."
+          ]
+        },
+        {
+          "id": "live_phone_hot",
+          "q": "Il telefono si scalda mentre sono in diretta.",
+          "a": [
+            "Ricevere il gioco, comporre la diretta e codificarla tutto insieme è un lavoro pesante per un telefono. Man mano che si scalda, l'app alleggerisce il carico da sola: prima il frame rate, poi la fotocamera a 15 fps, poi spegne la fotocamera e infine la seconda versione, se c'è, e la scheda «Stato» spiega il perché. La risoluzione resta la stessa durante la diretta, quindi se il telefono continua a scaldarsi, la prossima volta parti da 720p30. Togli la cover e tieni il telefono all'aperto; nella «Modalità live» aiuta anche «Schermo nero»."
+          ]
+        },
+        {
+          "id": "live_screen_off",
+          "q": "Posso spegnere lo schermo o cambiare app mentre sono in diretta?",
+          "a": [
+            "No. La diretta gira nella pagina dello streaming. Con Picture-in-picture attivo nelle Impostazioni, uscendo dall'app il gioco si riduce in una piccola finestra e la diretta continua. Se la pagina dello streaming resta fuori dallo schermo per più di circa 15 secondi, per esempio dietro un'altra app o con lo schermo spento, la diretta si ferma, e uscire dalla pagina dello streaming la termina subito. Nella «Modalità live», «Schermo nero» oscura lo schermo e abbassa la luminosità mentre la diretta continua; tocca un punto qualsiasi per riattivarlo."
+          ]
+        },
+        {
+          "id": "live_console_drop",
+          "q": "Che cosa succede se la console si disconnette mentre sono in diretta?",
+          "a": [
+            "La diretta continua e gli spettatori vedono la schermata «Torno subito». Quando la connessione con la console torna, il gioco riappare da solo; dopo circa 3 minuti senza connessione, la diretta termina. Vale solo quando la connessione cade da sola: se chiudi tu la sessione, termina anche la diretta. Puoi anche mostrare tu stesso la schermata con «BRB» in cima al pannello della diretta."
+          ]
+        },
+        {
+          "id": "live_blocked_card",
+          "q": "Gli spettatori vedono una schermata che dice che questa parte non si può mostrare in diretta.",
+          "a": [
+            "Alcuni giochi e alcune schermate della console non consentono la visualizzazione remota, quindi la console smette di inviarne l'immagine. Invece di un'immagine nera o bloccata, gli spettatori vedono quella schermata, e il gioco torna da solo appena la console lo invia di nuovo. Nessuna impostazione lo cambia; dipende dal gioco."
+          ]
+        },
+        {
+          "id": "live_recordings",
+          "q": "Dove vengono salvate le mie registrazioni?",
+          "a": [
+            "Attiva «Salva anche un video su questo telefono» nell'ultimo passaggio prima di andare in diretta, oppure scegli «Solo registrazione, niente diretta». Su Android 10 e versioni successive il video finito va in Movies/Relaypad, quindi compare nella galleria e nel gestore file. Sulle versioni precedenti resta nella cartella dell'app, Android/data/com.relaypad.remoteplay.app/files/Movies, e viene eliminato quando disinstalli l'app. Il riepilogo dopo la diretta ha «Apri» e «Condividi» per il video."
+          ]
+        },
+        {
+          "id": "live_watermark",
+          "q": "Posso spostare o disattivare il marchio nell'angolo della diretta?",
+          "a": [
+            "Puoi spostarlo, ma per disattivarlo serve Pro. Ogni diretta mostra un piccolo marchio Relaypad in un angolo, fin dalla prima. Scegli uno dei quattro angoli in «Filigrana», nella scheda «Scena» del pannello della diretta; all'inizio è in alto a destra. Con Pro, disattiva «Mostra filigrana» nello stesso punto."
+          ]
+        },
+        {
+          "id": "live_pro_trial",
+          "q": "Che cosa includono le dirette di prova Pro e che cosa succede dopo?",
+          "a": [
+            "Nelle tue prime dirette puoi usare la finestra della fotocamera, il formato verticale 9:16, una seconda piattaforma e il replay istantaneo, e il pannello della diretta mostra quante dirette di prova ti restano; una diretta più corta di 5 minuti non conta. La prova non disattiva la filigrana nell'angolo. Dopo puoi continuare a trasmettere gratis senza limiti di tempo, su una piattaforma fino a 1080p60 e con la registrazione; il resto richiede Pro ed è elencato in «Che cosa aggiunge Pro?». Fotocamera, layout e le altre impostazioni restano salvati, quindi acquistando Pro tornano subito."
+          ]
+        },
+        {
+          "id": "live_console_broadcast",
+          "q": "Posso usare nello stesso momento la funzione di trasmissione della console?",
+          "a": [
+            "Di solito no: in genere la console non trasmette mentre è in corso una sessione di Remote Play, e questa app non tocca mai quella funzione. Comunque non ti serve, perché il telefono trasmette da solo e su più piattaforme di quelle offerte dalla console."
+          ]
+        }
+      ]
+    },
+    {
       "id": "quality",
       "title": "Streaming e immagine",
       "entries": [
@@ -276,13 +429,6 @@
           "q": "Dove sono i comandi durante lo streaming?",
           "a": [
             "La barra in alto sparisce dopo qualche secondo. Tocca un punto vuoto dell'immagine per farla tornare: l'icona dei cursori apre il pannello rapido e «Tieni premuto per uscire» chiude lo streaming. Anche una pressione prolungata su un punto vuoto apre il pannello rapido."
-          ]
-        },
-        {
-          "id": "free_720p",
-          "q": "Quali sono i limiti della versione gratuita?",
-          "a": [
-            "Streaming sulla rete di casa fino a 720p e 30 fps in H.264, senza limiti di tempo e senza pubblicità. Il limite viene applicato ogni volta che inizia una sessione. La modalità pad è gratuita per intero e senza limiti. Lo streaming su Android TV richiede Pro."
           ]
         },
         {
@@ -346,6 +492,13 @@
           "q": "Non riesco a selezionare HEVC o HDR, oppure lo streaming usa H.264.",
           "a": [
             "HEVC richiede un decoder adatto su questo telefono e HDR uno schermo che lo supporti; la pagina della qualità spiega perché un'opzione non è disponibile. Se all'avvio dello streaming il telefono non riesce a decodificare il formato, lo streaming passa da solo a H.264 o SDR e te lo segnala."
+          ]
+        },
+        {
+          "id": "ps4_hevc",
+          "q": "HEVC o HDR funzionano con una PS4?",
+          "a": [
+            "No. Tutte le PS4, comprese Slim e Pro, inviano solo H.264; HEVC e HDR sono funzioni di PS5. L'impostazione del codec vale per tutte le tue console: su una PS5 viene usata così com'è, mentre lo streaming verso una PS4 passa da solo a H.264 e te lo dice, quindi puoi lasciare HEVC attivo se hai anche una PS5."
           ]
         },
         {
@@ -588,34 +741,48 @@
     },
     {
       "id": "purchase",
-      "title": "Acquisto e rimborsi",
+      "title": "Pro, acquisti e rimborsi",
       "entries": [
         {
-          "id": "paid_not_subscription",
-          "q": "È un abbonamento?",
+          "id": "controller_free",
+          "q": "Devo pagare per usare il telefono come controller?",
           "a": [
-            "No. Acquisti l'app una volta su Google Play e basta: nessun abbonamento, nessun acquisto in-app, nessuna pubblicità e nessuna funzione che chieda un secondo pagamento più tardi. L'acquisto è legato al tuo account Google, non al telefono."
+            "No. La modalità pad è gratuita per intero, senza limiti di tempo e senza pubblicità: pad su schermo, editor del layout, controller fisici, mappatura tasti, vibrazione, rilevamento del movimento, touchpad, microfono, riattivazione e messa a riposo della console, e tutte le console e gli account che vuoi. Nella modalità pad niente ti chiede un acquisto."
           ]
         },
         {
-          "id": "paid_promo_forever",
-          "q": "L'ho installata durante una promozione gratuita. Alcune funzioni verranno bloccate più avanti?",
+          "id": "pro_not_subscription",
+          "q": "Pro è un abbonamento?",
           "a": [
-            "No. Installarla durante una promozione equivale ad acquistare l'app a quel prezzo, quindi è tua per sempre e con tutte le funzioni. Resta così anche dopo la fine della promozione, e lo stesso account Google può installarla di nuovo su un telefono nuovo senza pagare niente."
+            "Al momento Pro è un acquisto una tantum legato al tuo account Google. Paghi una volta per le funzioni Pro disponibili al momento dell'acquisto, senza costi per ogni diretta, e il prezzo che paghi è quello mostrato nella finestra di pagamento di Google Play. Se un acquisto viene rimborsato, Pro viene rimosso la volta successiva che l'app verifica con Google Play."
           ]
         },
         {
-          "id": "paid_reinstall",
-          "q": "Come la installo su un telefono nuovo?",
+          "id": "pro_contents",
+          "q": "Che cosa aggiunge Pro?",
           "a": [
-            "Apri la pagina dello store con lo stesso account Google usato per l'acquisto e comparirà «Installa» invece del prezzo. Le console non vengono trasferite, quindi abbina di nuovo ogni console sul telefono nuovo; le chiavi di abbinamento restano sul telefono su cui sono state create."
+            "Pro aggiunge alle dirette: la finestra della fotocamera e i layout che le fanno spazio, layout verticali 9:16, due piattaforme insieme più una copia nell'altro formato per una terza, replay istantaneo degli ultimi 30 secondi e la possibilità di disattivare la filigrana nell'angolo. Nelle tue prime dirette puoi provare tutto tranne la disattivazione della filigrana. Tutto il resto è gratuito: la modalità pad per intero, lo streaming fino a 1080p e 60 fps con HEVC e HDR, il gioco fuori dalla rete di casa, Android TV, picture-in-picture, la Diagnostica connessione e le dirette su una piattaforma fino a 1080p60 senza limiti di tempo, con bitrate manuale e registrazione."
           ]
         },
         {
-          "id": "paid_included",
-          "q": "Che cosa è incluso?",
+          "id": "pro_restore",
+          "q": "Ho cambiato telefono e Pro è sparito.",
           "a": [
-            "Tutto, dal primo avvio: streaming a 1080p e 60 fps, bitrate manuale, HEVC e HDR, nitidezza FSR e overlay prestazioni, giocare fuori dalla rete di casa, streaming su Android TV, picture-in-picture e il gioco sulla TV con il telefono come controller. Ci sono anche la modalità pad, la Diagnostica connessione, il widget «Scorciatoia console» e tutte le console e gli account che vuoi."
+            "Gli acquisti seguono l'account Google, non il telefono. All'avvio l'app verifica con Google Play e sblocca Pro da sola, purché Google Play su questo telefono usi l'account con cui hai acquistato. Se non succede, apri Impostazioni → Passa a Pro e tocca «Ripristina acquisto». Se Google Play non è raggiungibile, l'app te lo dice subito; controlla la connessione e di aver eseguito l'accesso a Google Play, poi riprova."
+          ]
+        },
+        {
+          "id": "purchase_pending_failed",
+          "q": "Ho pagato, ma Pro non è ancora sbloccato.",
+          "a": [
+            "Alcuni metodi di pagamento, come il pagamento in contanti in un negozio, restano in sospeso finché il pagamento non viene confermato. Pro si sblocca appena Google Play lo conferma: subito se l'app è aperta, altrimenti al prossimo avvio. Se l'acquisto non è riuscito, controlla il metodo di pagamento in Google Play e riprova più tardi."
+          ]
+        },
+        {
+          "id": "legacy_paid_locked",
+          "q": "Ho comprato l'app quando era a pagamento e ora alcune funzioni sono bloccate.",
+          "a": [
+            "Tutto quello che avevi resta tuo. Di solito succede dopo aver cancellato i dati dell'app o dopo averla reinstallata su un telefono nuovo, perché si azzera la data di installazione che l'app usa per riconoscerti. Scrivici indicando il numero d'ordine della ricevuta di Google Play dell'app stessa e ti inviamo un codice promozionale che sblocca di nuovo tutto."
           ]
         },
         {
@@ -623,13 +790,6 @@
           "q": "Come chiedo un rimborso?",
           "a": [
             "Entro 48 ore dall'acquisto chiedi tu il rimborso dalla cronologia ordini di Google Play: è la via più veloce. Dopo, scrivici entro 7 giorni dall'acquisto e ti rimborsiamo senza chiederti il motivo. Indica il numero d'ordine della ricevuta di Google Play, così troviamo l'acquisto."
-          ]
-        },
-        {
-          "id": "paid_bought_before_sale",
-          "q": "Ho pagato il prezzo pieno poco prima dell'inizio di un'offerta.",
-          "a": [
-            "Scrivici. Entro 48 ore dall'acquisto la via più veloce è chiedere tu il rimborso dalla cronologia ordini di Google Play e riacquistare al prezzo in offerta. Dopo, scrivici indicando il numero d'ordine della ricevuta di Google Play e ti rimborsiamo la differenza."
           ]
         }
       ]
@@ -649,7 +809,7 @@
           "id": "android_tv",
           "q": "Esiste una versione per Android TV?",
           "a": [
-            "Sì, la stessa app si installa su Android TV e Google TV. Apri lo store sulla TV con lo stesso account Google usato per l'acquisto e si installa senza costi aggiuntivi. Per giocare la TV ha bisogno di un controller Bluetooth o USB; il telecomando serve solo a muoversi nei menu. Durante lo streaming, premi OK o Menu sul telecomando, oppure tieni premuti insieme L1, R1, L3 e R3 sul controller, per aprire il pannello rapido."
+            "Sì, la stessa app si installa su Android TV e Google TV, e lo streaming sulla TV è gratuito. Per giocare la TV ha bisogno di un controller Bluetooth o USB; il telecomando serve solo a muoversi nei menu. Durante lo streaming, premi OK o Menu sul telecomando, oppure tieni premuti insieme L1, R1, L3 e R3 sul controller, per aprire il pannello rapido."
           ]
         },
         {
@@ -690,5 +850,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

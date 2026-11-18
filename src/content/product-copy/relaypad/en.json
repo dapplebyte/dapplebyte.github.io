@@ -1,89 +1,86 @@
 {
   "slug": "relaypad",
   "locale": "en",
-  "title": "Relaypad: Remote Play & Pad",
-  "shortDescription": "No ads, no subscription. PS5 & PS4 controller, console streaming and TV output.",
+  "title": "Relaypad: Remote Play & Live",
+  "shortDescription": "Stream PS5 & PS4 games to Twitch, YouTube, Kick, TikTok. No PC or capture card.",
   "requires": "Requires a PS5 or PS4 console with Remote Play turned on in its settings.",
-  "tagline": "Relaypad turns your Android phone into a wireless controller for your console, or streams the console picture to your phone, tablet or TV, at home or away.",
+  "tagline": "Relaypad connects your Android phone to your own console and sends the game live to Twitch, YouTube, Kick, TikTok or any RTMP server. It is also a Remote Play client and controller, at home or away.",
   "sections": [
     {
       "id": "intro",
-      "title": "Remote Play Controller and Console Streaming for PS5 and PS4",
+      "title": "Live Stream PS5 and PS4 Games With No PC and No Capture Card",
       "paragraphs": [
-        "Relaypad turns your Android phone into a wireless controller for your console, or streams the console picture to your phone, tablet or TV, at home or away."
+        "Relaypad connects your Android phone to your own console and sends the game live to Twitch, YouTube, Kick, TikTok or any RTMP server. It is also a Remote Play client and controller, at home or away."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "What People Use Relaypad For",
+      "title": "No Screen Recording: Only the Game Goes Live",
       "paragraphs": [],
       "bullets": [
-        "Playing when the controller battery just died",
-        "Browsing console menus and video apps with big remote keys",
-        "Playing in bed or another room while the console stays by the TV",
-        "Putting the picture on a hotel TV over HDMI, with the phone as the pad"
+        "Viewers get the game picture and sound, never your on-screen buttons, panels or notifications",
+        "Game audio and mic mixed separately; one tap hides and mutes the game"
       ]
     },
     {
       "id": "virtual-gamepad",
-      "title": "Virtual Gamepad, Layout Editor and Button Mapping",
+      "title": "Console Streaming Setup Without a PC",
       "paragraphs": [],
       "bullets": [
-        "Five layouts: Standard, Compact, Remote, Fighting and Racing",
-        "Drag, resize or hide any button, and use your own layouts while streaming",
-        "Touchpad, rumble, microphone and gyro motion controls",
-        "Forward a Bluetooth or USB gamepad with automatic button mapping",
-        "USB pads while streaming: adaptive triggers, light bar and haptics"
+        "Live mode: stand the phone by the TV and it streams while you play on the big screen",
+        "Pair your controller with the phone over Bluetooth or USB",
+        "Or play on the phone and stream at the same time"
       ]
     },
     {
       "id": "console-streaming",
-      "title": "Console Streaming up to 1080p60 with HEVC and HDR",
+      "title": "Twitch, YouTube, Kick, TikTok or Custom RTMP",
       "paragraphs": [],
       "bullets": [
-        "30 or 60 fps up to 1080p, manual bitrate, HEVC and HDR on supported phones",
-        "FSR sharpening and an overlay with fps, packet loss and total latency",
-        "TV output over HDMI, picture-in-picture, split layout on tablets and foldables",
-        "Minimal mode, Fit, Stretch or Zoom scaling, auto reconnect on home Wi-Fi",
-        "Data saver drops to 720p/30fps on mobile data"
+        "Twitch, YouTube, Kick, TikTok LIVE, Facebook and more: paste a stream key, with a guide for each",
+        "Key on your computer? Scan it as a QR code instead of typing it",
+        "Up to 1080p60, with auto reconnect, adaptive bitrate and MP4 recording"
       ]
     },
     {
       "id": "remote-play-away",
-      "title": "Remote Play Away From Home over Mobile Data",
-      "paragraphs": [],
+      "title": "Relaypad Pro: Facecam, Vertical 9:16 and Multistream",
+      "paragraphs": [
+        "Free streams go to one platform and carry a small Relaypad watermark. Pro adds:"
+      ],
       "bullets": [
-        "Sign in once, then connect over 5G, 4G or another Wi-Fi, usually with no router setup",
-        "Automatic UPnP port mapping, and home VPNs such as Tailscale work too",
-        "Tells you when your carrier's shared address (CGNAT) blocks the connection"
+        "Facecam from the phone camera, front or back",
+        "Vertical 9:16 layouts, picked automatically for vertical platforms",
+        "Two platforms at once, or landscape and vertical together",
+        "Instant replay of the last 30 seconds",
+        "No watermark"
       ]
     },
     {
       "id": "connection-doctor",
-      "title": "Connection Doctor: Find Out Why It Won't Connect",
+      "title": "Free Remote Play Controller, Up to 1080p60 on Your Phone",
       "paragraphs": [],
       "bullets": [
-        "13 checks: network, console standby, Remote Play switch, latency and jitter",
-        "Wi-Fi band, VPN, Bluetooth interference, UPnP, NAT type and public IPv4",
-        "Copy the report or email it to us with one tap"
+        "Phone or tablet, with HEVC and HDR where supported",
+        "Away from home over 5G, 4G or another Wi-Fi, usually with no router setup",
+        "Virtual gamepad with five layouts, or forward a Bluetooth or USB pad",
+        "HDMI out to a TV, picture-in-picture and FSR sharpening"
       ]
     },
     {
       "id": "guided-setup",
-      "title": "Guided Setup in Four Steps",
-      "paragraphs": [],
-      "bullets": [
-        "Sign in inside the app or in your browser (passkeys work), or type your account ID",
-        "PS5: register without a PIN, even in rest mode; or pair with the 8-digit code",
-        "Save several consoles and accounts, rename or re-pair any time"
-      ]
+      "title": "Remote Play Not Working? Connection Doctor Finds Out Why",
+      "paragraphs": [
+        "18 checks for network, console standby, Wi-Fi band, latency and NAT type, with a report you can email to us."
+      ],
+      "bullets": []
     },
     {
       "id": "pricing",
-      "title": "No Ads, No Subscription",
+      "title": "Free to Download, No Ads",
       "paragraphs": [
-        "Relaypad shows no ads and has no subscription. Reinstall it on a new phone with the same Google account at no extra cost. If it does not work with your setup, email us within 7 days of purchase for a refund."
+        "Remote Play, the controller and live streaming at up to 1080p60 cost nothing. No ads, no time limit."
       ],
       "bullets": []
     },
@@ -91,26 +88,28 @@
       "id": "privacy",
       "title": "Privacy",
       "paragraphs": [
-        "No Relaypad account and no Relaypad server between you and your console. Pairing keys and sign-in tokens stay on your device, encrypted with the Android Keystore. Anonymous statistics can be turned off."
+        "No Relaypad account or server in between: the stream goes straight from your phone to the platform you pick. Stream keys stay on your device, encrypted. Anonymous statistics can be turned off."
       ],
       "bullets": []
     },
     {
       "id": "before-you-buy",
-      "title": "Before You Buy",
+      "title": "Before You Install",
       "paragraphs": [],
       "bullets": [
         "You need your own console; no games or cloud gaming are included",
-        "Android 8.0 or later; 4 GB of RAM and 5 GHz Wi-Fi recommended",
-        "Your phone takes the place of a controller rather than playing alongside one",
-        "After a console system update, Relaypad may need an update to connect again"
+        "Streams use the console's remote picture (up to 1080p, no HDR), so a capture card is still sharper",
+        "To play on the TV while streaming, the controller connects to the phone, not the console",
+        "Live streams stop if you leave Relaypad or lock the screen (picture-in-picture is OK)",
+        "TikTok and some platforms give stream keys only to eligible accounts, with a new key per stream",
+        "Android 8.0 or later; a console system update may require a Relaypad update"
       ]
     },
     {
       "id": "support",
       "title": "Something Not Working? Email Us",
       "paragraphs": [
-        "Before leaving a review, write to feedback@dapplebyte.com, or use Settings → About → Send feedback to include your phone model automatically. We read every message."
+        "Before leaving a review, write to feedback@dapplebyte.com or use Settings → About → Send feedback."
       ],
       "bullets": []
     },
@@ -118,10 +117,10 @@
       "id": "trademark",
       "title": "Trademark Notice",
       "paragraphs": [
-        "PlayStation®, PS4® and PS5® are trademarks of Sony Interactive Entertainment Inc. Relaypad is an independent Remote Play client, not affiliated with, authorised by or endorsed by Sony. It works only with hardware and content you own, and does not circumvent copy protection or enable piracy."
+        "PlayStation®, PS4® and PS5® are trademarks of Sony Interactive Entertainment Inc. Relaypad is an independent Remote Play client, not affiliated with, authorized by or endorsed by Sony. Twitch, YouTube, Kick and TikTok are trademarks of their owners; Relaypad is not affiliated with them. It works only with hardware and content you own, and does not circumvent copy protection or enable piracy."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

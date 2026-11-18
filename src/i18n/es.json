@@ -571,9 +571,9 @@
         "refundBody": "Si {name} no funciona con tu configuración, escríbenos en los 7 días siguientes a la compra y te devolvemos el dinero. Cuéntanos qué has probado; nos ayuda a arreglarlo para la próxima persona."
       },
       "press": {
-        "description": "Datos, recursos y un texto de presentación para escribir sobre {name}, el mando de Remote Play y app de transmisión de la consola para Android.",
-        "boilerplate": "{name} convierte un teléfono Android en un mando inalámbrico para PS5 o PS4, o transmite la imagen de la consola al teléfono, a una tablet o a una TV, en casa o fuera de ella con datos móviles. La hace DappleByte, un estudio independiente, y se publica como código abierto bajo la AGPL-3.0.",
-        "priceValue": "App de pago, pago único, sin suscripción y sin anuncios. El precio actual aparece en Google Play.",
+        "description": "Datos, recursos y un texto de presentación para escribir sobre {name}, la app de Android para hacer directos desde PS5 o PS4, usar el mando de Remote Play y transmitir la consola.",
+        "boilerplate": "{name} permite que un teléfono Android emita en directo los juegos de una PS5 o PS4 en Twitch, YouTube, Kick, TikTok o cualquier servidor RTMP, sin ordenador ni capturadora. También funciona como mando inalámbrico y transmite la imagen de la consola al teléfono, a una tablet o a una TV, en casa o fuera de ella con datos móviles. La hace DappleByte, un estudio independiente, y se publica como código abierto bajo la AGPL-3.0.",
+        "priceValue": "Descarga gratuita y sin anuncios. Pro es una compra dentro de la app que quita la marca de agua del directo y añade la ventana de cámara, diseños verticales, emitir en dos plataformas a la vez y repetición instantánea. El precio actual aparece en Google Play.",
         "assetScreenshots": "Capturas de pantalla, PNG de 1920 × 1080, en inglés"
       },
       "videosDescription": "Vídeos cortos de {name} en un teléfono real: configuración, transmisión, diseños del mando y cómo resolver problemas de conexión.",

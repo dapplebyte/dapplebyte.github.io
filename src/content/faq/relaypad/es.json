@@ -268,6 +268,159 @@
       ]
     },
     {
+      "id": "live",
+      "title": "Directos",
+      "entries": [
+        {
+          "id": "live_what_needed",
+          "q": "¿Qué necesito para emitir en directo?",
+          "a": [
+            "Tu propia consola, ya configurada en esta app, y una cuenta en la plataforma en la que quieras emitir. Sin ordenador y sin capturadora. Toca «Emitir en directo» en la tarjeta de la consola y sigue los pasos: cómo vas a jugar, dónde emites, conectar la plataforma y una última comprobación. Si ya estás jugando, abre el panel rápido y toca ahí «Emitir en directo». Mientras estás en directo, toca el indicador de la esquina para abrir el panel del directo."
+          ]
+        },
+        {
+          "id": "live_platforms",
+          "q": "¿En qué plataformas puedo emitir?",
+          "a": [
+            "Twitch, YouTube y Kick, además de TikTok LIVE, Facebook, Instagram, X, Rumble, Telegram, Bilibili, Huya, Douyu, TwitCasting, niconico, SOOP, CHZZK y VK Video Live. Los servicios multistream como Restream y Castr reenvían un mismo directo a muchas más plataformas, y «Servidor personalizado» acepta cualquier dirección RTMP o RTMPS. Las plataformas marcadas con «Requisitos» solo dejan emitir a algunas cuentas; elige una para ver qué pide."
+          ]
+        },
+        {
+          "id": "live_no_pc_quality",
+          "q": "¿De verdad funciona sin ordenador ni capturadora? ¿Qué tal se ve?",
+          "a": [
+            "Sí. El teléfono hace las dos cosas: recibe el juego de la consola, añade lo que pongas encima y envía el resultado a la plataforma. La imagen parte de lo que envía Remote Play, como mucho 1080p sin HDR y ya comprimida una vez por la consola, así que con una capturadora se verá más nítida. Para conseguir el mejor resultado, transmite la consola a 1080p por el Wi-Fi de casa. Si la transmisión de la consola usa HDR cuando empiezas el directo, los colores del directo pueden verse apagados, así que desactiva HDR en Ajustes → Calidad de imagen y vuelve a conectar."
+          ]
+        },
+        {
+          "id": "live_capture_mode",
+          "q": "¿Qué es el «Modo directo» y dónde conecto el mando?",
+          "a": [
+            "Sirve para jugar en el televisor mientras el teléfono se encarga de emitir, como una capturadora. Elige «En el televisor» en el primer paso. El teléfono muestra entonces lo que ven los espectadores, sin mando en pantalla y sin sonido del juego, porque ya lo reproduce el televisor. Conecta tu mando al teléfono por Bluetooth o USB, que es lo más estable, y juega mirando el televisor. Un mando conectado directamente a la consola no puede jugar a la vez: la consola lo trata como otro usuario, y los dos acaban quitándose el control el uno al otro. Con auriculares, o con el teléfono lejos de los altavoces del televisor, el sonido de la tele no entra en tu micrófono."
+          ]
+        },
+        {
+          "id": "live_stream_key",
+          "q": "¿Dónde consigo la URL del servidor y la clave de transmisión?",
+          "a": [
+            "Después de elegir una plataforma, el paso de conexión tiene «Dónde encontrar tu clave de transmisión»: toca «Ver pasos» para ver las instrucciones de esa plataforma, o el botón de debajo para abrir su página. Copia la clave de transmisión, y también la URL del servidor si la plataforma te da una. Cuando tienes una dirección o una clave en el portapapeles, la app te ofrece usarla y separa una dirección completa en las dos casillas. En Twitch y YouTube puede que aparezca en su lugar un botón «Iniciar sesión con», y entonces la clave se obtiene sola. Las claves se guardan cifradas en este teléfono; cámbialas o elimínalas en Ajustes → Destinos."
+          ]
+        },
+        {
+          "id": "live_key_rejected",
+          "q": "Dice que la plataforma ha rechazado la clave de transmisión.",
+          "a": [
+            "Puede que la clave esté mal escrita, haya caducado o se haya sustituido por otra más nueva, o que la cuenta todavía no tenga permiso para emitir. Copia una clave nueva de la plataforma y pégala en Ajustes → Destinos → «Cambiar clave». Si la clave es correcta, revisa los requisitos de la plataforma: Twitch solo muestra la clave después de activar la autenticación en dos pasos, un canal de YouTube tiene que estar verificado y la primera vez puede tardar hasta 24 horas, y TikTok y Facebook piden un mínimo de seguidores. Si la plataforma termina un directo que ya estaba en marcha, puede que la misma clave esté emitiendo en otro sitio."
+          ]
+        },
+        {
+          "id": "live_tiktok_key",
+          "q": "TikTok no me da una clave de transmisión. ¿Y ahora qué?",
+          "a": [
+            "TikTok decide qué cuentas la reciben: tienes que tener 18 años o más y normalmente al menos 1000 seguidores, y aun así no está garantizado. Cuando tu cuenta la tenga, la clave está en el LIVE Center de TikTok en un ordenador, después de poner un título y una categoría. TikTok suele dar una clave nueva en cada directo, así que la app te pide que pegues la nueva cada vez que emites; Instagram, Bilibili y Douyu funcionan igual. Instagram pide además 1000 seguidores en una cuenta pública, y Bilibili, 5000 seguidores con verificación de identidad real."
+          ]
+        },
+        {
+          "id": "live_mic_voice",
+          "q": "¿Los espectadores oyen mi micrófono y a mis compañeros de equipo?",
+          "a": [
+            "Tu micrófono solo sale en el directo cuando lo activas, con «Micro» en la parte superior del panel del directo o con «Micrófono en el directo» en la pestaña «Audio»; empieza desactivado. Eso es independiente del chat de voz con la consola, que es la tecla MIC del mando en pantalla, así que puedes hablar con los espectadores, con tus compañeros, con ambos o con nadie. Tus compañeros solo salen en el directo si la consola mezcla sus voces en el sonido del juego que envía a este teléfono: lo que oyes desde el teléfono en una transmisión normal es lo que oyen los espectadores."
+          ]
+        },
+        {
+          "id": "live_viewers_see",
+          "q": "¿Los espectadores verán mis notificaciones o los botones de la pantalla?",
+          "a": [
+            "No. El directo se forma con la imagen y el sonido del juego que envía la consola, más tu cámara, las tarjetas de escena y la pequeña marca de la esquina cuando están activadas. El mando en pantalla, el panel rápido, el panel del directo y su indicador, las notificaciones y todo lo demás de tu teléfono nunca llegan al directo. Para tapar el juego un momento, por ejemplo mientras escribes una contraseña en la consola, toca «Ocultar» en la parte superior del panel del directo: la imagen y el sonido del juego se sustituyen por una tarjeta hasta que vuelvas a tocarlo."
+          ]
+        },
+        {
+          "id": "live_camera",
+          "q": "¿Cómo añado mi cámara?",
+          "a": [
+            "Abre el panel del directo y, en la pestaña «Escena», activa «Mostrar mi cámara» en «Cámara». Elige un diseño que le deje sitio, como «Cámara en esquina» o «Barra lateral»; «Pantalla completa» no tiene. Arrastra el recuadro para mover la cámara y se ajustará a la esquina más cercana; en la misma pestaña puedes elegir cámara frontal o trasera, espejo, forma, borde y tamaño. La app pide acceso a la cámara la primera vez, y todo lo demás sigue funcionando si dices que no."
+          ]
+        },
+        {
+          "id": "live_vertical",
+          "q": "¿Cómo emito en vertical?",
+          "a": [
+            "En el último paso antes de emitir, pon «Formato» en «Vertical 9:16». Los diseños verticales de la pestaña «Escena» son «Centrado», con el juego en medio sobre un fondo desenfocado; «Apilado», con el juego arriba y sitio para la cámara debajo; y «Llenar», con el juego recortado para llenar la pantalla. Si eliges una plataforma que se ve en vertical, como TikTok o Instagram, se cambia sola a vertical cuando es posible."
+          ]
+        },
+        {
+          "id": "live_two_platforms",
+          "q": "¿Puedo emitir en dos plataformas a la vez?",
+          "a": [
+            "Sí. El mismo directo puede ir a dos plataformas, y además puedes enviar una copia en el otro formato a una tercera, por ejemplo en horizontal a Twitch y YouTube y en vertical a TikTok. Configúralo en «Emitir también en», en el último paso antes de emitir. Todas las emisiones salen de tu teléfono, así que cada una necesita su parte de la velocidad de subida, y un segundo formato también hace trabajar más al teléfono. Si un destino falla, los demás siguen en directo. Para llegar a más plataformas, emite una sola vez a un servicio multistream como Restream y conecta allí tus plataformas."
+          ]
+        },
+        {
+          "id": "live_stutter",
+          "q": "El directo va a tirones o se corta todo el rato.",
+          "a": [
+            "La causa habitual es la velocidad de subida, porque el directo sale por el mismo Wi-Fi por el que entra el juego. Cuando la subida va justa, la app baja primero la tasa de bits y luego la frecuencia de fotogramas, y las vuelve a subir cuando se recupera; durante un directo no cambia la resolución. Si se corta la conexión, se reconecta sola y la grabación sigue. Emite desde el Wi-Fi de casa, mejor a 5 GHz y cerca del router, elige una calidad más baja antes de empezar y mira la pestaña «Estado» del panel del directo para ver qué está pasando. Con datos móviles o jugando fuera de casa funciona, pero la imagen se resiente."
+          ]
+        },
+        {
+          "id": "live_phone_hot",
+          "q": "El teléfono se calienta mientras estoy en directo.",
+          "a": [
+            "Recibir el juego, montar el directo y codificarlo a la vez es mucho trabajo para un teléfono. A medida que se calienta, la app va bajando por sí sola: primero la frecuencia de fotogramas, luego la cámara a 15 fps, después apaga la cámara y, por último, la segunda versión si la hay, y la pestaña «Estado» te dice por qué. La resolución no cambia durante un directo, así que si el teléfono sigue muy caliente, empieza a 720p30 la próxima vez. Quítale la funda y déjalo al aire; en el «Modo directo», «Pantalla en negro» también ayuda."
+          ]
+        },
+        {
+          "id": "live_screen_off",
+          "q": "¿Puedo apagar la pantalla o cambiar de app mientras estoy en directo?",
+          "a": [
+            "No. El directo funciona en la pantalla de la transmisión. Con «Imagen en imagen» activado en Ajustes, al salir de la app el juego se reduce a una ventana pequeña y el directo sigue. Si la pantalla de la transmisión deja de verse durante más de unos 15 segundos, por ejemplo detrás de otra app o con la pantalla apagada, el directo se detiene, y salir de la pantalla de la transmisión lo termina al momento. En el «Modo directo», «Pantalla en negro» pone la pantalla en negro y baja el brillo mientras el directo sigue; toca en cualquier sitio para volver."
+          ]
+        },
+        {
+          "id": "live_console_drop",
+          "q": "¿Qué pasa si la consola se desconecta mientras estoy en directo?",
+          "a": [
+            "El directo sigue y los espectadores ven la tarjeta «Vuelvo enseguida». Cuando vuelve la conexión con la consola, el juego vuelve solo; tras unos 3 minutos sin ella, el directo termina. Esto solo pasa cuando la conexión se corta sola: si terminas tú la sesión, también termina el directo. También puedes mostrar la tarjeta tú mismo con «BRB» en la parte superior del panel del directo."
+          ]
+        },
+        {
+          "id": "live_blocked_card",
+          "q": "Los espectadores ven una tarjeta que dice que esta parte no se puede mostrar en directo.",
+          "a": [
+            "Algunos juegos y pantallas de la consola no permiten la visualización remota, así que la consola deja de enviar su imagen. En lugar de una imagen negra o congelada, los espectadores ven esa tarjeta, y el juego vuelve solo en cuanto la consola lo envía de nuevo. Ningún ajuste lo cambia; depende del juego."
+          ]
+        },
+        {
+          "id": "live_recordings",
+          "q": "¿Dónde se guardan mis grabaciones?",
+          "a": [
+            "Activa «Guardar también un vídeo en este teléfono» en el último paso antes de emitir, o elige «Solo grabar, sin emitir». En Android 10 y versiones posteriores, el vídeo terminado va a Movies/Relaypad, así que aparece en tu galería y en tu gestor de archivos. En versiones anteriores se queda en la carpeta propia de la app, Android/data/com.relaypad.remoteplay.app/files/Movies, y se borra al desinstalar la app. El resumen que aparece después del directo tiene «Abrir» y «Compartir» para el vídeo."
+          ]
+        },
+        {
+          "id": "live_watermark",
+          "q": "¿Puedo mover o quitar la marca de la esquina del directo?",
+          "a": [
+            "Puedes moverla, pero para quitarla necesitas Pro. Todos los directos llevan una pequeña marca de Relaypad en una esquina, desde el primero. Elige cualquiera de las cuatro esquinas en «Marca de agua», en la pestaña «Escena» del panel del directo; al principio está arriba a la derecha. Con Pro, desactiva «Mostrar marca de agua» en el mismo sitio."
+          ]
+        },
+        {
+          "id": "live_pro_trial",
+          "q": "¿Qué incluyen los directos de prueba de Pro y qué pasa después?",
+          "a": [
+            "En tus primeros directos puedes usar la ventana de cámara, el formato vertical 9:16, una segunda plataforma y la repetición instantánea, y el panel del directo muestra cuántos directos de prueba te quedan; un directo de menos de 5 minutos no cuenta. La prueba no quita la marca de agua de la esquina. Después puedes seguir emitiendo gratis sin límite de tiempo, en una plataforma hasta 1080p60 y con grabación; el resto necesita Pro y se enumera en «¿Qué añade Pro?». Tu cámara, tu diseño y el resto de ajustes se conservan, así que al comprar Pro vuelven al momento."
+          ]
+        },
+        {
+          "id": "live_console_broadcast",
+          "q": "¿Puedo usar a la vez la función de emisión de la propia consola?",
+          "a": [
+            "Normalmente no: la consola no suele emitir mientras hay una sesión de Remote Play en marcha, y esta app nunca toca esa función. Tampoco te hace falta, porque el teléfono emite por su cuenta y en más plataformas de las que ofrece la consola."
+          ]
+        }
+      ]
+    },
+    {
       "id": "quality",
       "title": "Transmisión e imagen",
       "entries": [
@@ -276,13 +429,6 @@
           "q": "¿Dónde están los controles durante la transmisión?",
           "a": [
             "La barra superior desaparece a los pocos segundos. Toca una zona vacía de la imagen para que vuelva: el icono de los controles deslizantes abre el panel rápido, y «Mantén pulsado para salir» termina la transmisión. Una pulsación larga en una zona vacía también abre el panel rápido."
-          ]
-        },
-        {
-          "id": "free_720p",
-          "q": "¿Qué límites tiene la versión gratuita?",
-          "a": [
-            "Transmitir en tu red doméstica hasta 720p y 30 fps con H.264, sin límite de tiempo y sin anuncios. El tope se aplica cada vez que empieza una sesión. El modo mando es gratis por completo y no tiene ningún tope. Transmitir en Android TV necesita Pro."
           ]
         },
         {
@@ -346,6 +492,13 @@
           "q": "No puedo elegir HEVC o HDR, o la transmisión usa H.264 en su lugar.",
           "a": [
             "HEVC necesita un decodificador compatible en este teléfono, y HDR, una pantalla que lo admita; la página de calidad explica por qué una opción no está disponible. Si al empezar una transmisión el teléfono no puede decodificar el formato, la transmisión cambia sola a H.264 o SDR y te avisa."
+          ]
+        },
+        {
+          "id": "ps4_hevc",
+          "q": "¿HEVC o HDR funcionan con una PS4?",
+          "a": [
+            "No. Todas las PS4, incluidas la Slim y la Pro, solo envían H.264; HEVC y HDR son funciones de PS5. El ajuste de códec se aplica a todas tus consolas: en una PS5 se usa tal cual, y una transmisión a una PS4 cambia sola a H.264 y te avisa, así que puedes dejar HEVC activado si también tienes una PS5."
           ]
         },
         {
@@ -588,34 +741,48 @@
     },
     {
       "id": "purchase",
-      "title": "Compra y reembolsos",
+      "title": "Pro, compras y reembolsos",
       "entries": [
         {
-          "id": "paid_not_subscription",
-          "q": "¿Esto es una suscripción?",
+          "id": "controller_free",
+          "q": "¿Hay que pagar para usar el teléfono como mando?",
           "a": [
-            "No. Compras la app una vez en Google Play y ya está: sin suscripciones, sin compras dentro de la app, sin anuncios y sin ninguna función que luego te pida un segundo pago. La compra va ligada a tu cuenta de Google, no al teléfono."
+            "No. El modo mando es gratis por completo, sin límite de tiempo y sin anuncios: mando en pantalla, editor de diseños, mandos físicos, asignación de botones, vibración, sensor de movimiento, panel táctil, micrófono, encender y poner en reposo la consola, y tantas consolas y cuentas como quieras. Nada en el modo mando te pide una compra."
           ]
         },
         {
-          "id": "paid_promo_forever",
-          "q": "La instalé durante una promoción gratuita. ¿Se bloquearán funciones más adelante?",
+          "id": "pro_not_subscription",
+          "q": "¿Pro es una suscripción?",
           "a": [
-            "No. Instalarla durante una promoción cuenta como comprar la app a ese precio, así que es tuya para siempre y con todas las funciones. Sigue igual cuando la promoción termina, y la misma cuenta de Google puede volver a instalarla en un teléfono nuevo sin pagar nada."
+            "Pro es actualmente una compra única ligada a tu cuenta de Google. Pagas una vez por las funciones Pro disponibles en el momento de la compra, sin cobros por directo, y lo que pagas es el precio que muestra la ventana de pago de Google Play. Si se reembolsa una compra, Pro se retira la próxima vez que la app lo compruebe con Google Play."
           ]
         },
         {
-          "id": "paid_reinstall",
-          "q": "¿Cómo la instalo en un teléfono nuevo?",
+          "id": "pro_contents",
+          "q": "¿Qué añade Pro?",
           "a": [
-            "Abre la ficha de la tienda con la misma cuenta de Google con la que compraste y verás «Instalar» en lugar de un precio. Las consolas no se trasladan, así que vuelve a emparejar cada consola en el teléfono nuevo; las claves de emparejamiento se quedan en el teléfono en el que se crearon."
+            "Pro añade al directo: la ventana de cámara y los diseños que le hacen sitio, diseños verticales 9:16, dos plataformas a la vez y además una copia en el otro formato para una tercera, repetición instantánea de los últimos 30 segundos y quitar la marca de agua de la esquina. En tus primeros directos puedes probarlo todo salvo quitar la marca de agua. Todo lo demás es gratis: el modo mando entero, la transmisión hasta 1080p y 60 fps con HEVC y HDR, jugar desde fuera de tu red doméstica, Android TV, imagen en imagen, el diagnóstico de conexión y emitir en directo en una plataforma hasta 1080p60 sin límite de tiempo, con tasa de bits manual y grabación incluidas."
           ]
         },
         {
-          "id": "paid_included",
-          "q": "¿Qué incluye?",
+          "id": "pro_restore",
+          "q": "Cambié de teléfono y Pro ha desaparecido.",
           "a": [
-            "Todo, desde el primer arranque: transmisión a 1080p y 60 fps, tasa de bits manual, HEVC y HDR, nitidez FSR y superposición de rendimiento, jugar desde fuera de tu red doméstica, transmitir en Android TV, imagen en imagen y el juego en el televisor con el teléfono de mando. También están el modo mando, el diagnóstico de conexión, el widget «Acceso a la consola» y todas las consolas y cuentas que quieras."
+            "Las compras van con la cuenta de Google, no con el teléfono. Al iniciarse, la app lo comprueba con Google Play y desbloquea Pro por sí sola, siempre que Google Play use en este teléfono la cuenta con la que compraste. Si no ocurre, abre Ajustes → Consigue Pro y toca «Restaurar compra». Si no se puede contactar con Google Play, la app te lo dice directamente; revisa la conexión y que Google Play tenga la sesión iniciada, y vuelve a intentarlo."
+          ]
+        },
+        {
+          "id": "purchase_pending_failed",
+          "q": "He pagado, pero Pro todavía no se ha desbloqueado.",
+          "a": [
+            "Algunos métodos de pago, como pagar en efectivo en una tienda, quedan pendientes hasta que se confirma el pago. Pro se desbloquea en cuanto Google Play lo confirma: al momento si la app está abierta, o la próxima vez que la abras. Si la compra falló, revisa el método de pago en Google Play y vuelve a intentarlo más tarde."
+          ]
+        },
+        {
+          "id": "legacy_paid_locked",
+          "q": "Compré la app cuando era de pago y ahora algunas funciones están bloqueadas.",
+          "a": [
+            "Todo lo que tenías sigue siendo tuyo. Esto suele pasar después de borrar los datos de la app o de reinstalarla en un teléfono nuevo, porque se reinicia la fecha de instalación que la app usa para reconocerte. Escríbenos con el número de pedido del recibo de Google Play de la app en sí y te enviamos un código promocional que lo desbloquea todo de nuevo."
           ]
         },
         {
@@ -623,13 +790,6 @@
           "q": "¿Cómo pido un reembolso?",
           "a": [
             "Dentro de las 48 horas siguientes a la compra, pide tú mismo el reembolso desde tu historial de pedidos de Google Play, que es lo más rápido. Pasado ese plazo, escríbenos dentro de los 7 días siguientes a la compra y te devolvemos el dinero sin hacer preguntas. Añade el número de pedido del recibo de Google Play para que podamos localizar la compra."
-          ]
-        },
-        {
-          "id": "paid_bought_before_sale",
-          "q": "Pagué el precio completo justo antes de que empezara una oferta.",
-          "a": [
-            "Escríbenos. Dentro de las 48 horas siguientes a la compra, lo más rápido es pedir tú mismo el reembolso desde tu historial de pedidos de Google Play y volver a comprarla al precio de oferta. Pasado ese plazo, escríbenos con el número de pedido del recibo de Google Play y te devolvemos la diferencia."
           ]
         }
       ]
@@ -649,7 +809,7 @@
           "id": "android_tv",
           "q": "¿Hay versión para Android TV?",
           "a": [
-            "Sí, la misma app se instala en Android TV y Google TV. Abre la tienda en el televisor con la misma cuenta de Google con la que compraste y se instala sin coste adicional. Para jugar, el televisor necesita un mando Bluetooth o USB; el mando a distancia solo sirve para moverse por los menús. Durante una transmisión, pulsa OK o Menú en el mando a distancia, o mantén L1, R1, L3 y R3 a la vez en el mando, para abrir el panel rápido."
+            "Sí, la misma app se instala en Android TV y Google TV, y transmitir en el televisor es gratis. Para jugar, el televisor necesita un mando Bluetooth o USB; el mando a distancia solo sirve para moverse por los menús. Durante una transmisión, pulsa OK o Menú en el mando a distancia, o mantén L1, R1, L3 y R3 a la vez en el mando, para abrir el panel rápido."
           ]
         },
         {
@@ -690,5 +850,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

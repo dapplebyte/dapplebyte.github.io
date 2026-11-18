@@ -3,6 +3,17 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "Mới: Phát trực tiếp. Stream game PS5 hoặc PS4 lên Twitch, YouTube, Kick, TikTok hoặc bất kỳ máy chủ RTMP nào, không cần PC hay card capture",
+        "Chế độ Live: dựng điện thoại cạnh TV, bạn chơi trên màn hình lớn còn điện thoại lo phần phát",
+        "Mới: Trợ lý AI (dùng API key của bạn): nhấn giữ màn hình stream để tìm hướng dẫn game, ra lệnh bằng giọng nói và mô tả màn hình",
+        "Sửa lỗi văng app khi không stream được hình từ máy chơi game, và lỗi màn hình đen khi chọn HEVC trên PS4"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

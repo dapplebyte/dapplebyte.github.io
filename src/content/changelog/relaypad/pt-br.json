@@ -3,6 +3,17 @@
   "locale": "pt-br",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "Novo: \"Ao vivo\". Transmita jogos de PS5 ou PS4 para Twitch, YouTube, Kick, TikTok ou qualquer servidor RTMP, sem PC nem placa de captura",
+        "Modo live: deixe o celular em pé ao lado da TV e jogue na tela grande enquanto ele transmite",
+        "Novo Copiloto de IA (com sua chave de API): toque e segure a transmissão para guias, comandos de voz e descrição da tela",
+        "Corrigido o fechamento do app quando a imagem do console não pode ser transmitida e a tela preta com HEVC no PS4"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

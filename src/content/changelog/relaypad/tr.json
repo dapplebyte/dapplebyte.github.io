@@ -3,6 +3,17 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "Yeni: Yayına başla. PS5 veya PS4 oyunlarını Twitch, YouTube, Kick, TikTok ya da herhangi bir RTMP sunucusunda yayınlayın; PC ya da yakalama kartı gerekmez",
+        "Yayın modu: telefonu TV'nin yanına koyun, siz büyük ekranda oynarken yayını telefon yapsın",
+        "Yeni AI yardımcı pilot (kendi API anahtarınızla): oyun rehberi, sesli komut ve ekran açıklaması için akış ekranına uzun basın",
+        "Konsol görüntüsü aktarılamadığında yaşanan çökme ve PS4'te HEVC ile siyah ekran sorunu düzeltildi"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

@@ -571,9 +571,9 @@
         "refundBody": "Se {name} non funziona con la tua configurazione, scrivici entro 7 giorni dall'acquisto e ti rimborsiamo. Raccontaci cosa hai provato: ci aiuta a sistemare il problema per chi verrà dopo."
       },
       "press": {
-        "description": "Dati, materiali e un testo di presentazione per scrivere di {name}, il controller Remote Play e app di streaming della console per Android.",
-        "boilerplate": "{name} trasforma un telefono Android in un controller wireless per PS5 o PS4, oppure trasmette l'immagine della console sul telefono, su un tablet o su una TV, a casa o fuori casa con i dati mobili. È realizzata da DappleByte, uno studio indipendente, e pubblicata come open source con licenza AGPL-3.0.",
-        "priceValue": "App a pagamento, acquisto singolo, niente abbonamento, niente pubblicità. Il prezzo attuale è indicato su Google Play.",
+        "description": "Dati, materiali e un testo di presentazione per scrivere di {name}, l'app Android per andare in diretta da PS5 o PS4, usare il controller Remote Play e trasmettere la console.",
+        "boilerplate": "{name} permette a un telefono Android di mandare in diretta i giochi di una PS5 o PS4 su Twitch, YouTube, Kick, TikTok o qualsiasi server RTMP, senza computer né scheda di acquisizione. Funziona anche da controller wireless e trasmette l'immagine della console sul telefono, su un tablet o su una TV, a casa o fuori casa con i dati mobili. È realizzata da DappleByte, uno studio indipendente, e pubblicata come open source con licenza AGPL-3.0.",
+        "priceValue": "Download gratuito, niente pubblicità. Pro è un acquisto in-app che permette di disattivare la filigrana della diretta e aggiunge la finestra della fotocamera, i layout verticali, la diretta su due piattaforme insieme e il replay istantaneo. Il prezzo attuale è indicato su Google Play.",
         "assetScreenshots": "Screenshot, PNG da 1920 × 1080, in inglese"
       },
       "videosDescription": "Brevi video di {name} su un telefono vero: configurazione, streaming, layout del pad e soluzione dei problemi di connessione.",

@@ -571,9 +571,9 @@
         "refundBody": "Si {name} ne fonctionne pas avec votre configuration, écrivez-nous dans les 7 jours suivant l'achat et nous vous rembourserons. Dites-nous ce que vous avez essayé : cela nous aide à corriger le problème pour les prochains utilisateurs."
       },
       "press": {
-        "description": "Faits, visuels et texte de présentation pour parler de {name}, l'application Android de manette Remote Play et de streaming de console.",
-        "boilerplate": "{name} transforme un téléphone Android en manette sans fil pour PS5 ou PS4, ou diffuse l'image de la console sur le téléphone, une tablette ou un téléviseur, à la maison comme à l'extérieur via les données mobiles. L'application est développée par DappleByte, un studio indépendant, et publiée en open source sous AGPL-3.0.",
-        "priceValue": "Application payante, achat unique, sans abonnement ni publicité. Le prix actuel est affiché sur Google Play.",
+        "description": "Faits, visuels et texte de présentation pour parler de {name}, l'application Android pour faire des lives depuis une PS5 ou une PS4, jouer avec une manette Remote Play et diffuser la console.",
+        "boilerplate": "{name} permet à un téléphone Android de diffuser en live les jeux d'une PS5 ou d'une PS4 sur Twitch, YouTube, Kick, TikTok ou n'importe quel serveur RTMP, sans ordinateur ni carte d'acquisition. Il sert aussi de manette sans fil et diffuse l'image de la console sur le téléphone, une tablette ou un téléviseur, à la maison comme à l'extérieur via les données mobiles. L'application est développée par DappleByte, un studio indépendant, et publiée en open source sous AGPL-3.0.",
+        "priceValue": "Téléchargement gratuit, sans publicité. Pro est un achat intégré qui permet de désactiver le filigrane du live et ajoute la fenêtre caméra, les dispositions verticales, la diffusion sur deux plateformes à la fois et le replay instantané. Le prix actuel est affiché sur Google Play.",
         "assetScreenshots": "Captures d'écran, PNG 1920 × 1080, en anglais"
       },
       "videosDescription": "De courtes vidéos de {name} sur un vrai téléphone : configuration, streaming, dispositions de la manette et résolution des problèmes de connexion.",

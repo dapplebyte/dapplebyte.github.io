@@ -1,89 +1,86 @@
 {
   "slug": "relaypad",
   "locale": "id",
-  "title": "Relaypad: Remote Play, Gamepad",
-  "shortDescription": "Tanpa iklan, tanpa langganan. Kontroler PS5 & PS4, streaming konsol, HDMI ke TV.",
-  "requires": "Perlu konsol PS5 atau PS4 yang Remote Play-nya sudah diaktifkan di setelan.",
-  "tagline": "Relaypad mengubah ponsel Android menjadi kontroler nirkabel konsol, atau menampilkan gambar konsol di ponsel, tablet, atau TV, di rumah maupun di luar.",
+  "title": "Relaypad: Remote Play & Live",
+  "shortDescription": "Siaran langsung PS5/PS4 ke Twitch, YouTube, Kick, TikTok. Tanpa PC/capture card",
+  "requires": "Perlu konsol PS5 atau PS4 yang Remote Play-nya sudah aktif di setelan konsol.",
+  "tagline": "Relaypad menyambungkan ponsel Android ke konsol Anda sendiri dan menyiarkan game langsung ke Twitch, YouTube, Kick, TikTok, atau server RTMP mana pun. Relaypad juga klien Remote Play dan kontroler, di rumah atau di luar.",
   "sections": [
     {
       "id": "intro",
-      "title": "Kontroler Remote Play dan Streaming Konsol untuk PS5 dan PS4",
+      "title": "Live Streaming Game PS5 dan PS4 Tanpa PC dan Tanpa Capture Card",
       "paragraphs": [
-        "Relaypad mengubah ponsel Android menjadi kontroler nirkabel konsol, atau menampilkan gambar konsol di ponsel, tablet, atau TV, di rumah maupun di luar."
+        "Relaypad menyambungkan ponsel Android ke konsol Anda sendiri dan menyiarkan game langsung ke Twitch, YouTube, Kick, TikTok, atau server RTMP mana pun. Relaypad juga klien Remote Play dan kontroler, di rumah atau di luar."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "Untuk Apa Orang Memakai Relaypad",
+      "title": "Bukan Rekam Layar: Hanya Game yang Tampil di Siaran",
       "paragraphs": [],
       "bullets": [
-        "Main lagi saat baterai stik tiba-tiba habis",
-        "Menjelajahi menu konsol dan aplikasi video dengan tombol remote besar",
-        "Main sambil rebahan di kasur atau dari kamar lain, konsol tetap di dekat TV",
-        "Menampilkan gambar di TV hotel lewat HDMI, dengan ponsel sebagai stik"
+        "Penonton hanya melihat dan mendengar game, bukan tombol layar, panel, atau notifikasi ponsel",
+        "Suara game dan mikrofon dicampur terpisah; sekali ketuk menyembunyikan dan membisukan game"
       ]
     },
     {
       "id": "virtual-gamepad",
-      "title": "Gamepad Virtual, Editor Tata Letak dan Pemetaan Tombol",
+      "title": "Streaming Konsol ke Twitch dan YouTube Tanpa PC",
       "paragraphs": [],
       "bullets": [
-        "Lima tata letak: Standar, Ringkas, Remote, Fighting, dan Balap",
-        "Geser, ubah ukuran, atau sembunyikan tombol apa pun, dan pakai tata letak sendiri saat streaming",
-        "Touchpad, getaran, mikrofon, dan sensor gerak giroskop",
-        "Teruskan gamepad Bluetooth atau USB ke konsol dengan pemetaan tombol otomatis",
-        "Stik USB saat streaming: trigger adaptif, light bar, dan haptik"
+        "Mode Live: taruh ponsel di samping TV, ponsel menyiarkan saat Anda main di layar besar",
+        "Sambungkan kontroler ke ponsel lewat Bluetooth atau USB",
+        "Atau main di ponsel sambil siaran langsung sekaligus"
       ]
     },
     {
       "id": "console-streaming",
-      "title": "Streaming Konsol hingga 1080p60 dengan HEVC dan HDR",
+      "title": "Twitch, YouTube, Kick, TikTok: Stream Key atau RTMP Kustom",
       "paragraphs": [],
       "bullets": [
-        "30 atau 60 fps hingga 1080p, bitrate manual, HEVC dan HDR di ponsel yang mendukung",
-        "Penajaman FSR dan overlay performa berisi fps, packet loss, dan latensi total",
-        "Output TV lewat HDMI, picture-in-picture, tata letak terbagi di tablet dan ponsel lipat",
-        "Mode minimal, skala Pas di layar, Regangkan penuh, atau Perbesar penuh, sambung ulang otomatis di Wi-Fi rumah",
-        "Mode hemat data turun ke 720p/30fps saat memakai data seluler"
+        "Twitch, YouTube, Kick, TikTok LIVE, Facebook, dan lainnya: tempel stream key, dengan panduan tiap platform",
+        "Stream key ada di komputer? Cukup pindai kode QR-nya, tidak perlu mengetik",
+        "Hingga 1080p60, dengan sambung ulang otomatis, bitrate adaptif, dan rekaman MP4"
       ]
     },
     {
       "id": "remote-play-away",
-      "title": "Remote Play dari Luar Rumah Pakai Data Seluler",
-      "paragraphs": [],
+      "title": "Relaypad Pro: Facecam, Vertikal 9:16, dan Multistream",
+      "paragraphs": [
+        "Siaran gratis ke satu platform dan menampilkan watermark kecil Relaypad. Pro menambahkan:"
+      ],
       "bullets": [
-        "Masuk sekali, lalu sambung lewat 5G, 4G, atau Wi-Fi lain, biasanya tanpa setel router",
-        "Pemetaan port UPnP otomatis, VPN rumah seperti Tailscale juga bisa",
-        "Memberi tahu saat alamat bersama dari operator (CGNAT) memblokir koneksi"
+        "Jendela kamera (facecam) dari kamera depan atau belakang ponsel",
+        "Tata letak vertikal 9:16, otomatis dipilih untuk platform vertikal",
+        "Dua platform sekaligus, atau lanskap dan vertikal bersamaan",
+        "Putar ulang instan 30 detik terakhir",
+        "Tanpa watermark"
       ]
     },
     {
       "id": "connection-doctor",
-      "title": "Dokter Koneksi: Cari Tahu Kenapa Tidak Bisa Tersambung",
+      "title": "Kontroler Remote Play Gratis, hingga 1080p60 di Ponsel",
       "paragraphs": [],
       "bullets": [
-        "13 pemeriksaan: jaringan, mode istirahat konsol, sakelar Remote Play, latensi, dan jitter",
-        "Pita Wi-Fi, VPN, gangguan Bluetooth, UPnP, jenis NAT, dan IPv4 publik",
-        "Salin laporan atau email ke kami dengan sekali ketuk"
+        "Ponsel atau tablet, dengan HEVC dan HDR jika didukung",
+        "Dari luar rumah lewat 5G, 4G, atau Wi-Fi lain, biasanya tanpa setel router",
+        "Gamepad virtual dengan lima tata letak, atau teruskan stik Bluetooth atau USB",
+        "Output HDMI ke TV, picture-in-picture, dan penajaman FSR"
       ]
     },
     {
       "id": "guided-setup",
-      "title": "Penyiapan Terpandu dalam Empat Langkah",
-      "paragraphs": [],
-      "bullets": [
-        "Masuk di aplikasi atau browser (passkey didukung), atau ketik Account ID",
-        "PS5: daftarkan tanpa PIN, bahkan saat mode istirahat; atau sandingkan dengan kode 8 digit",
-        "Simpan beberapa konsol dan akun, ganti nama atau sandingkan ulang kapan saja"
-      ]
+      "title": "Remote Play Tidak Bisa Connect? Dokter Koneksi Cari Tahu Penyebabnya",
+      "paragraphs": [
+        "18 pemeriksaan untuk jaringan, mode istirahat konsol, pita Wi-Fi, latensi, dan jenis NAT, dengan laporan yang bisa Anda email ke kami."
+      ],
+      "bullets": []
     },
     {
       "id": "pricing",
-      "title": "Tanpa Iklan, Tanpa Langganan",
+      "title": "Gratis Diunduh, Tanpa Iklan",
       "paragraphs": [
-        "Relaypad tidak menampilkan iklan dan tidak ada langganan. Pasang ulang di ponsel baru dengan akun Google yang sama tanpa biaya tambahan. Jika tidak berjalan di perangkat atau jaringan Anda, email kami dalam 7 hari setelah pembelian untuk pengembalian dana."
+        "Remote Play, kontroler, dan siaran langsung hingga 1080p60 gratis. Tanpa iklan, tanpa batas waktu."
       ],
       "bullets": []
     },
@@ -91,26 +88,28 @@
       "id": "privacy",
       "title": "Privasi",
       "paragraphs": [
-        "Tanpa akun Relaypad dan tanpa server Relaypad di antara Anda dan konsol. Kunci penyandingan dan token masuk tetap di perangkat Anda, dienkripsi dengan Android Keystore. Statistik anonim bisa dimatikan."
+        "Tanpa akun dan server Relaypad di tengah: siaran dikirim langsung dari ponsel Anda ke platform yang Anda pilih. Stream key dan token masuk tetap di perangkat Anda, terenkripsi. Statistik anonim bisa dimatikan."
       ],
       "bullets": []
     },
     {
       "id": "before-you-buy",
-      "title": "Sebelum Membeli",
+      "title": "Sebelum Memasang",
       "paragraphs": [],
       "bullets": [
         "Anda perlu konsol sendiri; tidak termasuk game dan bukan cloud gaming",
-        "Android 8.0 atau lebih baru; disarankan RAM 4 GB dan Wi-Fi 5 GHz",
-        "Ponsel menggantikan kontroler, tidak bisa dipakai bersamaan dengan kontroler di konsol",
-        "Setelah update sistem konsol, Relaypad mungkin perlu diperbarui agar bisa tersambung lagi"
+        "Siaran memakai gambar Remote Play (hingga 1080p, tanpa HDR), jadi capture card tetap lebih tajam",
+        "Untuk main di TV sambil siaran, kontroler disambungkan ke ponsel, bukan konsol",
+        "Siaran berhenti jika Anda keluar dari Relaypad atau mengunci layar (picture-in-picture tetap bisa)",
+        "TikTok dan beberapa platform hanya memberi stream key ke akun yang memenuhi syarat, dengan key baru tiap siaran",
+        "Android 8.0 ke atas; update sistem konsol mungkin perlu disusul update Relaypad"
       ]
     },
     {
       "id": "support",
       "title": "Ada Masalah? Kirim Email ke Kami",
       "paragraphs": [
-        "Sebelum memberi ulasan, email ke feedback@dapplebyte.com, atau buka Setelan → Tentang → Kirim masukan agar model ponsel otomatis disertakan. Kami membaca setiap pesan."
+        "Sebelum memberi ulasan, email ke feedback@dapplebyte.com atau buka Setelan → Tentang → Kirim masukan."
       ],
       "bullets": []
     },
@@ -118,10 +117,10 @@
       "id": "trademark",
       "title": "Pemberitahuan Merek Dagang",
       "paragraphs": [
-        "PlayStation®, PS4®, dan PS5® adalah merek dagang Sony Interactive Entertainment Inc. Relaypad adalah klien Remote Play independen, tidak berafiliasi dengan Sony serta tidak diizinkan atau didukung oleh Sony. Aplikasi ini hanya bekerja dengan perangkat keras dan konten milik Anda sendiri, tidak mengakali proteksi salinan, dan tidak memfasilitasi pembajakan."
+        "PlayStation®, PS4®, dan PS5® adalah merek dagang Sony Interactive Entertainment Inc. Relaypad adalah klien Remote Play independen, tidak berafiliasi dengan, diizinkan, atau didukung oleh Sony. Twitch, YouTube, Kick, dan TikTok adalah merek dagang pemiliknya masing-masing; Relaypad tidak berafiliasi dengan mereka. Aplikasi ini hanya bekerja dengan perangkat keras dan konten milik Anda, tidak mengakali proteksi salinan, dan tidak memfasilitasi pembajakan."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

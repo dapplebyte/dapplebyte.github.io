@@ -571,9 +571,9 @@
         "refundBody": "如果 {name} 在你的環境下用不起來，購買起 7 天內寫信給我們就退款。告訴我們你試過什麼，這能幫我們替下一個人修好。"
       },
       "press": {
-        "description": "撰寫 {name} 報導所需的事實、素材與介紹文字：Android 上的 Remote Play 控制器與主機串流 app。",
-        "boilerplate": "{name} 讓 Android 手機變成 PS5 或 PS4 的無線控制器，也能把主機畫面串到手機、平板或電視上，在家或外出用行動網路都行。由獨立工作室 DappleByte 開發，原始碼以 AGPL-3.0 公開。",
-        "priceValue": "付費 app，一次買斷，沒有訂閱，沒有廣告。目前價格以 Google Play 顯示為準。",
+        "description": "撰寫 {name} 報導所需的事實、素材與介紹文字：Android 上的 PS5／PS4 直播、Remote Play 控制器與主機串流 app。",
+        "boilerplate": "{name} 讓 Android 手機直接把 PS5 或 PS4 的遊戲直播到 Twitch、YouTube、Kick、TikTok 或任何 RTMP 伺服器，不用電腦，也不用擷取卡。它也能當無線控制器，或把主機畫面串到手機、平板或電視上，在家或外出用行動網路都行。由獨立工作室 DappleByte 開發，原始碼以 AGPL-3.0 公開。",
+        "priceValue": "免費下載，沒有廣告。Pro 是 app 內購買，可以關掉直播浮水印，並加上鏡頭小窗、直式版面、同時推兩個平台與即時重播。目前價格以 Google Play 顯示為準。",
         "assetScreenshots": "截圖，1920 × 1080 PNG，英文"
       },
       "videosDescription": "在真實手機上示範 {name} 的短片：設定、串流、手把佈局、解決連線問題。",

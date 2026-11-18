@@ -3,6 +3,17 @@
   "locale": "de",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "Neu: „Live gehen“. PS5- oder PS4-Spiele auf Twitch, YouTube, Kick, TikTok oder jeden RTMP-Server streamen, ohne PC und Capture-Karte",
+        "Live-Modus: Handy neben den Fernseher stellen, auf dem großen Bildschirm spielen, das Handy streamt",
+        "Neu: KI-Copilot (mit eigenem API-Schlüssel): Streambild lange drücken für Spielguides, Sprachbefehle und Bildschirmbeschreibungen",
+        "Behoben: Absturz, wenn das Konsolenbild nicht streamt, und schwarzes Bild mit HEVC auf PS4"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

@@ -1,89 +1,86 @@
 {
   "slug": "relaypad",
   "locale": "it",
-  "title": "Relaypad: Remote Play Joypad",
-  "shortDescription": "Niente pubblicità né abbonamento. Controller PS5 & PS4, streaming console e TV",
+  "title": "Relaypad: Remote Play & Live",
+  "shortDescription": "Dirette PS5 e PS4 su Twitch, YouTube, Kick e TikTok. Senza PC né capture card",
   "requires": "Richiede una PS5 o PS4 con Remote Play attivo nelle impostazioni.",
-  "tagline": "Relaypad trasforma il tuo telefono Android in un controller wireless per la console, oppure ne porta l’immagine su telefono, tablet o TV, a casa o fuori.",
+  "tagline": "Relaypad collega il tuo telefono Android alla tua console e manda la partita in diretta su Twitch, YouTube, Kick, TikTok o qualsiasi server RTMP. È anche un client Remote Play e un controller, a casa o fuori.",
   "sections": [
     {
       "id": "intro",
-      "title": "Controller Remote Play e streaming della console per PS5 e PS4",
+      "title": "Dirette dei giochi PS5 e PS4 senza PC né capture card",
       "paragraphs": [
-        "Relaypad trasforma il tuo telefono Android in un controller wireless per la console, oppure ne porta l’immagine su telefono, tablet o TV, a casa o fuori."
+        "Relaypad collega il tuo telefono Android alla tua console e manda la partita in diretta su Twitch, YouTube, Kick, TikTok o qualsiasi server RTMP. È anche un client Remote Play e un controller, a casa o fuori."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "A cosa serve Relaypad",
+      "title": "Non registra lo schermo: in diretta va solo il gioco",
       "paragraphs": [],
       "bullets": [
-        "Giocare quando il controller resta senza batteria",
-        "Usare menu e app video della console con grandi tasti da telecomando",
-        "Giocare a letto o in un’altra stanza mentre la console resta vicino alla TV",
-        "Portare l’immagine sulla TV dell’albergo via HDMI, con il telefono come pad"
+        "Chi guarda vede e sente solo il gioco, mai i tuoi tasti a schermo, pannelli o notifiche",
+        "Audio del gioco e microfono separati; un tocco nasconde e silenzia il gioco"
       ]
     },
     {
       "id": "virtual-gamepad",
-      "title": "Pad virtuale, editor del layout e mappatura tasti",
+      "title": "Streaming della console senza PC: il telefono accanto alla TV",
       "paragraphs": [],
       "bullets": [
-        "Cinque layout: Standard, Compact, Remote, Fighting e Racing",
-        "Sposta, ridimensiona o nascondi qualsiasi tasto e usa i tuoi layout anche in streaming",
-        "Touchpad, vibrazione, microfono e rilevamento del movimento",
-        "Inoltra un controller Bluetooth o USB, tasti mappati in automatico",
-        "Controller USB in streaming: grilletti adattivi, barra luminosa e feedback aptico"
+        "Modalità live: metti il telefono accanto alla TV e trasmette lui mentre giochi sul grande schermo",
+        "Collega il controller al telefono via Bluetooth o USB",
+        "Oppure gioca sul telefono e trasmetti in contemporanea"
       ]
     },
     {
       "id": "console-streaming",
-      "title": "Streaming della console fino a 1080p60 con HEVC e HDR",
+      "title": "Twitch, YouTube, Kick, TikTok: chiave stream o RTMP personalizzato",
       "paragraphs": [],
       "bullets": [
-        "30 o 60 fps fino a 1080p, bitrate manuale, HEVC e HDR sui telefoni supportati",
-        "Nitidezza FSR e overlay prestazioni con fps, perdita di pacchetti e latenza totale",
-        "Uscita TV via HDMI, picture-in-picture, layout diviso su tablet e pieghevoli",
-        "Modalità minima, Adatta allo schermo, Estendi o Ingrandisci per riempire, riconnessione automatica sul Wi-Fi di casa",
-        "Risparmio dati: 720p/30fps con i dati mobili"
+        "Twitch, YouTube, Kick, TikTok LIVE, Facebook e altre: incolla la chiave, con una guida per ognuna",
+        "Chiave sul computer? Inquadra il codice QR invece di digitarla",
+        "Fino a 1080p60, con riconnessione automatica, bitrate adattivo e registrazione in MP4"
       ]
     },
     {
       "id": "remote-play-away",
-      "title": "Remote Play fuori casa con i dati mobili",
-      "paragraphs": [],
+      "title": "Relaypad Pro: fotocamera, verticale 9:16 e multistream",
+      "paragraphs": [
+        "Le dirette gratuite vanno su una piattaforma e mostrano una piccola filigrana Relaypad. Pro aggiunge:"
+      ],
       "bullets": [
-        "Accedi una volta, poi collegati in 5G, 4G o da un altro Wi-Fi, di solito senza configurare il router",
-        "Inoltro automatico delle porte via UPnP, e funzionano anche le VPN di casa come Tailscale",
-        "Ti avvisa quando l’indirizzo condiviso dell’operatore (CGNAT) blocca la connessione"
+        "La tua faccia in diretta con la fotocamera anteriore o posteriore",
+        "Layout verticali 9:16, automatici sulle piattaforme verticali",
+        "Due piattaforme insieme, oppure orizzontale e verticale in contemporanea",
+        "Replay istantaneo degli ultimi 30 secondi",
+        "Niente filigrana"
       ]
     },
     {
       "id": "connection-doctor",
-      "title": "Diagnostica connessione: scopri perché non si connette",
+      "title": "Controller Remote Play gratuito, fino a 1080p60 sul telefono",
       "paragraphs": [],
       "bullets": [
-        "13 controlli: rete, console in riposo, opzione Remote Play, latenza e jitter",
-        "Banda Wi-Fi, VPN, interferenze Bluetooth, UPnP, tipo di NAT e IPv4 pubblico",
-        "Copia il report o mandacelo via email con un tocco"
+        "Telefono o tablet, con HEVC e HDR dove supportati",
+        "Fuori casa in 5G, 4G o da un altro Wi-Fi, di solito senza toccare il router",
+        "Pad virtuale con cinque layout, oppure inoltra un controller Bluetooth o USB",
+        "Uscita HDMI verso la TV, picture-in-picture e nitidezza FSR"
       ]
     },
     {
       "id": "guided-setup",
-      "title": "Configurazione guidata in quattro passaggi",
-      "paragraphs": [],
-      "bullets": [
-        "Accedi nell’app o nel browser (le passkey funzionano) oppure inserisci l’Account ID",
-        "PS5: registrazione senza PIN, anche in modalità riposo; oppure abbinamento col codice a 8 cifre",
-        "Salva più console e account, rinominali o riabbinali quando vuoi"
-      ]
+      "title": "Remote Play non funziona? La Diagnostica connessione ti dice perché",
+      "paragraphs": [
+        "18 controlli su rete, console in riposo, banda Wi-Fi, latenza e tipo di NAT, con un report da mandarci via email."
+      ],
+      "bullets": []
     },
     {
       "id": "pricing",
-      "title": "Niente pubblicità, niente abbonamento",
+      "title": "Download gratuito, niente pubblicità",
       "paragraphs": [
-        "Relaypad non mostra pubblicità e non ha abbonamenti. Reinstalli senza costi su un nuovo telefono con lo stesso account Google. Se non funziona con la tua configurazione, scrivici entro 7 giorni dall’acquisto per il rimborso."
+        "Remote Play, il controller e le dirette fino a 1080p60 non costano nulla. Niente pubblicità e nessun limite di tempo."
       ],
       "bullets": []
     },
@@ -91,26 +88,28 @@
       "id": "privacy",
       "title": "Privacy",
       "paragraphs": [
-        "Nessun account e nessun server Relaypad tra te e la console. Chiavi di abbinamento e token di accesso restano sul tuo dispositivo, cifrati con l’Android Keystore. Le statistiche anonime si possono disattivare."
+        "Nessun account e nessun server Relaypad in mezzo: la diretta va dal tuo telefono alla piattaforma che scegli. Chiavi e token di accesso restano cifrati sul tuo dispositivo. Le statistiche anonime si possono disattivare."
       ],
       "bullets": []
     },
     {
       "id": "before-you-buy",
-      "title": "Prima di acquistare",
+      "title": "Prima di installare",
       "paragraphs": [],
       "bullets": [
         "Ti serve una console tua; giochi e cloud gaming non sono inclusi",
-        "Android 8.0 o successivo; consigliati 4 GB di RAM e Wi-Fi a 5 GHz",
-        "Il telefono prende il posto di un controller, non gioca insieme a esso",
-        "Dopo un aggiornamento di sistema della console, Relaypad potrebbe doversi aggiornare per riconnettersi"
+        "La diretta parte dall’immagine remota (fino a 1080p, senza HDR): una capture card resta più nitida",
+        "Per giocare sulla TV mentre trasmetti, il controller va collegato al telefono, non alla console",
+        "La diretta si ferma se esci da Relaypad o blocchi lo schermo (in picture-in-picture continua)",
+        "TikTok e alcune piattaforme danno la chiave solo agli account idonei, e una nuova a ogni diretta",
+        "Android 8.0 o successivo; un aggiornamento della console può richiedere di aggiornare Relaypad"
       ]
     },
     {
       "id": "support",
       "title": "Qualcosa non funziona? Scrivici",
       "paragraphs": [
-        "Prima di lasciare una recensione, scrivi a feedback@dapplebyte.com oppure usa Impostazioni → Informazioni → Invia un feedback per allegare in automatico il modello del telefono. Leggiamo ogni messaggio."
+        "Prima di recensire, scrivi a feedback@dapplebyte.com oppure usa Impostazioni → Informazioni → Invia un feedback."
       ],
       "bullets": []
     },
@@ -118,10 +117,10 @@
       "id": "trademark",
       "title": "Marchi",
       "paragraphs": [
-        "PlayStation®, PS4® e PS5® sono marchi di Sony Interactive Entertainment Inc. Relaypad è un client Remote Play indipendente, non affiliato a Sony né autorizzato o approvato da Sony. Funziona solo con hardware e contenuti di tua proprietà, non elude le protezioni anticopia e non favorisce la pirateria."
+        "PlayStation®, PS4® e PS5® sono marchi di Sony Interactive Entertainment Inc. Relaypad è un client Remote Play indipendente, non affiliato a Sony né autorizzato o approvato da Sony. Twitch, YouTube, Kick e TikTok sono marchi dei loro proprietari; Relaypad non è affiliato a loro. Funziona solo con hardware e contenuti di tua proprietà, non elude le protezioni anticopia e non favorisce la pirateria."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

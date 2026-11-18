@@ -571,9 +571,9 @@
         "refundBody": "Jika {name} tidak berfungsi dengan perangkat Anda, kirim email ke kami dalam 7 hari sejak pembelian dan kami akan mengembalikan dananya. Ceritakan apa saja yang sudah Anda coba; itu membantu kami memperbaikinya untuk pengguna berikutnya."
       },
       "press": {
-        "description": "Fakta, aset, dan teks deskripsi standar untuk menulis tentang {name}, aplikasi kontroler Remote Play dan streaming konsol untuk Android.",
-        "boilerplate": "{name} mengubah ponsel Android menjadi kontroler nirkabel untuk PS5 atau PS4, atau melakukan streaming gambar konsol ke ponsel, tablet, atau TV, di rumah maupun di luar rumah lewat data seluler. Aplikasi ini dibuat oleh DappleByte, sebuah studio independen, dan dipublikasikan sebagai sumber terbuka dengan lisensi AGPL-3.0.",
-        "priceValue": "Aplikasi berbayar, sekali beli, tanpa langganan, tanpa iklan. Harga saat ini ditampilkan di Google Play.",
+        "description": "Fakta, aset, dan teks deskripsi standar untuk menulis tentang {name}, aplikasi Android untuk live streaming dari PS5 atau PS4, kontroler Remote Play, dan streaming konsol.",
+        "boilerplate": "{name} memungkinkan ponsel Android menyiarkan game dari PS5 atau PS4 secara live ke Twitch, YouTube, Kick, TikTok, atau server RTMP apa pun, tanpa komputer atau capture card. Aplikasi ini juga bisa menjadi kontroler nirkabel dan melakukan streaming gambar konsol ke ponsel, tablet, atau TV, di rumah maupun di luar rumah lewat data seluler. Aplikasi ini dibuat oleh DappleByte, sebuah studio independen, dan dipublikasikan sebagai sumber terbuka dengan lisensi AGPL-3.0.",
+        "priceValue": "Gratis diunduh, tanpa iklan. Pro adalah pembelian dalam aplikasi untuk mematikan watermark live, serta menambahkan jendela kamera, tata letak vertikal, live ke dua platform sekaligus, dan putar ulang instan. Harga saat ini ditampilkan di Google Play.",
         "assetScreenshots": "Tangkapan layar, PNG 1920 × 1080, bahasa Inggris"
       },
       "videosDescription": "Video singkat yang menunjukkan {name} di ponsel sungguhan: penyiapan, streaming, tata letak gamepad, dan mengatasi masalah koneksi.",

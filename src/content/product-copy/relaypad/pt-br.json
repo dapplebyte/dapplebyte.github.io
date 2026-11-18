@@ -1,89 +1,86 @@
 {
   "slug": "relaypad",
   "locale": "pt-br",
-  "title": "Relaypad: Remote Play Controle",
-  "shortDescription": "Sem anúncios nem assinatura. PS5 e PS4: manete no celular, streaming, HDMI na TV",
-  "requires": "Requer um PS5 ou PS4 com o Remote Play ativado nas configurações.",
-  "tagline": "O Relaypad transforma o seu celular Android em um controle sem fio para o console, ou transmite a imagem dele para o celular, tablet ou TV, em casa ou na rua.",
+  "title": "Relaypad: Remote Play & Live",
+  "shortDescription": "Transmita PS5/PS4 na Twitch, YouTube, Kick e TikTok. Sem PC nem placa de captura",
+  "requires": "Requer um PS5 ou PS4 com o Remote Play ativado nas configurações do console.",
+  "tagline": "O Relaypad conecta o seu celular Android ao seu próprio console e transmite o jogo ao vivo na Twitch, no YouTube, no Kick, no TikTok ou em qualquer servidor RTMP. Ele também é cliente de Remote Play e controle, em casa ou na rua.",
   "sections": [
     {
       "id": "intro",
-      "title": "Controle Remote Play e streaming do console para PS5 e PS4",
+      "title": "Live de jogos do PS5 e PS4 sem PC e sem placa de captura",
       "paragraphs": [
-        "O Relaypad transforma o seu celular Android em um controle sem fio para o console, ou transmite a imagem dele para o celular, tablet ou TV, em casa ou na rua."
+        "O Relaypad conecta o seu celular Android ao seu próprio console e transmite o jogo ao vivo na Twitch, no YouTube, no Kick, no TikTok ou em qualquer servidor RTMP. Ele também é cliente de Remote Play e controle, em casa ou na rua."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "Para que as pessoas usam o Relaypad",
+      "title": "Não é gravação de tela: só o jogo vai para a live",
       "paragraphs": [],
       "bullets": [
-        "Continuar jogando quando a bateria do controle acaba",
-        "Navegar pelos menus e apps de vídeo do console com as teclas grandes do controle remoto",
-        "Jogar na cama ou em outro cômodo com o console lá perto da TV",
-        "Colocar a imagem na TV do hotel via HDMI, com o celular como controle"
+        "Quem assiste vê e ouve só o jogo, nunca os botões na tela, painéis ou notificações",
+        "Áudio do jogo e microfone mixados separadamente; um toque esconde e silencia o jogo"
       ]
     },
     {
       "id": "virtual-gamepad",
-      "title": "Controle virtual, editor de layout e mapeamento de botões",
+      "title": "Live do console sem PC: o celular do lado da TV",
       "paragraphs": [],
       "bullets": [
-        "Cinco layouts: padrão, compacto, controle remoto, luta e corrida",
-        "Arraste, redimensione ou esconda botões e use seus layouts no streaming",
-        "Touchpad, vibração, microfone e sensor de movimento",
-        "Repasse um controle Bluetooth ou USB com mapeamento de botões automático",
-        "Controles USB no streaming: gatilhos adaptáveis, barra de luz e resposta háptica"
+        "Modo live: deixe o celular do lado da TV e ele transmite enquanto você joga na tela grande",
+        "Conecte o controle ao celular por Bluetooth ou USB",
+        "Ou jogue no celular e faça live ao mesmo tempo"
       ]
     },
     {
       "id": "console-streaming",
-      "title": "Streaming do console em até 1080p60 com HEVC e HDR",
+      "title": "Twitch, YouTube, Kick, TikTok: chave de transmissão ou RTMP próprio",
       "paragraphs": [],
       "bullets": [
-        "30 ou 60 fps em até 1080p, bitrate manual, HEVC e HDR em celulares compatíveis",
-        "Nitidez FSR e sobreposição com fps, perda de pacotes e latência total",
-        "Saída para a TV via HDMI, picture-in-picture e tela dividida em tablets e dobráveis",
-        "Modo mínimo, escala Ajustar, Esticar ou Ampliar, e reconexão automática no Wi-Fi de casa",
-        "A economia de dados baixa para 720p/30fps nos dados móveis"
+        "Twitch, YouTube, Kick, TikTok LIVE, Facebook e outras: cole a chave, com um guia para cada plataforma",
+        "A chave está no computador? Escaneie o QR code em vez de digitar",
+        "Até 1080p60, com reconexão automática, bitrate adaptativo e gravação em MP4"
       ]
     },
     {
       "id": "remote-play-away",
-      "title": "Remote Play fora de casa pelos dados móveis",
-      "paragraphs": [],
+      "title": "Relaypad Pro: câmera, vertical 9:16 e duas plataformas ao mesmo tempo",
+      "paragraphs": [
+        "As lives grátis vão para uma plataforma e mostram uma pequena marca d'água do Relaypad. O Pro adiciona:"
+      ],
       "bullets": [
-        "Faça login uma vez e conecte por 5G, 4G ou outro Wi-Fi, geralmente sem mexer no roteador",
-        "Abertura automática de portas por UPnP, e VPNs caseiras como Tailscale também funcionam",
-        "Avisa quando o endereço compartilhado da operadora (CGNAT) bloqueia a conexão"
+        "Você na live pela câmera frontal ou traseira do celular",
+        "Layouts verticais 9:16, automáticos nas plataformas verticais",
+        "Duas plataformas ao mesmo tempo, ou horizontal e vertical juntas",
+        "Replay instantâneo dos últimos 30 segundos",
+        "Sem marca d'água"
       ]
     },
     {
       "id": "connection-doctor",
-      "title": "Diagnóstico de conexão: descubra por que não conecta",
+      "title": "Controle Remote Play grátis, até 1080p60 no celular",
       "paragraphs": [],
       "bullets": [
-        "13 verificações: rede, console em repouso, opção do Remote Play, latência e jitter",
-        "Faixa do Wi-Fi, VPN, interferência de Bluetooth, UPnP, tipo de NAT e IPv4 público",
-        "Copie o relatório ou mande para a gente por e-mail com um toque"
+        "Celular ou tablet, com HEVC e HDR em aparelhos compatíveis",
+        "Fora de casa pelo 5G, 4G ou outro Wi-Fi, geralmente sem mexer no roteador",
+        "Controle virtual com cinco layouts, ou repasse um controle Bluetooth ou USB",
+        "Saída HDMI para a TV, picture-in-picture e nitidez FSR"
       ]
     },
     {
       "id": "guided-setup",
-      "title": "Configuração guiada em quatro passos",
-      "paragraphs": [],
-      "bullets": [
-        "Faça login no app ou no navegador (com chaves de acesso) ou digite o ID da sua conta",
-        "PS5: registre sem PIN, mesmo em repouso; ou pareie com o código de 8 dígitos",
-        "Salve vários consoles e contas; renomeie ou pareie de novo quando quiser"
-      ]
+      "title": "Remote Play não funciona? O diagnóstico de conexão mostra o porquê",
+      "paragraphs": [
+        "18 verificações de rede, console em repouso, faixa do Wi-Fi, latência e tipo de NAT, com um relatório para mandar para a gente por e-mail."
+      ],
+      "bullets": []
     },
     {
       "id": "pricing",
-      "title": "Sem anúncios, sem assinatura",
+      "title": "Download grátis, sem anúncios",
       "paragraphs": [
-        "O Relaypad não exibe anúncios e não tem assinatura. Trocou de celular? Instale de novo com a mesma conta Google sem pagar outra vez. Se não funcionar no seu caso, mande um e-mail em até 7 dias após a compra e devolvemos o valor."
+        "Remote Play, o controle e as lives em até 1080p60 não custam nada. Sem anúncios e sem limite de tempo."
       ],
       "bullets": []
     },
@@ -91,26 +88,28 @@
       "id": "privacy",
       "title": "Privacidade",
       "paragraphs": [
-        "Não existe conta nem servidor do Relaypad entre você e o console. As chaves de pareamento e os tokens de login ficam no seu aparelho, criptografados com o Android Keystore. Dá para desativar as estatísticas anônimas."
+        "Sem conta nem servidor do Relaypad no meio: a live vai direto do seu celular para a plataforma que você escolher. Chaves e tokens de login ficam criptografados no seu aparelho. Dá para desativar as estatísticas anônimas."
       ],
       "bullets": []
     },
     {
       "id": "before-you-buy",
-      "title": "Antes de comprar",
+      "title": "Antes de instalar",
       "paragraphs": [],
       "bullets": [
         "Você precisa ter seu próprio console; não inclui jogos nem é jogo na nuvem",
-        "Android 8.0 ou superior; recomendamos 4 GB de RAM e Wi-Fi de 5 GHz",
-        "O celular substitui o controle: não dá para usar junto com um controle ligado ao console",
-        "Após uma atualização de sistema do console, o Relaypad pode precisar ser atualizado para conectar"
+        "A live parte da imagem remota (até 1080p, sem HDR): uma placa de captura ainda é mais nítida",
+        "Para jogar na TV enquanto faz live, o controle se conecta ao celular, não ao console",
+        "A live para se você sair do Relaypad ou bloquear a tela (com picture-in-picture ela continua)",
+        "O TikTok e outras plataformas só liberam chave para contas elegíveis, e uma nova a cada live",
+        "Android 8.0 ou superior; uma atualização do console pode exigir atualizar o Relaypad"
       ]
     },
     {
       "id": "support",
       "title": "Algo não funciona? Mande um e-mail",
       "paragraphs": [
-        "Antes de avaliar, escreva para feedback@dapplebyte.com ou use Configurações → Sobre → Enviar feedback para incluir o modelo do celular automaticamente. Lemos todas as mensagens."
+        "Antes de avaliar, escreva para feedback@dapplebyte.com ou use Configurações → Sobre → Enviar feedback."
       ],
       "bullets": []
     },
@@ -118,10 +117,10 @@
       "id": "trademark",
       "title": "Aviso de marcas registradas",
       "paragraphs": [
-        "PlayStation®, PS4® e PS5® são marcas registradas da Sony Interactive Entertainment Inc. Relaypad é um cliente independente de Remote Play, sem afiliação com a Sony e sem autorização ou endosso dela. Funciona apenas com hardware e conteúdo de sua propriedade e não contorna a proteção contra cópia nem viabiliza a pirataria."
+        "PlayStation®, PS4® e PS5® são marcas registradas da Sony Interactive Entertainment Inc. Relaypad é um cliente independente de Remote Play, sem afiliação com a Sony e sem autorização ou endosso dela. Twitch, YouTube, Kick e TikTok são marcas de seus donos; o Relaypad não é afiliado a eles. Funciona apenas com hardware e conteúdo de sua propriedade e não contorna a proteção contra cópia nem viabiliza a pirataria."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

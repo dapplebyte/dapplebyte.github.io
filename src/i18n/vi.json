@@ -571,9 +571,9 @@
         "refundBody": "Nếu {name} không chạy được với thiết bị của bạn, hãy email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền. Hãy cho biết bạn đã thử những gì; điều đó giúp chúng tôi sửa lỗi cho người dùng sau."
       },
       "press": {
-        "description": "Dữ kiện, tư liệu và đoạn giới thiệu soạn sẵn để viết về {name}, ứng dụng tay cầm Remote Play và stream máy chơi game cho Android.",
-        "boilerplate": "{name} biến điện thoại Android thành tay cầm không dây cho PS5 hoặc PS4, hoặc stream hình ảnh từ máy chơi game sang điện thoại, máy tính bảng hay TV, ở nhà hoặc ở ngoài qua dữ liệu di động. Ứng dụng do DappleByte, một studio độc lập, phát triển và được công khai mã nguồn theo AGPL-3.0.",
-        "priceValue": "Ứng dụng trả phí, mua một lần, không thuê bao, không quảng cáo. Giá hiện tại hiển thị trên Google Play.",
+        "description": "Dữ kiện, tư liệu và đoạn giới thiệu soạn sẵn để viết về {name}, ứng dụng Android để livestream từ PS5 hoặc PS4, dùng làm tay cầm Remote Play và stream máy chơi game.",
+        "boilerplate": "{name} cho phép điện thoại Android phát trực tiếp game từ PS5 hoặc PS4 lên Twitch, YouTube, Kick, TikTok hoặc bất kỳ máy chủ RTMP nào, không cần máy tính hay card capture. Ứng dụng cũng dùng được như tay cầm không dây và stream hình ảnh từ máy chơi game sang điện thoại, máy tính bảng hay TV, ở nhà hoặc ở ngoài qua dữ liệu di động. Ứng dụng do DappleByte, một studio độc lập, phát triển và được công khai mã nguồn theo AGPL-3.0.",
+        "priceValue": "Tải về miễn phí, không quảng cáo. Pro là gói mua trong ứng dụng, cho phép tắt hình mờ khi phát trực tiếp và thêm khung camera, bố cục dọc, phát lên hai nền tảng cùng lúc và phát lại tức thì. Giá hiện tại hiển thị trên Google Play.",
         "assetScreenshots": "Ảnh chụp màn hình, PNG 1920 × 1080, tiếng Anh"
       },
       "videosDescription": "Video ngắn quay {name} trên điện thoại thật: thiết lập, stream, bố cục tay cầm và cách xử lý sự cố kết nối.",

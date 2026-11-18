@@ -3,6 +3,17 @@
   "locale": "id",
   "entries": [
     {
+      "code": 110,
+      "name": "1.1.0",
+      "date": "2026-11-18",
+      "items": [
+        "Baru: Siaran Langsung. Siarkan game PS5 atau PS4 ke Twitch, YouTube, Kick, TikTok, atau server RTMP mana pun, tanpa PC atau capture card",
+        "Mode Live: berdirikan ponsel di samping TV, main di layar besar, biar ponsel yang siaran",
+        "Baru: Asisten AI (pakai API key sendiri): tekan lama layar streaming untuk panduan game, perintah suara, dan deskripsi layar",
+        "Perbaikan crash saat gambar konsol tidak bisa di-stream, dan layar hitam saat memakai HEVC di PS4"
+      ]
+    },
+    {
       "code": 101,
       "name": "1.0.1",
       "date": "2026-10-07",
@@ -28,5 +39,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

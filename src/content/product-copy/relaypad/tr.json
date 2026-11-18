@@ -1,89 +1,86 @@
 {
   "slug": "relaypad",
   "locale": "tr",
-  "title": "Relaypad: Remote Play Kumanda",
-  "shortDescription": "Reklam ve abonelik yok. PS5 & PS4 oyun kolu, konsol akışı ve HDMI TV çıkışı.",
+  "title": "Relaypad: Remote Play & Live",
+  "shortDescription": "PS5/PS4'ten yayın açın: Twitch, YouTube, Kick, TikTok. PC ve yakalama kartı yok.",
   "requires": "Ayarlarında Remote Play açık bir PS5 veya PS4 konsolu gerekir.",
-  "tagline": "Relaypad, Android telefonunuzu konsolunuz için kablosuz kumandaya çevirir ya da konsol görüntüsünü evde veya dışarıda telefona, tablete veya TV'ye aktarır.",
+  "tagline": "Relaypad, Android telefonunuzu kendi konsolunuza bağlar ve oyunu Twitch, YouTube, Kick, TikTok veya herhangi bir RTMP sunucusunda canlı yayına verir. Evde veya dışarıda bir Remote Play istemcisi ve kumanda olarak da çalışır.",
   "sections": [
     {
       "id": "intro",
-      "title": "PS5 ve PS4 için Remote Play Kumandası ve Konsol Akışı",
+      "title": "PC ve Yakalama Kartı Olmadan PS5 ve PS4 Oyun Yayını",
       "paragraphs": [
-        "Relaypad, Android telefonunuzu konsolunuz için kablosuz kumandaya çevirir ya da konsol görüntüsünü evde veya dışarıda telefona, tablete veya TV'ye aktarır."
+        "Relaypad, Android telefonunuzu kendi konsolunuza bağlar ve oyunu Twitch, YouTube, Kick, TikTok veya herhangi bir RTMP sunucusunda canlı yayına verir. Evde veya dışarıda bir Remote Play istemcisi ve kumanda olarak da çalışır."
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "İnsanlar Relaypad'i Ne İçin Kullanıyor",
+      "title": "Ekran Kaydı Değil: Yayına Yalnızca Oyun Çıkar",
       "paragraphs": [],
       "bullets": [
-        "Kumandanın pili bittiğinde oynamaya devam etmek",
-        "Konsol menülerinde ve video uygulamalarında büyük kumanda tuşlarıyla gezinmek",
-        "Konsol TV'nin yanında kalırken yatakta ya da başka odada oynamak",
-        "Otel TV'sine HDMI ile görüntü verip telefonu oyun kolu yapmak"
+        "İzleyiciler oyunun görüntüsünü ve sesini alır; ekrandaki tuşlarınız, paneller ve bildirimler yayına girmez",
+        "Oyun sesi ve mikrofon ayrı miksajlanır; tek dokunuşla görüntü gizlenir, oyun sesi kapanır"
       ]
     },
     {
       "id": "virtual-gamepad",
-      "title": "Sanal Oyun Kolu, Yerleşim Düzenleyici ve Tuş Eşlemesi",
+      "title": "PC Olmadan Konsoldan Yayın Açma",
       "paragraphs": [],
       "bullets": [
-        "Beş yerleşim: Standart, Kompakt, Uzaktan kumanda, Dövüş ve Yarış",
-        "Tuşları taşıyın, boyutlandırın, gizleyin; kendi yerleşimlerinizi akışta da kullanın",
-        "Dokunmatik yüzey, titreşim, mikrofon ve jiroskopla hareket algılama",
-        "Bluetooth veya USB kumandayı otomatik tuş eşlemesiyle konsola aktarın",
-        "Akışta USB kumandalar: uyarlanabilir tetikler, ışık çubuğu ve dokunsal titreşim"
+        "Yayın modu: telefonu TV'nin yanına koyun, siz büyük ekranda oynarken o yayını yapar",
+        "Kumandanızı telefona Bluetooth veya USB ile bağlayın",
+        "Ya da telefonda oynayıp aynı anda yayın yapın"
       ]
     },
     {
       "id": "console-streaming",
-      "title": "HEVC ve HDR ile 1080p60'a Kadar Konsol Akışı",
+      "title": "Twitch, YouTube, Kick, TikTok: Yayın Anahtarı veya Özel RTMP",
       "paragraphs": [],
       "bullets": [
-        "1080p'ye kadar 30 veya 60 fps, elle bit hızı, destekleyen telefonlarda HEVC ve HDR",
-        "FSR keskinleştirme; fps, paket kaybı ve toplam gecikmeyi gösteren performans bindirmesi",
-        "HDMI ile TV çıkışı, pencere içinde pencere, tablet ve katlanabilirlerde bölünmüş düzen",
-        "Minimal mod; Ekrana sığdır, Uzatarak doldur veya Yakınlaştırarak doldur; ev Wi-Fi ağında otomatik yeniden bağlanma",
-        "Veri tasarrufu, mobil veride görüntüyü 720p/30fps'ye düşürür"
+        "Twitch, YouTube, Kick, TikTok LIVE, Facebook ve diğerleri: yayın anahtarını yapıştırın, her platform için rehber var",
+        "Anahtar bilgisayarda mı? Elle yazmak yerine QR kod olarak tarayın",
+        "1080p60'a kadar; otomatik yeniden bağlanma, uyarlanabilir bit hızı ve MP4 kayıt"
       ]
     },
     {
       "id": "remote-play-away",
-      "title": "Mobil Veriyle Evden Uzakta Remote Play",
-      "paragraphs": [],
+      "title": "Relaypad Pro: Kamera, Dikey 9:16 ve Çoklu Yayın",
+      "paragraphs": [
+        "Ücretsiz yayınlar tek platforma gider ve köşede küçük bir Relaypad filigranı taşır. Pro şunları ekler:"
+      ],
       "bullets": [
-        "Bir kez giriş yapın, sonra 5G, 4G veya başka Wi-Fi ile bağlanın; çoğu zaman modem ayarı gerekmez",
-        "UPnP ile otomatik port yönlendirme; Tailscale gibi ev VPN'leri de çalışır",
-        "Operatörünüzün paylaşımlı adresi (CGNAT) bağlantıyı engellediğinde size söyler"
+        "Telefonun ön veya arka kamerasıyla kamera penceresi",
+        "Dikey 9:16 yerleşimler, dikey platformlar için otomatik seçilir",
+        "Aynı anda iki platform ya da yatay ve dikey birlikte",
+        "Son 30 saniyenin anlık tekrarı",
+        "Filigranı kapatma"
       ]
     },
     {
       "id": "connection-doctor",
-      "title": "Bağlantı Doktoru: Neden Bağlanmadığını Öğrenin",
+      "title": "Ücretsiz Remote Play Kumandası, Telefonda 1080p60'a Kadar",
       "paragraphs": [],
       "bullets": [
-        "13 kontrol: ağ, konsolun bekleme modu, Remote Play ayarı, gecikme ve sapma (jitter)",
-        "Wi-Fi bandı, VPN, Bluetooth paraziti, UPnP, NAT türü ve genel IPv4",
-        "Raporu kopyalayın ya da tek dokunuşla bize e-postayla gönderin"
+        "Telefon veya tablet; destekleyen cihazlarda HEVC ve HDR",
+        "Evden uzakta 5G, 4G veya başka bir Wi-Fi ile, çoğu zaman modem ayarı gerekmeden",
+        "Beş yerleşimli sanal kumanda ya da Bluetooth veya USB kumandayı konsola aktarma",
+        "HDMI ile TV çıkışı, pencere içinde pencere ve FSR keskinleştirme"
       ]
     },
     {
       "id": "guided-setup",
-      "title": "Dört Adımda Rehberli Kurulum",
-      "paragraphs": [],
-      "bullets": [
-        "Uygulamada veya tarayıcıda giriş yapın (geçiş anahtarı desteklenir) ya da Account ID'nizi yazın",
-        "PS5: bekleme modundayken bile PIN olmadan kaydedin; ya da 8 haneli kodla eşleştirin",
-        "Birden fazla konsol ve hesap kaydedin; dilediğiniz an adını değiştirin veya yeniden eşleştirin"
-      ]
+      "title": "Remote Play Çalışmıyor mu? Bağlantı Doktoru Nedenini Bulur",
+      "paragraphs": [
+        "Ağ, konsolun bekleme modu, Wi-Fi bandı, gecikme ve NAT türü için 18 kontrol. Raporu bize e-postayla gönderebilirsiniz."
+      ],
+      "bullets": []
     },
     {
       "id": "pricing",
-      "title": "Reklam Yok, Abonelik Yok",
+      "title": "Ücretsiz İndirin, Reklam Yok",
       "paragraphs": [
-        "Relaypad'de reklam ve abonelik yok. Yeni telefona aynı Google hesabıyla ek ücret ödemeden yeniden yükleyin. Sizde çalışmazsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretinizi iade edelim."
+        "Remote Play, kumanda ve 1080p60'a kadar canlı yayın ücretsizdir. Reklam yok, süre sınırı yok."
       ],
       "bullets": []
     },
@@ -91,26 +88,28 @@
       "id": "privacy",
       "title": "Gizlilik",
       "paragraphs": [
-        "Relaypad hesabı yok, sizinle konsolunuz arasında Relaypad sunucusu yok. Eşleştirme anahtarları ve giriş belirteçleri Android Keystore ile şifrelenip cihazınızda kalır. Anonim istatistikler kapatılabilir."
+        "Relaypad hesabı yok, arada Relaypad sunucusu yok: yayın telefonunuzdan doğrudan seçtiğiniz platforma gider. Yayın anahtarları ve giriş belirteçleri şifrelenmiş olarak cihazınızda kalır. Anonim istatistikler kapatılabilir."
       ],
       "bullets": []
     },
     {
       "id": "before-you-buy",
-      "title": "Satın Almadan Önce",
+      "title": "Yüklemeden Önce",
       "paragraphs": [],
       "bullets": [
         "Kendi konsolunuz olmalı; oyun veya bulut oyun hizmeti dahil değildir",
-        "Android 8.0 veya üzeri; 4 GB RAM ve 5 GHz Wi-Fi önerilir",
-        "Telefon kumandanın yerine geçer; konsoldaki kumandayla aynı anda kullanılamaz",
-        "Konsol sistem güncellemesinden sonra yeniden bağlanmak için Relaypad güncellemesi gerekebilir"
+        "Yayın, konsolun Remote Play görüntüsünü kullanır (1080p'ye kadar, HDR yok); yakalama kartı yine daha net görüntü verir",
+        "Yayın sırasında TV'de oynamak için kumanda konsola değil telefona bağlanır",
+        "Relaypad'den çıkarsanız veya ekranı kilitlerseniz yayın durur (pencere içinde pencere sorun olmaz)",
+        "TikTok ve bazı platformlar yayın anahtarını yalnızca uygun hesaplara, her yayın için yeniden verir",
+        "Android 8.0 veya üzeri; konsol sistem güncellemesinden sonra Relaypad güncellemesi gerekebilir"
       ]
     },
     {
       "id": "support",
       "title": "Bir Sorun mu Var? Bize Yazın",
       "paragraphs": [
-        "Değerlendirme yazmadan önce feedback@dapplebyte.com adresine yazın ya da telefon modeliniz otomatik eklensin diye Ayarlar → Hakkında → Geri bildirim gönder'i kullanın. Her mesajı okuyoruz."
+        "Değerlendirme yazmadan önce feedback@dapplebyte.com adresine yazın ya da Ayarlar → Hakkında → Geri bildirim gönder'i kullanın."
       ],
       "bullets": []
     },
@@ -118,10 +117,10 @@
       "id": "trademark",
       "title": "Ticari Marka Bildirimi",
       "paragraphs": [
-        "PlayStation®, PS4® ve PS5®, Sony Interactive Entertainment Inc. şirketinin ticari markalarıdır. Relaypad bağımsız bir Remote Play istemcisidir; Sony ile bağlantılı değildir, Sony tarafından yetkilendirilmemiş ve onaylanmamıştır. Yalnızca sahibi olduğunuz donanım ve içeriklerle çalışır; kopya korumasını aşmaz ve korsanlığa imkân vermez."
+        "PlayStation®, PS4® ve PS5®, Sony Interactive Entertainment Inc. şirketinin ticari markalarıdır. Relaypad bağımsız bir Remote Play istemcisidir; Sony ile bağlantılı değildir, Sony tarafından yetkilendirilmemiş ve onaylanmamıştır. Twitch, YouTube, Kick ve TikTok, sahiplerinin ticari markalarıdır; Relaypad bunlarla bağlantılı değildir. Uygulama yalnızca sahibi olduğunuz donanım ve içeriklerle çalışır; kopya korumasını aşmaz ve korsanlığa imkân vermez."
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

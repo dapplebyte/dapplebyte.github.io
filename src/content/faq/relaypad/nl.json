@@ -268,6 +268,159 @@
       ]
     },
     {
+      "id": "live",
+      "title": "Livestreamen",
+      "entries": [
+        {
+          "id": "live_what_needed",
+          "q": "Wat heb ik nodig om live te gaan?",
+          "a": [
+            "Je eigen console, al ingesteld in deze app, en een account op het platform waarop je live wilt gaan. Geen computer en geen capturekaart. Tik op Live gaan op de consolekaart en volg de stappen: hoe je speelt, waar je live gaat, het platform koppelen en een laatste controle. Ben je al aan het spelen, open dan het snelmenu en tik daar op Live gaan. Terwijl je live bent, open je met een tik op het label in de hoek het livepaneel."
+          ]
+        },
+        {
+          "id": "live_platforms",
+          "q": "Op welke platforms kan ik live gaan?",
+          "a": [
+            "Twitch, YouTube en Kick, en daarnaast TikTok LIVE, Facebook, Instagram, X, Rumble, Telegram, Bilibili, Huya, Douyu, TwitCasting, niconico, SOOP, CHZZK en VK Video Live. Multistreamdiensten zoals Restream en Castr sturen één livestream door naar nog veel meer platforms, en Eigen server accepteert elk RTMP- of RTMPS-adres. Platforms met het label Voorwaarden laten maar sommige accounts live gaan; kies er een om te zien wat het vraagt."
+          ]
+        },
+        {
+          "id": "live_no_pc_quality",
+          "q": "Werkt het echt zonder computer of capturekaart? Hoe ziet het eruit?",
+          "a": [
+            "Ja. De telefoon doet allebei: hij ontvangt de game van de console, legt eroverheen wat je toevoegt en stuurt het resultaat naar het platform. Het beeld begint bij wat Remote Play stuurt, maximaal 1080p zonder HDR en al een keer gecomprimeerd door de console, dus een capturekaart ziet er scherper uit. Voor het beste resultaat stream je de console op 1080p via je wifi thuis. Gebruikt de consolestream HDR als je live gaat, dan kunnen de kleuren in de livestream flets lijken; zet HDR dan uit onder Instellingen, Beeldkwaliteit en verbind opnieuw."
+          ]
+        },
+        {
+          "id": "live_capture_mode",
+          "q": "Wat is de Livemodus, en waar sluit ik de controller aan?",
+          "a": [
+            "Die is om op de tv te spelen terwijl de telefoon de livestream verzorgt, net als een capturekaart. Kies in de eerste stap Op de tv. De telefoon toont dan wat kijkers zien, zonder schermcontroller en zonder gamegeluid, want dat komt uit de tv. Verbind je controller via bluetooth of USB met de telefoon, waarbij USB het stabielst is, en speel terwijl je naar de tv kijkt. Een controller die rechtstreeks met de console is verbonden, kan niet tegelijk spelen: de console ziet hem als een andere gebruiker, en de twee nemen steeds de besturing van elkaar over. Met een koptelefoon, of met de telefoon uit de buurt van de tv-speakers, blijft het tv-geluid uit je microfoon."
+          ]
+        },
+        {
+          "id": "live_stream_key",
+          "q": "Waar vind ik de server-URL en de streamsleutel?",
+          "a": [
+            "Nadat je een platform hebt gekozen, staat bij de koppelstap Waar je je streamsleutel vindt: tik op Stappen tonen voor de uitleg van dat platform, of op de knop eronder om de pagina ervan te openen. Kopieer de streamsleutel, en ook de server-URL als het platform je die geeft. Staat er een adres of sleutel op je klembord, dan biedt de app aan om die te gebruiken en verdeelt hij een volledig adres over de twee vakken. Voor Twitch en YouTube krijg je misschien een knop Aanmelden met, en dan wordt de sleutel voor je opgehaald. Sleutels worden versleuteld op deze telefoon bewaard; wijzig of verwijder ze onder Instellingen, Bestemmingen."
+          ]
+        },
+        {
+          "id": "live_key_rejected",
+          "q": "Er staat dat het platform de streamsleutel heeft geweigerd.",
+          "a": [
+            "Misschien is de sleutel verkeerd getypt, verlopen of vervangen door een nieuwere, of mag het account nog niet live gaan. Kopieer een nieuwe sleutel van het platform en plak hem onder Instellingen, Bestemmingen, Sleutel wijzigen. Klopt de sleutel, controleer dan de voorwaarden van het platform: Twitch toont pas een sleutel als je tweestapsverificatie hebt ingeschakeld, een YouTube-kanaal moet geverifieerd zijn en de eerste keer kan het tot 24 uur duren, en TikTok en Facebook hebben een minimum aantal volgers. Beëindigt het platform een livestream die al liep, dan is dezelfde sleutel misschien ergens anders live."
+          ]
+        },
+        {
+          "id": "live_tiktok_key",
+          "q": "TikTok geeft me geen streamsleutel. Wat nu?",
+          "a": [
+            "TikTok beslist welke accounts er een krijgen: je moet 18 jaar of ouder zijn en meestal minstens 1000 volgers hebben, en zelfs dan is het niet gegarandeerd. Heeft je account er een, dan vind je de sleutel op een computer in het LIVE Center van TikTok, nadat je een titel en categorie hebt ingesteld. TikTok geeft meestal per livestream een nieuwe sleutel, dus de app vraagt je elke keer dat je live gaat om de nieuwe te plakken; Instagram, Bilibili en Douyu werken net zo. Instagram vraagt ook 1000 volgers op een openbaar account, en Bilibili 5000 volgers met verificatie van je echte naam."
+          ]
+        },
+        {
+          "id": "live_mic_voice",
+          "q": "Horen kijkers mijn microfoon en mijn teamgenoten?",
+          "a": [
+            "Je microfoon gaat alleen de livestream in als je hem aanzet, met Micro bovenaan het livepaneel of met Micro in de livestream op het tabblad Audio; standaard staat hij uit. Dat staat los van de voicechat met de console, de MIC-knop op de schermcontroller, dus je kunt met kijkers praten, met teamgenoten, met allebei of met niemand. Teamgenoten zijn alleen in de livestream te horen als de console hun stemmen mengt in het gamegeluid dat hij naar deze telefoon stuurt: wat je tijdens een gewone stream uit de telefoon hoort, horen kijkers ook."
+          ]
+        },
+        {
+          "id": "live_viewers_see",
+          "q": "Zien kijkers mijn meldingen of de knoppen op het scherm?",
+          "a": [
+            "Nee. De livestream bestaat uit het gamebeeld en -geluid dat de console stuurt, plus je camera, de scènekaarten en het kleine merkteken in de hoek als die aanstaan. De schermcontroller, het snelmenu, het livepaneel en het label ervan, meldingen en al het andere op je telefoon komen er nooit in. Wil je de game even afdekken, bijvoorbeeld terwijl je een wachtwoord op de console typt, tik dan op Verbergen bovenaan het livepaneel: het gamebeeld en -geluid worden vervangen door een kaart tot je er opnieuw op tikt."
+          ]
+        },
+        {
+          "id": "live_camera",
+          "q": "Hoe voeg ik mijn camera toe?",
+          "a": [
+            "Open het livepaneel en zet op het tabblad Scène onder Camera de optie Mijn camera tonen aan. Kies een indeling met ruimte ervoor, zoals Camera in hoek of Zijbalk; Volledig scherm heeft die niet. Sleep het vak om de camera te verplaatsen, dan klikt hij vast in de dichtstbijzijnde hoek; op hetzelfde tabblad vind je voor- of achtercamera, spiegelen, vorm, rand en grootte. De app vraagt de eerste keer om cameratoegang, en al het andere blijft werken als je weigert."
+          ]
+        },
+        {
+          "id": "live_vertical",
+          "q": "Hoe ga ik staand live?",
+          "a": [
+            "Zet in de laatste stap voordat je live gaat Vorm op Staand 9:16. De staande indelingen op het tabblad Scène zijn Gecentreerd, met de game in het midden op een vervaagde achtergrond, Gestapeld, met de game bovenaan en ruimte voor de camera eronder, en Vullen, waarbij de game wordt bijgesneden tot hij het scherm vult. Kies je een platform waarop staand wordt gekeken, zoals TikTok of Instagram, dan schakelt de app waar mogelijk zelf over naar staand."
+          ]
+        },
+        {
+          "id": "live_two_platforms",
+          "q": "Kan ik op twee platforms tegelijk live gaan?",
+          "a": [
+            "Ja. Dezelfde livestream kan naar twee platforms, en je kunt ook een kopie in de andere vorm naar een derde sturen, bijvoorbeeld liggend naar Twitch en YouTube en staand naar TikTok. Stel het in onder Ook live op in de laatste stap voordat je live gaat. Elke livestream wordt vanaf je telefoon geüpload en heeft dus een eigen deel van de uploadsnelheid nodig, en een tweede vorm laat de telefoon ook harder werken. Valt één bestemming uit, dan blijven de andere live. Wil je meer platforms bereiken, ga dan één keer live via een multistreamdienst zoals Restream en koppel je platforms daar."
+          ]
+        },
+        {
+          "id": "live_stutter",
+          "q": "De livestream hapert of valt steeds weg.",
+          "a": [
+            "Meestal ligt het aan de uploadsnelheid, want de livestream gaat naar buiten via dezelfde wifi waarover de game binnenkomt. Heeft de upload het zwaar, dan verlaagt de app eerst de bitrate en daarna de framerate, en verhoogt ze weer zodra het herstelt; de resolutie verandert tijdens een livestream niet. Valt de verbinding weg, dan verbindt de app vanzelf opnieuw en loopt een opname door. Ga live via je wifi thuis, liefst op 5 GHz en dicht bij de router, kies een lagere kwaliteit voordat je live gaat, en kijk op het tabblad Status van het livepaneel wat er gebeurt. Mobiele data en spelen buiten de deur werken, maar het beeld lijdt eronder."
+          ]
+        },
+        {
+          "id": "live_phone_hot",
+          "q": "De telefoon wordt heet terwijl ik live ben.",
+          "a": [
+            "Tegelijk de game ontvangen, de livestream opbouwen en coderen is zwaar werk voor een telefoon. Als hij warm wordt, schaalt de app vanzelf terug: eerst de framerate, dan de camera naar 15 fps, dan de camera uit, en dan de tweede livestream als die er is, en het tabblad Status vertelt waarom. De resolutie blijft tijdens een livestream hetzelfde, dus blijft de telefoon heet worden, begin dan de volgende keer op 720p30. Haal de telefoon uit het hoesje en leg hem vrij neer; in de Livemodus helpt de Zwart-schermmodus ook."
+          ]
+        },
+        {
+          "id": "live_screen_off",
+          "q": "Kan ik het scherm uitzetten of van app wisselen terwijl ik live ben?",
+          "a": [
+            "Nee. De livestream draait op de streampagina. Staat Scherm-in-scherm aan in Instellingen, dan krimpt de game tot een klein venster als je de app verlaat, en loopt de livestream door. Is de streampagina langer dan ongeveer 15 seconden niet in beeld, bijvoorbeeld achter een andere app of met het scherm uit, dan stopt de livestream, en als je de streampagina verlaat, stopt hij meteen. In de Livemodus maakt de Zwart-schermmodus het scherm zwart en dimt het terwijl de livestream doorloopt; tik ergens om het te wekken."
+          ]
+        },
+        {
+          "id": "live_console_drop",
+          "q": "Wat gebeurt er als de console de verbinding verliest terwijl ik live ben?",
+          "a": [
+            "De livestream loopt door en kijkers zien de kaart Zo terug. Komt de verbinding met de console terug, dan keert de game vanzelf terug; na ongeveer 3 minuten zonder verbinding stopt de livestream. Dit geldt alleen als de verbinding vanzelf wegvalt: beëindig je de sessie zelf, dan stopt ook de livestream. Je kunt de kaart ook zelf tonen met BRB bovenaan het livepaneel."
+          ]
+        },
+        {
+          "id": "live_blocked_card",
+          "q": "Kijkers zien een kaart dat dit deel niet in de stream kan worden getoond.",
+          "a": [
+            "Sommige games en consoleschermen staan weergave op afstand niet toe, dus de console stopt met het sturen van dat beeld. In plaats van een zwart of bevroren beeld krijgen kijkers die kaart, en de game komt vanzelf terug zodra de console hem weer stuurt. Geen enkele instelling verandert dit; het hangt af van de game."
+          ]
+        },
+        {
+          "id": "live_recordings",
+          "q": "Waar worden mijn opnames opgeslagen?",
+          "a": [
+            "Zet Ook een video op deze telefoon opslaan aan in de laatste stap voordat je live gaat, of kies Alleen opnemen, niet live gaan. Op Android 10 en hoger komt de afgeronde video in Movies/Relaypad, zodat hij in je galerij en bestandsbeheer verschijnt. Op oudere versies blijft hij in de eigen map van de app, Android/data/com.relaypad.remoteplay.app/files/Movies, en wordt hij verwijderd als je de app verwijdert. Het overzicht na de livestream heeft Openen en Delen voor de video."
+          ]
+        },
+        {
+          "id": "live_watermark",
+          "q": "Kan ik het merkteken in de hoek van de livestream verplaatsen of uitzetten?",
+          "a": [
+            "Verplaatsen kan, maar voor uitzetten heb je Pro nodig. Elke livestream toont vanaf de eerste een klein Relaypad-merkteken in een hoek. Kies onder Watermerk op het tabblad Scène van het livepaneel een van de vier hoeken; standaard staat het rechtsboven. Met Pro zet je op dezelfde plek Watermerk tonen uit."
+          ]
+        },
+        {
+          "id": "live_pro_trial",
+          "q": "Wat zit er in de Pro-proeflivestreams, en wat gebeurt er daarna?",
+          "a": [
+            "In je eerste paar livestreams kun je het cameravenster, staand 9:16, een tweede platform en directe herhaling gebruiken, en het livepaneel toont hoeveel proeflivestreams er nog over zijn; een livestream korter dan 5 minuten telt niet mee. Het watermerk in de hoek uitzetten zit niet in de proef. Daarna kun je gratis en zonder tijdslimiet live blijven gaan, op één platform tot 1080p60, met opnemen; voor de rest heb je Pro nodig, die staat onder Wat voegt Pro toe?. Je camera, indeling en andere instellingen blijven bewaard, dus met Pro heb je ze meteen terug."
+          ]
+        },
+        {
+          "id": "live_console_broadcast",
+          "q": "Kan ik tegelijk de ingebouwde uitzendfunctie van de console gebruiken?",
+          "a": [
+            "Meestal niet: de console zendt over het algemeen niet uit terwijl er een Remote Play-sessie loopt, en deze app komt nooit aan die functie. Je hebt hem ook niet nodig, want de telefoon gaat zelf live, en naar meer platforms dan de console aanbiedt."
+          ]
+        }
+      ]
+    },
+    {
       "id": "quality",
       "title": "Streamen en beeld",
       "entries": [
@@ -276,13 +429,6 @@
           "q": "Waar zitten de bedieningselementen tijdens een stream?",
           "a": [
             "De bovenste balk verdwijnt na een paar seconden. Tik op een lege plek in het beeld om hem terug te halen: het pictogram met schuifregelaars opent het snelmenu, en Houd ingedrukt om af te sluiten beëindigt de stream. Lang drukken op een lege plek opent ook het snelmenu."
-          ]
-        },
-        {
-          "id": "free_720p",
-          "q": "Waartoe is de gratis versie beperkt?",
-          "a": [
-            "Streamen op je thuisnetwerk tot 720p en 30 fps met H.264, zonder tijdslimiet en zonder advertenties. De grens wordt toegepast elke keer dat een sessie start. De controllermodus is volledig gratis, zonder grens. Streamen op Android TV vereist Pro."
           ]
         },
         {
@@ -346,6 +492,13 @@
           "q": "HEVC of HDR is niet te kiezen, of de stream gebruikt in plaats daarvan H.264.",
           "a": [
             "HEVC heeft een geschikte decoder op deze telefoon nodig, en HDR een scherm dat het ondersteunt; op de pagina Beeldkwaliteit staat waarom een optie niet beschikbaar is. Kan de telefoon het formaat bij het starten van een stream niet decoderen, dan schakelt de stream zelf over naar H.264 of SDR en laat je dat weten."
+          ]
+        },
+        {
+          "id": "ps4_hevc",
+          "q": "Werkt HEVC of HDR met een PS4?",
+          "a": [
+            "Nee. Elke PS4, ook de Slim en de Pro, stuurt alleen H.264; HEVC en HDR zijn functies van de PS5. De codec-instelling geldt voor al je consoles: op een PS5 wordt hij zo gebruikt, en een stream naar een PS4 schakelt vanzelf over naar H.264 en meldt dat. Je kunt HEVC dus aan laten staan als je ook een PS5 hebt."
           ]
         },
         {
@@ -588,34 +741,48 @@
     },
     {
       "id": "purchase",
-      "title": "Aankoop en terugbetalingen",
+      "title": "Pro, aankopen en terugbetalingen",
       "entries": [
         {
-          "id": "paid_not_subscription",
-          "q": "Is dit een abonnement?",
+          "id": "controller_free",
+          "q": "Moet ik betalen om de telefoon als controller te gebruiken?",
           "a": [
-            "Nee. Je koopt de app één keer in Google Play en dat is het: geen abonnement, geen in-app-aankopen, geen advertenties en geen functie die later om een tweede betaling vraagt. De aankoop hangt aan je Google-account, niet aan de telefoon."
+            "Nee. De controllermodus is volledig gratis, zonder tijdslimiet en zonder advertenties: schermcontroller, indelingseditor, fysieke controllers, knoppentoewijzing, trillingen, bewegingssensor, touchpad, microfoon, de console wekken en in de slaapstand zetten, en zo veel consoles en accounts als je wilt. Nergens in de controllermodus wordt om een aankoop gevraagd."
           ]
         },
         {
-          "id": "paid_promo_forever",
-          "q": "Ik heb de app tijdens een gratis actie geïnstalleerd. Worden functies later op slot gezet?",
+          "id": "pro_not_subscription",
+          "q": "Is Pro een abonnement?",
           "a": [
-            "Nee. Installeren tijdens een actie geldt als het kopen van de app voor die prijs, dus hij is voorgoed van jou, met alle functies. Dat blijft zo nadat de actie is afgelopen, en met hetzelfde Google-account installeer je hem gratis opnieuw op een nieuwe telefoon."
+            "Pro is op dit moment een eenmalige aankoop die aan je Google-account vastzit. Je betaalt één keer voor de Pro-functies die er zijn op het moment dat je koopt, zonder kosten per livestream, en je betaalt de prijs die in het betaalvenster van Google Play staat. Wordt een aankoop terugbetaald, dan wordt Pro verwijderd de volgende keer dat de app bij Google Play controleert."
           ]
         },
         {
-          "id": "paid_reinstall",
-          "q": "Hoe installeer ik de app op een nieuwe telefoon?",
+          "id": "pro_contents",
+          "q": "Wat voegt Pro toe?",
           "a": [
-            "Open de pagina in Google Play met hetzelfde Google-account waarmee je hebt gekocht; er staat dan Installeren in plaats van een prijs. Consoles gaan niet mee, dus koppel elke console opnieuw op de nieuwe telefoon; de koppelsleutels blijven op de telefoon waarop ze zijn gemaakt."
+            "Pro breidt live gaan uit met: het cameravenster en de indelingen die er ruimte voor maken, staande 9:16-indelingen, twee platforms tegelijk plus een kopie in de andere vorm voor een derde, directe herhaling van de laatste 30 seconden, en het watermerk in de hoek uitzetten. In je eerste paar livestreams kun je het allemaal uitproberen, behalve het watermerk uitzetten. Al het andere is gratis: de volledige controllermodus, streamen tot 1080p en 60 fps met HEVC en HDR, spelen van buiten je thuisnetwerk, Android TV, scherm-in-scherm, de verbindingsdokter, en live gaan op één platform tot 1080p60 zonder tijdslimiet, inclusief handmatige bitrate en opnemen."
           ]
         },
         {
-          "id": "paid_included",
-          "q": "Wat is er allemaal inbegrepen?",
+          "id": "pro_restore",
+          "q": "Ik heb een nieuwe telefoon en Pro is weg.",
           "a": [
-            "Alles, vanaf de eerste start: streamen op 1080p en 60 fps, handmatige bitrate, HEVC en HDR, FSR-verscherping en de prestatie-overlay, spelen van buiten je thuisnetwerk, streamen op Android TV, scherm-in-scherm, en het spel op de tv met je telefoon als controller. Ook de controllermodus, de verbindingsdokter, de widget Console-snelkoppeling en zoveel consoles en accounts als je wilt zitten erbij."
+            "Aankopen volgen het Google-account, niet de telefoon. Bij het starten controleert de app bij Google Play en ontgrendelt Pro vanzelf, zolang Google Play op deze telefoon het account gebruikt waarmee je hebt gekocht. Gebeurt dat niet, open dan Instellingen, Upgraden naar Pro en tik op Aankoop herstellen. Is Google Play niet bereikbaar, dan meldt de app dat gewoon; controleer de verbinding en of Google Play is aangemeld, en probeer het dan opnieuw."
+          ]
+        },
+        {
+          "id": "purchase_pending_failed",
+          "q": "Ik heb betaald, maar Pro is nog niet ontgrendeld.",
+          "a": [
+            "Sommige betaalmethoden, zoals contant betalen in een winkel, blijven in behandeling tot de betaling rond is. Pro wordt ontgrendeld zodra Google Play die bevestigt: meteen als de app open is, of anders de volgende keer dat je hem start. Is de aankoop mislukt, controleer dan de betaalmethode in Google Play en probeer het later opnieuw."
+          ]
+        },
+        {
+          "id": "legacy_paid_locked",
+          "q": "Ik heb de app gekocht toen hij nog betaald was, en nu zitten er functies op slot.",
+          "a": [
+            "Alles wat je had, blijft van jou. Dit gebeurt meestal nadat de gegevens van de app zijn gewist of de app opnieuw is geïnstalleerd op een nieuwe telefoon, waardoor de installatiedatum waaraan de app je herkent wordt gereset. Mail ons met het bestelnummer van de bon van Google Play voor de app zelf, en we sturen je een promotiecode die alles weer ontgrendelt."
           ]
         },
         {
@@ -623,13 +790,6 @@
           "q": "Hoe krijg ik mijn geld terug?",
           "a": [
             "Binnen 48 uur na de aankoop vraag je de terugbetaling zelf aan in je bestelgeschiedenis in Google Play; dat gaat het snelst. Daarna mail je ons binnen 7 dagen na de aankoop en betalen we terug, zonder vragen. Vermeld het bestelnummer van de bon van Google Play, dan kunnen we de aankoop vinden."
-          ]
-        },
-        {
-          "id": "paid_bought_before_sale",
-          "q": "Ik heb vlak voor een aanbieding de volle prijs betaald.",
-          "a": [
-            "Schrijf ons. Binnen 48 uur na de aankoop gaat het het snelst als je de aankoop zelf terugvraagt in je bestelgeschiedenis in Google Play en opnieuw koopt tegen de actieprijs. Daarna mail je ons met het bestelnummer van de bon van Google Play, en betalen we het verschil terug."
           ]
         }
       ]
@@ -649,7 +809,7 @@
           "id": "android_tv",
           "q": "Is er een versie voor Android TV?",
           "a": [
-            "Ja, dezelfde app is te installeren op Android TV en Google TV. Open Google Play op de tv met hetzelfde Google-account waarmee je hebt gekocht; de app wordt dan zonder extra kosten geïnstalleerd. Om te spelen heeft de tv een controller via bluetooth of USB nodig; met de afstandsbediening navigeer je alleen door de menu's. Druk tijdens een stream op OK of Menu op de afstandsbediening, of houd L1, R1, L3 en R3 tegelijk ingedrukt op de controller, om het snelmenu te openen."
+            "Ja, dezelfde app is te installeren op Android TV en Google TV, en streamen op de tv is gratis. Om te spelen heeft de tv een controller via bluetooth of USB nodig; met de afstandsbediening navigeer je alleen door de menu's. Druk tijdens een stream op OK of Menu op de afstandsbediening, of houd L1, R1, L3 en R3 tegelijk ingedrukt op de controller, om het snelmenu te openen."
           ]
         },
         {
@@ -690,5 +850,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

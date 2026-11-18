@@ -268,6 +268,159 @@
       ]
     },
     {
+      "id": "live",
+      "title": "Siaran langsung",
+      "entries": [
+        {
+          "id": "live_what_needed",
+          "q": "Apa yang saya perlukan untuk live?",
+          "a": [
+            "Konsol milik Anda sendiri yang sudah disiapkan di aplikasi ini, dan akun di platform tujuan siaran. Tanpa komputer dan tanpa capture card. Ketuk Mulai live di kartu konsol lalu ikuti langkahnya: cara Anda bermain, tujuan siaran, menghubungkan platform, dan pemeriksaan akhir. Jika Anda sedang bermain, buka panel cepat lalu ketuk Mulai live di sana. Selama live, ketuk lencana di sudut untuk membuka panel live."
+          ]
+        },
+        {
+          "id": "live_platforms",
+          "q": "Ke platform mana saja saya bisa live?",
+          "a": [
+            "Twitch, YouTube, dan Kick, serta TikTok LIVE, Facebook, Instagram, X, Rumble, Telegram, Bilibili, Huya, Douyu, TwitCasting, niconico, SOOP, CHZZK, dan VK Video Live. Layanan multistream seperti Restream dan Castr meneruskan satu siaran ke lebih banyak platform lagi, dan Server kustom menerima alamat RTMP atau RTMPS apa pun. Platform berlabel Ada syarat hanya mengizinkan sebagian akun untuk live; pilih platformnya untuk melihat syaratnya."
+          ]
+        },
+        {
+          "id": "live_no_pc_quality",
+          "q": "Benarkah bisa tanpa komputer atau capture card? Hasilnya seperti apa?",
+          "a": [
+            "Bisa. Ponsel mengerjakan keduanya: menerima game dari konsol, menambahkan apa yang Anda pasang di atasnya, lalu mengirim hasilnya ke platform. Gambarnya berasal dari kiriman Remote Play, maksimal 1080p tanpa HDR dan sudah dikompresi sekali oleh konsol, jadi capture card akan terlihat lebih tajam. Untuk hasil terbaik, streaming konsol di 1080p lewat Wi-Fi rumah. Jika streaming konsol memakai HDR saat Anda live, warna di siaran bisa terlihat pudar, jadi matikan HDR di Setelan, Kualitas video lalu sambung ulang."
+          ]
+        },
+        {
+          "id": "live_capture_mode",
+          "q": "Apa itu Mode Live, dan ke mana kontroler disambungkan?",
+          "a": [
+            "Mode ini untuk bermain di TV sementara ponsel mengurus siaran, seperti capture card. Pilih Di TV di langkah pertama. Ponsel lalu menampilkan apa yang dilihat penonton, tanpa gamepad layar dan tanpa suara game, karena suaranya sudah keluar dari TV. Sambungkan kontroler ke ponsel lewat Bluetooth atau USB, dengan USB yang paling stabil, lalu bermain sambil melihat TV. Kontroler yang tersambung langsung ke konsol tidak bisa dipakai bermain bersamaan: konsol menganggapnya pengguna lain, dan keduanya terus saling merebut kendali. Pakai headphone, atau jauhkan ponsel dari speaker TV, supaya suara TV tidak masuk ke mikrofon."
+          ]
+        },
+        {
+          "id": "live_stream_key",
+          "q": "Di mana saya mendapat URL server dan stream key?",
+          "a": [
+            "Setelah Anda memilih platform, langkah penghubungan punya bagian Cara menemukan stream key: ketuk Lihat langkahnya untuk petunjuk platform itu, atau tombol di bawahnya untuk membuka halamannya. Salin stream key-nya, dan URL server juga jika platform memberikannya. Saat papan klip Anda berisi alamat atau key, aplikasi menawarkan untuk memakainya dan memisahkan alamat lengkap ke dua kolom. Untuk Twitch dan YouTube, tombol Masuk dengan bisa ditawarkan sebagai gantinya, dan key-nya diambilkan untuk Anda. Key disimpan terenkripsi di ponsel ini; ubah atau hapus di Setelan, Tujuan siaran."
+          ]
+        },
+        {
+          "id": "live_key_rejected",
+          "q": "Muncul pesan bahwa platform menolak stream key.",
+          "a": [
+            "Key-nya mungkin salah ketik, kedaluwarsa, atau sudah diganti yang lebih baru, atau akunnya belum diizinkan untuk live. Salin key baru dari platform lalu tempel di Setelan, Tujuan siaran, Ganti key. Jika key-nya benar, periksa syarat platform: Twitch baru menampilkan key setelah Anda mengaktifkan autentikasi dua faktor, channel YouTube harus diverifikasi dan pertama kali bisa memakan waktu hingga 24 jam, sedangkan TikTok dan Facebook punya batas jumlah pengikut. Jika platform mengakhiri siaran yang sudah berjalan, key yang sama mungkin sedang live di tempat lain."
+          ]
+        },
+        {
+          "id": "live_tiktok_key",
+          "q": "TikTok tidak mau memberi saya stream key. Lalu bagaimana?",
+          "a": [
+            "TikTok yang menentukan akun mana yang mendapatkannya: Anda harus berusia 18 tahun ke atas dan biasanya punya minimal 1.000 pengikut, dan itu pun tidak dijamin. Setelah akun Anda mendapatkannya, key ada di LIVE Center TikTok di komputer, setelah Anda mengatur judul dan kategori. TikTok biasanya memberi key baru untuk setiap siaran, jadi aplikasi meminta Anda menempel key baru setiap kali live; Instagram, Bilibili, dan Douyu juga begitu. Instagram juga butuh 1.000 pengikut di akun publik, dan Bilibili 5.000 pengikut dengan verifikasi nama asli."
+          ]
+        },
+        {
+          "id": "live_mic_voice",
+          "q": "Apakah penonton bisa mendengar mikrofon saya dan rekan tim saya?",
+          "a": [
+            "Mikrofon Anda baru masuk ke siaran saat Anda menyalakannya, lewat Mik di bagian atas panel live atau Mikrofon di siaran di tab Audio; awalnya mati. Itu terpisah dari obrolan suara dengan konsol, yaitu tombol MIC di gamepad layar, jadi Anda bisa bicara ke penonton, ke rekan tim, ke keduanya, atau tidak ke siapa pun. Rekan tim hanya masuk ke siaran jika konsol mencampur suara mereka ke suara game yang dikirim ke ponsel ini: apa pun yang Anda dengar dari ponsel saat streaming biasa, itulah yang didengar penonton."
+          ]
+        },
+        {
+          "id": "live_viewers_see",
+          "q": "Apakah penonton akan melihat notifikasi atau tombol di layar saya?",
+          "a": [
+            "Tidak. Siaran dibangun dari gambar dan suara game yang dikirim konsol, ditambah kamera, kartu adegan, dan tanda kecil di sudut jika aktif. Gamepad layar, panel cepat, panel live beserta lencananya, notifikasi, dan apa pun lainnya di ponsel tidak pernah ikut masuk. Untuk menutupi game sebentar, misalnya saat mengetik kata sandi di konsol, ketuk Tutupi di bagian atas panel live: gambar dan suara game diganti kartu sampai Anda mengetuknya lagi."
+          ]
+        },
+        {
+          "id": "live_camera",
+          "q": "Bagaimana cara menambahkan kamera saya?",
+          "a": [
+            "Buka panel live, lalu di tab Adegan, nyalakan Tampilkan kamera saya di bagian Kamera. Pilih tata letak yang punya ruang untuk kamera, seperti Kamera di sudut atau Bilah samping; Layar penuh tidak punya ruang itu. Seret kotaknya untuk memindahkan kamera dan kotak akan menempel ke sudut terdekat, dan tab yang sama punya kamera depan atau belakang, cermin, bentuk, bingkai, dan ukuran. Aplikasi meminta akses kamera saat pertama kali, dan semua yang lain tetap berfungsi jika Anda menolaknya."
+          ]
+        },
+        {
+          "id": "live_vertical",
+          "q": "Bagaimana cara live dalam format vertikal?",
+          "a": [
+            "Di langkah terakhir sebelum live, atur Bentuk ke Potret 9:16. Tata letak vertikal di tab Adegan adalah Di tengah, dengan game di tengah di atas latar yang diburamkan, Bertumpuk, dengan game di atas dan ruang untuk kamera di bawah, serta Penuh, dengan game dipotong agar memenuhi layar. Memilih platform yang ditonton tegak, seperti TikTok atau Instagram, otomatis beralih ke potret jika memungkinkan."
+          ]
+        },
+        {
+          "id": "live_two_platforms",
+          "q": "Bisakah saya live ke dua platform sekaligus?",
+          "a": [
+            "Bisa. Siaran yang sama bisa dikirim ke dua platform, dan Anda juga bisa mengirim satu versi lagi dalam bentuk lain ke platform ketiga, misalnya lanskap ke Twitch dan YouTube ditambah vertikal ke TikTok. Atur di Live juga ke pada langkah terakhir sebelum live. Setiap siaran diunggah dari ponsel Anda, jadi masing-masing memakai bagian kecepatan unggahnya sendiri, dan bentuk kedua juga membuat ponsel bekerja lebih berat. Jika satu tujuan siaran gagal, yang lain tetap live. Untuk menjangkau lebih banyak platform, live sekali ke layanan multistream seperti Restream lalu hubungkan platform Anda di sana."
+          ]
+        },
+        {
+          "id": "live_stutter",
+          "q": "Siaran patah-patah atau terus terputus.",
+          "a": [
+            "Penyebab yang paling umum adalah kecepatan unggah, karena siaran keluar lewat Wi-Fi yang sama dengan jalur masuk game. Saat unggahan tersendat, aplikasi menurunkan bitrate dulu lalu kecepatan frame, dan menaikkannya lagi setelah pulih; resolusi tidak diubah selama siaran. Jika koneksi terputus, aplikasi menyambung ulang sendiri dan rekaman tetap berjalan. Live dari Wi-Fi rumah, sebaiknya 5 GHz dan dekat router, pilih kualitas yang lebih rendah sebelum live, dan lihat tab Status di panel live untuk tahu apa yang terjadi. Data seluler dan bermain dari luar rumah tetap bisa, tetapi gambarnya jadi kurang bagus."
+          ]
+        },
+        {
+          "id": "live_phone_hot",
+          "q": "Ponsel jadi panas saat saya live.",
+          "a": [
+            "Menerima game, menyusun siaran, dan mengenkodenya sekaligus adalah kerja berat bagi ponsel. Saat ponsel memanas, aplikasi menurunkan beban sendiri secara bertahap: pertama kecepatan frame, lalu kamera ke 15 fps, lalu kamera dimatikan, lalu siaran kedua jika ada, dan tab Status menjelaskan alasannya. Resolusi tetap sama selama siaran, jadi jika ponsel terus panas, mulai di 720p30 lain kali. Lepas casing ponsel dan letakkan di tempat terbuka; di Mode Live, Hemat daya layar gelap juga membantu."
+          ]
+        },
+        {
+          "id": "live_screen_off",
+          "q": "Bisakah saya mematikan layar atau berpindah aplikasi saat live?",
+          "a": [
+            "Tidak. Siaran berjalan di halaman streaming. Dengan Picture-in-picture aktif di Setelan, keluar dari aplikasi akan mengecilkan game ke jendela kecil dan siaran tetap berjalan. Jika halaman streaming tidak tampil di layar lebih dari sekitar 15 detik, misalnya tertutup aplikasi lain atau layar mati, siaran berhenti, dan keluar dari halaman streaming langsung mengakhirinya. Di Mode Live, Hemat daya layar gelap menghitamkan dan meredupkan layar sementara siaran tetap berjalan; ketuk di mana saja untuk membangunkannya."
+          ]
+        },
+        {
+          "id": "live_console_drop",
+          "q": "Apa yang terjadi jika konsol terputus saat saya live?",
+          "a": [
+            "Siaran tetap berjalan dan penonton melihat kartu Segera kembali. Saat koneksi ke konsol pulih, game kembali dengan sendirinya; setelah sekitar 3 menit tanpa koneksi, siaran berakhir. Ini hanya berlaku saat koneksi putus sendiri: mengakhiri sesi sendiri juga mengakhiri siaran. Anda juga bisa menampilkan kartu itu sendiri dengan BRB di bagian atas panel live."
+          ]
+        },
+        {
+          "id": "live_blocked_card",
+          "q": "Penonton melihat kartu yang bilang bagian ini tidak bisa ditampilkan di siaran.",
+          "a": [
+            "Beberapa game dan layar konsol tidak mengizinkan tampilan jarak jauh, jadi konsol berhenti mengirim gambarnya. Alih-alih gambar hitam atau membeku, penonton melihat kartu itu, dan game kembali dengan sendirinya begitu konsol mengirimnya lagi. Tidak ada setelan yang bisa mengubah ini; semuanya tergantung game-nya."
+          ]
+        },
+        {
+          "id": "live_recordings",
+          "q": "Di mana rekaman saya disimpan?",
+          "a": [
+            "Nyalakan Simpan juga video di ponsel ini di langkah terakhir sebelum live, atau pilih Rekam saja, tanpa live. Di Android 10 ke atas, video yang selesai masuk ke Movies/Relaypad, jadi muncul di galeri dan pengelola file Anda. Di versi yang lebih lama, video tetap ada di folder milik aplikasi, Android/data/com.relaypad.remoteplay.app/files/Movies, dan terhapus saat Anda meng-uninstal aplikasi. Ringkasan setelah siaran punya Buka dan Bagikan untuk videonya."
+          ]
+        },
+        {
+          "id": "live_watermark",
+          "q": "Bisakah saya memindahkan atau mematikan tanda di sudut siaran?",
+          "a": [
+            "Bisa dipindahkan, tetapi untuk mematikannya perlu Pro. Setiap siaran menampilkan tanda kecil Relaypad di sudut, mulai dari siaran pertama Anda. Pilih salah satu dari empat sudut di bagian Watermark pada tab Adegan di panel live; awalnya di kanan atas. Dengan Pro, matikan Tampilkan watermark di tempat yang sama."
+          ]
+        },
+        {
+          "id": "live_pro_trial",
+          "q": "Apa saja isi siaran uji coba Pro, dan apa yang terjadi setelahnya?",
+          "a": [
+            "Beberapa siaran pertama Anda bisa memakai jendela kamera, vertikal 9:16, platform kedua, serta putar ulang instan. Panel live menunjukkan sisa siaran uji coba; siaran yang lebih pendek dari 5 menit tidak dihitung. Uji coba tidak termasuk mematikan watermark di sudut. Setelah itu Anda tetap bisa live gratis tanpa batas waktu, ke satu platform hingga 1080p60, termasuk rekaman; sisanya butuh Pro, yang tercantum di Apa yang ditambahkan Pro?. Kamera, tata letak, dan setelan Anda yang lain tetap disimpan, jadi begitu membeli Pro semuanya langsung kembali."
+          ]
+        },
+        {
+          "id": "live_console_broadcast",
+          "q": "Bisakah saya memakai fitur siaran bawaan konsol pada saat yang sama?",
+          "a": [
+            "Biasanya tidak: konsol umumnya tidak menyiarkan selama sesi Remote Play berjalan, dan aplikasi ini tidak pernah menyentuh fitur itu. Anda juga tidak membutuhkannya, karena ponsel bisa live sendiri dan ke lebih banyak platform daripada yang disediakan konsol."
+          ]
+        }
+      ]
+    },
+    {
       "id": "quality",
       "title": "Streaming dan gambar",
       "entries": [
@@ -276,13 +429,6 @@
           "q": "Di mana kontrol saat streaming?",
           "a": [
             "Bilah atas memudar setelah beberapa detik. Ketuk bagian kosong pada gambar untuk memunculkannya lagi: ikon slider membuka panel cepat, dan Tahan untuk keluar mengakhiri streaming. Tekan lama pada bagian kosong juga membuka panel cepat."
-          ]
-        },
-        {
-          "id": "free_720p",
-          "q": "Apa saja batasan versi gratis?",
-          "a": [
-            "Streaming di jaringan rumah Anda hingga 720p dan 30 fps dengan H.264, tanpa batas waktu dan tanpa iklan. Batas ini diterapkan setiap kali sesi dimulai. Mode Gamepad gratis sepenuhnya tanpa batasan. Streaming di Android TV membutuhkan Pro."
           ]
         },
         {
@@ -346,6 +492,13 @@
           "q": "HEVC atau HDR tidak bisa dipilih, atau streaming malah memakai H.264.",
           "a": [
             "HEVC membutuhkan decoder yang mendukungnya di ponsel ini, dan HDR membutuhkan layar yang mendukungnya; halaman kualitas menjelaskan kenapa sebuah opsi tidak tersedia. Jika ponsel tidak bisa mendekode formatnya saat streaming dimulai, streaming otomatis beralih ke H.264 atau SDR dan memberi tahu Anda."
+          ]
+        },
+        {
+          "id": "ps4_hevc",
+          "q": "Apakah HEVC atau HDR bisa dipakai dengan PS4?",
+          "a": [
+            "Tidak. Semua PS4, termasuk Slim dan Pro, hanya mengirim H.264; HEVC dan HDR adalah fitur PS5. Pengaturan codec berlaku untuk semua konsol Anda: di PS5 dipakai apa adanya, dan streaming ke PS4 otomatis beralih ke H.264 lalu memberi tahu Anda, jadi HEVC boleh tetap aktif kalau Anda juga punya PS5."
           ]
         },
         {
@@ -588,34 +741,48 @@
     },
     {
       "id": "purchase",
-      "title": "Pembelian dan pengembalian dana",
+      "title": "Pro, pembelian dan pengembalian dana",
       "entries": [
         {
-          "id": "paid_not_subscription",
-          "q": "Apakah ini langganan?",
+          "id": "controller_free",
+          "q": "Apakah saya harus membayar untuk memakai ponsel sebagai kontroler?",
           "a": [
-            "Bukan. Anda membeli aplikasinya sekali di Google Play dan hanya itu: tanpa langganan, tanpa pembelian dalam aplikasi, tanpa iklan, dan tidak ada fitur yang meminta pembayaran kedua di kemudian hari. Pembeliannya terikat ke akun Google Anda, bukan ke ponselnya."
+            "Tidak. Mode Gamepad gratis sepenuhnya, tanpa batas waktu dan tanpa iklan: gamepad layar, editor tata letak, kontroler fisik, pemetaan tombol, getaran, sensor gerak, touchpad, mikrofon, membangunkan dan mengistirahatkan konsol, serta sebanyak apa pun konsol dan akun yang Anda mau. Tidak ada apa pun di Mode Gamepad yang meminta pembelian."
           ]
         },
         {
-          "id": "paid_promo_forever",
-          "q": "Saya memasangnya saat promo gratis. Apakah fiturnya akan dikunci nanti?",
+          "id": "pro_not_subscription",
+          "q": "Apakah Pro berbentuk langganan?",
           "a": [
-            "Tidak. Memasang aplikasi saat promo dihitung sebagai membelinya dengan harga tersebut, jadi aplikasinya milik Anda selamanya beserta semua fiturnya. Setelah promonya berakhir pun tetap begitu, dan akun Google yang sama bisa memasangnya lagi di ponsel baru tanpa biaya."
+            "Saat ini Pro adalah pembelian sekali bayar yang terikat ke akun Google Anda. Anda membayar sekali untuk fitur Pro yang tersedia saat membeli, tanpa biaya per siaran, dan yang Anda bayar adalah harga yang tertera di jendela pembayaran Google Play. Jika dana pembelian dikembalikan, Pro dicabut saat aplikasi memeriksa ke Google Play berikutnya."
           ]
         },
         {
-          "id": "paid_reinstall",
-          "q": "Bagaimana cara memasangnya di ponsel baru?",
+          "id": "pro_contents",
+          "q": "Apa yang ditambahkan Pro?",
           "a": [
-            "Buka halaman aplikasi di toko dengan akun Google yang sama dengan akun pembelian Anda, dan tombolnya akan menampilkan Instal, bukan harga. Konsol tidak ikut berpindah, jadi sandingkan lagi setiap konsol di ponsel baru; kunci penyandingan tetap tinggal di ponsel tempat kunci itu dibuat."
+            "Pro menambahkan untuk live: jendela kamera beserta tata letak yang memberi ruang untuknya, tata letak vertikal 9:16, dua platform sekaligus plus satu versi lagi dalam bentuk lain ke platform ketiga, putar ulang instan 30 detik terakhir, dan mematikan watermark di sudut. Anda bisa mencoba semuanya di beberapa siaran pertama, kecuali mematikan watermark. Semua yang lain gratis: Mode Gamepad sepenuhnya, streaming hingga 1080p dan 60 fps dengan HEVC dan HDR, main dari luar jaringan rumah, Android TV, picture-in-picture, Dokter Koneksi, dan live ke satu platform hingga 1080p60 tanpa batas waktu, termasuk bitrate manual dan rekaman."
           ]
         },
         {
-          "id": "paid_included",
-          "q": "Apa saja yang termasuk?",
+          "id": "pro_restore",
+          "q": "Saya ganti ponsel dan Pro hilang.",
           "a": [
-            "Semuanya, sejak pertama kali dibuka: streaming di 1080p dan 60 fps, bitrate manual, HEVC dan HDR, penajaman FSR dan overlay performa, main dari luar jaringan rumah, streaming di Android TV, picture-in-picture, serta game di TV dengan ponsel sebagai kontroler. Mode kontroler, Dokter Koneksi, widget pintasan konsol, dan konsol serta akun sebanyak yang Anda mau juga sudah ada semua."
+            "Pembelian mengikuti akun Google, bukan ponselnya. Saat dibuka, aplikasi memeriksa ke Google Play dan membuka Pro secara otomatis, selama Google Play di ponsel ini memakai akun yang Anda pakai untuk membeli. Jika tidak, buka Setelan, Tingkatkan ke Pro lalu ketuk Pulihkan pembelian. Jika Google Play tidak bisa dijangkau, aplikasi akan langsung memberi tahu Anda; periksa koneksi dan pastikan Anda sudah masuk ke Google Play, lalu coba lagi."
+          ]
+        },
+        {
+          "id": "purchase_pending_failed",
+          "q": "Saya sudah bayar, tapi Pro belum terbuka.",
+          "a": [
+            "Beberapa metode pembayaran, misalnya bayar tunai di toko, berstatus tertunda sampai pembayarannya selesai. Pro terbuka begitu Google Play mengonfirmasinya: langsung jika aplikasi sedang terbuka, atau saat Anda membukanya lagi. Jika pembelian gagal, periksa metode pembayaran di Google Play lalu coba lagi nanti."
+          ]
+        },
+        {
+          "id": "legacy_paid_locked",
+          "q": "Saya membeli aplikasi ini waktu masih berbayar, dan sekarang beberapa fiturnya terkunci.",
+          "a": [
+            "Semua yang sudah Anda miliki tetap milik Anda. Ini biasanya terjadi setelah data aplikasi dihapus atau aplikasinya dipasang ulang di ponsel baru, yang membuat tanggal pemasangan yang dipakai aplikasi untuk mengenali Anda ikut direset. Kirim email ke kami beserta nomor pesanan dari struk Google Play untuk aplikasinya sendiri, dan kami akan mengirimkan kode promo yang membuka semuanya kembali."
           ]
         },
         {
@@ -623,13 +790,6 @@
           "q": "Bagaimana cara mendapatkan pengembalian dana?",
           "a": [
             "Dalam 48 jam setelah membeli, ajukan sendiri pengembalian dana dari riwayat pesanan di Google Play, dan itu jalur tercepat. Setelah itu, kirim email ke kami dalam 7 hari sejak tanggal pembelian dan kami kembalikan dananya tanpa banyak tanya. Sertakan nomor pesanan dari struk Google Play supaya kami bisa menemukan pembelian Anda."
-          ]
-        },
-        {
-          "id": "paid_bought_before_sale",
-          "q": "Saya membayar harga penuh tepat sebelum diskon dimulai.",
-          "a": [
-            "Hubungi kami. Dalam 48 jam setelah membeli, jalur tercepat adalah mengajukan sendiri pengembalian dana dari riwayat pesanan di Google Play lalu membeli lagi dengan harga diskon. Setelah itu, kirim email ke kami dengan nomor pesanan dari struk Google Play dan kami kembalikan selisihnya."
           ]
         }
       ]
@@ -649,7 +809,7 @@
           "id": "android_tv",
           "q": "Apakah ada versi Android TV?",
           "a": [
-            "Ada, aplikasi yang sama bisa dipasang di Android TV dan Google TV. Buka toko di TV dengan akun Google yang sama dengan akun pembelian Anda, dan aplikasinya terpasang tanpa biaya tambahan. TV membutuhkan kontroler Bluetooth atau USB untuk bermain; remote hanya untuk berpindah di menu. Saat streaming, tekan OK atau Menu di remote, atau tahan L1, R1, L3 dan R3 bersamaan di kontroler, untuk membuka panel cepat."
+            "Ada, aplikasi yang sama bisa dipasang di Android TV dan Google TV, dan streaming di TV gratis. TV membutuhkan kontroler Bluetooth atau USB untuk bermain; remote hanya untuk berpindah di menu. Saat streaming, tekan OK atau Menu di remote, atau tahan L1, R1, L3 dan R3 bersamaan di kontroler, untuk membuka panel cepat."
           ]
         },
         {
@@ -690,5 +850,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

@@ -1,89 +1,91 @@
 {
   "slug": "relaypad",
   "locale": "zh-cn",
-  "title": "Relaypad: Remote Play 主机手柄远程串流",
-  "shortDescription": "无广告、无订阅。PS5、PS4 手机当控制器，陀螺仪体感、按键映射、1080p60 画面、HDMI 投屏到电视、连接诊断，在家连局域网、出门用 5G 都能玩。",
+  "title": "Relaypad: Remote Play 主机游戏直播",
+  "shortDescription": "PS5、PS4 手机开播：推流到 Twitch、YouTube、TikTok、Kick，不用电脑、不用采集卡。也能当手柄，出门在外照样连回家玩。",
   "requires": "需要一台已在设置里开启远程游玩（Remote Play）的 PS5 或 PS4 主机。",
-  "tagline": "Relaypad 让 Android 手机变成主机的无线手柄，也能把主机画面串流到手机、平板或电视上，在家在外都能玩。",
+  "tagline": "Relaypad 让 Android 手机连上你自己的主机，直接把游戏推流到 Twitch、YouTube、Kick、TikTok，或任何 RTMP 服务器。它同时是 Remote Play 客户端和手柄，在家用 Wi-Fi、出门用移动数据都能玩。",
   "sections": [
     {
       "id": "intro",
-      "title": "PS5、PS4 远程游玩手柄与主机串流",
+      "title": "PS5、PS4 游戏直播：不用电脑、不用采集卡",
       "paragraphs": [
-        "Relaypad 让 Android 手机变成主机的无线手柄，也能把主机画面串流到手机、平板或电视上，在家在外都能玩。"
+        "Relaypad 让 Android 手机连上你自己的主机，直接把游戏推流到 Twitch、YouTube、Kick、TikTok，或任何 RTMP 服务器。它同时是 Remote Play 客户端和手柄，在家用 Wi-Fi、出门用移动数据都能玩。"
       ],
       "bullets": []
     },
     {
       "id": "use-cases",
-      "title": "大家都拿 Relaypad 做什么",
+      "title": "不是录屏：推出去的只有游戏画面",
       "paragraphs": [],
       "bullets": [
-        "手柄突然没电，直接拿手机接着玩",
-        "用大按键的遥控布局操作主机菜单和视频 app",
-        "躺在床上或在别的房间玩，主机留在电视旁不用搬",
-        "酒店电视用 HDMI 接上画面，手机当手柄"
+        "观众看到的是游戏画面、听到的是游戏声音，手机上的虚拟按键、面板和通知都不会进直播",
+        "游戏声和麦克风分开混音，支持降噪",
+        "输密码或看消息时，一键遮挡游戏画面并静音",
+        "“即将开始”“暂离”“已结束”三张场景卡片，文字可以自己改"
       ]
     },
     {
       "id": "virtual-gamepad",
-      "title": "虚拟手柄、布局编辑器与按键映射",
+      "title": "不用电脑也能开播：手机就是你的主机直播设备",
       "paragraphs": [],
       "bullets": [
-        "五套内置布局：标准、精简、遥控、格斗、赛车",
-        "任何按键都能拖动、缩放、隐藏，自定义布局串流时也能用",
-        "触控板、震动、麦克风与陀螺仪体感",
-        "蓝牙或 USB 实体手柄直接转发给主机，自动套用按键映射",
-        "串流时接 USB 手柄：自适应扳机、灯条与触觉反馈"
+        "直播模式：手机立在电视旁负责推流，你照常看大屏幕玩",
+        "手柄用蓝牙或 USB 连到手机上",
+        "也可以直接在手机上边玩边播"
       ]
     },
     {
       "id": "console-streaming",
-      "title": "主机串流最高 1080p60，支持 HEVC 与 HDR",
+      "title": "Twitch、YouTube、Kick、TikTok 粘贴推流码就能开播，或自定义 RTMP 推流",
       "paragraphs": [],
       "bullets": [
-        "最高 1080p、30 或 60 fps，码率可手动调，手机支持就能用 HEVC 与 HDR",
-        "FSR 锐化，性能叠加层显示 fps、丢包与总延迟",
-        "HDMI 投屏到电视、画中画，平板与折叠屏分屏布局",
-        "精简模式，完整显示、拉伸铺满、放大铺满三种画面比例，家里 Wi-Fi 断线自动重连",
-        "用移动数据时自动降到 720p／30fps 省流量"
+        "Twitch、YouTube、Kick、TikTok LIVE、Facebook、Instagram、Bilibili、虎牙、斗鱼等平台：粘贴推流码即可，每个平台都附步骤教程",
+        "自定义 RTMP／RTMPS 推流地址，也能接 Restream 这类多平台转推服务",
+        "推流码在电脑上？用手机扫二维码带进来，不用手打",
+        "最高 1080p60 直播，码率可以手动调",
+        "网络不稳时自动重连、自动调整码率",
+        "直播的同时录成 MP4，也可以只录制不直播"
       ]
     },
     {
       "id": "remote-play-away",
-      "title": "不在家也能用移动数据远程游玩",
-      "paragraphs": [],
+      "title": "Relaypad Pro：摄像头露脸、竖屏 9:16、双平台同时推流",
+      "paragraphs": [
+        "免费直播一次推一个平台，画面角落有一个小小的 Relaypad 水印。Pro 再加上："
+      ],
       "bullets": [
-        "登录一次，之后用 5G、4G 或别的 Wi-Fi 都能连，多数情况不用设置路由器",
-        "自动 UPnP 端口映射，Tailscale 这类家庭 VPN 也能连",
-        "运营商共享公网地址（CGNAT）挡住连接时，会直接告诉你"
+        "摄像头窗口：用手机前置或后置摄像头露脸，形状可选，拖到想放的角落",
+        "竖屏 9:16 布局，推到 TikTok 这类竖屏平台时自动切换",
+        "同时推两个平台，或者横屏、竖屏各推一个",
+        "即时回放：随时把最近 30 秒存成片段",
+        "关闭角落水印"
       ]
     },
     {
       "id": "connection-doctor",
-      "title": "连接诊断：告诉你为什么连不上",
+      "title": "免费的 Remote Play 手柄：用手机玩主机游戏，最高 1080p60",
       "paragraphs": [],
       "bullets": [
-        "13 项检查：网络、主机待机、远程游玩开关、延迟与抖动",
-        "Wi-Fi 频段、VPN、蓝牙干扰、UPnP、NAT 类型与公网 IPv4",
-        "报告一键复制，或者直接发邮件给我们"
+        "在手机或平板上玩主机游戏，最高 1080p60，手机支持就能用 HEVC 与 HDR",
+        "不在家也能用 5G、4G 或别的 Wi-Fi 连回去，多数情况不用设置路由器",
+        "虚拟手柄有五套布局和布局编辑器，也能把蓝牙或 USB 手柄转发给主机",
+        "HDMI 接电视、画中画、FSR 锐化，还有显示延迟的性能叠加层"
       ]
     },
     {
       "id": "guided-setup",
-      "title": "四步完成设置",
-      "paragraphs": [],
-      "bullets": [
-        "在 app 内或浏览器里登录（支持 passkey），也能手动输入 Account ID",
-        "PS5 免 PIN 注册，主机待机时也行；也能用 8 位配对码",
-        "可以保存多台主机和多个账号，随时改名或重新配对"
-      ]
+      "title": "Remote Play 连不上？连接诊断告诉你为什么",
+      "paragraphs": [
+        "18 项检查，覆盖网络、主机待机、Wi-Fi 频段、延迟与 NAT 类型。报告可以一键复制，或者直接发邮件给我们。"
+      ],
+      "bullets": []
     },
     {
       "id": "pricing",
-      "title": "无广告、无订阅",
+      "title": "免费下载、无广告",
       "paragraphs": [
-        "Relaypad 不放广告，也没有订阅。换手机后用同一个 Google 账号重新安装，不用再付钱。如果在你的环境下用不了，购买后 7 天内发邮件给我们即可退款。"
+        "玩主机、当手柄、最高 1080p60 的直播都不花钱，没有广告，也不限时长。"
       ],
       "bullets": []
     },
@@ -91,18 +93,21 @@
       "id": "privacy",
       "title": "隐私",
       "paragraphs": [
-        "没有 Relaypad 账号，你和主机之间也没有 Relaypad 的服务器。配对密钥与登录凭证用 Android Keystore 加密，只保存在你的设备上。匿名使用统计可以关闭。"
+        "没有 Relaypad 账号，中间也没有 Relaypad 的服务器：直播从你的手机直接推到你选的平台。推流码、配对密钥与登录凭证用 Android Keystore 加密，只保存在你的设备上。摄像头和麦克风只在你打开时才会使用。匿名使用统计可以关闭。"
       ],
       "bullets": []
     },
     {
       "id": "before-you-buy",
-      "title": "购买前请确认",
+      "title": "安装前请确认",
       "paragraphs": [],
       "bullets": [
         "你需要有自己的主机，本 app 不含游戏，也不是云游戏",
-        "Android 8.0 及以上，建议 4 GB 以上内存与 5 GHz Wi-Fi",
-        "手机是用来代替手柄的，不能和主机上连着的手柄同时操作",
+        "直播画面来自 Remote Play（最高 1080p、没有 HDR），还会再压缩一次，论画质还是采集卡更清晰",
+        "边直播边看电视玩时，手柄要连在手机上，不是连主机",
+        "直播时 Relaypad 要留在屏幕上：切到别的 app 或锁屏，直播就会停（画中画除外）",
+        "TikTok 等部分平台只给符合条件的账号开放推流码，而且每场都要换新的推流码",
+        "Android 8.0 及以上，建议用近几年的手机和 5 GHz Wi-Fi",
         "主机系统更新后，可能要等 Relaypad 更新才能再次连接"
       ]
     },
@@ -110,7 +115,7 @@
       "id": "support",
       "title": "遇到问题？发邮件给我们",
       "paragraphs": [
-        "留评价之前，欢迎先发邮件到 feedback@dapplebyte.com，或者从“设置 → 关于 → 意见反馈”发送，手机型号会自动附上。每封邮件我们都会看。"
+        "留评价之前，可以先发邮件到 feedback@dapplebyte.com，或者从“设置 → 关于 → 意见反馈”发送，手机型号会自动附上。"
       ],
       "bullets": []
     },
@@ -118,10 +123,10 @@
       "id": "trademark",
       "title": "商标声明",
       "paragraphs": [
-        "PlayStation®、PS4®、PS5® 是 Sony Interactive Entertainment Inc. 的商标。Relaypad 是独立的 Remote Play 客户端，与 Sony 没有关联，未获其授权或认可。本 app 仅能搭配你自己拥有的主机与内容使用，不会破解防拷贝保护，也不会助长盗版。"
+        "PlayStation®、PS4®、PS5® 是 Sony Interactive Entertainment Inc. 的商标。Relaypad 是独立开发的 Remote Play 客户端，与 Sony 没有关联，未获其授权或认可。Twitch、YouTube、Kick、TikTok 以及文中提到的其他平台名称是各自所有者的商标，Relaypad 与它们没有关联。本 app 仅能搭配你自己拥有的主机与内容使用，不会破解防拷贝保护，也不会助长盗版。"
       ],
       "bullets": []
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

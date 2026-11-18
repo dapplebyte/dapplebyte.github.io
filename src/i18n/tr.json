@@ -571,9 +571,9 @@
         "refundBody": "{name} sizin kurulumunuzla çalışmazsa satın aldıktan sonraki 7 gün içinde bize e-posta gönderin, ücretini iade edelim. Neleri denediğinizi anlatın; sorunu bir sonraki kişi için düzeltmemize yardımcı olur."
       },
       "press": {
-        "description": "Android için Remote Play kumandası ve konsol akışı uygulaması {name} hakkında yazmak için bilgiler, görseller ve hazır tanıtım metni.",
-        "boilerplate": "{name}, bir Android telefonu PS5 veya PS4 için kablosuz kumandaya dönüştürür ya da konsolun görüntüsünü telefona, tablete veya TV'ye aktarır; evde de, dışarıda mobil veriyle de çalışır. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilmiştir ve AGPL-3.0 lisansıyla açık kaynak olarak yayımlanmıştır.",
-        "priceValue": "Ücretli uygulama; tek seferlik satın alma, abonelik yok, reklam yok. Güncel fiyat Google Play'de gösterilir.",
+        "description": "PS5 veya PS4'ten canlı yayın, Remote Play kumandası ve konsol akışı için Android uygulaması {name} hakkında yazmak için bilgiler, görseller ve hazır tanıtım metni.",
+        "boilerplate": "{name}, bir Android telefonun PS5 veya PS4 oyunlarını Twitch, YouTube, Kick, TikTok ya da herhangi bir RTMP sunucusunda canlı yayınlamasını sağlar; bilgisayar veya yakalama kartı gerekmez. Ayrıca kablosuz kumanda olarak çalışır ve konsolun görüntüsünü telefona, tablete veya TV'ye aktarır; evde de, dışarıda mobil veriyle de çalışır. Bağımsız bir stüdyo olan DappleByte tarafından geliştirilmiştir ve AGPL-3.0 lisansıyla açık kaynak olarak yayımlanmıştır.",
+        "priceValue": "Ücretsiz indirilir, reklam yok. Pro bir uygulama içi satın alımdır; yayındaki filigranı kapatmanızı sağlar ve kamera penceresi, dikey yerleşimler, aynı anda iki platformda yayın ve anlık tekrar ekler. Güncel fiyat Google Play'de gösterilir.",
         "assetScreenshots": "Ekran görüntüleri, 1920 × 1080 PNG, İngilizce"
       },
       "videosDescription": "{name} uygulamasını gerçek bir telefonda gösteren kısa videolar: kurulum, akış, kumanda yerleşimleri ve bağlantı sorunlarını giderme.",

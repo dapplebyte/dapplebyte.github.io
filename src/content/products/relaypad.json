@@ -13,13 +13,14 @@
   "firstReleased": "2026-09-20",
   "versions": [
     { "code": 100, "name": "1.0.0", "date": "2026-09-20" },
-    { "code": 101, "name": "1.0.1", "date": "2026-10-07" }
+    { "code": 101, "name": "1.0.1", "date": "2026-10-07" },
+    { "code": 110, "name": "1.1.0", "date": "2026-11-18" }
   ],
   "contactEmail": "feedback@dapplebyte.com",
   "accent": { "solid": "#FF7718", "bright": "#FF9426", "ink": "#120C05" },
   "displayFont": "Chakra Petch",
   "screenshotCount": 8,
-  "featuredFaq": ["home_card_modes", "extra_controller", "away_from_home", "same_network_but_not", "hevc_hdr_unavailable", "paid_not_subscription"],
+  "featuredFaq": ["home_card_modes", "live_what_needed", "extra_controller", "away_from_home", "same_network_but_not", "hevc_hdr_unavailable"],
   "trademark": "sony",
   "languages": 19,
   "overview": {

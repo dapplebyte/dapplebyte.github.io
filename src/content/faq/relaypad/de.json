@@ -268,6 +268,159 @@
       ]
     },
     {
+      "id": "live",
+      "title": "Livestream",
+      "entries": [
+        {
+          "id": "live_what_needed",
+          "q": "Was brauche ich, um live zu gehen?",
+          "a": [
+            "Ihre eigene Konsole, bereits in dieser App eingerichtet, und ein Konto auf der Plattform, auf der Sie live gehen möchten. Kein Computer und keine Capture-Karte. Tippen Sie auf der Konsolenkarte auf „Live gehen“ und folgen Sie den Schritten: wie Sie spielen, wo Sie live gehen, Plattform verbinden und ein letzter Check. Spielen Sie bereits, öffnen Sie das Schnellmenü und tippen Sie dort auf „Live gehen“. Während Sie live sind, öffnet ein Tippen auf das Abzeichen in der Ecke das Live-Panel."
+          ]
+        },
+        {
+          "id": "live_platforms",
+          "q": "Auf welchen Plattformen kann ich live gehen?",
+          "a": [
+            "Twitch, YouTube und Kick, außerdem TikTok LIVE, Facebook, Instagram, X, Rumble, Telegram, Bilibili, Huya, Douyu, TwitCasting, niconico, SOOP, CHZZK und VK Video Live. Multistream-Dienste wie Restream und Castr leiten einen Livestream an viele weitere Plattformen weiter, und „Eigener Server“ nimmt jede RTMP- oder RTMPS-Adresse an. Mit „Voraussetzungen“ markierte Plattformen lassen nur manche Konten live gehen; wählen Sie eine aus, um zu sehen, was sie verlangt."
+          ]
+        },
+        {
+          "id": "live_no_pc_quality",
+          "q": "Funktioniert das wirklich ohne Computer oder Capture-Karte? Wie sieht es aus?",
+          "a": [
+            "Ja. Das Telefon erledigt beides: Es empfängt das Spiel von der Konsole, legt darüber, was Sie hinzufügen, und schickt das Ergebnis an die Plattform. Das Bild beginnt mit dem, was Remote Play sendet, höchstens 1080p ohne HDR und von der Konsole bereits einmal komprimiert, eine Capture-Karte liefert also ein schärferes Bild. Das beste Ergebnis erzielen Sie, wenn Sie die Konsole mit 1080p über das Wi-Fi zu Hause streamen. Nutzt der Konsolenstream beim Livegehen HDR, können die Farben im Livestream blass wirken; schalten Sie HDR dann unter Einstellungen, Videoqualität aus und verbinden Sie sich neu."
+          ]
+        },
+        {
+          "id": "live_capture_mode",
+          "q": "Was ist der Live-Modus, und wo verbinde ich den Controller?",
+          "a": [
+            "Er ist zum Spielen am Fernseher gedacht, während das Telefon den Livestream übernimmt, wie eine Capture-Karte. Wählen Sie im ersten Schritt „Auf dem Fernseher“. Das Telefon zeigt dann, was die Zuschauer sehen, ohne Bildschirm-Gamepad und ohne Spielton, denn der kommt aus dem Fernseher. Verbinden Sie Ihren Controller per Bluetooth oder USB mit dem Telefon, USB ist am stabilsten, und spielen Sie mit Blick auf den Fernseher. Ein direkt mit der Konsole verbundener Controller kann nicht gleichzeitig spielen: Die Konsole behandelt ihn als anderen Benutzer, und die beiden nehmen sich ständig gegenseitig die Steuerung ab. Mit Kopfhörern, oder wenn das Telefon weit weg von den Fernseherlautsprechern steht, bleibt der Ton vom Fernseher aus Ihrem Mikrofon heraus."
+          ]
+        },
+        {
+          "id": "live_stream_key",
+          "q": "Wo bekomme ich die Server-URL und den Streamschlüssel?",
+          "a": [
+            "Nachdem Sie eine Plattform gewählt haben, finden Sie im Verbindungsschritt „Wo Sie Ihren Streamschlüssel finden“: Tippen Sie auf „Schritte anzeigen“ für die Anleitung dieser Plattform oder auf die Schaltfläche darunter, um ihre Seite zu öffnen. Kopieren Sie den Streamschlüssel und, falls die Plattform eine nennt, auch die Server-URL. Liegt eine Adresse oder ein Schlüssel in Ihrer Zwischenablage, bietet die App an, sie zu übernehmen, und teilt eine vollständige Adresse auf die beiden Felder auf. Bei Twitch und YouTube wird eventuell stattdessen eine Schaltfläche „Mit … anmelden“ angeboten, dann wird der Schlüssel für Sie abgerufen. Schlüssel werden verschlüsselt auf diesem Telefon gespeichert; ändern oder löschen Sie sie unter Einstellungen, Ziele."
+          ]
+        },
+        {
+          "id": "live_key_rejected",
+          "q": "Es heißt, die Plattform habe den Streamschlüssel abgelehnt.",
+          "a": [
+            "Der Schlüssel ist vielleicht falsch eingegeben, abgelaufen oder durch einen neueren ersetzt, oder das Konto darf noch nicht live gehen. Kopieren Sie einen frischen Schlüssel von der Plattform und fügen Sie ihn unter Einstellungen, Ziele, „Schlüssel ändern“ ein. Stimmt der Schlüssel, prüfen Sie die Voraussetzungen der Plattform: Twitch zeigt einen Schlüssel erst an, wenn die Zwei-Faktor-Authentifizierung eingeschaltet ist, ein YouTube-Kanal muss bestätigt sein, und beim ersten Mal kann es bis zu 24 Stunden dauern, und TikTok und Facebook verlangen eine Mindestzahl an Followern. Beendet die Plattform einen bereits laufenden Livestream, ist derselbe Schlüssel vielleicht woanders live."
+          ]
+        },
+        {
+          "id": "live_tiktok_key",
+          "q": "TikTok gibt mir keinen Streamschlüssel. Was nun?",
+          "a": [
+            "TikTok entscheidet, welche Konten einen bekommen: Sie müssen mindestens 18 Jahre alt sein und meist mindestens 1.000 Follower haben, und selbst dann gibt es keine Garantie. Hat Ihr Konto ihn, finden Sie den Schlüssel am Computer im LIVE Center von TikTok, nachdem Sie Titel und Kategorie festgelegt haben. TikTok gibt meist für jeden Livestream einen neuen Schlüssel aus, deshalb bittet die App Sie bei jedem Livegehen, den neuen einzufügen; Instagram, Bilibili und Douyu funktionieren genauso. Instagram verlangt außerdem 1.000 Follower auf einem öffentlichen Konto, Bilibili 5.000 Follower mit Klarnamen-Verifizierung."
+          ]
+        },
+        {
+          "id": "live_mic_voice",
+          "q": "Hören die Zuschauer mein Mikrofon und meine Mitspieler?",
+          "a": [
+            "Ihr Mikrofon kommt nur in den Livestream, wenn Sie es einschalten, mit „Mikro“ oben im Live-Panel oder mit „Mikro im Livestream“ im Tab „Audio“; zu Beginn ist es aus. Das ist unabhängig vom Voice-Chat mit der Konsole, also der Taste MIC auf dem Bildschirm-Gamepad, Sie können also mit den Zuschauern sprechen, mit Mitspielern, mit beiden oder mit keinem. Mitspieler sind nur dann im Livestream, wenn die Konsole ihre Stimmen in den Spielton mischt, den sie an dieses Telefon schickt: Was Sie bei einem normalen Stream aus dem Telefon hören, hören auch die Zuschauer."
+          ]
+        },
+        {
+          "id": "live_viewers_see",
+          "q": "Sehen die Zuschauer meine Benachrichtigungen oder die Bildschirmtasten?",
+          "a": [
+            "Nein. Der Livestream besteht aus dem Spielbild und dem Spielton, die die Konsole sendet, dazu Ihre Kamera, die Szenenkarten und das kleine Zeichen in der Ecke, sofern sie eingeschaltet sind. Bildschirm-Gamepad, Schnellmenü, Live-Panel samt Abzeichen, Benachrichtigungen und alles andere auf Ihrem Telefon kommen nie hinein. Um das Spiel kurz zu verdecken, etwa während Sie auf der Konsole ein Passwort eingeben, tippen Sie oben im Live-Panel auf „Verbergen“: Spielbild und Spielton werden durch eine Karte ersetzt, bis Sie erneut tippen."
+          ]
+        },
+        {
+          "id": "live_camera",
+          "q": "Wie füge ich meine Kamera hinzu?",
+          "a": [
+            "Öffnen Sie das Live-Panel und schalten Sie im Tab „Szene“ unter „Kamera“ die Option „Meine Kamera zeigen“ ein. Wählen Sie ein Layout mit Platz dafür, etwa „Kamera in der Ecke“ oder „Seitenleiste“; „Vollbild“ hat keinen. Ziehen Sie das Feld, um die Kamera zu verschieben, sie rastet in der nächsten Ecke ein; im selben Tab finden Sie Front- oder Rückkamera, Spiegeln, Form, Rahmen und Größe. Die App fragt beim ersten Mal nach dem Kamerazugriff, und alles andere funktioniert weiter, wenn Sie ablehnen."
+          ]
+        },
+        {
+          "id": "live_vertical",
+          "q": "Wie gehe ich im Hochformat live?",
+          "a": [
+            "Stellen Sie im letzten Schritt vor dem Livegehen „Format“ auf „Hochformat 9:16“. Die Hochformat-Layouts im Tab „Szene“ sind „Zentriert“, mit dem Spiel in der Mitte auf unscharfem Hintergrund, „Gestapelt“, mit dem Spiel oben und Platz für die Kamera darunter, und „Ausfüllen“, bei dem das Spiel zugeschnitten wird, bis es den Bildschirm füllt. Wählen Sie eine Plattform, die hochkant geschaut wird, etwa TikTok oder Instagram, wechselt die App nach Möglichkeit von selbst ins Hochformat."
+          ]
+        },
+        {
+          "id": "live_two_platforms",
+          "q": "Kann ich auf zwei Plattformen gleichzeitig live gehen?",
+          "a": [
+            "Ja. Derselbe Livestream kann auf zwei Plattformen laufen, und zusätzlich können Sie eine Kopie im anderen Format an eine dritte schicken, zum Beispiel im Querformat auf Twitch und YouTube und im Hochformat auf TikTok. Richten Sie das im letzten Schritt vor dem Livegehen unter „Zusätzlich live auf“ ein. Jeder Livestream wird von Ihrem Telefon hochgeladen und braucht seinen eigenen Teil der Upload-Geschwindigkeit, und ein zweites Format fordert das Telefon zusätzlich. Fällt ein Ziel aus, bleiben die anderen live. Für mehr Plattformen gehen Sie einmal über einen Multistream-Dienst wie Restream live und verbinden Ihre Plattformen dort."
+          ]
+        },
+        {
+          "id": "live_stutter",
+          "q": "Der Livestream ruckelt oder bricht immer wieder ab.",
+          "a": [
+            "Meist liegt es an der Upload-Geschwindigkeit, denn der Livestream geht über dasselbe Wi-Fi hinaus, über das das Spiel hereinkommt. Hat der Upload Mühe, senkt die App zuerst die Bitrate und dann die Bildrate und hebt beides wieder an, sobald er sich erholt; die Auflösung ändert sie während eines Livestreams nicht. Bricht die Verbindung ab, verbindet sie sich von selbst neu, und eine Aufnahme läuft weiter. Gehen Sie über das Wi-Fi zu Hause live, am besten im 5-GHz-Netz und nahe am Router, wählen Sie vor dem Livegehen eine niedrigere Qualität und sehen Sie im Tab „Status“ des Live-Panels nach, was gerade passiert. Mobile Daten und Spielen von unterwegs funktionieren, aber das Bild leidet."
+          ]
+        },
+        {
+          "id": "live_phone_hot",
+          "q": "Das Telefon wird heiß, während ich live bin.",
+          "a": [
+            "Gleichzeitig das Spiel empfangen, den Livestream zusammensetzen und codieren ist für ein Telefon schwere Arbeit. Wenn es sich aufheizt, schaltet die App von selbst zurück: zuerst die Bildrate, dann die Kamera auf 15 fps, dann die Kamera aus, dann den zweiten Livestream, falls es einen gibt, und der Tab „Status“ nennt den Grund. Die Auflösung bleibt während eines Livestreams gleich; wird das Telefon also immer wieder heiß, starten Sie beim nächsten Mal mit 720p30. Nehmen Sie das Telefon aus der Hülle und legen Sie es frei hin; im Live-Modus hilft auch der „Schwarzbild-Modus“."
+          ]
+        },
+        {
+          "id": "live_screen_off",
+          "q": "Kann ich den Bildschirm ausschalten oder die App wechseln, während ich live bin?",
+          "a": [
+            "Nein. Der Livestream läuft auf der Streamseite. Ist Bild-in-Bild in den Einstellungen an, schrumpft das Spiel beim Verlassen der App zu einem kleinen Fenster, und der Livestream läuft weiter. Ist die Streamseite länger als etwa 15 Sekunden nicht auf dem Bildschirm, etwa hinter einer anderen App oder bei ausgeschaltetem Bildschirm, stoppt der Livestream, und wenn Sie die Streamseite verlassen, endet er sofort. Im Live-Modus schwärzt und dimmt der „Schwarzbild-Modus“ den Bildschirm, während der Livestream weiterläuft; tippen Sie irgendwo, um ihn aufzuwecken."
+          ]
+        },
+        {
+          "id": "live_console_drop",
+          "q": "Was passiert, wenn die Verbindung zur Konsole abbricht, während ich live bin?",
+          "a": [
+            "Der Livestream läuft weiter, und die Zuschauer sehen die Karte „Bin gleich zurück“. Steht die Verbindung zur Konsole wieder, kehrt das Spiel von selbst zurück; nach etwa 3 Minuten ohne Verbindung endet der Livestream. Das gilt nur, wenn die Verbindung von selbst abbricht: Beenden Sie die Sitzung selbst, endet auch der Livestream. Mit „BRB“ oben im Live-Panel können Sie die Karte auch selbst zeigen."
+          ]
+        },
+        {
+          "id": "live_blocked_card",
+          "q": "Die Zuschauer sehen eine Karte, dass dieser Teil im Stream nicht gezeigt werden kann.",
+          "a": [
+            "Manche Spiele und Konsolenbildschirme erlauben keine Fernanzeige, deshalb sendet die Konsole ihr Bild nicht. Statt eines schwarzen oder eingefrorenen Bildes sehen die Zuschauer diese Karte, und das Spiel kommt von selbst zurück, sobald die Konsole es wieder sendet. Keine Einstellung ändert das; es hängt vom Spiel ab."
+          ]
+        },
+        {
+          "id": "live_recordings",
+          "q": "Wo werden meine Aufnahmen gespeichert?",
+          "a": [
+            "Schalten Sie im letzten Schritt vor dem Livegehen „Zusätzlich ein Video auf diesem Telefon speichern“ ein, oder wählen Sie „Nur aufnehmen, nicht streamen“. Ab Android 10 landet das fertige Video in Movies/Relaypad und erscheint so in Ihrer Galerie und Ihrem Dateimanager. Bei älteren Versionen bleibt es im eigenen Ordner der App, Android/data/com.relaypad.remoteplay.app/files/Movies, und wird beim Deinstallieren der App entfernt. Die Zusammenfassung nach dem Livestream bietet „Öffnen“ und „Teilen“ für das Video."
+          ]
+        },
+        {
+          "id": "live_watermark",
+          "q": "Kann ich das Zeichen in der Ecke des Livestreams verschieben oder ausschalten?",
+          "a": [
+            "Verschieben ja, ausschalten nur mit Pro. Jeder Livestream zeigt ab dem ersten ein kleines Relaypad-Zeichen in einer Ecke. Im Tab „Szene“ des Live-Panels können Sie unter „Wasserzeichen“ jede der vier Ecken wählen; anfangs ist „Oben rechts“ eingestellt. Mit Pro schalten Sie an derselben Stelle „Wasserzeichen zeigen“ aus."
+          ]
+        },
+        {
+          "id": "live_pro_trial",
+          "q": "Was ist in den Pro-Test-Livestreams enthalten, und was passiert danach?",
+          "a": [
+            "In Ihren ersten Livestreams können Sie das Kamerafenster, Hochformat 9:16, eine zweite Plattform und die Sofortwiederholung nutzen, und das Live-Panel zeigt, wie viele Test-Livestreams noch übrig sind; ein Livestream unter 5 Minuten zählt nicht. Das Wasserzeichen in der Ecke lässt sich im Test nicht ausschalten. Danach können Sie kostenlos und ohne Zeitlimit weiter live gehen, auf einer Plattform mit bis zu 1080p60 und mit Aufnahme; für den Rest brauchen Sie Pro, aufgeführt unter „Was bringt Pro?“. Kamera, Layout und andere Einstellungen bleiben erhalten, mit Pro ist also alles sofort wieder da."
+          ]
+        },
+        {
+          "id": "live_console_broadcast",
+          "q": "Kann ich gleichzeitig die eingebaute Übertragungsfunktion der Konsole nutzen?",
+          "a": [
+            "Meist nicht: Die Konsole überträgt in der Regel nicht, solange eine Remote-Play-Sitzung läuft, und diese App greift nie auf diese Funktion zu. Sie brauchen sie aber auch nicht, denn das Telefon geht selbst live, und zwar auf mehr Plattformen, als die Konsole anbietet."
+          ]
+        }
+      ]
+    },
+    {
       "id": "quality",
       "title": "Streaming und Bild",
       "entries": [
@@ -276,13 +429,6 @@
           "q": "Wo sind die Bedienelemente während eines Streams?",
           "a": [
             "Die obere Leiste blendet sich nach ein paar Sekunden aus. Tippen Sie auf eine freie Stelle im Bild, um sie zurückzuholen: Das Schieberegler-Symbol öffnet das Schnellmenü, und „Zum Beenden halten“ beendet den Stream. Langes Drücken auf eine freie Stelle öffnet ebenfalls das Schnellmenü."
-          ]
-        },
-        {
-          "id": "free_720p",
-          "q": "Worauf ist die kostenlose Nutzung beschränkt?",
-          "a": [
-            "Auf Streaming im Heimnetzwerk mit bis zu 720p und 30 fps über H.264, ohne Zeitlimit und ohne Werbung. Die Grenze wird bei jedem Sitzungsstart gesetzt. Der Gamepad-Modus ist vollständig kostenlos und ohne Grenze. Streaming auf Android TV setzt Pro voraus."
           ]
         },
         {
@@ -346,6 +492,13 @@
           "q": "HEVC oder HDR lässt sich nicht auswählen, oder der Stream nutzt stattdessen H.264.",
           "a": [
             "HEVC braucht einen passenden Decoder auf diesem Telefon und HDR einen Bildschirm, der es unterstützt; die Seite „Videoqualität“ nennt den Grund, wenn eine Option nicht verfügbar ist. Kann das Telefon das Format beim Start eines Streams nicht decodieren, wechselt der Stream von selbst zu H.264 oder SDR und sagt Ihnen Bescheid."
+          ]
+        },
+        {
+          "id": "ps4_hevc",
+          "q": "Funktioniert HEVC oder HDR mit einer PS4?",
+          "a": [
+            "Nein. Jede PS4, auch Slim und Pro, sendet nur H.264; HEVC und HDR sind PS5-Funktionen. Die Codec-Einstellung gilt für alle Ihre Konsolen: Auf einer PS5 wird sie unverändert verwendet, ein Stream zu einer PS4 wechselt von selbst zu H.264 und sagt es Ihnen. Sie können HEVC also eingeschaltet lassen, wenn Sie auch eine PS5 haben."
           ]
         },
         {
@@ -588,34 +741,48 @@
     },
     {
       "id": "purchase",
-      "title": "Kauf und Rückerstattungen",
+      "title": "Pro, Käufe und Rückerstattungen",
       "entries": [
         {
-          "id": "paid_not_subscription",
-          "q": "Ist das ein Abo?",
+          "id": "controller_free",
+          "q": "Muss ich bezahlen, um das Telefon als Controller zu nutzen?",
           "a": [
-            "Nein. Sie kaufen die App einmal bei Google Play, und das ist alles: kein Abo, keine In-App-Käufe, keine Werbung und keine Funktion, die später eine zweite Zahlung verlangt. Der Kauf hängt an Ihrem Google-Konto, nicht am Telefon."
+            "Nein. Der Gamepad-Modus ist vollständig kostenlos, ohne Zeitlimit und ohne Werbung: Bildschirm-Gamepad, Layout-Editor, physische Controller, Tastenbelegung, Haptik, Bewegungssensor, Touchpad, Mikrofon, Aufwecken und Schlafenlegen der Konsole sowie beliebig viele Konsolen und Konten. Nirgendwo im Gamepad-Modus wird nach einem Kauf gefragt."
           ]
         },
         {
-          "id": "paid_promo_forever",
-          "q": "Ich habe die App während einer Gratis-Aktion installiert. Werden später Funktionen gesperrt?",
+          "id": "pro_not_subscription",
+          "q": "Ist Pro ein Abo?",
           "a": [
-            "Nein. Eine Installation während einer Aktion gilt als Kauf der App zu diesem Preis, sie gehört Ihnen also dauerhaft mit allen Funktionen. Das bleibt auch nach dem Ende der Aktion so, und dasselbe Google-Konto kann sie auf einem neuen Telefon kostenlos erneut installieren."
+            "Pro ist derzeit ein einmaliger Kauf, der an Ihr Google-Konto gebunden ist. Sie zahlen einmal für die Pro-Funktionen, die beim Kauf verfügbar sind, ohne Gebühr pro Livestream, und Sie zahlen den Preis, der im Zahlungsfenster von Google Play angezeigt wird. Wird ein Kauf erstattet, wird Pro entfernt, sobald die App das nächste Mal bei Google Play nachfragt."
           ]
         },
         {
-          "id": "paid_reinstall",
-          "q": "Wie installiere ich die App auf einem neuen Telefon?",
+          "id": "pro_contents",
+          "q": "Was bringt Pro?",
           "a": [
-            "Öffnen Sie Google Play mit demselben Google-Konto, mit dem Sie gekauft haben, dann steht dort „Installieren“ statt eines Preises. Konsolen werden nicht übernommen, koppeln Sie also jede Konsole auf dem neuen Telefon erneut; die Kopplungsschlüssel bleiben auf dem Telefon, auf dem sie entstanden sind."
+            "Pro erweitert das Livegehen: Kamerafenster und die Layouts, die Platz dafür lassen, Hochformat-Layouts 9:16, zwei Plattformen gleichzeitig plus eine Kopie im anderen Format für eine dritte, Sofortwiederholung der letzten 30 Sekunden und das Ausschalten des Wasserzeichens in der Ecke. In Ihren ersten Livestreams können Sie alles davon ausprobieren, außer das Wasserzeichen auszuschalten. Alles andere ist kostenlos: der komplette Gamepad-Modus, Streaming mit bis zu 1080p und 60 fps mit HEVC und HDR, Spielen außerhalb Ihres Heimnetzwerks, Android TV, Bild-in-Bild, die Verbindungsdiagnose und Livegehen auf einer Plattform mit bis zu 1080p60 ohne Zeitlimit, inklusive manueller Bitrate und Aufnahme."
           ]
         },
         {
-          "id": "paid_included",
-          "q": "Was ist alles enthalten?",
+          "id": "pro_restore",
+          "q": "Ich habe das Telefon gewechselt und Pro ist weg.",
           "a": [
-            "Alles, ab dem ersten Start: Streaming mit 1080p und 60 fps, manuelle Bitrate, HEVC und HDR, FSR-Schärfung und Performance-Overlay, Spielen außerhalb des Heimnetzwerks, Streaming auf Android TV, Bild-in-Bild und das Spiel auf dem Fernseher mit dem Telefon als Controller. Gamepad-Modus, Verbindungsdiagnose, das Widget „Konsolen-Verknüpfung“ sowie beliebig viele Konsolen und Konten sind ebenfalls dabei."
+            "Käufe hängen am Google-Konto, nicht am Telefon. Beim Start fragt die App bei Google Play nach und schaltet Pro von selbst frei, sofern Google Play auf diesem Telefon das Konto nutzt, mit dem Sie gekauft haben. Klappt das nicht, öffnen Sie Einstellungen, Auf Pro upgraden und tippen auf „Kauf wiederherstellen“. Ist Google Play nicht erreichbar, sagt Ihnen die App das direkt; prüfen Sie dann die Verbindung und ob Google Play angemeldet ist, und versuchen Sie es erneut."
+          ]
+        },
+        {
+          "id": "purchase_pending_failed",
+          "q": "Ich habe bezahlt, aber Pro ist noch nicht freigeschaltet.",
+          "a": [
+            "Manche Zahlungsarten, etwa Barzahlung in einem Geschäft, bleiben ausstehend, bis die Zahlung eingegangen ist. Pro wird freigeschaltet, sobald Google Play sie bestätigt: sofort, wenn die App geöffnet ist, sonst beim nächsten Start. Ist der Kauf fehlgeschlagen, prüfen Sie die Zahlungsmethode in Google Play und versuchen Sie es später erneut."
+          ]
+        },
+        {
+          "id": "legacy_paid_locked",
+          "q": "Ich habe die App damals gekauft, als sie noch kostenpflichtig war, und jetzt sind einige Funktionen gesperrt.",
+          "a": [
+            "Alles, was Sie hatten, bleibt Ihnen. Das passiert meist, nachdem die Daten der App gelöscht wurden oder die App auf einem neuen Telefon neu installiert wurde, denn damit wird das Installationsdatum zurückgesetzt, an dem die App Sie erkennt. Schreiben Sie uns eine E-Mail mit der Bestellnummer aus der Google-Play-Quittung für die App selbst, und wir senden Ihnen einen Aktionscode, der alles wieder freischaltet."
           ]
         },
         {
@@ -623,13 +790,6 @@
           "q": "Wie bekomme ich eine Rückerstattung?",
           "a": [
             "Innerhalb von 48 Stunden nach dem Kauf beantragen Sie die Rückerstattung selbst über Ihren Bestellverlauf in Google Play, das geht am schnellsten. Danach schreiben Sie uns innerhalb von 7 Tagen nach dem Kauf eine E-Mail, und wir erstatten ohne Nachfragen. Nennen Sie die Bestellnummer aus der Google-Play-Quittung, damit wir den Kauf finden."
-          ]
-        },
-        {
-          "id": "paid_bought_before_sale",
-          "q": "Ich habe kurz vor einer Rabattaktion den vollen Preis bezahlt.",
-          "a": [
-            "Schreiben Sie uns. Innerhalb von 48 Stunden nach dem Kauf geht es am schnellsten, wenn Sie den Kauf selbst über Ihren Bestellverlauf in Google Play erstatten lassen und zum Aktionspreis erneut kaufen. Danach schreiben Sie uns eine E-Mail mit der Bestellnummer aus der Google-Play-Quittung, und wir erstatten die Differenz."
           ]
         }
       ]
@@ -649,7 +809,7 @@
           "id": "android_tv",
           "q": "Gibt es eine Android-TV-Version?",
           "a": [
-            "Ja, dieselbe App lässt sich auf Android TV und Google TV installieren. Öffnen Sie Google Play auf dem Fernseher mit demselben Google-Konto, mit dem Sie gekauft haben, dann wird die App ohne Aufpreis installiert. Zum Spielen braucht der Fernseher einen Bluetooth- oder USB-Controller; mit der Fernbedienung bewegen Sie sich nur durch die Menüs. Um während eines Streams das Schnellmenü zu öffnen, drücken Sie OK oder Menü auf der Fernbedienung oder halten Sie L1, R1, L3 und R3 am Controller gleichzeitig gedrückt."
+            "Ja, dieselbe App lässt sich auf Android TV und Google TV installieren, und Streaming auf dem Fernseher ist kostenlos. Zum Spielen braucht der Fernseher einen Bluetooth- oder USB-Controller; mit der Fernbedienung bewegen Sie sich nur durch die Menüs. Um während eines Streams das Schnellmenü zu öffnen, drücken Sie OK oder Menü auf der Fernbedienung oder halten Sie L1, R1, L3 und R3 am Controller gleichzeitig gedrückt."
           ]
         },
         {
@@ -690,5 +850,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

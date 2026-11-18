@@ -268,6 +268,159 @@
       ]
     },
     {
+      "id": "live",
+      "title": "Transmissão ao vivo",
+      "entries": [
+        {
+          "id": "live_what_needed",
+          "q": "Do que eu preciso para entrar ao vivo?",
+          "a": [
+            "O seu próprio console, já configurado neste app, e uma conta na plataforma em que você quer fazer live. Nada de computador nem de placa de captura. Toque em “Entrar ao vivo” no cartão do console e siga os passos: como você vai jogar, onde vai fazer a live, conectar a plataforma e uma última verificação. Se já estiver jogando, abra o painel rápido e toque em “Entrar ao vivo” por lá. Durante a live, toque no selo do canto para abrir o painel da live."
+          ]
+        },
+        {
+          "id": "live_platforms",
+          "q": "Em quais plataformas eu posso fazer live?",
+          "a": [
+            "Twitch, YouTube e Kick, além de TikTok LIVE, Facebook, Instagram, X, Rumble, Telegram, Bilibili, Huya, Douyu, TwitCasting, niconico, SOOP, CHZZK e VK Video Live. Serviços de multistream como Restream e Castr repassam uma live para muitas outras plataformas, e “Servidor personalizado” aceita qualquer endereço RTMP ou RTMPS. Plataformas marcadas com “Requisitos” só deixam algumas contas fazer live; escolha uma para ver o que ela exige."
+          ]
+        },
+        {
+          "id": "live_no_pc_quality",
+          "q": "Funciona mesmo sem computador nem placa de captura? Como fica a imagem?",
+          "a": [
+            "Funciona. O celular faz os dois trabalhos: recebe o jogo do console, adiciona o que você colocar por cima e envia o resultado para a plataforma. A imagem parte do que o Remote Play envia, no máximo 1080p sem HDR e já comprimida uma vez pelo console, então com uma placa de captura a imagem fica mais nítida. Para o melhor resultado, transmita o console em 1080p pelo Wi-Fi de casa. Se a transmissão do console estiver usando HDR quando você entrar ao vivo, as cores na live podem ficar desbotadas, então desligue o HDR em Configurações, Qualidade de vídeo e reconecte."
+          ]
+        },
+        {
+          "id": "live_capture_mode",
+          "q": "O que é o “Modo live” e onde eu conecto o controle?",
+          "a": [
+            "É para jogar na TV enquanto o celular cuida da live, como uma placa de captura. Escolha “Na TV” na primeira etapa. O celular passa a mostrar o que os espectadores veem, sem controle na tela e sem som do jogo, já que quem toca o som é a TV. Conecte o seu controle ao celular por Bluetooth ou USB, sendo o USB o mais estável, e jogue olhando para a TV. Um controle conectado direto ao console não consegue jogar ao mesmo tempo: o console trata esse controle como outro usuário, e os dois ficam tomando o controle um do outro. Com fone de ouvido, ou com o celular longe dos alto-falantes da TV, o som da TV não entra no seu microfone."
+          ]
+        },
+        {
+          "id": "live_stream_key",
+          "q": "Onde eu pego a URL do servidor e a chave de transmissão?",
+          "a": [
+            "Depois de escolher uma plataforma, a etapa de conexão tem “Onde achar a sua chave de transmissão”: toque em “Ver passos” para ver as instruções daquela plataforma, ou no botão logo abaixo para abrir a página dela. Copie a chave de transmissão, e também a URL do servidor se a plataforma der uma. Quando a área de transferência tem um endereço ou uma chave, o app oferece usar e separa um endereço completo nos dois campos. Na Twitch e no YouTube, pode aparecer um botão “Entrar com” no lugar, e aí a chave é obtida para você. As chaves ficam criptografadas neste celular; troque ou exclua em Configurações, Destinos."
+          ]
+        },
+        {
+          "id": "live_key_rejected",
+          "q": "Diz que a plataforma recusou a chave de transmissão.",
+          "a": [
+            "A chave pode ter sido digitada errado, ter expirado ou ter sido trocada por uma mais nova, ou a conta ainda não tem permissão para fazer live. Copie uma chave nova na plataforma e cole em Configurações, Destinos, “Trocar chave”. Se a chave estiver certa, confira os requisitos da plataforma: a Twitch só mostra a chave depois que você ativa a autenticação de dois fatores, um canal do YouTube precisa estar verificado e a primeira vez pode levar até 24 horas, e o TikTok e o Facebook têm mínimo de seguidores. Se a plataforma encerrar uma live que já estava rolando, a mesma chave pode estar ao vivo em outro lugar."
+          ]
+        },
+        {
+          "id": "live_tiktok_key",
+          "q": "O TikTok não me dá uma chave de transmissão. E agora?",
+          "a": [
+            "O TikTok decide quais contas recebem: você precisa ter 18 anos ou mais e normalmente pelo menos 1.000 seguidores, e mesmo assim não é garantido. Quando a sua conta tiver acesso, a chave fica no LIVE Center do TikTok, no computador, depois que você define um título e uma categoria. O TikTok costuma gerar uma chave nova a cada live, então o app pede para você colar a nova toda vez que entrar ao vivo; Instagram, Bilibili e Douyu funcionam do mesmo jeito. O Instagram também exige 1.000 seguidores em uma conta pública, e a Bilibili, 5.000 seguidores com verificação de identidade."
+          ]
+        },
+        {
+          "id": "live_mic_voice",
+          "q": "Os espectadores ouvem o meu microfone e os meus colegas de equipe?",
+          "a": [
+            "O seu microfone só vai para a live quando você liga, com “Mic” no topo do painel da live ou com “Microfone na live” na aba “Áudio”; ele começa desligado. Isso é separado do chat de voz com o console, que é a tecla MIC do controle na tela, então você pode falar com os espectadores, com a equipe, com os dois ou com ninguém. Os colegas só aparecem na live se o console misturar a voz deles no som do jogo que ele envia para este celular: o que você ouve pelo celular numa transmissão normal é o que os espectadores ouvem."
+          ]
+        },
+        {
+          "id": "live_viewers_see",
+          "q": "Os espectadores vão ver as minhas notificações ou os botões da tela?",
+          "a": [
+            "Não. A live é montada com a imagem e o som do jogo que o console envia, mais a sua câmera, os cartões de cena e a marquinha do canto quando estão ligados. O controle na tela, o painel rápido, o painel da live e o selo dele, as notificações e todo o resto do celular nunca chegam à live. Para cobrir o jogo por um instante, por exemplo enquanto digita uma senha no console, toque em “Ocultar” no topo do painel da live: a imagem e o som do jogo são trocados por um cartão até você tocar de novo."
+          ]
+        },
+        {
+          "id": "live_camera",
+          "q": "Como eu coloco a minha câmera?",
+          "a": [
+            "Abra o painel da live e, na aba “Cena”, ative “Mostrar minha câmera” em “Câmera”. Escolha um layout com espaço para ela, como “Câmera no canto” ou “Barra lateral”; “Tela cheia” não tem. Arraste o quadro para mover a câmera e ela se encaixa no canto mais próximo; na mesma aba tem câmera frontal ou traseira, espelhar, forma, borda e tamanho. O app pede acesso à câmera na primeira vez, e todo o resto continua funcionando se você negar."
+          ]
+        },
+        {
+          "id": "live_vertical",
+          "q": "Como eu faço live na vertical?",
+          "a": [
+            "Na última etapa antes de entrar ao vivo, mude “Formato” para “Vertical 9:16”. Os layouts verticais da aba “Cena” são “Centralizado”, com o jogo no meio sobre um fundo desfocado; “Empilhado”, com o jogo em cima e espaço para a câmera embaixo; e “Preencher”, com o jogo cortado para preencher a tela. Ao escolher uma plataforma que se assiste na vertical, como TikTok ou Instagram, o formato muda para vertical sozinho quando possível."
+          ]
+        },
+        {
+          "id": "live_two_platforms",
+          "q": "Posso fazer live em duas plataformas ao mesmo tempo?",
+          "a": [
+            "Pode. A mesma live pode ir para duas plataformas, e você ainda pode mandar uma cópia no outro formato para uma terceira, por exemplo horizontal na Twitch e no YouTube e vertical no TikTok. Configure em “Também transmitir para”, na última etapa antes de entrar ao vivo. Todas as transmissões saem do seu celular, então cada uma precisa da sua parte da velocidade de upload, e um segundo formato também faz o celular trabalhar mais. Se um destino falhar, os outros continuam ao vivo. Para chegar a mais plataformas, faça uma live só para um serviço de multistream como o Restream e conecte as suas plataformas lá."
+          ]
+        },
+        {
+          "id": "live_stutter",
+          "q": "A live trava ou fica caindo.",
+          "a": [
+            "A causa mais comum é a velocidade de upload, porque a live sai pelo mesmo Wi-Fi por onde o jogo chega. Quando o upload sofre, o app baixa primeiro o bitrate e depois a taxa de quadros, e sobe de novo quando a conexão se recupera; ele não muda a resolução durante a live. Se a conexão cair, ele reconecta sozinho e a gravação continua. Faça live pelo Wi-Fi de casa, de preferência em 5 GHz e perto do roteador, escolha uma qualidade menor antes de entrar ao vivo e confira a aba “Status” do painel da live para ver o que está acontecendo. Dados móveis e jogar fora de casa funcionam, mas a imagem sofre."
+          ]
+        },
+        {
+          "id": "live_phone_hot",
+          "q": "O celular esquenta durante a live.",
+          "a": [
+            "Receber o jogo, montar a live e codificar tudo ao mesmo tempo é trabalho pesado para um celular. Conforme ele esquenta, o app vai aliviando sozinho: primeiro a taxa de quadros, depois a câmera para 15 fps, depois desliga a câmera e, por fim, a segunda versão, se houver, e a aba “Status” explica o porquê. A resolução não muda durante a live, então, se o celular continuar muito quente, comece em 720p30 da próxima vez. Tire a capinha e deixe o celular ao ar livre; no “Modo live”, a “Tela preta” também ajuda."
+          ]
+        },
+        {
+          "id": "live_screen_off",
+          "q": "Posso desligar a tela ou trocar de app durante a live?",
+          "a": [
+            "Não. A live roda na página da transmissão. Com Picture-in-picture ligado nas Configurações, sair do app encolhe o jogo para uma janela pequena e a live continua. Se a página da transmissão sair da tela por mais de uns 15 segundos, por exemplo atrás de outro app ou com a tela desligada, a live para, e sair da página da transmissão encerra a live na hora. No “Modo live”, a “Tela preta” deixa a tela preta e escurece enquanto a live continua; toque em qualquer lugar para acordar."
+          ]
+        },
+        {
+          "id": "live_console_drop",
+          "q": "O que acontece se o console desconectar durante a live?",
+          "a": [
+            "A live continua e os espectadores veem o cartão “Já volto”. Quando a conexão com o console volta, o jogo volta sozinho; depois de uns 3 minutos sem conexão, a live é encerrada. Isso só vale quando a conexão cai sozinha: se você mesmo encerrar a sessão, a live também termina. Você também pode mostrar o cartão por conta própria com “BRB” no topo do painel da live."
+          ]
+        },
+        {
+          "id": "live_blocked_card",
+          "q": "Os espectadores veem um cartão dizendo que esta parte não pode aparecer na live.",
+          "a": [
+            "Alguns jogos e telas do console não permitem exibição remota, então o console para de enviar a imagem deles. Em vez de uma imagem preta ou congelada, os espectadores veem esse cartão, e o jogo volta sozinho assim que o console voltar a enviar. Nenhuma configuração muda isso; depende do jogo."
+          ]
+        },
+        {
+          "id": "live_recordings",
+          "q": "Onde ficam salvas as minhas gravações?",
+          "a": [
+            "Ative “Também salvar um vídeo neste celular” na última etapa antes de entrar ao vivo, ou escolha “Só gravar, sem live”. No Android 10 ou mais recente, o vídeo pronto vai para Movies/Relaypad, então aparece na galeria e no gerenciador de arquivos. Em versões mais antigas, ele fica na pasta do próprio app, Android/data/com.relaypad.remoteplay.app/files/Movies, e é apagado quando você desinstala o app. O resumo depois da live tem “Abrir” e “Compartilhar” para o vídeo."
+          ]
+        },
+        {
+          "id": "live_watermark",
+          "q": "Posso mover ou desligar a marca no canto da live?",
+          "a": [
+            "Dá para mover, mas para desligar precisa do Pro. Toda live mostra uma marquinha do Relaypad em um canto, desde a primeira. Escolha qualquer um dos quatro cantos em “Marca d'água”, na aba “Cena” do painel da live; ela começa no canto superior direito. Com o Pro, desligue “Mostrar marca d'água” no mesmo lugar."
+          ]
+        },
+        {
+          "id": "live_pro_trial",
+          "q": "O que as lives de teste do Pro incluem e o que acontece depois?",
+          "a": [
+            "Nas suas primeiras lives, você pode usar a janela da câmera, o formato vertical 9:16, uma segunda plataforma e o replay instantâneo, e o painel da live mostra quantas lives de teste faltam; uma live com menos de 5 minutos não conta. O teste não desliga a marca d'água do canto. Depois disso, você pode continuar fazendo live de graça, sem limite de tempo, em uma plataforma em até 1080p60 e com gravação; o resto exige o Pro e está listado em “O que o Pro adiciona?”. A sua câmera, o layout e as outras configurações ficam salvos, então, ao comprar o Pro, tudo volta na hora."
+          ]
+        },
+        {
+          "id": "live_console_broadcast",
+          "q": "Posso usar a transmissão do próprio console ao mesmo tempo?",
+          "a": [
+            "Normalmente não: o console geralmente não transmite enquanto uma sessão de Remote Play está rodando, e este app nunca mexe nesse recurso. Mas você não precisa dele, porque o celular faz a live sozinho e em mais plataformas do que o console oferece."
+          ]
+        }
+      ]
+    },
+    {
       "id": "quality",
       "title": "Transmissão e imagem",
       "entries": [
@@ -276,13 +429,6 @@
           "q": "Onde ficam as opções durante a transmissão?",
           "a": [
             "A barra superior some depois de alguns segundos. Toque em um ponto vazio da imagem para ela voltar: o ícone de controles deslizantes abre o painel rápido, e “Segure para sair” encerra a transmissão. Um toque longo em um ponto vazio também abre o painel rápido."
-          ]
-        },
-        {
-          "id": "free_720p",
-          "q": "Até onde vai a versão gratuita?",
-          "a": [
-            "Transmissão na sua rede doméstica em até 720p e 30 fps com H.264, sem limite de tempo e sem anúncios. O limite é aplicado toda vez que uma sessão começa. O modo controle é gratuito por inteiro e não tem limite nenhum. Transmitir no Android TV exige o Pro."
           ]
         },
         {
@@ -346,6 +492,13 @@
           "q": "Não consigo escolher HEVC ou HDR, ou a transmissão usa H.264 no lugar.",
           "a": [
             "O HEVC precisa de um decodificador compatível neste celular, e o HDR precisa de uma tela compatível; a página de qualidade diz por que uma opção está indisponível. Se o celular não conseguir decodificar o formato quando a transmissão começa, ela muda sozinha para H.264 ou SDR e avisa você."
+          ]
+        },
+        {
+          "id": "ps4_hevc",
+          "q": "HEVC ou HDR funcionam com o PS4?",
+          "a": [
+            "Não. Todo PS4, incluindo o Slim e o Pro, só envia H.264; HEVC e HDR são recursos do PS5. A configuração de codec vale para todos os seus consoles: no PS5 ela é usada como está, e uma transmissão para o PS4 muda sozinha para H.264 e avisa você. Então pode deixar o HEVC ligado se você também tiver um PS5."
           ]
         },
         {
@@ -588,34 +741,48 @@
     },
     {
       "id": "purchase",
-      "title": "Compra e reembolsos",
+      "title": "Pro, compras e reembolsos",
       "entries": [
         {
-          "id": "paid_not_subscription",
-          "q": "Isso é uma assinatura?",
+          "id": "controller_free",
+          "q": "Preciso pagar para usar o celular como controle?",
           "a": [
-            "Não. Você compra o app uma vez na Google Play e pronto: sem assinatura, sem compras dentro do app, sem anúncios e sem nenhum recurso que peça um segundo pagamento depois. A compra fica vinculada à sua conta do Google, não ao celular."
+            "Não. O modo controle é gratuito por inteiro, sem limite de tempo e sem anúncios: controle na tela, editor de layout, controles físicos, mapeamento de botões, vibração, sensor de movimento, touchpad, microfone, ativar o console e colocá-lo em repouso, e quantos consoles e contas você quiser. Nada no modo controle pede compra."
           ]
         },
         {
-          "id": "paid_promo_forever",
-          "q": "Instalei durante uma promoção gratuita. Algum recurso vai ser bloqueado depois?",
+          "id": "pro_not_subscription",
+          "q": "O Pro é assinatura?",
           "a": [
-            "Não. Instalar durante uma promoção conta como comprar o app naquele preço, então ele é seu para sempre e com todos os recursos. Continua assim depois que a promoção acaba, e a mesma conta do Google pode instalar de novo em um celular novo sem pagar nada."
+            "No momento, o Pro é uma compra única ligada à sua conta do Google. Você paga uma vez pelos recursos Pro disponíveis na hora da compra, sem cobrança por live, e o que você paga é o preço mostrado na janela de pagamento da Google Play. Se uma compra for reembolsada, o Pro é removido na próxima vez que o app verificar com a Google Play."
           ]
         },
         {
-          "id": "paid_reinstall",
-          "q": "Como eu instalo em um celular novo?",
+          "id": "pro_contents",
+          "q": "O que o Pro adiciona?",
           "a": [
-            "Abra a página da loja com a mesma conta do Google que você usou na compra e ela mostra “Instalar” em vez de um preço. Os consoles não são transferidos, então pareie cada console de novo no celular novo; as chaves de pareamento ficam no celular onde foram criadas."
+            "O Pro adiciona às lives: a janela da câmera e os layouts que abrem espaço para ela, layouts verticais 9:16, duas plataformas ao mesmo tempo e mais uma cópia no outro formato para uma terceira, replay instantâneo dos últimos 30 segundos e desligar a marca d'água do canto. Nas suas primeiras lives, você pode testar tudo isso, menos desligar a marca d'água. Todo o resto é gratuito: o modo controle completo, a transmissão em até 1080p e 60 fps com HEVC e HDR, jogar de fora da sua rede doméstica, Android TV, Picture-in-picture, o diagnóstico de conexão e fazer live em uma plataforma em até 1080p60 sem limite de tempo, com bitrate manual e gravação."
           ]
         },
         {
-          "id": "paid_included",
-          "q": "O que está incluído?",
+          "id": "pro_restore",
+          "q": "Troquei de celular e o Pro sumiu.",
           "a": [
-            "Tudo, desde a primeira abertura: transmissão em 1080p e 60 fps, bitrate manual, HEVC e HDR, nitidez FSR e sobreposição de desempenho, jogar de fora da sua rede doméstica, transmitir no Android TV, picture-in-picture e o jogo na TV com o celular de controle. Também estão aí o modo controle, o diagnóstico de conexão, o widget “Atalho do console” e quantos consoles e contas você quiser."
+            "As compras seguem a conta do Google, não o celular. Quando o app abre, ele verifica com a Google Play e desbloqueia o Pro sozinho, desde que a Google Play deste celular use a conta que fez a compra. Se isso não acontecer, abra Configurações, Adquirir o Pro e toque em “Restaurar compra”. Se não for possível falar com a Google Play, o app avisa na hora; confira a conexão e se a Google Play está com a conta conectada, depois tente de novo."
+          ]
+        },
+        {
+          "id": "purchase_pending_failed",
+          "q": "Paguei, mas o Pro ainda não foi desbloqueado.",
+          "a": [
+            "Algumas formas de pagamento, como pagar em dinheiro em uma loja, ficam pendentes até o pagamento ser compensado. O Pro é desbloqueado assim que a Google Play confirma: na hora, se o app estiver aberto, ou na próxima vez que você abrir. Se a compra falhou, confira a forma de pagamento na Google Play e tente de novo mais tarde."
+          ]
+        },
+        {
+          "id": "legacy_paid_locked",
+          "q": "Comprei o app quando ele ainda era pago e agora algumas funções estão bloqueadas.",
+          "a": [
+            "Tudo o que você tinha continua sendo seu. Isso costuma acontecer depois de limpar os dados do app ou de reinstalar em um celular novo, porque a data de instalação que o app usa para reconhecer você é zerada. Envie um e-mail para nós com o número do pedido que está no recibo da Google Play do próprio app e mandamos um código promocional que desbloqueia tudo de novo."
           ]
         },
         {
@@ -623,13 +790,6 @@
           "q": "Como eu peço reembolso?",
           "a": [
             "Em até 48 horas depois da compra, peça o reembolso você mesmo pelo histórico de pedidos da Google Play, que é o caminho mais rápido. Depois disso, mande um e-mail para nós em até 7 dias a partir da compra e devolvemos o valor, sem perguntas. Inclua o número do pedido que está no recibo da Google Play para acharmos a compra."
-          ]
-        },
-        {
-          "id": "paid_bought_before_sale",
-          "q": "Paguei o preço cheio pouco antes de começar uma promoção.",
-          "a": [
-            "Escreva para nós. Em até 48 horas depois da compra, o caminho mais rápido é pedir o reembolso você mesmo pelo histórico de pedidos da Google Play e comprar de novo no preço promocional. Depois disso, mande um e-mail para nós com o número do pedido que está no recibo da Google Play e devolvemos a diferença."
           ]
         }
       ]
@@ -649,7 +809,7 @@
           "id": "android_tv",
           "q": "Existe versão para Android TV?",
           "a": [
-            "Existe. O mesmo app instala no Android TV e no Google TV. Abra a loja na TV com a mesma conta do Google que você usou na compra e ele instala sem custo extra. Para jogar, a TV precisa de um controle Bluetooth ou USB; o controle remoto só navega pelos menus. Durante uma transmissão, pressione OK ou Menu no controle remoto, ou segure L1, R1, L3 e R3 juntos no controle, para abrir o painel rápido."
+            "Existe. O mesmo app instala no Android TV e no Google TV, e transmitir na TV é gratuito. Para jogar, a TV precisa de um controle Bluetooth ou USB; o controle remoto só navega pelos menus. Durante uma transmissão, pressione OK ou Menu no controle remoto, ou segure L1, R1, L3 e R3 juntos no controle, para abrir o painel rápido."
           ]
         },
         {
@@ -690,5 +850,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }

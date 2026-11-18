@@ -3,8 +3,11 @@
 // `kotlin` products (Relaypad, JoyLink, Gamepad Tester Pro, SlopSwipe): FaqContent.kt holds the grouping, order and ids;
 // strings_faq.xml holds the text. SlopSwipe writes the constructors positionally (`FaqSection(R.string.title, listOf(
 // FaqEntry("id", R.string.q, R.string.a, action)))`) instead of with named arguments; both forms are read. Its ids are the
-// suffixes of its `faq_q_<id>` / `faq_a_<id>` keys and never change once released. The website always publishes the paid edition with nothing on sale:
-// `answer(proOffered, free, paid)` picks `paid`, and the purchase section is `faq_section_purchase_paid`.
+// suffixes of its `faq_q_<id>` / `faq_a_<id>` keys and never change once released. Where an answer is written as
+// `answer(proOffered, free, paid)` the website picks `paid` (the edition with nothing on sale). Products whose FaqContent.kt
+// branches on runtime state instead (Relaypad: `answerRes = if (COND) R.string.a else R.string.b`, entries ending in
+// `.takeIf { COND }`) list the state the website publishes in `cfg.when` (condition text → boolean); a condition that is
+// not listed there is an error, so a new branch in the app cannot silently pick a side.
 //
 // `arrays` products (Gamepad Pro): res/values*/arrays.xml holds `faq_questions` / `faq_answers`, aligned
 // by position, plus `faq_sections` (section index per question) and `faq_video_ids` (YouTube id per
@@ -67,26 +70,39 @@ const CONFIG = {
   relaypad: {
     kotlin: 'app/src/main/kotlin/com/dylan/remotepad/faq/FaqContent.kt',
     stringsFile: 'strings_faq.xml',
-    /** Section title keys in the order FaqContent.sections() returns them for the paid edition. */
+    /**
+     * Section title keys in the order FaqContent.sections() returns them for what a new install sees today: the free
+     * download (AppEdition.FREE), AI Copilot on, and the live Pro features and watermark removal on sale (FaqLiveOffer
+     * advanced + watermark, not an early-access install). Live is fourth in the app.
+     */
     order: [
       'faq_section_modes',
       'faq_section_connection',
       'faq_section_login',
+      'faq_section_live',
       'faq_section_quality',
       'faq_section_gamepad',
       'faq_section_copilot',
-      'faq_section_purchase_paid',
+      'faq_section_purchase',
       'faq_section_other',
     ],
+    /** The same state as `order`, for the `if (…)` answers and `.takeIf { … }` entries in FaqContent.kt. */
+    when: {
+      'offer.watermark': true,
+      'offer.advanced': true,
+      'offer.earlyAccess': false,
+      'edition == AppEdition.PAID': false,
+    },
     /** URL slug per section title key. */
     slugs: {
       faq_section_modes: 'modes',
       faq_section_connection: 'connection',
       faq_section_login: 'login',
+      faq_section_live: 'live',
       faq_section_quality: 'quality',
       faq_section_gamepad: 'gamepad',
       faq_section_copilot: 'copilot',
-      faq_section_purchase_paid: 'purchase',
+      faq_section_purchase: 'purchase',
       faq_section_other: 'other',
     },
   },
@@ -389,8 +405,17 @@ function balanced(src, open) {
   throw new Error('unbalanced parentheses');
 }
 
+/** Look a runtime condition up in `cfg.when`; null (and an error) when the product does not list it. */
+function condition(when, cond, where) {
+  const key = cond.replace(/\s+/g, ' ').trim();
+  if (when && typeof when[key] === 'boolean') return when[key];
+  console.error(`[faq] ${where}: condition "${key}" is not in this product's CONFIG.when`);
+  process.exitCode = 1;
+  return null;
+}
+
 /** Parse every FaqSection(...) block: { titleKey, entries: [{ id, qKey, aKey }] } in file order. */
-function parseKotlin(src) {
+function parseKotlin(src, when) {
   const sections = [];
   const re = /FaqSection\(/g;
   let m;
@@ -403,13 +428,26 @@ function parseKotlin(src) {
     const er = /FaqEntry\(/g;
     let e;
     while ((e = er.exec(body))) {
-      const eb = balanced(body, e.index + 'FaqEntry'.length);
+      const open = e.index + 'FaqEntry'.length;
+      const eb = balanced(body, open);
       // Positional form: `"id", R.string.q, R.string.a, …`.
       const positional = eb.match(/^\s*"([^"]+)"\s*,\s*R\.string\.(\w+)\s*,\s*R\.string\.(\w+)/);
       const id = eb.match(/\bid\s*=\s*"([^"]+)"/)?.[1] ?? positional?.[1];
       const qKey = eb.match(/questionRes\s*=\s*R\.string\.(\w+)/)?.[1] ?? positional?.[2];
+      // Entries shown only in some states: `FaqEntry(...).takeIf { COND }` (only products with CONFIG.when read it).
+      const takeIf = when ? body.slice(open + eb.length + 2).match(/^\s*\.takeIf\s*\{([^}]*)\}/) : null;
+      if (takeIf) {
+        const shown = condition(when, takeIf[1], `${titleKey}/${id}`);
+        if (shown !== true) continue;
+      }
       const paid = eb.match(/answerRes\s*=\s*answer\(\s*proOffered\s*,\s*R\.string\.(\w+)\s*,\s*R\.string\.(\w+)\s*\)/);
-      const aKey = paid ? paid[2] : (eb.match(/answerRes\s*=\s*R\.string\.(\w+)/)?.[1] ?? positional?.[3]);
+      const branch = when ? eb.match(/answerRes\s*=\s*if\s*\(([^)]*)\)\s*R\.string\.(\w+)\s*else\s*R\.string\.(\w+)/) : null;
+      const picked = branch ? condition(when, branch[1], `${titleKey}/${id}`) : null;
+      const aKey = paid
+        ? paid[2]
+        : branch
+          ? picked === null ? undefined : picked ? branch[2] : branch[3]
+          : (eb.match(/answerRes\s*=\s*R\.string\.(\w+)/)?.[1] ?? positional?.[3]);
       if (!id || !qKey || !aKey) {
         console.error(`[faq] could not parse an entry in ${titleKey}: ${eb.slice(0, 80)}`);
         process.exitCode = 1;
@@ -441,7 +479,7 @@ for (const [slug, root] of Object.entries(products)) {
     extractJava(slug, root, cfg);
     continue;
   }
-  const parsed = parseKotlin(readFileSync(join(root, cfg.kotlin), 'utf8'));
+  const parsed = parseKotlin(readFileSync(join(root, cfg.kotlin), 'utf8'), cfg.when);
   const byTitle = new Map(parsed.map((s) => [s.titleKey, s]));
   const ordered = cfg.order.map((k) => {
     const s = byTitle.get(k);

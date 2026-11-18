@@ -268,6 +268,159 @@
       ]
     },
     {
+      "id": "live",
+      "title": "Phát trực tiếp",
+      "entries": [
+        {
+          "id": "live_what_needed",
+          "q": "Tôi cần gì để phát trực tiếp?",
+          "a": [
+            "Máy chơi game của chính bạn, đã được thiết lập trong ứng dụng này, và một tài khoản trên nền tảng bạn muốn phát lên. Không cần máy tính, cũng không cần card capture. Chạm “Phát trực tiếp” trên thẻ máy chơi game rồi làm theo các bước: cách chơi, nơi phát, kết nối nền tảng và kiểm tra lần cuối. Nếu đang chơi, hãy mở bảng điều khiển nhanh và chạm “Phát trực tiếp” ở đó. Trong lúc phát trực tiếp, chạm vào nhãn ở góc để mở bảng phát trực tiếp."
+          ]
+        },
+        {
+          "id": "live_platforms",
+          "q": "Tôi phát trực tiếp được lên những nền tảng nào?",
+          "a": [
+            "Twitch, YouTube và Kick, cùng TikTok LIVE, Facebook, Instagram, X, Rumble, Telegram, Bilibili, Huya, Douyu, TwitCasting, niconico, SOOP, CHZZK và VK Video Live. Các dịch vụ phát đa nền tảng như Restream và Castr chuyển một luồng tới nhiều nền tảng hơn nữa, còn “Máy chủ tùy chỉnh” nhận mọi địa chỉ RTMP hoặc RTMPS. Nền tảng có nhãn “Có điều kiện” chỉ cho một số tài khoản phát; hãy chọn nền tảng đó để xem yêu cầu cụ thể."
+          ]
+        },
+        {
+          "id": "live_no_pc_quality",
+          "q": "Không có máy tính hay card capture thì có thật sự dùng được không? Chất lượng ra sao?",
+          "a": [
+            "Được. Điện thoại làm cả hai việc: nhận game từ máy chơi game, thêm những gì bạn đặt lên trên và gửi kết quả tới nền tảng. Hình bắt nguồn từ những gì Remote Play gửi, tối đa 1080p không có HDR và đã bị máy chơi game nén một lần, nên card capture sẽ cho hình nét hơn. Để có kết quả tốt nhất, hãy stream máy chơi game ở 1080p qua Wi-Fi nhà. Nếu luồng stream từ máy chơi game đang dùng HDR khi bạn phát trực tiếp, màu trên livestream có thể bị nhạt, nên hãy tắt HDR tại Cài đặt → Chất lượng hình ảnh rồi kết nối lại."
+          ]
+        },
+        {
+          "id": "live_capture_mode",
+          "q": "“Chế độ Live” là gì, và tôi kết nối tay cầm vào đâu?",
+          "a": [
+            "Chế độ này dành cho lúc bạn chơi trên TV còn điện thoại lo phần phát trực tiếp, như một card capture. Hãy chọn “Trên TV” ở bước đầu tiên. Khi đó điện thoại hiện những gì người xem thấy, không có tay cầm ảo và không có tiếng game, vì TV đã phát tiếng. Kết nối tay cầm với điện thoại qua Bluetooth hoặc USB, trong đó USB ổn định nhất, rồi vừa chơi vừa nhìn TV. Tay cầm nối thẳng với máy chơi game không thể chơi cùng lúc: máy coi đó là một người dùng khác, và hai bên cứ giành quyền điều khiển của nhau. Đeo tai nghe, hoặc để điện thoại xa loa TV, sẽ giữ tiếng TV không lọt vào micrô."
+          ]
+        },
+        {
+          "id": "live_stream_key",
+          "q": "Tôi lấy URL máy chủ và khóa luồng ở đâu?",
+          "a": [
+            "Sau khi chọn nền tảng, bước kết nối có mục “Tìm khóa luồng ở đâu”: chạm “Xem các bước” để xem hướng dẫn của nền tảng đó, hoặc nút bên dưới để mở trang của nó. Hãy sao chép khóa luồng, và cả URL máy chủ nếu nền tảng có cung cấp. Khi khay nhớ tạm có địa chỉ hoặc khóa, ứng dụng sẽ đề nghị dùng luôn và tách một địa chỉ đầy đủ ra hai ô. Với Twitch và YouTube, bạn có thể thấy nút “Đăng nhập bằng” thay thế, khi đó khóa sẽ được lấy giúp bạn. Khóa được lưu mã hóa trên điện thoại này; đổi hoặc xóa tại Cài đặt → Nơi phát."
+          ]
+        },
+        {
+          "id": "live_key_rejected",
+          "q": "Ứng dụng báo nền tảng đã từ chối khóa luồng.",
+          "a": [
+            "Khóa có thể bị gõ sai, đã hết hạn hoặc đã bị thay bằng khóa mới hơn, hoặc tài khoản chưa được phép phát trực tiếp. Hãy sao chép khóa mới từ nền tảng và dán tại Cài đặt → Nơi phát → “Đổi khóa”. Nếu khóa đúng, hãy kiểm tra điều kiện của nền tảng: Twitch chỉ hiện khóa sau khi bạn bật xác thực hai yếu tố, kênh YouTube phải được xác minh và lần đầu có thể mất tới 24 giờ, còn TikTok và Facebook có ngưỡng người theo dõi. Nếu nền tảng kết thúc một livestream đang chạy, có thể cùng khóa đó đang phát ở nơi khác."
+          ]
+        },
+        {
+          "id": "live_tiktok_key",
+          "q": "TikTok không cấp khóa luồng cho tôi. Giờ làm sao?",
+          "a": [
+            "TikTok tự quyết tài khoản nào được cấp: bạn cần đủ 18 tuổi trở lên và thường phải có ít nhất 1.000 người theo dõi, mà kể cả vậy cũng chưa chắc. Khi tài khoản đã được cấp, khóa nằm trong LIVE Center của TikTok trên máy tính, sau khi bạn đặt tiêu đề và danh mục. TikTok thường cấp khóa mới cho mỗi buổi, nên ứng dụng sẽ nhắc bạn dán khóa mới mỗi lần phát trực tiếp; Instagram, Bilibili và Douyu cũng vậy. Instagram còn cần 1.000 người theo dõi trên tài khoản công khai, và Bilibili cần 5.000 người theo dõi cùng xác minh danh tính thật."
+          ]
+        },
+        {
+          "id": "live_mic_voice",
+          "q": "Người xem có nghe được micrô của tôi và đồng đội không?",
+          "a": [
+            "Micrô của bạn chỉ lên livestream khi bạn bật, bằng “Micrô” ở đầu bảng phát trực tiếp hoặc “Micrô lên livestream” trong tab “Âm thanh”; mặc định là tắt. Việc này tách biệt với trò chuyện thoại qua máy chơi game, tức phím MIC trên tay cầm ảo, nên bạn có thể nói với người xem, với đồng đội, với cả hai hoặc không với ai cả. Đồng đội chỉ lên livestream nếu máy chơi game trộn giọng họ vào tiếng game gửi tới điện thoại này: những gì bạn nghe từ điện thoại khi stream bình thường cũng là những gì người xem nghe."
+          ]
+        },
+        {
+          "id": "live_viewers_see",
+          "q": "Người xem có thấy thông báo hay các nút trên màn hình của tôi không?",
+          "a": [
+            "Không. Livestream được dựng từ hình và tiếng game mà máy chơi game gửi, cộng với camera, thẻ cảnh và dấu nhỏ ở góc khi chúng đang bật. Tay cầm ảo, bảng điều khiển nhanh, bảng phát trực tiếp cùng nhãn của nó, thông báo và mọi thứ khác trên điện thoại đều không bao giờ lọt vào. Muốn che game trong chốc lát, chẳng hạn khi gõ mật khẩu trên máy chơi game, hãy chạm “Che” ở đầu bảng phát trực tiếp: hình và tiếng game sẽ được thay bằng một thẻ cho tới khi bạn chạm lại."
+          ]
+        },
+        {
+          "id": "live_camera",
+          "q": "Làm sao để thêm camera của tôi?",
+          "a": [
+            "Mở bảng phát trực tiếp và, trong tab “Cảnh”, bật “Hiện camera của tôi” ở mục “Camera”. Hãy chọn bố cục có chỗ cho camera, như “Camera ở góc” hoặc “Thanh bên”; “Toàn màn hình” thì không có. Kéo khung để di chuyển camera, khung sẽ tự bám vào góc gần nhất, và cùng tab đó có camera trước hoặc sau, lật gương, hình dạng, viền và kích thước. Lần đầu ứng dụng sẽ xin quyền camera, và nếu bạn từ chối thì mọi thứ khác vẫn hoạt động."
+          ]
+        },
+        {
+          "id": "live_vertical",
+          "q": "Làm sao để phát trực tiếp khung dọc?",
+          "a": [
+            "Ở bước cuối trước khi phát trực tiếp, đặt “Khung hình” thành “Dọc 9:16”. Các bố cục dọc trong tab “Cảnh” gồm “Ở giữa”, với game ở chính giữa trên nền làm mờ, “Xếp chồng”, với game ở trên và chỗ cho camera bên dưới, và “Lấp đầy”, với game được cắt cho đầy màn hình. Khi bạn chọn nền tảng thường được xem theo chiều dọc, như TikTok hoặc Instagram, ứng dụng sẽ tự chuyển sang khung dọc nếu được."
+          ]
+        },
+        {
+          "id": "live_two_platforms",
+          "q": "Tôi có phát lên hai nền tảng cùng lúc được không?",
+          "a": [
+            "Được. Cùng một livestream có thể phát lên hai nền tảng, và bạn còn có thể gửi thêm một bản ở khung hình còn lại lên nền tảng thứ ba, ví dụ bản ngang lên Twitch và YouTube, cộng bản dọc lên TikTok. Hãy thiết lập ở “Phát thêm lên” trong bước cuối trước khi phát trực tiếp. Mọi luồng đều được tải lên từ điện thoại, nên mỗi luồng cần một phần tốc độ tải lên riêng, và thêm một khung hình nữa cũng khiến điện thoại làm việc nặng hơn. Nếu một nơi phát bị lỗi, các nơi còn lại vẫn tiếp tục phát. Muốn tới được nhiều nền tảng hơn, hãy phát một lần lên dịch vụ phát đa nền tảng như Restream rồi kết nối các nền tảng của bạn ở đó."
+          ]
+        },
+        {
+          "id": "live_stutter",
+          "q": "Livestream bị giật hoặc cứ rớt.",
+          "a": [
+            "Nguyên nhân thường là tốc độ tải lên, vì livestream đi ra qua chính mạng Wi-Fi mà game đi vào. Khi tải lên chật vật, ứng dụng hạ bitrate trước rồi tới tốc độ khung hình, và nâng lại khi mạng hồi phục; ứng dụng không đổi độ phân giải trong lúc phát. Nếu mất kết nối, ứng dụng tự kết nối lại và việc ghi hình vẫn tiếp tục. Hãy phát từ Wi-Fi nhà, tốt nhất là 5 GHz và gần router, chọn chất lượng thấp hơn trước khi phát trực tiếp, và xem tab “Trạng thái” trong bảng phát trực tiếp để biết chuyện gì đang xảy ra. Dữ liệu di động và chơi từ bên ngoài mạng nhà vẫn dùng được, nhưng hình sẽ kém hơn."
+          ]
+        },
+        {
+          "id": "live_phone_hot",
+          "q": "Điện thoại bị nóng khi phát trực tiếp.",
+          "a": [
+            "Vừa nhận game, vừa dựng livestream và mã hóa nó cùng lúc là việc nặng với điện thoại. Khi máy nóng lên, ứng dụng tự hạ dần: trước là tốc độ khung hình, rồi camera xuống 15 fps, rồi tắt camera, rồi tới luồng thứ hai nếu có, và tab “Trạng thái” sẽ cho biết lý do. Độ phân giải giữ nguyên trong lúc phát, nên nếu điện thoại cứ nóng, lần sau hãy bắt đầu ở 720p30. Hãy tháo ốp và để điện thoại ở chỗ thoáng; trong “Chế độ Live”, “Màn hình đen tiết kiệm pin” cũng giúp ích."
+          ]
+        },
+        {
+          "id": "live_screen_off",
+          "q": "Tôi có tắt màn hình hoặc chuyển ứng dụng khi đang phát trực tiếp được không?",
+          "a": [
+            "Không. Livestream chạy trên trang stream. Khi bật “Cửa sổ nổi” trong Cài đặt, rời ứng dụng sẽ thu game vào một cửa sổ nhỏ và livestream vẫn tiếp tục. Nếu trang stream rời khỏi màn hình quá khoảng 15 giây, chẳng hạn bị ứng dụng khác che hoặc màn hình tắt, livestream sẽ dừng, còn thoát khỏi trang stream sẽ kết thúc livestream ngay. Trong “Chế độ Live”, “Màn hình đen tiết kiệm pin” làm đen và giảm độ sáng màn hình trong khi livestream vẫn tiếp tục; chạm vào bất cứ đâu để bật lại."
+          ]
+        },
+        {
+          "id": "live_console_drop",
+          "q": "Nếu máy chơi game mất kết nối khi đang phát trực tiếp thì sao?",
+          "a": [
+            "Livestream vẫn tiếp tục và người xem thấy thẻ “Quay lại ngay”. Khi kết nối tới máy chơi game trở lại, game sẽ tự hiện lại; sau khoảng 3 phút không có kết nối, livestream sẽ kết thúc. Điều này chỉ áp dụng khi kết nối tự rớt: nếu bạn tự kết thúc phiên thì livestream cũng kết thúc. Bạn cũng có thể tự hiện thẻ này bằng “BRB” ở đầu bảng phát trực tiếp."
+          ]
+        },
+        {
+          "id": "live_blocked_card",
+          "q": "Người xem thấy một thẻ báo phần này không được hiện trên livestream.",
+          "a": [
+            "Một số game và màn hình của máy chơi game không cho hiển thị từ xa, nên máy chơi game ngừng gửi hình của chúng. Thay vì hình đen hoặc đứng hình, người xem sẽ thấy thẻ đó, và game sẽ tự hiện lại ngay khi máy chơi game gửi hình trở lại. Không có cài đặt nào thay đổi được điều này; nó tùy vào game."
+          ]
+        },
+        {
+          "id": "live_recordings",
+          "q": "Bản ghi hình của tôi được lưu ở đâu?",
+          "a": [
+            "Hãy bật “Đồng thời lưu video trên điện thoại này” ở bước cuối trước khi phát trực tiếp, hoặc chọn “Chỉ ghi hình, không phát”. Trên Android 10 trở lên, video hoàn chỉnh được lưu vào Movies/Relaypad, nên sẽ hiện trong thư viện ảnh và trình quản lý tệp. Trên các phiên bản cũ hơn, video nằm trong thư mục riêng của ứng dụng, Android/data/com.relaypad.remoteplay.app/files/Movies, và sẽ bị xóa khi bạn gỡ ứng dụng. Trang tóm tắt sau livestream có “Mở” và “Chia sẻ” cho video."
+          ]
+        },
+        {
+          "id": "live_watermark",
+          "q": "Tôi có di chuyển hoặc tắt được dấu ở góc livestream không?",
+          "a": [
+            "Bạn di chuyển được, nhưng muốn tắt thì cần Pro. Mọi buổi phát đều có một dấu Relaypad nhỏ ở góc, ngay từ buổi đầu tiên. Bạn chọn được bất kỳ góc nào trong bốn góc ở mục “Hình mờ” trong tab “Cảnh” của bảng phát trực tiếp; mặc định là góc trên phải. Khi có Pro, hãy tắt “Hiện hình mờ” ở cùng chỗ đó."
+          ]
+        },
+        {
+          "id": "live_pro_trial",
+          "q": "Các buổi dùng thử Pro gồm những gì, và hết dùng thử thì sao?",
+          "a": [
+            "Vài buổi phát đầu tiên của bạn được dùng khung camera, khung dọc 9:16, nền tảng thứ hai và phát lại tức thì; bảng phát trực tiếp hiện số buổi dùng thử còn lại, và buổi phát ngắn hơn 5 phút không được tính. Dùng thử không gồm việc tắt hình mờ ở góc. Sau đó bạn vẫn phát trực tiếp miễn phí được, không giới hạn thời gian, lên một nền tảng ở tối đa 1080p60, có cả ghi hình; phần còn lại cần Pro, được liệt kê trong “Pro thêm những gì?”. Camera, bố cục và các cài đặt khác của bạn vẫn được giữ, nên mua Pro là mọi thứ trở lại ngay."
+          ]
+        },
+        {
+          "id": "live_console_broadcast",
+          "q": "Tôi có dùng tính năng phát sóng có sẵn của máy chơi game cùng lúc được không?",
+          "a": [
+            "Thường là không: máy chơi game thường không phát sóng trong lúc đang chạy phiên Remote Play, và ứng dụng này không bao giờ đụng tới tính năng đó. Dù vậy bạn cũng không cần đến nó, vì điện thoại tự phát trực tiếp được, và lên nhiều nền tảng hơn những gì máy chơi game hỗ trợ."
+          ]
+        }
+      ]
+    },
+    {
       "id": "quality",
       "title": "Stream và hình ảnh",
       "entries": [
@@ -276,13 +429,6 @@
           "q": "Các nút điều khiển nằm ở đâu khi đang stream?",
           "a": [
             "Thanh trên cùng sẽ mờ dần sau vài giây. Chạm vào chỗ trống trên hình để hiện lại: biểu tượng thanh trượt mở bảng điều khiển nhanh, còn “Giữ để thoát” kết thúc stream. Nhấn giữ vào chỗ trống cũng mở bảng điều khiển nhanh."
-          ]
-        },
-        {
-          "id": "free_720p",
-          "q": "Bản miễn phí bị giới hạn tới đâu?",
-          "a": [
-            "Stream trong mạng nhà ở mức tối đa 720p và 30 fps với H.264, không giới hạn thời gian và không quảng cáo. Giới hạn được áp mỗi khi một phiên bắt đầu. Chế độ Tay cầm miễn phí trọn vẹn và không bị giới hạn. Stream trên Android TV cần Pro."
           ]
         },
         {
@@ -346,6 +492,13 @@
           "q": "Không chọn được HEVC hoặc HDR, hoặc stream lại dùng H.264.",
           "a": [
             "HEVC cần điện thoại có bộ giải mã tương ứng, và HDR cần màn hình hỗ trợ; trang chất lượng hình ảnh sẽ ghi lý do một tùy chọn không dùng được. Nếu điện thoại không giải mã được định dạng đó khi stream bắt đầu, stream sẽ tự chuyển sang H.264 hoặc SDR và báo cho bạn."
+          ]
+        },
+        {
+          "id": "ps4_hevc",
+          "q": "HEVC hoặc HDR có dùng được với PS4 không?",
+          "a": [
+            "Không. Mọi PS4, kể cả Slim và Pro, chỉ gửi H.264; HEVC và HDR là tính năng của PS5. Cài đặt codec áp dụng cho tất cả máy chơi game của bạn: trên PS5 dùng nguyên như vậy, còn phiên stream tới PS4 sẽ tự chuyển sang H.264 và báo cho bạn biết, nên nếu bạn cũng có PS5 thì cứ để HEVC bật."
           ]
         },
         {
@@ -588,34 +741,48 @@
     },
     {
       "id": "purchase",
-      "title": "Giao dịch mua và hoàn tiền",
+      "title": "Pro, giao dịch mua và hoàn tiền",
       "entries": [
         {
-          "id": "paid_not_subscription",
-          "q": "Đây có phải là gói đăng ký không?",
+          "id": "controller_free",
+          "q": "Tôi có phải trả tiền để dùng điện thoại làm tay cầm không?",
           "a": [
-            "Không. Bạn mua ứng dụng một lần trên Google Play và chỉ vậy thôi: không có gói đăng ký, không mua trong ứng dụng, không quảng cáo, và không có tính năng nào đòi trả tiền lần thứ hai về sau. Giao dịch mua gắn với tài khoản Google của bạn, không gắn với điện thoại."
+            "Không. Chế độ Tay cầm miễn phí trọn vẹn, không giới hạn thời gian và không quảng cáo: tay cầm ảo, trình chỉnh sửa bố cục, tay cầm thật, gán phím, phản hồi rung, cảm biến chuyển động, touchpad, micrô, đánh thức và cho máy chơi game nghỉ, cùng số lượng máy chơi game và tài khoản tùy thích. Không có gì trong chế độ Tay cầm đòi bạn phải mua."
           ]
         },
         {
-          "id": "paid_promo_forever",
-          "q": "Tôi đã cài trong một đợt phát miễn phí. Sau này các tính năng có bị khóa lại không?",
+          "id": "pro_not_subscription",
+          "q": "Pro có phải là gói thuê bao không?",
           "a": [
-            "Không. Cài trong đợt khuyến mãi được tính là bạn đã mua ứng dụng ở mức giá đó, nên ứng dụng thuộc về bạn vĩnh viễn cùng mọi tính năng. Sau khi đợt khuyến mãi kết thúc thì vẫn vậy, và cùng tài khoản Google đó cài lại được trên điện thoại mới mà không phải trả tiền."
+            "Pro hiện là giao dịch mua một lần gắn với tài khoản Google của bạn. Bạn trả một lần cho các tính năng Pro có sẵn tại thời điểm mua, không bị tính phí theo từng buổi phát, và số tiền bạn trả là giá hiển thị trong cửa sổ thanh toán của Google Play. Nếu một giao dịch mua được hoàn tiền, Pro sẽ bị gỡ vào lần tiếp theo ứng dụng kiểm tra với Google Play."
           ]
         },
         {
-          "id": "paid_reinstall",
-          "q": "Tôi cài ứng dụng lên điện thoại mới bằng cách nào?",
+          "id": "pro_contents",
+          "q": "Pro thêm những gì?",
           "a": [
-            "Hãy mở trang ứng dụng trên cửa hàng bằng cùng tài khoản Google bạn đã mua, nút sẽ hiện “Cài đặt” thay vì giá tiền. Máy chơi game không chuyển theo, nên hãy ghép nối lại từng máy trên điện thoại mới; khóa ghép nối ở lại trên chính điện thoại đã tạo ra chúng."
+            "Pro bổ sung cho việc phát trực tiếp: khung camera và các bố cục chừa chỗ cho nó, bố cục dọc 9:16, hai nền tảng cùng lúc cộng thêm một bản ở khung hình còn lại lên nền tảng thứ ba, phát lại tức thì 30 giây gần nhất, và tắt hình mờ ở góc. Bạn có thể dùng thử tất cả trong vài buổi phát đầu tiên, trừ việc tắt hình mờ. Mọi thứ khác đều miễn phí: chế độ Tay cầm trọn vẹn, stream tối đa 1080p và 60 fps với HEVC và HDR, chơi từ bên ngoài mạng nhà, Android TV, cửa sổ nổi, chẩn đoán kết nối, và phát trực tiếp lên một nền tảng ở tối đa 1080p60 không giới hạn thời gian, gồm cả bitrate thủ công và ghi hình."
           ]
         },
         {
-          "id": "paid_included",
-          "q": "Bản này gồm những gì?",
+          "id": "pro_restore",
+          "q": "Tôi đổi điện thoại và Pro biến mất.",
           "a": [
-            "Tất cả, ngay từ lần mở đầu tiên: stream ở 1080p và 60 fps, bitrate thủ công, HEVC và HDR, làm nét FSR và lớp phủ hiệu năng, chơi từ bên ngoài mạng nhà bạn, stream trên Android TV, cửa sổ nổi, và game lên TV với điện thoại làm tay cầm. Chế độ tay cầm, chẩn đoán kết nối, widget lối tắt máy chơi game và số lượng máy chơi game cùng tài khoản không hạn chế cũng đều có sẵn."
+            "Giao dịch mua đi theo tài khoản Google chứ không theo điện thoại. Khi khởi động, ứng dụng kiểm tra với Google Play và tự mở khóa Pro, miễn là Google Play trên điện thoại này dùng đúng tài khoản đã mua. Nếu không, hãy mở Cài đặt → Nâng cấp lên Pro và chạm “Khôi phục giao dịch mua”. Nếu không kết nối được Google Play, ứng dụng sẽ báo ngay cho bạn; hãy kiểm tra kết nối và chắc chắn Google Play đã được đăng nhập, rồi thử lại."
+          ]
+        },
+        {
+          "id": "purchase_pending_failed",
+          "q": "Tôi đã thanh toán nhưng Pro vẫn chưa được mở khóa.",
+          "a": [
+            "Một số phương thức thanh toán, như trả tiền mặt tại cửa hàng, sẽ ở trạng thái chờ cho tới khi thanh toán hoàn tất. Pro được mở khóa ngay khi Google Play xác nhận: tức thì nếu ứng dụng đang mở, hoặc vào lần tiếp theo bạn mở ứng dụng. Nếu giao dịch thất bại, hãy kiểm tra phương thức thanh toán trong Google Play rồi thử lại sau."
+          ]
+        },
+        {
+          "id": "legacy_paid_locked",
+          "q": "Tôi mua ứng dụng này hồi nó còn là bản trả phí, giờ một số tính năng lại bị khóa.",
+          "a": [
+            "Những gì bạn đã có vẫn là của bạn. Chuyện này thường xảy ra sau khi xóa dữ liệu ứng dụng hoặc cài lại trên điện thoại mới, vì ngày cài đặt mà ứng dụng dùng để nhận ra bạn bị đặt lại. Hãy gửi email cho chúng tôi kèm mã đơn hàng trên biên nhận Google Play của chính ứng dụng, và chúng tôi sẽ gửi bạn một mã khuyến mãi để mở lại toàn bộ."
           ]
         },
         {
@@ -623,13 +790,6 @@
           "q": "Tôi xin hoàn tiền bằng cách nào?",
           "a": [
             "Trong vòng 48 giờ sau khi mua, bạn tự yêu cầu hoàn tiền được từ lịch sử đơn hàng trong Google Play, và đó là cách nhanh nhất. Sau thời gian đó, hãy gửi email cho chúng tôi trong vòng 7 ngày kể từ ngày mua và chúng tôi sẽ hoàn tiền, không hỏi lý do. Hãy kèm theo mã đơn hàng trên biên nhận của Google Play để chúng tôi tìm được giao dịch."
-          ]
-        },
-        {
-          "id": "paid_bought_before_sale",
-          "q": "Tôi mua đúng giá ngay trước khi một đợt giảm giá bắt đầu.",
-          "a": [
-            "Hãy viết cho chúng tôi. Trong vòng 48 giờ sau khi mua, cách nhanh nhất là bạn tự hoàn tiền giao dịch từ lịch sử đơn hàng trong Google Play rồi mua lại theo giá giảm. Sau thời gian đó, hãy gửi email cho chúng tôi kèm mã đơn hàng trên biên nhận của Google Play và chúng tôi sẽ hoàn lại phần chênh lệch."
           ]
         }
       ]
@@ -649,7 +809,7 @@
           "id": "android_tv",
           "q": "Có phiên bản Android TV không?",
           "a": [
-            "Có, cùng ứng dụng này cài được trên Android TV và Google TV. Hãy mở cửa hàng trên TV bằng cùng tài khoản Google bạn đã mua và ứng dụng sẽ cài mà không phải trả thêm. Để chơi, TV cần một tay cầm Bluetooth hoặc USB; điều khiển từ xa chỉ dùng để di chuyển trong menu. Khi đang stream, nhấn OK hoặc Menu trên điều khiển, hoặc giữ cùng lúc L1, R1, L3 và R3 trên tay cầm, để mở bảng điều khiển nhanh."
+            "Có, cùng ứng dụng này cài được trên Android TV và Google TV, và stream trên TV là miễn phí. Để chơi, TV cần một tay cầm Bluetooth hoặc USB; điều khiển từ xa chỉ dùng để di chuyển trong menu. Khi đang stream, nhấn OK hoặc Menu trên điều khiển, hoặc giữ cùng lúc L1, R1, L3 và R3 trên tay cầm, để mở bảng điều khiển nhanh."
           ]
         },
         {
@@ -690,5 +850,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-10-15"
+  "extractedAt": "2026-11-18"
 }
