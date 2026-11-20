@@ -3,6 +3,18 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 2000,
+      "name": "2.0.0",
+      "date": "2026-11-19",
+      "items": [
+        "Gamepad Pro'nun yeni adı JoyMapper. Oyunların, ayarların ve satın aldıkların aynen kalıyor.",
+        "Yeni: Analog çubuk kalibrasyonu, çubuk kaymasını ve kenara kadar gitmeyen çubukları düzeltir.",
+        "Yeni: Kamera hissi ile kamerayı daha yavaş ya da daha hızlı döndürebilirsin.",
+        "Yeni düğme seçeneği \"Basılı tutarken bu düğmeyle nişan al\": ateş ederken görüşün dönmediği oyunlar için.",
+        "Android 9 ve üzeri yeniden destekleniyor."
+      ]
+    },
+    {
       "code": 1992,
       "name": "1.9.9.2",
       "date": "2026-11-14",
@@ -139,5 +151,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-14"
+  "extractedAt": "2026-11-20"
 }

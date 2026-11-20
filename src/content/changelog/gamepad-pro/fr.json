@@ -3,6 +3,18 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 2000,
+      "name": "2.0.0",
+      "date": "2026-11-19",
+      "items": [
+        "Gamepad Pro s'appelle désormais JoyMapper. Vos jeux, réglages et achats sont conservés.",
+        "Nouveau : le Calibrage des sticks corrige la dérive et les sticks qui n'atteignent pas le bord.",
+        "Nouveau : Ressenti caméra fait tourner la caméra plus lentement ou plus vite.",
+        "Nouvelle option de bouton « Viser avec ce bouton tant qu'il est maintenu », pour les jeux où la vue ne tourne plus pendant le tir.",
+        "De nouveau compatible avec Android 9 et versions ultérieures."
+      ]
+    },
+    {
       "code": 1992,
       "name": "1.9.9.2",
       "date": "2026-11-14",
@@ -138,5 +150,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-14"
+  "extractedAt": "2026-11-20"
 }

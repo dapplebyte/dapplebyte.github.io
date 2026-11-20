@@ -3,6 +3,18 @@
   "locale": "id",
   "entries": [
     {
+      "code": 2000,
+      "name": "2.0.0",
+      "date": "2026-11-19",
+      "items": [
+        "Gamepad Pro sekarang bernama JoyMapper. Game, setelan, dan pembelian kamu tetap sama.",
+        "Baru: Kalibrasi stik memperbaiki stick drift dan stik yang tidak sampai ke tepi.",
+        "Baru: Rasa kamera bikin kamera berputar lebih lambat atau lebih cepat.",
+        "Opsi tombol baru \"Bidik dengan tombol ini saat ditahan\", untuk game yang pandangannya tidak bisa berputar saat menembak.",
+        "Kembali mendukung Android 9 ke atas."
+      ]
+    },
+    {
       "code": 1992,
       "name": "1.9.9.2",
       "date": "2026-11-14",
@@ -139,5 +151,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-14"
+  "extractedAt": "2026-11-20"
 }

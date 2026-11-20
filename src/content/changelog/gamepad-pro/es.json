@@ -3,6 +3,18 @@
   "locale": "es",
   "entries": [
     {
+      "code": 2000,
+      "name": "2.0.0",
+      "date": "2026-11-19",
+      "items": [
+        "Gamepad Pro ahora se llama JoyMapper. Tus juegos, configuración y compras se mantienen.",
+        "Nuevo: Calibración de sticks corrige el drift y los sticks que no llegan al borde.",
+        "Nuevo: con Sensación de cámara la cámara gira más lento o más rápido.",
+        "Nueva opción de botón \"Apuntar con este botón mientras lo mantienes\", para juegos donde la vista no gira mientras disparas.",
+        "Funciona otra vez en Android 9 o superior."
+      ]
+    },
+    {
       "code": 1992,
       "name": "1.9.9.2",
       "date": "2026-11-14",
@@ -139,5 +151,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-14"
+  "extractedAt": "2026-11-20"
 }

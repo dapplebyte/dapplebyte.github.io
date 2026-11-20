@@ -3,6 +3,18 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 2000,
+      "name": "2.0.0",
+      "date": "2026-11-19",
+      "items": [
+        "Gamepad Pro nay đổi tên thành JoyMapper. Game, cài đặt và giao dịch mua của bạn vẫn giữ nguyên.",
+        "Mới: Hiệu chỉnh cần analog khắc phục trôi cần và cần không đẩy tới mép.",
+        "Mới: Cảm giác góc nhìn giúp xoay camera chậm hơn hoặc nhanh hơn.",
+        "Tùy chọn nút mới \"Dùng nút này để xoay góc nhìn khi giữ\", dành cho game không xoay được góc nhìn khi đang bắn.",
+        "Hoạt động lại trên Android 9 trở lên."
+      ]
+    },
+    {
       "code": 1992,
       "name": "1.9.9.2",
       "date": "2026-11-14",
@@ -139,5 +151,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-14"
+  "extractedAt": "2026-11-20"
 }

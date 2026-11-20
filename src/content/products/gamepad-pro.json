@@ -7,7 +7,7 @@
   "applicationId": "com.dylan.gamepad.pro",
   "playUrl": "https://play.google.com/store/apps/details?id=com.dylan.gamepad.pro",
   "category": "GameApplication",
-  "minOs": "Android 12",
+  "minOs": "Android 9",
   "versions": [
     {
       "code": 191,
@@ -63,6 +63,11 @@
       "code": 1992,
       "name": "1.9.9.2",
       "date": "2026-11-14"
+    },
+    {
+      "code": 2000,
+      "name": "2.0.0",
+      "date": "2026-11-19"
     }
   ],
   "contactEmail": "feedback@dapplebyte.com",
