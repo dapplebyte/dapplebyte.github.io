@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "version": "2026.11.12.2",
-  "published": "2026-11-13T11:00:43Z",
-  "zip": "2026.11.12.2/wasdo-presets-2026.11.12.2.zip",
-  "zipSize": 33867,
-  "zipSha256": "2c96f3068229b82e30ff16ed9870358250bed3427ea0aff13724d644f2c2d11a"
+  "version": "2026.11.24.1",
+  "published": "2026-11-24T14:46:49Z",
+  "zip": "2026.11.24.1/wasdo-presets-2026.11.24.1.zip",
+  "zipSize": 125523,
+  "zipSha256": "6a90e5132e2b8935207d1aa56aa3f50d8445f1d63557a03e108cb4e288682aa8"
 }
