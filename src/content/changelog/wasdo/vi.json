@@ -3,6 +3,18 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Thư viện layout có sẵn có thêm hai game bắn súng nổi tiếng (Pro)",
+        "Đang điều khiển điện thoại bằng máy tính qua chiếu màn hình (ví dụ scrcpy)? Bấm một phím chữ bất kỳ trong Wasdo để bàn phím được nhận diện",
+        "Gợi ý trong game: bấm Esc để chuyển sang chế độ góc nhìn, và giảm độ nhạy nếu góc nhìn xoay quá nhanh",
+        "Khi dịch vụ ánh xạ đang tắt, nút nổi và gợi ý phím sẽ được ẩn",
+        "Sửa lỗi thỉnh thoảng bị văng khi đóng bảng điều khiển trong game"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

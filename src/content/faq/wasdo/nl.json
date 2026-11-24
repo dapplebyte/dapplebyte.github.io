@@ -185,6 +185,13 @@
           "a": [
             "Geen probleem. Kies in de muiskalibratie ‘Weet ik niet, meet het voor me’, lijn de linkerrand van je muis uit met de eerste lijn op het scherm en klik. Houd de muis daarna op het bureau en schuif tot dezelfde rand bij de tweede lijn is, en klik nog een keer. Doe dat drie keer. Druk je later op de DPI-knop van je muis, meet dan opnieuw."
           ]
+        },
+        {
+          "id": "q24",
+          "q": "Kan ik Wasdo gebruiken als ik mijn telefoon vanaf een computer bedien (bijvoorbeeld met scrcpy)?",
+          "a": [
+            "Ja. Het toetsenbord en de muis van je computer verschijnen op je telefoon niet als verbonden apparaten, dus op het startscherm kan “Geen toetsenbord” staan. Druk in Wasdo op een willekeurige lettertoets, dan herkent Wasdo je toetsenbord. Daarna voeg je zoals altijd je game toe en stel je de toewijzing in. Cameramodus heeft een muis nodig die relatieve bewegingen doorgeeft. In de standaardmodus van scrcpy gebruikt de muis absolute coördinaten, waardoor cameramodus de muis misschien niet kan vergrendelen. Start scrcpy met --mouse=uhid (of -M) om een fysieke muis te simuleren. Andere tools voor schermspiegeling werken mogelijk anders."
+          ]
         }
       ]
     },
@@ -209,5 +216,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

@@ -3,6 +3,18 @@
   "locale": "it",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Altri due sparatutto popolari nella libreria degli schemi predefiniti (Pro)",
+        "Mirroring dal computer (ad es. scrcpy)? Premi una lettera in Wasdo per far riconoscere la tastiera",
+        "Consigli in gioco: Esc per la modalità camera, e abbassa la sensibilità se la camera gira troppo veloce",
+        "Con il servizio mappature disattivo, pulsante mobile e indicatori dei tasti restano nascosti",
+        "Risolti rari arresti anomali alla chiusura del pannello in gioco"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

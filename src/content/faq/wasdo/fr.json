@@ -185,6 +185,13 @@
           "a": [
             "Pas de souci. Dans le calibrage de la souris, choisis « Je ne sais pas, mesurez pour moi », aligne le bord gauche de ta souris sur la première ligne à l'écran et fais un clic gauche, puis, sans la soulever du bureau, pousse-la jusqu'à ce que ce même bord gauche atteigne la deuxième ligne et clique à nouveau. Fais-le trois fois. Si tu appuies plus tard sur le bouton DPI de ta souris, refais la mesure."
           ]
+        },
+        {
+          "id": "q24",
+          "q": "Puis-je utiliser Wasdo quand je contrôle mon téléphone depuis un ordinateur (par exemple avec scrcpy) ?",
+          "a": [
+            "Oui. Le clavier et la souris de ton ordinateur n'apparaissent pas comme des appareils connectés sur ton téléphone, l'écran d'accueil peut donc afficher « Aucun clavier ». Appuie sur n'importe quelle touche de lettre dans Wasdo et il reconnaîtra ton clavier ; ajoute ensuite ton jeu et lance le mappage comme d'habitude. Le mode caméra a besoin d'une souris qui envoie des mouvements relatifs. Dans le mode par défaut de scrcpy, la souris utilise des coordonnées absolues : le mode caméra risque donc de ne pas pouvoir la verrouiller. Lance scrcpy avec --mouse=uhid (ou -M) pour simuler une souris physique. D'autres outils de recopie d'écran peuvent fonctionner différemment."
+          ]
         }
       ]
     },
@@ -209,5 +216,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

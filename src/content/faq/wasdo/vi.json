@@ -185,6 +185,13 @@
           "a": [
             "Không sao. Trong Hiệu chỉnh chuột, chọn “Tôi không biết, đo giúp tôi”, căn mép trái của chuột thẳng với vạch thứ nhất trên màn hình rồi bấm, sau đó giữ chuột sát mặt bàn và đẩy cho đến khi chính mép trái đó chạm vạch thứ hai rồi bấm lần nữa. Làm như vậy ba lần. Nếu sau này bạn bấm nút DPI trên chuột, hãy đo lại."
           ]
+        },
+        {
+          "id": "q24",
+          "q": "Tôi điều khiển điện thoại bằng máy tính (ví dụ dùng scrcpy), có dùng Wasdo được không?",
+          "a": [
+            "Được. Bàn phím và chuột của máy tính không hiện là thiết bị đã kết nối trên điện thoại, nên màn hình chính có thể báo “Chưa có bàn phím”. Hãy bấm một phím chữ bất kỳ trong Wasdo để Wasdo nhận ra bàn phím của bạn, rồi thêm game và bắt đầu ánh xạ phím như bình thường. Chế độ góc nhìn cần chuột gửi chuyển động tương đối. Ở chế độ mặc định của scrcpy, chuột dùng tọa độ tuyệt đối, nên chế độ góc nhìn có thể không khóa được chuột. Hãy khởi động scrcpy với --mouse=uhid (hoặc -M) để giả lập chuột vật lý. Các công cụ chiếu màn hình khác có thể hoạt động theo cách khác."
+          ]
         }
       ]
     },
@@ -209,5 +216,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

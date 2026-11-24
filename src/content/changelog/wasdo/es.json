@@ -3,6 +3,18 @@
   "locale": "es",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Dos shooters populares más en la biblioteca de esquemas predefinidos (Pro)",
+        "¿Duplicas la pantalla en la computadora (p. ej., scrcpy)? Presiona una letra en Wasdo para que reconozca tu teclado",
+        "Consejos en el juego: Esc para el modo cámara, y baja la sensibilidad si gira muy rápido",
+        "Con el servicio de asignaciones desactivado, el botón flotante y los indicadores de teclas no aparecen",
+        "Corregidos cierres inesperados ocasionales al salir del panel"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

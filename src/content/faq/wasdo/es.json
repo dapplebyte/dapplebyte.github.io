@@ -185,6 +185,13 @@
           "a": [
             "No pasa nada. En Calibración del ratón, elige «No lo sé, mídelo por mí», alinea el borde izquierdo del ratón con la primera línea de la pantalla y haz clic; después, sin levantarlo de la mesa, empújalo hasta que ese mismo borde llegue a la segunda línea y vuelve a hacer clic. Hazlo tres veces. Si más adelante pulsas el botón de DPI del ratón, vuelve a medir."
           ]
+        },
+        {
+          "id": "q24",
+          "q": "¿Puedo usar Wasdo si controlo el teléfono desde el ordenador (por ejemplo, con scrcpy)?",
+          "a": [
+            "Sí. El teclado y el ratón del ordenador no aparecen como dispositivos conectados en el teléfono, así que la pantalla de inicio puede mostrar «Sin teclado». Pulsa cualquier tecla de letra dentro de Wasdo y reconocerá tu teclado; después añade tu juego y crea tu asignación como siempre. El modo cámara necesita un ratón que envíe movimiento relativo. En el modo predeterminado de scrcpy, el ratón usa coordenadas absolutas, así que puede que el modo cámara no consiga bloquearlo. Inicia scrcpy con --mouse=uhid (o -M) para simular un ratón físico. Otras herramientas de duplicación de pantalla pueden funcionar de otra manera."
+          ]
         }
       ]
     },
@@ -209,5 +216,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

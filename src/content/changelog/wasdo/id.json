@@ -3,6 +3,18 @@
   "locale": "id",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Dua game tembak populer lagi di Pustaka preset (Pro)",
+        "Mengontrol HP dari komputer lewat mirroring layar (misalnya scrcpy)? Tekan tombol huruf apa saja di Wasdo agar keyboard kamu dikenali",
+        "Tips dalam game: tekan Esc untuk mode kamera, dan turunkan sensitivitas kalau kamera berputar terlalu cepat",
+        "Saat layanan pemetaan mati, pengalih melayang dan petunjuk tombol tetap tersembunyi",
+        "Memperbaiki crash yang sesekali terjadi saat menutup panel dalam game"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

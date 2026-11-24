@@ -185,6 +185,13 @@
           "a": [
             "Nessun problema. In Calibrazione del mouse scegli «Non lo so, misuralo tu», allinea il bordo sinistro del mouse con la prima linea sullo schermo e fai clic, poi tienilo sulla scrivania e spingilo finché lo stesso bordo non arriva alla seconda linea e fai di nuovo clic. Ripeti tre volte. Se in seguito premi il pulsante DPI del mouse, misura di nuovo."
           ]
+        },
+        {
+          "id": "q24",
+          "q": "Posso usare Wasdo se controllo il telefono dal computer (ad esempio con scrcpy)?",
+          "a": [
+            "Sì. La tastiera e il mouse del computer non compaiono tra i dispositivi connessi del telefono, quindi la schermata Home potrebbe mostrare «Nessuna tastiera». Premi un tasto lettera qualsiasi dentro Wasdo e riconoscerà la tua tastiera, poi aggiungi il tuo gioco e crea la mappatura come al solito. La modalità camera richiede un mouse che invii movimenti relativi. Nella modalità predefinita di scrcpy il mouse usa coordinate assolute, quindi la modalità camera potrebbe non riuscire a bloccarlo. Avvia scrcpy con --mouse=uhid (o -M) per simulare un mouse fisico. Altri strumenti di mirroring potrebbero funzionare in modo diverso."
+          ]
         }
       ]
     },
@@ -209,5 +216,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

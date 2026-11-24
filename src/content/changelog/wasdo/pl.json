@@ -3,6 +3,18 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Dwie kolejne popularne strzelanki w bibliotece gotowych układów (Pro)",
+        "Dublowanie ekranu z komputera (np. scrcpy)? Naciśnij w Wasdo dowolny klawisz z literą, a klawiatura zostanie rozpoznana",
+        "Wskazówki w grze: Esc przełącza w tryb kamery, a gdy kamera obraca się za szybko, zmniejsz czułość",
+        "Gdy usługa mapowania jest wyłączona, pływający przełącznik i podpowiedzi klawiszy pozostają ukryte",
+        "Naprawiono sporadyczne awarie przy zamykaniu panelu w grze"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

@@ -185,6 +185,13 @@
           "a": [
             "No problem. In the mouse calibration, choose Measure for me, line up the left edge of your mouse with the first line on screen and click, then keep it on the desk and push until that same edge reaches the second line and click again. Do it three times. If you press the DPI button on your mouse later, measure again."
           ]
+        },
+        {
+          "id": "q24",
+          "q": "Can I use Wasdo when I control my phone from a computer (for example with scrcpy)?",
+          "a": [
+            "Yes. The keyboard and mouse on your computer don't show up as connected devices on your phone, so the home screen may say No keyboard. Press any letter key inside Wasdo and it will recognize your keyboard, then add your game and start mapping as usual. Camera mode needs a mouse that sends relative movement. In scrcpy's default mode the mouse uses absolute coordinates, so camera mode may not be able to lock it. Start scrcpy with --mouse=uhid (or -M) to simulate a physical mouse. Other mirroring tools may work differently."
+          ]
         }
       ]
     },
@@ -209,5 +216,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

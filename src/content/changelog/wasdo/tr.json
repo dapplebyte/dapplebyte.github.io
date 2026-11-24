@@ -3,6 +3,18 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Hazır düzen kütüphanesine iki popüler nişancı oyunu daha eklendi (Pro)",
+        "Telefonu bilgisayardan ekran yansıtmayla (ör. scrcpy) mı kontrol ediyorsunuz? Klavyenizin tanınması için Wasdo'da bir harf tuşuna basın",
+        "Oyun içi ipuçları: kamera moduna geçmek için Esc'ye basın, kamera çok hızlı dönüyorsa hassasiyeti düşürün",
+        "Eşleme hizmeti kapalıyken yüzen düğme ve tuş ipuçları gizli kalır",
+        "Oyun içi paneli kapatırken ara sıra yaşanan çökmeler giderildi"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

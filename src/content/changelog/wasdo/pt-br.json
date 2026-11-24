@@ -3,6 +3,18 @@
   "locale": "pt-br",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Mais dois jogos de tiro populares na biblioteca de esquemas predefinidos (Pro)",
+        "Controla o celular pelo computador (ex.: scrcpy)? Pressione uma letra no Wasdo para ele reconhecer seu teclado",
+        "Dicas no jogo: Esc para o modo câmera, e diminua a sensibilidade se a câmera girar rápido demais",
+        "Com o serviço de mapeamento inativo, botão flutuante e indicações de teclas ficam ocultos",
+        "Corrigido o app fechando sozinho às vezes ao sair do painel no jogo"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

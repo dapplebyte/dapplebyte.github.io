@@ -3,6 +3,18 @@
   "locale": "de",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Zwei weitere beliebte Shooter in der Preset-Bibliothek (Pro)",
+        "Bildschirmspiegelung vom Computer (z. B. scrcpy)? Drücke in Wasdo eine Buchstabentaste, damit deine Tastatur erkannt wird",
+        "Hinweise im Spiel: Esc für den Kameramodus, und dreht die Kamera zu schnell, senke die Empfindlichkeit",
+        "Ist der Zuordnungsdienst aus, bleiben schwebender Umschalter und Tastenhinweise ausgeblendet",
+        "Gelegentliche Abstürze beim Schließen des Ingame-Panels behoben"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

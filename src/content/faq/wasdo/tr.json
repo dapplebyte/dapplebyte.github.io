@@ -185,6 +185,13 @@
           "a": [
             "Sorun değil. Fare kalibrasyonunda «Bilmiyorum, benim için ölçün» seçeneğini seçin, farenizin sol kenarını ekrandaki ilk çizgiyle hizalayıp sol tıklayın, ardından fareyi masadan kaldırmadan aynı sol kenar ikinci çizgiye gelene kadar itip yeniden tıklayın. Bunu üç kez yapın. Daha sonra farenizdeki DPI düğmesine basarsanız yeniden ölçün."
           ]
+        },
+        {
+          "id": "q24",
+          "q": "Telefonumu bilgisayardan kontrol ederken (örneğin scrcpy ile) Wasdo'yu kullanabilir miyim?",
+          "a": [
+            "Evet. Bilgisayarınızdaki klavye ve fare, telefonunuzda bağlı cihaz olarak görünmez; bu yüzden ana ekranda «Klavye yok» yazabilir. Wasdo'da herhangi bir harf tuşuna basın, Wasdo klavyenizi tanır; ardından her zamanki gibi oyununuzu ekleyip eşlemeye başlayın. Kamera modu, göreli hareket gönderen bir fare gerektirir. scrcpy'nin varsayılan modunda fare mutlak koordinatlar kullanır, bu yüzden kamera modu fareyi kilitleyemeyebilir. Fiziksel bir fareyi taklit etmek için scrcpy'yi --mouse=uhid (veya -M) ile başlatın. Diğer ekran yansıtma araçları farklı çalışabilir."
+          ]
         }
       ]
     },
@@ -209,5 +216,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

@@ -185,6 +185,13 @@
           "a": [
             "Nic nie szkodzi. W kalibracji myszy wybierz „Nie wiem, zmierz za mnie”, wyrównaj lewą krawędź myszy z pierwszą linią na ekranie i kliknij. Potem, nie odrywając myszy od biurka, przesuń ją, aż ta sama krawędź dojdzie do drugiej linii, i kliknij jeszcze raz. Zrób to trzy razy. Jeśli później naciśniesz przycisk DPI na myszy, zmierz ponownie."
           ]
+        },
+        {
+          "id": "q24",
+          "q": "Czy mogę używać Wasdo, gdy steruję telefonem z komputera (na przykład przez scrcpy)?",
+          "a": [
+            "Tak. Klawiatura i mysz komputera nie są widoczne w telefonie jako podłączone urządzenia, więc na ekranie głównym może się pojawić „Brak klawiatury”. Naciśnij w Wasdo dowolny klawisz z literą, a aplikacja rozpozna klawiaturę. Potem jak zwykle dodaj grę i ustaw mapowanie. Tryb kamery wymaga myszy, która wysyła ruch względny. W domyślnym trybie scrcpy mysz używa współrzędnych bezwzględnych, więc tryb kamery może nie zablokować myszy. Uruchom scrcpy z opcją --mouse=uhid (lub -M), aby zasymulować fizyczną mysz. Inne narzędzia do dublowania ekranu mogą działać inaczej."
+          ]
         }
       ]
     },
@@ -209,5 +216,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

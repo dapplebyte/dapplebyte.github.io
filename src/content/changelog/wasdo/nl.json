@@ -3,6 +3,18 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Nog twee populaire shooters in de presetbibliotheek (Pro)",
+        "Schermspiegeling vanaf een computer (bijv. scrcpy)? Druk in Wasdo op een lettertoets, dan wordt je toetsenbord herkend",
+        "Tips in de game: Esc voor cameramodus, en verlaag de gevoeligheid als de camera te snel draait",
+        "Als de toewijzingsservice uit staat, blijven de zwevende wisselaar en toetshints verborgen",
+        "Af en toe een crash bij het sluiten van het gamepaneel opgelost"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

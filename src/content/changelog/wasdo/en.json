@@ -3,6 +3,18 @@
   "locale": "en",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Two more popular shooters in the preset library (Pro)",
+        "Mirroring from a computer (e.g. scrcpy)? Press any letter key in Wasdo to have your keyboard recognized",
+        "In-game tips: press Esc for camera mode, and lower sensitivity if the camera turns too fast",
+        "Floating pill and key overlay stay hidden while mapping is off",
+        "Fixed occasional crashes when closing in-game panels"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

@@ -185,6 +185,13 @@
           "a": [
             "Kein Problem. Wähle in der Mauskalibrierung „Weiß ich nicht, miss sie für mich“, richte die linke Kante deiner Maus an der ersten Linie auf dem Bildschirm aus und mach einen Linksklick. Lass die Maus dann auf dem Tisch und schieb sie, bis dieselbe Kante die zweite Linie erreicht, und klick noch einmal. Mach das dreimal. Wenn du später die DPI-Taste an deiner Maus drückst, miss einfach noch einmal."
           ]
+        },
+        {
+          "id": "q24",
+          "q": "Kann ich Wasdo nutzen, wenn ich mein Handy vom Computer aus steuere (zum Beispiel mit scrcpy)?",
+          "a": [
+            "Ja. Tastatur und Maus deines Computers tauchen auf dem Handy nicht als verbundene Geräte auf, deshalb zeigt der Startbildschirm eventuell „Keine Tastatur“ an. Drücke in Wasdo eine beliebige Buchstabentaste, dann erkennt es deine Tastatur. Danach fügst du wie gewohnt dein Spiel hinzu und richtest die Zuordnung ein. Der Kameramodus braucht eine Maus, die relative Bewegungen sendet. Im Standardmodus von scrcpy arbeitet die Maus mit absoluten Koordinaten, daher kann der Kameramodus sie eventuell nicht fixieren. Starte scrcpy mit --mouse=uhid (oder -M), um eine physische Maus zu simulieren. Andere Tools zur Bildschirmspiegelung funktionieren unter Umständen anders."
+          ]
         }
       ]
     },
@@ -209,5 +216,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

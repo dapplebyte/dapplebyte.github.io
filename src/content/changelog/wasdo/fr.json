@@ -3,6 +3,18 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 3,
+      "name": "1.0.2",
+      "date": "2026-11-24",
+      "items": [
+        "Deux autres jeux de tir populaires dans la bibliothèque de dispositions prédéfinies (Pro)",
+        "Recopie d'écran sur PC (ex. scrcpy) ? Appuyez sur une lettre dans Wasdo pour faire reconnaître le clavier",
+        "Conseils en jeu : Esc pour le mode caméra, et baissez la sensibilité si elle tourne trop vite",
+        "Service de mappage désactivé : bulle flottante et indications de touches restent masquées",
+        "Correction de plantages occasionnels en fermant le panneau en jeu"
+      ]
+    },
+    {
       "code": 2,
       "name": "1.0.1",
       "date": "2026-11-17",
@@ -19,5 +31,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }

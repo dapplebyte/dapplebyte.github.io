@@ -185,6 +185,13 @@
           "a": [
             "Tidak masalah. Di Kalibrasi mouse, pilih “Tidak tahu, tolong ukurkan”, sejajarkan tepi kiri mouse dengan garis pertama di layar lalu klik, kemudian tetap tempelkan mouse ke meja dan dorong sampai tepi kiri yang sama mencapai garis kedua, lalu klik lagi. Lakukan tiga kali. Kalau nanti kamu menekan tombol DPI di mouse, ukur lagi."
           ]
+        },
+        {
+          "id": "q24",
+          "q": "Bisakah aku pakai Wasdo saat mengontrol HP dari komputer (misalnya dengan scrcpy)?",
+          "a": [
+            "Bisa. Keyboard dan mouse di komputermu tidak muncul sebagai perangkat yang terhubung di HP, jadi Beranda mungkin menampilkan “Tidak ada keyboard”. Tekan tombol huruf apa saja di dalam Wasdo, nanti Wasdo akan mengenali keyboard-mu, lalu tambahkan game-mu dan mulai pemetaan seperti biasa. Mode kamera butuh mouse yang mengirim gerakan relatif. Di mode default scrcpy, mouse memakai koordinat absolut, jadi mode kamera mungkin tidak bisa mengunci mouse. Jalankan scrcpy dengan --mouse=uhid (atau -M) supaya mouse disimulasikan sebagai mouse fisik. Aplikasi mirroring lain mungkin bekerja dengan cara yang berbeda."
+          ]
         }
       ]
     },
@@ -209,5 +216,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-17"
+  "extractedAt": "2026-11-24"
 }
