@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "Czy mogę używać JoyLink do grania na tym samym telefonie?",
+          "a": [
+            "Nie. JoyLink zmienia ten telefon w pada dla innego urządzenia — komputera, Maca, przystawki multimedialnej, tabletu albo innego telefonu. Gra działa na tamtym urządzeniu, a ten telefon tylko wysyła naciśnięcia przycisków przez Bluetooth."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "Dlaczego nie połączy się z PlayStation, Xboxem ani Switchem?",
           "a": [
             "Każda konsola blokuje to na swój sposób. Pady Xbox używają własnej łączności 2,4 GHz zamiast Bluetooth. Konsole PlayStation sprawdzają układ uwierzytelniający wbudowany w pada. Switch przyjmuje wyłącznie własny protokół Nintendo. Żadna aplikacja tego nie obejdzie, a JoyLink nawet nie próbuje."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "Czy przez JoyLink mogę podłączyć pada do Switcha, PlayStation albo Xboxa?",
+          "a": [
+            "Nie. JoyLink nie paruje fizycznych padów ani nimi nie zarządza. To ten telefon staje się padem."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows widzi pada, ale gra go ignoruje albo przyciski są pomieszane.",
           "a": [
             "JoyLink zgłasza się jako zwykły pad ogólny (DirectInput), a nie jako kontroler Xbox (XInput). Gry obsługujące wyłącznie XInput potrzebują pośrednika w postaci Steam: otwórz Steam → Ustawienia → Kontroler i włącz Steam Input dla kontrolerów ogólnych. Grę spoza Steam dodaj przez „Dodaj grę spoza Steam” i uruchamiaj ją stamtąd. Steam poda ją wtedy grze jako kontroler, który ta rozumie, i pozwoli dowolnie zmienić przypisania przycisków."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Dlaczego Windows pokazuje X i Y jako przycisk 4 i przycisk 5?",
+          "a": [
+            "Tak ma być. JoyLink stosuje standardową numerację przycisków pada, w której dwa numery zostają niewykorzystane, dlatego Windows pokazuje przyciski akcji jako 1, 2, 4 i 5. Gry i Steam Input nadal odczytują je poprawnie."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

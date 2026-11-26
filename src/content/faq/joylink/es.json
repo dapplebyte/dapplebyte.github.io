@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "¿Puedo usar JoyLink para jugar en este mismo teléfono?",
+          "a": [
+            "No. JoyLink convierte este teléfono en un mando para otro dispositivo, como PC, Mac, reproductor multimedia, tablet u otro teléfono. El juego se ejecuta en ese dispositivo, y este teléfono solo envía las pulsaciones de los botones por Bluetooth."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "¿Por qué no se conecta a una PlayStation, una Xbox o una Switch?",
           "a": [
             "Cada consola lo bloquea a su manera. Los mandos de Xbox usan una radio propia de 2,4 GHz en lugar de Bluetooth. Las PlayStation verifican un chip de autenticación dentro del mando. La Switch solo acepta el protocolo de Nintendo. Ninguna app puede saltarse esto, y JoyLink ni lo intenta."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "¿Puedo conectar un mando de Switch, PlayStation o Xbox con JoyLink?",
+          "a": [
+            "No. JoyLink no empareja ni gestiona mandos físicos: lo que hace es que este teléfono funcione como mando."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows ve el mando, pero el juego lo ignora o los botones están cambiados.",
           "a": [
             "JoyLink es un mando genérico estándar (DirectInput), no un mando de Xbox (XInput). Los juegos que solo admiten XInput necesitan a Steam de intermediario: abre Steam → Configuración → Mando y activa Steam Input para mandos genéricos; si el juego no está en Steam, añádelo con «Añadir un juego que no es de Steam» y lánzalo desde ahí. Steam lo presenta entonces como un mando que el juego entiende y te deja reasignar cualquier botón."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "¿Por qué Windows muestra X e Y como Botón 4 y Botón 5?",
+          "a": [
+            "Es normal. JoyLink sigue la numeración estándar de botones de mando, que deja dos números sin usar, así que Windows muestra los botones frontales como 1, 2, 4 y 5. Los juegos y Steam Input los siguen leyendo correctamente."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

@@ -3,6 +3,17 @@
   "locale": "de",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "Touchpad jetzt auch auf Mac und iPad: neue Tabs für Mac und iPad in der Kopplungshilfe, am Mac mit Modus „Tastatur und Maus“ oder „Gamepad“",
+        "Behoben: endloses Neuverbinden, wenn der Host sofort trennt. JoyLink stoppt jetzt und zeigt, wie du neu koppelst",
+        "Start zeigt nur Hosts wie Computer und TVs. Kopfhörer und Uhren stehen unter „Andere Bluetooth-Geräte“",
+        "Der Bildschirm bleibt an, solange das Handy sichtbar ist, und die Liste aktualisiert sich direkt nach dem Koppeln"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

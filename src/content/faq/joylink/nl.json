@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "Kan ik met JoyLink games spelen op deze telefoon zelf?",
+          "a": [
+            "Nee. JoyLink maakt van deze telefoon een controller voor een ander apparaat — een pc, Mac, tv-box, tablet of een andere telefoon. De game draait op dat apparaat; deze telefoon stuurt alleen de knopdrukken via Bluetooth."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "Waarom lukt verbinden met een PlayStation, Xbox of Switch niet?",
           "a": [
             "Elke console blokkeert het op zijn eigen manier. Xbox-controllers gebruiken een eigen 2,4 GHz-radio in plaats van Bluetooth. PlayStation-consoles controleren een authenticatiechip in de controller. De Switch accepteert alleen het eigen protocol van Nintendo. Geen enkele app komt daaromheen, en JoyLink probeert het ook niet."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "Kan ik met JoyLink een Switch-, PlayStation- of Xbox-controller verbinden?",
+          "a": [
+            "Nee. JoyLink koppelt of beheert geen fysieke controllers. Het maakt van deze telefoon zelf de controller."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows ziet de gamepad, maar de game negeert hem of de knoppen kloppen niet.",
           "a": [
             "JoyLink meldt zich aan als standaard generieke (DirectInput) gamepad, niet als Xbox-controller (XInput). Games die alleen XInput ondersteunen hebben Steam ertussen nodig: open Steam → Instellingen → Controller en zet Steam Input voor generieke controllers aan; voor een game buiten Steam gebruik je ‘Een niet-Steam-spel toevoegen’ en start je hem van daaruit. Steam presenteert hem dan als een controller die de game wél begrijpt, en je kunt elke knop opnieuw toewijzen."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Waarom toont Windows X en Y als knop 4 en knop 5?",
+          "a": [
+            "Dat is normaal. JoyLink volgt de standaardknopnummering voor gamepads, waarin twee nummers ongebruikt blijven. Daarom toont Windows de actieknoppen als 1, 2, 4 en 5. Games en Steam Input lezen ze gewoon goed uit."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

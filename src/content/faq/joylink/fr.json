@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "Puis-je utiliser JoyLink pour jouer sur ce même téléphone ?",
+          "a": [
+            "Non. JoyLink transforme ce téléphone en manette pour un autre appareil : PC, Mac, box TV, tablette ou un autre téléphone. Le jeu tourne sur cet appareil, et ce téléphone se contente d'envoyer les appuis sur les boutons par Bluetooth."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "Pourquoi la connexion à une PlayStation, une Xbox ou une Switch ne marche-t-elle pas ?",
           "a": [
             "Chaque console bloque à sa façon. Les manettes Xbox passent par une radio 2,4 GHz propriétaire, pas par le Bluetooth. Les consoles PlayStation vérifient une puce d'authentification placée dans la manette. La Switch n'accepte que le protocole maison de Nintendo. Aucune application ne peut contourner tout cela, et JoyLink n'essaie pas."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "Puis-je connecter une manette Switch, PlayStation ou Xbox avec JoyLink ?",
+          "a": [
+            "Non. JoyLink n'appaire pas et ne gère pas les manettes physiques : c'est ce téléphone lui-même qui devient la manette."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows voit la manette, mais le jeu l'ignore ou les boutons sont inversés.",
           "a": [
             "JoyLink est une manette générique standard (DirectInput), pas une manette Xbox (XInput). Les jeux qui ne gèrent que XInput ont besoin de Steam comme intermédiaire : ouvrez Steam → Paramètres → Manette et activez Steam Input pour les manettes génériques ; pour un jeu hors Steam, passez par « Ajouter un jeu non-Steam » et lancez-le depuis Steam. Steam le présente alors sous une forme que le jeu comprend, et permet de réattribuer chaque bouton."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Pourquoi Windows affiche-t-il X et Y comme Bouton 4 et Bouton 5 ?",
+          "a": [
+            "C'est normal. JoyLink suit la numérotation standard des boutons de manette, qui laisse deux numéros inutilisés : Windows affiche donc les boutons d'action comme 1, 2, 4 et 5. Les jeux et Steam Input les lisent quand même correctement."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

@@ -3,6 +3,17 @@
   "locale": "pl",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "Panel dotykowy działa na Macu i iPadzie: karty Mac i iPad w poradniku parowania, a na Macu tryb „Klawiatura i mysz” lub „Pad”",
+        "Naprawiono niekończące się ponowne łączenie, gdy host od razu się rozłącza. JoyLink zatrzymuje się i podpowiada, jak sparować ponownie",
+        "Ekran główny pokazuje tylko hosty, np. komputery i TV. Słuchawki i zegarki są w „Inne urządzenia Bluetooth”",
+        "Ekran nie gaśnie, gdy telefon jest widoczny, a lista odświeża się zaraz po sparowaniu"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

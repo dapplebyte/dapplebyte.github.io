@@ -3,6 +3,17 @@
   "locale": "es",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "El panel táctil ya funciona en Mac e iPad: pestañas de Mac e iPad en la guía de emparejamiento, con modo «Teclado y ratón» o «Mando» en Mac",
+        "Corregidas las reconexiones sin fin cuando el host corta al instante. JoyLink se detiene y explica cómo volver a emparejar",
+        "El inicio muestra solo hosts como ordenadores y TV. Auriculares y relojes pasan a «Otros dispositivos Bluetooth»",
+        "La pantalla no se apaga mientras el móvil está visible y la lista se actualiza al emparejar"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "Bisakah aku memakai JoyLink untuk main game di ponsel ini juga?",
+          "a": [
+            "Tidak. JoyLink mengubah ponsel ini menjadi gamepad untuk perangkat lain — PC, Mac, TV box, tablet, atau ponsel lain. Game-nya berjalan di perangkat itu, dan ponsel ini hanya mengirim tekanan tombol lewat Bluetooth."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "Kenapa tidak bisa terhubung ke PlayStation, Xbox, atau Switch?",
           "a": [
             "Tiap konsol menutup jalannya dengan caranya sendiri. Gamepad Xbox memakai radio 2,4 GHz eksklusif, bukan Bluetooth. Konsol PlayStation memverifikasi chip autentikasi di dalam gamepad-nya. Switch hanya menerima protokol buatan Nintendo. Tidak ada aplikasi yang bisa menyiasati ini, dan JoyLink pun tidak mencobanya."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "Bisakah aku menghubungkan kontroler Switch, PlayStation, atau Xbox dengan JoyLink?",
+          "a": [
+            "Tidak. JoyLink tidak menyandingkan atau mengelola gamepad fisik. JoyLink membuat ponsel ini sendiri berfungsi sebagai gamepad."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows melihat gamepad-nya, tetapi game mengabaikannya atau tombolnya tertukar.",
           "a": [
             "JoyLink adalah gamepad generik standar (DirectInput), bukan kontroler Xbox (XInput). Game yang hanya mendukung XInput butuh Steam sebagai perantara: buka Steam → Settings → Controller lalu aktifkan Steam Input untuk kontroler generik; untuk game di luar Steam, pakai “Add a Non-Steam Game” dan jalankan dari sana. Steam kemudian menyajikannya sebagai kontroler yang dipahami game, sekaligus memungkinkan semua tombol dipetakan ulang."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Kenapa Windows menampilkan X dan Y sebagai Tombol 4 dan Tombol 5?",
+          "a": [
+            "Itu normal. JoyLink mengikuti penomoran tombol gamepad standar yang menyisakan dua nomor tak terpakai, jadi Windows menampilkan empat tombol aksi sebagai 1, 2, 4, dan 5. Game dan Steam Input tetap membacanya dengan benar."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

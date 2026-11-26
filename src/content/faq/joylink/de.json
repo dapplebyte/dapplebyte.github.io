@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "Kann ich mit JoyLink Spiele auf diesem Handy selbst spielen?",
+          "a": [
+            "Nein. JoyLink macht dieses Handy zum Controller für ein anderes Gerät – einen PC, Mac, eine Streaming-Box, ein Tablet oder ein anderes Handy. Das Spiel läuft auf dem anderen Gerät, und dieses Handy schickt nur die Tastendrücke per Bluetooth."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "Warum klappt die Verbindung zu PlayStation, Xbox oder Switch nicht?",
           "a": [
             "Jede Konsole blockt auf ihre eigene Art. Xbox-Controller funken über ein eigenes 2,4-GHz-Protokoll statt über Bluetooth. PlayStation-Konsolen prüfen einen Authentifizierungs-Chip im Controller. Die Switch akzeptiert nur Nintendos eigenes Protokoll. Keine App kommt daran vorbei, und JoyLink versucht es gar nicht erst."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "Kann ich mit JoyLink einen Switch-, PlayStation- oder Xbox-Controller verbinden?",
+          "a": [
+            "Nein. JoyLink koppelt oder verwaltet keine physischen Controller. Es macht dieses Handy selbst zum Controller."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows sieht das Gamepad, aber das Spiel ignoriert es oder die Tasten sind vertauscht.",
           "a": [
             "JoyLink meldet sich als generisches Gamepad (DirectInput) an, nicht als Xbox-Controller (XInput). Spiele, die nur XInput unterstützen, brauchen Steam dazwischen: Steam → Einstellungen → Controller öffnen und Steam Input für generische Controller aktivieren; für ein Spiel außerhalb von Steam „Ein Nicht-Steam-Spiel hinzufügen“ nutzen und es von dort starten. Steam reicht es dann als Controller weiter, den das Spiel versteht, und lässt dich jede Taste neu belegen."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Warum zeigt Windows X und Y als Taste 4 und Taste 5 an?",
+          "a": [
+            "Das ist normal. JoyLink hält sich an die Standard-Tastennummerierung für Gamepads, bei der zwei Nummern frei bleiben. Deshalb listet Windows die Aktionstasten als 1, 2, 4 und 5. Spiele und Steam Input lesen sie trotzdem richtig aus."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

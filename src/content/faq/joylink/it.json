@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "Posso usare JoyLink per giocare su questo stesso telefono?",
+          "a": [
+            "No. JoyLink trasforma questo telefono in un gamepad per un altro dispositivo, come PC, Mac, box multimediale, tablet o un altro telefono. Il gioco gira su quel dispositivo e questo telefono si limita a inviare via Bluetooth la pressione dei tasti."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "Perché non si collega a PlayStation, Xbox o Switch?",
           "a": [
             "Ogni console lo impedisce a modo suo. I controller Xbox usano una radio proprietaria a 2,4 GHz, non il Bluetooth. Le PlayStation verificano un chip di autenticazione dentro il controller. Switch accetta solo il protocollo Nintendo. Nessuna app può aggirare queste barriere, e JoyLink non ci prova."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "Posso collegare un controller Switch, PlayStation o Xbox con JoyLink?",
+          "a": [
+            "No. JoyLink non abbina né gestisce controller fisici: è questo telefono a fare da controller."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows vede il gamepad, ma il gioco lo ignora o i tasti sono invertiti.",
           "a": [
             "JoyLink è un gamepad generico standard (DirectInput), non un controller Xbox (XInput). I giochi che supportano solo XInput hanno bisogno di Steam in mezzo: apri Steam → Impostazioni → Controller e attiva Steam Input per i controller generici; per un gioco fuori da Steam usa «Aggiungi un gioco non Steam» e avvialo da lì. Steam lo presenta così come un controller che il gioco capisce e ti lascia rimappare qualsiasi tasto."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Perché Windows mostra X e Y come Pulsante 4 e Pulsante 5?",
+          "a": [
+            "È normale. JoyLink segue la numerazione standard dei tasti dei gamepad, che lascia due numeri inutilizzati, quindi Windows elenca i tasti frontali come 1, 2, 4 e 5. I giochi e Steam Input li leggono comunque correttamente."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

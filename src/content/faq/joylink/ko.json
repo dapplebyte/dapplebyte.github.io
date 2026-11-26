@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "JoyLink로 이 휴대폰에서 바로 게임을 할 수 있나요?",
+          "a": [
+            "아니요. JoyLink는 이 휴대폰을 PC, Mac, 셋톱박스, 태블릿, 다른 휴대폰 같은 다른 기기의 컨트롤러로 만들어 줍니다. 게임은 그 기기에서 실행되고, 이 휴대폰은 블루투스로 버튼 입력만 보냅니다."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "PlayStation, Xbox, Switch에는 왜 연결되지 않나요?",
           "a": [
             "콘솔마다 막는 방식이 다릅니다. Xbox 컨트롤러는 블루투스가 아니라 자체 2.4 GHz 무선을 씁니다. PlayStation은 컨트롤러 안의 인증 칩을 확인합니다. Switch는 Nintendo 자체 프로토콜만 받아들입니다. 어떤 앱도 우회할 수 없는 부분이고, JoyLink도 시도하지 않습니다."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "JoyLink로 Switch, PlayStation, Xbox 컨트롤러를 연결할 수 있나요?",
+          "a": [
+            "아니요. JoyLink는 실물 컨트롤러를 페어링하거나 관리하지 않습니다. 이 휴대폰 자체를 컨트롤러로 쓰게 해 주는 앱입니다."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows는 게임패드를 인식하는데 게임이 반응하지 않거나 버튼이 뒤섞입니다.",
           "a": [
             "JoyLink는 Xbox(XInput) 컨트롤러가 아니라 표준 범용(DirectInput) 게임패드입니다. XInput만 지원하는 게임은 Steam을 거쳐야 합니다. Steam → 설정 → 컨트롤러에서 범용 컨트롤러용 Steam Input을 켜세요. Steam 밖의 게임은 ‘비 Steam 게임 추가’로 등록한 뒤 Steam에서 실행하면 됩니다. 그러면 게임이 알아보는 컨트롤러로 전달되고, 버튼도 원하는 대로 다시 지정할 수 있습니다."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Windows에서 X와 Y가 왜 버튼 4, 버튼 5로 표시되나요?",
+          "a": [
+            "정상입니다. JoyLink는 표준 게임패드 버튼 번호 체계를 따르는데, 중간에 번호 두 개를 쓰지 않아서 Windows에서는 A·B·X·Y 네 버튼이 1, 2, 4, 5로 표시됩니다. 게임과 Steam Input에서는 제대로 인식됩니다."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

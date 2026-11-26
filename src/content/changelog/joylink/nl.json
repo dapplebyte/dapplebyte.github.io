@@ -3,6 +3,17 @@
   "locale": "nl",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "Touchpad werkt nu op Mac en iPad: tabbladen voor Mac en iPad in de koppelhulp, met de modus ‘Toetsenbord en muis’ of ‘Gamepad’ op een Mac",
+        "Opgelost: eindeloos opnieuw verbinden als de host meteen afhaakt. JoyLink stopt nu en laat zien hoe je opnieuw koppelt",
+        "Het startscherm toont alleen hosts zoals computers en tv's. Koptelefoons en horloges staan onder ‘Andere Bluetooth-apparaten’",
+        "Het scherm blijft aan zolang je telefoon zichtbaar is, en de lijst werkt meteen bij na het koppelen"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

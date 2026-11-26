@@ -3,6 +3,17 @@
   "locale": "tr",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "Dokunmatik yüzey artık Mac ve iPad'de çalışıyor: Eşleştirme rehberinde Mac ve iPad sekmeleri var, Mac'te \"Klavye ve fare\" ya da \"Oyun kolu\" modu seçilir",
+        "Ana cihaz bağlantıyı hemen kesince sonsuz yeniden bağlanma sorunu giderildi. JoyLink artık durur ve yeniden eşleştirmeyi anlatır",
+        "Ana ekranda yalnızca bilgisayar, TV gibi ana cihazlar görünür. Kulaklık ve saatler \"Diğer Bluetooth cihazları\" altında",
+        "Telefon görünürken ekran açık kalır, liste eşleştirmeden hemen sonra güncellenir"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

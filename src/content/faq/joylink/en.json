@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "Can I use JoyLink to play games on this same phone?",
+          "a": [
+            "No. JoyLink turns this phone into a controller for another device — a PC, Mac, TV box, tablet or another phone. The game runs on that device, and this phone only sends button presses over Bluetooth."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "Why can't it connect to a PlayStation, Xbox or Switch?",
           "a": [
             "Each console blocks it in its own way. Xbox controllers use a proprietary 2.4 GHz radio rather than Bluetooth. PlayStation consoles verify an authentication chip inside the controller. Switch only accepts Nintendo's own protocol. No app can work around these, and JoyLink does not try to."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "Can I connect a Switch, PlayStation or Xbox controller with JoyLink?",
+          "a": [
+            "No. JoyLink doesn't pair or manage physical controllers. It makes this phone act as the controller."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows sees the gamepad, but the game ignores it or the buttons are mixed up.",
           "a": [
             "JoyLink is a standard generic (DirectInput) gamepad, not an Xbox (XInput) controller. Games that only support XInput need Steam in between: open Steam → Settings → Controller and enable Steam Input for generic controllers; for a game outside Steam, use “Add a Non-Steam Game” and launch it from there. Steam then presents it as a controller the game understands, and lets you remap any button."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Why does Windows show X and Y as Button 4 and Button 5?",
+          "a": [
+            "That's expected. JoyLink follows the standard gamepad button numbering, which leaves two numbers unused, so Windows lists the face buttons as 1, 2, 4 and 5. Games and Steam Input still read them correctly."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

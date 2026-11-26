@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "Dá para usar o JoyLink para jogar neste mesmo celular?",
+          "a": [
+            "Não. O JoyLink transforma este celular em um controle para outro aparelho, como PC, Mac, aparelho de streaming, tablet ou outro celular. O jogo roda nesse aparelho, e este celular só envia os comandos dos botões por Bluetooth."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "Por que não conecta em PlayStation, Xbox ou Switch?",
           "a": [
             "Cada console bloqueia de um jeito. Os controles de Xbox usam um rádio proprietário de 2,4 GHz, não Bluetooth. Os PlayStation verificam um chip de autenticação dentro do controle. O Switch só aceita o protocolo da própria Nintendo. Nenhum app dá jeito nisso, e o JoyLink nem tenta."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "Dá para conectar um controle de Switch, PlayStation ou Xbox com o JoyLink?",
+          "a": [
+            "Não. O JoyLink não pareia nem gerencia controles físicos. Ele faz este celular funcionar como o controle."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "O Windows vê o controle, mas o jogo ignora ou os botões estão trocados.",
           "a": [
             "O JoyLink é um controle genérico padrão (DirectInput), não um controle de Xbox (XInput). Jogos que só aceitam XInput precisam do Steam no meio: abra Steam → Configurações → Controle e ative o Steam Input para controles genéricos; se o jogo estiver fora do Steam, use “Adicionar um jogo não Steam” e abra por ali. Aí o Steam apresenta o controle de um jeito que o jogo entende e ainda deixa remapear qualquer botão."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Por que o Windows mostra X e Y como Botão 4 e Botão 5?",
+          "a": [
+            "É normal. O JoyLink segue a numeração padrão de botões de controle, que deixa dois números sem uso, então o Windows lista os botões frontais como 1, 2, 4 e 5. Os jogos e o Steam Input continuam lendo tudo certo."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

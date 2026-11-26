@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "Tôi có thể dùng JoyLink để chơi game ngay trên điện thoại này không?",
+          "a": [
+            "Không. JoyLink biến điện thoại này thành tay cầm cho một thiết bị khác — PC, Mac, đầu phát TV, máy tính bảng hoặc một điện thoại khác. Game chạy trên thiết bị đó, còn điện thoại này chỉ gửi thao tác bấm nút qua Bluetooth."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "Vì sao không kết nối được với PlayStation, Xbox hay Switch?",
           "a": [
             "Mỗi máy chơi game chặn theo một kiểu. Tay cầm Xbox chạy trên sóng 2,4 GHz riêng chứ không phải Bluetooth. Máy PlayStation kiểm tra con chip xác thực nằm bên trong tay cầm. Switch chỉ chấp nhận giao thức riêng của Nintendo. Không ứng dụng nào lách được những thứ đó, và JoyLink cũng không thử."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "Tôi có thể dùng JoyLink để kết nối tay cầm Switch, PlayStation hoặc Xbox không?",
+          "a": [
+            "Không. JoyLink không ghép đôi hay quản lý tay cầm thật. Ứng dụng biến chính điện thoại này thành tay cầm."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows thấy tay cầm nhưng game không nhận, hoặc các nút bị lệch.",
           "a": [
             "JoyLink là tay cầm phổ thông chuẩn (DirectInput), không phải tay cầm Xbox (XInput). Game chỉ hỗ trợ XInput cần Steam đứng giữa: mở Steam → Settings → Controller rồi bật Steam Input cho tay cầm phổ thông; với game ngoài Steam, dùng “Add a Non-Steam Game” và chạy game từ Steam. Khi đó Steam trình bày nó thành loại tay cầm mà game hiểu được, đồng thời cho gán lại từng nút."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Vì sao Windows hiển thị X và Y thành nút 4 và nút 5?",
+          "a": [
+            "Đây là chuyện bình thường. JoyLink đánh số nút theo chuẩn tay cầm, trong đó có hai số bị bỏ trống, nên Windows liệt kê bốn nút hành động là 1, 2, 4 và 5. Game và Steam Input vẫn đọc đúng."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

@@ -3,6 +3,17 @@
   "locale": "it",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "Il touchpad ora funziona su Mac e iPad: schede Mac e iPad nella guida all'abbinamento, con modalità «Tastiera e mouse» o «Gamepad» sul Mac",
+        "Risolte le riconnessioni infinite quando l'host chiude subito. JoyLink ora si ferma e spiega come riabbinare",
+        "La home mostra solo host come computer e TV. Cuffie e orologi passano in «Altri dispositivi Bluetooth»",
+        "Lo schermo resta acceso mentre il telefono è visibile e l'elenco si aggiorna subito dopo l'abbinamento"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

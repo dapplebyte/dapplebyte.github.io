@@ -3,6 +3,17 @@
   "locale": "id",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "Touchpad kini berfungsi di Mac dan iPad: tab Mac dan iPad di Panduan pemasangan, dengan mode \"Keyboard dan mouse\" atau \"Gamepad\" di Mac",
+        "Memperbaiki sambung ulang tanpa henti saat host langsung memutus koneksi. JoyLink kini berhenti dan menunjukkan cara memasangkan ulang",
+        "Layar utama hanya menampilkan host seperti komputer dan TV. Headphone dan jam tangan ada di \"Perangkat Bluetooth lain\"",
+        "Layar tetap menyala selama ponsel bisa ditemukan, dan daftar langsung diperbarui setelah dipasangkan"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "JoyLink ile bu telefonun kendisinde oyun oynayabilir miyim?",
+          "a": [
+            "Hayır. JoyLink bu telefonu başka bir cihaz için oyun koluna dönüştürür: bilgisayar, Mac, TV kutusu, tablet ya da başka bir telefon. Oyun o cihazda çalışır, bu telefon ise yalnızca tuş basışlarını Bluetooth üzerinden gönderir."
+          ]
+        },
+        {
           "id": "consoles",
           "q": "Neden PlayStation, Xbox veya Switch'e bağlanmıyor?",
           "a": [
             "Her konsol kendi yöntemiyle engelliyor. Xbox kumandaları Bluetooth yerine kendine özel 2,4 GHz telsiz kullanır. PlayStation konsolları kumandanın içindeki doğrulama çipini kontrol eder. Switch yalnızca Nintendo'nun kendi protokolünü kabul eder. Bunları hiçbir uygulama aşamaz, JoyLink de denemez."
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "JoyLink ile Switch, PlayStation veya Xbox kumandası bağlayabilir miyim?",
+          "a": [
+            "Hayır. JoyLink fiziksel kumandaları eşleştirmez veya yönetmez; bu telefonun kendisini kumandaya dönüştürür."
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows oyun kolunu görüyor ama oyun onu yok sayıyor ya da tuşlar karışık.",
           "a": [
             "JoyLink standart genel bir (DirectInput) oyun kumandasıdır, Xbox (XInput) kumandası değil. Yalnızca XInput destekleyen oyunlarda araya Steam girmeli: Steam → Ayarlar → Kumanda bölümünü açıp genel kumandalar için Steam Input'u etkinleştirin; Steam dışı bir oyun için “Steam Dışı Oyun Ekle” ile ekleyip oradan başlatın. Steam bunu oyunun anladığı bir kumanda gibi gösterir ve her tuşu yeniden atamanıza izin verir."
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "Windows neden X ve Y'yi Düğme 4 ve Düğme 5 olarak gösteriyor?",
+          "a": [
+            "Bu normal. JoyLink standart oyun kolu tuş numaralandırmasını izler ve bu düzende iki numara boş kalır; bu yüzden Windows ana tuşları 1, 2, 4 ve 5 olarak listeler. Oyunlar ve Steam Input yine de onları doğru okur."
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

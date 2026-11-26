@@ -3,6 +3,17 @@
   "locale": "en",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "Touchpad now works on Mac and iPad: new Mac and iPad tabs in the Pairing guide, with Keyboard and mouse or Gamepad mode on Mac",
+        "Fixed endless reconnecting when the host drops the link right away. JoyLink now stops and shows how to pair again",
+        "Home lists only hosts like computers and TVs. Headphones and watches move to Other Bluetooth devices",
+        "The screen stays on while discoverable, and the list updates right after pairing"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

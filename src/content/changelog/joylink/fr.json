@@ -3,6 +3,17 @@
   "locale": "fr",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "Le pavé tactile fonctionne sur Mac et iPad : onglets Mac et iPad dans le guide d'appairage, avec le mode « Clavier et souris » ou « Manette » sur Mac",
+        "Correction des reconnexions sans fin quand l'hôte coupe aussitôt. JoyLink s'arrête et indique comment réappairer",
+        "L'accueil n'affiche que les hôtes (ordinateurs, TV). Casques et montres passent dans « Autres appareils Bluetooth »",
+        "L'écran reste allumé tant que le téléphone est visible, et la liste se met à jour dès l'appairage"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

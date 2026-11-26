@@ -16,10 +16,24 @@
           ]
         },
         {
+          "id": "play_on_this_phone",
+          "q": "能用 JoyLink 在这台手机上玩游戏吗？",
+          "a": [
+            "不行。JoyLink 是把这台手机变成另一台设备的手柄，比如电脑、Mac、电视盒子、平板或另一台手机。游戏在那台设备上运行，这台手机只负责通过蓝牙发送按键。"
+          ]
+        },
+        {
           "id": "consoles",
           "q": "为什么连不上 PlayStation、Xbox 或 Switch？",
           "a": [
             "三家各有各的拦法：Xbox 手柄走的是专有 2.4 GHz 无线，不是蓝牙；PlayStation 主机会校验手柄里的认证芯片；Switch 只认任天堂自家的协议。这些都不是 App 能绕过去的，JoyLink 也不会去尝试。"
+          ]
+        },
+        {
+          "id": "physical_controllers",
+          "q": "能用 JoyLink 连接 Switch、PlayStation 或 Xbox 手柄吗？",
+          "a": [
+            "不行。JoyLink 不负责配对或管理实体手柄，它是让这台手机本身变成手柄。"
           ]
         },
         {
@@ -89,6 +103,13 @@
           "q": "Windows 认得到手柄，游戏却不理它，或者按键错位。",
           "a": [
             "JoyLink 是标准的通用（DirectInput）手柄，不是 Xbox（XInput）手柄。只支持 XInput 的游戏要靠 Steam 中转：打开 Steam → 设置 → 控制器，为通用控制器启用 Steam Input；Steam 之外的游戏先用“添加非 Steam 游戏”加进来，再从 Steam 启动。这样 Steam 会把它转成游戏认得的手柄，也能在里面重新映射任意按键。"
+          ]
+        },
+        {
+          "id": "windows_button_numbers",
+          "q": "为什么 Windows 把 X 和 Y 显示成按钮 4 和按钮 5？",
+          "a": [
+            "这是正常的。JoyLink 遵循标准手柄的按键编号，中间有两个编号空着不用，所以 Windows 会把 A、B、X、Y 四个键列成 1、2、4、5。游戏和 Steam Input 都能正确识别。"
           ]
         },
         {
@@ -293,5 +314,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

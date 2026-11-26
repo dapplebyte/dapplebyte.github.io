@@ -3,6 +3,17 @@
   "locale": "pt-br",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "O touchpad agora funciona no Mac e no iPad: abas de Mac e iPad no guia de pareamento, com modo teclado e mouse ou controle no Mac",
+        "Corrigida a reconexão sem fim quando o host derruba a conexão na hora. O JoyLink para e mostra como parear de novo",
+        "A tela inicial lista só hosts como computadores e TVs. Fones e relógios vão para \"Outros dispositivos Bluetooth\"",
+        "A tela fica ligada enquanto o celular está visível, e a lista atualiza logo após parear"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }

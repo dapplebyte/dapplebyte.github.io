@@ -3,6 +3,17 @@
   "locale": "vi",
   "entries": [
     {
+      "code": 130,
+      "name": "1.3.0",
+      "date": "2026-11-25",
+      "items": [
+        "Bàn di chuột giờ dùng được trên Mac và iPad: thêm thẻ Mac và iPad trong Hướng dẫn ghép đôi, trên Mac chọn chế độ \"Bàn phím và chuột\" hoặc \"Tay cầm\"",
+        "Sửa lỗi kết nối lại liên tục khi máy chủ ngắt ngay lập tức. Giờ JoyLink sẽ dừng và hướng dẫn cách ghép đôi lại",
+        "Màn hình chính chỉ hiện máy chủ như máy tính, TV. Tai nghe, đồng hồ nằm trong \"Thiết bị Bluetooth khác\"",
+        "Màn hình luôn sáng khi điện thoại đang hiển thị, danh sách cập nhật ngay sau khi ghép đôi"
+      ]
+    },
+    {
       "code": 122,
       "name": "1.2.2",
       "date": "2026-11-10",
@@ -24,5 +35,5 @@
       ]
     }
   ],
-  "extractedAt": "2026-11-10"
+  "extractedAt": "2026-11-26"
 }
