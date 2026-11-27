@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "version": "2026.11.27.2",
-  "published": "2026-11-27T11:59:51Z",
-  "zip": "2026.11.27.2/gamepad-presets-2026.11.27.2.zip",
-  "zipSize": 100357,
-  "zipSha256": "3b22584a8f3b150e5482989126c66e0b7e7798c58b80be52af23588220508e8d"
+  "version": "2026.11.27.3",
+  "published": "2026-11-27T12:42:03Z",
+  "zip": "2026.11.27.3/gamepad-presets-2026.11.27.3.zip",
+  "zipSize": 132339,
+  "zipSha256": "fc84364d7554e31abd467ae87f2db31529532aa180b7a055524c073dcc2c808d"
 }
