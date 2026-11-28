@@ -1,0 +1,12 @@
+{
+  "id": "ai-kids-cartoons",
+  "title": { "zh-TW": "AI 兒童卡通包", "en": "AI kids' cartoons" },
+  "description": {
+    "zh-TW": "專門擋給小孩看的 AI 生成卡通與童謠。先從明講是 AI 的主題標籤開始，帳號名單經人工審核後才會加入。",
+    "en": "Blocks AI-generated cartoons and nursery rhymes aimed at children. Starts with hashtags that say AI outright; accounts are added only after human review."
+  },
+  "maintainer": "SlopSwipe",
+  "strongHashtags": ["aicartoon", "aikidscartoon", "aikidsvideo", "ainurseryrhymes", "aianimationforkids"],
+  "strongPhrases": ["AI cartoon for kids", "AI 兒童卡通", "AI 童謠"],
+  "accounts": []
+}
